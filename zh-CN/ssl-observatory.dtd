@@ -27,24 +27,24 @@ to turn it on?">-->
 "提交并检查由非标准根 CA 所签名的证书">
 
 <!ENTITY ssl-observatory.prefs.alt_roots_tooltip 
-"开启这个选项是安全的（且有好处的），除非你使用的是一个侵入性高的公司网路，或是通过一个本地TLS代理服务器和私有根证书管理中心来监测你的浏览行为的卡巴斯基反病毒软件。如果在这样的网路上开启这个功能，由於其所产生的独特数字证书，这个选项可能会公开透过这种代理服务器 (proxy) 造访过的 https// 网域名称，因此我们原则上将这个功能关闭。">
+"除非您使用的是一个侵入性高的公司网络，或是通过一个本地 TLS 代理服务器和私有根证书管理中心来监测您的浏览行为的卡巴斯基反病毒软件，一般情况下开启这项功能是安全的（且有好处的）。如果在这样的网络上开启这项功能，由于其所产生的独特数字证书，这个选项可能会公开透过这种代理服务器 (proxy) 访问的 https// 网域名称，因此我们通常情况下关闭该功能。">
 
-<!ENTITY ssl-observatory.prefs.anonymous "通过Tor网络进行数字证书的检查，以保护匿名性">
+<!ENTITY ssl-observatory.prefs.anonymous "通过 Tor 网络进行数字证书的检查，以保护匿名性">
 <!ENTITY ssl-observatory.prefs.anonymous_unavailable 
-"通过Tor网络进行数字证书的检查，以保护匿名性 (需要有 Torbutton)">
+"通过 Tor 网络进行数字证书的检查，以保护匿名性 (需要有 Torbutton)">
 <!ENTITY ssl-observatory.prefs.anonymous_tooltip 
-"使用这个选项需要预先安装Tor和Torbutton">
+"启用该选项需要已经安装 Tor 和 Torbutton">
 
 <!ENTITY ssl-observatory.prefs.asn 
-"当你看到新的数字证书，告知观测站你当前使用的互联网服务提供商 (ISP)">
+"当您看到新的数字证书，请告诉观测站您当前使用的互联网服务提供商(ISP)是哪个">
 
 <!ENTITY ssl-observatory.prefs.asn_tooltip
-"这个动作会抓取你的网路的自动系统号码(&quot;Autonomous System number&quot;)，并将之送出。这会有助於我们找到对於 HTTPS 发动攻击的源头，并判断我们是否在伊朗或叙利亚等攻击容易发生的地方的网路已经观测过相同或类似的攻击">
+"这个动作会抓取你的网络的自动系统号码(&quot;Autonomous System number&quot;)，并将之送出。这将有助于我们找到对于 HTTPS 发动攻击的源头，并判断我们是否在伊朗或叙利亚等攻击容易发生的地方的网路已经观测过相同或类似的攻击。">
 
 <!ENTITY ssl-observatory.prefs.done "完成">
 
 <!ENTITY ssl-observatory.prefs.explanation 
-"HTTPS Everywhere 可以使用 EFF 的 SSL 观测站 。 这有两个功能： (1) 将 HTTPS 数字证书寄送到观测站，以协助我们侦测中间人( 'man in the middle') 式的攻击并提高网路的安全性 并且 (2) 让我们针对不安全的连线以及对你的浏览器进行的攻击向你发出警告">
+"HTTPS Everywhere 可以使用 EFF 的 SSL 观测站 。 这有两个功能： (1) 将 HTTPS 数字证书寄送到观测站，以协助我们侦测中间人( 'man in the middle') 式的攻击并提高网络的安全性 并且 (2) 让我们针对不安全的连接以及对您的浏览器进行的攻击向你发出警告。">
 
 <!--<!ENTITY ssl-observatory.prefs.explanation2
 "When you visit https://www.example.com, the Observatory will learn that
@@ -53,7 +53,7 @@ Mouseover the options for further details:">-->
 
 <!ENTITY ssl-observatory.prefs.explanation2
 
-"举例而言，当你造访 https://www.something.com, 观测站所收到的数字证书会显示某人造访了, 但不会显示谁造访了这个站点，或他们浏览了哪些特定的分页 移动滑鼠到功能选项键以了解更多详情:">
+"举例而言，当您访问 https://www.something.com，观测站所收到的数字证书会显示某人已经访问过了, 但不会显示是谁访问了该站点，或者谁浏览了哪些特定的页面。 移动鼠标至选项以了解更多:">
 
 <!ENTITY ssl-observatory.prefs.hide "隐藏高级选项">
 
@@ -67,20 +67,20 @@ Mouseover the options for further details:">-->
 "送出并检查非公开域名系统网域名称的数字证书">
 
 <!ENTITY ssl-observatory.prefs.priv_dns_tooltip
-"除非你勾选此一选项，否则观测站将不会纪录它透过域名系统无法读取名称之网域的电子凭证">
+"除非您勾选该选项，否则观测站将不会记录它透过域名系统无法读取名称之网域的电子凭证。">
 
-<!ENTITY ssl-observatory.prefs.show "显示进阶选项">
+<!ENTITY ssl-observatory.prefs.show "显示高级选项">
 
-<!ENTITY ssl-observatory.prefs.title "你的SSL 观测站使用偏好">
+<!ENTITY ssl-observatory.prefs.title "您的 SSL 观测站使用偏好">
 
-<!ENTITY ssl-observatory.prefs.use "是否使用观测站">
+<!ENTITY ssl-observatory.prefs.use "是否使用观测站?">
 <!ENTITY ssl-observatory.warning.title "EFF 的 SSL 观测站所发布的警告">
 <!ENTITY ssl-observatory.warning.showcert "显示数字证书链">
 <!ENTITY ssl-observatory.warning.okay "我了解">
-<!ENTITY ssl-observatory.warning.text "EFF 的 SSL观测站对该HTTPS数字证书发布了警告">
-<!ENTITY ssl-observatory.warning.defense "如果你已登录过该站点，一旦下次你有一个安全的连接时，你可能会需要更改该站点的密码">
+<!ENTITY ssl-observatory.warning.text "EFF 的 SSL 观测站已对该 HTTPS 数字证书发出警告:">
+<!ENTITY ssl-observatory.warning.defense "如果您已登录过该站点，一旦下次您有一个安全的连接可用时，您可能会需要更改您在该站点的密码。">
 
 <!ENTITY ssl-observatory.prefs.self_signed
-"提交并检查自签名证书">
+"提交以检查自签名证书">
 <!ENTITY ssl-observatory.prefs.self_signed_tooltip
-"建议：在自签名的嵌入式设备中，加密问题特别常见。">
+"我们推荐这项;在自签名的嵌入式设备中，加密问题特别常见。">
