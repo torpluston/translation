@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: The Tor Project\n"
 "Report-Msgid-Bugs-To: https://trac.torproject.org/projects/tor\n"
 "POT-Creation-Date: 2012-04-13 14:16+0200\n"
-"PO-Revision-Date: 2012-11-01 11:13+0000\n"
+"PO-Revision-Date: 2012-11-01 11:45+0000\n"
 "Last-Translator: strel <strelnic@gmail.com>\n"
 "Language-Team: Spanish (http://www.transifex.com/projects/p/torproject/language/es/)\n"
 "MIME-Version: 1.0\n"
@@ -32,13 +32,13 @@ msgstr "Descargando %s..."
 #: ../liveusb/gui.py:197
 #, python-format
 msgid "Device is too small: it must be at least %s MiB."
-msgstr "El dispositivo es demasiado pequeño: debe ser de, al menos %s MB."
+msgstr "El dispositivo es demasiado pequeño: debe ser de, al menos %s MiB."
 
 #: ../liveusb/gui.py:226
 msgid ""
 "Error: Cannot set the label or obtain the UUID of your device.  Unable to "
 "continue."
-msgstr "Error: No se pudo etiquetar u obtener el UUID de su dispositivo. No se puede continuar."
+msgstr "Error: No se pudo establecer u obtener el UUID de su dispositivo. No fue posible continuar."
 
 #: ../liveusb/gui.py:276
 #, python-format
@@ -47,14 +47,14 @@ msgstr "¡Instalación completa! (%s)"
 
 #: ../liveusb/gui.py:281
 msgid "LiveUSB creation failed!"
-msgstr "La creación del USB Vivo falló."
+msgstr "¡La creación del LiveUSB falló!"
 
 #: ../liveusb/gui.py:388
 msgid ""
 "Warning: This tool needs to be run as an Administrator. To do this, right "
 "click on the icon and open the Properties. Under the Compatibility tab, "
 "check the \"Run this program as an administrator\" box."
-msgstr "Advertencia: Esta herramienta debe ser ejecutada por un Administrador. Para hacerlo, haz clic con el botón derecho en el icono y abre las Propiedades. Bajo la pestaña de Compatibilidad, marca la casilla \"Ejecutar este programa como un administrador\"."
+msgstr "Advertencia: Esta herramienta debe ser ejecutada como Administrador. Para hacer esto, haz clic con el botón secundario en el icono y abre las Propiedades. Bajo la pestaña Compatibilidad, marca la casilla \"Ejecutar este programa como administrador\"."
 
 #: ../liveusb/gui.py:413
 msgid "Unable to find any USB drive"
@@ -64,7 +64,7 @@ msgstr "No se encontró ninguna unidad USB"
 msgid ""
 "Device is not yet mounted, so we cannot determine the amount of free space."
 "  Setting a maximum limit of 8G for the persistent storage."
-msgstr "El dispositivo no está montado todavía, por lo que no se puede determinar el espacio libre. Se pondrá un límite máximo de 8G para el almacenamiento persistente."
+msgstr "El dispositivo no está montado todavía, por lo que no se puede determinar el espacio libre. Se establece un límite máximo de 8G para el almacenamiento persistente."
 
 #: ../liveusb/gui.py:528
 #, python-format
@@ -167,7 +167,7 @@ msgstr "Debe ejecutar esta aplicación como root"
 #: ../liveusb/creator.py:130
 msgid ""
 "Source type does not support verification of ISO MD5 checksum, skipping"
-msgstr "El tipo de fuente no soporta verificación del identificador ISO MD5, omitiendo."
+msgstr "El tipo de fuente no soporta verificación del checksum ISO MD5, omitiendo"
 
 #: ../liveusb/creator.py:132
 msgid "Verifying ISO MD5 checksum"
@@ -203,11 +203,11 @@ msgstr "Se produjo un error ejecutando el siguiente comando: `%(command)s`.\nUn 
 
 #: ../liveusb/creator.py:384
 msgid "Verifying SHA1 checksum of LiveCD image..."
-msgstr "Verificando el identificador SHA1 de la imagen de LiveCD"
+msgstr "Verificando el checksum SHA1 de la imagen del LiveCD..."
 
 #: ../liveusb/creator.py:388
 msgid "Verifying SHA256 checksum of LiveCD image..."
-msgstr "Verificando el identificador SHA256 de la imagen de LiveCD"
+msgstr "Verificando el checksum SHA256 de la imagen del LiveCD..."
 
 #: ../liveusb/creator.py:404
 msgid ""
@@ -245,12 +245,12 @@ msgstr "No se pudo ejecutar chmod %(file)s: %(message)s"
 #: ../liveusb/creator.py:510
 #, python-format
 msgid "Unable to remove file from previous LiveOS: %(message)s"
-msgstr "No fue posible eliminar el archivo de un LiveOS previo: %(message)s"
+msgstr "No fue posible eliminar el archivo del anterior LiveOS: %(message)s"
 
 #: ../liveusb/creator.py:522
 #, python-format
 msgid "Unable to remove directory from previous LiveOS: %(message)s"
-msgstr "No fue posible eliminar la carpeta de un LiveOS previo: %(message)s"
+msgstr "No fue posible eliminar la carpeta del anterior LiveOS: %(message)s"
 
 #: ../liveusb/creator.py:573
 #, python-format
@@ -355,11 +355,11 @@ msgstr "Reestableciendo el MBR de %s"
 #: ../liveusb/creator.py:1112
 msgid ""
 "Unable to reset MBR.  You may not have the `syslinux` package installed."
-msgstr ""
+msgstr "No fue posible reiniciar el MBR. Podría no tener instalado el paquete `syslinux`"
 
 #: ../liveusb/creator.py:1115
 msgid "Drive is a loopback, skipping MBR reset"
-msgstr ""
+msgstr "La unidad es de tipo loopback, omitiendo el reinicio del MBR"
 
 #: ../liveusb/creator.py:1119 ../liveusb/creator.py:1382
 #, python-format
@@ -393,7 +393,7 @@ msgstr "Sistema de archivo no soportado: %s\nPor favor, respalde y de formato a 
 #: ../liveusb/creator.py:1277
 msgid ""
 "Unable to get Win32_LogicalDisk; win32com query did not return any results"
-msgstr ""
+msgstr "No fue posible obtener Win32_LogicalDisk; la petición win32com no devolvió resultados"
 
 #: ../liveusb/creator.py:1330
 msgid "Cannot find"
@@ -403,4 +403,4 @@ msgstr "No se pudo encontrar"
 msgid ""
 "Make sure to extract the entire liveusb-creator zip file before running this"
 " program."
-msgstr ""
+msgstr "Asegúrese de extraer el archivo zip liveusb-creator completo antes de ejecutar este programa."
