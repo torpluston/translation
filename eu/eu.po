@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: The Tor Project\n"
 "Report-Msgid-Bugs-To: https://trac.torproject.org/projects/tor\n"
 "POT-Creation-Date: 2012-04-13 14:16+0200\n"
-"PO-Revision-Date: 2012-11-29 16:07+0000\n"
+"PO-Revision-Date: 2012-11-30 13:45+0000\n"
 "Last-Translator: Antxon Baldarra <baldarra@euskalerria.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -64,7 +64,7 @@ msgstr "Ezin da USB gailurik bilatu."
 msgid ""
 "Device is not yet mounted, so we cannot determine the amount of free space."
 "  Setting a maximum limit of 8G for the persistent storage."
-msgstr ""
+msgstr "Gailua ez dago oraindik muntatuta, beraz ezin dugu leku libre kopurua zehaztu. Biltegiratze iraunkorrarentzako 8Gko gehienezko muga ezartzen."
 
 #: ../liveusb/gui.py:528
 #, python-format
@@ -91,14 +91,14 @@ msgstr "Instalazio burutu da. Sakatu Ados programa hau ixteko."
 msgid ""
 "The Master Boot Record on your device is blank. Pressing 'Create Live USB' "
 "again will reset the MBR on this device."
-msgstr ""
+msgstr "Zure gailuko Abio-erregistro nagusia (MBR) hutsik dago. 'Sortu Live USBa' berriz sakatzeak gailuko MBRa berrezarriko du."
 
 #: ../liveusb/gui.py:624
 msgid ""
 "Warning: The Master Boot Record on your device does not match your system's "
 "syslinux MBR.  If you have trouble booting this stick, try running the "
 "liveusb-creator with the --reset-mbr option."
-msgstr ""
+msgstr "Abisua: Zure gailuko Abio-erregistro nagusia (MBR) ez du zure sistemaren syslinux MBRarekin bat egiten. USB hau abiarazten arazoak badituzu, saiatu liveusb-creator --reset-mbr aukerarekin exekutatzen."
 
 #: ../liveusb/gui.py:638
 msgid "Unable to mount device"
@@ -120,12 +120,12 @@ msgstr "Hurrengoa"
 msgid ""
 "Your device already contains a LiveOS.\n"
 "If you continue, this will be overwritten."
-msgstr ""
+msgstr "Zure gailuak LiveOS bat dauka jadanik.\nJarraitzen baduzu, hau gainidatziko da."
 
 #: ../liveusb/gui.py:661
 msgid ""
 "Warning: Creating a new persistent overlay will delete your existing one."
-msgstr ""
+msgstr "Abisua: Gainjarri iraunkor berri bat sortzeak existitzen dena ezabatuko du."
 
 #: ../liveusb/gui.py:717
 msgid "Download complete!"
@@ -147,13 +147,13 @@ msgstr "Aukeratu Live ISO irudia"
 msgid ""
 "The selected file is unreadable.Please fix its permissions or select another"
 " file."
-msgstr ""
+msgstr "Hautatutako fitxategia ezin da irakurri. Mesedez bere baimenak aldatu edo beste fitxategi bat hautatu."
 
 #: ../liveusb/gui.py:737
 msgid ""
 "Unable to use the selected file.  You may have better luck if you move your "
 "ISO to the root of your drive (ie: C:\\)"
-msgstr ""
+msgstr "Hautatutako fitxategia ezin da erabili. Sorte gehiago izan dezakezu zure ISOa zure gailuaren oinarrira mugitzen baduzu (adib: C:\\)"
 
 #: ../liveusb/gui.py:743
 #, python-format
@@ -167,32 +167,32 @@ msgstr "Aplikazio hau root bezala exekutatu behar duzu"
 #: ../liveusb/creator.py:130
 msgid ""
 "Source type does not support verification of ISO MD5 checksum, skipping"
-msgstr ""
+msgstr "Iturburu motak ez du ISO MD5 kontrol-baturaren egiaztapena onartzen, saltatzen"
 
 #: ../liveusb/creator.py:132
 msgid "Verifying ISO MD5 checksum"
-msgstr ""
+msgstr "ISO MD5 kontrol-batura egiaztatzen"
 
 #: ../liveusb/creator.py:137
 msgid "ISO MD5 checksum verification failed"
-msgstr ""
+msgstr "ISO MD5 kontrol-batura egiaztapenak huts egin du"
 
 #: ../liveusb/creator.py:139
 msgid "ISO MD5 checksum passed"
-msgstr ""
+msgstr "ISO MD5 kontrol-batura gaindituta"
 
 #: ../liveusb/creator.py:144
 msgid "Extracting live image to USB device..."
-msgstr ""
+msgstr "Live irudia USB gailura erauzten..."
 
 #: ../liveusb/creator.py:151
 #, python-format
 msgid "Wrote to device at %(speed)d MB/sec"
-msgstr ""
+msgstr "%(speed)d MB/segunduko abiaduran gailuan idatzia"
 
 #: ../liveusb/creator.py:181
 msgid "Setting up OLPC boot file..."
-msgstr ""
+msgstr "OLPC abio fitxategia konfiguratzen..."
 
 #: ../liveusb/creator.py:365
 #, python-format
