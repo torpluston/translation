@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: The Tor Project\n"
 "Report-Msgid-Bugs-To: https://trac.torproject.org/projects/tor\n"
 "POT-Creation-Date: 2012-11-27 21:00+0100\n"
-"PO-Revision-Date: 2012-12-03 16:15+0000\n"
+"PO-Revision-Date: 2012-12-03 16:45+0000\n"
 "Last-Translator: Ojars Balcers <ojars.balcers@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -32,7 +32,7 @@ msgstr "GnuPG"
 
 #: ../lib/Tails/Persistence/Configuration/Presets.pm:60
 msgid "GnuPG keyrings and configuration"
-msgstr "GnuPG atslēgu turētāji un konfigurācija"
+msgstr "GnuPG atslēgu turētāji un konfigurēšana"
 
 #: ../lib/Tails/Persistence/Configuration/Presets.pm:68
 msgid "SSH Client"
@@ -44,11 +44,11 @@ msgstr "SSH atslēgas, konfigurācija un zināmi resursdatori"
 
 #: ../lib/Tails/Persistence/Configuration/Presets.pm:78
 msgid "Pidgin"
-msgstr "Pidžins"
+msgstr "Pidžinvaloda"
 
 #: ../lib/Tails/Persistence/Configuration/Presets.pm:80
 msgid "Pidgin profiles and OTR keyring"
-msgstr "Pidžinu profili un OTR atslēgu turētājs"
+msgstr "Pidžinvalodu profili un OTR atslēgu turētājs"
 
 #: ../lib/Tails/Persistence/Configuration/Presets.pm:88
 msgid "Claws Mail"
@@ -124,7 +124,7 @@ msgstr "Iestatīt Tails pastāvīgo sējumu"
 #: ../lib/Tails/Persistence/Setup.pm:442
 #, perl-format
 msgid "Device %s already has a persistent volume."
-msgstr "Ierīcei %s jau ir pastāvīgais sējums."
+msgstr "Ierīcei %s jau ir pastāvīgā sējuma."
 
 #: ../lib/Tails/Persistence/Setup.pm:450
 #, perl-format
@@ -144,24 +144,24 @@ msgstr "Lietošanas laikā nav iespējams dzēst pastāvīgo sējumu. Lai to izd
 
 #: ../lib/Tails/Persistence/Setup.pm:483
 msgid "Persistence volume is not unlocked."
-msgstr "Nav atbloķēts pastāvības sējums."
+msgstr "Nav atbloķēts pastāvīgais sējums."
 
 #: ../lib/Tails/Persistence/Setup.pm:488
 msgid "Persistence volume is not mounted."
-msgstr "Nav uzmontēts pastāvības sējums."
+msgstr "Nav uzmontēts pastāvīgais sējums."
 
 #: ../lib/Tails/Persistence/Setup.pm:493
 msgid "Persistence volume is not readable. Permissions or ownership problems?"
-msgstr "Pastāvības sējums nav lasāms. Varbūt pastāv ar atļaujām vai īpašumtiesībām saistītas problēmas?"
+msgstr "Pastāvīgais sējums nav lasāms. Varbūt pastāv ar atļaujām vai īpašumtiesībām saistītas problēmas?"
 
 #: ../lib/Tails/Persistence/Setup.pm:498
 msgid "Persistence volume is not writable. Maybe it was mounted read-only?"
-msgstr "Nav iespējams ierakstīt pastāvības sējumā. Varbūt tas uzmontēts kā tikai lasāms?"
+msgstr "Nav iespējams ierakstīt pastāvīgajā sējumā. Varbūt tas uzmontēts kā tikai lasāms?"
 
 #: ../lib/Tails/Persistence/Setup.pm:507
 #, perl-format
 msgid "Tails is running from non-USB device %s."
-msgstr "Tails strādā no ierīces, kura nav USB, %s."
+msgstr "Tails strādā no ne-USB ierīces %s."
 
 #: ../lib/Tails/Persistence/Setup.pm:513
 #, perl-format
@@ -171,30 +171,30 @@ msgstr "Ierīce %s ir optiska."
 #: ../lib/Tails/Persistence/Setup.pm:520
 #, perl-format
 msgid "Device %s was not created using Tails USB installer."
-msgstr ""
+msgstr "Ierīce %s nav izveidota izmantojot Tails USB instalēšanas programmu."
 
 #: ../lib/Tails/Persistence/Setup.pm:554
 msgid "Error"
-msgstr ""
+msgstr "Kļūda"
 
 #: ../lib/Tails/Persistence/Setup.pm:861
 msgid "Persistence wizard - Finished"
-msgstr ""
+msgstr "Pastāvīguma vednis - pabeigts"
 
 #: ../lib/Tails/Persistence/Setup.pm:864
 msgid ""
 "Any changes you have made will only take effect after restarting Tails.\n"
 "\n"
 "You may now close this application."
-msgstr ""
+msgstr "Jebkādas veiktās izmaiņas stāsies spēkā tikai pēc Tails pārstartēšanas.\n\nTagad variet aizvērt šo lietotni."
 
 #: ../lib/Tails/Persistence/Step/Bootstrap.pm:54
 msgid "Persistence wizard - Persistent volume creation"
-msgstr ""
+msgstr "Pastāvīguma vednis - pastāvīgā sējuma veidošana"
 
 #: ../lib/Tails/Persistence/Step/Bootstrap.pm:57
 msgid "Choose a passphrase to protect the persistent volume"
-msgstr ""
+msgstr "Izvēlēties ieejas frāzi pastāvīgā sējuma aizsardzībai"
 
 #. TRANSLATORS: size, device vendor, device model
 #: ../lib/Tails/Persistence/Step/Bootstrap.pm:61
@@ -206,7 +206,7 @@ msgstr ""
 
 #: ../lib/Tails/Persistence/Step/Bootstrap.pm:66
 msgid "Create"
-msgstr ""
+msgstr "Izveidot"
 
 #: ../lib/Tails/Persistence/Step/Bootstrap.pm:110
 msgid ""
@@ -214,63 +214,63 @@ msgid ""
 "understood. Tails can't help you if you use it wrong! See <a "
 "href='file:///usr/share/doc/tails/website/doc/first_steps/persistence.en.html'>Tails"
 " documentation about persistence</a> to learn more."
-msgstr ""
+msgstr "<b>Uzmanību!</b> Pastāvības izmantošanai ir sekas, kuras labi jāizprot. Tails nespēs palīdzēt, ja to izmanto nepareizi! Lūdzu skatīt <a href='file:///usr/share/doc/tails/website/doc/first_steps/persistence.en.html'>Tails dokumentācija par pastāvību</a> , lai uzzinātu vairāk informācijas."
 
 #: ../lib/Tails/Persistence/Step/Bootstrap.pm:144
 msgid "Passphrase:"
-msgstr ""
+msgstr "Ieejas frāze:"
 
 #: ../lib/Tails/Persistence/Step/Bootstrap.pm:154
 msgid "Verify Passphrase:"
-msgstr ""
+msgstr "Verificēt ieejas frāzi:"
 
 #: ../lib/Tails/Persistence/Step/Bootstrap.pm:167
 #: ../lib/Tails/Persistence/Step/Bootstrap.pm:231
 msgid "Passphrase can't be empty"
-msgstr ""
+msgstr "Ieejas frāze nedrīkst būt tukša"
 
 #: ../lib/Tails/Persistence/Step/Bootstrap.pm:222
 msgid "Passphrases do not match"
-msgstr ""
+msgstr "Ieejas frāzes nesakrīt"
 
 #: ../lib/Tails/Persistence/Step/Bootstrap.pm:262
 #: ../lib/Tails/Persistence/Step/Configure.pm:189
 msgid "Failed"
-msgstr ""
+msgstr "Neizdevās"
 
 #: ../lib/Tails/Persistence/Step/Bootstrap.pm:269
 #: ../lib/Tails/Persistence/Step/Delete.pm:84
 msgid "Correcting attributes on Tails system partition."
-msgstr ""
+msgstr "Labo atribūtus Tails sistēmas nodalījumā"
 
 #: ../lib/Tails/Persistence/Step/Bootstrap.pm:272
 #: ../lib/Tails/Persistence/Step/Delete.pm:87
 msgid "The attributes of the Tails system partition will be corrected."
-msgstr ""
+msgstr "Tiks laboti Tails sistēmas nodalījuma atribūti."
 
 #: ../lib/Tails/Persistence/Step/Bootstrap.pm:280
 msgid "Mounting Tails persistence partition."
-msgstr ""
+msgstr "Montē Tails pastāvīgo nodalījumu. "
 
 #: ../lib/Tails/Persistence/Step/Bootstrap.pm:283
 msgid "The Tails persistence partition will be mounted."
-msgstr ""
+msgstr "Tiks montēts Tails pastāvīgais nodalījums."
 
 #: ../lib/Tails/Persistence/Step/Bootstrap.pm:304
 msgid "Creating..."
-msgstr ""
+msgstr "Izveido..."
 
 #: ../lib/Tails/Persistence/Step/Bootstrap.pm:307
 msgid "Creating the persistent volume..."
-msgstr ""
+msgstr "Izveido pastāvīgo sējumu..."
 
 #: ../lib/Tails/Persistence/Step/Configure.pm:60
 msgid "Persistence wizard - Persistent volume configuration"
-msgstr ""
+msgstr "Pastāvīguma vednis - pastāvīgā sējuma kofigurēšana"
 
 #: ../lib/Tails/Persistence/Step/Configure.pm:63
 msgid "Specify the files that will be saved in the persistent volume"
-msgstr ""
+msgstr "Norādiet pastāvīgajā sējumā noglabājamās datnes"
 
 #. TRANSLATORS: partition, size, device vendor, device model
 #: ../lib/Tails/Persistence/Step/Configure.pm:67
@@ -278,35 +278,35 @@ msgstr ""
 msgid ""
 "The selected files will be stored in the encrypted partition %s (%s), on the"
 " <b>%s %s</b> device."
-msgstr ""
+msgstr "Izvēlētās datnes tiks saglabātas šifrētajā nodalījumā %s (%s), uz ierīces <b>%s %s</b>."
 
 #: ../lib/Tails/Persistence/Step/Configure.pm:73
 msgid "Save"
-msgstr ""
+msgstr "Saglabāt"
 
 #: ../lib/Tails/Persistence/Step/Configure.pm:135
 msgid "Make custom directory persistent (absolute path):"
-msgstr ""
+msgstr "Padarīt pielāgotu direktoriju par pastāvīgu (absolūts ceļš): "
 
 #: ../lib/Tails/Persistence/Step/Configure.pm:141
 msgid "Destination:"
-msgstr ""
+msgstr "Mērķis:"
 
 #: ../lib/Tails/Persistence/Step/Configure.pm:204
 msgid "Saving..."
-msgstr ""
+msgstr "Saglabā..."
 
 #: ../lib/Tails/Persistence/Step/Configure.pm:207
 msgid "Saving persistence configuration..."
-msgstr ""
+msgstr "Saglabā pastāvīguma konfigurāciju..."
 
 #: ../lib/Tails/Persistence/Step/Delete.pm:41
 msgid "Persistence wizard - Persistent volume deletion"
-msgstr ""
+msgstr "Pastāvīguma vednis - pastāvīgā sējuma dzēšana"
 
 #: ../lib/Tails/Persistence/Step/Delete.pm:44
 msgid "Your persistent data will be deleted."
-msgstr ""
+msgstr "Jūsu pastāvīgie dati tiks dzēsti"
 
 #: ../lib/Tails/Persistence/Step/Delete.pm:48
 #, perl-format
