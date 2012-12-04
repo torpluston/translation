@@ -3,6 +3,7 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
+#   <benni@include-benni.de>, 2012.
 # Cornelius Neckenig <tbull@fedoraproject.org>, 2009.
 # Marcus Nitzschke <marcusni@gmx.de>, 2008.
 #   <matsa@riseup.net>, 2012.
@@ -13,8 +14,8 @@ msgstr ""
 "Project-Id-Version: The Tor Project\n"
 "Report-Msgid-Bugs-To: https://trac.torproject.org/projects/tor\n"
 "POT-Creation-Date: 2012-04-13 14:16+0200\n"
-"PO-Revision-Date: 2012-11-29 23:56+0000\n"
-"Last-Translator: Sacro <Scion@T-Online.de>\n"
+"PO-Revision-Date: 2012-12-04 08:38+0000\n"
+"Last-Translator: cyberfork <benni@include-benni.de>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -101,7 +102,7 @@ msgid ""
 "Warning: The Master Boot Record on your device does not match your system's "
 "syslinux MBR.  If you have trouble booting this stick, try running the "
 "liveusb-creator with the --reset-mbr option."
-msgstr ""
+msgstr "Warnung: Der Master Boot Record auf deinem Laufwerk  stimmt nicht mit dem syslinux MBR überein. Hast du Probleme beim booten von diesem Stick, versuche den liveusb-creator mit der Option --reset-mbr zu starten"
 
 #: ../liveusb/gui.py:638
 msgid "Unable to mount device"
@@ -156,7 +157,7 @@ msgstr "Die ausgewählte Datei kann nicht gelesen werden. Bitte ändern Sie die 
 msgid ""
 "Unable to use the selected file.  You may have better luck if you move your "
 "ISO to the root of your drive (ie: C:\\)"
-msgstr ""
+msgstr "Die ausgewählte Datei kann nicht verwendet werden. Möglicherweise funktioniert es wenn du die ISO Datei direkt in einem Laufwerk  (z.B. C:\\) ablegst."
 
 #: ../liveusb/gui.py:743
 #, python-format
@@ -202,15 +203,15 @@ msgstr "Richte OLPC-Boot-Datei ein ..."
 msgid ""
 "There was a problem executing the following command: `%(command)s`.\n"
 "A more detailed error log has been written to '%(filename)s'."
-msgstr ""
+msgstr "Es gab ein Problem beim Auführen des folgenden Kommandos: `%(command)s`. Eine detailreichere Fehlerbeschreibung ist hier zu finden: `%(filename)s`"
 
 #: ../liveusb/creator.py:384
 msgid "Verifying SHA1 checksum of LiveCD image..."
-msgstr ""
+msgstr "Überprüfe SHA1 Prüfsumme des LiveCD Abbildes"
 
 #: ../liveusb/creator.py:388
 msgid "Verifying SHA256 checksum of LiveCD image..."
-msgstr ""
+msgstr "Überprüfe SHA256 Prüfsumme des LiveCD Abbildes"
 
 #: ../liveusb/creator.py:404
 msgid ""
@@ -234,7 +235,7 @@ msgstr "Erzeuge %s MB persistentes Overlay"
 #: ../liveusb/creator.py:487
 #, python-format
 msgid "Unable to copy %(infile)s to %(outfile)s: %(message)s"
-msgstr ""
+msgstr "%(infile)s konnte nicht nach %(outfile)s kopiert werden: %(message)s"
 
 #: ../liveusb/creator.py:497
 msgid "Removing existing Live OS"
@@ -243,7 +244,7 @@ msgstr "Entferne bestehendes Live BS"
 #: ../liveusb/creator.py:506 ../liveusb/creator.py:517
 #, python-format
 msgid "Unable to chmod %(file)s: %(message)s"
-msgstr ""
+msgstr "Berechtigungen %(file)s konnten nicht geändert werden: %(message)s"
 
 #: ../liveusb/creator.py:510
 #, python-format
@@ -264,23 +265,23 @@ msgstr "Kann Gerät %s nicht finden"
 msgid ""
 "You are using an old version of syslinux-extlinux that does not support the "
 "ext4 filesystem"
-msgstr ""
+msgstr "Du verwendest eine alte Version von syslinux-extlinux die das ext4 Dateisystem nicht unterstüzt"
 
 #: ../liveusb/creator.py:718
 #, python-format
 msgid "Unable to write on %(device)s, skipping."
-msgstr ""
+msgstr "Auf %(device)s kann nicht geschrieben werden. Es wird übersprungen"
 
 #: ../liveusb/creator.py:737
 #, python-format
 msgid ""
 "Some partitions of USB device %(device)s are mounted. They will be unmounted"
 " before starting the installation process."
-msgstr ""
+msgstr "Einige Partitionen des USB-Gerätes %(device)s sind eingehängt. Diese werden vor dem Start der Installation ausgehängt"
 
 #: ../liveusb/creator.py:786 ../liveusb/creator.py:886
 msgid "Unknown filesystem.  Your device may need to be reformatted."
-msgstr ""
+msgstr "Unbekanntes Dateisystem. Eventuell muss das Gerät formatiert werden."
 
 #: ../liveusb/creator.py:789
 #, python-format
@@ -297,21 +298,21 @@ msgstr "Nicht unterstütztes Dateisystem: %s"
 #: ../liveusb/creator.py:807
 #, python-format
 msgid "Unknown dbus exception while trying to mount device: %(message)s"
-msgstr ""
+msgstr "Unbekannte dbus Ausnahme während dem einhängen des Gerätes: %(message)s"
 
 #: ../liveusb/creator.py:811
 #, python-format
 msgid "Unable to mount device: %(message)s"
-msgstr ""
+msgstr "Gerät konnte nicht eingehängt werden: %(message)s"
 
 #: ../liveusb/creator.py:823
 msgid "No mount points found"
-msgstr ""
+msgstr "Keine Einhängepunkte gefunden"
 
 #: ../liveusb/creator.py:834
 #, python-format
 msgid "Unmounting %(device)s"
-msgstr ""
+msgstr "%(device)s wird ausgehängt"
 
 #: ../liveusb/creator.py:846
 #, python-format
@@ -325,7 +326,7 @@ msgstr "Überprüfe Dateisystem ..."
 #: ../liveusb/creator.py:907
 #, python-format
 msgid "Unable to change volume label: %(message)s"
-msgstr ""
+msgstr "Datenträgerbeschreibung konnte nicht geändert werden: %(message)s"
 
 #: ../liveusb/creator.py:912 ../liveusb/creator.py:1236
 msgid "Installing bootloader..."
@@ -343,7 +344,7 @@ msgstr "%s bereits bootfähig"
 
 #: ../liveusb/creator.py:1037
 msgid "Unable to find partition"
-msgstr ""
+msgstr "Partition konnte nicht gefunden werden"
 
 #: ../liveusb/creator.py:1060
 #, python-format
@@ -358,7 +359,7 @@ msgstr "Setze Master Boot Record von %s zurück"
 #: ../liveusb/creator.py:1112
 msgid ""
 "Unable to reset MBR.  You may not have the `syslinux` package installed."
-msgstr ""
+msgstr "MBR konnte nicht zurückgesetzt werden. Möglicherweise ist das Packet `syslinux` nicht installiert"
 
 #: ../liveusb/creator.py:1115
 msgid "Drive is a loopback, skipping MBR reset"
@@ -371,7 +372,7 @@ msgstr "Berechne den SHA-1-Hash von %s"
 
 #: ../liveusb/creator.py:1143
 msgid "Synchronizing data on disk..."
-msgstr ""
+msgstr "Synchronisiere Daten auf dem Datenträger"
 
 #: ../liveusb/creator.py:1195
 msgid "Error probing device"
@@ -379,7 +380,7 @@ msgstr ""
 
 #: ../liveusb/creator.py:1197
 msgid "Unable to find any removable device"
-msgstr ""
+msgstr "Es wurde kein Wechseldatenträger gefunden"
 
 #: ../liveusb/creator.py:1207
 msgid ""
