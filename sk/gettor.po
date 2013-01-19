@@ -8,15 +8,15 @@ msgid ""
 msgstr ""
 "Project-Id-Version: The Tor Project\n"
 "Report-Msgid-Bugs-To: https://trac.torproject.org/projects/tor\n"
-"POT-Creation-Date: 2011-11-13 22:01+0100\n"
-"PO-Revision-Date: 2012-02-29 20:01+0000\n"
+"POT-Creation-Date: 2013-01-19 13:40+0100\n"
+"PO-Revision-Date: 2013-01-19 12:48+0000\n"
 "Last-Translator: K0L0M4N <koloman375@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: sk\n"
-"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2\n"
+"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
 
 #: lib/gettor/i18n.py:27
 msgid "Hello, This is the \"GetTor\" robot."
@@ -47,7 +47,7 @@ msgid ""
 "and then we'll ignore this email address for the next day or so.)"
 msgstr "(Ospravedlňujeme sa, ak ste o tento email nepožiadali. Kvôli tomu, že Vaša emailová služba\nnepoužíva DKIM, posielame Vám krátke vysvetlenie a následne\nbudeme túto emailovú adresu pár dní ignorovať.)"
 
-#: lib/gettor/i18n.py:43 lib/gettor/i18n.py:130
+#: lib/gettor/i18n.py:43 lib/gettor/i18n.py:135
 msgid ""
 "If you have any questions or it doesn't work, you can contact a\n"
 "human at this support email address: help@rt.torproject.org"
@@ -63,22 +63,27 @@ msgid ""
 "    macos-ppc\n"
 "    linux-i386\n"
 "    linux-x86_64\n"
+"    obfs-windows\n"
+"    obfs-macos-i386\n"
+"    obfs-macos-x86_64\n"
+"    obfs-linux-i386\n"
+"    obfs-linux-x86_64\n"
 "    source"
-msgstr "Ja ti pošlem balík Tor, ak mi povieš, ktorý chceš.\nVyber si prosím jeden z nasledujúcich balíkov:\n\n    windows\n    macos-i386\n    macos-ppc\n    linux-i386\n    linux-x86_64\n    zdroj"
+msgstr ""
 
-#: lib/gettor/i18n.py:56
+#: lib/gettor/i18n.py:61
 msgid ""
 "Please reply to this mail, and tell me a single package name anywhere \n"
 "in the body of your email."
 msgstr "Prosím odpovedzte na tento email a do tela emailu napíšte meno jedného\nbalíka."
 
-#: lib/gettor/i18n.py:59
+#: lib/gettor/i18n.py:64
 msgid ""
 "OBTAINING LOCALIZED VERSIONS OF TOR\n"
 "==================================="
 msgstr "ZÍSKAŤ LOKALIZOVANÚ VERZIU TORu\n============================="
 
-#: lib/gettor/i18n.py:62
+#: lib/gettor/i18n.py:67
 msgid ""
 "To get a version of Tor translated into your language, specify the\n"
 "language you want in the address you send the mail to:\n"
@@ -86,22 +91,22 @@ msgid ""
 "    gettor+fa@torproject.org"
 msgstr "Aby ste získali Tor preložený do Vášho jazyka, uveďte jazyk,\nktorý chcete v adrese poslaného emailu:\n\n    gettor+fa@torproject.org"
 
-#: lib/gettor/i18n.py:67
+#: lib/gettor/i18n.py:72
 msgid ""
 "This example will give you the requested package in a localized\n"
 "version for Farsi (Persian). Check below for a list of supported language\n"
 "codes. "
 msgstr "Tento príklad Vám pošle lokalizovanú verziu v jazyku Farsi (Perzština).\nNižšie je zoznam všetkých podporovaných jazykov: "
 
-#: lib/gettor/i18n.py:71
+#: lib/gettor/i18n.py:76
 msgid " List of supported locales:"
 msgstr " Zoznam podporovaných jazykov:"
 
-#: lib/gettor/i18n.py:73
+#: lib/gettor/i18n.py:78
 msgid "Here is a list of all available languages:"
 msgstr "Zoznam všetkých dostupných jazykov:"
 
-#: lib/gettor/i18n.py:75
+#: lib/gettor/i18n.py:80
 msgid ""
 "    gettor+ar@torproject.org:     Arabic\n"
 "    gettor+de@torproject.org:     German\n"
@@ -116,24 +121,24 @@ msgid ""
 "    gettor+zh@torproject.org:     Chinese"
 msgstr "    gettor+ar@torproject.org:     Arabsky\n    gettor+de@torproject.org:     Nemecky\n    gettor+en@torproject.org:     Anglicky\n    gettor+es@torproject.org:     Španielsky\n    gettor+fa@torproject.org:     Farsi (Irán)\n    gettor+fr@torproject.org:     Francúzky\n    gettor+it@torproject.org:     Taliansky\n    gettor+nl@torproject.org:     Holandsky\n    gettor+pl@torproject.org:     Poľsky\n    gettor+ru@torproject.org:     Rusky\n    gettor+zh@torproject.org:     Čínsky"
 
-#: lib/gettor/i18n.py:87
+#: lib/gettor/i18n.py:92
 msgid "If you select no language, you will receive the English version."
 msgstr "Ak si nevyberiete jazyk, tak sa použije anglická verzia."
 
-#: lib/gettor/i18n.py:89
+#: lib/gettor/i18n.py:94
 msgid ""
 "SMALLER SIZED PACKAGES\n"
 "======================"
 msgstr "MENŠIE BALÍKY\n============="
 
-#: lib/gettor/i18n.py:92
+#: lib/gettor/i18n.py:97
 msgid ""
 "If your bandwith is low or your provider doesn't allow you to\n"
 "receive large attachments in your email, GetTor can send you several\n"
 "small packages instead of one big one."
 msgstr "Ak je Vaše pripojenie príliš pomalé alebo Váš poskytovateľ Vám nepovoľuje\nprijímať veľké prílohy vo Vašich emailoch, GetTor Vám môže poslať niekoľko\nmenších balíkov namiesto jedného veľkého."
 
-#: lib/gettor/i18n.py:96
+#: lib/gettor/i18n.py:101
 msgid ""
 "Simply include the keyword 'split' in a new line on its own (this part\n"
 "is important!) like so: \n"
@@ -142,66 +147,66 @@ msgid ""
 "    split"
 msgstr "Jednoducho pridajte slovo 'split' do nového riadku (toto je dôležité!)\nnasledujúcim spôsobom:\n        \n    windows\n    split"
 
-#: lib/gettor/i18n.py:102
+#: lib/gettor/i18n.py:107
 msgid ""
 "Sending this text in an email to GetTor will cause it to send you \n"
 "the Tor Browser Bundle in a number of 1,4MB attachments."
 msgstr "Ak pošlete tento text v emaile GetToru, dostanete Tor Browser Bundle ako niekoľko 1,4 MB príloh."
 
-#: lib/gettor/i18n.py:105
+#: lib/gettor/i18n.py:110
 msgid ""
 "After having received all parts, you need to re-assemble them to \n"
 "one package again. This is done as follows:"
 msgstr "Akonáhle získate všetky časti, musíte ich všetky spojiť do jedného celku.\nSpravíte to nasledovne:"
 
-#: lib/gettor/i18n.py:108
+#: lib/gettor/i18n.py:113
 msgid "1.) Save all received attachments into one folder on your disk."
 msgstr "1.) Umiestnite všetky časti do jedného priečinka na Vašom disku."
 
-#: lib/gettor/i18n.py:110
+#: lib/gettor/i18n.py:115
 msgid ""
 "2.) Unzip all files ending in \".z\". If you saved all attachments to\n"
 "a fresh folder before, simply unzip all files in that folder. If you don't\n"
 "know how to unzip the .z files, please see the UNPACKING THE FILES section."
 msgstr "2.) Rozbaľte všetky súbory s príponou \".z\". Ak ste uložili všetky prílohy\ndo nového priečinka, rozbaľte všetky súbory v tomto priečinku. Ak neviete\nako rozbaliť súbory s príponou .z, prezrite si sekciu ROZBAĽOVANIE SÚBOROV."
 
-#: lib/gettor/i18n.py:114
+#: lib/gettor/i18n.py:119
 msgid ""
 "3.) Verify all files as described in the mail you received with \n"
 "each package. (gpg --verify)"
 msgstr "3.) Overte všetky súbory, tak to bolo opísané v emaile. (gpg --verify)"
 
-#: lib/gettor/i18n.py:117
+#: lib/gettor/i18n.py:122
 msgid ""
 "4.) Now unpack the multi-volume archive into one file by double-\n"
 "clicking the file ending in \"..split.part01.exe\". This should start the \n"
 "process automatically."
 msgstr "4.) Teraz spojte jednotlivé prílohy so jedného súboru a to tak, že dvakrát kliknete na súbor, ktorý končí na \"..split.part01.exe\". To by malo spustiť automatický spojenie súborov."
 
-#: lib/gettor/i18n.py:121
+#: lib/gettor/i18n.py:126
 msgid ""
 "5.) After unpacking is finished, you should find a newly created \n"
 "\".exe\" file in your destination folder. Simply doubleclick\n"
 "that and Tor Browser Bundle should start within a few seconds."
 msgstr "5.) Po rozbalení by ste mali nájsť v priečinku nový \".exe\" súbor.\nDvakrát naň kliknite a Tor Browser Bundle by sa mal spustiť."
 
-#: lib/gettor/i18n.py:125
+#: lib/gettor/i18n.py:130
 msgid "6.) That's it. You're done. Thanks for using Tor and have fun!"
 msgstr "6.) A to je všetko. Ďakujeme, že používate Tor a užite si ho!"
 
-#: lib/gettor/i18n.py:127
+#: lib/gettor/i18n.py:132
 msgid ""
 "SUPPORT\n"
 "======="
 msgstr "PODPORA\n========"
 
-#: lib/gettor/i18n.py:133
+#: lib/gettor/i18n.py:138
 msgid ""
 "Here's your requested software as a zip file. Please unzip the\n"
 "package and verify the signature."
 msgstr "Tu je Váš požadovaný softvér ako zip súbor. Rozbaľte balík a overte \npodpis."
 
-#: lib/gettor/i18n.py:136
+#: lib/gettor/i18n.py:141
 msgid ""
 "VERIFY SIGNATURE\n"
 "================\n"
@@ -211,14 +216,14 @@ msgid ""
 "    gpg --verify tor-browser-1.3.24_en-US.exe.asc tor-browser-1.3.24_en-US.exe"
 msgstr "OVERIŤ PODPIS\n=============\nAk je na Vašom počítači nainštalovaný GnuPG, tak po rozbalení zip\nsúboru použite nástroj gpg v príkazovom priadku:\n\n    gpg --verify tor-browser-1.3.24_en-US.exe.asc tor-browser-1.3.24_en-US.exe"
 
-#: lib/gettor/i18n.py:143
+#: lib/gettor/i18n.py:148
 msgid ""
 "The output should look somewhat like this:\n"
 "\n"
 "    gpg: Good signature from 'Erinn Clark <...>'"
 msgstr "Výstup by mal vyzerať asi takto:\n\n   gpg: Good signature from 'Erinn Clark <...>'"
 
-#: lib/gettor/i18n.py:147
+#: lib/gettor/i18n.py:152
 msgid ""
 "If you're not familiar with commandline tools, try looking for\n"
 "a graphical user interface for GnuPG on this website:\n"
@@ -226,13 +231,13 @@ msgid ""
 "    http://www.gnupg.org/related_software/frontends.html"
 msgstr "Ak neviete pracovať s príkazovým riadkom, skúste použiť GnuGP\ns grafickým rozhraním, ktoré sa nachádza na tejto stránke:\n\n    http://www.gnupg.org/related_software/frontends.html"
 
-#: lib/gettor/i18n.py:152
+#: lib/gettor/i18n.py:157
 msgid ""
 "BLOCKED ACCESS / CENSORSHIP\n"
 "==========================="
 msgstr "BLOKOVANÝ PRÍSTUP/CENZÚRA\n=========================="
 
-#: lib/gettor/i18n.py:155
+#: lib/gettor/i18n.py:160
 msgid ""
 "If your Internet connection blocks access to the Tor network, you\n"
 "may need a bridge relay. Bridge relays (or \"bridges\" for short)\n"
@@ -242,7 +247,7 @@ msgid ""
 "to block all the bridges."
 msgstr "Ak vaše internetové pripojenie blokuje prístup do siete Tor, tak potom\npotrebujete premosťovacie relay. Premosťovacie relay (alebo skrátene\n\"mosty\") sú Tor relay, ktoré nie sú zahrnuté v hlavnom adresáre. Keďže\nneexistuje úplný verejný zoznam mostov, tak ak by aj Váš poskytovateľ\ninternetového pripojenia blokoval všetky známe Tor relay, pravdepodobne\nnebude schopný blokovať všetky mosty."
 
-#: lib/gettor/i18n.py:162
+#: lib/gettor/i18n.py:167
 msgid ""
 "You can acquire a bridge by sending an email that contains \"get bridges\"\n"
 "in the body of the email to the following email address:\n"
@@ -250,13 +255,20 @@ msgid ""
 "    bridges@torproject.org"
 msgstr "Môžete požiadať o most, ak pošlete email, ktorý bude v tele emailu \nobsahovať \"get bridges\", na adresu:\n\n    bridges@torproject.org"
 
-#: lib/gettor/i18n.py:167
+#: lib/gettor/i18n.py:172
 msgid ""
 "It is also possible to fetch bridges with a web browser at the following\n"
 "url: https://bridges.torproject.org/"
 msgstr "Je možné získať mosty pomocou internetového prehliadača na adrese:\nhttps://bridges.torproject.org/"
 
-#: lib/gettor/i18n.py:170
+#: lib/gettor/i18n.py:175
+msgid ""
+"Another censorship circumvention tool you can request from GetTor is\n"
+"the Tor Obfsproxy Browser Bundle. Please read the package descriptions for\n"
+"which package you should request to receive this."
+msgstr ""
+
+#: lib/gettor/i18n.py:179
 msgid ""
 "IMPORTANT NOTE:\n"
 "Since this is part of a split-file request, you need to wait for\n"
@@ -265,32 +277,32 @@ msgid ""
 "first file."
 msgstr "DÔLEŽITÁ POZNÁMKA:\nKeďže toto je požiadavka, v ktorej Vám pošleme viacej súborov, tak musíte\npočkať na všetky časti súboru a potom ich môžete uložiť do jedného\npriečinka a rozbaliť dvojitým kliknutím na prvý súbor."
 
-#: lib/gettor/i18n.py:176
+#: lib/gettor/i18n.py:185
 msgid ""
 "Packages might arrive out of order! Please make sure you received\n"
 "all packages before you attempt to unpack them!"
 msgstr "Balíky nemusia prísť v správnom poradí! Uistite sa, že ste dostali\nvšetky balíky skôr ako ich začnete rozbaľovať!"
 
-#: lib/gettor/i18n.py:179
+#: lib/gettor/i18n.py:188
 #, python-format
 msgid ""
 "It was successfully understood. Your request is currently being processed.\n"
 "Your package (%s) should arrive within the next ten minutes."
 msgstr "Vaša požiadavka sa práve spracováva.\nVáš balík (%s) by mal prísť behom pár minút."
 
-#: lib/gettor/i18n.py:182
+#: lib/gettor/i18n.py:191
 msgid ""
 "If it doesn't arrive, the package might be too big for your mail provider.\n"
 "Try resending the mail from a GMAIL.COM, YAHOO.CN or YAHOO.COM account."
 msgstr "Ak neprišiel, tak balík bol možno príliš veľký pre Vášho emailového poskytovateľa.\nSkúste preposlať mail z účtu GMAIL.COM, YAHOO.CN alebo YAHOO.COM."
 
-#: lib/gettor/i18n.py:185
+#: lib/gettor/i18n.py:194
 msgid ""
 "Unfortunately we are currently experiencing problems and we can't fulfill\n"
 "your request right now. Please be patient as we try to resolve this issue."
 msgstr "Nanešťastie máme teraz nejaké problémy a nemôžeme vybaviť Vašu\npožiadavku. Prosím, buďte trpezlivý, kým nevyriešime tento problém."
 
-#: lib/gettor/i18n.py:188
+#: lib/gettor/i18n.py:197
 msgid ""
 "Unfortunately there is no split package available for the package you\n"
 "requested. Please send us another package name or request the same package \n"
@@ -298,13 +310,13 @@ msgid ""
 "package. Make sure this is what you want."
 msgstr "Nanešťastie balík, o ktorý žiadate nie je rozdelený na menšie časti. \nProsím požiadajte o iný balík alebo požiadajte znova o ten istý balík,\nale teraz odstráňte slovo 'split'. V tomto prípade Vám pošleme celý balík.\nUistite sa, že práve tento chcete. "
 
-#: lib/gettor/i18n.py:193
+#: lib/gettor/i18n.py:202
 msgid ""
 "UNPACKING THE FILES\n"
 "==================="
 msgstr "ROZBAĽOVANIE SÚBOROV\n====================="
 
-#: lib/gettor/i18n.py:196
+#: lib/gettor/i18n.py:205
 msgid ""
 "The easiest way to unpack the files you received is to install 7-Zip,\n"
 "a free file compression/uncompression tool. If it isn't installed on\n"
@@ -313,13 +325,13 @@ msgid ""
 "    http://www.7-zip.org/"
 msgstr "Najjednoduchšia spôsob ako rozbaliť súbory, ktoré ste dostali, je pomocou 7-Zip,\nbezplatného komprimačného programu. Ak ho ešte nemáte nainštalovaný\nna Vašom počítači, tak si ho môžete stiahnuť na tejto adrese:\n\n    http://www.7-zip.org/"
 
-#: lib/gettor/i18n.py:202
+#: lib/gettor/i18n.py:211
 msgid ""
 "When 7-Zip is installed, you can open the .z archive you received from\n"
 "us by double-clicking on it."
 msgstr "Keď sa nainštaluje 7-Zip, môžete otvoriť .z archív"
 
-#: lib/gettor/i18n.py:205
+#: lib/gettor/i18n.py:214
 msgid ""
 "An alternative way to get the .z files extraced is to rename them to\n"
 ".zip. For example, if you recevied a file called \"windows.z\", rename it to \n"
@@ -327,13 +339,13 @@ msgid ""
 "file archiver programs that probably are already installed on your computer."
 msgstr "Alternatívna cesta ako extrahovať súbory s príponou .z je, že zmeníte\npríponu \nna .zip. Napríklad, ak dostanete súbor pomenovaný\n\"windows.z\", premenujte ho na \n\"windows.zip\". Teraz by ste mali byť schopný extrahovať archív s bežným archivačným programom, ktorý máte pravdepodobne nainštalovaný na Vašom počítači."
 
-#: lib/gettor/i18n.py:210
+#: lib/gettor/i18n.py:219
 msgid ""
 "Please reply to this mail, and tell me a single package name anywhere\n"
 "in your reply. Here's a short explanation of what these packages are:"
 msgstr "Prosím odpovedz na tento email a napíš do tela emailu názov jedného balíka.\nTu je krátke vysvetlenie o čom sú tieto balíky:"
 
-#: lib/gettor/i18n.py:213
+#: lib/gettor/i18n.py:222
 msgid ""
 "windows:\n"
 "The Tor Browser Bundle package for Windows operating systems. If you're \n"
@@ -341,59 +353,96 @@ msgid ""
 "Windows 7, this is the package you should get."
 msgstr "windows:\nTor Browser Bundle pre operačný systém Windows. Ak používate\nWindows XP, Windows Vista alebo Windows 7, tak potrebujete\npráve tento balík."
 
-#: lib/gettor/i18n.py:218
+#: lib/gettor/i18n.py:227
 msgid ""
 "macos-i386:\n"
 "The Tor Browser Bundle package for OS X, Intel CPU architecture. In \n"
 "general, newer Mac hardware will require you to use this package."
 msgstr "macos-i386:\nTor Browser Bundle pre OS X, architektúru Intel CPU.\nVo všeobecnosti, novší Mac hardvér bude vyžadovať práve tento balík."
 
-#: lib/gettor/i18n.py:222
+#: lib/gettor/i18n.py:231
 msgid ""
 "macos-ppc:\n"
 "This is an older installer (the \"Vidalia bundle\") for older Macs running\n"
 "OS X on PowerPC CPUs. Note that this package will be deprecated soon."
 msgstr "macos-ppc:\nToto je starší inštalátor (\"balík Vidalia\") pre staršie Macy, na ktorých beží OS X s CPU PowerPC. Berte na vedomie, že za krátky čas bude tento balík zastaralý."
 
-#: lib/gettor/i18n.py:226
+#: lib/gettor/i18n.py:235
 msgid ""
 "linux-i386:\n"
 "The Tor Browser Bundle package for Linux, 32bit versions."
 msgstr "linux-i386:\nTor Browser Bundle pre Linux, 32-bitová verzia."
 
-#: lib/gettor/i18n.py:229
+#: lib/gettor/i18n.py:238
 msgid ""
 "Note that this package is rather large and needs your email provider to \n"
 "allow for attachments of about 30MB in size."
 msgstr "Všimnite si, že tento balík je pomerne veľký a je nutné, aby emailový poskytovateľ\ndovoľoval pripojiť do emailu prílohy o veľkosti až 30 MB."
 
-#: lib/gettor/i18n.py:232
+#: lib/gettor/i18n.py:241
 msgid ""
 "linux-x86_64:\n"
 "The Tor Browser Bundle package for Linux, 64bit versions."
 msgstr "linux-x86_64:\nTor Browser Bundle pre Linux, 64-bitová verzia."
 
-#: lib/gettor/i18n.py:235
+#: lib/gettor/i18n.py:244
+msgid ""
+"obfs-windows:\n"
+"The Tor Obfsproxy Browser Bundle for Windows operating systems. If you need\n"
+"strong censorship circumvention and you are running some version of the \n"
+"Windows, like Windows XP, Windows Vista or Windows 7, this is the package\n"
+"you should get."
+msgstr ""
+
+#: lib/gettor/i18n.py:250
+msgid ""
+"obfs-macos-i386:\n"
+"The Tor Obfsproxy Browser Bundle package for OS X, 32bit Intel CPU \n"
+"architecture."
+msgstr ""
+
+#: lib/gettor/i18n.py:254
+msgid ""
+"obfs-macos-x86_64:\n"
+"The Tor Obfsproxy Browser Bundle package for OS X, 64bit Intel CPU \n"
+"architecture."
+msgstr ""
+
+#: lib/gettor/i18n.py:258
+msgid ""
+"obfs-linux-i386:\n"
+"The Tor Obfsproxy Browser Bundle package for Linux, 32bit Intel CPU \n"
+"architecture."
+msgstr ""
+
+#: lib/gettor/i18n.py:262
+msgid ""
+"obfs-linux-x86_64:\n"
+"The Tor Obfsproxy Browser Bundle package for Linux, 64bit Intel CPU \n"
+"architecture."
+msgstr ""
+
+#: lib/gettor/i18n.py:266
 msgid ""
 "source:\n"
 "The Tor source code, for experts. Most users do not want this package."
 msgstr "zdroj:\nZdrojový kód Tor, pre expertov. Väčšina užívateľov tento balík nepotrebuje. "
 
-#: lib/gettor/i18n.py:238
+#: lib/gettor/i18n.py:269
 msgid ""
 "FREQUENTLY ASKED QUESTIONS\n"
 "=========================="
 msgstr "ČASTO KLADENÉ OTÁZKY\n====================="
 
-#: lib/gettor/i18n.py:241
+#: lib/gettor/i18n.py:272
 msgid "What is Tor?"
 msgstr "Čo je Tor?"
 
-#: lib/gettor/i18n.py:243
+#: lib/gettor/i18n.py:274
 msgid "The name \"Tor\" can refer to several different components."
 msgstr "Názov \"Tor\" sa môže vzťahovať k niekoľkým rôznym komponentom."
 
-#: lib/gettor/i18n.py:245
+#: lib/gettor/i18n.py:276
 msgid ""
 "The Tor software is a program you can run on your computer that helps \n"
 "keep you safe on the Internet. Tor protects you by bouncing your \n"
@@ -406,22 +455,22 @@ msgid ""
 "    https://www.torproject.org/about/overview.html.en"
 msgstr "Program Tor Vám umožní ostať na Internete v bezpečí. Tor presmeruje Vašu \nkomunikáciu cez sieť vytvorenú dobrovoľníkmi z celého sveta: zabraňuje,\naby niekto mohol zistiť aké stránky navštevujete a zabraňuje stránkam \nzistiť miesto, kde sa nachádzate. Táto sieť dobrovoľníkov sa volá sieť Tor.\nViac informácií o tom ako Tor funguje nájdete tu:\n\n    https://www.torproject.org/about/overview.html.en"
 
-#: lib/gettor/i18n.py:255
+#: lib/gettor/i18n.py:286
 msgid "What is the Tor Browser Bundle?"
 msgstr "Čo je Tor Browser Bundle?"
 
-#: lib/gettor/i18n.py:257
+#: lib/gettor/i18n.py:288
 msgid ""
 "The Browser Bundle (TBB) is the package we recommend to most users. \n"
 "The bundle comes with everything you need to safely browse the Internet.\n"
 "Just extract it and run."
 msgstr "The Browser Bundle (TBB) odporúčame pre väčšinu užívateľov.\nBalík obsahuje všetko čo potrebujete pre bezpečné prezeranie internetu.\nStačí ho rozbaliť a spustiť."
 
-#: lib/gettor/i18n.py:261
+#: lib/gettor/i18n.py:292
 msgid "What package should I request?"
 msgstr "Ktorý balík potrebujem?"
 
-#: lib/gettor/i18n.py:263
+#: lib/gettor/i18n.py:294
 msgid ""
 "This depends on the operating system you use. For instance, if your\n"
 "operating system is Microsoft Windows, you should request \"windows\". Here\n"
@@ -429,19 +478,19 @@ msgid ""
 "systems there are suitable for:"
 msgstr "Záleží to na tom, aký operačný systém používate. Napríklad, ak\npoužívate operačný systém Microsoft Windows, mali by ste požiadať o\n\"windows\". Tu je krátke zhrnutie všetkých balíkov, o ktoré môžete požiadať\na pre aké operačné systémy sú určené:"
 
-#: lib/gettor/i18n.py:268
+#: lib/gettor/i18n.py:299
 msgid "How do I extract the file(s) you sent me?"
 msgstr "Ako mám extrahovať súbor(y), ktoré ste mi poslali?"
 
-#: lib/gettor/i18n.py:270
+#: lib/gettor/i18n.py:301
 msgid "QUESTION:"
 msgstr "OTÁZKA:"
 
-#: lib/gettor/i18n.py:272
+#: lib/gettor/i18n.py:303
 msgid "ANSWER:"
 msgstr "ODPOVEĎ:"
 
-#: lib/gettor/i18n.py:274
+#: lib/gettor/i18n.py:305
 #, python-format
 msgid ""
 "Sorry, but the package you requested (%s) is too large for your \n"
