@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: The Tor Project\n"
 "Report-Msgid-Bugs-To: https://trac.torproject.org/projects/tor\n"
 "POT-Creation-Date: 2012-04-13 14:16+0200\n"
-"PO-Revision-Date: 2013-01-30 18:45+0000\n"
+"PO-Revision-Date: 2013-01-30 18:55+0000\n"
 "Last-Translator: Quaithe <ewa.infeld@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -91,14 +91,14 @@ msgstr "Zakończono instalację.  Nacisnij OK aby zamknąć ten program."
 msgid ""
 "The Master Boot Record on your device is blank. Pressing 'Create Live USB' "
 "again will reset the MBR on this device."
-msgstr "Główny Sektor Startowy na urządzeniu jest pusty. Ponowne naciśnięcie \"Utwórz Live USB\" zresetuje GSS na urządzeniu."
+msgstr "Główny sektor startowy (MBR) na urządzeniu jest pusty. Ponowne naciśnięcie \"Utwórz Live USB\" zresetuje MBR na urządzeniu."
 
 #: ../liveusb/gui.py:624
 msgid ""
 "Warning: The Master Boot Record on your device does not match your system's "
 "syslinux MBR.  If you have trouble booting this stick, try running the "
 "liveusb-creator with the --reset-mbr option."
-msgstr "Ostrzeżenie: główny sektor startowy na urządzeniu nie zgadza się z GSS syslinuksa systemu. Jeśli podczas uruchamiania tego dysku wystąpił błąd, proszę spróbować uruchomić liveusb-creator za pomocą opcji --reset-mbr."
+msgstr "Ostrzeżenie: główny sektor startowy (MBR) na urządzeniu nie zgadza się z MBR syslinuksa systemu. Jeśli podczas uruchamiania tego dysku wystąpił błąd, proszę spróbować uruchomić liveusb-creator za pomocą opcji --reset-mbr."
 
 #: ../liveusb/gui.py:638
 msgid "Unable to mount device"
@@ -261,12 +261,12 @@ msgstr "Nie można odnaleźć urządzenia %s"
 msgid ""
 "You are using an old version of syslinux-extlinux that does not support the "
 "ext4 filesystem"
-msgstr ""
+msgstr "Używasz starej wersji syslinux-extlinux która nie obsługuje systemu plików ext4"
 
 #: ../liveusb/creator.py:718
 #, python-format
 msgid "Unable to write on %(device)s, skipping."
-msgstr ""
+msgstr "Nie można zapisać na %(device)s, pomijam"
 
 #: ../liveusb/creator.py:737
 #, python-format
@@ -284,7 +284,7 @@ msgstr "Nieznany system plików. Urządzenie może wymagać ponownego sformatowa
 msgid ""
 "Unsupported filesystem: %s\n"
 "In case you are trying to upgrade a manually installed Tails system (that is, if it was installed without this installer), this option is not supported: you need to install it anew to start with, e.g. by choosing the \"Clone Tails\" action instead."
-msgstr ""
+msgstr "Nie obsługiwany system plików: %s\nJeżeli próbujesz zaktualizować system Tails zainstalowany ręcznie (bez pomocy tego instalatora), bedziesz musiał zainstalowac go od nowa na przyklad wybierając opcję 'Clone Tails'."
 
 #: ../liveusb/creator.py:791 ../liveusb/creator.py:889
 #, python-format
@@ -331,7 +331,7 @@ msgstr "Instalowanie programu startowego..."
 #: ../liveusb/creator.py:935 ../liveusb/creator.py:1254
 #, python-format
 msgid "Removing %(file)s"
-msgstr ""
+msgstr "Usuwanie %(file)s"
 
 #: ../liveusb/creator.py:1017
 #, python-format
@@ -345,17 +345,17 @@ msgstr "Nie można odnaleźć partycji"
 #: ../liveusb/creator.py:1060
 #, python-format
 msgid "Formatting %(device)s as FAT32"
-msgstr ""
+msgstr "Formatowanie %(device)s jako FAT32"
 
 #: ../liveusb/creator.py:1109
 #, python-format
 msgid "Resetting Master Boot Record of %s"
-msgstr ""
+msgstr "Reset głównego sektora startowego %s"
 
 #: ../liveusb/creator.py:1112
 msgid ""
 "Unable to reset MBR.  You may not have the `syslinux` package installed."
-msgstr ""
+msgstr "Nie można zresetowac głównego sektora startowego (MBR). Być może nie masz zainstalowanej paczki 'syslinux'."
 
 #: ../liveusb/creator.py:1115
 msgid "Drive is a loopback, skipping MBR reset"
