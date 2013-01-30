@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: The Tor Project\n"
 "Report-Msgid-Bugs-To: https://trac.torproject.org/projects/tor\n"
 "POT-Creation-Date: 2012-04-13 14:16+0200\n"
-"PO-Revision-Date: 2013-01-30 19:45+0000\n"
+"PO-Revision-Date: 2013-01-30 20:39+0000\n"
 "Last-Translator: Quaithe <ewa.infeld@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -148,7 +148,7 @@ msgstr "Wybór pliku ISO obrazu Live"
 msgid ""
 "The selected file is unreadable.Please fix its permissions or select another"
 " file."
-msgstr ""
+msgstr "nie można odczytac wybranego pliku. Zmień zezwolenia dostępu lub wybierz inny plik."
 
 #: ../liveusb/gui.py:737
 msgid ""
@@ -241,12 +241,12 @@ msgstr "Usuwanie istniejącego systemu operacyjnego Live"
 #: ../liveusb/creator.py:506 ../liveusb/creator.py:517
 #, python-format
 msgid "Unable to chmod %(file)s: %(message)s"
-msgstr ""
+msgstr "Nie można zmienic praw dostępu do %(file)s: %(message)s"
 
 #: ../liveusb/creator.py:510
 #, python-format
 msgid "Unable to remove file from previous LiveOS: %(message)s"
-msgstr ""
+msgstr "Nie można usunąć poprzedniego systemu operacyjnego Live: %(message)s"
 
 #: ../liveusb/creator.py:522
 #, python-format
@@ -274,7 +274,7 @@ msgstr "Nie można zapisać na %(device)s, pomijam"
 msgid ""
 "Some partitions of USB device %(device)s are mounted. They will be unmounted"
 " before starting the installation process."
-msgstr ""
+msgstr "Wykryto zamontowane partycje na urządzeniu USB %(device)s. Zostaną one zdemontowane przed rozpoczęciem instalacji."
 
 #: ../liveusb/creator.py:786 ../liveusb/creator.py:886
 msgid "Unknown filesystem.  Your device may need to be reformatted."
@@ -295,7 +295,7 @@ msgstr "Nieobsługiwany system plików: %s"
 #: ../liveusb/creator.py:807
 #, python-format
 msgid "Unknown dbus exception while trying to mount device: %(message)s"
-msgstr ""
+msgstr "Nieznany wyjątek dbus podczas montowania urządzenia: %(message)s"
 
 #: ../liveusb/creator.py:811
 #, python-format
@@ -304,17 +304,17 @@ msgstr "Nie można zamontować urządzenia: %(message)s"
 
 #: ../liveusb/creator.py:823
 msgid "No mount points found"
-msgstr ""
+msgstr "Nie znaleziono punktów instalacji"
 
 #: ../liveusb/creator.py:834
 #, python-format
 msgid "Unmounting %(device)s"
-msgstr ""
+msgstr "Demontowanie %(device)s"
 
 #: ../liveusb/creator.py:846
 #, python-format
 msgid "Mount %s exists after unmounting"
-msgstr ""
+msgstr "%s istnieje mimo demontowania"
 
 #: ../liveusb/creator.py:883 ../liveusb/creator.py:1203
 msgid "Verifying filesystem..."
@@ -323,7 +323,7 @@ msgstr "Sprawdzanie systemu plików..."
 #: ../liveusb/creator.py:907
 #, python-format
 msgid "Unable to change volume label: %(message)s"
-msgstr ""
+msgstr "Nie mozna zmienic etykiety: %(message)s"
 
 #: ../liveusb/creator.py:912 ../liveusb/creator.py:1236
 msgid "Installing bootloader..."
