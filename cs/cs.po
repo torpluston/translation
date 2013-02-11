@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: The Tor Project\n"
 "Report-Msgid-Bugs-To: https://trac.torproject.org/projects/tor\n"
 "POT-Creation-Date: 2012-04-13 14:16+0200\n"
-"PO-Revision-Date: 2013-02-11 22:15+0000\n"
+"PO-Revision-Date: 2013-02-11 22:34+0000\n"
 "Last-Translator: dope <maniak11@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -246,12 +246,12 @@ msgstr "Nemohu změnit oprávnění %(file)s: %(message)s"
 #: ../liveusb/creator.py:510
 #, python-format
 msgid "Unable to remove file from previous LiveOS: %(message)s"
-msgstr ""
+msgstr "Nemohu odebrat soubor z předchozího LiveOS: %(message)s"
 
 #: ../liveusb/creator.py:522
 #, python-format
 msgid "Unable to remove directory from previous LiveOS: %(message)s"
-msgstr ""
+msgstr "Nemohu odebrat složku z předchozího LiveOS: %(message)s"
 
 #: ../liveusb/creator.py:573
 #, python-format
@@ -262,30 +262,30 @@ msgstr "Nemohu nalézt zařízení %s"
 msgid ""
 "You are using an old version of syslinux-extlinux that does not support the "
 "ext4 filesystem"
-msgstr ""
+msgstr "Používáte starou vezi syslinux-extlinux, které nepodporuje souborový systém ext4"
 
 #: ../liveusb/creator.py:718
 #, python-format
 msgid "Unable to write on %(device)s, skipping."
-msgstr ""
+msgstr "Nemohu zapisovat na %(device)s, přeskakuji."
 
 #: ../liveusb/creator.py:737
 #, python-format
 msgid ""
 "Some partitions of USB device %(device)s are mounted. They will be unmounted"
 " before starting the installation process."
-msgstr ""
+msgstr "Některé oddíli zařízení USB %(device)s jsou připojeny. Budou odpojeny před začátkem instalačního procesu."
 
 #: ../liveusb/creator.py:786 ../liveusb/creator.py:886
 msgid "Unknown filesystem.  Your device may need to be reformatted."
-msgstr ""
+msgstr "Neznámý souborový systém. Vaše zařízení bude nutné zformátovat."
 
 #: ../liveusb/creator.py:789
 #, python-format
 msgid ""
 "Unsupported filesystem: %s\n"
 "In case you are trying to upgrade a manually installed Tails system (that is, if it was installed without this installer), this option is not supported: you need to install it anew to start with, e.g. by choosing the \"Clone Tails\" action instead."
-msgstr ""
+msgstr "Nepodporovaný souborový systém: %s\nV případě, že se pokoušíte upgradovat manuálně nainstalovaný systém Tails (to znamená, že byl nainstalován bez instalátoru), tato možnost není podporována: je nutné nainstalovat systém nanovo, např. raději výběrem \"Clone Tails\"."
 
 #: ../liveusb/creator.py:791 ../liveusb/creator.py:889
 #, python-format
@@ -295,26 +295,26 @@ msgstr "Nepodporovaný systém souborů: %s"
 #: ../liveusb/creator.py:807
 #, python-format
 msgid "Unknown dbus exception while trying to mount device: %(message)s"
-msgstr ""
+msgstr "Neznámá dbus vyjímka při pokusu připojit zařízení: %(message)s "
 
 #: ../liveusb/creator.py:811
 #, python-format
 msgid "Unable to mount device: %(message)s"
-msgstr ""
+msgstr "Nemohu připojit zařízení: %(message)s"
 
 #: ../liveusb/creator.py:823
 msgid "No mount points found"
-msgstr ""
+msgstr "Nenalezeny žádné body připojení"
 
 #: ../liveusb/creator.py:834
 #, python-format
 msgid "Unmounting %(device)s"
-msgstr ""
+msgstr "Odpojuji %(device)s"
 
 #: ../liveusb/creator.py:846
 #, python-format
 msgid "Mount %s exists after unmounting"
-msgstr ""
+msgstr "Připojení %s existuje po odpojení"
 
 #: ../liveusb/creator.py:883 ../liveusb/creator.py:1203
 msgid "Verifying filesystem..."
@@ -323,61 +323,61 @@ msgstr "Ověřuji systém souborů..."
 #: ../liveusb/creator.py:907
 #, python-format
 msgid "Unable to change volume label: %(message)s"
-msgstr ""
+msgstr "Není možné změnit jmenovku svazku: %(message)s"
 
 #: ../liveusb/creator.py:912 ../liveusb/creator.py:1236
 msgid "Installing bootloader..."
-msgstr ""
+msgstr "Instaluji bootloader..."
 
 #: ../liveusb/creator.py:935 ../liveusb/creator.py:1254
 #, python-format
 msgid "Removing %(file)s"
-msgstr ""
+msgstr "Odebírám %(file)s"
 
 #: ../liveusb/creator.py:1017
 #, python-format
 msgid "%s already bootable"
-msgstr ""
+msgstr "%s je bootovatelné"
 
 #: ../liveusb/creator.py:1037
 msgid "Unable to find partition"
-msgstr ""
+msgstr "Nemohu najít oddíl"
 
 #: ../liveusb/creator.py:1060
 #, python-format
 msgid "Formatting %(device)s as FAT32"
-msgstr ""
+msgstr "Formátuji %(device)s jako FAT32"
 
 #: ../liveusb/creator.py:1109
 #, python-format
 msgid "Resetting Master Boot Record of %s"
-msgstr ""
+msgstr "Resetuji hlavní bootovací záznam %s"
 
 #: ../liveusb/creator.py:1112
 msgid ""
 "Unable to reset MBR.  You may not have the `syslinux` package installed."
-msgstr ""
+msgstr "Nemohu resetovat hlavní bootovací záznam. Možná nemáte nainstalovaný `syslinux` balíček."
 
 #: ../liveusb/creator.py:1115
 msgid "Drive is a loopback, skipping MBR reset"
-msgstr ""
+msgstr "Zařízení je smyčka, přeskakuji resetování hlavního bootovacího záznamu"
 
 #: ../liveusb/creator.py:1119 ../liveusb/creator.py:1382
 #, python-format
 msgid "Calculating the SHA1 of %s"
-msgstr ""
+msgstr "Kalkuluji SHA1 %s"
 
 #: ../liveusb/creator.py:1143
 msgid "Synchronizing data on disk..."
-msgstr ""
+msgstr "Synchronizuji data na disk..."
 
 #: ../liveusb/creator.py:1195
 msgid "Error probing device"
-msgstr ""
+msgstr "Chyba při snímání zařízení"
 
 #: ../liveusb/creator.py:1197
 msgid "Unable to find any removable device"
-msgstr ""
+msgstr "Nemohu najít žádná odpojitelná zařízení"
 
 #: ../liveusb/creator.py:1207
 msgid ""
@@ -394,7 +394,7 @@ msgstr "Nepodporovaný systém souborů: %s\nProsím proveďte zálohu a naform�
 #: ../liveusb/creator.py:1277
 msgid ""
 "Unable to get Win32_LogicalDisk; win32com query did not return any results"
-msgstr ""
+msgstr "Nemohu získat Win32_LogicalDisk; win32com výsledky"
 
 #: ../liveusb/creator.py:1330
 msgid "Cannot find"
@@ -404,4 +404,4 @@ msgstr "Nemohu nalézt"
 msgid ""
 "Make sure to extract the entire liveusb-creator zip file before running this"
 " program."
-msgstr ""
+msgstr "Ujistěte se, že extrahujete celý liveusb-creator zip soubor před spuštěním programu."
