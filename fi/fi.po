@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: The Tor Project\n"
 "Report-Msgid-Bugs-To: https://trac.torproject.org/projects/tor\n"
 "POT-Creation-Date: 2013-02-14 16:07+0100\n"
-"PO-Revision-Date: 2013-03-29 17:40+0000\n"
+"PO-Revision-Date: 2013-03-29 18:31+0000\n"
 "Last-Translator: mikkoharhanen <gitti@mikkoharhanen.fi>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -22,7 +22,7 @@ msgstr ""
 #: ../liveusb/dialog.py:150 ../liveusb/launcher_ui.py:149
 #, python-format
 msgid "%(distribution)s LiveUSB Creator"
-msgstr "%(distribution)s LiveUSB -luoja"
+msgstr "%(distribution)s LiveUSB:n luoja"
 
 #: ../liveusb/gui.py:758
 #, python-format
@@ -89,7 +89,7 @@ msgstr "Jos varaat USB-tikulta vapaata tilaa pysyvää kerrosta varten, voit tal
 #: ../liveusb/creator.py:1120 ../liveusb/creator.py:1383
 #, python-format
 msgid "Calculating the SHA1 of %s"
-msgstr "Lasketaan %s:n SHA1-tiivistettä"
+msgstr "Lasketaan %s:n SHA1-tarkistussummaa"
 
 #: ../liveusb/creator.py:1331
 msgid "Cannot find"
@@ -170,11 +170,11 @@ msgstr "Virhe: Ei voida asettaa nimiötä tai hakea laitteen UUID:tä. Ei voida 
 msgid ""
 "Error: The SHA1 of your Live CD is invalid.  You can run this program with "
 "the --noverify argument to bypass this verification check."
-msgstr "Virhe: Live CD:n SHA1-tarkistussumma on virheellinen. Tämän ohjelman voi suorittaa --noverify-valitsimen kanssa tarkistuksen ohittamiseksi."
+msgstr "Virhe: LiveCD:n SHA1-tarkistussumma on virheellinen. Voit ajaa tämän ohjelman ja käyttää valitsinta --noverify, jolloin varmistus ohitetaan."
 
 #: ../liveusb/creator.py:144
 msgid "Extracting live image to USB device..."
-msgstr "Puretaan livelevykuva USB-laitteelle..."
+msgstr "Puretaan Live-levykuva USB-laitteelle..."
 
 #: ../liveusb/creator.py:1061
 #, python-format
@@ -183,11 +183,11 @@ msgstr "Alustetaan %(device)s FAT32:lla."
 
 #: ../liveusb/creator.py:139
 msgid "ISO MD5 checksum passed"
-msgstr "ISO MD5 -tarkistussumma hyväksyttiin"
+msgstr "ISO:n MD5-tarkistussumma varmistui"
 
 #: ../liveusb/creator.py:137
 msgid "ISO MD5 checksum verification failed"
-msgstr "ISO MD5 -tarkistussumma ei varmistunut"
+msgstr "ISO:n MD5-tarkistussumma ei varmistunut"
 
 #: ../liveusb/dialog.py:156
 msgid ""
@@ -214,7 +214,7 @@ msgstr "Asennetaan alkulatausohjelma..."
 
 #: ../liveusb/gui.py:281
 msgid "LiveUSB creation failed!"
-msgstr "LiveUSB:n tekeminen epäonnistui!"
+msgstr "LiveUSB:n luominen epäonnistui!"
 
 #: ../liveusb/creator.py:1332
 msgid ""
@@ -251,7 +251,7 @@ msgstr "Laitteella ei ole riittävästi vapaata tilaa."
 
 #: ../liveusb/gui.py:546
 msgid "Partition is FAT16; Restricting overlay size to 2G"
-msgstr "Osio on FAT16:ta. Rajataan koko 2 Gt:uun"
+msgstr "Osion levyjärjestelmä on FAT16: koko rajoitetaan 2 Gt:uun"
 
 #: ../liveusb/gui.py:592
 msgid "Persistent Storage"
@@ -305,7 +305,7 @@ msgstr "USB-laitteen %(device)s jotkut osiot on liitetty. Osiot irrotetaan ennen
 #: ../liveusb/creator.py:130
 msgid ""
 "Source type does not support verification of ISO MD5 checksum, skipping"
-msgstr "Lähteen tyyppi ei tue ISO MD5 -tarkistussumman varmistusta: vaihe ohitetaan."
+msgstr "Lähteen muoto ei tue ISO:n MD5-tarkistussumman varmistamista: vaihe ohitetaan"
 
 #: ../liveusb/creator.py:1144
 msgid "Synchronizing data on disk..."
@@ -480,19 +480,19 @@ msgstr "Päivitä ISOlta"
 
 #: ../liveusb/dialog.py:152
 msgid "Use existing Live system ISO"
-msgstr "Käytä olemassaolevaa Live ISOa"
+msgstr "Käytä olemassaolevaa Live-ISOa"
 
 #: ../liveusb/creator.py:132
 msgid "Verifying ISO MD5 checksum"
-msgstr "Varmistetaan ISO MD5 -tarkistussumma"
+msgstr "Varmistetaan ISO:n MD5-tarkistussumma"
 
 #: ../liveusb/creator.py:385
 msgid "Verifying SHA1 checksum of LiveCD image..."
-msgstr "Tarkistetaan LiveCD-levykuvan SHA1-summaa..."
+msgstr "Varmistetaan LiveCD-levykuvan SHA1-tarkistussumma..."
 
 #: ../liveusb/creator.py:389
 msgid "Verifying SHA256 checksum of LiveCD image..."
-msgstr "Tarkistetaan LiveCD-levykuvan SHA256-summaa..."
+msgstr "Varmistetaan LiveCD-levykuvan SHA256-tarkistussumma..."
 
 #: ../liveusb/creator.py:884 ../liveusb/creator.py:1204
 msgid "Verifying filesystem..."
@@ -512,7 +512,7 @@ msgid ""
 "Warning: The Master Boot Record on your device does not match your system's "
 "syslinux MBR.  If you have trouble booting this stick, try running the "
 "liveusb-creator with the --reset-mbr option."
-msgstr "Varoitus: Laitteesi Master Boot Record ei vastaa järjestelmäsi Syslinux MBR:ää. Jos sinulla on ongelmia käynnistää tietokone uudelleen tikulta, voit ajaa ohjelman liveusb-creator valitsimella --reset-mbr."
+msgstr "Varoitus: Laitteesi Master Boot Record ei vastaa järjestelmäsi Syslinux MBR:ää. Jos sinulla on ongelmia käynnistää tietokone uudelleen tikulta, voit ajaa ohjelman liveusb-creator ja käyttää valitsinta --reset-mbr."
 
 #: ../liveusb/gui.py:389
 msgid ""
