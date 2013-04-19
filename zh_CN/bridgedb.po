@@ -1,74 +1,102 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the PACKAGE package.
+# Translations template for BridgeDB.
+# Copyright (C) 2013 ORGANIZATION
+# This file is distributed under the same license as the BridgeDB project.
 # 
 # Translators:
-# Christopher Meng <cickumqt@gmail.com>, 2012.
-# hanl <iamh4n@gmail.com>, 2011.
+# simabull tsai, 2013
+# Christopher Meng <cickumqt@gmail.com>, 2012
+# hanl <iamh4n@gmail.com>, 2011
 msgid ""
 msgstr ""
 "Project-Id-Version: The Tor Project\n"
 "Report-Msgid-Bugs-To: https://trac.torproject.org/projects/tor\n"
-"POT-Creation-Date: 2011-01-01 07:48-0800\n"
-"PO-Revision-Date: 2012-08-01 10:08+0000\n"
-"Last-Translator: Christopher Meng <cickumqt@gmail.com>\n"
+"POT-Creation-Date: 2013-03-27 21:41+0000\n"
+"PO-Revision-Date: 2013-04-19 07:39+0000\n"
+"Last-Translator: simabull tsai\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 0.9.6\n"
 "Language: zh_CN\n"
-"Plural-Forms: nplurals=1; plural=0\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
 
-#: lib/bridgedb/I18n.py:21
-msgid "Here are your bridge relays: "
-msgstr "以下为桥接中继服务器地址："
+#: lib/bridgedb/templates/base.html:33
+msgid "What are bridges?"
+msgstr "什么是网桥中继？"
 
-#: lib/bridgedb/I18n.py:23
+#: lib/bridgedb/templates/base.html:34
+#, python-format
 msgid ""
-"Bridge relays (or \"bridges\" for short) are Tor relays that aren't listed\n"
-"in the main directory. Since there is no complete public list of them,\n"
-"even if your ISP is filtering connections to all the known Tor relays,\n"
-"they probably won't be able to block all the bridges."
-msgstr "网桥中继服务器，简称网桥(bridges)，是指那些未公开在主目录的中继服务器⏎\n因为完整的网桥地址是不公开的，即使您的 ISP 过滤所有的 Tor 的中继服务器，估计也无法封锁所有的网桥。"
+"%s Bridge relays %s are Tor relays that help you circumvent censorship."
+msgstr "%s 网桥中继 %s 是一种 Tor 中继，用于帮助用户规避审查。"
 
-#: lib/bridgedb/I18n.py:28
+#: lib/bridgedb/templates/base.html:39
+msgid "I need an alternative way of getting bridges!"
+msgstr "需要网桥的其他获取方式！"
+
+#: lib/bridgedb/templates/base.html:40
+#, python-format
 msgid ""
-"To use the above lines, go to Vidalia's Network settings page, and click\n"
-"\"My ISP blocks connections to the Tor network\". Then add each bridge\n"
+"Another way to find public bridge addresses is to send an email (from a %s "
+"or a %s address) to %s with the line 'get bridges' by itself in the body of "
+"the mail."
+msgstr "Another way to find public bridge addresses is to send an email (from a %s or a %s address) to %s with the line 'get bridges' by itself in the body of the mail."
+
+#: lib/bridgedb/templates/base.html:48
+msgid "My bridges don't work! I need help!"
+msgstr "网桥无法正常使用，我需要帮助！"
+
+#: lib/bridgedb/templates/base.html:49
+#, python-format
+msgid ""
+"If your Tor doesn't work, you should email %s. Try including as much info "
+"about your case as you can, including the list of bridges you used, the "
+"bundle filename/version you used, the messages that Tor gave out, etc."
+msgstr "如果 Tor 无法正常运行，请发送电子邮件至 %s。请在邮件中提供尽可能详细的信息，例如：使用的网桥列表，所用的软件包文件名/版本，Tor 所显示的信息等等。"
+
+#: lib/bridgedb/templates/bridges.html:10
+msgid ""
+"To use the above lines, go to Vidalia's Network settings page, and click "
+"\"My ISP blocks connections to the Tor network\". Then add each bridge "
 "address one at a time."
-msgstr "使用下列地址，请打开 Vidalia 网络设置， 选中“我的 ISP 阻挡了对 Tor 网络的连接\"。 之后请依次添加服务器。"
+msgstr "需如使用以上地址，请打开 Vidalia 网络设置，选中“我的 ISP 阻挡了对 Tor 网络的连接\"，然后依次添加网络地址。"
 
-#: lib/bridgedb/I18n.py:32
-msgid ""
-"Configuring more than one bridge address will make your Tor connection\n"
-"more stable, in case some of the bridges become unreachable."
-msgstr "如果桥接变得不稳定，配置两个桥接会使您的链接更稳定。"
+#: lib/bridgedb/templates/bridges.html:13
+msgid "No bridges currently available"
+msgstr "当前无可用的网桥中继"
 
-#: lib/bridgedb/I18n.py:35
-msgid ""
-"Another way to find public bridge addresses is to send mail to\n"
-"bridges@torproject.org with the line \"get bridges\" by itself in the body\n"
-"of the mail. However, so we can make it harder for an attacker to learn\n"
-"lots of bridge addresses, you must send this request from an email address at\n"
-"one of the following domains:"
-msgstr "您也可以发送内容为“get bridges” 的邮件到 bridges@torproject.org 获取更多的公开网桥地址。为了使攻击者难以获取网桥地址，你必须从以下域名（邮件服务商）发送邮件："
+#: lib/bridgedb/templates/captcha.html:6
+msgid "Upgrade your browser to Firefox"
+msgstr "请将你的浏览器升级至 Firefox"
 
-#: lib/bridgedb/I18n.py:41
-msgid "[This is an automated message; please do not reply.]"
-msgstr "[这是一封自动生成的邮件，请勿回复]"
+#: lib/bridgedb/templates/captcha.html:8
+msgid "Type the two words"
+msgstr "请输入图中的两个单词"
 
-#: lib/bridgedb/I18n.py:43
-msgid ""
-"Another way to find public bridge addresses is to visit\n"
-"https://bridges.torproject.org/. The answers you get from that page\n"
-"will change every few days, so check back periodically if you need more\n"
-"bridge addresses."
-msgstr "您也可以访问 https://bridges.torproject.org 以获取公开网桥服务器地址。 网桥服务器地址会经常更新，请定期回访。"
+#: lib/bridgedb/templates/index.html:6
+msgid "Step 1"
+msgstr "第 1 步"
 
-#: lib/bridgedb/I18n.py:48
-msgid "(no bridges currently available)"
-msgstr "暂无网桥服务器"
+#: lib/bridgedb/templates/index.html:8
+#, python-format
+msgid "Get %s Tor Browser Bundle %s"
+msgstr "获取 %s Tor Browser Bundle %s"
 
-#: lib/bridgedb/I18n.py:50
-msgid "(e-mail requests not currently supported)"
-msgstr "电子邮件请求尚未支持"
+#: lib/bridgedb/templates/index.html:13
+msgid "Step 2"
+msgstr "第 2 步"
+
+#: lib/bridgedb/templates/index.html:15
+#, python-format
+msgid "Get %s bridges %s"
+msgstr "获取 %s bridges %s"
+
+#: lib/bridgedb/templates/index.html:19
+msgid "Step 3"
+msgstr "第 3 步"
+
+#: lib/bridgedb/templates/index.html:21
+#, python-format
+msgid "Now %s add the bridges to Tor %s"
+msgstr "现在可%s 将网桥添加到 Tor %s"
