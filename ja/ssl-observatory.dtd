@@ -1,9 +1,9 @@
 <!-- Observatory popup window -->
-<!ENTITY ssl-observatory.popup.details "">
-<!ENTITY ssl-observatory.popup.later "">
+<!ENTITY ssl-observatory.popup.details "詳細とプライバシー情報">
+<!ENTITY ssl-observatory.popup.later "後で通知する">
 <!ENTITY ssl-observatory.popup.no "いいえ">
 
-<!ENTITY ssl-observatory.popup.text "">
+<!ENTITY ssl-observatory.popup.text "HTTPS EverywhereはObservatoryに受け取る証明書を送信することで、あなたのブラウザに対する攻撃を検知できます。これを有効にしますか？">
 
 <!--<!ENTITY ssl-observatory.popup.text 
 "EFF's SSL Observatory can detect attacks against HTTPS websites by collecting
@@ -11,23 +11,23 @@ and auditing the certificates being presented to your browser. Would you like
 to turn it on?">-->
 
 <!ENTITY ssl-observatory.popup.title 
-"">
+"HTTPS EverywhereはSSL Observatoryを使用するべきですか？">
 
 <!ENTITY ssl-observatory.popup.yes "はい">
 
 <!-- Observatory preferences dialog -->
 
 <!ENTITY ssl-observatory.prefs.adv_priv_opts1
-"">
+"非常に鑑賞される企業ネットワークを使用していなければ、これを有効にする方が安全です:">
 
 <!ENTITY ssl-observatory.prefs.adv_priv_opts2
-"">
+"次の秘密イントラネットのサーバー名で企業ネットワークを使用しなければ、安全です:">
 
 <!ENTITY ssl-observatory.prefs.alt_roots 
-"">
+"非標準のルートCAによって署名された証明書を確認して情報提供する。">
 
 <!ENTITY ssl-observatory.prefs.alt_roots_tooltip 
-"">
+"干渉される企業ネットワークや、TLSプロキシとプライベートルート認証局であなたのブラウジングをモニターしているKasperskyアンチウイルスソフトウェアを使用していなければ、このオプションを有効にすることは安全です (そして、良いアイディアです)。そのようなネットワークで有効にした場合、このオプションは、それが発行する一意な証明書のために、どんなhttps:// domainsがそのプロキシを通じて訪れられたかの証拠を提供してしまう恐れがあります。そのために、私たちはデフォルトではそれをオフにしています。">
 
 <!ENTITY ssl-observatory.prefs.anonymous "匿名性のために証明書のチェックにTorを使う。">
 <!ENTITY ssl-observatory.prefs.anonymous_unavailable 
@@ -36,15 +36,18 @@ to turn it on?">-->
 "このオプションはTorがインストールされ、動作している必要があります。">
 
 <!ENTITY ssl-observatory.prefs.asn 
-"">
+"新しい証明書を確認したとき、ObservatoryにあなたがどのISPに接続しているのか伝える">
 
 <!ENTITY ssl-observatory.prefs.asn_tooltip
-"">
+"これはあなたのネットワークの「自律システム番号」を収集し、送信します。これは私たちがHTTPSに対する攻撃を検出しするのを支援します。また、私たちが攻撃が比較的一般的であるイランやシリアのような場所でネットワークに観測所を持っているのか確認するのに役立ちます。">
 
 <!ENTITY ssl-observatory.prefs.done "完了">
 
 <!ENTITY ssl-observatory.prefs.explanation 
-"">
+"HTTPS EverywhereはEFFのSSL Observatoryを使用することができます。これは２つの働きをします: (1)
+私たちが中間者攻撃を検出し、ウェブセキュリティを向上させるのを支援するために、HTTP証明書のコピーを観測所に送信します。
+そして、(2)
+私たちが安全でない接続やブラウザへの攻撃を警告できるようにします。">
 
 <!--<!ENTITY ssl-observatory.prefs.explanation2
 "When you visit https://www.example.com, the Observatory will learn that
@@ -71,7 +74,7 @@ Mouseover the options for further details:">-->
 
 <!ENTITY ssl-observatory.prefs.show "高度な設定を表示する">
 
-<!ENTITY ssl-observatory.prefs.title "">
+<!ENTITY ssl-observatory.prefs.title "ssl Observatoryの設定">
 
 <!ENTITY ssl-observatory.prefs.use "">
 <!ENTITY ssl-observatory.warning.title "">
