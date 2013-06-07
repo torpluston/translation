@@ -4,13 +4,14 @@
 # 
 # Translators:
 # sgtpepper <barlasmirc@gmail.com>, 2013
+# Tosbaa <conan@operamail.com>, 2013
 msgid ""
 msgstr ""
 "Project-Id-Version: The Tor Project\n"
 "Report-Msgid-Bugs-To: https://trac.torproject.org/projects/tor\n"
 "POT-Creation-Date: 2012-11-27 21:00+0100\n"
-"PO-Revision-Date: 2013-06-01 14:50+0000\n"
-"Last-Translator: sgtpepper <barlasmirc@gmail.com>\n"
+"PO-Revision-Date: 2013-06-07 20:40+0000\n"
+"Last-Translator: Tosbaa <conan@operamail.com>\n"
 "Language-Team: Turkish (http://www.transifex.com/projects/p/torproject/language/tr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -36,7 +37,7 @@ msgstr "GnuPG anahtarlıkları ve ayarları"
 
 #: ../lib/Tails/Persistence/Configuration/Presets.pm:68
 msgid "SSH Client"
-msgstr "SSH kullanıcısı"
+msgstr "SSH İstemcisi"
 
 #: ../lib/Tails/Persistence/Configuration/Presets.pm:70
 msgid "SSH keys, configuration and known hosts"
@@ -44,7 +45,7 @@ msgstr "SSH anahtarları, ayar ve bilinen sunucular"
 
 #: ../lib/Tails/Persistence/Configuration/Presets.pm:78
 msgid "Pidgin"
-msgstr "Uluslararası dil"
+msgstr "Pidgin"
 
 #: ../lib/Tails/Persistence/Configuration/Presets.pm:80
 msgid "Pidgin profiles and OTR keyring"
@@ -88,7 +89,7 @@ msgstr "APT paketleri"
 
 #: ../lib/Tails/Persistence/Configuration/Presets.pm:130
 msgid "Packages downloaded by APT"
-msgstr "APT tarfından indirilen paketler"
+msgstr "APT tarafından indirilen paketler"
 
 #: ../lib/Tails/Persistence/Configuration/Presets.pm:138
 msgid "APT Lists"
@@ -105,7 +106,7 @@ msgstr "Dot dosyaları"
 #: ../lib/Tails/Persistence/Configuration/Presets.pm:150
 msgid ""
 "Symlink into $HOME every file or directory found in the `dotfiles' directory"
-msgstr "$HOME'a symlink her dosya veya klasör 'dotfiles' klasöründe bulundu."
+msgstr "\"Dotfiles\" dizininde bulunan tüm dosya ve dizinlerin $HOME'da kısayolunu oluştur"
 
 #: ../lib/Tails/Persistence/Setup.pm:259
 msgid ""
@@ -129,7 +130,7 @@ msgstr "%s aracı zaten kalıcı cilte sahip"
 #: ../lib/Tails/Persistence/Setup.pm:450
 #, perl-format
 msgid "Device %s has not enough unallocated space."
-msgstr "%s cihazında yeteri kadar ayrışmamaış boşluğu yok."
+msgstr "%s cihazında yeteri kadar ayrışmamış boşluğu yok."
 
 #: ../lib/Tails/Persistence/Setup.pm:458 ../lib/Tails/Persistence/Setup.pm:472
 #, perl-format
@@ -144,7 +145,7 @@ msgstr "Kullanım halinde olduğu için kalıcı volüm silinemedi. Tails'i kal�
 
 #: ../lib/Tails/Persistence/Setup.pm:483
 msgid "Persistence volume is not unlocked."
-msgstr "Kalıcılık volümü kilitli değil"
+msgstr "Kalıcılık volümü kilitsiz değil. "
 
 #: ../lib/Tails/Persistence/Setup.pm:488
 msgid "Persistence volume is not mounted."
@@ -161,17 +162,17 @@ msgstr "Kalıcılık volümü yazılabilir değil. Belki de sadece okunur olarak
 #: ../lib/Tails/Persistence/Setup.pm:507
 #, perl-format
 msgid "Tails is running from non-USB device %s."
-msgstr "Tail USB aracı olmayan bir aygıttan %s çalışıyor"
+msgstr "Tails USB aracı olmayan %s aygıtından çalışıyor."
 
 #: ../lib/Tails/Persistence/Setup.pm:513
 #, perl-format
 msgid "Device %s is optical."
-msgstr "%s cihazı optikal."
+msgstr "%s cihazı optik."
 
 #: ../lib/Tails/Persistence/Setup.pm:520
 #, perl-format
 msgid "Device %s was not created using Tails USB installer."
-msgstr "%s cihazı Tails USB kurucusu olmadan yaratılmış."
+msgstr "%s cihazı Tails USB kurucusu tarafından yaratılmamış."
 
 #: ../lib/Tails/Persistence/Setup.pm:554
 msgid "Error"
@@ -194,7 +195,7 @@ msgstr "Kalıcılık Sihirbazı - Kalıcı Volüm yaratımı"
 
 #: ../lib/Tails/Persistence/Step/Bootstrap.pm:57
 msgid "Choose a passphrase to protect the persistent volume"
-msgstr "Persistan volümü korumak için bir parola seçiniz."
+msgstr "Kalıcı volümü korumak için bir parola seçiniz."
 
 #. TRANSLATORS: size, device vendor, device model
 #: ../lib/Tails/Persistence/Step/Bootstrap.pm:61
@@ -202,7 +203,7 @@ msgstr "Persistan volümü korumak için bir parola seçiniz."
 msgid ""
 "A %s persistent volume will be created on the <b>%s %s</b> device. Data on "
 "this volume will be stored in an encrypted form protected by a passphrase."
-msgstr ""
+msgstr "<b>%s %s</b> aygıtında kalıcı bir %s bölümü oluşturulacak. Bu bölümle ilgili veriler parola tarafından şifrelenmiş şekilde depolanacak."
 
 #: ../lib/Tails/Persistence/Step/Bootstrap.pm:66
 msgid "Create"
@@ -214,7 +215,7 @@ msgid ""
 "understood. Tails can't help you if you use it wrong! See <a "
 "href='file:///usr/share/doc/tails/website/doc/first_steps/persistence.en.html'>Tails"
 " documentation about persistence</a> to learn more."
-msgstr "<b>Beware!</b> Kalıcılığın kullanımı iyice anlaşılması gereken sonuçları vardır. Eğer yanlış kullanırsanız Tails size yardım edemez. Kalıcılık ile ilgili daha çok bilgi için burayı inceleyebilirsiniz. <a href='file:///usr/share/doc/tails/website/doc/first_steps/persistence.en.html'>"
+msgstr "<b>Dikkat!</b> Kalıcılığın kullanımı iyice anlaşılması gereken sonuçları vardır. Eğer yanlış kullanırsanız Tails size yardım edemez. Kalıcılık ile ilgili daha çok bilgi için burayı inceleyebilirsiniz. <a href='file:///usr/share/doc/tails/website/doc/first_steps/persistence.en.html'>"
 
 #: ../lib/Tails/Persistence/Step/Bootstrap.pm:144
 msgid "Passphrase:"
@@ -246,7 +247,7 @@ msgstr "Tails sistem ayırıcısındaki özellikler doğrulanıyor"
 #: ../lib/Tails/Persistence/Step/Bootstrap.pm:272
 #: ../lib/Tails/Persistence/Step/Delete.pm:87
 msgid "The attributes of the Tails system partition will be corrected."
-msgstr "Tails sistem ayırıcısındaki özellikler doğrulanacak"
+msgstr "Tails sistem ayırıcısındaki özellikler düzeltilecek."
 
 #: ../lib/Tails/Persistence/Step/Bootstrap.pm:280
 msgid "Mounting Tails persistence partition."
@@ -306,7 +307,7 @@ msgstr "Kalıcılık sihirbazı - Kalıcı volüm kaldırılması"
 
 #: ../lib/Tails/Persistence/Step/Delete.pm:44
 msgid "Your persistent data will be deleted."
-msgstr "Kalıcı volümünüz silinecek"
+msgstr "Kalıcı volümünüz silinecek."
 
 #: ../lib/Tails/Persistence/Step/Delete.pm:48
 #, perl-format
