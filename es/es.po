@@ -12,7 +12,7 @@ msgstr ""
 "Project-Id-Version: The Tor Project\n"
 "Report-Msgid-Bugs-To: https://trac.torproject.org/projects/tor\n"
 "POT-Creation-Date: 2013-08-01 15:27+0200\n"
-"PO-Revision-Date: 2013-08-02 14:41+0000\n"
+"PO-Revision-Date: 2013-08-02 15:00+0000\n"
 "Last-Translator: strel <strelnic@gmail.com>\n"
 "Language-Team: Spanish (http://www.transifex.com/projects/p/torproject/language/es/)\n"
 "MIME-Version: 1.0\n"
@@ -128,7 +128,7 @@ msgstr "Creando sistema de archivos persistente de %s MB"
 #: ../liveusb/gui.py:556
 msgid ""
 "Device is not yet mounted, so we cannot determine the amount of free space."
-msgstr "El dispositivo no está montado aún, por lo que no podemos determinar la cantidad de espacio libre."
+msgstr "El dispositivo no está montado aún, por lo que no se pudo determinar la cantidad de espacio libre."
 
 #: ../liveusb/dialog.py:157
 #, python-format
@@ -155,7 +155,7 @@ msgstr "La unidad es de tipo loopback (virtual, de bucle), omitiendo el restable
 #: ../liveusb/creator.py:808
 #, python-format
 msgid "Entering unmount_device for '%(device)s'"
-msgstr ""
+msgstr "Ejecutando unmount_device para '%(device)s'"
 
 #: ../liveusb/creator.py:1182
 msgid "Error probing device"
@@ -251,7 +251,7 @@ msgstr "No se encontraron puntos de montaje"
 msgid ""
 "Not enough free space on device.\n"
 "%dMB ISO + %dMB overlay > %dMB free space"
-msgstr "No hay suficiente espacio libre en el dispositivo.\n%dMB ISO + %dMB overlay (espacio extra de almacenamiento persistente) > %dMB espacio libre"
+msgstr "No hay suficiente espacio libre en el dispositivo.\n%dMB ISO + %dMB partición de datos persistentes (overlay) > %dMB espacio libre"
 
 #: ../liveusb/gui.py:543
 msgid "Partition is FAT16; Restricting overlay size to 2G"
@@ -259,12 +259,12 @@ msgstr "La partición es FAT16; Restringiendo el tamaño del sistema de archivos
 
 #: ../liveusb/gui.py:539
 msgid "Partition is FAT32; Restricting overlay size to 4G"
-msgstr ""
+msgstr "La partición es FAT32; restringiendo el tamaño de la partición de datos persistentes (overlay) a 4G"
 
 #: ../liveusb/creator.py:226 ../liveusb/creator.py:837
 #, python-format
 msgid "Partitioning device %(device)s"
-msgstr ""
+msgstr "Particionando el dispositivo %(device)s"
 
 #: ../liveusb/gui.py:610
 msgid "Persistent Storage"
@@ -466,12 +466,12 @@ msgstr "Versión desconocida: %s"
 #: ../liveusb/creator.py:822
 #, python-format
 msgid "Unmounting '%(udi)s' on '%(device)s'"
-msgstr ""
+msgstr "Desmontando '%(udi)s' en '%(device)s'"
 
 #: ../liveusb/creator.py:818
 #, python-format
 msgid "Unmounting mounted filesystems on '%(device)s'"
-msgstr ""
+msgstr "Desmontando los sistemas de ficheros montados en '%(device)s'"
 
 #: ../liveusb/creator.py:765 ../liveusb/creator.py:877
 #, python-format
