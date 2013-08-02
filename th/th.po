@@ -11,9 +11,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: The Tor Project\n"
 "Report-Msgid-Bugs-To: https://trac.torproject.org/projects/tor\n"
-"POT-Creation-Date: 2013-02-14 16:07+0100\n"
-"PO-Revision-Date: 2013-07-27 11:30+0000\n"
-"Last-Translator: Mishari Muqbil <mishari@mishari.net>\n"
+"POT-Creation-Date: 2013-08-01 15:27+0200\n"
+"PO-Revision-Date: 2013-08-02 09:27+0000\n"
+"Last-Translator: runasand <runa.sandvik@gmail.com>\n"
 "Language-Team: Thai (http://www.transifex.com/projects/p/torproject/language/th/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -26,12 +26,12 @@ msgstr ""
 msgid "%(distribution)s LiveUSB Creator"
 msgstr "%(distribution)s LiveUSB Creator"
 
-#: ../liveusb/gui.py:758
+#: ../liveusb/gui.py:776
 #, python-format
 msgid "%(filename)s selected"
 msgstr "%(filename)s ถูกเลือก"
 
-#: ../liveusb/creator.py:1018
+#: ../liveusb/creator.py:1004
 #, python-format
 msgid "%s already bootable"
 msgstr "%s บูตได้อยู่แล้ว"
@@ -88,16 +88,16 @@ msgid ""
 "persist after a reboot."
 msgstr "จากการเพิ่มพื้นที่เก็บถาวรในแผ่น USB คุณสามารถที่จะเก็บข้อมูลและทำการเปลี่ยนแปลงต่อระบบปฏิบัติการได้ ถ้าคุณไม่ทำคุณไม่สามารถที่จะเก็บข้อมูลหลังการรีบูต"
 
-#: ../liveusb/creator.py:1120 ../liveusb/creator.py:1383
+#: ../liveusb/creator.py:1106 ../liveusb/creator.py:1369
 #, python-format
 msgid "Calculating the SHA1 of %s"
 msgstr "กำลังคำนวณ the SHA1 of %s"
 
-#: ../liveusb/creator.py:1331
+#: ../liveusb/creator.py:1317
 msgid "Cannot find"
 msgstr "ไม่สามารถค้นหา"
 
-#: ../liveusb/creator.py:574
+#: ../liveusb/creator.py:545
 #, python-format
 msgid "Cannot find device %s"
 msgstr "ไม่สามารถหาอุปกรณ์ %s"
@@ -120,74 +120,73 @@ msgstr "โคลน\n&&\nปรับรุ่น"
 msgid "Create Live USB"
 msgstr "สร้าง Live USB"
 
-#: ../liveusb/creator.py:429
+#: ../liveusb/creator.py:400
 #, python-format
 msgid "Creating %sMB persistent overlay"
 msgstr "กำลังสร้างที่เก็บถาวร %sMB"
 
-#: ../liveusb/gui.py:534
+#: ../liveusb/gui.py:556
 msgid ""
 "Device is not yet mounted, so we cannot determine the amount of free space."
-"  Setting a maximum limit of 8G for the persistent storage."
-msgstr "อุปกรณ์ยังไม่ได้ถูกเมานต์ ดังนั้นเราไม่สามารถหาปริมาณที่ว่างได้ จะกำหนดขนาดที่เก็บถาวรสูงสุดเป็น 8G"
-
-#: ../liveusb/gui.py:197
-#, python-format
-msgid "Device is too small: it must be at least %s MiB."
-msgstr "อุปกรณ์นี้เล็กเกินไป: ขนาดต้องอย่างน้อย %s MiB"
+msgstr ""
 
 #: ../liveusb/dialog.py:157
 #, python-format
 msgid "Download %(distribution)s"
 msgstr "ดาวน์โหลด %(distribution)s"
 
-#: ../liveusb/gui.py:732
+#: ../liveusb/gui.py:750
 msgid "Download complete!"
 msgstr "ดาวน์โหลดเสร็จสิ้น!"
 
-#: ../liveusb/gui.py:736
+#: ../liveusb/gui.py:754
 msgid "Download failed: "
 msgstr "ดาวน์โหลดล้มเหลว:"
 
-#: ../liveusb/gui.py:84
+#: ../liveusb/gui.py:88
 #, python-format
 msgid "Downloading %s..."
 msgstr "กำลังดาวน์โหลด %s..."
 
-#: ../liveusb/creator.py:1116
+#: ../liveusb/creator.py:1102
 msgid "Drive is a loopback, skipping MBR reset"
 msgstr "ไดรฟ์ loopback, ข้ามไปเริ่มใหม่ MBR"
 
-#: ../liveusb/creator.py:1196
+#: ../liveusb/creator.py:808
+#, python-format
+msgid "Entering unmount_device for '%(device)s'"
+msgstr ""
+
+#: ../liveusb/creator.py:1182
 msgid "Error probing device"
 msgstr "ตรวจสอบข้อผิดพลาดของอุปกรณ์"
 
-#: ../liveusb/gui.py:226
+#: ../liveusb/gui.py:227
 msgid ""
 "Error: Cannot set the label or obtain the UUID of your device.  Unable to "
 "continue."
 msgstr "ผิดพลาด: ไม่สามารถกำหนดชื่อหรือหา UUID ของอุปกรณ์ของคุณ  ไม่สามารถดำเนินการต่อได้"
 
-#: ../liveusb/creator.py:405
+#: ../liveusb/creator.py:376
 msgid ""
 "Error: The SHA1 of your Live CD is invalid.  You can run this program with "
 "the --noverify argument to bypass this verification check."
 msgstr "ผิดพลาด: SHA1 ของ Live CD ของคุณผิดพลาด คุณสามารถรันโปรแกรมนี้โดยใช้อากิวเมนต์ --noverify เพื่อข้ามการตรวจสอบนี้"
 
-#: ../liveusb/creator.py:144
+#: ../liveusb/creator.py:145
 msgid "Extracting live image to USB device..."
 msgstr "กำลังแตก live image ไปยังอุปกรณ์ USB..."
 
-#: ../liveusb/creator.py:1061
+#: ../liveusb/creator.py:1047
 #, python-format
 msgid "Formatting %(device)s as FAT32"
 msgstr "ฟอร์แมต %(device)s เป็น FAT32"
 
-#: ../liveusb/creator.py:139
+#: ../liveusb/creator.py:140
 msgid "ISO MD5 checksum passed"
 msgstr "กำลังตรวจสอบ ISO MD5 checksum"
 
-#: ../liveusb/creator.py:137
+#: ../liveusb/creator.py:138
 msgid "ISO MD5 checksum verification failed"
 msgstr "การตรวจสอบค่า ISO MD5 checksum ล้มเหลว"
 
@@ -197,65 +196,77 @@ msgid ""
 "downloaded for you."
 msgstr "ถ้าคุณไม่ได้เลือก Live ISO ที่มีอยู่ก่อนแล้ว รุ่นที่เลือกจะถูกดาวน์โหลดให้คุณ"
 
-#: ../liveusb/gui.py:601
+#: ../liveusb/gui.py:619
 msgid "Installation complete!"
 msgstr "การติดตั้งเสร็จสิ้น!"
 
-#: ../liveusb/gui.py:276
+#: ../liveusb/gui.py:279
 #, python-format
 msgid "Installation complete! (%s)"
 msgstr "การติดตั้งเสร็จสิ้น! (%s)"
 
-#: ../liveusb/gui.py:602
+#: ../liveusb/gui.py:620
 msgid "Installation was completed. Press OK to close this program."
 msgstr "การติดตั้งเสร็จสิ้นแล้ว กด OK เพื่อปิดโปรแกรมนี้"
 
-#: ../liveusb/creator.py:913 ../liveusb/creator.py:1237
+#: ../liveusb/creator.py:900 ../liveusb/creator.py:1223
 msgid "Installing bootloader..."
 msgstr "กำลังติดตั้งบูตโหลดเดอร์..."
 
-#: ../liveusb/gui.py:281
+#: ../liveusb/gui.py:284
 msgid "LiveUSB creation failed!"
 msgstr "การสร้าง LiveUSB ไม่สำเร็จ!"
 
-#: ../liveusb/creator.py:1332
+#: ../liveusb/creator.py:1318
 msgid ""
 "Make sure to extract the entire liveusb-creator zip file before running this"
 " program."
 msgstr "กรุณาแตกไฟล์ซิป liveusb-creator ทั้งไฟล์ก่อนเรียกใช้โปรแกรมนี้"
 
-#: ../liveusb/creator.py:1208
+#: ../liveusb/creator.py:1194
 msgid ""
 "Make sure your USB key is plugged in and formatted with the FAT filesystem"
 msgstr "โปรดตรวจสอบให้แน่ใจว่าได้เสียบ USB key แล้วและถูกฟอร์แมตด้วยระบบไฟล์ FAT"
 
-#: ../liveusb/creator.py:847
+#: ../liveusb/creator.py:830
 #, python-format
 msgid "Mount %s exists after unmounting"
 msgstr "ใส่ %s ที่มีอยู่หลังถอดออก"
 
-#: ../liveusb/gui.py:663 ../liveusb/gui.py:680
+#: ../liveusb/gui.py:681 ../liveusb/gui.py:698
 msgid "Next"
 msgstr "ต่อไป"
 
-#: ../liveusb/gui.py:541
+#: ../liveusb/gui.py:562
 #, python-format
 msgid "No free space on device %(device)s"
 msgstr "ไม่มีพื้นที่ว่างบนอุปกรณ์ %(device)s"
 
-#: ../liveusb/creator.py:824
+#: ../liveusb/creator.py:797
 msgid "No mount points found"
 msgstr "ไม่พบจุดเมาต์"
 
-#: ../liveusb/creator.py:422
-msgid "Not enough free space on device."
-msgstr "มีที่ว่างบนอุปกรณ์ไม่พอ"
+#: ../liveusb/creator.py:393
+#, python-format
+msgid ""
+"Not enough free space on device.\n"
+"%dMB ISO + %dMB overlay > %dMB free space"
+msgstr ""
 
-#: ../liveusb/gui.py:546
+#: ../liveusb/gui.py:543
 msgid "Partition is FAT16; Restricting overlay size to 2G"
 msgstr "พาร์ติชั่นเป็น FAT16 จะกำหนดขนาดที่เก็บข้อมูลเป็น 2G"
 
-#: ../liveusb/gui.py:592
+#: ../liveusb/gui.py:539
+msgid "Partition is FAT32; Restricting overlay size to 4G"
+msgstr ""
+
+#: ../liveusb/creator.py:226 ../liveusb/creator.py:837
+#, python-format
+msgid "Partitioning device %(device)s"
+msgstr ""
+
+#: ../liveusb/gui.py:610
 msgid "Persistent Storage"
 msgstr "ที่เก็บถาวร"
 
@@ -263,53 +274,53 @@ msgstr "ที่เก็บถาวร"
 msgid "Persistent Storage (0 MB)"
 msgstr "ข้อมูลถาวร (0 MB)"
 
-#: ../liveusb/gui.py:661 ../liveusb/gui.py:678
+#: ../liveusb/gui.py:679 ../liveusb/gui.py:696
 msgid "Press 'Next' if you wish to continue."
 msgstr "กด 'Next' ถ้าคุณต้องการจะทำต่อ"
 
-#: ../liveusb/gui.py:452
+#: ../liveusb/gui.py:456
 msgid "Refreshing releases..."
 msgstr "กำลังรีเฟรชรุ่นต่างๆ..."
 
-#: ../liveusb/gui.py:457
+#: ../liveusb/gui.py:461
 msgid "Releases updated!"
 msgstr "ปรับปรุงรุ่นต่างๆแล้ว!"
 
-#: ../liveusb/creator.py:936 ../liveusb/creator.py:1255
+#: ../liveusb/creator.py:923 ../liveusb/creator.py:1241
 #, python-format
 msgid "Removing %(file)s"
 msgstr "ถอดแฟ้มออก %(file)s"
 
-#: ../liveusb/creator.py:498
+#: ../liveusb/creator.py:469
 msgid "Removing existing Live OS"
 msgstr "ถอดออกจาก Live OS ที่มีชื่อ"
 
-#: ../liveusb/creator.py:1110
+#: ../liveusb/creator.py:1096
 #, python-format
 msgid "Resetting Master Boot Record of %s"
 msgstr "เริ่ม Master Boot Record ใหม่ %s"
 
-#: ../liveusb/gui.py:743
+#: ../liveusb/gui.py:761
 msgid "Select Live ISO"
 msgstr "เลือก Live ISO"
 
-#: ../liveusb/creator.py:181
+#: ../liveusb/creator.py:182
 msgid "Setting up OLPC boot file..."
 msgstr "กำลังติดตั้งไฟล์บูท OLPC"
 
-#: ../liveusb/creator.py:738
+#: ../liveusb/creator.py:711
 #, python-format
 msgid ""
 "Some partitions of USB device %(device)s are mounted. They will be unmounted"
 " before starting the installation process."
 msgstr "บางส่วนของดิสก์พกพา %(device)s ถูกใส่ มันจะถูกถอดออกก่อนที่จะเริ่มกระบวนการติดตั้ง"
 
-#: ../liveusb/creator.py:130
+#: ../liveusb/creator.py:131
 msgid ""
 "Source type does not support verification of ISO MD5 checksum, skipping"
 msgstr "ประเภทของที่มาไม่สนับสนุนการตรวจสอบค่าของ ISO MD5 checksum, ข้าม"
 
-#: ../liveusb/creator.py:1144
+#: ../liveusb/creator.py:1130
 msgid "Synchronizing data on disk..."
 msgstr "กำลังประสานข้อมูลบนดิสก์"
 
@@ -317,19 +328,19 @@ msgstr "กำลังประสานข้อมูลบนดิสก์
 msgid "Target Device"
 msgstr " อุปกรณ์เป้าหมาย"
 
-#: ../liveusb/gui.py:625
+#: ../liveusb/gui.py:643
 msgid ""
 "The Master Boot Record on your device is blank. Pressing 'Create Live USB' "
 "again will reset the MBR on this device."
 msgstr "The Master Boot Record ในอุปกรณ์ของคุณว่างเปล่า กด 'Create Live USB' อีกครั้ง จะเริ่ม the MBR ในอุปกรณ์นี้"
 
-#: ../liveusb/gui.py:746
+#: ../liveusb/gui.py:764
 msgid ""
 "The selected file is unreadable. Please fix its permissions or select "
 "another file."
 msgstr "แฟ้มที่ถูกเลือกไม่สามารถอ่านได้ กรุณาแก้ไขสิทธิอนุญาตหรือเลือกแฟ้มอื่น"
 
-#: ../liveusb/creator.py:366
+#: ../liveusb/creator.py:337
 #, python-format
 msgid ""
 "There was a problem executing the following command: `%(command)s`.\n"
@@ -367,109 +378,114 @@ msgstr "แถบบอกความคืบหน้านี้จะทำ
 msgid "This is the status console, where all messages get written to."
 msgstr "ข้อความทั้งหมดจะถูกบรรทึกไว้ที่คอนโซลสถานะ"
 
-#: ../liveusb/creator.py:908
+#: ../liveusb/creator.py:895
 #, python-format
 msgid "Unable to change volume label: %(message)s"
 msgstr "ไม่สามารถเปลี่ยนชื่อของแผ่น: %(message)s"
 
-#: ../liveusb/creator.py:507 ../liveusb/creator.py:518
+#: ../liveusb/creator.py:478 ../liveusb/creator.py:489
 #, python-format
 msgid "Unable to chmod %(file)s: %(message)s"
 msgstr "ไม่สามารถ chmod %(file)s: %(message)s"
 
-#: ../liveusb/creator.py:488
+#: ../liveusb/creator.py:459
 #, python-format
 msgid "Unable to copy %(infile)s to %(outfile)s: %(message)s"
 msgstr "ไม่สามารถคัดลอก %(infile)s ไปที่ %(outfile)s: %(message)s"
 
-#: ../liveusb/gui.py:414
+#: ../liveusb/gui.py:418
 msgid "Unable to find any USB drive"
 msgstr "ไม่พบไดรฟ์ยูเอสบีใดๆ"
 
-#: ../liveusb/creator.py:1198
+#: ../liveusb/creator.py:1184
 msgid "Unable to find any removable device"
 msgstr "ไม่พบอุปกรณ์ดิสก์พกพา"
 
-#: ../liveusb/creator.py:1038
+#: ../liveusb/creator.py:1024
 msgid "Unable to find partition"
 msgstr "ไม่พบพาร์ติชัน"
 
-#: ../liveusb/creator.py:1278
+#: ../liveusb/creator.py:1264
 msgid ""
 "Unable to get Win32_LogicalDisk; win32com query did not return any results"
 msgstr "ไม่สามารถรับ Win32_LogicalDisk; win32com คำถามไม่ได้ผลลัพธ์ไดๆ"
 
-#: ../liveusb/gui.py:653
+#: ../liveusb/gui.py:671
 msgid "Unable to mount device"
 msgstr "ไม่สามารถเมานต์อุปกรณ์"
 
-#: ../liveusb/creator.py:812
+#: ../liveusb/creator.py:785
 #, python-format
 msgid "Unable to mount device: %(message)s"
 msgstr "ไม่สามารถใส่อุปกรณ์ %(message)s"
 
-#: ../liveusb/creator.py:523
+#: ../liveusb/creator.py:494
 #, python-format
 msgid "Unable to remove directory from previous LiveOS: %(message)s"
 msgstr "ไม่สามารถถอดออกไดเรกทอรีจาก  LiveOS: %(message)s ก่อนหน้า"
 
-#: ../liveusb/creator.py:511
+#: ../liveusb/creator.py:482
 #, python-format
 msgid "Unable to remove file from previous LiveOS: %(message)s"
 msgstr "ไม่สามารถถอดแฟ้มออกจาก LiveOS: %(message)s ก่อนหน้า"
 
-#: ../liveusb/creator.py:1113
+#: ../liveusb/creator.py:1099
 msgid ""
 "Unable to reset MBR.  You may not have the `syslinux` package installed."
 msgstr "ไม่สามารถเริ่มใหม่ MBR คุณอาจจะไม่ได้ติดตั้ง`syslinux` แพคเกจ"
 
-#: ../liveusb/gui.py:752
+#: ../liveusb/gui.py:770
 msgid ""
 "Unable to use the selected file.  You may have better luck if you move your "
 "ISO to the root of your drive (ie: C:\\)"
 msgstr "ไม่สามารถใช้แฟ้มที่เลือก อาจจะโชคดีกว่าถ้าย้าย ISO ไปไว้ที่รูตของไดรฟ์คุณ (ie: C:\\)"
 
-#: ../liveusb/creator.py:719
+#: ../liveusb/creator.py:692
 #, python-format
 msgid "Unable to write on %(device)s, skipping."
 msgstr "ไม่สามารถเขียนบน %(device)s, ข้ามไป"
 
-#: ../liveusb/creator.py:411
+#: ../liveusb/creator.py:382
 msgid "Unknown ISO, skipping checksum verification"
 msgstr "ไม่รู้จัก ISO จะข้ามการตรวจสอบ checksum"
 
-#: ../liveusb/creator.py:808
+#: ../liveusb/creator.py:781
 #, python-format
 msgid "Unknown dbus exception while trying to mount device: %(message)s"
 msgstr "ไม่ทราบการยกเว้น dbus ขณะพยายามใส่อุปกรณ์ %(message)s"
 
-#: ../liveusb/creator.py:787 ../liveusb/creator.py:887
+#: ../liveusb/creator.py:760 ../liveusb/creator.py:874
 msgid "Unknown filesystem.  Your device may need to be reformatted."
 msgstr "ไม่ทราบระบบแฟ้ม อุปกรณ์ของคุณอาจจะจำเป็นต้องถูกจัดระบบใหม่"
 
-#: ../liveusb/gui.py:80
+#: ../liveusb/gui.py:84
 #, python-format
 msgid "Unknown release: %s"
 msgstr "ไม่ทราบรุ่น: %s"
 
-#: ../liveusb/creator.py:835
+#: ../liveusb/creator.py:822
 #, python-format
-msgid "Unmounting %(device)s"
-msgstr "ไม่สามารถใส่อุปกรณ์ %(device)s"
+msgid "Unmounting '%(udi)s' on '%(device)s'"
+msgstr ""
 
-#: ../liveusb/creator.py:792 ../liveusb/creator.py:890
+#: ../liveusb/creator.py:818
+#, python-format
+msgid "Unmounting mounted filesystems on '%(device)s'"
+msgstr ""
+
+#: ../liveusb/creator.py:765 ../liveusb/creator.py:877
 #, python-format
 msgid "Unsupported filesystem: %s"
 msgstr "ระบบไฟล์ไม่สนับสนุน: %s"
 
-#: ../liveusb/creator.py:790
+#: ../liveusb/creator.py:763
 #, python-format
 msgid ""
 "Unsupported filesystem: %s\n"
 "In case you are trying to upgrade a manually installed Tails system (that is, if it was installed without this installer), this option is not supported: you need to install it anew to start with, e.g. by choosing the \"Clone & Install\" action instead."
 msgstr "ระบบแฟ้มที่ไม่รองรับ: %s\nในกรณีที่คุณพยยามที่จะปรับรุ่นระบบ Tails ที่ติดตั้งด้วยมือคุณเอง (นั่นคือไม่ได้ลงโดยระบบติดตั้งนี้) ตัวเลือกนี้ไม่ได้รับการรองรับ:\nคุณต้องเริ่มติดตั้งใหม่โดยการใช้คำสั่ง \"โคลน & ติดตั้ง\"แทน"
 
-#: ../liveusb/creator.py:1211
+#: ../liveusb/creator.py:1197
 #, python-format
 msgid ""
 "Unsupported filesystem: %s\n"
@@ -484,65 +500,65 @@ msgstr "ปรับรุ่นจาก ISO"
 msgid "Use existing Live system ISO"
 msgstr "ใช้ ISO ระบบ Live ที่มีอยู่แล้ว"
 
-#: ../liveusb/creator.py:132
+#: ../liveusb/creator.py:133
 msgid "Verifying ISO MD5 checksum"
 msgstr "กำลังตรวจสอบ ISO MD5 checksum"
 
-#: ../liveusb/creator.py:385
+#: ../liveusb/creator.py:356
 msgid "Verifying SHA1 checksum of LiveCD image..."
 msgstr "ตรวจสอบค่า SHA1 checksum ของภาพ LiveCD"
 
-#: ../liveusb/creator.py:389
+#: ../liveusb/creator.py:360
 msgid "Verifying SHA256 checksum of LiveCD image..."
 msgstr "ตรวจสอบค่า SHA256 checksum ของภาพ LiveCD"
 
-#: ../liveusb/creator.py:884 ../liveusb/creator.py:1204
+#: ../liveusb/creator.py:871 ../liveusb/creator.py:1190
 msgid "Verifying filesystem..."
 msgstr "กำลังตรวจสอบระบบไฟล์..."
 
-#: ../liveusb/gui.py:659
+#: ../liveusb/gui.py:677
 msgid "Warning: All data on the selected drive will be lost."
 msgstr "คำเตือน: ข้อมูลทั้งหมดในไดรฟ์ทีเลือกจะหาย"
 
-#: ../liveusb/gui.py:676
+#: ../liveusb/gui.py:694
 msgid ""
 "Warning: Creating a new persistent overlay will delete your existing one."
 msgstr "คำเตือน: การสร้างที่เก็บข้อมูลจะลบอันก่อนหน้า"
 
-#: ../liveusb/gui.py:639
+#: ../liveusb/gui.py:657
 msgid ""
 "Warning: The Master Boot Record on your device does not match your system's "
 "syslinux MBR.  If you have trouble booting this stick, try running the "
 "liveusb-creator with the --reset-mbr option."
 msgstr "คำเตือน: The Master Boot Record ในอุปกรณ์ของคุณไม่เข้ากันกับระบบของ syslinux MBR ถ้าคุณมีปัญหาในการบูตจากดิสก์พกพานี้ พยายามทำงานบน liveusb-creator ด้วยการเลือก --reset-mbr"
 
-#: ../liveusb/gui.py:389
+#: ../liveusb/gui.py:392
 msgid ""
 "Warning: This tool needs to be run as an Administrator. To do this, right "
 "click on the icon and open the Properties. Under the Compatibility tab, "
 "check the \"Run this program as an administrator\" box."
 msgstr "คำเตือน: เครื่องมือนี้จำเป็นที่จะทำงานโดยผู้ดูแลระบบ ปฏิบัติโดยคลิกขวาที่ไอคอนและเปิดคุณสมบัติ อยู่ในแถบความเข้ากันได้, เลือกกล่อง \"ตรวจสอบการทำงานของโปรแกรมของผู้ดูแลระบบ\" "
 
-#: ../liveusb/creator.py:151
+#: ../liveusb/creator.py:152
 #, python-format
 msgid "Wrote to device at %(speed)d MB/sec"
 msgstr "เขียนไปยังอุปกรณ์ ณ %(speed)d MB/sec"
 
-#: ../liveusb/creator.py:636
+#: ../liveusb/creator.py:607
 msgid ""
 "You are using an old version of syslinux-extlinux that does not support the "
 "ext4 filesystem"
 msgstr "คุณกำลังใช้ syslinux-extlinux รุ่นเก่า ซึ่งไม่สนับสนุนระบบแฟ้ม the ext4 "
 
-#: ../liveusb/gui.py:737
+#: ../liveusb/gui.py:755
 msgid "You can try again to resume your download"
 msgstr "คุณสามารถลองอีกครั้งได้เพื่อดาวน์โหลดต่อ"
 
-#: ../liveusb/creator.py:91
+#: ../liveusb/creator.py:92
 msgid "You must run this application as root"
 msgstr "คุณต้องรันโปรแกรมนี้เป็นรูท"
 
-#: ../liveusb/gui.py:673
+#: ../liveusb/gui.py:691
 msgid ""
 "Your device already contains a LiveOS.\n"
 "If you continue, this will be overwritten."
