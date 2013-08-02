@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: The Tor Project\n"
 "Report-Msgid-Bugs-To: https://trac.torproject.org/projects/tor\n"
-"POT-Creation-Date: 2012-11-27 21:00+0100\n"
-"PO-Revision-Date: 2013-07-25 09:22+0000\n"
+"POT-Creation-Date: 2013-08-01 16:49+0200\n"
+"PO-Revision-Date: 2013-08-02 08:38+0000\n"
 "Last-Translator: runasand <runa.sandvik@gmail.com>\n"
 "Language-Team: Spanish (http://www.transifex.com/projects/p/torproject/language/es/)\n"
 "MIME-Version: 1.0\n"
@@ -107,81 +107,77 @@ msgid ""
 "Symlink into $HOME every file or directory found in the `dotfiles' directory"
 msgstr "Crear enlaces simbólicos (symlinks) en $HOME para todos los archivos o carpetas que se encuentren en la carpeta 'dotfiles'"
 
-#: ../lib/Tails/Persistence/Setup.pm:259
+#: ../lib/Tails/Persistence/Setup.pm:257
 msgid ""
 "The device Tails is running from cannot be found. Maybe you used the `toram'"
 " option?"
 msgstr "No se pudo encontrar el dispositivo desde el que Tails está ejecutándose. ¿Utilizó quizá la opción 'toram'?"
 
-#: ../lib/Tails/Persistence/Setup.pm:284
-msgid "'Unparseable partition path.'"
-msgstr "'Ruta de partición no procesable.'"
-
-#: ../lib/Tails/Persistence/Setup.pm:298
+#: ../lib/Tails/Persistence/Setup.pm:276
 msgid "Setup Tails persistent volume"
 msgstr "Establecer el volumen persistente de Tails"
 
-#: ../lib/Tails/Persistence/Setup.pm:442
+#: ../lib/Tails/Persistence/Setup.pm:420
 #, perl-format
 msgid "Device %s already has a persistent volume."
 msgstr "El dispositivo %s ya tiene un volumen persistente."
 
-#: ../lib/Tails/Persistence/Setup.pm:450
+#: ../lib/Tails/Persistence/Setup.pm:428
 #, perl-format
 msgid "Device %s has not enough unallocated space."
 msgstr "El dispositivo %s no tiene suficiente espacio sin asignar."
 
-#: ../lib/Tails/Persistence/Setup.pm:458 ../lib/Tails/Persistence/Setup.pm:472
+#: ../lib/Tails/Persistence/Setup.pm:436 ../lib/Tails/Persistence/Setup.pm:450
 #, perl-format
 msgid "Device %s has no persistent volume."
 msgstr "El dispositivo %s no tiene un volumen persistente."
 
-#: ../lib/Tails/Persistence/Setup.pm:464
+#: ../lib/Tails/Persistence/Setup.pm:442
 msgid ""
 "Cannot delete the persistent volume while in use. You should restart Tails "
 "without persistence."
 msgstr "No se puede eliminar el volumen persistente mientras está en uso. Debe reiniciar Tails sin persistencia."
 
-#: ../lib/Tails/Persistence/Setup.pm:483
+#: ../lib/Tails/Persistence/Setup.pm:461
 msgid "Persistence volume is not unlocked."
 msgstr "El volumen persistente no está desbloqueado."
 
-#: ../lib/Tails/Persistence/Setup.pm:488
+#: ../lib/Tails/Persistence/Setup.pm:466
 msgid "Persistence volume is not mounted."
 msgstr "El volumen persistente no está montado."
 
-#: ../lib/Tails/Persistence/Setup.pm:493
+#: ../lib/Tails/Persistence/Setup.pm:471
 msgid "Persistence volume is not readable. Permissions or ownership problems?"
 msgstr "El volumen persistente no se pudo leer. ¿Problemas de permisos o de propietarios?"
 
-#: ../lib/Tails/Persistence/Setup.pm:498
+#: ../lib/Tails/Persistence/Setup.pm:476
 msgid "Persistence volume is not writable. Maybe it was mounted read-only?"
 msgstr "El volumen persistente no se puede escribir. ¿Está quizá montado en modo sólo-lectura (read-only)?"
 
-#: ../lib/Tails/Persistence/Setup.pm:507
+#: ../lib/Tails/Persistence/Setup.pm:485
 #, perl-format
 msgid "Tails is running from non-USB device %s."
 msgstr "Tails está ejecutándose desde un dispositivo no-USB %s."
 
-#: ../lib/Tails/Persistence/Setup.pm:513
+#: ../lib/Tails/Persistence/Setup.pm:491
 #, perl-format
 msgid "Device %s is optical."
 msgstr "El dispositivo %s es óptico"
 
-#: ../lib/Tails/Persistence/Setup.pm:520
+#: ../lib/Tails/Persistence/Setup.pm:498
 #, perl-format
 msgid "Device %s was not created using Tails USB installer."
 msgstr "El dispositivo %s no fue creado usando el instalador USB de Tails."
 
-#: ../lib/Tails/Persistence/Setup.pm:554
+#: ../lib/Tails/Persistence/Setup.pm:532
 msgid "Error"
 msgstr "Error"
 
-#: ../lib/Tails/Persistence/Setup.pm:861
+#: ../lib/Tails/Persistence/Setup.pm:839
 msgid "Persistence wizard - Finished"
 msgstr "Asistente de persistencia - Finalizado"
 
-#: ../lib/Tails/Persistence/Setup.pm:864
+#: ../lib/Tails/Persistence/Setup.pm:842
 msgid ""
 "Any changes you have made will only take effect after restarting Tails.\n"
 "\n"
@@ -234,94 +230,76 @@ msgid "Passphrases do not match"
 msgstr "Las frases clave no concuerdan"
 
 #: ../lib/Tails/Persistence/Step/Bootstrap.pm:262
-#: ../lib/Tails/Persistence/Step/Configure.pm:189
+#: ../lib/Tails/Persistence/Step/Configure.pm:123
 msgid "Failed"
 msgstr "Error"
 
-#: ../lib/Tails/Persistence/Step/Bootstrap.pm:269
-#: ../lib/Tails/Persistence/Step/Delete.pm:84
-msgid "Correcting attributes on Tails system partition."
-msgstr "Corregir atributos en la partición del sistema Tails."
-
-#: ../lib/Tails/Persistence/Step/Bootstrap.pm:272
-#: ../lib/Tails/Persistence/Step/Delete.pm:87
-msgid "The attributes of the Tails system partition will be corrected."
-msgstr "Los atributos de la partición del sistema Tails serán corregidos."
-
-#: ../lib/Tails/Persistence/Step/Bootstrap.pm:280
+#: ../lib/Tails/Persistence/Step/Bootstrap.pm:271
 msgid "Mounting Tails persistence partition."
 msgstr "Montando la partición persistente de Tails."
 
-#: ../lib/Tails/Persistence/Step/Bootstrap.pm:283
+#: ../lib/Tails/Persistence/Step/Bootstrap.pm:274
 msgid "The Tails persistence partition will be mounted."
 msgstr "La partición persistente de Tails será montada."
 
-#: ../lib/Tails/Persistence/Step/Bootstrap.pm:304
+#: ../lib/Tails/Persistence/Step/Bootstrap.pm:296
 msgid "Creating..."
 msgstr "Creando... "
 
-#: ../lib/Tails/Persistence/Step/Bootstrap.pm:307
+#: ../lib/Tails/Persistence/Step/Bootstrap.pm:299
 msgid "Creating the persistent volume..."
 msgstr "Creando el volumen persistente... "
 
-#: ../lib/Tails/Persistence/Step/Configure.pm:60
+#: ../lib/Tails/Persistence/Step/Configure.pm:55
 msgid "Persistence wizard - Persistent volume configuration"
 msgstr "Asistente de persistencia - Configuración del volumen persistente"
 
-#: ../lib/Tails/Persistence/Step/Configure.pm:63
+#: ../lib/Tails/Persistence/Step/Configure.pm:58
 msgid "Specify the files that will be saved in the persistent volume"
 msgstr "Especificar los archivos que se guardarán en el volumen persistente"
 
 #. TRANSLATORS: partition, size, device vendor, device model
-#: ../lib/Tails/Persistence/Step/Configure.pm:67
+#: ../lib/Tails/Persistence/Step/Configure.pm:62
 #, perl-format
 msgid ""
 "The selected files will be stored in the encrypted partition %s (%s), on the"
 " <b>%s %s</b> device."
 msgstr "Los archivos seleccionados serán almacenados en la partición cifrada %s (%s), en el dispositivo <b>%s %s</b>."
 
-#: ../lib/Tails/Persistence/Step/Configure.pm:73
+#: ../lib/Tails/Persistence/Step/Configure.pm:68
 msgid "Save"
 msgstr "Guardar"
 
-#: ../lib/Tails/Persistence/Step/Configure.pm:135
-msgid "Make custom directory persistent (absolute path):"
-msgstr "Hacer persistente una carpeta personalizada (ruta absoluta): "
-
-#: ../lib/Tails/Persistence/Step/Configure.pm:141
-msgid "Destination:"
-msgstr "Destino: "
-
-#: ../lib/Tails/Persistence/Step/Configure.pm:204
+#: ../lib/Tails/Persistence/Step/Configure.pm:137
 msgid "Saving..."
 msgstr "Guardando... "
 
-#: ../lib/Tails/Persistence/Step/Configure.pm:207
+#: ../lib/Tails/Persistence/Step/Configure.pm:140
 msgid "Saving persistence configuration..."
 msgstr "Guardando la configuración de persistencia... "
 
-#: ../lib/Tails/Persistence/Step/Delete.pm:41
+#: ../lib/Tails/Persistence/Step/Delete.pm:40
 msgid "Persistence wizard - Persistent volume deletion"
 msgstr "Asistente de persistencia - Eliminación del volumen persistente"
 
-#: ../lib/Tails/Persistence/Step/Delete.pm:44
+#: ../lib/Tails/Persistence/Step/Delete.pm:43
 msgid "Your persistent data will be deleted."
 msgstr "Sus datos persistentes serán eliminados. "
 
-#: ../lib/Tails/Persistence/Step/Delete.pm:48
+#: ../lib/Tails/Persistence/Step/Delete.pm:47
 #, perl-format
 msgid ""
 "The persistent volume %s (%s), on the <b>%s %s</b> device, will be deleted."
 msgstr "El volumen persistente %s (%s), en el dispositivo <b>%s %s</b>, será eliminado."
 
-#: ../lib/Tails/Persistence/Step/Delete.pm:54
+#: ../lib/Tails/Persistence/Step/Delete.pm:53
 msgid "Delete"
 msgstr "Eliminar"
 
-#: ../lib/Tails/Persistence/Step/Delete.pm:99
+#: ../lib/Tails/Persistence/Step/Delete.pm:91
 msgid "Deleting..."
 msgstr "Eliminando... "
 
-#: ../lib/Tails/Persistence/Step/Delete.pm:102
+#: ../lib/Tails/Persistence/Step/Delete.pm:94
 msgid "Deleting the persistent volume..."
 msgstr "Eliminando el volumen persistente... "
