@@ -11,8 +11,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: The Tor Project\n"
 "Report-Msgid-Bugs-To: https://trac.torproject.org/projects/tor\n"
-"POT-Creation-Date: 2013-08-07 16:08+0200\n"
-"PO-Revision-Date: 2013-08-08 18:10+0000\n"
+"POT-Creation-Date: 2013-09-09 11:21+0200\n"
+"PO-Revision-Date: 2013-09-09 10:10+0000\n"
 "Last-Translator: strel <strelnic@gmail.com>\n"
 "Language-Team: Spanish (http://www.transifex.com/projects/p/torproject/language/es/)\n"
 "MIME-Version: 1.0\n"
@@ -91,7 +91,7 @@ msgstr "Con la asignación de espacio extra para un área persistente en su memo
 #: ../liveusb/creator.py:1106 ../liveusb/creator.py:1369
 #, python-format
 msgid "Calculating the SHA1 of %s"
-msgstr "Calculando el checksum SHA1 de %s "
+msgstr "Calculando el identificador criptográfico ('checksum') SHA1 de %s "
 
 #: ../liveusb/creator.py:1317
 msgid "Cannot find"
@@ -171,7 +171,7 @@ msgstr "Error: No se pudo establecer u obtener el UUID de su dispositivo. No se 
 msgid ""
 "Error: The SHA1 of your Live CD is invalid.  You can run this program with "
 "the --noverify argument to bypass this verification check."
-msgstr "Error: El checksum SHA1 de su CD autoarrancable (Live CD) no es válido. Puede ejecutar este programa con el modificador --noverify para evitar este chequeo de verificación."
+msgstr "Error: El identificador criptográfico ('checksum') SHA1 de su CD autoarrancable (Live CD) no es válido. Puede ejecutar este programa con el modificador --noverify para evitar este chequeo de verificación."
 
 #: ../liveusb/creator.py:145
 msgid "Extracting live image to USB device..."
@@ -184,11 +184,11 @@ msgstr "Formateando %(device)s como FAT32"
 
 #: ../liveusb/creator.py:140
 msgid "ISO MD5 checksum passed"
-msgstr "El checksum MD5 de la ISO es correcto"
+msgstr "El identificador criptográfico ('checksum') MD5 de la ISO es correcto"
 
 #: ../liveusb/creator.py:138
 msgid "ISO MD5 checksum verification failed"
-msgstr "Error en la verificación del checksum MD5 de la ISO"
+msgstr "Error en la verificación del identificador criptográfico ('checksum') MD5 de la ISO"
 
 #: ../liveusb/dialog.py:156
 msgid ""
@@ -247,8 +247,11 @@ msgid "No mount points found"
 msgstr "No se encontraron puntos de montaje"
 
 #: ../liveusb/creator.py:393
-msgid "Not enough free space on device."
-msgstr "No hay suficiente espacio libre en el dispositivo."
+#, python-format
+msgid ""
+"Not enough free space on device.\n"
+"%dMB ISO + %dMB overlay > %dMB free space"
+msgstr "No hay suficiente espacio libre en el dispositivo.\n%dMB ISO + %dMB partición de datos persistentes (overlay) > %dMB espacio libre"
 
 #: ../liveusb/gui.py:543
 msgid "Partition is FAT16; Restricting overlay size to 2G"
@@ -315,7 +318,7 @@ msgstr "Algunas particiones del dispositivo USB %(device)s están montadas. Ser�
 #: ../liveusb/creator.py:131
 msgid ""
 "Source type does not support verification of ISO MD5 checksum, skipping"
-msgstr "La fuente no soporta la verificación del checksum MD5 de la ISO, omitiendo..."
+msgstr "La fuente no soporta la verificación del identificador criptográfico ('checksum') MD5 de la ISO, omitiendo..."
 
 #: ../liveusb/creator.py:1130
 msgid "Synchronizing data on disk..."
@@ -444,7 +447,7 @@ msgstr "No se pudo escribir en %(device)s, omitiendo... "
 
 #: ../liveusb/creator.py:382
 msgid "Unknown ISO, skipping checksum verification"
-msgstr "ISO desconocida, omitiendo la verificación del checksum"
+msgstr "ISO desconocida, omitiendo la verificación del identificador criptográfico ('checksum')"
 
 #: ../liveusb/creator.py:781
 #, python-format
@@ -499,15 +502,15 @@ msgstr "Usar una ISO de sistema autoarrancable existente"
 
 #: ../liveusb/creator.py:133
 msgid "Verifying ISO MD5 checksum"
-msgstr "Verificando el checksum MD5 de la ISO"
+msgstr "Verificando el identificador criptográfico ('checksum') MD5 de la ISO"
 
 #: ../liveusb/creator.py:356
 msgid "Verifying SHA1 checksum of LiveCD image..."
-msgstr "Verificando el checksum SHA1 de la imagen del CD autoarrancable (LiveCD)... "
+msgstr "Verificando el identificador criptográfico ('checksum') SHA1 de la imagen del CD autoarrancable (LiveCD)... "
 
 #: ../liveusb/creator.py:360
 msgid "Verifying SHA256 checksum of LiveCD image..."
-msgstr "Verificando el checksum SHA256 de la imagen del CD autoarrancable (LiveCD)... "
+msgstr "Verificando el identificador criptográfico ('checksum') SHA256 de la imagen del CD autoarrancable (LiveCD)... "
 
 #: ../liveusb/creator.py:871 ../liveusb/creator.py:1190
 msgid "Verifying filesystem..."
