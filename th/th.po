@@ -11,8 +11,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: The Tor Project\n"
 "Report-Msgid-Bugs-To: https://trac.torproject.org/projects/tor\n"
-"POT-Creation-Date: 2013-08-07 16:08+0200\n"
-"PO-Revision-Date: 2013-08-12 14:40+0000\n"
+"POT-Creation-Date: 2013-09-09 11:21+0200\n"
+"PO-Revision-Date: 2013-09-30 03:09+0000\n"
 "Last-Translator: Mishari Muqbil <mishari@mishari.net>\n"
 "Language-Team: Thai (http://www.transifex.com/projects/p/torproject/language/th/)\n"
 "MIME-Version: 1.0\n"
@@ -247,8 +247,11 @@ msgid "No mount points found"
 msgstr "ไม่พบจุดเมาต์"
 
 #: ../liveusb/creator.py:393
-msgid "Not enough free space on device."
-msgstr "มีที่ว่างบนอุปกรณ์ไม่พอ"
+#, python-format
+msgid ""
+"Not enough free space on device.\n"
+"%dMB ISO + %dMB overlay > %dMB free space"
+msgstr "มีที่ว่างบนอุปกรณ์ไม่พอ\n%dMB ISO + %dMB ที่เก็บข้อมูล > %dMB พื้นที่ว่าง"
 
 #: ../liveusb/gui.py:543
 msgid "Partition is FAT16; Restricting overlay size to 2G"
