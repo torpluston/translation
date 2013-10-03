@@ -7,6 +7,7 @@
 # Daniel S. Koda <danielskoda@gmail.com>, 2008
 # eduardolvt, 2013
 # Augustine <evandro@geocities.com>, 2013
+# gv1974 <g.lucio@ig.com.br>, 2013
 # Igor Pires Soares <igor@projetofedora.org>, 2008
 # Rafael Gomes <rafaelgomes@projetofedora.org>, 2009
 # NICEcookie <rafaelmartinsrm@gmail.com>, 2012
@@ -15,8 +16,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: The Tor Project\n"
 "Report-Msgid-Bugs-To: https://trac.torproject.org/projects/tor\n"
-"POT-Creation-Date: 2013-08-07 16:08+0200\n"
-"PO-Revision-Date: 2013-08-21 14:50+0000\n"
+"POT-Creation-Date: 2013-09-09 11:21+0200\n"
+"PO-Revision-Date: 2013-10-03 14:43+0000\n"
 "Last-Translator: Communia <ameaneantie@riseup.net>\n"
 "Language-Team: Portuguese (Brazil) (http://www.transifex.com/projects/p/torproject/language/pt_BR/)\n"
 "MIME-Version: 1.0\n"
@@ -90,7 +91,7 @@ msgid ""
 "will be able to store data and make permanent modifications to your live "
 "operating system.  Without it, you will not be able to save data that will "
 "persist after a reboot."
-msgstr "Reservando espaço extra para uma camada permanente no drive USB , você poderá armazenar dados e fazer modificações permanentes no seu sistema operacional.  Caso contrário, será impossível salvar dados que permaneçam após uma reinicialização."
+msgstr "Reservando espaço extra para uma camada permanente no drive USB , você poderá armazenar dados e fazer modificações permanentes no seu sistema operacional.  Caso contrário, será impossível salvar os dados que restarem após uma reinicialização."
 
 #: ../liveusb/creator.py:1106 ../liveusb/creator.py:1369
 #, python-format
@@ -132,7 +133,7 @@ msgstr "Criando camada permanente de %sMB..."
 #: ../liveusb/gui.py:556
 msgid ""
 "Device is not yet mounted, so we cannot determine the amount of free space."
-msgstr "O dispositivo ainda não está montado, então não podemos determinar a quantidade de espaço livre."
+msgstr "O dispositivo ainda não está montado, por isso não podemos determinar a quantidade de espaço livre."
 
 #: ../liveusb/dialog.py:157
 #, python-format
@@ -150,7 +151,7 @@ msgstr "Download falhou: "
 #: ../liveusb/gui.py:88
 #, python-format
 msgid "Downloading %s..."
-msgstr "Fazendo download %s..."
+msgstr "Baixando %s..."
 
 #: ../liveusb/creator.py:1102
 msgid "Drive is a loopback, skipping MBR reset"
@@ -211,7 +212,7 @@ msgstr "Instalação concluída! (%s)"
 
 #: ../liveusb/gui.py:620
 msgid "Installation was completed. Press OK to close this program."
-msgstr "A instalação foi completada. Pressione OK para fechar este programa."
+msgstr "A instalação foi concluída. Clique em OK para fechar este programa."
 
 #: ../liveusb/creator.py:900 ../liveusb/creator.py:1223
 msgid "Installing bootloader..."
@@ -251,8 +252,11 @@ msgid "No mount points found"
 msgstr "Nenhum ponto de montagem encontrado"
 
 #: ../liveusb/creator.py:393
-msgid "Not enough free space on device."
-msgstr "Não há espaço suficiente no dispositivo."
+#, python-format
+msgid ""
+"Not enough free space on device.\n"
+"%dMB ISO + %dMB overlay > %dMB free space"
+msgstr "Não há espaço livre suficiente no dispositivo.\n%dMB ISO + %dMB overlay > %dMB free space"
 
 #: ../liveusb/gui.py:543
 msgid "Partition is FAT16; Restricting overlay size to 2G"
@@ -260,7 +264,7 @@ msgstr "A partição é FAT16; Restringindo o tamanho da camada a 2GB"
 
 #: ../liveusb/gui.py:539
 msgid "Partition is FAT32; Restricting overlay size to 4G"
-msgstr "A partição é FAT32; restringindo tamanho da cama de sobreposição para 4G"
+msgstr "A partição é FAT32; Restringindo o tamanho da camada de sobreposição para 4G"
 
 #: ../liveusb/creator.py:226 ../liveusb/creator.py:837
 #, python-format
@@ -273,7 +277,7 @@ msgstr "Armazenamento permanente"
 
 #: ../liveusb/dialog.py:161
 msgid "Persistent Storage (0 MB)"
-msgstr "Armazenagem permanente (0 MB)"
+msgstr "Armazenamento permanente (0 MB)"
 
 #: ../liveusb/gui.py:679 ../liveusb/gui.py:696
 msgid "Press 'Next' if you wish to continue."
@@ -299,7 +303,7 @@ msgstr "Removendo o sistema operacional Live existente"
 #: ../liveusb/creator.py:1096
 #, python-format
 msgid "Resetting Master Boot Record of %s"
-msgstr "Reinicializando o MBR de %s"
+msgstr "Reinicializando o Master Boot Record (MBR) de %s"
 
 #: ../liveusb/gui.py:761
 msgid "Select Live ISO"
@@ -319,7 +323,7 @@ msgstr "Algumas partições dos dispositivos USB %(device)s estão montadas. Ela
 #: ../liveusb/creator.py:131
 msgid ""
 "Source type does not support verification of ISO MD5 checksum, skipping"
-msgstr "Tipo da fonte não suporta verificação de MD5, pulando"
+msgstr "Tipo de fonte não suporta verificação de MD5, pulando"
 
 #: ../liveusb/creator.py:1130
 msgid "Synchronizing data on disk..."
@@ -409,7 +413,7 @@ msgstr "Não foi possível localizar a partição"
 #: ../liveusb/creator.py:1264
 msgid ""
 "Unable to get Win32_LogicalDisk; win32com query did not return any results"
-msgstr "Não foi possível obter Win32_LogicalDisk; a consulta com win32com não retornou nenhum resultado"
+msgstr "Não foi possível obter Win32_LogicalDisk; a consulta com win32com não obteve nenhum resultado"
 
 #: ../liveusb/gui.py:671
 msgid "Unable to mount device"
@@ -499,7 +503,7 @@ msgstr "Atualizar a partir da ISO"
 
 #: ../liveusb/dialog.py:152
 msgid "Use existing Live system ISO"
-msgstr "Usar ISO do sistema Live existente"
+msgstr "Usar a ISO do sistema Live existente"
 
 #: ../liveusb/creator.py:133
 msgid "Verifying ISO MD5 checksum"
@@ -549,7 +553,7 @@ msgstr "Gravou no dispositivo a uma velocidade de %(speed)d MB/s"
 msgid ""
 "You are using an old version of syslinux-extlinux that does not support the "
 "ext4 filesystem"
-msgstr "Você está usando uma versão antiga do syslinux-extlinux que não suporta o sistema de arquivos ext4"
+msgstr "Você está usando uma versão antiga do syslinux-extlinux, que não suporta o sistema de arquivos ext4"
 
 #: ../liveusb/gui.py:755
 msgid "You can try again to resume your download"
