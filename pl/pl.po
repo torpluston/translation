@@ -4,14 +4,14 @@
 # 
 # Translators:
 # bogdrozd <bog.d@gazeta.pl>, 2013
-# sebx <sebastiansz@rocketmail.com>, 2013
+# sebx, 2013
 msgid ""
 msgstr ""
 "Project-Id-Version: The Tor Project\n"
-"Report-Msgid-Bugs-To: https://trac.torproject.org/projects/tor\n"
-"POT-Creation-Date: 2013-09-29 14:53+0200\n"
-"PO-Revision-Date: 2013-10-27 20:00+0000\n"
-"Last-Translator: sebx <sebastiansz@rocketmail.com>\n"
+"Report-Msgid-Bugs-To: Tails developers <tails@boum.org>\n"
+"POT-Creation-Date: 2013-10-26 23:24+0200\n"
+"PO-Revision-Date: 2013-11-06 09:25+0000\n"
+"Last-Translator: runasand <runa.sandvik@gmail.com>\n"
 "Language-Team: Polish (http://www.transifex.com/projects/p/torproject/language/pl/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -116,77 +116,77 @@ msgid ""
 "Symlink into $HOME every file or directory found in the `dotfiles' directory"
 msgstr "Zrób dowiązania w $HOME do każdego pliku lub katalogu znajdującego się w katalogu `dotfiles'"
 
-#: ../lib/Tails/Persistence/Setup.pm:257
+#: ../lib/Tails/Persistence/Setup.pm:258
 msgid ""
 "The device Tails is running from cannot be found. Maybe you used the `toram'"
 " option?"
 msgstr "Nie można znaleźć urządzenia, z którego działa Tails. Może użyto opcji `toram'?"
 
-#: ../lib/Tails/Persistence/Setup.pm:276
+#: ../lib/Tails/Persistence/Setup.pm:277
 msgid "Setup Tails persistent volume"
 msgstr "Ustaw wolumen przechowywania danych Tails"
 
-#: ../lib/Tails/Persistence/Setup.pm:420
+#: ../lib/Tails/Persistence/Setup.pm:443
 #, perl-format
 msgid "Device %s already has a persistent volume."
 msgstr "Urządzenie %s już ma wolumen przechowywania danych."
 
-#: ../lib/Tails/Persistence/Setup.pm:428
+#: ../lib/Tails/Persistence/Setup.pm:451
 #, perl-format
 msgid "Device %s has not enough unallocated space."
 msgstr "Urządzenie %s nie ma wystarczająco wolnego miejsca."
 
-#: ../lib/Tails/Persistence/Setup.pm:436 ../lib/Tails/Persistence/Setup.pm:450
+#: ../lib/Tails/Persistence/Setup.pm:459 ../lib/Tails/Persistence/Setup.pm:473
 #, perl-format
 msgid "Device %s has no persistent volume."
 msgstr "Urządzenie %s nie ma wolumenu przechowywania danych."
 
-#: ../lib/Tails/Persistence/Setup.pm:442
+#: ../lib/Tails/Persistence/Setup.pm:465
 msgid ""
 "Cannot delete the persistent volume while in use. You should restart Tails "
 "without persistence."
 msgstr "Nie można usunąć wolumenu przechowywania danych, gdy jest używany. Powinno się ponownie uruchomić Tails bez przechowywania danych."
 
-#: ../lib/Tails/Persistence/Setup.pm:461
+#: ../lib/Tails/Persistence/Setup.pm:484
 msgid "Persistence volume is not unlocked."
 msgstr "Wolumen przechowywania danych nie jest odblokowany."
 
-#: ../lib/Tails/Persistence/Setup.pm:466
+#: ../lib/Tails/Persistence/Setup.pm:489
 msgid "Persistence volume is not mounted."
 msgstr "Wolumen przechowywania danych nie jest zamontowany."
 
-#: ../lib/Tails/Persistence/Setup.pm:471
+#: ../lib/Tails/Persistence/Setup.pm:494
 msgid "Persistence volume is not readable. Permissions or ownership problems?"
 msgstr "Nie można odczytać wolumenu przechowywania danych. Problemy z uprawnieniami lub własnością?"
 
-#: ../lib/Tails/Persistence/Setup.pm:476
+#: ../lib/Tails/Persistence/Setup.pm:499
 msgid "Persistence volume is not writable. Maybe it was mounted read-only?"
 msgstr "Nie można zapisać wolumenu przechowywania danych. Może został zamontowany tylko do odczytu?"
 
-#: ../lib/Tails/Persistence/Setup.pm:485
+#: ../lib/Tails/Persistence/Setup.pm:508
 #, perl-format
-msgid "Tails is running from non-USB device %s."
-msgstr "Tails działa z urządzenia %s, nie będącego urządzeniem USB."
+msgid "Tails is running from non-USB / non-SDIO device %s."
+msgstr ""
 
-#: ../lib/Tails/Persistence/Setup.pm:491
+#: ../lib/Tails/Persistence/Setup.pm:514
 #, perl-format
 msgid "Device %s is optical."
 msgstr "Urządzenie %s jest napędem optycznym."
 
-#: ../lib/Tails/Persistence/Setup.pm:498
+#: ../lib/Tails/Persistence/Setup.pm:521
 #, perl-format
 msgid "Device %s was not created using Tails USB installer."
 msgstr "Urządzenie %s nie zostało utworzone instalatorem Tails USB."
 
-#: ../lib/Tails/Persistence/Setup.pm:532
+#: ../lib/Tails/Persistence/Setup.pm:555
 msgid "Error"
 msgstr "Błąd"
 
-#: ../lib/Tails/Persistence/Setup.pm:839
+#: ../lib/Tails/Persistence/Setup.pm:872
 msgid "Persistence wizard - Finished"
 msgstr "Kreator przechowywania danych - Koniec"
 
-#: ../lib/Tails/Persistence/Setup.pm:842
+#: ../lib/Tails/Persistence/Setup.pm:875
 msgid ""
 "Any changes you have made will only take effect after restarting Tails.\n"
 "\n"
@@ -251,11 +251,19 @@ msgstr "Montowanie partycji przechowywania danych Tails."
 msgid "The Tails persistence partition will be mounted."
 msgstr "Partycja przechowywania danych Tails zostanie zamontowana."
 
-#: ../lib/Tails/Persistence/Step/Bootstrap.pm:296
+#: ../lib/Tails/Persistence/Step/Bootstrap.pm:283
+msgid "Correcting permissions of the persistent volume."
+msgstr ""
+
+#: ../lib/Tails/Persistence/Step/Bootstrap.pm:286
+msgid "The permissions of the persistent volume will be corrected."
+msgstr ""
+
+#: ../lib/Tails/Persistence/Step/Bootstrap.pm:308
 msgid "Creating..."
 msgstr "Tworzenie..."
 
-#: ../lib/Tails/Persistence/Step/Bootstrap.pm:299
+#: ../lib/Tails/Persistence/Step/Bootstrap.pm:311
 msgid "Creating the persistent volume..."
 msgstr "Tworzenie wolumenu przechowywania danych..."
 

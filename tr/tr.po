@@ -9,10 +9,10 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: The Tor Project\n"
-"Report-Msgid-Bugs-To: https://trac.torproject.org/projects/tor\n"
-"POT-Creation-Date: 2013-09-29 14:53+0200\n"
-"PO-Revision-Date: 2013-10-03 15:20+0000\n"
-"Last-Translator: volkangezer <volkangezer@gmail.com>\n"
+"Report-Msgid-Bugs-To: Tails developers <tails@boum.org>\n"
+"POT-Creation-Date: 2013-10-26 23:24+0200\n"
+"PO-Revision-Date: 2013-11-06 09:25+0000\n"
+"Last-Translator: runasand <runa.sandvik@gmail.com>\n"
 "Language-Team: Turkish (http://www.transifex.com/projects/p/torproject/language/tr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -117,77 +117,77 @@ msgid ""
 "Symlink into $HOME every file or directory found in the `dotfiles' directory"
 msgstr "\"Dotfiles\" dizininde bulunan tüm dosya ve dizinlerin $HOME'da kısayolunu oluştur"
 
-#: ../lib/Tails/Persistence/Setup.pm:257
+#: ../lib/Tails/Persistence/Setup.pm:258
 msgid ""
 "The device Tails is running from cannot be found. Maybe you used the `toram'"
 " option?"
 msgstr "Tails'in çalıştığı cihaz bulunamadı. Belki \"toram\" seçeneğini kullanıyorsunuz?"
 
-#: ../lib/Tails/Persistence/Setup.pm:276
+#: ../lib/Tails/Persistence/Setup.pm:277
 msgid "Setup Tails persistent volume"
 msgstr "Kurulum Tails kalıcı cilti"
 
-#: ../lib/Tails/Persistence/Setup.pm:420
+#: ../lib/Tails/Persistence/Setup.pm:443
 #, perl-format
 msgid "Device %s already has a persistent volume."
 msgstr "%s aracı zaten kalıcı cilte sahip"
 
-#: ../lib/Tails/Persistence/Setup.pm:428
+#: ../lib/Tails/Persistence/Setup.pm:451
 #, perl-format
 msgid "Device %s has not enough unallocated space."
 msgstr "%s cihazında yeteri kadar ayrışmamış boşluğu yok."
 
-#: ../lib/Tails/Persistence/Setup.pm:436 ../lib/Tails/Persistence/Setup.pm:450
+#: ../lib/Tails/Persistence/Setup.pm:459 ../lib/Tails/Persistence/Setup.pm:473
 #, perl-format
 msgid "Device %s has no persistent volume."
 msgstr "%s cihazının kalıcı cilti yok."
 
-#: ../lib/Tails/Persistence/Setup.pm:442
+#: ../lib/Tails/Persistence/Setup.pm:465
 msgid ""
 "Cannot delete the persistent volume while in use. You should restart Tails "
 "without persistence."
 msgstr "Kullanım halinde olduğu için kalıcı volüm silinemedi. Tails'i kalıcılık olmadan yeniden başlatmanız gerekmektedir."
 
-#: ../lib/Tails/Persistence/Setup.pm:461
+#: ../lib/Tails/Persistence/Setup.pm:484
 msgid "Persistence volume is not unlocked."
 msgstr "Kalıcılık volümü kilitsiz değil. "
 
-#: ../lib/Tails/Persistence/Setup.pm:466
+#: ../lib/Tails/Persistence/Setup.pm:489
 msgid "Persistence volume is not mounted."
 msgstr "Kalıcılık volümü monte edilmiş durumda değil"
 
-#: ../lib/Tails/Persistence/Setup.pm:471
+#: ../lib/Tails/Persistence/Setup.pm:494
 msgid "Persistence volume is not readable. Permissions or ownership problems?"
 msgstr "Kalıcılık volümü okunamıyor. İzin veya sahiplik problemleri?"
 
-#: ../lib/Tails/Persistence/Setup.pm:476
+#: ../lib/Tails/Persistence/Setup.pm:499
 msgid "Persistence volume is not writable. Maybe it was mounted read-only?"
 msgstr "Kalıcılık volümü yazılabilir değil. Belki de sadece okunur olarak monte edildi?"
 
-#: ../lib/Tails/Persistence/Setup.pm:485
+#: ../lib/Tails/Persistence/Setup.pm:508
 #, perl-format
-msgid "Tails is running from non-USB device %s."
-msgstr "Tails USB aracı olmayan %s aygıtından çalışıyor."
+msgid "Tails is running from non-USB / non-SDIO device %s."
+msgstr ""
 
-#: ../lib/Tails/Persistence/Setup.pm:491
+#: ../lib/Tails/Persistence/Setup.pm:514
 #, perl-format
 msgid "Device %s is optical."
 msgstr "%s cihazı optik."
 
-#: ../lib/Tails/Persistence/Setup.pm:498
+#: ../lib/Tails/Persistence/Setup.pm:521
 #, perl-format
 msgid "Device %s was not created using Tails USB installer."
 msgstr "%s cihazı Tails USB kurucusu tarafından yaratılmamış."
 
-#: ../lib/Tails/Persistence/Setup.pm:532
+#: ../lib/Tails/Persistence/Setup.pm:555
 msgid "Error"
 msgstr "Hata"
 
-#: ../lib/Tails/Persistence/Setup.pm:839
+#: ../lib/Tails/Persistence/Setup.pm:872
 msgid "Persistence wizard - Finished"
 msgstr "Kalıcılık sihirbazı - Bitti"
 
-#: ../lib/Tails/Persistence/Setup.pm:842
+#: ../lib/Tails/Persistence/Setup.pm:875
 msgid ""
 "Any changes you have made will only take effect after restarting Tails.\n"
 "\n"
@@ -252,11 +252,19 @@ msgstr "Tails kararlılık bölmeleri monte ediliyor"
 msgid "The Tails persistence partition will be mounted."
 msgstr "Tails kalıcılık bölmeleri monte edilecek"
 
-#: ../lib/Tails/Persistence/Step/Bootstrap.pm:296
+#: ../lib/Tails/Persistence/Step/Bootstrap.pm:283
+msgid "Correcting permissions of the persistent volume."
+msgstr ""
+
+#: ../lib/Tails/Persistence/Step/Bootstrap.pm:286
+msgid "The permissions of the persistent volume will be corrected."
+msgstr ""
+
+#: ../lib/Tails/Persistence/Step/Bootstrap.pm:308
 msgid "Creating..."
 msgstr "Yaratılıyor..."
 
-#: ../lib/Tails/Persistence/Step/Bootstrap.pm:299
+#: ../lib/Tails/Persistence/Step/Bootstrap.pm:311
 msgid "Creating the persistent volume..."
 msgstr "Kalıcılık volümü yaratılıyor..."
 
