@@ -1,9 +1,11 @@
 <!-- Observatory popup window -->
-<!ENTITY ssl-observatory.popup.details "">
-<!ENTITY ssl-observatory.popup.later "">
+<!ENTITY ssl-observatory.popup.details "Detalii și informații despre confidențialitate">
+<!ENTITY ssl-observatory.popup.later "Întreabă-mă mai târziu">
 <!ENTITY ssl-observatory.popup.no "Nu">
 
-<!ENTITY ssl-observatory.popup.text "">
+<!ENTITY ssl-observatory.popup.text "HTTPS Oriunde poate detecta atacurile
+asupra navigatorului tău trimițând certificatele primite de tine la
+Observator.  Activezi asta?">
 
 <!--<!ENTITY ssl-observatory.popup.text 
 "EFF's SSL Observatory can detect attacks against HTTPS websites by collecting
@@ -11,40 +13,44 @@ and auditing the certificates being presented to your browser. Would you like
 to turn it on?">-->
 
 <!ENTITY ssl-observatory.popup.title 
-"">
+"Poate HTTPS Oriunde să folosească Observatorul SSL?">
 
 <!ENTITY ssl-observatory.popup.yes "Da">
 
 <!-- Observatory preferences dialog -->
 
 <!ENTITY ssl-observatory.prefs.adv_priv_opts1
-"">
+"It is safe to enable this, unless you use a very
+intrusive corporate network:">
 
 <!ENTITY ssl-observatory.prefs.adv_priv_opts2
-"">
+"Sigur, doar dacă nu ești într-o rețea de companie cu nume de servere intranet secrete:">
 
 <!ENTITY ssl-observatory.prefs.alt_roots 
-"">
+"Trimite și verifică certificatele semnate de CA rădăcină ne-standard">
 
 <!ENTITY ssl-observatory.prefs.alt_roots_tooltip 
-"">
+"It is safe (and a good idea) to enable this option, unless you use an intrusive corporate network or Kaspersky antivirus software that monitors your browsing with a TLS proxy and a private root Certificate Authority.  If enabled on such a network, this option might publish evidence of which https:// domains were being visited through that proxy, because of the unique certificates it would produce.  So we leave it off by default.">
 
-<!ENTITY ssl-observatory.prefs.anonymous "">
+<!ENTITY ssl-observatory.prefs.anonymous "Verifică certificatele folosind Tor pentru anonimitate">
 <!ENTITY ssl-observatory.prefs.anonymous_unavailable 
-"">
+"Verifică certificatele folosind Tor pentru anonimitate (necesită Tor)">
 <!ENTITY ssl-observatory.prefs.anonymous_tooltip 
-"">
+"Această opțiune necesită ca Tor să fie instalat și să ruleze">
 
 <!ENTITY ssl-observatory.prefs.asn 
-"">
+"Când vezi un certificat nou spune Observatorului la ce ISP ești conectat">
 
 <!ENTITY ssl-observatory.prefs.asn_tooltip
-"">
+"This will fetch and send the &quot;Autonomous System number&quot; of your network.  This will help us locate attacks against HTTPS, and to determine whether we have observations from networks in places like Iran and Syria where attacks are comparatively common.">
 
-<!ENTITY ssl-observatory.prefs.done "">
+<!ENTITY ssl-observatory.prefs.done "Gata">
 
 <!ENTITY ssl-observatory.prefs.explanation 
-"">
+"HTTPS Everywhere can use EFF's SSL Observatory.  This does two things: (1)
+sends copies of HTTPS certificates to the Observatory, to help us
+detect 'man in the middle' attacks and improve the Web's security; and (2)
+lets us warn you about insecure connections or attacks on your browser.">
 
 <!--<!ENTITY ssl-observatory.prefs.explanation2
 "When you visit https://www.example.com, the Observatory will learn that
@@ -53,34 +59,37 @@ Mouseover the options for further details:">-->
 
 <!ENTITY ssl-observatory.prefs.explanation2
 
-"">
+"For example, when you visit https://www.something.com, the certificate
+received by the Observatory will indicate that somebody visited
+www.something.com, but not who visited the site, or what specific page they
+looked at.  Mouseover the options for further details:">
 
-<!ENTITY ssl-observatory.prefs.hide "">
+<!ENTITY ssl-observatory.prefs.hide "Ascunde opțiunile avansate">
 
 <!ENTITY ssl-observatory.prefs.nonanon 
-"">
+"Verifică certificatele chiar dacă Tor nu este disponibil">
 
 <!ENTITY ssl-observatory.prefs.nonanon_tooltip
-"">
+"Vom încerca în continuare să menținem anonime datele dar această opțiune este mai puțin sigură">
 
 <!ENTITY ssl-observatory.prefs.priv_dns 
-"">
+"Trimite și verifică certificatele pentru numele DNS ne-publice">
 
 <!ENTITY ssl-observatory.prefs.priv_dns_tooltip
-"">
+"Dacă această opțiune nu este activată Observatorul nu va înregistra certificatele pentru numele pe care nu le poate rezolva prin sistemul DNS.">
 
-<!ENTITY ssl-observatory.prefs.show "">
+<!ENTITY ssl-observatory.prefs.show "Arată opțiunile avansate">
 
-<!ENTITY ssl-observatory.prefs.title "SSL preferintele observatoare">
+<!ENTITY ssl-observatory.prefs.title "Preferințe pentru Observatorul SSL">
 
-<!ENTITY ssl-observatory.prefs.use "">
-<!ENTITY ssl-observatory.warning.title "">
-<!ENTITY ssl-observatory.warning.showcert "">
-<!ENTITY ssl-observatory.warning.okay "">
-<!ENTITY ssl-observatory.warning.text "">
-<!ENTITY ssl-observatory.warning.defense "">
+<!ENTITY ssl-observatory.prefs.use "Folosește Observatorul?">
+<!ENTITY ssl-observatory.warning.title "ATENȚIONARE de la Observatorul SSL al EFF">
+<!ENTITY ssl-observatory.warning.showcert "Arată lanțul certificatului">
+<!ENTITY ssl-observatory.warning.okay "Înțeleg">
+<!ENTITY ssl-observatory.warning.text "EFF's SSL Observatory has issued a warning about the HTTPS certificiate(s) for this site:">
+<!ENTITY ssl-observatory.warning.defense "If you are logged in to this site, it may be advisable to change your password once you have a safe connection.">
 
 <!ENTITY ssl-observatory.prefs.self_signed
-"">
+"Submit and check self-signed certificates">
 <!ENTITY ssl-observatory.prefs.self_signed_tooltip
-"">
+"This is recommended; cryptographic problems are especially common in self-signed embedded devices">
