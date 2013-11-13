@@ -12,8 +12,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: The Tor Project\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-10-17 13:19+0200\n"
-"PO-Revision-Date: 2013-11-06 09:28+0000\n"
+"POT-Creation-Date: 2013-11-12 13:29+0100\n"
+"PO-Revision-Date: 2013-11-13 09:23+0000\n"
 "Last-Translator: runasand <runa.sandvik@gmail.com>\n"
 "Language-Team: Dutch (http://www.transifex.com/projects/p/torproject/language/nl/)\n"
 "MIME-Version: 1.0\n"
@@ -27,17 +27,22 @@ msgstr ""
 msgid "%(distribution)s installer"
 msgstr ""
 
-#: ../liveusb/gui.py:803
+#: ../liveusb/gui.py:807
 #, python-format
 msgid "%(filename)s selected"
 msgstr "%(filename)s geselecteerd"
 
-#: ../liveusb/gui.py:440
+#: ../liveusb/gui.py:437
+#, python-format
+msgid "%(size)s %(label)s"
+msgstr ""
+
+#: ../liveusb/gui.py:443
 #, python-format
 msgid "%(vendor)s %(model)s (%(details)s) - %(device)s"
 msgstr ""
 
-#: ../liveusb/creator.py:1020
+#: ../liveusb/creator.py:1023
 #, python-format
 msgid "%s already bootable"
 msgstr "%s is al bootable"
@@ -94,12 +99,12 @@ msgid ""
 "persist after a reboot."
 msgstr "Door extra ruimte voor persistente opslag op je USB stick toe te wijzen, kun je data en permanente aanpassingen maken op je live besturingssysteem. Zonder dit kun je geen data opslaan dat bewaard blijft na opnieuw opstarten."
 
-#: ../liveusb/creator.py:1122 ../liveusb/creator.py:1385
+#: ../liveusb/creator.py:1125 ../liveusb/creator.py:1388
 #, python-format
 msgid "Calculating the SHA1 of %s"
 msgstr "SHA1 berekenen van %s"
 
-#: ../liveusb/creator.py:1333
+#: ../liveusb/creator.py:1336
 msgid "Cannot find"
 msgstr "Niet gevonden:"
 
@@ -122,16 +127,12 @@ msgid ""
 "Upgrade"
 msgstr "Kloon\n&&\nUpgrade"
 
-#: ../liveusb/dialog.py:174
-msgid "Create Live USB"
-msgstr "Maak Live USB"
-
 #: ../liveusb/creator.py:400
 #, python-format
 msgid "Creating %sMB persistent overlay"
 msgstr "%sMb persistente geheugenruimte aanmaken..."
 
-#: ../liveusb/gui.py:562
+#: ../liveusb/gui.py:565
 msgid ""
 "Device is not yet mounted, so we cannot determine the amount of free space."
 msgstr "Apparaat is niet aangekoppeld, daarom kunnen we de hoveelheid vrije ruimte niet bepalen."
@@ -141,11 +142,11 @@ msgstr "Apparaat is niet aangekoppeld, daarom kunnen we de hoveelheid vrije ruim
 msgid "Download %(distribution)s"
 msgstr "Download %(distribution)s"
 
-#: ../liveusb/gui.py:777
+#: ../liveusb/gui.py:781
 msgid "Download complete!"
 msgstr "Download klaar!"
 
-#: ../liveusb/gui.py:781
+#: ../liveusb/gui.py:785
 msgid "Download failed: "
 msgstr "Download mislukte: "
 
@@ -154,16 +155,16 @@ msgstr "Download mislukte: "
 msgid "Downloading %s..."
 msgstr "Downloaden %s..."
 
-#: ../liveusb/creator.py:1118
+#: ../liveusb/creator.py:1121
 msgid "Drive is a loopback, skipping MBR reset"
 msgstr "Station is een loopback, MBR-reset wordt overgeslagen"
 
-#: ../liveusb/creator.py:813
+#: ../liveusb/creator.py:816
 #, python-format
 msgid "Entering unmount_device for '%(device)s'"
 msgstr "Binnengaan unmount_device voor '%(device)s'"
 
-#: ../liveusb/creator.py:1198
+#: ../liveusb/creator.py:1201
 msgid "Error probing device"
 msgstr "Fout bij proben apparaat"
 
@@ -183,7 +184,7 @@ msgstr "Fout: De SHA1 van jouw Live CD is niet correct.  Je kunt het programma u
 msgid "Extracting live image to the target device..."
 msgstr ""
 
-#: ../liveusb/creator.py:1063
+#: ../liveusb/creator.py:1066
 #, python-format
 msgid "Formatting %(device)s as FAT32"
 msgstr "Formatteren %(device)s als FAT32"
@@ -202,7 +203,11 @@ msgid ""
 "downloaded for you."
 msgstr "Als je geen bestaande Live ISO selecteerd, zal de geselecteerde release gedownload worden."
 
-#: ../liveusb/gui.py:625
+#: ../liveusb/dialog.py:174
+msgid "Install Tails"
+msgstr ""
+
+#: ../liveusb/gui.py:628
 msgid "Installation complete!"
 msgstr "Installatie afgerond!"
 
@@ -211,11 +216,11 @@ msgstr "Installatie afgerond!"
 msgid "Installation complete! (%s)"
 msgstr "Installatie afgerond! (%s)"
 
-#: ../liveusb/gui.py:626
+#: ../liveusb/gui.py:629
 msgid "Installation was completed. Press OK to close this program."
 msgstr "Installatie is afgerond. Klik op OK om dit programma af te sluiten."
 
-#: ../liveusb/creator.py:916 ../liveusb/creator.py:1239
+#: ../liveusb/creator.py:919 ../liveusb/creator.py:1242
 msgid "Installing bootloader..."
 msgstr "Bootloader installeren..."
 
@@ -223,28 +228,28 @@ msgstr "Bootloader installeren..."
 msgid "LiveUSB creation failed!"
 msgstr "LiveUSB aanmaken faalde!"
 
-#: ../liveusb/creator.py:1334
+#: ../liveusb/creator.py:1337
 msgid ""
 "Make sure to extract the entire liveusb-creator zip file before running this"
 " program."
 msgstr "Wees er zeker van dat het hele liveusb-creator zip bestand is uitgepakt voordat je dit programma draait."
 
-#: ../liveusb/creator.py:1210
+#: ../liveusb/creator.py:1213
 msgid ""
 "Make sure your USB key is plugged in and formatted with the FAT filesystem"
 msgstr "Verzeker je ervan dat jouw USB stick is aangesloten en geformatteerd met het FAT bestandssysteem"
 
-#: ../liveusb/creator.py:835
+#: ../liveusb/creator.py:838
 #, python-format
 msgid "Mount %s exists after unmounting"
 msgstr "Aankoppeling %s bestaat na afkoppeling"
 
-#: ../liveusb/gui.py:568
+#: ../liveusb/gui.py:571
 #, python-format
 msgid "No free space on device %(device)s"
 msgstr "Er is niet genoeg vrije ruimte op apparaat %(device)s"
 
-#: ../liveusb/creator.py:802
+#: ../liveusb/creator.py:805
 msgid "No mount points found"
 msgstr "Geen aankoppelpunten gevonden"
 
@@ -255,20 +260,20 @@ msgid ""
 "%dMB ISO + %dMB overlay > %dMB free space"
 msgstr "Er is niet genoeg vrije ruimte op het apparaat.\n %dMB ISO + %dMB overlay > %dMB vrije ruimte"
 
-#: ../liveusb/gui.py:549
+#: ../liveusb/gui.py:552
 msgid "Partition is FAT16; Restricting overlay size to 2G"
 msgstr "Partitie is FAT16; Overlay size wordt beperkt tot 2G"
 
-#: ../liveusb/gui.py:545
+#: ../liveusb/gui.py:548
 msgid "Partition is FAT32; Restricting overlay size to 4G"
 msgstr "Partitie is FAT32; Overlay grootte wordt beperkt tot 4G"
 
-#: ../liveusb/creator.py:226 ../liveusb/creator.py:842
+#: ../liveusb/creator.py:226 ../liveusb/creator.py:845
 #, python-format
 msgid "Partitioning device %(device)s"
 msgstr "Partitioneren van apparaat %(device)s"
 
-#: ../liveusb/gui.py:616
+#: ../liveusb/gui.py:619
 msgid "Persistent Storage"
 msgstr "Persistente opslag"
 
@@ -276,19 +281,19 @@ msgstr "Persistente opslag"
 msgid "Persistent Storage (0 MB)"
 msgstr "Persistente opslag (0 MB)"
 
-#: ../liveusb/gui.py:697 ../liveusb/gui.py:726
+#: ../liveusb/gui.py:700 ../liveusb/gui.py:730
 msgid "Please confirm your device selection"
 msgstr ""
 
-#: ../liveusb/gui.py:462
+#: ../liveusb/gui.py:465
 msgid "Refreshing releases..."
 msgstr "Bezig met vernieuwen van releases"
 
-#: ../liveusb/gui.py:467
+#: ../liveusb/gui.py:470
 msgid "Releases updated!"
 msgstr "Releases zijn bijgewerkt!"
 
-#: ../liveusb/creator.py:939 ../liveusb/creator.py:1257
+#: ../liveusb/creator.py:942 ../liveusb/creator.py:1260
 #, python-format
 msgid "Removing %(file)s"
 msgstr "Verwijderen %(file)s"
@@ -297,12 +302,12 @@ msgstr "Verwijderen %(file)s"
 msgid "Removing existing Live OS"
 msgstr "Verwijderen bestaand Live OS...."
 
-#: ../liveusb/creator.py:1112
+#: ../liveusb/creator.py:1115
 #, python-format
 msgid "Resetting Master Boot Record of %s"
 msgstr "Resetten Master Boot Record van %s"
 
-#: ../liveusb/gui.py:788
+#: ../liveusb/gui.py:792
 msgid "Select Live ISO"
 msgstr "Selecteer Live ISO"
 
@@ -310,7 +315,7 @@ msgstr "Selecteer Live ISO"
 msgid "Setting up OLPC boot file..."
 msgstr "Inrichten OLPC bootbestand..."
 
-#: ../liveusb/creator.py:716
+#: ../liveusb/creator.py:719
 #, python-format
 msgid ""
 "Some partitions of the target device %(device)s are mounted. They will be "
@@ -322,7 +327,7 @@ msgid ""
 "Source type does not support verification of ISO MD5 checksum, skipping"
 msgstr "Brontype ondersteunt niet het verifiëren van ISO MD5 checksum; wordt overgeslagen"
 
-#: ../liveusb/creator.py:1146
+#: ../liveusb/creator.py:1149
 msgid "Synchronizing data on disk..."
 msgstr "Data synchroniseren op schijf..."
 
@@ -330,13 +335,13 @@ msgstr "Data synchroniseren op schijf..."
 msgid "Target Device"
 msgstr "Doel apparaat"
 
-#: ../liveusb/gui.py:662
+#: ../liveusb/gui.py:665
 msgid ""
-"The Master Boot Record on your device is blank. Pressing 'Create Live USB' "
+"The Master Boot Record on your device is blank. Pressing 'Install Tails' "
 "again will reset the MBR on this device."
-msgstr "De Master Boot Record op dit apparaat is blanco. Nogmaals aanklikken van 'Creëer Live USB' zal de MBR op dit apparaat resetten."
+msgstr ""
 
-#: ../liveusb/gui.py:791
+#: ../liveusb/gui.py:795
 msgid ""
 "The selected file is unreadable. Please fix its permissions or select "
 "another file."
@@ -380,11 +385,11 @@ msgstr "Deze balk toont aan hoe ver u zit in het proces om de LiveUSB aan te mak
 msgid "This is the status console, where all messages get written to."
 msgstr "Dit is het statusveld waar alle berichten getoond worden."
 
-#: ../liveusb/creator.py:879
+#: ../liveusb/creator.py:882
 msgid "Trying to continue anyway."
 msgstr ""
 
-#: ../liveusb/creator.py:911
+#: ../liveusb/creator.py:914
 #, python-format
 msgid "Unable to change volume label: %(message)s"
 msgstr "Niet in staat volumelabel te veranderen: %(message)s"
@@ -403,24 +408,24 @@ msgstr "Kan %(infile)s niet naar %(outfile)s kopiëren: %(message)s"
 msgid "Unable to find any USB drive"
 msgstr "Kan geen USB apparaten vinden"
 
-#: ../liveusb/creator.py:1200
+#: ../liveusb/creator.py:1203
 msgid "Unable to find any supported device"
 msgstr ""
 
-#: ../liveusb/creator.py:1040
+#: ../liveusb/creator.py:1043
 msgid "Unable to find partition"
 msgstr "Kan geen partitie vinden"
 
-#: ../liveusb/creator.py:1280
+#: ../liveusb/creator.py:1283
 msgid ""
 "Unable to get Win32_LogicalDisk; win32com query did not return any results"
 msgstr "Niet in staat Win32_LogicalDisk te verkrijgen; win32com query gaf geen zoekresultaat"
 
-#: ../liveusb/gui.py:690
+#: ../liveusb/gui.py:693
 msgid "Unable to mount device"
 msgstr "Kan apparaat niet aankoppelen"
 
-#: ../liveusb/creator.py:790
+#: ../liveusb/creator.py:793
 #, python-format
 msgid "Unable to mount device: %(message)s"
 msgstr "Kan apparaat niet aankoppelen: %(message)s"
@@ -435,18 +440,18 @@ msgstr "Kan map van vorige LiveOS niet verwijderen: %(message)s"
 msgid "Unable to remove file from previous LiveOS: %(message)s"
 msgstr "Kan bestand van vorige LiveOS niet verwijderen: %(message)s"
 
-#: ../liveusb/creator.py:1115
+#: ../liveusb/creator.py:1118
 msgid ""
 "Unable to reset MBR.  You may not have the `syslinux` package installed."
 msgstr "Niet in staat de MBR te resetten. Mogelijk is het `syslinux` pakket niet geïnstalleerd."
 
-#: ../liveusb/gui.py:797
+#: ../liveusb/gui.py:801
 msgid ""
 "Unable to use the selected file.  You may have better luck if you move your "
 "ISO to the root of your drive (ie: C:\\)"
 msgstr "Kan geselecteerd bestand niet gebruiken.  Je kunt meer geluk hebben als je jouw ISO verplaatst naar het hoogste niveau van jouw schijf (b.v.: C:\\)"
 
-#: ../liveusb/creator.py:697
+#: ../liveusb/creator.py:700
 #, python-format
 msgid "Unable to write on %(device)s, skipping."
 msgstr "Niet in staat te schrijven naar %(device)s; wordt overgeslagen."
@@ -455,12 +460,12 @@ msgstr "Niet in staat te schrijven naar %(device)s; wordt overgeslagen."
 msgid "Unknown ISO, skipping checksum verification"
 msgstr "Onbekende ISO, verificatie checksum wordt overgeslagen"
 
-#: ../liveusb/creator.py:786
+#: ../liveusb/creator.py:789
 #, python-format
 msgid "Unknown dbus exception while trying to mount device: %(message)s"
 msgstr "Onbekende dbus-exceptie tijdens aankoppelen van apparaat: %(message)s"
 
-#: ../liveusb/creator.py:765 ../liveusb/creator.py:890
+#: ../liveusb/creator.py:768 ../liveusb/creator.py:893
 msgid "Unknown filesystem.  Your device may need to be reformatted."
 msgstr "Onbekend bestandssysteem.  Het apparaat moet mogelijk geherformatteerd worden."
 
@@ -469,34 +474,34 @@ msgstr "Onbekend bestandssysteem.  Het apparaat moet mogelijk geherformatteerd w
 msgid "Unknown release: %s"
 msgstr "Onbekende vrijgave: %s"
 
-#: ../liveusb/creator.py:827
+#: ../liveusb/creator.py:830
 #, python-format
 msgid "Unmounting '%(udi)s' on '%(device)s'"
 msgstr "Afkoppelen '%(udi)s' op '%(device)s'"
 
-#: ../liveusb/creator.py:823
+#: ../liveusb/creator.py:826
 #, python-format
 msgid "Unmounting mounted filesystems on '%(device)s'"
 msgstr "Afkoppelen aangekoppeld bestandssysteem op '%(device)s'"
 
-#: ../liveusb/creator.py:876
+#: ../liveusb/creator.py:879
 #, python-format
 msgid "Unsupported device '%(device)s', please report a bug."
 msgstr ""
 
-#: ../liveusb/creator.py:770 ../liveusb/creator.py:893
+#: ../liveusb/creator.py:773 ../liveusb/creator.py:896
 #, python-format
 msgid "Unsupported filesystem: %s"
 msgstr "Bestandssysteem: %s niet ondersteund"
 
-#: ../liveusb/creator.py:768
+#: ../liveusb/creator.py:771
 #, python-format
 msgid ""
 "Unsupported filesystem: %s\n"
 "In case you are trying to upgrade a manually installed Tails system (that is, if it was installed without this installer), this option is not supported: you need to install it anew to start with, e.g. by choosing the \"Clone & Install\" action instead."
 msgstr "Het bestandssysteem wordt niet ondersteund: %s\nIn het geval dat u een handmatig geïnstalleerde Tails wilt updaten (dat wilt zeggen dat het zonder deze installer is geïnstalleerd), dan wordt deze optie niet ondersteund. U moet het opnieuw installeren door de \"Kloon & Installeer\" optie te kiezen."
 
-#: ../liveusb/creator.py:1213
+#: ../liveusb/creator.py:1216
 #, python-format
 msgid ""
 "Unsupported filesystem: %s\n"
@@ -523,16 +528,16 @@ msgstr "Verifiëren van SHA1 checksum van LiveCD image..."
 msgid "Verifying SHA256 checksum of LiveCD image..."
 msgstr "Verifiëren van SHA256 checksum van LiveCD image..."
 
-#: ../liveusb/creator.py:887 ../liveusb/creator.py:1206
+#: ../liveusb/creator.py:890 ../liveusb/creator.py:1209
 msgid "Verifying filesystem..."
 msgstr "Bestandssysteem verifiëren..."
 
-#: ../liveusb/gui.py:724
+#: ../liveusb/gui.py:728
 msgid ""
 "Warning: Creating a new persistent overlay will delete your existing one."
 msgstr "Waarschuwing: Het maken van persistente geheugenruimte zal jouw bestaande geheugenruimte verwijderen."
 
-#: ../liveusb/gui.py:676
+#: ../liveusb/gui.py:679
 msgid ""
 "Warning: The Master Boot Record on your device does not match your system's "
 "syslinux MBR.  If you have trouble booting this stick, try running the "
@@ -551,19 +556,19 @@ msgstr "Waarschuwing: Deze tool moet als beheerder worden gestart. Om dat te doe
 msgid "Wrote to device at %(speed)d MB/sec"
 msgstr "Schreef naar apparaat met  %(speed)d MB/sec"
 
-#: ../liveusb/gui.py:698
+#: ../liveusb/gui.py:701
 #, python-format
 msgid ""
 "You are going to install Tails on the %(size)s %(vendor)s %(model)s device "
-"(%(device)s). All data on the selected drive will be lost. Continue?"
+"(%(device)s). All data on the selected device will be lost. Continue?"
 msgstr ""
 
-#: ../liveusb/gui.py:715
+#: ../liveusb/gui.py:718
 #, python-format
 msgid ""
-"You are going to upgrade Tails on the %(vendor)s %(model)s device "
-"(%(device)s). Any persistent volume on this device will remain unchanged. "
-"Continue?"
+"You are going to upgrade Tails on the %(parent_size)s %(vendor)s %(model)s "
+"device (%(device)s). Any persistent volume on this device will remain "
+"unchanged. Continue?"
 msgstr ""
 
 #: ../liveusb/creator.py:607
@@ -572,7 +577,7 @@ msgid ""
 "ext4 filesystem"
 msgstr "Je gebruikt een oude versie van syslinux-extlinux die het ext4-bestandssysteem niet ondersteund"
 
-#: ../liveusb/gui.py:782
+#: ../liveusb/gui.py:786
 msgid "You can try again to resume your download"
 msgstr "Je kunt opnieuw proberen je download voort te zetten"
 
