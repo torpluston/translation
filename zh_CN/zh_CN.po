@@ -10,9 +10,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: The Tor Project\n"
 "Report-Msgid-Bugs-To: Tails developers <tails@boum.org>\n"
-"POT-Creation-Date: 2013-10-26 23:24+0200\n"
-"PO-Revision-Date: 2013-11-11 12:40+0000\n"
-"Last-Translator: SanyaChang <408070986@qq.com>\n"
+"POT-Creation-Date: 2013-11-07 16:37+0100\n"
+"PO-Revision-Date: 2013-11-15 09:19+0000\n"
+"Last-Translator: runasand <runa.sandvik@gmail.com>\n"
 "Language-Team: Chinese (China) (http://www.transifex.com/projects/p/torproject/language/zh_CN/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -117,77 +117,71 @@ msgid ""
 "Symlink into $HOME every file or directory found in the `dotfiles' directory"
 msgstr "连入 $HOME 的符号链接，'.'开头目录中的所有文件和文件夹"
 
-#: ../lib/Tails/Persistence/Setup.pm:258
-msgid ""
-"The device Tails is running from cannot be found. Maybe you used the `toram'"
-" option?"
-msgstr "Tail 启动时的运行设备已无法找到。可能您使用了'toram'拷贝至内存选项？"
-
-#: ../lib/Tails/Persistence/Setup.pm:277
+#: ../lib/Tails/Persistence/Setup.pm:227
 msgid "Setup Tails persistent volume"
 msgstr "设置 Tails 持久卷"
 
-#: ../lib/Tails/Persistence/Setup.pm:443
+#: ../lib/Tails/Persistence/Setup.pm:331
 #, perl-format
 msgid "Device %s already has a persistent volume."
 msgstr "设备 %s 中已经存在持久卷。"
 
-#: ../lib/Tails/Persistence/Setup.pm:451
+#: ../lib/Tails/Persistence/Setup.pm:339
 #, perl-format
 msgid "Device %s has not enough unallocated space."
 msgstr "设置 %s 空闲空间不足。"
 
-#: ../lib/Tails/Persistence/Setup.pm:459 ../lib/Tails/Persistence/Setup.pm:473
+#: ../lib/Tails/Persistence/Setup.pm:347 ../lib/Tails/Persistence/Setup.pm:361
 #, perl-format
 msgid "Device %s has no persistent volume."
 msgstr "设备 %s 中不存在持久卷。"
 
-#: ../lib/Tails/Persistence/Setup.pm:465
+#: ../lib/Tails/Persistence/Setup.pm:353
 msgid ""
 "Cannot delete the persistent volume while in use. You should restart Tails "
 "without persistence."
 msgstr "持久卷使用中，无法删除。您需要以 Live 模式重启 Tails 。"
 
-#: ../lib/Tails/Persistence/Setup.pm:484
+#: ../lib/Tails/Persistence/Setup.pm:372
 msgid "Persistence volume is not unlocked."
 msgstr "持久卷未锁定。"
 
-#: ../lib/Tails/Persistence/Setup.pm:489
+#: ../lib/Tails/Persistence/Setup.pm:377
 msgid "Persistence volume is not mounted."
 msgstr "持久卷未挂载。"
 
-#: ../lib/Tails/Persistence/Setup.pm:494
+#: ../lib/Tails/Persistence/Setup.pm:382
 msgid "Persistence volume is not readable. Permissions or ownership problems?"
 msgstr "从持久卷中读取失败。文件权限或文件所有者有误？"
 
-#: ../lib/Tails/Persistence/Setup.pm:499
+#: ../lib/Tails/Persistence/Setup.pm:387
 msgid "Persistence volume is not writable. Maybe it was mounted read-only?"
 msgstr "向持久卷中写入失败。可能已以只读模式挂载？"
 
-#: ../lib/Tails/Persistence/Setup.pm:508
+#: ../lib/Tails/Persistence/Setup.pm:396
 #, perl-format
 msgid "Tails is running from non-USB / non-SDIO device %s."
 msgstr "Tails 正在非USB/非SDIO设备上运行%s."
 
-#: ../lib/Tails/Persistence/Setup.pm:514
+#: ../lib/Tails/Persistence/Setup.pm:402
 #, perl-format
 msgid "Device %s is optical."
 msgstr "设备 %s 为光盘设备。"
 
-#: ../lib/Tails/Persistence/Setup.pm:521
+#: ../lib/Tails/Persistence/Setup.pm:409
 #, perl-format
 msgid "Device %s was not created using Tails USB installer."
 msgstr "设备 %s 是不 Tails USB 安装程序生成的。"
 
-#: ../lib/Tails/Persistence/Setup.pm:555
+#: ../lib/Tails/Persistence/Setup.pm:444
 msgid "Error"
 msgstr "错误"
 
-#: ../lib/Tails/Persistence/Setup.pm:872
+#: ../lib/Tails/Persistence/Setup.pm:680
 msgid "Persistence wizard - Finished"
 msgstr "持久存储向导 - 完成"
 
-#: ../lib/Tails/Persistence/Setup.pm:875
+#: ../lib/Tails/Persistence/Setup.pm:683
 msgid ""
 "Any changes you have made will only take effect after restarting Tails.\n"
 "\n"
@@ -240,7 +234,7 @@ msgid "Passphrases do not match"
 msgstr "密码不一致"
 
 #: ../lib/Tails/Persistence/Step/Bootstrap.pm:262
-#: ../lib/Tails/Persistence/Step/Configure.pm:123
+#: ../lib/Tails/Persistence/Step/Configure.pm:129
 msgid "Failed"
 msgstr "失败"
 
@@ -268,31 +262,31 @@ msgstr "正在创建..."
 msgid "Creating the persistent volume..."
 msgstr "正在创建持久卷..."
 
-#: ../lib/Tails/Persistence/Step/Configure.pm:55
+#: ../lib/Tails/Persistence/Step/Configure.pm:61
 msgid "Persistence wizard - Persistent volume configuration"
 msgstr "持久存储向导 - 配置持久卷"
 
-#: ../lib/Tails/Persistence/Step/Configure.pm:58
+#: ../lib/Tails/Persistence/Step/Configure.pm:64
 msgid "Specify the files that will be saved in the persistent volume"
 msgstr "设置要保存于持久卷中的文件"
 
 #. TRANSLATORS: partition, size, device vendor, device model
-#: ../lib/Tails/Persistence/Step/Configure.pm:62
+#: ../lib/Tails/Persistence/Step/Configure.pm:68
 #, perl-format
 msgid ""
 "The selected files will be stored in the encrypted partition %s (%s), on the"
 " <b>%s %s</b> device."
 msgstr "所选文件将被保存于加密分区 %s (%s)中，分区位于设备<b> %s %s </b>上。"
 
-#: ../lib/Tails/Persistence/Step/Configure.pm:68
+#: ../lib/Tails/Persistence/Step/Configure.pm:74
 msgid "Save"
 msgstr "保存"
 
-#: ../lib/Tails/Persistence/Step/Configure.pm:137
+#: ../lib/Tails/Persistence/Step/Configure.pm:143
 msgid "Saving..."
 msgstr "正在保存..."
 
-#: ../lib/Tails/Persistence/Step/Configure.pm:140
+#: ../lib/Tails/Persistence/Step/Configure.pm:146
 msgid "Saving persistence configuration..."
 msgstr "正在保存持久存储配置..."
 
