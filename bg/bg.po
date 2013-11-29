@@ -3,15 +3,17 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
-#   <kirilvelinov@gmail.com>, 2012.
+# kirilvel <kirilvelinov@gmail.com>, 2012
+# alexdimitrov <kvikmen@gmail.com>, 2013
+# nasdar <alexander.waterdale@gmail.com>, 2013
 msgid ""
 msgstr ""
 "Project-Id-Version: The Tor Project\n"
-"Report-Msgid-Bugs-To: https://trac.torproject.org/projects/tor\n"
-"POT-Creation-Date: 2012-10-29 19:33+0100\n"
-"PO-Revision-Date: 2012-11-22 17:02+0000\n"
-"Last-Translator: kirilvel <kirilvelinov@gmail.com>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"Report-Msgid-Bugs-To: Tails developers <tails@boum.org>\n"
+"POT-Creation-Date: 2013-11-15 11:30+0100\n"
+"PO-Revision-Date: 2013-11-29 15:30+0000\n"
+"Last-Translator: alexdimitrov <kvikmen@gmail.com>\n"
+"Language-Team: Bulgarian (http://www.transifex.com/projects/p/torproject/language/bg/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -75,105 +77,111 @@ msgid "Configuration of network devices and connections"
 msgstr "Конфигуриране на мрежови устройства и връзки"
 
 #: ../lib/Tails/Persistence/Configuration/Presets.pm:118
+msgid "Browser bookmarks"
+msgstr "Отметки на браузъра"
+
+#: ../lib/Tails/Persistence/Configuration/Presets.pm:120
+msgid "Bookmarks saved in Iceweasel browser"
+msgstr "Отметки, запазени в Iceweasel браузъра"
+
+#: ../lib/Tails/Persistence/Configuration/Presets.pm:128
+msgid "Printers"
+msgstr "Принтери"
+
+#: ../lib/Tails/Persistence/Configuration/Presets.pm:130
+msgid "Printers configuration"
+msgstr "Конфигурация на принтери"
+
+#: ../lib/Tails/Persistence/Configuration/Presets.pm:138
 msgid "APT Packages"
 msgstr "APT Пакети"
 
-#: ../lib/Tails/Persistence/Configuration/Presets.pm:120
+#: ../lib/Tails/Persistence/Configuration/Presets.pm:140
 msgid "Packages downloaded by APT"
 msgstr "Пакети свален от APT"
 
-#: ../lib/Tails/Persistence/Configuration/Presets.pm:128
+#: ../lib/Tails/Persistence/Configuration/Presets.pm:148
 msgid "APT Lists"
 msgstr "APT списъци"
 
-#: ../lib/Tails/Persistence/Configuration/Presets.pm:130
+#: ../lib/Tails/Persistence/Configuration/Presets.pm:150
 msgid "Lists downloaded by APT"
 msgstr "Списъци свалени с APT"
 
-#: ../lib/Tails/Persistence/Configuration/Presets.pm:138
+#: ../lib/Tails/Persistence/Configuration/Presets.pm:158
 msgid "Dotfiles"
 msgstr "Dotfiles"
 
-#: ../lib/Tails/Persistence/Configuration/Presets.pm:140
+#: ../lib/Tails/Persistence/Configuration/Presets.pm:160
 msgid ""
 "Symlink into $HOME every file or directory found in the `dotfiles' directory"
 msgstr "Символична връзка в $ HOME всеки файл или директория в директория \"dotfiles\""
 
-#: ../lib/Tails/Persistence/Setup.pm:259
-msgid ""
-"The device Tails is running from cannot be found. Maybe you used the `toram'"
-" option?"
-msgstr "Устройствата от което Tails работи не може да бъде намерено. Може би сте използвали опцията \"toram\"?"
-
-#: ../lib/Tails/Persistence/Setup.pm:284
-msgid "'Unparseable partition path.'"
-msgstr "'Не перефразирам пътен дял.'"
-
-#: ../lib/Tails/Persistence/Setup.pm:298
+#: ../lib/Tails/Persistence/Setup.pm:226
 msgid "Setup Tails persistent volume"
 msgstr "Настройка Tails устойчиви обем"
 
-#: ../lib/Tails/Persistence/Setup.pm:442
+#: ../lib/Tails/Persistence/Setup.pm:330
 #, perl-format
 msgid "Device %s already has a persistent volume."
 msgstr "Устройството %s вече има постоянен обем."
 
-#: ../lib/Tails/Persistence/Setup.pm:450
+#: ../lib/Tails/Persistence/Setup.pm:338
 #, perl-format
 msgid "Device %s has not enough unallocated space."
 msgstr "Устройството %s не е достатъчно неразпределено пространство."
 
-#: ../lib/Tails/Persistence/Setup.pm:458 ../lib/Tails/Persistence/Setup.pm:472
+#: ../lib/Tails/Persistence/Setup.pm:346 ../lib/Tails/Persistence/Setup.pm:360
 #, perl-format
 msgid "Device %s has no persistent volume."
 msgstr "Устройството %s не разполага с постоянен обем."
 
-#: ../lib/Tails/Persistence/Setup.pm:464
+#: ../lib/Tails/Persistence/Setup.pm:352
 msgid ""
 "Cannot delete the persistent volume while in use. You should restart Tails "
 "without persistence."
 msgstr "Не можете да изтриете упорит обем по време на използване. Трябва да рестартирате Tails без постоянство."
 
-#: ../lib/Tails/Persistence/Setup.pm:483
+#: ../lib/Tails/Persistence/Setup.pm:371
 msgid "Persistence volume is not unlocked."
 msgstr "Устойчивото пространство не отключено."
 
-#: ../lib/Tails/Persistence/Setup.pm:488
+#: ../lib/Tails/Persistence/Setup.pm:376
 msgid "Persistence volume is not mounted."
 msgstr "Устойчивото пространство не е монтирано."
 
-#: ../lib/Tails/Persistence/Setup.pm:493
+#: ../lib/Tails/Persistence/Setup.pm:381
 msgid "Persistence volume is not readable. Permissions or ownership problems?"
 msgstr "Устойчивото пространство не се чете. Проблеми с разрешения или собствеността ?"
 
-#: ../lib/Tails/Persistence/Setup.pm:498
+#: ../lib/Tails/Persistence/Setup.pm:386
 msgid "Persistence volume is not writable. Maybe it was mounted read-only?"
 msgstr "Устойчивото пространство не е записваем. Може би това е монтирана само за четене?"
 
-#: ../lib/Tails/Persistence/Setup.pm:507
+#: ../lib/Tails/Persistence/Setup.pm:395
 #, perl-format
-msgid "Tails is running from non-USB device %s."
-msgstr "Tails работи от не-USB устройство %s."
+msgid "Tails is running from non-USB / non-SDIO device %s."
+msgstr "Tails работи от устройство различно от USB/SDIO %s."
 
-#: ../lib/Tails/Persistence/Setup.pm:513
+#: ../lib/Tails/Persistence/Setup.pm:401
 #, perl-format
 msgid "Device %s is optical."
 msgstr "Устройството %s е оптично."
 
-#: ../lib/Tails/Persistence/Setup.pm:520
+#: ../lib/Tails/Persistence/Setup.pm:408
 #, perl-format
 msgid "Device %s was not created using Tails USB installer."
 msgstr "Устройството %s не е създаден с помощта на Tails USB инсталатора."
 
-#: ../lib/Tails/Persistence/Setup.pm:554
+#: ../lib/Tails/Persistence/Setup.pm:443
 msgid "Error"
 msgstr "ГРЕШКА"
 
-#: ../lib/Tails/Persistence/Setup.pm:861
+#: ../lib/Tails/Persistence/Setup.pm:658
 msgid "Persistence wizard - Finished"
 msgstr "Устойчивото Wizard - Завършен"
 
-#: ../lib/Tails/Persistence/Setup.pm:864
+#: ../lib/Tails/Persistence/Setup.pm:661
 msgid ""
 "Any changes you have made will only take effect after restarting Tails.\n"
 "\n"
@@ -193,8 +201,8 @@ msgstr "Изберете парола за защита на устойчиво�
 #, perl-format
 msgid ""
 "A %s persistent volume will be created on the <b>%s %s</b> device. Data on "
-"this device will be stored in an encrypted form protected by a passphrase."
-msgstr "Устойчивото пространство %s ще бъде създаден на на  <b>%s %s</b> устройство. Данните за това устройство ще се съхраняват в криптиран вид, защитени с парола."
+"this volume will be stored in an encrypted form protected by a passphrase."
+msgstr "Устойчивият дял %s ще бъде създаден на устройството <b>%s %s</b>. Информацията на този дял ще бъде криптирана и защитена чрез парола."
 
 #: ../lib/Tails/Persistence/Step/Bootstrap.pm:66
 msgid "Create"
@@ -226,94 +234,84 @@ msgid "Passphrases do not match"
 msgstr "Тайните фрази не съвпадат"
 
 #: ../lib/Tails/Persistence/Step/Bootstrap.pm:262
-#: ../lib/Tails/Persistence/Step/Configure.pm:189
+#: ../lib/Tails/Persistence/Step/Configure.pm:129
 msgid "Failed"
 msgstr "Неуспешно"
 
-#: ../lib/Tails/Persistence/Step/Bootstrap.pm:269
-#: ../lib/Tails/Persistence/Step/Delete.pm:84
-msgid "Correcting attributes on Tails system partition."
-msgstr "Коригиране на атрибути на системния дял на Tails."
-
-#: ../lib/Tails/Persistence/Step/Bootstrap.pm:272
-#: ../lib/Tails/Persistence/Step/Delete.pm:87
-msgid "The attributes of the Tails system partition will be corrected."
-msgstr "Атрибутите на системния дял на Tails ще бъдат коригирани."
-
-#: ../lib/Tails/Persistence/Step/Bootstrap.pm:280
+#: ../lib/Tails/Persistence/Step/Bootstrap.pm:271
 msgid "Mounting Tails persistence partition."
 msgstr "Монтиране Tails постоянствен дял."
 
-#: ../lib/Tails/Persistence/Step/Bootstrap.pm:283
+#: ../lib/Tails/Persistence/Step/Bootstrap.pm:274
 msgid "The Tails persistence partition will be mounted."
 msgstr "Постоянствен Tails дял ще бъде монтиран."
 
-#: ../lib/Tails/Persistence/Step/Bootstrap.pm:304
+#: ../lib/Tails/Persistence/Step/Bootstrap.pm:283
+msgid "Correcting permissions of the persistent volume."
+msgstr "Коригиране на привилегии на постоянния дял."
+
+#: ../lib/Tails/Persistence/Step/Bootstrap.pm:286
+msgid "The permissions of the persistent volume will be corrected."
+msgstr "Правата на устойчивото пространство ще бъдат променени."
+
+#: ../lib/Tails/Persistence/Step/Bootstrap.pm:308
 msgid "Creating..."
 msgstr "Създава се ..."
 
-#: ../lib/Tails/Persistence/Step/Bootstrap.pm:307
+#: ../lib/Tails/Persistence/Step/Bootstrap.pm:311
 msgid "Creating the persistent volume..."
 msgstr "Създаване на устойчивото пространство ..."
 
-#: ../lib/Tails/Persistence/Step/Configure.pm:60
+#: ../lib/Tails/Persistence/Step/Configure.pm:61
 msgid "Persistence wizard - Persistent volume configuration"
 msgstr "Persistence съветника - устойчиви пространство конфигурация"
 
-#: ../lib/Tails/Persistence/Step/Configure.pm:63
+#: ../lib/Tails/Persistence/Step/Configure.pm:64
 msgid "Specify the files that will be saved in the persistent volume"
 msgstr "Посочете файловете, които ще бъдат съхранени в продължаващото пространство"
 
 #. TRANSLATORS: partition, size, device vendor, device model
-#: ../lib/Tails/Persistence/Step/Configure.pm:67
+#: ../lib/Tails/Persistence/Step/Configure.pm:68
 #, perl-format
 msgid ""
 "The selected files will be stored in the encrypted partition %s (%s), on the"
 " <b>%s %s</b> device."
 msgstr "Избраните файлове ще се съхраняват в криптиран дял %s (%s), на <b>%s %s</b> устройство."
 
-#: ../lib/Tails/Persistence/Step/Configure.pm:73
+#: ../lib/Tails/Persistence/Step/Configure.pm:74
 msgid "Save"
 msgstr "Запиши"
 
-#: ../lib/Tails/Persistence/Step/Configure.pm:135
-msgid "Make custom directory persistent (absolute path):"
-msgstr "Направете персонализиран устойчивото (абсолютен път)"
-
-#: ../lib/Tails/Persistence/Step/Configure.pm:141
-msgid "Destination:"
-msgstr "Дестинация:"
-
-#: ../lib/Tails/Persistence/Step/Configure.pm:204
+#: ../lib/Tails/Persistence/Step/Configure.pm:143
 msgid "Saving..."
 msgstr "Запазване..."
 
-#: ../lib/Tails/Persistence/Step/Configure.pm:207
+#: ../lib/Tails/Persistence/Step/Configure.pm:146
 msgid "Saving persistence configuration..."
 msgstr "Запазване на постоянните конфигурация"
 
-#: ../lib/Tails/Persistence/Step/Delete.pm:41
+#: ../lib/Tails/Persistence/Step/Delete.pm:40
 msgid "Persistence wizard - Persistent volume deletion"
 msgstr "Persistence съветника - устойчиви обем заличаване"
 
-#: ../lib/Tails/Persistence/Step/Delete.pm:44
+#: ../lib/Tails/Persistence/Step/Delete.pm:43
 msgid "Your persistent data will be deleted."
 msgstr "Вашите постоянни данни ще бъдат изтрити."
 
-#: ../lib/Tails/Persistence/Step/Delete.pm:48
+#: ../lib/Tails/Persistence/Step/Delete.pm:47
 #, perl-format
 msgid ""
 "The persistent volume %s (%s), on the <b>%s %s</b> device, will be deleted."
 msgstr "Продължаващата памет %s (%s), на <b>%s %s</b> устройство, ще бъдат изтрита."
 
-#: ../lib/Tails/Persistence/Step/Delete.pm:54
+#: ../lib/Tails/Persistence/Step/Delete.pm:53
 msgid "Delete"
 msgstr "Изтриване"
 
-#: ../lib/Tails/Persistence/Step/Delete.pm:99
+#: ../lib/Tails/Persistence/Step/Delete.pm:100
 msgid "Deleting..."
 msgstr "Изтрива се ..."
 
-#: ../lib/Tails/Persistence/Step/Delete.pm:102
+#: ../lib/Tails/Persistence/Step/Delete.pm:103
 msgid "Deleting the persistent volume..."
 msgstr "Изтриването на постоянен обем ..."
