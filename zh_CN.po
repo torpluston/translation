@@ -1,0 +1,229 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR Tails developers
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
+# kwh <14alpaca@gmail.com>, 2013
+# Y.F Yang <yfdyh000@gmail.com>, 2013
+msgid ""
+msgstr ""
+"Project-Id-Version: The Tor Project\n"
+"Report-Msgid-Bugs-To: Tails developers <tails@boum.org>\n"
+"POT-Creation-Date: 2013-12-26 14:43+0100\n"
+"PO-Revision-Date: 2013-12-27 08:50+0000\n"
+"Last-Translator: kwh <14alpaca@gmail.com>\n"
+"Language-Team: Chinese (China) (http://www.transifex.com/projects/p/torproject/language/zh_CN/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: zh_CN\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: ../lib/Tails/IUK/Frontend.pm:145 ../lib/Tails/IUK/Frontend.pm:601
+#, perl-brace-format
+msgid ""
+"<b>Debugging information</b>\n"
+"<i>exit code</i>: %{exit_code}i\n"
+"\n"
+"<i>stdout:</i>\n"
+"%{stdout}s\n"
+"\n"
+"<i>stderr:</i>\n"
+"%{stderr}s"
+msgstr "<b>调试信息</b>\n<i>退出代码</i>: %{exit_code}i\n\n<i>stdout:</i>\n%{stdout}s\n\n<i>stderr:</i>\n%{stderr}s"
+
+#: ../lib/Tails/IUK/Frontend.pm:205
+msgid "Error while checking for upgrades"
+msgstr "检查更新时错误"
+
+#: ../lib/Tails/IUK/Frontend.pm:208
+msgid ""
+"<b>Could not determine whether an upgrade is available from our website.</b>\n"
+"\n"
+"Check your network connection, and restart Tails to try upgrading again.\n"
+"\n"
+"If the problem persists, go to file:///usr/share/doc/tails/website/doc/upgrade/error/check.en.html"
+msgstr "<b>无法从我们的网站上检测是否有升级可用</b>\n\n请检查您的网络连接，并且重启Tails然后重新尝试升级\n\n如果依旧有这个问题，请到 file:///usr/share/doc/tails/website/doc/upgrade/error/check.en.html"
+
+#: ../lib/Tails/IUK/Frontend.pm:224
+msgid "The system is up-to-date"
+msgstr "系统已是最新"
+
+#: ../lib/Tails/IUK/Frontend.pm:229
+msgid "This version of Tails is outdated, and may have security issues."
+msgstr "此版本的 Tails 已过时，可能存在安全性问题。"
+
+#: ../lib/Tails/IUK/Frontend.pm:250
+#, perl-brace-format
+msgid ""
+"The available incremental upgrade requires %{space_needed}s of free space on"
+" Tails system partition,  but only %{free_space}s is available."
+msgstr "可用的增量升级，需要在 Tails 的系统分区有 %{space_needed}s 空闲空间，而目前仅有 %{free_space}s 可用。"
+
+#: ../lib/Tails/IUK/Frontend.pm:266
+#, perl-brace-format
+msgid ""
+"The available incremental upgrade requires %{memory_needed}s of free memory,"
+" but only %{free_memory}s is available."
+msgstr "可用的增量升级，需要有 %{space_needed}s 空闲空间，而目前仅有 %{free_space}s 可用。"
+
+#: ../lib/Tails/IUK/Frontend.pm:288
+msgid ""
+"An incremental upgrade is available, but no full upgrade is.\n"
+"This should not happen. Please report a bug."
+msgstr "增量升级可用但是没有完整升级。\n这不应该发生，请将此事报告为bug。"
+
+#: ../lib/Tails/IUK/Frontend.pm:292
+msgid "Error while detecting available upgrades"
+msgstr "检测可用升级时错误"
+
+#: ../lib/Tails/IUK/Frontend.pm:302
+#, perl-brace-format
+msgid ""
+"<b>You should upgrade to %{name}s %{version}s.</b>\n"
+"\n"
+"For more information about this new version, go to %{details_url}s.\n"
+"\n"
+"It is recommended to close all the open applications during the upgrade.\n"
+"Downloading the upgrade might take a long time, from several minutes to a few hours.\n"
+"The networking will be disabled after downloading the upgrade.\n"
+"\n"
+"Download size: %{size}s\n"
+"\n"
+"Do you want to upgrade now?"
+msgstr "<b>您应该升级到 %{name}s %{version}s.</b>\n\n查看关于新版本的更多信息，请到 %{details_url}s.\n\n建议在升级过程中关闭所有打开的程序\n下载升级可能需要用很长时间，从数分钟到数小时不等\n下载升级之后网络将被禁用\n\n下载大小: %{size}s\n\n您想现在升级么？"
+
+#: ../lib/Tails/IUK/Frontend.pm:317
+msgid "Upgrade available"
+msgstr "有升级可用"
+
+#: ../lib/Tails/IUK/Frontend.pm:318
+msgid "Upgrade now"
+msgstr "现在升级"
+
+#: ../lib/Tails/IUK/Frontend.pm:319
+msgid "Upgrade later"
+msgstr "稍后升级"
+
+#: ../lib/Tails/IUK/Frontend.pm:327
+#, perl-brace-format
+msgid ""
+"<b>You should manually upgrade to %{name}s %{version}s.</b>\n"
+"\n"
+"For more information about this new version, go to %{details_url}s.\n"
+"\n"
+"Note that it is not possible to do an automatic upgrade on your system. Automatic upgrades are only possible on a Tails device installed using Tails Installer.\n"
+"\n"
+"To learn how to manually upgrade, go to https://tails.boum.org/doc/first_steps/upgrade/#manual"
+msgstr "<b>您应该手动升级到 %{name}s %{version}s.</b>\n\n查看关于新版本的更多信息，请到 %{details_url}s.\n\n提示：在您的系统做自动升级是不可能的。\n自动升级只能在使用Tails安装程序安装的Tail设备\n\n学习如何手动升级，请到：https://tails.boum.org/doc/first_steps/upgrade/#manual"
+
+#: ../lib/Tails/IUK/Frontend.pm:342
+msgid "New version available"
+msgstr "新版本可用"
+
+#: ../lib/Tails/IUK/Frontend.pm:398
+msgid "Downloading upgrade"
+msgstr "正在下载升级"
+
+#: ../lib/Tails/IUK/Frontend.pm:401
+#, perl-brace-format
+msgid "Downloading the upgrade to %{name}s %{version}s..."
+msgstr "正在下载升级包到%{name}s %{version}s..."
+
+#: ../lib/Tails/IUK/Frontend.pm:442
+msgid ""
+"<b>The upgrade could not be downloaded.</b>\\n\\nCheck your network "
+"connection, and restart Tails to try upgrading again.\\n\\nIf the problem "
+"persists, go to "
+"file:///usr/share/doc/tails/website/doc/upgrade/error/download.en.html"
+msgstr "<b>该升级不能被下载.</b>\\n\\n检查您的网络连接，并且重启Tails然后重新尝试升级.\\n\\n如果依旧有这个问题，请到 file:///usr/share/doc/tails/website/doc/upgrade/error/download.en.html"
+
+#: ../lib/Tails/IUK/Frontend.pm:454
+#, perl-brace-format
+msgid ""
+"<b>Debugging information</b>\n"
+"<i>exit code</i>: %{exit_code}i\n"
+"\n"
+"<i>stderr:</i>\n"
+"%{stderr}s"
+msgstr "<b>调试信息</b>\n<i>退出代码</i>: %{exit_code}i\n\n<i>stderr:</i>\n%{stderr}s"
+
+#: ../lib/Tails/IUK/Frontend.pm:466 ../lib/Tails/IUK/Frontend.pm:480
+msgid "Error while downloading the upgrade"
+msgstr "在下载升级时出现错误"
+
+#: ../lib/Tails/IUK/Frontend.pm:473
+#, perl-brace-format
+msgid ""
+"Output file '%{output_file}s' does not exist, but tails-iuk-get-target-file "
+"did not complain. Please report a bug."
+msgstr "输出文件'%{output_file}s'不存在，但是 tails-iuk-get-target-file 并没有察觉，请将此事报告为bug。"
+
+#: ../lib/Tails/IUK/Frontend.pm:492
+msgid "Error while creating temporary downloading directory"
+msgstr "建立临时下载目录时出错"
+
+#: ../lib/Tails/IUK/Frontend.pm:495
+msgid "Failed to create temporary download directory"
+msgstr "创建临时下载目录时错误"
+
+#: ../lib/Tails/IUK/Frontend.pm:507
+msgid ""
+"<b>Your Tails device was successfully upgraded.</b>\n"
+"\n"
+"Some security features were temporarily disabled.\n"
+"You should restart Tails on the new version as soon as possible.\n"
+"\n"
+"Do you want to restart now?"
+msgstr "<b>您的Tails设备成功升级</b>\n\n一些安全特性已经被临时禁用.\n您应该尽快重启到新版本\n\n您想重启么？"
+
+#: ../lib/Tails/IUK/Frontend.pm:512
+msgid "Restart Tails"
+msgstr "重启Tails"
+
+#: ../lib/Tails/IUK/Frontend.pm:513
+msgid "Restart now"
+msgstr "现在重启"
+
+#: ../lib/Tails/IUK/Frontend.pm:514
+msgid "Restart later"
+msgstr "稍后重启"
+
+#: ../lib/Tails/IUK/Frontend.pm:525
+msgid "Error while restarting the system"
+msgstr "重启系统时出现错误"
+
+#: ../lib/Tails/IUK/Frontend.pm:528
+msgid "Failed to restart the system"
+msgstr "重启系统失败"
+
+#: ../lib/Tails/IUK/Frontend.pm:543
+msgid "Error while shutting down the network"
+msgstr "关闭网络时错误"
+
+#: ../lib/Tails/IUK/Frontend.pm:546
+msgid "Failed to shutdown network"
+msgstr "关闭网络失败"
+
+#: ../lib/Tails/IUK/Frontend.pm:556
+msgid "Upgrading the system"
+msgstr "正在升级系统"
+
+#: ../lib/Tails/IUK/Frontend.pm:558
+msgid ""
+"<b>Your Tails device is being upgraded...</b>\n"
+"\n"
+"For security reasons, the networking is now disabled."
+msgstr "<b>您的Tails已经被成功升级...</b>\n\n为了安全原因，网络连接已经被禁用。"
+
+#: ../lib/Tails/IUK/Frontend.pm:595
+msgid ""
+"<b>An error occured while installing the upgrade.</b>\\n\\nYour Tails device"
+" needs to be repaired and might be unable to restart.\\n\\nPlease follow the"
+" instructions at "
+"file:///usr/share/doc/tails/website/doc/upgrade/error/install.en.html"
+msgstr "<b>安装更新时出现错误</b>\\n\\n您的Tails设备需要修复，并且可能无法重启.\\n\\n请查看以下说明：file:///usr/share/doc/tails/website/doc/upgrade/error/install.en.html"
+
+#: ../lib/Tails/IUK/Frontend.pm:615
+msgid "Error while installing the upgrade"
+msgstr "安装升级时出错"
