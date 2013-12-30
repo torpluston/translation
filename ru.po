@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: The Tor Project\n"
 "Report-Msgid-Bugs-To: Tails developers <tails@boum.org>\n"
 "POT-Creation-Date: 2013-12-26 14:43+0100\n"
-"PO-Revision-Date: 2013-12-30 12:45+0000\n"
+"PO-Revision-Date: 2013-12-30 13:14+0000\n"
 "Last-Translator: vadmeh <vadmeh@yandex.ru>\n"
 "Language-Team: Russian (http://www.transifex.com/projects/p/torproject/language/ru/)\n"
 "MIME-Version: 1.0\n"
@@ -33,7 +33,7 @@ msgstr ""
 
 #: ../lib/Tails/IUK/Frontend.pm:205
 msgid "Error while checking for upgrades"
-msgstr ""
+msgstr "Ошибка проверки обновлений"
 
 #: ../lib/Tails/IUK/Frontend.pm:208
 msgid ""
@@ -42,7 +42,7 @@ msgid ""
 "Check your network connection, and restart Tails to try upgrading again.\n"
 "\n"
 "If the problem persists, go to file:///usr/share/doc/tails/website/doc/upgrade/error/check.en.html"
-msgstr ""
+msgstr "<b>Не удалось проверить наличие обновлений на нашем сайте.</b>\n\nПроверьте соединение с сетью, и перезапустите Tails для повторной попытки обновления.\n\nЕсли проблема сохранится, смотрите file:///usr/share/doc/tails/website/doc/upgrade/error/check.en.html"
 
 #: ../lib/Tails/IUK/Frontend.pm:224
 msgid "The system is up-to-date"
@@ -70,7 +70,7 @@ msgstr "Имеющееся дополнительное обновление т�
 msgid ""
 "An incremental upgrade is available, but no full upgrade is.\n"
 "This should not happen. Please report a bug."
-msgstr ""
+msgstr "Только дополнительное, а не полное обновление доступно. Этого не должно было произойти. Пожалуйста, сообщите об ошибке."
 
 #: ../lib/Tails/IUK/Frontend.pm:292
 msgid "Error while detecting available upgrades"
@@ -90,11 +90,11 @@ msgid ""
 "Download size: %{size}s\n"
 "\n"
 "Do you want to upgrade now?"
-msgstr ""
+msgstr "<b>Вы должны установить обновление %{name}s %{version}s.</b>\n\nДля получения дополнительной информации об этой новой версии, смотрите %{details_url}s.\n\nПеред обновлением рекомендуется закрыть все открытые приложения.\nУстановка обновления может занять значительное время: от нескольких минут до нескольких часов.\nСеть будет отключена после загрузки обновления.\n\nРазмер обновления: %{size}s\n\nХотите установить обновление сейчас?"
 
 #: ../lib/Tails/IUK/Frontend.pm:317
 msgid "Upgrade available"
-msgstr ""
+msgstr "Обновление доступно"
 
 #: ../lib/Tails/IUK/Frontend.pm:318
 msgid "Upgrade now"
@@ -122,7 +122,7 @@ msgstr ""
 
 #: ../lib/Tails/IUK/Frontend.pm:398
 msgid "Downloading upgrade"
-msgstr ""
+msgstr "Идет загрузка обновления"
 
 #: ../lib/Tails/IUK/Frontend.pm:401
 #, perl-brace-format
@@ -149,22 +149,22 @@ msgstr ""
 
 #: ../lib/Tails/IUK/Frontend.pm:466 ../lib/Tails/IUK/Frontend.pm:480
 msgid "Error while downloading the upgrade"
-msgstr ""
+msgstr "Ошибка загрузки обновления"
 
 #: ../lib/Tails/IUK/Frontend.pm:473
 #, perl-brace-format
 msgid ""
 "Output file '%{output_file}s' does not exist, but tails-iuk-get-target-file "
 "did not complain. Please report a bug."
-msgstr ""
+msgstr "Выходного файла '%{output_file}s' не существует, но tails-iuk-get-target-file не сообщил о проблеме. Пожалуйста, сообщите об ошибке."
 
 #: ../lib/Tails/IUK/Frontend.pm:492
 msgid "Error while creating temporary downloading directory"
-msgstr ""
+msgstr "Ошибка создания временной папки для загрузки"
 
 #: ../lib/Tails/IUK/Frontend.pm:495
 msgid "Failed to create temporary download directory"
-msgstr ""
+msgstr "Создать временную папку для загрузки не удалось"
 
 #: ../lib/Tails/IUK/Frontend.pm:507
 msgid ""
@@ -178,35 +178,35 @@ msgstr ""
 
 #: ../lib/Tails/IUK/Frontend.pm:512
 msgid "Restart Tails"
-msgstr ""
+msgstr "Перезапустить Tails"
 
 #: ../lib/Tails/IUK/Frontend.pm:513
 msgid "Restart now"
-msgstr ""
+msgstr "Перезапустить сейчас"
 
 #: ../lib/Tails/IUK/Frontend.pm:514
 msgid "Restart later"
-msgstr ""
+msgstr "Перезапустить позднее"
 
 #: ../lib/Tails/IUK/Frontend.pm:525
 msgid "Error while restarting the system"
-msgstr ""
+msgstr "Ошибка при перезапуске системы"
 
 #: ../lib/Tails/IUK/Frontend.pm:528
 msgid "Failed to restart the system"
-msgstr ""
+msgstr "Не удалось перезапустить систему"
 
 #: ../lib/Tails/IUK/Frontend.pm:543
 msgid "Error while shutting down the network"
-msgstr ""
+msgstr "Ошибка при отключении сети"
 
 #: ../lib/Tails/IUK/Frontend.pm:546
 msgid "Failed to shutdown network"
-msgstr ""
+msgstr "Не удалось отключить сеть"
 
 #: ../lib/Tails/IUK/Frontend.pm:556
 msgid "Upgrading the system"
-msgstr ""
+msgstr "Идет обновление системы"
 
 #: ../lib/Tails/IUK/Frontend.pm:558
 msgid ""
@@ -225,4 +225,4 @@ msgstr ""
 
 #: ../lib/Tails/IUK/Frontend.pm:615
 msgid "Error while installing the upgrade"
-msgstr ""
+msgstr "Ошибка установки обновления"
