@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: The Tor Project\n"
 "Report-Msgid-Bugs-To: Tails developers <tails@boum.org>\n"
 "POT-Creation-Date: 2013-12-26 14:43+0100\n"
-"PO-Revision-Date: 2013-12-30 09:42+0000\n"
+"PO-Revision-Date: 2013-12-30 10:00+0000\n"
 "Last-Translator: chap <chap@anche.no>\n"
 "Language-Team: Italian (http://www.transifex.com/projects/p/torproject/language/it/)\n"
 "MIME-Version: 1.0\n"
@@ -92,7 +92,7 @@ msgid ""
 "Download size: %{size}s\n"
 "\n"
 "Do you want to upgrade now?"
-msgstr ""
+msgstr "<b>Si dovrebbe aggiornare a %{name}s %{version}s.</b>\n\nPer maggiori informazioni riguardo a questa nuova versione, andare su %{details_url}s.\n\nSi raccomanda di chiudere tutte le applicazioni aperte durante l'aggiornamento.\nScaricare l'aggiornamento potrebbe richidere molto tempo, da alcuni minuti ad alcune ore.\nLa rete sarà disattivata dopo aver scaricato l'aggiornamento.\n\nDimensioni aggiornamento: %{size}s\n\nSi desidera aggiornare ora?"
 
 #: ../lib/Tails/IUK/Frontend.pm:317
 msgid "Upgrade available"
@@ -100,11 +100,11 @@ msgstr "Aggiornamento disponibile"
 
 #: ../lib/Tails/IUK/Frontend.pm:318
 msgid "Upgrade now"
-msgstr ""
+msgstr "Aggiorna ora"
 
 #: ../lib/Tails/IUK/Frontend.pm:319
 msgid "Upgrade later"
-msgstr ""
+msgstr "Aggiorna in seguito"
 
 #: ../lib/Tails/IUK/Frontend.pm:327
 #, perl-brace-format
@@ -116,11 +116,11 @@ msgid ""
 "Note that it is not possible to do an automatic upgrade on your system. Automatic upgrades are only possible on a Tails device installed using Tails Installer.\n"
 "\n"
 "To learn how to manually upgrade, go to https://tails.boum.org/doc/first_steps/upgrade/#manual"
-msgstr ""
+msgstr "<b>Si dovrebbe aggiornare manualmente a %{name}s %{version}s.</b>\n\nPer maggiori informazioni riguardo questa nuova versione, andare su %{details_url}s.\n\nNotare che non è possibile compiere un aggiornamento automatico sul vostro sistema. Gli aggiornamenti automatici sono disponibili solo sui dispositivi Tails installati usando Tails Installer.\n\nPer imparare come aggiornare manualmente, andare su https://tails.boum.org/doc/first_steps/upgrade/#manual"
 
 #: ../lib/Tails/IUK/Frontend.pm:342
 msgid "New version available"
-msgstr ""
+msgstr "Nuova versione disponibile"
 
 #: ../lib/Tails/IUK/Frontend.pm:398
 msgid "Downloading upgrade"
@@ -129,7 +129,7 @@ msgstr "Scaricamento dell'aggiornamento"
 #: ../lib/Tails/IUK/Frontend.pm:401
 #, perl-brace-format
 msgid "Downloading the upgrade to %{name}s %{version}s..."
-msgstr ""
+msgstr "Scaricando l'aggiornamento a %{name}s %{version}s..."
 
 #: ../lib/Tails/IUK/Frontend.pm:442
 msgid ""
@@ -137,7 +137,7 @@ msgid ""
 "connection, and restart Tails to try upgrading again.\\n\\nIf the problem "
 "persists, go to "
 "file:///usr/share/doc/tails/website/doc/upgrade/error/download.en.html"
-msgstr ""
+msgstr "<b>L'aggiornamento non può essere scaricato.</b>\\n\\nControllate la vostra connessione e riavviate Tails per aggiornare nuovamente.\\n\\nSe il problema persiste, andare su file:///usr/share/doc/tails/website/doc/upgrade/error/download.en.html"
 
 #: ../lib/Tails/IUK/Frontend.pm:454
 #, perl-brace-format
@@ -147,7 +147,7 @@ msgid ""
 "\n"
 "<i>stderr:</i>\n"
 "%{stderr}s"
-msgstr ""
+msgstr "<b>Informazione di Debugging</b>\n<i>codice d'uscita</i>:%{exit_code}i\n\n<i>stderr:</i>\n%{stderr}s"
 
 #: ../lib/Tails/IUK/Frontend.pm:466 ../lib/Tails/IUK/Frontend.pm:480
 msgid "Error while downloading the upgrade"
@@ -176,7 +176,7 @@ msgid ""
 "You should restart Tails on the new version as soon as possible.\n"
 "\n"
 "Do you want to restart now?"
-msgstr ""
+msgstr "<b>Il vostro dispositivo Tails è stato aggiornato con successo.</b>\n\nAlcune funzioni di sicurezza sono state temporaneamente disabilitate.\nDovresti riavviare Tails con la nuova versione il prima possibile.\n\nVuoi riavviare ora?"
 
 #: ../lib/Tails/IUK/Frontend.pm:512
 msgid "Restart Tails"
@@ -215,7 +215,7 @@ msgid ""
 "<b>Your Tails device is being upgraded...</b>\n"
 "\n"
 "For security reasons, the networking is now disabled."
-msgstr ""
+msgstr "<b>Il tuo dispositivo Tails è in aggiornamento...</b>\n\nPer ragioni di sicurezza, la rete è disabilitata."
 
 #: ../lib/Tails/IUK/Frontend.pm:595
 msgid ""
@@ -223,7 +223,7 @@ msgid ""
 " needs to be repaired and might be unable to restart.\\n\\nPlease follow the"
 " instructions at "
 "file:///usr/share/doc/tails/website/doc/upgrade/error/install.en.html"
-msgstr ""
+msgstr "<b>Si è verificato un errore durante l'installazione dell'aggiornamento.</b>\\n\\nIl vostro dispositivo Tails deve essere riparato e potrebbe non riavviarsi.\\n\\nPer favore seguite le istruzioni a file:///usr/share/doc/tails/website/doc/upgrade/error/install.en.html"
 
 #: ../lib/Tails/IUK/Frontend.pm:615
 msgid "Error while installing the upgrade"
