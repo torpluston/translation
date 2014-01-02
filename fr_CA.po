@@ -3,13 +3,16 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
+# bassmax <adr.poubelle@gmail.com>, 2013
+# Towatowa441, 2013
+# Alain-Olivier  Breysse, 2014
 msgid ""
 msgstr ""
 "Project-Id-Version: The Tor Project\n"
 "Report-Msgid-Bugs-To: Tails developers <tails@boum.org>\n"
 "POT-Creation-Date: 2013-12-26 14:43+0100\n"
-"PO-Revision-Date: 2014-01-01 00:17+0000\n"
-"Last-Translator: Phoul <colin@torproject.org>\n"
+"PO-Revision-Date: 2014-01-02 09:13+0000\n"
+"Last-Translator: Alain-Olivier  Breysse\n"
 "Language-Team: French (Canada) (http://www.transifex.com/projects/p/torproject/language/fr_CA/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -28,11 +31,11 @@ msgid ""
 "\n"
 "<i>stderr:</i>\n"
 "%{stderr}s"
-msgstr ""
+msgstr "<b>Information de débogage</b>\n<i>code de sortie</i> : %{exit_code}i\n\n<i>stdout :</i>\n%{stdout}s\n\n<i>stderr :</i>\n%{stderr}s"
 
 #: ../lib/Tails/IUK/Frontend.pm:205
 msgid "Error while checking for upgrades"
-msgstr ""
+msgstr "Erreur lors de la vérification de mises à niveau"
 
 #: ../lib/Tails/IUK/Frontend.pm:208
 msgid ""
@@ -41,39 +44,39 @@ msgid ""
 "Check your network connection, and restart Tails to try upgrading again.\n"
 "\n"
 "If the problem persists, go to file:///usr/share/doc/tails/website/doc/upgrade/error/check.en.html"
-msgstr ""
+msgstr "<b>N'a pas pu déterminer si une mise à niveau est disponible depuis notre site Web.</b>\n\nVérifier votre connexion réseau, et redémarrer Tails pour ressayer de mettre à niveau.\n\nSi le problème persiste, allez à file:///usr/share/doc/tails/website/doc/upgrade/error/check.fr.html"
 
 #: ../lib/Tails/IUK/Frontend.pm:224
 msgid "The system is up-to-date"
-msgstr ""
+msgstr "Le système est à jour"
 
 #: ../lib/Tails/IUK/Frontend.pm:229
 msgid "This version of Tails is outdated, and may have security issues."
-msgstr ""
+msgstr "Cette version de Tails est obsolète et peut avoir des problèmes de sécurité."
 
 #: ../lib/Tails/IUK/Frontend.pm:250
 #, perl-brace-format
 msgid ""
 "The available incremental upgrade requires %{space_needed}s of free space on"
 " Tails system partition,  but only %{free_space}s is available."
-msgstr ""
+msgstr "La mise à niveau incrémentale disponible exige %{space_needed}s d'espace libre sur la partition système de Tails, mais seulement %{free_space}s est libre."
 
 #: ../lib/Tails/IUK/Frontend.pm:266
 #, perl-brace-format
 msgid ""
 "The available incremental upgrade requires %{memory_needed}s of free memory,"
 " but only %{free_memory}s is available."
-msgstr ""
+msgstr "La mise à niveau incrémentale disponible nécessite %{memory_needed}s de mémoire libre mais seulement %{free_memory}s est libre."
 
 #: ../lib/Tails/IUK/Frontend.pm:288
 msgid ""
 "An incremental upgrade is available, but no full upgrade is.\n"
 "This should not happen. Please report a bug."
-msgstr ""
+msgstr "Une mise à niveau incrémentale est disponible, mais aucune mise à niveau complète.\nCela ne devrait pas arriver. Veuillez rapporter un bogue."
 
 #: ../lib/Tails/IUK/Frontend.pm:292
 msgid "Error while detecting available upgrades"
-msgstr ""
+msgstr "Erreur lors de la vérification de mises à niveau disponibles"
 
 #: ../lib/Tails/IUK/Frontend.pm:302
 #, perl-brace-format
@@ -89,19 +92,19 @@ msgid ""
 "Download size: %{size}s\n"
 "\n"
 "Do you want to upgrade now?"
-msgstr ""
+msgstr "<b>Vous devriez mettre à niveau vers %{name}s %{version}s.</b>\n\nPour plus d'informations sur cette nouvelle version, allez sur %{details_url}s.\n\nIl est recommandé de fermer toutes les applications ouvertes pendant la mise à niveau.\nLe téléchargement de la mise à niveau pourrait prendre longtemps, de plusieurs minutes à quelques heures.\nLe réseau sera désactivé après le téléchargement de la mise à niveau.\n\nTaille du téléchargement : %{size}s\n\nVoulez-vous mettre à niveau maintenant?"
 
 #: ../lib/Tails/IUK/Frontend.pm:317
 msgid "Upgrade available"
-msgstr ""
+msgstr "Mise à niveau disponible"
 
 #: ../lib/Tails/IUK/Frontend.pm:318
 msgid "Upgrade now"
-msgstr ""
+msgstr "Mettre à niveau maintenant"
 
 #: ../lib/Tails/IUK/Frontend.pm:319
 msgid "Upgrade later"
-msgstr ""
+msgstr "Mettre à niveau plus tard"
 
 #: ../lib/Tails/IUK/Frontend.pm:327
 #, perl-brace-format
@@ -113,20 +116,20 @@ msgid ""
 "Note that it is not possible to do an automatic upgrade on your system. Automatic upgrades are only possible on a Tails device installed using Tails Installer.\n"
 "\n"
 "To learn how to manually upgrade, go to https://tails.boum.org/doc/first_steps/upgrade/#manual"
-msgstr ""
+msgstr "<b>Vous devriez mettre à niveau manuellement vers %{name}s %{version}s.</b>\n\nPour plus d'informations sur cette nouvelle version, allez sur %{details_url}s.\n\nNotez qu'il n'est pas possible de faire une mise à niveau automatique sur votre système. Les mises à niveau automatiques sont seulement possibles sur un dispositif Tails installé en utilisant l'Installateur Tails.\n\nPour apprendre à mettre à niveau manuellement, aller sur https://tails.boum.org/doc/first_steps/upgrade/#manual"
 
 #: ../lib/Tails/IUK/Frontend.pm:342
 msgid "New version available"
-msgstr ""
+msgstr "Nouvelle version disponible"
 
 #: ../lib/Tails/IUK/Frontend.pm:398
 msgid "Downloading upgrade"
-msgstr ""
+msgstr "Téléchargement de la mise à niveau"
 
 #: ../lib/Tails/IUK/Frontend.pm:401
 #, perl-brace-format
 msgid "Downloading the upgrade to %{name}s %{version}s..."
-msgstr ""
+msgstr "Téléchargement de la mise à niveau vers %{name}s %{version}s..."
 
 #: ../lib/Tails/IUK/Frontend.pm:442
 msgid ""
@@ -134,7 +137,7 @@ msgid ""
 "connection, and restart Tails to try upgrading again.\\n\\nIf the problem "
 "persists, go to "
 "file:///usr/share/doc/tails/website/doc/upgrade/error/download.en.html"
-msgstr ""
+msgstr "<b>La mise à niveau n'a pas pu être téléchargée.<b>\\n\\nVérifier votre connexion réseau et redémarrer Tails pour ressayer de mettre à niveau.\\n\\nSi le problème persiste, aller sur file:///usr/share/doc/tails/website/doc/upgrade/error/download.fr.html"
 
 #: ../lib/Tails/IUK/Frontend.pm:454
 #, perl-brace-format
@@ -144,26 +147,26 @@ msgid ""
 "\n"
 "<i>stderr:</i>\n"
 "%{stderr}s"
-msgstr ""
+msgstr "<b>Information de débogage</b>\n<i>code de sortie </i>: %{exit_code}i\n\n<i>stderr :</i>\n%{stderr}s"
 
 #: ../lib/Tails/IUK/Frontend.pm:466 ../lib/Tails/IUK/Frontend.pm:480
 msgid "Error while downloading the upgrade"
-msgstr ""
+msgstr "Échec lors du téléchargement de la mise à niveau"
 
 #: ../lib/Tails/IUK/Frontend.pm:473
 #, perl-brace-format
 msgid ""
 "Output file '%{output_file}s' does not exist, but tails-iuk-get-target-file "
 "did not complain. Please report a bug."
-msgstr ""
+msgstr "Le fichier de sortie '%{output_file}s' n'existe pas, mais tails-iuk-get-target-file ne s'en est pas plaint. Veuillez rapporter un bogue."
 
 #: ../lib/Tails/IUK/Frontend.pm:492
 msgid "Error while creating temporary downloading directory"
-msgstr ""
+msgstr "Échec lors de la création du répertoire de téléchargement temporaire"
 
 #: ../lib/Tails/IUK/Frontend.pm:495
 msgid "Failed to create temporary download directory"
-msgstr ""
+msgstr "Échec lors de la création du répertoire de téléchargement temporaire"
 
 #: ../lib/Tails/IUK/Frontend.pm:507
 msgid ""
@@ -173,46 +176,46 @@ msgid ""
 "You should restart Tails on the new version as soon as possible.\n"
 "\n"
 "Do you want to restart now?"
-msgstr ""
+msgstr "<b>Votre dispositif Tails a été mis à niveau avec succès.<b>\n\nQuelques fonctions de sécurité ont été temporairement mises hors service.\nVous devriez redémarrer Tails sur la nouvelle version dès que possible.\n\nVoulez-vous redémarrer maintenant?"
 
 #: ../lib/Tails/IUK/Frontend.pm:512
 msgid "Restart Tails"
-msgstr ""
+msgstr "Redémarrer Tails"
 
 #: ../lib/Tails/IUK/Frontend.pm:513
 msgid "Restart now"
-msgstr ""
+msgstr "Redémarrer maintenant"
 
 #: ../lib/Tails/IUK/Frontend.pm:514
 msgid "Restart later"
-msgstr ""
+msgstr "Redémarrer plus tard"
 
 #: ../lib/Tails/IUK/Frontend.pm:525
 msgid "Error while restarting the system"
-msgstr ""
+msgstr "Échec lors du redémarrage du système"
 
 #: ../lib/Tails/IUK/Frontend.pm:528
 msgid "Failed to restart the system"
-msgstr ""
+msgstr "Échec lors du redémarrage du système"
 
 #: ../lib/Tails/IUK/Frontend.pm:543
 msgid "Error while shutting down the network"
-msgstr ""
+msgstr "Échec lors de l'arrêt du réseau"
 
 #: ../lib/Tails/IUK/Frontend.pm:546
 msgid "Failed to shutdown network"
-msgstr ""
+msgstr "Échec lors de l'arrêt du réseau"
 
 #: ../lib/Tails/IUK/Frontend.pm:556
 msgid "Upgrading the system"
-msgstr ""
+msgstr "Mise à niveau du système"
 
 #: ../lib/Tails/IUK/Frontend.pm:558
 msgid ""
 "<b>Your Tails device is being upgraded...</b>\n"
 "\n"
 "For security reasons, the networking is now disabled."
-msgstr ""
+msgstr "<b>Votre dispositif Tails est en cours de mise à niveau...</b>\n\nPour des raisons de sécurité, le réseau est actuellement désactivé."
 
 #: ../lib/Tails/IUK/Frontend.pm:595
 msgid ""
@@ -220,8 +223,8 @@ msgid ""
 " needs to be repaired and might be unable to restart.\\n\\nPlease follow the"
 " instructions at "
 "file:///usr/share/doc/tails/website/doc/upgrade/error/install.en.html"
-msgstr ""
+msgstr "<b>Une erreur est survenue durant l'installation de la mise à niveau.</b>\\n\\nVotre dispositif Tails doit être réparé et pourrait être incapable de redémarrer.\\n\\nVeuillez suivre les instructions sur file:///usr/share/doc/tails/website/doc/upgrade/error/install.fr.html"
 
 #: ../lib/Tails/IUK/Frontend.pm:615
 msgid "Error while installing the upgrade"
-msgstr ""
+msgstr "Erreur lors de l'installation de la mise à niveau"
