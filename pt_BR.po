@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: The Tor Project\n"
 "Report-Msgid-Bugs-To: Tails developers <tails@boum.org>\n"
 "POT-Creation-Date: 2013-12-26 14:43+0100\n"
-"PO-Revision-Date: 2014-01-02 19:13+0000\n"
+"PO-Revision-Date: 2014-01-02 19:44+0000\n"
 "Last-Translator: carlo_valente <carlo.gt.valente@gmail.com>\n"
 "Language-Team: Portuguese (Brazil) (http://www.transifex.com/projects/p/torproject/language/pt_BR/)\n"
 "MIME-Version: 1.0\n"
@@ -91,7 +91,7 @@ msgid ""
 "Download size: %{size}s\n"
 "\n"
 "Do you want to upgrade now?"
-msgstr ""
+msgstr "<b>Você deve atualizar para %{name}s %{version}s.</b>\n\nPara mais informações sobre esta nova versão, vá para %{details_url}s.\n\nRecomendamos que feche todas as aplicações abertas durante a atualização.\nBaixar a atualização pode levar um bom tempo, de vários minutos a algumas horas.\nA rede será desabilitada após baixar a atualização.\n\nTamanho do download: %{size}s\n\nQuer atualizar agora?"
 
 #: ../lib/Tails/IUK/Frontend.pm:317
 msgid "Upgrade available"
@@ -99,11 +99,11 @@ msgstr "Atualização disponível"
 
 #: ../lib/Tails/IUK/Frontend.pm:318
 msgid "Upgrade now"
-msgstr ""
+msgstr "Atualizar agora"
 
 #: ../lib/Tails/IUK/Frontend.pm:319
 msgid "Upgrade later"
-msgstr ""
+msgstr "Atualizar depois"
 
 #: ../lib/Tails/IUK/Frontend.pm:327
 #, perl-brace-format
@@ -115,11 +115,11 @@ msgid ""
 "Note that it is not possible to do an automatic upgrade on your system. Automatic upgrades are only possible on a Tails device installed using Tails Installer.\n"
 "\n"
 "To learn how to manually upgrade, go to https://tails.boum.org/doc/first_steps/upgrade/#manual"
-msgstr ""
+msgstr "<b>Você deve atualizar manualmente para %{name}s %{version}s.</b>\n\nPara mais informações sobre esta nova versão, vá para %{details_url}s.\n\nNote que não é possível fazer uma atualização automática em seu sistema. Atualizações automáticas somente são possíveis num dispositivo com o Tails instalado através de seu Instalador.\n\nPara saber como atualizar manualmente, vá para https://tails.boum.org/doc/first_steps/upgrade/#manual"
 
 #: ../lib/Tails/IUK/Frontend.pm:342
 msgid "New version available"
-msgstr ""
+msgstr "Nova versão disponível"
 
 #: ../lib/Tails/IUK/Frontend.pm:398
 msgid "Downloading upgrade"
@@ -128,7 +128,7 @@ msgstr "Abaixando a atualização"
 #: ../lib/Tails/IUK/Frontend.pm:401
 #, perl-brace-format
 msgid "Downloading the upgrade to %{name}s %{version}s..."
-msgstr ""
+msgstr "Baixando atualização para %{name}s %{version}s..."
 
 #: ../lib/Tails/IUK/Frontend.pm:442
 msgid ""
@@ -136,7 +136,7 @@ msgid ""
 "connection, and restart Tails to try upgrading again.\\n\\nIf the problem "
 "persists, go to "
 "file:///usr/share/doc/tails/website/doc/upgrade/error/download.en.html"
-msgstr ""
+msgstr "<b>A atualização não pôde ser baixada.</b>\\n\\nVerifique sua conexão de rede e reinicie Tails para tentar atualizar novamente.\\n\\nCaso o problema continue, vá para file:///usr/share/doc/tails/website/doc/upgrade/error/download.en.html"
 
 #: ../lib/Tails/IUK/Frontend.pm:454
 #, perl-brace-format
@@ -146,7 +146,7 @@ msgid ""
 "\n"
 "<i>stderr:</i>\n"
 "%{stderr}s"
-msgstr ""
+msgstr "<b>Informação de Debugging</b>\n<i>código de saída</i>: %{exit_code}i\n\n<i>stderr:</i>\n%{stderr}s"
 
 #: ../lib/Tails/IUK/Frontend.pm:466 ../lib/Tails/IUK/Frontend.pm:480
 msgid "Error while downloading the upgrade"
@@ -175,7 +175,7 @@ msgid ""
 "You should restart Tails on the new version as soon as possible.\n"
 "\n"
 "Do you want to restart now?"
-msgstr ""
+msgstr "<b>Seu dispositivo Tails foi atualizado com sucesso.</b>\n\nAlgumas funcionalidades de segurança foram desabilitadas temporariamente.\nVocê deve reiniciar o Tails em sua nova versão assim que puder.\n\nQuer reiniciar agora?"
 
 #: ../lib/Tails/IUK/Frontend.pm:512
 msgid "Restart Tails"
@@ -214,7 +214,7 @@ msgid ""
 "<b>Your Tails device is being upgraded...</b>\n"
 "\n"
 "For security reasons, the networking is now disabled."
-msgstr ""
+msgstr "<b>Atualizando seu dispositivo Tails...</b>\n\nPor razões de segurança, agora, a rede está desabilitada."
 
 #: ../lib/Tails/IUK/Frontend.pm:595
 msgid ""
