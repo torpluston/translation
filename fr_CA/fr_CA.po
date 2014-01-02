@@ -17,7 +17,7 @@ msgstr ""
 "Project-Id-Version: The Tor Project\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-12-21 11:30+0100\n"
-"PO-Revision-Date: 2014-01-02 17:43+0000\n"
+"PO-Revision-Date: 2014-01-02 18:14+0000\n"
 "Last-Translator: Alain-Olivier  Breysse\n"
 "Language-Team: French (Canada) (http://www.transifex.com/projects/p/torproject/language/fr_CA/)\n"
 "MIME-Version: 1.0\n"
@@ -29,7 +29,7 @@ msgstr ""
 #: ../liveusb/dialog.py:159 ../liveusb/launcher_ui.py:158
 #, python-format
 msgid "%(distribution)s installer"
-msgstr "Installeur de %(distribution)s"
+msgstr "Installateur de %(distribution)s"
 
 #: ../liveusb/gui.py:808
 #, python-format
@@ -139,7 +139,7 @@ msgstr "Création du stockage persistant de %s Mo"
 #: ../liveusb/gui.py:567
 msgid ""
 "Device is not yet mounted, so we cannot determine the amount of free space."
-msgstr "L'appareil n'est pas encore monté, nous ne pouvons donc pas déterminer la quantité d'espace libre."
+msgstr "Le périphérique n'est pas encore monté, nous ne pouvons donc pas déterminer la quantité d'espace libre."
 
 #: ../liveusb/dialog.py:166
 #, python-format
@@ -166,7 +166,7 @@ msgstr "Le périphérique est une boucle avec retour, omission de la réinitiali
 #: ../liveusb/creator.py:813
 #, python-format
 msgid "Entering unmount_device for '%(device)s'"
-msgstr "Saisie de unmount_device pour '%(device)s'"
+msgstr "Saisie de unmount_device pour « %(device)s »"
 
 #: ../liveusb/creator.py:1198
 msgid "Error probing device"
@@ -262,15 +262,15 @@ msgstr "Aucun point de montage trouvé"
 msgid ""
 "Not enough free space on device.\n"
 "%dMB ISO + %dMB overlay > %dMB free space"
-msgstr "Pas assez d'espace libre sur le périphérique.\n%dMB ISO + %dMB de superposition > %dMB d'espace libre"
+msgstr "Pas assez d'espace libre sur le périphérique.\nISO de %dMo + %dMo de persistance > %dMo d'espace libre"
 
 #: ../liveusb/gui.py:554
 msgid "Partition is FAT16; Restricting overlay size to 2G"
-msgstr "Partition de type FAT16; persistance restreinte à 2 Go"
+msgstr "La partition est en FAT16; persistance restreinte à 2 Go"
 
 #: ../liveusb/gui.py:550
 msgid "Partition is FAT32; Restricting overlay size to 4G"
-msgstr "La partition est en FAT32; Restriction de la superposition à une taille de 4G."
+msgstr "La partition est en FAT32; persistance restreinte à 4 Go"
 
 #: ../liveusb/creator.py:226 ../liveusb/creator.py:842
 #, python-format
@@ -377,13 +377,13 @@ msgstr "Ce bouton va démarrer le processus de création du LiveUSB. Cela impliq
 msgid ""
 "This is the USB stick that you want to install your Live system on.  This "
 "device must be formatted with the FAT filesystem."
-msgstr "C'est la clé USB sur laquelle vous souhaitez installer votre Live système. Celle-ci doit être formatée avec le système de fichiers FAT."
+msgstr "C'est la clef USB sur laquelle vous souhaitez installer votre système prêt à l'emploi. Celle-ci doit être formatée avec le système de fichiers FAT."
 
 #: ../liveusb/dialog.py:172
 msgid ""
 "This is the progress bar that will indicate how far along in the LiveUSB "
 "creation process you are"
-msgstr "C'est la barre de progression qui vous indiquera l'avancement de la création du Live USB."
+msgstr "C'est la barre de progression qui vous indiquera l'avancement de la création du LiveUSB."
 
 #: ../liveusb/dialog.py:171
 msgid "This is the status console, where all messages get written to."
@@ -481,12 +481,12 @@ msgstr "Version inconnue : %s"
 #: ../liveusb/creator.py:827
 #, python-format
 msgid "Unmounting '%(udi)s' on '%(device)s'"
-msgstr "Démontage de '%(udi)s' sur '%(device)s'"
+msgstr "Démontage de « %(udi)s » sur « %(device)s »"
 
 #: ../liveusb/creator.py:823
 #, python-format
 msgid "Unmounting mounted filesystems on '%(device)s'"
-msgstr "Démontage des systèmes de fichiers montés sur '%(device)s'"
+msgstr "Démontage des systèmes de fichiers montés sur « %(device)s »"
 
 #: ../liveusb/creator.py:876
 #, python-format
@@ -503,7 +503,7 @@ msgstr "Système de fichiers non pris en charge : %s"
 msgid ""
 "Unsupported filesystem: %s\n"
 "In case you are trying to upgrade a manually installed Tails system (that is, if it was installed without this installer), this option is not supported: you need to install it anew to start with, e.g. by choosing the \"Clone & Install\" action instead."
-msgstr "Système de fichiers non supporté : %s\nAu cas où vous essayeriez de mettre à jour une version de Tails installée manuellement (autrement dit, si elle a été installée sans l'installeur), cette option n'est pas supportée : vous devez la réinstaller, e.g. en choisissant l'action \"Cloner & Installer\"."
+msgstr "Système de fichiers non pris en charge : %s\nAu cas où vous essayeriez de mettre à niveau une version de Tails installée manuellement (autrement dit, si elle a été installée sans l'installeur), cette option n'est pas prise en charge : vous devez la réinstaller, par exemple en choisissant l'action « Cloner & installer »."
 
 #: ../liveusb/creator.py:1213
 #, python-format
@@ -514,11 +514,11 @@ msgstr "Système de fichiers non pris en charge : %s\nVeuillez sauvegarder votr
 
 #: ../liveusb/launcher_ui.py:163
 msgid "Upgrade from ISO"
-msgstr "Mettre à jour à partir de l'ISO"
+msgstr "Mettre à niveau à partir de l'ISO"
 
 #: ../liveusb/dialog.py:161
 msgid "Use existing Live system ISO"
-msgstr "Utiliser un Live ISO existant"
+msgstr "Utiliser un ISO de système prêt à l'emploi existant"
 
 #: ../liveusb/creator.py:133
 msgid "Verifying ISO MD5 checksum"
