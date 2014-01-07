@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: The Tor Project\n"
 "Report-Msgid-Bugs-To: Tails developers <tails@boum.org>\n"
 "POT-Creation-Date: 2013-12-26 14:43+0100\n"
-"PO-Revision-Date: 2014-01-07 05:46+0000\n"
+"PO-Revision-Date: 2014-01-07 06:10+0000\n"
 "Last-Translator: karvjorm <karvonen.jorma@gmail.com>\n"
 "Language-Team: Finnish (http://www.transifex.com/projects/p/torproject/language/fi/)\n"
 "MIME-Version: 1.0\n"
@@ -29,11 +29,11 @@ msgid ""
 "\n"
 "<i>stderr:</i>\n"
 "%{stderr}s"
-msgstr "<b>Vianjäljitystiedot</b>\n<i>poistumiskoodi</i>: %{exit_code}i\n\n<i>vakiovirta:</i>\n%{stdout}s\n\n<i>vakiovirhe:</i>\n%{stderr}s"
+msgstr "<b>Vianjäljitystiedot</b>\n<i>poistumiskoodi</i>: %{exit_code}i\n\n<i>vakiotuloste:</i>\n%{stdout}s\n\n<i>vakiovirhetuloste:</i>\n%{stderr}s"
 
 #: ../lib/Tails/IUK/Frontend.pm:205
 msgid "Error while checking for upgrades"
-msgstr ""
+msgstr "Virhe tarkistettaessa päivityksiä"
 
 #: ../lib/Tails/IUK/Frontend.pm:208
 msgid ""
@@ -42,7 +42,7 @@ msgid ""
 "Check your network connection, and restart Tails to try upgrading again.\n"
 "\n"
 "If the problem persists, go to file:///usr/share/doc/tails/website/doc/upgrade/error/check.en.html"
-msgstr ""
+msgstr "<b>Päivityksen saatavuuden määritteleminen webbisivultamme epäonnistui.</b>\n\nTarkista verkkoyhteytesi ja yritä taas päivitystä käynnistämällä Tails uudelleen.\n\nJos pulma jatkuu, siirry tiedostoon file:///usr/share/doc/tails/website/doc/upgrade/error/check.en.html"
 
 #: ../lib/Tails/IUK/Frontend.pm:224
 msgid "The system is up-to-date"
@@ -90,7 +90,7 @@ msgid ""
 "Download size: %{size}s\n"
 "\n"
 "Do you want to upgrade now?"
-msgstr ""
+msgstr "<b>Sinun pitäisi päivittää  %{name}s-sovelluksen %{version}s-versioon.</b>\n\nLisätietoja tästä uudesta versiosta saa siirtymällä osoitteeseen %{details_url}s.\n\nOn suositeltavaa sulkea kaikki avoimet sovellukset päivityksen aikana.\nPäivityksen lataaminen voi kestää pitkän ajan, useista minuuteista muutamaan tuntiin.\nVerkkoyhteys otetaan pois käytöstä päivityksen latauksen jälkeen.\n\nLatauskoko: %{size}s\n\nHaluatko päivittää nyt?"
 
 #: ../lib/Tails/IUK/Frontend.pm:317
 msgid "Upgrade available"
@@ -98,11 +98,11 @@ msgstr "Päivitys on saatavilla."
 
 #: ../lib/Tails/IUK/Frontend.pm:318
 msgid "Upgrade now"
-msgstr ""
+msgstr "Päivitä nyt"
 
 #: ../lib/Tails/IUK/Frontend.pm:319
 msgid "Upgrade later"
-msgstr ""
+msgstr "Päivitä myöhemmin"
 
 #: ../lib/Tails/IUK/Frontend.pm:327
 #, perl-brace-format
@@ -114,11 +114,11 @@ msgid ""
 "Note that it is not possible to do an automatic upgrade on your system. Automatic upgrades are only possible on a Tails device installed using Tails Installer.\n"
 "\n"
 "To learn how to manually upgrade, go to https://tails.boum.org/doc/first_steps/upgrade/#manual"
-msgstr ""
+msgstr "<b>Sinun pitäisi päivittää manuaalisesti %{name}s-sovelluksen %{version}s-versioon.</b>\n\nLisätietoja tästä uudesta versiosta saa siirtymällä osoitteeseen %{details_url}s.\n\nHuomaa, että järjestelmässäsi ei ole mahdollista tehdä automaattista päivitystä. Automaattiset päivitykset ovat mahdollisia vain, jos Tails-laite on asennettu käyttäen Tails-asennusohjelmaa.\n\nOppiaksesi manuaalisen päivityksen siirry osoitteeseen https://tails.boum.org/doc/first_steps/upgrade/#manual"
 
 #: ../lib/Tails/IUK/Frontend.pm:342
 msgid "New version available"
-msgstr ""
+msgstr "Uusi versio on saatavilla"
 
 #: ../lib/Tails/IUK/Frontend.pm:398
 msgid "Downloading upgrade"
@@ -127,7 +127,7 @@ msgstr "Ladataan päivitys"
 #: ../lib/Tails/IUK/Frontend.pm:401
 #, perl-brace-format
 msgid "Downloading the upgrade to %{name}s %{version}s..."
-msgstr ""
+msgstr "Ladataa päivitys %{name}s-sovelluksen %{version}s-versioon..."
 
 #: ../lib/Tails/IUK/Frontend.pm:442
 msgid ""
@@ -135,7 +135,7 @@ msgid ""
 "connection, and restart Tails to try upgrading again.\\n\\nIf the problem "
 "persists, go to "
 "file:///usr/share/doc/tails/website/doc/upgrade/error/download.en.html"
-msgstr ""
+msgstr "<b>Päivityksen lataus epäonnistui.</b>\\n\\nTarkista verkkoyhteytesi ja yritä taas päivitystä käynnistämällä Tails uudelleen.\\n\\nJos pulma jatkuu, siirry osoitteeseen file:///usr/share/doc/tails/website/doc/upgrade/error/download.en.html"
 
 #: ../lib/Tails/IUK/Frontend.pm:454
 #, perl-brace-format
@@ -145,7 +145,7 @@ msgid ""
 "\n"
 "<i>stderr:</i>\n"
 "%{stderr}s"
-msgstr ""
+msgstr "<b>Vianjäljitystiedot</b>\n<i>poistumiskoodi</i>: %{exit_code}i\n\n<i>vakiovirhetuloste:</i>\n%{stderr}s"
 
 #: ../lib/Tails/IUK/Frontend.pm:466 ../lib/Tails/IUK/Frontend.pm:480
 msgid "Error while downloading the upgrade"
@@ -174,7 +174,7 @@ msgid ""
 "You should restart Tails on the new version as soon as possible.\n"
 "\n"
 "Do you want to restart now?"
-msgstr ""
+msgstr "<b>Tails-laitteesi päivitys onnistui.</b>\n\nJotkut turvallisuusominaisuudet olivat tilapäisesti otettu pois käytöstä.\nSinun pitäisi käynnistää Tails uudelleen uudessa versiossa niin pian kuin mahdollista.\n\nHaluatko käynnistää uudelleen nyt?"
 
 #: ../lib/Tails/IUK/Frontend.pm:512
 msgid "Restart Tails"
@@ -213,7 +213,7 @@ msgid ""
 "<b>Your Tails device is being upgraded...</b>\n"
 "\n"
 "For security reasons, the networking is now disabled."
-msgstr ""
+msgstr "<b>Tails-laitteesi päivitetään...</b>\n\nTurvallisuussyistä verkkoyhteytesi on otettu nyt pois käytöstä."
 
 #: ../lib/Tails/IUK/Frontend.pm:595
 msgid ""
@@ -221,7 +221,7 @@ msgid ""
 " needs to be repaired and might be unable to restart.\\n\\nPlease follow the"
 " instructions at "
 "file:///usr/share/doc/tails/website/doc/upgrade/error/install.en.html"
-msgstr ""
+msgstr "<b>Tapahtui virhe päivityksen asennuksen aikana.</b>\\n\\nTails-laitteesi tarvitsee korjausta ja sen uudelleenkäynnistys ei ehkä onnistu.\\n\\nNoudata osoitteen file:///usr/share/doc/tails/website/doc/upgrade/error/install.en.html ohjeita"
 
 #: ../lib/Tails/IUK/Frontend.pm:615
 msgid "Error while installing the upgrade"
