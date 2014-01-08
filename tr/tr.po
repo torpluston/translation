@@ -5,14 +5,14 @@
 # Translators:
 # sgtpepper <barlasmirc@gmail.com>, 2013
 # Tosbaa <conan@operamail.com>, 2013
-# volkangezer <volkangezer@gmail.com>, 2013
+# volkangezer <volkangezer@gmail.com>, 2013-2014
 msgid ""
 msgstr ""
 "Project-Id-Version: The Tor Project\n"
 "Report-Msgid-Bugs-To: Tails developers <tails@boum.org>\n"
-"POT-Creation-Date: 2013-11-07 16:37+0100\n"
-"PO-Revision-Date: 2013-11-15 09:19+0000\n"
-"Last-Translator: runasand <runa.sandvik@gmail.com>\n"
+"POT-Creation-Date: 2013-12-19 12:20+0100\n"
+"PO-Revision-Date: 2014-01-08 01:40+0000\n"
+"Last-Translator: volkangezer <volkangezer@gmail.com>\n"
 "Language-Team: Turkish (http://www.transifex.com/projects/p/torproject/language/tr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -121,67 +121,67 @@ msgstr "\"Dotfiles\" dizininde bulunan tüm dosya ve dizinlerin $HOME'da kısayo
 msgid "Setup Tails persistent volume"
 msgstr "Kurulum Tails kalıcı cilti"
 
-#: ../lib/Tails/Persistence/Setup.pm:331
+#: ../lib/Tails/Persistence/Setup.pm:337
 #, perl-format
 msgid "Device %s already has a persistent volume."
 msgstr "%s aracı zaten kalıcı cilte sahip"
 
-#: ../lib/Tails/Persistence/Setup.pm:339
+#: ../lib/Tails/Persistence/Setup.pm:345
 #, perl-format
 msgid "Device %s has not enough unallocated space."
 msgstr "%s cihazında yeteri kadar ayrışmamış boşluğu yok."
 
-#: ../lib/Tails/Persistence/Setup.pm:347 ../lib/Tails/Persistence/Setup.pm:361
+#: ../lib/Tails/Persistence/Setup.pm:353 ../lib/Tails/Persistence/Setup.pm:367
 #, perl-format
 msgid "Device %s has no persistent volume."
 msgstr "%s cihazının kalıcı cilti yok."
 
-#: ../lib/Tails/Persistence/Setup.pm:353
+#: ../lib/Tails/Persistence/Setup.pm:359
 msgid ""
 "Cannot delete the persistent volume while in use. You should restart Tails "
 "without persistence."
 msgstr "Kullanım halinde olduğu için kalıcı volüm silinemedi. Tails'i kalıcılık olmadan yeniden başlatmanız gerekmektedir."
 
-#: ../lib/Tails/Persistence/Setup.pm:372
+#: ../lib/Tails/Persistence/Setup.pm:378
 msgid "Persistence volume is not unlocked."
 msgstr "Kalıcılık volümü kilitsiz değil. "
 
-#: ../lib/Tails/Persistence/Setup.pm:377
+#: ../lib/Tails/Persistence/Setup.pm:383
 msgid "Persistence volume is not mounted."
 msgstr "Kalıcılık volümü monte edilmiş durumda değil"
 
-#: ../lib/Tails/Persistence/Setup.pm:382
+#: ../lib/Tails/Persistence/Setup.pm:388
 msgid "Persistence volume is not readable. Permissions or ownership problems?"
 msgstr "Kalıcılık volümü okunamıyor. İzin veya sahiplik problemleri?"
 
-#: ../lib/Tails/Persistence/Setup.pm:387
+#: ../lib/Tails/Persistence/Setup.pm:393
 msgid "Persistence volume is not writable. Maybe it was mounted read-only?"
 msgstr "Kalıcılık volümü yazılabilir değil. Belki de sadece okunur olarak monte edildi?"
 
-#: ../lib/Tails/Persistence/Setup.pm:396
+#: ../lib/Tails/Persistence/Setup.pm:402
 #, perl-format
 msgid "Tails is running from non-USB / non-SDIO device %s."
-msgstr ""
+msgstr "Tails, USB ve SDIO olmayan %s aygıtından çalışıyor."
 
-#: ../lib/Tails/Persistence/Setup.pm:402
+#: ../lib/Tails/Persistence/Setup.pm:408
 #, perl-format
 msgid "Device %s is optical."
 msgstr "%s cihazı optik."
 
-#: ../lib/Tails/Persistence/Setup.pm:409
+#: ../lib/Tails/Persistence/Setup.pm:415
 #, perl-format
 msgid "Device %s was not created using Tails USB installer."
 msgstr "%s cihazı Tails USB kurucusu tarafından yaratılmamış."
 
-#: ../lib/Tails/Persistence/Setup.pm:444
+#: ../lib/Tails/Persistence/Setup.pm:450
 msgid "Error"
 msgstr "Hata"
 
-#: ../lib/Tails/Persistence/Setup.pm:680
+#: ../lib/Tails/Persistence/Setup.pm:665
 msgid "Persistence wizard - Finished"
 msgstr "Kalıcılık sihirbazı - Bitti"
 
-#: ../lib/Tails/Persistence/Setup.pm:683
+#: ../lib/Tails/Persistence/Setup.pm:668
 msgid ""
 "Any changes you have made will only take effect after restarting Tails.\n"
 "\n"
@@ -248,11 +248,11 @@ msgstr "Tails kalıcılık bölmeleri monte edilecek"
 
 #: ../lib/Tails/Persistence/Step/Bootstrap.pm:283
 msgid "Correcting permissions of the persistent volume."
-msgstr ""
+msgstr "Kalıcı birimin izinleri düzeltiliyor."
 
 #: ../lib/Tails/Persistence/Step/Bootstrap.pm:286
 msgid "The permissions of the persistent volume will be corrected."
-msgstr ""
+msgstr "Kalıcı birimin izinleri düzeltildi."
 
 #: ../lib/Tails/Persistence/Step/Bootstrap.pm:308
 msgid "Creating..."
@@ -290,28 +290,28 @@ msgstr "Kaydediliyor..."
 msgid "Saving persistence configuration..."
 msgstr "Kalıcılık ayarları kaydediliyor..."
 
-#: ../lib/Tails/Persistence/Step/Delete.pm:40
+#: ../lib/Tails/Persistence/Step/Delete.pm:41
 msgid "Persistence wizard - Persistent volume deletion"
 msgstr "Kalıcılık sihirbazı - Kalıcı volüm kaldırılması"
 
-#: ../lib/Tails/Persistence/Step/Delete.pm:43
+#: ../lib/Tails/Persistence/Step/Delete.pm:44
 msgid "Your persistent data will be deleted."
 msgstr "Kalıcı volümünüz silinecek."
 
-#: ../lib/Tails/Persistence/Step/Delete.pm:47
+#: ../lib/Tails/Persistence/Step/Delete.pm:48
 #, perl-format
 msgid ""
 "The persistent volume %s (%s), on the <b>%s %s</b> device, will be deleted."
 msgstr "<b>%s %s</b> cihazındaki , %s (%s) kalıcı volümünüzü silinecek."
 
-#: ../lib/Tails/Persistence/Step/Delete.pm:53
+#: ../lib/Tails/Persistence/Step/Delete.pm:54
 msgid "Delete"
 msgstr "Sil"
 
-#: ../lib/Tails/Persistence/Step/Delete.pm:91
+#: ../lib/Tails/Persistence/Step/Delete.pm:101
 msgid "Deleting..."
 msgstr "Siliniyor"
 
-#: ../lib/Tails/Persistence/Step/Delete.pm:94
+#: ../lib/Tails/Persistence/Step/Delete.pm:104
 msgid "Deleting the persistent volume..."
 msgstr "Kalıcı volüm siliniyor..."
