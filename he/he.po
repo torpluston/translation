@@ -3,14 +3,15 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
+# Kunda, 2013-2014
 # blackbird <yaelgogol@gmail.com>, 2012
 msgid ""
 msgstr ""
 "Project-Id-Version: The Tor Project\n"
-"Report-Msgid-Bugs-To: https://trac.torproject.org/projects/tor\n"
-"POT-Creation-Date: 2013-08-01 16:49+0200\n"
-"PO-Revision-Date: 2013-08-02 08:38+0000\n"
-"Last-Translator: runasand <runa.sandvik@gmail.com>\n"
+"Report-Msgid-Bugs-To: Tails developers <tails@boum.org>\n"
+"POT-Creation-Date: 2013-12-19 12:20+0100\n"
+"PO-Revision-Date: 2014-01-09 23:30+0000\n"
+"Last-Translator: Kunda\n"
 "Language-Team: Hebrew (http://www.transifex.com/projects/p/torproject/language/he/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -83,101 +84,103 @@ msgid "Bookmarks saved in Iceweasel browser"
 msgstr "סימניות שמורות בדפדפן Iceweasel"
 
 #: ../lib/Tails/Persistence/Configuration/Presets.pm:128
+msgid "Printers"
+msgstr "מדפסות"
+
+#: ../lib/Tails/Persistence/Configuration/Presets.pm:130
+msgid "Printers configuration"
+msgstr "תצורת מדפסות"
+
+#: ../lib/Tails/Persistence/Configuration/Presets.pm:138
 msgid "APT Packages"
 msgstr "חבילות APT"
 
-#: ../lib/Tails/Persistence/Configuration/Presets.pm:130
+#: ../lib/Tails/Persistence/Configuration/Presets.pm:140
 msgid "Packages downloaded by APT"
 msgstr "חבילות שהורדו ע\"י APT"
 
-#: ../lib/Tails/Persistence/Configuration/Presets.pm:138
+#: ../lib/Tails/Persistence/Configuration/Presets.pm:148
 msgid "APT Lists"
 msgstr "רשימות APT"
 
-#: ../lib/Tails/Persistence/Configuration/Presets.pm:140
+#: ../lib/Tails/Persistence/Configuration/Presets.pm:150
 msgid "Lists downloaded by APT"
 msgstr "רשימות שהורדו ע\"י APT"
 
-#: ../lib/Tails/Persistence/Configuration/Presets.pm:148
+#: ../lib/Tails/Persistence/Configuration/Presets.pm:158
 msgid "Dotfiles"
 msgstr "Dotfiles"
 
-#: ../lib/Tails/Persistence/Configuration/Presets.pm:150
+#: ../lib/Tails/Persistence/Configuration/Presets.pm:160
 msgid ""
 "Symlink into $HOME every file or directory found in the `dotfiles' directory"
 msgstr "צור קיצור דרך מ $ HOMEלכל קובץ או תיקייה בתיקיית `dotfiles' "
 
-#: ../lib/Tails/Persistence/Setup.pm:257
-msgid ""
-"The device Tails is running from cannot be found. Maybe you used the `toram'"
-" option?"
-msgstr "לא ניתן למצוא את ההתקן שTails רץ ממנו. האם בחרת באפשרות `toram' ?"
-
-#: ../lib/Tails/Persistence/Setup.pm:276
+#: ../lib/Tails/Persistence/Setup.pm:227
 msgid "Setup Tails persistent volume"
 msgstr "התקנת התקן עיקש של Tails"
 
-#: ../lib/Tails/Persistence/Setup.pm:420
+#: ../lib/Tails/Persistence/Setup.pm:337
 #, perl-format
 msgid "Device %s already has a persistent volume."
 msgstr "בהתקן  %s כבר יש התקן עיקש"
 
-#: ../lib/Tails/Persistence/Setup.pm:428
+#: ../lib/Tails/Persistence/Setup.pm:345
 #, perl-format
 msgid "Device %s has not enough unallocated space."
 msgstr "אין מספיק מקום מוקצה להתקן  %s"
 
-#: ../lib/Tails/Persistence/Setup.pm:436 ../lib/Tails/Persistence/Setup.pm:450
+#: ../lib/Tails/Persistence/Setup.pm:353 ../lib/Tails/Persistence/Setup.pm:367
 #, perl-format
 msgid "Device %s has no persistent volume."
 msgstr "בהתקן  %s אין התקן עיקש"
 
-#: ../lib/Tails/Persistence/Setup.pm:442
+#: ../lib/Tails/Persistence/Setup.pm:359
 msgid ""
 "Cannot delete the persistent volume while in use. You should restart Tails "
 "without persistence."
 msgstr "לא ניתן למחוק התקן עיקש בזמן השימוש. עליך לאתחל את Tails ללא התקן עיקש"
 
-#: ../lib/Tails/Persistence/Setup.pm:461
+#: ../lib/Tails/Persistence/Setup.pm:378
 msgid "Persistence volume is not unlocked."
 msgstr "התקן עיקש נעול"
 
-#: ../lib/Tails/Persistence/Setup.pm:466
+#: ../lib/Tails/Persistence/Setup.pm:383
 msgid "Persistence volume is not mounted."
 msgstr "התקן עיקש לא מחובר"
 
-#: ../lib/Tails/Persistence/Setup.pm:471
+#: ../lib/Tails/Persistence/Setup.pm:388
 msgid "Persistence volume is not readable. Permissions or ownership problems?"
 msgstr "לא ניתן לקרוא מהתקן עיקש, האם יש בעיית הרשאות או בעלות?"
 
-#: ../lib/Tails/Persistence/Setup.pm:476
+#: ../lib/Tails/Persistence/Setup.pm:393
 msgid "Persistence volume is not writable. Maybe it was mounted read-only?"
 msgstr "לא ניתן לכתוב להתקן עיקש. האם חובר כהתקן לקריאה בלבד?"
 
-#: ../lib/Tails/Persistence/Setup.pm:485
+#: ../lib/Tails/Persistence/Setup.pm:402
 #, perl-format
-msgid "Tails is running from non-USB device %s."
-msgstr "Tails מופעל מהתקן שאינו USB %s."
+msgid "Tails is running from non-USB / non-SDIO device %s."
+msgstr "Tails פועל ממכשיר %s שלא מסוג-USB ולא מסוג-SDIO."
 
-#: ../lib/Tails/Persistence/Setup.pm:491
+#: ../lib/Tails/Persistence/Setup.pm:408
 #, perl-format
 msgid "Device %s is optical."
 msgstr "%s הוא אתקן אופטי."
 
-#: ../lib/Tails/Persistence/Setup.pm:498
+#: ../lib/Tails/Persistence/Setup.pm:415
 #, perl-format
 msgid "Device %s was not created using Tails USB installer."
 msgstr "התקן %s לא נוצר בשימוש מתקין הUSB של Tails."
 
-#: ../lib/Tails/Persistence/Setup.pm:532
+#: ../lib/Tails/Persistence/Setup.pm:450
 msgid "Error"
 msgstr "שגיאה"
 
-#: ../lib/Tails/Persistence/Setup.pm:839
+#: ../lib/Tails/Persistence/Setup.pm:665
 msgid "Persistence wizard - Finished"
 msgstr "אשף העיקשות - הסתיים"
 
-#: ../lib/Tails/Persistence/Setup.pm:842
+#: ../lib/Tails/Persistence/Setup.pm:668
 msgid ""
 "Any changes you have made will only take effect after restarting Tails.\n"
 "\n"
@@ -230,7 +233,7 @@ msgid "Passphrases do not match"
 msgstr "הסיסמאות לא תואמות"
 
 #: ../lib/Tails/Persistence/Step/Bootstrap.pm:262
-#: ../lib/Tails/Persistence/Step/Configure.pm:123
+#: ../lib/Tails/Persistence/Step/Configure.pm:129
 msgid "Failed"
 msgstr "נכשל"
 
@@ -242,64 +245,72 @@ msgstr "מחבר מחיצת Tails עיקשת"
 msgid "The Tails persistence partition will be mounted."
 msgstr "מחיצת Tails עיקשת תחובר."
 
-#: ../lib/Tails/Persistence/Step/Bootstrap.pm:296
+#: ../lib/Tails/Persistence/Step/Bootstrap.pm:283
+msgid "Correcting permissions of the persistent volume."
+msgstr "תיקון הרשאות של הכרך עיקש."
+
+#: ../lib/Tails/Persistence/Step/Bootstrap.pm:286
+msgid "The permissions of the persistent volume will be corrected."
+msgstr "ההרשאות של הכרך עיקש תתוקן."
+
+#: ../lib/Tails/Persistence/Step/Bootstrap.pm:308
 msgid "Creating..."
 msgstr "יוצר..."
 
-#: ../lib/Tails/Persistence/Step/Bootstrap.pm:299
+#: ../lib/Tails/Persistence/Step/Bootstrap.pm:311
 msgid "Creating the persistent volume..."
 msgstr "יוצר כרך עיקש..."
 
-#: ../lib/Tails/Persistence/Step/Configure.pm:55
+#: ../lib/Tails/Persistence/Step/Configure.pm:61
 msgid "Persistence wizard - Persistent volume configuration"
 msgstr "אשף העיקשות - הגדרת כרך עיקש"
 
-#: ../lib/Tails/Persistence/Step/Configure.pm:58
+#: ../lib/Tails/Persistence/Step/Configure.pm:64
 msgid "Specify the files that will be saved in the persistent volume"
 msgstr "פרט אילו קבצים ישמרו בכרך העיקש"
 
 #. TRANSLATORS: partition, size, device vendor, device model
-#: ../lib/Tails/Persistence/Step/Configure.pm:62
+#: ../lib/Tails/Persistence/Step/Configure.pm:68
 #, perl-format
 msgid ""
 "The selected files will be stored in the encrypted partition %s (%s), on the"
 " <b>%s %s</b> device."
 msgstr "הקבצים שנבחרו ישמרו במחיצה מוצפנת %s (%s), על <b>%s %s</b> ההתקן."
 
-#: ../lib/Tails/Persistence/Step/Configure.pm:68
+#: ../lib/Tails/Persistence/Step/Configure.pm:74
 msgid "Save"
 msgstr "שמור"
 
-#: ../lib/Tails/Persistence/Step/Configure.pm:137
+#: ../lib/Tails/Persistence/Step/Configure.pm:143
 msgid "Saving..."
 msgstr "שומר..."
 
-#: ../lib/Tails/Persistence/Step/Configure.pm:140
+#: ../lib/Tails/Persistence/Step/Configure.pm:146
 msgid "Saving persistence configuration..."
 msgstr "שומר הגדרות העיקשות..."
 
-#: ../lib/Tails/Persistence/Step/Delete.pm:40
+#: ../lib/Tails/Persistence/Step/Delete.pm:41
 msgid "Persistence wizard - Persistent volume deletion"
 msgstr "אשף העיקשות - מחיקת כרך עיקש"
 
-#: ../lib/Tails/Persistence/Step/Delete.pm:43
+#: ../lib/Tails/Persistence/Step/Delete.pm:44
 msgid "Your persistent data will be deleted."
 msgstr "המידע העיקש שלך ימחק."
 
-#: ../lib/Tails/Persistence/Step/Delete.pm:47
+#: ../lib/Tails/Persistence/Step/Delete.pm:48
 #, perl-format
 msgid ""
 "The persistent volume %s (%s), on the <b>%s %s</b> device, will be deleted."
 msgstr "הכרך העיקש %s (%s), אשר ב <b>%s %s</b> התקן, ימחק."
 
-#: ../lib/Tails/Persistence/Step/Delete.pm:53
+#: ../lib/Tails/Persistence/Step/Delete.pm:54
 msgid "Delete"
 msgstr "מחיקה"
 
-#: ../lib/Tails/Persistence/Step/Delete.pm:91
+#: ../lib/Tails/Persistence/Step/Delete.pm:101
 msgid "Deleting..."
 msgstr "מוחק..."
 
-#: ../lib/Tails/Persistence/Step/Delete.pm:94
+#: ../lib/Tails/Persistence/Step/Delete.pm:104
 msgid "Deleting the persistent volume..."
 msgstr "מוחק את הכרך העיקש..."
