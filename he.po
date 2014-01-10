@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: The Tor Project\n"
 "Report-Msgid-Bugs-To: Tails developers <tails@boum.org>\n"
 "POT-Creation-Date: 2014-01-07 20:17+0100\n"
-"PO-Revision-Date: 2014-01-10 00:40+0000\n"
+"PO-Revision-Date: 2014-01-10 01:16+0000\n"
 "Last-Translator: Kunda\n"
 "Language-Team: Hebrew (http://www.transifex.com/projects/p/torproject/language/he/)\n"
 "MIME-Version: 1.0\n"
@@ -30,7 +30,7 @@ msgid ""
 "\n"
 "<i>stderr:</i>\n"
 "%{stderr}s"
-msgstr ""
+msgstr "<b>Debugging information</b>\n<i>exit code</i>: %{exit_code}i\n\n<i>stdout:</i>\n%{stdout}s\n\n<i>stderr:</i>\n%{stderr}s"
 
 #: ../lib/Tails/IUK/Frontend.pm:205
 msgid "Error while checking for upgrades"
@@ -43,7 +43,7 @@ msgid ""
 "Check your network connection, and restart Tails to try upgrading again.\n"
 "\n"
 "If the problem persists, go to file:///usr/share/doc/tails/website/doc/upgrade/error/check.en.html"
-msgstr ""
+msgstr "<b>לא ניתן לקבוע אם שדרוג הינו זמין מהאתר האינטרנט שלנו.</b>\n\nבדקו את חיבור הרשת שלכם, ותפעילו מחדש את Tails כדי לנסות ולשדרג שוב.\n\nאם הבעיה נמשכת, תבדקו ב- file:///usr/share/doc/tails/website/doc/upgrade/error/check.en.html"
 
 #: ../lib/Tails/IUK/Frontend.pm:224
 msgid "The system is up-to-date"
@@ -115,7 +115,7 @@ msgid ""
 "It is not possible to automatically upgrade your device to this new version.\n"
 "\n"
 "To learn how to do a manual upgrade, go to https://tails.boum.org/doc/first_steps/upgrade/#manual"
-msgstr ""
+msgstr "<b>צריך לעשות את השדרוג באופן ידני ל- %{name}s %{version}s.</b>\n\nלקבלת מידע נוסף על גרסה החדשה זו, ראו %{details_url}s.\n\nאין אפשרות לשדרג באופן אוטומטי את המכשיר לגרסה חדשה זו.\n\nכדי ללמוד כיצד לעשות שדרוג ידני, ראו https://tails.boum.org/doc/first_steps/upgrade/#manual"
 
 #: ../lib/Tails/IUK/Frontend.pm:356
 msgid "New version available"
@@ -136,7 +136,7 @@ msgid ""
 "connection, and restart Tails to try upgrading again.\\n\\nIf the problem "
 "persists, go to "
 "file:///usr/share/doc/tails/website/doc/upgrade/error/download.en.html"
-msgstr ""
+msgstr "<b>לא ניתן היה להוריד את השדרוג.</b>\\n\\nבדקו את חיבור הרשת שלכם, ותפעילו מחדש את Tails כדי לנסות ולשדרג שוב.\\n\\nאם הבעיה נמשכת, תבדקו ב- file:///usr/share/doc/tails/website/doc/upgrade/error/download.en.html"
 
 #: ../lib/Tails/IUK/Frontend.pm:468
 #, perl-brace-format
@@ -146,7 +146,7 @@ msgid ""
 "\n"
 "<i>stderr:</i>\n"
 "%{stderr}s"
-msgstr ""
+msgstr "<b>Debugging information</b>\n<i>exit code</i>: %{exit_code}i\n\n<i>stderr:</i>\n%{stderr}s"
 
 #: ../lib/Tails/IUK/Frontend.pm:480 ../lib/Tails/IUK/Frontend.pm:494
 msgid "Error while downloading the upgrade"
@@ -157,7 +157,7 @@ msgstr "שגיאה במהלך הורדת השדרוג"
 msgid ""
 "Output file '%{output_file}s' does not exist, but tails-iuk-get-target-file "
 "did not complain. Please report a bug."
-msgstr ""
+msgstr "קובץ פלט '%{output_file}s' לא קיים, אבל tails-iuk-get-target-file לא התלונן. אנא דווחו על באג זה."
 
 #: ../lib/Tails/IUK/Frontend.pm:506
 msgid "Error while creating temporary downloading directory"
@@ -175,7 +175,7 @@ msgid ""
 "You should restart Tails on the new version as soon as possible.\n"
 "\n"
 "Do you want to restart now?"
-msgstr ""
+msgstr "<b>מכשיר ה-Tails שלכם שודרג בהצלחה.</b>\n\nתכונות אבטחה מסוימות הושבתו באופן זמני.\nצריך בהקדם האפשרי להפעיל מחדש את Tails בגרסה החדשה.\n\nהאם ברצונכם לאתחל כעת מחדש?"
 
 #: ../lib/Tails/IUK/Frontend.pm:526
 msgid "Restart Tails"
@@ -214,7 +214,7 @@ msgid ""
 "<b>Your Tails device is being upgraded...</b>\n"
 "\n"
 "For security reasons, the networking is now disabled."
-msgstr ""
+msgstr "<b>מכשיר ה-Tails שלכם תוך כדי שידרוג...</b>\n\nמסיבות ביטחוניות, הרשת מושבת כעת."
 
 #: ../lib/Tails/IUK/Frontend.pm:609
 msgid ""
@@ -222,7 +222,7 @@ msgid ""
 " needs to be repaired and might be unable to restart.\\n\\nPlease follow the"
 " instructions at "
 "file:///usr/share/doc/tails/website/doc/upgrade/error/install.en.html"
-msgstr ""
+msgstr "<b>ארעה שגיאה בעת התקנת השדרוג.</b>\\n\\nמכשיר ה-Tails שלכם זקוק לתיקון, וייתכן שלא תוכלנה לאתחל מכשיר זה מחדש.\\n\\nנא לבצע את ההוראות ב- file:///usr/share/doc/tails/website/doc/upgrade/error/install.en.html"
 
 #: ../lib/Tails/IUK/Frontend.pm:629
 msgid "Error while installing the upgrade"
