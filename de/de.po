@@ -8,13 +8,14 @@
 # mo <moritz@torservers.net>, 2013
 # Cooligan <ppt23@lkj.hopto.org>, 2012
 # Sacro <Scion@T-Online.de>, 2012
+# to_ba, 2014
 msgid ""
 msgstr ""
 "Project-Id-Version: The Tor Project\n"
 "Report-Msgid-Bugs-To: Tails developers <tails@boum.org>\n"
-"POT-Creation-Date: 2013-11-15 11:30+0100\n"
-"PO-Revision-Date: 2013-11-28 16:30+0000\n"
-"Last-Translator: runasand <runa.sandvik@gmail.com>\n"
+"POT-Creation-Date: 2013-12-19 12:20+0100\n"
+"PO-Revision-Date: 2014-01-14 16:40+0000\n"
+"Last-Translator: to_ba\n"
 "Language-Team: German (http://www.transifex.com/projects/p/torproject/language/de/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -28,7 +29,7 @@ msgstr "persönliche Daten"
 
 #: ../lib/Tails/Persistence/Configuration/Presets.pm:50
 msgid "Keep files stored in the `Persistent' directory"
-msgstr "Dateien im 'Persistent' Ordner dauerhaft speichern"
+msgstr "Dateien im »permanenten« Ordner dauerhaft speichern"
 
 #: ../lib/Tails/Persistence/Configuration/Presets.pm:58
 msgid "GnuPG"
@@ -36,11 +37,11 @@ msgstr "GnuPG"
 
 #: ../lib/Tails/Persistence/Configuration/Presets.pm:60
 msgid "GnuPG keyrings and configuration"
-msgstr "GnuPG Schlüsselpaare und Konfiguration"
+msgstr "GnuPG-Schlüsselbunde und Konfiguration"
 
 #: ../lib/Tails/Persistence/Configuration/Presets.pm:68
 msgid "SSH Client"
-msgstr "SSH Client"
+msgstr "SSH-Programm"
 
 #: ../lib/Tails/Persistence/Configuration/Presets.pm:70
 msgid "SSH keys, configuration and known hosts"
@@ -52,7 +53,7 @@ msgstr "Pidgin"
 
 #: ../lib/Tails/Persistence/Configuration/Presets.pm:80
 msgid "Pidgin profiles and OTR keyring"
-msgstr "Pidgin-Profile und OTR-Keyring"
+msgstr "Pidgin-Profile und OTR-Schlüsselbund"
 
 #: ../lib/Tails/Persistence/Configuration/Presets.pm:88
 msgid "Claws Mail"
@@ -60,15 +61,15 @@ msgstr "Claws Mail"
 
 #: ../lib/Tails/Persistence/Configuration/Presets.pm:90
 msgid "Claws Mail profiles and locally stored email"
-msgstr "Claws Mail Profile und lokal gespeicherte Emails"
+msgstr "Claws-Mail-Profile und lokal gespeicherte E-Mails"
 
 #: ../lib/Tails/Persistence/Configuration/Presets.pm:98
 msgid "GNOME Keyring"
-msgstr "GNOME Keyring"
+msgstr "GNOME-Schlüsselbund"
 
 #: ../lib/Tails/Persistence/Configuration/Presets.pm:100
 msgid "Secrets stored by GNOME Keyring"
-msgstr "Geheimnisse, die im GNOME Keyring gespeichert sind"
+msgstr "Geheimnisse, die im GNOME-Schlüsselbund gespeichert sind"
 
 #: ../lib/Tails/Persistence/Configuration/Presets.pm:108
 msgid "Network Connections"
@@ -96,7 +97,7 @@ msgstr "Druckeinstellungen"
 
 #: ../lib/Tails/Persistence/Configuration/Presets.pm:138
 msgid "APT Packages"
-msgstr "APT Pakete"
+msgstr "APT-Pakete"
 
 #: ../lib/Tails/Persistence/Configuration/Presets.pm:140
 msgid "Packages downloaded by APT"
@@ -104,7 +105,7 @@ msgstr "Pakete, die von APT heruntergeladen wurden"
 
 #: ../lib/Tails/Persistence/Configuration/Presets.pm:148
 msgid "APT Lists"
-msgstr "APT Listen"
+msgstr "APT-Listen"
 
 #: ../lib/Tails/Persistence/Configuration/Presets.pm:150
 msgid "Lists downloaded by APT"
@@ -112,78 +113,78 @@ msgstr "Listen, die von APT heruntergeladen wurden"
 
 #: ../lib/Tails/Persistence/Configuration/Presets.pm:158
 msgid "Dotfiles"
-msgstr "Dotfiles"
+msgstr "Punktdateien"
 
 #: ../lib/Tails/Persistence/Configuration/Presets.pm:160
 msgid ""
 "Symlink into $HOME every file or directory found in the `dotfiles' directory"
-msgstr "Alle Dateien und Verzeichnisse, die sich im 'dotfiles' Verzeichnis befinden, nach $HOME verlinken"
+msgstr "Alle Dateien und Verzeichnisse, die sich im Verzeichnis mit den Punktdateien befinden, nach $HOME verknüpfen"
 
-#: ../lib/Tails/Persistence/Setup.pm:226
+#: ../lib/Tails/Persistence/Setup.pm:227
 msgid "Setup Tails persistent volume"
 msgstr "Tails Persistenzbereich erstellen"
 
-#: ../lib/Tails/Persistence/Setup.pm:330
+#: ../lib/Tails/Persistence/Setup.pm:337
 #, perl-format
 msgid "Device %s already has a persistent volume."
 msgstr "Gerät %s hat bereits einen Persitenzbereich"
 
-#: ../lib/Tails/Persistence/Setup.pm:338
+#: ../lib/Tails/Persistence/Setup.pm:345
 #, perl-format
 msgid "Device %s has not enough unallocated space."
 msgstr "Gerät %s hat nicht genug freien Speicher"
 
-#: ../lib/Tails/Persistence/Setup.pm:346 ../lib/Tails/Persistence/Setup.pm:360
+#: ../lib/Tails/Persistence/Setup.pm:353 ../lib/Tails/Persistence/Setup.pm:367
 #, perl-format
 msgid "Device %s has no persistent volume."
 msgstr "Gerät %s hat keinen Persistenzbereich."
 
-#: ../lib/Tails/Persistence/Setup.pm:352
+#: ../lib/Tails/Persistence/Setup.pm:359
 msgid ""
 "Cannot delete the persistent volume while in use. You should restart Tails "
 "without persistence."
 msgstr "Der Persistenzbereich kann nicht während der Benutzung gelöscht werden. Sie sollten Tails ohne Persistenz neu starten."
 
-#: ../lib/Tails/Persistence/Setup.pm:371
+#: ../lib/Tails/Persistence/Setup.pm:378
 msgid "Persistence volume is not unlocked."
 msgstr "Persistenzbereich ist nicht freigegeben"
 
-#: ../lib/Tails/Persistence/Setup.pm:376
+#: ../lib/Tails/Persistence/Setup.pm:383
 msgid "Persistence volume is not mounted."
 msgstr "Persistenzbereich ist nicht gemounted."
 
-#: ../lib/Tails/Persistence/Setup.pm:381
+#: ../lib/Tails/Persistence/Setup.pm:388
 msgid "Persistence volume is not readable. Permissions or ownership problems?"
 msgstr "Persistenzbereich ist nicht lesbar. Berechtigungs- oder Besitzer-Probleme?"
 
-#: ../lib/Tails/Persistence/Setup.pm:386
+#: ../lib/Tails/Persistence/Setup.pm:393
 msgid "Persistence volume is not writable. Maybe it was mounted read-only?"
 msgstr "Persistenzbereich ist nicht beschreibbar. Vielleicht wurde es als nur-lesbar gemounted?"
 
-#: ../lib/Tails/Persistence/Setup.pm:395
+#: ../lib/Tails/Persistence/Setup.pm:402
 #, perl-format
 msgid "Tails is running from non-USB / non-SDIO device %s."
 msgstr "Tails wird vom Nicht-USB/Nicht-SDIO-Gerät %s ausgeführt"
 
-#: ../lib/Tails/Persistence/Setup.pm:401
+#: ../lib/Tails/Persistence/Setup.pm:408
 #, perl-format
 msgid "Device %s is optical."
 msgstr "Gerät %s ist Optisch."
 
-#: ../lib/Tails/Persistence/Setup.pm:408
+#: ../lib/Tails/Persistence/Setup.pm:415
 #, perl-format
 msgid "Device %s was not created using Tails USB installer."
 msgstr "Gerät %s wurde nicht mit dem Tails USB-Installer erstellt."
 
-#: ../lib/Tails/Persistence/Setup.pm:443
+#: ../lib/Tails/Persistence/Setup.pm:450
 msgid "Error"
 msgstr "Fehler"
 
-#: ../lib/Tails/Persistence/Setup.pm:658
+#: ../lib/Tails/Persistence/Setup.pm:665
 msgid "Persistence wizard - Finished"
 msgstr "Persistenz Wizard - Abgeschlossen"
 
-#: ../lib/Tails/Persistence/Setup.pm:661
+#: ../lib/Tails/Persistence/Setup.pm:668
 msgid ""
 "Any changes you have made will only take effect after restarting Tails.\n"
 "\n"
@@ -292,28 +293,28 @@ msgstr "Speichere..."
 msgid "Saving persistence configuration..."
 msgstr "Speichere Persistenzkonfiguration..."
 
-#: ../lib/Tails/Persistence/Step/Delete.pm:40
+#: ../lib/Tails/Persistence/Step/Delete.pm:41
 msgid "Persistence wizard - Persistent volume deletion"
 msgstr "Persistenz Wizard - Löschen eines Persistenzbereichs"
 
-#: ../lib/Tails/Persistence/Step/Delete.pm:43
+#: ../lib/Tails/Persistence/Step/Delete.pm:44
 msgid "Your persistent data will be deleted."
 msgstr "Ihre persistenten Dateien werden gelöscht."
 
-#: ../lib/Tails/Persistence/Step/Delete.pm:47
+#: ../lib/Tails/Persistence/Step/Delete.pm:48
 #, perl-format
 msgid ""
 "The persistent volume %s (%s), on the <b>%s %s</b> device, will be deleted."
 msgstr "Der Persistenzbereich %s (%s), auf dem <b>%s %s</b> Gerät, wird gelöscht."
 
-#: ../lib/Tails/Persistence/Step/Delete.pm:53
+#: ../lib/Tails/Persistence/Step/Delete.pm:54
 msgid "Delete"
 msgstr "Löschen"
 
-#: ../lib/Tails/Persistence/Step/Delete.pm:100
+#: ../lib/Tails/Persistence/Step/Delete.pm:101
 msgid "Deleting..."
 msgstr "Lösche..."
 
-#: ../lib/Tails/Persistence/Step/Delete.pm:103
+#: ../lib/Tails/Persistence/Step/Delete.pm:104
 msgid "Deleting the persistent volume..."
 msgstr "Lösche den Persistenzbereich..."
