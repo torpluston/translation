@@ -14,7 +14,7 @@ msgstr ""
 "Project-Id-Version: The Tor Project\n"
 "Report-Msgid-Bugs-To: Tails developers <tails@boum.org>\n"
 "POT-Creation-Date: 2014-01-18 21:00+0100\n"
-"PO-Revision-Date: 2014-01-21 13:40+0000\n"
+"PO-Revision-Date: 2014-01-21 14:16+0000\n"
 "Last-Translator: to_ba\n"
 "Language-Team: German (http://www.transifex.com/projects/p/torproject/language/de/)\n"
 "MIME-Version: 1.0\n"
@@ -85,7 +85,7 @@ msgstr "Browser-Lesezeichen"
 
 #: ../lib/Tails/Persistence/Configuration/Presets.pm:120
 msgid "Bookmarks saved in Iceweasel browser"
-msgstr "Lesezeichen wurden im Iceweasel Browser gesichert"
+msgstr "Lesezeichen wurden im Iceweasel-Browser gespeichert"
 
 #: ../lib/Tails/Persistence/Configuration/Presets.pm:128
 msgid "Printers"
@@ -122,12 +122,12 @@ msgstr "Alle Dateien und Verzeichnisse, die sich im Verzeichnis mit den Punktdat
 
 #: ../lib/Tails/Persistence/Setup.pm:227
 msgid "Setup Tails persistent volume"
-msgstr "Tails Persistenzbereich erstellen"
+msgstr "Tails permanenten Datenspeicher erstellen"
 
 #: ../lib/Tails/Persistence/Setup.pm:337
 #, perl-format
 msgid "Device %s already has a persistent volume."
-msgstr "Gerät %s hat bereits einen Persitenzbereich"
+msgstr "Gerät %s hat bereits einen permanenten Datenspeicher."
 
 #: ../lib/Tails/Persistence/Setup.pm:345
 #, perl-format
@@ -137,29 +137,29 @@ msgstr "Gerät %s hat nicht genug freien Speicher"
 #: ../lib/Tails/Persistence/Setup.pm:353 ../lib/Tails/Persistence/Setup.pm:367
 #, perl-format
 msgid "Device %s has no persistent volume."
-msgstr "Gerät %s hat keinen Persistenzbereich."
+msgstr "Gerät %s hat keinen permanenten Datenspeicher."
 
 #: ../lib/Tails/Persistence/Setup.pm:359
 msgid ""
 "Cannot delete the persistent volume while in use. You should restart Tails "
 "without persistence."
-msgstr "Der Persistenzbereich kann nicht während der Benutzung gelöscht werden. Sie sollten Tails ohne Persistenz neu starten."
+msgstr "Der permanente Datenspeicher kann nicht während der Benutzung gelöscht werden. Sie sollten Tails ohne permanenten Datenspeicher neu starten."
 
 #: ../lib/Tails/Persistence/Setup.pm:378
 msgid "Persistence volume is not unlocked."
-msgstr "Persistenzbereich ist nicht freigegeben"
+msgstr "Permanente Datenspeicher ist nicht freigegeben."
 
 #: ../lib/Tails/Persistence/Setup.pm:383
 msgid "Persistence volume is not mounted."
-msgstr "Persistenzbereich ist nicht gemounted."
+msgstr "Permanenter Datenspeicher ist nicht eingehangen."
 
 #: ../lib/Tails/Persistence/Setup.pm:388
 msgid "Persistence volume is not readable. Permissions or ownership problems?"
-msgstr "Persistenzbereich ist nicht lesbar. Berechtigungs- oder Besitzer-Probleme?"
+msgstr "Permanenter Datenspeicher ist nicht lesbar. Berechtigungs- oder Besitzerprobleme?"
 
 #: ../lib/Tails/Persistence/Setup.pm:393
 msgid "Persistence volume is not writable. Maybe it was mounted read-only?"
-msgstr "Persistenzbereich ist nicht beschreibbar. Vielleicht wurde es als nur-lesbar gemounted?"
+msgstr "Permanenter Datenspeicher ist nicht beschreibbar. Vielleicht wurde es als nur-lesbar eingehangen?"
 
 #: ../lib/Tails/Persistence/Setup.pm:402
 #, perl-format
@@ -169,12 +169,12 @@ msgstr "Tails wird vom Nicht-USB/Nicht-SDIO-Gerät %s ausgeführt"
 #: ../lib/Tails/Persistence/Setup.pm:408
 #, perl-format
 msgid "Device %s is optical."
-msgstr "Gerät %s ist Optisch."
+msgstr "Gerät %s ist optisch."
 
 #: ../lib/Tails/Persistence/Setup.pm:415
 #, perl-format
 msgid "Device %s was not created using Tails USB installer."
-msgstr "Gerät %s wurde nicht mit dem Tails USB-Installer erstellt."
+msgstr "Gerät %s wurde nicht mit dem Tails-USB-Installationsprogramm erstellt."
 
 #: ../lib/Tails/Persistence/Setup.pm:450
 msgid "Error"
@@ -182,22 +182,22 @@ msgstr "Fehler"
 
 #: ../lib/Tails/Persistence/Setup.pm:670
 msgid "Persistence wizard - Finished"
-msgstr "Persistenz Wizard - Abgeschlossen"
+msgstr "Permanentassistent - Abgeschlossen"
 
 #: ../lib/Tails/Persistence/Setup.pm:673
 msgid ""
 "Any changes you have made will only take effect after restarting Tails.\n"
 "\n"
 "You may now close this application."
-msgstr "Änderungen werden erst nach einem Neustart von Tails wirksam.\n\nSie können dieses Programm jetzt schließen."
+msgstr "Änderungen werden erst nach einem Neustart von Tails wirksam.\n\nSie können diese Anwendung jetzt schließen."
 
 #: ../lib/Tails/Persistence/Step/Bootstrap.pm:54
 msgid "Persistence wizard - Persistent volume creation"
-msgstr "Persistenz Wizard - Erstellen eines Persistenzbereichs"
+msgstr "Permanentassistent - Erstellen eines permanenten Datenspeichers"
 
 #: ../lib/Tails/Persistence/Step/Bootstrap.pm:57
 msgid "Choose a passphrase to protect the persistent volume"
-msgstr "Wählen Sie ein Passwort, um den Persistenzbereich zu schützen"
+msgstr "Wählen Sie eine Passphrase, um den permanenten Datenspeicher zu schützen"
 
 #. TRANSLATORS: size, device vendor, device model
 #: ../lib/Tails/Persistence/Step/Bootstrap.pm:61
@@ -205,11 +205,11 @@ msgstr "Wählen Sie ein Passwort, um den Persistenzbereich zu schützen"
 msgid ""
 "A %s persistent volume will be created on the <b>%s %s</b> device. Data on "
 "this volume will be stored in an encrypted form protected by a passphrase."
-msgstr "Ein %s Persistenzbereich wird auf dem <b>%s%s</b> Gerät erstellt. Daten in diesem Bereich werden verschlüsselt und mit einer Passphrase gesichert gespeichert."
+msgstr "Ein %s permanenter Datenspeicher wird auf dem <b>%s%s</b> Gerät erstellt. Daten in diesem Bereich werden verschlüsselt und mit einer Passphrase gesichert gespeichert."
 
 #: ../lib/Tails/Persistence/Step/Bootstrap.pm:66
 msgid "Create"
-msgstr "Erstelle"
+msgstr "Erstellen"
 
 #: ../lib/Tails/Persistence/Step/Bootstrap.pm:110
 msgid ""
@@ -217,7 +217,7 @@ msgid ""
 "understood. Tails can't help you if you use it wrong! See <a "
 "href='file:///usr/share/doc/tails/website/doc/first_steps/persistence.en.html'>Tails"
 " documentation about persistence</a> to learn more."
-msgstr "<b>Vorsicht!</b> Der Einsatz von Persistenz hat Konsequenzen, die gut verstanden werden müssen. Tails kann Ihnen nicht helfen, wenn Sie es falsch benutzen! Schauen Sie sich die <a href='file:///usr/share/doc/tails/website/doc/first_steps/persistence.en.html'>Tails Dokumentation über Persistenz</a> an, um mehr zu erfahren."
+msgstr "<b>Vorsicht!</b> Der Einsatz des permanenten Datenspeichers hat Konsequenzen, die gut verstanden werden müssen. Tails kann Ihnen nicht helfen, wenn Sie es falsch benutzen! Schauen Sie sich die <a href='file:///usr/share/doc/tails/website/doc/first_steps/persistence.en.html'>Tails-Dokumentation über Persistenz</a> an, um mehr zu erfahren."
 
 #: ../lib/Tails/Persistence/Step/Bootstrap.pm:144
 msgid "Passphrase:"
@@ -243,11 +243,11 @@ msgstr "Fehlgeschlagen"
 
 #: ../lib/Tails/Persistence/Step/Bootstrap.pm:271
 msgid "Mounting Tails persistence partition."
-msgstr "Mounte Tails-Persistenzpartition."
+msgstr "Tails permanente Partition wird eingehangen."
 
 #: ../lib/Tails/Persistence/Step/Bootstrap.pm:274
 msgid "The Tails persistence partition will be mounted."
-msgstr "Die Tails Persistenzpartition wird gemounted werden."
+msgstr "Tails permanente Partition wird eingehangen."
 
 #: ../lib/Tails/Persistence/Step/Bootstrap.pm:283
 msgid "Correcting permissions of the persistent volume."
@@ -259,19 +259,19 @@ msgstr "Die Berechtigungen auf dem Persistenz Volume werden korrigiert."
 
 #: ../lib/Tails/Persistence/Step/Bootstrap.pm:308
 msgid "Creating..."
-msgstr "Erstelle..."
+msgstr "Wird erstellt …"
 
 #: ../lib/Tails/Persistence/Step/Bootstrap.pm:311
 msgid "Creating the persistent volume..."
-msgstr "Erstelle den Persistenzbereich..."
+msgstr "Permanenter Datenspeicher wird erstellt …"
 
 #: ../lib/Tails/Persistence/Step/Configure.pm:61
 msgid "Persistence wizard - Persistent volume configuration"
-msgstr "Persistenz Wizard - Konfiguration Persistenzbereich"
+msgstr "Permanentassistent - Konfiguration eines permanenten Datenspeichers"
 
 #: ../lib/Tails/Persistence/Step/Configure.pm:64
 msgid "Specify the files that will be saved in the persistent volume"
-msgstr "Wählen Sie die Dateien, die im Persistenzbereich gespeichert werden sollen."
+msgstr "Wählen Sie die Dateien, die im permanenten Datenspeicher gespeichert werden sollen."
 
 #. TRANSLATORS: partition, size, device vendor, device model
 #: ../lib/Tails/Persistence/Step/Configure.pm:68
@@ -287,25 +287,25 @@ msgstr "Speichern"
 
 #: ../lib/Tails/Persistence/Step/Configure.pm:143
 msgid "Saving..."
-msgstr "Speichere..."
+msgstr "Speichern …"
 
 #: ../lib/Tails/Persistence/Step/Configure.pm:146
 msgid "Saving persistence configuration..."
-msgstr "Speichere Persistenzkonfiguration..."
+msgstr "Konfiguration des permanenten Datenspeichers wird gespeichert …"
 
 #: ../lib/Tails/Persistence/Step/Delete.pm:41
 msgid "Persistence wizard - Persistent volume deletion"
-msgstr "Persistenz Wizard - Löschen eines Persistenzbereichs"
+msgstr "Permanentassistent - Löschen eines permanenten Datenspeichers"
 
 #: ../lib/Tails/Persistence/Step/Delete.pm:44
 msgid "Your persistent data will be deleted."
-msgstr "Ihre persistenten Dateien werden gelöscht."
+msgstr "Ihre permanenten Dateien werden gelöscht."
 
 #: ../lib/Tails/Persistence/Step/Delete.pm:48
 #, perl-format
 msgid ""
 "The persistent volume %s (%s), on the <b>%s %s</b> device, will be deleted."
-msgstr "Der Persistenzbereich %s (%s), auf dem <b>%s %s</b> Gerät, wird gelöscht."
+msgstr "Der permanente Datenspeicher %s (%s), auf dem <b>%s %s</b> Gerät, wird gelöscht."
 
 #: ../lib/Tails/Persistence/Step/Delete.pm:54
 msgid "Delete"
@@ -313,8 +313,8 @@ msgstr "Löschen"
 
 #: ../lib/Tails/Persistence/Step/Delete.pm:101
 msgid "Deleting..."
-msgstr "Lösche..."
+msgstr "Wird gelöscht …"
 
 #: ../lib/Tails/Persistence/Step/Delete.pm:104
 msgid "Deleting the persistent volume..."
-msgstr "Lösche den Persistenzbereich..."
+msgstr "Permanenter Datenspeicher wird gelöscht …"
