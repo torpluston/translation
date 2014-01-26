@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: The Tor Project\n"
 "Report-Msgid-Bugs-To: Tails developers <tails@boum.org>\n"
 "POT-Creation-Date: 2014-01-07 20:17+0100\n"
-"PO-Revision-Date: 2014-01-26 17:45+0000\n"
+"PO-Revision-Date: 2014-01-26 18:00+0000\n"
 "Last-Translator: bna1605 <bna1605@gmail.com>\n"
 "Language-Team: Danish (http://www.transifex.com/projects/p/torproject/language/da/)\n"
 "MIME-Version: 1.0\n"
@@ -30,7 +30,7 @@ msgid ""
 "\n"
 "<i>stderr:</i>\n"
 "%{stderr}s"
-msgstr ""
+msgstr "<b>Fejlfindings information</b>\n<i>slut kode</i>: %{exit_code}i\n\n<i>stdout:</i>\n%{stdout}s\n\n<i>stderr:</i>\n%{stderr}s"
 
 #: ../lib/Tails/IUK/Frontend.pm:205
 msgid "Error while checking for upgrades"
@@ -43,11 +43,11 @@ msgid ""
 "Check your network connection, and restart Tails to try upgrading again.\n"
 "\n"
 "If the problem persists, go to file:///usr/share/doc/tails/website/doc/upgrade/error/check.en.html"
-msgstr "<b>Kunne ikke fastsætte om der er en opgradering tilgængelig på vores hjemmeside.</b>\n\nCheck din netværksforbindelse og genstart Tails for at prøve at opgradere igen.\n\nIf the problem persists, go to file:///usr/share/doc/tails/website/doc/upgrade/error/check.en.html"
+msgstr "<b>Kunne ikke fastsætte om der er en opgradering tilgængelig på vores hjemmeside.</b>\n\nCheck din netværksforbindelse og genstart Tails for at prøve at opgradere igen.\n\nHvis problemet ikke forsvinder, gå til filen:///usr/share/doc/tails/website/doc/upgrade/error/check.en.html"
 
 #: ../lib/Tails/IUK/Frontend.pm:224
 msgid "The system is up-to-date"
-msgstr "Systemet er den nyeste version"
+msgstr "Systemet er ajour"
 
 #: ../lib/Tails/IUK/Frontend.pm:229
 msgid "This version of Tails is outdated, and may have security issues."
@@ -71,11 +71,11 @@ msgstr "Den tilgængelige gradvise opdatering kræver %{memory_needed} ledig huk
 msgid ""
 "An incremental upgrade is available, but no full upgrade is.\n"
 "This should not happen. Please report a bug."
-msgstr "En gradvis opdatering er tilgængelig uden at der eksisterer en tilsvarende komplet opdatering. Dette burde ikke ske. Inrapporter venligst fejlen."
+msgstr "En gradvis opdatering er tilgængelig uden at der eksisterer en tilsvarende komplet opdatering. Dette burde ikke ske. Rapporter venligst fejlen."
 
 #: ../lib/Tails/IUK/Frontend.pm:305
 msgid "Error while detecting available upgrades"
-msgstr "Der opstod en fejl mens der søgtes efter tilgængelige opdateringer"
+msgstr "Der opstod en fejl mens der blev søgt efter tilgængelige opgraderinger"
 
 #: ../lib/Tails/IUK/Frontend.pm:315
 #, perl-brace-format
@@ -95,7 +95,7 @@ msgstr "<b>Du burde opgradere til %{name}s %{version}s.</b>\n\nFor mere informat
 
 #: ../lib/Tails/IUK/Frontend.pm:330
 msgid "Upgrade available"
-msgstr "Opdatering tilgængelig"
+msgstr "Opgradering tilgængelig"
 
 #: ../lib/Tails/IUK/Frontend.pm:331
 msgid "Upgrade now"
@@ -146,7 +146,7 @@ msgid ""
 "\n"
 "<i>stderr:</i>\n"
 "%{stderr}s"
-msgstr ""
+msgstr "<b>Fejlfindings information</b>\n<i>slut kode</i>: %{exit_code}i\n\n<i>stderr:</i>\n%{stderr}s"
 
 #: ../lib/Tails/IUK/Frontend.pm:480 ../lib/Tails/IUK/Frontend.pm:494
 msgid "Error while downloading the upgrade"
