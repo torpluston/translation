@@ -3,6 +3,8 @@
 # This file is distributed under the same license as the BridgeDB project.
 # 
 # Translators:
+# Translators:
+# Ahmad Gharbeia <gharbeia@gmail.com>, 2014
 # allamiro <allamiro@gmail.com>, 2011
 # محمد الحرقان <malham1@gmail.com>, 2011
 # Sherief Alaa <sheriefalaa.w@gmail.com>, 2013
@@ -13,8 +15,8 @@ msgstr ""
 "Project-Id-Version: The Tor Project\n"
 "Report-Msgid-Bugs-To: https://trac.torproject.org/projects/tor\n"
 "POT-Creation-Date: 2013-03-27 21:41+0000\n"
-"PO-Revision-Date: 2013-04-29 09:24+0000\n"
-"Last-Translator: runasand <runa.sandvik@gmail.com>\n"
+"PO-Revision-Date: 2014-01-29 23:40+0000\n"
+"Last-Translator: Ahmad Gharbeia <gharbeia@gmail.com>\n"
 "Language-Team: Arabic (http://www.transifex.com/projects/p/torproject/language/ar/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -31,11 +33,11 @@ msgstr "ما هي الجسور؟"
 #, python-format
 msgid ""
 "%s Bridge relays %s are Tor relays that help you circumvent censorship."
-msgstr "%s مرحلات الجسر %s عبارة عن مرحلات لتور تساعدك في التحايل على الرقابة."
+msgstr "%s مرحلات الجسر %s هي مرحلات لتور تساعد في تخطّي الرقابة."
 
 #: lib/bridgedb/templates/base.html:39
 msgid "I need an alternative way of getting bridges!"
-msgstr "انا بحاجة إلى وسيلة بديلة للحصول على الجسور!"
+msgstr "أحتاج إلى وسيلة بديلة لمعرفة الجسور!"
 
 #: lib/bridgedb/templates/base.html:40
 #, python-format
@@ -43,11 +45,11 @@ msgid ""
 "Another way to find public bridge addresses is to send an email (from a %s "
 "or a %s address) to %s with the line 'get bridges' by itself in the body of "
 "the mail."
-msgstr "طريقة اخري للعثور علي عنوين الجسور العامة هي إرسال بريد إلكتروني (من عنوان %s أو %s ) إلي %s مع إضافة سطر 'get bridges' في موضوع البريد الإلكتروني."
+msgstr "يمكن إيجاد عناوين الجسور العامة بإرسال بريد إلكتروني (من عنوان %s أو %s ) إلى %s يحوي السطر 'get bridges' في متن الرسالة."
 
 #: lib/bridgedb/templates/base.html:48
 msgid "My bridges don't work! I need help!"
-msgstr "الجسور لا تعمل! انا بحاجة إلي المساعدة!"
+msgstr "الجسور لا تعمل! أنا بحاجة إلى مساعدة!"
 
 #: lib/bridgedb/templates/base.html:49
 #, python-format
@@ -55,26 +57,26 @@ msgid ""
 "If your Tor doesn't work, you should email %s. Try including as much info "
 "about your case as you can, including the list of bridges you used, the "
 "bundle filename/version you used, the messages that Tor gave out, etc."
-msgstr "إذا لم يعمل تور بنجاح معك، يجب عليك ارسال بريد إلكتروني إلي %s. وحاول قدر المستطاع اضافة معلومات عن حالتك، واضف ايضا الجسور التي استخدمتها، و اسم أو نسخة الحزمة التي استخدمتها، و الرسالة التي اظهرها تور, الخ..."
+msgstr "إذا لم يعمل تور بنجاح معك فاكتب رسالة إلى %s. حاول تضمين الرسالة معلومات وافية عن حالتك، بما في ذلك الجسور التي استخدمتها، و اسم و رقم إصدارة حزمة تور التي استخدمتها، و الرسائل التي أظهرها لك تور عند تشغيله، إلخ..."
 
 #: lib/bridgedb/templates/bridges.html:10
 msgid ""
 "To use the above lines, go to Vidalia's Network settings page, and click "
 "\"My ISP blocks connections to the Tor network\". Then add each bridge "
 "address one at a time."
-msgstr "لاستخدام الأسطر أعلاه، اذهب إلي إعدادات الشبكة الخاصة بڤيداليا، ثم انقر \"مزود خدمة الانترنت الخاص بي يحجب اتصالات تور\". وبعد ذلك ابدأ بإضافة الجسور واحد تلو الاخر."
+msgstr "لاستخدام الأسطر أعلاه، اذهب إلى إعدادات الشبكة الخاصة بڤيداليا ثم أشر أمام \"مقدّم خدمة الإنترنت لي يحجب اتصالات تور\". ثم أضف عناوين الجسور واحدا تلو الآخر."
 
 #: lib/bridgedb/templates/bridges.html:13
 msgid "No bridges currently available"
-msgstr "لا يوجد جسور متاحة حاليا"
+msgstr "لا توجد جسور متاحة حاليا"
 
 #: lib/bridgedb/templates/captcha.html:6
 msgid "Upgrade your browser to Firefox"
-msgstr "حدث المتصفح الخاص بك إلي فايرفوكس"
+msgstr "حدّث المتصفح الذي تستخدمه إلى فَيَرفُكس"
 
 #: lib/bridgedb/templates/captcha.html:8
 msgid "Type the two words"
-msgstr "أكتب الكلمتين"
+msgstr "أدخل الكلمتين"
 
 #: lib/bridgedb/templates/index.html:6
 msgid "Step 1"
@@ -83,7 +85,7 @@ msgstr "خطوة 1"
 #: lib/bridgedb/templates/index.html:8
 #, python-format
 msgid "Get %s Tor Browser Bundle %s"
-msgstr "احصل علي %s حزمة متصفح تور %s"
+msgstr "احصل على %s حزمة متصفح تور %s"
 
 #: lib/bridgedb/templates/index.html:13
 msgid "Step 2"
@@ -92,7 +94,7 @@ msgstr "خطوة 2"
 #: lib/bridgedb/templates/index.html:15
 #, python-format
 msgid "Get %s bridges %s"
-msgstr "احصل علي %s الجسور %s"
+msgstr "احصل على بيانات %s الجسور %s"
 
 #: lib/bridgedb/templates/index.html:19
 msgid "Step 3"
@@ -101,4 +103,4 @@ msgstr "خطوة 3"
 #: lib/bridgedb/templates/index.html:21
 #, python-format
 msgid "Now %s add the bridges to Tor %s"
-msgstr "الان %s اضف الجسور إلي تور %s "
+msgstr "ثم %s أدخل بيانات الجسور في تور %s "
