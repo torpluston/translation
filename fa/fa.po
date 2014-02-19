@@ -3,15 +3,16 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
+# desmati <desmati@gmail.com>, 2014
 # zendegi <hamahangi@posteo.eu>, 2013
 # mohammad.s.n, 2013
 msgid ""
 msgstr ""
 "Project-Id-Version: The Tor Project\n"
-"Report-Msgid-Bugs-To: https://trac.torproject.org/projects/tor\n"
-"POT-Creation-Date: 2013-09-29 14:53+0200\n"
-"PO-Revision-Date: 2013-10-19 07:10+0000\n"
-"Last-Translator: mohammad.s.n\n"
+"Report-Msgid-Bugs-To: Tails developers <tails@boum.org>\n"
+"POT-Creation-Date: 2014-01-18 21:00+0100\n"
+"PO-Revision-Date: 2014-02-19 06:46+0000\n"
+"Last-Translator: desmati <desmati@gmail.com>\n"
 "Language-Team: Persian (http://www.transifex.com/projects/p/torproject/language/fa/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -37,11 +38,11 @@ msgstr "پيكربندى و جاكليدى گنو پرايوسى گارد"
 
 #: ../lib/Tails/Persistence/Configuration/Presets.pm:68
 msgid "SSH Client"
-msgstr "مخدوم پوشته امن (SSH Client)"
+msgstr "کلاینت اس اس اچ (SSH Client)"
 
 #: ../lib/Tails/Persistence/Configuration/Presets.pm:70
 msgid "SSH keys, configuration and known hosts"
-msgstr "كليدها، پىكربندى و ميزبان‌هاى پوشته امن"
+msgstr "كليدهای اس اس اچ، تنظیمات و ميزبان‌هاى امن"
 
 #: ../lib/Tails/Persistence/Configuration/Presets.pm:78
 msgid "Pidgin"
@@ -69,7 +70,7 @@ msgstr "رازهائى كه توسط جاكليدى گنوم حفظ شده اس�
 
 #: ../lib/Tails/Persistence/Configuration/Presets.pm:108
 msgid "Network Connections"
-msgstr "ارتباطات شبكه"
+msgstr "اتصال های شبكه"
 
 #: ../lib/Tails/Persistence/Configuration/Presets.pm:110
 msgid "Configuration of network devices and connections"
@@ -114,92 +115,86 @@ msgstr "فايل‌هاى پنهان (Dotfiles)"
 #: ../lib/Tails/Persistence/Configuration/Presets.pm:160
 msgid ""
 "Symlink into $HOME every file or directory found in the `dotfiles' directory"
-msgstr "ساختن روابط نمادين (symlink) بين $HOME و هر فايل يا پوشه در پوشه فايل‌هاى پنهان (dotfiles)"
+msgstr "برای هر فایل و یا پوشه ای که در فايل‌هاى پنهان (dotfiles) پیدا شده اند، یک رابط نمادين (symlink) بساز"
 
-#: ../lib/Tails/Persistence/Setup.pm:257
-msgid ""
-"The device Tails is running from cannot be found. Maybe you used the `toram'"
-" option?"
-msgstr "دستگاهى كه از آن تيلز اجرا مى‌شود يافت نشد. ممكن است از گزينه 'toram' استفاده كرديد؟"
-
-#: ../lib/Tails/Persistence/Setup.pm:276
+#: ../lib/Tails/Persistence/Setup.pm:227
 msgid "Setup Tails persistent volume"
-msgstr "ساختن ذخيره‌سازى مداوم تيلز"
+msgstr "راه اندازی حجم درایو مداوم برای تیلز(Tails)"
 
-#: ../lib/Tails/Persistence/Setup.pm:420
+#: ../lib/Tails/Persistence/Setup.pm:337
 #, perl-format
 msgid "Device %s already has a persistent volume."
-msgstr "دستگاه %s از قبل حجم ذخيره‌سازى مداومى دارد"
+msgstr "دستگاه %s از قبل درایو ذخیره سازی مداوم تیلز دارد"
 
-#: ../lib/Tails/Persistence/Setup.pm:428
+#: ../lib/Tails/Persistence/Setup.pm:345
 #, perl-format
 msgid "Device %s has not enough unallocated space."
 msgstr "دستگاه %s فضاى خالى كافى ندارد"
 
-#: ../lib/Tails/Persistence/Setup.pm:436 ../lib/Tails/Persistence/Setup.pm:450
+#: ../lib/Tails/Persistence/Setup.pm:353 ../lib/Tails/Persistence/Setup.pm:367
 #, perl-format
 msgid "Device %s has no persistent volume."
-msgstr "دستگاه %s هيچ ذخيره‌سازى مداومى ندارد."
+msgstr "دستگاه %s هيچ درایو ذخیره سازی مداومی ندارد."
 
-#: ../lib/Tails/Persistence/Setup.pm:442
+#: ../lib/Tails/Persistence/Setup.pm:359
 msgid ""
 "Cannot delete the persistent volume while in use. You should restart Tails "
 "without persistence."
-msgstr "نمى‌توان ذخيره‌سازى مداوم در حال بكار بردن حذف كرد. بايد تيلزرا بدون تداوم دوباره شروع كنيد."
+msgstr "زمانی که درایو ذخیره سازی مداوم در حال استفاده است، نمی توان آن را حذف كرد. بايد تيلز را بدون تداوم دوباره شروع كنيد."
 
-#: ../lib/Tails/Persistence/Setup.pm:461
+#: ../lib/Tails/Persistence/Setup.pm:378
 msgid "Persistence volume is not unlocked."
-msgstr "ذخيره‌سازى مداوم  قفل است."
+msgstr "درایو ذخيره‌سازى مداوم  قفل است."
 
-#: ../lib/Tails/Persistence/Setup.pm:466
+#: ../lib/Tails/Persistence/Setup.pm:383
 msgid "Persistence volume is not mounted."
-msgstr "ذخيره‌سازى مداوم سوار نيست."
+msgstr "درایو ذخيره‌سازى مداوم نصب و راه اندازی نشده است."
 
-#: ../lib/Tails/Persistence/Setup.pm:471
+#: ../lib/Tails/Persistence/Setup.pm:388
 msgid "Persistence volume is not readable. Permissions or ownership problems?"
-msgstr "ذخيره‌سازى مداوم قابل خواندن نيست. مشكلات با مجوزها يا مالكيت؟"
+msgstr "درایو ذخيره‌سازى مداوم قابل خواندن نيست. شما مالک آن هستید؟ اجازه دسترسی به آن را دارید؟"
 
-#: ../lib/Tails/Persistence/Setup.pm:476
+#: ../lib/Tails/Persistence/Setup.pm:393
 msgid "Persistence volume is not writable. Maybe it was mounted read-only?"
-msgstr "ذخيره‌سازى مداوم قابل نوشتن نيست. شايد به صورت فقط خواندنى سوار شده‌است؟"
+msgstr "درایو ذخيره‌سازى مداوم قابل نوشتن نيست. شايد به صورت فقط خواندنى نصب و راه اندازی شده‌است؟"
 
-#: ../lib/Tails/Persistence/Setup.pm:485
+#: ../lib/Tails/Persistence/Setup.pm:402
 #, perl-format
-msgid "Tails is running from non-USB device %s."
-msgstr "تيلز از دستگاه %s كه وسيله يواس‌بى نيست اجرا مى‌شود."
+msgid "Tails is running from non-USB / non-SDIO device %s."
+msgstr "تیلز از روی یک دستگاه غیر یو اس بی اجرا شده است: %s"
 
-#: ../lib/Tails/Persistence/Setup.pm:491
+#: ../lib/Tails/Persistence/Setup.pm:408
 #, perl-format
 msgid "Device %s is optical."
 msgstr "دستگاه %s نورى است."
 
-#: ../lib/Tails/Persistence/Setup.pm:498
+#: ../lib/Tails/Persistence/Setup.pm:415
 #, perl-format
 msgid "Device %s was not created using Tails USB installer."
-msgstr "دستگاه %s توسط «برنامه نصب‌كننده يواس‌بي تيلز» ساخته نبود."
+msgstr "دستگاه %s توسط «برنامه نصب‌كننده يواس‌بي تيلز» ساخته نشده است."
 
-#: ../lib/Tails/Persistence/Setup.pm:532
+#: ../lib/Tails/Persistence/Setup.pm:450
 msgid "Error"
 msgstr "خطا"
 
-#: ../lib/Tails/Persistence/Setup.pm:839
+#: ../lib/Tails/Persistence/Setup.pm:670
 msgid "Persistence wizard - Finished"
-msgstr "معاون تداوم - تمام‌شده"
+msgstr "مراحل نصب و راه اندازی به پایان رسید"
 
-#: ../lib/Tails/Persistence/Setup.pm:842
+#: ../lib/Tails/Persistence/Setup.pm:673
 msgid ""
 "Any changes you have made will only take effect after restarting Tails.\n"
 "\n"
 "You may now close this application."
-msgstr "تغييرات فقط بعد از بازآغازى تيلز فعال خواهد شد.\n\nحالا مى‌توانيد اين برنامه‌را ببنديد."
+msgstr "تغییراتی که ایجاد کرده اید، تنها پس از راه اندازی مجدد تیلز اعمال خواهد شد.\n\nحالا مى‌توانيد اين برنامه‌ را ببنديد."
 
 #: ../lib/Tails/Persistence/Step/Bootstrap.pm:54
 msgid "Persistence wizard - Persistent volume creation"
-msgstr "معاون تداوم - ساختن حجم ذخيره‌سازى مداوم"
+msgstr "نصب و راه اندازی - ساختن درایو ذخيره‌سازى مداوم"
 
 #: ../lib/Tails/Persistence/Step/Bootstrap.pm:57
 msgid "Choose a passphrase to protect the persistent volume"
-msgstr "لطفاً عبارت عبورى براى محافظت‌كردن ذخيره‌سازى مداوم انتخاب كنيد"
+msgstr "یک رمز برای محافظت‌كردن از درایو ذخيره‌سازى مداوم انتخاب كنيد"
 
 #. TRANSLATORS: size, device vendor, device model
 #: ../lib/Tails/Persistence/Step/Bootstrap.pm:61
@@ -211,7 +206,7 @@ msgstr "حجم ذخيره‌سازى %s در دستگاه <b>%s %s</b> ساخت�
 
 #: ../lib/Tails/Persistence/Step/Bootstrap.pm:66
 msgid "Create"
-msgstr "ساختن"
+msgstr "ایجاد کردن"
 
 #: ../lib/Tails/Persistence/Step/Bootstrap.pm:110
 msgid ""
@@ -219,96 +214,104 @@ msgid ""
 "understood. Tails can't help you if you use it wrong! See <a "
 "href='file:///usr/share/doc/tails/website/doc/first_steps/persistence.en.html'>Tails"
 " documentation about persistence</a> to learn more."
-msgstr "<b>مواظب باشيد!</b> بكار بردن تداوم داده‌ها نتايجى دارد كه بايد آنهارا كاملاً بفهميد. اگر اشتباه كنيد، تيلز نمى‌تواند به شما كمک كند! <a href='file:///usr/share/doc/tails/website/doc/first_steps/persistence.en.html'>مستندات تيلز راجع به تداوم داده‌ها</a> تا بيشتر بخوانيد."
+msgstr "<b>آگاه باشید!</b> بكار بردن درایو ذخیره سازی مداوم داده‌ها، نتايجى دارد كه بايد آنها را كاملاً بفهميد. اگر اشتباه كنيد، تيلز نمى‌تواند به شما كمکی كند! <a href='file:///usr/share/doc/tails/website/doc/first_steps/persistence.en.html'>مستندات تيلز در این زمینه را به دقت بخوانید.</a>"
 
 #: ../lib/Tails/Persistence/Step/Bootstrap.pm:144
 msgid "Passphrase:"
-msgstr "عبارت عبور:"
+msgstr "رمز:"
 
 #: ../lib/Tails/Persistence/Step/Bootstrap.pm:154
 msgid "Verify Passphrase:"
-msgstr "تاييد عبارت عبور:"
+msgstr "تاييد رمز:"
 
 #: ../lib/Tails/Persistence/Step/Bootstrap.pm:167
 #: ../lib/Tails/Persistence/Step/Bootstrap.pm:231
 msgid "Passphrase can't be empty"
-msgstr "بايد عبارت عبورى انتخاب كرد"
+msgstr "رمز نمی تواند خالی باشد"
 
 #: ../lib/Tails/Persistence/Step/Bootstrap.pm:222
 msgid "Passphrases do not match"
-msgstr "عبارات عبور با هم مطابقت ندارند"
+msgstr "رمز ها با هم یکسان نیستند"
 
 #: ../lib/Tails/Persistence/Step/Bootstrap.pm:262
-#: ../lib/Tails/Persistence/Step/Configure.pm:123
+#: ../lib/Tails/Persistence/Step/Configure.pm:129
 msgid "Failed"
 msgstr "ناموفق"
 
 #: ../lib/Tails/Persistence/Step/Bootstrap.pm:271
 msgid "Mounting Tails persistence partition."
-msgstr "در حال سواركردن ذخيره‌سازى مداوم تيلز..."
+msgstr "در حال نصب و راه اندازی درایو ذخيره‌سازى مداوم تيلز..."
 
 #: ../lib/Tails/Persistence/Step/Bootstrap.pm:274
 msgid "The Tails persistence partition will be mounted."
-msgstr "ذخيره‌سازى مداوم تيلز سوار خواهيم كرد."
+msgstr "درایو ذخيره‌سازى مداوم تيلز نصب و راه اندازی خواهد شد."
 
-#: ../lib/Tails/Persistence/Step/Bootstrap.pm:296
+#: ../lib/Tails/Persistence/Step/Bootstrap.pm:283
+msgid "Correcting permissions of the persistent volume."
+msgstr "اصلاح دسترسی های درایو ذخیره سازی مداوم"
+
+#: ../lib/Tails/Persistence/Step/Bootstrap.pm:286
+msgid "The permissions of the persistent volume will be corrected."
+msgstr "دسترسی های درایو ذخیره سازی مداوم اصلاح خواهد شد."
+
+#: ../lib/Tails/Persistence/Step/Bootstrap.pm:308
 msgid "Creating..."
-msgstr "در حال ساختن..."
+msgstr "در حال ایجاد کردن..."
 
-#: ../lib/Tails/Persistence/Step/Bootstrap.pm:299
+#: ../lib/Tails/Persistence/Step/Bootstrap.pm:311
 msgid "Creating the persistent volume..."
-msgstr "در حال ساختن ذخيره‌سازى مداوم..."
+msgstr "در حال ساختن درایو ذخيره‌سازى مداوم..."
 
-#: ../lib/Tails/Persistence/Step/Configure.pm:55
+#: ../lib/Tails/Persistence/Step/Configure.pm:61
 msgid "Persistence wizard - Persistent volume configuration"
-msgstr "معاون تداوم - پيكربندى ذخيره‌سازى مداوم"
+msgstr "نصب و راه اندازی - تنظیمات درایو ذخیره سازی مداوم"
 
-#: ../lib/Tails/Persistence/Step/Configure.pm:58
+#: ../lib/Tails/Persistence/Step/Configure.pm:64
 msgid "Specify the files that will be saved in the persistent volume"
-msgstr "فايل‌هائى‌ كه در ذخيره‌سازى مداوم ذخيره خواهد شد را مشخص كنيد."
+msgstr "فايل‌هایی كه در درایو ذخيره‌سازى مداوم ذخيره خواهند شد را مشخص كنيد."
 
 #. TRANSLATORS: partition, size, device vendor, device model
-#: ../lib/Tails/Persistence/Step/Configure.pm:62
+#: ../lib/Tails/Persistence/Step/Configure.pm:68
 #, perl-format
 msgid ""
 "The selected files will be stored in the encrypted partition %s (%s), on the"
 " <b>%s %s</b> device."
-msgstr "فايل‌هاى مشخص در ذخيره‌سازى رمزشده %s (%s) در دستگاه <b>%s %s</b>  ذخيره خواهد شد"
+msgstr "فايل‌هاى انتخاب شده در درایو رمزگداری شده %s (%s)، در دستگاه <b>%s %s</b>  ذخيره خواهند شد"
 
-#: ../lib/Tails/Persistence/Step/Configure.pm:68
+#: ../lib/Tails/Persistence/Step/Configure.pm:74
 msgid "Save"
-msgstr "ذخيره‌كردن"
+msgstr "ثبت"
 
-#: ../lib/Tails/Persistence/Step/Configure.pm:137
+#: ../lib/Tails/Persistence/Step/Configure.pm:143
 msgid "Saving..."
-msgstr "در حال ذخيره‌كردن..."
+msgstr "در حال ثبت..."
 
-#: ../lib/Tails/Persistence/Step/Configure.pm:140
+#: ../lib/Tails/Persistence/Step/Configure.pm:146
 msgid "Saving persistence configuration..."
-msgstr "در حال ذخيره‌كردن پىكربندى تداوم..."
+msgstr "در حال ثبت تنظیمات تداوم..."
 
-#: ../lib/Tails/Persistence/Step/Delete.pm:40
+#: ../lib/Tails/Persistence/Step/Delete.pm:41
 msgid "Persistence wizard - Persistent volume deletion"
-msgstr "معاون تداوم - حذف‌كردن ذخيره‌سازى مداوم."
+msgstr "نصب و راه اندازی - حذف‌كردن درایو ذخيره‌سازى مداوم"
 
-#: ../lib/Tails/Persistence/Step/Delete.pm:43
+#: ../lib/Tails/Persistence/Step/Delete.pm:44
 msgid "Your persistent data will be deleted."
 msgstr "داده‌هاى مداومتان حذف خواهد شد."
 
-#: ../lib/Tails/Persistence/Step/Delete.pm:47
+#: ../lib/Tails/Persistence/Step/Delete.pm:48
 #, perl-format
 msgid ""
 "The persistent volume %s (%s), on the <b>%s %s</b> device, will be deleted."
 msgstr "فايل‌هاى مشخص در ذخيره‌سازى رمزشده %s (%s) در دستگاه <b>%s %s</b> حذف خواهند شد"
 
-#: ../lib/Tails/Persistence/Step/Delete.pm:53
+#: ../lib/Tails/Persistence/Step/Delete.pm:54
 msgid "Delete"
 msgstr "حذف‌كردن"
 
-#: ../lib/Tails/Persistence/Step/Delete.pm:91
+#: ../lib/Tails/Persistence/Step/Delete.pm:101
 msgid "Deleting..."
 msgstr "در حال حذف‌كردن..."
 
-#: ../lib/Tails/Persistence/Step/Delete.pm:94
+#: ../lib/Tails/Persistence/Step/Delete.pm:104
 msgid "Deleting the persistent volume..."
 msgstr "در حال حذف‌كردن ذخيره‌سازى مداوم..."
