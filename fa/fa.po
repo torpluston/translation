@@ -4,16 +4,20 @@
 # 
 # Translators:
 # zmix <check_people_status@yahoo.com>, 2013
+# desmati <desmati@gmail.com>, 2014
 # esmallberg <esmallberg@ndi.org>, 2013
 # zendegi <hamahangi@posteo.eu>, 2013
+# Hamidreza Rajabzadeh <hamidonline.behbahan@gmail.com>, 2014
 # Joe.Ironsmith <joe_ironsmith@yahoo.com>, 2012
+# mohammad.s.n, 2013
+# Mohammad Hosseini <PersianPolaris@Gmail.com>, 2013
 msgid ""
 msgstr ""
 "Project-Id-Version: The Tor Project\n"
-"Report-Msgid-Bugs-To: https://trac.torproject.org/projects/tor\n"
-"POT-Creation-Date: 2013-02-14 16:07+0100\n"
-"PO-Revision-Date: 2013-05-22 12:46+0000\n"
-"Last-Translator: runasand <runa.sandvik@gmail.com>\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-01-29 14:16+0100\n"
+"PO-Revision-Date: 2014-02-24 10:48+0000\n"
+"Last-Translator: desmati <desmati@gmail.com>\n"
 "Language-Team: Persian (http://www.transifex.com/projects/p/torproject/language/fa/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -21,66 +25,76 @@ msgstr ""
 "Language: fa\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
-#: ../liveusb/dialog.py:150 ../liveusb/launcher_ui.py:149
+#: ../liveusb/dialog.py:159 ../liveusb/launcher_ui.py:158
 #, python-format
-msgid "%(distribution)s LiveUSB Creator"
-msgstr "دریافت %(distribution)s"
+msgid "%(distribution)s Installer"
+msgstr "نصب کننده‌ی %(distribution)s"
 
-#: ../liveusb/gui.py:758
+#: ../liveusb/gui.py:808
 #, python-format
 msgid "%(filename)s selected"
 msgstr "%(filename)s انتخاب شده"
 
-#: ../liveusb/creator.py:1018
+#: ../liveusb/gui.py:439
+#, python-format
+msgid "%(size)s %(label)s"
+msgstr "%(size)s %(label)s"
+
+#: ../liveusb/gui.py:445
+#, python-format
+msgid "%(vendor)s %(model)s (%(details)s) - %(device)s"
+msgstr "%(vendor)s %(model)s (%(details)s) - %(device)s"
+
+#: ../liveusb/creator.py:1020
 #, python-format
 msgid "%s already bootable"
 msgstr "%s از پیش قابل راه‌اندازی"
 
-#: ../liveusb/launcher_ui.py:156
+#: ../liveusb/launcher_ui.py:165
 msgid ""
 "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:'Sans Serif'; font-size:9pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-size:10pt;\">Need help? Read the </span><a href=\"file:///usr/share/doc/tails/website/doc/first_steps/usb_installation.en.html\"><span style=\" text-decoration: underline; color:#0000ff;\">documentation</span></a><span style=\" font-size:10pt;\">.</span></p></body></html>"
-msgstr "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\np, li { white-space: pre-wrap; }\n</style></head><body style=\" font-family:'Sans Serif'; font-size:9pt; font-weight:400; font-style:normal;\">\n<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-size:10pt;\">نیاز به راهنمایی دارید؟ این را بخوانید: </span><a href=\"file:///usr/share/doc/tails/website/doc/first_steps/usb_installation.en.html\"><span style=\" text-decoration: underline; color:#0000ff;\">مستندات</span></a><span style=\" font-size:10pt;\">.</span></p></body></html>"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-size:10pt;\">Need help? Read the </span><a href=\"file:///usr/share/doc/tails/website/doc/first_steps/installation.en.html\"><span style=\" text-decoration: underline; color:#0000ff;\">documentation</span></a><span style=\" font-size:10pt;\">.</span></p></body></html>"
+msgstr "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\np, li { white-space: pre-wrap; }\n</style></head><body style=\" font-family:'Sans Serif'; font-size:9pt; font-weight:400; font-style:normal;\">\n<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-size:10pt;\">نیاز به کمک دارید؟ بخوانید </span><a href=\"file:///usr/share/doc/tails/website/doc/first_steps/installation.en.html\"><span style=\" text-decoration: underline; color:#0000ff;\">مستندات</span></a><span style=\" font-size:10pt;\">.</span></p></body></html>"
 
-#: ../liveusb/launcher_ui.py:151
+#: ../liveusb/launcher_ui.py:160
 msgid ""
 "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:'Sans Serif'; font-size:9pt; font-weight:400; font-style:normal;\">\n"
-"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-size:10pt;\">Copy the running Tails onto a USB stick. All data on the target drive will be lost.</span></p></body></html>"
-msgstr "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\np, li { white-space: pre-wrap; }\n</style></head><body style=\" font-family:'Sans Serif'; font-size:9pt; font-weight:400; font-style:normal;\">\n<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-size:10pt;\">از «تیلز» در حال اجرا نسخه‌برداری کن و روی دستگاه بریز. تمام اطلاعات دستگاه از بین خواهد رفت.</span></p></body></html>"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-size:10pt;\">Copy the running Tails onto a USB stick or SD card. All data on the target drive will be lost.</span></p></body></html>"
+msgstr "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\np, li { white-space: pre-wrap; }\n</style></head><body style=\" font-family:'Tahoma'; font-size:9pt; font-weight:400; font-style:normal;\">\n<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-size:10pt;\">نسخه ای از تیلز را که در حال اجرا است، روی یو اس بی کپی کن. همه اطلاعات روی آن یو اس بی پاک خواهند شد.</span></p></body></html>"
 
-#: ../liveusb/launcher_ui.py:153
+#: ../liveusb/launcher_ui.py:162
 msgid ""
 "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:'Sans Serif'; font-size:9pt; font-weight:400; font-style:normal;\">\n"
-"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-size:10pt;\">Copy the running Tails onto an already installed Tails USB stick. Other partitions found on the stick are preserved.</span></p></body></html>"
-msgstr "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\np, li { white-space: pre-wrap; }\n</style></head><body style=\" font-family:'Sans Serif'; font-size:9pt; font-weight:400; font-style:normal;\">\n<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-size:10pt;\">از «تیلز» در حال اجرا نسخه‌برداری کن و روی دستگاه که از پیش «تیلز» روی آن نصب شده، بریز. پارتیشن‌های دیگر دشتگاه حفظ می‌شوند.</span></p></body></html>"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-size:10pt;\">Copy the running Tails onto an already installed Tails device. Other partitions found on the stick are preserved.</span></p></body></html>"
+msgstr "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\np, li { white-space: pre-wrap; }\n</style></head><body style=\" font-family:'Tahoma'; font-size:9pt; font-weight:400; font-style:normal;\">\n<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-size:10pt;\">نسخه ای از تیلز را که در حال اجرا است، روی یو اس بی کپی کن. همه اطلاعات فعلی روی آن یو اس بی حفظ خواهند شد.</span></p></body></html>"
 
-#: ../liveusb/launcher_ui.py:155
+#: ../liveusb/launcher_ui.py:164
 msgid ""
 "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:'Sans Serif'; font-size:9pt; font-weight:400; font-style:normal;\">\n"
-"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-size:10pt;\">Upgrade an already installed Tails USB stick from a new ISO image.</span></p></body></html>"
-msgstr "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\np, li { white-space: pre-wrap; }\n</style></head><body style=\" font-family:'Sans Serif'; font-size:9pt; font-weight:400; font-style:normal;\">\n<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-size:10pt;\">«تیلز» از پیش نصب شده روی دشتگاه را با یک تصویر ایزو جدید بروز رسانی کن.</span></p></body></html>"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-size:10pt;\">Upgrade an already installed Tails device from a new ISO image.</span></p></body></html>"
+msgstr "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\np, li { white-space: pre-wrap; }\n</style></head><body style=\" font-family:'Tahoma'; font-size:9pt; font-weight:400; font-style:normal;\">\n<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-size:10pt;\">نسخه تیلز نصب شده روی دستگاه را از روی یک فایل ISO آپدیت کن.</span></p></body></html>"
 
-#: ../liveusb/dialog.py:154
+#: ../liveusb/dialog.py:163
 msgid "Alt+B"
 msgstr "Alt+B"
 
-#: ../liveusb/dialog.py:153
+#: ../liveusb/dialog.py:162
 msgid "Browse"
 msgstr "مرور وب!"
 
-#: ../liveusb/dialog.py:160
+#: ../liveusb/dialog.py:169
 msgid ""
 "By allocating extra space on your USB stick for a persistent overlay, you "
 "will be able to store data and make permanent modifications to your live "
@@ -88,262 +102,269 @@ msgid ""
 "persist after a reboot."
 msgstr "با تخصیص یک فضای اضافی روی دستگاه یو‌اس‌بی تان، این امکان را خواهید داشت که تغییراتی را به صورت همیشگی روی سیستم‌عامل زنده‌ی آن اعمال کنید. در غیر این صورت هر تغییری که روی آن دهید با یکبار راه‌اندازی مجدد از بین خواهد رفت."
 
-#: ../liveusb/creator.py:1120 ../liveusb/creator.py:1383
+#: ../liveusb/creator.py:1122 ../liveusb/creator.py:1385
 #, python-format
 msgid "Calculating the SHA1 of %s"
 msgstr "محاسبه SHA1 از %s"
 
-#: ../liveusb/creator.py:1331
+#: ../liveusb/creator.py:1333
 msgid "Cannot find"
 msgstr "یافت نمی‌شود"
 
-#: ../liveusb/creator.py:574
+#: ../liveusb/creator.py:542
 #, python-format
 msgid "Cannot find device %s"
 msgstr "وسیله ی %s یافت نشد"
 
-#: ../liveusb/launcher_ui.py:150
+#: ../liveusb/launcher_ui.py:159
 msgid ""
 "Clone\n"
 "&&\n"
 "Install"
 msgstr "کپی\\n&&\\نصب"
 
-#: ../liveusb/launcher_ui.py:152
+#: ../liveusb/launcher_ui.py:161
 msgid ""
 "Clone\n"
 "&&\n"
 "Upgrade"
 msgstr "کپی\\n&&\\به روزرسانی"
 
-#: ../liveusb/dialog.py:165
-msgid "Create Live USB"
-msgstr "سیستم‌عامل زنده را بساز!"
-
-#: ../liveusb/creator.py:429
+#: ../liveusb/creator.py:400
 #, python-format
 msgid "Creating %sMB persistent overlay"
 msgstr "ایجاد %sMB پوشش پایدار"
 
-#: ../liveusb/gui.py:534
+#: ../liveusb/gui.py:567
 msgid ""
 "Device is not yet mounted, so we cannot determine the amount of free space."
-"  Setting a maximum limit of 8G for the persistent storage."
-msgstr "دستگاه هنوز متصل نشده است، بنابراين ما نميتوانيم فضاي خالي را بررسي كنيم. حداكثر فضاي 8 گيگابايتي براي ذخيره سازي مداوم انتخاب مي شود."
+msgstr "‫وسیله هنوز نصب نشده، نمی‌توان اندازه‌ی فضای خالی را تعیین کرد."
 
-#: ../liveusb/gui.py:197
-#, python-format
-msgid "Device is too small: it must be at least %s MiB."
-msgstr "دستگاه خيلي كوچك است: بايد حداقل %s مگابايت باشد."
-
-#: ../liveusb/dialog.py:157
+#: ../liveusb/dialog.py:166
 #, python-format
 msgid "Download %(distribution)s"
 msgstr "دریافت %(distribution)s"
 
-#: ../liveusb/gui.py:732
+#: ../liveusb/gui.py:782
 msgid "Download complete!"
 msgstr "دانلود کامل شد!"
 
-#: ../liveusb/gui.py:736
+#: ../liveusb/gui.py:786
 msgid "Download failed: "
 msgstr "دانلود نا موفق:"
 
-#: ../liveusb/gui.py:84
+#: ../liveusb/gui.py:88
 #, python-format
 msgid "Downloading %s..."
-msgstr "در حال بارگیری %s..."
+msgstr "در حال دانلود %s..."
 
-#: ../liveusb/creator.py:1116
+#: ../liveusb/creator.py:1118
 msgid "Drive is a loopback, skipping MBR reset"
 msgstr "درایو از نوع Loopback است. راه‌اندازی دوباره \"رکورد راه‌اندازی اصلی\" MBR را رد کنید."
 
-#: ../liveusb/creator.py:1196
+#: ../liveusb/creator.py:813
+#, python-format
+msgid "Entering unmount_device for '%(device)s'"
+msgstr "وارد کردن دستگاه هاي وصل نشده براي '%(device)s'"
+
+#: ../liveusb/creator.py:1198
 msgid "Error probing device"
 msgstr "دستگاه جستجوی خطا"
 
-#: ../liveusb/gui.py:226
+#: ../liveusb/gui.py:227
 msgid ""
 "Error: Cannot set the label or obtain the UUID of your device.  Unable to "
 "continue."
-msgstr "خطا: نمی تواند برچسب را تنظیم کند و یا UUID وسیله را پیدا کند. قادر به ادامه دادن نیست."
+msgstr "خطا: امکان تنظیم کردن نام دستگاه شما نیست و یا خواندن UUID دستگاه شما ممکن نبود. نمی توان ادامه داد."
 
-#: ../liveusb/creator.py:405
+#: ../liveusb/creator.py:376
 msgid ""
 "Error: The SHA1 of your Live CD is invalid.  You can run this program with "
 "the --noverify argument to bypass this verification check."
 msgstr "خطا: مقداری SHA1 سی‌دی لایو نامعتبر است. شما می توانید این برنامه را با آرگومان --noverify اجرا کنید تا از این کنترل کردن عبور کند."
 
-#: ../liveusb/creator.py:144
-msgid "Extracting live image to USB device..."
-msgstr "استخراج تصویر لایو بر روی وسیله ی یو‌اس‌بی..."
+#: ../liveusb/creator.py:145
+msgid "Extracting live image to the target device..."
+msgstr "در حال باز کردن فایل نصب به روی دستگاه مقصد..."
 
-#: ../liveusb/creator.py:1061
+#: ../liveusb/creator.py:1063
 #, python-format
 msgid "Formatting %(device)s as FAT32"
 msgstr "فرمت کردن %(device)s به صورت FAT32"
 
-#: ../liveusb/creator.py:139
+#: ../liveusb/creator.py:140
 msgid "ISO MD5 checksum passed"
 msgstr "موفقیت در کنترل ISO MD5"
 
-#: ../liveusb/creator.py:137
+#: ../liveusb/creator.py:138
 msgid "ISO MD5 checksum verification failed"
 msgstr "عدم موفقیت در بازبینی کنترل ISO MD5"
 
-#: ../liveusb/dialog.py:156
+#: ../liveusb/dialog.py:165
 msgid ""
 "If you do not select an existing Live ISO, the selected release will be "
 "downloaded for you."
 msgstr "اگر یک Live ISO موجود را انتخاب نکنید، نسخه‌ی انتخاب‌شده برای‌تان دانلود خواهد شد"
 
-#: ../liveusb/gui.py:601
+#: ../liveusb/dialog.py:174
+msgid "Install Tails"
+msgstr "نصب تیلز"
+
+#: ../liveusb/gui.py:630
 msgid "Installation complete!"
 msgstr "عمليات نصب به پايان رسيد!"
 
-#: ../liveusb/gui.py:276
+#: ../liveusb/gui.py:279
 #, python-format
 msgid "Installation complete! (%s)"
 msgstr "عمليات نصب به پايان رسيد! (%s)"
 
-#: ../liveusb/gui.py:602
+#: ../liveusb/gui.py:631
 msgid "Installation was completed. Press OK to close this program."
 msgstr "عمليات نصب به پايان رسيد. دكمه OK را براي بستن برنامه بزنيد."
 
-#: ../liveusb/creator.py:913 ../liveusb/creator.py:1237
+#: ../liveusb/creator.py:916 ../liveusb/creator.py:1239
 msgid "Installing bootloader..."
 msgstr "نصب بوت لودر..."
 
-#: ../liveusb/gui.py:281
+#: ../liveusb/gui.py:284
 msgid "LiveUSB creation failed!"
-msgstr "خطا در ساخت لایو یو‌اس بی!"
+msgstr "نصب سیستم عامل بر روی «دستگاه یو اس بی» شما با خطا مواجه شد!"
 
-#: ../liveusb/creator.py:1332
+#: ../liveusb/creator.py:1334
 msgid ""
 "Make sure to extract the entire liveusb-creator zip file before running this"
 " program."
 msgstr "پیش از اجرای این برنامه مطمئن شوید که فایل liveusb-creator را از حالت فشرده خارج کرده‌اید"
 
-#: ../liveusb/creator.py:1208
+#: ../liveusb/creator.py:1210
 msgid ""
 "Make sure your USB key is plugged in and formatted with the FAT filesystem"
 msgstr "مطمئن شوید یو اس بی شما متصل شده و با فایل سیستم FAT قالب بندی شده است."
 
-#: ../liveusb/creator.py:847
+#: ../liveusb/creator.py:835
 #, python-format
 msgid "Mount %s exists after unmounting"
 msgstr "نصب %s بعد از حذف موجود است"
 
-#: ../liveusb/gui.py:663 ../liveusb/gui.py:680
-msgid "Next"
-msgstr "بعدي"
-
-#: ../liveusb/gui.py:541
+#: ../liveusb/gui.py:573
 #, python-format
 msgid "No free space on device %(device)s"
 msgstr "فضای کافی بر روی حافظه وجود ندارد %(device)s"
 
-#: ../liveusb/creator.py:824
+#: ../liveusb/creator.py:802
 msgid "No mount points found"
 msgstr "هيچ نقطه بازگذاري يافت نشد"
 
-#: ../liveusb/creator.py:422
-msgid "Not enough free space on device."
-msgstr "فضای خالی کافی در وسیله موجود نیست."
+#: ../liveusb/creator.py:393
+#, python-format
+msgid ""
+"Not enough free space on device.\n"
+"%dMB ISO + %dMB overlay > %dMB free space"
+msgstr "فضای خالی کافی وجود ندارد.\n%dMB ISO + %dMB overlay > %dMB free space"
 
-#: ../liveusb/gui.py:546
+#: ../liveusb/gui.py:554
 msgid "Partition is FAT16; Restricting overlay size to 2G"
 msgstr "قسمت‌بندی بر اساس فرمت FAT16 است. اندازه جایگذاری به ۲ گیگابایت محدود شود"
 
-#: ../liveusb/gui.py:592
+#: ../liveusb/gui.py:550
+msgid "Partition is FAT32; Restricting overlay size to 4G"
+msgstr "‫پارتیشن به فرمت FAT32 است؛ محدودیت فضا ۴گیگابایت خواهد بود"
+
+#: ../liveusb/creator.py:226 ../liveusb/creator.py:842
+#, python-format
+msgid "Partitioning device %(device)s"
+msgstr "در حال پاتیشن‌بندیِ %(device)s"
+
+#: ../liveusb/gui.py:621
 msgid "Persistent Storage"
 msgstr "ذخيره سازي مداوم"
 
-#: ../liveusb/dialog.py:161
+#: ../liveusb/dialog.py:170
 msgid "Persistent Storage (0 MB)"
 msgstr "حافظه دائم (0 مگابایت)"
 
-#: ../liveusb/gui.py:661 ../liveusb/gui.py:678
-msgid "Press 'Next' if you wish to continue."
-msgstr "اگر مايل به ادامه هستيد، دكمه 'بعدي' را بزنيد."
+#: ../liveusb/gui.py:702 ../liveusb/gui.py:731
+msgid "Please confirm your device selection"
+msgstr "لطفا دستگاه انتخابی تان را تایید کنید"
 
-#: ../liveusb/gui.py:452
+#: ../liveusb/gui.py:467
 msgid "Refreshing releases..."
 msgstr "بازنگری انتشار‌ها…"
 
-#: ../liveusb/gui.py:457
+#: ../liveusb/gui.py:472
 msgid "Releases updated!"
 msgstr "انتشارها بروزرسانی شدند!"
 
-#: ../liveusb/creator.py:936 ../liveusb/creator.py:1255
+#: ../liveusb/creator.py:939 ../liveusb/creator.py:1257
 #, python-format
 msgid "Removing %(file)s"
 msgstr "برداشتن %(file)s"
 
-#: ../liveusb/creator.py:498
+#: ../liveusb/creator.py:469
 msgid "Removing existing Live OS"
 msgstr "حذف Live OS موجود"
 
-#: ../liveusb/creator.py:1110
+#: ../liveusb/creator.py:1112
 #, python-format
 msgid "Resetting Master Boot Record of %s"
 msgstr "بازنشانی رکورد راه‌اندازی اصلی از %s"
 
-#: ../liveusb/gui.py:743
+#: ../liveusb/gui.py:793
 msgid "Select Live ISO"
 msgstr "انتخاب ایزوی لایو"
 
-#: ../liveusb/creator.py:181
+#: ../liveusb/creator.py:182
 msgid "Setting up OLPC boot file..."
 msgstr "تنظیم فایل راه‌اندازی OLPC..."
 
-#: ../liveusb/creator.py:738
+#: ../liveusb/creator.py:716
 #, python-format
 msgid ""
-"Some partitions of USB device %(device)s are mounted. They will be unmounted"
-" before starting the installation process."
-msgstr "تعدادی از پارتیشن‌های حافظه‌ی متصل به USB %(device)s ایجاد شده‌اند. آنها پیش از آغاز فرایند نصب، حذف خواهند شد."
+"Some partitions of the target device %(device)s are mounted. They will be "
+"unmounted before starting the installation process."
+msgstr "بعضی از پارتیشن های موجود بر روی دستگاه %(device)s فعال و راه اندازی شدند. آن ها قبل از شروع مراحل نصب غیر فعال می شوند."
 
-#: ../liveusb/creator.py:130
+#: ../liveusb/creator.py:131
 msgid ""
 "Source type does not support verification of ISO MD5 checksum, skipping"
 msgstr "نوع منبع، عملیات بازبینی از کنترل ISO MD5 را پشتیبانی نمی‌کند؛ پرش"
 
-#: ../liveusb/creator.py:1144
+#: ../liveusb/creator.py:1146
 msgid "Synchronizing data on disk..."
 msgstr "هماهنگ سازی داده‌ها بر روی دیسک..."
 
-#: ../liveusb/dialog.py:159
+#: ../liveusb/dialog.py:168
 msgid "Target Device"
 msgstr "دستگاه هدف"
 
-#: ../liveusb/gui.py:625
+#: ../liveusb/gui.py:667
 msgid ""
-"The Master Boot Record on your device is blank. Pressing 'Create Live USB' "
+"The Master Boot Record on your device is blank. Pressing 'Install Tails' "
 "again will reset the MBR on this device."
-msgstr "رکورد راه‌اندازی اصلی در دستگاه جانبی شما خالی است. فشردن دوباره \"ایجاد LIVE USB\"، رکورد راه‌اندازی اصلی MBR را دوباره بر روی این دستگاه جانبی راه‌اندازی خواهد کرد."
+msgstr "بر روی دستگاه شما Master Boot Record خالی است. کلیک مجدد روی «نصب تیلز» آن را تنظیم مجدد خواهد کرد."
 
-#: ../liveusb/gui.py:746
+#: ../liveusb/gui.py:796
 msgid ""
 "The selected file is unreadable. Please fix its permissions or select "
 "another file."
 msgstr "فایل انتخاب‌شده قابل خواندن نیست. لطفا اجازه دسترسی به آن را اصلاح کنید یا فایل دیگری را انتخاب کنید"
 
-#: ../liveusb/creator.py:366
+#: ../liveusb/creator.py:337
 #, python-format
 msgid ""
 "There was a problem executing the following command: `%(command)s`.\n"
 "A more detailed error log has been written to '%(filename)s'."
 msgstr "مشکلی در اجرای دستور زیر وجود دارد: `%(command)s`.\\n یک کارنامه‌ خطا با جزییات بیشتر روی '%(filename)s' نوشته شده است."
 
-#: ../liveusb/dialog.py:151
+#: ../liveusb/dialog.py:160
 msgid ""
 "This button allows you to browse for an existing Live system ISO that you "
 "have previously downloaded.  If you do not select one, a release will be "
 "downloaded for you automatically."
 msgstr "این دکمه به شما اجازه می‌دهد تا به دنبال یک Live system ISO موجود که پیش‌تر دانلود کرده‌اید بگردید. اگر یکی از گزینه‌ها را انتخاب نکنید، یک نسخه به صورت خودکار برای‌تان دانلود خواهد شد."
 
-#: ../liveusb/dialog.py:164
+#: ../liveusb/dialog.py:173
 msgid ""
 "This button will begin the LiveUSB creation process.  This entails "
 "optionally downloading a release (if an existing one wasn't selected),  "
@@ -351,203 +372,222 @@ msgid ""
 "installing the bootloader."
 msgstr "این دکمه فرآیند ساختن یواس‌بی زنده را شروع می‌کند. این شامل دانلود کردن یک انتشار از سیستم‌عامل «تیلز» (البته فقط در صورتی که هیچ گزینه‌ای موجود نباشد)، باز کردن فایل ایزو و ریختن آن روی دستگاه، ساختن یک لایه همیشگی و نهایتا نصب راه‌انداز یا بوت‌لودر آن می‌باشد."
 
-#: ../liveusb/dialog.py:158
+#: ../liveusb/dialog.py:167
 msgid ""
 "This is the USB stick that you want to install your Live system on.  This "
 "device must be formatted with the FAT filesystem."
 msgstr "این حافظه جانبی USB است که شما می‌خواهید Live system خود را روی آن نصب کنید. این حافظه می‌بایست تحت سیستم FAT فُرمَت شود."
 
-#: ../liveusb/dialog.py:163
+#: ../liveusb/dialog.py:172
 msgid ""
 "This is the progress bar that will indicate how far along in the LiveUSB "
 "creation process you are"
 msgstr "این نوار پیشرفت نشان می‌دهد که شما در کجای فرآیند ساختن سیستم‌عامل زنده هستید"
 
-#: ../liveusb/dialog.py:162
+#: ../liveusb/dialog.py:171
 msgid "This is the status console, where all messages get written to."
 msgstr "اینجا کنسول وضعیت است. جایی که تمام پیغام‌ها در آن نوشته می‌شوند."
 
-#: ../liveusb/creator.py:908
+#: ../liveusb/creator.py:879
+msgid "Trying to continue anyway."
+msgstr "تلاش برای ادامه دادن در هر صورت."
+
+#: ../liveusb/creator.py:911
 #, python-format
 msgid "Unable to change volume label: %(message)s"
 msgstr "قادر به تغییر برچسب حافظه نیست: %(message)s"
 
-#: ../liveusb/creator.py:507 ../liveusb/creator.py:518
+#: ../liveusb/creator.py:478 ../liveusb/creator.py:489
 #, python-format
 msgid "Unable to chmod %(file)s: %(message)s"
 msgstr "قادر به اجرای دستور سطح دسترسی %(file)s نیست: %(message)s"
 
-#: ../liveusb/creator.py:488
+#: ../liveusb/creator.py:459
 #, python-format
 msgid "Unable to copy %(infile)s to %(outfile)s: %(message)s"
 msgstr "قادر به کپی کردن %(infile)s به %(outfile)s نیست: %(message)s"
 
-#: ../liveusb/gui.py:414
+#: ../liveusb/gui.py:418
 msgid "Unable to find any USB drive"
 msgstr "قادر به یافتن هیچ درایو یو اس بی نیست"
 
-#: ../liveusb/creator.py:1198
-msgid "Unable to find any removable device"
-msgstr "هیچ حافظه جانبی یافت نمی‌شود"
+#: ../liveusb/creator.py:1200
+msgid "Unable to find any supported device"
+msgstr "هیچ دستگاهی که پشتیبانی شود یافت نشد"
 
-#: ../liveusb/creator.py:1038
+#: ../liveusb/creator.py:1040
 msgid "Unable to find partition"
 msgstr "قادر به پیدا کردن پارتیشن نیست."
 
-#: ../liveusb/creator.py:1278
+#: ../liveusb/creator.py:1280
 msgid ""
 "Unable to get Win32_LogicalDisk; win32com query did not return any results"
 msgstr "قادر به دسترسی به Win32_LogicalDisk نیست. فراخواندن win32com هیچ نتیجه‌ای را برگردان نمی‌کند"
 
-#: ../liveusb/gui.py:653
+#: ../liveusb/gui.py:695
 msgid "Unable to mount device"
 msgstr "فادر به بارگذاري دستگاه نيست."
 
-#: ../liveusb/creator.py:812
+#: ../liveusb/creator.py:790
 #, python-format
 msgid "Unable to mount device: %(message)s"
 msgstr "قادر به نصب حافظه نیست: %(message)s"
 
-#: ../liveusb/creator.py:523
+#: ../liveusb/creator.py:494
 #, python-format
 msgid "Unable to remove directory from previous LiveOS: %(message)s"
 msgstr "قادر به نصب حافظه نیست: %(message)s"
 
-#: ../liveusb/creator.py:511
+#: ../liveusb/creator.py:482
 #, python-format
 msgid "Unable to remove file from previous LiveOS: %(message)s"
 msgstr "قادر به حذف فایل از LiveOS قبلی نیست: %(message)s"
 
-#: ../liveusb/creator.py:1113
+#: ../liveusb/creator.py:1115
 msgid ""
 "Unable to reset MBR.  You may not have the `syslinux` package installed."
 msgstr "قادر به راه‌اندازی دوباره \"رکورد راه‌اندازی اصلی\" MBR نیست. شما احتمالا بسته \"syslinux\" را نصب نکرده‌اید."
 
-#: ../liveusb/gui.py:752
+#: ../liveusb/gui.py:802
 msgid ""
 "Unable to use the selected file.  You may have better luck if you move your "
 "ISO to the root of your drive (ie: C:\\)"
 msgstr "قادر به استفاده از فايل انتخاب شده نيست. اگر فايل ايزو را به ريشه درايو خود (مثلاً C) منتقل كنيد ممكن است شانس بيتشري داشته باشيد."
 
-#: ../liveusb/creator.py:719
+#: ../liveusb/creator.py:697
 #, python-format
 msgid "Unable to write on %(device)s, skipping."
 msgstr "خطا در نوشتن بر روی دستگاه  %(device)s. این مرحله را جا می‌اندازم."
 
-#: ../liveusb/creator.py:411
+#: ../liveusb/creator.py:382
 msgid "Unknown ISO, skipping checksum verification"
 msgstr "ISO ناشناخته؛ پرش از روی بازبینی کنترل"
 
-#: ../liveusb/creator.py:808
+#: ../liveusb/creator.py:786
 #, python-format
 msgid "Unknown dbus exception while trying to mount device: %(message)s"
 msgstr "اسنثناء ناشاخته در dbus هنگام تلاش برای نصب دستگاه: %(message)s"
 
-#: ../liveusb/creator.py:787 ../liveusb/creator.py:887
+#: ../liveusb/creator.py:765 ../liveusb/creator.py:890
 msgid "Unknown filesystem.  Your device may need to be reformatted."
 msgstr "نوع فايل سيستم ناشناخته است. دستگاه شما ممكن است نياز به فرمت مجدد داشته باشد."
 
-#: ../liveusb/gui.py:80
+#: ../liveusb/gui.py:84
 #, python-format
 msgid "Unknown release: %s"
-msgstr "انتشار ناشناس: %s"
+msgstr "نسخه نرم افزار معتبر نیست: %s"
 
-#: ../liveusb/creator.py:835
+#: ../liveusb/creator.py:827
 #, python-format
-msgid "Unmounting %(device)s"
-msgstr "پیاده‌سازی %(device)s"
+msgid "Unmounting '%(udi)s' on '%(device)s'"
+msgstr "جداکردن '%(udi)s' روی '%(device)s'"
 
-#: ../liveusb/creator.py:792 ../liveusb/creator.py:890
+#: ../liveusb/creator.py:823
+#, python-format
+msgid "Unmounting mounted filesystems on '%(device)s'"
+msgstr "حذف فایل های سیستمی از روی '%(device)s'"
+
+#: ../liveusb/creator.py:876
+#, python-format
+msgid "Unsupported device '%(device)s', please report a bug."
+msgstr "دستگاه پشتیبانی نشده '%(device)s'، لطفا یک باگ را گزارش دهید"
+
+#: ../liveusb/creator.py:770 ../liveusb/creator.py:893
 #, python-format
 msgid "Unsupported filesystem: %s"
 msgstr "فایل سیستم های غیرقابل پشتیبانی: %s"
 
-#: ../liveusb/creator.py:790
+#: ../liveusb/creator.py:768
 #, python-format
 msgid ""
 "Unsupported filesystem: %s\n"
 "In case you are trying to upgrade a manually installed Tails system (that is, if it was installed without this installer), this option is not supported: you need to install it anew to start with, e.g. by choosing the \"Clone & Install\" action instead."
-msgstr "سیستم پرونده ناشناخته: %s\\n در موردی که شما تلاش می‌کنید تا یک سیستم Tails را که به صورت دستی نصب شده، به روزرسانی کنید (منظور آن نوعی است که بدون این نصب‌کننده نصب شده باشد)، از این گزینه پشتیبانی نمی‌شود: برای شروع لازم است از نوع آن را نصب کنید، برای مثال با انتخاب عملیات جایگزین \\\"کپی Tails\\\"."
+msgstr "‫سیستم پرونده ناشناخته: %s\nدر موردی که شما تلاش می‌کنید تا یک سیستم Tails را که به صورت دستی نصب شده، به روزرسانی کنید (منظور آن نوعی است که بدون این نصب‌کننده نصب شده باشد)، از این گزینه پشتیبانی نمی‌شود: برای شروع لازم است از نوع آن را نصب کنید، برای مثال با انتخاب عملیات جایگزین \\\"کپی Tails\\\"."
 
-#: ../liveusb/creator.py:1211
+#: ../liveusb/creator.py:1213
 #, python-format
 msgid ""
 "Unsupported filesystem: %s\n"
 "Please backup and format your USB key with the FAT filesystem."
 msgstr "فایل سیستم پشتیبانی نشده: %s\nلطفا از وسیله یو‌اس‌بی خود پشتیبانی گرفته و آن را با فایل سیستم FAT قالب بندی کنید."
 
-#: ../liveusb/launcher_ui.py:154
+#: ../liveusb/launcher_ui.py:163
 msgid "Upgrade from ISO"
 msgstr "به روزرسانی از ISO را انجام دهید"
 
-#: ../liveusb/dialog.py:152
+#: ../liveusb/dialog.py:161
 msgid "Use existing Live system ISO"
 msgstr "استفاده از یک ایزوی زنده موجود"
 
-#: ../liveusb/creator.py:132
+#: ../liveusb/creator.py:133
 msgid "Verifying ISO MD5 checksum"
 msgstr "هماهنگ سازی داده‌ها بر روی دیسک..."
 
-#: ../liveusb/creator.py:385
+#: ../liveusb/creator.py:356
 msgid "Verifying SHA1 checksum of LiveCD image..."
 msgstr "تایید جمع کنترلی SHA1 تصویرِ LiveCD..."
 
-#: ../liveusb/creator.py:389
+#: ../liveusb/creator.py:360
 msgid "Verifying SHA256 checksum of LiveCD image..."
 msgstr "تایید جمع کنترلی SHA256 تصویرِ LiveCD..."
 
-#: ../liveusb/creator.py:884 ../liveusb/creator.py:1204
+#: ../liveusb/creator.py:887 ../liveusb/creator.py:1206
 msgid "Verifying filesystem..."
 msgstr "تایید فایل سیستم..."
 
-#: ../liveusb/gui.py:659
-msgid "Warning: All data on the selected drive will be lost."
-msgstr "هشدار: تمامي اطلاعات درايو انتخاب شده از بين خواهد رفت."
-
-#: ../liveusb/gui.py:676
+#: ../liveusb/gui.py:729
 msgid ""
 "Warning: Creating a new persistent overlay will delete your existing one."
 msgstr "اخطار: ساخت پوشش مداوم آنچه را که از قبل وجود داشته است را از حذف می کند."
 
-#: ../liveusb/gui.py:639
+#: ../liveusb/gui.py:681
 msgid ""
 "Warning: The Master Boot Record on your device does not match your system's "
 "syslinux MBR.  If you have trouble booting this stick, try running the "
 "liveusb-creator with the --reset-mbr option."
 msgstr "هشدار: Master Boot Record دستگاه شما با syslinux MBR سيستمتان سازگار نيست. اگر مشكلي با بوت شدن اين يو اس بي داريد، اجراي فرمان liveusb-creator  را با --reset-mbr امتحان كنيد."
 
-#: ../liveusb/gui.py:389
+#: ../liveusb/gui.py:392
 msgid ""
 "Warning: This tool needs to be run as an Administrator. To do this, right "
 "click on the icon and open the Properties. Under the Compatibility tab, "
 "check the \"Run this program as an administrator\" box."
 msgstr "هشدار: اين ابزار نياز به اجرا شدن توسط مدير سيستم دارد. براي انجام اين كار، بر روي آيكون راست كليك كرده، سپس Properties را انتخاب كرده و از لبه Compatibility، گزينه Run the program as an administrator را انتخاب كنيد."
 
-#: ../liveusb/creator.py:151
+#: ../liveusb/creator.py:152
 #, python-format
 msgid "Wrote to device at %(speed)d MB/sec"
 msgstr "نوشته شده بر روی دستگاه جانبی در %(speed)d مگابایت بر ثانیه"
 
-#: ../liveusb/creator.py:636
+#: ../liveusb/gui.py:703
+#, python-format
+msgid ""
+"You are going to install Tails on the %(size)s %(vendor)s %(model)s device "
+"(%(device)s). All data on the selected device will be lost. Continue?"
+msgstr "شما قصد نصب تیلز روی این دستگاه را دارید: %(size)s %(vendor)s %(model)s :(%(device)s). همه ی اطلاعات موجود روی آن پاک خواهد شد. مطمئن هستید؟"
+
+#: ../liveusb/gui.py:719
+#, python-format
+msgid ""
+"You are going to upgrade Tails on the %(parent_size)s %(vendor)s %(model)s "
+"device (%(device)s). Any persistent volume on this device will remain "
+"unchanged. Continue?"
+msgstr "شما تیلز را بر روی دستگاه %(parent_size)s %(vendor)s %(model)s (%(device)s) به روز خواهید کرد. هر درایو ثابتی روی این دستگاه بدون تغییر باقی خواهد ماند. ادامه می دهید؟ "
+
+#: ../liveusb/creator.py:604
 msgid ""
 "You are using an old version of syslinux-extlinux that does not support the "
 "ext4 filesystem"
 msgstr "شما از یک نسخه‌ی قدیمی syslinux-extlinux استفاده می‌کنید که از سیستم پرونده‌ی ext4 پشتیبانی نمی‌کند."
 
-#: ../liveusb/gui.py:737
+#: ../liveusb/gui.py:787
 msgid "You can try again to resume your download"
 msgstr "بار دیگر می توانید برای ادامه دانلود سعی کنید"
 
-#: ../liveusb/creator.py:91
+#: ../liveusb/creator.py:92
 msgid "You must run this application as root"
 msgstr "شما بايد اين برنامه را با دسترسي روت اجرا كنيد"
 
-#: ../liveusb/gui.py:673
-msgid ""
-"Your device already contains a LiveOS.\n"
-"If you continue, this will be overwritten."
-msgstr "وسیله ی شما از قبل شامل یک سیستم عامل لایو است.\nاگر می خواهید ادامه دهید بر روی آن نوشته خواهد شد."
-
-#: ../liveusb/dialog.py:155
+#: ../liveusb/dialog.py:164
 msgid "or"
 msgstr "یا"
