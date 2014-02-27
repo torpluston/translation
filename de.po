@@ -6,15 +6,16 @@
 # noble <noble@posteo.de>, 2013
 # rike <u@451f.org>, 2014
 # to_ba, 2013-2014
+# tom_fate <tomoffate@gmail.com>, 2014
 # nufuk <tor@nufuk.com>, 2013
 # rike <u@451f.org>, 2014
 msgid ""
 msgstr ""
 "Project-Id-Version: The Tor Project\n"
 "Report-Msgid-Bugs-To: Tails developers <tails@boum.org>\n"
-"POT-Creation-Date: 2014-02-20 15:49+0100\n"
-"PO-Revision-Date: 2014-02-21 23:30+0000\n"
-"Last-Translator: to_ba\n"
+"POT-Creation-Date: 2014-02-21 17:38+0100\n"
+"PO-Revision-Date: 2014-02-27 15:12+0000\n"
+"Last-Translator: tom_fate <tomoffate@gmail.com>\n"
 "Language-Team: German (http://www.transifex.com/projects/p/torproject/language/de/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -22,16 +23,16 @@ msgstr ""
 "Language: de\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: ../lib/Tails/IUK/Frontend.pm:145 ../lib/Tails/IUK/Frontend.pm:505
-#: ../lib/Tails/IUK/Frontend.pm:649
+#: ../lib/Tails/IUK/Frontend.pm:146 ../lib/Tails/IUK/Frontend.pm:523
+#: ../lib/Tails/IUK/Frontend.pm:667
 msgid "For debugging information, see ~/.xsession-errors."
 msgstr "Für Fehlerdiagnoseinformationen ~/.xsession-errors öffnen."
 
-#: ../lib/Tails/IUK/Frontend.pm:210
+#: ../lib/Tails/IUK/Frontend.pm:216
 msgid "Error while checking for upgrades"
 msgstr "Fehler beim Suchen nach Aktualisierungen"
 
-#: ../lib/Tails/IUK/Frontend.pm:213
+#: ../lib/Tails/IUK/Frontend.pm:219
 msgid ""
 "<b>Could not determine whether an upgrade is available from our website.</b>\n"
 "\n"
@@ -40,64 +41,64 @@ msgid ""
 "If the problem persists, go to file:///usr/share/doc/tails/website/doc/upgrade/error/check.en.html"
 msgstr "<b>Es konnte nicht festgestellt werden, ob eine Aktualisierung auf unserer Webseite verfügbar ist.</b>\n\nBitte überprüfen Sie Ihre Netzwerkverbindung und starten Sie Tails erneut, für einen erneuten Versuch einer Aktualisierung.\n\nWenn das Problem weiterhin besteht, sehen Sie sich diese Datei an file:///usr/share/doc/tails/website/doc/upgrade/error/check.en.html"
 
-#: ../lib/Tails/IUK/Frontend.pm:227
-msgid "no incremental upgrade is available."
-msgstr "keine schrittweise Aktualisierung verfügbar."
+#: ../lib/Tails/IUK/Frontend.pm:234
+msgid "no automatic upgrade is available from our website for this version"
+msgstr "Für diese Version steht kein automatisches Update von unserer Website zur Verfügung."
 
-#: ../lib/Tails/IUK/Frontend.pm:230
-msgid "your device was not created using Tails Installer."
-msgstr "Ihr Gerät wurde nicht mit dem Tails-Installationsprogramm erstellt."
+#: ../lib/Tails/IUK/Frontend.pm:240
+msgid "your device was not created using Tails Installer"
+msgstr "Ihr Gerät wurde nicht mit dem Tails Installer erstellt."
 
-#: ../lib/Tails/IUK/Frontend.pm:233
-msgid "your device is not writable."
-msgstr "Ihr Gerät ist nicht beschreibbar."
+#: ../lib/Tails/IUK/Frontend.pm:245
+msgid "Tails was started from a DVD or a read-only device"
+msgstr "Tails wurde von einer DVD, oder einem anderen Medium gestartet, auf das nur lesend zugegriffen werden kann."
 
-#: ../lib/Tails/IUK/Frontend.pm:236
-msgid "there is not enough free space on your device."
-msgstr "nicht genügend freier Speicherplatz auf Ihrem Gerät."
+#: ../lib/Tails/IUK/Frontend.pm:250
+msgid "there is not enough free space on the Tails system partition"
+msgstr "Die Systempartition auf der Tails installiert ist besitzt nicht genug freien Speicher."
 
-#: ../lib/Tails/IUK/Frontend.pm:239
-msgid "there is not enough free memory."
-msgstr "nicht genügend freier Arbeitsspeicher."
+#: ../lib/Tails/IUK/Frontend.pm:255
+msgid "not enough memory is available on this system"
+msgstr "Auf diesem Gerät steht nicht genug Speicher zur Verfügung."
 
-#: ../lib/Tails/IUK/Frontend.pm:244
+#: ../lib/Tails/IUK/Frontend.pm:261
 #, perl-brace-format
 msgid "No explanation available for reason '%{reason}s'."
 msgstr "Keine Erklärung verfügbar für Grund »%{reason}s«."
 
-#: ../lib/Tails/IUK/Frontend.pm:264
+#: ../lib/Tails/IUK/Frontend.pm:281
 msgid "The system is up-to-date"
 msgstr "Das System ist aktuell"
 
-#: ../lib/Tails/IUK/Frontend.pm:269
+#: ../lib/Tails/IUK/Frontend.pm:286
 msgid "This version of Tails is outdated, and may have security issues."
 msgstr "Diese Version von Tails ist veraltet und hat Sicherheitsprobleme."
 
-#: ../lib/Tails/IUK/Frontend.pm:301
+#: ../lib/Tails/IUK/Frontend.pm:318
 #, perl-brace-format
 msgid ""
 "The available incremental upgrade requires %{space_needed}s of free space on"
 " Tails system partition,  but only %{free_space}s is available."
 msgstr "Die verfügbare inkrementelle Aktualisierung benötigt %{space_needed}s freien Speicherplatz auf der Tails-Systempartition, aber es sind nur %{free_space}s verfügbar. "
 
-#: ../lib/Tails/IUK/Frontend.pm:317
+#: ../lib/Tails/IUK/Frontend.pm:334
 #, perl-brace-format
 msgid ""
 "The available incremental upgrade requires %{memory_needed}s of free memory,"
 " but only %{free_memory}s is available."
 msgstr "Die verfügbare inkrementelle Aktualisierung benötigt %{memory_needed}s freien Hauptspeicher, aber es sind nur %{free_memory}s verfügbar."
 
-#: ../lib/Tails/IUK/Frontend.pm:339
+#: ../lib/Tails/IUK/Frontend.pm:356
 msgid ""
 "An incremental upgrade is available, but no full upgrade is.\n"
 "This should not happen. Please report a bug."
 msgstr "Eine inkrementelle Aktualisierung ist verfügbar. Aber eine vollständige Aktualisierung wurde erwartet.\nDas sollte nicht passieren. Bitte melden Sie diesen Fehler."
 
-#: ../lib/Tails/IUK/Frontend.pm:343
+#: ../lib/Tails/IUK/Frontend.pm:360
 msgid "Error while detecting available upgrades"
 msgstr "Fehler beim Suchen nach Aktualisierungen"
 
-#: ../lib/Tails/IUK/Frontend.pm:353
+#: ../lib/Tails/IUK/Frontend.pm:370
 #, perl-brace-format
 msgid ""
 "<b>You should upgrade to %{name}s %{version}s.</b>\n"
@@ -113,19 +114,19 @@ msgid ""
 "Do you want to upgrade now?"
 msgstr "<b>Sie sollten auf %{name}s %{version}s aktualisieren.</b>\n\nFür weitere Informationen zu dieser neuen Version, besuchen Sie %{details_url}s.\n\nEs ist empfohlen alle offenen Anwendungen vor der Aktualisierung zu schließen.\nDas Herunterladen der Aktualisierung könnte einige Zeit, von mehreren Minuten bis einigen Stunden, benötigen.\nDas Netzwerk wird nach dem Herunterladen der Aktualisierung abgeschalten.\n\nGröße zu Herunterladen: %{size}s\n\nWollen Sie jetzt aktualisieren?"
 
-#: ../lib/Tails/IUK/Frontend.pm:368
+#: ../lib/Tails/IUK/Frontend.pm:385
 msgid "Upgrade available"
 msgstr "Aktualisierung verfügbar"
 
-#: ../lib/Tails/IUK/Frontend.pm:369
+#: ../lib/Tails/IUK/Frontend.pm:386
 msgid "Upgrade now"
 msgstr "Jetzt aktualisieren"
 
-#: ../lib/Tails/IUK/Frontend.pm:370
+#: ../lib/Tails/IUK/Frontend.pm:387
 msgid "Upgrade later"
 msgstr "Später aktualisieren"
 
-#: ../lib/Tails/IUK/Frontend.pm:378
+#: ../lib/Tails/IUK/Frontend.pm:395
 #, perl-brace-format
 msgid ""
 "<b>You should do a manual upgrade to %{name}s %{version}s.</b>\n"
@@ -137,20 +138,20 @@ msgid ""
 "To learn how to do a manual upgrade, go to https://tails.boum.org/doc/first_steps/upgrade/#manual"
 msgstr "<b>Sie sollten eine manuelle Aktualisierung auf %{name}s %{version}s vornehmen.</b>\n\nFür weitere Informationen über diese neue Version, besuchen Sie bitte %{details_url}s.\n\nEs ist nicht möglich, Ihr Gerät automatisch auf diese neue Version zu aktualisieren: %{explanation}s.\n\nUm zu lernen, wie man eine manuelle Aktualisierung vornimmt, besuchen Sie bitte https://tails.boum.org/doc/first_steps/upgrade/#manual"
 
-#: ../lib/Tails/IUK/Frontend.pm:394
+#: ../lib/Tails/IUK/Frontend.pm:411
 msgid "New version available"
 msgstr "Eine neue Version ist verfügbar"
 
-#: ../lib/Tails/IUK/Frontend.pm:450
+#: ../lib/Tails/IUK/Frontend.pm:468
 msgid "Downloading upgrade"
 msgstr "Aktualisierung herunterladen"
 
-#: ../lib/Tails/IUK/Frontend.pm:453
+#: ../lib/Tails/IUK/Frontend.pm:471
 #, perl-brace-format
 msgid "Downloading the upgrade to %{name}s %{version}s..."
 msgstr "Herunterladen der Aktualisierung auf %{name}s %{version}s …"
 
-#: ../lib/Tails/IUK/Frontend.pm:494
+#: ../lib/Tails/IUK/Frontend.pm:512
 msgid ""
 "<b>The upgrade could not be downloaded.</b>\\n\\nCheck your network "
 "connection, and restart Tails to try upgrading again.\\n\\nIf the problem "
@@ -158,26 +159,26 @@ msgid ""
 "file:///usr/share/doc/tails/website/doc/upgrade/error/download.en.html"
 msgstr "<b>Die Aktualisierung konnte nicht heruntergeladen werden.</b>\\n\\nBitte überprüfen Sie Ihre Netzwerkverbindung und starten Sie Tails für einen erneuten Versuch einer Aktualisierung.\\n\\nWenn das Problem weiterhin besteht, sehen Sie sich diese Datei an file:///usr/share/doc/tails/website/doc/upgrade/error/download.en.html"
 
-#: ../lib/Tails/IUK/Frontend.pm:510 ../lib/Tails/IUK/Frontend.pm:529
+#: ../lib/Tails/IUK/Frontend.pm:528 ../lib/Tails/IUK/Frontend.pm:547
 msgid "Error while downloading the upgrade"
 msgstr "Fehler beim Herunterladen einer Aktualisierung"
 
-#: ../lib/Tails/IUK/Frontend.pm:522
+#: ../lib/Tails/IUK/Frontend.pm:540
 #, perl-brace-format
 msgid ""
 "Output file '%{output_file}s' does not exist, but tails-iuk-get-target-file "
 "did not complain. Please report a bug."
 msgstr "Die Ausgabedatei »%{output_file}s« existiert nicht, aber tails-iuk-get-target-file hat nichts beanstandet. Bitte melden Sie den Fehler."
 
-#: ../lib/Tails/IUK/Frontend.pm:541
+#: ../lib/Tails/IUK/Frontend.pm:559
 msgid "Error while creating temporary downloading directory"
 msgstr "Fehler während des Erstellens eines temporären Verzeichnisses zum Herunterladen"
 
-#: ../lib/Tails/IUK/Frontend.pm:544
+#: ../lib/Tails/IUK/Frontend.pm:562
 msgid "Failed to create temporary download directory"
 msgstr "Fehler beim Erstellen eines temporären Verzeichnisses zum Herunterladen"
 
-#: ../lib/Tails/IUK/Frontend.pm:556
+#: ../lib/Tails/IUK/Frontend.pm:574
 msgid ""
 "<b>Your Tails device was successfully upgraded.</b>\n"
 "\n"
@@ -187,46 +188,46 @@ msgid ""
 "Do you want to restart now?"
 msgstr "<b>Ihr Tails-Gerät wurde erfolgreich aktualisiert</b>\n\nEinige Sicherheitsfunktionen wurden vorübergehend abgeschalten.\nSie sollten Tails mit der neuen Version so bald wie möglich neu starten.\n\nWollen Sie jetzt neu starten?"
 
-#: ../lib/Tails/IUK/Frontend.pm:561
+#: ../lib/Tails/IUK/Frontend.pm:579
 msgid "Restart Tails"
 msgstr "Neustart von Tails"
 
-#: ../lib/Tails/IUK/Frontend.pm:562
+#: ../lib/Tails/IUK/Frontend.pm:580
 msgid "Restart now"
 msgstr "Jetzt neu starten"
 
-#: ../lib/Tails/IUK/Frontend.pm:563
+#: ../lib/Tails/IUK/Frontend.pm:581
 msgid "Restart later"
 msgstr "später neu starten"
 
-#: ../lib/Tails/IUK/Frontend.pm:574
+#: ../lib/Tails/IUK/Frontend.pm:592
 msgid "Error while restarting the system"
 msgstr "Beim Neustart des Systems ist ein Fehler aufgetreten"
 
-#: ../lib/Tails/IUK/Frontend.pm:577
+#: ../lib/Tails/IUK/Frontend.pm:595
 msgid "Failed to restart the system"
 msgstr "Neustart des Systems ist fehlgeschlagen"
 
-#: ../lib/Tails/IUK/Frontend.pm:592
+#: ../lib/Tails/IUK/Frontend.pm:610
 msgid "Error while shutting down the network"
 msgstr "Fehler beim Herunterfahren des Netzwerks"
 
-#: ../lib/Tails/IUK/Frontend.pm:595
+#: ../lib/Tails/IUK/Frontend.pm:613
 msgid "Failed to shutdown network"
 msgstr "Herunterfahren des Netzwerks ist fehlgeschlagen"
 
-#: ../lib/Tails/IUK/Frontend.pm:605
+#: ../lib/Tails/IUK/Frontend.pm:623
 msgid "Upgrading the system"
 msgstr "Das System aktualisieren"
 
-#: ../lib/Tails/IUK/Frontend.pm:607
+#: ../lib/Tails/IUK/Frontend.pm:625
 msgid ""
 "<b>Your Tails device is being upgraded...</b>\n"
 "\n"
 "For security reasons, the networking is now disabled."
 msgstr "<b>Ihr Tails-Gerät wird aktualisiert …</b>\n\nAus Sicherheitsgründen wird das Netzwerk jetzt abgeschalten."
 
-#: ../lib/Tails/IUK/Frontend.pm:644
+#: ../lib/Tails/IUK/Frontend.pm:662
 msgid ""
 "<b>An error occured while installing the upgrade.</b>\\n\\nYour Tails device"
 " needs to be repaired and might be unable to restart.\\n\\nPlease follow the"
@@ -234,6 +235,6 @@ msgid ""
 "file:///usr/share/doc/tails/website/doc/upgrade/error/install.en.html"
 msgstr "<b>Ein Fehler ist während der Aktualisierung ausgetreten.</b>\\n\\nIhr Tails-Gerät muß repariert werden und ein Neustart könnte fehlschlagen.\\n\\nBitte folgen Sie den Anweisungen in der Datei file:///usr/share/doc/tails/website/doc/upgrade/error/install.en.html"
 
-#: ../lib/Tails/IUK/Frontend.pm:654
+#: ../lib/Tails/IUK/Frontend.pm:672
 msgid "Error while installing the upgrade"
 msgstr "Fehler beim Installieren der Aktualisierungen"
