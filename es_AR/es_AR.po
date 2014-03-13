@@ -4,6 +4,7 @@
 # 
 # Translators:
 # TorUserSpanishHelp, 2013
+# José Fabián <ar.jfabian+transifex@gmail.com>, 2014
 # sapox <zapponi.juan.jose@gmail.com>, 2014
 # Malows <cruz.jm.stafe@gmail.com>, 2013
 msgid ""
@@ -11,8 +12,8 @@ msgstr ""
 "Project-Id-Version: The Tor Project\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-03-06 18:42+0100\n"
-"PO-Revision-Date: 2014-03-07 09:10+0000\n"
-"Last-Translator: runasand <runa.sandvik@gmail.com>\n"
+"PO-Revision-Date: 2014-03-13 12:11+0000\n"
+"Last-Translator: José Fabián <ar.jfabian+transifex@gmail.com>\n"
 "Language-Team: Spanish (Argentina) (http://www.transifex.com/projects/p/torproject/language/es_AR/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -23,7 +24,7 @@ msgstr ""
 #: ../liveusb/dialog.py:159 ../liveusb/launcher_ui.py:158
 #, python-format
 msgid "%(distribution)s Installer"
-msgstr ""
+msgstr "Instalador de %(distribution)s"
 
 #: ../liveusb/gui.py:808
 #, python-format
@@ -33,7 +34,7 @@ msgstr "%(filename)s seleccionado"
 #: ../liveusb/gui.py:439
 #, python-format
 msgid "%(size)s %(label)s"
-msgstr ""
+msgstr "%(size)s %(label)s"
 
 #: ../liveusb/gui.py:445
 #, python-format
@@ -95,7 +96,7 @@ msgid ""
 "will be able to store data and make permanent modifications to your live "
 "operating system.  Without it, you will not be able to save data that will "
 "persist after a reboot."
-msgstr "Con la asignación de espacio extra para un área persistente en su memoria USB, será capaz de almacenar datos y hacer modificaciones persistentes a su sistema operativo autoarrancable. Sin esto, no será capaz de guardar datos después de un reinicio."
+msgstr "Asignando espacio extra para un área persistente en su memoria USB, será capaz de almacenar datos y hacer modificaciones persistentes a su sistema operativo autoarrancable. Si no lo hace, los cambios se perderán después de un reinicio."
 
 #: ../liveusb/creator.py:1122 ../liveusb/creator.py:1385
 #, python-format
@@ -109,7 +110,7 @@ msgstr "No se encontró"
 #: ../liveusb/creator.py:542
 #, python-format
 msgid "Cannot find device %s"
-msgstr "No se encontro el dispositivo %s"
+msgstr "No se encontró el dispositivo %s"
 
 #: ../liveusb/launcher_ui.py:159
 msgid ""
@@ -164,7 +165,7 @@ msgstr "Ejecutando unmount_device para '%(device)s'"
 
 #: ../liveusb/creator.py:1198
 msgid "Error probing device"
-msgstr "Error al probar el dispositivo"
+msgstr "Error al examinar el dispositivo"
 
 #: ../liveusb/gui.py:227
 msgid ""
@@ -180,7 +181,7 @@ msgstr "Error: El SHA1 de su Live CD es invalido. Puede ejecutar este programa c
 
 #: ../liveusb/creator.py:145
 msgid "Extracting live image to the target device..."
-msgstr ""
+msgstr "Extrayendo imagen \"live\" en el dispositivo destino..."
 
 #: ../liveusb/creator.py:1063
 #, python-format
@@ -199,11 +200,11 @@ msgstr "La verificación de MD5 checksum falló"
 msgid ""
 "If you do not select an existing Live ISO, the selected release will be "
 "downloaded for you."
-msgstr "Si no selecciona una Live ISO existente, la versión seleccionada sera descargada."
+msgstr "Si no selecciona una ISO \"viva\" existente, se descargará la versión seleccionada."
 
 #: ../liveusb/dialog.py:174
 msgid "Install Tails"
-msgstr ""
+msgstr "Instalar Tails"
 
 #: ../liveusb/gui.py:630
 msgid "Installation complete!"
@@ -230,17 +231,17 @@ msgstr "¡Falló la creación del LiveUSB!"
 msgid ""
 "Make sure to extract the entire liveusb-creator zip file before running this"
 " program."
-msgstr "Asegúrese de extraer el archivo zip liveusb-creator antes de ejecutar este programa."
+msgstr "Asegúrese de extraer el archivo zip de liveusb-creator antes de ejecutar este programa."
 
 #: ../liveusb/creator.py:1210
 msgid ""
 "Make sure your USB key is plugged in and formatted with the FAT filesystem"
-msgstr "Asegurese de que su dispositivo USB está conectado y esta formateado con un sistema de archivos FAT"
+msgstr "Asegúrese de que su dispositivo USB está conectado y formateado con un sistema de archivos FAT"
 
 #: ../liveusb/creator.py:835
 #, python-format
 msgid "Mount %s exists after unmounting"
-msgstr "El punto de montaje %s sigue existiendo despues del desmontado"
+msgstr "El punto de montaje %s sigue existiendo después del desmontado"
 
 #: ../liveusb/gui.py:573
 #, python-format
@@ -253,7 +254,7 @@ msgstr "No se encontraron puntos de montaje"
 
 #: ../liveusb/creator.py:393
 msgid "Not enough free space on device."
-msgstr ""
+msgstr "No hay suficiente espacio libre en el dispositivo."
 
 #: ../liveusb/gui.py:554
 msgid "Partition is FAT16; Restricting overlay size to 2G"
@@ -300,7 +301,7 @@ msgstr "Eliminando Live OS existente"
 #: ../liveusb/creator.py:1112
 #, python-format
 msgid "Resetting Master Boot Record of %s"
-msgstr "Restableciendo Master Boot Record de %s"
+msgstr "Restableciendo Registro de Arranque Maestro de %s"
 
 #: ../liveusb/gui.py:793
 msgid "Select Live ISO"
@@ -315,7 +316,7 @@ msgstr "Estableciendo los archivos de arranque OLPC..."
 msgid ""
 "Some partitions of the target device %(device)s are mounted. They will be "
 "unmounted before starting the installation process."
-msgstr ""
+msgstr "Algunas particiones del dispositivo destino %(device)s están montadas y serán desmontadas antes de comenzar con la instalación."
 
 #: ../liveusb/creator.py:131
 msgid ""
@@ -334,13 +335,13 @@ msgstr "Dispositivo destino"
 msgid ""
 "The Master Boot Record on your device is blank. Pressing 'Install Tails' "
 "again will reset the MBR on this device."
-msgstr ""
+msgstr "El Registro de Arranque Maestro de su dispositivo está vacío. Presione \"Instalar Tails\" nuevamente para reconfigurarlo."
 
 #: ../liveusb/gui.py:796
 msgid ""
 "The selected file is unreadable. Please fix its permissions or select "
 "another file."
-msgstr "Los archivos seleccionados no tienen permiso de lectura. Por favor cambie los permisos o seleccione otro archivo"
+msgstr "No se pudo leer el archivo seleccionado. Por favor cambie los permisos o seleccione otro archivo."
 
 #: ../liveusb/creator.py:337
 #, python-format
@@ -354,7 +355,7 @@ msgid ""
 "This button allows you to browse for an existing Live system ISO that you "
 "have previously downloaded.  If you do not select one, a release will be "
 "downloaded for you automatically."
-msgstr "Este botón le permite desplazarse para seleccionar una ISO de sistema autoarrancable existente que haya descargado previamente. Si no selecciona una se descargará una versión automáticamente para usted."
+msgstr "Este botón le permite desplazarse para seleccionar una ISO existente de un sistema autoarrancable que haya descargado previamente. Si no selecciona una, se descargará automáticamente una versión."
 
 #: ../liveusb/dialog.py:173
 msgid ""
@@ -368,13 +369,13 @@ msgstr "Este botón iniciará los procesos de creación del LiveUSB. Esto conlle
 msgid ""
 "This is the USB stick that you want to install your Live system on.  This "
 "device must be formatted with the FAT filesystem."
-msgstr "Esta es la memoria USB en la que quiere instalar su sistema autoarrancable. Este dispositivo debe ser formateado con un sistema de ficheros FAT."
+msgstr "Esta es la memoria USB en la que quiere instalar su sistema autoarrancable. Este dispositivo debe ser formateado con un sistema de archivos FAT."
 
 #: ../liveusb/dialog.py:172
 msgid ""
 "This is the progress bar that will indicate how far along in the LiveUSB "
 "creation process you are"
-msgstr "Esta es la barra de progreso que indicará en que punto se encuentra del proceso de creación del LiveUSB"
+msgstr "Esta es la barra de progreso que indicará en qué punto se encuentra del proceso de creación de LiveUSB"
 
 #: ../liveusb/dialog.py:171
 msgid "This is the status console, where all messages get written to."
@@ -382,12 +383,12 @@ msgstr "Esta es la consola de estado, donde se muestran todos los mensajes."
 
 #: ../liveusb/creator.py:879
 msgid "Trying to continue anyway."
-msgstr ""
+msgstr "Intentando continuar de todos modos."
 
 #: ../liveusb/creator.py:911
 #, python-format
 msgid "Unable to change volume label: %(message)s"
-msgstr "No se pudo cambiar la etiqueta de la volumen: %(message)s"
+msgstr "No se pudo cambiar la etiqueta del volumen: %(message)s"
 
 #: ../liveusb/creator.py:478 ../liveusb/creator.py:489
 #, python-format
@@ -405,16 +406,16 @@ msgstr "No se encontró ningun dispositivo USB"
 
 #: ../liveusb/creator.py:1200
 msgid "Unable to find any supported device"
-msgstr ""
+msgstr "No se encontraron dispositivos soportados"
 
 #: ../liveusb/creator.py:1040
 msgid "Unable to find partition"
-msgstr "No se encontraron particiones"
+msgstr "No se encontró la partición"
 
 #: ../liveusb/creator.py:1280
 msgid ""
 "Unable to get Win32_LogicalDisk; win32com query did not return any results"
-msgstr "No se pudo obtener Win32_LogicalDisk; la consulta de win32com no retornó ningún resultado"
+msgstr "No se pudo obtener Win32_LogicalDisk; la consulta a win32com no retornó ningún resultado"
 
 #: ../liveusb/gui.py:695
 msgid "Unable to mount device"
@@ -428,7 +429,7 @@ msgstr "No se pudo montar el dispositivo: %(message)s"
 #: ../liveusb/creator.py:494
 #, python-format
 msgid "Unable to remove directory from previous LiveOS: %(message)s"
-msgstr "No se pudieron remover directorios del anterior LiveOS: %(message)s"
+msgstr "No se pudieron remover directorios del LiveOS anterior: %(message)s"
 
 #: ../liveusb/creator.py:482
 #, python-format
@@ -449,7 +450,7 @@ msgstr "Imposible usar el archivo seleccionado. Quizás tenga mejor suerte si mu
 #: ../liveusb/creator.py:697
 #, python-format
 msgid "Unable to write on %(device)s, skipping."
-msgstr "No se puede escribir la unidad %(device)s, omitiendo..."
+msgstr "No se puede escribir en la unidad %(device)s, omitiendo."
 
 #: ../liveusb/creator.py:382
 msgid "Unknown ISO, skipping checksum verification"
@@ -458,11 +459,11 @@ msgstr "ISO desconosida, omitiendo verificación de checksum..."
 #: ../liveusb/creator.py:786
 #, python-format
 msgid "Unknown dbus exception while trying to mount device: %(message)s"
-msgstr "Excepción de dbus desconosida al intentar montar el dispositivo: %(message)s"
+msgstr "Excepción de dbus desconocida al intentar montar el dispositivo: %(message)s"
 
 #: ../liveusb/creator.py:765 ../liveusb/creator.py:890
 msgid "Unknown filesystem.  Your device may need to be reformatted."
-msgstr "Sistema de archivos desconocido. Su dispositivo puede necesitar ser formateado."
+msgstr "Sistema de archivos desconocido. Su dispositivo puede necesitar ser reformateado."
 
 #: ../liveusb/gui.py:84
 #, python-format
@@ -482,7 +483,7 @@ msgstr "Desmontando sistema de archivos de '%(device)s'"
 #: ../liveusb/creator.py:876
 #, python-format
 msgid "Unsupported device '%(device)s', please report a bug."
-msgstr ""
+msgstr "El dispositivo '%(device)s' no está soportado, por favor envíe un informe de fallos"
 
 #: ../liveusb/creator.py:770 ../liveusb/creator.py:893
 #, python-format
@@ -494,7 +495,7 @@ msgstr "Sistema de archivos no soportado: %s"
 msgid ""
 "Unsupported filesystem: %s\n"
 "In case you are trying to upgrade a manually installed Tails system (that is, if it was installed without this installer), this option is not supported: you need to install it anew to start with, e.g. by choosing the \"Clone & Install\" action instead."
-msgstr "Sistema de archivos no soportado: %s\nEn caso de que esté intentando actualizar Tails instalado manualmente (esto es, si fue instalado sin este instalador), esta opción no está soportada: necesita instalarlo de nuevo, ej.: escogiendo la acción \"Clonar e instalar\" en su lugar."
+msgstr "Sistema de archivos no soportado: %s\nEn caso de que esté intentando actualizar una instalación manual de Tails (esto es, si fue instalado sin este instalador), esta opción no está soportada: necesitará instalarlo de nuevo, ej.: escogiendo la acción \"Clonar e instalar\" en su lugar."
 
 #: ../liveusb/creator.py:1213
 #, python-format
@@ -537,7 +538,7 @@ msgid ""
 "Warning: The Master Boot Record on your device does not match your system's "
 "syslinux MBR.  If you have trouble booting this stick, try running the "
 "liveusb-creator with the --reset-mbr option."
-msgstr "Advertencia: El Registro de Arranque Maestro de su dispositivo no concuerda con su syslinux MBR. Si tiene problemas para iniciar desde el dispositivo, pruebe ejecutar el 'creador de liveUSB' con la opción de --reset-mbr activada."
+msgstr "Advertencia: El Registro de Arranque Maestro de su dispositivo no concuerda con el MBR de su syslinux. Si tiene problemas para iniciar desde el dispositivo, intente ejecutar liveusb-creator con la opción de --reset-mbr activada."
 
 #: ../liveusb/gui.py:392
 msgid ""
@@ -556,7 +557,7 @@ msgstr "Copiando archivos a %(speed)d MB/sec"
 msgid ""
 "You are going to install Tails on the %(size)s %(vendor)s %(model)s device "
 "(%(device)s). All data on the selected device will be lost. Continue?"
-msgstr ""
+msgstr "Está por instalar Tails en el dispositivo %(device)s (modelo %(vendor)s %(model)s de %(size)s). Todos los datos de este se perderán. ¿Desea continuar?"
 
 #: ../liveusb/gui.py:719
 #, python-format
@@ -564,13 +565,13 @@ msgid ""
 "You are going to upgrade Tails on the %(parent_size)s %(vendor)s %(model)s "
 "device (%(device)s). Any persistent volume on this device will remain "
 "unchanged. Continue?"
-msgstr ""
+msgstr "Está por actualizar Tails en el dispositivo %(device)s (modelo %(vendor)s %(model)s de %(parent_size)s). Todos los volúmenes persistentes de este serán conservados. ¿Desea continuar?"
 
 #: ../liveusb/creator.py:604
 msgid ""
 "You are using an old version of syslinux-extlinux that does not support the "
 "ext4 filesystem"
-msgstr "Estas usando una versión vieja de syslinux-extlinux que no soporta el sistema de archivos ext4"
+msgstr "Estás usando una versión vieja de syslinux-extlinux que no soporta el sistema de archivos ext4"
 
 #: ../liveusb/gui.py:787
 msgid "You can try again to resume your download"
