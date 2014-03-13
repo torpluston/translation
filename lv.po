@@ -8,9 +8,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: The Tor Project\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-01-10 12:23+0100\n"
-"PO-Revision-Date: 2014-01-11 08:57+0000\n"
-"Last-Translator: runasand <runa.sandvik@gmail.com>\n"
+"POT-Creation-Date: 2014-03-06 14:52+0100\n"
+"PO-Revision-Date: 2014-03-13 09:31+0000\n"
+"Last-Translator: Ojars Balcers <ojars.balcers@gmail.com>\n"
 "Language-Team: Latvian (http://www.transifex.com/projects/p/torproject/language/lv/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -252,21 +252,21 @@ msgstr "Apkopo informāciju:\n%s"
 msgid "About Tails"
 msgstr "Par Tails"
 
-#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:115
-#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:121
-#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:125
+#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:118
+#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:124
+#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:128
 msgid "Your additional software"
 msgstr "Jūsu papildu programmatūra"
 
-#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:116
-#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:126
+#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:119
+#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:129
 msgid ""
 "The upgrade failed. This might be due to a network problem. Please check "
 "your network connection, try to restart Tails, or read the system log to "
 "understand better the problem."
 msgstr "Jaunināšana neizdevās. Iespējams, ka tas ir tīkla problēmas dēļ. Lūdzu, pārbaudiet savu tīkla savienojumu vai pamēģiniet pārstartēt Tails, vai lasiet sistēmas žurnālu, lai labāk saprastu problēmu."
 
-#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:122
+#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:125
 msgid "The upgrade was successful."
 msgstr "Jaunināšana bija sekmīga."
 
@@ -284,9 +284,44 @@ msgstr "Lai strādātu pareizi Tor'am nepieciešams akurāts laiks. Īpaši svar
 msgid "Failed to synchronize the clock!"
 msgstr "Pulksteņa sinhronizācija bija nesekmīga!"
 
+#: config/chroot_local-includes/usr/local/sbin/tails-restricted-network-detector:38
+msgid "Network connection blocked?"
+msgstr "Bloķēts tīkla savienojums?"
+
+#: config/chroot_local-includes/usr/local/sbin/tails-restricted-network-detector:40
+msgid ""
+"It looks like you are blocked from the network. This may be related to the "
+"MAC spoofing feature. For more information, see the <a "
+"href=\\\"file:///usr/share/doc/tails/website/doc/first_steps/startup_options/mac_spoofing.en.html#blocked\\\">MAC"
+" spoofing documentation</a>."
+msgstr "Izskatās, ka esat bloķēts no tīkla. Iespējams, ka tas ir dēļ MAC izlikšanās līdzekļa jeb fīčas. Papildu informācijai skatiet <a href=\\\"file:///usr/share/doc/tails/website/doc/first_steps/startup_options/mac_spoofing.en.html#blocked\\\">MAC izlikšanās dokumentāciju</a>."
+
 #: config/chroot_local-includes/usr/local/bin/tails-security-check:145
 msgid "This version of Tails has known security issues:"
 msgstr "Šai Tails versijai ir apzinātas šādas drošības problēmas:"
+
+#: config/chroot_local-includes/usr/local/sbin/tails-spoof-mac:29
+#, sh-format
+msgid "Network card ${nic} disabled"
+msgstr "Tīkla karte ${nic} ir atspējota"
+
+#: config/chroot_local-includes/usr/local/sbin/tails-spoof-mac:30
+#, sh-format
+msgid ""
+"MAC spoofing failed for network card ${nic_name} (${nic}) so it is temporarily disabled.\n"
+"You might prefer to restart Tails and disable MAC spoofing. See the <a href='file:///usr/share/doc/tails/website/doc/first_steps/startup_options/mac_spoofing.en.html'>documentation</a>."
+msgstr "Tīkla kartei ${nic_name} (${nic}) neizdevās MAC izlikšanās, tamdēļ, karte ir īslaicīgi atspējota.\nIespējams, ka izvēlaties pārstartēt Tails un atspējot MAC izlikšanos. Skatiet <a href='file:///usr/share/doc/tails/website/doc/first_steps/startup_options/mac_spoofing.en.html'>documentation</a>."
+
+#: config/chroot_local-includes/usr/local/sbin/tails-spoof-mac:39
+msgid "All networking disabled"
+msgstr "Atspējota visa tīklošana"
+
+#: config/chroot_local-includes/usr/local/sbin/tails-spoof-mac:40
+#, sh-format
+msgid ""
+"MAC spoofing failed for network card ${nic_name} (${nic}). The error recovery also failed so all networking is disabled.\n"
+"You might prefer to restart Tails and disable MAC spoofing. See the <a href='file:///usr/share/doc/first_steps/startup_options/mac_spoofing.en.html'>documentation</a>."
+msgstr "Tīkla kartei ${nic_name} (${nic}) neizdevās Mac izlikšanās. Neizdevās arī kļūdas atgūšana, tamdēļ ir atspējota visa tīklošana.\nIespējams, ka izvēlaties pārstartēt Tails un atspējot MAC izlikšanos. Skatiet <a href='file:///usr/share/doc/first_steps/startup_options/mac_spoofing.en.html'>documentāciju</a>."
 
 #: config/chroot_local-includes/usr/local/bin/tails-start-i2p:62
 msgid "Starting I2P..."
@@ -414,9 +449,14 @@ msgstr "TrueCrypt drīz tiks noņemts no Tails, ar licenci un attīstību saist�
 msgid "Report an error"
 msgstr "Ziņot par kļūdu"
 
-#: ../config/chroot_local-includes/etc/skel/Desktop/Tails_documentation.desktop.in.h:1
+#: ../config/chroot_local-includes/etc/skel/Desktop/tails-documentation.desktop.in.h:1
+#: ../config/chroot_local-includes/usr/share/applications/tails-documentation.desktop.in.h:1
 msgid "Tails documentation"
 msgstr "Tails dokumentācija"
+
+#: ../config/chroot_local-includes/usr/share/applications/tails-documentation.desktop.in.h:2
+msgid "Learn how to use Tails"
+msgstr "Uzziniet kā lietot Tails"
 
 #: ../config/chroot_local-includes/usr/share/applications/i2p.desktop.in.h:1
 msgid "Anonymous overlay network "
