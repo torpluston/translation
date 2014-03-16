@@ -3,15 +3,16 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
+# karvjorm <karvonen.jorma@gmail.com>, 2014
 # Akiram <marika.mantere@gmail.com>, 2013
 # mikkoharhanen <gitti@mikkoharhanen.fi>, 2013
 msgid ""
 msgstr ""
 "Project-Id-Version: The Tor Project\n"
 "Report-Msgid-Bugs-To: Tails developers <tails@boum.org>\n"
-"POT-Creation-Date: 2013-11-15 11:30+0100\n"
-"PO-Revision-Date: 2013-11-19 16:00+0000\n"
-"Last-Translator: mikkoharhanen <gitti@mikkoharhanen.fi>\n"
+"POT-Creation-Date: 2014-01-18 21:00+0100\n"
+"PO-Revision-Date: 2014-03-16 15:44+0000\n"
+"Last-Translator: karvjorm <karvonen.jorma@gmail.com>\n"
 "Language-Team: Finnish (http://www.transifex.com/projects/p/torproject/language/fi/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -33,7 +34,7 @@ msgstr "GnuPG"
 
 #: ../lib/Tails/Persistence/Configuration/Presets.pm:60
 msgid "GnuPG keyrings and configuration"
-msgstr "GnuPG-avainrenkaat ja asetukset"
+msgstr "GnuPG-avainrenkaat ja -asetukset"
 
 #: ../lib/Tails/Persistence/Configuration/Presets.pm:68
 msgid "SSH Client"
@@ -41,7 +42,7 @@ msgstr "SSH-asiakasohjelma"
 
 #: ../lib/Tails/Persistence/Configuration/Presets.pm:70
 msgid "SSH keys, configuration and known hosts"
-msgstr "SSH-avaimet, asetukset ja tunnetut palvelimet"
+msgstr "SSH-avaimet, -asetukset ja tunnetut palvelimet"
 
 #: ../lib/Tails/Persistence/Configuration/Presets.pm:78
 msgid "Pidgin"
@@ -53,7 +54,7 @@ msgstr "Pidgin-profiilit ja OTR-avaimet"
 
 #: ../lib/Tails/Persistence/Configuration/Presets.pm:88
 msgid "Claws Mail"
-msgstr "Claws Mail"
+msgstr "Claws Mail-asiakasohjelma"
 
 #: ../lib/Tails/Persistence/Configuration/Presets.pm:90
 msgid "Claws Mail profiles and locally stored email"
@@ -61,7 +62,7 @@ msgstr "Claws Mail -profiilit ja paikallisesti säilytetyt sähköpostit"
 
 #: ../lib/Tails/Persistence/Configuration/Presets.pm:98
 msgid "GNOME Keyring"
-msgstr "GNOME Keyring"
+msgstr "GNOME Keyring-taustaprosessi"
 
 #: ../lib/Tails/Persistence/Configuration/Presets.pm:100
 msgid "Secrets stored by GNOME Keyring"
@@ -116,71 +117,71 @@ msgid ""
 "Symlink into $HOME every file or directory found in the `dotfiles' directory"
 msgstr "Luo $HOME-kansioon symbolinen linkki jokaisesta tiedostosta, joka on dotfiles-kansiossa"
 
-#: ../lib/Tails/Persistence/Setup.pm:226
+#: ../lib/Tails/Persistence/Setup.pm:227
 msgid "Setup Tails persistent volume"
-msgstr "Valmistele Tailsin pysyvä osio"
+msgstr "Valmistele Tailsin pysyvä taltio"
 
-#: ../lib/Tails/Persistence/Setup.pm:330
+#: ../lib/Tails/Persistence/Setup.pm:337
 #, perl-format
 msgid "Device %s already has a persistent volume."
-msgstr "Laitteella %s on jo pysyvä osio."
+msgstr "Laitteella %s on jo pysyvä taltio."
 
-#: ../lib/Tails/Persistence/Setup.pm:338
+#: ../lib/Tails/Persistence/Setup.pm:345
 #, perl-format
 msgid "Device %s has not enough unallocated space."
 msgstr "Laitteella %s ei ole tarpeeksi tilaa, jota ei ole varattu."
 
-#: ../lib/Tails/Persistence/Setup.pm:346 ../lib/Tails/Persistence/Setup.pm:360
+#: ../lib/Tails/Persistence/Setup.pm:353 ../lib/Tails/Persistence/Setup.pm:367
 #, perl-format
 msgid "Device %s has no persistent volume."
-msgstr "Laitteella %s ei ole pysyvää osiota."
+msgstr "Laitteella %s ei ole pysyvää taltiota."
 
-#: ../lib/Tails/Persistence/Setup.pm:352
+#: ../lib/Tails/Persistence/Setup.pm:359
 msgid ""
 "Cannot delete the persistent volume while in use. You should restart Tails "
 "without persistence."
 msgstr "Et voi poistaa käytössä olevaa pysyvää osiota. Sinun täytyy käynnistää Tails uudelleen ilman kyseistä osiota."
 
-#: ../lib/Tails/Persistence/Setup.pm:371
+#: ../lib/Tails/Persistence/Setup.pm:378
 msgid "Persistence volume is not unlocked."
 msgstr "Pysyvää osiota ei ole avattu."
 
-#: ../lib/Tails/Persistence/Setup.pm:376
+#: ../lib/Tails/Persistence/Setup.pm:383
 msgid "Persistence volume is not mounted."
 msgstr "Pysyvää osiota ei ole liitetty."
 
-#: ../lib/Tails/Persistence/Setup.pm:381
+#: ../lib/Tails/Persistence/Setup.pm:388
 msgid "Persistence volume is not readable. Permissions or ownership problems?"
 msgstr "Pysyvä osio ei ole luettavissa. Onko käyttöoikeus- tai omistajuusongelmia?"
 
-#: ../lib/Tails/Persistence/Setup.pm:386
+#: ../lib/Tails/Persistence/Setup.pm:393
 msgid "Persistence volume is not writable. Maybe it was mounted read-only?"
 msgstr "Pysyvään osioon ei voi kirjoittaa. Liitettiinkö se pelkällä lukuoikeudella?"
 
-#: ../lib/Tails/Persistence/Setup.pm:395
+#: ../lib/Tails/Persistence/Setup.pm:402
 #, perl-format
 msgid "Tails is running from non-USB / non-SDIO device %s."
 msgstr "Tailsia käytetään laitteelta, joka ei ole USB- tai SDIO-laite (%s)."
 
-#: ../lib/Tails/Persistence/Setup.pm:401
+#: ../lib/Tails/Persistence/Setup.pm:408
 #, perl-format
 msgid "Device %s is optical."
 msgstr "Laite %s on optinen."
 
-#: ../lib/Tails/Persistence/Setup.pm:408
+#: ../lib/Tails/Persistence/Setup.pm:415
 #, perl-format
 msgid "Device %s was not created using Tails USB installer."
 msgstr "Laitetta %s ei luotu Tailsin USB-asennusohjelmalla."
 
-#: ../lib/Tails/Persistence/Setup.pm:443
+#: ../lib/Tails/Persistence/Setup.pm:450
 msgid "Error"
 msgstr "Virhe"
 
-#: ../lib/Tails/Persistence/Setup.pm:658
+#: ../lib/Tails/Persistence/Setup.pm:670
 msgid "Persistence wizard - Finished"
 msgstr "Pysyvyysvelho - Valmis"
 
-#: ../lib/Tails/Persistence/Setup.pm:661
+#: ../lib/Tails/Persistence/Setup.pm:673
 msgid ""
 "Any changes you have made will only take effect after restarting Tails.\n"
 "\n"
@@ -289,28 +290,28 @@ msgstr "Tallennetaan..."
 msgid "Saving persistence configuration..."
 msgstr "Tallennetaan pysyvyyden määrittelyt..."
 
-#: ../lib/Tails/Persistence/Step/Delete.pm:40
+#: ../lib/Tails/Persistence/Step/Delete.pm:41
 msgid "Persistence wizard - Persistent volume deletion"
 msgstr "Pysyvyysvelho - Pysyvän osion poistaminen"
 
-#: ../lib/Tails/Persistence/Step/Delete.pm:43
+#: ../lib/Tails/Persistence/Step/Delete.pm:44
 msgid "Your persistent data will be deleted."
 msgstr "Pysyvät tietosi poistetaan."
 
-#: ../lib/Tails/Persistence/Step/Delete.pm:47
+#: ../lib/Tails/Persistence/Step/Delete.pm:48
 #, perl-format
 msgid ""
 "The persistent volume %s (%s), on the <b>%s %s</b> device, will be deleted."
 msgstr "Pysyvä osio %s (%s), joka on laitteessa <b>%s %s</b>, poistetaan."
 
-#: ../lib/Tails/Persistence/Step/Delete.pm:53
+#: ../lib/Tails/Persistence/Step/Delete.pm:54
 msgid "Delete"
 msgstr "Poista"
 
-#: ../lib/Tails/Persistence/Step/Delete.pm:100
+#: ../lib/Tails/Persistence/Step/Delete.pm:101
 msgid "Deleting..."
 msgstr "Poistetaan..."
 
-#: ../lib/Tails/Persistence/Step/Delete.pm:103
+#: ../lib/Tails/Persistence/Step/Delete.pm:104
 msgid "Deleting the persistent volume..."
 msgstr "Poistetaan pysyvä osio..."
