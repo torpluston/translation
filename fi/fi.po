@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: The Tor Project\n"
 "Report-Msgid-Bugs-To: Tails developers <tails@boum.org>\n"
 "POT-Creation-Date: 2014-01-18 21:00+0100\n"
-"PO-Revision-Date: 2014-03-16 15:44+0000\n"
+"PO-Revision-Date: 2014-03-16 16:00+0000\n"
 "Last-Translator: karvjorm <karvonen.jorma@gmail.com>\n"
 "Language-Team: Finnish (http://www.transifex.com/projects/p/torproject/language/fi/)\n"
 "MIME-Version: 1.0\n"
@@ -140,23 +140,23 @@ msgstr "Laitteella %s ei ole pysyvää taltiota."
 msgid ""
 "Cannot delete the persistent volume while in use. You should restart Tails "
 "without persistence."
-msgstr "Et voi poistaa käytössä olevaa pysyvää osiota. Sinun täytyy käynnistää Tails uudelleen ilman kyseistä osiota."
+msgstr "Käytössä olevan pysyvän taltion poistaminen epäonnistui. Sinun täytyy käynnistää Tails uudelleen ilman kyseistä taltiota."
 
 #: ../lib/Tails/Persistence/Setup.pm:378
 msgid "Persistence volume is not unlocked."
-msgstr "Pysyvää osiota ei ole avattu."
+msgstr "Pysyvää taltiota ei ole avattu."
 
 #: ../lib/Tails/Persistence/Setup.pm:383
 msgid "Persistence volume is not mounted."
-msgstr "Pysyvää osiota ei ole liitetty."
+msgstr "Pysyvää taltiota ei ole liitetty."
 
 #: ../lib/Tails/Persistence/Setup.pm:388
 msgid "Persistence volume is not readable. Permissions or ownership problems?"
-msgstr "Pysyvä osio ei ole luettavissa. Onko käyttöoikeus- tai omistajuusongelmia?"
+msgstr "Pysyvä taltio ei ole luettavissa. Onko käyttöoikeus- tai omistajuusongelmia?"
 
 #: ../lib/Tails/Persistence/Setup.pm:393
 msgid "Persistence volume is not writable. Maybe it was mounted read-only?"
-msgstr "Pysyvään osioon ei voi kirjoittaa. Liitettiinkö se pelkällä lukuoikeudella?"
+msgstr "Pysyvään taltioon ei voi kirjoittaa. Liitettiinkö se pelkällä lukuoikeudella?"
 
 #: ../lib/Tails/Persistence/Setup.pm:402
 #, perl-format
@@ -190,11 +190,11 @@ msgstr "Muutokset tulevat voimaan, kun käynnistät Tailsin uudelleen.\n\nVoit n
 
 #: ../lib/Tails/Persistence/Step/Bootstrap.pm:54
 msgid "Persistence wizard - Persistent volume creation"
-msgstr "Pysyvyysvelho - Pysyvän osion luominen"
+msgstr "Pysyvyysvelho - Pysyvän taltion luominen"
 
 #: ../lib/Tails/Persistence/Step/Bootstrap.pm:57
 msgid "Choose a passphrase to protect the persistent volume"
-msgstr "Valitse pysyvää osiota suojaava salasana"
+msgstr "Valitse pysyvää taltiota suojaava salasana"
 
 #. TRANSLATORS: size, device vendor, device model
 #: ../lib/Tails/Persistence/Step/Bootstrap.pm:61
@@ -202,7 +202,7 @@ msgstr "Valitse pysyvää osiota suojaava salasana"
 msgid ""
 "A %s persistent volume will be created on the <b>%s %s</b> device. Data on "
 "this volume will be stored in an encrypted form protected by a passphrase."
-msgstr "%s:n pysyvä osio luodaan laitteelle <b>%s %s</b>. Osiolla säilytettävät tiedot salataan ja suojataan salalauseella."
+msgstr "%s:n pysyvä taltio luodaan laitteelle <b>%s %s</b>. Taltiolla säilytettävät tiedot salataan ja suojataan salalauseella."
 
 #: ../lib/Tails/Persistence/Step/Bootstrap.pm:66
 msgid "Create"
@@ -248,11 +248,11 @@ msgstr "Tailsin pysyvä osio liitetään."
 
 #: ../lib/Tails/Persistence/Step/Bootstrap.pm:283
 msgid "Correcting permissions of the persistent volume."
-msgstr "Korjataan pysyvän osion oikeuksia."
+msgstr "Korjataan pysyvän taltion oikeuksia."
 
 #: ../lib/Tails/Persistence/Step/Bootstrap.pm:286
 msgid "The permissions of the persistent volume will be corrected."
-msgstr "Pysyvän osion oikeudet korjataan."
+msgstr "Pysyvän taltion oikeudet korjataan."
 
 #: ../lib/Tails/Persistence/Step/Bootstrap.pm:308
 msgid "Creating..."
@@ -260,15 +260,15 @@ msgstr "Luodaan..."
 
 #: ../lib/Tails/Persistence/Step/Bootstrap.pm:311
 msgid "Creating the persistent volume..."
-msgstr "Luodaan pysyvä osio..."
+msgstr "Luodaan pysyvä taltio..."
 
 #: ../lib/Tails/Persistence/Step/Configure.pm:61
 msgid "Persistence wizard - Persistent volume configuration"
-msgstr "Pysyvyysvelho - Pysyvän osion määrittely"
+msgstr "Pysyvyysvelho - Pysyvän taltion määrittely"
 
 #: ../lib/Tails/Persistence/Step/Configure.pm:64
 msgid "Specify the files that will be saved in the persistent volume"
-msgstr "Valitse tiedostot, jotka tallennetaan pysyvään osioon"
+msgstr "Valitse tiedostot, jotka tallennetaan pysyvään taltioon"
 
 #. TRANSLATORS: partition, size, device vendor, device model
 #: ../lib/Tails/Persistence/Step/Configure.pm:68
@@ -292,7 +292,7 @@ msgstr "Tallennetaan pysyvyyden määrittelyt..."
 
 #: ../lib/Tails/Persistence/Step/Delete.pm:41
 msgid "Persistence wizard - Persistent volume deletion"
-msgstr "Pysyvyysvelho - Pysyvän osion poistaminen"
+msgstr "Pysyvyysvelho - Pysyvän taltion poistaminen"
 
 #: ../lib/Tails/Persistence/Step/Delete.pm:44
 msgid "Your persistent data will be deleted."
@@ -302,7 +302,7 @@ msgstr "Pysyvät tietosi poistetaan."
 #, perl-format
 msgid ""
 "The persistent volume %s (%s), on the <b>%s %s</b> device, will be deleted."
-msgstr "Pysyvä osio %s (%s), joka on laitteessa <b>%s %s</b>, poistetaan."
+msgstr "Pysyvä taltio %s (%s), joka on laitteessa <b>%s %s</b>, poistetaan."
 
 #: ../lib/Tails/Persistence/Step/Delete.pm:54
 msgid "Delete"
@@ -314,4 +314,4 @@ msgstr "Poistetaan..."
 
 #: ../lib/Tails/Persistence/Step/Delete.pm:104
 msgid "Deleting the persistent volume..."
-msgstr "Poistetaan pysyvä osio..."
+msgstr "Poistetaan pysyvä taltio..."
