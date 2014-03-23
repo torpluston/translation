@@ -14,7 +14,7 @@ msgstr ""
 "Project-Id-Version: The Tor Project\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-03-23 08:55+0100\n"
-"PO-Revision-Date: 2014-03-23 15:44+0000\n"
+"PO-Revision-Date: 2014-03-23 16:11+0000\n"
 "Last-Translator: Nasretdinov.R.R <nasretdinov.r.r@ya.ru>\n"
 "Language-Team: Russian (http://www.transifex.com/projects/p/torproject/language/ru/)\n"
 "MIME-Version: 1.0\n"
@@ -29,7 +29,7 @@ msgstr "Tor готов"
 
 #: config/chroot_local-includes/etc/NetworkManager/dispatcher.d/60-tor-ready-notification.sh:44
 msgid "You can now access the Internet."
-msgstr "Теперь вы можете получить доступ в Интернет."
+msgstr "Теперь у вас есть доступ в Интернет."
 
 #: config/chroot_local-includes/etc/whisperback/config.py:64
 #, python-format
@@ -219,7 +219,7 @@ msgstr "Запустить Tor Browser"
 
 #: config/chroot_local-includes/usr/local/bin/iceweasel:15
 msgid "Cancel"
-msgstr "Отменить"
+msgstr "Отмена"
 
 #: config/chroot_local-includes/usr/local/bin/shutdown_helper_applet:34
 msgid "Shutdown Immediately"
@@ -283,15 +283,15 @@ msgstr "Синхронизация системных часов"
 msgid ""
 "Tor needs an accurate clock to work properly, especially for Hidden "
 "Services. Please wait..."
-msgstr "Часы должны работать точно для Tor, особенно для Скрытых Сервисов. Пожалуйста, подождите..."
+msgstr "Для корректной работы Tor требуется точное время, особенно для Скрытых Сервисов. Пожалуйста, подождите..."
 
 #: config/chroot_local-includes/usr/local/bin/tails-htp-notify-user:87
 msgid "Failed to synchronize the clock!"
-msgstr "Не удалось синхронизировать часы!"
+msgstr "Синхронизация часов не удалась!"
 
 #: config/chroot_local-includes/usr/local/sbin/tails-restricted-network-detector:38
 msgid "Network connection blocked?"
-msgstr "Сетевое подключение заблокировано?"
+msgstr "Сетевое подключение блокировано?"
 
 #: config/chroot_local-includes/usr/local/sbin/tails-restricted-network-detector:40
 msgid ""
@@ -315,7 +315,7 @@ msgstr "Сетевая карта ${nic} отключена"
 msgid ""
 "MAC spoofing failed for network card ${nic_name} (${nic}) so it is temporarily disabled.\n"
 "You might prefer to restart Tails and disable MAC spoofing. See the <a href='file:///usr/share/doc/tails/website/doc/first_steps/startup_options/mac_spoofing.en.html'>documentation</a>."
-msgstr "MAC-спуфинг не удался для сетевой карты ${nic_name} (${nic}), поэтому она временно отключена. Возможно, вы предпочтёте перезагрузить Tails и отключить MAC-спуфинг. См. <a href='file:///usr/share/doc/tails/website/doc/first_steps/startup_options/mac_spoofing.en.html'>документацию</a>."
+msgstr "MAC-спуфинг не удался для сетевой карты ${nic_name} (${nic}), поэтому она временно отключена.\nВозможно, вы предпочтёте перезагрузить Tails и отключить MAC-спуфинг. См. <a href='file:///usr/share/doc/tails/website/doc/first_steps/startup_options/mac_spoofing.en.html'>документацию</a>."
 
 #: config/chroot_local-includes/usr/local/sbin/tails-spoof-mac:39
 msgid "All networking disabled"
@@ -334,24 +334,24 @@ msgstr "Запуск I2P..."
 
 #: config/chroot_local-includes/usr/local/bin/tails-start-i2p:63
 msgid "The I2P router console will be opened on start."
-msgstr "I2P консоль роутера будет открыта для работы."
+msgstr "I2P консоль роутера будет открыта при старте."
 
 #: config/chroot_local-includes/usr/local/bin/tails-start-i2p:82
 #: config/chroot_local-includes/usr/local/bin/tails-start-i2p:124
 msgid "I2P failed to start"
-msgstr "I2P не удалось запустить"
+msgstr "Запустить I2P не удалось"
 
 #: config/chroot_local-includes/usr/local/bin/tails-start-i2p:83
 msgid ""
 "Make sure that you have a working Internet connection, then try to start I2P"
 " again."
-msgstr "Убедитесь, что у вас есть соединение с Интернетом, затем попробуйте запустить I2P снова."
+msgstr "Убедитесь, что у вас есть доступ в Интернет, и перезапустите I2P."
 
 #: config/chroot_local-includes/usr/local/bin/tails-start-i2p:125
 msgid ""
 "Something went wrong when I2P was starting. Look in the logs in the "
 "following directory for more information:"
-msgstr "Что-то пошло не так во время запуска I2P. Больше информации Вы найдёте в логах в следующей папке:"
+msgstr "Что-то пошло не так во время запуска I2P. Подробности смотрите в логах:"
 
 #: config/chroot_local-includes/usr/local/bin/tails-upgrade-frontend-wrapper:19
 #: config/chroot_local-includes/usr/local/sbin/unsafe-browser:57
@@ -374,7 +374,7 @@ msgid ""
 "\n"
 "Or do a manual upgrade.\n"
 "See https://tails.boum.org/doc/first_steps/upgrade#manual"
-msgstr ""
+msgstr "<b>Для проверки обновлений не хватает памяти.</b>\n\nУбедитесь, что конфигурация компьютера удовлетворяет системные требования Tails:\nfile:///usr/share/doc/tails/website/doc/about/requirements.en.html\n\nПопробуйте перезапустить Tails, чтобы проверить обновления ещё раз.\n\nЛибо установите обновления вручную:\nhttps://tails.boum.org/doc/first_steps/upgrade#manual"
 
 #: config/chroot_local-includes/usr/local/bin/tails-virt-notify-user:53
 msgid "Warning: virtual machine detected!"
@@ -384,7 +384,7 @@ msgstr "Внимание: обнаружена виртуальная машин
 msgid ""
 "Both the host operating system and the virtualization software are able to "
 "monitor what you are doing in Tails."
-msgstr "И операционная система хост-машины, и виртуальная машина могут следить за тем, что вы делаете в Tails"
+msgstr "И операционная система хост-машины, и виртуальная машина, могут следить за тем, что вы делаете в Tails."
 
 #: config/chroot_local-includes/usr/local/bin/tails-virt-notify-user:57
 msgid ""
@@ -395,7 +395,7 @@ msgstr "<a href='file:///usr/share/doc/tails/website/doc/advanced_topics/virtual
 
 #: config/chroot_local-includes/usr/local/sbin/unsafe-browser:68
 msgid "Do you really want to launch the Unsafe Browser?"
-msgstr "Вы правда хотите запустить Небезопасный Браузер?"
+msgstr "Вы действительно хотите запустить Небезопасный Браузер?"
 
 #: config/chroot_local-includes/usr/local/sbin/unsafe-browser:70
 msgid ""
@@ -437,7 +437,7 @@ msgstr "Выключение небезопасного браузера..."
 msgid ""
 "This may take a while, and you may not restart the Unsafe Browser until it "
 "is properly shut down."
-msgstr "Это может занять время, и Вы не можете перезагружать Небезопасный Браузер, пока он не выключен как следует."
+msgstr "Это может занять время, и вы не сможете перезапускать Небезопасный Браузер, пока он не будет выключен корректно."
 
 #: config/chroot_local-includes/usr/local/sbin/unsafe-browser:228
 msgid "Failed to restart Tor."
@@ -457,13 +457,13 @@ msgstr "DNS сервер не был получен через DHCP и не бы
 
 #: config/chroot_local-includes/usr/share/tails/truecrypt-wrapper.disabled:11
 msgid "TrueCrypt will soon be removed from Tails"
-msgstr "TrueCrypt скоро удалят из Tails"
+msgstr "TrueCrypt скоро будет удалён из Tails"
 
 #: config/chroot_local-includes/usr/share/tails/truecrypt-wrapper.disabled:12
 msgid ""
 "TrueCrypt will soon be removed from Tails due to license and development "
 "concerns."
-msgstr "TrueCrypt скоро удалят из Tails по соображениям лицензирования и разработки"
+msgstr "TrueCrypt скоро удалят из Tails по причинам лицензирования и разработки."
 
 #: ../config/chroot_local-includes/etc/skel/Desktop/Report_an_error.desktop.in.h:1
 msgid "Report an error"
@@ -480,7 +480,7 @@ msgstr "Научитесь пользоваться Tails"
 
 #: ../config/chroot_local-includes/usr/share/applications/i2p.desktop.in.h:1
 msgid "Anonymous overlay network "
-msgstr "Анонимная оверлей сеть"
+msgstr "Анонимная оверлей-сеть"
 
 #: ../config/chroot_local-includes/usr/share/applications/i2p.desktop.in.h:2
 msgid "i2p"
@@ -488,7 +488,7 @@ msgstr "i2p"
 
 #: ../config/chroot_local-includes/usr/share/applications/i2p.desktop.in.h:3
 msgid "Anonymous overlay network"
-msgstr "Анонимная оверлей сеть"
+msgstr "Анонимная оверлей-сеть"
 
 #: ../config/chroot_local-includes/usr/share/applications/tails-reboot.desktop.in.h:1
 msgid "Reboot"
@@ -496,7 +496,7 @@ msgstr "Перезагрузка"
 
 #: ../config/chroot_local-includes/usr/share/applications/tails-reboot.desktop.in.h:2
 msgid "Immediately reboot computer"
-msgstr "немедленно перезагрузить компьютер"
+msgstr "Перезагрузить компьютер незамедлительно"
 
 #: ../config/chroot_local-includes/usr/share/applications/tails-shutdown.desktop.in.h:1
 msgid "Power Off"
@@ -504,7 +504,7 @@ msgstr "Выключение"
 
 #: ../config/chroot_local-includes/usr/share/applications/tails-shutdown.desktop.in.h:2
 msgid "Immediately shut down computer"
-msgstr "Немедленно выключить компьютер"
+msgstr "Выключить компьютер незамедлительно"
 
 #: ../config/chroot_local-includes/usr/share/applications/unsafe-browser.desktop.in.h:2
 msgid "Browse the World Wide Web without anonymity"
@@ -516,4 +516,4 @@ msgstr "Небезопасный Веб Браузер"
 
 #: ../config/chroot_local-includes/usr/share/desktop-directories/Tails.directory.in.h:2
 msgid "Tails specific tools"
-msgstr "Tails конкретные инструменты"
+msgstr "Конкретные инструменты Tails"
