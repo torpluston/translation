@@ -12,8 +12,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: The Tor Project\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-03-06 14:52+0100\n"
-"PO-Revision-Date: 2014-03-15 11:04+0000\n"
+"POT-Creation-Date: 2014-03-23 08:55+0100\n"
+"PO-Revision-Date: 2014-03-24 11:21+0000\n"
 "Last-Translator: Андрій Бандура <andriykopanytsia@gmail.com>\n"
 "Language-Team: Ukrainian (http://www.transifex.com/projects/p/torproject/language/uk/)\n"
 "MIME-Version: 1.0\n"
@@ -22,11 +22,11 @@ msgstr ""
 "Language: uk\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 
-#: config/chroot_local-includes/etc/NetworkManager/dispatcher.d/60-tor-ready-notification.sh:31
+#: config/chroot_local-includes/etc/NetworkManager/dispatcher.d/60-tor-ready-notification.sh:43
 msgid "Tor is ready"
 msgstr "Tor готовий"
 
-#: config/chroot_local-includes/etc/NetworkManager/dispatcher.d/60-tor-ready-notification.sh:32
+#: config/chroot_local-includes/etc/NetworkManager/dispatcher.d/60-tor-ready-notification.sh:44
 msgid "You can now access the Internet."
 msgstr "Тепер Ви можете отримати доступ до Інтернет."
 
@@ -352,6 +352,29 @@ msgid ""
 "following directory for more information:"
 msgstr "Щось пішло не так під час запуску I2P. Додаткова інформація знаходиться у логах у наступному каталозі:"
 
+#: config/chroot_local-includes/usr/local/bin/tails-upgrade-frontend-wrapper:19
+#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:57
+msgid "error:"
+msgstr "помилка:"
+
+#: config/chroot_local-includes/usr/local/bin/tails-upgrade-frontend-wrapper:20
+#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:58
+msgid "Error"
+msgstr "Помилка"
+
+#: config/chroot_local-includes/usr/local/bin/tails-upgrade-frontend-wrapper:40
+msgid ""
+"<b>Not enough memory available to check for upgrades.</b>\n"
+"\n"
+"Make sure this system satisfies the requirements for running Tails.\n"
+"See file:///usr/share/doc/tails/website/doc/about/requirements.en.html\n"
+"\n"
+"Try to restart Tails to check for upgrades again.\n"
+"\n"
+"Or do a manual upgrade.\n"
+"See https://tails.boum.org/doc/first_steps/upgrade#manual"
+msgstr "<b>Недостатньо доступної пам'яті для перевірки оновлень.</b>\n\nПереконайтеся, що система задовільняє вимогам для запущеного Tails.\nПрочитайте файл:///usr/share/doc/tails/website/doc/about/requirements.en.html\n\nСпробуйте перезапустити Tails для повторної перевірки оновлень.\n\nАбо здійсніть ручне оновлення.\nДив. https://tails.boum.org/doc/first_steps/upgrade#manual"
+
 #: config/chroot_local-includes/usr/local/bin/tails-virt-notify-user:53
 msgid "Warning: virtual machine detected!"
 msgstr "Увага: знайдено віртуальну машину!"
@@ -368,14 +391,6 @@ msgid ""
 "href='file:///usr/share/doc/tails/website/doc/advanced_topics/virtualization.en.html'>Learn"
 " more...</a>"
 msgstr "<a href='file:///usr/share/doc/tails/website/doc/advanced_topics/virtualization.en.html'>Дізнатися більше...</a>"
-
-#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:57
-msgid "error:"
-msgstr "помилка:"
-
-#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:58
-msgid "Error"
-msgstr "Помилка"
 
 #: config/chroot_local-includes/usr/local/sbin/unsafe-browser:68
 msgid "Do you really want to launch the Unsafe Browser?"
