@@ -3,6 +3,7 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
+# chioubaca <chioubaca@gmail.com>, 2014
 # arpalord <arpalord@gmail.com>, 2013
 # jytou <saiolar-c@yahoo.fr>, 2013
 # Onizuka, 2013
@@ -12,9 +13,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: The Tor Project\n"
 "Report-Msgid-Bugs-To: Tails developers <tails@boum.org>\n"
-"POT-Creation-Date: 2013-11-15 11:30+0100\n"
-"PO-Revision-Date: 2013-11-21 15:40+0000\n"
-"Last-Translator: jytou <saiolar-c@yahoo.fr>\n"
+"POT-Creation-Date: 2014-04-16 21:26+0200\n"
+"PO-Revision-Date: 2014-04-17 15:01+0000\n"
+"Last-Translator: chioubaca <chioubaca@gmail.com>\n"
 "Language-Team: French (http://www.transifex.com/projects/p/torproject/language/fr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -119,71 +120,71 @@ msgid ""
 "Symlink into $HOME every file or directory found in the `dotfiles' directory"
 msgstr "Créer un lien symbolique, dans $HOME, vers chaque fichier se trouvant dans le dossier `dotfiles'"
 
-#: ../lib/Tails/Persistence/Setup.pm:226
+#: ../lib/Tails/Persistence/Setup.pm:227
 msgid "Setup Tails persistent volume"
 msgstr "Configurer le volume persistant de Tails"
 
-#: ../lib/Tails/Persistence/Setup.pm:330
+#: ../lib/Tails/Persistence/Setup.pm:337
 #, perl-format
 msgid "Device %s already has a persistent volume."
 msgstr "Le périphérique %s contient déjà un espace de stockage persistant."
 
-#: ../lib/Tails/Persistence/Setup.pm:338
+#: ../lib/Tails/Persistence/Setup.pm:345
 #, perl-format
 msgid "Device %s has not enough unallocated space."
 msgstr "Le périphérique %s n'a pas assez d'espace libre."
 
-#: ../lib/Tails/Persistence/Setup.pm:346 ../lib/Tails/Persistence/Setup.pm:360
+#: ../lib/Tails/Persistence/Setup.pm:353 ../lib/Tails/Persistence/Setup.pm:367
 #, perl-format
 msgid "Device %s has no persistent volume."
 msgstr "Le périphérique %s n'a pas d'espace de stockage persistant."
 
-#: ../lib/Tails/Persistence/Setup.pm:352
+#: ../lib/Tails/Persistence/Setup.pm:359
 msgid ""
 "Cannot delete the persistent volume while in use. You should restart Tails "
 "without persistence."
 msgstr "Impossible de supprimer le volume persistent pendant qu’il est utilisé. Vous devez redémarrer Tails en désactivant la persistence."
 
-#: ../lib/Tails/Persistence/Setup.pm:371
+#: ../lib/Tails/Persistence/Setup.pm:378
 msgid "Persistence volume is not unlocked."
 msgstr "Le volume persistant est verrouillé."
 
-#: ../lib/Tails/Persistence/Setup.pm:376
+#: ../lib/Tails/Persistence/Setup.pm:383
 msgid "Persistence volume is not mounted."
 msgstr "Le volume persistant n'est pas monté."
 
-#: ../lib/Tails/Persistence/Setup.pm:381
+#: ../lib/Tails/Persistence/Setup.pm:388
 msgid "Persistence volume is not readable. Permissions or ownership problems?"
 msgstr "Le volume persistent n’est pas accessible en lecture. Peut-être un problème de permissions ?"
 
-#: ../lib/Tails/Persistence/Setup.pm:386
+#: ../lib/Tails/Persistence/Setup.pm:393
 msgid "Persistence volume is not writable. Maybe it was mounted read-only?"
 msgstr "Le volume persistent n’est pas accessible en écriture. Peut-être a-t-il été monté en lecture seule ?"
 
-#: ../lib/Tails/Persistence/Setup.pm:395
+#: ../lib/Tails/Persistence/Setup.pm:402
 #, perl-format
 msgid "Tails is running from non-USB / non-SDIO device %s."
 msgstr "Tails est lancé depuis le périphérique non-USB / non-SDIO %s."
 
-#: ../lib/Tails/Persistence/Setup.pm:401
+#: ../lib/Tails/Persistence/Setup.pm:408
 #, perl-format
 msgid "Device %s is optical."
 msgstr "Le périphérique %s est un lecteur optique."
 
-#: ../lib/Tails/Persistence/Setup.pm:408
+#: ../lib/Tails/Persistence/Setup.pm:415
 #, perl-format
-msgid "Device %s was not created using Tails USB installer."
-msgstr "Le périphérique %s n'a pas été créé avec le programme d'installation de Tails."
+msgid "Device %s was not created using Tails Installer."
+msgstr "Le périphérique %s n'a pas été créé par Tails Installer."
 
-#: ../lib/Tails/Persistence/Setup.pm:443
+#: ../lib/Tails/Persistence/Setup.pm:450
 msgid "Error"
 msgstr "Erreur"
 
-#: ../lib/Tails/Persistence/Setup.pm:658
+#: ../lib/Tails/Persistence/Setup.pm:670
 msgid "Persistence wizard - Finished"
 msgstr "Assistant de persistance - Terminé"
 
-#: ../lib/Tails/Persistence/Setup.pm:661
+#: ../lib/Tails/Persistence/Setup.pm:673
 msgid ""
 "Any changes you have made will only take effect after restarting Tails.\n"
 "\n"
@@ -292,28 +293,28 @@ msgstr "Sauvegarde..."
 msgid "Saving persistence configuration..."
 msgstr "Sauvegarde de la configuration de la persistance..."
 
-#: ../lib/Tails/Persistence/Step/Delete.pm:40
+#: ../lib/Tails/Persistence/Step/Delete.pm:41
 msgid "Persistence wizard - Persistent volume deletion"
 msgstr "Assistant de persistance - Suppression du volume persistant"
 
-#: ../lib/Tails/Persistence/Step/Delete.pm:43
+#: ../lib/Tails/Persistence/Step/Delete.pm:44
 msgid "Your persistent data will be deleted."
 msgstr "Vos données persistantes seront supprimées."
 
-#: ../lib/Tails/Persistence/Step/Delete.pm:47
+#: ../lib/Tails/Persistence/Step/Delete.pm:48
 #, perl-format
 msgid ""
 "The persistent volume %s (%s), on the <b>%s %s</b> device, will be deleted."
 msgstr "Le volume persistante %s (%s), sur le périphérique <b>%s %s</b>, sera supprimé."
 
-#: ../lib/Tails/Persistence/Step/Delete.pm:53
+#: ../lib/Tails/Persistence/Step/Delete.pm:54
 msgid "Delete"
 msgstr "Suppression"
 
-#: ../lib/Tails/Persistence/Step/Delete.pm:100
+#: ../lib/Tails/Persistence/Step/Delete.pm:101
 msgid "Deleting..."
 msgstr "Suppression..."
 
-#: ../lib/Tails/Persistence/Step/Delete.pm:103
+#: ../lib/Tails/Persistence/Step/Delete.pm:104
 msgid "Deleting the persistent volume..."
 msgstr "Suppression du volume persistant..."
