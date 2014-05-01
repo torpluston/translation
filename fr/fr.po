@@ -8,7 +8,7 @@
 # arpalord <arpalord@gmail.com>, 2012
 # Charles-Antoine Couret, 2009
 # Charles-Antoine Couret <cacouret@wanadoo.fr>, 2009
-# Emmanuel Sd <emanwebdev@gmail.com>, 2014
+# Emmanuel Sd <emanediteur@gmail.com>, 2014
 # Eric lassauge <lassauge {AT} users {dot} sourceforge {dot} net>, 2010
 # jytou <saiolar-c@yahoo.fr>, 2013
 # Onizuka, 2013
@@ -19,8 +19,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: The Tor Project\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-04-16 21:40+0200\n"
-"PO-Revision-Date: 2014-04-21 16:22+0000\n"
+"POT-Creation-Date: 2014-04-27 13:07+0200\n"
+"PO-Revision-Date: 2014-05-01 10:44+0000\n"
 "Last-Translator: bassmax\n"
 "Language-Team: French (http://www.transifex.com/projects/p/torproject/language/fr/)\n"
 "MIME-Version: 1.0\n"
@@ -104,7 +104,7 @@ msgid ""
 "will be able to store data and make permanent modifications to your live "
 "operating system.  Without it, you will not be able to save data that will "
 "persist after a reboot."
-msgstr "En allouant de l'espace supplémentaire sur votre clé USB pour une écriture permanente, vous serez en mesure de stocker des données et d'effectuer des modifications permanentes sur votre système d'exploitation temps réel. Sans ça, vous ne serez pas en mesure de sauvegarder des données qui seront conservées après un redémarrage."
+msgstr "En allouant de l'espace supplémentaire sur votre clé USB pour le volume persistant, vous serez en mesure de stocker des données et d'effectuer des modifications permanentes sur le système d'exploitation. Sans ça, toutes les données sauvegardées ne seront plus disponibles après un redémarrage."
 
 #: ../liveusb/creator.py:1122 ../liveusb/creator.py:1385
 #, python-format
@@ -137,7 +137,7 @@ msgstr "Cloner\n&&\nMettre à jour"
 #: ../liveusb/creator.py:400
 #, python-format
 msgid "Creating %sMB persistent overlay"
-msgstr "Création du volume persistant de %s MB"
+msgstr "Création du volume persistant de %s Mo"
 
 #: ../liveusb/gui.py:567
 msgid ""
@@ -164,7 +164,7 @@ msgstr "Téléchargement de %s..."
 
 #: ../liveusb/creator.py:1118
 msgid "Drive is a loopback, skipping MBR reset"
-msgstr "Le périphérique est un « loopback », on ne gère pas la réinitialisation du MBR"
+msgstr "Le périphérique est un « loopback », pas de réinitialisation du MBR nécessaire"
 
 #: ../liveusb/creator.py:813
 #, python-format
@@ -198,7 +198,7 @@ msgstr "Formattage de %(device)s en FAT32"
 
 #: ../liveusb/creator.py:140
 msgid "ISO MD5 checksum passed"
-msgstr "Vérification de la somme de contrôle MD5 de l'ISO réussie"
+msgstr "Somme de contrôle MD5 de l'image correcte"
 
 #: ../liveusb/creator.py:138
 msgid "ISO MD5 checksum verification failed"
@@ -208,7 +208,7 @@ msgstr "Échec de la vérification de la somme de contrôle MD5 de l'ISO"
 msgid ""
 "If you do not select an existing Live ISO, the selected release will be "
 "downloaded for you."
-msgstr "Si vous ne sélectionnez pas un Live ISO existant, la version sélectionnée sera téléchargée pour vous."
+msgstr "Si vous ne choisissez pas une image Live existante, la version sélectionnée sera téléchargée pour vous."
 
 #: ../liveusb/dialog.py:174
 msgid "Install Tails"
@@ -239,7 +239,7 @@ msgstr "Échec lors de la création du Live USB !"
 msgid ""
 "Make sure to extract the entire liveusb-creator zip file before running this"
 " program."
-msgstr "Assurez-vous d'extraire complètement l'archive zip de liveusb-creator avant d'exécuter ce programme."
+msgstr "Assurez-vous d'avoir extrait l'archive zip complète de liveusb-creator avant d'exécuter ce programme."
 
 #: ../liveusb/creator.py:1210
 msgid ""
@@ -283,7 +283,7 @@ msgstr "Stockage persistant"
 
 #: ../liveusb/dialog.py:170
 msgid "Persistent Storage (0 MB)"
-msgstr "Stockage Persistant (0 MB)"
+msgstr "Stockage Persistant (0 Mo)"
 
 #: ../liveusb/gui.py:702 ../liveusb/gui.py:731
 msgid "Please confirm your device selection"
@@ -349,7 +349,7 @@ msgstr "Le Master Boot Record sur votre périphérique est vide. Cliquer à nouv
 msgid ""
 "The selected file is unreadable. Please fix its permissions or select "
 "another file."
-msgstr "Le fichier sélectionné n'est pas lisible. Veuillez changer ses permissions ou sélectionner un autre fichier."
+msgstr "Le fichier sélectionné ne peut pas être lu. Veuillez changer les permissions associées ou sélectionner un autre fichier."
 
 #: ../liveusb/creator.py:337
 #, python-format
@@ -363,7 +363,7 @@ msgid ""
 "This button allows you to browse for an existing Live system ISO that you "
 "have previously downloaded.  If you do not select one, a release will be "
 "downloaded for you automatically."
-msgstr "Ce bouton vous permet de rechercher un Live ISO que vous auriez téléchargé auparavant. Si vous n'en sélectionnez pas, une version sera téléchargée pour vous automatiquement."
+msgstr "Ce bouton vous permet de rechercher une image ISO Live que vous auriez téléchargé auparavant. Si vous n'en sélectionnez pas, une version sera téléchargée pour vous automatiquement."
 
 #: ../liveusb/dialog.py:173
 msgid ""
@@ -371,19 +371,19 @@ msgid ""
 "optionally downloading a release (if an existing one wasn't selected),  "
 "extracting the ISO to the USB device, creating the persistent overlay, and "
 "installing the bootloader."
-msgstr "Ce bouton va démarrer le processus de création du Live USB. Cela implique l'éventuel téléchargement d'une version (si aucune n'était sélectionnée), l'extraction de l'ISO sur le périphérique USB, la création d'une surcouche permanente, et l'installation du bootloader."
+msgstr "Ce bouton va démarrer le processus de création du LiveUSB. Cela implique l'éventuel téléchargement d'une version (si aucune n'a été sélectionnée), l'extraction de l'image ISO sur le périphérique USB, la création d'un volume persistant et l'installation du bootloader."
 
 #: ../liveusb/dialog.py:167
 msgid ""
 "This is the USB stick that you want to install your Live system on.  This "
 "device must be formatted with the FAT filesystem."
-msgstr "C'est la clé USB sur laquelle vous souhaitez installer votre Live système. Celle-ci doit être formatée avec le système de fichiers FAT."
+msgstr "Ceci est la clé USB sur laquelle vous souhaitez installer votre système Live. Celle-ci doit être formatée avec le système de fichiers FAT."
 
 #: ../liveusb/dialog.py:172
 msgid ""
 "This is the progress bar that will indicate how far along in the LiveUSB "
 "creation process you are"
-msgstr "C'est la barre de progression qui vous indiquera l'avancement de la création du Live USB."
+msgstr "C'est la barre de progression qui vous indiquera l'avancement de la création du LiveUSB."
 
 #: ../liveusb/dialog.py:171
 msgid "This is the status console, where all messages get written to."
@@ -558,7 +558,7 @@ msgstr "Attention : cet outil doit être exécuté en tant qu'Administrateur. P
 #: ../liveusb/creator.py:152
 #, python-format
 msgid "Wrote to device at %(speed)d MB/sec"
-msgstr "Écriture sur le périphérique effectuée à %(speed)d MB/sec"
+msgstr "Écriture sur le périphérique effectuée à %(speed)d Mo/sec"
 
 #: ../liveusb/gui.py:703
 #, python-format
