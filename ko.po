@@ -3,14 +3,15 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
+# ilbe123 <a3057016@drdrb.net>, 2014
 # Dr.what <javrick6@naver.com>, 2014
 msgid ""
 msgstr ""
 "Project-Id-Version: The Tor Project\n"
 "Report-Msgid-Bugs-To: Tails developers <tails@boum.org>\n"
-"POT-Creation-Date: 2014-03-05 15:11+0100\n"
-"PO-Revision-Date: 2014-03-13 13:01+0000\n"
-"Last-Translator: Dr.what <javrick6@naver.com>\n"
+"POT-Creation-Date: 2014-04-16 17:54+0200\n"
+"PO-Revision-Date: 2014-05-06 07:42+0000\n"
+"Last-Translator: ilbe123 <a3057016@drdrb.net>\n"
 "Language-Team: Korean (http://www.transifex.com/projects/p/torproject/language/ko/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -21,7 +22,7 @@ msgstr ""
 #: ../lib/Tails/IUK/Frontend.pm:146 ../lib/Tails/IUK/Frontend.pm:523
 #: ../lib/Tails/IUK/Frontend.pm:667
 msgid "For debugging information, see /home/amnesia/.xsession-errors"
-msgstr ""
+msgstr "디버깅 정보는 /home/amnesia/.xsession-errors를 참조하십시오"
 
 #: ../lib/Tails/IUK/Frontend.pm:216
 msgid "Error while checking for upgrades"
@@ -38,28 +39,28 @@ msgstr "<b>Tor 웹 사이트에서 업데이트를 확인 할 수가 없습니�
 
 #: ../lib/Tails/IUK/Frontend.pm:234
 msgid "no automatic upgrade is available from our website for this version"
-msgstr ""
+msgstr "이 버전에 대해 웹 사이트에서 사용할 수 있는 자동 업그레이드는 없습니다"
 
 #: ../lib/Tails/IUK/Frontend.pm:240
 msgid "your device was not created using Tails Installer"
-msgstr ""
+msgstr "당신의 장치는 Tails 설치 프로그램을 사용하여 작성되지 않았습니다"
 
 #: ../lib/Tails/IUK/Frontend.pm:245
 msgid "Tails was started from a DVD or a read-only device"
-msgstr ""
+msgstr "Tails는 DVD 또는 읽기 전용 장치에서 부팅하였습니다."
 
 #: ../lib/Tails/IUK/Frontend.pm:250
 msgid "there is not enough free space on the Tails system partition"
-msgstr ""
+msgstr "Tails 시스템 파티션에 충분한 공간이 없습니다."
 
 #: ../lib/Tails/IUK/Frontend.pm:255
 msgid "not enough memory is available on this system"
-msgstr ""
+msgstr "충분한 메모리가 이 시스템에서 사용할 수 없습니다."
 
 #: ../lib/Tails/IUK/Frontend.pm:261
 #, perl-brace-format
 msgid "No explanation available for reason '%{reason}s'."
-msgstr ""
+msgstr "이유 '%{reason}s'에 대한 설명을 사용할 수 없습니다."
 
 #: ../lib/Tails/IUK/Frontend.pm:281
 msgid "The system is up-to-date"
@@ -107,7 +108,7 @@ msgid ""
 "Download size: %{size}s\n"
 "\n"
 "Do you want to upgrade now?"
-msgstr ""
+msgstr "<b> %{name}s %{version}s로 업그레이드해야합니다. </b>\n\n이 새로운 버전에 대한 자세한 내용은 %{details_url}s를 엽니다.\n\n업그레이드하는 동안 열려있는 모든 프로그램을 닫을 것을 권장합니다.\n업그레이드 다운로드는 몇 분에서 몇 시간 정도의 긴 시간이 걸릴 수 있습니다.\n네트워크 기능은 업그레이드 다운로드 후 해제됩니다.\n\n다운로드 크기 : %{size}s\n\n지금 업그레이드 하시겠습니까?"
 
 #: ../lib/Tails/IUK/Frontend.pm:385
 msgid "Upgrade available"
@@ -144,7 +145,7 @@ msgstr "업데이트 다운로드"
 #: ../lib/Tails/IUK/Frontend.pm:471
 #, perl-brace-format
 msgid "Downloading the upgrade to %{name}s %{version}s..."
-msgstr ""
+msgstr "%{name}s %{version}s로 업그레이드를 다운로드 중"
 
 #: ../lib/Tails/IUK/Frontend.pm:512
 msgid ""
@@ -152,26 +153,26 @@ msgid ""
 "connection, and restart Tails to try upgrading again.\\n\\nIf the problem "
 "persists, go to "
 "file:///usr/share/doc/tails/website/doc/upgrade/error/download.en.html"
-msgstr ""
+msgstr "<b> 업그레이드를 다운로드 할 수 없습니다. </b>\\n\\n 네트워크 연결을 확인하고 Tails를 다시 시작하고 다시 업그레이드를 시도하십시오. \\n\\n 문제가 지속되면file:///usr/share/doc/tails/website/doc/upgrade/error/download.en.html을여십시오"
 
 #: ../lib/Tails/IUK/Frontend.pm:528 ../lib/Tails/IUK/Frontend.pm:547
 msgid "Error while downloading the upgrade"
-msgstr ""
+msgstr "업그레이드를 다운로드하는 동안 오류"
 
 #: ../lib/Tails/IUK/Frontend.pm:540
 #, perl-brace-format
 msgid ""
 "Output file '%{output_file}s' does not exist, but tails-iuk-get-target-file "
 "did not complain. Please report a bug."
-msgstr ""
+msgstr "출력 파일 '%{output_file}s'는 존재하지 않지만 tails-iuk-get-target-file은 오류를 발행하지 않았습니다. 버그를 보고하십시오."
 
 #: ../lib/Tails/IUK/Frontend.pm:559
 msgid "Error while creating temporary downloading directory"
-msgstr ""
+msgstr "임시 다운로드 디렉토리를 작성하는 중에 오류"
 
 #: ../lib/Tails/IUK/Frontend.pm:562
 msgid "Failed to create temporary download directory"
-msgstr ""
+msgstr "임시 다운로드 디렉토리를 만들 수 없습니다."
 
 #: ../lib/Tails/IUK/Frontend.pm:574
 msgid ""
@@ -181,7 +182,7 @@ msgid ""
 "You should restart Tails on the new version as soon as possible.\n"
 "\n"
 "Do you want to restart now?"
-msgstr ""
+msgstr "<b>Tails 장치가 성공적으로 업그레이드되었습니다.</b>\n\n일부 보안 기능이 일시적으로 해제되었습니다.\n최대한 빠른 시일 내에 새로운 버전 Tails를 다시 시작해야합니다.\n\n<i>지금  </ i>다시 시작 하시겠습니까?"
 
 #: ../lib/Tails/IUK/Frontend.pm:579
 msgid "Restart Tails"
@@ -220,7 +221,7 @@ msgid ""
 "<b>Your Tails device is being upgraded...</b>\n"
 "\n"
 "For security reasons, the networking is now disabled."
-msgstr ""
+msgstr "<b> Tails 장치가 업그레이드되어 있습니다 ... </b>\n\n보안상의 이유 때문에 네트워킹은 비활성화되어 있습니다."
 
 #: ../lib/Tails/IUK/Frontend.pm:662
 msgid ""
@@ -228,7 +229,7 @@ msgid ""
 " needs to be repaired and might be unable to restart.\\n\\nPlease follow the"
 " instructions at "
 "file:///usr/share/doc/tails/website/doc/upgrade/error/install.en.html"
-msgstr ""
+msgstr "<b>업그레이드 설치 중에 오류가 발생했습니다.</b>\\n\\nTails 장치는 수리가 필요하고, 다시 시작하지 못할 수도 있습니다.\\n\\file:///usr/share/doc/tails/website/doc/upgrade/error/install.en.html의 지시에 따르십시오."
 
 #: ../lib/Tails/IUK/Frontend.pm:672
 msgid "Error while installing the upgrade"
