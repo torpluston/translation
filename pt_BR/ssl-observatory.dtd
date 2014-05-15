@@ -1,5 +1,5 @@
 <!-- Observatory popup window -->
-<!ENTITY ssl-observatory.popup.details "Detalhes e Informações de Privacidade">
+<!ENTITY ssl-observatory.popup.details "Detalhes e Informações Privadas">
 <!ENTITY ssl-observatory.popup.later "Pergunte-me mais tarde">
 <!ENTITY ssl-observatory.popup.no "Não">
 
@@ -33,7 +33,7 @@ to turn it on?">-->
 
 <!ENTITY ssl-observatory.prefs.anonymous "Utilize Tor para verificar os certificados de forma anônima">
 <!ENTITY ssl-observatory.prefs.anonymous_unavailable 
-"Checar certificados usando Tor para anonimato (requer Torbutton)">
+"Checar certificados usando Tor para assegurar anonimato (requer Torbutton)">
 <!ENTITY ssl-observatory.prefs.anonymous_tooltip 
 "Esta opção requer que o Tor e o Torbutton estejam instalados">
 
@@ -42,6 +42,12 @@ to turn it on?">-->
 
 <!ENTITY ssl-observatory.prefs.asn_tooltip
 "Isto irá buscar e enviar o “O número do Sistema Autônomo” da sua rede.  Isto irá nos ajudar a localizar ataques contra o HTTPS, e a determinar se nós temos observações das redes localizadas em lugares como o Irã e a Síria, onde estes ataques são relativamente mais comuns.">
+
+<!ENTITY ssl-observatory.prefs.show_cert_warning
+"Mostrar uma advertência quando o Observatório detectar um certificado revogado e não identificado pelo seu navegador">
+
+<!ENTITY ssl-observatory.prefs.show_cert_warning_tooltip
+"Isso verificará certificados apresentados a listas de revogação de certificados já conhecidas. Infelizmente, não podemos garantir que poderemos assinalar todos os certificados revogados, mas se você vir uma advertência, há uma grande chance que alguma coisa está errada.">
 
 <!ENTITY ssl-observatory.prefs.done "Pronto">
 
@@ -85,7 +91,7 @@ Passe o mouse sobre as opções para ver mais detalhes:">
 <!ENTITY ssl-observatory.warning.showcert "Mostrar a corrente do certificado">
 <!ENTITY ssl-observatory.warning.okay "Eu entendo">
 <!ENTITY ssl-observatory.warning.text "O Observatório SSL de EFF emitiu um aviso sobre o(s) certificados(s) HTTPS para este site:">
-<!ENTITY ssl-observatory.warning.defense "Se você estiver entrado neste site, é aconselhável trocar a sua senha assim que você tiver uma conexão segura.">
+<!ENTITY ssl-observatory.warning.defense "Se você estiver logado a este site, é conselhável trocar a sua senha assim que você tiver uma conexão segura. (Essas advertências podem ser desabilitadas na opção &quot;Observatório SSL&quot; na seção  preferências da caixa de diálogo do HTTP Everywhere).">
 
 <!ENTITY ssl-observatory.prefs.self_signed
 "Envie e verifique os certificados auto-assinados">
