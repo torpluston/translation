@@ -42,20 +42,21 @@ vous connectez via un réseau d'entreprise très intrusif:">
 "Quand vous voyez un nouveau certificat, indiquez à l'Observatoire le FAI auquel vous êtes connecté.">
 
 <!ENTITY ssl-observatory.prefs.asn_tooltip
-"Cette option récupérera et rapportera le « Autonomous System number » de votre réseau.  Cela nous aidera à localiser les attaques contre HTTPS, et savoir si nous avons des observations à partir de réseaux dans des pays comme l'Iran et la Syrie où ces attaques sont fréquentes.">
+"Cette option récupérera et enverra le «numéro Autonomous System» de votre réseau.  Cela nous aide à localiser les attaques contre HTTPS, et permet de savoir si nous avons des observations à partir de réseaux dans des pays comme l'Iran et la Syrie où ces attaques sont relativement fréquentes.">
 
 <!ENTITY ssl-observatory.prefs.show_cert_warning
-"Affiche une alerte lorsque l'Observatoire détecte un certificat révoqué qui n'a pas été repéré par votre navigateur.">
+"Affiche une alerte lorsque l'Observatoire détecte un certificat révoqué qui n'a pas été repéré par votre navigateur">
 
 <!ENTITY ssl-observatory.prefs.show_cert_warning_tooltip
-"Ceci vérifiera les certificats soumis auprès des listes connues de certificats révoqués. Malheureusement nous ne pouvons garantir que nous verrons tous les certificats révoqués, mais si vous voyez une alerte, il y'a de grandes chances pour qu'il se passe quelquechose de mauvais.">
+"Ceci vérifiera les certificats soumis auprès de listes connues de certificats révoqués. Malheureusement nous ne pouvons garantir que nous repérerons tous les certificats révoqués, mais si vous voyez un avertissement, c'est qu'il y a de grandes chances qu'il se passe quelque chose d'anormal.">
 
-<!ENTITY ssl-observatory.prefs.done "OK">
+<!ENTITY ssl-observatory.prefs.done "Terminé">
 
 <!ENTITY ssl-observatory.prefs.explanation 
 "HTTPS Everywhere peut également faire appel à l'Observatoire SSL de l'EFF.  Cela permet deux choses: (1)
-cela adresse les copies des certificats HTTPS à l'Observatoire, ce qui permet de détecter les attaques de type Homme du milieu et d'améliorer la sécurité globale de l'Internet ; et (2)
-cela nous permet de mieux vous informer quant aux connexions non sécurisées et aux attaques sur votre navigateur.">
+l'envoi de copies des certificats HTTPS à l'Observatoire, ce qui nous permet
+de détecter les attaques de type 'homme du milieu' et d'améliorer la sécurité globale de l'Internet ; et (2)
+cela nous permet de mieux vous informer quant aux connexions non sécurisées et aux attaques contre votre navigateur.">
 
 <!--<!ENTITY ssl-observatory.prefs.explanation2
 "When you visit https://www.example.com, the Observatory will learn that
@@ -64,35 +65,37 @@ Mouseover the options for further details:">-->
 
 <!ENTITY ssl-observatory.prefs.explanation2
 
-"Par exemple, si vous visitez https://www.something.com, le certificat reçu par l'Observatoire indiquera que quelqu'un a visité 
-www.something.com, mais pas qui a visité le site, ou quelle page a été lue. Passez votre souris sur les options pour plus d'informations:">
+"Par exemple, si vous visitez https://www.something.com, le certificat
+reçu par l'Observatoire indiquera que quelqu'un a visité 
+www.something.com, mais pas qui a visité le site, ou quelle page spécifique
+a été consultée. Passez votre souris sur les options pour plus d'informations:">
 
 <!ENTITY ssl-observatory.prefs.hide "Cacher les options avancées">
 
 <!ENTITY ssl-observatory.prefs.nonanon 
-"Vérifier les certificats même si TOR n'est pas disponible">
+"Vérifier les certificats même quand TOR n'est pas disponible">
 
 <!ENTITY ssl-observatory.prefs.nonanon_tooltip
-"Nous essaierons toujours de faire en sorte que les données restent confidentielles, mais cette option est moins sécurisée">
+"Nous essaierons tout de même de faire en sorte que les données restent anonymes, mais cette option est moins sécurisée">
 
 <!ENTITY ssl-observatory.prefs.priv_dns 
-"Soumettre et vérifier les certificats des DNS privés">
+"Envoyer et vérifier les certificats des noms DNS non publiques">
 
 <!ENTITY ssl-observatory.prefs.priv_dns_tooltip
-"Si cette option est activée, l'Observatoire conservera les certificats des domaines qui ne peuvent être résolus par le système DNS public">
+"Quand cette option est activée, l'Observatoire conserve les certificats des domaines qui ne peuvent être résolus par le système DNS public.">
 
-<!ENTITY ssl-observatory.prefs.show "Options avancées">
+<!ENTITY ssl-observatory.prefs.show "Voir les options avancées">
 
 <!ENTITY ssl-observatory.prefs.title "Préférences de l'Observatoire SSL">
 
-<!ENTITY ssl-observatory.prefs.use "Utiliser l'Observatoire ?">
-<!ENTITY ssl-observatory.warning.title "Avertissement de l'Observatoire SSL">
+<!ENTITY ssl-observatory.prefs.use "Utiliser l'Observatoire?">
+<!ENTITY ssl-observatory.warning.title "Avertissement de l'Observatoire SSL de l'EFF">
 <!ENTITY ssl-observatory.warning.showcert "Montrer l'empreinte du certificat">
 <!ENTITY ssl-observatory.warning.okay "Je comprends">
-<!ENTITY ssl-observatory.warning.text "L'Observatoire SSL de l'EFF a publié un avertissement sur les certificats SSL émis par ce site :">
-<!ENTITY ssl-observatory.warning.defense "Si vous êtes authentifié sur ce site, il peut être préférable de changer votre mot de passe une fois que vous serez sur une connexion sûre. (Ces alertes peuvent être désactivées dans l'onglet &quot;Observatoire SSL&quot; de la fenêtre de préférence de HTTPS Everywhere).">
+<!ENTITY ssl-observatory.warning.text "L'Observatoire SSL de l'EFF a publié un avertissement sur les certificats SSL émis par ce site:">
+<!ENTITY ssl-observatory.warning.defense "Si vous êtes authentifié sur ce site, il peut être préférable de changer votre mot de passe une fois que vous aurez une connexion sûre. (Ces alertes peuvent être désactivées dans l'onglet &quot;Observatoire SSL&quot; de la fenêtre des préférences de HTTPS Everywhere).">
 
 <!ENTITY ssl-observatory.prefs.self_signed
-"Envoyer et vérifier des certificats auto-signés">
+"Envoyer et vérifier les certificats auto-signés">
 <!ENTITY ssl-observatory.prefs.self_signed_tooltip
-"Ceci est recommandé ; les problèmes cryptographiques sont particulièrement fréquents dans les systèmes embarqués auto-signés">
+"Ceci est recommandé; les problèmes cryptographiques sont particulièrement fréquents avec les systèmes embarqués auto-signés">
