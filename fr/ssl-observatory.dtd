@@ -1,9 +1,11 @@
 <!-- Observatory popup window -->
-<!ENTITY ssl-observatory.popup.details "Informations relatives à la vie privée">
+<!ENTITY ssl-observatory.popup.details "Détails et informations relatives à la vie privée">
 <!ENTITY ssl-observatory.popup.later "Plus tard">
 <!ENTITY ssl-observatory.popup.no "Non">
 
-<!ENTITY ssl-observatory.popup.text " HTTPS Everywhere peut détecter les attaques contre votre navigateur en adressant les certificats reçus à l'Observatoire. Souhaitez-vous activer cette fonctionnalité ?">
+<!ENTITY ssl-observatory.popup.text " HTTPS Everywhere peut détecter les attaques
+contre votre navigateur en envoyant les certificats reçus
+à l'Observatoire. Souhaitez-vous activer cette fonctionnalité ?">
 
 <!--<!ENTITY ssl-observatory.popup.text 
 "EFF's SSL Observatory can detect attacks against HTTPS websites by collecting
@@ -18,25 +20,26 @@ to turn it on?">-->
 <!-- Observatory preferences dialog -->
 
 <!ENTITY ssl-observatory.prefs.adv_priv_opts1
-"Cette option est sécurisée, sauf si vous vous connectez via un réseau d'entreprise très intrusif :">
+"Cette option est sécurisée, sauf si vous 
+vous connectez via un réseau d'entreprise très intrusif:">
 
 <!ENTITY ssl-observatory.prefs.adv_priv_opts2
-"Cette option est sécurisée, sauf si vous passez par un réseau d'entreprise qui comporte des serveurs Intranet masqués :">
+"Cette option est sécurisée, sauf si vous passez par un réseau d'entreprise utilisant des serveurs Intranet masqués:">
 
 <!ENTITY ssl-observatory.prefs.alt_roots 
-"Soumettre et vérifier les certificats signés par des autorités inhabituelles">
+"Envoyer et vérifier les certificats signés par des autorités inhabituelles">
 
 <!ENTITY ssl-observatory.prefs.alt_roots_tooltip 
-" Il est sûr (et c'est une bonne idée) d'activer cette option, sauf si vous utilisez un réseau d'entreprise intrusif ou le logiciel antivirus Kaspersky qui surveille votre navigation avec un proxy TLS et une autorité racine privée du certificat. Si elle est activée sur un tel réseau, cette option pourrait publier des preuves que tel ou tel domaine a été visité en https:// à travers ce proxy, à cause des certificats uniques qu'elle produirait. Nous la désactivons donc par défaut">
+" Il est sûr d'activer cette option (et c'est une bonne idée), sauf si vous utilisez un réseau d'entreprise intrusif ou le logiciel antivirus Kaspersky qui surveille votre navigation avec un proxy TLS et une autorité racine privée du certificat. Si elle est activée sur un tel réseau, cette option pourrait publier des preuves que tel ou tel domaine a été visité en https:// à travers ce proxy, à cause des certificats uniques qu'elle produirait. C'est pourquoi nous la désactivons par défaut.">
 
-<!ENTITY ssl-observatory.prefs.anonymous "Vérifier les certificats et utiliser l'outil d'anonymat TOR">
+<!ENTITY ssl-observatory.prefs.anonymous "Vérifier les certificats en utilisant TOR pour votre anonymat">
 <!ENTITY ssl-observatory.prefs.anonymous_unavailable 
-"Vérifier les certificats et utiliser l'outil d'anonymat TOR (installation du TORbutton indispensable)">
+"Vérifier les certificats en utilisant TOR pour votre anonymat (installation du TORbutton indispensable)">
 <!ENTITY ssl-observatory.prefs.anonymous_tooltip 
-"Cette option requiert l'installation de TOR et du Torbutton">
+"Cette option nécessite l'installation de TOR et du Torbutton">
 
 <!ENTITY ssl-observatory.prefs.asn 
-"Quand vous voyez un nouveau certificat, indiquez à l'Observatoire quel FAI vous utilisez maintenant.">
+"Quand vous voyez un nouveau certificat, indiquez à l'Observatoire le FAI auquel vous êtes connecté.">
 
 <!ENTITY ssl-observatory.prefs.asn_tooltip
 "Cette option récupérera et rapportera le « Autonomous System number » de votre réseau.  Cela nous aidera à localiser les attaques contre HTTPS, et savoir si nous avons des observations à partir de réseaux dans des pays comme l'Iran et la Syrie où ces attaques sont fréquentes.">
