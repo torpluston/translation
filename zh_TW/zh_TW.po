@@ -3,20 +3,21 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
-# 修銘 張 <cges30901@gmail.com>, 2014
+# cges30901 <cges30901@gmail.com>, 2014
 # chinrur <chinrur@gmail.com>, 2013
-# muraji <muraji@tormail.org>, 2013
+# danfong <danfong.hsieh@gmail.com>, 2014
+# muraji saori <muraji@tormail.org>, 2013
 # Terry Chuang <tchuang@redhat.com>, 2009
 # Wei-Lun Chao <william.chao@ossii.com.tw>, 2009
-# xatier 同學@提不起勁 <xatierlike@gmail.com>, 2014
-# xatier 同學@提不起勁 <xatierlike@gmail.com>, 2014
+# x4r <xatierlike@gmail.com>, 2014
+# x4r <xatierlike@gmail.com>, 2014
 msgid ""
 msgstr ""
 "Project-Id-Version: The Tor Project\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-05-28 16:00+0200\n"
-"PO-Revision-Date: 2014-05-31 16:31+0000\n"
-"Last-Translator: xatier 同學@提不起勁 <xatierlike@gmail.com>\n"
+"PO-Revision-Date: 2014-06-30 16:41+0000\n"
+"Last-Translator: danfong <danfong.hsieh@gmail.com>\n"
 "Language-Team: Chinese (Taiwan) (http://www.transifex.com/projects/p/torproject/language/zh_TW/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -32,7 +33,7 @@ msgstr "%(distribution)s Installer"
 #: ../liveusb/gui.py:794
 #, python-format
 msgid "%(filename)s selected"
-msgstr "%(filename)s 選擇"
+msgstr "%(filename)s 已選"
 
 #: ../liveusb/gui.py:425
 #, python-format
@@ -220,7 +221,7 @@ msgstr "安裝完成! (%s)"
 
 #: ../liveusb/gui.py:617
 msgid "Installation was completed. Press OK to close this program."
-msgstr "安裝已完成，按“確定”以關閉該程式。"
+msgstr "安裝已完成，按下「確定」關閉此程式。"
 
 #: ../liveusb/creator.py:942 ../liveusb/creator.py:1267
 msgid "Installing bootloader..."
@@ -249,7 +250,7 @@ msgstr "卸載後 %s 掛載仍存在"
 #: ../liveusb/gui.py:559
 #, python-format
 msgid "No free space on device %(device)s"
-msgstr "%(device)s 裝置上的剩餘空間不足。"
+msgstr "裝置 %(device)s 上的可用空間不足。"
 
 #: ../liveusb/creator.py:811
 msgid "No mount points found"
@@ -261,7 +262,7 @@ msgstr "裝置上的剩餘空間不足。"
 
 #: ../liveusb/gui.py:540
 msgid "Partition is FAT16; Restricting overlay size to 2G"
-msgstr "磁碟分區為FAT16；覆蓋限制大小為2 GB"
+msgstr "分割區為 FAT16；覆蓋限制大小為 2 GB"
 
 #: ../liveusb/gui.py:536
 msgid "Partition is FAT32; Restricting overlay size to 4G"
@@ -274,7 +275,7 @@ msgstr "分割設備是 %(device)s"
 
 #: ../liveusb/gui.py:607
 msgid "Persistent Storage"
-msgstr "持續性儲存裝置"
+msgstr "永續性儲存體"
 
 #: ../liveusb/dialog.py:170
 msgid "Persistent Storage (0 MB)"
@@ -405,7 +406,7 @@ msgstr "無法複製 %(infile)s 到 %(outfile)s: %(message)s"
 
 #: ../liveusb/gui.py:404
 msgid "Unable to find any USB drive"
-msgstr "無法找到任何的 USB 裝置"
+msgstr "找不到任何的 USB 裝置"
 
 #: ../liveusb/creator.py:1228
 msgid "Unable to find any supported device"
@@ -422,7 +423,7 @@ msgstr "無法取得 Win32_LogicalDisk; win32com 查詢沒有返回任何結果"
 
 #: ../liveusb/gui.py:681
 msgid "Unable to mount device"
-msgstr "無法移除裝置"
+msgstr "無法掛接裝置"
 
 #: ../liveusb/creator.py:799
 #, python-format
@@ -448,7 +449,7 @@ msgstr "無法重設 MBR。您可能沒有安裝 `syslinux` 套件"
 msgid ""
 "Unable to use the selected file.  You may have better luck if you move your "
 "ISO to the root of your drive (ie: C:\\)"
-msgstr "無法使用已選取的檔案，您可能有更好的運氣，如果您移動您的ISO到您的裝置根目錄下(例如：C：\\)"
+msgstr "無法使用所選檔案，您可能會有更好的運氣，如果您將您的 ISO 移動到您的磁碟根目錄下(例如：C：\\)"
 
 #: ../liveusb/creator.py:706
 #, python-format
@@ -546,14 +547,14 @@ msgid ""
 "Warning: The Master Boot Record on your device does not match your system's "
 "syslinux MBR.  If you have trouble booting this stick, try running the "
 "liveusb-creator with the --reset-mbr option."
-msgstr "警告：在您裝置上的主要開機記錄與syslinux 作業系統MBR無法匹配。如果您對此感到麻煩，嘗試執行liveusb-creator，並重新設定MBR選項。"
+msgstr "警告：在您裝置上的主開機記錄與您系統的 syslinux MBR 無法相符。如果您有麻煩，嘗試使用 --reset-mbr 選項執行 liveusb-creator。"
 
 #: ../liveusb/gui.py:378
 msgid ""
 "Warning: This tool needs to be run as an Administrator. To do this, right "
 "click on the icon and open the Properties. Under the Compatibility tab, "
 "check the \"Run this program as an administrator\" box."
-msgstr "警告：此工具需以系統管理員身分執行。請右鍵圖標點選內容，在相容性一欄下，勾選以「系統管理員的身分執行此程式」一格。"
+msgstr "警告：此工具需以系統管理員身分執行。請對圖示按滑鼠右鍵後點選內容，在相容性頁籤下，勾選「以系統管理員身份執行此程式」方塊。"
 
 #: ../liveusb/creator.py:153
 #, python-format
@@ -583,7 +584,7 @@ msgstr "您正在使用舊版 syslinux-extlinux ，不支援 ext4 檔案系統"
 
 #: ../liveusb/gui.py:773
 msgid "You can try again to resume your download"
-msgstr "您可再次嘗試復原您的下載"
+msgstr "您可再次嘗試來繼續您的下載"
 
 #: ../liveusb/creator.py:93
 msgid "You must run this application as root"
