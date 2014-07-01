@@ -19,7 +19,7 @@ msgstr ""
 "Project-Id-Version: The Tor Project\n"
 "Report-Msgid-Bugs-To: Tails developers <tails@boum.org>\n"
 "POT-Creation-Date: 2014-05-28 22:46+0200\n"
-"PO-Revision-Date: 2014-07-01 10:40+0000\n"
+"PO-Revision-Date: 2014-07-01 11:10+0000\n"
 "Last-Translator: Communia <ameaneantie@riseup.net>\n"
 "Language-Team: Portuguese (Brazil) (http://www.transifex.com/projects/p/torproject/language/pt_BR/)\n"
 "MIME-Version: 1.0\n"
@@ -106,7 +106,7 @@ msgstr "Pacotes APT"
 
 #: ../lib/Tails/Persistence/Configuration/Presets.pm:140
 msgid "Packages downloaded by APT"
-msgstr "Pacotes baixados pelo APT"
+msgstr "Pacotes baixados pelo APT (Advanced Packaging Tool)"
 
 #: ../lib/Tails/Persistence/Configuration/Presets.pm:148
 msgid "APT Lists"
@@ -118,7 +118,7 @@ msgstr "Listas baixadas pelo APT"
 
 #: ../lib/Tails/Persistence/Configuration/Presets.pm:158
 msgid "Dotfiles"
-msgstr "Arquivos de configuração (dotfiles)"
+msgstr "Arquivos de configuração (Dotfiles)"
 
 #: ../lib/Tails/Persistence/Configuration/Presets.pm:160
 msgid ""
@@ -148,7 +148,7 @@ msgstr "O dispositivo %s não possui nenhum volume persistente."
 msgid ""
 "Cannot delete the persistent volume while in use. You should restart Tails "
 "without persistence."
-msgstr "Não é possível suprimir o volume persistente durante o seu uso. Reinicie Tails sem suprimi-lo."
+msgstr "Não é possível suprimir o volume persistente durante o seu uso. Reinicie Tails sem o volume persistente."
 
 #: ../lib/Tails/Persistence/Setup.pm:378
 msgid "Persistence volume is not unlocked."
@@ -164,7 +164,7 @@ msgstr "O volume persistente é ilegível. Há problemas de permissão ou de pro
 
 #: ../lib/Tails/Persistence/Setup.pm:393
 msgid "Persistence volume is not writable. Maybe it was mounted read-only?"
-msgstr "O volume persistente não é gravável. E possível que ele tenha sido montado com a opção \"somente leitura\"?"
+msgstr "O volume persistente não é gravável. É possível que ele tenha sido montado com a opção \"somente leitura\"?"
 
 #: ../lib/Tails/Persistence/Setup.pm:402
 #, perl-format
@@ -174,7 +174,7 @@ msgstr "O Tails está sendo executado em um dispositivo que não é USB /SDIO  %
 #: ../lib/Tails/Persistence/Setup.pm:408
 #, perl-format
 msgid "Device %s is optical."
-msgstr "O dispositivo %s é ótico."
+msgstr "O dispositivo %s é óptico."
 
 #: ../lib/Tails/Persistence/Setup.pm:415
 #, perl-format
@@ -202,7 +202,7 @@ msgstr "Assistente do volume persistente - Criação do volume persistente"
 
 #: ../lib/Tails/Persistence/Step/Bootstrap.pm:57
 msgid "Choose a passphrase to protect the persistent volume"
-msgstr "Escolha uma senha (frase) para proteger o volume persistente."
+msgstr "Escolha uma frase secreta para proteger o volume persistente."
 
 #. TRANSLATORS: size, device vendor, device model
 #: ../lib/Tails/Persistence/Step/Bootstrap.pm:61
@@ -210,7 +210,7 @@ msgstr "Escolha uma senha (frase) para proteger o volume persistente."
 msgid ""
 "A %s persistent volume will be created on the <b>%s %s</b> device. Data on "
 "this volume will be stored in an encrypted form protected by a passphrase."
-msgstr "Um %s volume persistente será criado no dispositivo <b>%s %s</b>. Os dados deste dispositivo serão armazenados de forma criptografada e protegidos por uma senha (frase)."
+msgstr "Um %s volume persistente será criado no dispositivo <b>%s %s</b>. Os dados deste dispositivo serão armazenados de forma criptografada e protegidos por uma frase secreta."
 
 #: ../lib/Tails/Persistence/Step/Bootstrap.pm:66
 msgid "Create"
@@ -222,24 +222,24 @@ msgid ""
 "understood. Tails can't help you if you use it wrong! See <a "
 "href='file:///usr/share/doc/tails/website/doc/first_steps/persistence.en.html'>Tails"
 " documentation about persistence</a> to learn more."
-msgstr "<b>Atenção!</b> O uso do volume persistente tem consequências que devem ser devidamente compreendidas. O Tails não lhe ajudará se você usar o volume persistente de forma incorreta! Veja a <a href='file:///usr/share/doc/tails/website/doc/first_steps/persistence.pt.html'>documentação do Tails sobre volumes permanentes</a> para saber mais."
+msgstr "<b>Atenção!</b> O uso do volume persistente tem consequências que devem ser devidamente compreendidas. O Tails não o ajudará se você usar o volume persistente de forma incorreta! Veja a <a href='file:///usr/share/doc/tails/website/doc/first_steps/persistence.pt.html'>documentação do Tails sobre volumes persistentes</a> para saber mais."
 
 #: ../lib/Tails/Persistence/Step/Bootstrap.pm:144
 msgid "Passphrase:"
-msgstr "Senha (frase):"
+msgstr "Frase secreta:"
 
 #: ../lib/Tails/Persistence/Step/Bootstrap.pm:154
 msgid "Verify Passphrase:"
-msgstr "Verifique a senha (frase):"
+msgstr "Verifique a frase secreta:"
 
 #: ../lib/Tails/Persistence/Step/Bootstrap.pm:167
 #: ../lib/Tails/Persistence/Step/Bootstrap.pm:231
 msgid "Passphrase can't be empty"
-msgstr "As senhas não podem ser vazias"
+msgstr "As frases secretas não podem ser vazias"
 
 #: ../lib/Tails/Persistence/Step/Bootstrap.pm:222
 msgid "Passphrases do not match"
-msgstr "As senhas não correspondem"
+msgstr "As frases secretas não correspondem"
 
 #: ../lib/Tails/Persistence/Step/Bootstrap.pm:262
 #: ../lib/Tails/Persistence/Step/Configure.pm:129
@@ -296,7 +296,7 @@ msgstr "Salvando..."
 
 #: ../lib/Tails/Persistence/Step/Configure.pm:146
 msgid "Saving persistence configuration..."
-msgstr "Salvando configuração do volume persistente..."
+msgstr "Salvando a configuração do volume persistente..."
 
 #: ../lib/Tails/Persistence/Step/Delete.pm:41
 msgid "Persistence wizard - Persistent volume deletion"
