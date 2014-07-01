@@ -24,7 +24,7 @@ msgstr ""
 "Project-Id-Version: The Tor Project\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-05-28 16:00+0200\n"
-"PO-Revision-Date: 2014-07-01 17:45+0000\n"
+"PO-Revision-Date: 2014-07-01 18:15+0000\n"
 "Last-Translator: Communia <ameaneantie@riseup.net>\n"
 "Language-Team: Portuguese (Brazil) (http://www.transifex.com/projects/p/torproject/language/pt_BR/)\n"
 "MIME-Version: 1.0\n"
@@ -108,12 +108,12 @@ msgid ""
 "will be able to store data and make permanent modifications to your live "
 "operating system.  Without it, you will not be able to save data that will "
 "persist after a reboot."
-msgstr "Reservando espaço extra para uma sobrecamada persistente no seu pen drive (USB) , você poderá armazenar dados e fazer modificações permanentes no seu sistema operacional.  Caso contrário, você não poderá salvar os dados que restarem após uma reinicialização."
+msgstr "Reservando espaço extra para uma sobrecamada persistente no drive USB, você poderá armazenar dados e fazer modificações permanentes no seu sistema operacional.  Caso contrário, você não poderá salvar os dados que restarem após uma reinicialização."
 
 #: ../liveusb/creator.py:1150 ../liveusb/creator.py:1413
 #, python-format
 msgid "Calculating the SHA1 of %s"
-msgstr "Calculando a soma de verificação SHA1 de %s"
+msgstr "Calculando o SHA1 (secure Hash Algorithm) de %s"
 
 #: ../liveusb/creator.py:1361
 msgid "Cannot find"
@@ -141,7 +141,7 @@ msgstr "Clonar\n&&\nAtualizar"
 #: ../liveusb/creator.py:407
 #, python-format
 msgid "Creating %sMB persistent overlay"
-msgstr "Criando sobrecamada de %sMB..."
+msgstr "Criando sobrecamada persistente de %sMB..."
 
 #: ../liveusb/gui.py:553
 msgid ""
@@ -193,7 +193,7 @@ msgstr "Erro: o SHA1 do seu LiveCD é inválido. Você pode executar este progra
 
 #: ../liveusb/creator.py:146
 msgid "Extracting live image to the target device..."
-msgstr "Extraindo imagem live para o dispositivo indicado..."
+msgstr "Extraindo imagem Live para o dispositivo indicado..."
 
 #: ../liveusb/creator.py:1089
 #, python-format
@@ -206,7 +206,7 @@ msgstr "A soma de verificação do MD5 da imagem ISO foi bem-sucedida"
 
 #: ../liveusb/creator.py:139
 msgid "ISO MD5 checksum verification failed"
-msgstr "O exame soma de verificação do MD5 da imagem ISO falhou"
+msgstr "O exame da soma de verificação do MD5 da imagem ISO falhou"
 
 #: ../liveusb/dialog.py:165
 msgid ""
@@ -243,7 +243,7 @@ msgstr "A criação do LiveUSB falhou!"
 msgid ""
 "Make sure to extract the entire liveusb-creator zip file before running this"
 " program."
-msgstr "Tenha certeza de ter extraído todo o arquivo .zip do liveusb-creator antes de executar este programa."
+msgstr "Tenha certeza de ter extraído todos os arquivos .zip do liveusb-creator antes de executar este programa."
 
 #: ../liveusb/creator.py:1238
 msgid ""
@@ -321,7 +321,7 @@ msgstr "Selecione Live ISO"
 
 #: ../liveusb/creator.py:183
 msgid "Setting up OLPC boot file..."
-msgstr "Configurando o arquivo de inicialização do OLPC..."
+msgstr "Configurando o arquivo de inicialização do OLPC ..."
 
 #: ../liveusb/creator.py:725
 #, python-format
@@ -375,7 +375,7 @@ msgid ""
 "optionally downloading a release (if an existing one wasn't selected),  "
 "extracting the ISO to the USB device, creating the persistent overlay, and "
 "installing the bootloader."
-msgstr "Este botão iniciará o processo de criação do LiveUSB.  Opcionalmente, o download de uma versão será feito (se nenhuma versão existente tiver sido selecionada), extraindo a ISO para o pen drive (USB), criando uma sobrecamada persistente e instalando o inicializador."
+msgstr "Este botão iniciará o processo de criação do LiveUSB.  Opcionalmente, o download de uma versão será feito (se nenhuma versão existente tiver sido selecionada), extraindo a ISO para o drive USB, criando uma sobrecamada persistente e instalando o inicializador."
 
 #: ../liveusb/dialog.py:167
 msgid ""
@@ -441,12 +441,12 @@ msgstr "Não foi possível montar o dispositivo: %(message)s"
 #: ../liveusb/creator.py:503
 #, python-format
 msgid "Unable to remove directory from previous LiveOS: %(message)s"
-msgstr "Não foi possível remover um diretório do sistema Live anterior: %(message)s"
+msgstr "Não foi possível remover um diretório do sistema operacional Live anterior: %(message)s"
 
 #: ../liveusb/creator.py:491
 #, python-format
 msgid "Unable to remove file from previous LiveOS: %(message)s"
-msgstr "Não foi possível remover um arquivo do sistema Live anterior: %(message)s"
+msgstr "Não foi possível remover um arquivo do sistema operacional Live anterior: %(message)s"
 
 #: ../liveusb/creator.py:1143
 msgid ""
@@ -462,16 +462,16 @@ msgstr "Não foi possível utilizar o arquivo selecionado. Talvez você tenha ma
 #: ../liveusb/creator.py:706
 #, python-format
 msgid "Unable to write on %(device)s, skipping."
-msgstr "Não foi possível escrever no dispositivo %(device)s, pulando."
+msgstr "Não foi possível escrever no dispositivo %(device)s. Pulando"
 
 #: ../liveusb/creator.py:389
 msgid "Unknown ISO, skipping checksum verification"
-msgstr "Imagem ISO desconhecida, ignorando a verificação"
+msgstr "Imagem ISO desconhecida, ignorando o exame da soma de verificação "
 
 #: ../liveusb/creator.py:795
 #, python-format
 msgid "Unknown dbus exception while trying to mount device: %(message)s"
-msgstr "Exceção dbus desconhecida ao tentar montar o dispositivo: %(message)s"
+msgstr "Exceção d-bus desconhecida ao tentar montar o dispositivo: %(message)s"
 
 #: ../liveusb/creator.py:774 ../liveusb/creator.py:916
 msgid "Unknown filesystem.  Your device may need to be reformatted."
@@ -490,7 +490,7 @@ msgstr "Desmontando '%(udi)s' no (s) '%(device)s'"
 #: ../liveusb/creator.py:832
 #, python-format
 msgid "Unmounting mounted filesystems on '%(device)s'"
-msgstr "Desmontando sistemas de arquivos montados em '%(device)s'"
+msgstr "Desmontando os sistemas de arquivos montados em '%(device)s'"
 
 #: ../liveusb/creator.py:902
 #, python-format
@@ -514,7 +514,7 @@ msgstr "Sistema de arquivos não autorizado: %s\nCaso você esteja tentando atua
 msgid ""
 "Unsupported filesystem: %s\n"
 "Please backup and format your USB key with the FAT filesystem."
-msgstr "Sistema de arquivos incompatível: %s\nPor favor, faça um backup e formate o seu pen drive USB com o sistema de arquivos FAT."
+msgstr "Sistema de arquivos incompatível: %s\nPor favor, faça um backup e formate o seu drive USB com o sistema de arquivos FAT."
 
 #: ../liveusb/creator.py:877
 #, python-format
@@ -535,11 +535,11 @@ msgstr "Examinando a soma de verificação do MD5 da imagem ISO"
 
 #: ../liveusb/creator.py:363
 msgid "Verifying SHA1 checksum of LiveCD image..."
-msgstr "Verificando o SHA1 da imagem do LiveCD..."
+msgstr "Verificando o SHA1 (Secure Hash Algorithm-1) da imagem do LiveCD..."
 
 #: ../liveusb/creator.py:367
 msgid "Verifying SHA256 checksum of LiveCD image..."
-msgstr "Verificando a soma de verificação do SHA256 da imagem do LiveCD..."
+msgstr "Examinando a soma de verificação do SHA256 (Secure Hash Algorithm-256) da imagem do LiveCD..."
 
 #: ../liveusb/creator.py:913 ../liveusb/creator.py:1234
 msgid "Verifying filesystem..."
