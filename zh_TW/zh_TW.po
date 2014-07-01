@@ -16,7 +16,7 @@ msgstr ""
 "Project-Id-Version: The Tor Project\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-05-28 16:00+0200\n"
-"PO-Revision-Date: 2014-07-01 08:41+0000\n"
+"PO-Revision-Date: 2014-07-01 09:15+0000\n"
 "Last-Translator: danfong <danfong.hsieh@gmail.com>\n"
 "Language-Team: Chinese (Taiwan) (http://www.transifex.com/projects/p/torproject/language/zh_TW/)\n"
 "MIME-Version: 1.0\n"
@@ -48,7 +48,7 @@ msgstr "%(vendor)s %(model)s (%(details)s) - %(device)s"
 #: ../liveusb/creator.py:1046
 #, python-format
 msgid "%s already bootable"
-msgstr "%s 已經是可開機的"
+msgstr "%s 已經可開機"
 
 #: ../liveusb/launcher_ui.py:165
 msgid ""
@@ -160,7 +160,7 @@ msgstr "正在下載 %s..."
 
 #: ../liveusb/creator.py:1146
 msgid "Drive is a loopback, skipping MBR reset"
-msgstr "磁碟是 loopback，跳過 MBR 設定"
+msgstr "磁碟回送，略過 MBR 重設"
 
 #: ../liveusb/creator.py:822
 #, python-format
@@ -225,7 +225,7 @@ msgstr "安裝已完成，按下「確定」關閉此程式。"
 
 #: ../liveusb/creator.py:942 ../liveusb/creator.py:1267
 msgid "Installing bootloader..."
-msgstr "安裝 bootloader ..."
+msgstr "正在安裝 bootloader..."
 
 #: ../liveusb/gui.py:270
 msgid "LiveUSB creation failed!"
@@ -245,7 +245,7 @@ msgstr "請確認您的 USB 磁碟已插入，並以 FAT 檔案系統進行格�
 #: ../liveusb/creator.py:844
 #, python-format
 msgid "Mount %s exists after unmounting"
-msgstr "卸載後 %s 掛載仍存在"
+msgstr "取消掛接後 %s 掛接仍存在"
 
 #: ../liveusb/gui.py:559
 #, python-format
@@ -254,7 +254,7 @@ msgstr "裝置 %(device)s 上的可用空間不足。"
 
 #: ../liveusb/creator.py:811
 msgid "No mount points found"
-msgstr "找不到掛載點"
+msgstr "找不到掛接點"
 
 #: ../liveusb/creator.py:400
 msgid "Not enough free space on device."
@@ -305,7 +305,7 @@ msgstr "移除現有的 Live OS"
 #: ../liveusb/creator.py:1140
 #, python-format
 msgid "Resetting Master Boot Record of %s"
-msgstr "重新設定 %s 的 MBR 主開機紀錄"
+msgstr "重設 %s 的 MBR 主開機紀錄"
 
 #: ../liveusb/gui.py:779
 msgid "Select Live ISO"
@@ -392,7 +392,7 @@ msgstr "嘗試直接繼續"
 #: ../liveusb/creator.py:937
 #, python-format
 msgid "Unable to change volume label: %(message)s"
-msgstr "無法改變 volume 標籤: %(message)s"
+msgstr "無法變更磁碟區標籤: %(message)s"
 
 #: ../liveusb/creator.py:487 ../liveusb/creator.py:498
 #, python-format
@@ -414,7 +414,7 @@ msgstr "無法找到任何有支援的設備"
 
 #: ../liveusb/creator.py:1066
 msgid "Unable to find partition"
-msgstr "無法找到分割區"
+msgstr "找不到分割區"
 
 #: ../liveusb/creator.py:1308
 msgid ""
@@ -428,7 +428,7 @@ msgstr "無法掛接裝置"
 #: ../liveusb/creator.py:799
 #, python-format
 msgid "Unable to mount device: %(message)s"
-msgstr "無法掛載設備: %(message)s"
+msgstr "無法掛接裝置: %(message)s"
 
 #: ../liveusb/creator.py:503
 #, python-format
@@ -443,7 +443,7 @@ msgstr "無法從先前的 LiveOS 移除檔案: %(message)s"
 #: ../liveusb/creator.py:1143
 msgid ""
 "Unable to reset MBR.  You may not have the `syslinux` package installed."
-msgstr "無法重設 MBR。您可能沒有安裝 `syslinux` 套件"
+msgstr "無法重設 MBR。您可能沒有安裝 `syslinux` 套件。"
 
 #: ../liveusb/gui.py:788
 msgid ""
@@ -454,7 +454,7 @@ msgstr "無法使用所選檔案，您可能會有更好的運氣，如果您將
 #: ../liveusb/creator.py:706
 #, python-format
 msgid "Unable to write on %(device)s, skipping."
-msgstr "無法寫入 %(device)s, 略過."
+msgstr "無法寫入 %(device)s，略過。"
 
 #: ../liveusb/creator.py:389
 msgid "Unknown ISO, skipping checksum verification"
@@ -463,11 +463,11 @@ msgstr "未知的 ISO，略過總和檢查碼驗證"
 #: ../liveusb/creator.py:795
 #, python-format
 msgid "Unknown dbus exception while trying to mount device: %(message)s"
-msgstr "掛載設備時發生未知的 dbus 例外: %(message)s"
+msgstr "掛接裝置時發生未知的 dbus 例外: %(message)s"
 
 #: ../liveusb/creator.py:774 ../liveusb/creator.py:916
 msgid "Unknown filesystem.  Your device may need to be reformatted."
-msgstr "未知的檔案系統。您的設備可能無法被重新格式化。"
+msgstr "未知的檔案系統。您的裝置可能需要重新格式化。"
 
 #: ../liveusb/gui.py:84
 #, python-format
@@ -580,7 +580,7 @@ msgstr "您正要升級 Tails 在 %(parent_size)s %(vendor)s %(model)s 設備 (%
 msgid ""
 "You are using an old version of syslinux-extlinux that does not support the "
 "ext4 filesystem"
-msgstr "您正在使用舊版 syslinux-extlinux ，不支援 ext4 檔案系統"
+msgstr "您正使用舊版 syslinux-extlinux，不支援 ext4 檔案系統"
 
 #: ../liveusb/gui.py:773
 msgid "You can try again to resume your download"
