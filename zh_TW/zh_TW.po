@@ -16,7 +16,7 @@ msgstr ""
 "Project-Id-Version: The Tor Project\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-05-28 16:00+0200\n"
-"PO-Revision-Date: 2014-06-30 16:41+0000\n"
+"PO-Revision-Date: 2014-07-01 08:41+0000\n"
 "Last-Translator: danfong <danfong.hsieh@gmail.com>\n"
 "Language-Team: Chinese (Taiwan) (http://www.transifex.com/projects/p/torproject/language/zh_TW/)\n"
 "MIME-Version: 1.0\n"
@@ -133,7 +133,7 @@ msgstr "複製\n&&\n升級"
 #: ../liveusb/creator.py:407
 #, python-format
 msgid "Creating %sMB persistent overlay"
-msgstr "新增 %sMB 永久覆蓋"
+msgstr "建立 %sMB 永久覆蓋"
 
 #: ../liveusb/gui.py:553
 msgid ""
@@ -181,7 +181,7 @@ msgstr "錯誤：無法設定標籤或取得裝置的 UUID，無法繼續。"
 msgid ""
 "Error: The SHA1 of your Live CD is invalid.  You can run this program with "
 "the --noverify argument to bypass this verification check."
-msgstr "錯誤：Live CD 的 SHA1 無效。您可以在執行這個程式時以 --noverify 引數來略過這項驗證檢查。"
+msgstr "錯誤：您 Live CD 的 SHA1 無效。您可以使用 --noverify 引數來執行此程式以略過此驗證檢查。"
 
 #: ../liveusb/creator.py:146
 msgid "Extracting live image to the target device..."
@@ -194,11 +194,11 @@ msgstr "將 %(device)s 格式化成 FAT32 格式"
 
 #: ../liveusb/creator.py:141
 msgid "ISO MD5 checksum passed"
-msgstr "ISO MD5 checksum 成功"
+msgstr "ISO MD5 總和檢查碼成功"
 
 #: ../liveusb/creator.py:139
 msgid "ISO MD5 checksum verification failed"
-msgstr "ISO MD5 checksum 驗證失敗"
+msgstr "ISO MD5 總和檢查碼驗證失敗"
 
 #: ../liveusb/dialog.py:165
 msgid ""
@@ -300,7 +300,7 @@ msgstr "移除 %(file)s"
 
 #: ../liveusb/creator.py:478
 msgid "Removing existing Live OS"
-msgstr "移除已存在的 Live OS"
+msgstr "移除現有的 Live OS"
 
 #: ../liveusb/creator.py:1140
 #, python-format
@@ -325,7 +325,7 @@ msgstr "目標設備 %(device)s 中一些分割區是被掛載的。他們必須
 #: ../liveusb/creator.py:132
 msgid ""
 "Source type does not support verification of ISO MD5 checksum, skipping"
-msgstr "該分數類型不提供 ISO MD5 checksum 驗證方式，略過。"
+msgstr "來源類型不支援 ISO MD5 總和檢查碼的驗證，略過"
 
 #: ../liveusb/creator.py:1174
 msgid "Synchronizing data on disk..."
@@ -352,7 +352,7 @@ msgstr "已選的檔案是不可取得的。請修復他的權限或是選擇另
 msgid ""
 "There was a problem executing the following command: `%(command)s`.\n"
 "A more detailed error log has been written to '%(filename)s'."
-msgstr "執行以下命令時發生問題：`%(command)s`。\n更詳細的錯誤記錄已被寫入到'%(filename)s'。"
+msgstr "執行下列命令時發生問題：`%(command)s`。\n更詳細的錯誤記錄已寫入到'%(filename)s'。"
 
 #: ../liveusb/dialog.py:160
 msgid ""
@@ -433,12 +433,12 @@ msgstr "無法掛載設備: %(message)s"
 #: ../liveusb/creator.py:503
 #, python-format
 msgid "Unable to remove directory from previous LiveOS: %(message)s"
-msgstr "無法從之前的 LiveOS 移除資料夾: %(message)s"
+msgstr "無法從先前的 LiveOS 移除目錄: %(message)s"
 
 #: ../liveusb/creator.py:491
 #, python-format
 msgid "Unable to remove file from previous LiveOS: %(message)s"
-msgstr "無法從之前的 LiveOS 移除檔案: %(message)s"
+msgstr "無法從先前的 LiveOS 移除檔案: %(message)s"
 
 #: ../liveusb/creator.py:1143
 msgid ""
@@ -458,7 +458,7 @@ msgstr "無法寫入 %(device)s, 略過."
 
 #: ../liveusb/creator.py:389
 msgid "Unknown ISO, skipping checksum verification"
-msgstr "未知的 ISO，跳過 checksum 驗證"
+msgstr "未知的 ISO，略過總和檢查碼驗證"
 
 #: ../liveusb/creator.py:795
 #, python-format
@@ -523,15 +523,15 @@ msgstr "使用已存在的 Live system ISO"
 
 #: ../liveusb/creator.py:134
 msgid "Verifying ISO MD5 checksum"
-msgstr "校驗 ISO MD5 checksum"
+msgstr "驗證 ISO MD5 總和檢查碼"
 
 #: ../liveusb/creator.py:363
 msgid "Verifying SHA1 checksum of LiveCD image..."
-msgstr "驗證 LiveCD 映像黨的 SHA1 checksum"
+msgstr "驗證 LiveCD 映像檔的 SHA1 總和檢查碼..."
 
 #: ../liveusb/creator.py:367
 msgid "Verifying SHA256 checksum of LiveCD image..."
-msgstr "驗證 LiveCD 映像黨的 SHA256 checksum"
+msgstr "驗證 LiveCD 映像檔的 SHA256 總和檢查碼..."
 
 #: ../liveusb/creator.py:913 ../liveusb/creator.py:1234
 msgid "Verifying filesystem..."
@@ -559,7 +559,7 @@ msgstr "警告：此工具需以系統管理員身分執行。請對圖示按滑
 #: ../liveusb/creator.py:153
 #, python-format
 msgid "Wrote to device at %(speed)d MB/sec"
-msgstr "以 %(speed)d MB/sec 的速度寫入設備"
+msgstr "以 %(speed)d MB/秒 的速度寫入裝置"
 
 #: ../liveusb/gui.py:689
 #, python-format
@@ -588,7 +588,7 @@ msgstr "您可再次嘗試來繼續您的下載"
 
 #: ../liveusb/creator.py:93
 msgid "You must run this application as root"
-msgstr "你必須以root身份執行此應用程式"
+msgstr "你必須以 root 身份執行此應用程式"
 
 #: ../liveusb/dialog.py:164
 msgid "or"
