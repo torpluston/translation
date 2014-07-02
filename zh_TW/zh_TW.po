@@ -11,8 +11,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: The Tor Project\n"
 "Report-Msgid-Bugs-To: Tails developers <tails@boum.org>\n"
-"POT-Creation-Date: 2014-05-28 22:46+0200\n"
-"PO-Revision-Date: 2014-07-02 09:44+0000\n"
+"POT-Creation-Date: 2014-07-01 22:15+0200\n"
+"PO-Revision-Date: 2014-07-02 10:13+0000\n"
 "Last-Translator: danfong <danfong.hsieh@gmail.com>\n"
 "Language-Team: Chinese (Taiwan) (http://www.transifex.com/projects/p/torproject/language/zh_TW/)\n"
 "MIME-Version: 1.0\n"
@@ -91,7 +91,7 @@ msgstr "印表機"
 
 #: ../lib/Tails/Persistence/Configuration/Presets.pm:130
 msgid "Printers configuration"
-msgstr "印表機配置"
+msgstr "印表機設定"
 
 #: ../lib/Tails/Persistence/Configuration/Presets.pm:138
 msgid "APT Packages"
@@ -122,80 +122,80 @@ msgstr "`dotfiles' 目錄中找到的每個檔案或目錄 Symlink 到 $HOME "
 msgid "Setup Tails persistent volume"
 msgstr "設定 Tails 永久性磁碟區"
 
-#: ../lib/Tails/Persistence/Setup.pm:337
+#: ../lib/Tails/Persistence/Setup.pm:307 ../lib/Tails/Persistence/Setup.pm:452
+msgid "Error"
+msgstr "錯誤"
+
+#: ../lib/Tails/Persistence/Setup.pm:339
 #, perl-format
 msgid "Device %s already has a persistent volume."
 msgstr "裝置 %s 已有永久性磁碟區。"
 
-#: ../lib/Tails/Persistence/Setup.pm:345
+#: ../lib/Tails/Persistence/Setup.pm:347
 #, perl-format
 msgid "Device %s has not enough unallocated space."
 msgstr "裝置 %s 沒有足夠的未配置空間。"
 
-#: ../lib/Tails/Persistence/Setup.pm:353 ../lib/Tails/Persistence/Setup.pm:367
+#: ../lib/Tails/Persistence/Setup.pm:355 ../lib/Tails/Persistence/Setup.pm:369
 #, perl-format
 msgid "Device %s has no persistent volume."
 msgstr "裝置 %s 沒有永久性磁碟區。"
 
-#: ../lib/Tails/Persistence/Setup.pm:359
+#: ../lib/Tails/Persistence/Setup.pm:361
 msgid ""
 "Cannot delete the persistent volume while in use. You should restart Tails "
 "without persistence."
 msgstr "使用中無法刪除永久性磁碟區。您必須重新啟動 Tails 並不使用 永久性磁碟區。"
 
-#: ../lib/Tails/Persistence/Setup.pm:378
+#: ../lib/Tails/Persistence/Setup.pm:380
 msgid "Persistence volume is not unlocked."
 msgstr "永久性磁碟區沒有被解除鎖定。"
 
-#: ../lib/Tails/Persistence/Setup.pm:383
+#: ../lib/Tails/Persistence/Setup.pm:385
 msgid "Persistence volume is not mounted."
 msgstr "永久性磁碟區沒有被掛接。"
 
-#: ../lib/Tails/Persistence/Setup.pm:388
+#: ../lib/Tails/Persistence/Setup.pm:390
 msgid "Persistence volume is not readable. Permissions or ownership problems?"
 msgstr "無法讀取永久性磁碟區，權限或是擁有權問題?"
 
-#: ../lib/Tails/Persistence/Setup.pm:393
+#: ../lib/Tails/Persistence/Setup.pm:395
 msgid "Persistence volume is not writable. Maybe it was mounted read-only?"
 msgstr "永久性磁碟區無法寫入。也許它被掛接成唯讀?"
 
-#: ../lib/Tails/Persistence/Setup.pm:402
+#: ../lib/Tails/Persistence/Setup.pm:404
 #, perl-format
 msgid "Tails is running from non-USB / non-SDIO device %s."
-msgstr "Tails 正從非 USB / 非 SDIO 設備 %s 執行。"
+msgstr "Tails 正從非 USB / 非 SDIO 裝置 %s 執行。"
 
-#: ../lib/Tails/Persistence/Setup.pm:408
+#: ../lib/Tails/Persistence/Setup.pm:410
 #, perl-format
 msgid "Device %s is optical."
 msgstr "裝置 %s 是可選的。"
 
-#: ../lib/Tails/Persistence/Setup.pm:415
+#: ../lib/Tails/Persistence/Setup.pm:417
 #, perl-format
 msgid "Device %s was not created using Tails Installer."
-msgstr "裝置 %s 不是用 Tails Installer 安裝的。"
+msgstr "裝置 %s 不是用 Tails 安裝程式安裝。"
 
-#: ../lib/Tails/Persistence/Setup.pm:450
-msgid "Error"
-msgstr "錯誤"
-
-#: ../lib/Tails/Persistence/Setup.pm:670
+#: ../lib/Tails/Persistence/Setup.pm:677
 msgid "Persistence wizard - Finished"
-msgstr "永久精靈 - 已完成"
+msgstr "永久性精靈 - 已完成"
 
-#: ../lib/Tails/Persistence/Setup.pm:673
+#: ../lib/Tails/Persistence/Setup.pm:680
 msgid ""
 "Any changes you have made will only take effect after restarting Tails.\n"
 "\n"
 "You may now close this application."
-msgstr "所以您作過的改變都將在重新啟動 Tails 後生效。\n\n您現在可以關閉這個應用程式了。"
+msgstr "您所作的任何變更都將在重新啟動 Tails 後生效。\n\n您現在可以關閉此應用程式。"
 
 #: ../lib/Tails/Persistence/Step/Bootstrap.pm:54
 msgid "Persistence wizard - Persistent volume creation"
-msgstr "永久精靈 - 建立永久儲存空間"
+msgstr "永久性精靈 - 建立永久性磁碟區"
 
 #: ../lib/Tails/Persistence/Step/Bootstrap.pm:57
 msgid "Choose a passphrase to protect the persistent volume"
-msgstr "請選擇一個通關密與來保護永久儲存空間"
+msgstr "請選擇一個複雜密碼來保護永久性磁碟區"
 
 #. TRANSLATORS: size, device vendor, device model
 #: ../lib/Tails/Persistence/Step/Bootstrap.pm:61
@@ -203,7 +203,7 @@ msgstr "請選擇一個通關密與來保護永久儲存空間"
 msgid ""
 "A %s persistent volume will be created on the <b>%s %s</b> device. Data on "
 "this volume will be stored in an encrypted form protected by a passphrase."
-msgstr "一個永久儲存空間 %s 將會被建立在 <b>%s %s</b> 設備上。在這個儲存空間的資料將會被透過通關密與並w加密保護。"
+msgstr "一個永久性磁碟區 %s 將會被建立在 <b>%s %s</b> 裝置上。在此磁碟區上的資料將會儲存在已加密的表單，使用複雜密碼保護。"
 
 #: ../lib/Tails/Persistence/Step/Bootstrap.pm:66
 msgid "Create"
@@ -215,24 +215,24 @@ msgid ""
 "understood. Tails can't help you if you use it wrong! See <a "
 "href='file:///usr/share/doc/tails/website/doc/first_steps/persistence.en.html'>Tails"
 " documentation about persistence</a> to learn more."
-msgstr "<b>小心！</b> 使用永久設定表示您已經完全了解。Tails 無法替您錯誤的使用方式有任何幫助。請參閱  <a href='file:///usr/share/doc/tails/website/doc/first_steps/persistence.en.html'>Tails 文件 - 關於永久設定</a> 來了解更多。"
+msgstr "<b>小心!</b>使用持久性有必須好好了解的後果。如果您用錯了，Tails 無法幫您。請參閱  <a href='file:///usr/share/doc/tails/website/doc/first_steps/persistence.en.html'>與永久性有關的 Tails 文件</a> 來了解更多。"
 
 #: ../lib/Tails/Persistence/Step/Bootstrap.pm:144
 msgid "Passphrase:"
-msgstr "密碼："
+msgstr "複雜密碼:"
 
 #: ../lib/Tails/Persistence/Step/Bootstrap.pm:154
 msgid "Verify Passphrase:"
-msgstr "確認密碼："
+msgstr "確認複雜密碼："
 
 #: ../lib/Tails/Persistence/Step/Bootstrap.pm:167
 #: ../lib/Tails/Persistence/Step/Bootstrap.pm:231
 msgid "Passphrase can't be empty"
-msgstr "密碼不能為空"
+msgstr "複雜密碼不能為空"
 
 #: ../lib/Tails/Persistence/Step/Bootstrap.pm:222
 msgid "Passphrases do not match"
-msgstr "密碼不相符"
+msgstr "複雜密碼不符"
 
 #: ../lib/Tails/Persistence/Step/Bootstrap.pm:262
 #: ../lib/Tails/Persistence/Step/Configure.pm:129
@@ -241,19 +241,19 @@ msgstr "失敗"
 
 #: ../lib/Tails/Persistence/Step/Bootstrap.pm:271
 msgid "Mounting Tails persistence partition."
-msgstr "掛載 Tails 永久分割區。"
+msgstr "掛接 Tails 永久性分割區。"
 
 #: ../lib/Tails/Persistence/Step/Bootstrap.pm:274
 msgid "The Tails persistence partition will be mounted."
-msgstr "此 Tails 永久分割區將會被掛載。"
+msgstr "Tails 永久性分割區將會被掛接。"
 
 #: ../lib/Tails/Persistence/Step/Bootstrap.pm:283
 msgid "Correcting permissions of the persistent volume."
-msgstr "更正永久儲存空間權限。"
+msgstr "修正永久性磁碟區的權限。"
 
 #: ../lib/Tails/Persistence/Step/Bootstrap.pm:286
 msgid "The permissions of the persistent volume will be corrected."
-msgstr "永久儲存空間的權限已被更正。"
+msgstr "永久性磁碟區的權限將被修正。"
 
 #: ../lib/Tails/Persistence/Step/Bootstrap.pm:308
 msgid "Creating..."
@@ -261,15 +261,15 @@ msgstr "建立中..."
 
 #: ../lib/Tails/Persistence/Step/Bootstrap.pm:311
 msgid "Creating the persistent volume..."
-msgstr "建立永久儲存空間..."
+msgstr "正在建立永久性磁碟區..."
 
 #: ../lib/Tails/Persistence/Step/Configure.pm:61
 msgid "Persistence wizard - Persistent volume configuration"
-msgstr "永久精靈 - 永久儲存空間設定"
+msgstr "永久性精靈 - 永久性磁碟區設定"
 
 #: ../lib/Tails/Persistence/Step/Configure.pm:64
 msgid "Specify the files that will be saved in the persistent volume"
-msgstr "指定會被儲存在永久儲存空間的檔案"
+msgstr "指定將儲存在永久性磁碟區內的檔案"
 
 #. TRANSLATORS: partition, size, device vendor, device model
 #: ../lib/Tails/Persistence/Step/Configure.pm:68
@@ -277,7 +277,7 @@ msgstr "指定會被儲存在永久儲存空間的檔案"
 msgid ""
 "The selected files will be stored in the encrypted partition %s (%s), on the"
 " <b>%s %s</b> device."
-msgstr "選擇的檔案將會被儲存在加密分割區 %s (%s), 在 <b>%s %s</b> 裝置上。"
+msgstr "所選檔案將被儲存在已加密的分割區 %s (%s)，在 <b>%s %s</b> 裝置上。"
 
 #: ../lib/Tails/Persistence/Step/Configure.pm:74
 msgid "Save"
@@ -289,21 +289,21 @@ msgstr "儲存中..."
 
 #: ../lib/Tails/Persistence/Step/Configure.pm:146
 msgid "Saving persistence configuration..."
-msgstr "保存永久設定..."
+msgstr "正在保存永久性設定..."
 
 #: ../lib/Tails/Persistence/Step/Delete.pm:41
 msgid "Persistence wizard - Persistent volume deletion"
-msgstr "永久精靈 - 刪除永久儲存空間"
+msgstr "永久性精靈 - 刪除永久性磁碟區"
 
 #: ../lib/Tails/Persistence/Step/Delete.pm:44
 msgid "Your persistent data will be deleted."
-msgstr "您的永久資料將會被刪除。"
+msgstr "您的永久性資料將會被刪除。"
 
 #: ../lib/Tails/Persistence/Step/Delete.pm:48
 #, perl-format
 msgid ""
 "The persistent volume %s (%s), on the <b>%s %s</b> device, will be deleted."
-msgstr "永久儲存空間 %s (%s), 在 <b>%s %s</b> 設備上將會被刪除。"
+msgstr "永久性磁碟區 %s (%s)，在 <b>%s %s</b> 裝置上，將會被刪除。"
 
 #: ../lib/Tails/Persistence/Step/Delete.pm:54
 msgid "Delete"
@@ -315,4 +315,4 @@ msgstr "刪除中..."
 
 #: ../lib/Tails/Persistence/Step/Delete.pm:104
 msgid "Deleting the persistent volume..."
-msgstr "刪除永久儲存空間..."
+msgstr "正在刪除永久性磁碟區..."
