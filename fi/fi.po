@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: The Tor Project\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-07-01 22:11+0200\n"
-"PO-Revision-Date: 2014-07-04 19:15+0000\n"
+"PO-Revision-Date: 2014-07-04 19:43+0000\n"
 "Last-Translator: karvjorm <karvonen.jorma@gmail.com>\n"
 "Language-Team: Finnish (http://www.transifex.com/projects/p/torproject/language/fi/)\n"
 "MIME-Version: 1.0\n"
@@ -63,7 +63,7 @@ msgid ""
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:'Sans Serif'; font-size:11pt; font-weight:400; font-style:normal;\">\n"
 "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-size:11pt;\">Copy the running Tails onto a USB stick or SD card. All data on the target drive will be lost.</span></p></body></html>"
-msgstr "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\"> <html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\"> p, li { white-space: pre-wrap; } </style></head><body style=\" font-family:'Sans Serif'; font-size:11pt; font-weight:400; font-style:normal;\"> <p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-size:10pt;\">Kopioi käytössä oleva Tails USB-tikulle tai SD-kortille. Kaikki laitteen tieto häviää.</span></p></body></html>"
+msgstr "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\"> <html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\"> p, li { white-space: pre-wrap; } </style></head><body style=\" font-family:'Sans Serif'; font-size:11pt; font-weight:400; font-style:normal;\"> <p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-size:10pt;\">Kopioi käytössä oleva Tails USB-tikulle tai SD-kortille. Kaikki kopiointikohteen tieto häviää.</span></p></body></html>"
 
 #: ../liveusb/launcher_ui.py:153
 msgid ""
@@ -97,7 +97,7 @@ msgid ""
 "will be able to store data and make permanent modifications to your live "
 "operating system.  Without it, you will not be able to save data that will "
 "persist after a reboot."
-msgstr "Jos varaat USB-tikulta vapaata tilaa pysyvää tallennustilaa varten, voit tallettaa tietoa ja muokata pysyvästi live-käyttöjärjestelmääsi. Jos pysyvää tallennustilaa ei ole, tallentamasi tiedot eivät säily uudelleen käynnistyksen jälkeen."
+msgstr "Jos varaat USB-tikulta vapaata tilaa pysyvää tallennustilaa varten, voit tallettaa tietoa ja muokata pysyvästi live-käyttöjärjestelmääsi. Jos pysyvää tallennustilaa ei ole, tallentamasi tiedot eivät säily uudelleenkäynnistyksen jälkeen."
 
 #: ../liveusb/creator.py:1146 ../liveusb/creator.py:1409
 #, python-format
@@ -162,7 +162,7 @@ msgstr "Levy on loopback-laite: ohitetaan MBR:n palautus"
 #: ../liveusb/creator.py:827
 #, python-format
 msgid "Entering unmount_device for '%(device)s'"
-msgstr "Suoritetaan unmount_device laitteelle '%(device)s'"
+msgstr "Suoritetaan unmount_device laitteelle ’%(device)s’"
 
 #: ../liveusb/creator.py:1222
 msgid "Error probing device"
@@ -232,7 +232,7 @@ msgstr "LiveUSB:n luominen epäonnistui!"
 msgid ""
 "Make sure to extract the entire liveusb-creator zip file before running this"
 " program."
-msgstr "Huolehdi, että purat kokonaisuudessaan liveusb-creatorin zip -tiedoston ennen kuin ajat tämän ohjelman."
+msgstr "Huolehdi, että purat kokonaisuudessaan liveusb-creatorin zip -tiedoston ennen kuin suoritat tämän ohjelman."
 
 #: ../liveusb/creator.py:1234
 msgid ""
@@ -268,7 +268,7 @@ msgstr "Levyjärjestelmänä on FAT32; rajoitetaan levyn koko 4 Gt:un."
 #: ../liveusb/creator.py:228 ../liveusb/creator.py:856
 #, python-format
 msgid "Partitioning device %(device)s"
-msgstr "Partitioidaan laitetta %(device)s"
+msgstr "Osioidaan laitetta %(device)s"
 
 #: ../liveusb/gui.py:605
 msgid "Persistent Storage"
@@ -302,7 +302,7 @@ msgstr "Poistetaan nykyinen Live-käyttöjärjestelmä"
 #: ../liveusb/creator.py:1136
 #, python-format
 msgid "Resetting Master Boot Record of %s"
-msgstr "Palautetaan %s:n oletusarvot"
+msgstr "Palautetaan %s:n Master-käynnistystietue (MBR)"
 
 #: ../liveusb/gui.py:758
 msgid "Select Live ISO"
@@ -350,7 +350,7 @@ msgid ""
 "This button allows you to browse for an existing Live system ISO that you "
 "have previously downloaded.  If you do not select one, a release will be "
 "downloaded for you automatically."
-msgstr "Tästä napista voit selata Live-levykuvia, jotka on tallennettu koneellesi. Jos et valitse levykuvaa, julkaisu ladataan sinulle automaattisesti."
+msgstr "Tästä painikkeesta voit selata Live-levykuvia, jotka on tallennettu koneellesi. Jos et valitse levykuvaa, julkaisu ladataan sinulle automaattisesti."
 
 #: ../liveusb/dialog.py:164
 msgid ""
@@ -358,7 +358,7 @@ msgid ""
 "optionally downloading a release (if an existing one wasn't selected),  "
 "extracting the ISO to the USB device, creating the persistent overlay, and "
 "installing the bootloader."
-msgstr "Tästä napista aloitetaan Live-USB:n valmistus. Valmistuksessa ladataan julkaisu, jos olemassaolevaa levykuvaa ei valita, puretaan ISO-levykuva USB-laitteelle, luodaan laitteelle pysyvä tallennustila ja asennetaan alkulatausohjelma."
+msgstr "Tästä painikkeesta aloitetaan Live-USB:n valmistus. Valmistuksessa ladataan julkaisu (jos olemassaolevaa levykuvaa ei valita), puretaan ISO-levykuva USB-laitteelle, luodaan laitteelle pysyvä tallennustila ja asennetaan alkulatausohjelma."
 
 #: ../liveusb/dialog.py:158
 msgid ""
@@ -370,7 +370,7 @@ msgstr "Tämä on USB-tikku, jolle haluat asentaa Live-käyttöjärjestelmän. L
 msgid ""
 "This is the progress bar that will indicate how far along in the LiveUSB "
 "creation process you are"
-msgstr "Tämä on edistymisen ilmaisin, joka kertoo, kuinka pitkällä LiveUSB:n luonti on."
+msgstr "Tämä on edistymisen ilmaisin, joka kertoo, kuinka pitkällä LiveUSB:n luonti on"
 
 #: ../liveusb/dialog.py:162
 msgid "This is the status console, where all messages get written to."
@@ -378,12 +378,12 @@ msgstr "Tämä on tilakonsoli, jonne kaikki viestit kirjoitetaan."
 
 #: ../liveusb/creator.py:910
 msgid "Trying to continue anyway."
-msgstr "Yritetään jatkaa jokatapauksessa."
+msgstr "Yritetään silti jatkaa."
 
 #: ../liveusb/creator.py:942
 #, python-format
 msgid "Unable to change volume label: %(message)s"
-msgstr "Taltion nimiötä ei voida muuttaa: %(message)s"
+msgstr "Taltion nimiön muuttaminen epäonnistui: %(message)s"
 
 #: ../liveusb/creator.py:492 ../liveusb/creator.py:503
 #, python-format
@@ -410,7 +410,7 @@ msgstr "Osiota ei löydy"
 #: ../liveusb/creator.py:1304
 msgid ""
 "Unable to get Win32_LogicalDisk; win32com query did not return any results"
-msgstr "Win32_LogicalDisk ei ole saatavissa; win32com -kysely ei tuottanut tuloksia."
+msgstr "Win32_LogicalDisk ei ole saatavissa; win32com -kysely ei tuottanut tuloksia"
 
 #: ../liveusb/gui.py:660
 msgid "Unable to mount device"
@@ -419,7 +419,7 @@ msgstr "Laitteen liittäminen epäonnistui"
 #: ../liveusb/creator.py:804
 #, python-format
 msgid "Unable to mount device: %(message)s"
-msgstr "Laitetta ei voida liittää: %(message)s"
+msgstr "Laitteen liittäminen epäonnistui: %(message)s"
 
 #: ../liveusb/creator.py:508
 #, python-format
@@ -434,7 +434,7 @@ msgstr "Edellisen Live-käyttöjärjestelmän tiedostoa ei voi poistaa: %(messag
 #: ../liveusb/creator.py:1139
 msgid ""
 "Unable to reset MBR.  You may not have the `syslinux` package installed."
-msgstr "MBR:ää ei voitu palauttaa. Pakettia syslinux ei ehkä ole asennettu."
+msgstr "MBR:ää ei voitu palauttaa. Pakettia ’syslinux’ ei ehkä ole asennettu."
 
 #: ../liveusb/gui.py:767
 msgid ""
@@ -468,17 +468,17 @@ msgstr "Tuntematon julkaisu: %s"
 #: ../liveusb/creator.py:841
 #, python-format
 msgid "Unmounting '%(udi)s' on '%(device)s'"
-msgstr "Irrotetaan '%(udi)s' laitteelta '%(device)s'"
+msgstr "Irrotetaan ’%(udi)s’ laitteelta ’%(device)s’"
 
 #: ../liveusb/creator.py:837
 #, python-format
 msgid "Unmounting mounted filesystems on '%(device)s'"
-msgstr "Irrotetaan liitetty tiedostojärjestelmä laitteelta '%(device)s'"
+msgstr "Irrotetaan liitetty tiedostojärjestelmä laitteelta ’%(device)s’"
 
 #: ../liveusb/creator.py:907
 #, python-format
 msgid "Unsupported device '%(device)s', please report a bug."
-msgstr "Laitetta ei tueta '%(device)s', raportoi virheestä."
+msgstr "Laitetta ’%(device)s’ ei tueta, ilmoita virheestä."
 
 #: ../liveusb/creator.py:784 ../liveusb/creator.py:924
 #, python-format
@@ -502,7 +502,7 @@ msgstr "Tiedostojärjestelmää ei tueta: %s\nTee varmuuskopiot ja alusta USB-ti
 #: ../liveusb/creator.py:882
 #, python-format
 msgid "Updating properties of system partition %(system_partition)s"
-msgstr ""
+msgstr "Päivitetään järjestelmäosion %(system_partition)s ominaisuuksia"
 
 #: ../liveusb/launcher_ui.py:154
 msgid "Upgrade from ISO"
@@ -531,7 +531,7 @@ msgstr "Tarkistetaan tiedostojärjestelmää..."
 #: ../liveusb/gui.py:694
 msgid ""
 "Warning: Creating a new persistent overlay will delete your existing one."
-msgstr "Varoitus: Uuden pysyvän peitteen luominen tuhoaa nykyisen."
+msgstr "Varoitus: Uuden pysyvän tallennustilan luominen tuhoaa nykyisen."
 
 #: ../liveusb/gui.py:376
 msgid ""
