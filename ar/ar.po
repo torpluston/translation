@@ -3,7 +3,8 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
-# kraim <7kraim@gmail.com>, 2013
+# kraim <biskraim@gmail.com>, 2013
+# 0xidz <ghoucine@gmail.com>, 2014
 # alshara3 <hsn.ali91@gmail.com>, 2013
 # alshara3 <hsn.ali91@gmail.com>, 2013
 # Mohammed ALDOUB <voulnet@gmail.com>, 2013
@@ -12,9 +13,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: The Tor Project\n"
 "Report-Msgid-Bugs-To: Tails developers <tails@boum.org>\n"
-"POT-Creation-Date: 2013-11-07 16:37+0100\n"
-"PO-Revision-Date: 2013-11-15 09:19+0000\n"
-"Last-Translator: runasand <runa.sandvik@gmail.com>\n"
+"POT-Creation-Date: 2014-07-01 22:15+0200\n"
+"PO-Revision-Date: 2014-07-04 14:11+0000\n"
+"Last-Translator: 0xidz <ghoucine@gmail.com>\n"
 "Language-Team: Arabic (http://www.transifex.com/projects/p/torproject/language/ar/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -92,7 +93,7 @@ msgstr "  الطابعات"
 
 #: ../lib/Tails/Persistence/Configuration/Presets.pm:130
 msgid "Printers configuration"
-msgstr "إعدادات الطابعات"
+msgstr "إعدادات  الطابعات"
 
 #: ../lib/Tails/Persistence/Configuration/Presets.pm:138
 msgid "APT Packages"
@@ -123,67 +124,67 @@ msgstr "Symlink into $HOME every file or directory found in the `dotfiles' direc
 msgid "Setup Tails persistent volume"
 msgstr "اعداد قرص دائم لتيلز"
 
-#: ../lib/Tails/Persistence/Setup.pm:331
+#: ../lib/Tails/Persistence/Setup.pm:307 ../lib/Tails/Persistence/Setup.pm:452
+msgid "Error"
+msgstr "خطأ"
+
+#: ../lib/Tails/Persistence/Setup.pm:339
 #, perl-format
 msgid "Device %s already has a persistent volume."
 msgstr "جهاز %s به قرص دائم اصلاً"
 
-#: ../lib/Tails/Persistence/Setup.pm:339
+#: ../lib/Tails/Persistence/Setup.pm:347
 #, perl-format
 msgid "Device %s has not enough unallocated space."
 msgstr "جهاز %s لا يوجد به مساحة فارغة كافية."
 
-#: ../lib/Tails/Persistence/Setup.pm:347 ../lib/Tails/Persistence/Setup.pm:361
+#: ../lib/Tails/Persistence/Setup.pm:355 ../lib/Tails/Persistence/Setup.pm:369
 #, perl-format
 msgid "Device %s has no persistent volume."
 msgstr "جهاز %s لا يوجد به قرص دائم."
 
-#: ../lib/Tails/Persistence/Setup.pm:353
+#: ../lib/Tails/Persistence/Setup.pm:361
 msgid ""
 "Cannot delete the persistent volume while in use. You should restart Tails "
 "without persistence."
 msgstr "لا يمكن إلغاء القرص الدائم اثناء الاستخدام. يجب عليك اعدة تشغيل تايلز دون دوام."
 
-#: ../lib/Tails/Persistence/Setup.pm:372
+#: ../lib/Tails/Persistence/Setup.pm:380
 msgid "Persistence volume is not unlocked."
 msgstr "القرص الدائم مقفل."
 
-#: ../lib/Tails/Persistence/Setup.pm:377
+#: ../lib/Tails/Persistence/Setup.pm:385
 msgid "Persistence volume is not mounted."
 msgstr "القرص الدائم غير مثبت."
 
-#: ../lib/Tails/Persistence/Setup.pm:382
+#: ../lib/Tails/Persistence/Setup.pm:390
 msgid "Persistence volume is not readable. Permissions or ownership problems?"
 msgstr "القرص الدائم غير قابل للقراءة. مشاكل في الصلاحيات او الملكية؟"
 
-#: ../lib/Tails/Persistence/Setup.pm:387
+#: ../lib/Tails/Persistence/Setup.pm:395
 msgid "Persistence volume is not writable. Maybe it was mounted read-only?"
 msgstr "غير قادر علي الكتابة علي القرص الدائم. ربما تم تثبيته للقراءة فقط؟"
 
-#: ../lib/Tails/Persistence/Setup.pm:396
+#: ../lib/Tails/Persistence/Setup.pm:404
 #, perl-format
 msgid "Tails is running from non-USB / non-SDIO device %s."
-msgstr "تيلز لا يعمل علي جهاز USB %s."
+msgstr "تيلز مشغل على تجهيزة %s ليست USB أو SDIO"
 
-#: ../lib/Tails/Persistence/Setup.pm:402
+#: ../lib/Tails/Persistence/Setup.pm:410
 #, perl-format
 msgid "Device %s is optical."
 msgstr "جهاز %s غير ضوئي"
 
-#: ../lib/Tails/Persistence/Setup.pm:409
+#: ../lib/Tails/Persistence/Setup.pm:417
 #, perl-format
-msgid "Device %s was not created using Tails USB installer."
-msgstr "جهاز %s لم يتم إنشائه باستخدام مثبت تايلز الخاص بالـUSB"
+msgid "Device %s was not created using Tails Installer."
+msgstr "التجهيزة %s لم يتم إنشائها بمثبت تيلز"
 
-#: ../lib/Tails/Persistence/Setup.pm:444
-msgid "Error"
-msgstr "خطأ"
-
-#: ../lib/Tails/Persistence/Setup.pm:680
+#: ../lib/Tails/Persistence/Setup.pm:677
 msgid "Persistence wizard - Finished"
 msgstr "مساعد التثبيت الدائم - انتهاء"
 
-#: ../lib/Tails/Persistence/Setup.pm:683
+#: ../lib/Tails/Persistence/Setup.pm:680
 msgid ""
 "Any changes you have made will only take effect after restarting Tails.\n"
 "\n"
@@ -292,28 +293,28 @@ msgstr "جاري الحفظ..."
 msgid "Saving persistence configuration..."
 msgstr "جاري حفظ تكوين القرص الدائم..."
 
-#: ../lib/Tails/Persistence/Step/Delete.pm:40
+#: ../lib/Tails/Persistence/Step/Delete.pm:41
 msgid "Persistence wizard - Persistent volume deletion"
 msgstr "مساعد القرص الدائم - إلغاء القرص الدائم "
 
-#: ../lib/Tails/Persistence/Step/Delete.pm:43
+#: ../lib/Tails/Persistence/Step/Delete.pm:44
 msgid "Your persistent data will be deleted."
 msgstr "بياناتك الدائمة سوف يتم إلغائها."
 
-#: ../lib/Tails/Persistence/Step/Delete.pm:47
+#: ../lib/Tails/Persistence/Step/Delete.pm:48
 #, perl-format
 msgid ""
 "The persistent volume %s (%s), on the <b>%s %s</b> device, will be deleted."
 msgstr "القرص الدائم  %s (%s), على جهاز  <b>%s %s</b> , سيتم مسحه."
 
-#: ../lib/Tails/Persistence/Step/Delete.pm:53
+#: ../lib/Tails/Persistence/Step/Delete.pm:54
 msgid "Delete"
 msgstr "إلغاء"
 
-#: ../lib/Tails/Persistence/Step/Delete.pm:91
+#: ../lib/Tails/Persistence/Step/Delete.pm:101
 msgid "Deleting..."
 msgstr "جاري الإلغاء..."
 
-#: ../lib/Tails/Persistence/Step/Delete.pm:94
+#: ../lib/Tails/Persistence/Step/Delete.pm:104
 msgid "Deleting the persistent volume..."
 msgstr "جاري إلغاء القرص الدائم..."
