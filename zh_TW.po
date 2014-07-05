@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: The Tor Project\n"
 "Report-Msgid-Bugs-To: Tails developers <tails@boum.org>\n"
 "POT-Creation-Date: 2014-06-24 11:44+0200\n"
-"PO-Revision-Date: 2014-07-05 08:15+0000\n"
+"PO-Revision-Date: 2014-07-05 08:39+0000\n"
 "Last-Translator: danfong <danfong.hsieh@gmail.com>\n"
 "Language-Team: Chinese (Taiwan) (http://www.transifex.com/projects/p/torproject/language/zh_TW/)\n"
 "MIME-Version: 1.0\n"
@@ -22,11 +22,11 @@ msgstr ""
 #: ../lib/Tails/IUK/Frontend.pm:146 ../lib/Tails/IUK/Frontend.pm:523
 #: ../lib/Tails/IUK/Frontend.pm:667
 msgid "For debugging information, see /home/amnesia/.xsession-errors"
-msgstr "要找 debugging information ，請看 /home/amnesia/.xsession-errors"
+msgstr "偵錯資訊，請參閱 /home/amnesia/.xsession-errors"
 
 #: ../lib/Tails/IUK/Frontend.pm:216
 msgid "Error while checking for upgrades"
-msgstr "當檢查更新時發生錯誤"
+msgstr "檢查升級時發生錯誤"
 
 #: ../lib/Tails/IUK/Frontend.pm:219
 msgid ""
@@ -35,32 +35,32 @@ msgid ""
 "Check your network connection, and restart Tails to try upgrading again.\n"
 "\n"
 "If the problem persists, go to file:///usr/share/doc/tails/website/doc/upgrade/error/check.en.html"
-msgstr "<b>無法從我們的網頁確認是否有可用更新</b>\n\n請檢查您的網路連線，並重新啟動 Tails 後再次嘗試升級。\n\n如果問題持續存在，請找檔案 file:///usr/share/doc/tails/website/doc/upgrade/error/check.en.html"
+msgstr "<b>無法從我們的網頁確認是否有升級可用。</b>\n\n請檢查您的網路連線，然後將 Tails 重新啟動後再次嘗試升級。\n\n如果問題仍然存在，請前往 file:///usr/share/doc/tails/website/doc/upgrade/error/check.en.html"
 
 #: ../lib/Tails/IUK/Frontend.pm:234
 msgid "no automatic upgrade is available from our website for this version"
-msgstr "此版本從我們的網站上沒有可用的自動更新。"
+msgstr "此版本從我們的網站沒有自動升級可用。"
 
 #: ../lib/Tails/IUK/Frontend.pm:240
 msgid "your device was not created using Tails Installer"
-msgstr "您的設備不是用 Tails Installer 安裝的"
+msgstr "您的裝置不是使用 Tails Installer 安裝程式建立"
 
 #: ../lib/Tails/IUK/Frontend.pm:245
 msgid "Tails was started from a DVD or a read-only device"
-msgstr "Tails 是從 DVD 或是唯獨設備中啟動的"
+msgstr "Tails 是從 DVD 或唯讀裝置啟動"
 
 #: ../lib/Tails/IUK/Frontend.pm:250
 msgid "there is not enough free space on the Tails system partition"
-msgstr "Tails 系統分割區的可用空間不足"
+msgstr "Tails 系統分割區上的可用空間不足"
 
 #: ../lib/Tails/IUK/Frontend.pm:255
 msgid "not enough memory is available on this system"
-msgstr "這個系統中沒有足夠的記憶體"
+msgstr "此系統上沒有足夠的記憶體可用"
 
 #: ../lib/Tails/IUK/Frontend.pm:261
 #, perl-brace-format
 msgid "No explanation available for reason '%{reason}s'."
-msgstr "沒有解釋的理由 '%{reason}s'"
+msgstr "沒有可用的解釋理由 '%{reason}s'"
 
 #: ../lib/Tails/IUK/Frontend.pm:281
 msgid "The system is up-to-date"
@@ -108,7 +108,7 @@ msgid ""
 "Download size: %{size}s\n"
 "\n"
 "Do you want to upgrade now?"
-msgstr "<b>您需要更新到 %{name}s %{version}s.</b>\n\n關於此新版本的更多資訊，請前往 %{details_url}s\n\n建議在更新過程中關閉所有已開啟的應用程式。\n下載更新可能會花很多時間，從數分鐘到數小時。\n下載更新後，網路將會被關閉。\n\n下載大小: %{size}s\n\n您是否現在更新嗎？"
+msgstr "<b>您需要升級成 %{name}s %{version}s。</b>\n\n要獲得此新版本的更多相關資訊，請前往 %{details_url}s\n\n建議在升級過程中關閉所有開啟的應用程式。\n下載升級可能會花很多時間，從幾分鐘到幾小時。\n下載升級後，網路將會被停用。\n\n下載大小: %{size}s\n\n您要馬上升級嗎?"
 
 #: ../lib/Tails/IUK/Frontend.pm:385
 msgid "Upgrade available"
@@ -116,11 +116,11 @@ msgstr "有升級可用"
 
 #: ../lib/Tails/IUK/Frontend.pm:386
 msgid "Upgrade now"
-msgstr "現在升級"
+msgstr "馬上升級"
 
 #: ../lib/Tails/IUK/Frontend.pm:387
 msgid "Upgrade later"
-msgstr "稍候升級"
+msgstr "稍後升級"
 
 #: ../lib/Tails/IUK/Frontend.pm:395
 #, perl-brace-format
@@ -132,11 +132,11 @@ msgid ""
 "It is not possible to automatically upgrade your device to this new version: %{explanation}s.\n"
 "\n"
 "To learn how to do a manual upgrade, go to https://tails.boum.org/doc/first_steps/upgrade/#manual"
-msgstr "<b>您需要手動更新到 %{name}s %{version}s.</b>\n\n關於此新版本的更多資訊，請前往 %{details_url}s\n\n可能無法從您的設備上自動更新到這個新版本：%{explanation}s.\n\n欲了解關於手動更新，請前往 https://tails.boum.org/doc/first_steps/upgrade/#manual"
+msgstr "<b>您應手動升級成 %{name}s %{version}s。</b>\n\n要獲得此新版本的更多相關資訊，請前往 %{details_url}s\n\n可能無法將您的裝置自動升級成此新版本: %{explanation}s。\n\n欲學習如何手動更新，請前往 https://tails.boum.org/doc/first_steps/upgrade/#manual"
 
 #: ../lib/Tails/IUK/Frontend.pm:411
 msgid "New version available"
-msgstr "有新版本可取得"
+msgstr "有新版本可用"
 
 #: ../lib/Tails/IUK/Frontend.pm:468
 msgid "Downloading upgrade"
@@ -145,7 +145,7 @@ msgstr "正在下載升級"
 #: ../lib/Tails/IUK/Frontend.pm:471
 #, perl-brace-format
 msgid "Downloading the upgrade to %{name}s %{version}s..."
-msgstr "正在下載更新 %{name}s %{version}s..."
+msgstr "正在下載升級到 %{name}s %{version}s..."
 
 #: ../lib/Tails/IUK/Frontend.pm:512
 msgid ""
@@ -153,7 +153,7 @@ msgid ""
 "connection, and restart Tails to try upgrading again.\\n\\nIf the problem "
 "persists, go to "
 "file:///usr/share/doc/tails/website/doc/upgrade/error/download.en.html"
-msgstr "<b>該更新無法下載</b>\\n\\n請檢查您的網路連線，並重新啟動 Tails 後重試升級\\n\\n 假若問題持續存在，請前往以下檔案 file:///usr/share/doc/tails/website/doc/upgrade/error/download.en.html"
+msgstr "<b>無法下載升級。</b>\\n\\n請檢查您的網路連線，然後將 Tails 重新啟動後再次嘗試升級。\\n\\n如果問題仍然存在，請前往 file:///usr/share/doc/tails/website/doc/upgrade/error/download.en.html"
 
 #: ../lib/Tails/IUK/Frontend.pm:528 ../lib/Tails/IUK/Frontend.pm:547
 msgid "Error while downloading the upgrade"
@@ -182,7 +182,7 @@ msgid ""
 "You should restart Tails on the new version as soon as possible.\n"
 "\n"
 "Do you want to restart now?"
-msgstr "<b>您的 Tails 設備已經成功更新</b>\n\n一些安全的特性已經暫時取消。\n您應該儘快重新啟動 Tails 以使用新版本。\n\n您要現在重新啟動嗎？"
+msgstr "<b>您的 Tails 裝置已成功升級。</b>\n\n有些安全性功能暫時停用。\n您應儘快將 Tails 重新啟動以使用新版本。\n\n您要現在重新啟動嗎?"
 
 #: ../lib/Tails/IUK/Frontend.pm:579
 msgid "Restart Tails"
@@ -221,7 +221,7 @@ msgid ""
 "<b>Your Tails device is being upgraded...</b>\n"
 "\n"
 "For security reasons, the networking is now disabled."
-msgstr "<b>您的 Tails 設備正在更新中...</b>\n\n因為安全理由，網路現在是關閉的。"
+msgstr "<b>您的 Tails 裝置正在升級中...</b>\n\n因為安全理由，網路現在停用。"
 
 #: ../lib/Tails/IUK/Frontend.pm:662
 msgid ""
@@ -229,8 +229,8 @@ msgid ""
 " needs to be repaired and might be unable to restart.\\n\\nPlease follow the"
 " instructions at "
 "file:///usr/share/doc/tails/website/doc/upgrade/error/install.en.html"
-msgstr "<b>安裝更新時有錯誤發生</b>\\n\\n您的 Tails 必須被修復而且可能無法重新啟動\\n\\n請按照以下檔案提供的指示 file:///usr/share/doc/tails/website/doc/upgrade/error/install.en.html"
+msgstr "<b>安裝升級時發生錯誤。</b>\\n\\n您的 Tails 裝置需要被修復而且可能無法重新啟動。\\n\\n請按照指示在 file:///usr/share/doc/tails/website/doc/upgrade/error/install.en.html"
 
 #: ../lib/Tails/IUK/Frontend.pm:672
 msgid "Error while installing the upgrade"
-msgstr "當安裝更新時發生錯誤"
+msgstr "安裝升級時發生錯誤"
