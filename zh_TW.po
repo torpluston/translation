@@ -3,14 +3,15 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
-# xatier 同學@提不起勁 <xatierlike@gmail.com>, 2014
+# danfong <danfong.hsieh@gmail.com>, 2014
+# x4r <xatierlike@gmail.com>, 2014
 msgid ""
 msgstr ""
 "Project-Id-Version: The Tor Project\n"
 "Report-Msgid-Bugs-To: Tails developers <tails@boum.org>\n"
-"POT-Creation-Date: 2014-03-05 15:11+0100\n"
-"PO-Revision-Date: 2014-03-15 06:00+0000\n"
-"Last-Translator: xatier 同學@提不起勁 <xatierlike@gmail.com>\n"
+"POT-Creation-Date: 2014-06-24 11:44+0200\n"
+"PO-Revision-Date: 2014-07-05 08:15+0000\n"
+"Last-Translator: danfong <danfong.hsieh@gmail.com>\n"
 "Language-Team: Chinese (Taiwan) (http://www.transifex.com/projects/p/torproject/language/zh_TW/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -63,31 +64,31 @@ msgstr "沒有解釋的理由 '%{reason}s'"
 
 #: ../lib/Tails/IUK/Frontend.pm:281
 msgid "The system is up-to-date"
-msgstr "系統已經更新到最新"
+msgstr "系統已更新到最新"
 
 #: ../lib/Tails/IUK/Frontend.pm:286
 msgid "This version of Tails is outdated, and may have security issues."
-msgstr "這個版本的 Tails 已經過舊，可能會有安全問題"
+msgstr "這個 Tails 版本已過時，可能會有安全問題。"
 
 #: ../lib/Tails/IUK/Frontend.pm:318
 #, perl-brace-format
 msgid ""
 "The available incremental upgrade requires %{space_needed}s of free space on"
 " Tails system partition,  but only %{free_space}s is available."
-msgstr "可用的漸進更新需要 %{space_needed}s 的空間在 Tails 系統分區，但是目前只有 %{free_space}s 。"
+msgstr "可用的累加式升級在 Tails 系統分割區上需要 %{space_needed}s 的可用空間，但是只有 %{free_space}s 可用。"
 
 #: ../lib/Tails/IUK/Frontend.pm:334
 #, perl-brace-format
 msgid ""
 "The available incremental upgrade requires %{memory_needed}s of free memory,"
 " but only %{free_memory}s is available."
-msgstr "可用的漸進更新需要 %{space_needed}s 的記憶體空間，但是目前只有 %{free_space}s 。"
+msgstr "可用的累加式升級需要 %{space_needed}s 的可用記憶體，但是只有 %{free_space}s 可用。"
 
 #: ../lib/Tails/IUK/Frontend.pm:356
 msgid ""
 "An incremental upgrade is available, but no full upgrade is.\n"
 "This should not happen. Please report a bug."
-msgstr "有漸進式更新可取的，但是沒有完整更新。\n這個情況不應該發生。請回報一個 bug。"
+msgstr "有累加式升級可用，但是沒有完整升級。\n這個情況不應該發生。請回報錯誤。"
 
 #: ../lib/Tails/IUK/Frontend.pm:360
 msgid "Error while detecting available upgrades"
@@ -111,7 +112,7 @@ msgstr "<b>您需要更新到 %{name}s %{version}s.</b>\n\n關於此新版本的
 
 #: ../lib/Tails/IUK/Frontend.pm:385
 msgid "Upgrade available"
-msgstr "有可更新"
+msgstr "有升級可用"
 
 #: ../lib/Tails/IUK/Frontend.pm:386
 msgid "Upgrade now"
@@ -139,7 +140,7 @@ msgstr "有新版本可取得"
 
 #: ../lib/Tails/IUK/Frontend.pm:468
 msgid "Downloading upgrade"
-msgstr "正在下載更新"
+msgstr "正在下載升級"
 
 #: ../lib/Tails/IUK/Frontend.pm:471
 #, perl-brace-format
@@ -156,22 +157,22 @@ msgstr "<b>該更新無法下載</b>\\n\\n請檢查您的網路連線，並重�
 
 #: ../lib/Tails/IUK/Frontend.pm:528 ../lib/Tails/IUK/Frontend.pm:547
 msgid "Error while downloading the upgrade"
-msgstr "當下載更新時發生錯誤"
+msgstr "下載升級時發生錯誤"
 
 #: ../lib/Tails/IUK/Frontend.pm:540
 #, perl-brace-format
 msgid ""
 "Output file '%{output_file}s' does not exist, but tails-iuk-get-target-file "
 "did not complain. Please report a bug."
-msgstr "輸出檔 '%{output_file}s' 不存在，但是 tails-iut-get-target-file 沒有抱怨。請回報一個 bug。"
+msgstr "輸出檔 '%{output_file}s' 不存在，但是 tails-iut-get-target-file 沒有抱怨。請回報錯誤。"
 
 #: ../lib/Tails/IUK/Frontend.pm:559
 msgid "Error while creating temporary downloading directory"
-msgstr "新增暫時的下載資料夾時發生錯誤"
+msgstr "建立暫存下載目錄時發生錯誤"
 
 #: ../lib/Tails/IUK/Frontend.pm:562
 msgid "Failed to create temporary download directory"
-msgstr "無法新增暫時的下載資料夾"
+msgstr "無法建立暫存下載目錄"
 
 #: ../lib/Tails/IUK/Frontend.pm:574
 msgid ""
@@ -189,31 +190,31 @@ msgstr "重新啟動 Tails"
 
 #: ../lib/Tails/IUK/Frontend.pm:580
 msgid "Restart now"
-msgstr "現在重新啟動"
+msgstr "立即重新啟動"
 
 #: ../lib/Tails/IUK/Frontend.pm:581
 msgid "Restart later"
-msgstr "稍候重新啟動"
+msgstr "稍後重新啟動"
 
 #: ../lib/Tails/IUK/Frontend.pm:592
 msgid "Error while restarting the system"
-msgstr "當重新啟動系統時發生錯誤"
+msgstr "重新啟動系統時發生錯誤"
 
 #: ../lib/Tails/IUK/Frontend.pm:595
 msgid "Failed to restart the system"
-msgstr "重啟系統失敗"
+msgstr "無法重新啟動系統"
 
 #: ../lib/Tails/IUK/Frontend.pm:610
 msgid "Error while shutting down the network"
-msgstr "當關閉網路時發生錯誤"
+msgstr "關閉網路時發生錯誤"
 
 #: ../lib/Tails/IUK/Frontend.pm:613
 msgid "Failed to shutdown network"
-msgstr "關閉網路失敗"
+msgstr "無法關閉網路"
 
 #: ../lib/Tails/IUK/Frontend.pm:623
 msgid "Upgrading the system"
-msgstr "系統升級"
+msgstr "正在升級系統"
 
 #: ../lib/Tails/IUK/Frontend.pm:625
 msgid ""
