@@ -27,7 +27,7 @@ pripojený k veľmi neodbytnej firemnej sieti:">
 "Bezpečné, pokiaľ nie ste pripojený k firemnej sieti s tajnými názvami intranetových serverov:">
 
 <!ENTITY ssl-observatory.prefs.alt_roots 
-"Potvrďte a skontrolujte certifikáty podpísané neštandardnými koreňovými Certifikačnými autoritami">
+"Odoslať a skontrolovať certifikáty podpísané neštandardnými koreňovými Certifikačnými autoritami">
 
 <!ENTITY ssl-observatory.prefs.alt_roots_tooltip 
 "It is safe (and a good idea) to enable this option, unless you use an intrusive corporate network or Kaspersky antivirus software that monitors your browsing with a TLS proxy and a private root Certificate Authority.  If enabled on such a network, this option might publish evidence of which https:// domains were being visited through that proxy, because of the unique certificates it would produce.  So we leave it off by default.">
@@ -53,10 +53,11 @@ pripojený k veľmi neodbytnej firemnej sieti:">
 <!ENTITY ssl-observatory.prefs.done "Hotovo">
 
 <!ENTITY ssl-observatory.prefs.explanation 
-"HTTPS Everywhere can use EFF's SSL Observatory.  This does two things: (1)
-sends copies of HTTPS certificates to the Observatory, to help us
-detect 'man in the middle' attacks and improve the Web's security; and (2)
-lets us warn you about insecure connections or attacks on your browser.">
+"HTTPS Everywhere dokáže používať SSL Observatory od EFF. To slúži na
+dve veci: (1) odosiela kópie HTTPS certifikátov do Observatory kvôli pomoci
+so zachytením útokov 'man in the middle'  a vylepšeniu bezpečnosti webu;
+a (2) dovolí nám varovať vás pred nebezpečným pripojením alebo útokmi na
+váš prehliadač.">
 
 <!--<!ENTITY ssl-observatory.prefs.explanation2
 "When you visit https://www.example.com, the Observatory will learn that
@@ -70,32 +71,32 @@ received by the Observatory will indicate that somebody visited
 www.something.com, but not who visited the site, or what specific page they
 looked at.  Mouseover the options for further details:">
 
-<!ENTITY ssl-observatory.prefs.hide "Hide advanced options">
+<!ENTITY ssl-observatory.prefs.hide "Skryť rozšírené nastavenia">
 
 <!ENTITY ssl-observatory.prefs.nonanon 
-"Check certificates even if Tor is not available">
+"Kontrolovať certifikáty aj keď je Tor nedostupný">
 
 <!ENTITY ssl-observatory.prefs.nonanon_tooltip
-"We will still try to keep the data anonymous, but this option is less secure">
+"Budeme sa stále snažiť zachovať anonymitu dát, táto možnosť je však menej bezpečná">
 
 <!ENTITY ssl-observatory.prefs.priv_dns 
-"Submit and check certificates for non-public DNS names">
+"Odoslať a skontrolovať certifikáty pre neverejné DNS názvy">
 
 <!ENTITY ssl-observatory.prefs.priv_dns_tooltip
 "Unless this option is checked, the Observatory will not record certificates for names that it cannot resolve through the DNS system.">
 
-<!ENTITY ssl-observatory.prefs.show "Show advanced options">
+<!ENTITY ssl-observatory.prefs.show "Zobraziť rozšírené nastavenia">
 
 <!ENTITY ssl-observatory.prefs.title "Nastavenia SSL Observatory">
 
-<!ENTITY ssl-observatory.prefs.use "Use the Observatory?">
-<!ENTITY ssl-observatory.warning.title "WARNING from EFF's SSL Observatory">
-<!ENTITY ssl-observatory.warning.showcert "Show the certificate chain">
-<!ENTITY ssl-observatory.warning.okay "I understand">
-<!ENTITY ssl-observatory.warning.text "EFF's SSL Observatory has issued a warning about the HTTPS certificiate(s) for this site:">
-<!ENTITY ssl-observatory.warning.defense "If you are logged in to this site, it may be advisable to change your password once you have a safe connection. (These warnings can be disabled in the &quot;SSL Observatory&quot; tab of the HTTPS Everywhere preferences dialog.)">
+<!ENTITY ssl-observatory.prefs.use "Používať Observatory?">
+<!ENTITY ssl-observatory.warning.title "UPOZORNENIE z SSL Observatory">
+<!ENTITY ssl-observatory.warning.showcert "Zobraziť reťazec certifikátov">
+<!ENTITY ssl-observatory.warning.okay "Rozumiem">
+<!ENTITY ssl-observatory.warning.text "SSL Observatory vydalo varovanie ohľadne HTTPS certifikátu (certifikátov) tejto stránky:">
+<!ENTITY ssl-observatory.warning.defense "Ak ste prihlásený na tejto stránke, v momente, keď sa dostanete na zabezpečené pripojenie, odporúčame zmeniť vaše heslo. (Tieto varovania je možné vypnúť v záložke &quot;SSL Observatory&quot; v dialógu nastavení HTTPS Everywhere.)">
 
 <!ENTITY ssl-observatory.prefs.self_signed
-"Submit and check self-signed certificates">
+"Odoslať a skontrolovať certifikáty podpísané sam sebou">
 <!ENTITY ssl-observatory.prefs.self_signed_tooltip
-"This is recommended; cryptographic problems are especially common in self-signed embedded devices">
+"Toto sa odporúča; problémy so šifrovaním sú bežné hlavne pri použití vstavaných zariadení, ktoré sú podpísané samými sebou">
