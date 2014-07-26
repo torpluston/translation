@@ -1,0 +1,235 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR Tails developers
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
+# once, 2014
+msgid ""
+msgstr ""
+"Project-Id-Version: The Tor Project\n"
+"Report-Msgid-Bugs-To: Tails developers <tails@boum.org>\n"
+"POT-Creation-Date: 2014-06-24 11:44+0200\n"
+"PO-Revision-Date: 2014-07-26 15:11+0000\n"
+"Last-Translator: once\n"
+"Language-Team: Slovak (Slovakia) (http://www.transifex.com/projects/p/torproject/language/sk_SK/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: sk_SK\n"
+"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+
+#: ../lib/Tails/IUK/Frontend.pm:146 ../lib/Tails/IUK/Frontend.pm:523
+#: ../lib/Tails/IUK/Frontend.pm:667
+msgid "For debugging information, see /home/amnesia/.xsession-errors"
+msgstr "Pre informácie o ladení si prezrite /home/amnesia/.xsession-errors"
+
+#: ../lib/Tails/IUK/Frontend.pm:216
+msgid "Error while checking for upgrades"
+msgstr "Vyskytla sa chyba pri kontrole aktuálizácií"
+
+#: ../lib/Tails/IUK/Frontend.pm:219
+msgid ""
+"<b>Could not determine whether an upgrade is available from our website.</b>\n"
+"\n"
+"Check your network connection, and restart Tails to try upgrading again.\n"
+"\n"
+"If the problem persists, go to file:///usr/share/doc/tails/website/doc/upgrade/error/check.en.html"
+msgstr "<b>Nepodarilo sa zistiť, či je aktualizácia z našej webstránky dostupná.</b>\n\nSkontrolujte, prosím, vaše pripojenie, reštartujte Tails a skúste systém znova aktualizovať.\n\nAk problém pretrváva, otvorte si stránku file:///usr/share/doc/tails/website/doc/upgrade/error/check.sk.html"
+
+#: ../lib/Tails/IUK/Frontend.pm:234
+msgid "no automatic upgrade is available from our website for this version"
+msgstr "z našej webstránky nie je pre túto verziu dostupná žiadna automatická aktualizácia"
+
+#: ../lib/Tails/IUK/Frontend.pm:240
+msgid "your device was not created using Tails Installer"
+msgstr "vaše zariadenie nebolo vytvorené pomocou Tails inštalátora"
+
+#: ../lib/Tails/IUK/Frontend.pm:245
+msgid "Tails was started from a DVD or a read-only device"
+msgstr "Tails bol spustený z DVD alebo zo zariadenia iba na čítanie"
+
+#: ../lib/Tails/IUK/Frontend.pm:250
+msgid "there is not enough free space on the Tails system partition"
+msgstr "na systémovej partícii Tail nie je dostatok voľného miesta"
+
+#: ../lib/Tails/IUK/Frontend.pm:255
+msgid "not enough memory is available on this system"
+msgstr "nedostatok pamäte v systéme"
+
+#: ../lib/Tails/IUK/Frontend.pm:261
+#, perl-brace-format
+msgid "No explanation available for reason '%{reason}s'."
+msgstr "Nie je dostupné žiadne vysvetlenie pre '%{reason}s'."
+
+#: ../lib/Tails/IUK/Frontend.pm:281
+msgid "The system is up-to-date"
+msgstr "Systém je plne aktualizovaný"
+
+#: ../lib/Tails/IUK/Frontend.pm:286
+msgid "This version of Tails is outdated, and may have security issues."
+msgstr "Táto verzia Tails je zastaraná a môže obsahovať bezpečnostné problémy."
+
+#: ../lib/Tails/IUK/Frontend.pm:318
+#, perl-brace-format
+msgid ""
+"The available incremental upgrade requires %{space_needed}s of free space on"
+" Tails system partition,  but only %{free_space}s is available."
+msgstr "Dostupná prírastková aktualizácia vyžaduje %{space_needed}s voľného miesta na systémovej partícii Tails, je však dostupných len %{free_space}s."
+
+#: ../lib/Tails/IUK/Frontend.pm:334
+#, perl-brace-format
+msgid ""
+"The available incremental upgrade requires %{memory_needed}s of free memory,"
+" but only %{free_memory}s is available."
+msgstr "Dostupná prírastková aktualizácia vyžaduje %{memory_needed}s voľnej pamäte, je však dostupných len %{free_memory}s."
+
+#: ../lib/Tails/IUK/Frontend.pm:356
+msgid ""
+"An incremental upgrade is available, but no full upgrade is.\n"
+"This should not happen. Please report a bug."
+msgstr "Je dostupná prírastková aktualizácia, nie však plná aktualizácia.\nTakáto situácia by nemala nastať. Nahláste, prosím, chybu."
+
+#: ../lib/Tails/IUK/Frontend.pm:360
+msgid "Error while detecting available upgrades"
+msgstr "Vyskytla sa chyba pri zisťovaní dostupných aktualizácií"
+
+#: ../lib/Tails/IUK/Frontend.pm:370
+#, perl-brace-format
+msgid ""
+"<b>You should upgrade to %{name}s %{version}s.</b>\n"
+"\n"
+"For more information about this new version, go to %{details_url}s\n"
+"\n"
+"It is recommended to close all the open applications during the upgrade.\n"
+"Downloading the upgrade might take a long time, from several minutes to a few hours.\n"
+"The networking will be disabled after downloading the upgrade.\n"
+"\n"
+"Download size: %{size}s\n"
+"\n"
+"Do you want to upgrade now?"
+msgstr "<b>Odporúčame Vám vykonať aktualizáciu na %{name}s %{version}s.</b>\n\nPre viac informácií o novej verzii, navštívte %{details_url}s\n\nPočas aktualizácie sa odporúča ukončiť všetky spustené aplikácie.\nPreberanie aktualizácie môže trvať dlhú dobu, od niekoľkých minút po niekoľko hodín.\nPo prevzatí aktualizácie bude zakázané pripojenie do siete.\n\nVeľkosť preberania: %{size}s\n\nPrajete si vykonať aktualizáciu teraz?"
+
+#: ../lib/Tails/IUK/Frontend.pm:385
+msgid "Upgrade available"
+msgstr "Dostupná aktualizácia"
+
+#: ../lib/Tails/IUK/Frontend.pm:386
+msgid "Upgrade now"
+msgstr "Aktualizovať teraz"
+
+#: ../lib/Tails/IUK/Frontend.pm:387
+msgid "Upgrade later"
+msgstr "Aktualizovať neskôr"
+
+#: ../lib/Tails/IUK/Frontend.pm:395
+#, perl-brace-format
+msgid ""
+"<b>You should do a manual upgrade to %{name}s %{version}s.</b>\n"
+"\n"
+"For more information about this new version, go to %{details_url}s\n"
+"\n"
+"It is not possible to automatically upgrade your device to this new version: %{explanation}s.\n"
+"\n"
+"To learn how to do a manual upgrade, go to https://tails.boum.org/doc/first_steps/upgrade/#manual"
+msgstr "<b>Odporúčame Vám vykonať manuálnu aktualizáciu na %{name}s %{version}s.</b>\n\nPre viac informácií o novej verzii, navštívte %{details_url}s\n\nNie je možné vykonať automatickú aktualizáciu vášho zariadenia na novú verziu: %{explanation}s.\n\nAko vykonať manuálnu aktualizáciu, môžete zistiť na https://tails.boum.org/doc/first_steps/upgrade/#manual"
+
+#: ../lib/Tails/IUK/Frontend.pm:411
+msgid "New version available"
+msgstr "Dostupná nová verzia"
+
+#: ../lib/Tails/IUK/Frontend.pm:468
+msgid "Downloading upgrade"
+msgstr "Preberanie aktualizácie"
+
+#: ../lib/Tails/IUK/Frontend.pm:471
+#, perl-brace-format
+msgid "Downloading the upgrade to %{name}s %{version}s..."
+msgstr "Preberanie aktualizácie %{name}s %{version}s..."
+
+#: ../lib/Tails/IUK/Frontend.pm:512
+msgid ""
+"<b>The upgrade could not be downloaded.</b>\\n\\nCheck your network "
+"connection, and restart Tails to try upgrading again.\\n\\nIf the problem "
+"persists, go to "
+"file:///usr/share/doc/tails/website/doc/upgrade/error/download.en.html"
+msgstr "<b>Aktualizáciu sa nebolo možné prebrať.</b>\\n\\nSkontrolujte, prosím, vaše pripojenie, reštartujte Tails a skúste systém znova aktualizovať.\\n\\nAk problém pretrváva, otvorte si stránku file:///usr/share/doc/tails/website/doc/upgrade/error/download.sk.html"
+
+#: ../lib/Tails/IUK/Frontend.pm:528 ../lib/Tails/IUK/Frontend.pm:547
+msgid "Error while downloading the upgrade"
+msgstr "Vyskytla sa chyba počas preberania aktualizácie"
+
+#: ../lib/Tails/IUK/Frontend.pm:540
+#, perl-brace-format
+msgid ""
+"Output file '%{output_file}s' does not exist, but tails-iuk-get-target-file "
+"did not complain. Please report a bug."
+msgstr "Výsledný súbor '%{output_file}s' neexistuje, ale tails-iuk-get-target-file nevykázal problém. Nahláste, prosím, chybu."
+
+#: ../lib/Tails/IUK/Frontend.pm:559
+msgid "Error while creating temporary downloading directory"
+msgstr "Vyskytla sa chyba počas vytvárania dočasného priečinku na preberanie"
+
+#: ../lib/Tails/IUK/Frontend.pm:562
+msgid "Failed to create temporary download directory"
+msgstr "Nepodarilo sa vytvoriť dočasný priečinok na preberanie"
+
+#: ../lib/Tails/IUK/Frontend.pm:574
+msgid ""
+"<b>Your Tails device was successfully upgraded.</b>\n"
+"\n"
+"Some security features were temporarily disabled.\n"
+"You should restart Tails on the new version as soon as possible.\n"
+"\n"
+"Do you want to restart now?"
+msgstr "<b>Vaše Tails zariadenie bolo úspešne aktualizované.</b>\n\nNiektoré bezpečnostné funkcie boli dočasne zakázané.\nOdporúčame vám čo najskôr reštartovať Tails do novej verzie.\n\nPrajete si reštartovať teraz?"
+
+#: ../lib/Tails/IUK/Frontend.pm:579
+msgid "Restart Tails"
+msgstr "Reštartovať Tails"
+
+#: ../lib/Tails/IUK/Frontend.pm:580
+msgid "Restart now"
+msgstr "Reštartovať teraz"
+
+#: ../lib/Tails/IUK/Frontend.pm:581
+msgid "Restart later"
+msgstr "Reštartovať neskôr"
+
+#: ../lib/Tails/IUK/Frontend.pm:592
+msgid "Error while restarting the system"
+msgstr "Vyskytla sa chyba počas reštartovania systému"
+
+#: ../lib/Tails/IUK/Frontend.pm:595
+msgid "Failed to restart the system"
+msgstr "Nepodarilo sa reštartovať systém"
+
+#: ../lib/Tails/IUK/Frontend.pm:610
+msgid "Error while shutting down the network"
+msgstr "Vyskytla sa chyba počas odpájania siete"
+
+#: ../lib/Tails/IUK/Frontend.pm:613
+msgid "Failed to shutdown network"
+msgstr "Nepodarilo sa odpojiť sieť"
+
+#: ../lib/Tails/IUK/Frontend.pm:623
+msgid "Upgrading the system"
+msgstr "Aktualizácia systému"
+
+#: ../lib/Tails/IUK/Frontend.pm:625
+msgid ""
+"<b>Your Tails device is being upgraded...</b>\n"
+"\n"
+"For security reasons, the networking is now disabled."
+msgstr "<b>Prebieha aktualizácia vášho Tails zariadenia...</b>\n\nZ bezpečnostných dôvodov je pripojenie do siete zakázané."
+
+#: ../lib/Tails/IUK/Frontend.pm:662
+msgid ""
+"<b>An error occured while installing the upgrade.</b>\\n\\nYour Tails device"
+" needs to be repaired and might be unable to restart.\\n\\nPlease follow the"
+" instructions at "
+"file:///usr/share/doc/tails/website/doc/upgrade/error/install.en.html"
+msgstr "<b>Vyskytla sa chyba počas inštalácie aktualizácie.</b>\\n\\nVaše Tails zariadenie vyžaduje opravu a môže byť neschopné reštartu.\\n\\nRiaďte sa, prosím, inštrukciami na stránke file:///usr/share/doc/tails/website/doc/upgrade/error/install.sk.html"
+
+#: ../lib/Tails/IUK/Frontend.pm:672
+msgid "Error while installing the upgrade"
+msgstr "Vyskytla sa chyba počas inštalácie aktualizácie"
