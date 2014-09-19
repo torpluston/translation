@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: The Tor Project\n"
 "Report-Msgid-Bugs-To: Tails developers <tails@boum.org>\n"
-"POT-Creation-Date: 2014-08-31 15:23+0200\n"
-"PO-Revision-Date: 2014-09-01 09:20+0000\n"
+"POT-Creation-Date: 2014-09-18 21:27-0700\n"
+"PO-Revision-Date: 2014-09-19 09:58+0000\n"
 "Last-Translator: runasand <runa.sandvik@gmail.com>\n"
 "Language-Team: Japanese (http://www.transifex.com/projects/p/torproject/language/ja/)\n"
 "MIME-Version: 1.0\n"
@@ -18,8 +18,8 @@ msgstr ""
 "Language: ja\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
-#: ../lib/Tails/IUK/Frontend.pm:146 ../lib/Tails/IUK/Frontend.pm:527
-#: ../lib/Tails/IUK/Frontend.pm:671
+#: ../lib/Tails/IUK/Frontend.pm:146 ../lib/Tails/IUK/Frontend.pm:523
+#: ../lib/Tails/IUK/Frontend.pm:667
 msgid "For debugging information, see /home/amnesia/.xsession-errors"
 msgstr "デバッギング情報については、 /home/amnesia/.xsession-errors をご覧ください"
 
@@ -61,43 +61,39 @@ msgstr "十分なメモリがこのシステム上で利用できません"
 msgid "No explanation available for reason '%{reason}s'."
 msgstr "理由 '%{reason}s' のために説明が利用できません。"
 
-#: ../lib/Tails/IUK/Frontend.pm:279
-msgid "XXX HEJ XXX"
-msgstr ""
-
-#: ../lib/Tails/IUK/Frontend.pm:285
+#: ../lib/Tails/IUK/Frontend.pm:281
 msgid "The system is up-to-date"
 msgstr "システムは最新版です"
 
-#: ../lib/Tails/IUK/Frontend.pm:290
+#: ../lib/Tails/IUK/Frontend.pm:286
 msgid "This version of Tails is outdated, and may have security issues."
 msgstr "Tails のこのバージョンは旧く、セキュリティ上の問題がある場合があります。"
 
-#: ../lib/Tails/IUK/Frontend.pm:322
+#: ../lib/Tails/IUK/Frontend.pm:318
 #, perl-brace-format
 msgid ""
 "The available incremental upgrade requires %{space_needed}s of free space on"
 " Tails system partition,  but only %{free_space}s is available."
 msgstr "利用できる逐次的アップグレードは Tails のシステムパーティション上に %{space_needed}s の空き容量が必要ですが、 %{free_space}s しか空き容量がありません。"
 
-#: ../lib/Tails/IUK/Frontend.pm:338
+#: ../lib/Tails/IUK/Frontend.pm:334
 #, perl-brace-format
 msgid ""
 "The available incremental upgrade requires %{memory_needed}s of free memory,"
 " but only %{free_memory}s is available."
 msgstr "利用できる逐次的アップグレードは %{memory_needed}s のメモリ空き容量が必要ですが、 %{free_memory}s しかメモリ空き容量がありません。"
 
-#: ../lib/Tails/IUK/Frontend.pm:360
+#: ../lib/Tails/IUK/Frontend.pm:356
 msgid ""
 "An incremental upgrade is available, but no full upgrade is.\n"
 "This should not happen. Please report a bug."
 msgstr "逐次的アップグレードが利用できますが、完全なアップグレードはありません。\nこれは本来起こりえません。バグを報告してください。"
 
-#: ../lib/Tails/IUK/Frontend.pm:364
+#: ../lib/Tails/IUK/Frontend.pm:360
 msgid "Error while detecting available upgrades"
 msgstr "利用可能なアップグレードの検知中にエラー"
 
-#: ../lib/Tails/IUK/Frontend.pm:374
+#: ../lib/Tails/IUK/Frontend.pm:370
 #, perl-brace-format
 msgid ""
 "<b>You should upgrade to %{name}s %{version}s.</b>\n"
@@ -113,19 +109,19 @@ msgid ""
 "Do you want to upgrade now?"
 msgstr "<b>%{name}s %{version}s にアップグレードするべきです。</b>\n\nこの新バージョンについての詳細は、%{details_url}s を開いてください。\n\nアップグレード中は開いているアプリケーションをすべて閉じることが推奨されます。\nアップグレードのダウンロードには、数分から2、3時間程度の長い時間がかかる場合があります。\nネットワーク機能はアップグレードのダウンロード後無効になります。\n\nダウンロードサイズ: %{size}s\n\n今すぐアップグレードしますか？"
 
-#: ../lib/Tails/IUK/Frontend.pm:389
+#: ../lib/Tails/IUK/Frontend.pm:385
 msgid "Upgrade available"
 msgstr "アップグレード利用可能"
 
-#: ../lib/Tails/IUK/Frontend.pm:390
+#: ../lib/Tails/IUK/Frontend.pm:386
 msgid "Upgrade now"
 msgstr "今すぐアップグレード"
 
-#: ../lib/Tails/IUK/Frontend.pm:391
+#: ../lib/Tails/IUK/Frontend.pm:387
 msgid "Upgrade later"
 msgstr "後でアップグレード"
 
-#: ../lib/Tails/IUK/Frontend.pm:399
+#: ../lib/Tails/IUK/Frontend.pm:395
 #, perl-brace-format
 msgid ""
 "<b>You should do a manual upgrade to %{name}s %{version}s.</b>\n"
@@ -137,20 +133,20 @@ msgid ""
 "To learn how to do a manual upgrade, go to https://tails.boum.org/doc/first_steps/upgrade/#manual"
 msgstr "<b>%{name}s %{version}s に手動アップグレードを行う必要があります。</b>\n\nこの新バージョンに関する詳細については、 %{details_url}s を開いてください。\n\nこの新バージョン %{explanation}s にデバイスを自動アップグレードすることが出来ません。\n\n手動アップグレードのやり方を知るには、 https://tails.boum.org/doc/first_steps/upgrade/#manual を開いてください。"
 
-#: ../lib/Tails/IUK/Frontend.pm:415
+#: ../lib/Tails/IUK/Frontend.pm:411
 msgid "New version available"
 msgstr "新バージョン利用可能"
 
-#: ../lib/Tails/IUK/Frontend.pm:472
+#: ../lib/Tails/IUK/Frontend.pm:468
 msgid "Downloading upgrade"
 msgstr "アップグレードをダウンロード中"
 
-#: ../lib/Tails/IUK/Frontend.pm:475
+#: ../lib/Tails/IUK/Frontend.pm:471
 #, perl-brace-format
 msgid "Downloading the upgrade to %{name}s %{version}s..."
 msgstr "%{name}s %{version}s へのアップグレードをダウンロード中"
 
-#: ../lib/Tails/IUK/Frontend.pm:516
+#: ../lib/Tails/IUK/Frontend.pm:512
 msgid ""
 "<b>The upgrade could not be downloaded.</b>\\n\\nCheck your network "
 "connection, and restart Tails to try upgrading again.\\n\\nIf the problem "
@@ -158,26 +154,26 @@ msgid ""
 "file:///usr/share/doc/tails/website/doc/upgrade/error/download.en.html"
 msgstr "<b>アップグレードをダウンロードできませんでした。</b>\\n\\nネットワーク接続を確認してからTailsを再起動して、もう一度アップグレードをお試しください。\\n\\n問題が続く場合は、 file:///usr/share/doc/tails/website/doc/upgrade/error/download.en.html を開いてください"
 
-#: ../lib/Tails/IUK/Frontend.pm:532 ../lib/Tails/IUK/Frontend.pm:551
+#: ../lib/Tails/IUK/Frontend.pm:528 ../lib/Tails/IUK/Frontend.pm:547
 msgid "Error while downloading the upgrade"
 msgstr "アップグレードのダウンロード中にエラー"
 
-#: ../lib/Tails/IUK/Frontend.pm:544
+#: ../lib/Tails/IUK/Frontend.pm:540
 #, perl-brace-format
 msgid ""
 "Output file '%{output_file}s' does not exist, but tails-iuk-get-target-file "
 "did not complain. Please report a bug."
 msgstr "出力ファイル '%{output_file}s' は存在しませんが、 tails-iuk-get-target-file はエラーを出しませんでした。バグを報告してください。"
 
-#: ../lib/Tails/IUK/Frontend.pm:563
+#: ../lib/Tails/IUK/Frontend.pm:559
 msgid "Error while creating temporary downloading directory"
 msgstr "一時的ダウンロード用ディレクトリの作成中にエラー"
 
-#: ../lib/Tails/IUK/Frontend.pm:566
+#: ../lib/Tails/IUK/Frontend.pm:562
 msgid "Failed to create temporary download directory"
 msgstr "一時的ダウンロードディレクトリを作成できませんでした。"
 
-#: ../lib/Tails/IUK/Frontend.pm:578
+#: ../lib/Tails/IUK/Frontend.pm:574
 msgid ""
 "<b>Your Tails device was successfully upgraded.</b>\n"
 "\n"
@@ -187,46 +183,46 @@ msgid ""
 "Do you want to restart now?"
 msgstr "<b>Tails デバイスは正常にアップグレードされました。</b>\n\n一部のセキュリティ機能が一時的に無効になりました。\n可及的速やかに新バージョンで Tailsを再起動する必要があります。\n\n<i>今すぐ</i>再起動しますか？"
 
-#: ../lib/Tails/IUK/Frontend.pm:583
+#: ../lib/Tails/IUK/Frontend.pm:579
 msgid "Restart Tails"
 msgstr "Tails を再起動"
 
-#: ../lib/Tails/IUK/Frontend.pm:584
+#: ../lib/Tails/IUK/Frontend.pm:580
 msgid "Restart now"
 msgstr "今すぐ再起動"
 
-#: ../lib/Tails/IUK/Frontend.pm:585
+#: ../lib/Tails/IUK/Frontend.pm:581
 msgid "Restart later"
 msgstr "後で再起動"
 
-#: ../lib/Tails/IUK/Frontend.pm:596
+#: ../lib/Tails/IUK/Frontend.pm:592
 msgid "Error while restarting the system"
 msgstr "システムの再起動中にエラー"
 
-#: ../lib/Tails/IUK/Frontend.pm:599
+#: ../lib/Tails/IUK/Frontend.pm:595
 msgid "Failed to restart the system"
 msgstr "システムの再起動に失敗しました"
 
-#: ../lib/Tails/IUK/Frontend.pm:614
+#: ../lib/Tails/IUK/Frontend.pm:610
 msgid "Error while shutting down the network"
 msgstr "ネットワークのシャットダウン中にエラー"
 
-#: ../lib/Tails/IUK/Frontend.pm:617
+#: ../lib/Tails/IUK/Frontend.pm:613
 msgid "Failed to shutdown network"
 msgstr "ネットワークのシャットダウンに失敗しました"
 
-#: ../lib/Tails/IUK/Frontend.pm:627
+#: ../lib/Tails/IUK/Frontend.pm:623
 msgid "Upgrading the system"
 msgstr "システムのアップグレード中"
 
-#: ../lib/Tails/IUK/Frontend.pm:629
+#: ../lib/Tails/IUK/Frontend.pm:625
 msgid ""
 "<b>Your Tails device is being upgraded...</b>\n"
 "\n"
 "For security reasons, the networking is now disabled."
 msgstr "<b>Tails デバイスはアップグレードされています...</b>\n\nセキュリティ上の理由のため、ネットワーキングは無効になっています。"
 
-#: ../lib/Tails/IUK/Frontend.pm:666
+#: ../lib/Tails/IUK/Frontend.pm:662
 msgid ""
 "<b>An error occured while installing the upgrade.</b>\\n\\nYour Tails device"
 " needs to be repaired and might be unable to restart.\\n\\nPlease follow the"
@@ -234,6 +230,6 @@ msgid ""
 "file:///usr/share/doc/tails/website/doc/upgrade/error/install.en.html"
 msgstr "<b>アップグレードのインストール中にエラーが発生しました。</b>\\n\\nTails デバイスは修復が必要であり、再起動できない恐れがあります。\\n\\nfile:///usr/share/doc/tails/website/doc/upgrade/error/install.en.html の指示に従ってください。"
 
-#: ../lib/Tails/IUK/Frontend.pm:676
+#: ../lib/Tails/IUK/Frontend.pm:672
 msgid "Error while installing the upgrade"
 msgstr "アップグレードのインストール中にエラー"
