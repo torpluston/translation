@@ -3,17 +3,18 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
-# simabull tsai, 2013
-# simabull tsai, 2013
-# SanyaChang <408070986@qq.com>, 2013
-# Y.F Yang <yfdyh000@gmail.com>, 2014
+# Wu Ming Shi, 2013
+# Wu Ming Shi, 2013
+# Sanya chang <408070986@qq.com>, 2013
+# Xiaolan <xiaolan65535@gmail.com>, 2014
+# YF <yfdyh000@gmail.com>, 2014
 msgid ""
 msgstr ""
 "Project-Id-Version: The Tor Project\n"
 "Report-Msgid-Bugs-To: Tails developers <tails@boum.org>\n"
-"POT-Creation-Date: 2014-04-16 21:26+0200\n"
-"PO-Revision-Date: 2014-04-21 14:42+0000\n"
-"Last-Translator: Y.F Yang <yfdyh000@gmail.com>\n"
+"POT-Creation-Date: 2014-07-01 22:15+0200\n"
+"PO-Revision-Date: 2014-09-25 21:10+0000\n"
+"Last-Translator: Xiaolan <xiaolan65535@gmail.com>\n"
 "Language-Team: Chinese (China) (http://www.transifex.com/projects/p/torproject/language/zh_CN/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -122,67 +123,67 @@ msgstr "连入 $HOME 的符号链接，'.'开头目录中的所有文件和文�
 msgid "Setup Tails persistent volume"
 msgstr "设置 Tails 持久卷"
 
-#: ../lib/Tails/Persistence/Setup.pm:337
+#: ../lib/Tails/Persistence/Setup.pm:307 ../lib/Tails/Persistence/Setup.pm:452
+msgid "Error"
+msgstr "错误"
+
+#: ../lib/Tails/Persistence/Setup.pm:339
 #, perl-format
 msgid "Device %s already has a persistent volume."
 msgstr "设备 %s 中已经存在持久卷。"
 
-#: ../lib/Tails/Persistence/Setup.pm:345
+#: ../lib/Tails/Persistence/Setup.pm:347
 #, perl-format
 msgid "Device %s has not enough unallocated space."
 msgstr "设置 %s 空闲空间不足。"
 
-#: ../lib/Tails/Persistence/Setup.pm:353 ../lib/Tails/Persistence/Setup.pm:367
+#: ../lib/Tails/Persistence/Setup.pm:355 ../lib/Tails/Persistence/Setup.pm:369
 #, perl-format
 msgid "Device %s has no persistent volume."
 msgstr "设备 %s 中不存在持久卷。"
 
-#: ../lib/Tails/Persistence/Setup.pm:359
+#: ../lib/Tails/Persistence/Setup.pm:361
 msgid ""
 "Cannot delete the persistent volume while in use. You should restart Tails "
 "without persistence."
 msgstr "持久卷使用中，无法删除。您需要以 Live 模式重启 Tails 。"
 
-#: ../lib/Tails/Persistence/Setup.pm:378
+#: ../lib/Tails/Persistence/Setup.pm:380
 msgid "Persistence volume is not unlocked."
 msgstr "持久卷未锁定。"
 
-#: ../lib/Tails/Persistence/Setup.pm:383
+#: ../lib/Tails/Persistence/Setup.pm:385
 msgid "Persistence volume is not mounted."
 msgstr "持久卷未挂载。"
 
-#: ../lib/Tails/Persistence/Setup.pm:388
+#: ../lib/Tails/Persistence/Setup.pm:390
 msgid "Persistence volume is not readable. Permissions or ownership problems?"
 msgstr "从持久卷中读取失败。文件权限或文件所有者有误？"
 
-#: ../lib/Tails/Persistence/Setup.pm:393
+#: ../lib/Tails/Persistence/Setup.pm:395
 msgid "Persistence volume is not writable. Maybe it was mounted read-only?"
 msgstr "向持久卷中写入失败。可能已以只读模式挂载？"
 
-#: ../lib/Tails/Persistence/Setup.pm:402
+#: ../lib/Tails/Persistence/Setup.pm:404
 #, perl-format
 msgid "Tails is running from non-USB / non-SDIO device %s."
 msgstr "Tails 正在非USB/非SDIO设备上运行%s."
 
-#: ../lib/Tails/Persistence/Setup.pm:408
+#: ../lib/Tails/Persistence/Setup.pm:410
 #, perl-format
 msgid "Device %s is optical."
 msgstr "设备 %s 为光盘设备。"
 
-#: ../lib/Tails/Persistence/Setup.pm:415
+#: ../lib/Tails/Persistence/Setup.pm:417
 #, perl-format
 msgid "Device %s was not created using Tails Installer."
 msgstr "设备 %s 未使用 Tails 安装器创建。"
 
-#: ../lib/Tails/Persistence/Setup.pm:450
-msgid "Error"
-msgstr "错误"
-
-#: ../lib/Tails/Persistence/Setup.pm:670
+#: ../lib/Tails/Persistence/Setup.pm:677
 msgid "Persistence wizard - Finished"
 msgstr "持久存储向导 - 完成"
 
-#: ../lib/Tails/Persistence/Setup.pm:673
+#: ../lib/Tails/Persistence/Setup.pm:680
 msgid ""
 "Any changes you have made will only take effect after restarting Tails.\n"
 "\n"
@@ -203,7 +204,7 @@ msgstr "输入一个密码来保护您的持久卷"
 msgid ""
 "A %s persistent volume will be created on the <b>%s %s</b> device. Data on "
 "this volume will be stored in an encrypted form protected by a passphrase."
-msgstr "A %s persistent volume will be created on the <b>%s %s</b> device. Data on this volume will be stored in an encrypted form protected by a passphrase."
+msgstr "系统将创建一个 %s 的持久卷保存于 <b>%s %s</b> 设备上。此卷中的数据将加密存储与此设备上并受密码保护。"
 
 #: ../lib/Tails/Persistence/Step/Bootstrap.pm:66
 msgid "Create"
