@@ -17,8 +17,8 @@ msgstr ""
 "Project-Id-Version: The Tor Project\n"
 "Report-Msgid-Bugs-To: Tails developers <tails@boum.org>\n"
 "POT-Creation-Date: 2014-09-18 21:27-0700\n"
-"PO-Revision-Date: 2014-09-19 09:58+0000\n"
-"Last-Translator: runasand <runa.sandvik@gmail.com>\n"
+"PO-Revision-Date: 2014-10-03 22:41+0000\n"
+"Last-Translator: rike\n"
 "Language-Team: German (http://www.transifex.com/projects/p/torproject/language/de/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -58,11 +58,11 @@ msgstr "Tails wurde von einer DVD, oder einem anderen Medium gestartet, auf das 
 
 #: ../lib/Tails/IUK/Frontend.pm:250
 msgid "there is not enough free space on the Tails system partition"
-msgstr "Die Systempartition auf der Tails installiert ist besitzt nicht genug freien Speicher."
+msgstr "Die Partition auf der Tails installiert ist, besitzt nicht genug freien Speicher."
 
 #: ../lib/Tails/IUK/Frontend.pm:255
 msgid "not enough memory is available on this system"
-msgstr "Auf diesem Gerät steht nicht genug Speicher zur Verfügung."
+msgstr "Auf diesem Medium steht nicht genug Speicher zur Verfügung."
 
 #: ../lib/Tails/IUK/Frontend.pm:261
 #, perl-brace-format
@@ -71,7 +71,7 @@ msgstr "Für Ursache »%{reason}s« ist keine Erklärung verfügbar."
 
 #: ../lib/Tails/IUK/Frontend.pm:281
 msgid "The system is up-to-date"
-msgstr "Das System ist aktuell"
+msgstr "Das System ist auf dem neuesten Stand"
 
 #: ../lib/Tails/IUK/Frontend.pm:286
 msgid "This version of Tails is outdated, and may have security issues."
@@ -115,7 +115,7 @@ msgid ""
 "Download size: %{size}s\n"
 "\n"
 "Do you want to upgrade now?"
-msgstr "<b>Sie sollten auf folgendes aktualisieren %{name}s %{version}s.</b>\n\nFür weitere Informationen über diese neue Version, siehe %{details_url}s\n\nEs wird empfohlen, alle offenen Anwendungen während der Aktualisierung zu schließen. Das Herunterladen der Aktualisierung kann möglicherweise sehr lange dauern, von einigen Minuten bis zu einigen Stunden.\nDas Netzwerk wird deaktiviert, nach dem Herunterladen und Aktualisieren.\n\nGröße zum herunterladen: %{size}s\n\nWollen Sie jetzt aktualisieren?"
+msgstr "<b>Sie sollten auf %{name}s %{version}s aktualisieren.</b>\n\nFür weitere Informationen über diese neue Version, siehe %{details_url}s\n\nEs wird empfohlen, alle offenen Anwendungen während der Aktualisierung zu schließen. Das Herunterladen der Aktualisierung kann möglicherweise sehr lange dauern, von einigen Minuten bis zu einigen Stunden.\nNach dem Herunterladen und Aktualisieren wird das Netzwerk deaktiviert.\n\nGröße zum herunterladen: %{size}s\n\nWollen Sie jetzt aktualisieren?"
 
 #: ../lib/Tails/IUK/Frontend.pm:385
 msgid "Upgrade available"
@@ -139,7 +139,7 @@ msgid ""
 "It is not possible to automatically upgrade your device to this new version: %{explanation}s.\n"
 "\n"
 "To learn how to do a manual upgrade, go to https://tails.boum.org/doc/first_steps/upgrade/#manual"
-msgstr "<b>Sie sollten eine manuelle Aktualisierung auf %{name}s %{version}s vornehmen.</b>\n\nFür weitere Informationen zur neuen Version, besuchen Sie bitte %{details_url}s.\n\nEs ist nicht möglich, Ihr Gerät automatisch auf diese neue Version zu aktualisieren: %{explanation}s.\n\nUm zu lernen, wie man eine manuelle Aktualisierung vornimmt, besuchen Sie bitte https://tails.boum.org/doc/first_steps/upgrade/index.de.html#manual"
+msgstr "<b>Sie sollten eine manuelle Aktualisierung auf %{name}s %{version}s vornehmen.</b>\n\nFür weitere Informationen zur neuen Version besuchen Sie bitte %{details_url}s.\n\nEs ist nicht möglich, automatisch auf diese neue Version zu aktualisieren: %{explanation}s.\n\nUm zu lernen, wie man eine manuelle Aktualisierung vornimmt, besuchen Sie bitte https://tails.boum.org/doc/first_steps/upgrade/index.de.html#manual"
 
 #: ../lib/Tails/IUK/Frontend.pm:411
 msgid "New version available"
@@ -164,7 +164,7 @@ msgstr "<b>Die Aktualisierung konnte nicht heruntergeladen werden.</b>\\n\\nBitt
 
 #: ../lib/Tails/IUK/Frontend.pm:528 ../lib/Tails/IUK/Frontend.pm:547
 msgid "Error while downloading the upgrade"
-msgstr "Fehler beim Herunterladen einer Aktualisierung"
+msgstr "Fehler beim Herunterladen der Aktualisierung"
 
 #: ../lib/Tails/IUK/Frontend.pm:540
 #, perl-brace-format
@@ -189,7 +189,7 @@ msgid ""
 "You should restart Tails on the new version as soon as possible.\n"
 "\n"
 "Do you want to restart now?"
-msgstr "<b>Ihr Tails-Gerät wurde erfolgreich aktualisiert</b>\n\nEinige Sicherheitsfunktionen wurden vorübergehend abgeschalten.\nSie sollten Tails mit der neuen Version so bald wie möglich neu starten.\n\nWollen Sie jetzt neu starten?"
+msgstr "<b>Ihr Tails-Medium wurde erfolgreich aktualisiert</b>\n\nEinige Sicherheitsfunktionen wurden vorübergehend abgeschaltet.\nSie sollten Tails mit der neuen Version so bald wie möglich neu starten.\n\nWollen Sie jetzt neu starten?"
 
 #: ../lib/Tails/IUK/Frontend.pm:579
 msgid "Restart Tails"
@@ -236,7 +236,7 @@ msgid ""
 " needs to be repaired and might be unable to restart.\\n\\nPlease follow the"
 " instructions at "
 "file:///usr/share/doc/tails/website/doc/upgrade/error/install.en.html"
-msgstr "<b>Ein Fehler ist während der Aktualisierung ausgetreten.</b>\\n\\nIhr Tails-Gerät muß repariert werden und ein Neustart könnte fehlschlagen.\\n\\nBitte folgen Sie den Anweisungen in der Datei file:///usr/share/doc/tails/website/doc/upgrade/error/install.de.html"
+msgstr "<b>Ein Fehler ist während der Aktualisierung ausgetreten.</b>\\n\\nIhr Tails-Medium muß repariert werden und ein Neustart könnte fehlschlagen.\\n\\nBitte folgen Sie den Anweisungen in der Datei file:///usr/share/doc/tails/website/doc/upgrade/error/install.de.html"
 
 #: ../lib/Tails/IUK/Frontend.pm:672
 msgid "Error while installing the upgrade"
