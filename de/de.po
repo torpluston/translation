@@ -10,14 +10,15 @@
 # Sacro <Scion@T-Online.de>, 2012
 # sycamoreone <sycamoreone@riseup.net>, 2014
 # Tobias Bannert, 2014
+# rike, 2014
 # LH458 <wagnerbastian1@t-online.de>, 2014
 msgid ""
 msgstr ""
 "Project-Id-Version: The Tor Project\n"
 "Report-Msgid-Bugs-To: Tails developers <tails@boum.org>\n"
 "POT-Creation-Date: 2014-07-01 22:15+0200\n"
-"PO-Revision-Date: 2014-07-25 13:00+0000\n"
-"Last-Translator: Tobias Bannert\n"
+"PO-Revision-Date: 2014-10-03 22:15+0000\n"
+"Last-Translator: rike\n"
 "Language-Team: German (http://www.transifex.com/projects/p/torproject/language/de/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -31,7 +32,7 @@ msgstr "Persönliche Daten"
 
 #: ../lib/Tails/Persistence/Configuration/Presets.pm:50
 msgid "Keep files stored in the `Persistent' directory"
-msgstr "Dateien im »permanenten« Ordner dauerhaft speichern"
+msgstr "Dateien im beständigen Speicher-Ordner dauerhaft speichern"
 
 #: ../lib/Tails/Persistence/Configuration/Presets.pm:58
 msgid "GnuPG"
@@ -39,7 +40,7 @@ msgstr "GnuPG"
 
 #: ../lib/Tails/Persistence/Configuration/Presets.pm:60
 msgid "GnuPG keyrings and configuration"
-msgstr "GnuPG-Schlüsselbunde und Konfiguration"
+msgstr "GnuPG-Schlüsselbund und Konfiguration"
 
 #: ../lib/Tails/Persistence/Configuration/Presets.pm:68
 msgid "SSH Client"
@@ -83,11 +84,11 @@ msgstr "Konfiguration von Netzwerkgeräten und Verbindungen"
 
 #: ../lib/Tails/Persistence/Configuration/Presets.pm:118
 msgid "Browser bookmarks"
-msgstr "Internetlesezeichen"
+msgstr "Browser-Lesezeichen"
 
 #: ../lib/Tails/Persistence/Configuration/Presets.pm:120
 msgid "Bookmarks saved in Iceweasel browser"
-msgstr "Lesezeichen wurden im Iceweasel-Browser gespeichert"
+msgstr "Lesezeichen des Iceweasel-Browsers"
 
 #: ../lib/Tails/Persistence/Configuration/Presets.pm:128
 msgid "Printers"
@@ -124,7 +125,7 @@ msgstr "Alle Dateien und Verzeichnisse, die sich im Verzeichnis mit den Punktdat
 
 #: ../lib/Tails/Persistence/Setup.pm:227
 msgid "Setup Tails persistent volume"
-msgstr "Tails permanenten Datenspeicher erstellen"
+msgstr "Tails beständigen Datenspeicher erstellen"
 
 #: ../lib/Tails/Persistence/Setup.pm:307 ../lib/Tails/Persistence/Setup.pm:452
 msgid "Error"
@@ -133,39 +134,39 @@ msgstr "Fehler"
 #: ../lib/Tails/Persistence/Setup.pm:339
 #, perl-format
 msgid "Device %s already has a persistent volume."
-msgstr "Gerät %s hat bereits einen permanenten Datenspeicher."
+msgstr "%s hat bereits einen beständigen Datenspeicher."
 
 #: ../lib/Tails/Persistence/Setup.pm:347
 #, perl-format
 msgid "Device %s has not enough unallocated space."
-msgstr "Gerät %s hat nicht genug freien Speicher"
+msgstr "Datenträger %s hat nicht genug freien Speicher"
 
 #: ../lib/Tails/Persistence/Setup.pm:355 ../lib/Tails/Persistence/Setup.pm:369
 #, perl-format
 msgid "Device %s has no persistent volume."
-msgstr "Gerät %s hat keinen permanenten Datenspeicher."
+msgstr "%s hat keinen beständigen Datenspeicher."
 
 #: ../lib/Tails/Persistence/Setup.pm:361
 msgid ""
 "Cannot delete the persistent volume while in use. You should restart Tails "
 "without persistence."
-msgstr "Der permanente Datenspeicher kann nicht während der Benutzung gelöscht werden. Sie sollten Tails ohne permanenten Datenspeicher neu starten."
+msgstr "Der beständige Datenspeicher kann nicht während der Benutzung gelöscht werden. Sie sollten Tails ohne beständigen Datenspeicher neu starten."
 
 #: ../lib/Tails/Persistence/Setup.pm:380
 msgid "Persistence volume is not unlocked."
-msgstr "Permanente Datenspeicher ist nicht freigegeben."
+msgstr "Permanente Partition ist nicht freigegeben."
 
 #: ../lib/Tails/Persistence/Setup.pm:385
 msgid "Persistence volume is not mounted."
-msgstr "Permanenter Datenspeicher ist nicht eingehangen."
+msgstr "Beständiger Datenspeicher ist nicht eingehangen."
 
 #: ../lib/Tails/Persistence/Setup.pm:390
 msgid "Persistence volume is not readable. Permissions or ownership problems?"
-msgstr "Permanenter Datenspeicher ist nicht lesbar. Berechtigungs- oder Besitzerprobleme?"
+msgstr "Beständiger Datenspeicher ist nicht lesbar. Berechtigungs- oder Besitzerprobleme?"
 
 #: ../lib/Tails/Persistence/Setup.pm:395
 msgid "Persistence volume is not writable. Maybe it was mounted read-only?"
-msgstr "Permanenter Datenspeicher ist nicht beschreibbar. Vielleicht wurde es als nur-lesbar eingehangen?"
+msgstr "Beständiger Datenspeicher ist nicht beschreibbar. Vielleicht wurde es als nur-lesbar eingehangen?"
 
 #: ../lib/Tails/Persistence/Setup.pm:404
 #, perl-format
@@ -175,16 +176,16 @@ msgstr "Tails wird vom Nicht-USB/Nicht-SDIO-Gerät %s ausgeführt."
 #: ../lib/Tails/Persistence/Setup.pm:410
 #, perl-format
 msgid "Device %s is optical."
-msgstr "Gerät %s ist optisch."
+msgstr "Datenträger %s ist optisch."
 
 #: ../lib/Tails/Persistence/Setup.pm:417
 #, perl-format
 msgid "Device %s was not created using Tails Installer."
-msgstr "Das Gerät %s wurde nicht mit dem Tails-Installationsprogramm erstellt."
+msgstr "Das Medium %s wurde nicht mit dem Tails-Installationsprogramm erstellt."
 
 #: ../lib/Tails/Persistence/Setup.pm:677
 msgid "Persistence wizard - Finished"
-msgstr "Permanentassistent - Abgeschlossen"
+msgstr "Beständiger Speicher - Assistent - Abgeschlossen"
 
 #: ../lib/Tails/Persistence/Setup.pm:680
 msgid ""
@@ -195,11 +196,11 @@ msgstr "Änderungen werden erst nach einem Neustart von Tails wirksam.\n\nSie k�
 
 #: ../lib/Tails/Persistence/Step/Bootstrap.pm:54
 msgid "Persistence wizard - Persistent volume creation"
-msgstr "Permanentassistent - Erstellen eines permanenten Datenspeichers"
+msgstr "Beständiger Speicher - Assistent - Erstellen eines beständigen Datenspeichers"
 
 #: ../lib/Tails/Persistence/Step/Bootstrap.pm:57
 msgid "Choose a passphrase to protect the persistent volume"
-msgstr "Bitte eine Passphrase auswählen, um den permanenten Datenspeicher zu schützen"
+msgstr "Bitte eine Passphrase auswählen, um den beständigen Datenspeicher zu schützen"
 
 #. TRANSLATORS: size, device vendor, device model
 #: ../lib/Tails/Persistence/Step/Bootstrap.pm:61
@@ -207,7 +208,7 @@ msgstr "Bitte eine Passphrase auswählen, um den permanenten Datenspeicher zu sc
 msgid ""
 "A %s persistent volume will be created on the <b>%s %s</b> device. Data on "
 "this volume will be stored in an encrypted form protected by a passphrase."
-msgstr "Ein %s permanenter Datenspeicher wird auf dem <b>%s%s</b> Gerät erstellt. Daten in diesem Bereich werden verschlüsselt und mit einer Passphrase gesichert gespeichert."
+msgstr "Ein %s beständiger Datenspeicher wird auf dem <b>%s%s</b> Medium erstellt. Daten in diesem Bereich werden verschlüsselt gespeichert und mit einer Passphrase gesichert."
 
 #: ../lib/Tails/Persistence/Step/Bootstrap.pm:66
 msgid "Create"
@@ -219,7 +220,7 @@ msgid ""
 "understood. Tails can't help you if you use it wrong! See <a "
 "href='file:///usr/share/doc/tails/website/doc/first_steps/persistence.en.html'>Tails"
 " documentation about persistence</a> to learn more."
-msgstr "<b>Vorsicht!</b> Der Einsatz des permanenten Datenspeichers hat Konsequenzen, die gut verstanden werden müssen. Tails kann Ihnen nicht helfen, wenn Sie es falsch benutzen! Schauen Sie sich die <a href='file:///usr/share/doc/tails/website/doc/first_steps/persistence.de.html'>Tails-Dokumentation über Persistenz</a> an, um mehr zu erfahren."
+msgstr "<b>Vorsicht!</b> Der Einsatz des beständigen Datenspeichers hat Konsequenzen, die gut verstanden werden müssen. Tails kann Ihnen nicht helfen, wenn Sie es falsch benutzen! Schauen Sie sich die <a href='file:///usr/share/doc/tails/website/doc/first_steps/persistence.de.html'>Tails-Dokumentation über Persistenz</a> an, um mehr zu erfahren."
 
 #: ../lib/Tails/Persistence/Step/Bootstrap.pm:144
 msgid "Passphrase:"
