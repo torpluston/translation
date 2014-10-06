@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: The Tor Project\n"
 "Report-Msgid-Bugs-To: Tails developers <tails@boum.org>\n"
 "POT-Creation-Date: 2014-09-18 21:27-0700\n"
-"PO-Revision-Date: 2014-10-06 00:14+0000\n"
+"PO-Revision-Date: 2014-10-06 00:40+0000\n"
 "Last-Translator: A5h8d0wf0x <littleslyfoxie28@gmail.com>\n"
 "Language-Team: Czech (http://www.transifex.com/projects/p/torproject/language/cs/)\n"
 "MIME-Version: 1.0\n"
@@ -108,7 +108,7 @@ msgid ""
 "Download size: %{size}s\n"
 "\n"
 "Do you want to upgrade now?"
-msgstr ""
+msgstr "<b>Měl by jste upgradovat na %{name}s %{version}s.</b>\n\nPro více informací o této verzi běžte na %{details_url}s\n\n'Během upgradu je doporučeno zavřít všechny otevřené aplikace. Stahování může probíhat od několika minut až po několik hodin. Síť bude po stáhnutí upgradu nedostupná\n\nVelikost downloadu: %{size}s\n\nPřejete si upgradovat hned?"
 
 #: ../lib/Tails/IUK/Frontend.pm:385
 msgid "Upgrade available"
@@ -132,7 +132,7 @@ msgid ""
 "It is not possible to automatically upgrade your device to this new version: %{explanation}s.\n"
 "\n"
 "To learn how to do a manual upgrade, go to https://tails.boum.org/doc/first_steps/upgrade/#manual"
-msgstr ""
+msgstr "<b>Měli byste provést ruční upgrade na %{name}s %{version}s.</b>\n\nPro více informací o nové verzi běžte na %{details_url}s\n\nNení možné vaše zařízení upgradovat na nejnovější verzi: %{explanation}s.\n\nChcete-li se dozvědět, jak provést ruční upgrade, přejděte na https://tails.boum.org/doc/first_steps/upgrade/#manual"
 
 #: ../lib/Tails/IUK/Frontend.pm:411
 msgid "New version available"
@@ -153,7 +153,7 @@ msgid ""
 "connection, and restart Tails to try upgrading again.\\n\\nIf the problem "
 "persists, go to "
 "file:///usr/share/doc/tails/website/doc/upgrade/error/download.en.html"
-msgstr ""
+msgstr "<b> Upgrade nemohl být stažen.</b>\\n\\nZkontrolujte připojení k internetu, restartujte Tails a pokuste se upgradovat znovu. .\\n\\nPokud problém přetrvává jděte do složky:///usr/share/doc/tails/website/doc/upgrade/error/download.en.html"
 
 #: ../lib/Tails/IUK/Frontend.pm:528 ../lib/Tails/IUK/Frontend.pm:547
 msgid "Error while downloading the upgrade"
@@ -164,7 +164,7 @@ msgstr "Chyba při stahování aktualizace"
 msgid ""
 "Output file '%{output_file}s' does not exist, but tails-iuk-get-target-file "
 "did not complain. Please report a bug."
-msgstr ""
+msgstr "Výstupní složka '%{output_file}s' neexistuje, ale but tails-iuk-get-target-file nehlásí chybu. Prosíme nahlaště chybu."
 
 #: ../lib/Tails/IUK/Frontend.pm:559
 msgid "Error while creating temporary downloading directory"
@@ -182,7 +182,7 @@ msgid ""
 "You should restart Tails on the new version as soon as possible.\n"
 "\n"
 "Do you want to restart now?"
-msgstr ""
+msgstr "<b>Vaše Tails zařízení bylo upgradováno.</b>\n\nNěkteré bezpečnostní prvky jsou dočasně nedostupné.\nMěl by jste restartovat Tails s novou verzí co nejdříve.\n\nChcete nyní restartovat?"
 
 #: ../lib/Tails/IUK/Frontend.pm:579
 msgid "Restart Tails"
@@ -221,7 +221,7 @@ msgid ""
 "<b>Your Tails device is being upgraded...</b>\n"
 "\n"
 "For security reasons, the networking is now disabled."
-msgstr ""
+msgstr "<b>Vaše Tails zařízení se nyní upgraduje...</b>\n\nZ bezpečnostních důvodů je nyní síť nedostupná."
 
 #: ../lib/Tails/IUK/Frontend.pm:662
 msgid ""
@@ -229,7 +229,7 @@ msgid ""
 " needs to be repaired and might be unable to restart.\\n\\nPlease follow the"
 " instructions at "
 "file:///usr/share/doc/tails/website/doc/upgrade/error/install.en.html"
-msgstr ""
+msgstr "<b>Pri instalování upgradu se objevil error.</b>\\n\\nVaše Tails zařízení potřebuje být opraveno a může být neschopno se restartovat. \\n\\nProsíme pokračujte podle instrukcí ve složce:///usr/share/doc/tails/website/doc/upgrade/error/install.en.html"
 
 #: ../lib/Tails/IUK/Frontend.pm:672
 msgid "Error while installing the upgrade"
