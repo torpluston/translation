@@ -3,14 +3,15 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
-# dlb031, 2013
+# Ana B, 2013
+# skiddiep <lyricaltumor@gmail.com>, 2014
 msgid ""
 msgstr ""
 "Project-Id-Version: The Tor Project\n"
 "Report-Msgid-Bugs-To: Tails developers <tails@boum.org>\n"
-"POT-Creation-Date: 2014-04-16 21:26+0200\n"
-"PO-Revision-Date: 2014-04-17 09:09+0000\n"
-"Last-Translator: runasand <runa.sandvik@gmail.com>\n"
+"POT-Creation-Date: 2014-07-01 22:15+0200\n"
+"PO-Revision-Date: 2014-10-06 13:10+0000\n"
+"Last-Translator: skiddiep <lyricaltumor@gmail.com>\n"
 "Language-Team: Croatian (Croatia) (http://www.transifex.com/projects/p/torproject/language/hr_HR/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -76,19 +77,19 @@ msgstr "Konfiguracija mrežnih uređaja i veza"
 
 #: ../lib/Tails/Persistence/Configuration/Presets.pm:118
 msgid "Browser bookmarks"
-msgstr ""
+msgstr "Oznake preglednika"
 
 #: ../lib/Tails/Persistence/Configuration/Presets.pm:120
 msgid "Bookmarks saved in Iceweasel browser"
-msgstr ""
+msgstr "Oznake spremljene u Iceweasel pregledniku"
 
 #: ../lib/Tails/Persistence/Configuration/Presets.pm:128
 msgid "Printers"
-msgstr ""
+msgstr "Pisači"
 
 #: ../lib/Tails/Persistence/Configuration/Presets.pm:130
 msgid "Printers configuration"
-msgstr ""
+msgstr "Postavke pisača"
 
 #: ../lib/Tails/Persistence/Configuration/Presets.pm:138
 msgid "APT Packages"
@@ -113,86 +114,86 @@ msgstr "Dotfiles"
 #: ../lib/Tails/Persistence/Configuration/Presets.pm:160
 msgid ""
 "Symlink into $HOME every file or directory found in the `dotfiles' directory"
-msgstr ""
+msgstr "Simbolička veza u $HOME svaku datoteku ili direktorij pronađen u 'dotfiles' direktoriju"
 
 #: ../lib/Tails/Persistence/Setup.pm:227
 msgid "Setup Tails persistent volume"
-msgstr ""
+msgstr "Postavite Tails trajni pogon"
 
-#: ../lib/Tails/Persistence/Setup.pm:337
-#, perl-format
-msgid "Device %s already has a persistent volume."
-msgstr ""
-
-#: ../lib/Tails/Persistence/Setup.pm:345
-#, perl-format
-msgid "Device %s has not enough unallocated space."
-msgstr ""
-
-#: ../lib/Tails/Persistence/Setup.pm:353 ../lib/Tails/Persistence/Setup.pm:367
-#, perl-format
-msgid "Device %s has no persistent volume."
-msgstr ""
-
-#: ../lib/Tails/Persistence/Setup.pm:359
-msgid ""
-"Cannot delete the persistent volume while in use. You should restart Tails "
-"without persistence."
-msgstr ""
-
-#: ../lib/Tails/Persistence/Setup.pm:378
-msgid "Persistence volume is not unlocked."
-msgstr ""
-
-#: ../lib/Tails/Persistence/Setup.pm:383
-msgid "Persistence volume is not mounted."
-msgstr ""
-
-#: ../lib/Tails/Persistence/Setup.pm:388
-msgid "Persistence volume is not readable. Permissions or ownership problems?"
-msgstr ""
-
-#: ../lib/Tails/Persistence/Setup.pm:393
-msgid "Persistence volume is not writable. Maybe it was mounted read-only?"
-msgstr ""
-
-#: ../lib/Tails/Persistence/Setup.pm:402
-#, perl-format
-msgid "Tails is running from non-USB / non-SDIO device %s."
-msgstr ""
-
-#: ../lib/Tails/Persistence/Setup.pm:408
-#, perl-format
-msgid "Device %s is optical."
-msgstr ""
-
-#: ../lib/Tails/Persistence/Setup.pm:415
-#, perl-format
-msgid "Device %s was not created using Tails Installer."
-msgstr ""
-
-#: ../lib/Tails/Persistence/Setup.pm:450
+#: ../lib/Tails/Persistence/Setup.pm:307 ../lib/Tails/Persistence/Setup.pm:452
 msgid "Error"
 msgstr "Greška"
 
-#: ../lib/Tails/Persistence/Setup.pm:670
-msgid "Persistence wizard - Finished"
-msgstr ""
+#: ../lib/Tails/Persistence/Setup.pm:339
+#, perl-format
+msgid "Device %s already has a persistent volume."
+msgstr "Uređaj %s već ima trajni pogon."
 
-#: ../lib/Tails/Persistence/Setup.pm:673
+#: ../lib/Tails/Persistence/Setup.pm:347
+#, perl-format
+msgid "Device %s has not enough unallocated space."
+msgstr "Uređaj %s nema dovoljno alociranog prostora."
+
+#: ../lib/Tails/Persistence/Setup.pm:355 ../lib/Tails/Persistence/Setup.pm:369
+#, perl-format
+msgid "Device %s has no persistent volume."
+msgstr "Uređaj %s nema trajni pogon."
+
+#: ../lib/Tails/Persistence/Setup.pm:361
+msgid ""
+"Cannot delete the persistent volume while in use. You should restart Tails "
+"without persistence."
+msgstr "Ne mogu izbirsati trajni pogon dok se koristi. Trebali bi ponovno pokrenuti Tails bez trajnog pogona."
+
+#: ../lib/Tails/Persistence/Setup.pm:380
+msgid "Persistence volume is not unlocked."
+msgstr "Trajni pogon nije otključan."
+
+#: ../lib/Tails/Persistence/Setup.pm:385
+msgid "Persistence volume is not mounted."
+msgstr "Trajni pogon nije postavljen."
+
+#: ../lib/Tails/Persistence/Setup.pm:390
+msgid "Persistence volume is not readable. Permissions or ownership problems?"
+msgstr "Trajni pogon nije čitljiv. Problemi sa dopuštenjima ili vlasništvom?"
+
+#: ../lib/Tails/Persistence/Setup.pm:395
+msgid "Persistence volume is not writable. Maybe it was mounted read-only?"
+msgstr "Ne može se pisati na trajni pogon. Možda je postavljen samo za čitanje?"
+
+#: ../lib/Tails/Persistence/Setup.pm:404
+#, perl-format
+msgid "Tails is running from non-USB / non-SDIO device %s."
+msgstr "Tails se pokreće sa ne-USB / ne-SDIO uređaja %s."
+
+#: ../lib/Tails/Persistence/Setup.pm:410
+#, perl-format
+msgid "Device %s is optical."
+msgstr "Uređaj %s je optički."
+
+#: ../lib/Tails/Persistence/Setup.pm:417
+#, perl-format
+msgid "Device %s was not created using Tails Installer."
+msgstr "Uređaj %s nije stvoren koristeći Tails instalator."
+
+#: ../lib/Tails/Persistence/Setup.pm:677
+msgid "Persistence wizard - Finished"
+msgstr "Čarobnjak trajnosti - Gotov"
+
+#: ../lib/Tails/Persistence/Setup.pm:680
 msgid ""
 "Any changes you have made will only take effect after restarting Tails.\n"
 "\n"
 "You may now close this application."
-msgstr ""
+msgstr "Sve promjene koje imate će imati učinka tek nakon ponovnog pokretanja Tails-a.\n\nMožete zatvoriti ovu aplikaciju."
 
 #: ../lib/Tails/Persistence/Step/Bootstrap.pm:54
 msgid "Persistence wizard - Persistent volume creation"
-msgstr ""
+msgstr "Čarobnjak trajnosti - Stvaranje trajnog pogona"
 
 #: ../lib/Tails/Persistence/Step/Bootstrap.pm:57
 msgid "Choose a passphrase to protect the persistent volume"
-msgstr ""
+msgstr "Izaberite lozinku za zaštitu trajnog pogona"
 
 #. TRANSLATORS: size, device vendor, device model
 #: ../lib/Tails/Persistence/Step/Bootstrap.pm:61
@@ -200,11 +201,11 @@ msgstr ""
 msgid ""
 "A %s persistent volume will be created on the <b>%s %s</b> device. Data on "
 "this volume will be stored in an encrypted form protected by a passphrase."
-msgstr ""
+msgstr "%s trajni pogon će biti stvoren na <b>%s %s</b> uređaju. Podatci na ovom pogonu će biti pohranjeni u kodiranom obliku zaštićeni lozinkom."
 
 #: ../lib/Tails/Persistence/Step/Bootstrap.pm:66
 msgid "Create"
-msgstr ""
+msgstr "Stvori"
 
 #: ../lib/Tails/Persistence/Step/Bootstrap.pm:110
 msgid ""
@@ -212,7 +213,7 @@ msgid ""
 "understood. Tails can't help you if you use it wrong! See <a "
 "href='file:///usr/share/doc/tails/website/doc/first_steps/persistence.en.html'>Tails"
 " documentation about persistence</a> to learn more."
-msgstr ""
+msgstr "<b> Pažnja! </b> Korištenje trajnosti ima posljedice koje moraju biti dobro shvaćene. Tails Vam ne može pomoći ako ga koristite pogrešno! Vidite <a href='file:///usr/share/doc/tails/website/doc/first_steps/persistence.en.html'>Tails dokumentaciju o trajnosti </a> da bi naučili više."
 
 #: ../lib/Tails/Persistence/Step/Bootstrap.pm:144
 msgid "Passphrase:"
