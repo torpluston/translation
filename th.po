@@ -3,14 +3,14 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
-# bact' ☂ <arthit@gmail.com>, 2013
-# AomNicha <vainilla7@gmail.com>, 2013
+# Arthit Suriyawongkul <arthit@gmail.com>, 2013
+# lanichita <vainilla7@gmail.com>, 2013
 msgid ""
 msgstr ""
 "Project-Id-Version: The Tor Project\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-05-29 00:14+0200\n"
-"PO-Revision-Date: 2014-05-29 08:50+0000\n"
+"POT-Creation-Date: 2014-10-08 22:16+0200\n"
+"PO-Revision-Date: 2014-10-10 08:51+0000\n"
 "Last-Translator: runasand <runa.sandvik@gmail.com>\n"
 "Language-Team: Thai (http://www.transifex.com/projects/p/torproject/language/th/)\n"
 "MIME-Version: 1.0\n"
@@ -19,11 +19,11 @@ msgstr ""
 "Language: th\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
-#: config/chroot_local-includes/etc/NetworkManager/dispatcher.d/60-tor-ready-notification.sh:43
+#: config/chroot_local-includes/etc/NetworkManager/dispatcher.d/60-tor-ready-notification.sh:42
 msgid "Tor is ready"
 msgstr ""
 
-#: config/chroot_local-includes/etc/NetworkManager/dispatcher.d/60-tor-ready-notification.sh:44
+#: config/chroot_local-includes/etc/NetworkManager/dispatcher.d/60-tor-ready-notification.sh:43
 msgid "You can now access the Internet."
 msgstr ""
 
@@ -195,22 +195,6 @@ msgstr "ผลลัพธ์ของ GnuPG"
 msgid "Other messages provided by GnuPG:"
 msgstr "ข้อความอื่นๆ จัดหาโดย GnuPG"
 
-#: config/chroot_local-includes/usr/local/bin/iceweasel:12
-msgid "Tor is not ready"
-msgstr ""
-
-#: config/chroot_local-includes/usr/local/bin/iceweasel:13
-msgid "Tor is not ready. Start Tor Browser anyway?"
-msgstr ""
-
-#: config/chroot_local-includes/usr/local/bin/iceweasel:14
-msgid "Start Tor Browser"
-msgstr ""
-
-#: config/chroot_local-includes/usr/local/bin/iceweasel:15
-msgid "Cancel"
-msgstr "ยกเลิก"
-
 #: config/chroot_local-includes/usr/local/lib/shutdown-helper-applet:39
 msgid "Shutdown Immediately"
 msgstr "ปิดลงทันที"
@@ -315,38 +299,13 @@ msgid ""
 "You might prefer to restart Tails and disable MAC spoofing. See the <a href='file:///usr/share/doc/first_steps/startup_options/mac_spoofing.en.html'>documentation</a>."
 msgstr ""
 
-#: config/chroot_local-includes/usr/local/bin/tails-start-i2p:62
-msgid "Starting I2P..."
-msgstr ""
-
-#: config/chroot_local-includes/usr/local/bin/tails-start-i2p:63
-msgid "The I2P router console will be opened on start."
-msgstr "I2P เราเตอร์คอนโซล์จะทำงานทันทีที่เปิด"
-
-#: config/chroot_local-includes/usr/local/bin/tails-start-i2p:82
-#: config/chroot_local-includes/usr/local/bin/tails-start-i2p:124
-msgid "I2P failed to start"
-msgstr "การเริ่มต้นทำงานของ I2P ล้มเหลว"
-
-#: config/chroot_local-includes/usr/local/bin/tails-start-i2p:83
-msgid ""
-"Make sure that you have a working Internet connection, then try to start I2P"
-" again."
-msgstr "กรุณาตรวจสอบการเชื่อมต่ออินเตอร์เน็ตของคุณใหม่ ก่อนเริ่มการทำงาน I2P "
-
-#: config/chroot_local-includes/usr/local/bin/tails-start-i2p:125
-msgid ""
-"Something went wrong when I2P was starting. Look in the logs in the "
-"following directory for more information:"
-msgstr "การทำงานผิดพลาดขณะ I2P เริ่มทำงาน ข้อมูลเพิ่มเติมดูที่ปูมตามไดเรกทอรี"
-
 #: config/chroot_local-includes/usr/local/bin/tails-upgrade-frontend-wrapper:19
-#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:57
+#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:60
 msgid "error:"
 msgstr "ผิดพลาด"
 
 #: config/chroot_local-includes/usr/local/bin/tails-upgrade-frontend-wrapper:20
-#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:58
+#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:61
 msgid "Error"
 msgstr "ผิดพลาด"
 
@@ -380,76 +339,132 @@ msgid ""
 " more...</a>"
 msgstr "<a href='file:///usr/share/doc/tails/website/doc/advanced_topics/virtualization.en.html'>ข้อมูลเพิ่ม...</a>"
 
-#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:68
+#: config/chroot_local-includes/usr/local/bin/tor-browser:18
+msgid "Tor is not ready"
+msgstr ""
+
+#: config/chroot_local-includes/usr/local/bin/tor-browser:19
+msgid "Tor is not ready. Start Tor Browser anyway?"
+msgstr ""
+
+#: config/chroot_local-includes/usr/local/bin/tor-browser:20
+msgid "Start Tor Browser"
+msgstr ""
+
+#: config/chroot_local-includes/usr/local/bin/tor-browser:21
+msgid "Cancel"
+msgstr "ยกเลิก"
+
+#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:71
 msgid "Do you really want to launch the Unsafe Browser?"
 msgstr "คุณต้องการเปิดใช้งานเบราว์เซอร์ที่ไม่ปลอดภัยนี้จริงหรือ"
 
-#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:70
+#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:73
 msgid ""
 "Network activity within the Unsafe Browser is <b>not anonymous</b>. Only use"
 " the Unsafe Browser if necessary, for example if you have to login or "
 "register to activate your Internet connection."
 msgstr "การทำงานของเครือข่ายภานในเบราว์เซอร์ที่ไม่ปลอดภัยคือ<b>ไม่เป็นนิรนาม</b>.ใช้เบราร์เซอร์ที่ไม่ปลอดภัยเมื่อจำเป็นเท่านั้น ยกตัวอย่างถ้าต้องเข้าระบบหรือลงทะเบียนเพื่อเปิดการใช้งานเครือข่ายอินเตอร์เน็ต"
 
-#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:71
+#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:74
 msgid "_Launch"
 msgstr "การเริ่มใช้งานโปรแกรม"
 
-#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:72
+#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:75
 msgid "_Exit"
 msgstr "_ทางออก"
 
-#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:82
+#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:85
 msgid "Starting the Unsafe Browser..."
 msgstr "เริ่มการทำงานเบราว์เซอร์ที่ไม่ปลอดภัย"
 
-#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:83
+#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:86
 msgid "This may take a while, so please be patient."
 msgstr "อาจใช้เวลาทำนสักพักหนึ่ง โปรดใจเย็นๆ"
 
-#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:101
+#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:104
 msgid "Failed to setup chroot."
 msgstr "การตั้งค่า chroot ล้มเหลว"
 
-#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:175
+#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:184
 #: ../config/chroot_local-includes/usr/share/applications/unsafe-browser.desktop.in.h:1
 msgid "Unsafe Browser"
 msgstr "เบราว์เซอร์นี้ไม่ปลอดภัย"
 
-#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:215
+#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:240
 msgid "Shutting down the Unsafe Browser..."
 msgstr ""
 
-#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:216
+#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:241
 msgid ""
 "This may take a while, and you may not restart the Unsafe Browser until it "
 "is properly shut down."
 msgstr "การทำงานอาจใช้เวลาสักพัก คุณไม่ควรเริ่มการทำงานของเบราว์เซอร์ที่ไม่ปลอดภัยใหม่ จนกว่าเครื่องจะปิดตัวเรียบร้อย"
 
-#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:228
+#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:253
 msgid "Failed to restart Tor."
 msgstr "Tor เริ่มทำงานใหม่ล้มเหลว"
 
-#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:236
+#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:261
 msgid ""
 "Another Unsafe Browser is currently running, or being cleaned up. Please "
 "retry in a while."
 msgstr ""
 
-#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:249
+#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:274
 msgid ""
 "No DNS server was obtained through DHCP or manually configured in "
 "NetworkManager."
 msgstr ""
 
 #: config/chroot_local-includes/usr/share/tails/truecrypt-wrapper.disabled:11
-msgid "TrueCrypt will soon be removed from Tails"
-msgstr "TrueCrypt จะถูกลบออกไปจาก Tails "
+msgid "TrueCrypt will be removed in Tails 1.2.1"
+msgstr ""
 
 #: config/chroot_local-includes/usr/share/tails/truecrypt-wrapper.disabled:12
 msgid ""
-"TrueCrypt will soon be removed from Tails due to license and development "
-"concerns."
+"TrueCrypt is no longer maintained and is said to be insecure by its own "
+"authors. Therefore, it will be removed in Tails 1.2.1 (November 25). We "
+"recommend that you learn how to <a "
+"href='file:///usr/share/doc/tails/website/doc/encryption_and_privacy/truecrypt.en.html#cryptsetup'>open"
+" TrueCrypt volumes with cryptsetup</a> as soon as possible."
+msgstr ""
+
+#: config/chroot_local-includes/usr/local/sbin/tails-i2p:30
+msgid "I2P failed to start"
+msgstr "การเริ่มต้นทำงานของ I2P ล้มเหลว"
+
+#: config/chroot_local-includes/usr/local/sbin/tails-i2p:31
+msgid ""
+"Something went wrong when I2P was starting. Check the logs in /var/log/i2p "
+"for more information."
+msgstr ""
+
+#: config/chroot_local-includes/usr/local/sbin/tails-i2p:42
+msgid "I2P's router console is ready"
+msgstr ""
+
+#: config/chroot_local-includes/usr/local/sbin/tails-i2p:43
+msgid "You can now access I2P's router console on http://127.0.0.1:7657."
+msgstr ""
+
+#: config/chroot_local-includes/usr/local/sbin/tails-i2p:48
+msgid "I2P is not ready"
+msgstr ""
+
+#: config/chroot_local-includes/usr/local/sbin/tails-i2p:49
+msgid ""
+"Eepsite tunnel not built within six minutes. Check the router console at "
+"http://127.0.0.1:7657/logs or the logs in /var/log/i2p for more information."
+" Reconnect to the network to try again."
+msgstr ""
+
+#: config/chroot_local-includes/usr/local/sbin/tails-i2p:59
+msgid "I2P is ready"
+msgstr ""
+
+#: config/chroot_local-includes/usr/local/sbin/tails-i2p:60
+msgid "You can now access services on I2P."
 msgstr ""
 
 #: ../config/chroot_local-includes/etc/skel/Desktop/Report_an_error.desktop.in.h:1
@@ -465,16 +480,12 @@ msgstr "เอกสาร Tails"
 msgid "Learn how to use Tails"
 msgstr ""
 
-#: ../config/chroot_local-includes/usr/share/applications/i2p.desktop.in.h:1
-msgid "Anonymous overlay network "
+#: ../config/chroot_local-includes/usr/share/applications/i2p-browser.desktop.in.h:1
+msgid "Anonymous overlay network browser"
 msgstr ""
 
-#: ../config/chroot_local-includes/usr/share/applications/i2p.desktop.in.h:2
-msgid "i2p"
-msgstr ""
-
-#: ../config/chroot_local-includes/usr/share/applications/i2p.desktop.in.h:3
-msgid "Anonymous overlay network"
+#: ../config/chroot_local-includes/usr/share/applications/i2p-browser.desktop.in.h:2
+msgid "I2P Browser"
 msgstr ""
 
 #: ../config/chroot_local-includes/usr/share/applications/tails-about.desktop.in.h:2

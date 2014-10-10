@@ -6,19 +6,19 @@
 # jjjdddsssxxx <a227675@drdrb.net>, 2014
 # Adriaan Callaerts <adriaan.callaerts@gmail.com>, 2013
 # cialenhh <c1914502@drdrb.com>, 2013
-# erwindelaat <erwin.de.laat@cleveridge.org>, 2014
-# joostrijneveld <joostrijneveld@gmail.com>, 2014
+# Cleveridge <erwin.de.laat@cleveridge.org>, 2014
+# Joost Rijneveld <joostrijneveld@gmail.com>, 2014
 # LittleNacho <louisboy@msn.com>, 2013
 # Midgard, 2014
-# Syrion <transifex@syrion.net>, 2014
+# Tjeerd <transifex@syrion.net>, 2014
 # Lazlo <transifex@lazlo.me>, 2013
 msgid ""
 msgstr ""
 "Project-Id-Version: The Tor Project\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-05-29 00:14+0200\n"
-"PO-Revision-Date: 2014-05-29 20:11+0000\n"
-"Last-Translator: Midgard\n"
+"POT-Creation-Date: 2014-10-08 22:16+0200\n"
+"PO-Revision-Date: 2014-10-10 08:51+0000\n"
+"Last-Translator: runasand <runa.sandvik@gmail.com>\n"
 "Language-Team: Dutch (http://www.transifex.com/projects/p/torproject/language/nl/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -26,11 +26,11 @@ msgstr ""
 "Language: nl\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: config/chroot_local-includes/etc/NetworkManager/dispatcher.d/60-tor-ready-notification.sh:43
+#: config/chroot_local-includes/etc/NetworkManager/dispatcher.d/60-tor-ready-notification.sh:42
 msgid "Tor is ready"
 msgstr "Tor is klaar"
 
-#: config/chroot_local-includes/etc/NetworkManager/dispatcher.d/60-tor-ready-notification.sh:44
+#: config/chroot_local-includes/etc/NetworkManager/dispatcher.d/60-tor-ready-notification.sh:43
 msgid "You can now access the Internet."
 msgstr "U heeft nu toegang tot het Internet"
 
@@ -205,22 +205,6 @@ msgstr "Uitvoer van GnuPG:"
 msgid "Other messages provided by GnuPG:"
 msgstr "Andere berichten die door GnuPG gegeven worden:"
 
-#: config/chroot_local-includes/usr/local/bin/iceweasel:12
-msgid "Tor is not ready"
-msgstr "Tor is niet klaar"
-
-#: config/chroot_local-includes/usr/local/bin/iceweasel:13
-msgid "Tor is not ready. Start Tor Browser anyway?"
-msgstr "Tor is niet klaar. De Tor Browser toch starten?"
-
-#: config/chroot_local-includes/usr/local/bin/iceweasel:14
-msgid "Start Tor Browser"
-msgstr "Start de Tor Browser"
-
-#: config/chroot_local-includes/usr/local/bin/iceweasel:15
-msgid "Cancel"
-msgstr "Annuleren"
-
 #: config/chroot_local-includes/usr/local/lib/shutdown-helper-applet:39
 msgid "Shutdown Immediately"
 msgstr "Onmiddellijk afsluiten"
@@ -325,38 +309,13 @@ msgid ""
 "You might prefer to restart Tails and disable MAC spoofing. See the <a href='file:///usr/share/doc/first_steps/startup_options/mac_spoofing.en.html'>documentation</a>."
 msgstr "Het MAC-spoofen voor de netwerkkaart ${nic_name} (${nic}) heeft gefaald. Omdat foutherstel ook faalde zijn alle netwerken uitgeschakeld.\nU kunt er voor kiezen om Tails opnieuw op te starten en MAC-spoofing uit te zetten. Zie hiervoor de <a href='file:///usr/share/doc/tails/website/doc/first_steps/startup_options/mac_spoofing.nl.html'>documentatie</a>."
 
-#: config/chroot_local-includes/usr/local/bin/tails-start-i2p:62
-msgid "Starting I2P..."
-msgstr "Opstarten I2P..."
-
-#: config/chroot_local-includes/usr/local/bin/tails-start-i2p:63
-msgid "The I2P router console will be opened on start."
-msgstr "De I2P routerconsole zal geopend worden bij het starten."
-
-#: config/chroot_local-includes/usr/local/bin/tails-start-i2p:82
-#: config/chroot_local-includes/usr/local/bin/tails-start-i2p:124
-msgid "I2P failed to start"
-msgstr "I2P kon niet starten"
-
-#: config/chroot_local-includes/usr/local/bin/tails-start-i2p:83
-msgid ""
-"Make sure that you have a working Internet connection, then try to start I2P"
-" again."
-msgstr "Zorg ervoor dat je een werkende internetverbinding hebt en probeer dan I2P opnieuw te starten."
-
-#: config/chroot_local-includes/usr/local/bin/tails-start-i2p:125
-msgid ""
-"Something went wrong when I2P was starting. Look in the logs in the "
-"following directory for more information:"
-msgstr "Er ging iets mis terwijl I2P aan het starten was. Bekijk de logs in de volgende map voor meer informatie:"
-
 #: config/chroot_local-includes/usr/local/bin/tails-upgrade-frontend-wrapper:19
-#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:57
+#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:60
 msgid "error:"
 msgstr "fout:"
 
 #: config/chroot_local-includes/usr/local/bin/tails-upgrade-frontend-wrapper:20
-#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:58
+#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:61
 msgid "Error"
 msgstr "Fout"
 
@@ -390,77 +349,133 @@ msgid ""
 " more...</a>"
 msgstr "<a href='file:///usr/share/doc/tails/website/doc/advanced_topics/virtualization.en.html'>Kom meer te weten...</a>"
 
-#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:68
+#: config/chroot_local-includes/usr/local/bin/tor-browser:18
+msgid "Tor is not ready"
+msgstr "Tor is niet klaar"
+
+#: config/chroot_local-includes/usr/local/bin/tor-browser:19
+msgid "Tor is not ready. Start Tor Browser anyway?"
+msgstr "Tor is niet klaar. De Tor Browser toch starten?"
+
+#: config/chroot_local-includes/usr/local/bin/tor-browser:20
+msgid "Start Tor Browser"
+msgstr "Start de Tor Browser"
+
+#: config/chroot_local-includes/usr/local/bin/tor-browser:21
+msgid "Cancel"
+msgstr "Annuleren"
+
+#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:71
 msgid "Do you really want to launch the Unsafe Browser?"
 msgstr "Ben je zeker dat je de Onveilige Browser wil starten?"
 
-#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:70
+#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:73
 msgid ""
 "Network activity within the Unsafe Browser is <b>not anonymous</b>. Only use"
 " the Unsafe Browser if necessary, for example if you have to login or "
 "register to activate your Internet connection."
 msgstr "Netwerkactiviteit in de Onveilige Browser is <b>niet anoniem</b>. Gebruik de Onveilige Browser alleen als het noodzakelijk is, bijvoorbeeld als je moet aanmelden of registreren om je internetverbinding te activeren."
 
-#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:71
+#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:74
 msgid "_Launch"
 msgstr "Start"
 
-#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:72
+#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:75
 msgid "_Exit"
 msgstr "Sluiten"
 
-#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:82
+#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:85
 msgid "Starting the Unsafe Browser..."
 msgstr "Bezig met opstarten van de Onveilige Browser..."
 
-#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:83
+#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:86
 msgid "This may take a while, so please be patient."
 msgstr "Dit kan even duren, heb geduld a.u.b."
 
-#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:101
+#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:104
 msgid "Failed to setup chroot."
 msgstr "Kon geen chroot maken."
 
-#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:175
+#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:184
 #: ../config/chroot_local-includes/usr/share/applications/unsafe-browser.desktop.in.h:1
 msgid "Unsafe Browser"
 msgstr "Onveilige Browser"
 
-#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:215
+#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:240
 msgid "Shutting down the Unsafe Browser..."
 msgstr "Afsluiten van de onveilige browser..."
 
-#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:216
+#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:241
 msgid ""
 "This may take a while, and you may not restart the Unsafe Browser until it "
 "is properly shut down."
 msgstr "Dit kan een tijdje duren, u mag de onveilige browser niet herstarten tot deze degelijk is afgesloten."
 
-#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:228
+#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:253
 msgid "Failed to restart Tor."
 msgstr "Het herstarten van Tor is mislukt."
 
-#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:236
+#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:261
 msgid ""
 "Another Unsafe Browser is currently running, or being cleaned up. Please "
 "retry in a while."
 msgstr "Een andere onveilige browser is momenteel in werking of Tor is bezig met het opruimen ervan. Probeer het een andere keer opnieuw."
 
-#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:249
+#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:274
 msgid ""
 "No DNS server was obtained through DHCP or manually configured in "
 "NetworkManager."
 msgstr "Er is geen DNS server verkregen via DHCP of manueel ingesteld in NetwerkBeheerder."
 
 #: config/chroot_local-includes/usr/share/tails/truecrypt-wrapper.disabled:11
-msgid "TrueCrypt will soon be removed from Tails"
-msgstr "TrueCrypt zal binnenkort verwijderd worden uit Tails"
+msgid "TrueCrypt will be removed in Tails 1.2.1"
+msgstr ""
 
 #: config/chroot_local-includes/usr/share/tails/truecrypt-wrapper.disabled:12
 msgid ""
-"TrueCrypt will soon be removed from Tails due to license and development "
-"concerns."
-msgstr "TrueCrypt zal binnenkort worden verwijderd uit Tails door de problemen in verband met de licensie en de ontwikkeling van TrueCrypt."
+"TrueCrypt is no longer maintained and is said to be insecure by its own "
+"authors. Therefore, it will be removed in Tails 1.2.1 (November 25). We "
+"recommend that you learn how to <a "
+"href='file:///usr/share/doc/tails/website/doc/encryption_and_privacy/truecrypt.en.html#cryptsetup'>open"
+" TrueCrypt volumes with cryptsetup</a> as soon as possible."
+msgstr ""
+
+#: config/chroot_local-includes/usr/local/sbin/tails-i2p:30
+msgid "I2P failed to start"
+msgstr "I2P kon niet starten"
+
+#: config/chroot_local-includes/usr/local/sbin/tails-i2p:31
+msgid ""
+"Something went wrong when I2P was starting. Check the logs in /var/log/i2p "
+"for more information."
+msgstr ""
+
+#: config/chroot_local-includes/usr/local/sbin/tails-i2p:42
+msgid "I2P's router console is ready"
+msgstr ""
+
+#: config/chroot_local-includes/usr/local/sbin/tails-i2p:43
+msgid "You can now access I2P's router console on http://127.0.0.1:7657."
+msgstr ""
+
+#: config/chroot_local-includes/usr/local/sbin/tails-i2p:48
+msgid "I2P is not ready"
+msgstr ""
+
+#: config/chroot_local-includes/usr/local/sbin/tails-i2p:49
+msgid ""
+"Eepsite tunnel not built within six minutes. Check the router console at "
+"http://127.0.0.1:7657/logs or the logs in /var/log/i2p for more information."
+" Reconnect to the network to try again."
+msgstr ""
+
+#: config/chroot_local-includes/usr/local/sbin/tails-i2p:59
+msgid "I2P is ready"
+msgstr ""
+
+#: config/chroot_local-includes/usr/local/sbin/tails-i2p:60
+msgid "You can now access services on I2P."
+msgstr ""
 
 #: ../config/chroot_local-includes/etc/skel/Desktop/Report_an_error.desktop.in.h:1
 msgid "Report an error"
@@ -475,17 +490,13 @@ msgstr "Tail documentatie"
 msgid "Learn how to use Tails"
 msgstr "Leer Tails te gebruiken"
 
-#: ../config/chroot_local-includes/usr/share/applications/i2p.desktop.in.h:1
-msgid "Anonymous overlay network "
-msgstr "Anoniem overlay netwerk"
+#: ../config/chroot_local-includes/usr/share/applications/i2p-browser.desktop.in.h:1
+msgid "Anonymous overlay network browser"
+msgstr ""
 
-#: ../config/chroot_local-includes/usr/share/applications/i2p.desktop.in.h:2
-msgid "i2p"
-msgstr "i2p"
-
-#: ../config/chroot_local-includes/usr/share/applications/i2p.desktop.in.h:3
-msgid "Anonymous overlay network"
-msgstr "Anoniem overlay netwerk"
+#: ../config/chroot_local-includes/usr/share/applications/i2p-browser.desktop.in.h:2
+msgid "I2P Browser"
+msgstr ""
 
 #: ../config/chroot_local-includes/usr/share/applications/tails-about.desktop.in.h:2
 msgid "Learn more about Tails"
