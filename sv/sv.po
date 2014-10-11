@@ -7,14 +7,15 @@
 # GabSeb, 2014
 # Göran Uddeborg <goeran@uddeborg.se>, 2010
 # Mikael Hiort af Ornäs <mikael.hafo@hotmail.com>, 2013
+# leveebreaks <when.the.levee.breaks.89@gmail.com>, 2014
 # WinterFairy <winterfairy@riseup.net>, 2013-2014
 msgid ""
 msgstr ""
 "Project-Id-Version: The Tor Project\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-07-01 22:11+0200\n"
-"PO-Revision-Date: 2014-07-02 08:56+0000\n"
-"Last-Translator: runasand <runa.sandvik@gmail.com>\n"
+"POT-Creation-Date: 2014-10-08 21:03+0200\n"
+"PO-Revision-Date: 2014-10-11 21:30+0000\n"
+"Last-Translator: leveebreaks <when.the.levee.breaks.89@gmail.com>\n"
 "Language-Team: Swedish (http://www.transifex.com/projects/p/torproject/language/sv/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -42,7 +43,7 @@ msgstr "%(size)s %(label)s"
 msgid "%(vendor)s %(model)s (%(details)s) - %(device)s"
 msgstr "%(vendor)s %(model)s (%(details)s) - %(device)s"
 
-#: ../liveusb/creator.py:1047
+#: ../liveusb/creator.py:1059
 #, python-format
 msgid "%s already bootable"
 msgstr "%s är redan startbar"
@@ -99,12 +100,12 @@ msgid ""
 "persist after a reboot."
 msgstr "Genom att allokera extra utrymme på ditt USB-minne för beständig överlagring kan du möjliggöra lagring av data samt göra beständiga ändringar i ditt live operativsystem.  Utan detta kommer ingen data du sparar att finnas kvar mellan omstarter."
 
-#: ../liveusb/creator.py:1146 ../liveusb/creator.py:1409
+#: ../liveusb/creator.py:1158 ../liveusb/creator.py:1421
 #, python-format
 msgid "Calculating the SHA1 of %s"
 msgstr "Beräknar SHA1 för %s"
 
-#: ../liveusb/creator.py:1357
+#: ../liveusb/creator.py:1369
 msgid "Cannot find"
 msgstr "Kan inte hitta"
 
@@ -155,7 +156,7 @@ msgstr "Hämtning misslyckades: "
 msgid "Downloading %s..."
 msgstr "Hämtar %s…"
 
-#: ../liveusb/creator.py:1142
+#: ../liveusb/creator.py:1154
 msgid "Drive is a loopback, skipping MBR reset"
 msgstr "Enheten är en loopback, hoppar över att återställa MBR"
 
@@ -164,7 +165,7 @@ msgstr "Enheten är en loopback, hoppar över att återställa MBR"
 msgid "Entering unmount_device for '%(device)s'"
 msgstr "Anger unmount_device för \"%(device)s\""
 
-#: ../liveusb/creator.py:1222
+#: ../liveusb/creator.py:1234
 msgid "Error probing device"
 msgstr "Fel vid sökning efter enheten"
 
@@ -184,7 +185,7 @@ msgstr "Fel: SHA1-summan för din Live CD är ogiltig.  Du kan köra detta progr
 msgid "Extracting live image to the target device..."
 msgstr "Packar upp live-avbild till målenheten..."
 
-#: ../liveusb/creator.py:1090
+#: ../liveusb/creator.py:1102
 #, python-format
 msgid "Formatting %(device)s as FAT32"
 msgstr "Formaterar %(device)s som FAT32"
@@ -220,7 +221,7 @@ msgstr "Installationen är slutförd! (%s)"
 msgid "Installation was completed. Press OK to close this program."
 msgstr "Installationen slutförd. Tryck OK för att stänga detta program."
 
-#: ../liveusb/creator.py:947 ../liveusb/creator.py:1263
+#: ../liveusb/creator.py:959 ../liveusb/creator.py:1275
 msgid "Installing bootloader..."
 msgstr "Installerar starthanteraren..."
 
@@ -228,13 +229,13 @@ msgstr "Installerar starthanteraren..."
 msgid "LiveUSB creation failed!"
 msgstr "Misslyckades med att skapa LiveUSB!"
 
-#: ../liveusb/creator.py:1358
+#: ../liveusb/creator.py:1370
 msgid ""
 "Make sure to extract the entire liveusb-creator zip file before running this"
 " program."
 msgstr "Säkerställ att du packar upp hela liveusb-creator zip-filen innan du kör detta program."
 
-#: ../liveusb/creator.py:1234
+#: ../liveusb/creator.py:1246
 msgid ""
 "Make sure your USB key is plugged in and formatted with the FAT filesystem"
 msgstr "Se till att din USB-pinne är inkopplat och formaterad med filsystemet FAT"
@@ -290,7 +291,7 @@ msgstr "Uppdaterar utgåvor..."
 msgid "Releases updated!"
 msgstr "Utgåvor uppdaterade!"
 
-#: ../liveusb/creator.py:954 ../liveusb/creator.py:1281
+#: ../liveusb/creator.py:966 ../liveusb/creator.py:1293
 #, python-format
 msgid "Removing %(file)s"
 msgstr "Tar bort %(file)s"
@@ -299,7 +300,7 @@ msgstr "Tar bort %(file)s"
 msgid "Removing existing Live OS"
 msgstr "Tar bort existerande Live OS"
 
-#: ../liveusb/creator.py:1136
+#: ../liveusb/creator.py:1148
 #, python-format
 msgid "Resetting Master Boot Record of %s"
 msgstr "Nollställer Master Boot Record på %s"
@@ -322,9 +323,9 @@ msgstr "Några partitioner på målenheten %(device)s är monterade. De kommer a
 #: ../liveusb/creator.py:133
 msgid ""
 "Source type does not support verification of ISO MD5 checksum, skipping"
-msgstr "Källtypen stöder inte verifikation af ISO MD5 kontrollsummor, hoppar över"
+msgstr "Källtypen stöder inte verifikation av ISO MD5 kontrollsummor, hoppar över"
 
-#: ../liveusb/creator.py:1170
+#: ../liveusb/creator.py:1182
 msgid "Synchronizing data on disk..."
 msgstr "Synkroniserar data på disk..."
 
@@ -376,11 +377,11 @@ msgstr "Detta är förloppsfältet som visar hur långt skapandet av LiveUSB pro
 msgid "This is the status console, where all messages get written to."
 msgstr "Detta är statuskonsollen där alla meddelanden sparas."
 
-#: ../liveusb/creator.py:910
+#: ../liveusb/creator.py:922
 msgid "Trying to continue anyway."
 msgstr "Försöker fortsätta ändå."
 
-#: ../liveusb/creator.py:942
+#: ../liveusb/creator.py:954
 #, python-format
 msgid "Unable to change volume label: %(message)s"
 msgstr "Kunde inte byta etikett på volymen: %(message)s"
@@ -399,15 +400,15 @@ msgstr "Kunde inte kopiera %(infile)s till %(outfile)s: %(message)s"
 msgid "Unable to find any USB drive"
 msgstr "Kunde inte hitta någon USB-enhet."
 
-#: ../liveusb/creator.py:1224
+#: ../liveusb/creator.py:1236
 msgid "Unable to find any supported device"
 msgstr "Hittade ingen enhet som stöds."
 
-#: ../liveusb/creator.py:1067
+#: ../liveusb/creator.py:1079
 msgid "Unable to find partition"
 msgstr "Kunde inte hitta partitionen"
 
-#: ../liveusb/creator.py:1304
+#: ../liveusb/creator.py:1316
 msgid ""
 "Unable to get Win32_LogicalDisk; win32com query did not return any results"
 msgstr "Kunde inte läsa Win32_LogicalDisk; win32com frågan gav inte något svar"
@@ -431,7 +432,7 @@ msgstr "Kunde inte ta bort mapp från tidigare LiveOS: %(message)s"
 msgid "Unable to remove file from previous LiveOS: %(message)s"
 msgstr "Kunde inte ta bort fil från tidigare LiveOS: %(message)s"
 
-#: ../liveusb/creator.py:1139
+#: ../liveusb/creator.py:1151
 msgid ""
 "Unable to reset MBR.  You may not have the `syslinux` package installed."
 msgstr "Kunde inte återställa MBR. Det kan vara så att du inte har `syslinux` paketet installerat."
@@ -456,7 +457,7 @@ msgstr "Okänd ISO, hoppar över verifiering av kontrollsumma"
 msgid "Unknown dbus exception while trying to mount device: %(message)s"
 msgstr "Okänt dbus undantag vid försök att montera enheten: %(message)s"
 
-#: ../liveusb/creator.py:779 ../liveusb/creator.py:921
+#: ../liveusb/creator.py:779 ../liveusb/creator.py:933
 msgid "Unknown filesystem.  Your device may need to be reformatted."
 msgstr "Okänt filsystem.  Din enhet kan behöva omformateras."
 
@@ -475,12 +476,12 @@ msgstr "Avmonterar \"%(udi)s\" på \"%(device)s\""
 msgid "Unmounting mounted filesystems on '%(device)s'"
 msgstr "Avmonterar monterade filsystem på \"%(device)s\""
 
-#: ../liveusb/creator.py:907
+#: ../liveusb/creator.py:919
 #, python-format
 msgid "Unsupported device '%(device)s', please report a bug."
 msgstr "Enheten '%(device)s' stöds inte, anmäl detta som en bugg."
 
-#: ../liveusb/creator.py:784 ../liveusb/creator.py:924
+#: ../liveusb/creator.py:784 ../liveusb/creator.py:936
 #, python-format
 msgid "Unsupported filesystem: %s"
 msgstr "Stöder inte filsystemet: %s"
@@ -492,7 +493,7 @@ msgid ""
 "In case you are trying to upgrade a manually installed Tails system (that is, if it was installed without this installer), this option is not supported: you need to install it anew to start with, e.g. by choosing the \"Clone & Install\" action instead."
 msgstr "Filsystemet stöds inte: %s\nOm du försöker att uppgradera ett manuellt installerat Tails system (dvs, det var installerat utan denna installerare) så stöds inte det: du måste ominstallera systemet, t.ex genom att välja \"Klona & installera\" istället."
 
-#: ../liveusb/creator.py:1237
+#: ../liveusb/creator.py:1249
 #, python-format
 msgid ""
 "Unsupported filesystem: %s\n"
@@ -524,7 +525,7 @@ msgstr "Verifierar SHA1 kontrollsumma av LiveCD avbild..."
 msgid "Verifying SHA256 checksum of LiveCD image..."
 msgstr "Verifierar SHA256 kontrollsumma av LiveCD avbild..."
 
-#: ../liveusb/creator.py:918 ../liveusb/creator.py:1230
+#: ../liveusb/creator.py:930 ../liveusb/creator.py:1242
 msgid "Verifying filesystem..."
 msgstr "Verifierar filsystem…"
 
