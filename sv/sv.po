@@ -3,6 +3,7 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
+# Michael Cavén, 2014
 # phst <transifex@sturman.se>, 2014
 # WinterFairy <winterfairy@riseup.net>, 2013
 # WinterFairy <winterfairy@riseup.net>, 2013
@@ -10,9 +11,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: The Tor Project\n"
 "Report-Msgid-Bugs-To: Tails developers <tails@boum.org>\n"
-"POT-Creation-Date: 2014-04-16 21:26+0200\n"
-"PO-Revision-Date: 2014-05-06 08:46+0000\n"
-"Last-Translator: phst <transifex@sturman.se>\n"
+"POT-Creation-Date: 2014-10-08 21:13+0200\n"
+"PO-Revision-Date: 2014-10-11 07:44+0000\n"
+"Last-Translator: Michael Cavén\n"
 "Language-Team: Swedish (http://www.transifex.com/projects/p/torproject/language/sv/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -81,8 +82,8 @@ msgid "Browser bookmarks"
 msgstr "Bokmärken i webbläsaren"
 
 #: ../lib/Tails/Persistence/Configuration/Presets.pm:120
-msgid "Bookmarks saved in Iceweasel browser"
-msgstr "Bokmärken sparade i webbläsaren Iceweasel"
+msgid "Bookmarks saved in the Tor Browser"
+msgstr "Bokmärken sparade i Tor Browser"
 
 #: ../lib/Tails/Persistence/Configuration/Presets.pm:128
 msgid "Printers"
@@ -121,67 +122,67 @@ msgstr "Länka in i $HOME varje fil och katalog som finns i `dotfiles' katalogen
 msgid "Setup Tails persistent volume"
 msgstr "Konfigurera bestående lagring för Tails"
 
-#: ../lib/Tails/Persistence/Setup.pm:337
+#: ../lib/Tails/Persistence/Setup.pm:307 ../lib/Tails/Persistence/Setup.pm:452
+msgid "Error"
+msgstr "Fel"
+
+#: ../lib/Tails/Persistence/Setup.pm:339
 #, perl-format
 msgid "Device %s already has a persistent volume."
 msgstr "Enhet %s innehåller redan en partition med bestående lagring."
 
-#: ../lib/Tails/Persistence/Setup.pm:345
+#: ../lib/Tails/Persistence/Setup.pm:347
 #, perl-format
 msgid "Device %s has not enough unallocated space."
 msgstr "Enhet %s saknar tillräckligt med opartitionerat utrymme."
 
-#: ../lib/Tails/Persistence/Setup.pm:353 ../lib/Tails/Persistence/Setup.pm:367
+#: ../lib/Tails/Persistence/Setup.pm:355 ../lib/Tails/Persistence/Setup.pm:369
 #, perl-format
 msgid "Device %s has no persistent volume."
 msgstr "Enhet %s innehåller ingen partition för bestående lagring."
 
-#: ../lib/Tails/Persistence/Setup.pm:359
+#: ../lib/Tails/Persistence/Setup.pm:361
 msgid ""
 "Cannot delete the persistent volume while in use. You should restart Tails "
 "without persistence."
 msgstr "Partitionen med bestående lagring kan inte tas bort när den används. Starta om Tails utan bestående lagring."
 
-#: ../lib/Tails/Persistence/Setup.pm:378
+#: ../lib/Tails/Persistence/Setup.pm:380
 msgid "Persistence volume is not unlocked."
 msgstr "Partitionen med bestående lagring är inte upplåst."
 
-#: ../lib/Tails/Persistence/Setup.pm:383
+#: ../lib/Tails/Persistence/Setup.pm:385
 msgid "Persistence volume is not mounted."
 msgstr "Partitionen med bestående lagring är inte monterad."
 
-#: ../lib/Tails/Persistence/Setup.pm:388
+#: ../lib/Tails/Persistence/Setup.pm:390
 msgid "Persistence volume is not readable. Permissions or ownership problems?"
 msgstr "Kunde inte läsa ifrån den bestående lagringen. Saknas nödvändiga rättigheter?"
 
-#: ../lib/Tails/Persistence/Setup.pm:393
+#: ../lib/Tails/Persistence/Setup.pm:395
 msgid "Persistence volume is not writable. Maybe it was mounted read-only?"
 msgstr "Skrivåtkomst till den bestående lagringen saknas. Kanske den är skrivskyddad?"
 
-#: ../lib/Tails/Persistence/Setup.pm:402
+#: ../lib/Tails/Persistence/Setup.pm:404
 #, perl-format
 msgid "Tails is running from non-USB / non-SDIO device %s."
 msgstr "Tails körs från icke-USB / icke-SDIO enheten %s."
 
-#: ../lib/Tails/Persistence/Setup.pm:408
+#: ../lib/Tails/Persistence/Setup.pm:410
 #, perl-format
 msgid "Device %s is optical."
 msgstr "Enheten %s är optisk."
 
-#: ../lib/Tails/Persistence/Setup.pm:415
+#: ../lib/Tails/Persistence/Setup.pm:417
 #, perl-format
 msgid "Device %s was not created using Tails Installer."
 msgstr "Din enhet %s är inte skapad av Tails installerare."
 
-#: ../lib/Tails/Persistence/Setup.pm:450
-msgid "Error"
-msgstr "Fel"
-
-#: ../lib/Tails/Persistence/Setup.pm:670
+#: ../lib/Tails/Persistence/Setup.pm:677
 msgid "Persistence wizard - Finished"
 msgstr "Guiden avslutad"
 
-#: ../lib/Tails/Persistence/Setup.pm:673
+#: ../lib/Tails/Persistence/Setup.pm:680
 msgid ""
 "Any changes you have made will only take effect after restarting Tails.\n"
 "\n"
