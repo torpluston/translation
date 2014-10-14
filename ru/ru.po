@@ -3,20 +3,21 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
-# Bergitte <alvina_alexandrova@mail.ru>, 2013
+# Adriano <morros@ro.ru>, 2014
+# alvina alexandrova <alvina_alexandrova@mail.ru>, 2013
 # hypa <bbbalda@mail.ru>, 2012
 # Den Arefyev <>, 2012
-# Арефьев Денис <jujjer@gmail.com>, 2013
-# oulgocke <beandonlybe@yandex.ru>, 2013-2014
+# jujjer <jujjer@gmail.com>, 2013
+# Oul Gocke <beandonlybe@yandex.ru>, 2013-2014
 # tavarysh <tavarysh@riseup.net>, 2013
-# Euler <barok.2@yandex.ru>, 2013
+# Петр <barok.2@yandex.ru>, 2013
 msgid ""
 msgstr ""
 "Project-Id-Version: The Tor Project\n"
 "Report-Msgid-Bugs-To: Tails developers <tails@boum.org>\n"
-"POT-Creation-Date: 2014-04-16 21:26+0200\n"
-"PO-Revision-Date: 2014-04-17 14:51+0000\n"
-"Last-Translator: oulgocke <beandonlybe@yandex.ru>\n"
+"POT-Creation-Date: 2014-10-08 21:13+0200\n"
+"PO-Revision-Date: 2014-10-14 12:01+0000\n"
+"Last-Translator: Adriano <morros@ro.ru>\n"
 "Language-Team: Russian (http://www.transifex.com/projects/p/torproject/language/ru/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -85,8 +86,8 @@ msgid "Browser bookmarks"
 msgstr "Закладки браузера"
 
 #: ../lib/Tails/Persistence/Configuration/Presets.pm:120
-msgid "Bookmarks saved in Iceweasel browser"
-msgstr "Закладки сохранены в Iceweasel browser"
+msgid "Bookmarks saved in the Tor Browser"
+msgstr "Закладки, сохранённые в браузере Tor"
 
 #: ../lib/Tails/Persistence/Configuration/Presets.pm:128
 msgid "Printers"
@@ -125,67 +126,67 @@ msgstr "Символьные ссылки на каждый файл или па
 msgid "Setup Tails persistent volume"
 msgstr "Установить постоянное хранилище Tails"
 
-#: ../lib/Tails/Persistence/Setup.pm:337
+#: ../lib/Tails/Persistence/Setup.pm:307 ../lib/Tails/Persistence/Setup.pm:452
+msgid "Error"
+msgstr "Ошибка"
+
+#: ../lib/Tails/Persistence/Setup.pm:339
 #, perl-format
 msgid "Device %s already has a persistent volume."
 msgstr "Устройство %s уже имеет постоянное хранилище."
 
-#: ../lib/Tails/Persistence/Setup.pm:345
+#: ../lib/Tails/Persistence/Setup.pm:347
 #, perl-format
 msgid "Device %s has not enough unallocated space."
 msgstr "На устройстве %s недостаточно свободного места"
 
-#: ../lib/Tails/Persistence/Setup.pm:353 ../lib/Tails/Persistence/Setup.pm:367
+#: ../lib/Tails/Persistence/Setup.pm:355 ../lib/Tails/Persistence/Setup.pm:369
 #, perl-format
 msgid "Device %s has no persistent volume."
 msgstr "Устройство %s не имеет постоянного хранилища"
 
-#: ../lib/Tails/Persistence/Setup.pm:359
+#: ../lib/Tails/Persistence/Setup.pm:361
 msgid ""
 "Cannot delete the persistent volume while in use. You should restart Tails "
 "without persistence."
 msgstr "Нельзя удалить постоянное хранилище при его использовании. Вы должны перезапустить Tails без постоянного хранилища."
 
-#: ../lib/Tails/Persistence/Setup.pm:378
+#: ../lib/Tails/Persistence/Setup.pm:380
 msgid "Persistence volume is not unlocked."
 msgstr "Постоянное хранилище не разблокировано."
 
-#: ../lib/Tails/Persistence/Setup.pm:383
+#: ../lib/Tails/Persistence/Setup.pm:385
 msgid "Persistence volume is not mounted."
 msgstr "Постоянное хранилище не установлено."
 
-#: ../lib/Tails/Persistence/Setup.pm:388
+#: ../lib/Tails/Persistence/Setup.pm:390
 msgid "Persistence volume is not readable. Permissions or ownership problems?"
 msgstr "Постоянное хранилище не может быть прочитано. Проблемы с разрешениями или владельцем?"
 
-#: ../lib/Tails/Persistence/Setup.pm:393
+#: ../lib/Tails/Persistence/Setup.pm:395
 msgid "Persistence volume is not writable. Maybe it was mounted read-only?"
 msgstr "Постоянное хранилище не доступно для записи. Может быть, оно смонтировано только для чтения?"
 
-#: ../lib/Tails/Persistence/Setup.pm:402
+#: ../lib/Tails/Persistence/Setup.pm:404
 #, perl-format
 msgid "Tails is running from non-USB / non-SDIO device %s."
 msgstr "Tails запущена с не-USB и не-SDIO устройства %s."
 
-#: ../lib/Tails/Persistence/Setup.pm:408
+#: ../lib/Tails/Persistence/Setup.pm:410
 #, perl-format
 msgid "Device %s is optical."
 msgstr "Устройство %s оптическое"
 
-#: ../lib/Tails/Persistence/Setup.pm:415
+#: ../lib/Tails/Persistence/Setup.pm:417
 #, perl-format
 msgid "Device %s was not created using Tails Installer."
 msgstr "Устройство %s не было создано при помощи Установщика Tails."
 
-#: ../lib/Tails/Persistence/Setup.pm:450
-msgid "Error"
-msgstr "Ошибка"
-
-#: ../lib/Tails/Persistence/Setup.pm:670
+#: ../lib/Tails/Persistence/Setup.pm:677
 msgid "Persistence wizard - Finished"
 msgstr "Мастер постоянного хранилища - Завершено"
 
-#: ../lib/Tails/Persistence/Setup.pm:673
+#: ../lib/Tails/Persistence/Setup.pm:680
 msgid ""
 "Any changes you have made will only take effect after restarting Tails.\n"
 "\n"
@@ -218,7 +219,7 @@ msgid ""
 "understood. Tails can't help you if you use it wrong! See <a "
 "href='file:///usr/share/doc/tails/website/doc/first_steps/persistence.en.html'>Tails"
 " documentation about persistence</a> to learn more."
-msgstr "<b>Внимание!</b> Использование постоянного хранилища влечёт последствия, которые нужно хорошо понимать. Tails не поможет Вам, если Вы пользуетесь ею неправильно! Смотри <a href='file:///usr/share/doc/tails/website/doc/first_steps/persistence.en.html'>Документацию Tails о постоянном хранилище</a> to learn more."
+msgstr "<b>Внимание!</b> Использование постоянного хранилища влечёт за собой последствия, которые нужно хорошо понимать. Программа Tails не поможет вам, если пользоваться ей неправильно! См. дополнительную информацию в <a href='file:///usr/share/doc/tails/website/doc/first_steps/persistence.en.html'>документации Tails по постоянным хранилищам</a>."
 
 #: ../lib/Tails/Persistence/Step/Bootstrap.pm:144
 msgid "Passphrase:"
