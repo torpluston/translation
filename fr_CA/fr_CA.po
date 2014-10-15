@@ -4,18 +4,18 @@
 # 
 # Translators:
 # arpalord <arpalord@gmail.com>, 2013
-# dgoulet <vanmortel@gmail.com>, 2012
-# jytou <saiolar-c@yahoo.fr>, 2013
+# David Goulet <vanmortel@gmail.com>, 2012
+# Jean-Yves Toumit <saiolar-c@yahoo.fr>, 2013
 # Onizuka, 2013
 # palsecam <paul@dabuttonfactory.com>, 2012
-# Alain-Olivier  Breysse, 2014
+# yahoe.001, 2014
 msgid ""
 msgstr ""
 "Project-Id-Version: The Tor Project\n"
 "Report-Msgid-Bugs-To: Tails developers <tails@boum.org>\n"
-"POT-Creation-Date: 2014-04-16 21:26+0200\n"
-"PO-Revision-Date: 2014-05-15 15:57+0000\n"
-"Last-Translator: Alain-Olivier  Breysse\n"
+"POT-Creation-Date: 2014-10-08 21:13+0200\n"
+"PO-Revision-Date: 2014-10-15 18:44+0000\n"
+"Last-Translator: yahoe.001\n"
 "Language-Team: French (Canada) (http://www.transifex.com/projects/p/torproject/language/fr_CA/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -84,8 +84,8 @@ msgid "Browser bookmarks"
 msgstr "Marque-pages du navigateur"
 
 #: ../lib/Tails/Persistence/Configuration/Presets.pm:120
-msgid "Bookmarks saved in Iceweasel browser"
-msgstr "Marque-pages sauvegardés dans le navigateur Iceweasel"
+msgid "Bookmarks saved in the Tor Browser"
+msgstr "Marque-pages enregistrés dans le navigateur Tor"
 
 #: ../lib/Tails/Persistence/Configuration/Presets.pm:128
 msgid "Printers"
@@ -124,67 +124,67 @@ msgstr "Créer un lien symbolique, dans $HOME, pour chaque fichier ou dossier se
 msgid "Setup Tails persistent volume"
 msgstr "Définir le volume persistant de Tails"
 
-#: ../lib/Tails/Persistence/Setup.pm:337
+#: ../lib/Tails/Persistence/Setup.pm:307 ../lib/Tails/Persistence/Setup.pm:452
+msgid "Error"
+msgstr "Erreur"
+
+#: ../lib/Tails/Persistence/Setup.pm:339
 #, perl-format
 msgid "Device %s already has a persistent volume."
 msgstr "Le périphérique %s contient déjà un volume persistant."
 
-#: ../lib/Tails/Persistence/Setup.pm:345
+#: ../lib/Tails/Persistence/Setup.pm:347
 #, perl-format
 msgid "Device %s has not enough unallocated space."
 msgstr "Le périphérique %s n'a pas assez d'espace non alloué."
 
-#: ../lib/Tails/Persistence/Setup.pm:353 ../lib/Tails/Persistence/Setup.pm:367
+#: ../lib/Tails/Persistence/Setup.pm:355 ../lib/Tails/Persistence/Setup.pm:369
 #, perl-format
 msgid "Device %s has no persistent volume."
 msgstr "Le périphérique %s n'a pas de volume persistant."
 
-#: ../lib/Tails/Persistence/Setup.pm:359
+#: ../lib/Tails/Persistence/Setup.pm:361
 msgid ""
 "Cannot delete the persistent volume while in use. You should restart Tails "
 "without persistence."
 msgstr "Impossible de supprimer le volume persistent pendant qu’il est utilisé. Vous devriez redémarrer Tails sans persistance."
 
-#: ../lib/Tails/Persistence/Setup.pm:378
+#: ../lib/Tails/Persistence/Setup.pm:380
 msgid "Persistence volume is not unlocked."
 msgstr "Le volume persistant n'est pas déverrouillé."
 
-#: ../lib/Tails/Persistence/Setup.pm:383
+#: ../lib/Tails/Persistence/Setup.pm:385
 msgid "Persistence volume is not mounted."
 msgstr "Le volume persistant n'est pas monté."
 
-#: ../lib/Tails/Persistence/Setup.pm:388
+#: ../lib/Tails/Persistence/Setup.pm:390
 msgid "Persistence volume is not readable. Permissions or ownership problems?"
 msgstr "Le volume persistent n’est pas accessible en lecture. Problèmes de permissions ou de propriété?"
 
-#: ../lib/Tails/Persistence/Setup.pm:393
+#: ../lib/Tails/Persistence/Setup.pm:395
 msgid "Persistence volume is not writable. Maybe it was mounted read-only?"
 msgstr "Le volume persistent n’est pas accessible en écriture. Peut-être a-t-il été monté en lecture seule?"
 
-#: ../lib/Tails/Persistence/Setup.pm:402
+#: ../lib/Tails/Persistence/Setup.pm:404
 #, perl-format
 msgid "Tails is running from non-USB / non-SDIO device %s."
 msgstr "Tails tourne depuis le périphérique non-USB / non-SDIO %s."
 
-#: ../lib/Tails/Persistence/Setup.pm:408
+#: ../lib/Tails/Persistence/Setup.pm:410
 #, perl-format
 msgid "Device %s is optical."
 msgstr "Le périphérique %s est un lecteur optique."
 
-#: ../lib/Tails/Persistence/Setup.pm:415
+#: ../lib/Tails/Persistence/Setup.pm:417
 #, perl-format
 msgid "Device %s was not created using Tails Installer."
 msgstr "Le dispositif %s n'a pas été créé en utilisant le programme d'installation Tails."
 
-#: ../lib/Tails/Persistence/Setup.pm:450
-msgid "Error"
-msgstr "Erreur"
-
-#: ../lib/Tails/Persistence/Setup.pm:670
+#: ../lib/Tails/Persistence/Setup.pm:677
 msgid "Persistence wizard - Finished"
 msgstr "Assistant de persistance - Terminé"
 
-#: ../lib/Tails/Persistence/Setup.pm:673
+#: ../lib/Tails/Persistence/Setup.pm:680
 msgid ""
 "Any changes you have made will only take effect after restarting Tails.\n"
 "\n"
