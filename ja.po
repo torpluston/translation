@@ -3,15 +3,17 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
-# plazmism <gomidori@live.jp>, 2013-2014
+# sunpower92 <fumihito92@gmail.com>, 2014
+# タカハシ <gomidori@live.jp>, 2013-2014
 # Masaki Saito <rezoolab@gmail.com>, 2013
+# mksyslab, 2014
 msgid ""
 msgstr ""
 "Project-Id-Version: The Tor Project\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-05-29 00:14+0200\n"
-"PO-Revision-Date: 2014-06-03 15:12+0000\n"
-"Last-Translator: plazmism <gomidori@live.jp>\n"
+"POT-Creation-Date: 2014-10-15 17:57+0200\n"
+"PO-Revision-Date: 2014-11-03 08:30+0000\n"
+"Last-Translator: mksyslab\n"
 "Language-Team: Japanese (http://www.transifex.com/projects/p/torproject/language/ja/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -19,11 +21,11 @@ msgstr ""
 "Language: ja\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
-#: config/chroot_local-includes/etc/NetworkManager/dispatcher.d/60-tor-ready-notification.sh:43
+#: config/chroot_local-includes/etc/NetworkManager/dispatcher.d/60-tor-ready-notification.sh:42
 msgid "Tor is ready"
 msgstr "Tor は準備完了"
 
-#: config/chroot_local-includes/etc/NetworkManager/dispatcher.d/60-tor-ready-notification.sh:44
+#: config/chroot_local-includes/etc/NetworkManager/dispatcher.d/60-tor-ready-notification.sh:43
 msgid "You can now access the Internet."
 msgstr "インターネットにアクセスできます。"
 
@@ -195,22 +197,6 @@ msgstr "GnuPGの出力:"
 msgid "Other messages provided by GnuPG:"
 msgstr "GnuPGからのそのほかのメッセージ:"
 
-#: config/chroot_local-includes/usr/local/bin/iceweasel:12
-msgid "Tor is not ready"
-msgstr "Tor は準備出来ていません"
-
-#: config/chroot_local-includes/usr/local/bin/iceweasel:13
-msgid "Tor is not ready. Start Tor Browser anyway?"
-msgstr "Tor は準備出来ていません。とにかく Tor Browser を起動しますか？"
-
-#: config/chroot_local-includes/usr/local/bin/iceweasel:14
-msgid "Start Tor Browser"
-msgstr "Tor Browser を起動"
-
-#: config/chroot_local-includes/usr/local/bin/iceweasel:15
-msgid "Cancel"
-msgstr "キャンセル"
-
 #: config/chroot_local-includes/usr/local/lib/shutdown-helper-applet:39
 msgid "Shutdown Immediately"
 msgstr "すぐにシャットダウンする"
@@ -315,38 +301,13 @@ msgid ""
 "You might prefer to restart Tails and disable MAC spoofing. See the <a href='file:///usr/share/doc/first_steps/startup_options/mac_spoofing.en.html'>documentation</a>."
 msgstr "MAC スプーフィングが、ネットワークカード ${nic_name} (${nic}) のために失敗しました。エラーリカバリも失敗したので、全ネットワーク機能が無効になります。 Tails を再起動して、 MAC スプーフィングを無効化したいと思うかもしれません。<a href='file:///usr/share/doc/first_steps/startup_options/mac_spoofing.en.html'>ドキュメント</a>をご覧ください。"
 
-#: config/chroot_local-includes/usr/local/bin/tails-start-i2p:62
-msgid "Starting I2P..."
-msgstr "I2Pを起動中..."
-
-#: config/chroot_local-includes/usr/local/bin/tails-start-i2p:63
-msgid "The I2P router console will be opened on start."
-msgstr "I2Pルーターコンソールは、開始時に開かれます。"
-
-#: config/chroot_local-includes/usr/local/bin/tails-start-i2p:82
-#: config/chroot_local-includes/usr/local/bin/tails-start-i2p:124
-msgid "I2P failed to start"
-msgstr "I2Pは起動できませんでした"
-
-#: config/chroot_local-includes/usr/local/bin/tails-start-i2p:83
-msgid ""
-"Make sure that you have a working Internet connection, then try to start I2P"
-" again."
-msgstr "有効なインターネット接続があることを確認してから、I2Pをもう一度起動してみてください。"
-
-#: config/chroot_local-includes/usr/local/bin/tails-start-i2p:125
-msgid ""
-"Something went wrong when I2P was starting. Look in the logs in the "
-"following directory for more information:"
-msgstr "I2Pの起動時に問題が起こりました。詳細については、以下のディレクトリ内のログで確認してください:"
-
 #: config/chroot_local-includes/usr/local/bin/tails-upgrade-frontend-wrapper:19
-#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:57
+#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:62
 msgid "error:"
 msgstr "エラー:"
 
 #: config/chroot_local-includes/usr/local/bin/tails-upgrade-frontend-wrapper:20
-#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:58
+#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:63
 msgid "Error"
 msgstr "エラー"
 
@@ -380,77 +341,133 @@ msgid ""
 " more...</a>"
 msgstr "<a href='file:///usr/share/doc/tails/website/doc/advanced_topics/virtualization.en.html'>詳細...</a>"
 
-#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:68
+#: config/chroot_local-includes/usr/local/bin/tor-browser:18
+msgid "Tor is not ready"
+msgstr "Tor は準備出来ていません"
+
+#: config/chroot_local-includes/usr/local/bin/tor-browser:19
+msgid "Tor is not ready. Start Tor Browser anyway?"
+msgstr "Tor は準備出来ていません。とにかく Tor Browser を起動しますか？"
+
+#: config/chroot_local-includes/usr/local/bin/tor-browser:20
+msgid "Start Tor Browser"
+msgstr "Tor Browser を起動"
+
+#: config/chroot_local-includes/usr/local/bin/tor-browser:21
+msgid "Cancel"
+msgstr "キャンセル"
+
+#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:73
 msgid "Do you really want to launch the Unsafe Browser?"
 msgstr "本当に安全ではないブラウザを起動しますか？"
 
-#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:70
+#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:75
 msgid ""
 "Network activity within the Unsafe Browser is <b>not anonymous</b>. Only use"
 " the Unsafe Browser if necessary, for example if you have to login or "
 "register to activate your Internet connection."
 msgstr "安全でないブラウザ内でのネットワークの活動状況は、<b>匿名ではありません</b>。必要な場合のみ、例えば、インターネット接続を有効化するためにログインまたは登録しなければならないような場合のみ、安全でないブラウザを使用してください。"
 
-#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:71
+#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:76
 msgid "_Launch"
 msgstr "_Launch"
 
-#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:72
+#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:77
 msgid "_Exit"
 msgstr "_Exit"
 
-#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:82
+#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:87
 msgid "Starting the Unsafe Browser..."
 msgstr "安全でないブラウザを起動中..."
 
-#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:83
+#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:88
 msgid "This may take a while, so please be patient."
 msgstr "しばらくかかる場合がありますので、お待ちください。"
 
-#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:101
+#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:106
 msgid "Failed to setup chroot."
 msgstr "chrootのセットアップに失敗しました。"
 
-#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:175
+#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:180
 #: ../config/chroot_local-includes/usr/share/applications/unsafe-browser.desktop.in.h:1
 msgid "Unsafe Browser"
 msgstr "安全でないブラウザ"
 
-#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:215
+#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:236
 msgid "Shutting down the Unsafe Browser..."
 msgstr "安全でないブラウザをシャットダウン中..."
 
-#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:216
+#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:237
 msgid ""
 "This may take a while, and you may not restart the Unsafe Browser until it "
 "is properly shut down."
 msgstr "暫く時間がかかる恐れがあり、適切にシャットダウンされるまで、安全でないブラウザを再起動できません。"
 
-#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:228
+#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:249
 msgid "Failed to restart Tor."
 msgstr "Torを再起動できませんでした。"
 
-#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:236
+#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:257
 msgid ""
 "Another Unsafe Browser is currently running, or being cleaned up. Please "
 "retry in a while."
 msgstr "別の安全でないブラウザが起動中か、クリーンアップされています。少ししてからもう一度お試しください。"
 
-#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:249
+#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:270
 msgid ""
 "No DNS server was obtained through DHCP or manually configured in "
 "NetworkManager."
 msgstr "DNSサーバーは、DHCP経由で取得されるか、またはNetworkManagerで手動で構成されませんでした。"
 
 #: config/chroot_local-includes/usr/share/tails/truecrypt-wrapper.disabled:11
-msgid "TrueCrypt will soon be removed from Tails"
-msgstr "TrueCryptは間もなくTailsから取り除かれます"
+msgid "TrueCrypt will be removed in Tails 1.2.1"
+msgstr "TrueCryptはTails 1.2.1で取り除かれる予定です"
 
 #: config/chroot_local-includes/usr/share/tails/truecrypt-wrapper.disabled:12
 msgid ""
-"TrueCrypt will soon be removed from Tails due to license and development "
-"concerns."
-msgstr "TrueCryptは、ライセンスと開発上の懸念のために、まもなくTailsから取り除かれます。"
+"TrueCrypt is no longer maintained and is said to be insecure by its own "
+"authors. Therefore, it will be removed in Tails 1.2.1 (November 25). We "
+"recommend that you learn how to <a "
+"href='file:///usr/share/doc/tails/website/doc/encryption_and_privacy/truecrypt.en.html#cryptsetup'>open"
+" TrueCrypt volumes with cryptsetup</a> as soon as possible."
+msgstr "TrueCryptはメンテナンスされておらず、制作者によって安全でないといわれています。そのためTails 1.2.1 (November 25)で削除される予定です。できるだけ早く、<a href='file:///usr/share/doc/tails/website/doc/encryption_and_privacy/truecrypt.en.html#cryptsetup'>open TrueCrypt volumes with cryptsetup</a>について学ばれることを推奨します。"
+
+#: config/chroot_local-includes/usr/local/sbin/tails-i2p:30
+msgid "I2P failed to start"
+msgstr "I2Pは起動できませんでした"
+
+#: config/chroot_local-includes/usr/local/sbin/tails-i2p:31
+msgid ""
+"Something went wrong when I2P was starting. Check the logs in /var/log/i2p "
+"for more information."
+msgstr "I2Pの開始時になにかエラーが起きたようです。/var/log/i2p にあるログファイルを覗いてみてください。何か手がかりがあるかもしれません。"
+
+#: config/chroot_local-includes/usr/local/sbin/tails-i2p:42
+msgid "I2P's router console is ready"
+msgstr "I2Pルータコンソールは準備完了"
+
+#: config/chroot_local-includes/usr/local/sbin/tails-i2p:43
+msgid "You can now access I2P's router console on http://127.0.0.1:7657."
+msgstr "I2Pのルータ・コンソールにhttp://127.0.0.1:7657からアクセスできます"
+
+#: config/chroot_local-includes/usr/local/sbin/tails-i2p:48
+msgid "I2P is not ready"
+msgstr "I2Pは準備できていません"
+
+#: config/chroot_local-includes/usr/local/sbin/tails-i2p:49
+msgid ""
+"Eepsite tunnel not built within six minutes. Check the router console at "
+"http://127.0.0.1:7657/logs or the logs in /var/log/i2p for more information."
+" Reconnect to the network to try again."
+msgstr "Eepsite tunnelは6分以内に構築されませんでした。ルータ・コンソールのhttp://127.0.0.1:7657/logsか/var/log/i2pのログを確認してください。再トライするにはネットワークに再接続してください"
+
+#: config/chroot_local-includes/usr/local/sbin/tails-i2p:59
+msgid "I2P is ready"
+msgstr "I2Pは準備完了"
+
+#: config/chroot_local-includes/usr/local/sbin/tails-i2p:60
+msgid "You can now access services on I2P."
+msgstr "I2Pサービスにアクセスできます"
 
 #: ../config/chroot_local-includes/etc/skel/Desktop/Report_an_error.desktop.in.h:1
 msgid "Report an error"
@@ -465,17 +482,13 @@ msgstr "Tailsのドキュメント"
 msgid "Learn how to use Tails"
 msgstr "Tails の使い方を知る"
 
-#: ../config/chroot_local-includes/usr/share/applications/i2p.desktop.in.h:1
-msgid "Anonymous overlay network "
-msgstr "匿名オーバーレイネットワーク"
+#: ../config/chroot_local-includes/usr/share/applications/i2p-browser.desktop.in.h:1
+msgid "Anonymous overlay network browser"
+msgstr "アノニマス・オーバーレイ・ネットワーク・ブラウザ"
 
-#: ../config/chroot_local-includes/usr/share/applications/i2p.desktop.in.h:2
-msgid "i2p"
-msgstr "i2p"
-
-#: ../config/chroot_local-includes/usr/share/applications/i2p.desktop.in.h:3
-msgid "Anonymous overlay network"
-msgstr "匿名オーバーレイネットワーク"
+#: ../config/chroot_local-includes/usr/share/applications/i2p-browser.desktop.in.h:2
+msgid "I2P Browser"
+msgstr "I2Pブラウザ"
 
 #: ../config/chroot_local-includes/usr/share/applications/tails-about.desktop.in.h:2
 msgid "Learn more about Tails"
@@ -496,6 +509,14 @@ msgstr "電源を切る"
 #: ../config/chroot_local-includes/usr/share/applications/tails-shutdown.desktop.in.h:2
 msgid "Immediately shut down computer"
 msgstr "すぐにコンピュータをシャットダウンします"
+
+#: ../config/chroot_local-includes/usr/share/applications/tor-browser.desktop.in.h:1
+msgid "Tor Browser"
+msgstr "Tor Browser"
+
+#: ../config/chroot_local-includes/usr/share/applications/tor-browser.desktop.in.h:2
+msgid "Anonymous Web Browser"
+msgstr "アノニマス・ウェブ・ブラウザ"
 
 #: ../config/chroot_local-includes/usr/share/applications/unsafe-browser.desktop.in.h:2
 msgid "Browse the World Wide Web without anonymity"
