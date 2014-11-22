@@ -3,16 +3,17 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
-# andersd <andersd@riseup.net>, 2013
-# autofunk78 <villum@autofunk.dk>, 2014
-# torebjornson <tore.bjornson@gmail.com>, 2013
+# Anders Damsgaard <andersd@riseup.net>, 2013
+# Christian Villum <villum@autofunk.dk>, 2014
+# Tore Bjørnson <tore.bjornson@gmail.com>, 2013
+# Whiz Zurrd <Whizzurrd@hmamail.com>, 2014
 msgid ""
 msgstr ""
 "Project-Id-Version: The Tor Project\n"
 "Report-Msgid-Bugs-To: Tails developers <tails@boum.org>\n"
-"POT-Creation-Date: 2014-04-16 21:26+0200\n"
-"PO-Revision-Date: 2014-05-21 19:13+0000\n"
-"Last-Translator: autofunk78 <villum@autofunk.dk>\n"
+"POT-Creation-Date: 2014-10-08 21:13+0200\n"
+"PO-Revision-Date: 2014-11-22 21:45+0000\n"
+"Last-Translator: Whiz Zurrd <Whizzurrd@hmamail.com>\n"
 "Language-Team: Danish (http://www.transifex.com/projects/p/torproject/language/da/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -34,7 +35,7 @@ msgstr "GnuPG"
 
 #: ../lib/Tails/Persistence/Configuration/Presets.pm:60
 msgid "GnuPG keyrings and configuration"
-msgstr "GnuPG nøgleringe og konfiguratio"
+msgstr "GnuPG nøgleringe og konfiguration"
 
 #: ../lib/Tails/Persistence/Configuration/Presets.pm:68
 msgid "SSH Client"
@@ -81,8 +82,8 @@ msgid "Browser bookmarks"
 msgstr "Browser bogmærker"
 
 #: ../lib/Tails/Persistence/Configuration/Presets.pm:120
-msgid "Bookmarks saved in Iceweasel browser"
-msgstr "Bogmærker gemt i Iceweasel browseren"
+msgid "Bookmarks saved in the Tor Browser"
+msgstr "Bogmærker gemt i Tor Browser"
 
 #: ../lib/Tails/Persistence/Configuration/Presets.pm:128
 msgid "Printers"
@@ -115,73 +116,73 @@ msgstr "Dotfiles"
 #: ../lib/Tails/Persistence/Configuration/Presets.pm:160
 msgid ""
 "Symlink into $HOME every file or directory found in the `dotfiles' directory"
-msgstr "Symlink ind i $HOME alle filer eller mapper fra 'dotfiles' mappen"
+msgstr "Symlink alle filer eller mapper fra 'dotfiles' mappen ind i $HOME"
 
 #: ../lib/Tails/Persistence/Setup.pm:227
 msgid "Setup Tails persistent volume"
 msgstr "Setup Tails vedholdende volume"
 
-#: ../lib/Tails/Persistence/Setup.pm:337
+#: ../lib/Tails/Persistence/Setup.pm:307 ../lib/Tails/Persistence/Setup.pm:452
+msgid "Error"
+msgstr "Fejl"
+
+#: ../lib/Tails/Persistence/Setup.pm:339
 #, perl-format
 msgid "Device %s already has a persistent volume."
 msgstr "Enheden %s har allerede et vedholdende volume."
 
-#: ../lib/Tails/Persistence/Setup.pm:345
+#: ../lib/Tails/Persistence/Setup.pm:347
 #, perl-format
 msgid "Device %s has not enough unallocated space."
 msgstr "Enheden %s kunne ikke finde nok uallokeret plads."
 
-#: ../lib/Tails/Persistence/Setup.pm:353 ../lib/Tails/Persistence/Setup.pm:367
+#: ../lib/Tails/Persistence/Setup.pm:355 ../lib/Tails/Persistence/Setup.pm:369
 #, perl-format
 msgid "Device %s has no persistent volume."
 msgstr "Enheden %s har ikke noget vedholdende volume."
 
-#: ../lib/Tails/Persistence/Setup.pm:359
+#: ../lib/Tails/Persistence/Setup.pm:361
 msgid ""
 "Cannot delete the persistent volume while in use. You should restart Tails "
 "without persistence."
-msgstr "Kan ikke slette det vedholdende volume i brug. De bør genstarte Tails uden vedholdenhed."
+msgstr "Kan ikke slette det vedholdende volume mens det er i brug. Du bør genstarte Tails uden vedholdenhed."
 
-#: ../lib/Tails/Persistence/Setup.pm:378
+#: ../lib/Tails/Persistence/Setup.pm:380
 msgid "Persistence volume is not unlocked."
-msgstr "Vedholdenhed volume er ikke låst."
+msgstr "Vedholdenhed volume er ikke låst op."
 
-#: ../lib/Tails/Persistence/Setup.pm:383
+#: ../lib/Tails/Persistence/Setup.pm:385
 msgid "Persistence volume is not mounted."
-msgstr "Vedholdenhed volume er ikke mounted."
+msgstr "Vedholdenhed volume er ikke monteret."
 
-#: ../lib/Tails/Persistence/Setup.pm:388
+#: ../lib/Tails/Persistence/Setup.pm:390
 msgid "Persistence volume is not readable. Permissions or ownership problems?"
 msgstr "Vedholdenhed volumet er ikke læstbart. Rettigheder eller ejerskabs problemer?"
 
-#: ../lib/Tails/Persistence/Setup.pm:393
+#: ../lib/Tails/Persistence/Setup.pm:395
 msgid "Persistence volume is not writable. Maybe it was mounted read-only?"
-msgstr "Vedholdenhed volumet er ikke skrivbart. Var det muligvis mounted som skrivebeskyttet?"
+msgstr "Vedholdenhed volumet er ikke skrivbart. Var det muligvis monteret som skrivebeskyttet?"
 
-#: ../lib/Tails/Persistence/Setup.pm:402
+#: ../lib/Tails/Persistence/Setup.pm:404
 #, perl-format
 msgid "Tails is running from non-USB / non-SDIO device %s."
-msgstr "Tails kører fra ikke-USB / ikke-SDIO enheden %s."
+msgstr "Tails kører fra ikke-USB / ikke-SDIO enhed %s."
 
-#: ../lib/Tails/Persistence/Setup.pm:408
+#: ../lib/Tails/Persistence/Setup.pm:410
 #, perl-format
 msgid "Device %s is optical."
 msgstr "Enheden %s er optisk."
 
-#: ../lib/Tails/Persistence/Setup.pm:415
+#: ../lib/Tails/Persistence/Setup.pm:417
 #, perl-format
 msgid "Device %s was not created using Tails Installer."
 msgstr "Enheden %s blev ikke etableret med Tails Installer."
 
-#: ../lib/Tails/Persistence/Setup.pm:450
-msgid "Error"
-msgstr "Fejl"
-
-#: ../lib/Tails/Persistence/Setup.pm:670
+#: ../lib/Tails/Persistence/Setup.pm:677
 msgid "Persistence wizard - Finished"
 msgstr "Vedholdenhed guiden - Færdig"
 
-#: ../lib/Tails/Persistence/Setup.pm:673
+#: ../lib/Tails/Persistence/Setup.pm:680
 msgid ""
 "Any changes you have made will only take effect after restarting Tails.\n"
 "\n"
