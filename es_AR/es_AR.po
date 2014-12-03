@@ -13,8 +13,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: The Tor Project\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-07-01 22:11+0200\n"
-"PO-Revision-Date: 2014-07-02 08:56+0000\n"
+"POT-Creation-Date: 2014-12-01 18:01+0100\n"
+"PO-Revision-Date: 2014-12-03 11:44+0000\n"
 "Last-Translator: runasand <runa.sandvik@gmail.com>\n"
 "Language-Team: Spanish (Argentina) (http://www.transifex.com/projects/p/torproject/language/es_AR/)\n"
 "MIME-Version: 1.0\n"
@@ -43,7 +43,7 @@ msgstr "%(size)s %(label)s"
 msgid "%(vendor)s %(model)s (%(details)s) - %(device)s"
 msgstr "%(vendor)s %(model)s (%(details)s) - %(device)s"
 
-#: ../liveusb/creator.py:1047
+#: ../liveusb/creator.py:1059
 #, python-format
 msgid "%s already bootable"
 msgstr "%s es arrancable"
@@ -100,12 +100,12 @@ msgid ""
 "persist after a reboot."
 msgstr "Asignando espacio extra para un área persistente en su memoria USB, será capaz de almacenar datos y hacer modificaciones persistentes a su sistema operativo autoarrancable. Si no lo hace, los cambios se perderán después de un reinicio."
 
-#: ../liveusb/creator.py:1146 ../liveusb/creator.py:1409
+#: ../liveusb/creator.py:1158 ../liveusb/creator.py:1421
 #, python-format
 msgid "Calculating the SHA1 of %s"
 msgstr "Calculando el SHA1 de %s"
 
-#: ../liveusb/creator.py:1357
+#: ../liveusb/creator.py:1369
 msgid "Cannot find"
 msgstr "No se encontró"
 
@@ -156,7 +156,7 @@ msgstr "Descarga fallida:"
 msgid "Downloading %s..."
 msgstr "Descargando %s..."
 
-#: ../liveusb/creator.py:1142
+#: ../liveusb/creator.py:1154
 msgid "Drive is a loopback, skipping MBR reset"
 msgstr "La unidad es virtual, omitiendo el restablecimiento del MBR"
 
@@ -165,7 +165,7 @@ msgstr "La unidad es virtual, omitiendo el restablecimiento del MBR"
 msgid "Entering unmount_device for '%(device)s'"
 msgstr "Ejecutando unmount_device para '%(device)s'"
 
-#: ../liveusb/creator.py:1222
+#: ../liveusb/creator.py:1234
 msgid "Error probing device"
 msgstr "Error al examinar el dispositivo"
 
@@ -185,7 +185,7 @@ msgstr "Error: El SHA1 de su Live CD es invalido. Puede ejecutar este programa c
 msgid "Extracting live image to the target device..."
 msgstr "Extrayendo imagen \"live\" en el dispositivo destino..."
 
-#: ../liveusb/creator.py:1090
+#: ../liveusb/creator.py:1102
 #, python-format
 msgid "Formatting %(device)s as FAT32"
 msgstr "Formateando %(device)s como FAT32"
@@ -221,7 +221,7 @@ msgstr "Instalación completa! (%s)"
 msgid "Installation was completed. Press OK to close this program."
 msgstr "La instalación se ha completado. Presione Aceptar para cerrar este programa."
 
-#: ../liveusb/creator.py:947 ../liveusb/creator.py:1263
+#: ../liveusb/creator.py:959 ../liveusb/creator.py:1275
 msgid "Installing bootloader..."
 msgstr "Instalando el gestor de arranque..."
 
@@ -229,13 +229,13 @@ msgstr "Instalando el gestor de arranque..."
 msgid "LiveUSB creation failed!"
 msgstr "¡Falló la creación del LiveUSB!"
 
-#: ../liveusb/creator.py:1358
+#: ../liveusb/creator.py:1370
 msgid ""
 "Make sure to extract the entire liveusb-creator zip file before running this"
 " program."
 msgstr "Asegúrese de extraer el archivo zip de liveusb-creator antes de ejecutar este programa."
 
-#: ../liveusb/creator.py:1234
+#: ../liveusb/creator.py:1246
 msgid ""
 "Make sure your USB key is plugged in and formatted with the FAT filesystem"
 msgstr "Asegúrese de que su dispositivo USB está conectado y formateado con un sistema de archivos FAT"
@@ -255,8 +255,11 @@ msgid "No mount points found"
 msgstr "No se encontraron puntos de montaje"
 
 #: ../liveusb/creator.py:401
-msgid "Not enough free space on device."
-msgstr "No hay suficiente espacio libre en el dispositivo."
+#, python-format
+msgid ""
+"Not enough free space on device.\n"
+"%dMB ISO + %dMB overlay > %dMB free space"
+msgstr "No hay suficiente espacio libre en el dispositivo\n%dMB ISO + %dMB partición de datos > %dMB espacio libre"
 
 #: ../liveusb/gui.py:538
 msgid "Partition is FAT16; Restricting overlay size to 2G"
@@ -291,7 +294,7 @@ msgstr "Comprobando nuevas versiones..."
 msgid "Releases updated!"
 msgstr "¡Versiones actualizadas!"
 
-#: ../liveusb/creator.py:954 ../liveusb/creator.py:1281
+#: ../liveusb/creator.py:966 ../liveusb/creator.py:1293
 #, python-format
 msgid "Removing %(file)s"
 msgstr "Removiendo %(file)s"
@@ -300,7 +303,7 @@ msgstr "Removiendo %(file)s"
 msgid "Removing existing Live OS"
 msgstr "Eliminando Live OS existente"
 
-#: ../liveusb/creator.py:1136
+#: ../liveusb/creator.py:1148
 #, python-format
 msgid "Resetting Master Boot Record of %s"
 msgstr "Restableciendo Registro de Arranque Maestro de %s"
@@ -325,7 +328,7 @@ msgid ""
 "Source type does not support verification of ISO MD5 checksum, skipping"
 msgstr "La fuente no soporta la verificación MD5 checksum, omitiendo..."
 
-#: ../liveusb/creator.py:1170
+#: ../liveusb/creator.py:1182
 msgid "Synchronizing data on disk..."
 msgstr "Sincronizando datos en disco..."
 
@@ -377,11 +380,11 @@ msgstr "Esta es la barra de progreso que indicará en qué punto se encuentra de
 msgid "This is the status console, where all messages get written to."
 msgstr "Esta es la consola de estado, donde se muestran todos los mensajes."
 
-#: ../liveusb/creator.py:910
+#: ../liveusb/creator.py:922
 msgid "Trying to continue anyway."
 msgstr "Intentando continuar de todos modos."
 
-#: ../liveusb/creator.py:942
+#: ../liveusb/creator.py:954
 #, python-format
 msgid "Unable to change volume label: %(message)s"
 msgstr "No se pudo cambiar la etiqueta del volumen: %(message)s"
@@ -400,15 +403,15 @@ msgstr "No se pudo copiar %(infile)s a %(outfile)s: %(message)s"
 msgid "Unable to find any USB drive"
 msgstr "No se encontró ningun dispositivo USB"
 
-#: ../liveusb/creator.py:1224
+#: ../liveusb/creator.py:1236
 msgid "Unable to find any supported device"
 msgstr "No se encontraron dispositivos soportados"
 
-#: ../liveusb/creator.py:1067
+#: ../liveusb/creator.py:1079
 msgid "Unable to find partition"
 msgstr "No se encontró la partición"
 
-#: ../liveusb/creator.py:1304
+#: ../liveusb/creator.py:1316
 msgid ""
 "Unable to get Win32_LogicalDisk; win32com query did not return any results"
 msgstr "No se pudo obtener Win32_LogicalDisk; la consulta a win32com no retornó ningún resultado"
@@ -432,7 +435,7 @@ msgstr "No se pudieron remover directorios del LiveOS anterior: %(message)s"
 msgid "Unable to remove file from previous LiveOS: %(message)s"
 msgstr "No se pudiero borrar archivos del anterior LiveOS: %(message)s"
 
-#: ../liveusb/creator.py:1139
+#: ../liveusb/creator.py:1151
 msgid ""
 "Unable to reset MBR.  You may not have the `syslinux` package installed."
 msgstr "No se pudo establecer el MBR. Tal vez no tenga el paquete`syslinux` instalado."
@@ -457,7 +460,7 @@ msgstr "ISO desconosida, omitiendo verificación de checksum..."
 msgid "Unknown dbus exception while trying to mount device: %(message)s"
 msgstr "Excepción de dbus desconocida al intentar montar el dispositivo: %(message)s"
 
-#: ../liveusb/creator.py:779 ../liveusb/creator.py:921
+#: ../liveusb/creator.py:779 ../liveusb/creator.py:933
 msgid "Unknown filesystem.  Your device may need to be reformatted."
 msgstr "Sistema de archivos desconocido. Su dispositivo puede necesitar ser reformateado."
 
@@ -476,12 +479,12 @@ msgstr "Desmontando '%(udi)s' en '%(device)s'"
 msgid "Unmounting mounted filesystems on '%(device)s'"
 msgstr "Desmontando sistema de archivos de '%(device)s'"
 
-#: ../liveusb/creator.py:907
+#: ../liveusb/creator.py:919
 #, python-format
 msgid "Unsupported device '%(device)s', please report a bug."
 msgstr "El dispositivo '%(device)s' no está soportado, por favor envíe un informe de fallos"
 
-#: ../liveusb/creator.py:784 ../liveusb/creator.py:924
+#: ../liveusb/creator.py:784 ../liveusb/creator.py:936
 #, python-format
 msgid "Unsupported filesystem: %s"
 msgstr "Sistema de archivos no soportado: %s"
@@ -493,7 +496,7 @@ msgid ""
 "In case you are trying to upgrade a manually installed Tails system (that is, if it was installed without this installer), this option is not supported: you need to install it anew to start with, e.g. by choosing the \"Clone & Install\" action instead."
 msgstr "Sistema de archivos no soportado: %s\nEn caso de que esté intentando actualizar una instalación manual de Tails (esto es, si fue instalado sin este instalador), esta opción no está soportada: necesitará instalarlo de nuevo, ej.: escogiendo la acción \"Clonar e instalar\" en su lugar."
 
-#: ../liveusb/creator.py:1237
+#: ../liveusb/creator.py:1249
 #, python-format
 msgid ""
 "Unsupported filesystem: %s\n"
@@ -525,7 +528,7 @@ msgstr "Verificando SHA1 checksum de la imagen del LiveCD..."
 msgid "Verifying SHA256 checksum of LiveCD image..."
 msgstr "Verificando SHA256 checksum de la imagen del LiveCD..."
 
-#: ../liveusb/creator.py:918 ../liveusb/creator.py:1230
+#: ../liveusb/creator.py:930 ../liveusb/creator.py:1242
 msgid "Verifying filesystem..."
 msgstr "Verificando el sistema de archivos..."
 
