@@ -16,9 +16,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: The Tor Project\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-07-01 22:11+0200\n"
-"PO-Revision-Date: 2014-07-04 13:40+0000\n"
-"Last-Translator: 0xidz <ghoucine@gmail.com>\n"
+"POT-Creation-Date: 2014-12-01 18:01+0100\n"
+"PO-Revision-Date: 2014-12-03 08:43+0000\n"
+"Last-Translator: runasand <runa.sandvik@gmail.com>\n"
 "Language-Team: Arabic (http://www.transifex.com/projects/p/torproject/language/ar/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -46,7 +46,7 @@ msgstr "%(size)s %(label)s"
 msgid "%(vendor)s %(model)s (%(details)s) - %(device)s"
 msgstr "%(vendor)s %(model)s (%(details)s) - %(device)s"
 
-#: ../liveusb/creator.py:1047
+#: ../liveusb/creator.py:1059
 #, python-format
 msgid "%s already bootable"
 msgstr "%s اصلاً جاهز للأقلاع"
@@ -103,12 +103,12 @@ msgid ""
 "persist after a reboot."
 msgstr "إذا خصصت مساحة إضافية في قرص الـUSB لتصبح مساحة دائمة، سوف تستطيع أن تخزن البيانات و القيام بتعديلات دائمة علي نظام التشغيل الحي. من دون المساحة الإضافية الدائمة لن تستطيع حفظ البياناتت و ستفقدها إذا تم إعادة تشغيل النظام."
 
-#: ../liveusb/creator.py:1146 ../liveusb/creator.py:1409
+#: ../liveusb/creator.py:1158 ../liveusb/creator.py:1421
 #, python-format
 msgid "Calculating the SHA1 of %s"
 msgstr "يتم حساب SHA1 الخاص بـ %s"
 
-#: ../liveusb/creator.py:1357
+#: ../liveusb/creator.py:1369
 msgid "Cannot find"
 msgstr "لا يمكن العثور"
 
@@ -159,7 +159,7 @@ msgstr "التحميل فشل: "
 msgid "Downloading %s..."
 msgstr "جاري التحميل %s..."
 
-#: ../liveusb/creator.py:1142
+#: ../liveusb/creator.py:1154
 msgid "Drive is a loopback, skipping MBR reset"
 msgstr "نوع القرص loopback ، سيتم تجاوز إعادة ضبط سجل الإقلاع الرئيسي"
 
@@ -168,7 +168,7 @@ msgstr "نوع القرص loopback ، سيتم تجاوز إعادة ضبط سج
 msgid "Entering unmount_device for '%(device)s'"
 msgstr "يتم الدخول على unmount_device للجهاز '%(device)s'"
 
-#: ../liveusb/creator.py:1222
+#: ../liveusb/creator.py:1234
 msgid "Error probing device"
 msgstr "خطأ بفحص الجهاز"
 
@@ -188,7 +188,7 @@ msgstr "خطأ: إن الـSHA1 للقرص الحي غير صحيح.  تستطي
 msgid "Extracting live image to the target device..."
 msgstr "جاري فك ضغط ملف الأيزو بداخل الجهاز المختار..."
 
-#: ../liveusb/creator.py:1090
+#: ../liveusb/creator.py:1102
 #, python-format
 msgid "Formatting %(device)s as FAT32"
 msgstr "يتم إعادة تشكيل جهاز %(device)s كنظام FAT32"
@@ -224,7 +224,7 @@ msgstr "تم التثبيت! (%s)"
 msgid "Installation was completed. Press OK to close this program."
 msgstr "تم التثبيت. اضغط \"موافق\" لإغلاق هذا البرنامج."
 
-#: ../liveusb/creator.py:947 ../liveusb/creator.py:1263
+#: ../liveusb/creator.py:959 ../liveusb/creator.py:1275
 msgid "Installing bootloader..."
 msgstr "تنصيب نظام الاقلاع ..."
 
@@ -232,13 +232,13 @@ msgstr "تنصيب نظام الاقلاع ..."
 msgid "LiveUSB creation failed!"
 msgstr "فشل إنشاء قرص USB حي!"
 
-#: ../liveusb/creator.py:1358
+#: ../liveusb/creator.py:1370
 msgid ""
 "Make sure to extract the entire liveusb-creator zip file before running this"
 " program."
 msgstr "تأكد من فك ضغط ملف \"liveusb-creator\" قبل العمل بالبرنامج."
 
-#: ../liveusb/creator.py:1234
+#: ../liveusb/creator.py:1246
 msgid ""
 "Make sure your USB key is plugged in and formatted with the FAT filesystem"
 msgstr "تأكد أن قرص الـ USB متصل بالجهاز وتم تشكيلة بنظام الملفات FAT"
@@ -258,8 +258,11 @@ msgid "No mount points found"
 msgstr "لا توجد نقاط تركيب"
 
 #: ../liveusb/creator.py:401
-msgid "Not enough free space on device."
-msgstr "ليس هناك مساحة كافية على الجهاز."
+#, python-format
+msgid ""
+"Not enough free space on device.\n"
+"%dMB ISO + %dMB overlay > %dMB free space"
+msgstr ""
 
 #: ../liveusb/gui.py:538
 msgid "Partition is FAT16; Restricting overlay size to 2G"
@@ -294,7 +297,7 @@ msgstr "تحديث النشرات..."
 msgid "Releases updated!"
 msgstr "تم تحديث النشرات!"
 
-#: ../liveusb/creator.py:954 ../liveusb/creator.py:1281
+#: ../liveusb/creator.py:966 ../liveusb/creator.py:1293
 #, python-format
 msgid "Removing %(file)s"
 msgstr "إزالة ملفات %(file)s"
@@ -303,7 +306,7 @@ msgstr "إزالة ملفات %(file)s"
 msgid "Removing existing Live OS"
 msgstr "يتم حاليا إزالة نظام التشغيل الحي الموجود أصلاً"
 
-#: ../liveusb/creator.py:1136
+#: ../liveusb/creator.py:1148
 #, python-format
 msgid "Resetting Master Boot Record of %s"
 msgstr "إعادة ضبط سجل الإقلاع الرئيسي الخاص بـ %s"
@@ -328,7 +331,7 @@ msgid ""
 "Source type does not support verification of ISO MD5 checksum, skipping"
 msgstr "نوع المصدر لا يدعم التحقق من الـMD5 لملف الأيزو، سيتم التجاوز"
 
-#: ../liveusb/creator.py:1170
+#: ../liveusb/creator.py:1182
 msgid "Synchronizing data on disk..."
 msgstr "مزامنة البيانات الموجودة على القرص ..."
 
@@ -380,11 +383,11 @@ msgstr "هذا هو شريط التقدم و سوف يشير إلي مدي تق�
 msgid "This is the status console, where all messages get written to."
 msgstr "هذه هي لوحة مراقبة الحالة و هنا يتم طباعة كل الرسائل."
 
-#: ../liveusb/creator.py:910
+#: ../liveusb/creator.py:922
 msgid "Trying to continue anyway."
 msgstr "على أية حال سوف أحاول المتابعة."
 
-#: ../liveusb/creator.py:942
+#: ../liveusb/creator.py:954
 #, python-format
 msgid "Unable to change volume label: %(message)s"
 msgstr "غير قادر على تغيير عنوان القرص: %(message)s"
@@ -403,15 +406,15 @@ msgstr "غير قادر علي نسخ  %(infile)s لـ %(outfile)s: %(message)s"
 msgid "Unable to find any USB drive"
 msgstr "لم يتم العثور على أي قرص USB."
 
-#: ../liveusb/creator.py:1224
+#: ../liveusb/creator.py:1236
 msgid "Unable to find any supported device"
 msgstr "غير قادر على العثور على أي جهاز مدعوم"
 
-#: ../liveusb/creator.py:1067
+#: ../liveusb/creator.py:1079
 msgid "Unable to find partition"
 msgstr "غير قادر على ايجاد تقسيمة القرص"
 
-#: ../liveusb/creator.py:1304
+#: ../liveusb/creator.py:1316
 msgid ""
 "Unable to get Win32_LogicalDisk; win32com query did not return any results"
 msgstr "غير قادر علي الحصول علي Win32_LogicalDisk; win32com الطلب لم ينتج عنه أي نتائج"
@@ -435,7 +438,7 @@ msgstr "غير قادر علي إزالة مجلد من نظام التشغيل 
 msgid "Unable to remove file from previous LiveOS: %(message)s"
 msgstr "غير قادر علي إزالة ملف من نظام التشغيل الحي السابق: %(message)s"
 
-#: ../liveusb/creator.py:1139
+#: ../liveusb/creator.py:1151
 msgid ""
 "Unable to reset MBR.  You may not have the `syslinux` package installed."
 msgstr "غير قادر على إعادة ضبط سجل الإقلاع الرئيسي. قد تكون حزمة `syslinux` غير مثبتة."
@@ -460,7 +463,7 @@ msgstr "ملف أيزو غير معروف، سيتم تجاوز الفحص."
 msgid "Unknown dbus exception while trying to mount device: %(message)s"
 msgstr "خطأ غير معروف ببرنامج dbus عند محاولة تركيب جهاز: %(message)s"
 
-#: ../liveusb/creator.py:779 ../liveusb/creator.py:921
+#: ../liveusb/creator.py:779 ../liveusb/creator.py:933
 msgid "Unknown filesystem.  Your device may need to be reformatted."
 msgstr "نظام ملفات غير معرف. قد يحتاج جهازك إلى إعادة تشكيل."
 
@@ -479,12 +482,12 @@ msgstr "إزالة تثبيت '%(udi)s' على '%(device)s'"
 msgid "Unmounting mounted filesystems on '%(device)s'"
 msgstr "إزالة تثبيت نظام الملفات من '%(device)s'"
 
-#: ../liveusb/creator.py:907
+#: ../liveusb/creator.py:919
 #, python-format
 msgid "Unsupported device '%(device)s', please report a bug."
 msgstr "هذا الجهاز غير مدعوم '%(device)s', الرجاء الابلاغ عن العطل."
 
-#: ../liveusb/creator.py:784 ../liveusb/creator.py:924
+#: ../liveusb/creator.py:784 ../liveusb/creator.py:936
 #, python-format
 msgid "Unsupported filesystem: %s"
 msgstr "نظام ملفات غير مدعوم: %s"
@@ -496,7 +499,7 @@ msgid ""
 "In case you are trying to upgrade a manually installed Tails system (that is, if it was installed without this installer), this option is not supported: you need to install it anew to start with, e.g. by choosing the \"Clone & Install\" action instead."
 msgstr "نظام ملفات غير مدعوم: %s\nفي حالة محاولتك تنصيب تحديث لنظام  تيلز (و هو لم يتم تثبيتة من قبل هذا المثبت), هذا الخيار غير مدعوم: يجب عليك أن تثبت البرنامج من جديد و يرجح أستخدام امر \"أستنساخ و تثبيت\""
 
-#: ../liveusb/creator.py:1237
+#: ../liveusb/creator.py:1249
 #, python-format
 msgid ""
 "Unsupported filesystem: %s\n"
@@ -528,7 +531,7 @@ msgstr "التحقق من الـSHA1 لملف القرص الحي..."
 msgid "Verifying SHA256 checksum of LiveCD image..."
 msgstr "التحقق من الـSHA256 لملف القرص الحي..."
 
-#: ../liveusb/creator.py:918 ../liveusb/creator.py:1230
+#: ../liveusb/creator.py:930 ../liveusb/creator.py:1242
 msgid "Verifying filesystem..."
 msgstr "جاري التحقق من نظام الملفات"
 

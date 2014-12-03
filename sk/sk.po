@@ -14,9 +14,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: The Tor Project\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-07-01 22:11+0200\n"
-"PO-Revision-Date: 2014-07-03 22:50+0000\n"
-"Last-Translator: elo\n"
+"POT-Creation-Date: 2014-12-01 18:01+0100\n"
+"PO-Revision-Date: 2014-12-03 08:43+0000\n"
+"Last-Translator: runasand <runa.sandvik@gmail.com>\n"
 "Language-Team: Slovak (http://www.transifex.com/projects/p/torproject/language/sk/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -44,7 +44,7 @@ msgstr "%(size)s %(label)s"
 msgid "%(vendor)s %(model)s (%(details)s) - %(device)s"
 msgstr "%(vendor)s %(model)s (%(details)s) - %(device)s"
 
-#: ../liveusb/creator.py:1047
+#: ../liveusb/creator.py:1059
 #, python-format
 msgid "%s already bootable"
 msgstr "%s je už bootovateľné."
@@ -101,12 +101,12 @@ msgid ""
 "persist after a reboot."
 msgstr "Alokovaním dodatočného miesta na vašom USB kľúči pre trvalé úložisko budete schopní ukladať dáta a robiť pernamentné úpravy vášho live operačného systému. Bez toho nebude možné uložiť dáta, ktoré by sa zachovali aj po reboote."
 
-#: ../liveusb/creator.py:1146 ../liveusb/creator.py:1409
+#: ../liveusb/creator.py:1158 ../liveusb/creator.py:1421
 #, python-format
 msgid "Calculating the SHA1 of %s"
 msgstr "Počítam SHA1 %s"
 
-#: ../liveusb/creator.py:1357
+#: ../liveusb/creator.py:1369
 msgid "Cannot find"
 msgstr "Nepodarilo sa nájsť"
 
@@ -157,7 +157,7 @@ msgstr "Sťahovanie zlyhalo:  "
 msgid "Downloading %s..."
 msgstr "Sťahujem %s..."
 
-#: ../liveusb/creator.py:1142
+#: ../liveusb/creator.py:1154
 msgid "Drive is a loopback, skipping MBR reset"
 msgstr "Zariadenie je slučka, preskakujem resetovanie hlavného bootovacieho záznamu"
 
@@ -166,7 +166,7 @@ msgstr "Zariadenie je slučka, preskakujem resetovanie hlavného bootovacieho z�
 msgid "Entering unmount_device for '%(device)s'"
 msgstr "Vkladá sa  unmount_device pre zariadenie %(device)s'"
 
-#: ../liveusb/creator.py:1222
+#: ../liveusb/creator.py:1234
 msgid "Error probing device"
 msgstr "Chyba pri snímaní zariadenia"
 
@@ -186,7 +186,7 @@ msgstr "Chyba: SHA1 kontrolný súčet Live CD je neplatný. Na preskočenie tej
 msgid "Extracting live image to the target device..."
 msgstr "Extrahuje sa live obraz na cieľové zariadenie..."
 
-#: ../liveusb/creator.py:1090
+#: ../liveusb/creator.py:1102
 #, python-format
 msgid "Formatting %(device)s as FAT32"
 msgstr "Formátujem %(device)s ako FAT32"
@@ -222,7 +222,7 @@ msgstr "Inštalácia je dokončená! (%s)"
 msgid "Installation was completed. Press OK to close this program."
 msgstr "Inštalácia bola dokončená. Stlačením OK zatvoríte tento program."
 
-#: ../liveusb/creator.py:947 ../liveusb/creator.py:1263
+#: ../liveusb/creator.py:959 ../liveusb/creator.py:1275
 msgid "Installing bootloader..."
 msgstr "Inštaluje sa bootloader..."
 
@@ -230,13 +230,13 @@ msgstr "Inštaluje sa bootloader..."
 msgid "LiveUSB creation failed!"
 msgstr "Vytvorenie LiveUSB zlyhalo!"
 
-#: ../liveusb/creator.py:1358
+#: ../liveusb/creator.py:1370
 msgid ""
 "Make sure to extract the entire liveusb-creator zip file before running this"
 " program."
 msgstr "Uistite sa, že rozbalíte celý liveusb-creator súbor zip pred spustením tohto programu."
 
-#: ../liveusb/creator.py:1234
+#: ../liveusb/creator.py:1246
 msgid ""
 "Make sure your USB key is plugged in and formatted with the FAT filesystem"
 msgstr "Skontrolujte, či je USB kľúč pripojený a naformátovaný na súborový systém FAT"
@@ -256,8 +256,11 @@ msgid "No mount points found"
 msgstr "Neboli nájdené žiadne body pripojenia"
 
 #: ../liveusb/creator.py:401
-msgid "Not enough free space on device."
-msgstr "Na zariadení nie je dostatok miesta."
+#, python-format
+msgid ""
+"Not enough free space on device.\n"
+"%dMB ISO + %dMB overlay > %dMB free space"
+msgstr ""
 
 #: ../liveusb/gui.py:538
 msgid "Partition is FAT16; Restricting overlay size to 2G"
@@ -292,7 +295,7 @@ msgstr "Obnovujú sa vydania.."
 msgid "Releases updated!"
 msgstr "Vydania aktualizované!"
 
-#: ../liveusb/creator.py:954 ../liveusb/creator.py:1281
+#: ../liveusb/creator.py:966 ../liveusb/creator.py:1293
 #, python-format
 msgid "Removing %(file)s"
 msgstr "Odoberám %(file)s"
@@ -301,7 +304,7 @@ msgstr "Odoberám %(file)s"
 msgid "Removing existing Live OS"
 msgstr "Odoberám existujúci Live OS"
 
-#: ../liveusb/creator.py:1136
+#: ../liveusb/creator.py:1148
 #, python-format
 msgid "Resetting Master Boot Record of %s"
 msgstr "Resetujem hlavný bootovací záznam %s"
@@ -326,7 +329,7 @@ msgid ""
 "Source type does not support verification of ISO MD5 checksum, skipping"
 msgstr "Typ zdroja nepodporuje overenie ISO MD5 pomocou kontrolného súčtu, preskakujem"
 
-#: ../liveusb/creator.py:1170
+#: ../liveusb/creator.py:1182
 msgid "Synchronizing data on disk..."
 msgstr "Synchronizujem údaje na disk..."
 
@@ -378,11 +381,11 @@ msgstr "Táto lišta bude indikovať, ako ďaleko sa momentálne nachádzate v p
 msgid "This is the status console, where all messages get written to."
 msgstr "Toto je stavová konzola, do ktorej budú vypisované všetky správy."
 
-#: ../liveusb/creator.py:910
+#: ../liveusb/creator.py:922
 msgid "Trying to continue anyway."
 msgstr "Snažiť sa napriek tomu pokračovať."
 
-#: ../liveusb/creator.py:942
+#: ../liveusb/creator.py:954
 #, python-format
 msgid "Unable to change volume label: %(message)s"
 msgstr "Nie je možné zmeniť menovku zväzku: %(message)s"
@@ -401,15 +404,15 @@ msgstr "Nedá sa kopírovať %(infile)s do %(outfile)s: %(message)s"
 msgid "Unable to find any USB drive"
 msgstr "Nepodarilo sa nájsť žiadne USB zariadenie"
 
-#: ../liveusb/creator.py:1224
+#: ../liveusb/creator.py:1236
 msgid "Unable to find any supported device"
 msgstr "Nenašlo sa žiadne podporované zariadenie"
 
-#: ../liveusb/creator.py:1067
+#: ../liveusb/creator.py:1079
 msgid "Unable to find partition"
 msgstr "Nedá sa nájsť partícia"
 
-#: ../liveusb/creator.py:1304
+#: ../liveusb/creator.py:1316
 msgid ""
 "Unable to get Win32_LogicalDisk; win32com query did not return any results"
 msgstr "Nedá sa získať Win32_LogicalDisk; win32com neodpovedá na požiadavku"
@@ -433,7 +436,7 @@ msgstr "Nedá sa odobrať adresár z predošlého LiveOS: %(message)s"
 msgid "Unable to remove file from previous LiveOS: %(message)s"
 msgstr "Nedá sa odobrať súbor z predošlého LiveOS: %(message)s"
 
-#: ../liveusb/creator.py:1139
+#: ../liveusb/creator.py:1151
 msgid ""
 "Unable to reset MBR.  You may not have the `syslinux` package installed."
 msgstr "Nedá sa resetovať hlavný bootovací záznam. Možno nemáte nainštalovaný balík `syslinux`"
@@ -458,7 +461,7 @@ msgstr "Neznáme ISO, preskakuje sa overenie kontrolného súčtu"
 msgid "Unknown dbus exception while trying to mount device: %(message)s"
 msgstr "Neznám dbus výnimka pri pokuse pripojiť zariadenie: %(message)s"
 
-#: ../liveusb/creator.py:779 ../liveusb/creator.py:921
+#: ../liveusb/creator.py:779 ../liveusb/creator.py:933
 msgid "Unknown filesystem.  Your device may need to be reformatted."
 msgstr "Neznámy súborový systém. Vaše zariadenie bude potrebné preformátovať."
 
@@ -477,12 +480,12 @@ msgstr "Odpája sa '%(udi)s' na zariadení '%(device)s'"
 msgid "Unmounting mounted filesystems on '%(device)s'"
 msgstr "Odpájajú sa pripojené súborové systémy na zariadení '%(device)s'"
 
-#: ../liveusb/creator.py:907
+#: ../liveusb/creator.py:919
 #, python-format
 msgid "Unsupported device '%(device)s', please report a bug."
 msgstr "Nepodporované zariadenie  '%(device)s', prosíme nahláste túto chybu."
 
-#: ../liveusb/creator.py:784 ../liveusb/creator.py:924
+#: ../liveusb/creator.py:784 ../liveusb/creator.py:936
 #, python-format
 msgid "Unsupported filesystem: %s"
 msgstr "Nepodporovaný súborový systém: %s"
@@ -494,7 +497,7 @@ msgid ""
 "In case you are trying to upgrade a manually installed Tails system (that is, if it was installed without this installer), this option is not supported: you need to install it anew to start with, e.g. by choosing the \"Clone & Install\" action instead."
 msgstr "Nepodporovaný súborový systém: %s\nV prípade, že sa pokúšate aktualizovať manuálne nainštalovaný systém Tails (čiže bez pomoci tohto inštalátora), táto voľba nie je podporovaná: potrebujete si nainštalovať namiesto toho nový, napr. zvolením akcie \"Naklonovať & nainštalovať\"."
 
-#: ../liveusb/creator.py:1237
+#: ../liveusb/creator.py:1249
 #, python-format
 msgid ""
 "Unsupported filesystem: %s\n"
@@ -526,7 +529,7 @@ msgstr "Overovanie kontrolného súčtu SHA1 obrazu LiveCD..."
 msgid "Verifying SHA256 checksum of LiveCD image..."
 msgstr "Overovanie kontrolného súčtu SHA256 obrazu LiveCD..."
 
-#: ../liveusb/creator.py:918 ../liveusb/creator.py:1230
+#: ../liveusb/creator.py:930 ../liveusb/creator.py:1242
 msgid "Verifying filesystem..."
 msgstr "Kontroluje sa súborový systém..."
 

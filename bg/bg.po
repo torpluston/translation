@@ -9,9 +9,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: The Tor Project\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-07-01 22:11+0200\n"
-"PO-Revision-Date: 2014-07-07 22:04+0000\n"
-"Last-Translator: Kaloyan Doichinov\n"
+"POT-Creation-Date: 2014-12-01 18:01+0100\n"
+"PO-Revision-Date: 2014-12-03 08:43+0000\n"
+"Last-Translator: runasand <runa.sandvik@gmail.com>\n"
 "Language-Team: Bulgarian (http://www.transifex.com/projects/p/torproject/language/bg/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -39,7 +39,7 @@ msgstr ""
 msgid "%(vendor)s %(model)s (%(details)s) - %(device)s"
 msgstr ""
 
-#: ../liveusb/creator.py:1047
+#: ../liveusb/creator.py:1059
 #, python-format
 msgid "%s already bootable"
 msgstr "%s вече зареждащ"
@@ -96,12 +96,12 @@ msgid ""
 "persist after a reboot."
 msgstr "Като отделите допълнително пространство на вашето USB устройство за \"постоянен слой\", ще можете да съхранявате данни и да правите перманентни промени върху активната си операционна система. Без допълнителното пространство няма да може да запазите данни, които да бъдат съхранени след рестартиране."
 
-#: ../liveusb/creator.py:1146 ../liveusb/creator.py:1409
+#: ../liveusb/creator.py:1158 ../liveusb/creator.py:1421
 #, python-format
 msgid "Calculating the SHA1 of %s"
 msgstr "Изчисляване на SHA1 за %s"
 
-#: ../liveusb/creator.py:1357
+#: ../liveusb/creator.py:1369
 msgid "Cannot find"
 msgstr "Не мога да намеря"
 
@@ -152,7 +152,7 @@ msgstr "Изтеглянето се провали:"
 msgid "Downloading %s..."
 msgstr "Изтегляне %s..."
 
-#: ../liveusb/creator.py:1142
+#: ../liveusb/creator.py:1154
 msgid "Drive is a loopback, skipping MBR reset"
 msgstr "Устройство е примка,прескача нулиране на MBR"
 
@@ -161,7 +161,7 @@ msgstr "Устройство е примка,прескача нулиране �
 msgid "Entering unmount_device for '%(device)s'"
 msgstr ""
 
-#: ../liveusb/creator.py:1222
+#: ../liveusb/creator.py:1234
 msgid "Error probing device"
 msgstr "Грешка при сондиране устройство"
 
@@ -181,7 +181,7 @@ msgstr "Грешка: SHA1 на живо CD е невалиден.Можете �
 msgid "Extracting live image to the target device..."
 msgstr ""
 
-#: ../liveusb/creator.py:1090
+#: ../liveusb/creator.py:1102
 #, python-format
 msgid "Formatting %(device)s as FAT32"
 msgstr "Форматиране %(device)s като FAT32"
@@ -217,7 +217,7 @@ msgstr "Инсталацията е извършена! (%s)"
 msgid "Installation was completed. Press OK to close this program."
 msgstr "Инсталацията е завършена. Натиснете OK, за да затворите този програм."
 
-#: ../liveusb/creator.py:947 ../liveusb/creator.py:1263
+#: ../liveusb/creator.py:959 ../liveusb/creator.py:1275
 msgid "Installing bootloader..."
 msgstr "Инсталиране на буутлоудър ..."
 
@@ -225,13 +225,13 @@ msgstr "Инсталиране на буутлоудър ..."
 msgid "LiveUSB creation failed!"
 msgstr "LiveUSB създаването неуспешно!"
 
-#: ../liveusb/creator.py:1358
+#: ../liveusb/creator.py:1370
 msgid ""
 "Make sure to extract the entire liveusb-creator zip file before running this"
 " program."
 msgstr "Уверете се да извлечете цялата liveusb-creator zip файл, преди да пуснете тази програма."
 
-#: ../liveusb/creator.py:1234
+#: ../liveusb/creator.py:1246
 msgid ""
 "Make sure your USB key is plugged in and formatted with the FAT filesystem"
 msgstr "Уверете се, че USB ключ е включен и форматирани с FAT файлова система"
@@ -251,8 +251,11 @@ msgid "No mount points found"
 msgstr "Не са намерени точки на монтиране"
 
 #: ../liveusb/creator.py:401
-msgid "Not enough free space on device."
-msgstr "Няма достатъчно свободно място на устройството."
+#, python-format
+msgid ""
+"Not enough free space on device.\n"
+"%dMB ISO + %dMB overlay > %dMB free space"
+msgstr ""
 
 #: ../liveusb/gui.py:538
 msgid "Partition is FAT16; Restricting overlay size to 2G"
@@ -287,7 +290,7 @@ msgstr "Обновяване на изданията..."
 msgid "Releases updated!"
 msgstr "Изданията са обновени!"
 
-#: ../liveusb/creator.py:954 ../liveusb/creator.py:1281
+#: ../liveusb/creator.py:966 ../liveusb/creator.py:1293
 #, python-format
 msgid "Removing %(file)s"
 msgstr "Премахване на %(file)s"
@@ -296,7 +299,7 @@ msgstr "Премахване на %(file)s"
 msgid "Removing existing Live OS"
 msgstr "Премахване на съществуващите Live OS"
 
-#: ../liveusb/creator.py:1136
+#: ../liveusb/creator.py:1148
 #, python-format
 msgid "Resetting Master Boot Record of %s"
 msgstr "Възстановяване Master Boot Record of %s"
@@ -321,7 +324,7 @@ msgid ""
 "Source type does not support verification of ISO MD5 checksum, skipping"
 msgstr "Този вид източник не поддържа проверка на ISO MD5 контролна, като прескочите"
 
-#: ../liveusb/creator.py:1170
+#: ../liveusb/creator.py:1182
 msgid "Synchronizing data on disk..."
 msgstr "Синхронизиране на данните на диска ..."
 
@@ -373,11 +376,11 @@ msgstr ""
 msgid "This is the status console, where all messages get written to."
 msgstr ""
 
-#: ../liveusb/creator.py:910
+#: ../liveusb/creator.py:922
 msgid "Trying to continue anyway."
 msgstr ""
 
-#: ../liveusb/creator.py:942
+#: ../liveusb/creator.py:954
 #, python-format
 msgid "Unable to change volume label: %(message)s"
 msgstr "Невъзможно да промените етикета на обем: %(message)s"
@@ -396,15 +399,15 @@ msgstr "Невъзможност за копиране на  %(infile)s до %(o
 msgid "Unable to find any USB drive"
 msgstr "Не може да се намери USB drive"
 
-#: ../liveusb/creator.py:1224
+#: ../liveusb/creator.py:1236
 msgid "Unable to find any supported device"
 msgstr ""
 
-#: ../liveusb/creator.py:1067
+#: ../liveusb/creator.py:1079
 msgid "Unable to find partition"
 msgstr "Не мога да намеря дял"
 
-#: ../liveusb/creator.py:1304
+#: ../liveusb/creator.py:1316
 msgid ""
 "Unable to get Win32_LogicalDisk; win32com query did not return any results"
 msgstr "Не може да получи Win32_LogicalDisk; win32com заявка не върна никакви резултати"
@@ -428,7 +431,7 @@ msgstr "Не може да се изтрие директорията от ми�
 msgid "Unable to remove file from previous LiveOS: %(message)s"
 msgstr "Не може да премахнете файл от предишния LiveOS: %(message)s"
 
-#: ../liveusb/creator.py:1139
+#: ../liveusb/creator.py:1151
 msgid ""
 "Unable to reset MBR.  You may not have the `syslinux` package installed."
 msgstr "Не може да възстановите MBR. Вие не можете да имате инсталиран `SysLinux пакета '."
@@ -453,7 +456,7 @@ msgstr "Неизвестно ISO, прескача контролна прове
 msgid "Unknown dbus exception while trying to mount device: %(message)s"
 msgstr "Неизвестна dbus изключение, докато се опитва да се монтира устройство: %(message)s"
 
-#: ../liveusb/creator.py:779 ../liveusb/creator.py:921
+#: ../liveusb/creator.py:779 ../liveusb/creator.py:933
 msgid "Unknown filesystem.  Your device may need to be reformatted."
 msgstr "Неизвестна файлова система. Вашето устройство може да се наложи да се преформатира."
 
@@ -472,12 +475,12 @@ msgstr ""
 msgid "Unmounting mounted filesystems on '%(device)s'"
 msgstr ""
 
-#: ../liveusb/creator.py:907
+#: ../liveusb/creator.py:919
 #, python-format
 msgid "Unsupported device '%(device)s', please report a bug."
 msgstr ""
 
-#: ../liveusb/creator.py:784 ../liveusb/creator.py:924
+#: ../liveusb/creator.py:784 ../liveusb/creator.py:936
 #, python-format
 msgid "Unsupported filesystem: %s"
 msgstr "Неподдържана файлова система: %s"
@@ -489,7 +492,7 @@ msgid ""
 "In case you are trying to upgrade a manually installed Tails system (that is, if it was installed without this installer), this option is not supported: you need to install it anew to start with, e.g. by choosing the \"Clone & Install\" action instead."
 msgstr "Файловата система не се поддържа: %s\nВ случай, че се опитвате да надградите ръчно инсталирана Tails система (такава която е била инсталирана без помощта на този асистент), тази опция не е налична: трябва да инсталирате системата отново, например чрез избиране на действието \"Клониране & Инсталация\""
 
-#: ../liveusb/creator.py:1237
+#: ../liveusb/creator.py:1249
 #, python-format
 msgid ""
 "Unsupported filesystem: %s\n"
@@ -521,7 +524,7 @@ msgstr "Проверка SHA1 контролна LiveCD на изображен�
 msgid "Verifying SHA256 checksum of LiveCD image..."
 msgstr "Проверка SHA256 контролна LiveCD на изображението ..."
 
-#: ../liveusb/creator.py:918 ../liveusb/creator.py:1230
+#: ../liveusb/creator.py:930 ../liveusb/creator.py:1242
 msgid "Verifying filesystem..."
 msgstr "Проверка на файловата система ..."
 

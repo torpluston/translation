@@ -10,8 +10,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: The Tor Project\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-07-01 22:11+0200\n"
-"PO-Revision-Date: 2014-07-02 08:56+0000\n"
+"POT-Creation-Date: 2014-12-01 18:01+0100\n"
+"PO-Revision-Date: 2014-12-03 08:43+0000\n"
 "Last-Translator: runasand <runa.sandvik@gmail.com>\n"
 "Language-Team: Latvian (http://www.transifex.com/projects/p/torproject/language/lv/)\n"
 "MIME-Version: 1.0\n"
@@ -40,7 +40,7 @@ msgstr "%(size)s %(label)s"
 msgid "%(vendor)s %(model)s (%(details)s) - %(device)s"
 msgstr "%(vendor)s %(model)s (%(details)s) - %(device)s"
 
-#: ../liveusb/creator.py:1047
+#: ../liveusb/creator.py:1059
 #, python-format
 msgid "%s already bootable"
 msgstr "%s jau ir sāknējams"
@@ -97,12 +97,12 @@ msgid ""
 "persist after a reboot."
 msgstr "Piešķirot pastāvīgam pārklājumam papildu vietu savā USB zibatmiņā, Jums būs iespēja glabāt datus un paliekoši modificēt dzīvu sistēmu, kura darbojas. To nedarot, pēc pārlādes nebūs iespējams saglabāt datus."
 
-#: ../liveusb/creator.py:1146 ../liveusb/creator.py:1409
+#: ../liveusb/creator.py:1158 ../liveusb/creator.py:1421
 #, python-format
 msgid "Calculating the SHA1 of %s"
 msgstr "Aprēķina %s SHA1"
 
-#: ../liveusb/creator.py:1357
+#: ../liveusb/creator.py:1369
 msgid "Cannot find"
 msgstr "Nav iespējams atrast"
 
@@ -153,7 +153,7 @@ msgstr "Lejupielāde neizdevās: "
 msgid "Downloading %s..."
 msgstr "Lejuplādē %s..."
 
-#: ../liveusb/creator.py:1142
+#: ../liveusb/creator.py:1154
 msgid "Drive is a loopback, skipping MBR reset"
 msgstr "Disks ir cilptestā, tiek izlaista MBR atiestatīšana"
 
@@ -162,7 +162,7 @@ msgstr "Disks ir cilptestā, tiek izlaista MBR atiestatīšana"
 msgid "Entering unmount_device for '%(device)s'"
 msgstr "Ievada unmount_device objektam '%(device)s'"
 
-#: ../liveusb/creator.py:1222
+#: ../liveusb/creator.py:1234
 msgid "Error probing device"
 msgstr "Kļūda pētot ierīci"
 
@@ -182,7 +182,7 @@ msgstr "Kļūda: Live CD SHA1 nav derīgs.  Lai apietu šo verifikācijas pārba
 msgid "Extracting live image to the target device..."
 msgstr "Uz mērķa ierīces izvērš tiešo attēlu jeb live image..."
 
-#: ../liveusb/creator.py:1090
+#: ../liveusb/creator.py:1102
 #, python-format
 msgid "Formatting %(device)s as FAT32"
 msgstr "Formatē %(device)s kā FAT32"
@@ -218,7 +218,7 @@ msgstr "Instalēšana pabeigta! (%s)"
 msgid "Installation was completed. Press OK to close this program."
 msgstr "Instalēšana ir pabeigta. Nospiediet Labi, lai aizvērtu programmu."
 
-#: ../liveusb/creator.py:947 ../liveusb/creator.py:1263
+#: ../liveusb/creator.py:959 ../liveusb/creator.py:1275
 msgid "Installing bootloader..."
 msgstr "Instalē sāknēšanas lādētāju..."
 
@@ -226,13 +226,13 @@ msgstr "Instalē sāknēšanas lādētāju..."
 msgid "LiveUSB creation failed!"
 msgstr "LiveUSB izveide neizdevās!"
 
-#: ../liveusb/creator.py:1358
+#: ../liveusb/creator.py:1370
 msgid ""
 "Make sure to extract the entire liveusb-creator zip file before running this"
 " program."
 msgstr "Pirms sākat šo programmu, pārliecinieties, ka tiek izvērsta visa tilpdatne jeb zipfails liveusb-creator."
 
-#: ../liveusb/creator.py:1234
+#: ../liveusb/creator.py:1246
 msgid ""
 "Make sure your USB key is plugged in and formatted with the FAT filesystem"
 msgstr "Pārliecinieties, ka USB atslēga ir iesprausta un formatēta kā FAT datņu sistēma"
@@ -252,8 +252,11 @@ msgid "No mount points found"
 msgstr "Montēšanas punkti netika atrasti"
 
 #: ../liveusb/creator.py:401
-msgid "Not enough free space on device."
-msgstr "Uz ierīces nav pietiekami daudz brīvas vietas."
+#, python-format
+msgid ""
+"Not enough free space on device.\n"
+"%dMB ISO + %dMB overlay > %dMB free space"
+msgstr ""
 
 #: ../liveusb/gui.py:538
 msgid "Partition is FAT16; Restricting overlay size to 2G"
@@ -288,7 +291,7 @@ msgstr "Atsvaidzinoši izlaidumi..."
 msgid "Releases updated!"
 msgstr "Laidieni atjaunināti!"
 
-#: ../liveusb/creator.py:954 ../liveusb/creator.py:1281
+#: ../liveusb/creator.py:966 ../liveusb/creator.py:1293
 #, python-format
 msgid "Removing %(file)s"
 msgstr "Noņem %(file)s"
@@ -297,7 +300,7 @@ msgstr "Noņem %(file)s"
 msgid "Removing existing Live OS"
 msgstr "Noņem esošo Live OS"
 
-#: ../liveusb/creator.py:1136
+#: ../liveusb/creator.py:1148
 #, python-format
 msgid "Resetting Master Boot Record of %s"
 msgstr "Atiestata %s pamatsāknēšanas ierakstu jeb MBR"
@@ -322,7 +325,7 @@ msgid ""
 "Source type does not support verification of ISO MD5 checksum, skipping"
 msgstr "Avota veids neatbalsta ISO kontrolsummas MD5 verifikāciju, šis solis tiek izlaists"
 
-#: ../liveusb/creator.py:1170
+#: ../liveusb/creator.py:1182
 msgid "Synchronizing data on disk..."
 msgstr "Sinhronizē datus uz diska..."
 
@@ -374,11 +377,11 @@ msgstr "Norises josla rāda cik tālu aizritējis LiveUSB izveidošanas process"
 msgid "This is the status console, where all messages get written to."
 msgstr "Šis ir statusa žurnāls, kurā tiek ierakstīti visi ziņojumi."
 
-#: ../liveusb/creator.py:910
+#: ../liveusb/creator.py:922
 msgid "Trying to continue anyway."
 msgstr "Lai vai kas, cenšas turpināt."
 
-#: ../liveusb/creator.py:942
+#: ../liveusb/creator.py:954
 #, python-format
 msgid "Unable to change volume label: %(message)s"
 msgstr "Nespēj mainīt sējuma iezīmi: %(message)s"
@@ -397,15 +400,15 @@ msgstr "Nespēj kopēt %(infile)s uz %(outfile)s: %(message)s"
 msgid "Unable to find any USB drive"
 msgstr "Nespēj atrast vismaz vienu USB disku"
 
-#: ../liveusb/creator.py:1224
+#: ../liveusb/creator.py:1236
 msgid "Unable to find any supported device"
 msgstr "Nevarēja atrast jebkādu atbalstītu ierīci"
 
-#: ../liveusb/creator.py:1067
+#: ../liveusb/creator.py:1079
 msgid "Unable to find partition"
 msgstr "Nespēj atrast nodalījumu"
 
-#: ../liveusb/creator.py:1304
+#: ../liveusb/creator.py:1316
 msgid ""
 "Unable to get Win32_LogicalDisk; win32com query did not return any results"
 msgstr "Nespēj sasniegt Win32_LogicalDisk; win32com vaicājums nesniedza atbildes"
@@ -429,7 +432,7 @@ msgstr "Nespēj noņemt direktoriju no iepriekšējās LiveOS: %(message)s"
 msgid "Unable to remove file from previous LiveOS: %(message)s"
 msgstr "Nespēj noņemt datni no iepriekšējās LiveOS: %(message)s"
 
-#: ../liveusb/creator.py:1139
+#: ../liveusb/creator.py:1151
 msgid ""
 "Unable to reset MBR.  You may not have the `syslinux` package installed."
 msgstr "Nespēj atiestatīt MBR.  Iespējams, ka nav instalēta pakotne `syslinux`."
@@ -454,7 +457,7 @@ msgstr "Nezināms ISO, tiek izlaista kontrolsummas verifikācija"
 msgid "Unknown dbus exception while trying to mount device: %(message)s"
 msgstr "Nezināms dbus izņēmums cenšoties montēt iekārtu: %(message)s"
 
-#: ../liveusb/creator.py:779 ../liveusb/creator.py:921
+#: ../liveusb/creator.py:779 ../liveusb/creator.py:933
 msgid "Unknown filesystem.  Your device may need to be reformatted."
 msgstr "Nezināma datņu sistēma.  Iespējams, ierīci nepieciešams pārformatēt."
 
@@ -473,12 +476,12 @@ msgstr "Nomontē  '%(udi)s' , kurš atrodas uz '%(device)s'"
 msgid "Unmounting mounted filesystems on '%(device)s'"
 msgstr "Nomontē uz '%(device)s' uzmontētās datņu sistēmas"
 
-#: ../liveusb/creator.py:907
+#: ../liveusb/creator.py:919
 #, python-format
 msgid "Unsupported device '%(device)s', please report a bug."
 msgstr "Neatbalstīta ierīce '%(device)s', lūdzu ziņojiet par šo kļūdi."
 
-#: ../liveusb/creator.py:784 ../liveusb/creator.py:924
+#: ../liveusb/creator.py:784 ../liveusb/creator.py:936
 #, python-format
 msgid "Unsupported filesystem: %s"
 msgstr "Datņu sistēma, kura netiek atbalstīta: %s"
@@ -490,7 +493,7 @@ msgid ""
 "In case you are trying to upgrade a manually installed Tails system (that is, if it was installed without this installer), this option is not supported: you need to install it anew to start with, e.g. by choosing the \"Clone & Install\" action instead."
 msgstr "Neatbalstīta datņusistēma: %s\nGadījumā, ja cenšaties jaunināt manuāli instalētu Tails sistēmu (proti, tādu, kuru nav instalējis šis instalētājs), šī izvēles iespēja netiek atbalstīta: Jums vispirms jāinstalē no jauna, piem., izvēloties darbību \"Klonēt & instalēt\"."
 
-#: ../liveusb/creator.py:1237
+#: ../liveusb/creator.py:1249
 #, python-format
 msgid ""
 "Unsupported filesystem: %s\n"
@@ -522,7 +525,7 @@ msgstr "Verificē LiveCD attēla kontrolsummu SHA1..."
 msgid "Verifying SHA256 checksum of LiveCD image..."
 msgstr "Verificē LiveCD attēla kontrolsummu SHA256..."
 
-#: ../liveusb/creator.py:918 ../liveusb/creator.py:1230
+#: ../liveusb/creator.py:930 ../liveusb/creator.py:1242
 msgid "Verifying filesystem..."
 msgstr "Verificē datņu sistēmu..."
 

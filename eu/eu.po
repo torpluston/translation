@@ -12,8 +12,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: The Tor Project\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-07-01 22:11+0200\n"
-"PO-Revision-Date: 2014-07-02 08:55+0000\n"
+"POT-Creation-Date: 2014-12-01 18:01+0100\n"
+"PO-Revision-Date: 2014-12-03 08:43+0000\n"
 "Last-Translator: runasand <runa.sandvik@gmail.com>\n"
 "Language-Team: Basque (http://www.transifex.com/projects/p/torproject/language/eu/)\n"
 "MIME-Version: 1.0\n"
@@ -42,7 +42,7 @@ msgstr ""
 msgid "%(vendor)s %(model)s (%(details)s) - %(device)s"
 msgstr ""
 
-#: ../liveusb/creator.py:1047
+#: ../liveusb/creator.py:1059
 #, python-format
 msgid "%s already bootable"
 msgstr "%s dagoeneko abiarazgarria da"
@@ -99,12 +99,12 @@ msgid ""
 "persist after a reboot."
 msgstr ""
 
-#: ../liveusb/creator.py:1146 ../liveusb/creator.py:1409
+#: ../liveusb/creator.py:1158 ../liveusb/creator.py:1421
 #, python-format
 msgid "Calculating the SHA1 of %s"
 msgstr "%s ren SHA1 kalkulatzen"
 
-#: ../liveusb/creator.py:1357
+#: ../liveusb/creator.py:1369
 msgid "Cannot find"
 msgstr "Ezin da aurkitu"
 
@@ -155,7 +155,7 @@ msgstr "Deskargak huts egin du:"
 msgid "Downloading %s..."
 msgstr "%s deskargatzen..."
 
-#: ../liveusb/creator.py:1142
+#: ../liveusb/creator.py:1154
 msgid "Drive is a loopback, skipping MBR reset"
 msgstr "Gailua atzera-begizta bat da, MBRa berrezartzea saltatzen"
 
@@ -164,7 +164,7 @@ msgstr "Gailua atzera-begizta bat da, MBRa berrezartzea saltatzen"
 msgid "Entering unmount_device for '%(device)s'"
 msgstr ""
 
-#: ../liveusb/creator.py:1222
+#: ../liveusb/creator.py:1234
 msgid "Error probing device"
 msgstr "Akatsa gailua frogatzerakoan"
 
@@ -184,7 +184,7 @@ msgstr "Akatsa: Zure Live CDaren SHA1 baliogabea da. Programa hau --noverify arg
 msgid "Extracting live image to the target device..."
 msgstr ""
 
-#: ../liveusb/creator.py:1090
+#: ../liveusb/creator.py:1102
 #, python-format
 msgid "Formatting %(device)s as FAT32"
 msgstr "%(device)s FAT32 bezala formateatzen"
@@ -220,7 +220,7 @@ msgstr "Instalazioa burutu da! (%s)"
 msgid "Installation was completed. Press OK to close this program."
 msgstr "Instalazio burutu da. Sakatu Ados programa hau ixteko."
 
-#: ../liveusb/creator.py:947 ../liveusb/creator.py:1263
+#: ../liveusb/creator.py:959 ../liveusb/creator.py:1275
 msgid "Installing bootloader..."
 msgstr "Abio-kargatzailea instalatzen..."
 
@@ -228,13 +228,13 @@ msgstr "Abio-kargatzailea instalatzen..."
 msgid "LiveUSB creation failed!"
 msgstr "LiveUSB sorkuntzak huts egin du!"
 
-#: ../liveusb/creator.py:1358
+#: ../liveusb/creator.py:1370
 msgid ""
 "Make sure to extract the entire liveusb-creator zip file before running this"
 " program."
 msgstr "Egiaztatu liveusb-creator zip fitxategi osoa erauzten duzula programa hau exekutatu baino lehen."
 
-#: ../liveusb/creator.py:1234
+#: ../liveusb/creator.py:1246
 msgid ""
 "Make sure your USB key is plugged in and formatted with the FAT filesystem"
 msgstr "Egiaztatu zure USB gailua konektatuta dagoela eta FAT fitxategi sistemarekin formateatuta."
@@ -254,8 +254,11 @@ msgid "No mount points found"
 msgstr "Muntatze punturik ez da aurkitu"
 
 #: ../liveusb/creator.py:401
-msgid "Not enough free space on device."
-msgstr "Gailuan ez dago nahiko leku askerik."
+#, python-format
+msgid ""
+"Not enough free space on device.\n"
+"%dMB ISO + %dMB overlay > %dMB free space"
+msgstr ""
 
 #: ../liveusb/gui.py:538
 msgid "Partition is FAT16; Restricting overlay size to 2G"
@@ -290,7 +293,7 @@ msgstr "Argitalpenak freskatzen..."
 msgid "Releases updated!"
 msgstr "Argitalpenak eguneratuta!"
 
-#: ../liveusb/creator.py:954 ../liveusb/creator.py:1281
+#: ../liveusb/creator.py:966 ../liveusb/creator.py:1293
 #, python-format
 msgid "Removing %(file)s"
 msgstr "%(file)s kentzen"
@@ -299,7 +302,7 @@ msgstr "%(file)s kentzen"
 msgid "Removing existing Live OS"
 msgstr "Dagoen Live OS kentzen"
 
-#: ../liveusb/creator.py:1136
+#: ../liveusb/creator.py:1148
 #, python-format
 msgid "Resetting Master Boot Record of %s"
 msgstr "%s ren abio-erregistro nagusia (MBR) berrezartzen"
@@ -324,7 +327,7 @@ msgid ""
 "Source type does not support verification of ISO MD5 checksum, skipping"
 msgstr "Iturburu motak ez du ISO MD5 kontrol-baturaren egiaztapena onartzen, saltatzen"
 
-#: ../liveusb/creator.py:1170
+#: ../liveusb/creator.py:1182
 msgid "Synchronizing data on disk..."
 msgstr "Datuak diskoan sinkronizatzen..."
 
@@ -376,11 +379,11 @@ msgstr ""
 msgid "This is the status console, where all messages get written to."
 msgstr "Hau egoera kontsola da, non mezu guztiak idazten diren."
 
-#: ../liveusb/creator.py:910
+#: ../liveusb/creator.py:922
 msgid "Trying to continue anyway."
 msgstr ""
 
-#: ../liveusb/creator.py:942
+#: ../liveusb/creator.py:954
 #, python-format
 msgid "Unable to change volume label: %(message)s"
 msgstr "Ezin da bolumenaren etiketa aldatu: %(message)s"
@@ -399,15 +402,15 @@ msgstr "Ezin da %(infile)s (e)tik %(outfile)s (e)ra kopiatu: %(message)s"
 msgid "Unable to find any USB drive"
 msgstr "Ezin da USB gailurik aurkitu."
 
-#: ../liveusb/creator.py:1224
+#: ../liveusb/creator.py:1236
 msgid "Unable to find any supported device"
 msgstr ""
 
-#: ../liveusb/creator.py:1067
+#: ../liveusb/creator.py:1079
 msgid "Unable to find partition"
 msgstr "Ezin da partizioa aurkitu"
 
-#: ../liveusb/creator.py:1304
+#: ../liveusb/creator.py:1316
 msgid ""
 "Unable to get Win32_LogicalDisk; win32com query did not return any results"
 msgstr "Ezin da Win32_LogicalDisk lortu; win32com eskaerak ez du erantzunik itzuli"
@@ -431,7 +434,7 @@ msgstr "Ezin da aurreko LiveOSaren direktorioa kendu: %(message)s"
 msgid "Unable to remove file from previous LiveOS: %(message)s"
 msgstr "Ezin da aurreko LiveOSaren fitxategia kendu: %(message)s"
 
-#: ../liveusb/creator.py:1139
+#: ../liveusb/creator.py:1151
 msgid ""
 "Unable to reset MBR.  You may not have the `syslinux` package installed."
 msgstr "Ezin da MBRa berrezarri. Baliteke `syslinux` paketea instalatuta ez izatea."
@@ -456,7 +459,7 @@ msgstr "ISO ezezaguna, kontrol-baturaren egiaztapena saltatzen"
 msgid "Unknown dbus exception while trying to mount device: %(message)s"
 msgstr "dbus salbuespen ezezaguna gailua muntatzerakoan: %(message)s"
 
-#: ../liveusb/creator.py:779 ../liveusb/creator.py:921
+#: ../liveusb/creator.py:779 ../liveusb/creator.py:933
 msgid "Unknown filesystem.  Your device may need to be reformatted."
 msgstr "Fitxategi sistema ezezaguna. Zure gailua agian berriro formateatzea behar izan dezake."
 
@@ -475,12 +478,12 @@ msgstr ""
 msgid "Unmounting mounted filesystems on '%(device)s'"
 msgstr ""
 
-#: ../liveusb/creator.py:907
+#: ../liveusb/creator.py:919
 #, python-format
 msgid "Unsupported device '%(device)s', please report a bug."
 msgstr ""
 
-#: ../liveusb/creator.py:784 ../liveusb/creator.py:924
+#: ../liveusb/creator.py:784 ../liveusb/creator.py:936
 #, python-format
 msgid "Unsupported filesystem: %s"
 msgstr "Onartu gabeko fitxategi sistema: %s"
@@ -492,7 +495,7 @@ msgid ""
 "In case you are trying to upgrade a manually installed Tails system (that is, if it was installed without this installer), this option is not supported: you need to install it anew to start with, e.g. by choosing the \"Clone & Install\" action instead."
 msgstr ""
 
-#: ../liveusb/creator.py:1237
+#: ../liveusb/creator.py:1249
 #, python-format
 msgid ""
 "Unsupported filesystem: %s\n"
@@ -524,7 +527,7 @@ msgstr "LiveCD irudiaren SHA1 kontrol-batura egiaztatzen..."
 msgid "Verifying SHA256 checksum of LiveCD image..."
 msgstr "LiveCD irudiaren SHA256 kontrol-batura egiaztatzen..."
 
-#: ../liveusb/creator.py:918 ../liveusb/creator.py:1230
+#: ../liveusb/creator.py:930 ../liveusb/creator.py:1242
 msgid "Verifying filesystem..."
 msgstr "Fitxategi sistema egiaztatzen..."
 
