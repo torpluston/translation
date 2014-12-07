@@ -4,9 +4,10 @@
 # 
 # Translators:
 # cges30901 <cges30901@gmail.com>, 2014
-# chinrur <chinrur@gmail.com>, 2013
+# Chinrur Yang <chinrur@gmail.com>, 2013
 # danfong <danfong.hsieh@gmail.com>, 2014
 # muraji saori <muraji@tormail.org>, 2013
+# Nicholas Ou <oldmonou@gmail.com>, 2014
 # Terry Chuang <tchuang@redhat.com>, 2009
 # Wei-Lun Chao <william.chao@ossii.com.tw>, 2009
 # x4r <xatierlike@gmail.com>, 2014
@@ -15,9 +16,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: The Tor Project\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-07-01 22:11+0200\n"
-"PO-Revision-Date: 2014-07-02 08:56+0000\n"
-"Last-Translator: runasand <runa.sandvik@gmail.com>\n"
+"POT-Creation-Date: 2014-12-01 18:01+0100\n"
+"PO-Revision-Date: 2014-12-07 05:00+0000\n"
+"Last-Translator: Nicholas Ou <oldmonou@gmail.com>\n"
 "Language-Team: Chinese (Taiwan) (http://www.transifex.com/projects/p/torproject/language/zh_TW/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -45,7 +46,7 @@ msgstr "%(size)s %(label)s"
 msgid "%(vendor)s %(model)s (%(details)s) - %(device)s"
 msgstr "%(vendor)s %(model)s (%(details)s) - %(device)s"
 
-#: ../liveusb/creator.py:1047
+#: ../liveusb/creator.py:1059
 #, python-format
 msgid "%s already bootable"
 msgstr "%s 已經可開機"
@@ -102,12 +103,12 @@ msgid ""
 "persist after a reboot."
 msgstr "藉由在您的 USB 隨身碟配置額外空間給永久覆蓋，您將能夠在即時作業系統中存放資料和作永久修改。否則，您將無法在重新開機後儲存資料。"
 
-#: ../liveusb/creator.py:1146 ../liveusb/creator.py:1409
+#: ../liveusb/creator.py:1158 ../liveusb/creator.py:1421
 #, python-format
 msgid "Calculating the SHA1 of %s"
 msgstr "計算 %s 的 SHA1"
 
-#: ../liveusb/creator.py:1357
+#: ../liveusb/creator.py:1369
 msgid "Cannot find"
 msgstr "找不到"
 
@@ -158,7 +159,7 @@ msgstr "下載失敗："
 msgid "Downloading %s..."
 msgstr "正在下載 %s..."
 
-#: ../liveusb/creator.py:1142
+#: ../liveusb/creator.py:1154
 msgid "Drive is a loopback, skipping MBR reset"
 msgstr "磁碟回送，略過 MBR 重設"
 
@@ -167,7 +168,7 @@ msgstr "磁碟回送，略過 MBR 重設"
 msgid "Entering unmount_device for '%(device)s'"
 msgstr "進入未掛接裝置 '%(device)s'"
 
-#: ../liveusb/creator.py:1222
+#: ../liveusb/creator.py:1234
 msgid "Error probing device"
 msgstr "探測裝置失敗"
 
@@ -187,7 +188,7 @@ msgstr "錯誤：您 Live CD 的 SHA1 無效。您可以使用 --noverify 引數
 msgid "Extracting live image to the target device..."
 msgstr "正在解壓縮即時映像檔到目標設備上..."
 
-#: ../liveusb/creator.py:1090
+#: ../liveusb/creator.py:1102
 #, python-format
 msgid "Formatting %(device)s as FAT32"
 msgstr "將 %(device)s 格式化成 FAT32 格式"
@@ -223,7 +224,7 @@ msgstr "安裝完成! (%s)"
 msgid "Installation was completed. Press OK to close this program."
 msgstr "安裝已完成，按下「確定」關閉此程式。"
 
-#: ../liveusb/creator.py:947 ../liveusb/creator.py:1263
+#: ../liveusb/creator.py:959 ../liveusb/creator.py:1275
 msgid "Installing bootloader..."
 msgstr "正在安裝 bootloader..."
 
@@ -231,13 +232,13 @@ msgstr "正在安裝 bootloader..."
 msgid "LiveUSB creation failed!"
 msgstr "LiveUSB 建立失敗！"
 
-#: ../liveusb/creator.py:1358
+#: ../liveusb/creator.py:1370
 msgid ""
 "Make sure to extract the entire liveusb-creator zip file before running this"
 " program."
 msgstr "執行此程式前請先解壓縮整個 libusb-creator zip 檔案。"
 
-#: ../liveusb/creator.py:1234
+#: ../liveusb/creator.py:1246
 msgid ""
 "Make sure your USB key is plugged in and formatted with the FAT filesystem"
 msgstr "請確認您的 USB 磁碟已插入，並使用 FAT 檔案系統進行格式化"
@@ -257,8 +258,11 @@ msgid "No mount points found"
 msgstr "找不到掛接點"
 
 #: ../liveusb/creator.py:401
-msgid "Not enough free space on device."
-msgstr "裝置上的可用空間不足。"
+#, python-format
+msgid ""
+"Not enough free space on device.\n"
+"%dMB ISO + %dMB overlay > %dMB free space"
+msgstr "裝置上的可用空間不足。\n%dMB ISO + %dMB覆蓋 > %dMB可用空間"
 
 #: ../liveusb/gui.py:538
 msgid "Partition is FAT16; Restricting overlay size to 2G"
@@ -293,7 +297,7 @@ msgstr "正在重新整理版本..."
 msgid "Releases updated!"
 msgstr "版本已更新!"
 
-#: ../liveusb/creator.py:954 ../liveusb/creator.py:1281
+#: ../liveusb/creator.py:966 ../liveusb/creator.py:1293
 #, python-format
 msgid "Removing %(file)s"
 msgstr "移除 %(file)s"
@@ -302,7 +306,7 @@ msgstr "移除 %(file)s"
 msgid "Removing existing Live OS"
 msgstr "移除現有的 Live OS"
 
-#: ../liveusb/creator.py:1136
+#: ../liveusb/creator.py:1148
 #, python-format
 msgid "Resetting Master Boot Record of %s"
 msgstr "重設 %s 的 MBR 主開機紀錄"
@@ -327,7 +331,7 @@ msgid ""
 "Source type does not support verification of ISO MD5 checksum, skipping"
 msgstr "來源類型不支援 ISO MD5 總和檢查碼的驗證，略過"
 
-#: ../liveusb/creator.py:1170
+#: ../liveusb/creator.py:1182
 msgid "Synchronizing data on disk..."
 msgstr "正在同步磁碟上的資料..."
 
@@ -379,11 +383,11 @@ msgstr "這個進度列將會表示 LiveUSB 建立過程還需要多久"
 msgid "This is the status console, where all messages get written to."
 msgstr "這是狀態主控台，所有訊息都會寫入到這裡。"
 
-#: ../liveusb/creator.py:910
+#: ../liveusb/creator.py:922
 msgid "Trying to continue anyway."
 msgstr "無論如何仍嘗試繼續。"
 
-#: ../liveusb/creator.py:942
+#: ../liveusb/creator.py:954
 #, python-format
 msgid "Unable to change volume label: %(message)s"
 msgstr "無法變更磁碟區標籤: %(message)s"
@@ -402,15 +406,15 @@ msgstr "無法複製 %(infile)s 到 %(outfile)s: %(message)s"
 msgid "Unable to find any USB drive"
 msgstr "找不到任何的 USB 裝置"
 
-#: ../liveusb/creator.py:1224
+#: ../liveusb/creator.py:1236
 msgid "Unable to find any supported device"
 msgstr "找不到任何有支援的裝置"
 
-#: ../liveusb/creator.py:1067
+#: ../liveusb/creator.py:1079
 msgid "Unable to find partition"
 msgstr "找不到分割區"
 
-#: ../liveusb/creator.py:1304
+#: ../liveusb/creator.py:1316
 msgid ""
 "Unable to get Win32_LogicalDisk; win32com query did not return any results"
 msgstr "無法取得 Win32_LogicalDisk; win32com 查詢沒有傳回任何結果"
@@ -434,7 +438,7 @@ msgstr "無法從先前的 LiveOS 移除目錄: %(message)s"
 msgid "Unable to remove file from previous LiveOS: %(message)s"
 msgstr "無法從先前的 LiveOS 移除檔案: %(message)s"
 
-#: ../liveusb/creator.py:1139
+#: ../liveusb/creator.py:1151
 msgid ""
 "Unable to reset MBR.  You may not have the `syslinux` package installed."
 msgstr "無法重設 MBR。您可能沒有安裝 `syslinux` 套件。"
@@ -459,7 +463,7 @@ msgstr "未知的 ISO，略過總和檢查碼驗證"
 msgid "Unknown dbus exception while trying to mount device: %(message)s"
 msgstr "掛接裝置時發生未知的 dbus 例外: %(message)s"
 
-#: ../liveusb/creator.py:779 ../liveusb/creator.py:921
+#: ../liveusb/creator.py:779 ../liveusb/creator.py:933
 msgid "Unknown filesystem.  Your device may need to be reformatted."
 msgstr "未知的檔案系統。您的裝置可能需要重新格式化。"
 
@@ -478,12 +482,12 @@ msgstr "正在卸載 '%(udi)s' 在 '%(device)s'"
 msgid "Unmounting mounted filesystems on '%(device)s'"
 msgstr "正在卸載掛接在 '%(device)s' 上的檔案系統"
 
-#: ../liveusb/creator.py:907
+#: ../liveusb/creator.py:919
 #, python-format
 msgid "Unsupported device '%(device)s', please report a bug."
 msgstr "不支援的裝置 '%(device)s'，請報告錯誤。"
 
-#: ../liveusb/creator.py:784 ../liveusb/creator.py:924
+#: ../liveusb/creator.py:784 ../liveusb/creator.py:936
 #, python-format
 msgid "Unsupported filesystem: %s"
 msgstr "不支援的檔案系統：%s"
@@ -495,7 +499,7 @@ msgid ""
 "In case you are trying to upgrade a manually installed Tails system (that is, if it was installed without this installer), this option is not supported: you need to install it anew to start with, e.g. by choosing the \"Clone & Install\" action instead."
 msgstr "不支援的檔案系統: %s\n如果您要升級手動安裝的 Tails 系統 (也就是說，它不是用這個安裝程式來安裝)，不支援此選項：你必須重新安裝然後開始，例如:選擇「複製並安裝」動作代替。"
 
-#: ../liveusb/creator.py:1237
+#: ../liveusb/creator.py:1249
 #, python-format
 msgid ""
 "Unsupported filesystem: %s\n"
@@ -527,7 +531,7 @@ msgstr "驗證 LiveCD 映像檔的 SHA1 總和檢查碼..."
 msgid "Verifying SHA256 checksum of LiveCD image..."
 msgstr "驗證 LiveCD 映像檔的 SHA256 總和檢查碼..."
 
-#: ../liveusb/creator.py:918 ../liveusb/creator.py:1230
+#: ../liveusb/creator.py:930 ../liveusb/creator.py:1242
 msgid "Verifying filesystem..."
 msgstr "正在驗證檔案系統..."
 
