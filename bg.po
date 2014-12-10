@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: The Tor Project\n"
 "Report-Msgid-Bugs-To: Tails developers <tails@boum.org>\n"
 "POT-Creation-Date: 2014-12-02 09:42+0100\n"
-"PO-Revision-Date: 2014-12-10 12:14+0000\n"
+"PO-Revision-Date: 2014-12-10 12:44+0000\n"
 "Last-Translator: arsamaic <aramaicbg@gmail.com>\n"
 "Language-Team: Bulgarian (http://www.transifex.com/projects/p/torproject/language/bg/)\n"
 "MIME-Version: 1.0\n"
@@ -75,24 +75,24 @@ msgstr "Версията на Tails е остаряла и може да има 
 msgid ""
 "The available incremental upgrade requires %{space_needed}s of free space on"
 " Tails system partition,  but only %{free_space}s is available."
-msgstr ""
+msgstr "Частичният ъпгрейд изисква %{space_needed}s празно място на системата с Tails партишъна, но единствено %{free_space}s са на разположение."
 
 #: ../lib/Tails/IUK/Frontend.pm:334
 #, perl-brace-format
 msgid ""
 "The available incremental upgrade requires %{memory_needed}s of free memory,"
 " but only %{free_memory}s is available."
-msgstr ""
+msgstr "Частичният ъпгрейд изисква %{space_needed}s свободна оперативна памет, но единствено %{free_space}s са на разположение."
 
 #: ../lib/Tails/IUK/Frontend.pm:356
 msgid ""
 "An incremental upgrade is available, but no full upgrade is.\n"
 "This should not happen. Please report a bug."
-msgstr ""
+msgstr "Частичен ъпгрейд е на разаположениено не и пълния ъпгрейд. \nТова не трябва да се бърка. Уведомете за грешка."
 
 #: ../lib/Tails/IUK/Frontend.pm:360
 msgid "Error while detecting available upgrades"
-msgstr ""
+msgstr "Грешка при проверка за възможни ъпгрейди"
 
 #: ../lib/Tails/IUK/Frontend.pm:370
 #, perl-brace-format
@@ -108,19 +108,19 @@ msgid ""
 "Download size: %{size}s\n"
 "\n"
 "Do you want to upgrade now?"
-msgstr ""
+msgstr "<b>Актуализирайте до %{name}s %{version}s.</b>\nЗа повече информация относно тази нова версия, отидете на %{details_url}s\n\nПрепоръчително е да затворите всички отворени програми и апликации по време на актуализацията. \nСвалянето на актуализацията може да отнеме много време, от няколко минути да часове.\nМрежата ще бъде изключена след свалянето на актуализацията.\n\nРазмер за сваляне: %{size}s\n\nИскате ли да актуализирате сега?"
 
 #: ../lib/Tails/IUK/Frontend.pm:385
 msgid "Upgrade available"
-msgstr ""
+msgstr "Актуализация възможна"
 
 #: ../lib/Tails/IUK/Frontend.pm:386
 msgid "Upgrade now"
-msgstr ""
+msgstr "Актуализирай сега"
 
 #: ../lib/Tails/IUK/Frontend.pm:387
 msgid "Upgrade later"
-msgstr ""
+msgstr "Актуализирай по късно"
 
 #: ../lib/Tails/IUK/Frontend.pm:395
 #, perl-brace-format
@@ -132,7 +132,7 @@ msgid ""
 "It is not possible to automatically upgrade your device to this new version: %{explanation}s.\n"
 "\n"
 "To learn how to do a manual upgrade, go to https://tails.boum.org/doc/first_steps/upgrade/#manual"
-msgstr ""
+msgstr "<b>Трябва да актуализирате ръчно към %{name}s %{version}s.</b>\n\nЗа повече информация относно тази актуализация, отидете на %{details_url}s\n\nНе е възможна автоматична актуализация към тази нова версия: %{explanation}s.\n\nЗа да научите как да актуализирате ръчно, отидете на https://tails.boum.org/doc/first_steps/upgrade/#manual"
 
 #: ../lib/Tails/IUK/Frontend.pm:411
 msgid "New version available"
@@ -140,12 +140,12 @@ msgstr "Налична е нова версия"
 
 #: ../lib/Tails/IUK/Frontend.pm:468
 msgid "Downloading upgrade"
-msgstr ""
+msgstr "Сваляне на актуализация"
 
 #: ../lib/Tails/IUK/Frontend.pm:471
 #, perl-brace-format
 msgid "Downloading the upgrade to %{name}s %{version}s..."
-msgstr ""
+msgstr "Записване на актуализацията в %{name}s %{version}s..."
 
 #: ../lib/Tails/IUK/Frontend.pm:512
 msgid ""
@@ -153,26 +153,26 @@ msgid ""
 "connection, and restart Tails to try upgrading again.\\n\\nIf the problem "
 "persists, go to "
 "file:///usr/share/doc/tails/website/doc/upgrade/error/download.en.html"
-msgstr ""
+msgstr "<b>Актуализацията не може да бъде свалена.</b> Проверете за връзка с Интернет, и рестартирайте Tails и опитайте да актуализирате отново.\\n\\nАко проблема не се разреши отидете на file:///usr/share/doc/tails/website/doc/upgrade/error/download.en.html"
 
 #: ../lib/Tails/IUK/Frontend.pm:528 ../lib/Tails/IUK/Frontend.pm:547
 msgid "Error while downloading the upgrade"
-msgstr ""
+msgstr "Грешка при свалянето"
 
 #: ../lib/Tails/IUK/Frontend.pm:540
 #, perl-brace-format
 msgid ""
 "Output file '%{output_file}s' does not exist, but tails-iuk-get-target-file "
 "did not complain. Please report a bug."
-msgstr ""
+msgstr "Изходящия файл '%{output_file}s'  не съсществува, но tails-iuk-get-target-file не отчита проблем. Моля, сигнализирайте за грешка."
 
 #: ../lib/Tails/IUK/Frontend.pm:559
 msgid "Error while creating temporary downloading directory"
-msgstr ""
+msgstr "Грешка при създаване на временна директория за сваляне."
 
 #: ../lib/Tails/IUK/Frontend.pm:562
 msgid "Failed to create temporary download directory"
-msgstr ""
+msgstr "Неуспешно създаване на временна директория за сваляне."
 
 #: ../lib/Tails/IUK/Frontend.pm:574
 msgid ""
@@ -182,46 +182,46 @@ msgid ""
 "You should restart Tails on the new version as soon as possible.\n"
 "\n"
 "Do you want to restart now?"
-msgstr ""
+msgstr "<b> Вашето Tails устройство беше актуализирано успешно. </b>\n\nНякой настройки по сигурноста са временно изключени.\nРестартирайте Tails с новата версия възможно най скоро.\n\nИскате ли да рестартирате сега?"
 
 #: ../lib/Tails/IUK/Frontend.pm:579
 msgid "Restart Tails"
-msgstr ""
+msgstr "Рестартирай Tails "
 
 #: ../lib/Tails/IUK/Frontend.pm:580
 msgid "Restart now"
-msgstr ""
+msgstr "Рестартирай сега"
 
 #: ../lib/Tails/IUK/Frontend.pm:581
 msgid "Restart later"
-msgstr ""
+msgstr "Рестартирай по късно"
 
 #: ../lib/Tails/IUK/Frontend.pm:592
 msgid "Error while restarting the system"
-msgstr ""
+msgstr "Грешка при рестартиране на системата."
 
 #: ../lib/Tails/IUK/Frontend.pm:595
 msgid "Failed to restart the system"
-msgstr ""
+msgstr "Проблем при рестартирането"
 
 #: ../lib/Tails/IUK/Frontend.pm:610
 msgid "Error while shutting down the network"
-msgstr ""
+msgstr "Грешка по време на изключване на мрежата"
 
 #: ../lib/Tails/IUK/Frontend.pm:613
 msgid "Failed to shutdown network"
-msgstr ""
+msgstr "Грешка при спиране на мрежата"
 
 #: ../lib/Tails/IUK/Frontend.pm:623
 msgid "Upgrading the system"
-msgstr ""
+msgstr "Ъпгрейдване на системата"
 
 #: ../lib/Tails/IUK/Frontend.pm:625
 msgid ""
 "<b>Your Tails device is being upgraded...</b>\n"
 "\n"
 "For security reasons, the networking is now disabled."
-msgstr ""
+msgstr "<b>Вашето Tails устройство беше актуализирано...</b>\n\nОт съображения за сигурност, мрежата в момента е изключена."
 
 #: ../lib/Tails/IUK/Frontend.pm:662
 msgid ""
