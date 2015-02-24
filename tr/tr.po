@@ -6,13 +6,13 @@
 # sgtpepper <barlasmirc@gmail.com>, 2013
 # cmldrs <cmldrs@yandex.com>, 2014
 # Emre <conan@operamail.com>, 2013
-# Volkan Gezer <volkangezer@gmail.com>, 2013-2014
+# Volkan Gezer <volkangezer@gmail.com>, 2013-2015
 msgid ""
 msgstr ""
 "Project-Id-Version: The Tor Project\n"
 "Report-Msgid-Bugs-To: Tails developers <tails@boum.org>\n"
-"POT-Creation-Date: 2014-10-08 21:13+0200\n"
-"PO-Revision-Date: 2014-10-16 16:20+0000\n"
+"POT-Creation-Date: 2015-02-23 13:07+0100\n"
+"PO-Revision-Date: 2015-02-24 20:27+0000\n"
 "Last-Translator: Volkan Gezer <volkangezer@gmail.com>\n"
 "Language-Team: Turkish (http://www.transifex.com/projects/p/torproject/language/tr/)\n"
 "MIME-Version: 1.0\n"
@@ -23,11 +23,11 @@ msgstr ""
 
 #: ../lib/Tails/Persistence/Configuration/Presets.pm:48
 msgid "Personal Data"
-msgstr "Kişisel bilgi"
+msgstr "Kişisel Bilgi"
 
 #: ../lib/Tails/Persistence/Configuration/Presets.pm:50
 msgid "Keep files stored in the `Persistent' directory"
-msgstr "Dosyaları 'Persistent' dosyasında tut."
+msgstr "Dosyaları 'Persistent' dizininde tut"
 
 #: ../lib/Tails/Persistence/Configuration/Presets.pm:58
 msgid "GnuPG"
@@ -94,95 +94,103 @@ msgid "Printers configuration"
 msgstr "Yazıcı yapılandırması"
 
 #: ../lib/Tails/Persistence/Configuration/Presets.pm:138
+msgid "Bitcoin client"
+msgstr "Bitcoin istemcisi"
+
+#: ../lib/Tails/Persistence/Configuration/Presets.pm:140
+msgid "Electrum's bitcoin wallet and configuration"
+msgstr "Electrum'um bitcoin cüzdanı ve yapılandırması"
+
+#: ../lib/Tails/Persistence/Configuration/Presets.pm:148
 msgid "APT Packages"
 msgstr "APT paketleri"
 
-#: ../lib/Tails/Persistence/Configuration/Presets.pm:140
+#: ../lib/Tails/Persistence/Configuration/Presets.pm:150
 msgid "Packages downloaded by APT"
 msgstr "APT tarafından indirilen paketler"
 
-#: ../lib/Tails/Persistence/Configuration/Presets.pm:148
+#: ../lib/Tails/Persistence/Configuration/Presets.pm:158
 msgid "APT Lists"
-msgstr "APT listeleri"
+msgstr "APT Listeleri"
 
-#: ../lib/Tails/Persistence/Configuration/Presets.pm:150
+#: ../lib/Tails/Persistence/Configuration/Presets.pm:160
 msgid "Lists downloaded by APT"
 msgstr "APT tarafından indirilen listeler"
 
-#: ../lib/Tails/Persistence/Configuration/Presets.pm:158
+#: ../lib/Tails/Persistence/Configuration/Presets.pm:168
 msgid "Dotfiles"
-msgstr "Dot dosyaları"
+msgstr "Dotfiles"
 
-#: ../lib/Tails/Persistence/Configuration/Presets.pm:160
+#: ../lib/Tails/Persistence/Configuration/Presets.pm:170
 msgid ""
 "Symlink into $HOME every file or directory found in the `dotfiles' directory"
-msgstr "\"Dotfiles\" dizininde bulunan tüm dosya ve dizinlerin $HOME'da kısayolunu oluştur"
+msgstr "`dotfiles' dizininde bulunan tüm dosya ve dizinlerin $HOME'da kısayolunu oluştur"
 
 #: ../lib/Tails/Persistence/Setup.pm:227
 msgid "Setup Tails persistent volume"
 msgstr "Kurulum Tails kalıcı cilti"
 
-#: ../lib/Tails/Persistence/Setup.pm:307 ../lib/Tails/Persistence/Setup.pm:452
+#: ../lib/Tails/Persistence/Setup.pm:307 ../lib/Tails/Persistence/Setup.pm:451
 msgid "Error"
 msgstr "Hata"
 
-#: ../lib/Tails/Persistence/Setup.pm:339
+#: ../lib/Tails/Persistence/Setup.pm:338
 #, perl-format
 msgid "Device %s already has a persistent volume."
-msgstr "%s aracı zaten kalıcı cilte sahip"
+msgstr "%s aracı zaten kalıcı bir birime sahip"
 
-#: ../lib/Tails/Persistence/Setup.pm:347
+#: ../lib/Tails/Persistence/Setup.pm:346
 #, perl-format
 msgid "Device %s has not enough unallocated space."
-msgstr "%s cihazında yeteri kadar ayrışmamış boşluğu yok."
+msgstr "%s cihazında yeteri kadar ayrılmamış boşluk yok."
 
-#: ../lib/Tails/Persistence/Setup.pm:355 ../lib/Tails/Persistence/Setup.pm:369
+#: ../lib/Tails/Persistence/Setup.pm:354 ../lib/Tails/Persistence/Setup.pm:368
 #, perl-format
 msgid "Device %s has no persistent volume."
-msgstr "%s cihazının kalıcı cilti yok."
+msgstr "%s cihazının kalıcı birimi yok."
 
-#: ../lib/Tails/Persistence/Setup.pm:361
+#: ../lib/Tails/Persistence/Setup.pm:360
 msgid ""
 "Cannot delete the persistent volume while in use. You should restart Tails "
 "without persistence."
-msgstr "Kullanım halinde olduğu için kalıcı volüm silinemedi. Tails'i kalıcılık olmadan yeniden başlatmanız gerekmektedir."
+msgstr "Kullanım halinde olduğu için kalıcı birim silinemedi. Tails'i kalıcılık olmadan yeniden başlatmanız gerekmektedir."
 
-#: ../lib/Tails/Persistence/Setup.pm:380
+#: ../lib/Tails/Persistence/Setup.pm:379
 msgid "Persistence volume is not unlocked."
-msgstr "Kalıcılık volümü kilitsiz değil. "
+msgstr "Kalıcılık birimi kilitsiz değil. "
 
-#: ../lib/Tails/Persistence/Setup.pm:385
+#: ../lib/Tails/Persistence/Setup.pm:384
 msgid "Persistence volume is not mounted."
-msgstr "Kalıcılık volümü monte edilmiş durumda değil"
+msgstr "Kalıcılık birimi monte edilmiş durumda değil"
 
-#: ../lib/Tails/Persistence/Setup.pm:390
+#: ../lib/Tails/Persistence/Setup.pm:389
 msgid "Persistence volume is not readable. Permissions or ownership problems?"
-msgstr "Kalıcılık volümü okunamıyor. İzin veya sahiplik problemleri?"
+msgstr "Kalıcılık birimi okunamıyor. İzin veya sahiplik problemleri olabilir mi?"
 
-#: ../lib/Tails/Persistence/Setup.pm:395
+#: ../lib/Tails/Persistence/Setup.pm:394
 msgid "Persistence volume is not writable. Maybe it was mounted read-only?"
-msgstr "Kalıcılık volümü yazılabilir değil. Belki de sadece okunur olarak monte edildi?"
+msgstr "Kalıcılık birimi yazılabilir değil. Belki de salt okunur olarak bağlandı?"
 
-#: ../lib/Tails/Persistence/Setup.pm:404
+#: ../lib/Tails/Persistence/Setup.pm:403
 #, perl-format
 msgid "Tails is running from non-USB / non-SDIO device %s."
 msgstr "Tails, USB ve SDIO olmayan %s aygıtından çalışıyor."
 
-#: ../lib/Tails/Persistence/Setup.pm:410
+#: ../lib/Tails/Persistence/Setup.pm:409
 #, perl-format
 msgid "Device %s is optical."
 msgstr "%s cihazı optik."
 
-#: ../lib/Tails/Persistence/Setup.pm:417
+#: ../lib/Tails/Persistence/Setup.pm:416
 #, perl-format
 msgid "Device %s was not created using Tails Installer."
-msgstr "Tails Yükleyici kullanılarak %s aygıtı oluşturulamadı."
+msgstr "%s aygıtı Tails Yükleyici kullanılarak oluşturulamadı."
 
-#: ../lib/Tails/Persistence/Setup.pm:677
+#: ../lib/Tails/Persistence/Setup.pm:676
 msgid "Persistence wizard - Finished"
 msgstr "Kalıcılık sihirbazı - Bitti"
 
-#: ../lib/Tails/Persistence/Setup.pm:680
+#: ../lib/Tails/Persistence/Setup.pm:679
 msgid ""
 "Any changes you have made will only take effect after restarting Tails.\n"
 "\n"
@@ -191,11 +199,11 @@ msgstr "Yaptığınız değişiklikler Tails yeniden başladıktan sonra geçerl
 
 #: ../lib/Tails/Persistence/Step/Bootstrap.pm:54
 msgid "Persistence wizard - Persistent volume creation"
-msgstr "Kalıcılık Sihirbazı - Kalıcı Volüm yaratımı"
+msgstr "Kalıcılık Sihirbazı - Kalıcı birim oluşturma"
 
 #: ../lib/Tails/Persistence/Step/Bootstrap.pm:57
 msgid "Choose a passphrase to protect the persistent volume"
-msgstr "Kalıcı volümü korumak için bir parola seçiniz."
+msgstr "Kalıcı birimi korumak için bir parola seçin"
 
 #. TRANSLATORS: size, device vendor, device model
 #: ../lib/Tails/Persistence/Step/Bootstrap.pm:61
@@ -207,7 +215,7 @@ msgstr "<b>%s %s</b> aygıtında kalıcı bir %s bölümü oluşturulacak. Bu b�
 
 #: ../lib/Tails/Persistence/Step/Bootstrap.pm:66
 msgid "Create"
-msgstr "Yarat"
+msgstr "Oluştur"
 
 #: ../lib/Tails/Persistence/Step/Bootstrap.pm:110
 msgid ""
@@ -219,7 +227,7 @@ msgstr "<b>Dikkat!</b> Kalıcılığın kullanımı iyice anlaşılması gereken
 
 #: ../lib/Tails/Persistence/Step/Bootstrap.pm:144
 msgid "Passphrase:"
-msgstr "Parola Cümlesi:"
+msgstr "Parola:"
 
 #: ../lib/Tails/Persistence/Step/Bootstrap.pm:154
 msgid "Verify Passphrase:"
@@ -241,11 +249,11 @@ msgstr "Hata"
 
 #: ../lib/Tails/Persistence/Step/Bootstrap.pm:271
 msgid "Mounting Tails persistence partition."
-msgstr "Tails kararlılık bölmeleri monte ediliyor"
+msgstr "Tails kalıcı birimi bağlanıyor"
 
 #: ../lib/Tails/Persistence/Step/Bootstrap.pm:274
 msgid "The Tails persistence partition will be mounted."
-msgstr "Tails kalıcılık bölmeleri monte edilecek"
+msgstr "Tails kalıcı birim bağlanacak."
 
 #: ../lib/Tails/Persistence/Step/Bootstrap.pm:283
 msgid "Correcting permissions of the persistent volume."
@@ -257,19 +265,19 @@ msgstr "Kalıcı birimin izinleri düzeltildi."
 
 #: ../lib/Tails/Persistence/Step/Bootstrap.pm:308
 msgid "Creating..."
-msgstr "Yaratılıyor..."
+msgstr "Oluşturuluyor..."
 
 #: ../lib/Tails/Persistence/Step/Bootstrap.pm:311
 msgid "Creating the persistent volume..."
-msgstr "Kalıcılık volümü yaratılıyor..."
+msgstr "Kalıcılık birimi oluşturuluyor..."
 
 #: ../lib/Tails/Persistence/Step/Configure.pm:61
 msgid "Persistence wizard - Persistent volume configuration"
-msgstr "Kalıcılık Sihirbazı - Kalıcılık volüm ayarı"
+msgstr "Kalıcılık Sihirbazı - Kalıcılık birim ayarı"
 
 #: ../lib/Tails/Persistence/Step/Configure.pm:64
 msgid "Specify the files that will be saved in the persistent volume"
-msgstr "Kalıcı volüme kaydedilecek dosyaları belirleyiniz"
+msgstr "Kalıcı birime kaydedilecek dosyaları belirleyin"
 
 #. TRANSLATORS: partition, size, device vendor, device model
 #: ../lib/Tails/Persistence/Step/Configure.pm:68
@@ -293,17 +301,17 @@ msgstr "Kalıcılık ayarları kaydediliyor..."
 
 #: ../lib/Tails/Persistence/Step/Delete.pm:41
 msgid "Persistence wizard - Persistent volume deletion"
-msgstr "Kalıcılık sihirbazı - Kalıcı volüm kaldırılması"
+msgstr "Kalıcılık sihirbazı - Kalıcı birim silinmesi"
 
 #: ../lib/Tails/Persistence/Step/Delete.pm:44
 msgid "Your persistent data will be deleted."
-msgstr "Kalıcı volümünüz silinecek."
+msgstr "Kalıcı biriminiz silinecek."
 
 #: ../lib/Tails/Persistence/Step/Delete.pm:48
 #, perl-format
 msgid ""
 "The persistent volume %s (%s), on the <b>%s %s</b> device, will be deleted."
-msgstr "<b>%s %s</b> cihazındaki , %s (%s) kalıcı volümünüzü silinecek."
+msgstr "<b>%s %s</b> cihazındaki , %s (%s) kalıcı biriminiz silinecek."
 
 #: ../lib/Tails/Persistence/Step/Delete.pm:54
 msgid "Delete"
@@ -311,8 +319,8 @@ msgstr "Sil"
 
 #: ../lib/Tails/Persistence/Step/Delete.pm:101
 msgid "Deleting..."
-msgstr "Siliniyor"
+msgstr "Siliniyor..."
 
 #: ../lib/Tails/Persistence/Step/Delete.pm:104
 msgid "Deleting the persistent volume..."
-msgstr "Kalıcı volüm siliniyor..."
+msgstr "Kalıcı birim siliniyor..."
