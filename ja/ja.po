@@ -10,9 +10,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: The Tor Project\n"
 "Report-Msgid-Bugs-To: Tails developers <tails@boum.org>\n"
-"POT-Creation-Date: 2014-10-08 21:13+0200\n"
-"PO-Revision-Date: 2014-10-19 10:21+0000\n"
-"Last-Translator: sunpower92 <fumihito92@gmail.com>\n"
+"POT-Creation-Date: 2015-02-23 13:07+0100\n"
+"PO-Revision-Date: 2015-02-24 10:24+0000\n"
+"Last-Translator: runasand <runa.sandvik@gmail.com>\n"
 "Language-Team: Japanese (http://www.transifex.com/projects/p/torproject/language/ja/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -93,26 +93,34 @@ msgid "Printers configuration"
 msgstr "プリンターの設定"
 
 #: ../lib/Tails/Persistence/Configuration/Presets.pm:138
+msgid "Bitcoin client"
+msgstr ""
+
+#: ../lib/Tails/Persistence/Configuration/Presets.pm:140
+msgid "Electrum's bitcoin wallet and configuration"
+msgstr ""
+
+#: ../lib/Tails/Persistence/Configuration/Presets.pm:148
 msgid "APT Packages"
 msgstr "APTパッケージ"
 
-#: ../lib/Tails/Persistence/Configuration/Presets.pm:140
+#: ../lib/Tails/Persistence/Configuration/Presets.pm:150
 msgid "Packages downloaded by APT"
 msgstr "APTがダウンロードしたパッケージ"
 
-#: ../lib/Tails/Persistence/Configuration/Presets.pm:148
+#: ../lib/Tails/Persistence/Configuration/Presets.pm:158
 msgid "APT Lists"
 msgstr "APTリスト"
 
-#: ../lib/Tails/Persistence/Configuration/Presets.pm:150
+#: ../lib/Tails/Persistence/Configuration/Presets.pm:160
 msgid "Lists downloaded by APT"
 msgstr "APTがダウンロードしたリスト"
 
-#: ../lib/Tails/Persistence/Configuration/Presets.pm:158
+#: ../lib/Tails/Persistence/Configuration/Presets.pm:168
 msgid "Dotfiles"
 msgstr "ドットファイル"
 
-#: ../lib/Tails/Persistence/Configuration/Presets.pm:160
+#: ../lib/Tails/Persistence/Configuration/Presets.pm:170
 msgid ""
 "Symlink into $HOME every file or directory found in the `dotfiles' directory"
 msgstr "`ドットファイル'ディレクトリで見つかった$HOMEの各ファイルかディレクトリへのシンボリックリンク"
@@ -121,67 +129,67 @@ msgstr "`ドットファイル'ディレクトリで見つかった$HOMEの各�
 msgid "Setup Tails persistent volume"
 msgstr "Talisの永続的ボリュームをセットアップ"
 
-#: ../lib/Tails/Persistence/Setup.pm:307 ../lib/Tails/Persistence/Setup.pm:452
+#: ../lib/Tails/Persistence/Setup.pm:307 ../lib/Tails/Persistence/Setup.pm:451
 msgid "Error"
 msgstr "エラー"
 
-#: ../lib/Tails/Persistence/Setup.pm:339
+#: ../lib/Tails/Persistence/Setup.pm:338
 #, perl-format
 msgid "Device %s already has a persistent volume."
 msgstr "デバイス %s にはすでに永続的ボリュームがあります。"
 
-#: ../lib/Tails/Persistence/Setup.pm:347
+#: ../lib/Tails/Persistence/Setup.pm:346
 #, perl-format
 msgid "Device %s has not enough unallocated space."
 msgstr "デバイス %s には十分な未割り当て領域がありません。"
 
-#: ../lib/Tails/Persistence/Setup.pm:355 ../lib/Tails/Persistence/Setup.pm:369
+#: ../lib/Tails/Persistence/Setup.pm:354 ../lib/Tails/Persistence/Setup.pm:368
 #, perl-format
 msgid "Device %s has no persistent volume."
 msgstr "デバイス %s には永続的ボリュームがありません。"
 
-#: ../lib/Tails/Persistence/Setup.pm:361
+#: ../lib/Tails/Persistence/Setup.pm:360
 msgid ""
 "Cannot delete the persistent volume while in use. You should restart Tails "
 "without persistence."
 msgstr "使用中の間は永続的ボリュームを削除出来ません。永続をオフにしてTailsを再起動すべきです。"
 
-#: ../lib/Tails/Persistence/Setup.pm:380
+#: ../lib/Tails/Persistence/Setup.pm:379
 msgid "Persistence volume is not unlocked."
 msgstr "永続的ボリュームがアンロックされていません。"
 
-#: ../lib/Tails/Persistence/Setup.pm:385
+#: ../lib/Tails/Persistence/Setup.pm:384
 msgid "Persistence volume is not mounted."
 msgstr "永続的ボリュームがマウントされていません。"
 
-#: ../lib/Tails/Persistence/Setup.pm:390
+#: ../lib/Tails/Persistence/Setup.pm:389
 msgid "Persistence volume is not readable. Permissions or ownership problems?"
 msgstr "永続的ボリュームが読み込み可能ではありません。パーミッションや所有権に問題があるかもしれません。"
 
-#: ../lib/Tails/Persistence/Setup.pm:395
+#: ../lib/Tails/Persistence/Setup.pm:394
 msgid "Persistence volume is not writable. Maybe it was mounted read-only?"
 msgstr "永続的ボリュームが書き込み可能ではありません。リードオンリーでマウントされた可能性があります。"
 
-#: ../lib/Tails/Persistence/Setup.pm:404
+#: ../lib/Tails/Persistence/Setup.pm:403
 #, perl-format
 msgid "Tails is running from non-USB / non-SDIO device %s."
 msgstr "Tailsは現在、USBまたはSDIOでないデバイス %s から動作しています。"
 
-#: ../lib/Tails/Persistence/Setup.pm:410
+#: ../lib/Tails/Persistence/Setup.pm:409
 #, perl-format
 msgid "Device %s is optical."
 msgstr "デバイス %sは光学機器です。"
 
-#: ../lib/Tails/Persistence/Setup.pm:417
+#: ../lib/Tails/Persistence/Setup.pm:416
 #, perl-format
 msgid "Device %s was not created using Tails Installer."
 msgstr "デバイス %s は Tails インストーラーを使用して作成されませんでした。"
 
-#: ../lib/Tails/Persistence/Setup.pm:677
+#: ../lib/Tails/Persistence/Setup.pm:676
 msgid "Persistence wizard - Finished"
 msgstr "永続ウィザード -終了"
 
-#: ../lib/Tails/Persistence/Setup.pm:680
+#: ../lib/Tails/Persistence/Setup.pm:679
 msgid ""
 "Any changes you have made will only take effect after restarting Tails.\n"
 "\n"

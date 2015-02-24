@@ -9,8 +9,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: The Tor Project\n"
 "Report-Msgid-Bugs-To: Tails developers <tails@boum.org>\n"
-"POT-Creation-Date: 2014-10-08 21:13+0200\n"
-"PO-Revision-Date: 2014-10-09 10:19+0000\n"
+"POT-Creation-Date: 2015-02-23 13:07+0100\n"
+"PO-Revision-Date: 2015-02-24 10:24+0000\n"
 "Last-Translator: runasand <runa.sandvik@gmail.com>\n"
 "Language-Team: Sinhala (Sri Lanka) (http://www.transifex.com/projects/p/torproject/language/si_LK/)\n"
 "MIME-Version: 1.0\n"
@@ -92,26 +92,34 @@ msgid "Printers configuration"
 msgstr ""
 
 #: ../lib/Tails/Persistence/Configuration/Presets.pm:138
+msgid "Bitcoin client"
+msgstr ""
+
+#: ../lib/Tails/Persistence/Configuration/Presets.pm:140
+msgid "Electrum's bitcoin wallet and configuration"
+msgstr ""
+
+#: ../lib/Tails/Persistence/Configuration/Presets.pm:148
 msgid "APT Packages"
 msgstr "APT පැකේජ"
 
-#: ../lib/Tails/Persistence/Configuration/Presets.pm:140
+#: ../lib/Tails/Persistence/Configuration/Presets.pm:150
 msgid "Packages downloaded by APT"
 msgstr "APT විසින් භාගත කරන ලද පැකේජ "
 
-#: ../lib/Tails/Persistence/Configuration/Presets.pm:148
+#: ../lib/Tails/Persistence/Configuration/Presets.pm:158
 msgid "APT Lists"
 msgstr "APT ලැයිස්තු"
 
-#: ../lib/Tails/Persistence/Configuration/Presets.pm:150
+#: ../lib/Tails/Persistence/Configuration/Presets.pm:160
 msgid "Lists downloaded by APT"
 msgstr "APT විසින් භාගත කරන ලද ලැයිස්තු"
 
-#: ../lib/Tails/Persistence/Configuration/Presets.pm:158
+#: ../lib/Tails/Persistence/Configuration/Presets.pm:168
 msgid "Dotfiles"
 msgstr "ඩොට්ගොනු"
 
-#: ../lib/Tails/Persistence/Configuration/Presets.pm:160
+#: ../lib/Tails/Persistence/Configuration/Presets.pm:170
 msgid ""
 "Symlink into $HOME every file or directory found in the `dotfiles' directory"
 msgstr "`dotfiles' නාමාවලියේ ඇති සියළු ගොනු හා නාමාවලි  $HOME වලට symlink කරන්න."
@@ -120,67 +128,67 @@ msgstr "`dotfiles' නාමාවලියේ ඇති සියළු ගො�
 msgid "Setup Tails persistent volume"
 msgstr "Tails ස්ථාවර වෙළුම පිහිටුවන්න."
 
-#: ../lib/Tails/Persistence/Setup.pm:307 ../lib/Tails/Persistence/Setup.pm:452
+#: ../lib/Tails/Persistence/Setup.pm:307 ../lib/Tails/Persistence/Setup.pm:451
 msgid "Error"
 msgstr "දෝෂයකි"
 
-#: ../lib/Tails/Persistence/Setup.pm:339
+#: ../lib/Tails/Persistence/Setup.pm:338
 #, perl-format
 msgid "Device %s already has a persistent volume."
 msgstr " %s උපාංගයට ස්ථාවර වෙළුමක් දැනටමත් පවතී."
 
-#: ../lib/Tails/Persistence/Setup.pm:347
+#: ../lib/Tails/Persistence/Setup.pm:346
 #, perl-format
 msgid "Device %s has not enough unallocated space."
 msgstr "%s අම්පන්නය සදහා ලබාදී ඇති අවකාශය ප්‍රමාණවත් නොවේ."
 
-#: ../lib/Tails/Persistence/Setup.pm:355 ../lib/Tails/Persistence/Setup.pm:369
+#: ../lib/Tails/Persistence/Setup.pm:354 ../lib/Tails/Persistence/Setup.pm:368
 #, perl-format
 msgid "Device %s has no persistent volume."
 msgstr "%s අම්පන්නයෙහි ස්ථාවර වෙළුමක් නොමැත."
 
-#: ../lib/Tails/Persistence/Setup.pm:361
+#: ../lib/Tails/Persistence/Setup.pm:360
 msgid ""
 "Cannot delete the persistent volume while in use. You should restart Tails "
 "without persistence."
 msgstr "ස්ථාවර වෙළුමක් භාවිතා කරමින් ඇති නිසා එය මකා දැමිය නොහැක. ස්ථාවරත්වයක් නොමැතිව Tails නැවත ආරම්භ කර බලන්න."
 
-#: ../lib/Tails/Persistence/Setup.pm:380
+#: ../lib/Tails/Persistence/Setup.pm:379
 msgid "Persistence volume is not unlocked."
 msgstr "ස්ථාවර වෙළුම අගුළු හැර නොමැත."
 
-#: ../lib/Tails/Persistence/Setup.pm:385
+#: ../lib/Tails/Persistence/Setup.pm:384
 msgid "Persistence volume is not mounted."
 msgstr "ස්ථාවර වෙළුම නංවා නොමැත."
 
-#: ../lib/Tails/Persistence/Setup.pm:390
+#: ../lib/Tails/Persistence/Setup.pm:389
 msgid "Persistence volume is not readable. Permissions or ownership problems?"
 msgstr "ස්ථාවර වෙළුම කියවිය නොහැක. අනුමැතිය හෝ අයිතිය පිළිබද ගැටළුවක් ද? "
 
-#: ../lib/Tails/Persistence/Setup.pm:395
+#: ../lib/Tails/Persistence/Setup.pm:394
 msgid "Persistence volume is not writable. Maybe it was mounted read-only?"
 msgstr "ස්ථාවර වෙළුමෙහි ලිවිය නොහැක. ඇතැම්විට මෙය කියවීමට පමණක් නංවා ඇත්ද?"
 
-#: ../lib/Tails/Persistence/Setup.pm:404
+#: ../lib/Tails/Persistence/Setup.pm:403
 #, perl-format
 msgid "Tails is running from non-USB / non-SDIO device %s."
 msgstr ""
 
-#: ../lib/Tails/Persistence/Setup.pm:410
+#: ../lib/Tails/Persistence/Setup.pm:409
 #, perl-format
 msgid "Device %s is optical."
 msgstr "%s ප්‍රකාශ උපකරණයකි."
 
-#: ../lib/Tails/Persistence/Setup.pm:417
+#: ../lib/Tails/Persistence/Setup.pm:416
 #, perl-format
 msgid "Device %s was not created using Tails Installer."
 msgstr ""
 
-#: ../lib/Tails/Persistence/Setup.pm:677
+#: ../lib/Tails/Persistence/Setup.pm:676
 msgid "Persistence wizard - Finished"
 msgstr "ස්ථාවර wizard - අවසානය."
 
-#: ../lib/Tails/Persistence/Setup.pm:680
+#: ../lib/Tails/Persistence/Setup.pm:679
 msgid ""
 "Any changes you have made will only take effect after restarting Tails.\n"
 "\n"

@@ -9,8 +9,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: The Tor Project\n"
 "Report-Msgid-Bugs-To: Tails developers <tails@boum.org>\n"
-"POT-Creation-Date: 2014-10-08 21:13+0200\n"
-"PO-Revision-Date: 2014-10-09 10:19+0000\n"
+"POT-Creation-Date: 2015-02-23 13:07+0100\n"
+"PO-Revision-Date: 2015-02-24 10:24+0000\n"
 "Last-Translator: runasand <runa.sandvik@gmail.com>\n"
 "Language-Team: Khmer (http://www.transifex.com/projects/p/torproject/language/km/)\n"
 "MIME-Version: 1.0\n"
@@ -92,26 +92,34 @@ msgid "Printers configuration"
 msgstr "ការ​កំណត់​រចនាសម្ព័ន្ធ​ម៉ាស៊ីន​បោះពុម្ព"
 
 #: ../lib/Tails/Persistence/Configuration/Presets.pm:138
+msgid "Bitcoin client"
+msgstr ""
+
+#: ../lib/Tails/Persistence/Configuration/Presets.pm:140
+msgid "Electrum's bitcoin wallet and configuration"
+msgstr ""
+
+#: ../lib/Tails/Persistence/Configuration/Presets.pm:148
 msgid "APT Packages"
 msgstr "កញ្ចប់ APT"
 
-#: ../lib/Tails/Persistence/Configuration/Presets.pm:140
+#: ../lib/Tails/Persistence/Configuration/Presets.pm:150
 msgid "Packages downloaded by APT"
 msgstr "កញ្ចប់​ដែល​បាន​ទាញ​យក​ដោយ APT"
 
-#: ../lib/Tails/Persistence/Configuration/Presets.pm:148
+#: ../lib/Tails/Persistence/Configuration/Presets.pm:158
 msgid "APT Lists"
 msgstr "បញ្ជី APT"
 
-#: ../lib/Tails/Persistence/Configuration/Presets.pm:150
+#: ../lib/Tails/Persistence/Configuration/Presets.pm:160
 msgid "Lists downloaded by APT"
 msgstr "បញ្ជី​ដែល​បាន​ទាញ​យក​ដោយ APT"
 
-#: ../lib/Tails/Persistence/Configuration/Presets.pm:158
+#: ../lib/Tails/Persistence/Configuration/Presets.pm:168
 msgid "Dotfiles"
 msgstr "Dotfiles"
 
-#: ../lib/Tails/Persistence/Configuration/Presets.pm:160
+#: ../lib/Tails/Persistence/Configuration/Presets.pm:170
 msgid ""
 "Symlink into $HOME every file or directory found in the `dotfiles' directory"
 msgstr "Symlink ទៅ​ក្នុង $HOME នូវ​រាល់​ឯកសារ ឬ​ថត​ដែល​បាន​រក​ឃើញ​នៅ​ក្នុង​ថត `dotfiles'"
@@ -120,67 +128,67 @@ msgstr "Symlink ទៅ​ក្នុង $HOME នូវ​រាល់​ឯក
 msgid "Setup Tails persistent volume"
 msgstr "រៀបចំ​កម្រិត​សំឡេង​ថេរ​របស់ Tails"
 
-#: ../lib/Tails/Persistence/Setup.pm:307 ../lib/Tails/Persistence/Setup.pm:452
+#: ../lib/Tails/Persistence/Setup.pm:307 ../lib/Tails/Persistence/Setup.pm:451
 msgid "Error"
 msgstr "កំហុស"
 
-#: ../lib/Tails/Persistence/Setup.pm:339
+#: ../lib/Tails/Persistence/Setup.pm:338
 #, perl-format
 msgid "Device %s already has a persistent volume."
 msgstr "ឧបករណ៍ %s មាន​កម្រិត​សំឡេង​ថេរ​រួចហើយ។"
 
-#: ../lib/Tails/Persistence/Setup.pm:347
+#: ../lib/Tails/Persistence/Setup.pm:346
 #, perl-format
 msgid "Device %s has not enough unallocated space."
 msgstr "ឧបករណ៍ %s គ្មាន​ទំហំ​មិន​បម្រុង​ទុក​​គ្រប់គ្រាន់។"
 
-#: ../lib/Tails/Persistence/Setup.pm:355 ../lib/Tails/Persistence/Setup.pm:369
+#: ../lib/Tails/Persistence/Setup.pm:354 ../lib/Tails/Persistence/Setup.pm:368
 #, perl-format
 msgid "Device %s has no persistent volume."
 msgstr "ឧបករណ៍ %s មិន​មាន​កម្រិត​សំឡេង​ថេរ។"
 
-#: ../lib/Tails/Persistence/Setup.pm:361
+#: ../lib/Tails/Persistence/Setup.pm:360
 msgid ""
 "Cannot delete the persistent volume while in use. You should restart Tails "
 "without persistence."
 msgstr "មិន​អាច​លុប​កម្រិត​សំឡេង​ថេរ​បាន​ទេ ពេល​កំពុង​​ប្រើ។ អ្នក​គួរតែ​ចាប់ផ្ដើម Tails ឡើងវិញ​ដោយ​គ្មាន​កម្រិត​សំឡេង​ថេរ។"
 
-#: ../lib/Tails/Persistence/Setup.pm:380
+#: ../lib/Tails/Persistence/Setup.pm:379
 msgid "Persistence volume is not unlocked."
 msgstr "កម្រិត​សំឡេង​ថេរ​មិន​ត្រូវ​បាន​ដោះ​សោ។"
 
-#: ../lib/Tails/Persistence/Setup.pm:385
+#: ../lib/Tails/Persistence/Setup.pm:384
 msgid "Persistence volume is not mounted."
 msgstr "កម្រិត​សំឡេង​ថេរ​មិន​ត្រូវ​បាន​ម៉ោន។"
 
-#: ../lib/Tails/Persistence/Setup.pm:390
+#: ../lib/Tails/Persistence/Setup.pm:389
 msgid "Persistence volume is not readable. Permissions or ownership problems?"
 msgstr "កម្រិត​សំឡេង​ថេរ​មិន​អាច​អាន​បាន។ មាន​បញ្ហា​សិទ្ធិ ឬ​ភាព​ជា​ម្ចាស់​ឬ?"
 
-#: ../lib/Tails/Persistence/Setup.pm:395
+#: ../lib/Tails/Persistence/Setup.pm:394
 msgid "Persistence volume is not writable. Maybe it was mounted read-only?"
 msgstr "កម្រិត​សំឡេង​ថេរ​មិន​អាច​សរសេរ​បាន។ វា​ប្រហែលជា​ម៉ោន​ទៅ​បានតែ​អាន?"
 
-#: ../lib/Tails/Persistence/Setup.pm:404
+#: ../lib/Tails/Persistence/Setup.pm:403
 #, perl-format
 msgid "Tails is running from non-USB / non-SDIO device %s."
 msgstr "Tails កំពុង​ដំណើរការ​ពី​ឧបករណ៍ non-USB / non-SDIO %s ។"
 
-#: ../lib/Tails/Persistence/Setup.pm:410
+#: ../lib/Tails/Persistence/Setup.pm:409
 #, perl-format
 msgid "Device %s is optical."
 msgstr "ឧបករណ៍ %s គឺ​អាច​មើល​ឃើញ។"
 
-#: ../lib/Tails/Persistence/Setup.pm:417
+#: ../lib/Tails/Persistence/Setup.pm:416
 #, perl-format
 msgid "Device %s was not created using Tails Installer."
 msgstr "ឧបករណ៍ %s មិន​ត្រូវ​បាន​បង្កើត​ដោយ​ប្រើ Tails Installer."
 
-#: ../lib/Tails/Persistence/Setup.pm:677
+#: ../lib/Tails/Persistence/Setup.pm:676
 msgid "Persistence wizard - Finished"
 msgstr "អ្នកជំនួយការ​កម្រិត​សំឡេង​ថេរ - បាន​បញ្ចប់"
 
-#: ../lib/Tails/Persistence/Setup.pm:680
+#: ../lib/Tails/Persistence/Setup.pm:679
 msgid ""
 "Any changes you have made will only take effect after restarting Tails.\n"
 "\n"

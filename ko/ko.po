@@ -9,9 +9,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: The Tor Project\n"
 "Report-Msgid-Bugs-To: Tails developers <tails@boum.org>\n"
-"POT-Creation-Date: 2014-10-08 21:13+0200\n"
-"PO-Revision-Date: 2014-10-18 09:30+0000\n"
-"Last-Translator: Dr.what <javrick6@naver.com>\n"
+"POT-Creation-Date: 2015-02-23 13:07+0100\n"
+"PO-Revision-Date: 2015-02-24 10:24+0000\n"
+"Last-Translator: runasand <runa.sandvik@gmail.com>\n"
 "Language-Team: Korean (http://www.transifex.com/projects/p/torproject/language/ko/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -92,26 +92,34 @@ msgid "Printers configuration"
 msgstr "프린터 구성"
 
 #: ../lib/Tails/Persistence/Configuration/Presets.pm:138
+msgid "Bitcoin client"
+msgstr ""
+
+#: ../lib/Tails/Persistence/Configuration/Presets.pm:140
+msgid "Electrum's bitcoin wallet and configuration"
+msgstr ""
+
+#: ../lib/Tails/Persistence/Configuration/Presets.pm:148
 msgid "APT Packages"
 msgstr "APT 패키지"
 
-#: ../lib/Tails/Persistence/Configuration/Presets.pm:140
+#: ../lib/Tails/Persistence/Configuration/Presets.pm:150
 msgid "Packages downloaded by APT"
 msgstr "APT가 다운로드 한 패키지"
 
-#: ../lib/Tails/Persistence/Configuration/Presets.pm:148
+#: ../lib/Tails/Persistence/Configuration/Presets.pm:158
 msgid "APT Lists"
 msgstr "APT 목록"
 
-#: ../lib/Tails/Persistence/Configuration/Presets.pm:150
+#: ../lib/Tails/Persistence/Configuration/Presets.pm:160
 msgid "Lists downloaded by APT"
 msgstr "APT 다운로드 한 목록"
 
-#: ../lib/Tails/Persistence/Configuration/Presets.pm:158
+#: ../lib/Tails/Persistence/Configuration/Presets.pm:168
 msgid "Dotfiles"
 msgstr "도트 파일"
 
-#: ../lib/Tails/Persistence/Configuration/Presets.pm:160
+#: ../lib/Tails/Persistence/Configuration/Presets.pm:170
 msgid ""
 "Symlink into $HOME every file or directory found in the `dotfiles' directory"
 msgstr "`도트 파일 '디렉토리에 있는 $HOME의 각 파일이나 디렉토리에 대한 심볼릭 링크"
@@ -120,67 +128,67 @@ msgstr "`도트 파일 '디렉토리에 있는 $HOME의 각 파일이나 디렉�
 msgid "Setup Tails persistent volume"
 msgstr "Talis의 영구적 볼륨을 설정"
 
-#: ../lib/Tails/Persistence/Setup.pm:307 ../lib/Tails/Persistence/Setup.pm:452
+#: ../lib/Tails/Persistence/Setup.pm:307 ../lib/Tails/Persistence/Setup.pm:451
 msgid "Error"
 msgstr "오류"
 
-#: ../lib/Tails/Persistence/Setup.pm:339
+#: ../lib/Tails/Persistence/Setup.pm:338
 #, perl-format
 msgid "Device %s already has a persistent volume."
 msgstr "장치 %s에 이미 영구적 볼륨이 있습니다."
 
-#: ../lib/Tails/Persistence/Setup.pm:347
+#: ../lib/Tails/Persistence/Setup.pm:346
 #, perl-format
 msgid "Device %s has not enough unallocated space."
 msgstr "장치 %s에 할당되지 않은 충분한 공간이 없습니다."
 
-#: ../lib/Tails/Persistence/Setup.pm:355 ../lib/Tails/Persistence/Setup.pm:369
+#: ../lib/Tails/Persistence/Setup.pm:354 ../lib/Tails/Persistence/Setup.pm:368
 #, perl-format
 msgid "Device %s has no persistent volume."
 msgstr "장치 %s에 영구적 볼륨이 없습니다."
 
-#: ../lib/Tails/Persistence/Setup.pm:361
+#: ../lib/Tails/Persistence/Setup.pm:360
 msgid ""
 "Cannot delete the persistent volume while in use. You should restart Tails "
 "without persistence."
 msgstr "사용중인 영구적 볼륨을 제거 할 수 없습니다. 영구을 오프하고 Tails를 다시 시작해야합니다."
 
-#: ../lib/Tails/Persistence/Setup.pm:380
+#: ../lib/Tails/Persistence/Setup.pm:379
 msgid "Persistence volume is not unlocked."
 msgstr "영구적 볼륨의 잠금이 해제되지 않습니다."
 
-#: ../lib/Tails/Persistence/Setup.pm:385
+#: ../lib/Tails/Persistence/Setup.pm:384
 msgid "Persistence volume is not mounted."
 msgstr "영구적 볼륨이 마운트되지 않습니다."
 
-#: ../lib/Tails/Persistence/Setup.pm:390
+#: ../lib/Tails/Persistence/Setup.pm:389
 msgid "Persistence volume is not readable. Permissions or ownership problems?"
 msgstr "영구적 볼륨을 읽어 들일 수 없습니다. 허가와 소유권에 문제가 있을지도 모릅니다."
 
-#: ../lib/Tails/Persistence/Setup.pm:395
+#: ../lib/Tails/Persistence/Setup.pm:394
 msgid "Persistence volume is not writable. Maybe it was mounted read-only?"
 msgstr "영구적 볼륨에 쓸 수는 없습니다. 읽기 전용으로 마운트된 가능성이 있습니다."
 
-#: ../lib/Tails/Persistence/Setup.pm:404
+#: ../lib/Tails/Persistence/Setup.pm:403
 #, perl-format
 msgid "Tails is running from non-USB / non-SDIO device %s."
 msgstr "Tails 현재 USB 또는 SDIO 아닌 %s 장치에서 작동합니다."
 
-#: ../lib/Tails/Persistence/Setup.pm:410
+#: ../lib/Tails/Persistence/Setup.pm:409
 #, perl-format
 msgid "Device %s is optical."
 msgstr "장치%s 는 광학 기기입니다."
 
-#: ../lib/Tails/Persistence/Setup.pm:417
+#: ../lib/Tails/Persistence/Setup.pm:416
 #, perl-format
 msgid "Device %s was not created using Tails Installer."
 msgstr "장치 %s는 Tails 설치 프로그램을 사용하여 작성되지 않았습니다."
 
-#: ../lib/Tails/Persistence/Setup.pm:677
+#: ../lib/Tails/Persistence/Setup.pm:676
 msgid "Persistence wizard - Finished"
 msgstr "영구 마법사 - 종료"
 
-#: ../lib/Tails/Persistence/Setup.pm:680
+#: ../lib/Tails/Persistence/Setup.pm:679
 msgid ""
 "Any changes you have made will only take effect after restarting Tails.\n"
 "\n"

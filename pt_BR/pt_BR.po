@@ -9,7 +9,7 @@
 # Communia <ameaneantie@riseup.net>, 2013
 # Eduardo Bonsi, 2013
 # Bruno Geronimo <bruuh@outlook.com>, 2012
-# possatti <lucas.c.possatti+transifex@gmail.com>, 2014
+# Lucas Possatti, 2014
 # Rafael Martins <rafaelmartinsrm@gmail.com>, 2012
 # Nicole calderari <nicole_calderari@hotmail.com>, 2013
 # radamantys seh <radamantys158@gmail.com>, 2013
@@ -19,9 +19,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: The Tor Project\n"
 "Report-Msgid-Bugs-To: Tails developers <tails@boum.org>\n"
-"POT-Creation-Date: 2014-10-08 21:13+0200\n"
-"PO-Revision-Date: 2014-10-18 05:00+0000\n"
-"Last-Translator: possatti <lucas.c.possatti+transifex@gmail.com>\n"
+"POT-Creation-Date: 2015-02-23 13:07+0100\n"
+"PO-Revision-Date: 2015-02-24 10:24+0000\n"
+"Last-Translator: runasand <runa.sandvik@gmail.com>\n"
 "Language-Team: Portuguese (Brazil) (http://www.transifex.com/projects/p/torproject/language/pt_BR/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -102,26 +102,34 @@ msgid "Printers configuration"
 msgstr "Configuração das impressoras"
 
 #: ../lib/Tails/Persistence/Configuration/Presets.pm:138
+msgid "Bitcoin client"
+msgstr ""
+
+#: ../lib/Tails/Persistence/Configuration/Presets.pm:140
+msgid "Electrum's bitcoin wallet and configuration"
+msgstr ""
+
+#: ../lib/Tails/Persistence/Configuration/Presets.pm:148
 msgid "APT Packages"
 msgstr "Pacotes APT"
 
-#: ../lib/Tails/Persistence/Configuration/Presets.pm:140
+#: ../lib/Tails/Persistence/Configuration/Presets.pm:150
 msgid "Packages downloaded by APT"
 msgstr "Pacotes baixados pelo APT (Advanced Packaging Tool)"
 
-#: ../lib/Tails/Persistence/Configuration/Presets.pm:148
+#: ../lib/Tails/Persistence/Configuration/Presets.pm:158
 msgid "APT Lists"
 msgstr "Listas APT"
 
-#: ../lib/Tails/Persistence/Configuration/Presets.pm:150
+#: ../lib/Tails/Persistence/Configuration/Presets.pm:160
 msgid "Lists downloaded by APT"
 msgstr "Listas baixadas pelo APT"
 
-#: ../lib/Tails/Persistence/Configuration/Presets.pm:158
+#: ../lib/Tails/Persistence/Configuration/Presets.pm:168
 msgid "Dotfiles"
 msgstr "Arquivos de configuração (Dotfiles)"
 
-#: ../lib/Tails/Persistence/Configuration/Presets.pm:160
+#: ../lib/Tails/Persistence/Configuration/Presets.pm:170
 msgid ""
 "Symlink into $HOME every file or directory found in the `dotfiles' directory"
 msgstr "Criar um link em $HOME para todos os arquivos ou diretórios encontrados no diretório `dotfiles`"
@@ -130,67 +138,67 @@ msgstr "Criar um link em $HOME para todos os arquivos ou diretórios encontrados
 msgid "Setup Tails persistent volume"
 msgstr "Configurar o volume persistente do Tails"
 
-#: ../lib/Tails/Persistence/Setup.pm:307 ../lib/Tails/Persistence/Setup.pm:452
+#: ../lib/Tails/Persistence/Setup.pm:307 ../lib/Tails/Persistence/Setup.pm:451
 msgid "Error"
 msgstr "Erro"
 
-#: ../lib/Tails/Persistence/Setup.pm:339
+#: ../lib/Tails/Persistence/Setup.pm:338
 #, perl-format
 msgid "Device %s already has a persistent volume."
 msgstr "O dispositivo %s já possui um volume persistente."
 
-#: ../lib/Tails/Persistence/Setup.pm:347
+#: ../lib/Tails/Persistence/Setup.pm:346
 #, perl-format
 msgid "Device %s has not enough unallocated space."
 msgstr "O dispositivo %s não possui espaço livre suficiente."
 
-#: ../lib/Tails/Persistence/Setup.pm:355 ../lib/Tails/Persistence/Setup.pm:369
+#: ../lib/Tails/Persistence/Setup.pm:354 ../lib/Tails/Persistence/Setup.pm:368
 #, perl-format
 msgid "Device %s has no persistent volume."
 msgstr "O dispositivo %s não possui nenhum volume persistente."
 
-#: ../lib/Tails/Persistence/Setup.pm:361
+#: ../lib/Tails/Persistence/Setup.pm:360
 msgid ""
 "Cannot delete the persistent volume while in use. You should restart Tails "
 "without persistence."
 msgstr "Não é possível suprimir o volume persistente durante o seu uso. Reinicie Tails sem o volume persistente."
 
-#: ../lib/Tails/Persistence/Setup.pm:380
+#: ../lib/Tails/Persistence/Setup.pm:379
 msgid "Persistence volume is not unlocked."
 msgstr "O volume persistente não foi desbloqueado."
 
-#: ../lib/Tails/Persistence/Setup.pm:385
+#: ../lib/Tails/Persistence/Setup.pm:384
 msgid "Persistence volume is not mounted."
 msgstr "O volume persistente não foi montado."
 
-#: ../lib/Tails/Persistence/Setup.pm:390
+#: ../lib/Tails/Persistence/Setup.pm:389
 msgid "Persistence volume is not readable. Permissions or ownership problems?"
 msgstr "O volume persistente é ilegível. Há problemas de permissão ou de propriedade?"
 
-#: ../lib/Tails/Persistence/Setup.pm:395
+#: ../lib/Tails/Persistence/Setup.pm:394
 msgid "Persistence volume is not writable. Maybe it was mounted read-only?"
 msgstr "O volume persistente não é gravável. É possível que ele tenha sido montado com a opção \"somente leitura\"?"
 
-#: ../lib/Tails/Persistence/Setup.pm:404
+#: ../lib/Tails/Persistence/Setup.pm:403
 #, perl-format
 msgid "Tails is running from non-USB / non-SDIO device %s."
 msgstr "O Tails está sendo executado em um dispositivo que não é USB /SDIO  %s."
 
-#: ../lib/Tails/Persistence/Setup.pm:410
+#: ../lib/Tails/Persistence/Setup.pm:409
 #, perl-format
 msgid "Device %s is optical."
 msgstr "O dispositivo %s é óptico."
 
-#: ../lib/Tails/Persistence/Setup.pm:417
+#: ../lib/Tails/Persistence/Setup.pm:416
 #, perl-format
 msgid "Device %s was not created using Tails Installer."
 msgstr "O dispositivo %s não foi criado usando o Instalador Tails."
 
-#: ../lib/Tails/Persistence/Setup.pm:677
+#: ../lib/Tails/Persistence/Setup.pm:676
 msgid "Persistence wizard - Finished"
 msgstr "Assistente do volume persistente - Terminou"
 
-#: ../lib/Tails/Persistence/Setup.pm:680
+#: ../lib/Tails/Persistence/Setup.pm:679
 msgid ""
 "Any changes you have made will only take effect after restarting Tails.\n"
 "\n"

@@ -4,7 +4,7 @@
 # 
 # Translators:
 # Mohammad Hossein <desmati@gmail.com>, 2014
-# zendegi <hamahangi@posteo.eu>, 2013
+# zendegi <inactive+zendegi@transifex.com>, 2013
 # M. Heydar Elahi <m.heydar.elahi@gmail.com>, 2014
 # mohammad.s.n, 2013
 # Sadra Parandeh <leadermanstar@yahoo.com>, 2014
@@ -12,9 +12,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: The Tor Project\n"
 "Report-Msgid-Bugs-To: Tails developers <tails@boum.org>\n"
-"POT-Creation-Date: 2014-10-08 21:13+0200\n"
-"PO-Revision-Date: 2014-10-11 06:40+0000\n"
-"Last-Translator: M. Heydar Elahi <m.heydar.elahi@gmail.com>\n"
+"POT-Creation-Date: 2015-02-23 13:07+0100\n"
+"PO-Revision-Date: 2015-02-24 10:24+0000\n"
+"Last-Translator: runasand <runa.sandvik@gmail.com>\n"
 "Language-Team: Persian (http://www.transifex.com/projects/p/torproject/language/fa/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -95,26 +95,34 @@ msgid "Printers configuration"
 msgstr "پیکربندی چاپگر‌ها"
 
 #: ../lib/Tails/Persistence/Configuration/Presets.pm:138
+msgid "Bitcoin client"
+msgstr ""
+
+#: ../lib/Tails/Persistence/Configuration/Presets.pm:140
+msgid "Electrum's bitcoin wallet and configuration"
+msgstr ""
+
+#: ../lib/Tails/Persistence/Configuration/Presets.pm:148
 msgid "APT Packages"
 msgstr "بسته‌هاى اى‌پى‌تى (APT)"
 
-#: ../lib/Tails/Persistence/Configuration/Presets.pm:140
+#: ../lib/Tails/Persistence/Configuration/Presets.pm:150
 msgid "Packages downloaded by APT"
 msgstr "بسته‌هائى كه APT دانلود كرده‌است"
 
-#: ../lib/Tails/Persistence/Configuration/Presets.pm:148
+#: ../lib/Tails/Persistence/Configuration/Presets.pm:158
 msgid "APT Lists"
 msgstr "فهرست‌هاى اى‌پى‌تى (APT)"
 
-#: ../lib/Tails/Persistence/Configuration/Presets.pm:150
+#: ../lib/Tails/Persistence/Configuration/Presets.pm:160
 msgid "Lists downloaded by APT"
 msgstr "فهرست‌هائى كه APT دانلود كرده‌است"
 
-#: ../lib/Tails/Persistence/Configuration/Presets.pm:158
+#: ../lib/Tails/Persistence/Configuration/Presets.pm:168
 msgid "Dotfiles"
 msgstr "فايل‌هاى پنهان (Dotfiles)"
 
-#: ../lib/Tails/Persistence/Configuration/Presets.pm:160
+#: ../lib/Tails/Persistence/Configuration/Presets.pm:170
 msgid ""
 "Symlink into $HOME every file or directory found in the `dotfiles' directory"
 msgstr "برای هر فایل و یا پوشه ای که در فايل‌هاى پنهان (dotfiles) پیدا شده اند، یک رابط نمادين (symlink) بساز"
@@ -123,67 +131,67 @@ msgstr "برای هر فایل و یا پوشه ای که در فايل‌هاى
 msgid "Setup Tails persistent volume"
 msgstr "راه اندازی حجم درایو مداوم برای تیلز(Tails)"
 
-#: ../lib/Tails/Persistence/Setup.pm:307 ../lib/Tails/Persistence/Setup.pm:452
+#: ../lib/Tails/Persistence/Setup.pm:307 ../lib/Tails/Persistence/Setup.pm:451
 msgid "Error"
 msgstr "خطا"
 
-#: ../lib/Tails/Persistence/Setup.pm:339
+#: ../lib/Tails/Persistence/Setup.pm:338
 #, perl-format
 msgid "Device %s already has a persistent volume."
 msgstr "دستگاه %s از قبل درایو ذخیره سازی مداوم تیلز دارد"
 
-#: ../lib/Tails/Persistence/Setup.pm:347
+#: ../lib/Tails/Persistence/Setup.pm:346
 #, perl-format
 msgid "Device %s has not enough unallocated space."
 msgstr "دستگاه %s فضاى خالى كافى ندارد"
 
-#: ../lib/Tails/Persistence/Setup.pm:355 ../lib/Tails/Persistence/Setup.pm:369
+#: ../lib/Tails/Persistence/Setup.pm:354 ../lib/Tails/Persistence/Setup.pm:368
 #, perl-format
 msgid "Device %s has no persistent volume."
 msgstr "دستگاه %s هيچ درایو ذخیره سازی مداومی ندارد."
 
-#: ../lib/Tails/Persistence/Setup.pm:361
+#: ../lib/Tails/Persistence/Setup.pm:360
 msgid ""
 "Cannot delete the persistent volume while in use. You should restart Tails "
 "without persistence."
 msgstr "زمانی که درایو ذخیره سازی مداوم در حال استفاده است، نمی توان آن را حذف كرد. بايد تيلز را بدون تداوم دوباره شروع كنيد."
 
-#: ../lib/Tails/Persistence/Setup.pm:380
+#: ../lib/Tails/Persistence/Setup.pm:379
 msgid "Persistence volume is not unlocked."
 msgstr "درایو ذخيره‌سازى مداوم  قفل است."
 
-#: ../lib/Tails/Persistence/Setup.pm:385
+#: ../lib/Tails/Persistence/Setup.pm:384
 msgid "Persistence volume is not mounted."
 msgstr "درایو ذخيره‌سازى مداوم نصب و راه اندازی نشده است."
 
-#: ../lib/Tails/Persistence/Setup.pm:390
+#: ../lib/Tails/Persistence/Setup.pm:389
 msgid "Persistence volume is not readable. Permissions or ownership problems?"
 msgstr "درایو ذخيره‌سازى مداوم قابل خواندن نيست. شما مالک آن هستید؟ اجازه دسترسی به آن را دارید؟"
 
-#: ../lib/Tails/Persistence/Setup.pm:395
+#: ../lib/Tails/Persistence/Setup.pm:394
 msgid "Persistence volume is not writable. Maybe it was mounted read-only?"
 msgstr "درایو ذخيره‌سازى مداوم قابل نوشتن نيست. شايد به صورت فقط خواندنى نصب و راه اندازی شده‌است؟"
 
-#: ../lib/Tails/Persistence/Setup.pm:404
+#: ../lib/Tails/Persistence/Setup.pm:403
 #, perl-format
 msgid "Tails is running from non-USB / non-SDIO device %s."
 msgstr "تیلز از روی یک دستگاه غیر یو اس بی اجرا شده است: %s"
 
-#: ../lib/Tails/Persistence/Setup.pm:410
+#: ../lib/Tails/Persistence/Setup.pm:409
 #, perl-format
 msgid "Device %s is optical."
 msgstr "دستگاه %s نورى است."
 
-#: ../lib/Tails/Persistence/Setup.pm:417
+#: ../lib/Tails/Persistence/Setup.pm:416
 #, perl-format
 msgid "Device %s was not created using Tails Installer."
 msgstr "دستگاه %s به وسیله برنامه نصب تیلز ساخته نشده است"
 
-#: ../lib/Tails/Persistence/Setup.pm:677
+#: ../lib/Tails/Persistence/Setup.pm:676
 msgid "Persistence wizard - Finished"
 msgstr "مراحل نصب و راه اندازی به پایان رسید"
 
-#: ../lib/Tails/Persistence/Setup.pm:680
+#: ../lib/Tails/Persistence/Setup.pm:679
 msgid ""
 "Any changes you have made will only take effect after restarting Tails.\n"
 "\n"
