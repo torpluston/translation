@@ -11,14 +11,14 @@
 # Jean-Yves Toumit <saiolar-c@yahoo.fr>, 2013
 # Onizuka, 2013
 # mosira <romain.moisan@gmail.com>, 2014
-# Towinet, 2013-2014
+# Towinet, 2013-2015
 msgid ""
 msgstr ""
 "Project-Id-Version: The Tor Project\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-12-02 11:29+0100\n"
-"PO-Revision-Date: 2014-12-04 08:50+0000\n"
-"Last-Translator: runasand <runa.sandvik@gmail.com>\n"
+"POT-Creation-Date: 2015-02-23 16:25+0100\n"
+"PO-Revision-Date: 2015-03-04 10:01+0000\n"
+"Last-Translator: Towinet\n"
 "Language-Team: French (http://www.transifex.com/projects/p/torproject/language/fr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -42,15 +42,39 @@ msgid ""
 "<p><strong>Do not include more personal information than\n"
 "needed!</strong></p>\n"
 "<h2>About giving us an email address</h2>\n"
-"<p>If you don't mind disclosing some bits of your identity\n"
-"to Tails developers, you can provide an email address to\n"
-"let us ask more details about the bug. Additionally entering\n"
-"a public PGP key enables us to encrypt such future\n"
-"communication.</p>\n"
-"<p>Anyone who can see this reply will probably infer you are\n"
-"a Tails user. Time to wonder how much you trust your\n"
-"Internet and mailbox providers?</p>\n"
-msgstr "<h1>Aidez-nous à résoudre votre problème !</h1>\n<p>Lire <a href=\"%s\">nos instructions sur le signalement de\nproblèmes</a>.</p>\n<p><strong>N'incluez pas plus d'informations personnelles que\nnécessaire !</strong></p>\n<h2>À propos de votre adresse email</h2>\n<p>Si cela ne vous dérange pas de divulguer des bribes\nd'information à votre sujet aux développeurs de Tails, vous\npouvez fournir une adresse email afin que nous puissions vous\ndemander davantage de détails sur le bug. Si vous fournissez \nune clé PGP publique, nous vous contacterons en utilisant une \ncommunication chiffrée</p>\n<p>Ceux qui pourront voir ces communications pourront sans\ndoute en déduire que vous utilisez Tails. C'est\npeut-être le moment de vous interroger sur la confiance que vous\naccordez à votre fournisseur d'accès à Internet et à votre\nhébergeur email...</p>\n"
+"<p>\n"
+"Giving us an email address allows us to contact you to clarify the problem. This\n"
+"is needed for the vast majority of the reports we receive as most reports\n"
+"without any contact information are useless. On the other hand it also provides\n"
+"an opportunity for eavesdroppers, like your email or Internet provider, to\n"
+"confirm that you are using Tails.\n"
+"</p>\n"
+msgstr "<h1>Aidez-nous à résoudre le bug !</h1>\n<p>Lisez <a href=\"%s\">nos instructions de rapport de bug</a>.</p>\n<p><strong>N'incluez pas d'informations personnelles qui ne soient pas indispensables !</strong></p>\n<h2>Au sujet de nous confier votre adresse email</h2>\n<p>\nNous donner une adresse email nous permet de prendre contact avec vous afin de clarifier le problème. Ceci est nécessaire pour la vaste majorité des rapport que nous recevons car la plupart des rapports sans information de contact sont inutilisables. Cependant cela fournit aussi une opportunité aux \nécouteurs, telle que votre adresse email ou votre fournisseur d'accès internet, permettant ainsi de confirmer que vous utilisez Tails.\n</p>\n"
+
+#: config/chroot_local-includes/usr/local/bin/electrum:14
+msgid "Persistence is disabled for Electrum"
+msgstr "La persistance est désactivée pour Electrum"
+
+#: config/chroot_local-includes/usr/local/bin/electrum:16
+msgid ""
+"When you reboot Tails, all of Electrum's data will be lost, including your "
+"Bitcoin wallet. It is strongly recommended to only run Electrum when its "
+"persistence feature is activated."
+msgstr "Lorsque vous redémarrez Tails, toutes les données d'Electrum sont perdues, y compris votre portefeuille Bitcoin. Il est fortement recommandé de n'exécuter Electrum que lorsque la fonction persistance est activée."
+
+#: config/chroot_local-includes/usr/local/bin/electrum:18
+msgid "Do you want to start Electrum anyway?"
+msgstr "Voulez-vous démarrer Electrum malgré tout ?"
+
+#: config/chroot_local-includes/usr/local/bin/electrum:20
+#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:36
+msgid "_Launch"
+msgstr "_Lancer"
+
+#: config/chroot_local-includes/usr/local/bin/electrum:21
+#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:37
+msgid "_Exit"
+msgstr "_Sortir"
 
 #: config/chroot_local-includes/usr/local/bin/gpgApplet:136
 msgid "OpenPGP encryption applet"
@@ -282,27 +306,27 @@ msgid ""
 " spoofing documentation</a>."
 msgstr "Il semble que votre connexion au réseau est bloquée. Cela peut être lié à la fonction d'usurpation d'adresse MAC. Pour plus d'informations, reportez vous à la <a href=\\\"file:///usr/share/doc/tails/website/doc/first_steps/startup_options/mac_spoofing.en.html#blocked\\\">documentation sur l'usurpation d'adresse MAC</a>."
 
-#: config/chroot_local-includes/usr/local/bin/tails-security-check:145
+#: config/chroot_local-includes/usr/local/bin/tails-security-check:151
 msgid "This version of Tails has known security issues:"
 msgstr "Cette version de Tails a des problèmes de sécurité avérés :"
 
-#: config/chroot_local-includes/usr/local/sbin/tails-spoof-mac:29
+#: config/chroot_local-includes/usr/local/sbin/tails-spoof-mac:37
 #, sh-format
 msgid "Network card ${nic} disabled"
 msgstr "Carte réseau ${nic} désactivée"
 
-#: config/chroot_local-includes/usr/local/sbin/tails-spoof-mac:30
+#: config/chroot_local-includes/usr/local/sbin/tails-spoof-mac:38
 #, sh-format
 msgid ""
 "MAC spoofing failed for network card ${nic_name} (${nic}) so it is temporarily disabled.\n"
 "You might prefer to restart Tails and disable MAC spoofing. See the <a href='file:///usr/share/doc/tails/website/doc/first_steps/startup_options/mac_spoofing.en.html'>documentation</a>."
 msgstr "L'usurpation MAC a échoué pour la carte réseau ${nic_name} (${nic}), cette fonctionnalité est donc temporairement désactivée.\nVous pouvez néanmoins redémarrer Tails et désactiver complètement la fonctionnalité d'usurpation MAC. Consultez la <a href='file:///usr/share/doc/tails/website/doc/first_steps/startup_options/mac_spoofing.en.html'>documentation</a>."
 
-#: config/chroot_local-includes/usr/local/sbin/tails-spoof-mac:39
+#: config/chroot_local-includes/usr/local/sbin/tails-spoof-mac:47
 msgid "All networking disabled"
 msgstr "Toutes les connexions réseau sont désactivées"
 
-#: config/chroot_local-includes/usr/local/sbin/tails-spoof-mac:40
+#: config/chroot_local-includes/usr/local/sbin/tails-spoof-mac:48
 #, sh-format
 msgid ""
 "MAC spoofing failed for network card ${nic_name} (${nic}). The error recovery also failed so all networking is disabled.\n"
@@ -310,12 +334,12 @@ msgid ""
 msgstr "L'usurpation MAC a échoué pour la carte réseau ${nic_name} (${nic}). La récupération d'erreur a également échouée et les fonctionnalités réseau ont donc été désactivées.\nVous pouvez redémarrer Tails et désactiver l'usurpation MAC. Consultez la <a href='file:///usr/share/doc/tails/website/doc/first_steps/startup_options/mac_spoofing.en.html'>documentation</a>."
 
 #: config/chroot_local-includes/usr/local/bin/tails-upgrade-frontend-wrapper:19
-#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:61
+#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:22
 msgid "error:"
 msgstr "erreur :"
 
 #: config/chroot_local-includes/usr/local/bin/tails-upgrade-frontend-wrapper:20
-#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:62
+#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:23
 msgid "Error"
 msgstr "Erreur"
 
@@ -345,9 +369,9 @@ msgstr "Le système d'exploitation \"hôte\" et le logiciel de virtualisation pe
 #: config/chroot_local-includes/usr/local/bin/tails-virt-notify-user:57
 msgid ""
 "<a "
-"href='file:///usr/share/doc/tails/website/doc/advanced_topics/virtualization.en.html'>Learn"
+"href='file:///usr/share/doc/tails/website/doc/advanced_topics/virtualization.en.html#security'>Learn"
 " more...</a>"
-msgstr "<a href='file:///usr/share/doc/tails/website/doc/advanced_topics/virtualization.fr.html'>En savoir plus...</a>"
+msgstr "<a href='file:///usr/share/doc/tails/website/doc/advanced_topics/virtualization.en.html#security'>En savoir davantage ...</a>"
 
 #: config/chroot_local-includes/usr/local/bin/tor-browser:18
 msgid "Tor is not ready"
@@ -365,102 +389,108 @@ msgstr "Démarrer le navigateur Tor?"
 msgid "Cancel"
 msgstr "Annuler"
 
-#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:72
+#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:33
 msgid "Do you really want to launch the Unsafe Browser?"
 msgstr "Êtes-vous sûr de vouloir utiliser le Navigateur Non-sécurisé ?"
 
-#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:74
+#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:35
 msgid ""
 "Network activity within the Unsafe Browser is <b>not anonymous</b>. Only use"
 " the Unsafe Browser if necessary, for example if you have to login or "
 "register to activate your Internet connection."
 msgstr "La navigation via le Navigateur Non-sécurisé n'est <b>pas anonyme</b>. N'utilisez le Navigateur Non-sécurisé que si c'est nécessaire, par exemple si vous devez vous identifier ou vous enregistrer pour activer votre accès à Internet."
 
-#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:75
-msgid "_Launch"
-msgstr "_Lancer"
-
-#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:76
-msgid "_Exit"
-msgstr "_Sortir"
-
-#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:86
+#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:47
 msgid "Starting the Unsafe Browser..."
 msgstr "Démarrage du Navigateur Non-sécurisé..."
 
-#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:87
+#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:48
 msgid "This may take a while, so please be patient."
 msgstr "Ceci peut prendre un certain temps, veuillez patienter."
 
-#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:121
-msgid "Failed to setup chroot."
-msgstr "L'exécution de chroot a échoué"
-
-#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:195
-#: ../config/chroot_local-includes/usr/share/applications/unsafe-browser.desktop.in.h:1
-msgid "Unsafe Browser"
-msgstr "Navigateur Non-sécurisé"
-
-#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:251
+#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:53
 msgid "Shutting down the Unsafe Browser..."
 msgstr "Fermeture du Navigateur Non-sécurisé..."
 
-#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:252
+#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:54
 msgid ""
 "This may take a while, and you may not restart the Unsafe Browser until it "
 "is properly shut down."
 msgstr "Ceci peut prendre un certain temps, et vous ne devriez pas redémarrer le Navigateur Non-sécurisé avant son arrêt complet."
 
-#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:264
+#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:66
 msgid "Failed to restart Tor."
 msgstr "Le redémarrage de Tor a échoué."
 
-#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:272
+#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:85
+#: ../config/chroot_local-includes/usr/share/applications/unsafe-browser.desktop.in.h:1
+msgid "Unsafe Browser"
+msgstr "Navigateur Non-sécurisé"
+
+#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:93
 msgid ""
 "Another Unsafe Browser is currently running, or being cleaned up. Please "
 "retry in a while."
 msgstr "Un autre Navigateur Non-sécurisé est en cours d'utilisation ou de fermeture. Veuillez réessayer dans un instant."
 
-#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:285
+#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:105
+msgid ""
+"NetworkManager passed us garbage data when trying to deduce the clearnet DNS"
+" server."
+msgstr "Le NetworkManager nous a passé des données inutilisables lors de la tentative de déduire le serveur DNS du web en clair (clearnet DNS server)."
+
+#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:115
 msgid ""
 "No DNS server was obtained through DHCP or manually configured in "
 "NetworkManager."
 msgstr "Aucun serveur DNS n'a été obtenu par DHCP ou via une configuration manuelle dans NetworkManager."
 
-#: config/chroot_local-includes/usr/local/sbin/tails-i2p:30
+#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:123
+msgid "Failed to setup chroot."
+msgstr "L'exécution de chroot a échoué"
+
+#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:129
+msgid "Failed to configure browser."
+msgstr "Échec de configuration du navigateur."
+
+#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:134
+msgid "Failed to run browser."
+msgstr "Échec de démarrage du navigateur."
+
+#: config/chroot_local-includes/usr/local/sbin/tails-i2p:31
 msgid "I2P failed to start"
 msgstr "Le démarrage d'I2P a échoué."
 
-#: config/chroot_local-includes/usr/local/sbin/tails-i2p:31
+#: config/chroot_local-includes/usr/local/sbin/tails-i2p:32
 msgid ""
 "Something went wrong when I2P was starting. Check the logs in /var/log/i2p "
 "for more information."
 msgstr "Une erreur s'est produite au démarrage de I2P. Vérifiez les logs dans /var/log/i2p pour plus d'information."
 
-#: config/chroot_local-includes/usr/local/sbin/tails-i2p:42
+#: config/chroot_local-includes/usr/local/sbin/tails-i2p:43
 msgid "I2P's router console is ready"
 msgstr "La console du routeur I2P est prête"
 
-#: config/chroot_local-includes/usr/local/sbin/tails-i2p:43
+#: config/chroot_local-includes/usr/local/sbin/tails-i2p:44
 msgid "You can now access I2P's router console on http://127.0.0.1:7657."
 msgstr "Vous pouvez maintenant accéder à la console du routeur I2P sur http://127.0.0.1:7657."
 
-#: config/chroot_local-includes/usr/local/sbin/tails-i2p:48
+#: config/chroot_local-includes/usr/local/sbin/tails-i2p:49
 msgid "I2P is not ready"
 msgstr "I2P n'est pas prêt"
 
-#: config/chroot_local-includes/usr/local/sbin/tails-i2p:49
+#: config/chroot_local-includes/usr/local/sbin/tails-i2p:50
 msgid ""
 "Eepsite tunnel not built within six minutes. Check the router console at "
 "http://127.0.0.1:7657/logs or the logs in /var/log/i2p for more information."
 " Reconnect to the network to try again."
 msgstr "Le tunnel de l'Eepsite n'a pas été construit durant les six minutes. Pour plus d'information vérifiez la console de routeur dans http://127.0.0.1:7657/logs ou les historiques dans /var/log/i2p . Reconnectez au réseau afin de réessayer."
 
-#: config/chroot_local-includes/usr/local/sbin/tails-i2p:59
+#: config/chroot_local-includes/usr/local/sbin/tails-i2p:60
 msgid "I2P is ready"
 msgstr "I2P est prêt"
 
-#: config/chroot_local-includes/usr/local/sbin/tails-i2p:60
+#: config/chroot_local-includes/usr/local/sbin/tails-i2p:61
 msgid "You can now access services on I2P."
 msgstr "Vous pouvez maintenant accéder aux services sur I2P."
 
