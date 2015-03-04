@@ -7,14 +7,14 @@
 # Blackywantscookies <gaborcika@citromail.hu>, 2014
 # iskr <iscreamd@gmail.com>, 2013
 # Lajos Pasztor <mrlajos@gmail.com>, 2014
-# vargaviktor <viktor.varga@gmail.com>, 2013
+# vargaviktor <viktor.varga@gmail.com>, 2013,2015
 msgid ""
 msgstr ""
 "Project-Id-Version: The Tor Project\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-12-02 11:29+0100\n"
-"PO-Revision-Date: 2014-12-04 08:50+0000\n"
-"Last-Translator: runasand <runa.sandvik@gmail.com>\n"
+"POT-Creation-Date: 2015-02-23 16:25+0100\n"
+"PO-Revision-Date: 2015-03-04 12:14+0000\n"
+"Last-Translator: vargaviktor <viktor.varga@gmail.com>\n"
 "Language-Team: Hungarian (http://www.transifex.com/projects/p/torproject/language/hu/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -38,15 +38,39 @@ msgid ""
 "<p><strong>Do not include more personal information than\n"
 "needed!</strong></p>\n"
 "<h2>About giving us an email address</h2>\n"
-"<p>If you don't mind disclosing some bits of your identity\n"
-"to Tails developers, you can provide an email address to\n"
-"let us ask more details about the bug. Additionally entering\n"
-"a public PGP key enables us to encrypt such future\n"
-"communication.</p>\n"
-"<p>Anyone who can see this reply will probably infer you are\n"
-"a Tails user. Time to wonder how much you trust your\n"
-"Internet and mailbox providers?</p>\n"
-msgstr "<h1>Segítsen a hibák kijavításában</h1>\n<p>Olvassa el a <a href=\"%s\">hibabejelentési tanácsainkat</a>.</p>\n<p><strong>Ne ajdon meg több személyes adatot, mint szükséges!</strong></p>\n<h2>Az email cím megadásáról</h2>\n<p>Ha nem gond a személyazonossága felfedése a Tails fejlesztői felé, megadhat email címet, hogy lehetővé tegye számukra, hogy további kérdéseket tegyenek fel a hibával kapcsolatosan. Ha megad egy publikus PGP kulcsot, az lehetővé teszi, hogy a levelezést titkosítva folytassuk.</p>\n<p>Bárki aki ezt a láthatja, azt gondolhatja egy Tails felhasználó. Elgondolkozott már azon, mennyire bízik meg az internet vagy az elektronikus levelezés szolgáltatójában?</p>\n"
+"<p>\n"
+"Giving us an email address allows us to contact you to clarify the problem. This\n"
+"is needed for the vast majority of the reports we receive as most reports\n"
+"without any contact information are useless. On the other hand it also provides\n"
+"an opportunity for eavesdroppers, like your email or Internet provider, to\n"
+"confirm that you are using Tails.\n"
+"</p>\n"
+msgstr "<h1>Segítsen kijavítani a hibát!</h1>\n<p>Olvassa el <a href=\"%s\">hibabejelentési útmutatót</a>.</p>\n<p><strong>Kérjük a szükségesnél több személyes információt ne adjon meg!</strong></p>\n<h2>Az email címe megadásáról</h2>\n<p>\nHa megadja nekünk az email címét, fel tudjuk venni a kapcsolatot a probléma tisztázásához. Az esetek többségében ez a legtöbb hibabejelentéshez szükséges, a hibabejelentés többsége sajnos e nélkül használhatatlan.\n\nA másik oldalról nézve ez lehetővé teszi egy lehallgatónak, legyen ez email lehallgató, vagy ISP hogy megtudja hogy használja a Tails-t.\n</p>\n"
+
+#: config/chroot_local-includes/usr/local/bin/electrum:14
+msgid "Persistence is disabled for Electrum"
+msgstr "A kapcsolatok közötti állapotmegőrzés (perzisztencia) kikapcsolt az Electum esetében"
+
+#: config/chroot_local-includes/usr/local/bin/electrum:16
+msgid ""
+"When you reboot Tails, all of Electrum's data will be lost, including your "
+"Bitcoin wallet. It is strongly recommended to only run Electrum when its "
+"persistence feature is activated."
+msgstr "Ha újraindítja a Tailst, akkor minden Electum adat el fog veszni, beleértve a Bitcoin pénztárcát is. Erősen ajánlott, hogy csak akkor futtasa az Eletum-ot, ha  kapcsolatok közötti állapot megőrzése (perzisztencia) be van kapcsolva."
+
+#: config/chroot_local-includes/usr/local/bin/electrum:18
+msgid "Do you want to start Electrum anyway?"
+msgstr "Szeretné elindítani az Electumot mindenféleképpen?"
+
+#: config/chroot_local-includes/usr/local/bin/electrum:20
+#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:36
+msgid "_Launch"
+msgstr "_Indítás"
+
+#: config/chroot_local-includes/usr/local/bin/electrum:21
+#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:37
+msgid "_Exit"
+msgstr "_Kilépés"
 
 #: config/chroot_local-includes/usr/local/bin/gpgApplet:136
 msgid "OpenPGP encryption applet"
@@ -278,27 +302,27 @@ msgid ""
 " spoofing documentation</a>."
 msgstr "Úgy néz ki blokkolva van a hálózati kapcsolatod. Lehet köze van a MAC cím átejtés eljáráshoz. További információkért nézd meg ezt <a href=\\\"file:///usr/share/doc/tails/website/doc/first_steps/startup_options/mac_spoofing.en.html#blocked\\\">MAC spoofing dokumentáció</a>."
 
-#: config/chroot_local-includes/usr/local/bin/tails-security-check:145
+#: config/chroot_local-includes/usr/local/bin/tails-security-check:151
 msgid "This version of Tails has known security issues:"
 msgstr "A Tails ezen verziója ismert biztonsági problémákkal rendelkezik:"
 
-#: config/chroot_local-includes/usr/local/sbin/tails-spoof-mac:29
+#: config/chroot_local-includes/usr/local/sbin/tails-spoof-mac:37
 #, sh-format
 msgid "Network card ${nic} disabled"
 msgstr "Hálózati kártya ${nic} letiltva"
 
-#: config/chroot_local-includes/usr/local/sbin/tails-spoof-mac:30
+#: config/chroot_local-includes/usr/local/sbin/tails-spoof-mac:38
 #, sh-format
 msgid ""
 "MAC spoofing failed for network card ${nic_name} (${nic}) so it is temporarily disabled.\n"
 "You might prefer to restart Tails and disable MAC spoofing. See the <a href='file:///usr/share/doc/tails/website/doc/first_steps/startup_options/mac_spoofing.en.html'>documentation</a>."
 msgstr "MAC spoofing nem sikerült a ${nic_name} (${nic}) hálózati kártyához így átmenetileg le lett tiltva.\nTalán újra kell indítanod a Tails-t és letiltani a MAC spoofing-ot. Nézd meg a dokumentációt itt <a href='file:///usr/share/doc/tails/website/doc/first_steps/startup_options/mac_spoofing.en.html'></a>."
 
-#: config/chroot_local-includes/usr/local/sbin/tails-spoof-mac:39
+#: config/chroot_local-includes/usr/local/sbin/tails-spoof-mac:47
 msgid "All networking disabled"
 msgstr "Minden hálózat letiltva"
 
-#: config/chroot_local-includes/usr/local/sbin/tails-spoof-mac:40
+#: config/chroot_local-includes/usr/local/sbin/tails-spoof-mac:48
 #, sh-format
 msgid ""
 "MAC spoofing failed for network card ${nic_name} (${nic}). The error recovery also failed so all networking is disabled.\n"
@@ -306,12 +330,12 @@ msgid ""
 msgstr "MAC spoofing nem sikerült a ${nic_name} (${nic}) hálózati kártyához így átmenetileg le lett tiltva.\nTalán újra kell indítanod a Tails-t és letiltani a MAC spoofing-ot. Nézd meg a dokumentációt itt <a href='file:///usr/share/doc/tails/website/doc/first_steps/startup_options/mac_spoofing.en.html'></a>."
 
 #: config/chroot_local-includes/usr/local/bin/tails-upgrade-frontend-wrapper:19
-#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:61
+#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:22
 msgid "error:"
 msgstr "hiba:"
 
 #: config/chroot_local-includes/usr/local/bin/tails-upgrade-frontend-wrapper:20
-#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:62
+#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:23
 msgid "Error"
 msgstr "Hiba"
 
@@ -341,9 +365,9 @@ msgstr "Mind a gazda operációs rendszer, mind a virtualizációs szoftver kép
 #: config/chroot_local-includes/usr/local/bin/tails-virt-notify-user:57
 msgid ""
 "<a "
-"href='file:///usr/share/doc/tails/website/doc/advanced_topics/virtualization.en.html'>Learn"
+"href='file:///usr/share/doc/tails/website/doc/advanced_topics/virtualization.en.html#security'>Learn"
 " more...</a>"
-msgstr "<a href='file:///usr/share/doc/tails/website/doc/advanced_topics/virtualization.en.html'>Tudjon meg többet...</a>"
+msgstr "<a href='file:///usr/share/doc/tails/website/doc/advanced_topics/virtualization.en.html#security'>Tudjon meg többet...</a>"
 
 #: config/chroot_local-includes/usr/local/bin/tor-browser:18
 msgid "Tor is not ready"
@@ -361,102 +385,108 @@ msgstr "Tor böngésző indítása"
 msgid "Cancel"
 msgstr "Mégse"
 
-#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:72
+#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:33
 msgid "Do you really want to launch the Unsafe Browser?"
 msgstr "Biztosan el akarja indítani a nem biztonságos böngészőt?"
 
-#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:74
+#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:35
 msgid ""
 "Network activity within the Unsafe Browser is <b>not anonymous</b>. Only use"
 " the Unsafe Browser if necessary, for example if you have to login or "
 "register to activate your Internet connection."
 msgstr "Hálózati aktivitás a nem biztonságos böngészőn belül <b>nem névtelen</b>. Csak szükség esetén használja a nem biztonságos böngészőt, például ha be kell jelentkeznie, vagy regisztrálnia kell az internet kapcsolata aktiválásához."
 
-#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:75
-msgid "_Launch"
-msgstr "_Indítás"
-
-#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:76
-msgid "_Exit"
-msgstr "_Kilépés"
-
-#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:86
+#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:47
 msgid "Starting the Unsafe Browser..."
 msgstr "A NEM biztonságos böngésző indítása..."
 
-#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:87
+#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:48
 msgid "This may take a while, so please be patient."
 msgstr "Ez eltarthat egy ideig, kérjük legyen türelemmel."
 
-#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:121
-msgid "Failed to setup chroot."
-msgstr "Sikertelen a chroot beállítása."
-
-#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:195
-#: ../config/chroot_local-includes/usr/share/applications/unsafe-browser.desktop.in.h:1
-msgid "Unsafe Browser"
-msgstr "Nem biztonságos böngésző"
-
-#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:251
+#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:53
 msgid "Shutting down the Unsafe Browser..."
 msgstr "A nem biztonságos böngésző leállítása..."
 
-#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:252
+#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:54
 msgid ""
 "This may take a while, and you may not restart the Unsafe Browser until it "
 "is properly shut down."
 msgstr "Ez időbe telhet, és nem indíthatja újra a nem biztonságos böngészőt míg az nem lett megfelelően leállítva."
 
-#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:264
+#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:66
 msgid "Failed to restart Tor."
 msgstr "Nem sikerült a Tor újraindítása."
 
-#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:272
+#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:85
+#: ../config/chroot_local-includes/usr/share/applications/unsafe-browser.desktop.in.h:1
+msgid "Unsafe Browser"
+msgstr "Nem biztonságos böngésző"
+
+#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:93
 msgid ""
 "Another Unsafe Browser is currently running, or being cleaned up. Please "
 "retry in a while."
 msgstr "Egy másik nem megbízható böngésző fut jelenleg vagy épp tisztítás folyamata zajlik. Kérlek térj vissza később."
 
-#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:285
+#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:105
+msgid ""
+"NetworkManager passed us garbage data when trying to deduce the clearnet DNS"
+" server."
+msgstr "A hálózatkezelő szemét adatot adott vissza mikor megpróbáltuk elérni a clearnet DNS szerverét."
+
+#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:115
 msgid ""
 "No DNS server was obtained through DHCP or manually configured in "
 "NetworkManager."
 msgstr "Nincs elérhető DNS szerver DHCP-n keresztül vagy kézzel van konfigurálva a Hálózatkezelő."
 
-#: config/chroot_local-includes/usr/local/sbin/tails-i2p:30
+#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:123
+msgid "Failed to setup chroot."
+msgstr "Sikertelen a chroot beállítása."
+
+#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:129
+msgid "Failed to configure browser."
+msgstr "Sikertelen a böngésző beállítása."
+
+#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:134
+msgid "Failed to run browser."
+msgstr "Sikertelen a böngésző indítása."
+
+#: config/chroot_local-includes/usr/local/sbin/tails-i2p:31
 msgid "I2P failed to start"
 msgstr "I2P-t nem sikerült elindítani"
 
-#: config/chroot_local-includes/usr/local/sbin/tails-i2p:31
+#: config/chroot_local-includes/usr/local/sbin/tails-i2p:32
 msgid ""
 "Something went wrong when I2P was starting. Check the logs in /var/log/i2p "
 "for more information."
 msgstr "Valami hiba történt amikor az I2P elindult. Tobábbi információért nézze meg a naplókat itt:  /var/log/i2p"
 
-#: config/chroot_local-includes/usr/local/sbin/tails-i2p:42
+#: config/chroot_local-includes/usr/local/sbin/tails-i2p:43
 msgid "I2P's router console is ready"
 msgstr "I2P-nek a router konzolja készen áll."
 
-#: config/chroot_local-includes/usr/local/sbin/tails-i2p:43
+#: config/chroot_local-includes/usr/local/sbin/tails-i2p:44
 msgid "You can now access I2P's router console on http://127.0.0.1:7657."
 msgstr "Most hozzáférhetsz az I2P-nek router konzoljához itt: http://127.0.0.1:7657."
 
-#: config/chroot_local-includes/usr/local/sbin/tails-i2p:48
+#: config/chroot_local-includes/usr/local/sbin/tails-i2p:49
 msgid "I2P is not ready"
 msgstr "I2P nem áll készen."
 
-#: config/chroot_local-includes/usr/local/sbin/tails-i2p:49
+#: config/chroot_local-includes/usr/local/sbin/tails-i2p:50
 msgid ""
 "Eepsite tunnel not built within six minutes. Check the router console at "
 "http://127.0.0.1:7657/logs or the logs in /var/log/i2p for more information."
 " Reconnect to the network to try again."
 msgstr "EEpsite csatorna nem épült fel 6 perc alatt. Nézze meg a router konzolt itt: http://127.0.0.1:7657/log vagy a köteteket /var/log/i2p további információért. Kapcsolódjon újra a hálózathoz az újrapróbáláshoz. "
 
-#: config/chroot_local-includes/usr/local/sbin/tails-i2p:59
+#: config/chroot_local-includes/usr/local/sbin/tails-i2p:60
 msgid "I2P is ready"
 msgstr "I2P készen áll."
 
-#: config/chroot_local-includes/usr/local/sbin/tails-i2p:60
+#: config/chroot_local-includes/usr/local/sbin/tails-i2p:61
 msgid "You can now access services on I2P."
 msgstr "Most hozzáférhet a szolgáltatásokhoz az I2P-n."
 
