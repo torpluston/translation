@@ -13,13 +13,14 @@
 # Georgios Vasileiadis <gvasileiadis@outlook.com.gr>, 2014
 # kotkotkot <kotakota@gmail.com>, 2013
 # kotkotkot <kotakota@gmail.com>, 2013
+# metamec, 2015
 msgid ""
 msgstr ""
 "Project-Id-Version: The Tor Project\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-02-23 16:25+0100\n"
-"PO-Revision-Date: 2015-02-25 08:49+0000\n"
-"Last-Translator: runasand <runa.sandvik@gmail.com>\n"
+"POT-Creation-Date: 2015-03-30 16:51+0200\n"
+"PO-Revision-Date: 2015-04-23 20:38+0000\n"
+"Last-Translator: metamec\n"
 "Language-Team: Greek (http://www.transifex.com/projects/p/torproject/language/el/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -27,13 +28,13 @@ msgstr ""
 "Language: el\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: config/chroot_local-includes/etc/NetworkManager/dispatcher.d/60-tor-ready-notification.sh:42
+#: config/chroot_local-includes/etc/NetworkManager/dispatcher.d/60-tor-ready.sh:43
 msgid "Tor is ready"
 msgstr "Το Tor είναι έτοιμο"
 
-#: config/chroot_local-includes/etc/NetworkManager/dispatcher.d/60-tor-ready-notification.sh:43
+#: config/chroot_local-includes/etc/NetworkManager/dispatcher.d/60-tor-ready.sh:44
 msgid "You can now access the Internet."
-msgstr "Μπορείτε τώρα να έχετε πρόσβαση στο Διαδίκτυο."
+msgstr "Τώρα έχετε πρόσβαση στο Διαδίκτυο."
 
 #: config/chroot_local-includes/etc/whisperback/config.py:64
 #, python-format
@@ -54,18 +55,18 @@ msgstr ""
 
 #: config/chroot_local-includes/usr/local/bin/electrum:14
 msgid "Persistence is disabled for Electrum"
-msgstr ""
+msgstr "Το persistence είναι απενεργοποιμένο για το Electrum"
 
 #: config/chroot_local-includes/usr/local/bin/electrum:16
 msgid ""
 "When you reboot Tails, all of Electrum's data will be lost, including your "
 "Bitcoin wallet. It is strongly recommended to only run Electrum when its "
 "persistence feature is activated."
-msgstr ""
+msgstr "Όταν κάνετε επανεκκίνηση του Tails, όλα τα δεδομένα του Electrum θα χαθούν, συμπεριλαμβανομένου του πορτοφολιού Bitcoin σας. Συνιστάται ιδιαίτερα να εκτελείτε το Electrum μόνο όταν είναι ενεργοποιημένο το σχετικό χαρακτηριστικό μόνιμου τόμου."
 
 #: config/chroot_local-includes/usr/local/bin/electrum:18
 msgid "Do you want to start Electrum anyway?"
-msgstr ""
+msgstr "Θέλετε να εκκινήσετε το Electrum ούτως ή άλλως;"
 
 #: config/chroot_local-includes/usr/local/bin/electrum:20
 #: config/chroot_local-includes/usr/local/sbin/unsafe-browser:36
@@ -79,7 +80,7 @@ msgstr "_Έξοδος"
 
 #: config/chroot_local-includes/usr/local/bin/gpgApplet:136
 msgid "OpenPGP encryption applet"
-msgstr "Εφαρμογή OpenPGP κρυπτογράφησης"
+msgstr "Εφαρμογή κρυπτογράφησης OpenPGP"
 
 #: config/chroot_local-includes/usr/local/bin/gpgApplet:139
 msgid "Exit"
@@ -91,11 +92,11 @@ msgstr "Σχετικά"
 
 #: config/chroot_local-includes/usr/local/bin/gpgApplet:192
 msgid "Encrypt Clipboard with _Passphrase"
-msgstr "Κρυπτογράφηση του Προχείρου με _Κωδικό"
+msgstr "Κρυπτογράφηση του Προχείρου με _Συνθηματικό"
 
 #: config/chroot_local-includes/usr/local/bin/gpgApplet:195
 msgid "Sign/Encrypt Clipboard with Public _Keys"
-msgstr "Υπογραφή/Κρυπτογράφησ του Προχείρου με Δημόσια _Κλειδιά"
+msgstr "Υπογραφή/Κρυπτογράφηση του Προχείρου με Δημόσια _Κλειδιά"
 
 #: config/chroot_local-includes/usr/local/bin/gpgApplet:200
 msgid "_Decrypt/Verify Clipboard"
@@ -107,7 +108,7 @@ msgstr "_Διαχείριση Κλειδιών"
 
 #: config/chroot_local-includes/usr/local/bin/gpgApplet:244
 msgid "The clipboard does not contain valid input data."
-msgstr "Το πρόχειρο δεν περιέχει έγκυρα δεδομένα εισόδου"
+msgstr "Το πρόχειρο δεν περιέχει έγκυρα δεδομένα εισόδου."
 
 #: config/chroot_local-includes/usr/local/bin/gpgApplet:295
 #: config/chroot_local-includes/usr/local/bin/gpgApplet:297
@@ -151,7 +152,7 @@ msgstr[1] "ID χρήστη:"
 
 #: config/chroot_local-includes/usr/local/bin/gpgApplet:425
 msgid "None (Don't sign)"
-msgstr "Κανένα (Μην υπογράφεις)"
+msgstr "Κανένα (Μη υπογραφή)"
 
 #: config/chroot_local-includes/usr/local/bin/gpgApplet:488
 msgid "Select recipients:"
@@ -165,11 +166,11 @@ msgstr "Απόκρυψη παραληπτών"
 msgid ""
 "Hide the user IDs of all recipients of an encrypted message. Otherwise "
 "anyone that sees the encrypted message can see who the recipients are."
-msgstr "Απόκρυψη των ID χρηστών για όλους τους παραλήπτες ενός κρυπτογραφημένου μηνύματος. Σε άλλη περίπτωση οποιοσδήποτε που βλέπει ένα κρυπτογραφημένο μήνυμα μπορεί να δει ποιοί είναι οι παραλήπτες."
+msgstr "Απόκρυψη του ID του χρήστη για όλους τους παραλήπτες ενός κρυπτογραφημένου μηνύματος. Σε διαφορετική περίπτωση οποιοσδήποτε ανοίξει το κρυπτογραφημένο μήνυμα μπορεί να δει ποιοι είναι οι παραλήπτες."
 
 #: config/chroot_local-includes/usr/local/bin/gpgApplet:505
 msgid "Sign message as:"
-msgstr "Υπογραφή μηνύματος σαν:"
+msgstr "Υπογραφή μηνύματος ως:"
 
 #: config/chroot_local-includes/usr/local/bin/gpgApplet:509
 msgid "Choose keys"
@@ -189,7 +190,7 @@ msgstr[1] "Το ακόλουθα επιλεγμένα κλειδιά δεν εί
 msgid "Do you trust this key enough to use it anyway?"
 msgid_plural "Do you trust these keys enough to use them anyway?"
 msgstr[0] "Εμπιστεύεσαι αρκετά αυτό το κλειδί ώστε να το χρησιμοποιήσεις;"
-msgstr[1] "Εμπιστεύεσαι αρκετά αυτά τα κλειδιά ώστε να τα χρησιμοποιήσεις;"
+msgstr[1] "Εμπιστεύεστε αρκετά αυτά τα κλειδιά ώστε να τα χρησιμοποιήσετε;"
 
 #: config/chroot_local-includes/usr/local/bin/gpgApplet:583
 msgid "No keys selected"
@@ -240,7 +241,7 @@ msgstr "Άμεση επανεκκίνηση"
 
 #: config/chroot_local-includes/usr/local/bin/tails-about:16
 msgid "not available"
-msgstr "μη διαθέσιμος"
+msgstr "μη διαθέσιμο"
 
 #: config/chroot_local-includes/usr/local/bin/tails-about:19
 #: ../config/chroot_local-includes/usr/share/desktop-directories/Tails.directory.in.h:1
