@@ -4,6 +4,7 @@
 # 
 # Translators:
 # Budiman Jojo <budimanjojo@gmail.com>, 2014
+# cholif yulian <cholifyulian123@gmail.com>, 2015
 # Dichi Al Faridi <dichi@alfaridi.info>, 2010
 # Fathan Imanudin <night.ataraxia@gmail.com>, 2014
 # ba dwi <slamet.badwi@gmail.com>, 2014
@@ -11,9 +12,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: The Tor Project\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-02-11 19:14+0100\n"
-"PO-Revision-Date: 2015-02-14 09:01+0000\n"
-"Last-Translator: runasand <runa.sandvik@gmail.com>\n"
+"POT-Creation-Date: 2015-05-02 21:10+0200\n"
+"PO-Revision-Date: 2015-05-23 17:14+0000\n"
+"Last-Translator: cholif yulian <cholifyulian123@gmail.com>\n"
 "Language-Team: Indonesian (http://www.transifex.com/projects/p/torproject/language/id/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -41,10 +42,10 @@ msgstr "%(size)s %(label)s"
 msgid "%(vendor)s %(model)s (%(details)s) - %(device)s"
 msgstr "%(vendor)s %(model)s (%(details)s) - %(device)s"
 
-#: ../liveusb/creator.py:1063
+#: ../liveusb/creator.py:1072
 #, python-format
 msgid "%s already bootable"
-msgstr "%s sudah bootable"
+msgstr "%s sudah bisa di boot"
 
 #: ../liveusb/launcher_ui.py:156
 msgid ""
@@ -98,16 +99,16 @@ msgid ""
 "persist after a reboot."
 msgstr ""
 
-#: ../liveusb/creator.py:1162 ../liveusb/creator.py:1425
+#: ../liveusb/creator.py:1171 ../liveusb/creator.py:1434
 #, python-format
 msgid "Calculating the SHA1 of %s"
 msgstr "Menghitung SHA1 dari %s"
 
-#: ../liveusb/creator.py:1373
+#: ../liveusb/creator.py:1382
 msgid "Cannot find"
 msgstr "Tidak menemukan"
 
-#: ../liveusb/creator.py:556
+#: ../liveusb/creator.py:558
 #, python-format
 msgid "Cannot find device %s"
 msgstr "Tidak dapat menemukan perangkat %s"
@@ -126,7 +127,7 @@ msgid ""
 "Upgrade"
 msgstr "Klon\n&&\nUpgrade"
 
-#: ../liveusb/creator.py:408
+#: ../liveusb/creator.py:410
 #, python-format
 msgid "Creating %sMB persistent overlay"
 msgstr "Membuat %sMB lembaran yang menetap"
@@ -134,7 +135,7 @@ msgstr "Membuat %sMB lembaran yang menetap"
 #: ../liveusb/gui.py:553
 msgid ""
 "Device is not yet mounted, so we cannot determine the amount of free space."
-msgstr ""
+msgstr "Device belum dipasang, jadi kita tidak bisa menentukan jumlah space yang kosong/tersedia"
 
 #: ../liveusb/dialog.py:157
 #, python-format
@@ -154,18 +155,18 @@ msgstr "Download gagal:"
 msgid "Downloading %s..."
 msgstr "Mengunduh %s..."
 
-#: ../liveusb/creator.py:1158
+#: ../liveusb/creator.py:1167
 msgid "Drive is a loopback, skipping MBR reset"
 msgstr ""
 
-#: ../liveusb/creator.py:827
+#: ../liveusb/creator.py:836
 #, python-format
 msgid "Entering unmount_device for '%(device)s'"
-msgstr ""
+msgstr "Enter tidak dipasang_device untuk'%(device)s'"
 
-#: ../liveusb/creator.py:1238
+#: ../liveusb/creator.py:1247
 msgid "Error probing device"
-msgstr ""
+msgstr "Error probing device"
 
 #: ../liveusb/gui.py:212
 msgid ""
@@ -173,26 +174,26 @@ msgid ""
 "continue."
 msgstr "Kesalahan: Tidak dapat mengatur label atau memperoleh UUID perangkat Anda. Tidak dapat melanjutkan."
 
-#: ../liveusb/creator.py:384
+#: ../liveusb/creator.py:386
 msgid ""
 "Error: The SHA1 of your Live CD is invalid.  You can run this program with "
 "the --noverify argument to bypass this verification check."
 msgstr "Kesalahan: SHA1 dari Live CD Anda tidak valid. Anda dapat menjalankan program ini dengan opsi argumen -noverify untuk memotong cek verifikasi ini."
 
-#: ../liveusb/creator.py:147
+#: ../liveusb/creator.py:148
 msgid "Extracting live image to the target device..."
-msgstr ""
+msgstr "Extract image yang ada /Live ke Device target"
 
-#: ../liveusb/creator.py:1106
+#: ../liveusb/creator.py:1115
 #, python-format
 msgid "Formatting %(device)s as FAT32"
 msgstr "Memformat %(device)s sebagai FAT32"
 
-#: ../liveusb/creator.py:142
+#: ../liveusb/creator.py:143
 msgid "ISO MD5 checksum passed"
 msgstr "Pemeriksaan MD5 ISO terlewati"
 
-#: ../liveusb/creator.py:140
+#: ../liveusb/creator.py:141
 msgid "ISO MD5 checksum verification failed"
 msgstr "Pencocokan MD5 ISO gagal"
 
@@ -200,11 +201,11 @@ msgstr "Pencocokan MD5 ISO gagal"
 msgid ""
 "If you do not select an existing Live ISO, the selected release will be "
 "downloaded for you."
-msgstr ""
+msgstr "Jika anda tidak memilih Live iso yang ada, release terpilih akan do unduh untuk anda"
 
 #: ../liveusb/dialog.py:165
 msgid "Install Tails"
-msgstr ""
+msgstr "Install Tails"
 
 #: ../liveusb/gui.py:616
 msgid "Installation complete!"
@@ -219,7 +220,7 @@ msgstr "Pemasangan sudah tuntas! (%s)"
 msgid "Installation was completed. Press OK to close this program."
 msgstr "Pemasangan sudah tuntas! Tekan OK untuk menutup program ini."
 
-#: ../liveusb/creator.py:963 ../liveusb/creator.py:1279
+#: ../liveusb/creator.py:972 ../liveusb/creator.py:1288
 msgid "Installing bootloader..."
 msgstr "Memasang bootloader..."
 
@@ -227,18 +228,18 @@ msgstr "Memasang bootloader..."
 msgid "LiveUSB creation failed!"
 msgstr "Penciptaan LiveUSB gagal!"
 
-#: ../liveusb/creator.py:1374
+#: ../liveusb/creator.py:1383
 msgid ""
 "Make sure to extract the entire liveusb-creator zip file before running this"
 " program."
 msgstr "Pastikan untuk mengekstrak seluruh berkas zip liveusb-creator sebelum menjalankan program ini."
 
-#: ../liveusb/creator.py:1250
+#: ../liveusb/creator.py:1259
 msgid ""
 "Make sure your USB key is plugged in and formatted with the FAT filesystem"
 msgstr "Pastikan kunci USB Anda terhubung dan diformat dengan sistem berkas FAT"
 
-#: ../liveusb/creator.py:849
+#: ../liveusb/creator.py:858
 #, python-format
 msgid "Mount %s exists after unmounting"
 msgstr ""
@@ -248,11 +249,11 @@ msgstr ""
 msgid "No free space on device %(device)s"
 msgstr "Device %(device)s tidak punya tempat kosong"
 
-#: ../liveusb/creator.py:816
+#: ../liveusb/creator.py:825
 msgid "No mount points found"
 msgstr "Tidak ada titik kait"
 
-#: ../liveusb/creator.py:401
+#: ../liveusb/creator.py:403
 #, python-format
 msgid ""
 "Not enough free space on device.\n"
@@ -267,7 +268,7 @@ msgstr "Partisi adalah FAT16; Membatasi ukuran lembaran ke 2G"
 msgid "Partition is FAT32; Restricting overlay size to 4G"
 msgstr "Partisi adalah FAT32; Membatasi ukuran lembaran ke 4G"
 
-#: ../liveusb/creator.py:228 ../liveusb/creator.py:856
+#: ../liveusb/creator.py:229 ../liveusb/creator.py:865
 #, python-format
 msgid "Partitioning device %(device)s"
 msgstr "Mempartisi device %(device)s"
@@ -292,16 +293,16 @@ msgstr "Menyegarkan rilis..."
 msgid "Releases updated!"
 msgstr "Rilis telah diperbarui!"
 
-#: ../liveusb/creator.py:970 ../liveusb/creator.py:1297
+#: ../liveusb/creator.py:979 ../liveusb/creator.py:1306
 #, python-format
 msgid "Removing %(file)s"
 msgstr "Menghapus %(file)s"
 
-#: ../liveusb/creator.py:483
+#: ../liveusb/creator.py:485
 msgid "Removing existing Live OS"
 msgstr "Menghapus OS Live yang telah ada"
 
-#: ../liveusb/creator.py:1152
+#: ../liveusb/creator.py:1161
 #, python-format
 msgid "Resetting Master Boot Record of %s"
 msgstr "Mengatur ulang Master Boot Record dari %s"
@@ -310,23 +311,23 @@ msgstr "Mengatur ulang Master Boot Record dari %s"
 msgid "Select Live ISO"
 msgstr "Pilih Live ISO"
 
-#: ../liveusb/creator.py:184
+#: ../liveusb/creator.py:185
 msgid "Setting up OLPC boot file..."
 msgstr ""
 
-#: ../liveusb/creator.py:730
+#: ../liveusb/creator.py:739
 #, python-format
 msgid ""
 "Some partitions of the target device %(device)s are mounted. They will be "
 "unmounted before starting the installation process."
 msgstr ""
 
-#: ../liveusb/creator.py:133
+#: ../liveusb/creator.py:134
 msgid ""
 "Source type does not support verification of ISO MD5 checksum, skipping"
 msgstr ""
 
-#: ../liveusb/creator.py:1186
+#: ../liveusb/creator.py:1195
 msgid "Synchronizing data on disk..."
 msgstr ""
 
@@ -340,7 +341,7 @@ msgid ""
 "another file."
 msgstr ""
 
-#: ../liveusb/creator.py:345
+#: ../liveusb/creator.py:347
 #, python-format
 msgid ""
 "There was a problem executing the following command: `%(command)s`.\n"
@@ -378,7 +379,7 @@ msgstr ""
 msgid "This is the status console, where all messages get written to."
 msgstr ""
 
-#: ../liveusb/creator.py:925
+#: ../liveusb/creator.py:934
 msgid "Trying to continue anyway."
 msgstr ""
 
@@ -386,17 +387,17 @@ msgstr ""
 msgid "USB drive found"
 msgstr ""
 
-#: ../liveusb/creator.py:958
+#: ../liveusb/creator.py:967
 #, python-format
 msgid "Unable to change volume label: %(message)s"
 msgstr ""
 
-#: ../liveusb/creator.py:492 ../liveusb/creator.py:503
+#: ../liveusb/creator.py:494 ../liveusb/creator.py:505
 #, python-format
 msgid "Unable to chmod %(file)s: %(message)s"
 msgstr ""
 
-#: ../liveusb/creator.py:469
+#: ../liveusb/creator.py:471
 #, python-format
 msgid "Unable to copy %(infile)s to %(outfile)s: %(message)s"
 msgstr ""
@@ -405,15 +406,15 @@ msgstr ""
 msgid "Unable to find any USB drive"
 msgstr "Gagal menemukan perangkat USB"
 
-#: ../liveusb/creator.py:1240
+#: ../liveusb/creator.py:1249
 msgid "Unable to find any supported device"
 msgstr ""
 
-#: ../liveusb/creator.py:1083
+#: ../liveusb/creator.py:1092
 msgid "Unable to find partition"
 msgstr ""
 
-#: ../liveusb/creator.py:1320
+#: ../liveusb/creator.py:1329
 msgid ""
 "Unable to get Win32_LogicalDisk; win32com query did not return any results"
 msgstr ""
@@ -422,22 +423,22 @@ msgstr ""
 msgid "Unable to mount device"
 msgstr "Gagal memuat perangkat"
 
-#: ../liveusb/creator.py:804
+#: ../liveusb/creator.py:813
 #, python-format
 msgid "Unable to mount device: %(message)s"
 msgstr ""
 
-#: ../liveusb/creator.py:508
+#: ../liveusb/creator.py:510
 #, python-format
 msgid "Unable to remove directory from previous LiveOS: %(message)s"
 msgstr ""
 
-#: ../liveusb/creator.py:496
+#: ../liveusb/creator.py:498
 #, python-format
 msgid "Unable to remove file from previous LiveOS: %(message)s"
 msgstr ""
 
-#: ../liveusb/creator.py:1155
+#: ../liveusb/creator.py:1164
 msgid ""
 "Unable to reset MBR.  You may not have the `syslinux` package installed."
 msgstr ""
@@ -448,21 +449,21 @@ msgid ""
 "ISO to the root of your drive (ie: C:\\)"
 msgstr ""
 
-#: ../liveusb/creator.py:711
+#: ../liveusb/creator.py:720
 #, python-format
 msgid "Unable to write on %(device)s, skipping."
 msgstr ""
 
-#: ../liveusb/creator.py:390
+#: ../liveusb/creator.py:392
 msgid "Unknown ISO, skipping checksum verification"
 msgstr "ISO yg tak dikenal, melewatkan pencocokan checksum"
 
-#: ../liveusb/creator.py:800
+#: ../liveusb/creator.py:809
 #, python-format
 msgid "Unknown dbus exception while trying to mount device: %(message)s"
 msgstr ""
 
-#: ../liveusb/creator.py:779 ../liveusb/creator.py:937
+#: ../liveusb/creator.py:788 ../liveusb/creator.py:946
 msgid "Unknown filesystem.  Your device may need to be reformatted."
 msgstr ""
 
@@ -471,41 +472,41 @@ msgstr ""
 msgid "Unknown release: %s"
 msgstr "Rilis tidak diketahui: %s"
 
-#: ../liveusb/creator.py:841
+#: ../liveusb/creator.py:850
 #, python-format
 msgid "Unmounting '%(udi)s' on '%(device)s'"
 msgstr ""
 
-#: ../liveusb/creator.py:837
+#: ../liveusb/creator.py:846
 #, python-format
 msgid "Unmounting mounted filesystems on '%(device)s'"
 msgstr ""
 
-#: ../liveusb/creator.py:922
+#: ../liveusb/creator.py:931
 #, python-format
 msgid "Unsupported device '%(device)s', please report a bug."
 msgstr ""
 
-#: ../liveusb/creator.py:784 ../liveusb/creator.py:940
+#: ../liveusb/creator.py:793 ../liveusb/creator.py:949
 #, python-format
 msgid "Unsupported filesystem: %s"
 msgstr "Filesystem yang tidak didukung: %s"
 
-#: ../liveusb/creator.py:782
+#: ../liveusb/creator.py:791
 #, python-format
 msgid ""
 "Unsupported filesystem: %s\n"
 "In case you are trying to upgrade a manually installed Tails system (that is, if it was installed without this installer), this option is not supported: you need to install it anew to start with, e.g. by choosing the \"Clone & Install\" action instead."
 msgstr ""
 
-#: ../liveusb/creator.py:1253
+#: ../liveusb/creator.py:1262
 #, python-format
 msgid ""
 "Unsupported filesystem: %s\n"
 "Please backup and format your USB key with the FAT filesystem."
 msgstr "Filesystem yang tidak didukung: %s Silakan backup dan format USB Anda dengan filesystem FAT."
 
-#: ../liveusb/creator.py:882
+#: ../liveusb/creator.py:891
 #, python-format
 msgid "Updating properties of system partition %(system_partition)s"
 msgstr ""
@@ -518,19 +519,19 @@ msgstr "Mutakhirkan dari ISO"
 msgid "Use existing Live system ISO"
 msgstr ""
 
-#: ../liveusb/creator.py:135
+#: ../liveusb/creator.py:136
 msgid "Verifying ISO MD5 checksum"
 msgstr "Mencocokkan checksum MD5 ISO"
 
-#: ../liveusb/creator.py:364
+#: ../liveusb/creator.py:366
 msgid "Verifying SHA1 checksum of LiveCD image..."
 msgstr "Mencocokkan checksum SHA1 gambar LiveCD..."
 
-#: ../liveusb/creator.py:368
+#: ../liveusb/creator.py:370
 msgid "Verifying SHA256 checksum of LiveCD image..."
 msgstr "Mencocokkan checksum SHA256 gambar LiveCD..."
 
-#: ../liveusb/creator.py:934 ../liveusb/creator.py:1246
+#: ../liveusb/creator.py:943 ../liveusb/creator.py:1255
 msgid "Verifying filesystem..."
 msgstr "Memeriksa filesystem..."
 
@@ -546,7 +547,7 @@ msgid ""
 "check the \"Run this program as an administrator\" box."
 msgstr ""
 
-#: ../liveusb/creator.py:154
+#: ../liveusb/creator.py:155
 #, python-format
 msgid "Wrote to device at %(speed)d MB/sec"
 msgstr ""
@@ -566,7 +567,7 @@ msgid ""
 "unchanged. Continue?"
 msgstr ""
 
-#: ../liveusb/creator.py:618
+#: ../liveusb/creator.py:620
 msgid ""
 "You are using an old version of syslinux-extlinux that does not support the "
 "ext4 filesystem"
@@ -576,7 +577,7 @@ msgstr ""
 msgid "You can try again to resume your download"
 msgstr "Anda dapat mencoba lagi untuk melanjutkan download Anda"
 
-#: ../liveusb/creator.py:94
+#: ../liveusb/creator.py:95
 msgid "You must run this application as root"
 msgstr "Anda harus menjalankan aplikasi ini sebagai root"
 
