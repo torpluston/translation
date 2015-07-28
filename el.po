@@ -3,7 +3,8 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
-# Adrian Pappas <pappasadrian@gmail.com>, 2013
+# Adrian Pappas <pappasadrian@gmail.com>, 2013,2015
+# Aikaterini Katmada <aikaterini.katmada@gmail.com>, 2015
 # Alex <hestia@riseup.net>, 2013
 # andromeas <andromeas@hotmail.com>, 2014
 # andromeas <andromeas@hotmail.com>, 2014
@@ -13,13 +14,15 @@
 # Georgios Vasileiadis <gvasileiadis@outlook.com.gr>, 2014
 # kotkotkot <kotakota@gmail.com>, 2013
 # kotkotkot <kotakota@gmail.com>, 2013
+# LOUKAS SKOUROLIAKOS, 2015
+# metamec, 2015
 msgid ""
 msgstr ""
 "Project-Id-Version: The Tor Project\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-12-02 11:29+0100\n"
-"PO-Revision-Date: 2014-12-04 08:50+0000\n"
-"Last-Translator: runasand <runa.sandvik@gmail.com>\n"
+"POT-Creation-Date: 2015-06-28 19:40+0200\n"
+"PO-Revision-Date: 2015-07-27 23:54+0000\n"
+"Last-Translator: Aikaterini Katmada <aikaterini.katmada@gmail.com>\n"
 "Language-Team: Greek (http://www.transifex.com/projects/p/torproject/language/el/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -27,13 +30,13 @@ msgstr ""
 "Language: el\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: config/chroot_local-includes/etc/NetworkManager/dispatcher.d/60-tor-ready-notification.sh:42
+#: config/chroot_local-includes/etc/NetworkManager/dispatcher.d/60-tor-ready.sh:43
 msgid "Tor is ready"
 msgstr "Το Tor είναι έτοιμο"
 
-#: config/chroot_local-includes/etc/NetworkManager/dispatcher.d/60-tor-ready-notification.sh:43
+#: config/chroot_local-includes/etc/NetworkManager/dispatcher.d/60-tor-ready.sh:44
 msgid "You can now access the Internet."
-msgstr "Μπορείτε τώρα να έχετε πρόσβαση στο Διαδίκτυο."
+msgstr "Τώρα έχετε πρόσβαση στο Διαδίκτυο."
 
 #: config/chroot_local-includes/etc/whisperback/config.py:64
 #, python-format
@@ -43,19 +46,43 @@ msgid ""
 "<p><strong>Do not include more personal information than\n"
 "needed!</strong></p>\n"
 "<h2>About giving us an email address</h2>\n"
-"<p>If you don't mind disclosing some bits of your identity\n"
-"to Tails developers, you can provide an email address to\n"
-"let us ask more details about the bug. Additionally entering\n"
-"a public PGP key enables us to encrypt such future\n"
-"communication.</p>\n"
-"<p>Anyone who can see this reply will probably infer you are\n"
-"a Tails user. Time to wonder how much you trust your\n"
-"Internet and mailbox providers?</p>\n"
-msgstr "<h1>Βοήθησε μας να φτιάξουμε το Bug σου!</h1>\n<p>Διάβασε<a href=\"%s\">τις οδηγίες για την αναφορά Bug</a>.</p>\n<p><strong>Μην συμπεριλάβεις περισσότερες πληροφορίες από όσες χρειάζονται!</strong></p>\n<h2>Δώσε μας μια διεύθυνση e-mail</h2>\n<p>Αν δεν σε πειράζει δώσε μερικές πληροφορίες της ταυτότητας σου\nστους Tails developers, μπορείς να μας δώσεις μια διεύθυνση e-mail για να μπορέσουμε να σε ρωτήσουμε περισσότερα για το Bug. Ακόμα με το να δώσεις\nένα public PGP κλειδί θα μας επιτρέπει να κρυπτογραφούμε τυχόν μελλοντικές συνομιλίες\nγια την επικοινωνία μας.</p>\n<p>Οποισδήποτε που μπορεί να δει την απάντηση λογικά θα συμπεραίνει ότι είσαι\nένας χρήστης Tails . Έναι ώρα να αναρωτηθείς πόσο εμπιστέυεσε τον πάροχο Internet και email?</p>\n"
+"<p>\n"
+"Giving us an email address allows us to contact you to clarify the problem. This\n"
+"is needed for the vast majority of the reports we receive as most reports\n"
+"without any contact information are useless. On the other hand it also provides\n"
+"an opportunity for eavesdroppers, like your email or Internet provider, to\n"
+"confirm that you are using Tails.\n"
+"</p>\n"
+msgstr "<h1>Βοηθήστε μας να διορθώσουμε το σφάλμα!</h1>\n<p>Διαβάστε <a href=\"%s\">τις οδηγίες μας σχετικά με την αναφορά σφάλματος</a>.</p>\n<p><strong>Μην συμπεριλαμβάνετε περισσότερες προσωπικές πληροφορίες από ότι\nχρειάζεται!</strong></p>\n<h2>Σχετικά με τη διεύθυνση ηλεκτρονικού ταχυδρομείου σας</h2>\n<p>\nΔίνοντάς μας μια διεύθυνση ηλεκτρονικού ταχυδρομείου μας επιτρέπετε να επικοινωνήσουμε μαζί σας για διασαφήνιση του προβλήματος. Αυτό \nχρειάζεται για τη συντριπτική πλειοψηφία των αναφορών που λαμβάνουμε καθώς οι περισσότερες αναφορές \nείναι άχρηστες χωρίς κάποια πληροφορία για επικοινωνία. Από την άλλη πλευρά, αυτό δίνει ευκαιρία σε ωτακουστές, όπως τον πάροχο e-mail σας ή τον πάροχο Internet, να \nεπιβεβαιώσουν ότι χρησιμοποιείτε Tails. \n</p>\n"
+
+#: config/chroot_local-includes/usr/local/bin/electrum:14
+msgid "Persistence is disabled for Electrum"
+msgstr "Το persistence είναι απενεργοποιμένο για το Electrum"
+
+#: config/chroot_local-includes/usr/local/bin/electrum:16
+msgid ""
+"When you reboot Tails, all of Electrum's data will be lost, including your "
+"Bitcoin wallet. It is strongly recommended to only run Electrum when its "
+"persistence feature is activated."
+msgstr "Όταν κάνετε επανεκκίνηση του Tails, όλα τα δεδομένα του Electrum θα χαθούν, συμπεριλαμβανομένου του πορτοφολιού Bitcoin σας. Συνιστάται ιδιαίτερα να εκτελείτε το Electrum μόνο όταν είναι ενεργοποιημένο το σχετικό χαρακτηριστικό μόνιμου τόμου."
+
+#: config/chroot_local-includes/usr/local/bin/electrum:18
+msgid "Do you want to start Electrum anyway?"
+msgstr "Θέλετε να εκκινήσετε το Electrum ούτως ή άλλως;"
+
+#: config/chroot_local-includes/usr/local/bin/electrum:20
+#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:36
+msgid "_Launch"
+msgstr "_Εκκίνηση"
+
+#: config/chroot_local-includes/usr/local/bin/electrum:21
+#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:37
+msgid "_Exit"
+msgstr "_Έξοδος"
 
 #: config/chroot_local-includes/usr/local/bin/gpgApplet:136
 msgid "OpenPGP encryption applet"
-msgstr "Εφαρμογή OpenPGP κρυπτογράφησης"
+msgstr "Εφαρμογή κρυπτογράφησης OpenPGP"
 
 #: config/chroot_local-includes/usr/local/bin/gpgApplet:139
 msgid "Exit"
@@ -67,11 +94,11 @@ msgstr "Σχετικά"
 
 #: config/chroot_local-includes/usr/local/bin/gpgApplet:192
 msgid "Encrypt Clipboard with _Passphrase"
-msgstr "Κρυπτογράφηση του Προχείρου με _Κωδικό"
+msgstr "Κρυπτογράφηση του Προχείρου με _Συνθηματικό"
 
 #: config/chroot_local-includes/usr/local/bin/gpgApplet:195
 msgid "Sign/Encrypt Clipboard with Public _Keys"
-msgstr "Υπογραφή/Κρυπτογράφησ του Προχείρου με Δημόσια _Κλειδιά"
+msgstr "Υπογραφή/Κρυπτογράφηση του Προχείρου με Δημόσια _Κλειδιά"
 
 #: config/chroot_local-includes/usr/local/bin/gpgApplet:200
 msgid "_Decrypt/Verify Clipboard"
@@ -81,128 +108,132 @@ msgstr "_Αποκρυπτογράφηση/Επαλήθευση του Προχε
 msgid "_Manage Keys"
 msgstr "_Διαχείριση Κλειδιών"
 
-#: config/chroot_local-includes/usr/local/bin/gpgApplet:244
-msgid "The clipboard does not contain valid input data."
-msgstr "Το πρόχειρο δεν περιέχει έγκυρα δεδομένα εισόδου"
+#: config/chroot_local-includes/usr/local/bin/gpgApplet:208
+msgid "_Open Text Editor"
+msgstr "_Ανοιγμα Επεξεργαστή Εγγράφων"
 
-#: config/chroot_local-includes/usr/local/bin/gpgApplet:295
-#: config/chroot_local-includes/usr/local/bin/gpgApplet:297
-#: config/chroot_local-includes/usr/local/bin/gpgApplet:299
+#: config/chroot_local-includes/usr/local/bin/gpgApplet:252
+msgid "The clipboard does not contain valid input data."
+msgstr "Το πρόχειρο δεν περιέχει έγκυρα δεδομένα εισόδου."
+
+#: config/chroot_local-includes/usr/local/bin/gpgApplet:303
+#: config/chroot_local-includes/usr/local/bin/gpgApplet:305
+#: config/chroot_local-includes/usr/local/bin/gpgApplet:307
 msgid "Unknown Trust"
 msgstr "Άγνωστη Εμπιστοσύνη"
 
-#: config/chroot_local-includes/usr/local/bin/gpgApplet:301
+#: config/chroot_local-includes/usr/local/bin/gpgApplet:309
 msgid "Marginal Trust"
 msgstr "Οριακή Εμπιστοσύνη"
 
-#: config/chroot_local-includes/usr/local/bin/gpgApplet:303
+#: config/chroot_local-includes/usr/local/bin/gpgApplet:311
 msgid "Full Trust"
 msgstr "Πλήρης Εμπιστοσύνη"
 
-#: config/chroot_local-includes/usr/local/bin/gpgApplet:305
+#: config/chroot_local-includes/usr/local/bin/gpgApplet:313
 msgid "Ultimate Trust"
 msgstr "Υπέρτατη Εμπιστοσύνη"
 
-#: config/chroot_local-includes/usr/local/bin/gpgApplet:358
+#: config/chroot_local-includes/usr/local/bin/gpgApplet:366
 msgid "Name"
 msgstr "Όνομα"
 
-#: config/chroot_local-includes/usr/local/bin/gpgApplet:359
+#: config/chroot_local-includes/usr/local/bin/gpgApplet:367
 msgid "Key ID"
 msgstr "ID Κλειδιού"
 
-#: config/chroot_local-includes/usr/local/bin/gpgApplet:360
+#: config/chroot_local-includes/usr/local/bin/gpgApplet:368
 msgid "Status"
 msgstr "Κατάσταση"
 
-#: config/chroot_local-includes/usr/local/bin/gpgApplet:392
+#: config/chroot_local-includes/usr/local/bin/gpgApplet:400
 msgid "Fingerprint:"
 msgstr "Αποτύπωμα: "
 
-#: config/chroot_local-includes/usr/local/bin/gpgApplet:395
+#: config/chroot_local-includes/usr/local/bin/gpgApplet:403
 msgid "User ID:"
 msgid_plural "User IDs:"
 msgstr[0] "ID χρήστη:"
 msgstr[1] "ID χρήστη:"
 
-#: config/chroot_local-includes/usr/local/bin/gpgApplet:425
+#: config/chroot_local-includes/usr/local/bin/gpgApplet:433
 msgid "None (Don't sign)"
-msgstr "Κανένα (Μην υπογράφεις)"
+msgstr "Κανένα (Μη υπογραφή)"
 
-#: config/chroot_local-includes/usr/local/bin/gpgApplet:488
+#: config/chroot_local-includes/usr/local/bin/gpgApplet:496
 msgid "Select recipients:"
 msgstr "Επιλογή παραληπτών:"
 
-#: config/chroot_local-includes/usr/local/bin/gpgApplet:496
+#: config/chroot_local-includes/usr/local/bin/gpgApplet:504
 msgid "Hide recipients"
 msgstr "Απόκρυψη παραληπτών"
 
-#: config/chroot_local-includes/usr/local/bin/gpgApplet:499
+#: config/chroot_local-includes/usr/local/bin/gpgApplet:507
 msgid ""
 "Hide the user IDs of all recipients of an encrypted message. Otherwise "
 "anyone that sees the encrypted message can see who the recipients are."
-msgstr "Απόκρυψη των ID χρηστών για όλους τους παραλήπτες ενός κρυπτογραφημένου μηνύματος. Σε άλλη περίπτωση οποιοσδήποτε που βλέπει ένα κρυπτογραφημένο μήνυμα μπορεί να δει ποιοί είναι οι παραλήπτες."
+msgstr "Απόκρυψη του ID του χρήστη για όλους τους παραλήπτες ενός κρυπτογραφημένου μηνύματος. Σε διαφορετική περίπτωση οποιοσδήποτε ανοίξει το κρυπτογραφημένο μήνυμα μπορεί να δει ποιοι είναι οι παραλήπτες."
 
-#: config/chroot_local-includes/usr/local/bin/gpgApplet:505
+#: config/chroot_local-includes/usr/local/bin/gpgApplet:513
 msgid "Sign message as:"
-msgstr "Υπογραφή μηνύματος σαν:"
+msgstr "Υπογραφή μηνύματος ως:"
 
-#: config/chroot_local-includes/usr/local/bin/gpgApplet:509
+#: config/chroot_local-includes/usr/local/bin/gpgApplet:517
 msgid "Choose keys"
 msgstr "Επιλογή κλειδιών"
 
-#: config/chroot_local-includes/usr/local/bin/gpgApplet:549
+#: config/chroot_local-includes/usr/local/bin/gpgApplet:557
 msgid "Do you trust these keys?"
 msgstr "Εμπιστεύεστε αυτά τα κλειδιά;"
 
-#: config/chroot_local-includes/usr/local/bin/gpgApplet:552
+#: config/chroot_local-includes/usr/local/bin/gpgApplet:560
 msgid "The following selected key is not fully trusted:"
 msgid_plural "The following selected keys are not fully trusted:"
 msgstr[0] "Το ακόλουθο επιλεγμένο κλειδί δεν είναι πλήρως έμπιστο:"
 msgstr[1] "Το ακόλουθα επιλεγμένα κλειδιά δεν είναι πλήρως έμπιστα:"
 
-#: config/chroot_local-includes/usr/local/bin/gpgApplet:570
+#: config/chroot_local-includes/usr/local/bin/gpgApplet:578
 msgid "Do you trust this key enough to use it anyway?"
 msgid_plural "Do you trust these keys enough to use them anyway?"
 msgstr[0] "Εμπιστεύεσαι αρκετά αυτό το κλειδί ώστε να το χρησιμοποιήσεις;"
-msgstr[1] "Εμπιστεύεσαι αρκετά αυτά τα κλειδιά ώστε να τα χρησιμοποιήσεις;"
+msgstr[1] "Εμπιστεύεστε αρκετά αυτά τα κλειδιά ώστε να τα χρησιμοποιήσετε;"
 
-#: config/chroot_local-includes/usr/local/bin/gpgApplet:583
+#: config/chroot_local-includes/usr/local/bin/gpgApplet:591
 msgid "No keys selected"
 msgstr "Δεν επιλέχθηκαν κλειδιά"
 
-#: config/chroot_local-includes/usr/local/bin/gpgApplet:585
+#: config/chroot_local-includes/usr/local/bin/gpgApplet:593
 msgid ""
 "You must select a private key to sign the message, or some public keys to "
 "encrypt the message, or both."
 msgstr "Πρέπει να επιλέξετε ένα ιδιωτικό κλειδί για να υπογράψετε το μήνυμα, ή κάποια δημόσια κλειδιά για να κρυπτογραφήσετε το μήνυμα, ή και τα δύο."
 
-#: config/chroot_local-includes/usr/local/bin/gpgApplet:613
+#: config/chroot_local-includes/usr/local/bin/gpgApplet:621
 msgid "No keys available"
 msgstr "Δεν υπάρχουν διαθέσιμα κλειδιά"
 
-#: config/chroot_local-includes/usr/local/bin/gpgApplet:615
+#: config/chroot_local-includes/usr/local/bin/gpgApplet:623
 msgid ""
 "You need a private key to sign messages or a public key to encrypt messages."
 msgstr "Χρειάζεστε ένα ιδιωτικό κλειδί για να υπογράφετε μηνύματα ή ένα δημόσιο κλειδί για να κρυπτογραφείτε μηνύματα."
 
-#: config/chroot_local-includes/usr/local/bin/gpgApplet:743
+#: config/chroot_local-includes/usr/local/bin/gpgApplet:751
 msgid "GnuPG error"
 msgstr "Σφάλμα GnuPG"
 
-#: config/chroot_local-includes/usr/local/bin/gpgApplet:764
+#: config/chroot_local-includes/usr/local/bin/gpgApplet:772
 msgid "Therefore the operation cannot be performed."
 msgstr "Γι'αυτό δεν μπορεί να εκτελεστεί η λειτουργία."
 
-#: config/chroot_local-includes/usr/local/bin/gpgApplet:814
+#: config/chroot_local-includes/usr/local/bin/gpgApplet:822
 msgid "GnuPG results"
 msgstr "Αποτελέσματα GnuPG"
 
-#: config/chroot_local-includes/usr/local/bin/gpgApplet:820
+#: config/chroot_local-includes/usr/local/bin/gpgApplet:828
 msgid "Output of GnuPG:"
 msgstr "Έξοδος του GnuPG:"
 
-#: config/chroot_local-includes/usr/local/bin/gpgApplet:845
+#: config/chroot_local-includes/usr/local/bin/gpgApplet:853
 msgid "Other messages provided by GnuPG:"
 msgstr "Άλλα μηνύματα που παρέχονται από το GnuPG:"
 
@@ -216,7 +247,7 @@ msgstr "Άμεση επανεκκίνηση"
 
 #: config/chroot_local-includes/usr/local/bin/tails-about:16
 msgid "not available"
-msgstr "μη διαθέσιμος"
+msgstr "μη διαθέσιμο"
 
 #: config/chroot_local-includes/usr/local/bin/tails-about:19
 #: ../config/chroot_local-includes/usr/share/desktop-directories/Tails.directory.in.h:1
@@ -283,27 +314,27 @@ msgid ""
 " spoofing documentation</a>."
 msgstr "Φαίνεται πως έχετε αποκλειστεί από το δίκτυο. Αυτό μπορεί να σχετίζεται με το χαρακτηριστικό πλαστογράφηση του MAC. Για περισσότερες πληροφορίες, δείτε το <a href=\\\"file:///usr/share/doc/tails/website/doc/first_steps/startup_options/mac_spoofing.en.html#blocked\\\">MAC τεκμηρίωση πλαστογράφησης</ a>."
 
-#: config/chroot_local-includes/usr/local/bin/tails-security-check:145
+#: config/chroot_local-includes/usr/local/bin/tails-security-check:151
 msgid "This version of Tails has known security issues:"
 msgstr "Αυτή η έκδοση του Tails έχει γνωστά προβλήματα ασφαλείας:"
 
-#: config/chroot_local-includes/usr/local/sbin/tails-spoof-mac:29
+#: config/chroot_local-includes/usr/local/sbin/tails-spoof-mac:37
 #, sh-format
 msgid "Network card ${nic} disabled"
 msgstr "Κάρτα δικτύου ${nic} απενεργοποιημένη"
 
-#: config/chroot_local-includes/usr/local/sbin/tails-spoof-mac:30
+#: config/chroot_local-includes/usr/local/sbin/tails-spoof-mac:38
 #, sh-format
 msgid ""
 "MAC spoofing failed for network card ${nic_name} (${nic}) so it is temporarily disabled.\n"
 "You might prefer to restart Tails and disable MAC spoofing. See the <a href='file:///usr/share/doc/tails/website/doc/first_steps/startup_options/mac_spoofing.en.html'>documentation</a>."
 msgstr "MAC πλαστογράφηση απέτυχε για την κάρτα δικτύου ${nic_name} (${nic}) επομένως  έχει απενεργοποιηθεί προσωρινά.\nΊσως προτιμάτε να κάνετε επανεκκίνηση το Tails και να απενεργοποιήσετε την πλαστογράφηση MAC. Δείτε το <a href='file:///usr/share/doc/tails/website/doc/first_steps/startup_options/mac_spoofing.en.html'>τεκμηρίωση</a>."
 
-#: config/chroot_local-includes/usr/local/sbin/tails-spoof-mac:39
+#: config/chroot_local-includes/usr/local/sbin/tails-spoof-mac:47
 msgid "All networking disabled"
 msgstr "Όλη η δικτύωση απενεργοποιημένη"
 
-#: config/chroot_local-includes/usr/local/sbin/tails-spoof-mac:40
+#: config/chroot_local-includes/usr/local/sbin/tails-spoof-mac:48
 #, sh-format
 msgid ""
 "MAC spoofing failed for network card ${nic_name} (${nic}). The error recovery also failed so all networking is disabled.\n"
@@ -311,12 +342,12 @@ msgid ""
 msgstr "MAC πλαστογράφηση απέτυχε για την κάρτα δικτύου ${nic_name} (${nic}). Η ανάκαμψη του λάθους επίσης απέτυχε, επομένως η δικτύωση είναι απενεργοποιημένη.\nΊσως προτιμάτε να κάνετε επανεκκίνηση του Tails και να απενεργοποιήσετε την πλαστογράφηση MAC. Δείτε την <a href='file:///usr/share/doc/first_steps/startup_options/mac_spoofing.en.html'>τεκμηρίωση</a>."
 
 #: config/chroot_local-includes/usr/local/bin/tails-upgrade-frontend-wrapper:19
-#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:61
+#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:22
 msgid "error:"
 msgstr "σφάλμα:"
 
 #: config/chroot_local-includes/usr/local/bin/tails-upgrade-frontend-wrapper:20
-#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:62
+#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:23
 msgid "Error"
 msgstr "Σφάλμα"
 
@@ -346,122 +377,128 @@ msgstr "Τόσο το λειτουργικό σύστημα που φιλοξε�
 #: config/chroot_local-includes/usr/local/bin/tails-virt-notify-user:57
 msgid ""
 "<a "
-"href='file:///usr/share/doc/tails/website/doc/advanced_topics/virtualization.en.html'>Learn"
+"href='file:///usr/share/doc/tails/website/doc/advanced_topics/virtualization.en.html#security'>Learn"
 " more...</a>"
-msgstr "<a href='file:///usr/share/doc/tails/website/doc/advanced_topics/virtualization.en.html'>Μάθετε περισσότερα...</a>"
+msgstr "<a href='file:///usr/share/doc/tails/website/doc/advanced_topics/virtualization.en.html#security'>Μάθετε περισσότερα (Αγγλικά)...</a>"
 
-#: config/chroot_local-includes/usr/local/bin/tor-browser:18
+#: config/chroot_local-includes/usr/local/bin/tor-browser:24
 msgid "Tor is not ready"
 msgstr "Το Tor δεν είναι έτοιμο"
 
-#: config/chroot_local-includes/usr/local/bin/tor-browser:19
+#: config/chroot_local-includes/usr/local/bin/tor-browser:25
 msgid "Tor is not ready. Start Tor Browser anyway?"
 msgstr "Το Tor δεν είναι έτοιμο. Εκκίνηση του Tor Browser όπως και να 'χει;"
 
-#: config/chroot_local-includes/usr/local/bin/tor-browser:20
+#: config/chroot_local-includes/usr/local/bin/tor-browser:26
 msgid "Start Tor Browser"
 msgstr "Εκκίνηση του Tor Browser"
 
-#: config/chroot_local-includes/usr/local/bin/tor-browser:21
+#: config/chroot_local-includes/usr/local/bin/tor-browser:27
 msgid "Cancel"
 msgstr "Άκυρον"
 
-#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:72
+#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:33
 msgid "Do you really want to launch the Unsafe Browser?"
 msgstr "Θέλετε πραγματικά να ξεκινήσετε τον μη ασφαλή Browser;"
 
-#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:74
+#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:35
 msgid ""
 "Network activity within the Unsafe Browser is <b>not anonymous</b>. Only use"
 " the Unsafe Browser if necessary, for example if you have to login or "
 "register to activate your Internet connection."
 msgstr "Η δικτυακή δραστηριότητα μέσω του μη ασφαλή Browser <b>δεν είναι ασφαλής</b>. Χρησιμοποιείστε τον Ανασφαλή Browser μόνο αν είναι απαραίτητο, για παράδειγμα εάν χρειάζεται να κάνετε login ή εγγραφή για να ενεργοποιήσετε τη συνδεσή σας στο διαδίκτυο."
 
-#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:75
-msgid "_Launch"
-msgstr "_Εκκίνηση"
-
-#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:76
-msgid "_Exit"
-msgstr "_Έξοδος"
-
-#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:86
+#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:47
 msgid "Starting the Unsafe Browser..."
 msgstr "Εκκίνηση του μη ασφαλή Browser..."
 
-#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:87
+#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:48
 msgid "This may take a while, so please be patient."
 msgstr "Αυτό μπορεί να πάρει λίγο χρόνο, παρακαλούμε κάντε υπομονή."
 
-#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:121
-msgid "Failed to setup chroot."
-msgstr "Αποτυχία ρύθμισης chroot."
-
-#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:195
-#: ../config/chroot_local-includes/usr/share/applications/unsafe-browser.desktop.in.h:1
-msgid "Unsafe Browser"
-msgstr "Μη ασφαλής Browser"
-
-#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:251
+#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:53
 msgid "Shutting down the Unsafe Browser..."
 msgstr "Κλείσιμο του μη ασφαλή Browser..."
 
-#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:252
+#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:54
 msgid ""
 "This may take a while, and you may not restart the Unsafe Browser until it "
 "is properly shut down."
 msgstr "Αυτό μπορεί να πάρει λίγη ώρα, και δεν πρέπει να επανεκκινήσετε τον μη ασφαλή Browser μέχρι να κλείσει μόνος του σωστά."
 
-#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:264
+#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:66
 msgid "Failed to restart Tor."
 msgstr "Αποτυχία επανεκκίνησης του Tor."
 
-#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:272
+#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:85
+#: ../config/chroot_local-includes/usr/share/applications/unsafe-browser.desktop.in.h:1
+msgid "Unsafe Browser"
+msgstr "Μη ασφαλής Browser"
+
+#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:93
 msgid ""
 "Another Unsafe Browser is currently running, or being cleaned up. Please "
 "retry in a while."
 msgstr "Ένας άλλος Μη-Ασφαλής Browser εκτελείται αυτή τη στιγμή, ή του γίνεται εκκαθάριση. Παρακαλώ δοκιμάστε ξανά σε λίγο."
 
-#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:285
+#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:105
+msgid ""
+"NetworkManager passed us garbage data when trying to deduce the clearnet DNS"
+" server."
+msgstr "Ο NetworkManager μας έδωσε δεδομένα - απορίμματα στην προσπάθεια εξαγωγής του διακομιστή clearnet DNS."
+
+#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:115
 msgid ""
 "No DNS server was obtained through DHCP or manually configured in "
 "NetworkManager."
 msgstr "Δεν αποκτήθηκε DNS server μέσω DHCP ή μέσω χειροκίνητης ρύθμισης στο NetworkManager."
 
-#: config/chroot_local-includes/usr/local/sbin/tails-i2p:30
+#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:123
+msgid "Failed to setup chroot."
+msgstr "Αποτυχία ρύθμισης chroot."
+
+#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:129
+msgid "Failed to configure browser."
+msgstr "Αποτυχία ρύθμισης του browser."
+
+#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:134
+msgid "Failed to run browser."
+msgstr "Αποτυχία εκτέλεησης του browser."
+
+#: config/chroot_local-includes/usr/local/sbin/tails-i2p:31
 msgid "I2P failed to start"
 msgstr "Το I2P απέτυχε να ξεκινήσει"
 
-#: config/chroot_local-includes/usr/local/sbin/tails-i2p:31
+#: config/chroot_local-includes/usr/local/sbin/tails-i2p:32
 msgid ""
 "Something went wrong when I2P was starting. Check the logs in /var/log/i2p "
 "for more information."
 msgstr "Κάτι δεν πήγε καλά όταν ξεκινούσε το I2P. Για περισσότερες πληροφορίες ελέγξτε τα αρχεία καταγραφής στο /var/log/i2p."
 
-#: config/chroot_local-includes/usr/local/sbin/tails-i2p:42
+#: config/chroot_local-includes/usr/local/sbin/tails-i2p:43
 msgid "I2P's router console is ready"
 msgstr "Η κονσόλα του δρομολογητή I2P είναι έτοιμη"
 
-#: config/chroot_local-includes/usr/local/sbin/tails-i2p:43
+#: config/chroot_local-includes/usr/local/sbin/tails-i2p:44
 msgid "You can now access I2P's router console on http://127.0.0.1:7657."
 msgstr "Μπορείτε τώρα να έχετε πρόσβαση στην κονσόλα του ρούτερ I2P μέσω της διεύθυνσης http://127.0.0.1:7657."
 
-#: config/chroot_local-includes/usr/local/sbin/tails-i2p:48
+#: config/chroot_local-includes/usr/local/sbin/tails-i2p:49
 msgid "I2P is not ready"
 msgstr "Ο I2P δεν είναι έτοιμος"
 
-#: config/chroot_local-includes/usr/local/sbin/tails-i2p:49
+#: config/chroot_local-includes/usr/local/sbin/tails-i2p:50
 msgid ""
 "Eepsite tunnel not built within six minutes. Check the router console at "
 "http://127.0.0.1:7657/logs or the logs in /var/log/i2p for more information."
 " Reconnect to the network to try again."
 msgstr "Eepsite σήραγγα δεν χτίστηκε μέσα σε έξι λεπτά. Ελέγξτε την κονσόλα router στο http://127.0.0.1:7657/logs ή τα αρχεία καταγραφής στο φάκελο / var / log / i2p για περισσότερες πληροφορίες. Επανασύνδεση με το δίκτυο για να προσπαθήσετε ξανά."
 
-#: config/chroot_local-includes/usr/local/sbin/tails-i2p:59
+#: config/chroot_local-includes/usr/local/sbin/tails-i2p:60
 msgid "I2P is ready"
 msgstr "Ο I2P είναι έτοιμος"
 
-#: config/chroot_local-includes/usr/local/sbin/tails-i2p:60
+#: config/chroot_local-includes/usr/local/sbin/tails-i2p:61
 msgid "You can now access services on I2P."
 msgstr "Μπορείτε τώρα να έχετε πρόσβαση στις υπηρεσίες I2P"
 
