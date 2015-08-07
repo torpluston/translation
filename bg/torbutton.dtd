@@ -15,7 +15,7 @@
 <!ENTITY torbutton.about.summary "Защитава анонимността ви в Tor">
 <!ENTITY torbutton.about.code "Code Contributors:">
 <!ENTITY torbutton.about.maintainer "Отговорник:">
-<!ENTITY torbutton.about.security_review "Security Review:">
+<!ENTITY torbutton.about.security_review "Преглед на Сигурността:">
 <!ENTITY torbutton.about.donate "Ако ви харесва Tor,вие може да обмислите">
 <!ENTITY torbutton.about.make_donation "дарение.">
 <!ENTITY torbutton.pref_connection.notice "Disable Torbutton to change these settings.">
@@ -26,17 +26,17 @@
 <!ENTITY torbutton.context_menu.new_identity_key "I">
 <!ENTITY torbutton.context_menu.new_circuit "New Tor Circuit for this Site">
 <!ENTITY torbutton.context_menu.new_circuit_key "C">
-<!ENTITY torbutton.context_menu.toggle "Toggle Tor status">
+<!ENTITY torbutton.context_menu.toggle "Tor статус на превключване">
 <!ENTITY torbutton.context_menu.toggle.key "T">
 <!ENTITY torbutton.context_menu.preferences "Privacy and Security Settings…">
 <!ENTITY torbutton.context_menu.preferences.key "P">
 <!ENTITY torbutton.context_menu.about "Относно Torbutton...">
 <!ENTITY torbutton.context_menu.about.key "A">
-<!ENTITY torbutton.context_menu.networksettings "Tor Network Settings…">
+<!ENTITY torbutton.context_menu.networksettings "Tor Мрежови Настройки ...">
 <!ENTITY torbutton.context_menu.networksettings.key "S">
 <!ENTITY torbutton.context_menu.downloadUpdate "Check for Tor Browser Update…">
 <!ENTITY torbutton.context_menu.downloadUpdate.key "U">
-<!ENTITY torbutton.context_menu.cookieProtections "Cookie Protections…">
+<!ENTITY torbutton.context_menu.cookieProtections "Защита от Бисквитки  ...">
 <!ENTITY torbutton.context_menu.cookieProtections.key "C">
 <!ENTITY torbutton.context_menu.copyTor "Копирай Tor URL">
 <!ENTITY torbutton.context_menu.copyTor.key "p">
@@ -47,11 +47,14 @@
 <!ENTITY torbutton.button.label "Torbutton">
 <!ENTITY torbutton.button.tooltip "Натисни за инициализиране на Torbutton">
 <!ENTITY torbutton.prefs.privacy_security_settings "Лични и защитни настройки">
-<!ENTITY torbutton.prefs.block_thread "Block history reads during Tor (crucial)">
-<!ENTITY torbutton.prefs.block_thwrite "Block history writes during Tor (recommended)">
-<!ENTITY torbutton.prefs.block_nthread "Block history reads during Non-Tor (optional)">
-<!ENTITY torbutton.prefs.block_nthwrite "Block history writes during Non-Tor (optional)">
-<!ENTITY torbutton.prefs.clear_history "Clear history on Tor toggle (optional)">
+<!ENTITY torbutton.prefs.block_thread "Блокирай четене на история по време на Tor сесия
+(от решаващо значение).">
+<!ENTITY torbutton.prefs.block_thwrite "Блокирай писане на история по време на Tor сесия(препоръчително).">
+<!ENTITY torbutton.prefs.block_nthread "Блокирай четене на история по време на Non-Tor сесия
+ (по желание).">
+<!ENTITY torbutton.prefs.block_nthwrite "Блокирай писане на история по време на Non-Tor сесия 
+(по желание).">
+<!ENTITY torbutton.prefs.clear_history "Изчистване на историята при Tor превключване (по желание).">
 <!ENTITY torbutton.prefs.clear_cache "Block Tor disk cache and clear all cache on Tor toggle">
 <!ENTITY torbutton.prefs.block_cache "Блокирай достъпа до кеша на диска и паметта при използване на Tor">
 <!ENTITY torbutton.prefs.cookie_jars "Store Non-Tor cookies in a protected jar">
@@ -153,35 +156,35 @@
 <!ENTITY torbutton.prefs.resist_fingerprinting "Change details that distinguish you from other Tor Browser users">
 <!ENTITY torbutton.prefs.sec_caption "Ниво на защита">
 <!ENTITY torbutton.prefs.sec_low "Ниско (по подразбиране)">
-<!ENTITY torbutton.prefs.sec_low_usable_desc "This provides the most usable experience.">
-<!ENTITY torbutton.prefs.sec_low_desc "At this security level, all browser features are enabled.">
-<!ENTITY torbutton.prefs.sec_font_rend_svg_tooltip "The SVG OpenType font rendering mechanism is disabled.">
+<!ENTITY torbutton.prefs.sec_low_usable_desc "Това осигурява най-използваемия опит.">
+<!ENTITY torbutton.prefs.sec_low_desc "На това ниво на сигурност, всички функции на браузъра са активирани.">
+<!ENTITY torbutton.prefs.sec_font_rend_svg_tooltip "SVG OpenType механизъм за рендиране на шрифта е изключен.">
 <!ENTITY torbutton.prefs.sec_med_low "Средно-ниско">
-<!ENTITY torbutton.prefs.sec_gen_desc "At this security level, the following changes apply (mouseover for details):">
-<!ENTITY torbutton.prefs.sec_html5_desc "HTML5 video and audio media become click-to-play via NoScript.">
+<!ENTITY torbutton.prefs.sec_gen_desc "На това ниво на сигурност, следните промени се прилагат  (Задържане на курсора за подробности):">
+<!ENTITY torbutton.prefs.sec_html5_desc "HTML5 видео и аудио медия стават &quot;кликнете да играете&quot; чрез NoScript">
 <!ENTITY torbutton.prefs.sec_html5_tooltip "On some sites, you might need to use the NoScript toolbar button to enable these media objects.">
-<!ENTITY torbutton.prefs.sec_some_jit_desc "Some JavaScript performance optimizations are disabled.">
+<!ENTITY torbutton.prefs.sec_some_jit_desc "Някои JavaScript оптимизации за производителност са изключени.">
 <!ENTITY torbutton.prefs.sec_jit_desc_tooltip "ION JIT, Type Inference, ASM.JS.">
-<!ENTITY torbutton.prefs.sec_baseline_jit_desc_tooltip "Baseline JIT.">
-<!ENTITY torbutton.prefs.sec_jit_slower_desc "Scripts on some sites may run slower.">
-<!ENTITY torbutton.prefs.sec_jar_desc "Remote JAR files are blocked.">
-<!ENTITY torbutton.prefs.sec_jar_tooltip "JAR files are extremely rare on the web, but can be a source of XSS and other attacks.">
-<!ENTITY torbutton.prefs.sec_mathml_desc "Some mechanisms of displaying math equations are disabled.">
-<!ENTITY torbutton.prefs.sec_mathml_desc_tooltip "MathML is disabled.">
+<!ENTITY torbutton.prefs.sec_baseline_jit_desc_tooltip "Baseline JIT компилатор.">
+<!ENTITY torbutton.prefs.sec_jit_slower_desc "Скриптовете на някои сайтове може да работят по-бавно.">
+<!ENTITY torbutton.prefs.sec_jar_desc "Отдалечени JAR файлове са блокирани.">
+<!ENTITY torbutton.prefs.sec_jar_tooltip "JAR файловете са изключително редки в мрежата, но могат да бъдат източник на XSS и други атаки.">
+<!ENTITY torbutton.prefs.sec_mathml_desc "Някои механизми за показване на математически уравнения са изключени.">
+<!ENTITY torbutton.prefs.sec_mathml_desc_tooltip "MathML е изключен.">
 <!ENTITY torbutton.prefs.sec_med_high "Средно-високо">
-<!ENTITY torbutton.prefs.sec_all_jit_desc "All JavaScript performance optimizations are disabled.">
-<!ENTITY torbutton.prefs.sec_font_rend_desc "Some font rendering features are disabled.">
-<!ENTITY torbutton.prefs.sec_font_rend_graphite_tooltip "The Graphite font rendering mechanism is disabled.">
-<!ENTITY torbutton.prefs.sec_svg_desc "Some types of images are disabled.">
-<!ENTITY torbutton.prefs.sec_svg_desc_tooltip "SVG images are disabled.">
-<!ENTITY torbutton.prefs.sec_js_https_desc "JavaScript is disabled by default on all non-HTTPS sites.">
-<!ENTITY torbutton.prefs.sec_js_desc_tooltip "JavaScript can be enabled on a per-site basis via the NoScript toolbar button.">
+<!ENTITY torbutton.prefs.sec_all_jit_desc "Всички JavaScript оптимизации за производителност са изключени.">
+<!ENTITY torbutton.prefs.sec_font_rend_desc "Някои функции за рендиране на шрифтове са изключени.">
+<!ENTITY torbutton.prefs.sec_font_rend_graphite_tooltip "Механизмът Graphite, за рендиране на шрифта е забранен.">
+<!ENTITY torbutton.prefs.sec_svg_desc "Някои видове изображения са изключени.">
+<!ENTITY torbutton.prefs.sec_svg_desc_tooltip "Изображения с мащабируема векторна графика са изключени.">
+<!ENTITY torbutton.prefs.sec_js_https_desc "JavaScript е изключена по подразбиране на всички не-HTTPS сайтове.">
+<!ENTITY torbutton.prefs.sec_js_desc_tooltip "JavaScript може да бъде разрешен на базата на брой-за-сайт чрез бутона NoScript лента с инструменти.">
 <!ENTITY torbutton.prefs.sec_high "Високо">
-<!ENTITY torbutton.prefs.sec_all_js_desc "JavaScript is disabled by default on all sites.">
-<!ENTITY torbutton.prefs.sec_audio_video_desc "Most audio and video formats are disabled.">
-<!ENTITY torbutton.prefs.sec_audio_video_desc_tooltip "WebM is the only codec that remains enabled.">
-<!ENTITY torbutton.prefs.sec_webfonts_desc "Some fonts and icons may display incorrectly.">
-<!ENTITY torbutton.prefs.sec_webfonts_desc_tooltip "Website-provided font files are blocked.">
+<!ENTITY torbutton.prefs.sec_all_js_desc "JavaScript е изключена по подразбиране за всички сайтове.">
+<!ENTITY torbutton.prefs.sec_audio_video_desc "Повечето аудио и видео формати са изключени.">
+<!ENTITY torbutton.prefs.sec_audio_video_desc_tooltip "WebM е единственият кодек, който остава включен.">
+<!ENTITY torbutton.prefs.sec_webfonts_desc "Някои шрифтове и икони могат да изглеждат неправилно.">
+<!ENTITY torbutton.prefs.sec_webfonts_desc_tooltip "Уебсайт-осигурените шрифт файлове са блокирани">
 <!ENTITY torbutton.prefs.sec_custom "Стойности по избор">
-<!ENTITY torbutton.circuit_display.title "Tor circuit for this site">
+<!ENTITY torbutton.circuit_display.title "Tor връзка за този сайт.">
 
