@@ -12,37 +12,45 @@ msgid ""
 msgstr ""
 "Project-Id-Version: The Tor Project\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-02-11 19:14+0100\n"
-"PO-Revision-Date: 2015-02-14 09:01+0000\n"
+"POT-Creation-Date: 2015-08-10 16:01+0200\n"
+"PO-Revision-Date: 2015-08-12 08:46+0000\n"
 "Last-Translator: skiddiep <lyricaltumor@gmail.com>\n"
-"Language-Team: Croatian (Croatia) (http://www.transifex.com/projects/p/torproject/language/hr_HR/)\n"
+"Language-Team: Croatian (Croatia) (http://www.transifex.com/otf/torproject/language/hr_HR/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: hr_HR\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
 
+#: ../liveusb/gui.py:451
+msgid "\"Clone & Install\""
+msgstr "\"Kloniraj & instaliraj\""
+
+#: ../liveusb/gui.py:453
+msgid "\"Install from ISO\""
+msgstr "\"Instaliraj sa ISO-a\""
+
 #: ../liveusb/dialog.py:150 ../liveusb/launcher_ui.py:149
 #, python-format
 msgid "%(distribution)s Installer"
 msgstr "%(distribution)s instalacijski program"
 
-#: ../liveusb/gui.py:775
+#: ../liveusb/gui.py:804
 #, python-format
 msgid "%(filename)s selected"
 msgstr "%(filename)s odabrano"
 
-#: ../liveusb/gui.py:425
+#: ../liveusb/gui.py:424
 #, python-format
 msgid "%(size)s %(label)s"
 msgstr "%(size)s %(label)s"
 
-#: ../liveusb/gui.py:431
+#: ../liveusb/gui.py:430
 #, python-format
 msgid "%(vendor)s %(model)s (%(details)s) - %(device)s"
 msgstr "%(vendor)s %(model)s (%(details)s) - %(device)s"
 
-#: ../liveusb/creator.py:1063
+#: ../liveusb/creator.py:1097
 #, python-format
 msgid "%s already bootable"
 msgstr "%s već može biti pfoignut"
@@ -99,16 +107,16 @@ msgid ""
 "persist after a reboot."
 msgstr "Dodjeljivanjem dodatnoga prostaora za trajni preklop na Vašem USB-u moći ćete pohraniti podatke i napraviti trajne izmjene Vašeg živog operacijskoga sustava. Bez tog nećete moći pohraniti podatke koji će ostati nakon ponovnog pokretanja."
 
-#: ../liveusb/creator.py:1162 ../liveusb/creator.py:1425
+#: ../liveusb/creator.py:1196 ../liveusb/creator.py:1459
 #, python-format
 msgid "Calculating the SHA1 of %s"
 msgstr "Izračunavam SHA1 %s"
 
-#: ../liveusb/creator.py:1373
+#: ../liveusb/creator.py:1407
 msgid "Cannot find"
 msgstr "Ne mogu pronaći"
 
-#: ../liveusb/creator.py:556
+#: ../liveusb/creator.py:560
 #, python-format
 msgid "Cannot find device %s"
 msgstr "Ne mogu pronaći uređaj %s"
@@ -127,12 +135,12 @@ msgid ""
 "Upgrade"
 msgstr "Kloniraj\n&&\nNadogradi"
 
-#: ../liveusb/creator.py:408
+#: ../liveusb/creator.py:417
 #, python-format
 msgid "Creating %sMB persistent overlay"
 msgstr "Stvaram %s MB trajnog preklopa"
 
-#: ../liveusb/gui.py:553
+#: ../liveusb/gui.py:582
 msgid ""
 "Device is not yet mounted, so we cannot determine the amount of free space."
 msgstr "Uređaj još nije montiran pa ne možemo odrediti količinu slobodnog prostora."
@@ -142,58 +150,58 @@ msgstr "Uređaj još nije montiran pa ne možemo odrediti količinu slobodnog pr
 msgid "Download %(distribution)s"
 msgstr "Preuzmi %(distribution)s"
 
-#: ../liveusb/gui.py:749
+#: ../liveusb/gui.py:778
 msgid "Download complete!"
 msgstr "Preuzimanje dovršeno!"
 
-#: ../liveusb/gui.py:753
+#: ../liveusb/gui.py:782
 msgid "Download failed: "
 msgstr "Preuzimanje nije uspjelo:"
 
-#: ../liveusb/gui.py:88
+#: ../liveusb/gui.py:89
 #, python-format
 msgid "Downloading %s..."
 msgstr "Preuzimam %s…"
 
-#: ../liveusb/creator.py:1158
+#: ../liveusb/creator.py:1192
 msgid "Drive is a loopback, skipping MBR reset"
 msgstr "Pogon se vrti u krug, preskačem resetiranje MBR‑a"
 
-#: ../liveusb/creator.py:827
+#: ../liveusb/creator.py:837
 #, python-format
 msgid "Entering unmount_device for '%(device)s'"
 msgstr "unosim unmount_device za '%(device)s'"
 
-#: ../liveusb/creator.py:1238
+#: ../liveusb/creator.py:1272
 msgid "Error probing device"
 msgstr "Greška ispitivanja uređaja"
 
-#: ../liveusb/gui.py:212
+#: ../liveusb/gui.py:213
 msgid ""
 "Error: Cannot set the label or obtain the UUID of your device.  Unable to "
 "continue."
 msgstr "Greška: Ne mogu postaviti oznaku ili doći do UUID‑a Vašeg uređaja. Ne mogu nastaviti."
 
-#: ../liveusb/creator.py:384
+#: ../liveusb/creator.py:393
 msgid ""
 "Error: The SHA1 of your Live CD is invalid.  You can run this program with "
 "the --noverify argument to bypass this verification check."
 msgstr "Greška: SHA1 Vašeg Živog CD‑a je neispravan. Možete pokrenuti ovaj program s argumentom --noverify kako bi zaobišli ovu provjeru valjanosti."
 
-#: ../liveusb/creator.py:147
+#: ../liveusb/creator.py:155
 msgid "Extracting live image to the target device..."
 msgstr "Razpakiravam živu sliku na ciljni uređaj…"
 
-#: ../liveusb/creator.py:1106
+#: ../liveusb/creator.py:1140
 #, python-format
 msgid "Formatting %(device)s as FAT32"
 msgstr "Formatiram %(device)s kao FAT32"
 
-#: ../liveusb/creator.py:142
+#: ../liveusb/creator.py:150
 msgid "ISO MD5 checksum passed"
 msgstr "MD5 kontrolni zbroj ISO-a je prošao"
 
-#: ../liveusb/creator.py:140
+#: ../liveusb/creator.py:148
 msgid "ISO MD5 checksum verification failed"
 msgstr "Verifikacija MD5 kontrolnog zbroja ISO-a neuspjela"
 
@@ -207,73 +215,81 @@ msgstr "Ako ne izaberete postojeći Živi ISO, odabrano izdanje će biti skinuto
 msgid "Install Tails"
 msgstr "Instaliraj Tails"
 
-#: ../liveusb/gui.py:616
+#: ../liveusb/gui.py:645
 msgid "Installation complete!"
 msgstr "Instalacija dovršena!"
 
-#: ../liveusb/gui.py:264
+#: ../liveusb/gui.py:265
 #, python-format
 msgid "Installation complete! (%s)"
 msgstr "Instalacija dovršena! (%s)"
 
-#: ../liveusb/gui.py:617
+#: ../liveusb/gui.py:646
 msgid "Installation was completed. Press OK to close this program."
 msgstr "instalacija je dovršena. Pritisnite „OK“ kako bi zatvorili ovaj program."
 
-#: ../liveusb/creator.py:963 ../liveusb/creator.py:1279
+#: ../liveusb/creator.py:990 ../liveusb/creator.py:1313
 msgid "Installing bootloader..."
 msgstr "Instaliram podizač…"
 
-#: ../liveusb/gui.py:269
+#: ../liveusb/gui.py:454
+#, python-format
+msgid ""
+"It is impossible to upgrade the device %(pretty_name)s because it was not "
+"created using Tails Installer. You should instead use %(action)s to upgrade "
+"Tails on this device."
+msgstr "Nemoguće je nadograditi uređaj %(pretty_name)s jer nije stvoren korištenjem Tails instalera. Umjesto toga, trebali bi koristiti %(action)s kako bi nadogradili Tails na ovom uređaju."
+
+#: ../liveusb/gui.py:270
 msgid "LiveUSB creation failed!"
 msgstr "Stvaranje ŽivogUSB‑a neuspjelo!"
 
-#: ../liveusb/creator.py:1374
+#: ../liveusb/creator.py:1408
 msgid ""
 "Make sure to extract the entire liveusb-creator zip file before running this"
 " program."
 msgstr "Raspakirajte cijelu liveusb-creator ZIP datoteku prije pokretanja ovoga programa."
 
-#: ../liveusb/creator.py:1250
+#: ../liveusb/creator.py:1284
 msgid ""
 "Make sure your USB key is plugged in and formatted with the FAT filesystem"
 msgstr "Pobrinite se da je Vaš USB uključen i formatiran u FAT formatu."
 
-#: ../liveusb/creator.py:849
+#: ../liveusb/creator.py:859
 #, python-format
 msgid "Mount %s exists after unmounting"
 msgstr "%s je postavljen i nakon odmontiranja"
 
-#: ../liveusb/gui.py:559
+#: ../liveusb/gui.py:588
 #, python-format
 msgid "No free space on device %(device)s"
 msgstr "Nema slobodnoga prostora na uređaju %(device)s"
 
-#: ../liveusb/creator.py:816
+#: ../liveusb/creator.py:826
 msgid "No mount points found"
 msgstr "Nisu pronađene točke postavljanja"
 
-#: ../liveusb/creator.py:401
+#: ../liveusb/creator.py:410
 #, python-format
 msgid ""
 "Not enough free space on device.\n"
 "%dMB ISO + %dMB overlay > %dMB free space"
 msgstr "Nedovoljno slobodnog prostora na uređaju.\n%dMB ISO + %dMB preklop > %dMB slobodan prostor"
 
-#: ../liveusb/gui.py:540
+#: ../liveusb/gui.py:569
 msgid "Partition is FAT16; Restricting overlay size to 2G"
 msgstr "Particija je FAT16; ograničavam veličinu preklopa na 2 GB"
 
-#: ../liveusb/gui.py:536
+#: ../liveusb/gui.py:565
 msgid "Partition is FAT32; Restricting overlay size to 4G"
 msgstr "Particija je FAT32; ograničavam veličinu preklopa na 4 GB"
 
-#: ../liveusb/creator.py:228 ../liveusb/creator.py:856
+#: ../liveusb/creator.py:236 ../liveusb/creator.py:866
 #, python-format
 msgid "Partitioning device %(device)s"
 msgstr "Particioniram uređaj %(device)s"
 
-#: ../liveusb/gui.py:607
+#: ../liveusb/gui.py:636
 msgid "Persistent Storage"
 msgstr "Trajna pohrana"
 
@@ -281,53 +297,53 @@ msgstr "Trajna pohrana"
 msgid "Persistent Storage (0 MB)"
 msgstr "Trajna pohrana (0 MB)"
 
-#: ../liveusb/gui.py:669 ../liveusb/gui.py:698
+#: ../liveusb/gui.py:698 ../liveusb/gui.py:727
 msgid "Please confirm your device selection"
 msgstr "Molimo potvrdite Vaš izbor uređaja"
 
-#: ../liveusb/gui.py:453
+#: ../liveusb/gui.py:481
 msgid "Refreshing releases..."
 msgstr "Osvježavam izdanja…"
 
-#: ../liveusb/gui.py:458
+#: ../liveusb/gui.py:486
 msgid "Releases updated!"
 msgstr "Izdanja ažurirana!"
 
-#: ../liveusb/creator.py:970 ../liveusb/creator.py:1297
+#: ../liveusb/creator.py:997 ../liveusb/creator.py:1331
 #, python-format
 msgid "Removing %(file)s"
 msgstr "Mičem %(file)s"
 
-#: ../liveusb/creator.py:483
+#: ../liveusb/creator.py:492
 msgid "Removing existing Live OS"
 msgstr "Mičem postojeći Živi OS"
 
-#: ../liveusb/creator.py:1152
+#: ../liveusb/creator.py:1186
 #, python-format
 msgid "Resetting Master Boot Record of %s"
 msgstr "Ponovno postavljam Master Boot Record %s"
 
-#: ../liveusb/gui.py:760
+#: ../liveusb/gui.py:789
 msgid "Select Live ISO"
 msgstr "Izaberite Živi ISO"
 
-#: ../liveusb/creator.py:184
+#: ../liveusb/creator.py:192
 msgid "Setting up OLPC boot file..."
 msgstr "Postavljam OLPC pokretačku datoteku…"
 
-#: ../liveusb/creator.py:730
+#: ../liveusb/creator.py:742
 #, python-format
 msgid ""
 "Some partitions of the target device %(device)s are mounted. They will be "
 "unmounted before starting the installation process."
 msgstr "Neke particije odredišnoga uređaja %(device)s su postavljene. One će biti odmontirane prije započinjanja instalacije."
 
-#: ../liveusb/creator.py:133
+#: ../liveusb/creator.py:141
 msgid ""
 "Source type does not support verification of ISO MD5 checksum, skipping"
 msgstr "Vrsta izvora ne podržava MD5 kontrolni međuzbroj ISO-a; preskačem"
 
-#: ../liveusb/creator.py:1186
+#: ../liveusb/creator.py:1220
 msgid "Synchronizing data on disk..."
 msgstr "Usklađujem podatke na disku…"
 
@@ -335,13 +351,20 @@ msgstr "Usklađujem podatke na disku…"
 msgid "Target Device"
 msgstr "Ciljni uređaj"
 
-#: ../liveusb/gui.py:763
+#: ../liveusb/gui.py:438
+#, python-format
+msgid ""
+"The device \"%(pretty_name)s\" is too small to install Tails (at least "
+"%(size)s GB is required)."
+msgstr "Uređaj \"%(pretty_name)s\" je premalen da bi se na njega instalirao Tails (potrebno je najmanje %(size)s GB)."
+
+#: ../liveusb/gui.py:792
 msgid ""
 "The selected file is unreadable. Please fix its permissions or select "
 "another file."
 msgstr "Izabrana datoteka je nečitljiva. Molimo popravite njezine dozvole ili izaberite drugu datoteku."
 
-#: ../liveusb/creator.py:345
+#: ../liveusb/creator.py:354
 #, python-format
 msgid ""
 "There was a problem executing the following command: `%(command)s`.\n"
@@ -379,134 +402,127 @@ msgstr "Ovo je traka napretka koja će pokazivati koliko ste daleko u postupku s
 msgid "This is the status console, where all messages get written to."
 msgstr "Ovo je konzola stanja na koju se ispisuju sve poruke."
 
-#: ../liveusb/creator.py:925
+#: ../liveusb/creator.py:952
 msgid "Trying to continue anyway."
 msgstr "Pokušavam svejedno nastaviti."
 
-#: ../liveusb/gui.py:407
+#: ../liveusb/gui.py:464
 msgid "USB drive found"
 msgstr "USB pogon pronađen"
 
-#: ../liveusb/creator.py:958
+#: ../liveusb/creator.py:985
 #, python-format
 msgid "Unable to change volume label: %(message)s"
 msgstr "Ne mogu izmijeniti oznaku pogona: %(message)s"
 
-#: ../liveusb/creator.py:492 ../liveusb/creator.py:503
+#: ../liveusb/creator.py:501 ../liveusb/creator.py:512
 #, python-format
 msgid "Unable to chmod %(file)s: %(message)s"
 msgstr "Ne mogu izmijeniti dozvole %(file)s: %(message)s"
 
-#: ../liveusb/creator.py:469
+#: ../liveusb/creator.py:478
 #, python-format
 msgid "Unable to copy %(infile)s to %(outfile)s: %(message)s"
 msgstr "Ne mogu preslikati %(infile)s u %(outfile)s: %(message)s"
 
-#: ../liveusb/gui.py:402
+#: ../liveusb/gui.py:403
 msgid "Unable to find any USB drive"
 msgstr "Ne mogu naći niti jedan USB pogon"
 
-#: ../liveusb/creator.py:1240
+#: ../liveusb/creator.py:1274
 msgid "Unable to find any supported device"
 msgstr "Ne mogu naći niti jedan podržani uređaj"
 
-#: ../liveusb/creator.py:1083
+#: ../liveusb/creator.py:1117
 msgid "Unable to find partition"
 msgstr "Ne mogu naći particiju"
 
-#: ../liveusb/creator.py:1320
+#: ../liveusb/creator.py:1354
 msgid ""
 "Unable to get Win32_LogicalDisk; win32com query did not return any results"
 msgstr "Ne mogu dobiti Win32_LogicalDisk; win32com upit nije vratio nikakve rezultate"
 
-#: ../liveusb/gui.py:662
+#: ../liveusb/gui.py:691
 msgid "Unable to mount device"
 msgstr "Ne mogu postaviti uređaj"
 
-#: ../liveusb/creator.py:804
+#: ../liveusb/creator.py:814
 #, python-format
 msgid "Unable to mount device: %(message)s"
 msgstr "Ne mogu postaviti uređaj: %(message)s"
 
-#: ../liveusb/creator.py:508
+#: ../liveusb/creator.py:517
 #, python-format
 msgid "Unable to remove directory from previous LiveOS: %(message)s"
 msgstr "Ne mogu maknuti direktorij iz prethodnoga ŽivogOS‑a: %(message)s"
 
-#: ../liveusb/creator.py:496
+#: ../liveusb/creator.py:505
 #, python-format
 msgid "Unable to remove file from previous LiveOS: %(message)s"
 msgstr "Ne mogu maknuti datoteku iz prethodnoga ŽivogOS‑a: %(message)s"
 
-#: ../liveusb/creator.py:1155
+#: ../liveusb/creator.py:1189
 msgid ""
 "Unable to reset MBR.  You may not have the `syslinux` package installed."
 msgstr "Ne mogu ponovno postaviti MBR. Možda nemate ugrađen paket 'syslinux'."
 
-#: ../liveusb/gui.py:769
+#: ../liveusb/gui.py:798
 msgid ""
 "Unable to use the selected file.  You may have better luck if you move your "
 "ISO to the root of your drive (ie: C:\\)"
 msgstr "Nisam u mogućnosti koristiti izabranu datoteku. Možda ćete imati više sreće ako Vaš ISO premjestite u korijen Vašega pogona (npr C:\\)"
 
-#: ../liveusb/creator.py:711
+#: ../liveusb/creator.py:723
 #, python-format
 msgid "Unable to write on %(device)s, skipping."
 msgstr "Ne mogu pisati na %(device)s; preskačem."
 
-#: ../liveusb/creator.py:390
+#: ../liveusb/creator.py:399
 msgid "Unknown ISO, skipping checksum verification"
 msgstr "Nepoznat ISO; preskačem provjeru kontrolnog zbroja"
 
-#: ../liveusb/creator.py:800
+#: ../liveusb/creator.py:810
 #, python-format
 msgid "Unknown dbus exception while trying to mount device: %(message)s"
 msgstr "Nepoznata dbus iznimka pri pokušaju montiranja uređaja: %(message)s"
 
-#: ../liveusb/creator.py:779 ../liveusb/creator.py:937
+#: ../liveusb/creator.py:791 ../liveusb/creator.py:964
 msgid "Unknown filesystem.  Your device may need to be reformatted."
 msgstr "Nepoznat sustav datoteka. Vaš uređaj možda treba ponovno formatirati."
 
-#: ../liveusb/gui.py:84
+#: ../liveusb/gui.py:85
 #, python-format
 msgid "Unknown release: %s"
 msgstr "Nepoznato izdanje: %s"
 
-#: ../liveusb/creator.py:841
+#: ../liveusb/creator.py:851
 #, python-format
 msgid "Unmounting '%(udi)s' on '%(device)s'"
 msgstr "Skidam '%(udi)s' sa '%(device)s'"
 
-#: ../liveusb/creator.py:837
+#: ../liveusb/creator.py:847
 #, python-format
 msgid "Unmounting mounted filesystems on '%(device)s'"
 msgstr "Skidam postavljeni sustav datoteka na '%(device)s'"
 
-#: ../liveusb/creator.py:922
+#: ../liveusb/creator.py:949
 #, python-format
 msgid "Unsupported device '%(device)s', please report a bug."
 msgstr "Nepodržan uređaj '%(device)s', molimo Vas da prijavite problem."
 
-#: ../liveusb/creator.py:784 ../liveusb/creator.py:940
+#: ../liveusb/creator.py:794 ../liveusb/creator.py:967
 #, python-format
 msgid "Unsupported filesystem: %s"
 msgstr "Nepodržani sustav datoteka: %s"
 
-#: ../liveusb/creator.py:782
-#, python-format
-msgid ""
-"Unsupported filesystem: %s\n"
-"In case you are trying to upgrade a manually installed Tails system (that is, if it was installed without this installer), this option is not supported: you need to install it anew to start with, e.g. by choosing the \"Clone & Install\" action instead."
-msgstr "Nepodržani sustav datoteka: %s\nU slučaju da pokušavate nadograditi ručno instalirani Tails sustav (ako je bio instaliran bez ovog instalatora), ova opcija nije podržana: morate instalirati nanovo,  koristeći \"Clone & Install\" radnju."
-
-#: ../liveusb/creator.py:1253
+#: ../liveusb/creator.py:1287
 #, python-format
 msgid ""
 "Unsupported filesystem: %s\n"
 "Please backup and format your USB key with the FAT filesystem."
 msgstr "Nepodržani sustav datoteka: %s\nMolimo Vas da stvorite sigurnosnu kopiju Vašeg USB-a te da ga formatirate koristeći FAT sustav datoteka."
 
-#: ../liveusb/creator.py:882
+#: ../liveusb/creator.py:892
 #, python-format
 msgid "Updating properties of system partition %(system_partition)s"
 msgstr "Ažuriram svojstva sustavne particije %(system_partition)s"
@@ -519,47 +535,47 @@ msgstr "Nadogradite sa ISO-a"
 msgid "Use existing Live system ISO"
 msgstr "Koristite postojeći ISO Živog sustava"
 
-#: ../liveusb/creator.py:135
+#: ../liveusb/creator.py:143
 msgid "Verifying ISO MD5 checksum"
 msgstr "Provjera MD5 kontrolnog zbroja ISO-a"
 
-#: ../liveusb/creator.py:364
+#: ../liveusb/creator.py:373
 msgid "Verifying SHA1 checksum of LiveCD image..."
 msgstr "Provjeravam SHA1 kontrolni broj slike ŽivogCD-a..."
 
-#: ../liveusb/creator.py:368
+#: ../liveusb/creator.py:377
 msgid "Verifying SHA256 checksum of LiveCD image..."
 msgstr "Provjeravam SHA256 kontrolni broj slike ŽivogCD-a..."
 
-#: ../liveusb/creator.py:934 ../liveusb/creator.py:1246
+#: ../liveusb/creator.py:961 ../liveusb/creator.py:1280
 msgid "Verifying filesystem..."
 msgstr "Provjeravam sustav datoteka..."
 
-#: ../liveusb/gui.py:696
+#: ../liveusb/gui.py:725
 msgid ""
 "Warning: Creating a new persistent overlay will delete your existing one."
 msgstr "Upozorenje: Stvaranje novog trajnog preklopa će izbirsati postojeći."
 
-#: ../liveusb/gui.py:376
+#: ../liveusb/gui.py:377
 msgid ""
 "Warning: This tool needs to be run as an Administrator. To do this, right "
 "click on the icon and open the Properties. Under the Compatibility tab, "
 "check the \"Run this program as an administrator\" box."
 msgstr "Upozorenje: Ovaj alat morate pokrenuti kao Administrator. Da bi to napravili, kliknite desnom tipkom miša na ikonu i otvorite Svojstva. Pod karticom Kompatibilnost, označite kvačicom \"Pokreni ovaj program kao administrator\"."
 
-#: ../liveusb/creator.py:154
+#: ../liveusb/creator.py:162
 #, python-format
 msgid "Wrote to device at %(speed)d MB/sec"
 msgstr "Zapisao na uređaj brzinom od %(speed)d MB/sec"
 
-#: ../liveusb/gui.py:670
+#: ../liveusb/gui.py:699
 #, python-format
 msgid ""
 "You are going to install Tails on the %(size)s %(vendor)s %(model)s device "
 "(%(device)s). All data on the selected device will be lost. Continue?"
 msgstr "Instalirati ćete Tails na %(size)s %(vendor)s %(model)s uređaj (%(device)s). Svi podatci na odabranom uređaju će biti izgubljeni. Nastaviti?"
 
-#: ../liveusb/gui.py:686
+#: ../liveusb/gui.py:715
 #, python-format
 msgid ""
 "You are going to upgrade Tails on the %(parent_size)s %(vendor)s %(model)s "
@@ -567,17 +583,17 @@ msgid ""
 "unchanged. Continue?"
 msgstr "Nadograditi ćete Tails na %(parent_size)s %(vendor)s %(model)s uređaj (%(device)s). Svi trajni pogoni na ovom uređaju će ostati nepromijenjeni. Nastaviti?"
 
-#: ../liveusb/creator.py:618
+#: ../liveusb/creator.py:622
 msgid ""
 "You are using an old version of syslinux-extlinux that does not support the "
 "ext4 filesystem"
 msgstr "Koristite staru syslinux-extlinux inačicu koja ne podržava ext4 sustav datoteka"
 
-#: ../liveusb/gui.py:754
+#: ../liveusb/gui.py:783
 msgid "You can try again to resume your download"
 msgstr "Možete pokušati ponovno za nastavak preuzimanja"
 
-#: ../liveusb/creator.py:94
+#: ../liveusb/creator.py:95
 msgid "You must run this application as root"
 msgstr "Morate pokrenuti ovu aplikaciju kao root"
 
