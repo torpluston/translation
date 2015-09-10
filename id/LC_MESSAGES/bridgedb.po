@@ -16,9 +16,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: The Tor Project\n"
 "Report-Msgid-Bugs-To: 'https://trac.torproject.org/projects/tor/newticket?component=BridgeDB&keywords=bridgedb-reported,msgid&cc=isis,sysrqb&owner=isis'POT-Creation-Date: 2015-03-19 22:13+0000\n"
-"PO-Revision-Date: 2015-06-29 15:04+0000\n"
+"PO-Revision-Date: 2015-09-10 12:43+0000\n"
 "Last-Translator: Zamani Karmana <zamani.karmana@gmail.com>\n"
-"Language-Team: Indonesian (http://www.transifex.com/projects/p/torproject/language/id/)\n"
+"Language-Team: Indonesian (http://www.transifex.com/otf/torproject/language/id/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -54,7 +54,7 @@ msgstr "Berikut jembatan Anda:"
 msgid ""
 "You have exceeded the rate limit. Please slow down! The minimum time between\n"
 "emails is %s hours. All further emails during this time period will be ignored."
-msgstr "Anda telah melampaui batas laju. Mohon perlambat! Waktu minimum antara\nsurel yaitu %s jam. Semua surel selanjutnya selama waktu periode ini akan diabaikan."
+msgstr "Anda telah melampaui batas yang ditetapkan. Mohon perlambat! Waktu jeda minimum antara\nsurel adalah %s jam. Semua surel lainnya selama waktu periode ini akan diabaikan."
 
 #: lib/bridgedb/strings.py:25
 msgid ""
@@ -69,7 +69,7 @@ msgstr "Selamat datang di BridgeDB!"
 #. TRANSLATORS: Please DO NOT translate the words "transport" or "TYPE".
 #: lib/bridgedb/strings.py:30
 msgid "Currently supported transport TYPEs:"
-msgstr "Saat ini mendukung transport TYPEs:"
+msgstr "Saat ini mendukung transport TYPE:"
 
 #: lib/bridgedb/strings.py:31
 #, python-format
@@ -92,7 +92,7 @@ msgstr "Kunci Publik"
 msgid ""
 "This email was generated with rainbows, unicorns, and sparkles\n"
 "for %s on %s at %s."
-msgstr "Surel ini dibuat dengan rainbow, unicorn, dan sparkle\nuntuk %s pada hari %s jam %s."
+msgstr "Surel ini dibuat untuk %s pada %s jam %s."
 
 #. TRANSLATORS: Please DO NOT translate "BridgeDB".
 #. TRANSLATORS: Please DO NOT translate "Pluggable Transports".
@@ -106,7 +106,7 @@ msgid ""
 "difficult for anyone watching your internet traffic to determine that you are\n"
 "using Tor.\n"
 "\n"
-msgstr "BridgeDB dapat menyediakan jembatan dengan beberapa %stypes dari Pluggable Transports%s,\nyang dapat membantu mengaburkan sambungan Anda ke Tor Network, mempersulit\nbagi siapapun melihat lalu lintas internet Anda untuk menentukan bahwa Anda\nmenggunakan Tor.\n\n"
+msgstr "BridgeDB dapat menyediakan jembatan dengan beberapa %stipe dari Pluggable Transports%s,\nyang dapat membantu mengaburkan sambungan Anda ke Tor Network, mempersulit\nsiapapun melihat lalu lintas internet Anda untuk menentukan bahwa Anda\nmenggunakan Tor.\n\n"
 
 #. TRANSLATORS: Please DO NOT translate "Pluggable Transports".
 #: lib/bridgedb/strings.py:54
@@ -128,7 +128,7 @@ msgid ""
 "Pluggable Transports %s which maybe doesn't sound as cool, but they can still\n"
 "help to circumvent internet censorship in many cases.\n"
 "\n"
-msgstr "Tambahan, BridgeDB mempunyai plain-o! /o=polos -vanilla bridges %s tanpa\nPluggable Transports %s yang mana mungkin tidak terdengar keren, tapi mereka masih dapat membantu untuk gangguan sensor internet di beberapa kasus .\n\n"
+msgstr "Sebagai tambahan, BridgeDB memiliki banyak jembatan biasa saja %s tanpa\nPluggable Transports %s yang mungkin tidak terdengar keren, tapi dalam banyak kasus\nmereka masih bisa membantu untuk menghindari sensor pada internet.\n\n"
 
 #: lib/bridgedb/strings.py:76
 msgid "What are bridges?"
@@ -137,7 +137,7 @@ msgstr "Apa itu jembatan?"
 #: lib/bridgedb/strings.py:77
 #, python-format
 msgid "%s Bridges %s are Tor relays that help you circumvent censorship."
-msgstr "%s Jembatan %s adalah relai Tor yang membantu Anda menghindari sensor"
+msgstr "%s Jembatan %s adalah relai Tor yang membantu Anda menghindari sensor."
 
 #: lib/bridgedb/strings.py:82
 msgid "I need an alternative way of getting bridges!"
@@ -169,7 +169,7 @@ msgid ""
 "Try including as much info about your case as you can, including the list of\n"
 "bridges and Pluggable Transports you tried to use, your Tor Browser version,\n"
 "and any messages which Tor gave out, etc."
-msgstr "Coba sertakan sebanyak mungkin info tentang kasus Anda, termasuk daftar jembatan dan Pluggable Transports yang Anda coba gunakan, versi Peramban Tor Anda, dan pesan apapun yang diberikan oleh Tor, dll."
+msgstr "Coba sertakan sebanyak mungkin info tentang masalah Anda, termasuk daftar jembatan dan Pluggable Transports yang Anda coba gunakan, versi Tor Browser Anda, dan pesan apapun yang diberikan oleh Tor, dll."
 
 #: lib/bridgedb/strings.py:103
 msgid "Here are your bridge lines:"
@@ -185,20 +185,20 @@ msgstr "Mohon pilih opsi untuk tipe jembatan:"
 
 #: lib/bridgedb/strings.py:109
 msgid "Do you need IPv6 addresses?"
-msgstr "Apakah anda membutuhkan IP versi 6 ?"
+msgstr "Apakah Anda membutuhkan alamat IPv6?"
 
 #: lib/bridgedb/strings.py:110
 #, python-format
 msgid "Do you need a %s?"
-msgstr "Apakah anda membutuhkan %s?"
+msgstr "Apakah Anda membutuhkan %s?"
 
 #: lib/bridgedb/strings.py:114
 msgid "Your browser is not displaying images properly."
-msgstr "Perambah anda tidak menampilkan gambar dengan tepat."
+msgstr "Peramban Anda tidak menampilkan gambar dengan benar."
 
 #: lib/bridgedb/strings.py:115
 msgid "Enter the characters from the image above..."
-msgstr "Masukkan karakter dari gambar diatas..."
+msgstr "Masukkan karakter dari gambar di atas..."
 
 #: lib/bridgedb/strings.py:119
 msgid "How to start using your bridges"
