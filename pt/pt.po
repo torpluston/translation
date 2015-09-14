@@ -7,7 +7,9 @@
 # Francisco P. <sonhosdigitais@gmx.com>, 2013
 # Koh Pyreit <kohpyreit@gmail.com>, 2013
 # alfalb_mansil, 2014
+# MMSRS <h_manuela_rodsilva@gmail.com>, 2015
 # Pedro Albuquerque <palbuquerque73@gmail.com>, 2015
+# thor <thor_123@safe-mail.net>, 2015
 # Tiago Filipe Rocha <rocha.t80@gmail.com>, 2014
 # TiagoJMMC <tiagojmmc@gmail.com>, 2014
 # Valter Fukuoka <dotsoft@gmail.com>, 2008
@@ -15,37 +17,45 @@ msgid ""
 msgstr ""
 "Project-Id-Version: The Tor Project\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-02-11 19:14+0100\n"
-"PO-Revision-Date: 2015-02-14 09:01+0000\n"
-"Last-Translator: Pedro Albuquerque <palbuquerque73@gmail.com>\n"
-"Language-Team: Portuguese (http://www.transifex.com/projects/p/torproject/language/pt/)\n"
+"POT-Creation-Date: 2015-08-10 16:01+0200\n"
+"PO-Revision-Date: 2015-09-14 14:02+0000\n"
+"Last-Translator: MMSRS <h_manuela_rodsilva@gmail.com>\n"
+"Language-Team: Portuguese (http://www.transifex.com/otf/torproject/language/pt/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: pt\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
+#: ../liveusb/gui.py:451
+msgid "\"Clone & Install\""
+msgstr "\"Clonar e Instalar\""
+
+#: ../liveusb/gui.py:453
+msgid "\"Install from ISO\""
+msgstr "\"instalar do ISO\""
+
 #: ../liveusb/dialog.py:150 ../liveusb/launcher_ui.py:149
 #, python-format
 msgid "%(distribution)s Installer"
 msgstr "Instalador %(distribution)s"
 
-#: ../liveusb/gui.py:775
+#: ../liveusb/gui.py:804
 #, python-format
 msgid "%(filename)s selected"
 msgstr "%(filename)s selecionado"
 
-#: ../liveusb/gui.py:425
+#: ../liveusb/gui.py:424
 #, python-format
 msgid "%(size)s %(label)s"
 msgstr "%(size)s %(label)s"
 
-#: ../liveusb/gui.py:431
+#: ../liveusb/gui.py:430
 #, python-format
 msgid "%(vendor)s %(model)s (%(details)s) - %(device)s"
 msgstr "%(vendor)s %(model)s (%(details)s) - %(device)s"
 
-#: ../liveusb/creator.py:1063
+#: ../liveusb/creator.py:1097
 #, python-format
 msgid "%s already bootable"
 msgstr "%s já é de arranque"
@@ -102,16 +112,16 @@ msgid ""
 "persist after a reboot."
 msgstr "Ao alocar espaço extra na sua pen USB para a área permanente, poderá armazenar dados e efetuar modificações permanentes para o seu sistema operativo live. Sem este, não poderá guardar dados que irão permanecer depois de reiniciar."
 
-#: ../liveusb/creator.py:1162 ../liveusb/creator.py:1425
+#: ../liveusb/creator.py:1196 ../liveusb/creator.py:1459
 #, python-format
 msgid "Calculating the SHA1 of %s"
 msgstr "A calcular o SHA1 de %s"
 
-#: ../liveusb/creator.py:1373
+#: ../liveusb/creator.py:1407
 msgid "Cannot find"
 msgstr "Não é possível encontrar"
 
-#: ../liveusb/creator.py:556
+#: ../liveusb/creator.py:560
 #, python-format
 msgid "Cannot find device %s"
 msgstr "Não é possível encontrar %s"
@@ -130,12 +140,12 @@ msgid ""
 "Upgrade"
 msgstr "Clonar\n&e\nAtualizar"
 
-#: ../liveusb/creator.py:408
+#: ../liveusb/creator.py:417
 #, python-format
 msgid "Creating %sMB persistent overlay"
 msgstr "A criar %sMB da área permanete ..."
 
-#: ../liveusb/gui.py:553
+#: ../liveusb/gui.py:582
 msgid ""
 "Device is not yet mounted, so we cannot determine the amount of free space."
 msgstr "O dispositivo ainda não está montado, e assim, não é possível determinar o espaço disponível."
@@ -145,58 +155,58 @@ msgstr "O dispositivo ainda não está montado, e assim, não é possível deter
 msgid "Download %(distribution)s"
 msgstr "Transferir %(distribution)s"
 
-#: ../liveusb/gui.py:749
+#: ../liveusb/gui.py:778
 msgid "Download complete!"
 msgstr "Transferência completa!"
 
-#: ../liveusb/gui.py:753
+#: ../liveusb/gui.py:782
 msgid "Download failed: "
 msgstr "A transferência falhou:"
 
-#: ../liveusb/gui.py:88
+#: ../liveusb/gui.py:89
 #, python-format
 msgid "Downloading %s..."
 msgstr "A transferir %s ..."
 
-#: ../liveusb/creator.py:1158
+#: ../liveusb/creator.py:1192
 msgid "Drive is a loopback, skipping MBR reset"
 msgstr "A unidade é um 'loopback', a ignorar o reinício do MBR"
 
-#: ../liveusb/creator.py:827
+#: ../liveusb/creator.py:837
 #, python-format
 msgid "Entering unmount_device for '%(device)s'"
 msgstr "A entrar desmontar_dispositivo em '%(device)s'"
 
-#: ../liveusb/creator.py:1238
+#: ../liveusb/creator.py:1272
 msgid "Error probing device"
 msgstr "Erro ao examinar o dispositivo"
 
-#: ../liveusb/gui.py:212
+#: ../liveusb/gui.py:213
 msgid ""
 "Error: Cannot set the label or obtain the UUID of your device.  Unable to "
 "continue."
 msgstr "Erro: Não é possível definir o nome ou obter o UUID do seu dispositivo. Não é possível continuar."
 
-#: ../liveusb/creator.py:384
+#: ../liveusb/creator.py:393
 msgid ""
 "Error: The SHA1 of your Live CD is invalid.  You can run this program with "
 "the --noverify argument to bypass this verification check."
 msgstr "Erro: A assinatura digital SHA1 do seu Live CD está incorreta. Pode executar este programa com o argumento --noverify para evitar esta verificação."
 
-#: ../liveusb/creator.py:147
+#: ../liveusb/creator.py:155
 msgid "Extracting live image to the target device..."
 msgstr "A extrair a imagem live para o dispositivo de destino ..."
 
-#: ../liveusb/creator.py:1106
+#: ../liveusb/creator.py:1140
 #, python-format
 msgid "Formatting %(device)s as FAT32"
 msgstr "A formatar o %(device)s como FAT32"
 
-#: ../liveusb/creator.py:142
+#: ../liveusb/creator.py:150
 msgid "ISO MD5 checksum passed"
 msgstr "A verificação da assinatura digital MD5 do ISO foi aprovada"
 
-#: ../liveusb/creator.py:140
+#: ../liveusb/creator.py:148
 msgid "ISO MD5 checksum verification failed"
 msgstr "Não foi possível verificar a assinatura digital MD5 do ISO"
 
@@ -210,73 +220,81 @@ msgstr "Se não selecionar um Live ISO existente, o lançamento selecionado ser�
 msgid "Install Tails"
 msgstr "Instalar o Tails"
 
-#: ../liveusb/gui.py:616
+#: ../liveusb/gui.py:645
 msgid "Installation complete!"
 msgstr "Instalação completa!"
 
-#: ../liveusb/gui.py:264
+#: ../liveusb/gui.py:265
 #, python-format
 msgid "Installation complete! (%s)"
 msgstr "Instalação completa! (%s)"
 
-#: ../liveusb/gui.py:617
+#: ../liveusb/gui.py:646
 msgid "Installation was completed. Press OK to close this program."
 msgstr "A instalação terminou. Clique em \"CONFIRMAR\" para fechar este programa."
 
-#: ../liveusb/creator.py:963 ../liveusb/creator.py:1279
+#: ../liveusb/creator.py:990 ../liveusb/creator.py:1313
 msgid "Installing bootloader..."
 msgstr "A instalar o carregador de arranque ..."
 
-#: ../liveusb/gui.py:269
+#: ../liveusb/gui.py:454
+#, python-format
+msgid ""
+"It is impossible to upgrade the device %(pretty_name)s because it was not "
+"created using Tails Installer. You should instead use %(action)s to upgrade "
+"Tails on this device."
+msgstr "É impossível atualizar o dispositivo %(pretty_name)s porque este não foi criado com o instalador do Tails. Em vez disso, deverá utilizar %(action)s para atualizar o Tails neste dispositivo."
+
+#: ../liveusb/gui.py:270
 msgid "LiveUSB creation failed!"
 msgstr "A criação de 'LiveUSB' falhou!"
 
-#: ../liveusb/creator.py:1374
+#: ../liveusb/creator.py:1408
 msgid ""
 "Make sure to extract the entire liveusb-creator zip file before running this"
 " program."
 msgstr "Certifique-se que extrai todo o ficheiro zip liveusb-creator antes de executar este programa."
 
-#: ../liveusb/creator.py:1250
+#: ../liveusb/creator.py:1284
 msgid ""
 "Make sure your USB key is plugged in and formatted with the FAT filesystem"
 msgstr "Certifique-se de que a caneta USB está bem ligada e formatada com o sistema de ficheiros FAT"
 
-#: ../liveusb/creator.py:849
+#: ../liveusb/creator.py:859
 #, python-format
 msgid "Mount %s exists after unmounting"
 msgstr "O ponto de montagem %s existe depois de desmontado"
 
-#: ../liveusb/gui.py:559
+#: ../liveusb/gui.py:588
 #, python-format
 msgid "No free space on device %(device)s"
 msgstr "Espaço insuficiente no dispositivo %(device)s"
 
-#: ../liveusb/creator.py:816
+#: ../liveusb/creator.py:826
 msgid "No mount points found"
 msgstr "Não foram encontrados pontos de montagem"
 
-#: ../liveusb/creator.py:401
+#: ../liveusb/creator.py:410
 #, python-format
 msgid ""
 "Not enough free space on device.\n"
 "%dMB ISO + %dMB overlay > %dMB free space"
 msgstr "Não existe espaço livre suficiente no dispositivo.\n%dMB ISO + %dMB overlay > %dMB free space"
 
-#: ../liveusb/gui.py:540
+#: ../liveusb/gui.py:569
 msgid "Partition is FAT16; Restricting overlay size to 2G"
 msgstr "A partição é FAT16; A restringir o tamanho da área para 2GB"
 
-#: ../liveusb/gui.py:536
+#: ../liveusb/gui.py:565
 msgid "Partition is FAT32; Restricting overlay size to 4G"
 msgstr "A partição é FAT32; A restringir o tamanho da área para 4GB"
 
-#: ../liveusb/creator.py:228 ../liveusb/creator.py:856
+#: ../liveusb/creator.py:236 ../liveusb/creator.py:866
 #, python-format
 msgid "Partitioning device %(device)s"
 msgstr "A particionar o dispositivo %(device)s"
 
-#: ../liveusb/gui.py:607
+#: ../liveusb/gui.py:636
 msgid "Persistent Storage"
 msgstr "Armazenamento Permanente"
 
@@ -284,53 +302,53 @@ msgstr "Armazenamento Permanente"
 msgid "Persistent Storage (0 MB)"
 msgstr "Armazenamento Permanente (0 MB)"
 
-#: ../liveusb/gui.py:669 ../liveusb/gui.py:698
+#: ../liveusb/gui.py:698 ../liveusb/gui.py:727
 msgid "Please confirm your device selection"
 msgstr "Por favor, confirme a sua seleção do dispositivo"
 
-#: ../liveusb/gui.py:453
+#: ../liveusb/gui.py:481
 msgid "Refreshing releases..."
 msgstr "A atualizar os lançamentos ..."
 
-#: ../liveusb/gui.py:458
+#: ../liveusb/gui.py:486
 msgid "Releases updated!"
 msgstr "Lançamentos atualizados!"
 
-#: ../liveusb/creator.py:970 ../liveusb/creator.py:1297
+#: ../liveusb/creator.py:997 ../liveusb/creator.py:1331
 #, python-format
 msgid "Removing %(file)s"
 msgstr "A remover %(file)s"
 
-#: ../liveusb/creator.py:483
+#: ../liveusb/creator.py:492
 msgid "Removing existing Live OS"
 msgstr "A remover o LiveOS existente"
 
-#: ../liveusb/creator.py:1152
+#: ../liveusb/creator.py:1186
 #, python-format
 msgid "Resetting Master Boot Record of %s"
 msgstr "A reiniciar o Master Boot Record de %s"
 
-#: ../liveusb/gui.py:760
+#: ../liveusb/gui.py:789
 msgid "Select Live ISO"
 msgstr "Selecionar o ISO Live"
 
-#: ../liveusb/creator.py:184
+#: ../liveusb/creator.py:192
 msgid "Setting up OLPC boot file..."
 msgstr "A configurar o ficheiro de arranque do OLPC ..."
 
-#: ../liveusb/creator.py:730
+#: ../liveusb/creator.py:742
 #, python-format
 msgid ""
 "Some partitions of the target device %(device)s are mounted. They will be "
 "unmounted before starting the installation process."
 msgstr "Algumas partições do dispositivo %(device)s estão montadas. Elas serão desmontadas antes que o processo de instalação comece."
 
-#: ../liveusb/creator.py:133
+#: ../liveusb/creator.py:141
 msgid ""
 "Source type does not support verification of ISO MD5 checksum, skipping"
 msgstr "O tipo de fonte não suporta a verificação da assinatura digital MD5 do ISO, a ignorar"
 
-#: ../liveusb/creator.py:1186
+#: ../liveusb/creator.py:1220
 msgid "Synchronizing data on disk..."
 msgstr "A sincronizar os dados no disco ..."
 
@@ -338,13 +356,20 @@ msgstr "A sincronizar os dados no disco ..."
 msgid "Target Device"
 msgstr "Dispositivo de Destino"
 
-#: ../liveusb/gui.py:763
+#: ../liveusb/gui.py:438
+#, python-format
+msgid ""
+"The device \"%(pretty_name)s\" is too small to install Tails (at least "
+"%(size)s GB is required)."
+msgstr "O dispositivo \"%(pretty_name)s\" é muito pequeno para instalar o Tails (é necessário pelo menos %(size)s GB)."
+
+#: ../liveusb/gui.py:792
 msgid ""
 "The selected file is unreadable. Please fix its permissions or select "
 "another file."
 msgstr "O ficheiro seleccionado é ilegível. Por favor, corrija as permissões ou seleccione outro ficheiro."
 
-#: ../liveusb/creator.py:345
+#: ../liveusb/creator.py:354
 #, python-format
 msgid ""
 "There was a problem executing the following command: `%(command)s`.\n"
@@ -382,134 +407,127 @@ msgstr "Esta é a barra de progresso que indica o estado "
 msgid "This is the status console, where all messages get written to."
 msgstr "Esta é a consola de estado, onde todas as mensagnes serão apresentadas."
 
-#: ../liveusb/creator.py:925
+#: ../liveusb/creator.py:952
 msgid "Trying to continue anyway."
 msgstr "A tentar continuar de qualquer forma."
 
-#: ../liveusb/gui.py:407
+#: ../liveusb/gui.py:464
 msgid "USB drive found"
 msgstr "Encontrada drive USB"
 
-#: ../liveusb/creator.py:958
+#: ../liveusb/creator.py:985
 #, python-format
 msgid "Unable to change volume label: %(message)s"
 msgstr "Não é possível alterar o nome do volume: %(message)s"
 
-#: ../liveusb/creator.py:492 ../liveusb/creator.py:503
+#: ../liveusb/creator.py:501 ../liveusb/creator.py:512
 #, python-format
 msgid "Unable to chmod %(file)s: %(message)s"
 msgstr "Não é possível executar chmod %(file)s: %(message)s"
 
-#: ../liveusb/creator.py:469
+#: ../liveusb/creator.py:478
 #, python-format
 msgid "Unable to copy %(infile)s to %(outfile)s: %(message)s"
 msgstr "Não é possível copiar %(infile)s para %(outfile)s: %(message)s"
 
-#: ../liveusb/gui.py:402
+#: ../liveusb/gui.py:403
 msgid "Unable to find any USB drive"
 msgstr "Não é possível encontrar qualquer dispositivo USB"
 
-#: ../liveusb/creator.py:1240
+#: ../liveusb/creator.py:1274
 msgid "Unable to find any supported device"
 msgstr "Não é possível encontrar qualquer dispositivo suportado"
 
-#: ../liveusb/creator.py:1083
+#: ../liveusb/creator.py:1117
 msgid "Unable to find partition"
 msgstr "Não é possível encontrar a partição"
 
-#: ../liveusb/creator.py:1320
+#: ../liveusb/creator.py:1354
 msgid ""
 "Unable to get Win32_LogicalDisk; win32com query did not return any results"
 msgstr "Não é possível obter o Win32_LogicalDisk; a consulta ao win32com não devolveu quaisquer resultados"
 
-#: ../liveusb/gui.py:662
+#: ../liveusb/gui.py:691
 msgid "Unable to mount device"
 msgstr "Não é possível montar o dispositivo"
 
-#: ../liveusb/creator.py:804
+#: ../liveusb/creator.py:814
 #, python-format
 msgid "Unable to mount device: %(message)s"
 msgstr "Não é possível montar o dispositivo: %(message)s"
 
-#: ../liveusb/creator.py:508
+#: ../liveusb/creator.py:517
 #, python-format
 msgid "Unable to remove directory from previous LiveOS: %(message)s"
 msgstr "Não é possível remover a diretoria do LiveOS anterior: %(message)s"
 
-#: ../liveusb/creator.py:496
+#: ../liveusb/creator.py:505
 #, python-format
 msgid "Unable to remove file from previous LiveOS: %(message)s"
 msgstr "Não é possível remover o ficheiro do LiveOS anterior: %(message)s"
 
-#: ../liveusb/creator.py:1155
+#: ../liveusb/creator.py:1189
 msgid ""
 "Unable to reset MBR.  You may not have the `syslinux` package installed."
 msgstr "Não é possível reiniciar o MBR. Poderá não ter o pacote de instalação `syslinux`."
 
-#: ../liveusb/gui.py:769
+#: ../liveusb/gui.py:798
 msgid ""
 "Unable to use the selected file.  You may have better luck if you move your "
 "ISO to the root of your drive (ie: C:\\)"
 msgstr "Não é possível utilizar o ficheiro selecionado. É capaz de ter mais sorte se mover o seu ficheiro ISO para a raiz da sua unidade (ex.: C:\\)."
 
-#: ../liveusb/creator.py:711
+#: ../liveusb/creator.py:723
 #, python-format
 msgid "Unable to write on %(device)s, skipping."
 msgstr "Não é possível gravar no %(device)s, a ignorar."
 
-#: ../liveusb/creator.py:390
+#: ../liveusb/creator.py:399
 msgid "Unknown ISO, skipping checksum verification"
 msgstr "ISO desconhecido, a ignorar a verificação da assinatura digital"
 
-#: ../liveusb/creator.py:800
+#: ../liveusb/creator.py:810
 #, python-format
 msgid "Unknown dbus exception while trying to mount device: %(message)s"
 msgstr "Exceção dbus desconhecida enquanto tentava montar o dispositivo: %(message)s"
 
-#: ../liveusb/creator.py:779 ../liveusb/creator.py:937
+#: ../liveusb/creator.py:791 ../liveusb/creator.py:964
 msgid "Unknown filesystem.  Your device may need to be reformatted."
 msgstr "Sistema de ficheiros desconhecido. Poderá ter que reformatar o seu dispositivo."
 
-#: ../liveusb/gui.py:84
+#: ../liveusb/gui.py:85
 #, python-format
 msgid "Unknown release: %s"
 msgstr "Lançamento desconhecido: %s"
 
-#: ../liveusb/creator.py:841
+#: ../liveusb/creator.py:851
 #, python-format
 msgid "Unmounting '%(udi)s' on '%(device)s'"
 msgstr "A desmontar '%(udi)s' no '%(device)s'"
 
-#: ../liveusb/creator.py:837
+#: ../liveusb/creator.py:847
 #, python-format
 msgid "Unmounting mounted filesystems on '%(device)s'"
 msgstr "A desmontar o sistema de ficheiros montados no '%(device)s'"
 
-#: ../liveusb/creator.py:922
+#: ../liveusb/creator.py:949
 #, python-format
 msgid "Unsupported device '%(device)s', please report a bug."
 msgstr "Dispositivo '%(device)s' não suportado, por favor, comunique um bug."
 
-#: ../liveusb/creator.py:784 ../liveusb/creator.py:940
+#: ../liveusb/creator.py:794 ../liveusb/creator.py:967
 #, python-format
 msgid "Unsupported filesystem: %s"
 msgstr "Sistema de ficheiros não suportado: %s"
 
-#: ../liveusb/creator.py:782
-#, python-format
-msgid ""
-"Unsupported filesystem: %s\n"
-"In case you are trying to upgrade a manually installed Tails system (that is, if it was installed without this installer), this option is not supported: you need to install it anew to start with, e.g. by choosing the \"Clone & Install\" action instead."
-msgstr "Sistema de ficheiros não suportado: %s"
-
-#: ../liveusb/creator.py:1253
+#: ../liveusb/creator.py:1287
 #, python-format
 msgid ""
 "Unsupported filesystem: %s\n"
 "Please backup and format your USB key with the FAT filesystem."
 msgstr "Sistema de ficheiros não suportado: %s\nPor favor, efetue uma cópia de segurança e formate a sua pen USB com o sistema de ficheiros FAT."
 
-#: ../liveusb/creator.py:882
+#: ../liveusb/creator.py:892
 #, python-format
 msgid "Updating properties of system partition %(system_partition)s"
 msgstr "A atualizar as propriedades da partição do sistema %(system_partition)s"
@@ -522,47 +540,47 @@ msgstr "Atualizar a partir do ISO"
 msgid "Use existing Live system ISO"
 msgstr "Utilize o ISO do sistema Live existente"
 
-#: ../liveusb/creator.py:135
+#: ../liveusb/creator.py:143
 msgid "Verifying ISO MD5 checksum"
 msgstr "A verificar a assinatura digital MD5 do ISO"
 
-#: ../liveusb/creator.py:364
+#: ../liveusb/creator.py:373
 msgid "Verifying SHA1 checksum of LiveCD image..."
 msgstr "A verificar a assinatura digital SHA1 da imagem do LiveCD ..."
 
-#: ../liveusb/creator.py:368
+#: ../liveusb/creator.py:377
 msgid "Verifying SHA256 checksum of LiveCD image..."
 msgstr "A verificar a assinatura digital SHA256 da imagem do LiveCD ..."
 
-#: ../liveusb/creator.py:934 ../liveusb/creator.py:1246
+#: ../liveusb/creator.py:961 ../liveusb/creator.py:1280
 msgid "Verifying filesystem..."
 msgstr "A verificar o sistema de ficheiros ..."
 
-#: ../liveusb/gui.py:696
+#: ../liveusb/gui.py:725
 msgid ""
 "Warning: Creating a new persistent overlay will delete your existing one."
 msgstr "Aviso: Se criar uma nova área permanente irá apagar a existente."
 
-#: ../liveusb/gui.py:376
+#: ../liveusb/gui.py:377
 msgid ""
 "Warning: This tool needs to be run as an Administrator. To do this, right "
 "click on the icon and open the Properties. Under the Compatibility tab, "
 "check the \"Run this program as an administrator\" box."
 msgstr "Aviso: Esta ferramenta precisa de ser executada como um Administrador. Para o fazer, clique direito no rato sob o ícone e abra as Propriedades. No separador Compatibilidade, selecione \"Executar como um Administrador\"."
 
-#: ../liveusb/creator.py:154
+#: ../liveusb/creator.py:162
 #, python-format
 msgid "Wrote to device at %(speed)d MB/sec"
 msgstr "Gravado para o dispositivo a %(speed)d MB/seg"
 
-#: ../liveusb/gui.py:670
+#: ../liveusb/gui.py:699
 #, python-format
 msgid ""
 "You are going to install Tails on the %(size)s %(vendor)s %(model)s device "
 "(%(device)s). All data on the selected device will be lost. Continue?"
 msgstr "Está prestes a instalar Tails no dispositivo %(size)s %(vendor)s %(model)s (%(device)s). Toda a informação do dispositivo selecionado será perdida. Deseja continuar?"
 
-#: ../liveusb/gui.py:686
+#: ../liveusb/gui.py:715
 #, python-format
 msgid ""
 "You are going to upgrade Tails on the %(parent_size)s %(vendor)s %(model)s "
@@ -570,17 +588,17 @@ msgid ""
 "unchanged. Continue?"
 msgstr "Vai proceder à actualização do Tails no dispositivo %(parent_size)s %(vendor)s %(model)s (%(device)s). Qualquer volume persistente permanecerá inalterado. Deseja continuar?"
 
-#: ../liveusb/creator.py:618
+#: ../liveusb/creator.py:622
 msgid ""
 "You are using an old version of syslinux-extlinux that does not support the "
 "ext4 filesystem"
 msgstr "Está a utilizar uma versão antiga do syslinux-extlinux que não suporta o sistema de ficheiros ext4"
 
-#: ../liveusb/gui.py:754
+#: ../liveusb/gui.py:783
 msgid "You can try again to resume your download"
 msgstr "Pode tentar de novo para retomar a sua transferência"
 
-#: ../liveusb/creator.py:94
+#: ../liveusb/creator.py:95
 msgid "You must run this application as root"
 msgstr "Deve executar esta aplicação como 'root'"
 
