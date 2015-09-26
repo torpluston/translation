@@ -4,8 +4,8 @@
 <!ENTITY ssl-observatory.popup.no "לא">
 
 <!ENTITY ssl-observatory.popup.text "&quot;HTTPS בכל מקום&quot; יכול לאתר התקפות
-נגד הדפדפן שלך ע&quot;י חיפוש תעודות ה-SSL שאתה מקבל 
-במאגר התעודות המקוון. להפעיל?">
+נגד הדפדפן שלך ע&quot;י חיפוש אישורי אבטחה המתקבלים מאתרים בתוך
+ מאגר האישורים המקוון. להפעיל?">
 
 <!--<!ENTITY ssl-observatory.popup.text 
 "EFF's SSL Observatory can detect attacks against HTTPS websites by collecting
@@ -13,7 +13,7 @@ and auditing the certificates being presented to your browser. Would you like
 to turn it on?">-->
 
 <!ENTITY ssl-observatory.popup.title 
-"האם ברצונך ש-&quot;HTTPS בכל מקום&quot; יסתייע במאגר התעודות המקוון?">
+"האם ברצונך ש-&quot;HTTPS בכל מקום&quot; יסתייע במאגר האישורים המקוון?">
 
 <!ENTITY ssl-observatory.popup.yes "כן">
 
@@ -44,10 +44,10 @@ to turn it on?">-->
 "זה יאחזר וישלח את &quot;מספר המערכת האוטונומי&quot; של הרשת שלך. דבר זה יעזור לנו למקם מתקפות על HTTPS ויקבע האם נקבל דיווחים מרשתות במקומות כמו איראן וסוריה שבהם מתקפות שכאלה שכיחות יחסית.">
 
 <!ENTITY ssl-observatory.prefs.show_cert_warning
-"הצג התרעה כאשר מצפה ה-SSL מזהה תעודה שתוקפה פג מבלי שהדפדפן גילה זאת.">
+"הצג התרעה כאשר מאגר האישורים מזהה אישור שתוקפו פג מבלי שהדפדפן גילה זאת.">
 
 <!ENTITY ssl-observatory.prefs.show_cert_warning_tooltip
-"זה יבדוק את התעודות שתישלחנה אל מול רשימת האישורים המבוטלים. לצערנו הרב איננו יכולים להתחייב שנאתר כל תעודה שפג תוקפה, אך אם בכל זאת תוצג התרעה ישנו סיכוי סביר שמשהו השתבש.">
+"זה יבדוק את האישורים שיישלחו אל מול רשימת האישורים המבוטלים. לצערנו הרב איננו יכולים להתחייב שנאתר כל אישור שתוקפו פג, אך אם בכל זאת תוצג התרעה ישנו סיכוי סביר שמשהו השתבש.">
 
 <!ENTITY ssl-observatory.prefs.done "הושלם">
 
@@ -76,20 +76,20 @@ Mouseover the options for further details:">-->
 "שלח לבדיקה אישורים עבור שמות מתחם שאינם נחלת הכלל">
 
 <!ENTITY ssl-observatory.prefs.priv_dns_tooltip
-"אלא אם כן האפשרות הזאת נבדקה, המצפה לא יתעד אישורים עבור שמות שהוא לא יכול לגלות דרך מערכת ה DNS ">
+"אלא אם אפשרות זאת סומנה, המאגר לא ישמור אישורים עבור שמות מתחם שאינם מופיעים במאגרי שמות המתחם הציבוריים">
 
-<!ENTITY ssl-observatory.prefs.show "הראה אפשרויות מתקדמות">
+<!ENTITY ssl-observatory.prefs.show "הצג אפשרויות מתקדמות">
 
-<!ENTITY ssl-observatory.prefs.title "עדיפויות מצפה SSL">
+<!ENTITY ssl-observatory.prefs.title "העדפות מאגר האישורים המקוון">
 
-<!ENTITY ssl-observatory.prefs.use "האם להשתמש במצפה?">
-<!ENTITY ssl-observatory.warning.title "אזהרה ממצפה SSL של EFF">
-<!ENTITY ssl-observatory.warning.showcert "הראה את שרשרת האישורים">
-<!ENTITY ssl-observatory.warning.okay "אני מבין">
-<!ENTITY ssl-observatory.warning.text "מצפה SSL של EFF עוסק באזהרה מפני האישור(ים) של HTTPS  עבור האתר הזה:">
-<!ENTITY ssl-observatory.warning.defense "אם הינך מחובר לאתר זה, מומלץ שתחליף את סיסמתך מתוך חיבור מאובטח. (ניתן לבטל התרעות אלה בטאב &quot;מצפה ה-SSL&quot; בחלונית הדו-שיח של HTTPS Everywhere.)">
+<!ENTITY ssl-observatory.prefs.use "האם להשתמש במאגר?">
+<!ENTITY ssl-observatory.warning.title "אזהרה ממאגר אישורי האבטחה של EFF">
+<!ENTITY ssl-observatory.warning.showcert "הצג את שרשרת האישורים">
+<!ENTITY ssl-observatory.warning.okay "הבנתי">
+<!ENTITY ssl-observatory.warning.text "מאגר אישורי האבטחה של EFF פרסם אזהרה לגבי אישורי האבטחה של אתר זה ():">
+<!ENTITY ssl-observatory.warning.defense "אם הינך מחובר לאתר זה, מומלץ שתחליף את סיסמתך מתוך חיבור מאובטח. (ניתן לבטל התרעות אלה בטאב &quot;מאגר האישורים&quot; בחלונית הדו-שיח של &quot;HTTPS בכל מקום&quot;.)">
 
 <!ENTITY ssl-observatory.prefs.self_signed
-"שלח ובדוק את האישורים החתומים על ידך">
+"שלח לבדיקה אישורים חתומים עצמית">
 <!ENTITY ssl-observatory.prefs.self_signed_tooltip
-"זה מומלץ;  בעיות הצפנה נפוצות במיוחד בכלים משובצים חתומים עצמית">
+"אפשרות זו מומלצת; בעיות הצפנה נפוצות במיוחד בקרב מערכות משובצות מחשב המשתמשות באישורי אבטחה חתומים עצמית">
