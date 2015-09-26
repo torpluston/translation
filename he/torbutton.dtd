@@ -1,9 +1,9 @@
 <!ENTITY torbutton.prefs.title "הגדרות Torbutton">
 <!ENTITY torbutton.prefs.tor_settings "הגדרות פרוקסי">
-<!ENTITY torbutton.prefs.recommended_settings "השתמש בהגדרות פרוקסי מומלצות עבור גרסת ה&quot;פיירפוקס&quot; שלי">
-<!ENTITY torbutton.prefs.use_privoxy "השתמש בפריבוקסי">
-<!ENTITY torbutton.prefs.use_polipo "השתמש בפוליפו">
-<!ENTITY torbutton.prefs.custom_settings "השתמש בהגדרות פרוקסי מוגדרות מראש">
+<!ENTITY torbutton.prefs.recommended_settings "השתמש בהגדרות פרוקסי מומלצות עבור גרסת Firefox שלי">
+<!ENTITY torbutton.prefs.use_privoxy "השתמש ב-Privoxy">
+<!ENTITY torbutton.prefs.use_polipo "השתמש ב-Polipo">
+<!ENTITY torbutton.prefs.custom_settings "השתמש בהגדרות פרוקסי מותאמות אישית">
 <!ENTITY torbutton.prefs.proxy.host.http "פרוקסי HTTP:">
 <!ENTITY torbutton.prefs.proxy.host.https "פרוקסי SSL:">
 <!ENTITY torbutton.prefs.proxy.host.ftp "פרוקסי FTP:">
@@ -18,7 +18,7 @@
 <!ENTITY torbutton.about.security_review "סקירת אבטחה:">
 <!ENTITY torbutton.about.donate "אם הינך שבע רצון מהשימוש ב-Tor, אולי תשקול">
 <!ENTITY torbutton.about.make_donation "מתן תרומה.">
-<!ENTITY torbutton.pref_connection.notice "השבת את Torbutton על מנת לשנות הגדרות אלו">
+<!ENTITY torbutton.pref_connection.notice "השבת את Torbutton על מנת לשנות הגדרות אלו.">
 <!ENTITY torbutton.pref_connection.more_info "מידע נוסף">
 <!ENTITY torbutton.pref_connection_more_info.title "עזרה">
 <!ENTITY torbutton.pref_connection_more_info.text "Torbutton פועל כעת. אם ברצונך לשנות את הגדרות הפרוקסי שאינן קשורות ל-Tor, אנא השבת את Torbutton וחזור הנה. אם ברצונך לשנות את הגדרות Tor, אנא השתמש בחלון ההגדרות של Torbutton.">
@@ -52,9 +52,9 @@
 <!ENTITY torbutton.prefs.block_nthread "חסום גישה להיסטוריית הגלישה שלך בזמן גלישה רגילה (אופציונלי)">
 <!ENTITY torbutton.prefs.block_nthwrite "חסום את עדכון היסטוריית הגלישה שלך בזמן גלישה רגילה (אופציונלי)">
 <!ENTITY torbutton.prefs.clear_history "נקה היסטוריית גלישה בכל הפעלה וכיבוי של Tor (אופציונלי)">
-<!ENTITY torbutton.prefs.clear_cache "חסום את מטמון דיסק Tor ולנקות את כל המטמון Toggle Tor">
+<!ENTITY torbutton.prefs.clear_cache "רוקן את המטמון וחסום אליו את הגישה בכל הפעלה וכיבוי של Tor">
 <!ENTITY torbutton.prefs.block_cache "חסום גישה לדיסק ולמטמון בזמן שימוש ב-Tor">
-<!ENTITY torbutton.prefs.cookie_jars " אחסן קוקיז רגילים בהגנה">
+<!ENTITY torbutton.prefs.cookie_jars "אחסן עוגיות רגילות במתחם מוגן">
 <!ENTITY torbutton.prefs.cookie_protection "בחר בתפריט הגנת הקוקיז על מנת לבחור">
 <!ENTITY torbutton.prefs.mmm_cookies "אני אנהל ידנית את הקוקיז שלי (מסוכן)">
 <!ENTITY torbutton.prefs.clear_cookies "נקה עוגיות על Tor toggle">
@@ -64,15 +64,15 @@
 <!ENTITY torbutton.prefs.no_updates "השבת עדכונים בזמן שימוש ב-Tor">
 <!ENTITY torbutton.prefs.set_uagent "הגדרת סוכן משתמש עבור שימוש Tor (חיוני)">
 <!ENTITY torbutton.prefs.dynamic "תוכן דינאמי">
-<!ENTITY torbutton.prefs.cookies "קוקיז">
+<!ENTITY torbutton.prefs.cookies "עוגיות">
 <!ENTITY torbutton.prefs.cache "מטמון">
 <!ENTITY torbutton.prefs.history "היסטוריה">
 <!ENTITY torbutton.prefs.no_search "השבת הצעות חיפוש ב-Tor (מומלץ)">
 <!ENTITY torbutton.prefs.shutdown "כיבוי">
-<!ENTITY torbutton.prefs.tor_shutdown "מחק קוקיז של Tor בסגירתו">
+<!ENTITY torbutton.prefs.tor_shutdown "מחק עוגיות של Tor בסגירתו">
 <!ENTITY torbutton.prefs.all_shutdown "נקה קוקיז במהלך סגירה של כל דפדפן">
 <!ENTITY torbutton.prefs.no_shutdown "אל תנקה את הקוקיז שלי בזמן סגירת הדפדפן">
-<!ENTITY torbutton.prefs.disable_sessionstore "ביטול שמירת מושב (מומלץ)">
+<!ENTITY torbutton.prefs.disable_sessionstore "ביטול שמירת נתוני גלישה (מומלץ)">
 <!ENTITY torbutton.prefs.headers "כותרות">
 <!ENTITY torbutton.prefs.spoof_english "דפדפן אנגלית לזייף ארה&quot;ב">
 <!ENTITY torbutton.prefs.refererspoofing "זיוף Referer">
@@ -126,7 +126,7 @@
 <!ENTITY torbutton.cookiedialog.lockCol "מוגן">
 <!ENTITY torbutton.cookiedialog.domainCol "מארח">
 <!ENTITY torbutton.cookiedialog.nameCol "שם">
-<!ENTITY torbutton.cookiedialog.pathCol "מעבר">
+<!ENTITY torbutton.cookiedialog.pathCol "נתיב">
 <!ENTITY torbutton.cookiedialog.protectCookie "הגן על הקוקי">
 <!ENTITY torbutton.cookiedialog.removeCookie "מחק את הקוקי">
 <!ENTITY torbutton.cookiedialog.unprotectCookie "אל תגן על הקוקי">
@@ -138,37 +138,37 @@
 <!ENTITY torbutton.prefs.dtd_optional "(אופציונלי)">
 <!ENTITY torbutton.prefs.dtd_crucial "(מהותי)">
 <!ENTITY torbutton.prefs.update_torbutton_via_tor "הורד עדכונים ל-Torbutton דרך Tor">
-<!ENTITY torbutton.prefs.dodge_google_captcha "השתמש באופן אוטומטי במנוע חיפוש חלופי כאשר מוצג עם Captcha Google:">
+<!ENTITY torbutton.prefs.dodge_google_captcha "השתמש באופן אוטומטי במנוע חיפוש חלופי כאשר תיתקל ב-Captcha Google:">
 <!ENTITY torbutton.prefs.engine1 "ixquick.com">
 <!ENTITY torbutton.prefs.engine2 "Bing.com">
 <!ENTITY torbutton.prefs.engine3 "Yahoo.com">
 <!ENTITY torbutton.prefs.engine4 "startpage.com">
 <!ENTITY torbutton.prefs.engine5 "duckduckgo.com">
 <!ENTITY torbutton.prefs.fix_google_srch "פלטפורמת רצועה ושפה משל שאילתות תיבת חיפוש של גוגל">
-<!ENTITY torbutton.prefs.transparentTor "הפעלת טור בצורה בלתי נראית (דורש  transproxy או Tor router)">
+<!ENTITY torbutton.prefs.transparentTor "הפעלת Tor בצורה בלתי נראית (דורש  transproxy או Tor router)">
 <!ENTITY torbutton.prefs.priv_caption "הגדרות פרטיות">
-<!ENTITY torbutton.prefs.block_disk "Don't record browsing history or website data (enables Private Browsing Mode)">
-<!ENTITY torbutton.prefs.restrict_thirdparty "Restrict third party cookies and other tracking data">
-<!ENTITY torbutton.prefs.block_plugins "השבת תוספות דפדפן (כגון Flash)">
-<!ENTITY torbutton.prefs.resist_fingerprinting "Change details that distinguish you from other Tor Browser users">
+<!ENTITY torbutton.prefs.block_disk "אל תשמור היסטוריית גלישה או נתוני אתרים (הפעל מצב גלישה פרטית)">
+<!ENTITY torbutton.prefs.restrict_thirdparty "הגבל עוגיות מצד שלישי ואיסוף מידע אחר">
+<!ENTITY torbutton.prefs.block_plugins "השבת תוספי דפדפן (כגון Flash)">
+<!ENTITY torbutton.prefs.resist_fingerprinting "שנה פרטים המבדילים בינך לבין יתר משתמשי דפדפן Tor">
 <!ENTITY torbutton.prefs.sec_caption "רמת אבטחה">
-<!ENTITY torbutton.prefs.sec_low "נמוך (ברירת מחדל)">
-<!ENTITY torbutton.prefs.sec_low_usable_desc "זה מספק את חוויית המשתמש השימושית ביותר.">
+<!ENTITY torbutton.prefs.sec_low "נמוכה (ברירת מחדל)">
+<!ENTITY torbutton.prefs.sec_low_usable_desc "רמה זו מספקת חוויית משתמש מיטבית.">
 <!ENTITY torbutton.prefs.sec_low_desc "ברמת אבטחה זו, כל תכונות הדפדפן מופעלות.">
 <!ENTITY torbutton.prefs.sec_font_rend_svg_tooltip "מנגנון רינדור גופן SVG OpenType מבוטל כעת.">
-<!ENTITY torbutton.prefs.sec_med_low "בינוני נמוך">
+<!ENTITY torbutton.prefs.sec_med_low "בינונית-נמוכה">
 <!ENTITY torbutton.prefs.sec_gen_desc "ברמת אבטחה זו, השינויים הבאים תקפים (עבור עם סמן העכבר לפרטים):">
 <!ENTITY torbutton.prefs.sec_html5_desc "אודיו ווידאו HTML5 יועברו למצב &quot;לחץ להפעלה&quot; באמצעות NoScript.">
-<!ENTITY torbutton.prefs.sec_html5_tooltip "באתרים מסוימים תזדקק לכפתור סרגל הכלים של NoScript על מנת להפעיל אובייקטי מדיה אלה.">
+<!ENTITY torbutton.prefs.sec_html5_tooltip "באתרים מסוימים תזדקק לכפתור סרגל הכלים של NoScript על מנת להפעיל עצמי מדיה אלה.">
 <!ENTITY torbutton.prefs.sec_some_jit_desc "חלק מתכונות מיטוב הביצועים של JavaScript אינן מופעלות.">
 <!ENTITY torbutton.prefs.sec_jit_desc_tooltip "ION JIT, Type Inference, ASM.JS.">
 <!ENTITY torbutton.prefs.sec_baseline_jit_desc_tooltip "JIT בסיסי.">
-<!ENTITY torbutton.prefs.sec_jit_slower_desc "סקריפטים באתרים מסוים יסבלו מאיטיות.">
+<!ENTITY torbutton.prefs.sec_jit_slower_desc "סקריפטים באתרים מסוים יסבלו מהאטה.">
 <!ENTITY torbutton.prefs.sec_jar_desc "קבצי JAR חסומים לגישה מרחוק.">
 <!ENTITY torbutton.prefs.sec_jar_tooltip "קבצי JAR נדירים מאוד ברשת כיום, כך עלולים להוות מקור להתקפות XSS ואחרות.">
 <!ENTITY torbutton.prefs.sec_mathml_desc "חלק ממנגנוני הצגת משוואות מתמטיות מבוטלים כעת.">
 <!ENTITY torbutton.prefs.sec_mathml_desc_tooltip "MathML מבוטל כעת.">
-<!ENTITY torbutton.prefs.sec_med_high "בינוני-גבוה">
+<!ENTITY torbutton.prefs.sec_med_high "בינונית-גבוהה">
 <!ENTITY torbutton.prefs.sec_all_jit_desc "כל אמצעי מיטוב הביצועים של JavaScript מבוטלים כעת.">
 <!ENTITY torbutton.prefs.sec_font_rend_desc "חלק מתכונות רינדור הגפנים מבוטלת כעת.">
 <!ENTITY torbutton.prefs.sec_font_rend_graphite_tooltip "מנגנון רינדור גופן Graphite מבוטל כעת.">
@@ -176,7 +176,7 @@
 <!ENTITY torbutton.prefs.sec_svg_desc_tooltip "תמונות SVG לא תוצגנה כעת.">
 <!ENTITY torbutton.prefs.sec_js_https_desc "JavaScript מבוטל כברירת מחדל בכל האתרים שאינם מאובטחים ב-HTTPS.">
 <!ENTITY torbutton.prefs.sec_js_desc_tooltip "JavaScript ניתן להפעלה ידנית בכל אתר בנפרד באמצעות כפתור סרגל הכלים של NoScript.">
-<!ENTITY torbutton.prefs.sec_high "גבוה">
+<!ENTITY torbutton.prefs.sec_high "גבוהה">
 <!ENTITY torbutton.prefs.sec_all_js_desc "JavaScript מבוטל כברירת מחדל בכל האתרים.">
 <!ENTITY torbutton.prefs.sec_audio_video_desc "מרבית סוגי האודיו והווידאו אינם זמינים כעת.">
 <!ENTITY torbutton.prefs.sec_audio_video_desc_tooltip "WebM הוא קודק הווידאו היחיד שזמין כעת.">
