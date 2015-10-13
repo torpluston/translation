@@ -10,6 +10,7 @@
 # Athorcis, 2015
 # Emmanuel Simond, 2014
 # Jean-Yves Toumit <saiolar-c@yahoo.fr>, 2013
+# Lidija <llazic.bgd@gmail.com>, 2015
 # Onizuka, 2013
 # mosira <romain.moisan@gmail.com>, 2014
 # Sabrina Cater <sabcat@gmx.fr>, 2015
@@ -19,9 +20,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: The Tor Project\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-08-10 18:53+0200\n"
-"PO-Revision-Date: 2015-08-20 15:48+0000\n"
-"Last-Translator: Sabrina Cater <sabcat@gmx.fr>\n"
+"POT-Creation-Date: 2015-09-20 19:32+0200\n"
+"PO-Revision-Date: 2015-10-13 15:33+0000\n"
+"Last-Translator: Lidija <llazic.bgd@gmail.com>\n"
 "Language-Team: French (http://www.transifex.com/otf/torproject/language/fr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -189,7 +190,7 @@ msgstr "Faites-vous confiance à ces clés ?"
 msgid "The following selected key is not fully trusted:"
 msgid_plural "The following selected keys are not fully trusted:"
 msgstr[0] "La clé suivante n'est pas totalement de confiance :"
-msgstr[1] "Les clés suivantes ne sont pas totalement de confiance :"
+msgstr[1] "Les clés suivantes ne sont pas totalement fiables :"
 
 #: config/chroot_local-includes/usr/local/bin/gpgApplet:578
 msgid "Do you trust this key enough to use it anyway?"
@@ -317,23 +318,23 @@ msgstr "Il semble que votre connexion au réseau est bloquée. Cela peut être l
 msgid "This version of Tails has known security issues:"
 msgstr "Cette version de Tails a des problèmes de sécurité avérés :"
 
-#: config/chroot_local-includes/usr/local/sbin/tails-spoof-mac:37
+#: config/chroot_local-includes/usr/local/sbin/tails-spoof-mac:45
 #, sh-format
 msgid "Network card ${nic} disabled"
 msgstr "Carte réseau ${nic} désactivée"
 
-#: config/chroot_local-includes/usr/local/sbin/tails-spoof-mac:38
+#: config/chroot_local-includes/usr/local/sbin/tails-spoof-mac:46
 #, sh-format
 msgid ""
 "MAC spoofing failed for network card ${nic_name} (${nic}) so it is temporarily disabled.\n"
 "You might prefer to restart Tails and disable MAC spoofing. See the <a href='file:///usr/share/doc/tails/website/doc/first_steps/startup_options/mac_spoofing.en.html'>documentation</a>."
 msgstr "L'usurpation MAC a échoué pour la carte réseau ${nic_name} (${nic}), cette fonctionnalité est donc temporairement désactivée.\nVous pouvez néanmoins redémarrer Tails et désactiver complètement la fonctionnalité d'usurpation MAC. Consultez la <a href='file:///usr/share/doc/tails/website/doc/first_steps/startup_options/mac_spoofing.en.html'>documentation</a>."
 
-#: config/chroot_local-includes/usr/local/sbin/tails-spoof-mac:47
+#: config/chroot_local-includes/usr/local/sbin/tails-spoof-mac:55
 msgid "All networking disabled"
 msgstr "Toutes les connexions réseau sont désactivées"
 
-#: config/chroot_local-includes/usr/local/sbin/tails-spoof-mac:48
+#: config/chroot_local-includes/usr/local/sbin/tails-spoof-mac:56
 #, sh-format
 msgid ""
 "MAC spoofing failed for network card ${nic_name} (${nic}). The error recovery also failed so all networking is disabled.\n"
@@ -479,8 +480,8 @@ msgid "I2P's router console is ready"
 msgstr "La console du routeur I2P est prête"
 
 #: config/chroot_local-includes/usr/local/sbin/tails-i2p:44
-msgid "You can now access I2P's router console on http://127.0.0.1:7657."
-msgstr "Vous pouvez maintenant accéder à la console du routeur I2P sur http://127.0.0.1:7657."
+msgid "You can now access I2P's router console in the I2P Browser."
+msgstr "Vous pouvez maintenant accéder à la console du routeur dans le navigateur I2P."
 
 #: config/chroot_local-includes/usr/local/sbin/tails-i2p:49
 msgid "I2P is not ready"
@@ -488,10 +489,10 @@ msgstr "I2P n'est pas prêt"
 
 #: config/chroot_local-includes/usr/local/sbin/tails-i2p:50
 msgid ""
-"Eepsite tunnel not built within six minutes. Check the router console at "
-"http://127.0.0.1:7657/logs or the logs in /var/log/i2p for more information."
-" Reconnect to the network to try again."
-msgstr "Le tunnel de l'Eepsite n'a pas été construit durant les six dernières minutes. Pour plus d'information vérifiez la console de routeur dans http://127.0.0.1:7657/logs ou les historiques dans /var/log/i2p . Reconnectez-vous au réseau afin de réessayer."
+"Eepsite tunnel not built within six minutes. Check the router console in the"
+" I2P Browser or the logs in /var/log/i2p for more information. Reconnect to "
+"the network to try again."
+msgstr "Le tunnel Eepsite n'a pas été construit en six minutes.\nVérifier la console du routeur dans le navigateur I2P ou dans les journaux à /var/log/I2p pour plus d'informations.\nReconnectez-vous au réseau à nouveau."
 
 #: config/chroot_local-includes/usr/local/sbin/tails-i2p:60
 msgid "I2P is ready"
