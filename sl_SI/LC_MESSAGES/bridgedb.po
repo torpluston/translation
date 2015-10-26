@@ -12,7 +12,7 @@ msgstr ""
 "Project-Id-Version: The Tor Project\n"
 "Report-Msgid-Bugs-To: 'https://trac.torproject.org/projects/tor/newticket?component=BridgeDB&keywords=bridgedb-reported,msgid&cc=isis,sysrqb&owner=isis'\n"
 "POT-Creation-Date: 2015-07-25 03:40+0000\n"
-"PO-Revision-Date: 2015-10-26 16:14+0000\n"
+"PO-Revision-Date: 2015-10-26 16:31+0000\n"
 "Last-Translator: Tomi Bizjak <bizjaktomaz72@gmail.com>\n"
 "Language-Team: Slovenian (Slovenia) (http://www.transifex.com/otf/torproject/language/sl_SI/)\n"
 "MIME-Version: 1.0\n"
@@ -63,7 +63,7 @@ msgstr "Prikaži QR kodo"
 
 #: bridgedb/https/templates/bridges.html:52
 msgid "QRCode for your bridge lines"
-msgstr ""
+msgstr "QR koda za vaše linije mostičkov"
 
 #. TRANSLATORS: Please translate this into some silly way to say
 #. "There was a problem!" in your language. For example,
@@ -82,7 +82,7 @@ msgstr "Izgleda kot, da se je pojavila napaka pri pridobivanju vaše QR kode."
 msgid ""
 "This QRCode contains your bridge lines. Scan it with a QRCode reader to copy"
 " your bridge lines onto mobile and other devices."
-msgstr ""
+msgstr "Ta QR koda vsebuje vaše linije mostičkov. Skenirajte jih z bralcem QR kod, da kopirate vaše linije mostičkov v vašo mobilno napravo ali katero drugo napravo."
 
 #: bridgedb/https/templates/bridges.html:131
 msgid "There currently aren't any bridges available..."
@@ -190,7 +190,7 @@ msgstr "Dobrodošli v BridgeDB!"
 #. TRANSLATORS: Please DO NOT translate the words "transport" or "TYPE".
 #: bridgedb/strings.py:55
 msgid "Currently supported transport TYPEs:"
-msgstr "Splošno podprti transport TYPEs:"
+msgstr "Trenutno podprte vrste prevoza:"
 
 #: bridgedb/strings.py:56
 #, python-format
@@ -203,7 +203,7 @@ msgstr "Pozdravljen, prijatelj!"
 
 #: bridgedb/strings.py:58 bridgedb/https/templates/base.html:90
 msgid "Public Keys"
-msgstr "Javni Ključi"
+msgstr "Javni ključi"
 
 #. TRANSLATORS: This string will end up saying something like:
 #. "This email was generated with rainbows, unicorns, and sparkles
@@ -213,7 +213,7 @@ msgstr "Javni Ključi"
 msgid ""
 "This email was generated with rainbows, unicorns, and sparkles\n"
 "for %s on %s at %s."
-msgstr "To e-pismo je bilo napisano z mavricami, enorogi in bleščicami\nza %s na %s ob %s"
+msgstr "To e-pismo je bilo ustvarjeno z mavricami, enorogi in bleščicami\nza %s na %s ob %s"
 
 #. TRANSLATORS: Please DO NOT translate "BridgeDB".
 #. TRANSLATORS: Please DO NOT translate "Pluggable Transports".
@@ -227,7 +227,7 @@ msgid ""
 "difficult for anyone watching your internet traffic to determine that you are\n"
 "using Tor.\n"
 "\n"
-msgstr "BridgeDB lahko oskrbuje mostičke z različnimi %stipi Pluggable Transports%s,\nki lahko pomagajo zmesti vašo povezavo z Tor Network, in jo naredijo bolj\nnepregledno za vsakogar, ki spremlja vaš internetni promet z namenom ugotavljanja\nuporabe Tor.\n\n"
+msgstr "BridgeDB zagotavljajo mostičke z različnimi %stipi Pluggable prevozi%s,\nki lahko pomagajo zmesti vašo povezavo z Tor omrežjem, in jo naredijo bolj\nnepregledno za vsakogar, ki spremlja vaš internetni promet z namenom ugotavljanja\nuporabe Tor.\n"
 
 #. TRANSLATORS: Please DO NOT translate "Pluggable Transports".
 #: bridgedb/strings.py:79
@@ -235,7 +235,7 @@ msgid ""
 "Some bridges with IPv6 addresses are also available, though some Pluggable\n"
 "Transports aren't IPv6 compatible.\n"
 "\n"
-msgstr "Nekateri mostički z IPv6 naslovi so tudi dosegljivi, čeprav nekateri Pluggable\nTransports niso IPv6 kompatibilni.\n\n"
+msgstr "Nekateri mostički z IPv6 naslovi so tudi dosegljivi, čeprav nekateri Pluggable\nTransports niso IPv6 združljivi.\n\n"
 
 #. TRANSLATORS: Please DO NOT translate "BridgeDB".
 #. TRANSLATORS: The phrase "plain-ol'-vanilla" means "plain, boring,
@@ -262,7 +262,7 @@ msgstr "%s Mostički %s so Tor releji, ki pomagajo preslepiti nadzor"
 
 #: bridgedb/strings.py:107
 msgid "I need an alternative way of getting bridges!"
-msgstr "Rabim drugačno pot do izbire mostičkov!"
+msgstr "Potrebujem drugačen način zbiranja mostičkov!"
 
 #: bridgedb/strings.py:108
 #, python-format
@@ -270,11 +270,11 @@ msgid ""
 "Another way to get bridges is to send an email to %s. Please note that you must\n"
 "send the email using an address from one of the following email providers:\n"
 "%s, %s or %s."
-msgstr "Druga pot za izbiro mostičkov je preko naše e-pošte %s. Morate pa\nposlati e-pismo z uporabo naslova naslednjih e-poštnih ponudnikov\n%s, %s ali %s."
+msgstr "Drug način za zbiranje mostičkov je preko naše e-pošte %s. Zapomnite si, da morate poslati e-pismo z uporabo naslova naslednjih e-poštnih ponudnikov\n%s, %s ali %s."
 
 #: bridgedb/strings.py:115
 msgid "My bridges don't work! I need help!"
-msgstr "Moj mostiček ne dela! Rabim pomoč!"
+msgstr "Moji mostički ne delujejo! Potrebujem pomoč!"
 
 #. TRANSLATORS: Please DO NOT translate "Tor".
 #: bridgedb/strings.py:117
@@ -290,7 +290,7 @@ msgid ""
 "Try including as much info about your case as you can, including the list of\n"
 "bridges and Pluggable Transports you tried to use, your Tor Browser version,\n"
 "and any messages which Tor gave out, etc."
-msgstr "Poskusite vključiti čim več informacij o vašem primeru,\nvključno s seznamom\nmostičkov in Pluggable Transports, ki ste jih uporabili, verzijo Tor Browser\nin vsa sporočila, ki vam  jih je dal Tor, itd."
+msgstr "Poskusite vključiti čim več informacij o vašem primeru,\nvključno s seznamom\nmostičkov in transportnih vtičnikov, ki ste jih uporabili, verzijo Tor iskalnik\nin vsa sporočila, ki vam jih je dal Tor, itd."
 
 #: bridgedb/strings.py:128
 msgid "Here are your bridge lines:"
@@ -306,16 +306,16 @@ msgstr "Izberite tip mostička:"
 
 #: bridgedb/strings.py:134
 msgid "Do you need IPv6 addresses?"
-msgstr "Rabite IPv6 naslove?"
+msgstr "Ali potrebujete IPv6 naslove?"
 
 #: bridgedb/strings.py:135
 #, python-format
 msgid "Do you need a %s?"
-msgstr "Rabite %s?"
+msgstr "Potrebujete %s?"
 
 #: bridgedb/strings.py:139
 msgid "Your browser is not displaying images properly."
-msgstr "Vaš iskalnik slik ne prikaže pravilno."
+msgstr "Vaš iskalnik ne prikazuje slik pravilno."
 
 #: bridgedb/strings.py:140
 msgid "Enter the characters from the image above..."
@@ -332,14 +332,14 @@ msgid ""
 "To enter bridges into Tor Browser, first go to the %s Tor Browser download\n"
 "page %s and then follow the instructions there for downloading and starting\n"
 "Tor Browser."
-msgstr ""
+msgstr "Da vstavite mostičke v Tor iskalnik, vas prosimo, da najprej naložite Tor iskalnik tukaj %s Naložite Tor iskalnik %s in potem sledite navodilom za prenos in odprtje Tor iskalnika."
 
 #. TRANSLATORS: Please DO NOT translate "Tor".
 #: bridgedb/strings.py:151
 msgid ""
 "When the 'Tor Network Settings' dialogue pops up, click 'Configure' and follow\n"
 "the wizard until it asks:"
-msgstr "Ko se pojavi dialog v Tor net nastavitve, kliknite Oblikovanje in sledite\nčarovniku do konca:"
+msgstr "Ko se pojavi dialog 'Nastavitve Tor omrežja', kliknite 'Konfigurirajte' in sledite čarovniku, dokler vas ne vpraša:"
 
 #. TRANSLATORS: Please DO NOT translate "Tor".
 #: bridgedb/strings.py:155
@@ -355,11 +355,11 @@ msgid ""
 "paste the bridge lines into the text input box. Finally, click 'Connect', and\n"
 "you should be good to go! If you experience trouble, try clicking the 'Help'\n"
 "button in the 'Tor Network Settings' wizard for further assistance."
-msgstr "Označite \"Da\" in kliknite \"Naprej\". Za oblikovanje novih mostičkov, kopirajte in\nprilepite vrstice mostičkov v vnosno polje. Za konec kliknite \"Povezava\", in\nto je to! Če imate težave, poskusite klikniti \"Pomoč\"\nv čarovniku \"Tor net nastavitve\" za nadaljno pomoč."
+msgstr "Izberite \"Da\" in kliknite \"Naprej\". Za oblikovanje novih mostičkov, kopirajte in\nprilepite vrstice mostičkov v vnosno polje. Na koncu kliknite \"Povezava\", in\nto je to! Če imate težave, poskusite klikniti \"Pomoč\"\nv čarovniku \"Tor net nastavitve\" za nadaljno pomoč."
 
 #: bridgedb/strings.py:167
 msgid "Displays this message."
-msgstr "Prikaži to sporočilo"
+msgstr "Prikaži to sporočilo."
 
 #. TRANSLATORS: Please try to make it clear that "vanilla" here refers to the
 #. same non-Pluggable Transport bridges described above as being
@@ -370,15 +370,15 @@ msgstr "Zahteva za vanilla mostičke."
 
 #: bridgedb/strings.py:172
 msgid "Request IPv6 bridges."
-msgstr "Zahteva za IPv6 mostičke."
+msgstr "Zaprosite za IPv6 mostičke."
 
 #. TRANSLATORS: Please DO NOT translate the word the word "TYPE".
 #: bridgedb/strings.py:174
 msgid "Request a Pluggable Transport by TYPE."
-msgstr "Zahteva za Vtičnike Transport po TYPE."
+msgstr "Zahtevjte transportne vtičnike po tipu."
 
 #. TRANSLATORS: Please DO NOT translate "BridgeDB".
 #. TRANSLATORS: Please DO NOT translate "GnuPG".
 #: bridgedb/strings.py:177
 msgid "Get a copy of BridgeDB's public GnuPG key."
-msgstr "Nabavite duplikat BridgeDB's javnega GnuPG ključa."
+msgstr "Pridobite kopijo javnega GnuPG ključa za BridgeDB."
