@@ -9,6 +9,7 @@
 # Danial Keshani <dani@daanial.com>, 2013
 # Mohammad Hossein <desmati@gmail.com>, 2014
 # Ehsan Ab <a.ehsan70@gmail.com>, 2015
+# Farshad Gh <farshad73@gmail.com>, 2015
 # Gilberto, 2014-2015
 # johnholzer <johnholtzer123@gmail.com>, 2014
 # jonothan hipkey <j.hipkey4502@gmail.com>, 2014
@@ -18,9 +19,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: The Tor Project\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-08-10 18:53+0200\n"
-"PO-Revision-Date: 2015-08-28 10:44+0000\n"
-"Last-Translator: Ehsan Ab <a.ehsan70@gmail.com>\n"
+"POT-Creation-Date: 2015-11-03 01:06+0100\n"
+"PO-Revision-Date: 2015-11-11 18:08+0000\n"
+"Last-Translator: Farshad Gh <farshad73@gmail.com>\n"
 "Language-Team: Persian (http://www.transifex.com/otf/torproject/language/fa/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -313,23 +314,23 @@ msgstr "به نظر می‌رسد شما در شبکهٔ مسدود قرار د�
 msgid "This version of Tails has known security issues:"
 msgstr "این نسخه از Tails این مشکلات امنیت شناخته شده را دارد:"
 
-#: config/chroot_local-includes/usr/local/sbin/tails-spoof-mac:37
+#: config/chroot_local-includes/usr/local/sbin/tails-spoof-mac:50
 #, sh-format
 msgid "Network card ${nic} disabled"
 msgstr "کارت شبکهٔ ${nic} غیرفعال است"
 
-#: config/chroot_local-includes/usr/local/sbin/tails-spoof-mac:38
+#: config/chroot_local-includes/usr/local/sbin/tails-spoof-mac:51
 #, sh-format
 msgid ""
 "MAC spoofing failed for network card ${nic_name} (${nic}) so it is temporarily disabled.\n"
 "You might prefer to restart Tails and disable MAC spoofing. See the <a href='file:///usr/share/doc/tails/website/doc/first_steps/startup_options/mac_spoofing.en.html'>documentation</a>."
 msgstr "قابلیت MAC Spoofing برای کارت شبکهٔ ${nic_name} (${nic}) قابل تنظیم نیست بنابراین این سیستم موقتا غیرفعال شده‌است.\nدر صورت امکان می‌توانید Tails را مجددا باز کرده و MAC Spoofing را غیرفعال نمایید. برای اطلاعات دقیق‌تر به <a href='file:///usr/share/doc/tails/website/doc/first_steps/startup_options/mac_spoofing.en.html'>مستندات</a> مراجعه کنید."
 
-#: config/chroot_local-includes/usr/local/sbin/tails-spoof-mac:47
+#: config/chroot_local-includes/usr/local/sbin/tails-spoof-mac:60
 msgid "All networking disabled"
 msgstr "شبکه غیرفعال شده است"
 
-#: config/chroot_local-includes/usr/local/sbin/tails-spoof-mac:48
+#: config/chroot_local-includes/usr/local/sbin/tails-spoof-mac:61
 #, sh-format
 msgid ""
 "MAC spoofing failed for network card ${nic_name} (${nic}). The error recovery also failed so all networking is disabled.\n"
@@ -460,40 +461,40 @@ msgstr "پیکربندی مرورگر ناموفق بود."
 msgid "Failed to run browser."
 msgstr "اجرای مرورگر ناموفق بود."
 
-#: config/chroot_local-includes/usr/local/sbin/tails-i2p:31
+#: config/chroot_local-includes/usr/local/sbin/tails-i2p:35
 msgid "I2P failed to start"
 msgstr "I2P نتوانست شروع کند"
 
-#: config/chroot_local-includes/usr/local/sbin/tails-i2p:32
+#: config/chroot_local-includes/usr/local/sbin/tails-i2p:36
 msgid ""
 "Something went wrong when I2P was starting. Check the logs in /var/log/i2p "
 "for more information."
 msgstr "در زمان شروع به کار I2P اشکالی پیش آمد.برای اطلاعات بیشتر گزارش‌  وقایع را در  /var/log/i2p بررسی کنید."
 
-#: config/chroot_local-includes/usr/local/sbin/tails-i2p:43
+#: config/chroot_local-includes/usr/local/sbin/tails-i2p:53
 msgid "I2P's router console is ready"
 msgstr "صفحه تنظیمات مسیریاب I2P آماده است."
 
-#: config/chroot_local-includes/usr/local/sbin/tails-i2p:44
-msgid "You can now access I2P's router console on http://127.0.0.1:7657."
-msgstr "حالا شما می توانید به صفحه تنظیمات مسیریاب I2P در آدرس http://127.0.0.1:7657 متصل شوید."
+#: config/chroot_local-includes/usr/local/sbin/tails-i2p:54
+msgid "You can now access I2P's router console in the I2P Browser."
+msgstr "شما هم اکنون می توانید دسترسی داشته باشید به کنسول روتر I2P در مرورگر I2P"
 
-#: config/chroot_local-includes/usr/local/sbin/tails-i2p:49
+#: config/chroot_local-includes/usr/local/sbin/tails-i2p:59
 msgid "I2P is not ready"
 msgstr "I2P آماده نیست."
 
-#: config/chroot_local-includes/usr/local/sbin/tails-i2p:50
-msgid ""
-"Eepsite tunnel not built within six minutes. Check the router console at "
-"http://127.0.0.1:7657/logs or the logs in /var/log/i2p for more information."
-" Reconnect to the network to try again."
-msgstr "تونل اپسایت در ۶ دق درست نشد بود. http://127.0.0.1:7657/logs یا /var/log/i2p\nرا برسی کن برای اطلاعات بیشتر. دوباره به شبکه متصل کن  که ببینی اگر کار کرد."
-
 #: config/chroot_local-includes/usr/local/sbin/tails-i2p:60
+msgid ""
+"Eepsite tunnel not built within six minutes. Check the router console in the"
+" I2P Browser or the logs in /var/log/i2p for more information. Reconnect to "
+"the network to try again."
+msgstr "تونل اپسایت در ۶ دقیقه درست نشد. کنسول روتر را در مرورگر I2P بررسی کنید و یا برای اطلاعات بیش‌تر، گزارش موجود در آدرس /var/log/i2p را بینید. برای تلاش مجدد، دوباره به شبکه‌ی تور متصل شوید."
+
+#: config/chroot_local-includes/usr/local/sbin/tails-i2p:72
 msgid "I2P is ready"
 msgstr "I2P آماده است."
 
-#: config/chroot_local-includes/usr/local/sbin/tails-i2p:61
+#: config/chroot_local-includes/usr/local/sbin/tails-i2p:73
 msgid "You can now access services on I2P."
 msgstr "حالا شما می توانید به سرویس های روی I2P دسترسی داشته باشید."
 
