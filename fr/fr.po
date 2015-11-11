@@ -12,7 +12,9 @@
 # Charles-Antoine Couret <cacouret@wanadoo.fr>, 2009
 # Emmanuel Simond, 2014
 # Eric lassauge <lassauge {AT} users {dot} sourceforge {dot} net>, 2010
+# Gwennole Hangard <gwennole.hangard@gmail.com>, 2015
 # Jean-Yves Toumit <saiolar-c@yahoo.fr>, 2013
+# Martin Trigaux, 2015
 # Onizuka, 2013
 # Michael Ughetto <telimektar1er@gmail.com>, 2008
 # Onizuka, 2013
@@ -23,9 +25,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: The Tor Project\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-08-04 10:45+0200\n"
-"PO-Revision-Date: 2015-08-05 08:40+0000\n"
-"Last-Translator: Alex <chioubaca@gmail.com>\n"
+"POT-Creation-Date: 2015-11-02 21:23+0100\n"
+"PO-Revision-Date: 2015-11-11 08:58+0000\n"
+"Last-Translator: Gwennole Hangard <gwennole.hangard@gmail.com>\n"
 "Language-Team: French (http://www.transifex.com/otf/torproject/language/fr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -41,7 +43,7 @@ msgstr "Cloner et installer"
 msgid "\"Install from ISO\""
 msgstr "Installer à partir d'un ISO"
 
-#: ../liveusb/dialog.py:150 ../liveusb/launcher_ui.py:149
+#: ../liveusb/dialog.py:157 ../liveusb/launcher_ui.py:153
 #, python-format
 msgid "%(distribution)s Installer"
 msgstr "Installateur %(distribution)s"
@@ -66,51 +68,61 @@ msgstr "%(vendor)s %(model)s (%(details)s) - %(device)s"
 msgid "%s already bootable"
 msgstr "%s déjà amorçable"
 
-#: ../liveusb/launcher_ui.py:156
+#: ../liveusb/launcher_ui.py:160
 msgid ""
 "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
-"</style></head><body style=\" font-family:'Sans Serif'; font-size:11pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-size:11pt;\">Need help? Read the </span><a href=\"file:///usr/share/doc/tails/website/doc/first_steps/installation.en.html\"><span style=\" text-decoration: underline; color:#0000ff;\">documentation</span></a><span style=\" font-size:11pt;\">.</span></p></body></html>"
-msgstr "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\np, li { white-space: pre-wrap; }\n</style></head><body style=\" font-family:'Sans Serif'; font-size:11pt; font-weight:400; font-style:normal;\">\n<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-size:11pt;\">Besoin d'aide ? Lisez la </span><a href=\"file:///usr/share/doc/tails/website/doc/first_steps/installation.en.html\"><span style=\" text-decoration: underline; color:#0000ff;\">documentation</span></a><span style=\" font-size:11pt;\">.</span></p></body></html>"
-
-#: ../liveusb/launcher_ui.py:151
-msgid ""
-"<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
-"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
-"p, li { white-space: pre-wrap; }\n"
-"</style></head><body style=\" font-family:'Sans Serif'; font-size:11pt; font-weight:400; font-style:normal;\">\n"
-"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-size:11pt;\">Copy the running Tails onto a USB stick or SD card. All data on the target drive will be lost.</span></p></body></html>"
-msgstr "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\np, li { white-space: pre-wrap; }\n</style></head><body style=\" font-family:'Sans Serif'; font-size:11pt; font-weight:400; font-style:normal;\">\n<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-size:11pt;\">Copier l'actuel Tails sur une clé USB ou une carte SD. Toutes les données du périphérique cible seront perdues.</span></p></body></html>"
-
-#: ../liveusb/launcher_ui.py:153
-msgid ""
-"<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
-"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
-"p, li { white-space: pre-wrap; }\n"
-"</style></head><body style=\" font-family:'Sans Serif'; font-size:11pt; font-weight:400; font-style:normal;\">\n"
-"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-size:11pt;\">Copy the running Tails onto an already installed Tails device. Other partitions found on the stick are preserved.</span></p></body></html>"
-msgstr "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\np, li { white-space: pre-wrap; }\n</style></head><body style=\" font-family:'Sans Serif'; font-size:11pt; font-weight:400; font-style:normal;\">\n<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-size:11pt;\">Copier l'actuel Tails sur un périphérique où Tails est déjà installé. Les autres partitions trouvées seront conservées.</span></p></body></html>"
+"</style></head><body style=\" font-family:'Cantarell'; font-size:11pt; font-weight:400; font-style:normal;\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">Need help? Read the <a href=\"file:///usr/share/doc/tails/website/doc/first_steps/installation.en.html\"><span style=\" text-decoration: underline; color:#0000ff;\">documentation</span></a>.</p></body></html>"
+msgstr "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\np, li { white-space: pre-wrap; }\n</style></head><body style=\" font-family:'Cantarell'; font-size:11pt; font-weight:400; font-style:normal;\">\n<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">Besoin d'aide ? Veuillez lire <a href=\"file:///usr/share/doc/tails/website/doc/first_steps/installation.en.html\"><span style=\" text-decoration: underline; color:#0000ff;\">la documentation</span></a>.</p></body></html>"
 
 #: ../liveusb/launcher_ui.py:155
 msgid ""
-"<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
-"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
-"p, li { white-space: pre-wrap; }\n"
-"</style></head><body style=\" font-family:'Sans Serif'; font-size:11pt; font-weight:400; font-style:normal;\">\n"
-"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-size:11pt;\">Upgrade an already installed Tails device from a new ISO image.</span></p></body></html>"
-msgstr "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\np, li { white-space: pre-wrap; }\n</style></head><body style=\" font-family:'Sans Serif'; font-size:11pt; font-weight:400; font-style:normal;\">\n<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-size:11pt;\">Mettre à jour un périphérique Tails existant depuis une nouvelle image ISO.</span></p></body></html>"
+"<ul>\n"
+"<li>Install Tails on another USB stick by copying the Tails system that you are currently using..</li>\n"
+"\n"
+"<li>The USB stick that you install on is formatted and all data is lost.</li>\n"
+"\n"
+"<li>The encrypted persistent storage of the Tails USB stick that you are currently using is not copied.</li>\n"
+"\n"
+"</ul>"
+msgstr "<ul>\n<li>Installer Tails sur une autre clé USB en copiant le système d'exploitation Tails que vous utilisez maintenant..</li>\n\n<li>La clé USB à installer est formatée et toutes les données sont perdues.</li>\n\n<li>La sauvegarde persistante chiffrée de la clé USB Tails que vous utilisez maintenant n'est pas copiée.</li>\n\n</ul>"
 
-#: ../liveusb/dialog.py:154
+#: ../liveusb/launcher_ui.py:157
+msgid ""
+"<ul>\n"
+"<li>Upgrade another Tails USB stick to the same version of Tails that you are currently using.</li>\n"
+"\n"
+"<li>The encrypted persistent storage of the Tails USB stick that you upgrade is preserved.</li>\n"
+"\n"
+"<li>The encrypted persistent storage of the Tails USB stick that you are currently using is not copied.</li>\n"
+"\n"
+"\n"
+"</ul>"
+msgstr "<ul>\n<li>Mettre à jour une autre clé USB Tails avec la même version de Tails utilisée actuellement.</li>\n\n<li>La sauvegarde persistante chiffrée de la clé USB Tails que vous mettez à jour est préservée.</li>\n\n<li>La sauvegarde persistante chiffrée de la clé USB Tails que vous utilisez maintenant n'est pas copiée.</li>\n\n</ul>"
+
+#: ../liveusb/launcher_ui.py:159
+msgid ""
+"<ul>\n"
+"<li>Upgrade another Tails USB stick to the version of an ISO image.</li>\n"
+"\n"
+"<li>The encrypted persistent storage of the Tails USB stick that you upgrade is preserved.</li>\n"
+"\n"
+"<li>The encrypted persistent storage of the Tails USB stick that you are currently using is not copied.</li>\n"
+"\n"
+"</ul>"
+msgstr "<ul>\n<li>Mettre à jour une autre clé USB Tails avec la même version de l'image ISO.</li>\n\n<li>La sauvegarde persistante chiffrée de la clé USB Tails que vous mettez à jour est préservée.</li>\n\n<li>La sauvegarde persistante chiffrée de la clé USB Tails que vous utilisez maintenant n'est pas copiée.</li>\n\n</ul>"
+
+#: ../liveusb/dialog.py:161
 msgid "Alt+B"
 msgstr "Alt+B"
 
-#: ../liveusb/dialog.py:153
+#: ../liveusb/dialog.py:160
 msgid "Browse"
 msgstr "Parcourir"
 
-#: ../liveusb/dialog.py:160
+#: ../liveusb/dialog.py:167
 msgid ""
 "By allocating extra space on your USB stick for a persistent overlay, you "
 "will be able to store data and make permanent modifications to your live "
@@ -132,20 +144,6 @@ msgstr "Impossible de trouver"
 msgid "Cannot find device %s"
 msgstr "Impossible de trouver le périphérique %s"
 
-#: ../liveusb/launcher_ui.py:150
-msgid ""
-"Clone\n"
-"&&\n"
-"Install"
-msgstr "Cloner\n&&\nInstaller"
-
-#: ../liveusb/launcher_ui.py:152
-msgid ""
-"Clone\n"
-"&&\n"
-"Upgrade"
-msgstr "Cloner\n&&\nMettre à jour"
-
 #: ../liveusb/creator.py:417
 #, python-format
 msgid "Creating %sMB persistent overlay"
@@ -156,7 +154,7 @@ msgid ""
 "Device is not yet mounted, so we cannot determine the amount of free space."
 msgstr "Le périphérique n'est pas encore monté, nous ne pouvons donc pas déterminer la quantité d'espace libre disponible."
 
-#: ../liveusb/dialog.py:157
+#: ../liveusb/dialog.py:164
 #, python-format
 msgid "Download %(distribution)s"
 msgstr "Télécharger %(distribution)s"
@@ -216,13 +214,19 @@ msgstr "Vérification de la somme de contrôle MD5 de l'ISO réussie"
 msgid "ISO MD5 checksum verification failed"
 msgstr "Échec de la vérification de la somme de contrôle MD5 de l'ISO"
 
-#: ../liveusb/dialog.py:156
+#: ../liveusb/dialog.py:163
 msgid ""
 "If you do not select an existing Live ISO, the selected release will be "
 "downloaded for you."
 msgstr "Si vous ne choisissez pas une image Live existante, la version sélectionnée sera téléchargée pour vous."
 
-#: ../liveusb/dialog.py:165
+#: ../liveusb/launcher_ui.py:154
+msgid ""
+"Install\n"
+"by cloning"
+msgstr "Installer\nen clonant"
+
+#: ../liveusb/dialog.py:172
 msgid "Install Tails"
 msgstr "Installer Tails"
 
@@ -304,7 +308,7 @@ msgstr "Partitionnement du périphérique %(device)s"
 msgid "Persistent Storage"
 msgstr "Stockage persistant"
 
-#: ../liveusb/dialog.py:161
+#: ../liveusb/dialog.py:168
 msgid "Persistent Storage (0 MB)"
 msgstr "Stockage Persistant (0 Mo)"
 
@@ -358,7 +362,7 @@ msgstr "Ce type de source ne permet pas la vérification de la somme de contrôl
 msgid "Synchronizing data on disk..."
 msgstr "Synchronisation des données sur le disque..."
 
-#: ../liveusb/dialog.py:159
+#: ../liveusb/dialog.py:166
 msgid "Target Device"
 msgstr "Périphérique Cible"
 
@@ -382,14 +386,14 @@ msgid ""
 "A more detailed error log has been written to '%(filename)s'."
 msgstr "Un problème est survenu lors de l'exécution de la commande suivante : « %(command)s »\nUn journal d'erreur plus détaillé a été écrit dans le fichier « %(filename)s »"
 
-#: ../liveusb/dialog.py:151
+#: ../liveusb/dialog.py:158
 msgid ""
 "This button allows you to browse for an existing Live system ISO that you "
 "have previously downloaded.  If you do not select one, a release will be "
 "downloaded for you automatically."
 msgstr "Ce bouton vous permet de rechercher une image ISO Live que vous auriez téléchargée auparavant. Si vous n'en sélectionnez pas, une version sera téléchargée pour vous automatiquement."
 
-#: ../liveusb/dialog.py:164
+#: ../liveusb/dialog.py:171
 msgid ""
 "This button will begin the LiveUSB creation process.  This entails "
 "optionally downloading a release (if an existing one wasn't selected),  "
@@ -397,19 +401,19 @@ msgid ""
 "installing the bootloader."
 msgstr "Ce bouton va démarrer le processus de création du LiveUSB. Cela implique l'éventuel téléchargement d'une version (si aucune n'a été sélectionnée), l'extraction de l'image ISO sur le périphérique USB, la création d'un volume persistant et l'installation du chargeur de démarrage (bootloader)."
 
-#: ../liveusb/dialog.py:158
+#: ../liveusb/dialog.py:165
 msgid ""
 "This is the USB stick that you want to install your Live system on.  This "
 "device must be formatted with the FAT filesystem."
 msgstr "Ceci est la clé USB sur laquelle vous souhaitez installer votre système Live. Celle-ci doit être formatée avec le système de fichiers FAT."
 
-#: ../liveusb/dialog.py:163
+#: ../liveusb/dialog.py:170
 msgid ""
 "This is the progress bar that will indicate how far along in the LiveUSB "
 "creation process you are"
 msgstr "Ceci est la barre de progression qui vous indiquera l'avancement de la création du LiveUSB."
 
-#: ../liveusb/dialog.py:162
+#: ../liveusb/dialog.py:169
 msgid "This is the status console, where all messages get written to."
 msgstr "Ceci est la console d'état, où tous les messages sont écrits."
 
@@ -538,11 +542,19 @@ msgstr "Système de fichiers non pris en charge : %s\nVeuillez sauvegarder le c
 msgid "Updating properties of system partition %(system_partition)s"
 msgstr "Mise à jour des propriétés de la partition système %(system_partition)s"
 
-#: ../liveusb/launcher_ui.py:154
-msgid "Upgrade from ISO"
-msgstr "Mettre à jour à partir de l'ISO"
+#: ../liveusb/launcher_ui.py:156
+msgid ""
+"Upgrade\n"
+"by cloning"
+msgstr "Mettre à jour\nen clonant"
 
-#: ../liveusb/dialog.py:152
+#: ../liveusb/launcher_ui.py:158
+msgid ""
+"Upgrade\n"
+"from ISO"
+msgstr "Mettre à jour\ndepuis une ISO"
+
+#: ../liveusb/dialog.py:159
 msgid "Use existing Live system ISO"
 msgstr "Utiliser l'image ISO du système Live existant"
 
@@ -608,6 +620,6 @@ msgstr "Vous pouvez essayer de reprendre votre téléchargement"
 msgid "You must run this application as root"
 msgstr "Vous devez exécuter cette application en tant que superutilisateur (root)"
 
-#: ../liveusb/dialog.py:155
+#: ../liveusb/dialog.py:162
 msgid "or"
 msgstr "ou"
