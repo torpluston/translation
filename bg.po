@@ -15,9 +15,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: The Tor Project\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-09-20 19:32+0200\n"
-"PO-Revision-Date: 2015-09-22 17:25+0000\n"
-"Last-Translator: 4Joy <kiril.banialiev@gmail.com>\n"
+"POT-Creation-Date: 2015-12-16 19:49+0100\n"
+"PO-Revision-Date: 2015-12-17 09:22+0000\n"
+"Last-Translator: carolyn <carolyn@anhalt.org>\n"
 "Language-Team: Bulgarian (http://www.transifex.com/otf/torproject/language/bg/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -25,15 +25,15 @@ msgstr ""
 "Language: bg\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: config/chroot_local-includes/etc/NetworkManager/dispatcher.d/60-tor-ready.sh:43
+#: config/chroot_local-includes/etc/NetworkManager/dispatcher.d/60-tor-ready.sh:39
 msgid "Tor is ready"
 msgstr "Tor е готов"
 
-#: config/chroot_local-includes/etc/NetworkManager/dispatcher.d/60-tor-ready.sh:44
+#: config/chroot_local-includes/etc/NetworkManager/dispatcher.d/60-tor-ready.sh:40
 msgid "You can now access the Internet."
 msgstr "Вече може да получите достъп до Интернет."
 
-#: config/chroot_local-includes/etc/whisperback/config.py:64
+#: config/chroot_local-includes/etc/whisperback/config.py:65
 #, python-format
 msgid ""
 "<h1>Help us fix your bug!</h1>\n"
@@ -232,13 +232,14 @@ msgstr "Продукция на GnuPG:"
 msgid "Other messages provided by GnuPG:"
 msgstr "Други съобщения, предоставяни от GnuPG:"
 
-#: config/chroot_local-includes/usr/local/lib/shutdown-helper-applet:39
-msgid "Shutdown Immediately"
-msgstr "Незабавно Изключване "
+#: config/chroot_local-includes/usr/share/gnome-shell/extensions/shutdown-helper@tails.boum.org/extension.js:71
+msgid "Restart"
+msgstr ""
 
-#: config/chroot_local-includes/usr/local/lib/shutdown-helper-applet:40
-msgid "Reboot Immediately"
-msgstr "Рестартирайте Незабавно"
+#: config/chroot_local-includes/usr/share/gnome-shell/extensions/shutdown-helper@tails.boum.org/extension.js:74
+#: ../config/chroot_local-includes/usr/share/applications/tails-shutdown.desktop.in.h:1
+msgid "Power Off"
+msgstr "Изключване"
 
 #: config/chroot_local-includes/usr/local/bin/tails-about:16
 msgid "not available"
@@ -297,56 +298,48 @@ msgstr "Tor се нуждае от точен часовник за да раб�
 msgid "Failed to synchronize the clock!"
 msgstr "Неуспешно синхронизиране на часовника!"
 
-#: config/chroot_local-includes/usr/local/sbin/tails-restricted-network-detector:38
-msgid "Network connection blocked?"
-msgstr "Връзката с мрежата е блокирана?"
-
-#: config/chroot_local-includes/usr/local/sbin/tails-restricted-network-detector:40
-msgid ""
-"It looks like you are blocked from the network. This may be related to the "
-"MAC spoofing feature. For more information, see the <a "
-"href=\\\"file:///usr/share/doc/tails/website/doc/first_steps/startup_options/mac_spoofing.en.html#blocked\\\">MAC"
-" spoofing documentation</a>."
-msgstr "Изглежда, че сте блокирани от мрежата. Това може да бъде свързано със спуфинг функцията на MAC адреса. За повече информация, вижте <a href=\\\"file:///usr/share/doc/tails/website/doc/first_steps/startup_options/mac_spoofing.en.html#blocked\\\">MAC спуфинг документацията</a>."
-
-#: config/chroot_local-includes/usr/local/bin/tails-security-check:151
+#: config/chroot_local-includes/usr/local/bin/tails-security-check:146
 msgid "This version of Tails has known security issues:"
 msgstr "Тази версия на Tails е известна с проблемите със сигурността:"
 
-#: config/chroot_local-includes/usr/local/sbin/tails-spoof-mac:45
+#: config/chroot_local-includes/usr/local/bin/tails-security-check:156
+msgid "Known security issues"
+msgstr ""
+
+#: config/chroot_local-includes/usr/local/sbin/tails-spoof-mac:51
 #, sh-format
 msgid "Network card ${nic} disabled"
 msgstr "Мрежовата карта ${nic} е забранена"
 
-#: config/chroot_local-includes/usr/local/sbin/tails-spoof-mac:46
+#: config/chroot_local-includes/usr/local/sbin/tails-spoof-mac:52
 #, sh-format
 msgid ""
 "MAC spoofing failed for network card ${nic_name} (${nic}) so it is temporarily disabled.\n"
-"You might prefer to restart Tails and disable MAC spoofing. See the <a href='file:///usr/share/doc/tails/website/doc/first_steps/startup_options/mac_spoofing.en.html'>documentation</a>."
-msgstr "MAC спуфинга се провали за мрежова карта ${nic_name} (${nic}) така, че е временно изключен.\nМоже би предпочитате да рестартирате Tails и забраняване на MAC спуфинга. Вижте <a href='file:///usr/share/doc/tails/website/doc/first_steps/startup_options/mac_spoofing.en.html'>документацията</a>."
+"You might prefer to restart Tails and disable MAC spoofing."
+msgstr ""
 
-#: config/chroot_local-includes/usr/local/sbin/tails-spoof-mac:55
+#: config/chroot_local-includes/usr/local/sbin/tails-spoof-mac:61
 msgid "All networking disabled"
 msgstr "Всички мрежи изключени"
 
-#: config/chroot_local-includes/usr/local/sbin/tails-spoof-mac:56
+#: config/chroot_local-includes/usr/local/sbin/tails-spoof-mac:62
 #, sh-format
 msgid ""
 "MAC spoofing failed for network card ${nic_name} (${nic}). The error recovery also failed so all networking is disabled.\n"
-"You might prefer to restart Tails and disable MAC spoofing. See the <a href='file:///usr/share/doc/first_steps/startup_options/mac_spoofing.en.html'>documentation</a>."
-msgstr "MAC спуфинга се провали за мрежова карта ${nic_name} (${nic}). Възстановяването на грешката също не успя, така че всички мрежи са забранени.\nМоже би предпочитате да рестартирате Tails и забраняване на MAC спуфинга. Вижте <a href='file:///usr/share/doc/first_steps/startup_options/mac_spoofing.en.html'> документацията </a>."
+"You might prefer to restart Tails and disable MAC spoofing."
+msgstr ""
 
-#: config/chroot_local-includes/usr/local/bin/tails-upgrade-frontend-wrapper:19
+#: config/chroot_local-includes/usr/local/bin/tails-upgrade-frontend-wrapper:18
 #: config/chroot_local-includes/usr/local/sbin/unsafe-browser:22
 msgid "error:"
 msgstr "грешка:"
 
-#: config/chroot_local-includes/usr/local/bin/tails-upgrade-frontend-wrapper:20
+#: config/chroot_local-includes/usr/local/bin/tails-upgrade-frontend-wrapper:19
 #: config/chroot_local-includes/usr/local/sbin/unsafe-browser:23
 msgid "Error"
 msgstr "ГРЕШКА"
 
-#: config/chroot_local-includes/usr/local/bin/tails-upgrade-frontend-wrapper:40
+#: config/chroot_local-includes/usr/local/bin/tails-upgrade-frontend-wrapper:39
 msgid ""
 "<b>Not enough memory available to check for upgrades.</b>\n"
 "\n"
@@ -359,22 +352,31 @@ msgid ""
 "See https://tails.boum.org/doc/first_steps/upgrade#manual"
 msgstr "<b>Няма достатъчно памет, за да проверя за обновления.</b>\n\nПотвърдете, че системата покрива изискванията за използване на Tails.\nВижте file:///usr/share/doc/tails/website/doc/about/requirements.en.html\n\nОпитайте се да рестартирате Tails, за да проверите за обновления отново.\n\nИли извършете ръчно обновяване.\nВижте https://tails.boum.org/doc/first_steps/upgrade#manual"
 
-#: config/chroot_local-includes/usr/local/bin/tails-virt-notify-user:53
+#: config/chroot_local-includes/usr/local/bin/tails-virt-notify-user:67
 msgid "Warning: virtual machine detected!"
 msgstr "Внимание: открита е виртуална машина!"
 
-#: config/chroot_local-includes/usr/local/bin/tails-virt-notify-user:55
+#: config/chroot_local-includes/usr/local/bin/tails-virt-notify-user:69
 msgid ""
 "Both the host operating system and the virtualization software are able to "
 "monitor what you are doing in Tails."
 msgstr "Операционната система - домакин и софтуерът за виртуализация могат да наблюдават какво правите в Tails."
 
-#: config/chroot_local-includes/usr/local/bin/tails-virt-notify-user:57
+#: config/chroot_local-includes/usr/local/bin/tails-virt-notify-user:72
+msgid "Warning: non-free virtual machine detected!"
+msgstr ""
+
+#: config/chroot_local-includes/usr/local/bin/tails-virt-notify-user:74
 msgid ""
-"<a "
-"href='file:///usr/share/doc/tails/website/doc/advanced_topics/virtualization.en.html#security'>Learn"
-" more...</a>"
-msgstr "<a href='file:///usr/share/doc/tails/website/doc/advanced_topics/virtualization.en.html#security'>Научете повече...</a>"
+"Both the host operating system and the virtualization software are able to "
+"monitor what you are doing in Tails. Only free software can be considered "
+"trustworthy, for both the host operating system and the virtualization "
+"software."
+msgstr ""
+
+#: config/chroot_local-includes/usr/local/bin/tails-virt-notify-user:79
+msgid "Learn more"
+msgstr ""
 
 #: config/chroot_local-includes/usr/local/bin/tor-browser:29
 msgid "Tor is not ready"
@@ -398,10 +400,10 @@ msgstr "Наистина ли искате да стартирате Несиг�
 
 #: config/chroot_local-includes/usr/local/sbin/unsafe-browser:35
 msgid ""
-"Network activity within the Unsafe Browser is <b>not anonymous</b>. Only use"
-" the Unsafe Browser if necessary, for example if you have to login or "
+"Network activity within the Unsafe Browser is <b>not anonymous</b>.\\nOnly "
+"use the Unsafe Browser if necessary, for example\\nif you have to login or "
 "register to activate your Internet connection."
-msgstr "Мрежовата активност в Несигурният Браузър <b>не е анонимна<b>.Използвайте Несигурният Браузър само при необходимост,например ако ви се налага логване или регистриране за активация на вашата Интернет връзка."
+msgstr ""
 
 #: config/chroot_local-includes/usr/local/sbin/unsafe-browser:47
 msgid "Starting the Unsafe Browser..."
@@ -460,40 +462,40 @@ msgstr "Неуспех при настройката на браузъра."
 msgid "Failed to run browser."
 msgstr "Неуспех при пускането на браузъра."
 
-#: config/chroot_local-includes/usr/local/sbin/tails-i2p:31
+#: config/chroot_local-includes/usr/local/sbin/tails-i2p:35
 msgid "I2P failed to start"
 msgstr "I2P не можа да се стартира"
 
-#: config/chroot_local-includes/usr/local/sbin/tails-i2p:32
+#: config/chroot_local-includes/usr/local/sbin/tails-i2p:36
 msgid ""
 "Something went wrong when I2P was starting. Check the logs in /var/log/i2p "
 "for more information."
 msgstr "Нещо се обърка, докато I2P стартираше. Проверете логовете в /var/log/i2p за повече информация."
 
-#: config/chroot_local-includes/usr/local/sbin/tails-i2p:43
+#: config/chroot_local-includes/usr/local/sbin/tails-i2p:53
 msgid "I2P's router console is ready"
 msgstr "Терминалът на I2P рутера е готов"
 
-#: config/chroot_local-includes/usr/local/sbin/tails-i2p:44
+#: config/chroot_local-includes/usr/local/sbin/tails-i2p:54
 msgid "You can now access I2P's router console in the I2P Browser."
 msgstr "Вече имате достъп до I2P рутера на I2P браузера."
 
-#: config/chroot_local-includes/usr/local/sbin/tails-i2p:49
+#: config/chroot_local-includes/usr/local/sbin/tails-i2p:59
 msgid "I2P is not ready"
 msgstr "I2P не е готово"
 
-#: config/chroot_local-includes/usr/local/sbin/tails-i2p:50
+#: config/chroot_local-includes/usr/local/sbin/tails-i2p:60
 msgid ""
 "Eepsite tunnel not built within six minutes. Check the router console in the"
 " I2P Browser or the logs in /var/log/i2p for more information. Reconnect to "
 "the network to try again."
 msgstr "Ееп-тунела на сайта ще е готов за повече от 6 минути. Проверете конзолата на рутера в I2P браузъра или влезте в /var/log/i2p за повече информация. Свържете се наново с мрежата и опитайте отново."
 
-#: config/chroot_local-includes/usr/local/sbin/tails-i2p:60
+#: config/chroot_local-includes/usr/local/sbin/tails-i2p:72
 msgid "I2P is ready"
 msgstr "I2P е готово"
 
-#: config/chroot_local-includes/usr/local/sbin/tails-i2p:61
+#: config/chroot_local-includes/usr/local/sbin/tails-i2p:73
 msgid "You can now access services on I2P."
 msgstr "Сега може да използвате услуги през I2P"
 
@@ -529,10 +531,6 @@ msgstr "Рестартиране"
 #: ../config/chroot_local-includes/usr/share/applications/tails-reboot.desktop.in.h:2
 msgid "Immediately reboot computer"
 msgstr "Незабавно рестартиране на компютъра"
-
-#: ../config/chroot_local-includes/usr/share/applications/tails-shutdown.desktop.in.h:1
-msgid "Power Off"
-msgstr "Изключване"
 
 #: ../config/chroot_local-includes/usr/share/applications/tails-shutdown.desktop.in.h:2
 msgid "Immediately shut down computer"

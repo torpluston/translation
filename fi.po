@@ -13,8 +13,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: The Tor Project\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-09-20 19:32+0200\n"
-"PO-Revision-Date: 2015-10-21 06:12+0000\n"
+"POT-Creation-Date: 2015-12-16 19:49+0100\n"
+"PO-Revision-Date: 2015-12-17 09:22+0000\n"
 "Last-Translator: carolyn <carolyn@anhalt.org>\n"
 "Language-Team: Finnish (http://www.transifex.com/otf/torproject/language/fi/)\n"
 "MIME-Version: 1.0\n"
@@ -23,15 +23,15 @@ msgstr ""
 "Language: fi\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: config/chroot_local-includes/etc/NetworkManager/dispatcher.d/60-tor-ready.sh:43
+#: config/chroot_local-includes/etc/NetworkManager/dispatcher.d/60-tor-ready.sh:39
 msgid "Tor is ready"
 msgstr "Tor on valmis"
 
-#: config/chroot_local-includes/etc/NetworkManager/dispatcher.d/60-tor-ready.sh:44
+#: config/chroot_local-includes/etc/NetworkManager/dispatcher.d/60-tor-ready.sh:40
 msgid "You can now access the Internet."
 msgstr "Voit nyt päästä internettiin."
 
-#: config/chroot_local-includes/etc/whisperback/config.py:64
+#: config/chroot_local-includes/etc/whisperback/config.py:65
 #, python-format
 msgid ""
 "<h1>Help us fix your bug!</h1>\n"
@@ -230,13 +230,14 @@ msgstr "GnuPG-tuloste:"
 msgid "Other messages provided by GnuPG:"
 msgstr "Muut GnuPG-viestit:"
 
-#: config/chroot_local-includes/usr/local/lib/shutdown-helper-applet:39
-msgid "Shutdown Immediately"
-msgstr "Sammuta välittömästi"
+#: config/chroot_local-includes/usr/share/gnome-shell/extensions/shutdown-helper@tails.boum.org/extension.js:71
+msgid "Restart"
+msgstr ""
 
-#: config/chroot_local-includes/usr/local/lib/shutdown-helper-applet:40
-msgid "Reboot Immediately"
-msgstr "Käynnistä uudelleen välittömästi"
+#: config/chroot_local-includes/usr/share/gnome-shell/extensions/shutdown-helper@tails.boum.org/extension.js:74
+#: ../config/chroot_local-includes/usr/share/applications/tails-shutdown.desktop.in.h:1
+msgid "Power Off"
+msgstr "Sammuta"
 
 #: config/chroot_local-includes/usr/local/bin/tails-about:16
 msgid "not available"
@@ -295,56 +296,48 @@ msgstr "Tor tarvitsee tarkan kellon toimiakseen oikein, erityisesti palvelujen p
 msgid "Failed to synchronize the clock!"
 msgstr "Kellon synkronointi epäonnistui!"
 
-#: config/chroot_local-includes/usr/local/sbin/tails-restricted-network-detector:38
-msgid "Network connection blocked?"
-msgstr "Verkkoyhteys estetty?"
-
-#: config/chroot_local-includes/usr/local/sbin/tails-restricted-network-detector:40
-msgid ""
-"It looks like you are blocked from the network. This may be related to the "
-"MAC spoofing feature. For more information, see the <a "
-"href=\\\"file:///usr/share/doc/tails/website/doc/first_steps/startup_options/mac_spoofing.en.html#blocked\\\">MAC"
-" spoofing documentation</a>."
-msgstr "Näyttää siltä kuin sinut olisi eristetty verkosta. Tämä saattaa johtua MAC-osoitteen väärennysominaisuudesta. Katso lisätietoja osoitteesta <a href=\\\"file:///usr/share/doc/tails/website/doc/first_steps/startup_options/mac_spoofing.en.html#blocked\\\">MAC-väärennysohjeet</a>."
-
-#: config/chroot_local-includes/usr/local/bin/tails-security-check:151
+#: config/chroot_local-includes/usr/local/bin/tails-security-check:146
 msgid "This version of Tails has known security issues:"
 msgstr "Tässä Tails-versiossa on tunnettuja turvallisuusriskejä:"
 
-#: config/chroot_local-includes/usr/local/sbin/tails-spoof-mac:45
+#: config/chroot_local-includes/usr/local/bin/tails-security-check:156
+msgid "Known security issues"
+msgstr ""
+
+#: config/chroot_local-includes/usr/local/sbin/tails-spoof-mac:51
 #, sh-format
 msgid "Network card ${nic} disabled"
 msgstr "Verkkokortti ${nic} otettu pois käytöstä"
 
-#: config/chroot_local-includes/usr/local/sbin/tails-spoof-mac:46
+#: config/chroot_local-includes/usr/local/sbin/tails-spoof-mac:52
 #, sh-format
 msgid ""
 "MAC spoofing failed for network card ${nic_name} (${nic}) so it is temporarily disabled.\n"
-"You might prefer to restart Tails and disable MAC spoofing. See the <a href='file:///usr/share/doc/tails/website/doc/first_steps/startup_options/mac_spoofing.en.html'>documentation</a>."
-msgstr "MAC-osoitteen väärennös epäonnistui verkkokortilla ${nic_name} (${nic}), joten se on otettu tilapäisesti pois käytöstä.\nOlisi ehkä paras käynnistää Tails uudelleen ja ottaa pois käytöstä MAC-väärennös. Katso <a href='file:///usr/share/doc/tails/website/doc/first_steps/startup_options/mac_spoofing.en.html'>ohjeet</a>."
+"You might prefer to restart Tails and disable MAC spoofing."
+msgstr ""
 
-#: config/chroot_local-includes/usr/local/sbin/tails-spoof-mac:55
+#: config/chroot_local-includes/usr/local/sbin/tails-spoof-mac:61
 msgid "All networking disabled"
 msgstr "Kaikki verkkoyhteydet otettu pois käytöstä"
 
-#: config/chroot_local-includes/usr/local/sbin/tails-spoof-mac:56
+#: config/chroot_local-includes/usr/local/sbin/tails-spoof-mac:62
 #, sh-format
 msgid ""
 "MAC spoofing failed for network card ${nic_name} (${nic}). The error recovery also failed so all networking is disabled.\n"
-"You might prefer to restart Tails and disable MAC spoofing. See the <a href='file:///usr/share/doc/first_steps/startup_options/mac_spoofing.en.html'>documentation</a>."
-msgstr "MAC-osoitteen väärennös epäonnistui verkkokortilla ${nic_name} (${nic}). Myös virhepalautuminen epäonnistui, joten kaikki verkkoyhteydet on otettu pois käytöstä.\nOlisi ehkä paras käynnistää Tails uudelleen ja ottaa pois käytöstä MAC-väärennös. Katso <a href='file:///usr/share/doc/first_steps/startup_options/mac_spoofing.en.html'>ohjeet</a>."
+"You might prefer to restart Tails and disable MAC spoofing."
+msgstr ""
 
-#: config/chroot_local-includes/usr/local/bin/tails-upgrade-frontend-wrapper:19
+#: config/chroot_local-includes/usr/local/bin/tails-upgrade-frontend-wrapper:18
 #: config/chroot_local-includes/usr/local/sbin/unsafe-browser:22
 msgid "error:"
 msgstr "virhe:"
 
-#: config/chroot_local-includes/usr/local/bin/tails-upgrade-frontend-wrapper:20
+#: config/chroot_local-includes/usr/local/bin/tails-upgrade-frontend-wrapper:19
 #: config/chroot_local-includes/usr/local/sbin/unsafe-browser:23
 msgid "Error"
 msgstr "Virhe"
 
-#: config/chroot_local-includes/usr/local/bin/tails-upgrade-frontend-wrapper:40
+#: config/chroot_local-includes/usr/local/bin/tails-upgrade-frontend-wrapper:39
 msgid ""
 "<b>Not enough memory available to check for upgrades.</b>\n"
 "\n"
@@ -357,22 +350,31 @@ msgid ""
 "See https://tails.boum.org/doc/first_steps/upgrade#manual"
 msgstr "<b>Muistia ei ole kylliksi päivitysten tarkistamiseksi.</b>\n\nVarmista, että järjestelmä tyydyttää suoritettavan Tails-ohjelman vaatimukset.\nKatso file:///usr/share/doc/tails/website/doc/about/requirements.en.html\n\nYritä käynnistää Tails uudelleen päivitysten tarkistamiseksi.\n\nTai tee manuaalinen päivitys.\nKatso https://tails.boum.org/doc/first_steps/upgrade#manual"
 
-#: config/chroot_local-includes/usr/local/bin/tails-virt-notify-user:53
+#: config/chroot_local-includes/usr/local/bin/tails-virt-notify-user:67
 msgid "Warning: virtual machine detected!"
 msgstr "Varoitus: virtuaalikone havaittu!"
 
-#: config/chroot_local-includes/usr/local/bin/tails-virt-notify-user:55
+#: config/chroot_local-includes/usr/local/bin/tails-virt-notify-user:69
 msgid ""
 "Both the host operating system and the virtualization software are able to "
 "monitor what you are doing in Tails."
 msgstr "Sekä isäntäkäyttöjärjestelmä että virtualisointiohjelmisto kykenevät valvomaan, mitä teet Tails-ohjelmassa."
 
-#: config/chroot_local-includes/usr/local/bin/tails-virt-notify-user:57
+#: config/chroot_local-includes/usr/local/bin/tails-virt-notify-user:72
+msgid "Warning: non-free virtual machine detected!"
+msgstr ""
+
+#: config/chroot_local-includes/usr/local/bin/tails-virt-notify-user:74
 msgid ""
-"<a "
-"href='file:///usr/share/doc/tails/website/doc/advanced_topics/virtualization.en.html#security'>Learn"
-" more...</a>"
-msgstr "<a href='file:///usr/share/doc/tails/website/doc/advanced_topics/virtualization.en.html#security'>Opi lisää...</a>"
+"Both the host operating system and the virtualization software are able to "
+"monitor what you are doing in Tails. Only free software can be considered "
+"trustworthy, for both the host operating system and the virtualization "
+"software."
+msgstr ""
+
+#: config/chroot_local-includes/usr/local/bin/tails-virt-notify-user:79
+msgid "Learn more"
+msgstr ""
 
 #: config/chroot_local-includes/usr/local/bin/tor-browser:29
 msgid "Tor is not ready"
@@ -396,10 +398,10 @@ msgstr "Haluatko varmasti käynnistää turvattoman selaimen?"
 
 #: config/chroot_local-includes/usr/local/sbin/unsafe-browser:35
 msgid ""
-"Network activity within the Unsafe Browser is <b>not anonymous</b>. Only use"
-" the Unsafe Browser if necessary, for example if you have to login or "
+"Network activity within the Unsafe Browser is <b>not anonymous</b>.\\nOnly "
+"use the Unsafe Browser if necessary, for example\\nif you have to login or "
 "register to activate your Internet connection."
-msgstr "Verkkotoiminta turvattomalla webbiselaimella <b>ei ole anonyymia</b>. Käytä turvatonta webbiselainta vain kun se on välttämätöntä, esimerkiksi jos sinun on kirjauduttava tai rekisteröidyttävä Internet-yhteytesi aktivoimiseksi."
+msgstr ""
 
 #: config/chroot_local-includes/usr/local/sbin/unsafe-browser:47
 msgid "Starting the Unsafe Browser..."
@@ -458,40 +460,40 @@ msgstr "Selaimen asettaminen epäonnistui."
 msgid "Failed to run browser."
 msgstr "Selaimen suorittaminen epäonnistui."
 
-#: config/chroot_local-includes/usr/local/sbin/tails-i2p:31
+#: config/chroot_local-includes/usr/local/sbin/tails-i2p:35
 msgid "I2P failed to start"
 msgstr "I2P-käynnistys epäonnistui"
 
-#: config/chroot_local-includes/usr/local/sbin/tails-i2p:32
+#: config/chroot_local-includes/usr/local/sbin/tails-i2p:36
 msgid ""
 "Something went wrong when I2P was starting. Check the logs in /var/log/i2p "
 "for more information."
 msgstr "Jotain meni pieleen I2P:n käynnistyksen yhteydessä. Tarkista lisätietoja lokitiedostosta osoitteessa /var/log/i2p."
 
-#: config/chroot_local-includes/usr/local/sbin/tails-i2p:43
+#: config/chroot_local-includes/usr/local/sbin/tails-i2p:53
 msgid "I2P's router console is ready"
 msgstr "I2P:n reititinpääteikkuna on valmis"
 
-#: config/chroot_local-includes/usr/local/sbin/tails-i2p:44
+#: config/chroot_local-includes/usr/local/sbin/tails-i2p:54
 msgid "You can now access I2P's router console in the I2P Browser."
 msgstr ""
 
-#: config/chroot_local-includes/usr/local/sbin/tails-i2p:49
+#: config/chroot_local-includes/usr/local/sbin/tails-i2p:59
 msgid "I2P is not ready"
 msgstr "I2P ei ole valmis"
 
-#: config/chroot_local-includes/usr/local/sbin/tails-i2p:50
+#: config/chroot_local-includes/usr/local/sbin/tails-i2p:60
 msgid ""
 "Eepsite tunnel not built within six minutes. Check the router console in the"
 " I2P Browser or the logs in /var/log/i2p for more information. Reconnect to "
 "the network to try again."
 msgstr ""
 
-#: config/chroot_local-includes/usr/local/sbin/tails-i2p:60
+#: config/chroot_local-includes/usr/local/sbin/tails-i2p:72
 msgid "I2P is ready"
 msgstr "I2P on valmis"
 
-#: config/chroot_local-includes/usr/local/sbin/tails-i2p:61
+#: config/chroot_local-includes/usr/local/sbin/tails-i2p:73
 msgid "You can now access services on I2P."
 msgstr "Sinulla on nyt pääsy I2P-palveluihin."
 
@@ -527,10 +529,6 @@ msgstr "Käynnistä uudelleen"
 #: ../config/chroot_local-includes/usr/share/applications/tails-reboot.desktop.in.h:2
 msgid "Immediately reboot computer"
 msgstr "Käynnistä tietokone uudelleen välittömästi"
-
-#: ../config/chroot_local-includes/usr/share/applications/tails-shutdown.desktop.in.h:1
-msgid "Power Off"
-msgstr "Sammuta"
 
 #: ../config/chroot_local-includes/usr/share/applications/tails-shutdown.desktop.in.h:2
 msgid "Immediately shut down computer"
