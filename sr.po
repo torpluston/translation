@@ -10,8 +10,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: The Tor Project\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-12-16 19:49+0100\n"
-"PO-Revision-Date: 2015-12-17 09:22+0000\n"
+"POT-Creation-Date: 2016-01-04 11:56+0100\n"
+"PO-Revision-Date: 2016-01-06 09:25+0000\n"
 "Last-Translator: carolyn <carolyn@anhalt.org>\n"
 "Language-Team: Serbian (http://www.transifex.com/otf/torproject/language/sr/)\n"
 "MIME-Version: 1.0\n"
@@ -61,11 +61,13 @@ msgid "Do you want to start Electrum anyway?"
 msgstr "Da li ipak želite da pokrenete Electrum?  "
 
 #: config/chroot_local-includes/usr/local/bin/electrum:20
+#: config/chroot_local-includes/usr/local/bin/icedove:22
 #: config/chroot_local-includes/usr/local/sbin/unsafe-browser:36
 msgid "_Launch"
 msgstr "_Лансирати"
 
 #: config/chroot_local-includes/usr/local/bin/electrum:21
+#: config/chroot_local-includes/usr/local/bin/icedove:23
 #: config/chroot_local-includes/usr/local/sbin/unsafe-browser:37
 msgid "_Exit"
 msgstr "_Излаз"
@@ -230,6 +232,17 @@ msgstr "Излаз од GnuPG:"
 msgid "Other messages provided by GnuPG:"
 msgstr "Остале поруке које пружа GnuPG:"
 
+#: config/chroot_local-includes/usr/local/bin/icedove:18
+msgid "The <b>Claws Mail</b> persistence feature is activated."
+msgstr ""
+
+#: config/chroot_local-includes/usr/local/bin/icedove:20
+msgid ""
+"If you have emails saved in <b>Claws Mail</b>, you should <a "
+"href='https://tails.boum.org/doc/anonymous_internet/claws_mail_to_icedove'>migrate"
+" your data</a> before starting <b>Icedove</b>."
+msgstr ""
+
 #: config/chroot_local-includes/usr/share/gnome-shell/extensions/shutdown-helper@tails.boum.org/extension.js:71
 msgid "Restart"
 msgstr ""
@@ -282,17 +295,17 @@ msgstr "Надоградња је неуспешна. То је можда зб�
 msgid "The upgrade was successful."
 msgstr "Надоградња је била успешна."
 
-#: config/chroot_local-includes/usr/local/bin/tails-htp-notify-user:52
+#: config/chroot_local-includes/usr/local/lib/tails-htp-notify-user:52
 msgid "Synchronizing the system's clock"
 msgstr "Синхронизовање системског сата"
 
-#: config/chroot_local-includes/usr/local/bin/tails-htp-notify-user:53
+#: config/chroot_local-includes/usr/local/lib/tails-htp-notify-user:53
 msgid ""
 "Tor needs an accurate clock to work properly, especially for Hidden "
 "Services. Please wait..."
 msgstr "Тору је потребан тачан сат да би правилно радио, посебно за Скривене Услуге. Молимо сачекајте..."
 
-#: config/chroot_local-includes/usr/local/bin/tails-htp-notify-user:87
+#: config/chroot_local-includes/usr/local/lib/tails-htp-notify-user:87
 msgid "Failed to synchronize the clock!"
 msgstr "Неуспешно синхронизовање сата!"
 
@@ -304,23 +317,23 @@ msgstr "Ова верзија Tails-а има следеће познате пр
 msgid "Known security issues"
 msgstr ""
 
-#: config/chroot_local-includes/usr/local/sbin/tails-spoof-mac:51
+#: config/chroot_local-includes/usr/local/lib/tails-spoof-mac:51
 #, sh-format
 msgid "Network card ${nic} disabled"
 msgstr "${nic} мрежне карте онемогућен"
 
-#: config/chroot_local-includes/usr/local/sbin/tails-spoof-mac:52
+#: config/chroot_local-includes/usr/local/lib/tails-spoof-mac:52
 #, sh-format
 msgid ""
 "MAC spoofing failed for network card ${nic_name} (${nic}) so it is temporarily disabled.\n"
 "You might prefer to restart Tails and disable MAC spoofing."
 msgstr ""
 
-#: config/chroot_local-includes/usr/local/sbin/tails-spoof-mac:61
+#: config/chroot_local-includes/usr/local/lib/tails-spoof-mac:61
 msgid "All networking disabled"
 msgstr "Сво умрежавање је онеспособљено"
 
-#: config/chroot_local-includes/usr/local/sbin/tails-spoof-mac:62
+#: config/chroot_local-includes/usr/local/lib/tails-spoof-mac:62
 #, sh-format
 msgid ""
 "MAC spoofing failed for network card ${nic_name} (${nic}). The error recovery also failed so all networking is disabled.\n"
@@ -350,21 +363,21 @@ msgid ""
 "See https://tails.boum.org/doc/first_steps/upgrade#manual"
 msgstr "<b>Није доступно довољно меморије да би се потражиле надоградње.</b>\n\n\n\nПостарајте се да овај систем испуњава захтеве за коришћење Tails-а.\n\nВидети file:///usr/share/doc/tails/website/doc/about/requirements.en.html\n\n\n\nПокушајте да рестартујете Tails да бисте поново потражили надоградње.\n\n\n\nИли извршите мануелну надоградњу.\n\nВидети https://tails.boum.org/doc/first_steps/upgrade#manual"
 
-#: config/chroot_local-includes/usr/local/bin/tails-virt-notify-user:67
+#: config/chroot_local-includes/usr/local/lib/tails-virt-notify-user:67
 msgid "Warning: virtual machine detected!"
 msgstr "Упозорење: виртуална машина је детектована!"
 
-#: config/chroot_local-includes/usr/local/bin/tails-virt-notify-user:69
+#: config/chroot_local-includes/usr/local/lib/tails-virt-notify-user:69
 msgid ""
 "Both the host operating system and the virtualization software are able to "
 "monitor what you are doing in Tails."
 msgstr "И домаћински оперативни систем и софтвер за виртуализацију могу надгледати шта радите у Tails-у."
 
-#: config/chroot_local-includes/usr/local/bin/tails-virt-notify-user:72
+#: config/chroot_local-includes/usr/local/lib/tails-virt-notify-user:72
 msgid "Warning: non-free virtual machine detected!"
 msgstr ""
 
-#: config/chroot_local-includes/usr/local/bin/tails-virt-notify-user:74
+#: config/chroot_local-includes/usr/local/lib/tails-virt-notify-user:74
 msgid ""
 "Both the host operating system and the virtualization software are able to "
 "monitor what you are doing in Tails. Only free software can be considered "
@@ -372,7 +385,7 @@ msgid ""
 "software."
 msgstr ""
 
-#: config/chroot_local-includes/usr/local/bin/tails-virt-notify-user:79
+#: config/chroot_local-includes/usr/local/lib/tails-virt-notify-user:79
 msgid "Learn more"
 msgstr ""
 

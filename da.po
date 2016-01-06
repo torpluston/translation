@@ -3,21 +3,23 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
+# Aesthese, 2016
 # Anders Damsgaard <andersd@riseup.net>, 2013
 # bna1605 <bna1605@gmail.com>, 2014
 # Caspar Christensen, 2015
 # christianflintrup <chr@agge.net>, 2014
 # Christian Villum <villum@autofunk.dk>, 2014-2015
 # David Nielsen <gnomeuser@gmail.com>, 2014-2015
-# Niels, 2013
+# Aesthese, 2013
+# Aesthese, 2016
 # Tommy Gade, 2015
 # Whiz Zurrd <Whizzurrd@hmamail.com>, 2014
 msgid ""
 msgstr ""
 "Project-Id-Version: The Tor Project\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-12-16 19:49+0100\n"
-"PO-Revision-Date: 2015-12-17 09:22+0000\n"
+"POT-Creation-Date: 2016-01-04 11:56+0100\n"
+"PO-Revision-Date: 2016-01-06 09:25+0000\n"
 "Last-Translator: carolyn <carolyn@anhalt.org>\n"
 "Language-Team: Danish (http://www.transifex.com/otf/torproject/language/da/)\n"
 "MIME-Version: 1.0\n"
@@ -67,11 +69,13 @@ msgid "Do you want to start Electrum anyway?"
 msgstr "Vil du starte Electrum alligevel?"
 
 #: config/chroot_local-includes/usr/local/bin/electrum:20
+#: config/chroot_local-includes/usr/local/bin/icedove:22
 #: config/chroot_local-includes/usr/local/sbin/unsafe-browser:36
 msgid "_Launch"
 msgstr "_Start"
 
 #: config/chroot_local-includes/usr/local/bin/electrum:21
+#: config/chroot_local-includes/usr/local/bin/icedove:23
 #: config/chroot_local-includes/usr/local/sbin/unsafe-browser:37
 msgid "_Exit"
 msgstr "_Afslut"
@@ -233,9 +237,20 @@ msgstr "GnuPG's output:"
 msgid "Other messages provided by GnuPG:"
 msgstr "Andre beskeder udbudt af GnuPG:"
 
+#: config/chroot_local-includes/usr/local/bin/icedove:18
+msgid "The <b>Claws Mail</b> persistence feature is activated."
+msgstr ""
+
+#: config/chroot_local-includes/usr/local/bin/icedove:20
+msgid ""
+"If you have emails saved in <b>Claws Mail</b>, you should <a "
+"href='https://tails.boum.org/doc/anonymous_internet/claws_mail_to_icedove'>migrate"
+" your data</a> before starting <b>Icedove</b>."
+msgstr ""
+
 #: config/chroot_local-includes/usr/share/gnome-shell/extensions/shutdown-helper@tails.boum.org/extension.js:71
 msgid "Restart"
-msgstr ""
+msgstr "Genstart"
 
 #: config/chroot_local-includes/usr/share/gnome-shell/extensions/shutdown-helper@tails.boum.org/extension.js:74
 #: ../config/chroot_local-includes/usr/share/applications/tails-shutdown.desktop.in.h:1
@@ -285,17 +300,17 @@ msgstr "Opgraderingen fejlede. Dette kan skyldes et netværksproblem. Kontroller
 msgid "The upgrade was successful."
 msgstr "Opgraderingen lykkedes."
 
-#: config/chroot_local-includes/usr/local/bin/tails-htp-notify-user:52
+#: config/chroot_local-includes/usr/local/lib/tails-htp-notify-user:52
 msgid "Synchronizing the system's clock"
 msgstr "Synkroniserer systemets ur"
 
-#: config/chroot_local-includes/usr/local/bin/tails-htp-notify-user:53
+#: config/chroot_local-includes/usr/local/lib/tails-htp-notify-user:53
 msgid ""
 "Tor needs an accurate clock to work properly, especially for Hidden "
 "Services. Please wait..."
 msgstr "Tor behøver et akkurat ur for at fungere korrekt, specielt for skjulte servicer. Vent venligst..."
 
-#: config/chroot_local-includes/usr/local/bin/tails-htp-notify-user:87
+#: config/chroot_local-includes/usr/local/lib/tails-htp-notify-user:87
 msgid "Failed to synchronize the clock!"
 msgstr "Kunne ikke synkronisere uret!"
 
@@ -305,30 +320,30 @@ msgstr "Denne version af Tails har følgende kendte sikkerhedsproblemer:"
 
 #: config/chroot_local-includes/usr/local/bin/tails-security-check:156
 msgid "Known security issues"
-msgstr ""
+msgstr "Kendte sikkerhedsproblemer"
 
-#: config/chroot_local-includes/usr/local/sbin/tails-spoof-mac:51
+#: config/chroot_local-includes/usr/local/lib/tails-spoof-mac:51
 #, sh-format
 msgid "Network card ${nic} disabled"
 msgstr "Netværkskort ${nic} deaktiveret"
 
-#: config/chroot_local-includes/usr/local/sbin/tails-spoof-mac:52
+#: config/chroot_local-includes/usr/local/lib/tails-spoof-mac:52
 #, sh-format
 msgid ""
 "MAC spoofing failed for network card ${nic_name} (${nic}) so it is temporarily disabled.\n"
 "You might prefer to restart Tails and disable MAC spoofing."
-msgstr ""
+msgstr "MAC spoofing fejlede for netværkskortet ${nic_name} (${nic}), så det er midlertidigt slået fra.\nDu vil måske foretrække at genstarte Tails og slå MAC spoofing fra."
 
-#: config/chroot_local-includes/usr/local/sbin/tails-spoof-mac:61
+#: config/chroot_local-includes/usr/local/lib/tails-spoof-mac:61
 msgid "All networking disabled"
 msgstr "Al brug af netværk er slået fra"
 
-#: config/chroot_local-includes/usr/local/sbin/tails-spoof-mac:62
+#: config/chroot_local-includes/usr/local/lib/tails-spoof-mac:62
 #, sh-format
 msgid ""
 "MAC spoofing failed for network card ${nic_name} (${nic}). The error recovery also failed so all networking is disabled.\n"
 "You might prefer to restart Tails and disable MAC spoofing."
-msgstr ""
+msgstr "MAC spoofing fejlede for netværkskortet ${nic_name} (${nic}). Fejlretning fejlede også, så al netværk er slået fra. \nDu vil måske foretrække at genstarte Tails og slå MAC spoofing fra."
 
 #: config/chroot_local-includes/usr/local/bin/tails-upgrade-frontend-wrapper:18
 #: config/chroot_local-includes/usr/local/sbin/unsafe-browser:22
@@ -353,31 +368,31 @@ msgid ""
 "See https://tails.boum.org/doc/first_steps/upgrade#manual"
 msgstr "<b>Der er ikke nok hukommelse tilgængelig til at søge efter opdateringer.</b>\n\nSørg for at dette system opfylder kravene til at køre Tails. \nSe venligst file:///usr/share/doc/tails/website/doc/about/requirements.en.html for detaljer.\n\nForsøg at genstarte Tails for at søge efter opdateringer.\n\nEller foretag en manuel opdatering.\nSe https://tails.boum.org/doc/first_steps/upgrade#manual for detaljer."
 
-#: config/chroot_local-includes/usr/local/bin/tails-virt-notify-user:67
+#: config/chroot_local-includes/usr/local/lib/tails-virt-notify-user:67
 msgid "Warning: virtual machine detected!"
 msgstr "Advarsel: virtuel maskine opdaget!"
 
-#: config/chroot_local-includes/usr/local/bin/tails-virt-notify-user:69
+#: config/chroot_local-includes/usr/local/lib/tails-virt-notify-user:69
 msgid ""
 "Both the host operating system and the virtualization software are able to "
 "monitor what you are doing in Tails."
 msgstr "Både værtsoperativsystemet og virtualiseringssoftwaren har mulighed for at overvåge hvad du foretager dig i Tails."
 
-#: config/chroot_local-includes/usr/local/bin/tails-virt-notify-user:72
+#: config/chroot_local-includes/usr/local/lib/tails-virt-notify-user:72
 msgid "Warning: non-free virtual machine detected!"
-msgstr ""
+msgstr "Advarsel: ikke-fri virtuel maskine opdaget!"
 
-#: config/chroot_local-includes/usr/local/bin/tails-virt-notify-user:74
+#: config/chroot_local-includes/usr/local/lib/tails-virt-notify-user:74
 msgid ""
 "Both the host operating system and the virtualization software are able to "
 "monitor what you are doing in Tails. Only free software can be considered "
 "trustworthy, for both the host operating system and the virtualization "
 "software."
-msgstr ""
+msgstr "Både værtsoperativsystemet og virtualiseringssoftwaren har mulighed for at overvåge hvad du foretager dig i Tails. Kun fri software kan betragtes som værende troværdigt, både for værtsoperativsystemet og virtualiseringssoftwaren."
 
-#: config/chroot_local-includes/usr/local/bin/tails-virt-notify-user:79
+#: config/chroot_local-includes/usr/local/lib/tails-virt-notify-user:79
 msgid "Learn more"
-msgstr ""
+msgstr "Lær mere"
 
 #: config/chroot_local-includes/usr/local/bin/tor-browser:29
 msgid "Tor is not ready"
@@ -404,7 +419,7 @@ msgid ""
 "Network activity within the Unsafe Browser is <b>not anonymous</b>.\\nOnly "
 "use the Unsafe Browser if necessary, for example\\nif you have to login or "
 "register to activate your Internet connection."
-msgstr ""
+msgstr "Netværksaktivitet fra den Usikre Browser er <b>ikke anonym</b>.\\nAnvend kun den Usikre Browser hvis nødvendigt, for eksempel hvis du skal logge ind eller registrere dig for at aktivere din internetforbindelse."
 
 #: config/chroot_local-includes/usr/local/sbin/unsafe-browser:47
 msgid "Starting the Unsafe Browser..."

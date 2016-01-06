@@ -11,8 +11,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: The Tor Project\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-12-16 19:49+0100\n"
-"PO-Revision-Date: 2015-12-17 09:22+0000\n"
+"POT-Creation-Date: 2016-01-04 11:56+0100\n"
+"PO-Revision-Date: 2016-01-06 09:25+0000\n"
 "Last-Translator: carolyn <carolyn@anhalt.org>\n"
 "Language-Team: Korean (http://www.transifex.com/otf/torproject/language/ko/)\n"
 "MIME-Version: 1.0\n"
@@ -62,11 +62,13 @@ msgid "Do you want to start Electrum anyway?"
 msgstr ""
 
 #: config/chroot_local-includes/usr/local/bin/electrum:20
+#: config/chroot_local-includes/usr/local/bin/icedove:22
 #: config/chroot_local-includes/usr/local/sbin/unsafe-browser:36
 msgid "_Launch"
 msgstr "_Launch"
 
 #: config/chroot_local-includes/usr/local/bin/electrum:21
+#: config/chroot_local-includes/usr/local/bin/icedove:23
 #: config/chroot_local-includes/usr/local/sbin/unsafe-browser:37
 msgid "_Exit"
 msgstr "_Exit"
@@ -225,6 +227,17 @@ msgstr "GnuPG 출력"
 msgid "Other messages provided by GnuPG:"
 msgstr "GnuPG의 다른 알림"
 
+#: config/chroot_local-includes/usr/local/bin/icedove:18
+msgid "The <b>Claws Mail</b> persistence feature is activated."
+msgstr ""
+
+#: config/chroot_local-includes/usr/local/bin/icedove:20
+msgid ""
+"If you have emails saved in <b>Claws Mail</b>, you should <a "
+"href='https://tails.boum.org/doc/anonymous_internet/claws_mail_to_icedove'>migrate"
+" your data</a> before starting <b>Icedove</b>."
+msgstr ""
+
 #: config/chroot_local-includes/usr/share/gnome-shell/extensions/shutdown-helper@tails.boum.org/extension.js:71
 msgid "Restart"
 msgstr ""
@@ -277,17 +290,17 @@ msgstr "업그레이드에 실패했습니다. 이것은 아마도 네트워크 
 msgid "The upgrade was successful."
 msgstr "업그레이드 성공"
 
-#: config/chroot_local-includes/usr/local/bin/tails-htp-notify-user:52
+#: config/chroot_local-includes/usr/local/lib/tails-htp-notify-user:52
 msgid "Synchronizing the system's clock"
 msgstr "시스템 시간 맞추는 중..."
 
-#: config/chroot_local-includes/usr/local/bin/tails-htp-notify-user:53
+#: config/chroot_local-includes/usr/local/lib/tails-htp-notify-user:53
 msgid ""
 "Tor needs an accurate clock to work properly, especially for Hidden "
 "Services. Please wait..."
 msgstr "Tor에서 적절한 작업을 위해 정확한 시계가 필요하니 잠깐만 기다려 주십시오."
 
-#: config/chroot_local-includes/usr/local/bin/tails-htp-notify-user:87
+#: config/chroot_local-includes/usr/local/lib/tails-htp-notify-user:87
 msgid "Failed to synchronize the clock!"
 msgstr "시간 맞추기 실패!"
 
@@ -299,23 +312,23 @@ msgstr "지금 버전 Tails은 보안에 문제가 있습니다."
 msgid "Known security issues"
 msgstr ""
 
-#: config/chroot_local-includes/usr/local/sbin/tails-spoof-mac:51
+#: config/chroot_local-includes/usr/local/lib/tails-spoof-mac:51
 #, sh-format
 msgid "Network card ${nic} disabled"
 msgstr "네트워크 카드 ${nic}가 잘못되었습니다"
 
-#: config/chroot_local-includes/usr/local/sbin/tails-spoof-mac:52
+#: config/chroot_local-includes/usr/local/lib/tails-spoof-mac:52
 #, sh-format
 msgid ""
 "MAC spoofing failed for network card ${nic_name} (${nic}) so it is temporarily disabled.\n"
 "You might prefer to restart Tails and disable MAC spoofing."
 msgstr ""
 
-#: config/chroot_local-includes/usr/local/sbin/tails-spoof-mac:61
+#: config/chroot_local-includes/usr/local/lib/tails-spoof-mac:61
 msgid "All networking disabled"
 msgstr "모든 네트워크 연결이 불가능함"
 
-#: config/chroot_local-includes/usr/local/sbin/tails-spoof-mac:62
+#: config/chroot_local-includes/usr/local/lib/tails-spoof-mac:62
 #, sh-format
 msgid ""
 "MAC spoofing failed for network card ${nic_name} (${nic}). The error recovery also failed so all networking is disabled.\n"
@@ -345,21 +358,21 @@ msgid ""
 "See https://tails.boum.org/doc/first_steps/upgrade#manual"
 msgstr "<b>업그레이드 확인에 충분한 메모리를 사용할 수 없습니다.</b>\n\n이 시스템이 Tails의 작동 요구 사항을 충족하는지 확인하십시오.\nfile:///usr/share/doc/tails/website/doc/about/requirements.en.html를 참조하십시오.\n\nTails를 다시 시작하고 다시 업그레이드를 확인하십시오.\n\n또는 수동으로 업그레이드해야합니다.\nhttps://tails.boum.org/doc/first_steps/upgrade#manual 을 참조하십시오."
 
-#: config/chroot_local-includes/usr/local/bin/tails-virt-notify-user:67
+#: config/chroot_local-includes/usr/local/lib/tails-virt-notify-user:67
 msgid "Warning: virtual machine detected!"
 msgstr "경고 : 가상 머신을 발견!"
 
-#: config/chroot_local-includes/usr/local/bin/tails-virt-notify-user:69
+#: config/chroot_local-includes/usr/local/lib/tails-virt-notify-user:69
 msgid ""
 "Both the host operating system and the virtualization software are able to "
 "monitor what you are doing in Tails."
 msgstr "호스트 운영 체제 및 가상화 소프트웨어 모두 Tails에서 실시하고있는 것을 확인할 수 있습니다."
 
-#: config/chroot_local-includes/usr/local/bin/tails-virt-notify-user:72
+#: config/chroot_local-includes/usr/local/lib/tails-virt-notify-user:72
 msgid "Warning: non-free virtual machine detected!"
 msgstr ""
 
-#: config/chroot_local-includes/usr/local/bin/tails-virt-notify-user:74
+#: config/chroot_local-includes/usr/local/lib/tails-virt-notify-user:74
 msgid ""
 "Both the host operating system and the virtualization software are able to "
 "monitor what you are doing in Tails. Only free software can be considered "
@@ -367,7 +380,7 @@ msgid ""
 "software."
 msgstr ""
 
-#: config/chroot_local-includes/usr/local/bin/tails-virt-notify-user:79
+#: config/chroot_local-includes/usr/local/lib/tails-virt-notify-user:79
 msgid "Learn more"
 msgstr ""
 

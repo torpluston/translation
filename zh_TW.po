@@ -9,14 +9,15 @@
 # danfong <danfong.hsieh@gmail.com>, 2014
 # LNDDYL, 2014
 # Po-Chun Huang <aphroteus@gmail.com>, 2014
+# Wen-Gan Li <wgli@wgli.net>, 2015
 # x4r <xatierlike@gmail.com>, 2015
 # LNDDYL, 2014
 msgid ""
 msgstr ""
 "Project-Id-Version: The Tor Project\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-12-16 19:49+0100\n"
-"PO-Revision-Date: 2015-12-17 09:22+0000\n"
+"POT-Creation-Date: 2016-01-04 11:56+0100\n"
+"PO-Revision-Date: 2016-01-06 09:25+0000\n"
 "Last-Translator: carolyn <carolyn@anhalt.org>\n"
 "Language-Team: Chinese (Taiwan) (http://www.transifex.com/otf/torproject/language/zh_TW/)\n"
 "MIME-Version: 1.0\n"
@@ -66,11 +67,13 @@ msgid "Do you want to start Electrum anyway?"
 msgstr "您想要啟用 Electrum 嗎？"
 
 #: config/chroot_local-includes/usr/local/bin/electrum:20
+#: config/chroot_local-includes/usr/local/bin/icedove:22
 #: config/chroot_local-includes/usr/local/sbin/unsafe-browser:36
 msgid "_Launch"
 msgstr "_啟動器"
 
 #: config/chroot_local-includes/usr/local/bin/electrum:21
+#: config/chroot_local-includes/usr/local/bin/icedove:23
 #: config/chroot_local-includes/usr/local/sbin/unsafe-browser:37
 msgid "_Exit"
 msgstr "_離開"
@@ -229,9 +232,20 @@ msgstr "GnuPG 的輸出:"
 msgid "Other messages provided by GnuPG:"
 msgstr "由 GnuPG 提供的其他郵件:"
 
+#: config/chroot_local-includes/usr/local/bin/icedove:18
+msgid "The <b>Claws Mail</b> persistence feature is activated."
+msgstr ""
+
+#: config/chroot_local-includes/usr/local/bin/icedove:20
+msgid ""
+"If you have emails saved in <b>Claws Mail</b>, you should <a "
+"href='https://tails.boum.org/doc/anonymous_internet/claws_mail_to_icedove'>migrate"
+" your data</a> before starting <b>Icedove</b>."
+msgstr ""
+
 #: config/chroot_local-includes/usr/share/gnome-shell/extensions/shutdown-helper@tails.boum.org/extension.js:71
 msgid "Restart"
-msgstr ""
+msgstr "重新啟動"
 
 #: config/chroot_local-includes/usr/share/gnome-shell/extensions/shutdown-helper@tails.boum.org/extension.js:74
 #: ../config/chroot_local-includes/usr/share/applications/tails-shutdown.desktop.in.h:1
@@ -281,17 +295,17 @@ msgstr "升級失敗。這可能是由於網路問題。請檢查您的網路連
 msgid "The upgrade was successful."
 msgstr "升級成功。"
 
-#: config/chroot_local-includes/usr/local/bin/tails-htp-notify-user:52
+#: config/chroot_local-includes/usr/local/lib/tails-htp-notify-user:52
 msgid "Synchronizing the system's clock"
 msgstr "與系統的時鐘同步"
 
-#: config/chroot_local-includes/usr/local/bin/tails-htp-notify-user:53
+#: config/chroot_local-includes/usr/local/lib/tails-htp-notify-user:53
 msgid ""
 "Tor needs an accurate clock to work properly, especially for Hidden "
 "Services. Please wait..."
 msgstr "Tor 需要準確的時鐘才能正常運作，特別是對隱藏的服務。請稍候..."
 
-#: config/chroot_local-includes/usr/local/bin/tails-htp-notify-user:87
+#: config/chroot_local-includes/usr/local/lib/tails-htp-notify-user:87
 msgid "Failed to synchronize the clock!"
 msgstr "無法與時鐘同步!"
 
@@ -301,30 +315,30 @@ msgstr "此 Tails 版本有已知的安全性問題:"
 
 #: config/chroot_local-includes/usr/local/bin/tails-security-check:156
 msgid "Known security issues"
-msgstr ""
+msgstr "已知的安全性問題"
 
-#: config/chroot_local-includes/usr/local/sbin/tails-spoof-mac:51
+#: config/chroot_local-includes/usr/local/lib/tails-spoof-mac:51
 #, sh-format
 msgid "Network card ${nic} disabled"
 msgstr "網路卡 ${nic} 被停用"
 
-#: config/chroot_local-includes/usr/local/sbin/tails-spoof-mac:52
+#: config/chroot_local-includes/usr/local/lib/tails-spoof-mac:52
 #, sh-format
 msgid ""
 "MAC spoofing failed for network card ${nic_name} (${nic}) so it is temporarily disabled.\n"
 "You might prefer to restart Tails and disable MAC spoofing."
-msgstr ""
+msgstr "網路卡 ${nic_name} (${nic}) 進行MAC詐騙失敗，故它暫時被停用。\n您可能要將 Tails 重新啟動並停用 MAC 詐騙。"
 
-#: config/chroot_local-includes/usr/local/sbin/tails-spoof-mac:61
+#: config/chroot_local-includes/usr/local/lib/tails-spoof-mac:61
 msgid "All networking disabled"
 msgstr "所有網路被停用"
 
-#: config/chroot_local-includes/usr/local/sbin/tails-spoof-mac:62
+#: config/chroot_local-includes/usr/local/lib/tails-spoof-mac:62
 #, sh-format
 msgid ""
 "MAC spoofing failed for network card ${nic_name} (${nic}). The error recovery also failed so all networking is disabled.\n"
 "You might prefer to restart Tails and disable MAC spoofing."
-msgstr ""
+msgstr "網路卡 ${nic_name} (${nic}) 進行MAC詐騙失敗。\n而在進行還原時也失敗，故它暫時被停用。\n您可能要將 Tails 重新啟動並停用 MAC 詐騙。"
 
 #: config/chroot_local-includes/usr/local/bin/tails-upgrade-frontend-wrapper:18
 #: config/chroot_local-includes/usr/local/sbin/unsafe-browser:22
@@ -349,31 +363,31 @@ msgid ""
 "See https://tails.boum.org/doc/first_steps/upgrade#manual"
 msgstr "<b>檢查升級時沒有足夠的記憶體可用。</b>\n\n請確保該系統能滿足執行 Tails 的要求。\n請參閱 file:///usr/share/doc/tails/website/doc/about/requirements.en.html\n\n請試著將 Tails 重新啟動後再次檢查升級。\n\n或手動執行升級。\n請參閱 https://tails.boum.org/doc/first_steps/upgrade#manual"
 
-#: config/chroot_local-includes/usr/local/bin/tails-virt-notify-user:67
+#: config/chroot_local-includes/usr/local/lib/tails-virt-notify-user:67
 msgid "Warning: virtual machine detected!"
 msgstr "警告: 偵測到虛擬機器!"
 
-#: config/chroot_local-includes/usr/local/bin/tails-virt-notify-user:69
+#: config/chroot_local-includes/usr/local/lib/tails-virt-notify-user:69
 msgid ""
 "Both the host operating system and the virtualization software are able to "
 "monitor what you are doing in Tails."
 msgstr "主機作業系統和虛擬化軟體都能夠監控您在 Tails 中做什麼。"
 
-#: config/chroot_local-includes/usr/local/bin/tails-virt-notify-user:72
+#: config/chroot_local-includes/usr/local/lib/tails-virt-notify-user:72
 msgid "Warning: non-free virtual machine detected!"
-msgstr ""
+msgstr "警告：偵測到此虛擬機器是由非自由軟體所創造的 !"
 
-#: config/chroot_local-includes/usr/local/bin/tails-virt-notify-user:74
+#: config/chroot_local-includes/usr/local/lib/tails-virt-notify-user:74
 msgid ""
 "Both the host operating system and the virtualization software are able to "
 "monitor what you are doing in Tails. Only free software can be considered "
 "trustworthy, for both the host operating system and the virtualization "
 "software."
-msgstr ""
+msgstr "主機作業系統和虛擬化軟體都能夠監控您在 Tails 中做什麼。只有真正免費的主機作業系統和虛擬化軟體才能值得信賴。"
 
-#: config/chroot_local-includes/usr/local/bin/tails-virt-notify-user:79
+#: config/chroot_local-includes/usr/local/lib/tails-virt-notify-user:79
 msgid "Learn more"
-msgstr ""
+msgstr "繼續閱讀"
 
 #: config/chroot_local-includes/usr/local/bin/tor-browser:29
 msgid "Tor is not ready"
@@ -400,7 +414,7 @@ msgid ""
 "Network activity within the Unsafe Browser is <b>not anonymous</b>.\\nOnly "
 "use the Unsafe Browser if necessary, for example\\nif you have to login or "
 "register to activate your Internet connection."
-msgstr ""
+msgstr "在不安全的瀏覽器中的網路活動是<b>無法匿名</b>。\\n如有必要，請僅使用不安全的瀏覽器在一些您必須登入或註冊來啟動您的網際網路連線。"
 
 #: config/chroot_local-includes/usr/local/sbin/unsafe-browser:47
 msgid "Starting the Unsafe Browser..."
@@ -475,7 +489,7 @@ msgstr "I2P 的路由控制台已就緒"
 
 #: config/chroot_local-includes/usr/local/sbin/tails-i2p:54
 msgid "You can now access I2P's router console in the I2P Browser."
-msgstr ""
+msgstr "你現在可以使用 I2P 瀏覽器去進入 I2P 的路由控制台。"
 
 #: config/chroot_local-includes/usr/local/sbin/tails-i2p:59
 msgid "I2P is not ready"
@@ -486,7 +500,7 @@ msgid ""
 "Eepsite tunnel not built within six minutes. Check the router console in the"
 " I2P Browser or the logs in /var/log/i2p for more information. Reconnect to "
 "the network to try again."
-msgstr ""
+msgstr "Eepsite 通道在六分鐘內沒有建立。可由 I2P 瀏覽器路由控制台或者位於 /var/log/i2p 的紀錄檔獲得更多資訊。請嘗試重新連線。"
 
 #: config/chroot_local-includes/usr/local/sbin/tails-i2p:72
 msgid "I2P is ready"

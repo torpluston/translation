@@ -3,18 +3,21 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
+# Adam Stachowicz <saibamenppl@gmail.com>, 2015
 # Aron <aron.plotnikowski@cryptolab.net>, 2014
 # Dawid <hoek@hoek.pl>, 2014
 # Dawid <hoek@hoek.pl>, 2014
+# Jakub Goldberg <zenji.yamada.nihon@gmail.com>, 2015
 # oirpos <kuba2707@gmail.com>, 2015
 # phla47 <phla47@gmail.com>, 2013
-# seb, 2013-2015
+# sebx, 2013-2015
+# sebx, 2015
 msgid ""
 msgstr ""
 "Project-Id-Version: The Tor Project\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-12-16 19:49+0100\n"
-"PO-Revision-Date: 2015-12-17 09:22+0000\n"
+"POT-Creation-Date: 2016-01-04 11:56+0100\n"
+"PO-Revision-Date: 2016-01-06 09:25+0000\n"
 "Last-Translator: carolyn <carolyn@anhalt.org>\n"
 "Language-Team: Polish (http://www.transifex.com/otf/torproject/language/pl/)\n"
 "MIME-Version: 1.0\n"
@@ -46,29 +49,31 @@ msgid ""
 "an opportunity for eavesdroppers, like your email or Internet provider, to\n"
 "confirm that you are using Tails.\n"
 "</p>\n"
-msgstr "<h1>Pomóż nam naprawić błąd!</h1>\n<p>Przeczytaj <a href=\"%s\">instrukcje zgłaszania błędów</a>.</p>\n<p><strong>Nie dołączaj więcej prywatnych informacji o sobie niż to \nkonieczne!</strong></p>\n<h2>Podanie swojego adresu email</h2>\n<p>\nPoprzez podanie swojego adresu email dajesz nam szanse na skontaktowania się z Tobą i klaryfikacją problemu który napotkałeś. \nTo jest potrzebne w większości przypadków zgłaszania błędów które otrzymujemy. \nBez jakichkolwiek danych kontaktowych zgłaszane błędy są bezużyteczne. \nZ drugiej strony to też daje możliwość na podsłuch, jakoby Twój dostawca email lub dostawca internetu będzie wiedział, że używasz Tails.\n</p>\n\n"
+msgstr "<h1>Pomóż nam naprawić błąd!</h1>\n<p>Przeczytaj <a href=\"%s\">instrukcje zgłaszania błędów</a>.</p>\n<p><strong>Nie podawaj więcej prywatnych informacji o sobie niż to konieczne!</strong></p>\n<h2>Podanie swojego adresu email</h2>\n<p>\nPoprzez podanie swojego adresu email dajesz nam szanse na skontaktowania się z Tobą i klaryfikację problemu który napotkałeś. \nTo jest potrzebne w większości przypadków zgłaszania błędów które otrzymujemy. \nBez jakichkolwiek danych kontaktowych zgłaszane błędy są bezużyteczne. \nAczkolwiek, podanie swojego adresu email daje możliwość na podsłuch, np. Twój dostawca email, lub dostawca internetu będzie wiedział, że używasz Tails.\n</p>\n\n"
 
 #: config/chroot_local-includes/usr/local/bin/electrum:14
 msgid "Persistence is disabled for Electrum"
-msgstr "Persistence/trwałość jest wyłączona dla Electrum"
+msgstr "Zapis plików jest wyłączony dla Electrum"
 
 #: config/chroot_local-includes/usr/local/bin/electrum:16
 msgid ""
 "When you reboot Tails, all of Electrum's data will be lost, including your "
 "Bitcoin wallet. It is strongly recommended to only run Electrum when its "
 "persistence feature is activated."
-msgstr "Kiedy zrestartujesz Tails, to wszystkie dane Electrum będą stracone, włączając w to Twój portfel Bitcoin. Zaleca się, aby uruchomić Electrum tylko wtedy gdy funkcja persistence/trwałości jest aktywna."
+msgstr "Kiedy zrestartujesz Tails, to wszystkie dane Electrum zostaną utracone, łącznie z Twoim portfelem Bitcoin. Zaleca się, aby uruchomić Electrum tylko wtedy gdy funkcja persistence/zapisu plików jest aktywna."
 
 #: config/chroot_local-includes/usr/local/bin/electrum:18
 msgid "Do you want to start Electrum anyway?"
 msgstr "Mimo tego, czy chcesz uruchomić Electrum?"
 
 #: config/chroot_local-includes/usr/local/bin/electrum:20
+#: config/chroot_local-includes/usr/local/bin/icedove:22
 #: config/chroot_local-includes/usr/local/sbin/unsafe-browser:36
 msgid "_Launch"
 msgstr "_Uruchom"
 
 #: config/chroot_local-includes/usr/local/bin/electrum:21
+#: config/chroot_local-includes/usr/local/bin/icedove:23
 #: config/chroot_local-includes/usr/local/sbin/unsafe-browser:37
 msgid "_Exit"
 msgstr "_Wyjście"
@@ -233,9 +238,20 @@ msgstr "Wyniki GnuPG"
 msgid "Other messages provided by GnuPG:"
 msgstr "Inne wiadomości dostarczone przez GnuPG:"
 
+#: config/chroot_local-includes/usr/local/bin/icedove:18
+msgid "The <b>Claws Mail</b> persistence feature is activated."
+msgstr ""
+
+#: config/chroot_local-includes/usr/local/bin/icedove:20
+msgid ""
+"If you have emails saved in <b>Claws Mail</b>, you should <a "
+"href='https://tails.boum.org/doc/anonymous_internet/claws_mail_to_icedove'>migrate"
+" your data</a> before starting <b>Icedove</b>."
+msgstr ""
+
 #: config/chroot_local-includes/usr/share/gnome-shell/extensions/shutdown-helper@tails.boum.org/extension.js:71
 msgid "Restart"
-msgstr ""
+msgstr "Restart"
 
 #: config/chroot_local-includes/usr/share/gnome-shell/extensions/shutdown-helper@tails.boum.org/extension.js:74
 #: ../config/chroot_local-includes/usr/share/applications/tails-shutdown.desktop.in.h:1
@@ -285,17 +301,17 @@ msgstr "Aktualizacja nie powiodła się. Może być to spowodowane problemem z T
 msgid "The upgrade was successful."
 msgstr "Aktualizacja zakończona sukcesem."
 
-#: config/chroot_local-includes/usr/local/bin/tails-htp-notify-user:52
+#: config/chroot_local-includes/usr/local/lib/tails-htp-notify-user:52
 msgid "Synchronizing the system's clock"
 msgstr "Synchronizacja zegara systemowego"
 
-#: config/chroot_local-includes/usr/local/bin/tails-htp-notify-user:53
+#: config/chroot_local-includes/usr/local/lib/tails-htp-notify-user:53
 msgid ""
 "Tor needs an accurate clock to work properly, especially for Hidden "
 "Services. Please wait..."
 msgstr "Tor wymaga dokładnego czasu do poprawnego działania, szczególnie w przypadku Ukrytych Serwisów. Proszę czekać..."
 
-#: config/chroot_local-includes/usr/local/bin/tails-htp-notify-user:87
+#: config/chroot_local-includes/usr/local/lib/tails-htp-notify-user:87
 msgid "Failed to synchronize the clock!"
 msgstr "Nie udało się zsynchronizować zegara!"
 
@@ -305,30 +321,30 @@ msgstr "Ta wersja Tails ma błędy bezpieczeństwa:"
 
 #: config/chroot_local-includes/usr/local/bin/tails-security-check:156
 msgid "Known security issues"
-msgstr ""
+msgstr "Znane problemy bezpieczeństwa"
 
-#: config/chroot_local-includes/usr/local/sbin/tails-spoof-mac:51
+#: config/chroot_local-includes/usr/local/lib/tails-spoof-mac:51
 #, sh-format
 msgid "Network card ${nic} disabled"
 msgstr "Karta sieciowa ${nic} wyłączona"
 
-#: config/chroot_local-includes/usr/local/sbin/tails-spoof-mac:52
+#: config/chroot_local-includes/usr/local/lib/tails-spoof-mac:52
 #, sh-format
 msgid ""
 "MAC spoofing failed for network card ${nic_name} (${nic}) so it is temporarily disabled.\n"
 "You might prefer to restart Tails and disable MAC spoofing."
-msgstr ""
+msgstr "Spoofing MAC dla karty sieciowej ${nic_name} (${nic}) nie udał się, a zatem jest ona tymczasowo nieaktywna. Spróbuj uruchomić system Tails ponownie i wyłączyć spoofing MAC."
 
-#: config/chroot_local-includes/usr/local/sbin/tails-spoof-mac:61
+#: config/chroot_local-includes/usr/local/lib/tails-spoof-mac:61
 msgid "All networking disabled"
 msgstr "Wszystkie połączenia wyłączone"
 
-#: config/chroot_local-includes/usr/local/sbin/tails-spoof-mac:62
+#: config/chroot_local-includes/usr/local/lib/tails-spoof-mac:62
 #, sh-format
 msgid ""
 "MAC spoofing failed for network card ${nic_name} (${nic}). The error recovery also failed so all networking is disabled.\n"
 "You might prefer to restart Tails and disable MAC spoofing."
-msgstr ""
+msgstr "Spoofing MAC dla karty sieciowej ${nic_name} (${nic}) nie udał się. Próba usunięcia błędu także się nie powiodła, a zatem wszystkie połączenia sieciowe pozostają nieaktywne. Spróbuj uruchomić system Tails ponownie i wyłączyć spoofing MAC."
 
 #: config/chroot_local-includes/usr/local/bin/tails-upgrade-frontend-wrapper:18
 #: config/chroot_local-includes/usr/local/sbin/unsafe-browser:22
@@ -353,31 +369,31 @@ msgid ""
 "See https://tails.boum.org/doc/first_steps/upgrade#manual"
 msgstr "<b>Nie ma wystarczającej ilości pamięci aby sprawdzić dostępność aktualizacji.</b>\n\nUpewnij się, że system spełnia minimalne wymagania do uruchomienia Tails.\nZobacz file:///usr/share/doc/tails/website/doc/about/requirements.en.html\n\nSpróbuj zrestartować Tails aby ponownie sprawdzić dostępność aktualizacji.\n\nMożesz także spróbować ręcznej aktualizacji.\nZobacz https://tails.boum.org/doc/first_steps/upgrade#manual"
 
-#: config/chroot_local-includes/usr/local/bin/tails-virt-notify-user:67
+#: config/chroot_local-includes/usr/local/lib/tails-virt-notify-user:67
 msgid "Warning: virtual machine detected!"
 msgstr "Ostrzeżenie: wykryto maszynę wirtualną!"
 
-#: config/chroot_local-includes/usr/local/bin/tails-virt-notify-user:69
+#: config/chroot_local-includes/usr/local/lib/tails-virt-notify-user:69
 msgid ""
 "Both the host operating system and the virtualization software are able to "
 "monitor what you are doing in Tails."
 msgstr "Zarówno system operacyjny gospodarza oraz oprogramowanie do wirtualizacji są w stanie monitorować co robisz w systemie Tails."
 
-#: config/chroot_local-includes/usr/local/bin/tails-virt-notify-user:72
+#: config/chroot_local-includes/usr/local/lib/tails-virt-notify-user:72
 msgid "Warning: non-free virtual machine detected!"
-msgstr ""
+msgstr "Ostrzeżenie: wykryto niewolne oprogramowanie maszyny wirtualnej!"
 
-#: config/chroot_local-includes/usr/local/bin/tails-virt-notify-user:74
+#: config/chroot_local-includes/usr/local/lib/tails-virt-notify-user:74
 msgid ""
 "Both the host operating system and the virtualization software are able to "
 "monitor what you are doing in Tails. Only free software can be considered "
 "trustworthy, for both the host operating system and the virtualization "
 "software."
-msgstr ""
+msgstr "Zarówno system operacyjny hosta, jak i oprogramowanie wirtualizacji software'u są w stanie monitorować Twoją aktywność w systemie Tails. W odniesieniu do nich, wiarygodne jest wyłącznie oprogramowanie wolne."
 
-#: config/chroot_local-includes/usr/local/bin/tails-virt-notify-user:79
+#: config/chroot_local-includes/usr/local/lib/tails-virt-notify-user:79
 msgid "Learn more"
-msgstr ""
+msgstr "Dowiedz się więcej"
 
 #: config/chroot_local-includes/usr/local/bin/tor-browser:29
 msgid "Tor is not ready"
@@ -404,7 +420,7 @@ msgid ""
 "Network activity within the Unsafe Browser is <b>not anonymous</b>.\\nOnly "
 "use the Unsafe Browser if necessary, for example\\nif you have to login or "
 "register to activate your Internet connection."
-msgstr ""
+msgstr "Aktywność sieciowa poprzez Niebezpieczną Przeglądarkę <b>nie jest anonimowa</b>\\nWykorzystuj Niebezpieczną Przeglądarkę tylko wtedy, gdy jest to potrzebne, na przykład podczas logowania się lub rejestrowania celem aktywacji połączenia z internetem."
 
 #: config/chroot_local-includes/usr/local/sbin/unsafe-browser:47
 msgid "Starting the Unsafe Browser..."
