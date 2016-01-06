@@ -10,9 +10,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: The Tor Project\n"
 "Report-Msgid-Bugs-To: Tails developers <tails@boum.org>\n"
-"POT-Creation-Date: 2015-12-14 21:35+0100\n"
-"PO-Revision-Date: 2015-12-15 09:27+0000\n"
-"Last-Translator: carolyn <carolyn@anhalt.org>\n"
+"POT-Creation-Date: 2015-12-16 17:55+0100\n"
+"PO-Revision-Date: 2015-12-29 18:19+0000\n"
+"Last-Translator: laia_\n"
 "Language-Team: Catalan (http://www.transifex.com/otf/torproject/language/ca/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -42,7 +42,7 @@ msgstr "Client SSH"
 
 #: ../lib/Tails/Persistence/Configuration/Presets.pm:70
 msgid "SSH keys, configuration and known hosts"
-msgstr "Claus SSH, configuració i hostes coneguts"
+msgstr "Claus SSH, configuració i amfitrions coneguts"
 
 #: ../lib/Tails/Persistence/Configuration/Presets.pm:78
 msgid "Pidgin"
@@ -50,7 +50,7 @@ msgstr "Pidgin"
 
 #: ../lib/Tails/Persistence/Configuration/Presets.pm:80
 msgid "Pidgin profiles and OTR keyring"
-msgstr "Perfils de Pidgin i clauer de OTR"
+msgstr "Perfils de Pidgin i clauer d'OTR"
 
 #: ../lib/Tails/Persistence/Configuration/Presets.pm:88
 msgid "GNOME Keyring"
@@ -78,11 +78,11 @@ msgstr "Adreces d'interès desades al Navegador Tor"
 
 #: ../lib/Tails/Persistence/Configuration/Presets.pm:118
 msgid "Printers"
-msgstr "Impresores"
+msgstr "Impressores"
 
 #: ../lib/Tails/Persistence/Configuration/Presets.pm:120
 msgid "Printers configuration"
-msgstr "Configuració d'impresores"
+msgstr "Configuració d'impressores"
 
 #: ../lib/Tails/Persistence/Configuration/Presets.pm:128
 msgid "Bitcoin client"
@@ -110,11 +110,11 @@ msgstr "Llistes descarregades per APT"
 
 #: ../lib/Tails/Persistence/Configuration/Presets.pm:158
 msgid "Icedove"
-msgstr ""
+msgstr "Icedove"
 
 #: ../lib/Tails/Persistence/Configuration/Presets.pm:160
 msgid "Icedove profiles and locally stored email"
-msgstr ""
+msgstr "Perfils de l'Icedove i correu emmagatzemat localment."
 
 #: ../lib/Tails/Persistence/Configuration/Presets.pm:168
 msgid "Dotfiles"
@@ -125,71 +125,71 @@ msgid ""
 "Symlink into $HOME every file or directory found in the `dotfiles' directory"
 msgstr "Symlink a $HOME tot arxiu o carpeta trobat al directori 'dotfiles'"
 
-#: ../lib/Tails/Persistence/Setup.pm:227
+#: ../lib/Tails/Persistence/Setup.pm:230
 msgid "Setup Tails persistent volume"
 msgstr "Configura el volum persistent de Tails"
 
-#: ../lib/Tails/Persistence/Setup.pm:307 ../lib/Tails/Persistence/Setup.pm:451
+#: ../lib/Tails/Persistence/Setup.pm:311 ../lib/Tails/Persistence/Setup.pm:458
 msgid "Error"
 msgstr "Error"
 
-#: ../lib/Tails/Persistence/Setup.pm:338
+#: ../lib/Tails/Persistence/Setup.pm:343
 #, perl-format
 msgid "Device %s already has a persistent volume."
 msgstr "El dispositiu %s ja té un volum persistent."
 
-#: ../lib/Tails/Persistence/Setup.pm:346
+#: ../lib/Tails/Persistence/Setup.pm:351
 #, perl-format
 msgid "Device %s has not enough unallocated space."
 msgstr "El dispositiu %s no té prou espai lliure."
 
-#: ../lib/Tails/Persistence/Setup.pm:354 ../lib/Tails/Persistence/Setup.pm:368
+#: ../lib/Tails/Persistence/Setup.pm:359 ../lib/Tails/Persistence/Setup.pm:373
 #, perl-format
 msgid "Device %s has no persistent volume."
 msgstr "El dispositiu %s no té un volum persistent."
 
-#: ../lib/Tails/Persistence/Setup.pm:360
+#: ../lib/Tails/Persistence/Setup.pm:365
 msgid ""
 "Cannot delete the persistent volume while in use. You should restart Tails "
 "without persistence."
-msgstr "No es pot eliminar un volum persistent mentre es troba en us. Hauries de reiniciar Tails sense persistència."
+msgstr "No es pot eliminar un volum persistent mentre es troba en us. Cal reiniciar Tails sense persistència."
 
-#: ../lib/Tails/Persistence/Setup.pm:379
+#: ../lib/Tails/Persistence/Setup.pm:384
 msgid "Persistence volume is not unlocked."
 msgstr "El volum persistent no està desbloquejat."
 
-#: ../lib/Tails/Persistence/Setup.pm:384
+#: ../lib/Tails/Persistence/Setup.pm:389
 msgid "Persistence volume is not mounted."
 msgstr "El volum persistent no està muntat."
 
-#: ../lib/Tails/Persistence/Setup.pm:389
-msgid "Persistence volume is not readable. Permissions or ownership problems?"
-msgstr "El volum persistent és il·legible. Problemes de permisos o propietat?"
-
 #: ../lib/Tails/Persistence/Setup.pm:394
-msgid "Persistence volume is not writable. Maybe it was mounted read-only?"
-msgstr "El volum persistent no es pot escriure. Potser ha estat muntat en mode només lectura?"
+msgid "Persistence volume is not readable. Permissions or ownership problems?"
+msgstr "El volum persistent és il·legible. Potser hi ha problemes de permisos o propietat."
 
-#: ../lib/Tails/Persistence/Setup.pm:403
+#: ../lib/Tails/Persistence/Setup.pm:399
+msgid "Persistence volume is not writable. Maybe it was mounted read-only?"
+msgstr "El volum persistent no es pot escriure. Potser ha estat muntat en mode de només lectura."
+
+#: ../lib/Tails/Persistence/Setup.pm:408
 #, perl-format
 msgid "Tails is running from non-USB / non-SDIO device %s."
 msgstr "Tails s'està executant des d'un dispositiu %s no-USB / no-SDIO"
 
-#: ../lib/Tails/Persistence/Setup.pm:409
+#: ../lib/Tails/Persistence/Setup.pm:414
 #, perl-format
 msgid "Device %s is optical."
 msgstr "El dispositiu %s és òptic."
 
-#: ../lib/Tails/Persistence/Setup.pm:416
+#: ../lib/Tails/Persistence/Setup.pm:421
 #, perl-format
 msgid "Device %s was not created using Tails Installer."
 msgstr "El dispositiu %s no va ser creat usant Tails Installer"
 
-#: ../lib/Tails/Persistence/Setup.pm:676
+#: ../lib/Tails/Persistence/Setup.pm:667
 msgid "Persistence wizard - Finished"
 msgstr "Assistent de persistència - Acabat"
 
-#: ../lib/Tails/Persistence/Setup.pm:679
+#: ../lib/Tails/Persistence/Setup.pm:670
 msgid ""
 "Any changes you have made will only take effect after restarting Tails.\n"
 "\n"
@@ -202,7 +202,7 @@ msgstr "Assistent de persistència - Creació de volum persistent"
 
 #: ../lib/Tails/Persistence/Step/Bootstrap.pm:57
 msgid "Choose a passphrase to protect the persistent volume"
-msgstr "Escolliu una contrassenya per a protegir el volum persistent"
+msgstr "Escolliu una contrasenya per protegir el volum persistent"
 
 #. TRANSLATORS: size, device vendor, device model
 #: ../lib/Tails/Persistence/Step/Bootstrap.pm:61
@@ -210,11 +210,11 @@ msgstr "Escolliu una contrassenya per a protegir el volum persistent"
 msgid ""
 "A %s persistent volume will be created on the <b>%s %s</b> device. Data on "
 "this volume will be stored in an encrypted form protected by a passphrase."
-msgstr "Un volum persistent de %s serà creat al dispositiu <b>%s %s</b> . Les dades d'aquest volum seràn emmagatzemades en una forma encriptada protegida per contrassenya. "
+msgstr "Es crearà un volum persistent de %s al dispositiu <b>%s %s</b> . Les dades d'aquest volum seràn emmagatzemades en una forma encriptada protegida per contrasenya. "
 
 #: ../lib/Tails/Persistence/Step/Bootstrap.pm:66
 msgid "Create"
-msgstr "Crear"
+msgstr "Crea"
 
 #: ../lib/Tails/Persistence/Step/Bootstrap.pm:110
 msgid ""
@@ -222,7 +222,7 @@ msgid ""
 "understood. Tails can't help you if you use it wrong! See <a "
 "href='file:///usr/share/doc/tails/website/doc/first_steps/persistence.en.html'>Tails"
 " documentation about persistence</a> to learn more."
-msgstr "<b>Atenció!</b> Usar la persistència té conseqüències que han d'entendre's bé. Tails no pot ajudar-vos si ho feu servir malament! Vegeu <a href='file:///usr/share/doc/tails/website/doc/first_steps/persistence.en.html'>documentació de Tails sobre la persistència</a> per a saber-ne més. "
+msgstr "<b>Atenció!</b> Usar la persistència té conseqüències que han d'entendre's bé. Tails no pot ajudar-vos si ho feu servir malament! Vegeu <a href='file:///usr/share/doc/tails/website/doc/first_steps/persistence.en.html'> la documentació de Tails sobre la persistència</a> per a saber-ne més. "
 
 #: ../lib/Tails/Persistence/Step/Bootstrap.pm:144
 msgid "Passphrase:"
@@ -230,43 +230,44 @@ msgstr "Frase de contrasenya:"
 
 #: ../lib/Tails/Persistence/Step/Bootstrap.pm:154
 msgid "Verify Passphrase:"
-msgstr "Verifica la Frase de contrasenya:"
+msgstr "Comprova la contrasenya"
 
 #: ../lib/Tails/Persistence/Step/Bootstrap.pm:167
 #: ../lib/Tails/Persistence/Step/Bootstrap.pm:231
 msgid "Passphrase can't be empty"
-msgstr "La contrasenya no pot ser buida"
+msgstr "La contrasenya no pot quedar buida"
 
 #: ../lib/Tails/Persistence/Step/Bootstrap.pm:222
 msgid "Passphrases do not match"
 msgstr "La contrasenya no coincideix"
 
-#: ../lib/Tails/Persistence/Step/Bootstrap.pm:262
+#: ../lib/Tails/Persistence/Step/Bootstrap.pm:274
 #: ../lib/Tails/Persistence/Step/Configure.pm:129
+#: ../lib/Tails/Persistence/Step/Delete.pm:95
 msgid "Failed"
 msgstr "Fallit"
 
-#: ../lib/Tails/Persistence/Step/Bootstrap.pm:271
-msgid "Mounting Tails persistence partition."
-msgstr "Muntant la partició persistent de Tails."
-
-#: ../lib/Tails/Persistence/Step/Bootstrap.pm:274
-msgid "The Tails persistence partition will be mounted."
-msgstr "La partició de persistència de Tails serà muntada. "
-
 #: ../lib/Tails/Persistence/Step/Bootstrap.pm:283
-msgid "Correcting permissions of the persistent volume."
-msgstr "Corregint els permisos del volum persistent."
+msgid "Mounting Tails persistence partition."
+msgstr "S'esta muntant la partició persistent de Tails."
 
 #: ../lib/Tails/Persistence/Step/Bootstrap.pm:286
+msgid "The Tails persistence partition will be mounted."
+msgstr "La partició persistent de Tails serà muntada. "
+
+#: ../lib/Tails/Persistence/Step/Bootstrap.pm:295
+msgid "Correcting permissions of the persistent volume."
+msgstr "S'estan corregint els permisos del volum persistent."
+
+#: ../lib/Tails/Persistence/Step/Bootstrap.pm:298
 msgid "The permissions of the persistent volume will be corrected."
 msgstr "Els permisos del volum persistent seran corregits."
 
-#: ../lib/Tails/Persistence/Step/Bootstrap.pm:308
+#: ../lib/Tails/Persistence/Step/Bootstrap.pm:320
 msgid "Creating..."
 msgstr "Creant..."
 
-#: ../lib/Tails/Persistence/Step/Bootstrap.pm:311
+#: ../lib/Tails/Persistence/Step/Bootstrap.pm:323
 msgid "Creating the persistent volume..."
 msgstr "Creant el volum persistent..."
 
@@ -276,7 +277,7 @@ msgstr "Assistent de persistència - Configuració del volum persistent"
 
 #: ../lib/Tails/Persistence/Step/Configure.pm:64
 msgid "Specify the files that will be saved in the persistent volume"
-msgstr "Especifiqueu els arxius que seran desats en el volum persistent"
+msgstr "Especifiqueu els arxius que seran desats al volum persistent"
 
 #. TRANSLATORS: partition, size, device vendor, device model
 #: ../lib/Tails/Persistence/Step/Configure.pm:68
@@ -284,7 +285,7 @@ msgstr "Especifiqueu els arxius que seran desats en el volum persistent"
 msgid ""
 "The selected files will be stored in the encrypted partition %s (%s), on the"
 " <b>%s %s</b> device."
-msgstr "Els arxius seleccionats seran guardats en la partició encriptada %s (%s) en el dispositiu <b> %s %s </b>."
+msgstr "Els arxius seleccionats seran desats a la partició encriptada %s (%s) en el dispositiu <b> %s %s </b>."
 
 #: ../lib/Tails/Persistence/Step/Configure.pm:74
 msgid "Save"
@@ -304,22 +305,22 @@ msgstr "Assistent de persistència - Eliminació del volum persistent"
 
 #: ../lib/Tails/Persistence/Step/Delete.pm:44
 msgid "Your persistent data will be deleted."
-msgstr "Les vostres dades restants seran borrades."
+msgstr "Les dades persistents s'esborraran"
 
 #: ../lib/Tails/Persistence/Step/Delete.pm:48
 #, perl-format
 msgid ""
 "The persistent volume %s (%s), on the <b>%s %s</b> device, will be deleted."
-msgstr "El volum restant %s (%s), en el dispositiu <b> %s %s </b> sera borrada."
+msgstr "El volum persistent %s (%s), en el dispositiu <b> %s %s </b> s'esborrarà."
 
 #: ../lib/Tails/Persistence/Step/Delete.pm:54
 msgid "Delete"
-msgstr "Esborrar"
+msgstr "Esborra"
 
-#: ../lib/Tails/Persistence/Step/Delete.pm:101
+#: ../lib/Tails/Persistence/Step/Delete.pm:111
 msgid "Deleting..."
 msgstr "Esborrant..."
 
-#: ../lib/Tails/Persistence/Step/Delete.pm:104
+#: ../lib/Tails/Persistence/Step/Delete.pm:114
 msgid "Deleting the persistent volume..."
 msgstr "Esborrant el volum persistent..."

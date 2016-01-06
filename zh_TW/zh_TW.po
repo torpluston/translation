@@ -5,15 +5,16 @@
 # Translators:
 # cges30901 <cges30901@gmail.com>, 2014
 # danfong <danfong.hsieh@gmail.com>, 2014
+# Wen-Gan Li <wgli@wgli.net>, 2015
 # x4r <xatierlike@gmail.com>, 2014-2015
 # Zakk <zakk0610@gmail.com>, 2014
 msgid ""
 msgstr ""
 "Project-Id-Version: The Tor Project\n"
 "Report-Msgid-Bugs-To: Tails developers <tails@boum.org>\n"
-"POT-Creation-Date: 2015-12-14 21:35+0100\n"
-"PO-Revision-Date: 2015-12-15 09:27+0000\n"
-"Last-Translator: carolyn <carolyn@anhalt.org>\n"
+"POT-Creation-Date: 2015-12-16 17:55+0100\n"
+"PO-Revision-Date: 2015-12-22 13:38+0000\n"
+"Last-Translator: Wen-Gan Li <wgli@wgli.net>\n"
 "Language-Team: Chinese (Taiwan) (http://www.transifex.com/otf/torproject/language/zh_TW/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -111,11 +112,11 @@ msgstr "透過 APT 下載的清單"
 
 #: ../lib/Tails/Persistence/Configuration/Presets.pm:158
 msgid "Icedove"
-msgstr ""
+msgstr "Icedove"
 
 #: ../lib/Tails/Persistence/Configuration/Presets.pm:160
 msgid "Icedove profiles and locally stored email"
-msgstr ""
+msgstr "Icedove 設定和本機所儲存的郵件"
 
 #: ../lib/Tails/Persistence/Configuration/Presets.pm:168
 msgid "Dotfiles"
@@ -126,71 +127,71 @@ msgid ""
 "Symlink into $HOME every file or directory found in the `dotfiles' directory"
 msgstr "`dotfiles' 目錄中找到的每個檔案或目錄 Symlink 到 $HOME "
 
-#: ../lib/Tails/Persistence/Setup.pm:227
+#: ../lib/Tails/Persistence/Setup.pm:230
 msgid "Setup Tails persistent volume"
 msgstr "設定 Tails 永久性磁碟區"
 
-#: ../lib/Tails/Persistence/Setup.pm:307 ../lib/Tails/Persistence/Setup.pm:451
+#: ../lib/Tails/Persistence/Setup.pm:311 ../lib/Tails/Persistence/Setup.pm:458
 msgid "Error"
 msgstr "錯誤"
 
-#: ../lib/Tails/Persistence/Setup.pm:338
+#: ../lib/Tails/Persistence/Setup.pm:343
 #, perl-format
 msgid "Device %s already has a persistent volume."
 msgstr "裝置 %s 已有永久性磁碟區。"
 
-#: ../lib/Tails/Persistence/Setup.pm:346
+#: ../lib/Tails/Persistence/Setup.pm:351
 #, perl-format
 msgid "Device %s has not enough unallocated space."
 msgstr "裝置 %s 沒有足夠的未配置空間。"
 
-#: ../lib/Tails/Persistence/Setup.pm:354 ../lib/Tails/Persistence/Setup.pm:368
+#: ../lib/Tails/Persistence/Setup.pm:359 ../lib/Tails/Persistence/Setup.pm:373
 #, perl-format
 msgid "Device %s has no persistent volume."
 msgstr "裝置 %s 沒有永久性磁碟區。"
 
-#: ../lib/Tails/Persistence/Setup.pm:360
+#: ../lib/Tails/Persistence/Setup.pm:365
 msgid ""
 "Cannot delete the persistent volume while in use. You should restart Tails "
 "without persistence."
 msgstr "使用中無法刪除永久性磁碟區。您必須重新啟動 Tails 並不使用 永久性磁碟區。"
 
-#: ../lib/Tails/Persistence/Setup.pm:379
+#: ../lib/Tails/Persistence/Setup.pm:384
 msgid "Persistence volume is not unlocked."
 msgstr "永久性磁碟區沒有被解除鎖定。"
 
-#: ../lib/Tails/Persistence/Setup.pm:384
+#: ../lib/Tails/Persistence/Setup.pm:389
 msgid "Persistence volume is not mounted."
 msgstr "永久性磁碟區沒有被掛接。"
 
-#: ../lib/Tails/Persistence/Setup.pm:389
+#: ../lib/Tails/Persistence/Setup.pm:394
 msgid "Persistence volume is not readable. Permissions or ownership problems?"
 msgstr "無法讀取永久性磁碟區，權限或是擁有權問題?"
 
-#: ../lib/Tails/Persistence/Setup.pm:394
+#: ../lib/Tails/Persistence/Setup.pm:399
 msgid "Persistence volume is not writable. Maybe it was mounted read-only?"
 msgstr "永久性磁碟區無法寫入。也許它被掛接成唯讀?"
 
-#: ../lib/Tails/Persistence/Setup.pm:403
+#: ../lib/Tails/Persistence/Setup.pm:408
 #, perl-format
 msgid "Tails is running from non-USB / non-SDIO device %s."
 msgstr "Tails 正從非 USB / 非 SDIO 裝置 %s 執行。"
 
-#: ../lib/Tails/Persistence/Setup.pm:409
+#: ../lib/Tails/Persistence/Setup.pm:414
 #, perl-format
 msgid "Device %s is optical."
 msgstr "裝置 %s 是可選的。"
 
-#: ../lib/Tails/Persistence/Setup.pm:416
+#: ../lib/Tails/Persistence/Setup.pm:421
 #, perl-format
 msgid "Device %s was not created using Tails Installer."
 msgstr "裝置 %s 不是用 Tails 安裝程式安裝。"
 
-#: ../lib/Tails/Persistence/Setup.pm:676
+#: ../lib/Tails/Persistence/Setup.pm:667
 msgid "Persistence wizard - Finished"
 msgstr "永久性精靈 - 已完成"
 
-#: ../lib/Tails/Persistence/Setup.pm:679
+#: ../lib/Tails/Persistence/Setup.pm:670
 msgid ""
 "Any changes you have made will only take effect after restarting Tails.\n"
 "\n"
@@ -242,32 +243,33 @@ msgstr "複雜密碼不能為空"
 msgid "Passphrases do not match"
 msgstr "複雜密碼不符"
 
-#: ../lib/Tails/Persistence/Step/Bootstrap.pm:262
+#: ../lib/Tails/Persistence/Step/Bootstrap.pm:274
 #: ../lib/Tails/Persistence/Step/Configure.pm:129
+#: ../lib/Tails/Persistence/Step/Delete.pm:95
 msgid "Failed"
 msgstr "失敗"
 
-#: ../lib/Tails/Persistence/Step/Bootstrap.pm:271
+#: ../lib/Tails/Persistence/Step/Bootstrap.pm:283
 msgid "Mounting Tails persistence partition."
 msgstr "掛接 Tails 永久性分割區。"
 
-#: ../lib/Tails/Persistence/Step/Bootstrap.pm:274
+#: ../lib/Tails/Persistence/Step/Bootstrap.pm:286
 msgid "The Tails persistence partition will be mounted."
 msgstr "Tails 永久性分割區將會被掛接。"
 
-#: ../lib/Tails/Persistence/Step/Bootstrap.pm:283
+#: ../lib/Tails/Persistence/Step/Bootstrap.pm:295
 msgid "Correcting permissions of the persistent volume."
 msgstr "修正永久性磁碟區的權限。"
 
-#: ../lib/Tails/Persistence/Step/Bootstrap.pm:286
+#: ../lib/Tails/Persistence/Step/Bootstrap.pm:298
 msgid "The permissions of the persistent volume will be corrected."
 msgstr "永久性磁碟區的權限將被修正。"
 
-#: ../lib/Tails/Persistence/Step/Bootstrap.pm:308
+#: ../lib/Tails/Persistence/Step/Bootstrap.pm:320
 msgid "Creating..."
 msgstr "建立中..."
 
-#: ../lib/Tails/Persistence/Step/Bootstrap.pm:311
+#: ../lib/Tails/Persistence/Step/Bootstrap.pm:323
 msgid "Creating the persistent volume..."
 msgstr "正在建立永久性磁碟區..."
 
@@ -317,10 +319,10 @@ msgstr "永久性磁碟區 %s (%s)，在 <b>%s %s</b> 裝置上，將會被刪�
 msgid "Delete"
 msgstr "刪除"
 
-#: ../lib/Tails/Persistence/Step/Delete.pm:101
+#: ../lib/Tails/Persistence/Step/Delete.pm:111
 msgid "Deleting..."
 msgstr "刪除中..."
 
-#: ../lib/Tails/Persistence/Step/Delete.pm:104
+#: ../lib/Tails/Persistence/Step/Delete.pm:114
 msgid "Deleting the persistent volume..."
 msgstr "正在刪除永久性磁碟區..."

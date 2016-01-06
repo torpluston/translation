@@ -7,13 +7,14 @@
 # sunpower92 <fumihito92@gmail.com>, 2014
 # タカハシ <indexial@outlook.jp>, 2013-2014
 # Masaki Saito <rezoolab@gmail.com>, 2013
+# Tokumei Nanashi, 2015
 msgid ""
 msgstr ""
 "Project-Id-Version: The Tor Project\n"
 "Report-Msgid-Bugs-To: Tails developers <tails@boum.org>\n"
-"POT-Creation-Date: 2015-12-14 21:35+0100\n"
-"PO-Revision-Date: 2015-12-15 09:27+0000\n"
-"Last-Translator: carolyn <carolyn@anhalt.org>\n"
+"POT-Creation-Date: 2015-12-16 17:55+0100\n"
+"PO-Revision-Date: 2015-12-19 16:45+0000\n"
+"Last-Translator: Tokumei Nanashi\n"
 "Language-Team: Japanese (http://www.transifex.com/otf/torproject/language/ja/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -111,11 +112,11 @@ msgstr "APTがダウンロードしたリスト"
 
 #: ../lib/Tails/Persistence/Configuration/Presets.pm:158
 msgid "Icedove"
-msgstr ""
+msgstr "Icedove"
 
 #: ../lib/Tails/Persistence/Configuration/Presets.pm:160
 msgid "Icedove profiles and locally stored email"
-msgstr ""
+msgstr "Icedoveのプロファイルとローカルに保存された電子メール"
 
 #: ../lib/Tails/Persistence/Configuration/Presets.pm:168
 msgid "Dotfiles"
@@ -126,71 +127,71 @@ msgid ""
 "Symlink into $HOME every file or directory found in the `dotfiles' directory"
 msgstr "`ドットファイル'ディレクトリで見つかった$HOMEの各ファイルかディレクトリへのシンボリックリンク"
 
-#: ../lib/Tails/Persistence/Setup.pm:227
+#: ../lib/Tails/Persistence/Setup.pm:230
 msgid "Setup Tails persistent volume"
 msgstr "Talisの永続的ボリュームをセットアップ"
 
-#: ../lib/Tails/Persistence/Setup.pm:307 ../lib/Tails/Persistence/Setup.pm:451
+#: ../lib/Tails/Persistence/Setup.pm:311 ../lib/Tails/Persistence/Setup.pm:458
 msgid "Error"
 msgstr "エラー"
 
-#: ../lib/Tails/Persistence/Setup.pm:338
+#: ../lib/Tails/Persistence/Setup.pm:343
 #, perl-format
 msgid "Device %s already has a persistent volume."
 msgstr "デバイス %s にはすでに永続的ボリュームがあります。"
 
-#: ../lib/Tails/Persistence/Setup.pm:346
+#: ../lib/Tails/Persistence/Setup.pm:351
 #, perl-format
 msgid "Device %s has not enough unallocated space."
 msgstr "デバイス %s には十分な未割り当て領域がありません。"
 
-#: ../lib/Tails/Persistence/Setup.pm:354 ../lib/Tails/Persistence/Setup.pm:368
+#: ../lib/Tails/Persistence/Setup.pm:359 ../lib/Tails/Persistence/Setup.pm:373
 #, perl-format
 msgid "Device %s has no persistent volume."
 msgstr "デバイス %s には永続的ボリュームがありません。"
 
-#: ../lib/Tails/Persistence/Setup.pm:360
+#: ../lib/Tails/Persistence/Setup.pm:365
 msgid ""
 "Cannot delete the persistent volume while in use. You should restart Tails "
 "without persistence."
 msgstr "使用中の間は永続的ボリュームを削除出来ません。永続をオフにしてTailsを再起動すべきです。"
 
-#: ../lib/Tails/Persistence/Setup.pm:379
+#: ../lib/Tails/Persistence/Setup.pm:384
 msgid "Persistence volume is not unlocked."
 msgstr "永続的ボリュームがアンロックされていません。"
 
-#: ../lib/Tails/Persistence/Setup.pm:384
+#: ../lib/Tails/Persistence/Setup.pm:389
 msgid "Persistence volume is not mounted."
 msgstr "永続的ボリュームがマウントされていません。"
 
-#: ../lib/Tails/Persistence/Setup.pm:389
+#: ../lib/Tails/Persistence/Setup.pm:394
 msgid "Persistence volume is not readable. Permissions or ownership problems?"
 msgstr "永続的ボリュームが読み込み可能ではありません。パーミッションや所有権に問題があるかもしれません。"
 
-#: ../lib/Tails/Persistence/Setup.pm:394
+#: ../lib/Tails/Persistence/Setup.pm:399
 msgid "Persistence volume is not writable. Maybe it was mounted read-only?"
 msgstr "永続的ボリュームが書き込み可能ではありません。リードオンリーでマウントされた可能性があります。"
 
-#: ../lib/Tails/Persistence/Setup.pm:403
+#: ../lib/Tails/Persistence/Setup.pm:408
 #, perl-format
 msgid "Tails is running from non-USB / non-SDIO device %s."
 msgstr "Tailsは現在、USBまたはSDIOでないデバイス %s から動作しています。"
 
-#: ../lib/Tails/Persistence/Setup.pm:409
+#: ../lib/Tails/Persistence/Setup.pm:414
 #, perl-format
 msgid "Device %s is optical."
 msgstr "デバイス %sは光学機器です。"
 
-#: ../lib/Tails/Persistence/Setup.pm:416
+#: ../lib/Tails/Persistence/Setup.pm:421
 #, perl-format
 msgid "Device %s was not created using Tails Installer."
 msgstr "デバイス %s は Tails インストーラーを使用して作成されませんでした。"
 
-#: ../lib/Tails/Persistence/Setup.pm:676
+#: ../lib/Tails/Persistence/Setup.pm:667
 msgid "Persistence wizard - Finished"
 msgstr "永続ウィザード -終了"
 
-#: ../lib/Tails/Persistence/Setup.pm:679
+#: ../lib/Tails/Persistence/Setup.pm:670
 msgid ""
 "Any changes you have made will only take effect after restarting Tails.\n"
 "\n"
@@ -242,32 +243,33 @@ msgstr "パスフレーズは空に出来ません"
 msgid "Passphrases do not match"
 msgstr "パスフレーズが一致しません"
 
-#: ../lib/Tails/Persistence/Step/Bootstrap.pm:262
+#: ../lib/Tails/Persistence/Step/Bootstrap.pm:274
 #: ../lib/Tails/Persistence/Step/Configure.pm:129
+#: ../lib/Tails/Persistence/Step/Delete.pm:95
 msgid "Failed"
 msgstr "失敗しました"
 
-#: ../lib/Tails/Persistence/Step/Bootstrap.pm:271
+#: ../lib/Tails/Persistence/Step/Bootstrap.pm:283
 msgid "Mounting Tails persistence partition."
 msgstr "Tails永続的パーティションをマウント中"
 
-#: ../lib/Tails/Persistence/Step/Bootstrap.pm:274
+#: ../lib/Tails/Persistence/Step/Bootstrap.pm:286
 msgid "The Tails persistence partition will be mounted."
 msgstr "Tails永続的パーティションがマウントされます。"
 
-#: ../lib/Tails/Persistence/Step/Bootstrap.pm:283
+#: ../lib/Tails/Persistence/Step/Bootstrap.pm:295
 msgid "Correcting permissions of the persistent volume."
 msgstr "永続的ボリュームのパーミッションの修正"
 
-#: ../lib/Tails/Persistence/Step/Bootstrap.pm:286
+#: ../lib/Tails/Persistence/Step/Bootstrap.pm:298
 msgid "The permissions of the persistent volume will be corrected."
 msgstr "永続的ボリュームのパーミッションは修正されます。"
 
-#: ../lib/Tails/Persistence/Step/Bootstrap.pm:308
+#: ../lib/Tails/Persistence/Step/Bootstrap.pm:320
 msgid "Creating..."
 msgstr "作成中..."
 
-#: ../lib/Tails/Persistence/Step/Bootstrap.pm:311
+#: ../lib/Tails/Persistence/Step/Bootstrap.pm:323
 msgid "Creating the persistent volume..."
 msgstr "永続的ボリュームを作成中..."
 
@@ -317,10 +319,10 @@ msgstr "永続ボリューム %s (%s) (<b>%s %s</b>デバイス上) は削除さ
 msgid "Delete"
 msgstr "削除"
 
-#: ../lib/Tails/Persistence/Step/Delete.pm:101
+#: ../lib/Tails/Persistence/Step/Delete.pm:111
 msgid "Deleting..."
 msgstr "削除中..."
 
-#: ../lib/Tails/Persistence/Step/Delete.pm:104
+#: ../lib/Tails/Persistence/Step/Delete.pm:114
 msgid "Deleting the persistent volume..."
 msgstr "永続的ボリュームを削除中..."
