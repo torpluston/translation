@@ -14,8 +14,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: The Tor Project\n"
 "Report-Msgid-Bugs-To: Tails developers <tails@boum.org>\n"
-"POT-Creation-Date: 2015-12-14 21:35+0100\n"
-"PO-Revision-Date: 2015-12-15 09:27+0000\n"
+"POT-Creation-Date: 2015-12-16 17:55+0100\n"
+"PO-Revision-Date: 2016-01-17 17:54+0000\n"
 "Last-Translator: carolyn <carolyn@anhalt.org>\n"
 "Language-Team: Swedish (http://www.transifex.com/otf/torproject/language/sv/)\n"
 "MIME-Version: 1.0\n"
@@ -129,71 +129,71 @@ msgid ""
 "Symlink into $HOME every file or directory found in the `dotfiles' directory"
 msgstr "Länka in i $HOME varje fil och katalog som finns i `dotfiles' katalogen"
 
-#: ../lib/Tails/Persistence/Setup.pm:227
+#: ../lib/Tails/Persistence/Setup.pm:230
 msgid "Setup Tails persistent volume"
 msgstr "Konfigurera bestående lagring för Tails"
 
-#: ../lib/Tails/Persistence/Setup.pm:307 ../lib/Tails/Persistence/Setup.pm:451
+#: ../lib/Tails/Persistence/Setup.pm:311 ../lib/Tails/Persistence/Setup.pm:458
 msgid "Error"
 msgstr "Fel"
 
-#: ../lib/Tails/Persistence/Setup.pm:338
+#: ../lib/Tails/Persistence/Setup.pm:343
 #, perl-format
 msgid "Device %s already has a persistent volume."
 msgstr "Enhet %s innehåller redan en partition med bestående lagring."
 
-#: ../lib/Tails/Persistence/Setup.pm:346
+#: ../lib/Tails/Persistence/Setup.pm:351
 #, perl-format
 msgid "Device %s has not enough unallocated space."
 msgstr "Enhet %s saknar tillräckligt med opartitionerat utrymme."
 
-#: ../lib/Tails/Persistence/Setup.pm:354 ../lib/Tails/Persistence/Setup.pm:368
+#: ../lib/Tails/Persistence/Setup.pm:359 ../lib/Tails/Persistence/Setup.pm:373
 #, perl-format
 msgid "Device %s has no persistent volume."
 msgstr "Enhet %s innehåller ingen partition för bestående lagring."
 
-#: ../lib/Tails/Persistence/Setup.pm:360
+#: ../lib/Tails/Persistence/Setup.pm:365
 msgid ""
 "Cannot delete the persistent volume while in use. You should restart Tails "
 "without persistence."
 msgstr "Partitionen med bestående lagring kan inte tas bort när den används. Starta om Tails utan bestående lagring."
 
-#: ../lib/Tails/Persistence/Setup.pm:379
+#: ../lib/Tails/Persistence/Setup.pm:384
 msgid "Persistence volume is not unlocked."
 msgstr "Partitionen med bestående lagring är inte upplåst."
 
-#: ../lib/Tails/Persistence/Setup.pm:384
+#: ../lib/Tails/Persistence/Setup.pm:389
 msgid "Persistence volume is not mounted."
 msgstr "Partitionen med bestående lagring är inte monterad."
 
-#: ../lib/Tails/Persistence/Setup.pm:389
+#: ../lib/Tails/Persistence/Setup.pm:394
 msgid "Persistence volume is not readable. Permissions or ownership problems?"
 msgstr "Kunde inte läsa ifrån den bestående lagringen. Saknas nödvändiga rättigheter?"
 
-#: ../lib/Tails/Persistence/Setup.pm:394
+#: ../lib/Tails/Persistence/Setup.pm:399
 msgid "Persistence volume is not writable. Maybe it was mounted read-only?"
 msgstr "Skrivåtkomst till den bestående lagringen saknas. Kanske den är skrivskyddad?"
 
-#: ../lib/Tails/Persistence/Setup.pm:403
+#: ../lib/Tails/Persistence/Setup.pm:408
 #, perl-format
 msgid "Tails is running from non-USB / non-SDIO device %s."
 msgstr "Tails körs från icke-USB / icke-SDIO enheten %s."
 
-#: ../lib/Tails/Persistence/Setup.pm:409
+#: ../lib/Tails/Persistence/Setup.pm:414
 #, perl-format
 msgid "Device %s is optical."
 msgstr "Enheten %s är optisk."
 
-#: ../lib/Tails/Persistence/Setup.pm:416
+#: ../lib/Tails/Persistence/Setup.pm:421
 #, perl-format
 msgid "Device %s was not created using Tails Installer."
 msgstr "Din enhet %s är inte skapad av Tails installerare."
 
-#: ../lib/Tails/Persistence/Setup.pm:676
+#: ../lib/Tails/Persistence/Setup.pm:667
 msgid "Persistence wizard - Finished"
 msgstr "Guiden avslutad"
 
-#: ../lib/Tails/Persistence/Setup.pm:679
+#: ../lib/Tails/Persistence/Setup.pm:670
 msgid ""
 "Any changes you have made will only take effect after restarting Tails.\n"
 "\n"
@@ -245,32 +245,33 @@ msgstr "Lösenordet får inte vara tomt"
 msgid "Passphrases do not match"
 msgstr "Lösenorden matchar inte"
 
-#: ../lib/Tails/Persistence/Step/Bootstrap.pm:262
+#: ../lib/Tails/Persistence/Step/Bootstrap.pm:274
 #: ../lib/Tails/Persistence/Step/Configure.pm:129
+#: ../lib/Tails/Persistence/Step/Delete.pm:95
 msgid "Failed"
 msgstr "Misslyckades"
 
-#: ../lib/Tails/Persistence/Step/Bootstrap.pm:271
+#: ../lib/Tails/Persistence/Step/Bootstrap.pm:283
 msgid "Mounting Tails persistence partition."
 msgstr "Monterar Tails-partition med bestående lagring."
 
-#: ../lib/Tails/Persistence/Step/Bootstrap.pm:274
+#: ../lib/Tails/Persistence/Step/Bootstrap.pm:286
 msgid "The Tails persistence partition will be mounted."
 msgstr "Tails partition med bestående lagring kommer att monteras."
 
-#: ../lib/Tails/Persistence/Step/Bootstrap.pm:283
+#: ../lib/Tails/Persistence/Step/Bootstrap.pm:295
 msgid "Correcting permissions of the persistent volume."
 msgstr "Rättar till behörigheterna på den bestående lagringen."
 
-#: ../lib/Tails/Persistence/Step/Bootstrap.pm:286
+#: ../lib/Tails/Persistence/Step/Bootstrap.pm:298
 msgid "The permissions of the persistent volume will be corrected."
 msgstr "Behörigheterna på den bestående lagringen kommer att rättas till."
 
-#: ../lib/Tails/Persistence/Step/Bootstrap.pm:308
+#: ../lib/Tails/Persistence/Step/Bootstrap.pm:320
 msgid "Creating..."
 msgstr "Skapar..."
 
-#: ../lib/Tails/Persistence/Step/Bootstrap.pm:311
+#: ../lib/Tails/Persistence/Step/Bootstrap.pm:323
 msgid "Creating the persistent volume..."
 msgstr "Skapar partition för bestående lagring..."
 
@@ -320,10 +321,10 @@ msgstr "Partitionen %s (%s) med bestående lagring, på enheten <b>%s %s</b>, ko
 msgid "Delete"
 msgstr "Ta bort"
 
-#: ../lib/Tails/Persistence/Step/Delete.pm:101
+#: ../lib/Tails/Persistence/Step/Delete.pm:111
 msgid "Deleting..."
 msgstr "Tar bort..."
 
-#: ../lib/Tails/Persistence/Step/Delete.pm:104
+#: ../lib/Tails/Persistence/Step/Delete.pm:114
 msgid "Deleting the persistent volume..."
 msgstr "Tar bort den bestående lagringen..."
