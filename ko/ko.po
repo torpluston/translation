@@ -4,16 +4,17 @@
 # 
 # Translators:
 # ilbe123 <a3057016@drdrb.net>, 2014
+# Chris Park <utopinator@gmail.com>, 2016
 # Dr.what <javrick6@naver.com>, 2014
-# Revi_ <revi@fastlizard4.org>, 2015
+# Revi_ <revi@pobox.com>, 2015
 msgid ""
 msgstr ""
 "Project-Id-Version: The Tor Project\n"
 "Report-Msgid-Bugs-To: Tails developers <tails@boum.org>\n"
-"POT-Creation-Date: 2015-02-23 13:07+0100\n"
-"PO-Revision-Date: 2015-04-23 12:34+0000\n"
-"Last-Translator: Revi_ <revi@fastlizard4.org>\n"
-"Language-Team: Korean (http://www.transifex.com/projects/p/torproject/language/ko/)\n"
+"POT-Creation-Date: 2016-01-25 17:34+0100\n"
+"PO-Revision-Date: 2016-03-03 16:35+0000\n"
+"Last-Translator: Chris Park <utopinator@gmail.com>\n"
+"Language-Team: Korean (http://www.transifex.com/otf/torproject/language/ko/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -53,12 +54,12 @@ msgid "Pidgin profiles and OTR keyring"
 msgstr "Pidgin 프로필 및 OTR 키홀더"
 
 #: ../lib/Tails/Persistence/Configuration/Presets.pm:88
-msgid "Claws Mail"
-msgstr "Claws Mail "
+msgid "Icedove"
+msgstr "Icedove"
 
 #: ../lib/Tails/Persistence/Configuration/Presets.pm:90
-msgid "Claws Mail profiles and locally stored email"
-msgstr "Claws Mail의 프로필과 로컬에 저장된 전자 메일"
+msgid "Icedove profiles and locally stored email"
+msgstr "Icedove 프로필과 로컬 저장소에 저장된 이메일"
 
 #: ../lib/Tails/Persistence/Configuration/Presets.pm:98
 msgid "GNOME Keyring"
@@ -125,71 +126,71 @@ msgid ""
 "Symlink into $HOME every file or directory found in the `dotfiles' directory"
 msgstr "`도트 파일 '디렉토리에 있는 $HOME의 각 파일이나 디렉토리에 대한 심볼릭 링크"
 
-#: ../lib/Tails/Persistence/Setup.pm:227
+#: ../lib/Tails/Persistence/Setup.pm:230
 msgid "Setup Tails persistent volume"
 msgstr "Talis의 영구적 볼륨을 설정"
 
-#: ../lib/Tails/Persistence/Setup.pm:307 ../lib/Tails/Persistence/Setup.pm:451
+#: ../lib/Tails/Persistence/Setup.pm:312 ../lib/Tails/Persistence/Setup.pm:459
 msgid "Error"
 msgstr "오류"
 
-#: ../lib/Tails/Persistence/Setup.pm:338
+#: ../lib/Tails/Persistence/Setup.pm:344
 #, perl-format
 msgid "Device %s already has a persistent volume."
 msgstr "장치 %s에 이미 영구적 볼륨이 있습니다."
 
-#: ../lib/Tails/Persistence/Setup.pm:346
+#: ../lib/Tails/Persistence/Setup.pm:352
 #, perl-format
 msgid "Device %s has not enough unallocated space."
 msgstr "장치 %s에 할당되지 않은 충분한 공간이 없습니다."
 
-#: ../lib/Tails/Persistence/Setup.pm:354 ../lib/Tails/Persistence/Setup.pm:368
+#: ../lib/Tails/Persistence/Setup.pm:360 ../lib/Tails/Persistence/Setup.pm:374
 #, perl-format
 msgid "Device %s has no persistent volume."
 msgstr "장치 %s에 영구적 볼륨이 없습니다."
 
-#: ../lib/Tails/Persistence/Setup.pm:360
+#: ../lib/Tails/Persistence/Setup.pm:366
 msgid ""
 "Cannot delete the persistent volume while in use. You should restart Tails "
 "without persistence."
 msgstr "사용중인 영구적 볼륨을 제거 할 수 없습니다. 영구을 오프하고 Tails를 다시 시작해야합니다."
 
-#: ../lib/Tails/Persistence/Setup.pm:379
+#: ../lib/Tails/Persistence/Setup.pm:385
 msgid "Persistence volume is not unlocked."
 msgstr "영구적 볼륨의 잠금이 해제되지 않습니다."
 
-#: ../lib/Tails/Persistence/Setup.pm:384
+#: ../lib/Tails/Persistence/Setup.pm:390
 msgid "Persistence volume is not mounted."
 msgstr "영구적 볼륨이 마운트되지 않습니다."
 
-#: ../lib/Tails/Persistence/Setup.pm:389
+#: ../lib/Tails/Persistence/Setup.pm:395
 msgid "Persistence volume is not readable. Permissions or ownership problems?"
 msgstr "영구적 볼륨을 읽어 들일 수 없습니다. 허가와 소유권에 문제가 있을지도 모릅니다."
 
-#: ../lib/Tails/Persistence/Setup.pm:394
+#: ../lib/Tails/Persistence/Setup.pm:400
 msgid "Persistence volume is not writable. Maybe it was mounted read-only?"
 msgstr "영구적 볼륨에 쓸 수는 없습니다. 읽기 전용으로 마운트된 가능성이 있습니다."
 
-#: ../lib/Tails/Persistence/Setup.pm:403
+#: ../lib/Tails/Persistence/Setup.pm:409
 #, perl-format
 msgid "Tails is running from non-USB / non-SDIO device %s."
 msgstr "Tails 현재 USB 또는 SDIO 아닌 %s 장치에서 작동합니다."
 
-#: ../lib/Tails/Persistence/Setup.pm:409
+#: ../lib/Tails/Persistence/Setup.pm:415
 #, perl-format
 msgid "Device %s is optical."
 msgstr "장치%s 는 광학 기기입니다."
 
-#: ../lib/Tails/Persistence/Setup.pm:416
+#: ../lib/Tails/Persistence/Setup.pm:422
 #, perl-format
 msgid "Device %s was not created using Tails Installer."
 msgstr "장치 %s는 Tails 설치 프로그램을 사용하여 작성되지 않았습니다."
 
-#: ../lib/Tails/Persistence/Setup.pm:676
+#: ../lib/Tails/Persistence/Setup.pm:668
 msgid "Persistence wizard - Finished"
 msgstr "영구 마법사 - 종료"
 
-#: ../lib/Tails/Persistence/Setup.pm:679
+#: ../lib/Tails/Persistence/Setup.pm:671
 msgid ""
 "Any changes you have made will only take effect after restarting Tails.\n"
 "\n"
@@ -241,32 +242,33 @@ msgstr "암호는 비워 둘 수 없습니다"
 msgid "Passphrases do not match"
 msgstr "암호가 일치하지 않습니다"
 
-#: ../lib/Tails/Persistence/Step/Bootstrap.pm:262
+#: ../lib/Tails/Persistence/Step/Bootstrap.pm:274
 #: ../lib/Tails/Persistence/Step/Configure.pm:129
+#: ../lib/Tails/Persistence/Step/Delete.pm:95
 msgid "Failed"
 msgstr "실패"
 
-#: ../lib/Tails/Persistence/Step/Bootstrap.pm:271
+#: ../lib/Tails/Persistence/Step/Bootstrap.pm:283
 msgid "Mounting Tails persistence partition."
 msgstr "Tails 영구 파티션을 마운트 중"
 
-#: ../lib/Tails/Persistence/Step/Bootstrap.pm:274
+#: ../lib/Tails/Persistence/Step/Bootstrap.pm:286
 msgid "The Tails persistence partition will be mounted."
 msgstr "Tails 영구 파티션이 마운트됩니다."
 
-#: ../lib/Tails/Persistence/Step/Bootstrap.pm:283
+#: ../lib/Tails/Persistence/Step/Bootstrap.pm:295
 msgid "Correcting permissions of the persistent volume."
 msgstr "영구적 볼륨의 권한 수정"
 
-#: ../lib/Tails/Persistence/Step/Bootstrap.pm:286
+#: ../lib/Tails/Persistence/Step/Bootstrap.pm:298
 msgid "The permissions of the persistent volume will be corrected."
 msgstr "영구적 볼륨의 권한은 수정됩니다."
 
-#: ../lib/Tails/Persistence/Step/Bootstrap.pm:308
+#: ../lib/Tails/Persistence/Step/Bootstrap.pm:320
 msgid "Creating..."
 msgstr "작성중..."
 
-#: ../lib/Tails/Persistence/Step/Bootstrap.pm:311
+#: ../lib/Tails/Persistence/Step/Bootstrap.pm:323
 msgid "Creating the persistent volume..."
 msgstr "영구 볼륨을 생성 중 ..."
 
@@ -316,10 +318,10 @@ msgstr "영구 볼륨 %s (%s) <b> %s %s </ b> 장치는 삭제됩니다."
 msgid "Delete"
 msgstr "삭제"
 
-#: ../lib/Tails/Persistence/Step/Delete.pm:101
+#: ../lib/Tails/Persistence/Step/Delete.pm:111
 msgid "Deleting..."
 msgstr "삭제 중..."
 
-#: ../lib/Tails/Persistence/Step/Delete.pm:104
+#: ../lib/Tails/Persistence/Step/Delete.pm:114
 msgid "Deleting the persistent volume..."
 msgstr "영구적 볼륨을 삭제 중 ..."
