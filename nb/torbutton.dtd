@@ -1,6 +1,6 @@
 <!ENTITY torbutton.prefs.title "Innstillinger for Torbutton">
-<!ENTITY torbutton.prefs.tor_settings "Proxyinnstillinger">
-<!ENTITY torbutton.prefs.recommended_settings "Bruk anbefalte proxyinnstillinger for min versjon av Firefox">
+<!ENTITY torbutton.prefs.tor_settings "Mellomtjenerinnstillinger">
+<!ENTITY torbutton.prefs.recommended_settings "Bruk anbefalte mellomtjenerinnstillinger for min versjon av Firefox">
 <!ENTITY torbutton.prefs.use_privoxy "Bruk Privoxy">
 <!ENTITY torbutton.prefs.use_polipo "Bruk Polipo">
 <!ENTITY torbutton.prefs.custom_settings "Bruk egne mellomtjenerinnstillinger">
@@ -21,7 +21,7 @@
 <!ENTITY torbutton.pref_connection.notice "Deaktiver Torbutton for å endre på disse innstillingene.">
 <!ENTITY torbutton.pref_connection.more_info "Mer informasjon">
 <!ENTITY torbutton.pref_connection_more_info.title "Hjelp">
-<!ENTITY torbutton.pref_connection_more_info.text "Torbutton er for øyeblikket aktivert. Hvis du vil endre på ikke-Tor-proxyinnstillinger, vennligst deaktiver Torbutton og returner hit. Hvis du vil endre på Tor-innstillingene, vennligst bruk Torbutton-innstillingsvinduet.">
+<!ENTITY torbutton.pref_connection_more_info.text "Torbutton er for øyeblikket aktivert. Hvis du vil endre på ikke-Tor-mellomtjeningsinnstillinger, skru av Torbutton og kom tilbake hit. Hvis du vil endre på Tor-innstillingene, bruk Torbutton-innstillingsvinduet.">
 <!ENTITY torbutton.context_menu.new_identity "Ny Identitet">
 <!ENTITY torbutton.context_menu.new_identity_key "I">
 <!ENTITY torbutton.context_menu.new_circuit "Ny Tor-krets for denne siden">
@@ -52,9 +52,9 @@
 <!ENTITY torbutton.prefs.block_nthread "Blokker historielesing under ikke-Tor (valgfritt)">
 <!ENTITY torbutton.prefs.block_nthwrite "Blokker historie-skriving under ikke-Tor (valgfritt)">
 <!ENTITY torbutton.prefs.clear_history "Slett historie ved bruk av Tor-toggle (valgfritt)">
-<!ENTITY torbutton.prefs.clear_cache "Blokker Tor diskmellomlager og slett hele mellomlageret  ved Tor-toggle">
-<!ENTITY torbutton.prefs.block_cache "Blokker adgang til disk og mellomlagringsminne under Tor">
-<!ENTITY torbutton.prefs.cookie_jars "Lagre ikke-Tor informasjonskapsler i en beskyttet jar">
+<!ENTITY torbutton.prefs.clear_cache "Blokker Tor-diskmellomlager og slett hele hurtiglagret  ved Tor-toggle">
+<!ENTITY torbutton.prefs.block_cache "Blokker adgang til disk og hurtiglagringsminne under Tor">
+<!ENTITY torbutton.prefs.cookie_jars "Lagre ikke-Tor informasjonskapsler i en beskyttet JAR">
 <!ENTITY torbutton.prefs.cookie_protection "Bruk informasjonskapslenes dialogboks til å velge">
 <!ENTITY torbutton.prefs.mmm_cookies "Jeg vil manuelt administrere mine informasjonskapsler (farlig)">
 <!ENTITY torbutton.prefs.clear_cookies "Slett informasjonskapsler ved Tor-toggle">
@@ -84,18 +84,18 @@
 <!ENTITY torbutton.prefs.block_ntforms "Blokker lagring av passord + informasjon i skjema under ikke-Tor (valgfritt)">
 <!ENTITY torbutton.prefs.tor "Tor">
 <!ENTITY torbutton.prefs.non_tor "Ikke-Tor">
-<!ENTITY torbutton.prefs.restore_tor "Under oppstart av en gjenopprettet sesjon, sett Tor-status til:">
+<!ENTITY torbutton.prefs.restore_tor "Under oppstart av ei gjenopprettet økt, sett Tor-status til:">
 <!ENTITY torbutton.prefs.startup_tor "Under nettleserens oppstart, sett Tor-status til:">
 <!ENTITY torbutton.prefs.reload_crashed_jar "Last jar med informasjonskapsler på nytt / slett informasjonskapsler når Firefox kræsjer (anbefalt)">
-<!ENTITY torbutton.prefs.dual_cookie_jars "Lagre informasjonskapsler for både Tor og ikke-Tor i beskyttende jar (farlig)">
+<!ENTITY torbutton.prefs.dual_cookie_jars "Lagre informasjonskapsler for både Tor og ikke-Tor i beskyttende JAR-filer (farlig)">
 <!ENTITY torbutton.prefs.clear_http_auth "Slett HTTP-autentiserte økter (anbefalt)">
 <!ENTITY torbutton.prefs.block_js_history "Isoler tilgang til historienavigering til Tor-status (kritisk)">
 <!ENTITY torbutton.prefs.resize_on_toggle "Gjennopprett vinduer til størrelsen 50px under Tor (anbefalt)">
 <!ENTITY torbutton.prefs.close_tor "Lukk alle Tor-vinduer og faner ved veksling (valgfritt)">
 <!ENTITY torbutton.prefs.close_nontor "Lukk alle ikke-tor-vinduer og faner ved veksling (valgfritt)">
 <!ENTITY torbutton.prefs.block_links "Blokker klikking av linker og oppdatering av sider fra forskjellige Tor-statuser (valgfritt)">
-<!ENTITY torbutton.prefs.jar_certs "Lagre SSL-sertifikater i forskjellige jars for Tor/ikke-Tor (anbefalt)">
-<!ENTITY torbutton.prefs.jar_ca_certs "Lagre CA-sertifikater i forskjellige jars for Tor/ikke-Tor (anbefalt)">
+<!ENTITY torbutton.prefs.jar_certs "Lagre SSL-sertifikater i forskjellige JAR-filer for Tor/ikke-Tor (anbefalt)">
+<!ENTITY torbutton.prefs.jar_ca_certs "Lagre CA-sertifikater i forskjellige JAR-filer for Tor/ikke-Tor (anbefalt)">
 <!ENTITY torbutton.prefs.locked_mode "Deaktiver Knappen og Hurtigtaster for å unngå uhell med veksling">
 <!ENTITY torbutton.prefs.startup_state "Under normal oppstart, sett Tor-status til:">
 <!ENTITY torbutton.prefs.shutdown_state "Avslutningsmodus">
@@ -143,7 +143,7 @@
 <!ENTITY torbutton.prefs.engine3 "Yahoo.com">
 <!ENTITY torbutton.prefs.engine4 "startpage.com">
 <!ENTITY torbutton.prefs.engine5 "duckduckgo.com">
-<!ENTITY torbutton.prefs.transparentTor "Transparent Torification (krever egendefinert transproxy eller Tor-router)">
+<!ENTITY torbutton.prefs.transparentTor "Transparent Torification (krever egendefinert transmellomtjener eller Tor-ruter)">
 <!ENTITY torbutton.prefs.priv_caption "Personvernsinnstillinger">
 <!ENTITY torbutton.prefs.block_disk "Ikke lagre nettleserhistorikk eller nettsidedata (aktiverer privat nettleserøkt)">
 <!ENTITY torbutton.prefs.restrict_thirdparty "Begrens tredjeparts informasjonskapsler og andre sporingsdata.">
@@ -176,10 +176,10 @@
 <!ENTITY torbutton.prefs.sec_js_desc_tooltip "Javascript kan skrus på per side via NoScript-funksjonsknappen.">
 <!ENTITY torbutton.prefs.sec_high "Høy">
 <!ENTITY torbutton.prefs.sec_all_js_desc "JavaScript er som forvalg slått av for alle nettsteder.">
-<!ENTITY torbutton.prefs.sec_audio_video_desc "De fleste lyd og video -formatene er avskrudd.">
+<!ENTITY torbutton.prefs.sec_audio_video_desc "De fleste lyd- og video -formatene er avskrudd.">
 <!ENTITY torbutton.prefs.sec_audio_video_desc_tooltip "WebM er det eneste kodeket som fremdeles er påskrudd.">
-<!ENTITY torbutton.prefs.sec_webfonts_desc "Noen fonter og ikoner vises kanskje ikke riktig.">
-<!ENTITY torbutton.prefs.sec_webfonts_desc_tooltip "Webside-supplerte fonter er blokkert.">
-<!ENTITY torbutton.prefs.sec_custom "Egenspesifiserte verdier">
+<!ENTITY torbutton.prefs.sec_webfonts_desc "Noen fonter og miniatyrbilder vises kanskje ikke riktig.">
+<!ENTITY torbutton.prefs.sec_webfonts_desc_tooltip "Fonter som kommer fra nettsiden er blokkert.">
+<!ENTITY torbutton.prefs.sec_custom "Egendefinerte verdier">
 <!ENTITY torbutton.circuit_display.title "Tor-krets for denne siden">
 
