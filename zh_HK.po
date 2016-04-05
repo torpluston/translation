@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: The Tor Project\n"
 "Report-Msgid-Bugs-To: Tails developers <tails@boum.org>\n"
 "POT-Creation-Date: 2016-03-07 17:51+0100\n"
-"PO-Revision-Date: 2016-04-05 07:16+0000\n"
+"PO-Revision-Date: 2016-04-05 07:25+0000\n"
 "Last-Translator: Kin Kwok\n"
 "Language-Team: Chinese (Hong Kong) (http://www.transifex.com/otf/torproject/language/zh_HK/)\n"
 "MIME-Version: 1.0\n"
@@ -134,7 +134,7 @@ msgid ""
 "It is not possible to automatically upgrade your device to this new version: %{explanation}s.\n"
 "\n"
 "To learn how to do a manual upgrade, go to https://tails.boum.org/doc/first_steps/upgrade/#manual"
-msgstr ""
+msgstr "<b>請手動升級到%{name}s %{version}s。</b>\n\n要取得此新版本的更多資訊，請前往%{details_url}s\n\n無法將你的裝置自動升級到此新版本：%(explanation}s。\n\n了解如何手動升級，請前往 https://tails.boum.org/doc/first_steps/upgrade/#manual"
 
 #: ../lib/Tails/IUK/Frontend.pm:410
 msgid "New version available"
@@ -166,15 +166,15 @@ msgstr "下載升級時出現錯誤"
 msgid ""
 "Output file '%{output_file}s' does not exist, but tails-iuk-get-target-file "
 "did not complain. Please report a bug."
-msgstr ""
+msgstr "輸出檔「%{output_file}s」不存在，但tails-iut-get-target-file沒有投訴。請回報錯誤。"
 
 #: ../lib/Tails/IUK/Frontend.pm:558
 msgid "Error while creating temporary downloading directory"
-msgstr ""
+msgstr "建立暫存下載資料夾時發生錯誤"
 
 #: ../lib/Tails/IUK/Frontend.pm:561
 msgid "Failed to create temporary download directory"
-msgstr ""
+msgstr "無法建立暫存下載資料夾"
 
 #: ../lib/Tails/IUK/Frontend.pm:573
 msgid ""
@@ -184,46 +184,46 @@ msgid ""
 "You should restart Tails on the new version as soon as possible.\n"
 "\n"
 "Do you want to restart now?"
-msgstr ""
+msgstr "<b>Tails裝置已成功升級。</b>\n\n有些安全功能暫時停用。\n你應儘快將Tails重新啟動以使用新版本。\n\n立即重新啟動嗎？"
 
 #: ../lib/Tails/IUK/Frontend.pm:578
 msgid "Restart Tails"
-msgstr ""
+msgstr "重新啟動Tails"
 
 #: ../lib/Tails/IUK/Frontend.pm:579
 msgid "Restart now"
-msgstr ""
+msgstr "立即重新啟動"
 
 #: ../lib/Tails/IUK/Frontend.pm:580
 msgid "Restart later"
-msgstr ""
+msgstr "稍後重新啟動"
 
 #: ../lib/Tails/IUK/Frontend.pm:591
 msgid "Error while restarting the system"
-msgstr ""
+msgstr "重新啟動系統時發生錯誤"
 
 #: ../lib/Tails/IUK/Frontend.pm:594
 msgid "Failed to restart the system"
-msgstr ""
+msgstr "無法重新啟動系統"
 
 #: ../lib/Tails/IUK/Frontend.pm:609
 msgid "Error while shutting down the network"
-msgstr ""
+msgstr "關閉網絡時發生錯誤"
 
 #: ../lib/Tails/IUK/Frontend.pm:612
 msgid "Failed to shutdown network"
-msgstr ""
+msgstr "無法關閉網絡"
 
 #: ../lib/Tails/IUK/Frontend.pm:622
 msgid "Upgrading the system"
-msgstr ""
+msgstr "系統正在升級"
 
 #: ../lib/Tails/IUK/Frontend.pm:624
 msgid ""
 "<b>Your Tails device is being upgraded...</b>\n"
 "\n"
 "For security reasons, the networking is now disabled."
-msgstr ""
+msgstr "<b>Tails裝置正在升級中…</b>\n\n安全理由，網絡現在停用。"
 
 #: ../lib/Tails/IUK/Frontend.pm:657
 msgid ""
@@ -231,8 +231,8 @@ msgid ""
 " needs to be repaired and might be unable to restart.\\n\\nPlease follow the"
 " instructions at "
 "file:///usr/share/doc/tails/website/doc/upgrade/error/install.en.html"
-msgstr ""
+msgstr "<b>安裝升級時發生錯誤。</b>\\n\\nTails裝置需要被修復，並可能無法重新啟動。\\n\\n請按照 file:///usr/share/doc/tails/website/doc/upgrade/error/install.en.html 的指示。"
 
 #: ../lib/Tails/IUK/Frontend.pm:667
 msgid "Error while installing the upgrade"
-msgstr ""
+msgstr "安裝升級時發生錯誤"
