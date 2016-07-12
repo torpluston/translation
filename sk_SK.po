@@ -3,30 +3,32 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
+# Dasa M <littlearchr8@gmail.com>, 2016
+# Marián Mižik <marian@mizik.sk>, 2015
 # once, 2014
 msgid ""
 msgstr ""
 "Project-Id-Version: The Tor Project\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-07-21 01:59+0200\n"
-"PO-Revision-Date: 2014-07-27 11:30+0000\n"
-"Last-Translator: once\n"
-"Language-Team: Slovak (Slovakia) (http://www.transifex.com/projects/p/torproject/language/sk_SK/)\n"
+"POT-Creation-Date: 2016-06-06 14:26+0200\n"
+"PO-Revision-Date: 2016-07-12 19:41+0000\n"
+"Last-Translator: Dasa M <littlearchr8@gmail.com>\n"
+"Language-Team: Slovak (Slovakia) (http://www.transifex.com/otf/torproject/language/sk_SK/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: sk_SK\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
 
-#: config/chroot_local-includes/etc/NetworkManager/dispatcher.d/60-tor-ready-notification.sh:43
+#: config/chroot_local-includes/etc/NetworkManager/dispatcher.d/60-tor-ready.sh:39
 msgid "Tor is ready"
 msgstr "Tor je pripravený"
 
-#: config/chroot_local-includes/etc/NetworkManager/dispatcher.d/60-tor-ready-notification.sh:44
+#: config/chroot_local-includes/etc/NetworkManager/dispatcher.d/60-tor-ready.sh:40
 msgid "You can now access the Internet."
 msgstr "Môžete sa pripojiť na Internet."
 
-#: config/chroot_local-includes/etc/whisperback/config.py:64
+#: config/chroot_local-includes/etc/whisperback/config.py:65
 #, python-format
 msgid ""
 "<h1>Help us fix your bug!</h1>\n"
@@ -34,15 +36,41 @@ msgid ""
 "<p><strong>Do not include more personal information than\n"
 "needed!</strong></p>\n"
 "<h2>About giving us an email address</h2>\n"
-"<p>If you don't mind disclosing some bits of your identity\n"
-"to Tails developers, you can provide an email address to\n"
-"let us ask more details about the bug. Additionally entering\n"
-"a public PGP key enables us to encrypt such future\n"
-"communication.</p>\n"
-"<p>Anyone who can see this reply will probably infer you are\n"
-"a Tails user. Time to wonder how much you trust your\n"
-"Internet and mailbox providers?</p>\n"
-msgstr "<h1>Pomôžte nám s vašou chybou!</h1>\n<p>Prečítajte si <a href=\"%s\">naše inštrukcie hlásenia chýb</a>.</p>\n<p><strong>Neuvádzajte viac osobných informácií, než je skutočne\npotrebné!</strong></p>\n<h2>O poskytnutí vašej e-mailovej adresy</h2>\n<p>Ak vám nevadí, že odhalíte kúsok vašej identity vývojárom Tails,\nmôžete nám poskytnúť e-mailovú adresu, aby sme sa mohli\nspýtať na ďalšie podrobnosti ohľadne hlásenej chyby. Poskytnutie\nverejného PGP kľúča nám dovolí takúto budúcu komunikáciu\nšifrovať.</p>\n<p>Ktokoľvek, kto uvidí takúto odpoveď, si odvodí, že\nste pravdepodobne užívateľ Tails. Tu nastáva čas pouvažovať,\nči skutočne veríte svojim poskytovateľom Internetu a e-mailovej\nschránky.</p>\n"
+"<p>\n"
+"Giving us an email address allows us to contact you to clarify the problem. This\n"
+"is needed for the vast majority of the reports we receive as most reports\n"
+"without any contact information are useless. On the other hand it also provides\n"
+"an opportunity for eavesdroppers, like your email or Internet provider, to\n"
+"confirm that you are using Tails.\n"
+"</p>\n"
+msgstr "<h1>Pomôžte nám odstrániť chybu!</h1>\n<p>Prečítajte si <a href=\"%s\">naše inštrukcie na nahlasovanie chýb </a>.</p>\n<p><strong>Nezadávajte viac osobných informácií, než\nje nevyhnutné!</strong></p>\n<h2>O zadávaní emailovej adresy</h2>\n<p>\nZadanie emailovej adresy nám umožňuje kontaktovať Vás v prípade nejasností. To\nje potrebné pri väčšine oznamov, ktoré dostaneme, pretože väčšina oznamov\nbez kontaktných údajov je bezcenná. Na druhej strane taktiež poskytuje\npríležitosť pre tých, ktorý tajne odpočúvajú, ako poskytovateľ Vášho emailoveho konta alebo internetu,\nktorí chcú potvrdenie, že používate Tails\n</p>\n"
+
+#: config/chroot_local-includes/usr/local/bin/electrum:17
+msgid "Persistence is disabled for Electrum"
+msgstr "Persistence je vypnuté pre Electrum"
+
+#: config/chroot_local-includes/usr/local/bin/electrum:19
+msgid ""
+"When you reboot Tails, all of Electrum's data will be lost, including your "
+"Bitcoin wallet. It is strongly recommended to only run Electrum when its "
+"persistence feature is activated."
+msgstr "Pri každom opätovnom spustení Tails, stratíte všetky dáta z Electrum, vrátane Vašej Bitcoin peňaženky. Je preto doporučené spúšťať Electrum len vtedy, ak je vlastnosť persistence aktivovaná."
+
+#: config/chroot_local-includes/usr/local/bin/electrum:21
+msgid "Do you want to start Electrum anyway?"
+msgstr "Chcete nepriek tomu spustiť Electum?"
+
+#: config/chroot_local-includes/usr/local/bin/electrum:23
+#: config/chroot_local-includes/usr/local/bin/icedove:37
+#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:41
+msgid "_Launch"
+msgstr "_Spustiť"
+
+#: config/chroot_local-includes/usr/local/bin/electrum:24
+#: config/chroot_local-includes/usr/local/bin/icedove:38
+#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:42
+msgid "_Exit"
+msgstr "_Ukončiť"
 
 #: config/chroot_local-includes/usr/local/bin/gpgApplet:136
 msgid "OpenPGP encryption applet"
@@ -72,157 +100,163 @@ msgstr "_Dešifrovať/overiť Schránku"
 msgid "_Manage Keys"
 msgstr "_Spravovať kľúče"
 
-#: config/chroot_local-includes/usr/local/bin/gpgApplet:244
+#: config/chroot_local-includes/usr/local/bin/gpgApplet:208
+msgid "_Open Text Editor"
+msgstr "_Otvoriť textový editor"
+
+#: config/chroot_local-includes/usr/local/bin/gpgApplet:252
 msgid "The clipboard does not contain valid input data."
 msgstr "Schránka neobsahuje platné vstupné údaje."
 
-#: config/chroot_local-includes/usr/local/bin/gpgApplet:294
-#: config/chroot_local-includes/usr/local/bin/gpgApplet:296
-#: config/chroot_local-includes/usr/local/bin/gpgApplet:298
+#: config/chroot_local-includes/usr/local/bin/gpgApplet:303
+#: config/chroot_local-includes/usr/local/bin/gpgApplet:305
+#: config/chroot_local-includes/usr/local/bin/gpgApplet:307
 msgid "Unknown Trust"
 msgstr "Nejasná dôvera"
 
-#: config/chroot_local-includes/usr/local/bin/gpgApplet:300
+#: config/chroot_local-includes/usr/local/bin/gpgApplet:309
 msgid "Marginal Trust"
 msgstr "Minimálna dôvera"
 
-#: config/chroot_local-includes/usr/local/bin/gpgApplet:302
+#: config/chroot_local-includes/usr/local/bin/gpgApplet:311
 msgid "Full Trust"
 msgstr "Plná dôvera"
 
-#: config/chroot_local-includes/usr/local/bin/gpgApplet:304
+#: config/chroot_local-includes/usr/local/bin/gpgApplet:313
 msgid "Ultimate Trust"
 msgstr "Neobmedzená dôvera"
 
-#: config/chroot_local-includes/usr/local/bin/gpgApplet:357
+#: config/chroot_local-includes/usr/local/bin/gpgApplet:366
 msgid "Name"
 msgstr "Názov"
 
-#: config/chroot_local-includes/usr/local/bin/gpgApplet:358
+#: config/chroot_local-includes/usr/local/bin/gpgApplet:367
 msgid "Key ID"
 msgstr "ID kľúča"
 
-#: config/chroot_local-includes/usr/local/bin/gpgApplet:359
+#: config/chroot_local-includes/usr/local/bin/gpgApplet:368
 msgid "Status"
 msgstr "Stav"
 
-#: config/chroot_local-includes/usr/local/bin/gpgApplet:391
+#: config/chroot_local-includes/usr/local/bin/gpgApplet:400
 msgid "Fingerprint:"
 msgstr "Odtlačok:"
 
-#: config/chroot_local-includes/usr/local/bin/gpgApplet:394
+#: config/chroot_local-includes/usr/local/bin/gpgApplet:403
 msgid "User ID:"
 msgid_plural "User IDs:"
 msgstr[0] "Identifikátor užívateľa:"
 msgstr[1] "Identifikátor užívateľa:"
 msgstr[2] "Identifikátory užívateľa:"
 
-#: config/chroot_local-includes/usr/local/bin/gpgApplet:424
+#: config/chroot_local-includes/usr/local/bin/gpgApplet:433
 msgid "None (Don't sign)"
 msgstr "Žiadne (Nepodpisovať)"
 
-#: config/chroot_local-includes/usr/local/bin/gpgApplet:487
+#: config/chroot_local-includes/usr/local/bin/gpgApplet:496
 msgid "Select recipients:"
 msgstr "Vybrať príjemcov:"
 
-#: config/chroot_local-includes/usr/local/bin/gpgApplet:495
+#: config/chroot_local-includes/usr/local/bin/gpgApplet:504
 msgid "Hide recipients"
 msgstr "Skryť príjemcov"
 
-#: config/chroot_local-includes/usr/local/bin/gpgApplet:498
+#: config/chroot_local-includes/usr/local/bin/gpgApplet:507
 msgid ""
 "Hide the user IDs of all recipients of an encrypted message. Otherwise "
 "anyone that sees the encrypted message can see who the recipients are."
 msgstr "Skryť identifikátory všetkých príjemcov šifrovanej správy. V opačnom prípade môže ktokoľvek vidieť, kto je príjemcom šifrovanej správy."
 
-#: config/chroot_local-includes/usr/local/bin/gpgApplet:504
+#: config/chroot_local-includes/usr/local/bin/gpgApplet:513
 msgid "Sign message as:"
 msgstr "Podpísať správu ako:"
 
-#: config/chroot_local-includes/usr/local/bin/gpgApplet:508
+#: config/chroot_local-includes/usr/local/bin/gpgApplet:517
 msgid "Choose keys"
 msgstr "Zvoliť kľúče"
 
-#: config/chroot_local-includes/usr/local/bin/gpgApplet:548
+#: config/chroot_local-includes/usr/local/bin/gpgApplet:557
 msgid "Do you trust these keys?"
 msgstr "Dôverujete týmto kľúčom?"
 
-#: config/chroot_local-includes/usr/local/bin/gpgApplet:551
+#: config/chroot_local-includes/usr/local/bin/gpgApplet:560
 msgid "The following selected key is not fully trusted:"
 msgid_plural "The following selected keys are not fully trusted:"
 msgstr[0] "Nasledujúci zvolený kľúč nemá plnú dôveru:"
 msgstr[1] "Nasledujúci zvolený kľúč nemá plnú dôveru:"
 msgstr[2] "Nasledujúce zvolené kľúče nemájú plnú dôveru:"
 
-#: config/chroot_local-includes/usr/local/bin/gpgApplet:569
+#: config/chroot_local-includes/usr/local/bin/gpgApplet:578
 msgid "Do you trust this key enough to use it anyway?"
 msgid_plural "Do you trust these keys enough to use them anyway?"
 msgstr[0] "Dôverujete tomuto kľúču natoľko, aby ste ho použili?"
 msgstr[1] "Dôverujete tomuto kľúčo natoľko, aby ste ho použili?"
 msgstr[2] "Dôverujete týmto kľúčom natoľko, aby ste ich použili?"
 
-#: config/chroot_local-includes/usr/local/bin/gpgApplet:582
+#: config/chroot_local-includes/usr/local/bin/gpgApplet:591
 msgid "No keys selected"
 msgstr "Žiadne vybrané kľúče"
 
-#: config/chroot_local-includes/usr/local/bin/gpgApplet:584
+#: config/chroot_local-includes/usr/local/bin/gpgApplet:593
 msgid ""
 "You must select a private key to sign the message, or some public keys to "
 "encrypt the message, or both."
 msgstr "Musíte vybrať súkromný kľúč, ktorým podpíšte správu, verejné kľúče na zašifrovanie správy, alebo oboje."
 
-#: config/chroot_local-includes/usr/local/bin/gpgApplet:612
+#: config/chroot_local-includes/usr/local/bin/gpgApplet:621
 msgid "No keys available"
 msgstr "Žiadne dostupné kľúče"
 
-#: config/chroot_local-includes/usr/local/bin/gpgApplet:614
+#: config/chroot_local-includes/usr/local/bin/gpgApplet:623
 msgid ""
 "You need a private key to sign messages or a public key to encrypt messages."
 msgstr "Potrebujete súkromný kľúč na podpísanie správy alebo verejný kľúč na zašifrovanie správy."
 
-#: config/chroot_local-includes/usr/local/bin/gpgApplet:742
+#: config/chroot_local-includes/usr/local/bin/gpgApplet:751
 msgid "GnuPG error"
 msgstr "Chyba GnuPG"
 
-#: config/chroot_local-includes/usr/local/bin/gpgApplet:763
+#: config/chroot_local-includes/usr/local/bin/gpgApplet:772
 msgid "Therefore the operation cannot be performed."
 msgstr "Preto nemohla byť operácia vykonaná."
 
-#: config/chroot_local-includes/usr/local/bin/gpgApplet:813
+#: config/chroot_local-includes/usr/local/bin/gpgApplet:822
 msgid "GnuPG results"
 msgstr "Výsledok GnuPG"
 
-#: config/chroot_local-includes/usr/local/bin/gpgApplet:819
+#: config/chroot_local-includes/usr/local/bin/gpgApplet:828
 msgid "Output of GnuPG:"
 msgstr "Výstup GnuPG:"
 
-#: config/chroot_local-includes/usr/local/bin/gpgApplet:844
+#: config/chroot_local-includes/usr/local/bin/gpgApplet:853
 msgid "Other messages provided by GnuPG:"
 msgstr "Ďalšie správy poskytnuté GnuPG:"
 
-#: config/chroot_local-includes/usr/local/bin/iceweasel:12
-msgid "Tor is not ready"
-msgstr "Tor nie je pripravený"
+#: config/chroot_local-includes/usr/local/bin/icedove:27
+msgid "The <b>Claws Mail</b> persistence feature is activated."
+msgstr "Vlastnosť persistence <b>Claws Mail</b> je aktivovaná"
 
-#: config/chroot_local-includes/usr/local/bin/iceweasel:13
-msgid "Tor is not ready. Start Tor Browser anyway?"
-msgstr "Tor nie je pripravený. Spustiť Tor Browser aj napriek tomu?"
+#: config/chroot_local-includes/usr/local/bin/icedove:29
+msgid ""
+"If you have emails saved in <b>Claws Mail</b>, you should <a "
+"href='https://tails.boum.org/doc/anonymous_internet/claws_mail_to_icedove'>migrate"
+" your data</a> before starting <b>Icedove</b>."
+msgstr "Ak máte emaily uložené v <b>Claws Mail</b>, mali by ste <a href='https://tails.boum.org/doc/anonymous_internet/claws_mail_to_icedove'>presunúť Vaše dáta</a> pred spustením <b>Icedove</b>."
 
-#: config/chroot_local-includes/usr/local/bin/iceweasel:14
-msgid "Start Tor Browser"
-msgstr "Spustiť Tor Browser"
+#: config/chroot_local-includes/usr/local/bin/icedove:34
+msgid ""
+"If you already migrated your emails to <b>Icedove</b>, you should <a "
+"href='https://tails.boum.org/doc/anonymous_internet/claws_mail_to_icedove#delete'>delete"
+" all your <b>Claws Mail</b> data</a> to remove this warning."
+msgstr "Ak ste už Vaše dáta presunuli do <b>Icedove</b>, mali by ste <a href='https://tails.boum.org/doc/anonymous_internet/claws_mail_to_icedove#delete'>zmazať Vaše <b>Claws Mail</b> dáta</a>, aby ste odstránili toto varovanie."
 
-#: config/chroot_local-includes/usr/local/bin/iceweasel:15
-msgid "Cancel"
-msgstr "Zrušiť"
+#: config/chroot_local-includes/usr/share/gnome-shell/extensions/shutdown-helper@tails.boum.org/extension.js:71
+msgid "Restart"
+msgstr "Reštartovať"
 
-#: config/chroot_local-includes/usr/local/lib/shutdown-helper-applet:39
-msgid "Shutdown Immediately"
-msgstr "Okamžite ukončiť"
-
-#: config/chroot_local-includes/usr/local/lib/shutdown-helper-applet:40
-msgid "Reboot Immediately"
-msgstr "Okamžite reštartovať"
+#: config/chroot_local-includes/usr/share/gnome-shell/extensions/shutdown-helper@tails.boum.org/extension.js:74
+msgid "Power Off"
+msgstr "Vypnúť"
 
 #: config/chroot_local-includes/usr/local/bin/tails-about:16
 msgid "not available"
@@ -267,95 +301,62 @@ msgstr "Aktualizácia zlyhala. Toto mohlo nastať z dôvodu problémov s pripoje
 msgid "The upgrade was successful."
 msgstr "Aktualizácia prebehla úspešne."
 
-#: config/chroot_local-includes/usr/local/bin/tails-htp-notify-user:52
+#: config/chroot_local-includes/usr/local/lib/tails-htp-notify-user:52
 msgid "Synchronizing the system's clock"
 msgstr "Synchronizácia systémového času"
 
-#: config/chroot_local-includes/usr/local/bin/tails-htp-notify-user:53
+#: config/chroot_local-includes/usr/local/lib/tails-htp-notify-user:53
 msgid ""
 "Tor needs an accurate clock to work properly, especially for Hidden "
 "Services. Please wait..."
 msgstr "Tor potrebuje presný čas, aby pracoval správne, hlave kvôli skrytému protokolu Hidden Service. Prosím, čakajte..."
 
-#: config/chroot_local-includes/usr/local/bin/tails-htp-notify-user:87
+#: config/chroot_local-includes/usr/local/lib/tails-htp-notify-user:87
 msgid "Failed to synchronize the clock!"
 msgstr "Synchronizácia času zlyhala!"
 
-#: config/chroot_local-includes/usr/local/sbin/tails-restricted-network-detector:38
-msgid "Network connection blocked?"
-msgstr "Je pripojenie blokované?"
-
-#: config/chroot_local-includes/usr/local/sbin/tails-restricted-network-detector:40
-msgid ""
-"It looks like you are blocked from the network. This may be related to the "
-"MAC spoofing feature. For more information, see the <a "
-"href=\\\"file:///usr/share/doc/tails/website/doc/first_steps/startup_options/mac_spoofing.en.html#blocked\\\">MAC"
-" spoofing documentation</a>."
-msgstr "Zdá sa, že máte blokovaný prístup do siete. To môže súvisieť s funkciou predstierania MAC. Pre viac informácií si otvorte stránku <a href=\\\"file:///usr/share/doc/tails/website/doc/first_steps/startup_options/mac_spoofing.en.html#blocked\\\">dokumentáciu predstierania MAC</a>."
-
-#: config/chroot_local-includes/usr/local/bin/tails-security-check:145
+#: config/chroot_local-includes/usr/local/bin/tails-security-check:146
 msgid "This version of Tails has known security issues:"
 msgstr "Táto verzia Tails má známe bezpečnostné riziká:"
 
-#: config/chroot_local-includes/usr/local/sbin/tails-spoof-mac:29
+#: config/chroot_local-includes/usr/local/bin/tails-security-check:156
+msgid "Known security issues"
+msgstr "Známe bezpečnostné hrozby"
+
+#: config/chroot_local-includes/usr/local/lib/tails-spoof-mac:52
 #, sh-format
 msgid "Network card ${nic} disabled"
 msgstr "Sieťová karta ${nic} zakázaná"
 
-#: config/chroot_local-includes/usr/local/sbin/tails-spoof-mac:30
+#: config/chroot_local-includes/usr/local/lib/tails-spoof-mac:53
 #, sh-format
 msgid ""
 "MAC spoofing failed for network card ${nic_name} (${nic}) so it is temporarily disabled.\n"
-"You might prefer to restart Tails and disable MAC spoofing. See the <a href='file:///usr/share/doc/tails/website/doc/first_steps/startup_options/mac_spoofing.en.html'>documentation</a>."
-msgstr "Predstieranie MAC pre sieťovú kartu ${nic_name} (${nic}) zlyhalo, takže bolo dočasne zakázané.\nMožno bude lepšie reštartovať Tails a zakázať predstieranie MAC. Pozrite si <a href='file:///usr/share/doc/tails/website/doc/first_steps/startup_options/mac_spoofing.en.html'>dokumentáciu</a>."
+"You might prefer to restart Tails and disable MAC spoofing."
+msgstr "Predstieranie MAC adresy - MAC spoofing zlyhalo pre sieťovú kartu ${nic_name} (${nic}) , takže je dočasne neaktívna.\nMožno by ste mali dať prednosť reštartovaniu Tails a vypnúť predstieranie MAC adresy."
 
-#: config/chroot_local-includes/usr/local/sbin/tails-spoof-mac:39
+#: config/chroot_local-includes/usr/local/lib/tails-spoof-mac:62
 msgid "All networking disabled"
 msgstr "Pripojenie celej siete zakázané"
 
-#: config/chroot_local-includes/usr/local/sbin/tails-spoof-mac:40
+#: config/chroot_local-includes/usr/local/lib/tails-spoof-mac:63
 #, sh-format
 msgid ""
 "MAC spoofing failed for network card ${nic_name} (${nic}). The error recovery also failed so all networking is disabled.\n"
-"You might prefer to restart Tails and disable MAC spoofing. See the <a href='file:///usr/share/doc/first_steps/startup_options/mac_spoofing.en.html'>documentation</a>."
-msgstr "Predstieranie MAC pre sieťovú kartu ${nic_name} (${nic}) zlyhalo. Náprava chyby taktiež zlyhala, takže bolo zakázané celé pripojenie k sieti.\nMožno bude lepšie reštartovať Tails a zakázať predstieranie MAC. Pozrite si <a href='file:///usr/share/doc/tails/website/doc/first_steps/startup_options/mac_spoofing.en.html'>dokumentáciu</a>."
+"You might prefer to restart Tails and disable MAC spoofing."
+msgstr "Predstieranie MAC adresy - MAC spoofing zlyhalo pre sieťovú kartu ${nic_name} (${nic}). Obnova po chybe taktiež zlyhala, takže všetky siete sú neaktívne.\nMožno by ste mali dať prednosť reštartovaniu Tails a vypnúť predstieranie MAC adresy."
 
-#: config/chroot_local-includes/usr/local/bin/tails-start-i2p:62
-msgid "Starting I2P..."
-msgstr "Spúštanie I2P..."
-
-#: config/chroot_local-includes/usr/local/bin/tails-start-i2p:63
-msgid "The I2P router console will be opened on start."
-msgstr "I2P konzola smerovača bude otvorená po štarte."
-
-#: config/chroot_local-includes/usr/local/bin/tails-start-i2p:82
-#: config/chroot_local-includes/usr/local/bin/tails-start-i2p:124
-msgid "I2P failed to start"
-msgstr "Zlyhalo spúšťanie I2P"
-
-#: config/chroot_local-includes/usr/local/bin/tails-start-i2p:83
-msgid ""
-"Make sure that you have a working Internet connection, then try to start I2P"
-" again."
-msgstr "Uistite sa, že vaše pripojenie k Internetu pracuje správne a skúste znova spustiť I2P."
-
-#: config/chroot_local-includes/usr/local/bin/tails-start-i2p:125
-msgid ""
-"Something went wrong when I2P was starting. Look in the logs in the "
-"following directory for more information:"
-msgstr "Nastala chyba pri spúšťaní I2P. Pre viac informácií si prezrite záznam konzoly v uvedenom priečinku:"
-
-#: config/chroot_local-includes/usr/local/bin/tails-upgrade-frontend-wrapper:19
-#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:57
+#: config/chroot_local-includes/usr/local/bin/tails-upgrade-frontend-wrapper:24
+#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:27
 msgid "error:"
 msgstr "chyba:"
 
-#: config/chroot_local-includes/usr/local/bin/tails-upgrade-frontend-wrapper:20
-#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:58
+#: config/chroot_local-includes/usr/local/bin/tails-upgrade-frontend-wrapper:25
+#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:28
 msgid "Error"
 msgstr "Chyba"
 
-#: config/chroot_local-includes/usr/local/bin/tails-upgrade-frontend-wrapper:40
+#: config/chroot_local-includes/usr/local/bin/tails-upgrade-frontend-wrapper:45
 msgid ""
 "<b>Not enough memory available to check for upgrades.</b>\n"
 "\n"
@@ -368,94 +369,152 @@ msgid ""
 "See https://tails.boum.org/doc/first_steps/upgrade#manual"
 msgstr "<b>Nedostatok pamäte pre kontrolu aktualizácií.</b>\n\nUistite sa, že tento systém spĺňa požiadavky na beh Tails.\nPozrite si file:///usr/share/doc/tails/website/doc/about/requirements.en.html\n\nSkúste Tails reštartovať a znova prekontrolujte aktualizácie.\n\nAlebo tiež môžete vykonať manuálnu aktualizáciu.\nPozrite si https://tails.boum.org/doc/first_steps/upgrade#manual"
 
-#: config/chroot_local-includes/usr/local/bin/tails-virt-notify-user:53
+#: config/chroot_local-includes/usr/local/lib/tails-virt-notify-user:67
 msgid "Warning: virtual machine detected!"
 msgstr "Upozornenie: bol objavený virtuálny stroj!"
 
-#: config/chroot_local-includes/usr/local/bin/tails-virt-notify-user:55
+#: config/chroot_local-includes/usr/local/lib/tails-virt-notify-user:69
 msgid ""
 "Both the host operating system and the virtualization software are able to "
 "monitor what you are doing in Tails."
 msgstr "Hlavný operačný systém aj virtualizačný software sú schopné monitorovať vašu aktivitu v Tails."
 
-#: config/chroot_local-includes/usr/local/bin/tails-virt-notify-user:57
-msgid ""
-"<a "
-"href='file:///usr/share/doc/tails/website/doc/advanced_topics/virtualization.en.html'>Learn"
-" more...</a>"
-msgstr "<a href='file:///usr/share/doc/tails/website/doc/advanced_topics/virtualization.en.html'>Zistiť viac...</a>"
+#: config/chroot_local-includes/usr/local/lib/tails-virt-notify-user:72
+msgid "Warning: non-free virtual machine detected!"
+msgstr "Upozornenie: bol objavený virtuány stroj!"
 
-#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:68
+#: config/chroot_local-includes/usr/local/lib/tails-virt-notify-user:74
+msgid ""
+"Both the host operating system and the virtualization software are able to "
+"monitor what you are doing in Tails. Only free software can be considered "
+"trustworthy, for both the host operating system and the virtualization "
+"software."
+msgstr "Operačný systém ako aj softvér pre virtualizáciu môžu monitorovať Vašu aktivitu v Tails. Len voľne šíriteľný softvér je možné považovať za dôveryhodný pre operačný systém aj virtualizačný softvér."
+
+#: config/chroot_local-includes/usr/local/lib/tails-virt-notify-user:79
+msgid "Learn more"
+msgstr "Zistite viac"
+
+#: config/chroot_local-includes/usr/local/bin/tor-browser:40
+msgid "Tor is not ready"
+msgstr "Tor nie je pripravený"
+
+#: config/chroot_local-includes/usr/local/bin/tor-browser:41
+msgid "Tor is not ready. Start Tor Browser anyway?"
+msgstr "Tor nie je pripravený. Spustiť Tor Browser aj napriek tomu?"
+
+#: config/chroot_local-includes/usr/local/bin/tor-browser:42
+msgid "Start Tor Browser"
+msgstr "Spustiť Tor Browser"
+
+#: config/chroot_local-includes/usr/local/bin/tor-browser:43
+msgid "Cancel"
+msgstr "Zrušiť"
+
+#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:38
 msgid "Do you really want to launch the Unsafe Browser?"
 msgstr "Skutočne si prajete spustiť nezabezpečený prehliadač?"
 
-#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:70
+#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:40
 msgid ""
-"Network activity within the Unsafe Browser is <b>not anonymous</b>. Only use"
-" the Unsafe Browser if necessary, for example if you have to login or "
+"Network activity within the Unsafe Browser is <b>not anonymous</b>.\\nOnly "
+"use the Unsafe Browser if necessary, for example\\nif you have to login or "
 "register to activate your Internet connection."
-msgstr "Sieťová aktivita nezabezpečeného prehliadača <b>nie je anonymná</b>. Nezabezpečený prehliadač používajte len v nevyhnutných prípadoch, napríklad v prípade prihlásenia sa alebo registrácie vášho internetového pripojenia."
+msgstr "Sieťová aktivita v rámci nezabezpečeného prehliadača <b>nie je anonymná</b>.\\nPoužívajte nezabezpečený prehliadač len v prípade nutnosti, napríklad \\n ak sa musíte prihlásiť alebo registrovať kvôli aktivácii Vášho internetového spojenia."
 
-#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:71
-msgid "_Launch"
-msgstr "_Spustiť"
-
-#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:72
-msgid "_Exit"
-msgstr "_Ukončiť"
-
-#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:82
+#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:51
 msgid "Starting the Unsafe Browser..."
 msgstr "Spúšťanie nezabezpečeného prehliadača..."
 
-#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:83
+#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:52
 msgid "This may take a while, so please be patient."
 msgstr "Toto môže chvíľu trvať, prosím, buďte trpezliví."
 
-#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:101
-msgid "Failed to setup chroot."
-msgstr "Nastavenie chroot zlyhalo."
-
-#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:182
-#: ../config/chroot_local-includes/usr/share/applications/unsafe-browser.desktop.in.h:1
-msgid "Unsafe Browser"
-msgstr "Nezabezpečený prehliadač"
-
-#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:204
+#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:57
 msgid "Shutting down the Unsafe Browser..."
 msgstr "Vypínam nezabezpečený prehliadač"
 
-#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:205
+#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:58
 msgid ""
 "This may take a while, and you may not restart the Unsafe Browser until it "
 "is properly shut down."
 msgstr "Toto môže chvíľu trvať a nebude možné nezabezpečený prehliadač reštartovať, až kým sa úplne nevypne."
 
-#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:217
+#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:70
 msgid "Failed to restart Tor."
 msgstr "Reštart Tor zlyhal."
 
-#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:225
+#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:84
+#: ../config/chroot_local-includes/usr/share/applications/unsafe-browser.desktop.in.h:1
+msgid "Unsafe Browser"
+msgstr "Nezabezpečený prehliadač"
+
+#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:92
 msgid ""
 "Another Unsafe Browser is currently running, or being cleaned up. Please "
 "retry in a while."
 msgstr "Iný nezabezpečený prehliadač je práve spustený alebo sa vypína. Skúste o chvíľu znova, prosím."
 
-#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:238
+#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:104
+msgid ""
+"NetworkManager passed us garbage data when trying to deduce the clearnet DNS"
+" server."
+msgstr "Pri skúmaní clearnet DNS server, neposkytol sieťový manažér žiadne užitočné informácie."
+
+#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:114
 msgid ""
 "No DNS server was obtained through DHCP or manually configured in "
 "NetworkManager."
 msgstr "Nepodarilo sa získať DNS server pomocou DHCP, ani pomocou manuálneho nastavenia v NetworkManager."
 
-#: config/chroot_local-includes/usr/share/tails/truecrypt-wrapper.disabled:11
-msgid "TrueCrypt will soon be removed from Tails"
-msgstr "TrueCrypt bude čoskoro z Tails odstránený"
+#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:122
+msgid "Failed to setup chroot."
+msgstr "Nastavenie chroot zlyhalo."
 
-#: config/chroot_local-includes/usr/share/tails/truecrypt-wrapper.disabled:12
+#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:128
+msgid "Failed to configure browser."
+msgstr "Nepodarilo sa nakonfigurovať prehliadač."
+
+#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:133
+msgid "Failed to run browser."
+msgstr "Nepodarilo sa spustiť prehliadač."
+
+#: config/chroot_local-includes/usr/local/sbin/tails-i2p:34
+msgid "I2P failed to start"
+msgstr "Zlyhalo spúšťanie I2P"
+
+#: config/chroot_local-includes/usr/local/sbin/tails-i2p:35
 msgid ""
-"TrueCrypt will soon be removed from Tails due to license and development "
-"concerns."
-msgstr "TrueCrypt bude čoskoro z Tails odstránený z dôvodu licenčných záležitostí a záležitostí tákajúcich sa vývoja."
+"Something went wrong when I2P was starting. Check the logs in /var/log/i2p "
+"for more information."
+msgstr "Pri spúšťaní I2P sa vyskytla chyba. Skontrolujte záznamy vo /var/log/i2p pre viac informácií."
+
+#: config/chroot_local-includes/usr/local/sbin/tails-i2p:52
+msgid "I2P's router console is ready"
+msgstr "Ovládací panel smerovača I2P je pripravený"
+
+#: config/chroot_local-includes/usr/local/sbin/tails-i2p:53
+msgid "You can now access I2P's router console in the I2P Browser."
+msgstr "Teraz sa môžete pripojiť na I2P v ovládacom panely smerovača v I2P prehliadači."
+
+#: config/chroot_local-includes/usr/local/sbin/tails-i2p:58
+msgid "I2P is not ready"
+msgstr "I2P nie je pripravené"
+
+#: config/chroot_local-includes/usr/local/sbin/tails-i2p:59
+msgid ""
+"Eepsite tunnel not built within six minutes. Check the router console in the"
+" I2P Browser or the logs in /var/log/i2p for more information. Reconnect to "
+"the network to try again."
+msgstr "Eepsite tunel nebol vytvorený v priebehu šiestich minút. Skontrolujte ovládací panel smerovača v I2P prehliadači alebo záznamy vo /var/log/i2p pre viac informácií. Skúste sa opätovne pripojiť do siete."
+
+#: config/chroot_local-includes/usr/local/sbin/tails-i2p:71
+msgid "I2P is ready"
+msgstr "I2P je pripravené"
+
+#: config/chroot_local-includes/usr/local/sbin/tails-i2p:72
+msgid "You can now access services on I2P."
+msgstr "Teraz sa môžete pripojiť k službám I2P."
 
 #: ../config/chroot_local-includes/etc/skel/Desktop/Report_an_error.desktop.in.h:1
 msgid "Report an error"
@@ -470,37 +529,25 @@ msgstr "Tails dokumentácia"
 msgid "Learn how to use Tails"
 msgstr "Naučte sa používať Tails"
 
-#: ../config/chroot_local-includes/usr/share/applications/i2p.desktop.in.h:1
-msgid "Anonymous overlay network "
+#: ../config/chroot_local-includes/usr/share/applications/i2p-browser.desktop.in.h:1
+msgid "Anonymous overlay network browser"
 msgstr "Anonymná vrstva siete"
 
-#: ../config/chroot_local-includes/usr/share/applications/i2p.desktop.in.h:2
-msgid "i2p"
-msgstr "i2p"
-
-#: ../config/chroot_local-includes/usr/share/applications/i2p.desktop.in.h:3
-msgid "Anonymous overlay network"
-msgstr "Anonymná vrstva siete"
+#: ../config/chroot_local-includes/usr/share/applications/i2p-browser.desktop.in.h:2
+msgid "I2P Browser"
+msgstr "I2P prehliadač"
 
 #: ../config/chroot_local-includes/usr/share/applications/tails-about.desktop.in.h:2
 msgid "Learn more about Tails"
 msgstr "Zistiť viac o Tails"
 
-#: ../config/chroot_local-includes/usr/share/applications/tails-reboot.desktop.in.h:1
-msgid "Reboot"
-msgstr "Reštartovať"
+#: ../config/chroot_local-includes/usr/share/applications/tor-browser.desktop.in.h:1
+msgid "Tor Browser"
+msgstr "Tor Browser"
 
-#: ../config/chroot_local-includes/usr/share/applications/tails-reboot.desktop.in.h:2
-msgid "Immediately reboot computer"
-msgstr "Okamžite reštartovať počítač"
-
-#: ../config/chroot_local-includes/usr/share/applications/tails-shutdown.desktop.in.h:1
-msgid "Power Off"
-msgstr "Vypnúť"
-
-#: ../config/chroot_local-includes/usr/share/applications/tails-shutdown.desktop.in.h:2
-msgid "Immediately shut down computer"
-msgstr "Okamžite vypnúť počítač"
+#: ../config/chroot_local-includes/usr/share/applications/tor-browser.desktop.in.h:2
+msgid "Anonymous Web Browser"
+msgstr "Anonymný webový prehliadač"
 
 #: ../config/chroot_local-includes/usr/share/applications/unsafe-browser.desktop.in.h:2
 msgid "Browse the World Wide Web without anonymity"
