@@ -143,7 +143,7 @@ msgstr "Suderintasis pasaulinis laikas (UTC)"
 
 #: ../data/greeter.ui.h:27
 msgid "Encrypted Persistent Storage"
-msgstr ""
+msgstr "Šifruotas ilgalaikis kaupiklis"
 
 #: ../data/greeter.ui.h:28
 msgid "Show Passphrase"
@@ -151,20 +151,20 @@ msgstr "Rodyti slaptafrazę"
 
 #: ../data/greeter.ui.h:29
 msgid "Configure Persistent Storage"
-msgstr ""
+msgstr "Konfigūruoti ilgalaikį kaupiklį"
 
 #: ../data/greeter.ui.h:30
 msgid "Enter your passphrase to unlock the persistent storage"
-msgstr ""
+msgstr "Įveskite savo slaptafrazę, kad atrakintumėte ilgalaikį kaupiklį"
 
 #: ../data/greeter.ui.h:31 ../tailsgreeter/gui.py:781
 #: ../tailsgreeter/gui.py:942
 msgid "Unlock"
-msgstr ""
+msgstr "Atrakinti"
 
 #: ../data/greeter.ui.h:32
 msgid "Relock Persistent Storage"
-msgstr ""
+msgstr "Iš naujo užrakinti ilgalaikį kaupiklį"
 
 #: ../data/greeter.ui.h:33 ../tailsgreeter/gui.py:492
 msgid "Additional Settings"
@@ -172,7 +172,7 @@ msgstr "Papildomi nustatymai"
 
 #: ../data/greeter.ui.h:34
 msgid "Save Additional Settings"
-msgstr ""
+msgstr "Įrašyti papildomus nustatymus"
 
 #: ../data/greeter.ui.h:35
 msgid "toolbutton"
@@ -180,7 +180,7 @@ msgstr ""
 
 #: ../data/greeter.ui.h:36
 msgid "Network Configuration"
-msgstr ""
+msgstr "Tinklo konfigūravimas"
 
 #: ../data/greeter.ui.h:37
 msgid ""
@@ -188,14 +188,19 @@ msgid ""
 "configure a Tor bridge or a local proxy. To work completely offline, you can"
 " disable all networking."
 msgstr ""
+"Jeigu jūsų interneto ryšys yra cenzūruojamas, filtruojamas ar jungiamas per "
+"įgaliotąjį serverį, tuomet galite konfigūruoti Tor tinklų tiltą ar vietinį "
+"įgaliotąjį serverį. Norėdami dirbti visiškai atsijungus nuo tinklo, galite "
+"išjungti visą darbą tinkle."
 
 #: ../data/greeter.ui.h:38
 msgid "Connect directly to the Tor network (default)"
-msgstr ""
+msgstr "Prisijungti tiesiogiai prie Tor tinklo (numatytasis)"
 
 #: ../data/greeter.ui.h:39
 msgid "Configure a Tor bridge, firewall, or proxy settings"
 msgstr ""
+"Konfigūruoti Tor tinklų tiltą, užkardą ar įgaliotojo serverio nustatymus"
 
 #: ../data/greeter.ui.h:40
 msgid "Disable all networking"
@@ -206,6 +211,8 @@ msgid ""
 "The default settings are safe in most situations. To add a custom setting, "
 "press the \"+\" button below."
 msgstr ""
+"Numatytieji nustatymai daugelyje situacijų yra saugūs. Norėdami pridėti "
+"tinkintą nustatymą, žemiau spustelėkite mygtuką \"+\"."
 
 #: ../data/greeter.ui.h:42
 msgid "Off (default)"
@@ -217,11 +224,11 @@ msgstr ""
 
 #: ../data/greeter.ui.h:44
 msgid "Network Connection"
-msgstr ""
+msgstr "Tinklo ryšys"
 
 #: ../data/greeter.ui.h:45 ../tailsgreeter/gui.py:894
 msgid "Direct (default)"
-msgstr ""
+msgstr "Tiesioginis (numatytasis)"
 
 #: ../tailsgreeter/gui.py:436
 msgid "Shutdown"
@@ -229,7 +236,7 @@ msgstr "Išjungti"
 
 #: ../tailsgreeter/gui.py:442
 msgid "Start Tails"
-msgstr ""
+msgstr "Paleisti Tails"
 
 #: ../tailsgreeter/gui.py:501
 msgid "Cancel"
@@ -252,6 +259,8 @@ msgid ""
 "You will configure the Tor bridge and local proxy later on after connecting "
 "to a network."
 msgstr ""
+"Jūs sukonfigūruosite Tor tinklų tiltą ir vietinį įgaliotąjį serverį vėliau, "
+"po prisijungimo prie tinklo."
 
 #: ../tailsgreeter/gui.py:698
 msgid "On"
@@ -264,7 +273,7 @@ msgstr ""
 #: ../tailsgreeter/gui.py:702
 #, python-brace-format
 msgid "{on_or_off} (default)"
-msgstr ""
+msgstr "{on_or_off} (numatytasis)"
 
 #: ../tailsgreeter/gui.py:759
 msgid "You would be able to set up an encrypted storage."
@@ -272,11 +281,11 @@ msgstr ""
 
 #: ../tailsgreeter/gui.py:783
 msgid "Failed to relock persistent storage."
-msgstr ""
+msgstr "Nepavyko iš naujo užrakinti ilgalaikį kaupiklį."
 
 #: ../tailsgreeter/gui.py:900
 msgid "Bridge & Proxy"
-msgstr ""
+msgstr "Tinklų tiltas ir įgaliotasis serveris"
 
 #: ../tailsgreeter/gui.py:906
 msgid "Offline"
@@ -284,7 +293,7 @@ msgstr ""
 
 #: ../tailsgreeter/gui.py:945
 msgid "Cannot unlock encrypted storage with this passphrase."
-msgstr ""
+msgstr "Nepavyksta su šia slaptafraze atrakinti ilgalaikio kaupiklio."
 
 #: ../tailsgreeter/persistence.py:94
 #, python-brace-format
@@ -292,6 +301,8 @@ msgid ""
 "live-persist failed with return code {returncode}:\n"
 "{stderr}"
 msgstr ""
+"live-persist nepavyko su grįžties kodu {returncode}:\n"
+"{stderr}"
 
 #: ../tailsgreeter/persistence.py:136 ../tailsgreeter/persistence.py:161
 #: ../tailsgreeter/persistence.py:185
@@ -301,6 +312,9 @@ msgid ""
 "{stdout}\n"
 "{stderr}"
 msgstr ""
+"cryptsetup nepavyko su grįžties kodu {returncode}:\n"
+"{stdout}\n"
+"{stderr}"
 
 #: ../tailsgreeter/persistence.py:205
 #, python-brace-format
@@ -309,3 +323,6 @@ msgid ""
 "{stdout}\n"
 "{stderr}"
 msgstr ""
+"umount nepavyko su grįžties kodu {returncode}:\n"
+"{stdout}\n"
+"{stderr}"
