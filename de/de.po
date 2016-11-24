@@ -10,7 +10,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-11-18 00:07+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Christian Kaindl <crisscross.kaindl@outlook.de>, 2016\n"
+"Last-Translator: Sebastian <sebix+transifex@sebix.at>, 2016\n"
 "Language-Team: German (https://www.transifex.com/otf/teams/1519/de/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -75,6 +75,10 @@ msgid ""
 " as it helps you hide your geographical location. But it might also create "
 "connectivity problems or look suspicious."
 msgstr ""
+"Durch die Manipulation der MAC-Adresse kann die Seriennummer der eigenen "
+"Netzwerkkarte (Wi-Fi oder Kabel) im lokalen Netzwerk verborgen werden. Dies "
+"hilft dabei, Ihren geografischen Standort geheim zu halten. Aber es kann "
+"auch zu Verbindungsproblemen führen oder verdächtig wirken."
 
 #: ../data/greeter.ui.h:12
 msgid "Spoof all MAC addresses (default)"
@@ -92,6 +96,8 @@ msgstr "Willkommen bei Tails!"
 msgid ""
 "To get guided through Tails' settings, click on <b>Take a Tour</b> above"
 msgstr ""
+"Um eine Führung durch die Einstellungen von Tails zu erhalten, oben <b>Take "
+"a Tour</b> klicken."
 
 #: ../data/greeter.ui.h:16
 msgid "Language & Region"
@@ -186,6 +192,10 @@ msgid ""
 "configure a Tor bridge or a local proxy. To work completely offline, you can"
 " disable all networking."
 msgstr ""
+"Wenn die Internetverbindung zensiert oder gefiltert wird, oder nur mit einem"
+" Vermittlungsserver (Proxy) funktioniert, kann eine Tor Brücke oder ein "
+"lokaler Vermittlungsserver konfiguriert werden. Um vollständig offline zu "
+"arbeiten, können die Netzwerkverbindungen zur Gänze deaktiviert werden."
 
 #: ../data/greeter.ui.h:38
 msgid "Connect directly to the Tor network (default)"
@@ -194,6 +204,8 @@ msgstr "Direkt mit dem Tor-Netzwerk verbinden (Vorgabe)"
 #: ../data/greeter.ui.h:39
 msgid "Configure a Tor bridge, firewall, or proxy settings"
 msgstr ""
+"Eine Tor Brücke, Firewall der Vermittlungsservereinstellungen (Proxy) "
+"konfigurieren."
 
 #: ../data/greeter.ui.h:40
 msgid "Disable all networking"
@@ -253,6 +265,8 @@ msgid ""
 "You will configure the Tor bridge and local proxy later on after connecting "
 "to a network."
 msgstr ""
+"Die Tor Brücke und den lokalen Vermittlungsserver (Proxy) später nach dem "
+"Verbinden mit dem Netzwerk konfigurieren."
 
 #: ../tailsgreeter/gui.py:698
 msgid "On"
@@ -265,7 +279,7 @@ msgstr "Aus"
 #: ../tailsgreeter/gui.py:702
 #, python-brace-format
 msgid "{on_or_off} (default)"
-msgstr ""
+msgstr "{on_or_off} (Vorgabe)"
 
 #: ../tailsgreeter/gui.py:759
 msgid "You would be able to set up an encrypted storage."
@@ -294,6 +308,8 @@ msgid ""
 "live-persist failed with return code {returncode}:\n"
 "{stderr}"
 msgstr ""
+"live-persist ist mit Code {returncode} fehlgeschlagen:\n"
+"{stderr}"
 
 #: ../tailsgreeter/persistence.py:136 ../tailsgreeter/persistence.py:161
 #: ../tailsgreeter/persistence.py:185
@@ -303,6 +319,9 @@ msgid ""
 "{stdout}\n"
 "{stderr}"
 msgstr ""
+"cryptsetup ist mit Code {returncode} fehlgeschlagen:\n"
+"{stdout}\n"
+"{stderr}"
 
 #: ../tailsgreeter/persistence.py:205
 #, python-brace-format
@@ -311,3 +330,6 @@ msgid ""
 "{stdout}\n"
 "{stderr}"
 msgstr ""
+"umount ist mit Code {returncode} fehlgeschlagen:\n"
+"{stdout}\n"
+"{stderr}"
