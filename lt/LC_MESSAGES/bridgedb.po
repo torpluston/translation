@@ -15,7 +15,7 @@ msgstr ""
 "Project-Id-Version: The Tor Project\n"
 "Report-Msgid-Bugs-To: 'https://trac.torproject.org/projects/tor/newticket?component=BridgeDB&keywords=bridgedb-reported,msgid&cc=isis,sysrqb&owner=isis'\n"
 "POT-Creation-Date: 2015-07-25 03:40+0000\n"
-"PO-Revision-Date: 2016-11-25 10:14+0000\n"
+"PO-Revision-Date: 2016-11-25 10:27+0000\n"
 "Last-Translator: Moo\n"
 "Language-Team: Lithuanian (http://www.transifex.com/otf/torproject/language/lt/)\n"
 "MIME-Version: 1.0\n"
@@ -85,11 +85,11 @@ msgstr "Įvyko klaida, gaunant jūsų QR kodą."
 msgid ""
 "This QRCode contains your bridge lines. Scan it with a QRCode reader to copy"
 " your bridge lines onto mobile and other devices."
-msgstr "Šis QRKodas talpina jūsų tiltų linijas. Nuskenuokite jį su QRKodo skaitytuvu, jei norite nukopijuoti savo tiltų linijas į mobilų ar kitus prietaisus."
+msgstr "Šiame QR kode yra jūsų tinklo tiltų linijos. Nuskenuokite šį kodą, naudodami QR kodų skaitytuvą, kad nukopijuotumėte savo tinklo tiltų linijas į mobilųjį ar kitus įrenginius."
 
 #: bridgedb/https/templates/bridges.html:131
 msgid "There currently aren't any bridges available..."
-msgstr "Šiuo metu laisvų tiltų nėra..."
+msgstr "Šiuo metu nėra prieinama jokių tinklo tiltų..."
 
 #: bridgedb/https/templates/bridges.html:132
 #, python-format
@@ -139,7 +139,7 @@ msgstr "%sT%siesiog duokite man tiltų!"
 
 #: bridgedb/https/templates/options.html:51
 msgid "Advanced Options"
-msgstr "Išplėstinės Parinktys"
+msgstr "Išplėstinės parinktys"
 
 #: bridgedb/https/templates/options.html:86
 msgid "No"
@@ -163,7 +163,7 @@ msgstr "%sT%saip!"
 #: bridgedb/https/templates/options.html:147
 #, python-format
 msgid "%sG%set Bridges"
-msgstr "%sG%sauti Tiltus"
+msgstr "%sG%sauti tinklo tiltus"
 
 #: bridgedb/strings.py:43
 msgid "[This is an automated message; please do not reply.]"
@@ -171,7 +171,7 @@ msgstr "[Tai automatinis pranešimas; prašome į jį neatsakyti]"
 
 #: bridgedb/strings.py:45
 msgid "Here are your bridges:"
-msgstr "Štai jūsų tiltai:"
+msgstr "Štai jūsų tinklo tiltai:"
 
 #: bridgedb/strings.py:47
 #, python-format
@@ -183,7 +183,7 @@ msgstr "Jūs viršijote savo perdavimo limitą. Prašome nurimti! Minimalus laik
 #: bridgedb/strings.py:50
 msgid ""
 "COMMANDs: (combine COMMANDs to specify multiple options simultaneously)"
-msgstr "COMMANDs:(sujunkite COMMANDs taip vienu metu nurodydami kelis variantus)"
+msgstr "COMMANDs: (sujunkite COMMANDs taip vienu metu nurodydami kelis variantus)"
 
 #. TRANSLATORS: Please DO NOT translate the word "BridgeDB".
 #: bridgedb/strings.py:53
@@ -198,7 +198,7 @@ msgstr "Palaikomi perdavimo TIPAI:"
 #: bridgedb/strings.py:56
 #, python-format
 msgid "Hey, %s!"
-msgstr "Labas, %s!"
+msgstr "Sveiki, %s!"
 
 #: bridgedb/strings.py:57
 msgid "Hello, friend!"
@@ -206,7 +206,7 @@ msgstr "Sveiki!"
 
 #: bridgedb/strings.py:58 bridgedb/https/templates/base.html:90
 msgid "Public Keys"
-msgstr "Viešieji Raktai"
+msgstr "Viešieji raktai"
 
 #. TRANSLATORS: This string will end up saying something like:
 #. "This email was generated with rainbows, unicorns, and sparkles
@@ -297,15 +297,15 @@ msgstr "Pasistenkite pridėti kuo daugiau informacijos apie savo situaciją, įt
 
 #: bridgedb/strings.py:128
 msgid "Here are your bridge lines:"
-msgstr "Štai jūsų tiltų linijos:"
+msgstr "Štai jūsų tinklų tilto linijos:"
 
 #: bridgedb/strings.py:129
 msgid "Get Bridges!"
-msgstr "Gauti tiltus!"
+msgstr "Gauti tinklų tiltus!"
 
 #: bridgedb/strings.py:133
 msgid "Please select options for bridge type:"
-msgstr "Prašome pažymėti tilto tipo parinktis:"
+msgstr "Prašome pažymėti tinklų tilto tipo parinktis:"
 
 #: bridgedb/strings.py:134
 msgid "Do you need IPv6 addresses?"
@@ -318,15 +318,15 @@ msgstr "Ar jums reikia %s?"
 
 #: bridgedb/strings.py:139
 msgid "Your browser is not displaying images properly."
-msgstr "Jūsų naršyklė netinkamai atvaizduoja paveiklėlius."
+msgstr "Jūsų naršyklė netinkamai atvaizduoja paveikslus."
 
 #: bridgedb/strings.py:140
 msgid "Enter the characters from the image above..."
-msgstr "Įveskite simbolius iš paveikslelio aukščiau..."
+msgstr "Įveskite simbolius iš aukščiau esančio paveikslo..."
 
 #: bridgedb/strings.py:144
 msgid "How to start using your bridges"
-msgstr "Kaip pradėti naudotis tiltais"
+msgstr "Kaip pradėti naudotis tinklų tiltais"
 
 #. TRANSLATORS: Please DO NOT translate "Tor Browser".
 #: bridgedb/strings.py:146
@@ -335,21 +335,21 @@ msgid ""
 "To enter bridges into Tor Browser, first go to the %s Tor Browser download\n"
 "page %s and then follow the instructions there for downloading and starting\n"
 "Tor Browser."
-msgstr "Norėdami tiltus pridėti į Tor naršyklę, pirmiausia turite nueitį į %s Tor naršyklės atsisiuntimo\npuslapį %s ir sekdami instrukcijas parsisiųsti ir paleisti\nTor naršyklę."
+msgstr "Norėdami pridėti tinklų tiltus į Tor naršyklę, pirmiausia turite nueiti į %s Tor naršyklės atsisiuntimo\npuslapį %s ir sekdami instrukcijas atsisiųsti ir paleisti\nTor naršyklę."
 
 #. TRANSLATORS: Please DO NOT translate "Tor".
 #: bridgedb/strings.py:151
 msgid ""
 "When the 'Tor Network Settings' dialogue pops up, click 'Configure' and follow\n"
 "the wizard until it asks:"
-msgstr "Kai iššoks \"Tor tinklo nustatymai\" langas, spauskite \"Konfigūruoti\" ir sekite\nvedlį kol jis paprašys:"
+msgstr "Kai pasirodys langas \"Tor tinklo nustatymai\", spauskite \"Konfigūruoti\" ir sekite\nvediklį tol, kol jis paprašys:"
 
 #. TRANSLATORS: Please DO NOT translate "Tor".
 #: bridgedb/strings.py:155
 msgid ""
 "Does your Internet Service Provider (ISP) block or otherwise censor connections\n"
 "to the Tor network?"
-msgstr "Ar jūsų interneto paslaugų tiekėjas(ISP) blokuoja ar kitaip cenzūruoja prisijungimus\nprie Tor tinklo?"
+msgstr "Ar jūsų interneto paslaugų tiekėjas (ISP) blokuoja ar kitaip cenzūruoja prisijungimus\nprie Tor tinklo?"
 
 #. TRANSLATORS: Please DO NOT translate "Tor".
 #: bridgedb/strings.py:159
