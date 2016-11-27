@@ -9,9 +9,9 @@
 # Chinrur Yang <chinrur@gmail.com>, 2013
 # danfong <danfong.hsieh@gmail.com>, 2014
 # David Chen <david203812@gmail.com>, 2015
-# Kin Kwok, 2016
+# 大圈洋蔥, 2016
 # muraji saori <muraji@tormail.org>, 2013
-# Nicholas Ou <oldmonou@gmail.com>, 2014
+# Nicholas Ou <oldmon@livemail.tw>, 2014
 # Terry Chuang <tchuang@redhat.com>, 2009
 # Wei-Lun Chao <william.chao@ossii.com.tw>, 2009
 # Wen-Gan Li <wgli@wgli.net>, 2015
@@ -22,8 +22,8 @@ msgstr ""
 "Project-Id-Version: The Tor Project\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-11-02 21:23+0100\n"
-"PO-Revision-Date: 2016-04-13 03:26+0000\n"
-"Last-Translator: Kin Kwok\n"
+"PO-Revision-Date: 2016-11-27 13:45+0000\n"
+"Last-Translator: Agustín Wu <losangwuyts@gmail.com>\n"
 "Language-Team: Chinese (Taiwan) (http://www.transifex.com/otf/torproject/language/zh_TW/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -47,7 +47,7 @@ msgstr "%(distribution)s 安裝程式"
 #: ../liveusb/gui.py:804
 #, python-format
 msgid "%(filename)s selected"
-msgstr "%(filename)s 已選"
+msgstr "%(filename)s 已選取"
 
 #: ../liveusb/gui.py:424
 #, python-format
@@ -129,7 +129,7 @@ msgstr "藉由在您的 USB 隨身碟配置額外空間給永久覆蓋，您將�
 #: ../liveusb/creator.py:1196 ../liveusb/creator.py:1459
 #, python-format
 msgid "Calculating the SHA1 of %s"
-msgstr "計算 %s 的 SHA1"
+msgstr "正在計算 %s 的 SHA1 雜湊碼"
 
 #: ../liveusb/creator.py:1407
 msgid "Cannot find"
@@ -148,7 +148,7 @@ msgstr "建立 %sMB 永久覆蓋"
 #: ../liveusb/gui.py:582
 msgid ""
 "Device is not yet mounted, so we cannot determine the amount of free space."
-msgstr "裝置還沒有掛接，所以我們無法確定可用空間量。"
+msgstr "裝置尚未掛載，所以我們無法確定可用空間容量。"
 
 #: ../liveusb/dialog.py:164
 #, python-format
@@ -175,7 +175,7 @@ msgstr "磁碟回送，略過 MBR 重設"
 #: ../liveusb/creator.py:837
 #, python-format
 msgid "Entering unmount_device for '%(device)s'"
-msgstr "進入未掛接裝置 '%(device)s'"
+msgstr "進入未掛載裝置 '%(device)s'"
 
 #: ../liveusb/creator.py:1272
 msgid "Error probing device"
@@ -191,7 +191,7 @@ msgstr "錯誤：無法設定標籤或取得裝置的 UUID，無法繼續。"
 msgid ""
 "Error: The SHA1 of your Live CD is invalid.  You can run this program with "
 "the --noverify argument to bypass this verification check."
-msgstr "錯誤：您 Live CD 的 SHA1 無效。您可以使用 --noverify 引數來執行此程式以略過此驗證檢查。"
+msgstr "錯誤：您 Live CD 的 SHA1 雜湊碼無效。您可以使用 --noverify 參數來略過驗證檢查程序並直接執行此程式。"
 
 #: ../liveusb/creator.py:155
 msgid "Extracting live image to the target device..."
@@ -200,7 +200,7 @@ msgstr "正在解壓縮即時映像檔到目標設備上..."
 #: ../liveusb/creator.py:1140
 #, python-format
 msgid "Formatting %(device)s as FAT32"
-msgstr "將 %(device)s 格式化成 FAT32 格式"
+msgstr "正將 %(device)s 格式化成 FAT32 格式"
 
 #: ../liveusb/creator.py:150
 msgid "ISO MD5 checksum passed"
@@ -214,7 +214,7 @@ msgstr "ISO MD5 總和檢查碼驗證失敗"
 msgid ""
 "If you do not select an existing Live ISO, the selected release will be "
 "downloaded for you."
-msgstr "如果您沒有選擇一個現有的  Live ISO，將會替您下載所選的版本。"
+msgstr "如果您沒有選擇一個現有的 Live ISO，將會替您下載所選的版本。"
 
 #: ../liveusb/launcher_ui.py:154
 msgid ""
@@ -249,7 +249,7 @@ msgid ""
 "It is impossible to upgrade the device %(pretty_name)s because it was not "
 "created using Tails Installer. You should instead use %(action)s to upgrade "
 "Tails on this device."
-msgstr "由於裝置 %(pretty_name)s 不是由 Tails 安裝程式所創造，故不能進行升級。應使用 %(action)s 去升級這裝置上的 Tails 。"
+msgstr "由於裝置 %(pretty_name)s 不是由 Tails 安裝程式所創建，故不能進行升級。應使用 %(action)s 去升級此裝置上的 Tails 。"
 
 #: ../liveusb/gui.py:270
 msgid "LiveUSB creation failed!"
@@ -264,12 +264,12 @@ msgstr "執行此程式前請先解壓縮整個 libusb-creator zip 檔案。"
 #: ../liveusb/creator.py:1284
 msgid ""
 "Make sure your USB key is plugged in and formatted with the FAT filesystem"
-msgstr "請確認您的 USB 磁碟已插入，並使用 FAT 檔案系統進行格式化"
+msgstr "請確認您的 USB 磁碟已插入，並且已被格式化成 FAT 檔案系統"
 
 #: ../liveusb/creator.py:859
 #, python-format
 msgid "Mount %s exists after unmounting"
-msgstr "取消掛接後 %s 掛接仍存在"
+msgstr "取消掛載後 %s 掛載仍存在"
 
 #: ../liveusb/gui.py:588
 #, python-format
@@ -278,7 +278,7 @@ msgstr "裝置 %(device)s 上的可用空間不足。"
 
 #: ../liveusb/creator.py:826
 msgid "No mount points found"
-msgstr "找不到掛接點"
+msgstr "找不到掛載點"
 
 #: ../liveusb/creator.py:410
 #, python-format
@@ -289,28 +289,28 @@ msgstr "裝置上的可用空間不足。\n%dMB ISO + %dMB覆蓋 > %dMB可用空
 
 #: ../liveusb/gui.py:569
 msgid "Partition is FAT16; Restricting overlay size to 2G"
-msgstr "分割區為 FAT16；覆蓋限制大小為 2 GB"
+msgstr "分割區為 FAT16 檔案系統；限制重疊區大小為 2 GB"
 
 #: ../liveusb/gui.py:565
 msgid "Partition is FAT32; Restricting overlay size to 4G"
-msgstr "分割區為 FAT32; 限制重疊大小為 4G"
+msgstr "分割區為 FAT32 檔案系統; 限制重疊區大小為 4G"
 
 #: ../liveusb/creator.py:236 ../liveusb/creator.py:866
 #, python-format
 msgid "Partitioning device %(device)s"
-msgstr "分割區裝置 %(device)s"
+msgstr "正在為 %(device)s 建立分割區"
 
 #: ../liveusb/gui.py:636
 msgid "Persistent Storage"
-msgstr "永續性儲存體"
+msgstr "永久性儲存裝置"
 
 #: ../liveusb/dialog.py:168
 msgid "Persistent Storage (0 MB)"
-msgstr "永續性儲存體 (0 MB)"
+msgstr "永久性儲存裝置 (0 MB)"
 
 #: ../liveusb/gui.py:698 ../liveusb/gui.py:727
 msgid "Please confirm your device selection"
-msgstr "請確認您的裝置選取"
+msgstr "請確認您所選取的裝置"
 
 #: ../liveusb/gui.py:481
 msgid "Refreshing releases..."
@@ -318,16 +318,16 @@ msgstr "正在重新整理版本..."
 
 #: ../liveusb/gui.py:486
 msgid "Releases updated!"
-msgstr "版本已更新!"
+msgstr "版本已更新！"
 
 #: ../liveusb/creator.py:997 ../liveusb/creator.py:1331
 #, python-format
 msgid "Removing %(file)s"
-msgstr "移除 %(file)s"
+msgstr "正在移除 %(file)s"
 
 #: ../liveusb/creator.py:492
 msgid "Removing existing Live OS"
-msgstr "移除現有的 Live OS"
+msgstr "正在移除現有的 Live OS"
 
 #: ../liveusb/creator.py:1186
 #, python-format
@@ -347,12 +347,12 @@ msgstr "設定 OLPC 開機檔案..."
 msgid ""
 "Some partitions of the target device %(device)s are mounted. They will be "
 "unmounted before starting the installation process."
-msgstr "目標裝置 %(device)s 中一些分割區已掛接。它們將在開始安裝過程前被卸載。"
+msgstr "目標裝置 %(device)s 中有些分割區已經被掛載。它們將在開始安裝前被自動卸載。"
 
 #: ../liveusb/creator.py:141
 msgid ""
 "Source type does not support verification of ISO MD5 checksum, skipping"
-msgstr "來源類型不支援 ISO MD5 總和檢查碼的驗證，略過"
+msgstr "來源類型不支援 ISO MD5 總和檢查碼的驗證功能，略過"
 
 #: ../liveusb/creator.py:1220
 msgid "Synchronizing data on disk..."
@@ -367,13 +367,13 @@ msgstr "目標裝置"
 msgid ""
 "The device \"%(pretty_name)s\" is too small to install Tails (at least "
 "%(size)s GB is required)."
-msgstr "“%(pretty_name)s”設備的容量太小，不能安裝Tails(至少需要 %(size)s GB的空間)。"
+msgstr "“%(pretty_name)s”設備的容量太小，無法安裝Tails (至少需要 %(size)s GB 的空間)。"
 
 #: ../liveusb/gui.py:792
 msgid ""
 "The selected file is unreadable. Please fix its permissions or select "
 "another file."
-msgstr "所選檔案無法讀取。請修正其權限或選擇另一個檔案。"
+msgstr "所選取的檔案無法讀取，請修改該檔案之存取權限或選擇另一個檔案。"
 
 #: ../liveusb/creator.py:354
 #, python-format
@@ -387,7 +387,7 @@ msgid ""
 "This button allows you to browse for an existing Live system ISO that you "
 "have previously downloaded.  If you do not select one, a release will be "
 "downloaded for you automatically."
-msgstr "此按鈕讓您可以瀏覽先前已下載的 Live 系統 ISO。如果您沒有選擇的話，將會自動為您下載一個版本。"
+msgstr "此按鈕讓您可以瀏覽先前已下載的 Live 系統之 ISO 檔，如果您沒有選取的話，程式將會自動為您下載一個版本。"
 
 #: ../liveusb/dialog.py:171
 msgid ""
@@ -395,13 +395,13 @@ msgid ""
 "optionally downloading a release (if an existing one wasn't selected),  "
 "extracting the ISO to the USB device, creating the persistent overlay, and "
 "installing the bootloader."
-msgstr "此按鈕將開始 LiveUSB 建立過程。這需要選擇性地下載一個版本 (如果沒有選擇一個現有版本的話)，將 ISO 解壓縮到 USB 裝置，建立永久覆蓋，然後安裝 bootloader。"
+msgstr "此按鈕將啟動 LiveUSB 建立程序。這將會選擇性地下載一個版本 (如果您沒有選取任何現有版本的話)，再將 ISO 解壓縮到 USB 裝置，並建立永久性重疊區，然後會安裝系統之啟動載入程式。"
 
 #: ../liveusb/dialog.py:165
 msgid ""
 "This is the USB stick that you want to install your Live system on.  This "
 "device must be formatted with the FAT filesystem."
-msgstr "這是您想安裝您的即時系統的 USB 隨身碟。此裝置必須使用 FAT 檔案系統來格式化。"
+msgstr "這是您想安裝 Live 系統的 USB 隨身碟。此裝置必須是已被格式化成 FAT 檔案系統。"
 
 #: ../liveusb/dialog.py:170
 msgid ""
