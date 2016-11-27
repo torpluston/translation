@@ -18,9 +18,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: The Tor Project\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-09-02 16:02+0200\n"
-"PO-Revision-Date: 2016-09-03 08:57+0000\n"
-"Last-Translator: carolyn <carolyn@anhalt.org>\n"
+"POT-Creation-Date: 2016-11-13 08:15+0100\n"
+"PO-Revision-Date: 2016-11-27 10:45+0000\n"
+"Last-Translator: Agustín Wu <losangwuyts@gmail.com>\n"
 "Language-Team: Chinese (Taiwan) (http://www.transifex.com/otf/torproject/language/zh_TW/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -30,7 +30,7 @@ msgstr ""
 
 #: config/chroot_local-includes/etc/NetworkManager/dispatcher.d/60-tor-ready.sh:39
 msgid "Tor is ready"
-msgstr "Tor 就緒"
+msgstr "洋蔥路由已就緒"
 
 #: config/chroot_local-includes/etc/NetworkManager/dispatcher.d/60-tor-ready.sh:40
 msgid "You can now access the Internet."
@@ -109,7 +109,7 @@ msgstr "關閉電源"
 #: config/chroot_local-includes/usr/local/bin/tails-about:22
 #: ../config/chroot_local-includes/usr/share/desktop-directories/Tails.directory.in.h:1
 msgid "Tails"
-msgstr "尾部"
+msgstr "Tails"
 
 #: config/chroot_local-includes/usr/local/bin/tails-about:25
 #: ../config/chroot_local-includes/usr/share/applications/tails-about.desktop.in.h:1
@@ -118,7 +118,7 @@ msgstr "關於 Tails"
 
 #: config/chroot_local-includes/usr/local/bin/tails-about:35
 msgid "The Amnesic Incognito Live System"
-msgstr "Amnesic Incognito Live 系統"
+msgstr "The Amnesic Incognito Live System"
 
 #: config/chroot_local-includes/usr/local/bin/tails-about:36
 #, python-format
@@ -157,17 +157,17 @@ msgstr "與系統的時鐘同步"
 msgid ""
 "Tor needs an accurate clock to work properly, especially for Hidden "
 "Services. Please wait..."
-msgstr "Tor 需要準確的時鐘才能正常運作，特別是對隱藏的服務。請稍候..."
+msgstr "洋蔥路由需要精確的時鐘才能正常運作，特別是針對隱藏式服務。請稍候..."
 
 #: config/chroot_local-includes/usr/local/lib/tails-htp-notify-user:87
 msgid "Failed to synchronize the clock!"
 msgstr "無法與時鐘同步!"
 
-#: config/chroot_local-includes/usr/local/bin/tails-security-check:146
+#: config/chroot_local-includes/usr/local/bin/tails-security-check:124
 msgid "This version of Tails has known security issues:"
 msgstr "此 Tails 版本有已知的安全性問題:"
 
-#: config/chroot_local-includes/usr/local/bin/tails-security-check:156
+#: config/chroot_local-includes/usr/local/bin/tails-security-check:134
 msgid "Known security issues"
 msgstr "已知的安全性問題"
 
@@ -181,7 +181,7 @@ msgstr "網路卡 ${nic} 被停用"
 msgid ""
 "MAC spoofing failed for network card ${nic_name} (${nic}) so it is temporarily disabled.\n"
 "You might prefer to restart Tails and disable MAC spoofing."
-msgstr "網路卡 ${nic_name} (${nic}) 進行MAC詐騙失敗，故它暫時被停用。\n您可能要將 Tails 重新啟動並停用 MAC 詐騙。"
+msgstr "網路卡 ${nic_name} (${nic}) 之實體位址偽裝失敗，故已被暫時停用。\n您可能要將 Tails 重新啟動並且停用網路卡實體位址偽裝功能。"
 
 #: config/chroot_local-includes/usr/local/lib/tails-spoof-mac:62
 msgid "All networking disabled"
@@ -192,7 +192,7 @@ msgstr "所有網路被停用"
 msgid ""
 "MAC spoofing failed for network card ${nic_name} (${nic}). The error recovery also failed so all networking is disabled.\n"
 "You might prefer to restart Tails and disable MAC spoofing."
-msgstr "網路卡 ${nic_name} (${nic}) 進行MAC詐騙失敗。\n而在進行還原時也失敗，故它暫時被停用。\n您可能要將 Tails 重新啟動並停用 MAC 詐騙。"
+msgstr "網路卡 ${nic_name} (${nic}) 之實體位址偽裝失敗，且錯誤還原過程亦失敗了，所以所有網路連線功能皆被關閉了。\n您可能要將 Tails 重新啟動，並且停用網路卡實體位址偽裝功能。"
 
 #: config/chroot_local-includes/usr/local/bin/tails-upgrade-frontend-wrapper:24
 #: config/chroot_local-includes/usr/local/sbin/unsafe-browser:27
@@ -219,13 +219,13 @@ msgstr "<b>檢查升級時沒有足夠的記憶體可用。</b>\n\n請確保該�
 
 #: config/chroot_local-includes/usr/local/lib/tails-virt-notify-user:67
 msgid "Warning: virtual machine detected!"
-msgstr "警告: 偵測到虛擬機器!"
+msgstr "警告: 偵測到虛擬機器！"
 
 #: config/chroot_local-includes/usr/local/lib/tails-virt-notify-user:69
 msgid ""
 "Both the host operating system and the virtualization software are able to "
 "monitor what you are doing in Tails."
-msgstr "主機作業系統和虛擬化軟體都能夠監控您在 Tails 中做什麼。"
+msgstr "主系統和虛擬化軟體都能夠監控您在 Tails 中做什麼。"
 
 #: config/chroot_local-includes/usr/local/lib/tails-virt-notify-user:72
 msgid "Warning: non-free virtual machine detected!"
@@ -245,15 +245,15 @@ msgstr "繼續閱讀"
 
 #: config/chroot_local-includes/usr/local/bin/tor-browser:40
 msgid "Tor is not ready"
-msgstr "Tor 未就緒"
+msgstr "洋蔥路由尚未就緒"
 
 #: config/chroot_local-includes/usr/local/bin/tor-browser:41
 msgid "Tor is not ready. Start Tor Browser anyway?"
-msgstr "Tor 未就緒。無論如何啟動 Tor 瀏覽器嗎?"
+msgstr "洋蔥路由尚未就緒，您確定仍要啟動洋蔥路由瀏覽器嗎？"
 
 #: config/chroot_local-includes/usr/local/bin/tor-browser:42
 msgid "Start Tor Browser"
-msgstr "啟動 Tor 瀏覽器"
+msgstr "啟動洋蔥路由瀏覽器"
 
 #: config/chroot_local-includes/usr/local/bin/tor-browser:43
 msgid "Cancel"
@@ -261,7 +261,7 @@ msgstr "取消"
 
 #: config/chroot_local-includes/usr/local/sbin/unsafe-browser:38
 msgid "Do you really want to launch the Unsafe Browser?"
-msgstr "您真的要啟動不安全的瀏覽器嗎?"
+msgstr "您真的要啟動不安全的瀏覽器嗎？"
 
 #: config/chroot_local-includes/usr/local/sbin/unsafe-browser:40
 msgid ""
@@ -290,7 +290,7 @@ msgstr "這可能需要一段時間，您可能無法將不安全的瀏覽器重
 
 #: config/chroot_local-includes/usr/local/sbin/unsafe-browser:70
 msgid "Failed to restart Tor."
-msgstr "無法重新啟動 Tor。"
+msgstr "無法重新啟動洋蔥路由。"
 
 #: config/chroot_local-includes/usr/local/sbin/unsafe-browser:84
 #: ../config/chroot_local-includes/usr/share/applications/unsafe-browser.desktop.in.h:1
