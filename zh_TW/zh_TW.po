@@ -22,7 +22,7 @@ msgstr ""
 "Project-Id-Version: The Tor Project\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-11-02 21:23+0100\n"
-"PO-Revision-Date: 2016-11-27 13:45+0000\n"
+"PO-Revision-Date: 2016-11-27 14:02+0000\n"
 "Last-Translator: Agustín Wu <losangwuyts@gmail.com>\n"
 "Language-Team: Chinese (Taiwan) (http://www.transifex.com/otf/torproject/language/zh_TW/)\n"
 "MIME-Version: 1.0\n"
@@ -401,7 +401,7 @@ msgstr "此按鈕將啟動 LiveUSB 建立程序。這將會選擇性地下載一
 msgid ""
 "This is the USB stick that you want to install your Live system on.  This "
 "device must be formatted with the FAT filesystem."
-msgstr "這是您想安裝 Live 系統的 USB 隨身碟。此裝置必須是已被格式化成 FAT 檔案系統。"
+msgstr "這是您想安裝 Live 系統的 USB 隨身碟，它必須是已被格式化成 FAT 檔案系統之儲存裝置。"
 
 #: ../liveusb/dialog.py:170
 msgid ""
@@ -451,7 +451,7 @@ msgstr "找不到分割區"
 #: ../liveusb/creator.py:1354
 msgid ""
 "Unable to get Win32_LogicalDisk; win32com query did not return any results"
-msgstr "無法取得 Win32_LogicalDisk; win32com 查詢沒有傳回任何結果"
+msgstr "無法取得 Win32_LogicalDisk；win32com 查詢沒有傳回任何結果"
 
 #: ../liveusb/gui.py:691
 msgid "Unable to mount device"
@@ -460,7 +460,7 @@ msgstr "無法掛接裝置"
 #: ../liveusb/creator.py:814
 #, python-format
 msgid "Unable to mount device: %(message)s"
-msgstr "無法掛接裝置: %(message)s"
+msgstr "無法掛載裝置: %(message)s"
 
 #: ../liveusb/creator.py:517
 #, python-format
@@ -475,13 +475,13 @@ msgstr "無法從先前的 LiveOS 移除檔案: %(message)s"
 #: ../liveusb/creator.py:1189
 msgid ""
 "Unable to reset MBR.  You may not have the `syslinux` package installed."
-msgstr "無法重設 MBR。您可能沒有安裝 `syslinux` 套件。"
+msgstr "無法重設 MBR。您可能沒有安裝「syslinux」套件。"
 
 #: ../liveusb/gui.py:798
 msgid ""
 "Unable to use the selected file.  You may have better luck if you move your "
 "ISO to the root of your drive (ie: C:\\)"
-msgstr "無法使用所選檔案，您可能會有更好的運氣，如果您將您的 ISO 移動到您的磁碟根目錄下(例如：C：\\)"
+msgstr "無法使用所選取的檔案，或許您可以嘗試將 ISO 檔移動到磁碟根目錄下(例如：C：\\)"
 
 #: ../liveusb/creator.py:723
 #, python-format
@@ -490,12 +490,12 @@ msgstr "無法寫入 %(device)s，略過。"
 
 #: ../liveusb/creator.py:399
 msgid "Unknown ISO, skipping checksum verification"
-msgstr "未知的 ISO，略過總和檢查碼驗證"
+msgstr "未知的 ISO 檔，略過總和檢查碼驗證程序"
 
 #: ../liveusb/creator.py:810
 #, python-format
 msgid "Unknown dbus exception while trying to mount device: %(message)s"
-msgstr "掛接裝置時發生未知的 dbus 例外: %(message)s"
+msgstr "掛載裝置時發生未知的 dbus 例外: %(message)s"
 
 #: ../liveusb/creator.py:791 ../liveusb/creator.py:964
 msgid "Unknown filesystem.  Your device may need to be reformatted."
@@ -514,12 +514,12 @@ msgstr "正在卸載 '%(udi)s' 在 '%(device)s'"
 #: ../liveusb/creator.py:847
 #, python-format
 msgid "Unmounting mounted filesystems on '%(device)s'"
-msgstr "正在卸載掛接在 '%(device)s' 上的檔案系統"
+msgstr "正在卸載已掛載於 '%(device)s' 上的檔案系統"
 
 #: ../liveusb/creator.py:949
 #, python-format
 msgid "Unsupported device '%(device)s', please report a bug."
-msgstr "不支援的裝置 '%(device)s'，請報告錯誤。"
+msgstr "不支援的裝置 '%(device)s'，請回報此錯誤。"
 
 #: ../liveusb/creator.py:794 ../liveusb/creator.py:967
 #, python-format
@@ -531,12 +531,12 @@ msgstr "不支援的檔案系統：%s"
 msgid ""
 "Unsupported filesystem: %s\n"
 "Please backup and format your USB key with the FAT filesystem."
-msgstr "不支援的檔案系統：%s\n請進行備份並使用 FAT 檔案系統來格式化您的 USB 磁碟。"
+msgstr "不支援的檔案系統：%s\n請將您的 USB 隨身碟內之資料進行備份，並將它格式化成 FAT 檔案系統。"
 
 #: ../liveusb/creator.py:892
 #, python-format
 msgid "Updating properties of system partition %(system_partition)s"
-msgstr "升級系統分割區 %(system_partition)s 的屬性"
+msgstr "正在更新系統分割區 %(system_partition)s 的屬性"
 
 #: ../liveusb/launcher_ui.py:156
 msgid ""
@@ -556,15 +556,15 @@ msgstr "使用現有的 Live system ISO"
 
 #: ../liveusb/creator.py:143
 msgid "Verifying ISO MD5 checksum"
-msgstr "驗證 ISO MD5 總和檢查碼"
+msgstr "正在驗證 ISO 檔之 MD5 總和檢查碼"
 
 #: ../liveusb/creator.py:373
 msgid "Verifying SHA1 checksum of LiveCD image..."
-msgstr "驗證 LiveCD 映像檔的 SHA1 總和檢查碼..."
+msgstr "正在驗證 LiveCD 映像檔的 SHA1 總和檢查碼..."
 
 #: ../liveusb/creator.py:377
 msgid "Verifying SHA256 checksum of LiveCD image..."
-msgstr "驗證 LiveCD 映像檔的 SHA256 總和檢查碼..."
+msgstr "正在驗證 LiveCD 映像檔的 SHA256 總和檢查碼..."
 
 #: ../liveusb/creator.py:961 ../liveusb/creator.py:1280
 msgid "Verifying filesystem..."
@@ -573,7 +573,7 @@ msgstr "正在驗證檔案系統..."
 #: ../liveusb/gui.py:725
 msgid ""
 "Warning: Creating a new persistent overlay will delete your existing one."
-msgstr "警告：建立新的持續性覆蓋層將會刪除您現有的持續性覆蓋層。"
+msgstr "警告：現有的永久性重疊區將會被新建立的取代。"
 
 #: ../liveusb/gui.py:377
 msgid ""
@@ -592,7 +592,7 @@ msgstr "以 %(speed)d MB/秒 的速度寫入裝置"
 msgid ""
 "You are going to install Tails on the %(size)s %(vendor)s %(model)s device "
 "(%(device)s). All data on the selected device will be lost. Continue?"
-msgstr "您即將安裝 Tails 在 %(size)s %(vendor)s %(model)s 裝置 (%(device)s)。所有在所選裝置上的資料將會遺失。繼續嗎?"
+msgstr "您即將在 %(size)s %(vendor)s %(model)s 裝置 (%(device)s)上安裝 Tails ，被選取裝置上的資料都將會消失，確定要繼續嗎？"
 
 #: ../liveusb/gui.py:715
 #, python-format
@@ -600,13 +600,13 @@ msgid ""
 "You are going to upgrade Tails on the %(parent_size)s %(vendor)s %(model)s "
 "device (%(device)s). Any persistent volume on this device will remain "
 "unchanged. Continue?"
-msgstr "您即將升級 Tails 在 %(parent_size)s %(vendor)s %(model)s 裝置 (%(device)s)。在此裝置上的永久性磁碟區將保持不變。繼續嗎?"
+msgstr "您即將升級位於 %(parent_size)s %(vendor)s %(model)s 裝置 (%(device)s)上的 Tails。在此裝置上的永久性磁碟區將保持不變，確定要繼續嗎？"
 
 #: ../liveusb/creator.py:622
 msgid ""
 "You are using an old version of syslinux-extlinux that does not support the "
 "ext4 filesystem"
-msgstr "您正使用舊版 syslinux-extlinux，不支援 ext4 檔案系統"
+msgstr "您正使用舊版的 syslinux-extlinux，不支援 ext4 檔案系統"
 
 #: ../liveusb/gui.py:783
 msgid "You can try again to resume your download"
