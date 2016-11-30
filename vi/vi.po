@@ -120,43 +120,43 @@ msgstr "Tiếng Anh"
 
 #: ../data/greeter.ui.h:21
 msgid "Keyboard Layout"
-msgstr ""
+msgstr "Cách bố trí bàn phím"
 
 #: ../data/greeter.ui.h:22
 msgid "English (US)"
-msgstr ""
+msgstr "Tiếng Anh (Mỹ)"
 
 #: ../data/greeter.ui.h:23
 msgid "Formats"
-msgstr ""
+msgstr "Những khuôn mẫu"
 
 #: ../data/greeter.ui.h:24
 msgid "United States"
-msgstr ""
+msgstr "Mỹ"
 
 #: ../data/greeter.ui.h:25
 msgid "Time Zone"
-msgstr ""
+msgstr "Múi giờ"
 
 #: ../data/greeter.ui.h:26
 msgid "UTC"
-msgstr ""
+msgstr "UTC"
 
 #: ../data/greeter.ui.h:27
 msgid "Encrypted Persistent Storage"
-msgstr ""
+msgstr "Dung lượng bền vững được mã hóa"
 
 #: ../data/greeter.ui.h:28
 msgid "Show Passphrase"
-msgstr ""
+msgstr "Hiển thị đoạn mật khẩu"
 
 #: ../data/greeter.ui.h:29
 msgid "Configure Persistent Storage"
-msgstr ""
+msgstr "Cấu hình dung lượng bền vững"
 
 #: ../data/greeter.ui.h:30
 msgid "Enter your passphrase to unlock the persistent storage"
-msgstr ""
+msgstr "Nhập mật khẩu của bạn để mở khóa dung lượng bền vững"
 
 #: ../data/greeter.ui.h:31 ../tailsgreeter/gui.py:781
 #: ../tailsgreeter/gui.py:942
@@ -165,7 +165,7 @@ msgstr "Mở khóa"
 
 #: ../data/greeter.ui.h:32
 msgid "Relock Persistent Storage"
-msgstr ""
+msgstr "Khóa dung lượng bền vững lại"
 
 #: ../data/greeter.ui.h:33 ../tailsgreeter/gui.py:492
 msgid "Additional Settings"
@@ -177,7 +177,7 @@ msgstr "Lưu những cài đặt thêm"
 
 #: ../data/greeter.ui.h:35
 msgid "toolbutton"
-msgstr ""
+msgstr "toolbutton"
 
 #: ../data/greeter.ui.h:36
 msgid "Network Configuration"
@@ -189,14 +189,17 @@ msgid ""
 "configure a Tor bridge or a local proxy. To work completely offline, you can"
 " disable all networking."
 msgstr ""
+"Nếu kết nối Internet của bạn bị kiểm duyệt, lọc bỏ, hoặc bị ủy quyền bạn có "
+"thể cấu hình một cầu nối Tor hoặc ủy quyền nội bộ. Để làm việc hoàn toàn "
+"ngoại tuyến, bạn có thể vô hiệu mọi mạng lưới."
 
 #: ../data/greeter.ui.h:38
 msgid "Connect directly to the Tor network (default)"
-msgstr ""
+msgstr "Kết nối trực tiếp tới mạng lưới Tor (mặc định)"
 
 #: ../data/greeter.ui.h:39
 msgid "Configure a Tor bridge, firewall, or proxy settings"
-msgstr ""
+msgstr "Cấu hình một cầu nối Tor, tường lửa, hoặc những cài đặt ủy quyền"
 
 #: ../data/greeter.ui.h:40
 msgid "Disable all networking"
@@ -207,6 +210,8 @@ msgid ""
 "The default settings are safe in most situations. To add a custom setting, "
 "press the \"+\" button below."
 msgstr ""
+"Những cài đặt mặc định là an toàn trong hầu hết tình huống. Để thêm những "
+"cài đặt riêng, bấm nút \"+\" bên dưới."
 
 #: ../data/greeter.ui.h:42
 msgid "Off (default)"
@@ -253,6 +258,8 @@ msgid ""
 "You will configure the Tor bridge and local proxy later on after connecting "
 "to a network."
 msgstr ""
+"Bạn sẽ cấu hình cầu nối Tor và ủy quyền nội bộ sau khi kết nối tới một mạng "
+"lưới."
 
 #: ../tailsgreeter/gui.py:698
 msgid "On"
@@ -269,15 +276,15 @@ msgstr "{on_or_off} (default)"
 
 #: ../tailsgreeter/gui.py:759
 msgid "You would be able to set up an encrypted storage."
-msgstr ""
+msgstr "Bạn sẽ có thể cài đặt một vùng lưu trữ được mã hóa."
 
 #: ../tailsgreeter/gui.py:783
 msgid "Failed to relock persistent storage."
-msgstr ""
+msgstr "Thất bại khi khóa dung lượng bền vững lại."
 
 #: ../tailsgreeter/gui.py:900
 msgid "Bridge & Proxy"
-msgstr ""
+msgstr "Cầu nối & Ủy quyền"
 
 #: ../tailsgreeter/gui.py:906
 msgid "Offline"
@@ -285,7 +292,7 @@ msgstr "Ngoại tuyến"
 
 #: ../tailsgreeter/gui.py:945
 msgid "Cannot unlock encrypted storage with this passphrase."
-msgstr ""
+msgstr "Không thể mở khóa vùng lưu trữ bị mã hóa với mật khẩu này."
 
 #: ../tailsgreeter/persistence.py:94
 #, python-brace-format
@@ -293,6 +300,8 @@ msgid ""
 "live-persist failed with return code {returncode}:\n"
 "{stderr}"
 msgstr ""
+"live-persit thất bại với mã trả về {returncode}:\n"
+" {stderr}"
 
 #: ../tailsgreeter/persistence.py:136 ../tailsgreeter/persistence.py:161
 #: ../tailsgreeter/persistence.py:185
@@ -302,6 +311,9 @@ msgid ""
 "{stdout}\n"
 "{stderr}"
 msgstr ""
+"cài đặt mã hóa thất bại với mã trả về {returncode}:\n"
+"{stdout}\n"
+"{stderr}"
 
 #: ../tailsgreeter/persistence.py:205
 #, python-brace-format
@@ -310,3 +322,6 @@ msgid ""
 "{stdout}\n"
 "{stderr}"
 msgstr ""
+"gỡ ra thất bại với mã trả về {returncode}:\n"
+"{stdout}\n"
+"{stderr}"
