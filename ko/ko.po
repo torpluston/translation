@@ -1,14 +1,14 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the PACKAGE package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# Tails GDM Greeter
+# Copyright (C) 2016 Tails devlopers
+# This file is distributed under the same license as the tails-greeter package.
+# Tails devloppers <tails@boum.org>, 2016.
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-11-18 00:07+0000\n"
+"POT-Creation-Date: 2016-12-02 12:10+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Dr.what <javrick6@naver.com>, 2016\n"
 "Language-Team: Korean (https://www.transifex.com/otf/teams/1519/ko/)\n"
@@ -45,25 +45,28 @@ msgstr ""
 msgid "Disable"
 msgstr ""
 
-#: ../data/greeter.ui.h:7
+#. This string will never be displayed in the 1st version of the greeter.
+#: ../data/greeter.ui.h:8
 msgid "Windows Camouflage"
 msgstr ""
 
-#: ../data/greeter.ui.h:8
+#. This string will never be displayed in the 1st version of the greeter.
+#: ../data/greeter.ui.h:10
 msgid ""
 "This option makes Tails look like Microsoft Windows 10. This can be useful "
 "to avoid attracting suspiction in public places."
 msgstr ""
 
-#: ../data/greeter.ui.h:9
+#. This string will never be displayed in the 1st version of the greeter.
+#: ../data/greeter.ui.h:12
 msgid "Microsoft Windows 10 camouflage"
 msgstr ""
 
-#: ../data/greeter.ui.h:10
+#: ../data/greeter.ui.h:13
 msgid "MAC Address Spoofing"
 msgstr ""
 
-#: ../data/greeter.ui.h:11
+#: ../data/greeter.ui.h:14
 msgid ""
 "MAC address spoofing hides the serial number of your network interface (Wi-"
 "Fi or wired) to the local network. Spoofing MAC addresses is generally safer"
@@ -71,65 +74,51 @@ msgid ""
 "connectivity problems or look suspicious."
 msgstr ""
 
-#: ../data/greeter.ui.h:12
+#: ../data/greeter.ui.h:15
 msgid "Spoof all MAC addresses (default)"
 msgstr ""
 
-#: ../data/greeter.ui.h:13
+#: ../data/greeter.ui.h:16
 msgid "Don't spoof MAC addresses"
 msgstr ""
 
-#: ../data/greeter.ui.h:14
+#: ../data/greeter.ui.h:17
 msgid "Welcome to Tails!"
 msgstr ""
 
-#: ../data/greeter.ui.h:15
+#. This string will never be displayed in the 1st version of the greeter.
+#: ../data/greeter.ui.h:19
+msgctxt ""
 msgid ""
 "To get guided through Tails' settings, click on <b>Take a Tour</b> above"
 msgstr ""
 
-#: ../data/greeter.ui.h:16
+#: ../data/greeter.ui.h:20
 msgid "Language & Region"
 msgstr ""
 
-#: ../data/greeter.ui.h:17
+#: ../data/greeter.ui.h:21
 msgid "Default Settings"
 msgstr ""
 
-#: ../data/greeter.ui.h:18
+#: ../data/greeter.ui.h:22
 msgid "Save Language & Region Settings"
 msgstr ""
 
-#: ../data/greeter.ui.h:19
+#: ../data/greeter.ui.h:23
 msgid "Language"
 msgstr "언어"
 
-#: ../data/greeter.ui.h:20
-msgid "English"
-msgstr ""
-
-#: ../data/greeter.ui.h:21
+#: ../data/greeter.ui.h:24
 msgid "Keyboard Layout"
 msgstr ""
 
-#: ../data/greeter.ui.h:22
-msgid "English (US)"
-msgstr ""
-
-#: ../data/greeter.ui.h:23
+#: ../data/greeter.ui.h:25
 msgid "Formats"
 msgstr ""
 
-#: ../data/greeter.ui.h:24
-msgid "United States"
-msgstr "미국"
-
-#: ../data/greeter.ui.h:25
-msgid "Time Zone"
-msgstr ""
-
 #: ../data/greeter.ui.h:26
-msgid "UTC"
+msgid "Time Zone"
 msgstr ""
 
 #: ../data/greeter.ui.h:27
@@ -148,8 +137,8 @@ msgstr ""
 msgid "Enter your passphrase to unlock the persistent storage"
 msgstr ""
 
-#: ../data/greeter.ui.h:31 ../tailsgreeter/gui.py:781
-#: ../tailsgreeter/gui.py:942
+#: ../data/greeter.ui.h:31 ../tailsgreeter/gui.py:767
+#: ../tailsgreeter/gui.py:928
 msgid "Unlock"
 msgstr ""
 
@@ -166,7 +155,7 @@ msgid "Save Additional Settings"
 msgstr ""
 
 #: ../data/greeter.ui.h:35
-msgid "toolbutton"
+msgid "Add an additional setting"
 msgstr ""
 
 #: ../data/greeter.ui.h:36
@@ -198,11 +187,11 @@ msgid ""
 "press the \"+\" button below."
 msgstr ""
 
-#: ../data/greeter.ui.h:42
+#: ../data/greeter.ui.h:42 ../tailsgreeter/gui.py:690
 msgid "Off (default)"
 msgstr ""
 
-#: ../data/greeter.ui.h:43
+#: ../data/greeter.ui.h:43 ../tailsgreeter/gui.py:688
 msgid "On (default)"
 msgstr ""
 
@@ -210,7 +199,7 @@ msgstr ""
 msgid "Network Connection"
 msgstr ""
 
-#: ../data/greeter.ui.h:45 ../tailsgreeter/gui.py:894
+#: ../data/greeter.ui.h:45 ../tailsgreeter/gui.py:880
 msgid "Direct (default)"
 msgstr ""
 
@@ -244,36 +233,27 @@ msgid ""
 "to a network."
 msgstr ""
 
-#: ../tailsgreeter/gui.py:698
+#: ../tailsgreeter/gui.py:693
 msgid "On"
 msgstr ""
 
-#: ../tailsgreeter/gui.py:700
+#: ../tailsgreeter/gui.py:695
 msgid "Off"
 msgstr ""
 
-#: ../tailsgreeter/gui.py:702
-#, python-brace-format
-msgid "{on_or_off} (default)"
-msgstr ""
-
-#: ../tailsgreeter/gui.py:759
-msgid "You would be able to set up an encrypted storage."
-msgstr ""
-
-#: ../tailsgreeter/gui.py:783
+#: ../tailsgreeter/gui.py:769
 msgid "Failed to relock persistent storage."
 msgstr ""
 
-#: ../tailsgreeter/gui.py:900
+#: ../tailsgreeter/gui.py:886
 msgid "Bridge & Proxy"
 msgstr ""
 
-#: ../tailsgreeter/gui.py:906
+#: ../tailsgreeter/gui.py:892
 msgid "Offline"
 msgstr "오프라인"
 
-#: ../tailsgreeter/gui.py:945
+#: ../tailsgreeter/gui.py:931
 msgid "Cannot unlock encrypted storage with this passphrase."
 msgstr ""
 

@@ -1,14 +1,14 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the PACKAGE package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# Tails GDM Greeter
+# Copyright (C) 2016 Tails devlopers
+# This file is distributed under the same license as the tails-greeter package.
+# Tails devloppers <tails@boum.org>, 2016.
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-11-18 00:07+0000\n"
+"POT-Creation-Date: 2016-12-02 12:10+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Acooldude <chibqc@gmail.com>, 2016\n"
 "Language-Team: Vietnamese (https://www.transifex.com/otf/teams/1519/vi/)\n"
@@ -47,11 +47,13 @@ msgstr "Xác nhận mật khẩu quản trị của bạn"
 msgid "Disable"
 msgstr "Vô hiệu"
 
-#: ../data/greeter.ui.h:7
+#. This string will never be displayed in the 1st version of the greeter.
+#: ../data/greeter.ui.h:8
 msgid "Windows Camouflage"
 msgstr "Ngụy trang Windows"
 
-#: ../data/greeter.ui.h:8
+#. This string will never be displayed in the 1st version of the greeter.
+#: ../data/greeter.ui.h:10
 msgid ""
 "This option makes Tails look like Microsoft Windows 10. This can be useful "
 "to avoid attracting suspiction in public places."
@@ -59,15 +61,16 @@ msgstr ""
 "Tùy chọn này làm Tails nhìn giống Microsoft Windows 10. Việc này giúp tránh "
 "thu hút sự nghi ngờ nơi công cộng."
 
-#: ../data/greeter.ui.h:9
+#. This string will never be displayed in the 1st version of the greeter.
+#: ../data/greeter.ui.h:12
 msgid "Microsoft Windows 10 camouflage"
 msgstr "Sự ngụy trang Microsoft Windows 10"
 
-#: ../data/greeter.ui.h:10
+#: ../data/greeter.ui.h:13
 msgid "MAC Address Spoofing"
 msgstr "Sự làm giả địa chỉ MAC"
 
-#: ../data/greeter.ui.h:11
+#: ../data/greeter.ui.h:14
 msgid ""
 "MAC address spoofing hides the serial number of your network interface (Wi-"
 "Fi or wired) to the local network. Spoofing MAC addresses is generally safer"
@@ -79,68 +82,54 @@ msgstr ""
 "toàn ơn vì nó giúp bạn ẩn vị trí địa lý của mình. Nhưng nó có thể tạo ra "
 "những vấn đề về kết nối hoặc trông đáng nghi ngờ."
 
-#: ../data/greeter.ui.h:12
+#: ../data/greeter.ui.h:15
 msgid "Spoof all MAC addresses (default)"
 msgstr "Làm giả tất cả địa chỉ MAC (mặc định)"
 
-#: ../data/greeter.ui.h:13
+#: ../data/greeter.ui.h:16
 msgid "Don't spoof MAC addresses"
 msgstr "Không làm giả địa chỉ MAC"
 
-#: ../data/greeter.ui.h:14
+#: ../data/greeter.ui.h:17
 msgid "Welcome to Tails!"
 msgstr "Chào mừng đến với Tails!"
 
-#: ../data/greeter.ui.h:15
+#. This string will never be displayed in the 1st version of the greeter.
+#: ../data/greeter.ui.h:19
+msgctxt ""
 msgid ""
 "To get guided through Tails' settings, click on <b>Take a Tour</b> above"
 msgstr ""
 "Để được hướng dẫn về những cài đặt của Tails, bấm chuột vào <b>Take a "
 "Tour</b> ở trên"
 
-#: ../data/greeter.ui.h:16
+#: ../data/greeter.ui.h:20
 msgid "Language & Region"
 msgstr "Ngôn ngữ và Vùng"
 
-#: ../data/greeter.ui.h:17
+#: ../data/greeter.ui.h:21
 msgid "Default Settings"
 msgstr "Những cài đặt mặc định"
 
-#: ../data/greeter.ui.h:18
+#: ../data/greeter.ui.h:22
 msgid "Save Language & Region Settings"
 msgstr "Lưu những cài đặt về ngôn ngữ và vùng"
 
-#: ../data/greeter.ui.h:19
+#: ../data/greeter.ui.h:23
 msgid "Language"
 msgstr "Ngôn ngữ"
 
-#: ../data/greeter.ui.h:20
-msgid "English"
-msgstr "Tiếng Anh"
-
-#: ../data/greeter.ui.h:21
+#: ../data/greeter.ui.h:24
 msgid "Keyboard Layout"
 msgstr "Cách bố trí bàn phím"
 
-#: ../data/greeter.ui.h:22
-msgid "English (US)"
-msgstr "Tiếng Anh (Mỹ)"
-
-#: ../data/greeter.ui.h:23
+#: ../data/greeter.ui.h:25
 msgid "Formats"
 msgstr "Những khuôn mẫu"
 
-#: ../data/greeter.ui.h:24
-msgid "United States"
-msgstr "Mỹ"
-
-#: ../data/greeter.ui.h:25
+#: ../data/greeter.ui.h:26
 msgid "Time Zone"
 msgstr "Múi giờ"
-
-#: ../data/greeter.ui.h:26
-msgid "UTC"
-msgstr "UTC"
 
 #: ../data/greeter.ui.h:27
 msgid "Encrypted Persistent Storage"
@@ -158,8 +147,8 @@ msgstr "Cấu hình dung lượng bền vững"
 msgid "Enter your passphrase to unlock the persistent storage"
 msgstr "Nhập mật khẩu của bạn để mở khóa dung lượng bền vững"
 
-#: ../data/greeter.ui.h:31 ../tailsgreeter/gui.py:781
-#: ../tailsgreeter/gui.py:942
+#: ../data/greeter.ui.h:31 ../tailsgreeter/gui.py:767
+#: ../tailsgreeter/gui.py:928
 msgid "Unlock"
 msgstr "Mở khóa"
 
@@ -176,8 +165,8 @@ msgid "Save Additional Settings"
 msgstr "Lưu những cài đặt thêm"
 
 #: ../data/greeter.ui.h:35
-msgid "toolbutton"
-msgstr "toolbutton"
+msgid "Add an additional setting"
+msgstr ""
 
 #: ../data/greeter.ui.h:36
 msgid "Network Configuration"
@@ -213,11 +202,11 @@ msgstr ""
 "Những cài đặt mặc định là an toàn trong hầu hết tình huống. Để thêm những "
 "cài đặt riêng, bấm nút \"+\" bên dưới."
 
-#: ../data/greeter.ui.h:42
+#: ../data/greeter.ui.h:42 ../tailsgreeter/gui.py:690
 msgid "Off (default)"
 msgstr "Tắt (mặc định)"
 
-#: ../data/greeter.ui.h:43
+#: ../data/greeter.ui.h:43 ../tailsgreeter/gui.py:688
 msgid "On (default)"
 msgstr "Mở (mặc định)"
 
@@ -225,7 +214,7 @@ msgstr "Mở (mặc định)"
 msgid "Network Connection"
 msgstr "Kết nối mạng lưới"
 
-#: ../data/greeter.ui.h:45 ../tailsgreeter/gui.py:894
+#: ../data/greeter.ui.h:45 ../tailsgreeter/gui.py:880
 msgid "Direct (default)"
 msgstr "Trực tiếp (mặc định)"
 
@@ -261,36 +250,27 @@ msgstr ""
 "Bạn sẽ cấu hình cầu nối Tor và ủy quyền nội bộ sau khi kết nối tới một mạng "
 "lưới."
 
-#: ../tailsgreeter/gui.py:698
+#: ../tailsgreeter/gui.py:693
 msgid "On"
 msgstr "Bật"
 
-#: ../tailsgreeter/gui.py:700
+#: ../tailsgreeter/gui.py:695
 msgid "Off"
 msgstr "tắt"
 
-#: ../tailsgreeter/gui.py:702
-#, python-brace-format
-msgid "{on_or_off} (default)"
-msgstr "{on_or_off} (default)"
-
-#: ../tailsgreeter/gui.py:759
-msgid "You would be able to set up an encrypted storage."
-msgstr "Bạn sẽ có thể cài đặt một vùng lưu trữ được mã hóa."
-
-#: ../tailsgreeter/gui.py:783
+#: ../tailsgreeter/gui.py:769
 msgid "Failed to relock persistent storage."
 msgstr "Thất bại khi khóa dung lượng bền vững lại."
 
-#: ../tailsgreeter/gui.py:900
+#: ../tailsgreeter/gui.py:886
 msgid "Bridge & Proxy"
 msgstr "Cầu nối & Ủy quyền"
 
-#: ../tailsgreeter/gui.py:906
+#: ../tailsgreeter/gui.py:892
 msgid "Offline"
 msgstr "Ngoại tuyến"
 
-#: ../tailsgreeter/gui.py:945
+#: ../tailsgreeter/gui.py:931
 msgid "Cannot unlock encrypted storage with this passphrase."
 msgstr "Không thể mở khóa vùng lưu trữ bị mã hóa với mật khẩu này."
 
