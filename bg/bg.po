@@ -121,56 +121,56 @@ msgstr "Език"
 
 #: ../data/greeter.ui.h:24
 msgid "Keyboard Layout"
-msgstr ""
+msgstr "Настройки на клавиатурата"
 
 #: ../data/greeter.ui.h:25
 msgid "Formats"
-msgstr ""
+msgstr "Формати"
 
 #: ../data/greeter.ui.h:26
 msgid "Time Zone"
-msgstr ""
+msgstr "Времева зона"
 
 #: ../data/greeter.ui.h:27
 msgid "Encrypted Persistent Storage"
-msgstr ""
+msgstr "Криптирано,постоянно дисково пространство"
 
 #: ../data/greeter.ui.h:28
 msgid "Show Passphrase"
-msgstr ""
+msgstr "Покажи паролата"
 
 #: ../data/greeter.ui.h:29
 msgid "Configure Persistent Storage"
-msgstr ""
+msgstr "Настройки на постоянното дисково пространство"
 
 #: ../data/greeter.ui.h:30
 msgid "Enter your passphrase to unlock the persistent storage"
-msgstr ""
+msgstr "Въведете паролата за отключване на постоянното дисково пространство"
 
 #: ../data/greeter.ui.h:31 ../tailsgreeter/gui.py:767
 #: ../tailsgreeter/gui.py:928
 msgid "Unlock"
-msgstr ""
+msgstr "Отключване"
 
 #: ../data/greeter.ui.h:32
 msgid "Relock Persistent Storage"
-msgstr ""
+msgstr "Заключване на постоянното дисково пространство"
 
 #: ../data/greeter.ui.h:33 ../tailsgreeter/gui.py:492
 msgid "Additional Settings"
-msgstr ""
+msgstr "Допълнителни настройки"
 
 #: ../data/greeter.ui.h:34
 msgid "Save Additional Settings"
-msgstr ""
+msgstr "Запазване на допълнителните настройки"
 
 #: ../data/greeter.ui.h:35
 msgid "Add an additional setting"
-msgstr ""
+msgstr "Добавяне на допълнителни настройки"
 
 #: ../data/greeter.ui.h:36
 msgid "Network Configuration"
-msgstr ""
+msgstr "Настройки на мрежата"
 
 #: ../data/greeter.ui.h:37
 msgid ""
@@ -178,14 +178,17 @@ msgid ""
 "configure a Tor bridge or a local proxy. To work completely offline, you can"
 " disable all networking."
 msgstr ""
+"Ако интернет връзката е цензурирана, филтрирана, или използва прокси може да"
+" настроите Tor мост или локално прокси. За да работите изцяло офлайн може да"
+" деактивирате всички мрежови връзки."
 
 #: ../data/greeter.ui.h:38
 msgid "Connect directly to the Tor network (default)"
-msgstr ""
+msgstr "Директна връзка с Tor мрежата (подразбиране)"
 
 #: ../data/greeter.ui.h:39
 msgid "Configure a Tor bridge, firewall, or proxy settings"
-msgstr ""
+msgstr "Задаване на Tor мост, файруол или прокси настройки"
 
 #: ../data/greeter.ui.h:40
 msgid "Disable all networking"
@@ -196,22 +199,24 @@ msgid ""
 "The default settings are safe in most situations. To add a custom setting, "
 "press the \"+\" button below."
 msgstr ""
+"Настройките по подразбиране са безопасни в повечето ситуации. За да зададете"
+" ръчни настройки натиснете \"+\" бутонът по-долу."
 
 #: ../data/greeter.ui.h:42 ../tailsgreeter/gui.py:690
 msgid "Off (default)"
-msgstr ""
+msgstr "Изкл (подразбиране)"
 
 #: ../data/greeter.ui.h:43 ../tailsgreeter/gui.py:688
 msgid "On (default)"
-msgstr ""
+msgstr "Вкл (подразбиране)"
 
 #: ../data/greeter.ui.h:44
 msgid "Network Connection"
-msgstr ""
+msgstr "Връзка с мрежата"
 
 #: ../data/greeter.ui.h:45 ../tailsgreeter/gui.py:880
 msgid "Direct (default)"
-msgstr ""
+msgstr "Директна (подразбиране)"
 
 #: ../tailsgreeter/gui.py:436
 msgid "Shutdown"
@@ -219,7 +224,7 @@ msgstr "Изключване"
 
 #: ../tailsgreeter/gui.py:442
 msgid "Start Tails"
-msgstr ""
+msgstr "Стартиране на Tails"
 
 #: ../tailsgreeter/gui.py:501
 msgid "Cancel"
@@ -235,29 +240,31 @@ msgstr "Назад"
 
 #: ../tailsgreeter/gui.py:627
 msgid "Unlocking…"
-msgstr ""
+msgstr "Отключване..."
 
 #: ../tailsgreeter/gui.py:653
 msgid ""
 "You will configure the Tor bridge and local proxy later on after connecting "
 "to a network."
 msgstr ""
+"Ще настроите Tor мост и локално прокси по-късно след установяване на връзка "
+"с мрежата."
 
 #: ../tailsgreeter/gui.py:693
 msgid "On"
-msgstr ""
+msgstr "Вкл"
 
 #: ../tailsgreeter/gui.py:695
 msgid "Off"
-msgstr ""
+msgstr "Изкл"
 
 #: ../tailsgreeter/gui.py:769
 msgid "Failed to relock persistent storage."
-msgstr ""
+msgstr "Неуспешно заключване на постоянното дисково пространство."
 
 #: ../tailsgreeter/gui.py:886
 msgid "Bridge & Proxy"
-msgstr ""
+msgstr "Мост & прокси"
 
 #: ../tailsgreeter/gui.py:892
 msgid "Offline"
@@ -266,6 +273,8 @@ msgstr "Извън линия"
 #: ../tailsgreeter/gui.py:931
 msgid "Cannot unlock encrypted storage with this passphrase."
 msgstr ""
+"Неуспешно отключване на криптираното дисково пространство със зададената "
+"парола."
 
 #: ../tailsgreeter/persistence.py:94
 #, python-brace-format
@@ -273,6 +282,8 @@ msgid ""
 "live-persist failed with return code {returncode}:\n"
 "{stderr}"
 msgstr ""
+"live-persist върна грешка с код {returncode}:\n"
+"{stderr}"
 
 #: ../tailsgreeter/persistence.py:136 ../tailsgreeter/persistence.py:161
 #: ../tailsgreeter/persistence.py:185
@@ -282,6 +293,9 @@ msgid ""
 "{stdout}\n"
 "{stderr}"
 msgstr ""
+"cryptsetup върна грешка с код {returncode}:\n"
+"{stdout}\n"
+"{stderr}"
 
 #: ../tailsgreeter/persistence.py:205
 #, python-brace-format
@@ -290,3 +304,6 @@ msgid ""
 "{stdout}\n"
 "{stderr}"
 msgstr ""
+"umount върна грешка с код {returncode}:\n"
+"{stdout}\n"
+"{stderr}"
