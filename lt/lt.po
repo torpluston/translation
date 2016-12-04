@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-12-02 12:10+0000\n"
+"POT-Creation-Date: 2016-12-03 13:14+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Gediminas Golcevas <>, 2016\n"
 "Language-Team: Lithuanian (https://www.transifex.com/otf/teams/1519/lt/)\n"
@@ -57,10 +57,8 @@ msgstr "Windows maskuotė"
 #: ../data/greeter.ui.h:10
 msgid ""
 "This option makes Tails look like Microsoft Windows 10. This can be useful "
-"to avoid attracting suspiction in public places."
+"to avoid attracting suspicion in public places."
 msgstr ""
-"Ši parinktis padaro taip, kad Tails atrodytų lyg Microsoft Windows 10. Tai "
-"gali praversti viešose vietose, siekiant išvengti įtarimų."
 
 #. This string will never be displayed in the 1st version of the greeter.
 #: ../data/greeter.ui.h:12
@@ -146,8 +144,8 @@ msgstr "Konfigūruoti ilgalaikį kaupiklį"
 msgid "Enter your passphrase to unlock the persistent storage"
 msgstr "Įveskite savo slaptafrazę, kad atrakintumėte ilgalaikį kaupiklį"
 
-#: ../data/greeter.ui.h:31 ../tailsgreeter/gui.py:767
-#: ../tailsgreeter/gui.py:928
+#: ../data/greeter.ui.h:31 ../tailsgreeter/gui.py:798
+#: ../tailsgreeter/gui.py:962
 msgid "Unlock"
 msgstr "Atrakinti"
 
@@ -155,7 +153,7 @@ msgstr "Atrakinti"
 msgid "Relock Persistent Storage"
 msgstr "Iš naujo užrakinti ilgalaikį kaupiklį"
 
-#: ../data/greeter.ui.h:33 ../tailsgreeter/gui.py:492
+#: ../data/greeter.ui.h:33 ../tailsgreeter/gui.py:514
 msgid "Additional Settings"
 msgstr "Papildomi nustatymai"
 
@@ -203,11 +201,11 @@ msgstr ""
 "Numatytieji nustatymai daugelyje situacijų yra saugūs. Norėdami pridėti "
 "tinkintą nustatymą, žemiau spustelėkite mygtuką \"+\"."
 
-#: ../data/greeter.ui.h:42 ../tailsgreeter/gui.py:690
+#: ../data/greeter.ui.h:42 ../tailsgreeter/gui.py:717
 msgid "Off (default)"
 msgstr ""
 
-#: ../data/greeter.ui.h:43 ../tailsgreeter/gui.py:688
+#: ../data/greeter.ui.h:43 ../tailsgreeter/gui.py:715
 msgid "On (default)"
 msgstr ""
 
@@ -215,35 +213,35 @@ msgstr ""
 msgid "Network Connection"
 msgstr "Tinklo ryšys"
 
-#: ../data/greeter.ui.h:45 ../tailsgreeter/gui.py:880
+#: ../data/greeter.ui.h:45 ../tailsgreeter/gui.py:914
 msgid "Direct (default)"
 msgstr "Tiesioginis (numatytasis)"
 
-#: ../tailsgreeter/gui.py:436
+#: ../tailsgreeter/gui.py:456
 msgid "Shutdown"
 msgstr "Išjungti"
 
-#: ../tailsgreeter/gui.py:442
+#: ../tailsgreeter/gui.py:462
 msgid "Start Tails"
 msgstr "Paleisti Tails"
 
-#: ../tailsgreeter/gui.py:501
+#: ../tailsgreeter/gui.py:523
 msgid "Cancel"
 msgstr "Atsisakyti"
 
-#: ../tailsgreeter/gui.py:505
+#: ../tailsgreeter/gui.py:527
 msgid "Add"
 msgstr "Pridėti"
 
-#: ../tailsgreeter/gui.py:511
+#: ../tailsgreeter/gui.py:534
 msgid "Back"
 msgstr "Atgal"
 
-#: ../tailsgreeter/gui.py:627
+#: ../tailsgreeter/gui.py:652
 msgid "Unlocking…"
 msgstr "Atrakinama..."
 
-#: ../tailsgreeter/gui.py:653
+#: ../tailsgreeter/gui.py:680
 msgid ""
 "You will configure the Tor bridge and local proxy later on after connecting "
 "to a network."
@@ -251,31 +249,31 @@ msgstr ""
 "Jūs sukonfigūruosite Tor tinklų tiltą ir vietinį įgaliotąjį serverį vėliau, "
 "po prisijungimo prie tinklo."
 
-#: ../tailsgreeter/gui.py:693
+#: ../tailsgreeter/gui.py:720
 msgid "On"
 msgstr ""
 
-#: ../tailsgreeter/gui.py:695
+#: ../tailsgreeter/gui.py:722
 msgid "Off"
 msgstr ""
 
-#: ../tailsgreeter/gui.py:769
+#: ../tailsgreeter/gui.py:801
 msgid "Failed to relock persistent storage."
 msgstr "Nepavyko iš naujo užrakinti ilgalaikį kaupiklį."
 
-#: ../tailsgreeter/gui.py:886
+#: ../tailsgreeter/gui.py:920
 msgid "Bridge & Proxy"
 msgstr "Tinklų tiltas ir įgaliotasis serveris"
 
-#: ../tailsgreeter/gui.py:892
+#: ../tailsgreeter/gui.py:926
 msgid "Offline"
 msgstr ""
 
-#: ../tailsgreeter/gui.py:931
+#: ../tailsgreeter/gui.py:965
 msgid "Cannot unlock encrypted storage with this passphrase."
 msgstr "Nepavyksta su šia slaptafraze atrakinti ilgalaikio kaupiklio."
 
-#: ../tailsgreeter/persistence.py:94
+#: ../tailsgreeter/persistence.py:96
 #, python-brace-format
 msgid ""
 "live-persist failed with return code {returncode}:\n"
@@ -284,8 +282,8 @@ msgstr ""
 "live-persist nepavyko su grįžties kodu {returncode}:\n"
 "{stderr}"
 
-#: ../tailsgreeter/persistence.py:136 ../tailsgreeter/persistence.py:161
-#: ../tailsgreeter/persistence.py:185
+#: ../tailsgreeter/persistence.py:138 ../tailsgreeter/persistence.py:163
+#: ../tailsgreeter/persistence.py:186
 #, python-brace-format
 msgid ""
 "cryptsetup failed with return code {returncode}:\n"
@@ -296,7 +294,7 @@ msgstr ""
 "{stdout}\n"
 "{stderr}"
 
-#: ../tailsgreeter/persistence.py:205
+#: ../tailsgreeter/persistence.py:206
 #, python-brace-format
 msgid ""
 "umount failed with return code {returncode}:\n"
