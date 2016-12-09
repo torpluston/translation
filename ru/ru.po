@@ -1,14 +1,14 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the PACKAGE package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# Tails GDM Greeter
+# Copyright (C) 2016 Tails devlopers
+# This file is distributed under the same license as the tails-greeter package.
+# Tails devloppers <tails@boum.org>, 2016.
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-11-18 00:07+0000\n"
+"POT-Creation-Date: 2016-12-03 13:14+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Oleg Sergeev <djvnsk@ya.ru>, 2016\n"
 "Language-Team: Russian (https://www.transifex.com/otf/teams/1519/ru/)\n"
@@ -48,28 +48,30 @@ msgstr "Подтвердите ваш пароль администратора"
 msgid "Disable"
 msgstr "Отключить"
 
-#: ../data/greeter.ui.h:7
+#. This string will never be displayed in the 1st version of the greeter.
+#: ../data/greeter.ui.h:8
 msgid "Windows Camouflage"
 msgstr "Маскировка под Windows"
 
-#: ../data/greeter.ui.h:8
+#. This string will never be displayed in the 1st version of the greeter.
+#: ../data/greeter.ui.h:10
 msgid ""
 "This option makes Tails look like Microsoft Windows 10. This can be useful "
-"to avoid attracting suspiction in public places."
+"to avoid attracting suspicion in public places."
 msgstr ""
 "Благодаря этой опции, Tails выглядит похожим на Microsoft Windows 10. Это "
-"может быть полезным, для того чтобы избежать привлечения внимания при "
-"использовании в публичных местах."
+"поможет избежать привлечения внимания при использовании в публичных местах."
 
-#: ../data/greeter.ui.h:9
+#. This string will never be displayed in the 1st version of the greeter.
+#: ../data/greeter.ui.h:12
 msgid "Microsoft Windows 10 camouflage"
 msgstr "Microsoft Windows 10 камуфляж"
 
-#: ../data/greeter.ui.h:10
+#: ../data/greeter.ui.h:13
 msgid "MAC Address Spoofing"
 msgstr "Подмена MAC-адреса"
 
-#: ../data/greeter.ui.h:11
+#: ../data/greeter.ui.h:14
 msgid ""
 "MAC address spoofing hides the serial number of your network interface (Wi-"
 "Fi or wired) to the local network. Spoofing MAC addresses is generally safer"
@@ -82,67 +84,53 @@ msgstr ""
 "местоположение. Следует иметь в виду, что это может выглядеть подозрительным"
 " и при этом возможны проблемы с подключением."
 
-#: ../data/greeter.ui.h:12
+#: ../data/greeter.ui.h:15
 msgid "Spoof all MAC addresses (default)"
 msgstr "Подмена всех MAC-адресов (по умолчанию)"
 
-#: ../data/greeter.ui.h:13
+#: ../data/greeter.ui.h:16
 msgid "Don't spoof MAC addresses"
 msgstr "Не подменять MAC-адреса"
 
-#: ../data/greeter.ui.h:14
+#: ../data/greeter.ui.h:17
 msgid "Welcome to Tails!"
 msgstr "Добро пожаловать в Tails!"
 
-#: ../data/greeter.ui.h:15
+#. This string will never be displayed in the 1st version of the greeter.
+#: ../data/greeter.ui.h:19
+msgctxt ""
 msgid ""
 "To get guided through Tails' settings, click on <b>Take a Tour</b> above"
 msgstr ""
 "Чтобы познакомиться с настройками Tails, нажмите на <b>Take a Tour</b> выше"
 
-#: ../data/greeter.ui.h:16
+#: ../data/greeter.ui.h:20
 msgid "Language & Region"
 msgstr "Язык и регион"
 
-#: ../data/greeter.ui.h:17
+#: ../data/greeter.ui.h:21
 msgid "Default Settings"
 msgstr "Настройки по умолчанию"
 
-#: ../data/greeter.ui.h:18
+#: ../data/greeter.ui.h:22
 msgid "Save Language & Region Settings"
 msgstr "Сохранить язык и региональные настройки"
 
-#: ../data/greeter.ui.h:19
+#: ../data/greeter.ui.h:23
 msgid "Language"
 msgstr "Язык"
 
-#: ../data/greeter.ui.h:20
-msgid "English"
-msgstr "Английский"
-
-#: ../data/greeter.ui.h:21
+#: ../data/greeter.ui.h:24
 msgid "Keyboard Layout"
 msgstr "Раскладка клавиатуры"
 
-#: ../data/greeter.ui.h:22
-msgid "English (US)"
-msgstr "Английский (US)"
-
-#: ../data/greeter.ui.h:23
+#: ../data/greeter.ui.h:25
 msgid "Formats"
 msgstr "Форматы"
 
-#: ../data/greeter.ui.h:24
-msgid "United States"
-msgstr "Соединенные Штаты"
-
-#: ../data/greeter.ui.h:25
+#: ../data/greeter.ui.h:26
 msgid "Time Zone"
 msgstr "Часовой пояс"
-
-#: ../data/greeter.ui.h:26
-msgid "UTC"
-msgstr "UTC"
 
 #: ../data/greeter.ui.h:27
 msgid "Encrypted Persistent Storage"
@@ -160,8 +148,8 @@ msgstr "Настроить постоянное хранилище"
 msgid "Enter your passphrase to unlock the persistent storage"
 msgstr "Введите вашу ключевую фразу для разблокировки постоянного хранилища"
 
-#: ../data/greeter.ui.h:31 ../tailsgreeter/gui.py:781
-#: ../tailsgreeter/gui.py:942
+#: ../data/greeter.ui.h:31 ../tailsgreeter/gui.py:798
+#: ../tailsgreeter/gui.py:962
 msgid "Unlock"
 msgstr "Разблокировать"
 
@@ -169,7 +157,7 @@ msgstr "Разблокировать"
 msgid "Relock Persistent Storage"
 msgstr "Заблокировать постоянное хранилище"
 
-#: ../data/greeter.ui.h:33 ../tailsgreeter/gui.py:492
+#: ../data/greeter.ui.h:33 ../tailsgreeter/gui.py:514
 msgid "Additional Settings"
 msgstr "Дополнительные настройки"
 
@@ -178,8 +166,8 @@ msgid "Save Additional Settings"
 msgstr "Сохранить дополнительные настройки"
 
 #: ../data/greeter.ui.h:35
-msgid "toolbutton"
-msgstr "кнопка на панели"
+msgid "Add an additional setting"
+msgstr "Добавить дополнительный параметр"
 
 #: ../data/greeter.ui.h:36
 msgid "Network Configuration"
@@ -216,11 +204,11 @@ msgstr ""
 "Настройки по умолчанию являются безопасными в большинстве ситуаций. Для "
 "добавления пользовательской настройки, нажмите кнопку \"+\" ниже."
 
-#: ../data/greeter.ui.h:42
+#: ../data/greeter.ui.h:42 ../tailsgreeter/gui.py:717
 msgid "Off (default)"
 msgstr "Выключить (по умолчанию)"
 
-#: ../data/greeter.ui.h:43
+#: ../data/greeter.ui.h:43 ../tailsgreeter/gui.py:715
 msgid "On (default)"
 msgstr "Включить (по умолчанию)"
 
@@ -228,75 +216,66 @@ msgstr "Включить (по умолчанию)"
 msgid "Network Connection"
 msgstr "Сетевое подключение"
 
-#: ../data/greeter.ui.h:45 ../tailsgreeter/gui.py:894
+#: ../data/greeter.ui.h:45 ../tailsgreeter/gui.py:914
 msgid "Direct (default)"
 msgstr "Прямой (по умолчанию)"
 
-#: ../tailsgreeter/gui.py:436
+#: ../tailsgreeter/gui.py:456
 msgid "Shutdown"
 msgstr "Закрытие"
 
-#: ../tailsgreeter/gui.py:442
+#: ../tailsgreeter/gui.py:462
 msgid "Start Tails"
 msgstr "Запустить Tails"
 
-#: ../tailsgreeter/gui.py:501
+#: ../tailsgreeter/gui.py:523
 msgid "Cancel"
 msgstr "Отмена"
 
-#: ../tailsgreeter/gui.py:505
+#: ../tailsgreeter/gui.py:527
 msgid "Add"
 msgstr "Добавить"
 
-#: ../tailsgreeter/gui.py:511
+#: ../tailsgreeter/gui.py:534
 msgid "Back"
 msgstr "Назад"
 
-#: ../tailsgreeter/gui.py:627
+#: ../tailsgreeter/gui.py:652
 msgid "Unlocking…"
 msgstr "Разблокировка..."
 
-#: ../tailsgreeter/gui.py:653
+#: ../tailsgreeter/gui.py:680
 msgid ""
 "You will configure the Tor bridge and local proxy later on after connecting "
 "to a network."
 msgstr ""
 "Вы сможете настроить мост Tor и локальный прокси после подключения к сети."
 
-#: ../tailsgreeter/gui.py:698
+#: ../tailsgreeter/gui.py:720
 msgid "On"
 msgstr "Включить"
 
-#: ../tailsgreeter/gui.py:700
+#: ../tailsgreeter/gui.py:722
 msgid "Off"
 msgstr "Выключить"
 
-#: ../tailsgreeter/gui.py:702
-#, python-brace-format
-msgid "{on_or_off} (default)"
-msgstr "{On_or_off} (по умолчанию)"
-
-#: ../tailsgreeter/gui.py:759
-msgid "You would be able to set up an encrypted storage."
-msgstr "Вы сможете создать зашифрованное хранилище."
-
-#: ../tailsgreeter/gui.py:783
+#: ../tailsgreeter/gui.py:801
 msgid "Failed to relock persistent storage."
 msgstr "Не удалось заблокировать постоянное хранилище."
 
-#: ../tailsgreeter/gui.py:900
+#: ../tailsgreeter/gui.py:920
 msgid "Bridge & Proxy"
 msgstr "Мост и прокси"
 
-#: ../tailsgreeter/gui.py:906
+#: ../tailsgreeter/gui.py:926
 msgid "Offline"
 msgstr "Отключен"
 
-#: ../tailsgreeter/gui.py:945
+#: ../tailsgreeter/gui.py:965
 msgid "Cannot unlock encrypted storage with this passphrase."
 msgstr "Не удается открыть зашифрованное хранилище с этой ключевой фразой."
 
-#: ../tailsgreeter/persistence.py:94
+#: ../tailsgreeter/persistence.py:96
 #, python-brace-format
 msgid ""
 "live-persist failed with return code {returncode}:\n"
@@ -305,8 +284,8 @@ msgstr ""
 "live-persist не сработал, код ошибки {returncode}:\n"
 "{stderr}"
 
-#: ../tailsgreeter/persistence.py:136 ../tailsgreeter/persistence.py:161
-#: ../tailsgreeter/persistence.py:185
+#: ../tailsgreeter/persistence.py:138 ../tailsgreeter/persistence.py:163
+#: ../tailsgreeter/persistence.py:186
 #, python-brace-format
 msgid ""
 "cryptsetup failed with return code {returncode}:\n"
@@ -317,7 +296,7 @@ msgstr ""
 "{stdout}\n"
 "{stderr}"
 
-#: ../tailsgreeter/persistence.py:205
+#: ../tailsgreeter/persistence.py:206
 #, python-brace-format
 msgid ""
 "umount failed with return code {returncode}:\n"
