@@ -1,16 +1,16 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the PACKAGE package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# Tails GDM Greeter
+# Copyright (C) 2016 Tails devlopers
+# This file is distributed under the same license as the tails-greeter package.
+# Tails devloppers <tails@boum.org>, 2016.
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-11-18 00:07+0000\n"
+"POT-Creation-Date: 2016-12-03 13:14+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Agustín Wu <losangwuyts@gmail.com>, 2016\n"
+"Last-Translator: Kai Moffit <mytransifex@riseup.net>, 2016\n"
 "Language-Team: Chinese (Taiwan) (https://www.transifex.com/otf/teams/1519/zh_TW/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -45,25 +45,28 @@ msgstr "確認您的系統管理員密碼"
 msgid "Disable"
 msgstr "關閉"
 
-#: ../data/greeter.ui.h:7
+#. This string will never be displayed in the 1st version of the greeter.
+#: ../data/greeter.ui.h:8
 msgid "Windows Camouflage"
 msgstr "偽裝成Windows"
 
-#: ../data/greeter.ui.h:8
+#. This string will never be displayed in the 1st version of the greeter.
+#: ../data/greeter.ui.h:10
 msgid ""
 "This option makes Tails look like Microsoft Windows 10. This can be useful "
-"to avoid attracting suspiction in public places."
-msgstr "此功能可以將 Tails 的外觀偽裝成微軟的 Windows 10，以便當您在公眾場所使用電腦時，可以避免引起旁人的注意。"
+"to avoid attracting suspicion in public places."
+msgstr "這選項讓 Tails 看起來像 Microsoft Windows 10。這可以讓您在公共場所時不受矚目。"
 
-#: ../data/greeter.ui.h:9
+#. This string will never be displayed in the 1st version of the greeter.
+#: ../data/greeter.ui.h:12
 msgid "Microsoft Windows 10 camouflage"
 msgstr "微軟 Windows 10 偽裝"
 
-#: ../data/greeter.ui.h:10
+#: ../data/greeter.ui.h:13
 msgid "MAC Address Spoofing"
 msgstr "網路卡實體位址偽裝"
 
-#: ../data/greeter.ui.h:11
+#: ../data/greeter.ui.h:14
 msgid ""
 "MAC address spoofing hides the serial number of your network interface (Wi-"
 "Fi or wired) to the local network. Spoofing MAC addresses is generally safer"
@@ -72,66 +75,52 @@ msgid ""
 msgstr ""
 "每張網路卡都有一個獨一無二的實體位址，偽裝此位址可以避免本地端的網路(無論是有線或無線)得知您真實的網路卡實體位址，進而掩飾您實際的地理位置。但是在某些情況中，可能會造成網路連線的問題，或是增加可疑性。"
 
-#: ../data/greeter.ui.h:12
+#: ../data/greeter.ui.h:15
 msgid "Spoof all MAC addresses (default)"
 msgstr "偽裝所有的網路卡實體位址(預設)"
 
-#: ../data/greeter.ui.h:13
+#: ../data/greeter.ui.h:16
 msgid "Don't spoof MAC addresses"
 msgstr "不要偽裝網路卡實體位址"
 
-#: ../data/greeter.ui.h:14
+#: ../data/greeter.ui.h:17
 msgid "Welcome to Tails!"
 msgstr "歡迎使用 Tails！"
 
-#: ../data/greeter.ui.h:15
+#. This string will never be displayed in the 1st version of the greeter.
+#: ../data/greeter.ui.h:19
+msgctxt ""
 msgid ""
 "To get guided through Tails' settings, click on <b>Take a Tour</b> above"
 msgstr "若要針對 Tails 的設定進行導覽，請點選<b>功能導覽</b>"
 
-#: ../data/greeter.ui.h:16
+#: ../data/greeter.ui.h:20
 msgid "Language & Region"
 msgstr "語言和區域"
 
-#: ../data/greeter.ui.h:17
+#: ../data/greeter.ui.h:21
 msgid "Default Settings"
 msgstr "預設值"
 
-#: ../data/greeter.ui.h:18
+#: ../data/greeter.ui.h:22
 msgid "Save Language & Region Settings"
 msgstr "儲存語言與區域的設定值"
 
-#: ../data/greeter.ui.h:19
+#: ../data/greeter.ui.h:23
 msgid "Language"
 msgstr "語言"
 
-#: ../data/greeter.ui.h:20
-msgid "English"
-msgstr "英文"
-
-#: ../data/greeter.ui.h:21
+#: ../data/greeter.ui.h:24
 msgid "Keyboard Layout"
 msgstr "鍵盤佈局"
 
-#: ../data/greeter.ui.h:22
-msgid "English (US)"
-msgstr "美式英文"
-
-#: ../data/greeter.ui.h:23
+#: ../data/greeter.ui.h:25
 msgid "Formats"
 msgstr "格式"
 
-#: ../data/greeter.ui.h:24
-msgid "United States"
-msgstr "美國"
-
-#: ../data/greeter.ui.h:25
+#: ../data/greeter.ui.h:26
 msgid "Time Zone"
 msgstr "時區"
-
-#: ../data/greeter.ui.h:26
-msgid "UTC"
-msgstr "UTC"
 
 #: ../data/greeter.ui.h:27
 msgid "Encrypted Persistent Storage"
@@ -149,8 +138,8 @@ msgstr "設定永久性儲存裝置"
 msgid "Enter your passphrase to unlock the persistent storage"
 msgstr "請輸入密碼以便解鎖永久性儲存裝置"
 
-#: ../data/greeter.ui.h:31 ../tailsgreeter/gui.py:781
-#: ../tailsgreeter/gui.py:942
+#: ../data/greeter.ui.h:31 ../tailsgreeter/gui.py:798
+#: ../tailsgreeter/gui.py:962
 msgid "Unlock"
 msgstr "解鎖"
 
@@ -158,7 +147,7 @@ msgstr "解鎖"
 msgid "Relock Persistent Storage"
 msgstr "重新鎖定永久性儲存裝置"
 
-#: ../data/greeter.ui.h:33 ../tailsgreeter/gui.py:492
+#: ../data/greeter.ui.h:33 ../tailsgreeter/gui.py:514
 msgid "Additional Settings"
 msgstr "額外的設定"
 
@@ -167,8 +156,8 @@ msgid "Save Additional Settings"
 msgstr "儲存額外的設定"
 
 #: ../data/greeter.ui.h:35
-msgid "toolbutton"
-msgstr "工具按鈕"
+msgid "Add an additional setting"
+msgstr "添加一個額外設定"
 
 #: ../data/greeter.ui.h:36
 msgid "Network Configuration"
@@ -199,11 +188,11 @@ msgid ""
 "press the \"+\" button below."
 msgstr "在大多數的情況下，預設的設定值是很安全的。若您想要增加個人化的設定，請按下方的「+」按鈕。"
 
-#: ../data/greeter.ui.h:42
+#: ../data/greeter.ui.h:42 ../tailsgreeter/gui.py:717
 msgid "Off (default)"
 msgstr "關閉(預設)"
 
-#: ../data/greeter.ui.h:43
+#: ../data/greeter.ui.h:43 ../tailsgreeter/gui.py:715
 msgid "On (default)"
 msgstr "啟用(預設)"
 
@@ -211,74 +200,65 @@ msgstr "啟用(預設)"
 msgid "Network Connection"
 msgstr "網路連線"
 
-#: ../data/greeter.ui.h:45 ../tailsgreeter/gui.py:894
+#: ../data/greeter.ui.h:45 ../tailsgreeter/gui.py:914
 msgid "Direct (default)"
 msgstr "直接(預設)"
 
-#: ../tailsgreeter/gui.py:436
+#: ../tailsgreeter/gui.py:456
 msgid "Shutdown"
 msgstr "關閉"
 
-#: ../tailsgreeter/gui.py:442
+#: ../tailsgreeter/gui.py:462
 msgid "Start Tails"
 msgstr "啟動 Tails"
 
-#: ../tailsgreeter/gui.py:501
+#: ../tailsgreeter/gui.py:523
 msgid "Cancel"
 msgstr "取消"
 
-#: ../tailsgreeter/gui.py:505
+#: ../tailsgreeter/gui.py:527
 msgid "Add"
 msgstr "新增"
 
-#: ../tailsgreeter/gui.py:511
+#: ../tailsgreeter/gui.py:534
 msgid "Back"
 msgstr "返回"
 
-#: ../tailsgreeter/gui.py:627
+#: ../tailsgreeter/gui.py:652
 msgid "Unlocking…"
 msgstr "解鎖中...."
 
-#: ../tailsgreeter/gui.py:653
+#: ../tailsgreeter/gui.py:680
 msgid ""
 "You will configure the Tor bridge and local proxy later on after connecting "
 "to a network."
 msgstr "當您連接上網路之後，將會需要設定洋蔥路由橋接器與本地端代理伺服器。"
 
-#: ../tailsgreeter/gui.py:698
+#: ../tailsgreeter/gui.py:720
 msgid "On"
 msgstr "啟動"
 
-#: ../tailsgreeter/gui.py:700
+#: ../tailsgreeter/gui.py:722
 msgid "Off"
 msgstr "關閉"
 
-#: ../tailsgreeter/gui.py:702
-#, python-brace-format
-msgid "{on_or_off} (default)"
-msgstr "{on_or_off} (預設)"
-
-#: ../tailsgreeter/gui.py:759
-msgid "You would be able to set up an encrypted storage."
-msgstr "您可以設定一個加密的儲存裝置。"
-
-#: ../tailsgreeter/gui.py:783
+#: ../tailsgreeter/gui.py:801
 msgid "Failed to relock persistent storage."
 msgstr "永久性儲存裝置重新鎖定失敗。"
 
-#: ../tailsgreeter/gui.py:900
+#: ../tailsgreeter/gui.py:920
 msgid "Bridge & Proxy"
 msgstr "橋接器與代理伺服器"
 
-#: ../tailsgreeter/gui.py:906
+#: ../tailsgreeter/gui.py:926
 msgid "Offline"
 msgstr "離線"
 
-#: ../tailsgreeter/gui.py:945
+#: ../tailsgreeter/gui.py:965
 msgid "Cannot unlock encrypted storage with this passphrase."
 msgstr "此通關密語無法解鎖加密的儲存裝置。"
 
-#: ../tailsgreeter/persistence.py:94
+#: ../tailsgreeter/persistence.py:96
 #, python-brace-format
 msgid ""
 "live-persist failed with return code {returncode}:\n"
@@ -287,8 +267,8 @@ msgstr ""
 "live-persist failed with return code {returncode}:\n"
 "{stderr}"
 
-#: ../tailsgreeter/persistence.py:136 ../tailsgreeter/persistence.py:161
-#: ../tailsgreeter/persistence.py:185
+#: ../tailsgreeter/persistence.py:138 ../tailsgreeter/persistence.py:163
+#: ../tailsgreeter/persistence.py:186
 #, python-brace-format
 msgid ""
 "cryptsetup failed with return code {returncode}:\n"
@@ -299,7 +279,7 @@ msgstr ""
 "{stdout}\n"
 "{stderr}"
 
-#: ../tailsgreeter/persistence.py:205
+#: ../tailsgreeter/persistence.py:206
 #, python-brace-format
 msgid ""
 "umount failed with return code {returncode}:\n"
