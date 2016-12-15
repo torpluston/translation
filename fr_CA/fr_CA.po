@@ -148,32 +148,32 @@ msgstr "Configurer le stockage persistant"
 #: ../data/greeter.ui.h:30
 msgid "Enter your passphrase to unlock the persistent storage"
 msgstr ""
-"Saisissez votre phrase de passe pour déverrouiller le stockage persistant"
+"Saisir votre phrase de passe pour déverrouiller le stockage persistant"
 
 #: ../data/greeter.ui.h:31 ../tailsgreeter/gui.py:798
 #: ../tailsgreeter/gui.py:962
 msgid "Unlock"
-msgstr ""
+msgstr "Déverrouiller"
 
 #: ../data/greeter.ui.h:32
 msgid "Relock Persistent Storage"
-msgstr ""
+msgstr "Reverrouiller le stockage persistant"
 
 #: ../data/greeter.ui.h:33 ../tailsgreeter/gui.py:514
 msgid "Additional Settings"
-msgstr ""
+msgstr "Paramètres supplémentaires"
 
 #: ../data/greeter.ui.h:34
 msgid "Save Additional Settings"
-msgstr ""
+msgstr "Enregistrer les paramètres supplémentaires"
 
 #: ../data/greeter.ui.h:35
 msgid "Add an additional setting"
-msgstr ""
+msgstr "Ajouter un paramètre supplémentaire"
 
 #: ../data/greeter.ui.h:36
 msgid "Network Configuration"
-msgstr ""
+msgstr "Configuration du réseau"
 
 #: ../data/greeter.ui.h:37
 msgid ""
@@ -181,40 +181,45 @@ msgid ""
 "configure a Tor bridge or a local proxy. To work completely offline, you can"
 " disable all networking."
 msgstr ""
+"Si votre connexion Internet est censurée, filtrée ou relayée par un serveur "
+"mandataire, vous pouvez configurer un pont Tor ou un mandataire local. Pour "
+"travailler complètement hors ligne, vous pouvez désactiver le réseau."
 
 #: ../data/greeter.ui.h:38
 msgid "Connect directly to the Tor network (default)"
-msgstr ""
+msgstr "Se connecter directement au réseau Tor (par défaut)"
 
 #: ../data/greeter.ui.h:39
 msgid "Configure a Tor bridge, firewall, or proxy settings"
-msgstr ""
+msgstr "Configurer un pont Tor, un pare-feu ou les paramètres du mandataire"
 
 #: ../data/greeter.ui.h:40
 msgid "Disable all networking"
-msgstr "Désactiver tous les réseaux"
+msgstr "Désactiver le réseau"
 
 #: ../data/greeter.ui.h:41
 msgid ""
 "The default settings are safe in most situations. To add a custom setting, "
 "press the \"+\" button below."
 msgstr ""
+"Les paramètres par défaut sont sécuritaires dans la plupart des cas. Pour "
+"ajouter un paramètre personnalisé, peser sur le bouton « + » ci-dessous."
 
 #: ../data/greeter.ui.h:42 ../tailsgreeter/gui.py:717
 msgid "Off (default)"
-msgstr ""
+msgstr "Désactivé (par défaut)"
 
 #: ../data/greeter.ui.h:43 ../tailsgreeter/gui.py:715
 msgid "On (default)"
-msgstr ""
+msgstr "Activé (par défaut)"
 
 #: ../data/greeter.ui.h:44
 msgid "Network Connection"
-msgstr ""
+msgstr "Connexion réseau"
 
 #: ../data/greeter.ui.h:45 ../tailsgreeter/gui.py:914
 msgid "Direct (default)"
-msgstr ""
+msgstr "Directe (par défaut)"
 
 #: ../tailsgreeter/gui.py:456
 msgid "Shutdown"
@@ -222,7 +227,7 @@ msgstr "Extinction"
 
 #: ../tailsgreeter/gui.py:462
 msgid "Start Tails"
-msgstr ""
+msgstr "Démarrer Tails"
 
 #: ../tailsgreeter/gui.py:523
 msgid "Cancel"
@@ -234,33 +239,35 @@ msgstr "Ajouter"
 
 #: ../tailsgreeter/gui.py:534
 msgid "Back"
-msgstr ""
+msgstr "Retour"
 
 #: ../tailsgreeter/gui.py:652
 msgid "Unlocking…"
-msgstr ""
+msgstr "Déverrouillage..."
 
 #: ../tailsgreeter/gui.py:680
 msgid ""
 "You will configure the Tor bridge and local proxy later on after connecting "
 "to a network."
 msgstr ""
+"Vous configurerez le pont Tor et le mandataire local plus tard, après vous "
+"être connecté à un réseau"
 
 #: ../tailsgreeter/gui.py:720
 msgid "On"
-msgstr ""
+msgstr "Activé"
 
 #: ../tailsgreeter/gui.py:722
 msgid "Off"
-msgstr ""
+msgstr "Désactivé"
 
 #: ../tailsgreeter/gui.py:801
 msgid "Failed to relock persistent storage."
-msgstr ""
+msgstr "Échec de reverrouillage du stockage persistant."
 
 #: ../tailsgreeter/gui.py:920
 msgid "Bridge & Proxy"
-msgstr ""
+msgstr "Bon et mandataire"
 
 #: ../tailsgreeter/gui.py:926
 msgid "Offline"
@@ -277,6 +284,8 @@ msgid ""
 "live-persist failed with return code {returncode}:\n"
 "{stderr}"
 msgstr ""
+"live-persist a échoué avec le code de retour {returncode}:\n"
+"{stderr}"
 
 #: ../tailsgreeter/persistence.py:138 ../tailsgreeter/persistence.py:163
 #: ../tailsgreeter/persistence.py:186
@@ -286,6 +295,9 @@ msgid ""
 "{stdout}\n"
 "{stderr}"
 msgstr ""
+"cryptsetup a échoué avec le code de retour {returncode} :\n"
+"{stdout}\n"
+"{stderr}"
 
 #: ../tailsgreeter/persistence.py:206
 #, python-brace-format
@@ -294,3 +306,6 @@ msgid ""
 "{stdout}\n"
 "{stderr}"
 msgstr ""
+"umount a échoué avec le code de retour {returncode} :\n"
+"{stdout}\n"
+"{stderr}"
