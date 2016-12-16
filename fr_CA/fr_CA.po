@@ -19,7 +19,7 @@ msgstr ""
 "Project-Id-Version: The Tor Project\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-11-02 21:23+0100\n"
-"PO-Revision-Date: 2016-12-16 13:45+0000\n"
+"PO-Revision-Date: 2016-12-16 14:03+0000\n"
 "Last-Translator: French language coordinator <french.translation@rbox.me>\n"
 "Language-Team: French (Canada) (http://www.transifex.com/otf/torproject/language/fr_CA/)\n"
 "MIME-Version: 1.0\n"
@@ -211,13 +211,13 @@ msgstr "Échec de vérification de la somme de contrôle MD5 de l'ISO"
 msgid ""
 "If you do not select an existing Live ISO, the selected release will be "
 "downloaded for you."
-msgstr "Si vous ne sélectionnez pas un Live ISO existant, la version choisie sera téléchargée pour vous."
+msgstr "Si vous ne sélectionnez pas un ISO autonome existant, la version choisie sera téléchargée pour vous."
 
 #: ../liveusb/launcher_ui.py:154
 msgid ""
 "Install\n"
 "by cloning"
-msgstr "Installer\npar clonage"
+msgstr "Installer par clonage"
 
 #: ../liveusb/dialog.py:172
 msgid "Install Tails"
@@ -250,7 +250,7 @@ msgstr "Il est impossible de mettre le dispositif %(pretty_name)s à niveau car 
 
 #: ../liveusb/gui.py:270
 msgid "LiveUSB creation failed!"
-msgstr "Échec lors de la création du LiveUSB!"
+msgstr "Échec de création de l'USB autonome!"
 
 #: ../liveusb/creator.py:1408
 msgid ""
@@ -271,7 +271,7 @@ msgstr "Le montage %s existe après démontage"
 #: ../liveusb/gui.py:588
 #, python-format
 msgid "No free space on device %(device)s"
-msgstr "Aucun espace sur le périphérique %(device)s."
+msgstr "Aucun espace libre sur le périphérique %(device)s."
 
 #: ../liveusb/creator.py:826
 msgid "No mount points found"
@@ -286,11 +286,11 @@ msgstr "Pas assez d'espace libre sur le périphérique.\nISO de %dMo + %dMo de p
 
 #: ../liveusb/gui.py:569
 msgid "Partition is FAT16; Restricting overlay size to 2G"
-msgstr "La partition est en FAT16; persistance restreinte à 2 Go"
+msgstr "La partition est en FAT16; restriction de la persistance à 2 Go"
 
 #: ../liveusb/gui.py:565
 msgid "Partition is FAT32; Restricting overlay size to 4G"
-msgstr "La partition est en FAT32; Restriction de la persistance à 4 Go"
+msgstr "La partition est en FAT32; restriction de la persistance à 4 Go"
 
 #: ../liveusb/creator.py:236 ../liveusb/creator.py:866
 #, python-format
@@ -315,7 +315,7 @@ msgstr "Rafraîchissement des versions..."
 
 #: ../liveusb/gui.py:486
 msgid "Releases updated!"
-msgstr "Version mise à jour!"
+msgstr "Versions mises à jour!"
 
 #: ../liveusb/creator.py:997 ../liveusb/creator.py:1331
 #, python-format
@@ -324,7 +324,7 @@ msgstr "Suppression de %(file)s"
 
 #: ../liveusb/creator.py:492
 msgid "Removing existing Live OS"
-msgstr "Suppression du SE Live existant"
+msgstr "Suppression du SE autonome existant"
 
 #: ../liveusb/creator.py:1186
 #, python-format
@@ -333,7 +333,7 @@ msgstr "Réinitialisation de l'enregistrement d'amorçage maître de %s"
 
 #: ../liveusb/gui.py:789
 msgid "Select Live ISO"
-msgstr "Choisir l'ISO Live"
+msgstr "Sélectionnez l'ISO autonome"
 
 #: ../liveusb/creator.py:192
 msgid "Setting up OLPC boot file..."
@@ -392,19 +392,19 @@ msgid ""
 "optionally downloading a release (if an existing one wasn't selected),  "
 "extracting the ISO to the USB device, creating the persistent overlay, and "
 "installing the bootloader."
-msgstr "Ce bouton démarrera le processus de création de la clé USB prête à l'emploi. Cela implique le téléchargement facultatif d'une version (si une version existante n'a pas sélectionné), l'extraction de l'ISO sur le périphérique USB, la création d'une zone persistante, et l'installation du chargeur de démarrage."
+msgstr "Ce bouton démarrera le processus de création de la clé USB autonome. Cela implique le téléchargement facultatif d'une version (si une version existante n'a pas sélectionné), l'extraction de l'ISO sur le périphérique USB, la création d'une zone persistante, et l'installation du chargeur de démarrage."
 
 #: ../liveusb/dialog.py:165
 msgid ""
 "This is the USB stick that you want to install your Live system on.  This "
 "device must be formatted with the FAT filesystem."
-msgstr "C'est la clé USB sur laquelle vous souhaitez installer votre système prêt à l'emploi. Elle doit être formatée avec le système de fichiers FAT."
+msgstr "C'est la clé USB sur laquelle vous souhaitez installer votre système autonome Elle doit être formatée avec le système de fichiers FAT."
 
 #: ../liveusb/dialog.py:170
 msgid ""
 "This is the progress bar that will indicate how far along in the LiveUSB "
 "creation process you are"
-msgstr "Ceci est la barre de progression qui vous indiquera l'avancement de la création de la clé USB prête à l'emploi."
+msgstr "Ceci est la barre de progression qui vous indiquera l'avancement de la création de la clé USB autonome."
 
 #: ../liveusb/dialog.py:169
 msgid "This is the status console, where all messages get written to."
@@ -462,12 +462,12 @@ msgstr "Impossible de monter le périphérique : %(message)s"
 #: ../liveusb/creator.py:517
 #, python-format
 msgid "Unable to remove directory from previous LiveOS: %(message)s"
-msgstr "Impossible d'enlever le répertoire du SE Live précédent : %(message)s"
+msgstr "Impossible d'enlever le répertoire du SE autonome précédent : %(message)s"
 
 #: ../liveusb/creator.py:505
 #, python-format
 msgid "Unable to remove file from previous LiveOS: %(message)s"
-msgstr "Impossible d'enlever le fichier du SE Live précédent : %(message)s"
+msgstr "Impossible d'enlever le fichier du SE autonome précédent : %(message)s"
 
 #: ../liveusb/creator.py:1189
 msgid ""
@@ -549,7 +549,7 @@ msgstr "Mettre à niveau\nà partir d'une ISO"
 
 #: ../liveusb/dialog.py:159
 msgid "Use existing Live system ISO"
-msgstr "Utiliser un ISO de système prêt à l'emploi existant"
+msgstr "Utiliser un ISO de système autonome existant"
 
 #: ../liveusb/creator.py:143
 msgid "Verifying ISO MD5 checksum"
