@@ -15,8 +15,8 @@ msgstr ""
 "Project-Id-Version: The Tor Project\n"
 "Report-Msgid-Bugs-To: Tails developers <tails@boum.org>\n"
 "POT-Creation-Date: 2016-05-25 02:27+0200\n"
-"PO-Revision-Date: 2016-11-27 14:18+0000\n"
-"Last-Translator: carolyn <carolyn@anhalt.org>\n"
+"PO-Revision-Date: 2016-12-21 03:59+0000\n"
+"Last-Translator: Agustín Wu <losangwuyts@gmail.com>\n"
 "Language-Team: Chinese (Taiwan) (http://www.transifex.com/otf/torproject/language/zh_TW/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -164,15 +164,15 @@ msgstr "永久性磁碟區沒有被解除鎖定。"
 
 #: ../lib/Tails/Persistence/Setup.pm:390
 msgid "Persistence volume is not mounted."
-msgstr "永久性磁碟區沒有被掛接。"
+msgstr "永久性磁碟區未掛載。"
 
 #: ../lib/Tails/Persistence/Setup.pm:395
 msgid "Persistence volume is not readable. Permissions or ownership problems?"
-msgstr "無法讀取永久性磁碟區，權限或是擁有權問題?"
+msgstr "無法讀取永久性磁碟區，擁有權或存取權有問題？"
 
 #: ../lib/Tails/Persistence/Setup.pm:400
 msgid "Persistence volume is not writable. Maybe it was mounted read-only?"
-msgstr "永久性磁碟區無法寫入。也許它被掛接成唯讀?"
+msgstr "永久性磁碟區無法寫入，或許它是掛載成唯讀模式？"
 
 #: ../lib/Tails/Persistence/Setup.pm:409
 #, perl-format
@@ -182,12 +182,12 @@ msgstr "Tails 正從非 USB / 非 SDIO 裝置 %s 執行。"
 #: ../lib/Tails/Persistence/Setup.pm:415
 #, perl-format
 msgid "Device %s is optical."
-msgstr "裝置 %s 是可選的。"
+msgstr "裝置 %s 是光學設備。"
 
 #: ../lib/Tails/Persistence/Setup.pm:422
 #, perl-format
 msgid "Device %s was not created using Tails Installer."
-msgstr "裝置 %s 不是用 Tails 安裝程式安裝。"
+msgstr "裝置 %s 並非以 Tails 安裝程式所建立的。"
 
 #: ../lib/Tails/Persistence/Setup.pm:668
 msgid "Persistence wizard - Finished"
@@ -198,7 +198,7 @@ msgid ""
 "Any changes you have made will only take effect after restarting Tails.\n"
 "\n"
 "You may now close this application."
-msgstr "您所作的任何變更都將在重新啟動 Tails 後生效。\n\n您現在可以關閉此應用程式。"
+msgstr "您所做的任何變更都只會在 Tails 重新啟動後才會生效。\n\n您現在可以關閉此應用程式。"
 
 #: ../lib/Tails/Persistence/Step/Bootstrap.pm:54
 msgid "Persistence wizard - Persistent volume creation"
@@ -206,7 +206,7 @@ msgstr "永久性精靈 - 建立永久性磁碟區"
 
 #: ../lib/Tails/Persistence/Step/Bootstrap.pm:57
 msgid "Choose a passphrase to protect the persistent volume"
-msgstr "請選擇一個複雜密碼來保護永久性磁碟區"
+msgstr "請選擇一個通關密語來保護永久性磁碟區"
 
 #. TRANSLATORS: size, device vendor, device model
 #: ../lib/Tails/Persistence/Step/Bootstrap.pm:61
@@ -214,7 +214,7 @@ msgstr "請選擇一個複雜密碼來保護永久性磁碟區"
 msgid ""
 "A %s persistent volume will be created on the <b>%s %s</b> device. Data on "
 "this volume will be stored in an encrypted form protected by a passphrase."
-msgstr "一個永久性磁碟區 %s 將會被建立在 <b>%s %s</b> 裝置上。在此磁碟區上的資料將會儲存在已加密的表單，使用複雜密碼保護。"
+msgstr "將會在 <b>%s %s</b> 裝置上建立一個永久性磁碟區 %s ，在此磁碟區上的資料都將會以加密過後的狀態儲存，只有使用通關密語才能將之解密。"
 
 #: ../lib/Tails/Persistence/Step/Bootstrap.pm:66
 msgid "Create"
@@ -226,7 +226,7 @@ msgid ""
 "understood. Tails can't help you if you use it wrong! See <a "
 "href='file:///usr/share/doc/tails/website/doc/first_steps/persistence.en.html'>Tails"
 " documentation about persistence</a> to learn more."
-msgstr "<b>小心!</b>使用持久性有必須好好了解的後果。如果您用錯了，Tails 無法幫您。請參閱  <a href='file:///usr/share/doc/tails/website/doc/first_steps/persistence.en.html'>與永久性有關的 Tails 文件</a> 來了解更多。"
+msgstr "<b>注意！</b>要使用永久性磁碟區的話，請務必先徹底了解其可能的後果，若您操作錯誤的話，Tails 系統也無法幫您補救。請參閱  <a href='file:///usr/share/doc/tails/website/doc/first_steps/persistence.en.html'>與永久性磁區有關的 Tails 文件</a> 來了解更多相關資訊。"
 
 #: ../lib/Tails/Persistence/Step/Bootstrap.pm:144
 msgid "Passphrase:"
