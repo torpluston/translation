@@ -24,7 +24,7 @@ msgstr ""
 "Project-Id-Version: The Tor Project\n"
 "Report-Msgid-Bugs-To: 'https://trac.torproject.org/projects/tor/newticket?component=BridgeDB&keywords=bridgedb-reported,msgid&cc=isis,sysrqb&owner=isis'\n"
 "POT-Creation-Date: 2015-07-25 03:40+0000\n"
-"PO-Revision-Date: 2016-12-29 23:12+0000\n"
+"PO-Revision-Date: 2016-12-29 23:44+0000\n"
 "Last-Translator: Misha Dyachuk <Wikia@scryptmail.com>\n"
 "Language-Team: Russian (http://www.transifex.com/otf/torproject/language/ru/)\n"
 "MIME-Version: 1.0\n"
@@ -247,7 +247,7 @@ msgid ""
 "Some bridges with IPv6 addresses are also available, though some Pluggable\n"
 "Transports aren't IPv6 compatible.\n"
 "\n"
-msgstr "Доступны некоторые мосты, поддерживающие адреса IPv6, хотя некоторые Pluggable\nTransports не совместимы с IPv6.\n\n"
+msgstr "Существуют мосты, поддерживающие работу с адресами IPv6, но в большинстве случаев передача данных по адресам IPv6 не поддерживается.\n"
 
 #. TRANSLATORS: Please DO NOT translate "BridgeDB".
 #. TRANSLATORS: The phrase "plain-ol'-vanilla" means "plain, boring,
@@ -261,20 +261,20 @@ msgid ""
 "Pluggable Transports %s which maybe doesn't sound as cool, but they can still\n"
 "help to circumvent internet censorship in many cases.\n"
 "\n"
-msgstr "Более того, BridgeDB содержит множество обычных мостов %s, не поддерживающих\nподключаемый транспорт %s, что может показаться не таким клёвым, но они во многих случаях\nмогут помочь обходить интернет-цензуру.\n"
+msgstr "Более того, BridgeDB содержит множество стандартных мостов %s, не поддерживающий передачу данных %s, что может повлиять на отображение страницы сайта, так-же они во многих случаях,\nпомогают обойти интернет-цензуру.\n"
 
 #: bridgedb/strings.py:101
 msgid "What are bridges?"
-msgstr "Что такое ретранслятор типа мост?"
+msgstr "Что такое соединение типа мост?"
 
 #: bridgedb/strings.py:102
 #, python-format
 msgid "%s Bridges %s are Tor relays that help you circumvent censorship."
-msgstr "%s Мосты %s - это ретрансляторы Tor, которые позволяют вам обходить цензуру."
+msgstr "%s Мост %s - это сетевое соединение в сети Tor, которые позволяют вам просматривать заблокированные сайты."
 
 #: bridgedb/strings.py:107
 msgid "I need an alternative way of getting bridges!"
-msgstr "Мне нужен альтернативный способ получения списка мостов!"
+msgstr "Другой способ получение списка соединений типа Мост!"
 
 #: bridgedb/strings.py:108
 #, python-format
@@ -282,17 +282,17 @@ msgid ""
 "Another way to get bridges is to send an email to %s. Please note that you must\n"
 "send the email using an address from one of the following email providers:\n"
 "%s, %s or %s."
-msgstr "Другим способом получения мостов является отправка электронного письма на адрес %s. Пожалуйста, обратите внимание на то, \nчто вы должны отправить электронный запрос с использованием одного из перечисленных сервисов: %s, %s или %s."
+msgstr "Другим способом для получения списка мостов является отправка электронного сообщения на адрес %s. Обратите внимание, \nвы должны отправить электронный запрос, только с использованием одного из доступных сервисов: %s, %s или %s."
 
 #: bridgedb/strings.py:115
 msgid "My bridges don't work! I need help!"
-msgstr "Мои мосты не работают! Помогите!"
+msgstr "Нет соединения с мостом! Помогите!"
 
 #. TRANSLATORS: Please DO NOT translate "Tor".
 #: bridgedb/strings.py:117
 #, python-format
 msgid "If your Tor doesn't work, you should email %s."
-msgstr "Если ваш Tor не работает, напишите нам %s."
+msgstr "Если не запускается Tor, тогда напишите нам на наш электронный адрес%s."
 
 #. TRANSLATORS: Please DO NOT translate "Pluggable Transports".
 #. TRANSLATORS: Please DO NOT translate "Tor Browser".
@@ -302,32 +302,32 @@ msgid ""
 "Try including as much info about your case as you can, including the list of\n"
 "bridges and Pluggable Transports you tried to use, your Tor Browser version,\n"
 "and any messages which Tor gave out, etc."
-msgstr "Постарайтесь предоставить исчерпывающую информацию о вашей проблеме, включая список мостов и Pluggable Transports, которые вы пытались использовать, версию ПО Tor Browser\nи все полученные от Tor уведомления."
+msgstr "Для быстрого устранения вашей проблемы, нужно в сообщении указать полную информацию о проблеме, включая имя моста и соединение которое вы использовали для передачи данных, а так-же версию Tor browser."
 
 #: bridgedb/strings.py:128
 msgid "Here are your bridge lines:"
-msgstr "Подготовленные адреса ретрансляторов:"
+msgstr "Строка ввода адреса моста:"
 
 #: bridgedb/strings.py:129
 msgid "Get Bridges!"
-msgstr "Получите ретрансляторы!"
+msgstr "Получить адрес моста!"
 
 #: bridgedb/strings.py:133
 msgid "Please select options for bridge type:"
-msgstr "Пожалуйста, выберите опции для типа ретранслятора:"
+msgstr "Пожалуйста, выберите опции для определения типа моста:"
 
 #: bridgedb/strings.py:134
 msgid "Do you need IPv6 addresses?"
-msgstr "Нужны ли вам адреса IPv6?"
+msgstr "Используете адреса IPv6?"
 
 #: bridgedb/strings.py:135
 #, python-format
 msgid "Do you need a %s?"
-msgstr "Вам нужен %s?"
+msgstr "Будете использовать %s?"
 
 #: bridgedb/strings.py:139
 msgid "Your browser is not displaying images properly."
-msgstr "Ваш браузер не показывает изображения должным образом."
+msgstr "Браузер не корректно отображает изображения."
 
 #: bridgedb/strings.py:140
 msgid "Enter the characters from the image above..."
