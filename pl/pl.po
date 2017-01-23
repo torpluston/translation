@@ -59,6 +59,8 @@ msgid ""
 "This option makes Tails look like Microsoft Windows 10. This can be useful "
 "to avoid attracting suspicion in public places."
 msgstr ""
+"Ta opcja zamienia interfejs Tails-a na podobny do Microsoft Windows 10. Może"
+" pomóc Ci uniknąć podejrzeń i ich przyciągania w miejscach publicznych."
 
 #. This string will never be displayed in the 1st version of the greeter.
 #: ../data/greeter.ui.h:12
@@ -67,7 +69,7 @@ msgstr "Kamuflaż Microsoft Windows 10"
 
 #: ../data/greeter.ui.h:13
 msgid "MAC Address Spoofing"
-msgstr ""
+msgstr "Fałszowanie Adresu MAC"
 
 #: ../data/greeter.ui.h:14
 msgid ""
@@ -76,10 +78,15 @@ msgid ""
 " as it helps you hide your geographical location. But it might also create "
 "connectivity problems or look suspicious."
 msgstr ""
+"Fałszowanie adresu MAC ukrywa number seryjny Twojej karty sieciowej lub kart"
+" sieciowych (Wi-Fi lub połączenie przewodowe) przed lokalnymi sieciami. "
+"Fałszowanie adresu MAC powoduje Ciebie bezpieczniejszym i pomaga ukryć Twoje"
+" położenie geograficzne, ale może również powodować problemy z siecią lub "
+"podejrzenia."
 
 #: ../data/greeter.ui.h:15
 msgid "Spoof all MAC addresses (default)"
-msgstr ""
+msgstr "Fałszuj wszystkie adresy MAC (domyślne)"
 
 #: ../data/greeter.ui.h:16
 msgid "Don't spoof MAC addresses"
@@ -118,7 +125,7 @@ msgstr "Układ Kalwiatury"
 
 #: ../data/greeter.ui.h:25
 msgid "Formats"
-msgstr ""
+msgstr "Formaty"
 
 #: ../data/greeter.ui.h:26
 msgid "Time Zone"
@@ -126,19 +133,19 @@ msgstr "Strefa Czasowa"
 
 #: ../data/greeter.ui.h:27
 msgid "Encrypted Persistent Storage"
-msgstr ""
+msgstr "Zaszyfruj Pamięć Trwałą"
 
 #: ../data/greeter.ui.h:28
 msgid "Show Passphrase"
-msgstr ""
+msgstr "Pokaż Hasło"
 
 #: ../data/greeter.ui.h:29
 msgid "Configure Persistent Storage"
-msgstr ""
+msgstr "Skonfiguruj Pamięć Trwałą"
 
 #: ../data/greeter.ui.h:30
 msgid "Enter your passphrase to unlock the persistent storage"
-msgstr ""
+msgstr "Wpisz Twoje hasło do odblokowania przechowania danych"
 
 #: ../data/greeter.ui.h:31 ../tailsgreeter/gui.py:798
 #: ../tailsgreeter/gui.py:962
@@ -147,11 +154,11 @@ msgstr "Odblokuj"
 
 #: ../data/greeter.ui.h:32
 msgid "Relock Persistent Storage"
-msgstr ""
+msgstr "Ponownie zablokuj Pamięć Trwałą"
 
 #: ../data/greeter.ui.h:33 ../tailsgreeter/gui.py:514
 msgid "Additional Settings"
-msgstr ""
+msgstr "Dodatkowe Ustawienia"
 
 #: ../data/greeter.ui.h:34
 msgid "Save Additional Settings"
@@ -159,7 +166,7 @@ msgstr "Zapisz Dodatkowe Ustawienia"
 
 #: ../data/greeter.ui.h:35
 msgid "Add an additional setting"
-msgstr ""
+msgstr "Dodaj dodatkowe ustawienie"
 
 #: ../data/greeter.ui.h:36
 msgid "Network Configuration"
@@ -171,10 +178,13 @@ msgid ""
 "configure a Tor bridge or a local proxy. To work completely offline, you can"
 " disable all networking."
 msgstr ""
+"Jeśli połączenie internetowe tego komputera jest ocenzurowane, filtrowane "
+"lub przepuszczane przez proxy.Możesz skonfigurować most lub ustawienia "
+"proxy. Do całkowitej pracy offline, możesz wyłączyć wszystkie sieci."
 
 #: ../data/greeter.ui.h:38
 msgid "Connect directly to the Tor network (default)"
-msgstr ""
+msgstr "Połącz bezpośrednio do Sieci Tor (domyślne)"
 
 #: ../data/greeter.ui.h:39
 msgid "Configure a Tor bridge, firewall, or proxy settings"
@@ -246,7 +256,7 @@ msgstr "Off"
 
 #: ../tailsgreeter/gui.py:801
 msgid "Failed to relock persistent storage."
-msgstr ""
+msgstr "Nie udało się ponownie zablokować Pamięci Trwałej."
 
 #: ../tailsgreeter/gui.py:920
 msgid "Bridge & Proxy"
@@ -258,7 +268,7 @@ msgstr "Poza zasięgiem"
 
 #: ../tailsgreeter/gui.py:965
 msgid "Cannot unlock encrypted storage with this passphrase."
-msgstr ""
+msgstr "Nie można odblokować zaszyfrowanej pamięci z tym hasłem."
 
 #: ../tailsgreeter/persistence.py:96
 #, python-brace-format
@@ -266,6 +276,8 @@ msgid ""
 "live-persist failed with return code {returncode}:\n"
 "{stderr}"
 msgstr ""
+"live-persist zakończył się błędem z kodem {returncode}:\n"
+"{stderr}"
 
 #: ../tailsgreeter/persistence.py:138 ../tailsgreeter/persistence.py:163
 #: ../tailsgreeter/persistence.py:186
@@ -275,6 +287,9 @@ msgid ""
 "{stdout}\n"
 "{stderr}"
 msgstr ""
+"cryptsetup zakończył się błędem z kodem {returncode}:\n"
+"{stdout}\n"
+"{stderr}"
 
 #: ../tailsgreeter/persistence.py:206
 #, python-brace-format
@@ -283,3 +298,6 @@ msgid ""
 "{stdout}\n"
 "{stderr}"
 msgstr ""
+"umount zakończył się błędem z kodem {returncode}:\n"
+"{stdout}\n"
+"{stderr}"
