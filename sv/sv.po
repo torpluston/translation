@@ -1,14 +1,14 @@
-# Tails GDM Greeter
-# Copyright (C) 2016 Tails devlopers
-# This file is distributed under the same license as the tails-greeter package.
-# Tails devloppers <tails@boum.org>, 2016.
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-12-03 13:14+0000\n"
+"POT-Creation-Date: 2017-01-31 10:47+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Bo Serrander <bserrander@gmail.com>, 2017\n"
 "Language-Team: Swedish (https://www.transifex.com/otf/teams/1519/sv/)\n"
@@ -89,88 +89,104 @@ msgstr "Fejka alla MAC-adresser (standard)"
 msgid "Don't spoof MAC addresses"
 msgstr "Fejka alla MAC-adresser"
 
-#: ../data/greeter.ui.h:17
+#: ../data/greeter.ui.h:17 ../tailsgreeter/gui.py:514
+msgid "Cannot unlock encrypted storage with this passphrase."
+msgstr "Kan inte att låsa upp krypterad lagring med detta lösenord."
+
+#: ../data/greeter.ui.h:18
+msgid ""
+"You will configure the Tor bridge and local proxy later on after connecting "
+"to a network."
+msgstr ""
+"Du konfigurerar Tor bron och lokala proxyn senare efter anslutning till ett "
+"nätverk."
+
+#: ../data/greeter.ui.h:19
 msgid "Welcome to Tails!"
 msgstr "Välkommen till Tails!"
 
 #. This string will never be displayed in the 1st version of the greeter.
-#: ../data/greeter.ui.h:19
+#: ../data/greeter.ui.h:21
 msgctxt ""
 msgid ""
 "To get guided through Tails' settings, click on <b>Take a Tour</b> above"
 msgstr ""
 "För att guidas genom Tails inställningar, klicka på <b>Ta en tur</b> ovan"
 
-#: ../data/greeter.ui.h:20
+#: ../data/greeter.ui.h:22
 msgid "Language & Region"
 msgstr "Språk & region"
 
-#: ../data/greeter.ui.h:21
+#: ../data/greeter.ui.h:23
 msgid "Default Settings"
 msgstr "Standardinställningar"
 
-#: ../data/greeter.ui.h:22
+#: ../data/greeter.ui.h:24
 msgid "Save Language & Region Settings"
 msgstr "Spara Språk och region inställningar"
 
-#: ../data/greeter.ui.h:23
+#: ../data/greeter.ui.h:25
 msgid "Language"
 msgstr "Språk"
 
-#: ../data/greeter.ui.h:24
+#: ../data/greeter.ui.h:26
 msgid "Keyboard Layout"
 msgstr "Tangentbordslayout"
 
-#: ../data/greeter.ui.h:25
+#: ../data/greeter.ui.h:27
 msgid "Formats"
 msgstr "Format"
 
-#: ../data/greeter.ui.h:26
+#: ../data/greeter.ui.h:28
 msgid "Time Zone"
 msgstr "Tidszon"
 
-#: ../data/greeter.ui.h:27
+#: ../data/greeter.ui.h:29
 msgid "Encrypted Persistent Storage"
 msgstr "Krypterad bestående lagring"
 
-#: ../data/greeter.ui.h:28
+#: ../data/greeter.ui.h:30
 msgid "Show Passphrase"
 msgstr "Visa lösenordsfras"
 
-#: ../data/greeter.ui.h:29
+#: ../data/greeter.ui.h:31
 msgid "Configure Persistent Storage"
 msgstr "Konfigurera bestående lagring"
 
-#: ../data/greeter.ui.h:30
+#: ../data/greeter.ui.h:32
 msgid "Enter your passphrase to unlock the persistent storage"
 msgstr "Mata in din lösenordfras för att låsa upp den bestående lagringren"
 
-#: ../data/greeter.ui.h:31 ../tailsgreeter/gui.py:798
-#: ../tailsgreeter/gui.py:962
+#: ../data/greeter.ui.h:33 ../tailsgreeter/gui.py:460
+#: ../tailsgreeter/gui.py:510
 msgid "Unlock"
 msgstr "Låsa upp"
 
-#: ../data/greeter.ui.h:32
+#: ../data/greeter.ui.h:34
 msgid "Relock Persistent Storage"
 msgstr "Lås igen beständig lagring"
 
-#: ../data/greeter.ui.h:33 ../tailsgreeter/gui.py:514
+#: ../data/greeter.ui.h:35
+msgid "Your persistent storage is unlocked. Restart Tails to lock it again."
+msgstr ""
+
+#: ../data/greeter.ui.h:36 ../tailsgreeter/gui.py:554
 msgid "Additional Settings"
 msgstr "Ytterligare inställningar"
 
-#: ../data/greeter.ui.h:34
+#: ../data/greeter.ui.h:37
 msgid "Save Additional Settings"
 msgstr "Spara ytterligare inställningar"
 
-#: ../data/greeter.ui.h:35
+#: ../data/greeter.ui.h:38
 msgid "Add an additional setting"
 msgstr "Lägg till ytterligare inställningar"
 
-#: ../data/greeter.ui.h:36
+#: ../data/greeter.ui.h:39
 msgid "Network Configuration"
 msgstr "Nätverkskonfiguration"
 
-#: ../data/greeter.ui.h:37
+#: ../data/greeter.ui.h:40
 msgid ""
 "If your Internet connection is censored, filtered, or proxied you can "
 "configure a Tor bridge or a local proxy. To work completely offline, you can"
@@ -180,19 +196,19 @@ msgstr ""
 "konfigurera en Tor bro eller en lokal proxy. För att arbeta helt urkopplad "
 "kan du inaktivera alla nätverk."
 
-#: ../data/greeter.ui.h:38
+#: ../data/greeter.ui.h:41
 msgid "Connect directly to the Tor network (default)"
 msgstr "Anslut direkt till Tor-nätverket (förvald)."
 
-#: ../data/greeter.ui.h:39
+#: ../data/greeter.ui.h:42
 msgid "Configure a Tor bridge, firewall, or proxy settings"
 msgstr "Konfigurera en Tor brygga, brandvägg- eller proxyinställningar"
 
-#: ../data/greeter.ui.h:40
+#: ../data/greeter.ui.h:43
 msgid "Disable all networking"
 msgstr "Inaktivera alla nätverk"
 
-#: ../data/greeter.ui.h:41
+#: ../data/greeter.ui.h:44
 msgid ""
 "The default settings are safe in most situations. To add a custom setting, "
 "press the \"+\" button below."
@@ -200,79 +216,63 @@ msgstr ""
 "Standardinställningarna är säkra i de flesta situationer. För att lägga till"
 " en anpassad inställning, trycka på \"+\"-knappen nedan."
 
-#: ../data/greeter.ui.h:42 ../tailsgreeter/gui.py:717
+#: ../data/greeter.ui.h:45
 msgid "Off (default)"
 msgstr "Av (standard)"
 
-#: ../data/greeter.ui.h:43 ../tailsgreeter/gui.py:715
+#: ../data/greeter.ui.h:46
 msgid "On (default)"
 msgstr "På (standard)"
 
-#: ../data/greeter.ui.h:44
+#: ../data/greeter.ui.h:47
 msgid "Network Connection"
 msgstr "Nätverksanslutning"
 
-#: ../data/greeter.ui.h:45 ../tailsgreeter/gui.py:914
+#: ../data/greeter.ui.h:48 ../tailsgreeter/gui.py:367
 msgid "Direct (default)"
 msgstr "Direkt (standard)"
 
-#: ../tailsgreeter/gui.py:456
-msgid "Shutdown"
-msgstr "Stäng av"
-
-#: ../tailsgreeter/gui.py:462
-msgid "Start Tails"
-msgstr "Starta Tails"
-
-#: ../tailsgreeter/gui.py:523
-msgid "Cancel"
-msgstr "Avbryt"
-
-#: ../tailsgreeter/gui.py:527
-msgid "Add"
-msgstr "Lägg till"
-
-#: ../tailsgreeter/gui.py:534
-msgid "Back"
-msgstr "Tillbaka"
-
-#: ../tailsgreeter/gui.py:652
-msgid "Unlocking…"
-msgstr "Låser upp..."
-
-#: ../tailsgreeter/gui.py:680
-msgid ""
-"You will configure the Tor bridge and local proxy later on after connecting "
-"to a network."
-msgstr ""
-"Du konfigurerar Tor bron och lokala proxyn senare efter anslutning till ett "
-"nätverk."
-
-#: ../tailsgreeter/gui.py:720
-msgid "On"
-msgstr "På"
-
-#: ../tailsgreeter/gui.py:722
-msgid "Off"
-msgstr "Av"
-
-#: ../tailsgreeter/gui.py:801
-msgid "Failed to relock persistent storage."
-msgstr "Misslyckades att låsa igen beständig lagring."
-
-#: ../tailsgreeter/gui.py:920
+#: ../tailsgreeter/gui.py:373
 msgid "Bridge & Proxy"
 msgstr "Bro & Proxy"
 
-#: ../tailsgreeter/gui.py:926
+#: ../tailsgreeter/gui.py:379
 msgid "Offline"
 msgstr "Offline"
 
-#: ../tailsgreeter/gui.py:965
-msgid "Cannot unlock encrypted storage with this passphrase."
-msgstr "Kan inte att låsa upp krypterad lagring med detta lösenord."
+#: ../tailsgreeter/gui.py:463
+msgid "Failed to relock persistent storage."
+msgstr "Misslyckades att låsa igen beständig lagring."
 
-#: ../tailsgreeter/persistence.py:96
+#: ../tailsgreeter/gui.py:481
+msgid "Unlocking…"
+msgstr "Låser upp..."
+
+#: ../tailsgreeter/gui.py:562
+msgid "Cancel"
+msgstr "Avbryt"
+
+#: ../tailsgreeter/gui.py:566
+msgid "Add"
+msgstr "Lägg till"
+
+#: ../tailsgreeter/gui.py:572
+msgid "Back"
+msgstr "Tillbaka"
+
+#: ../tailsgreeter/gui.py:658
+msgid "Shutdown"
+msgstr "Stäng av"
+
+#: ../tailsgreeter/gui.py:664
+msgid "Start Tails"
+msgstr "Starta Tails"
+
+#: ../tailsgreeter/language.py:119
+msgid "default:LTR"
+msgstr ""
+
+#: ../tailsgreeter/persistence.py:89
 #, python-brace-format
 msgid ""
 "live-persist failed with return code {returncode}:\n"
@@ -281,8 +281,7 @@ msgstr ""
 "live-persist misslyckades med att återge kod {returncode}:\n"
 "{stderr}"
 
-#: ../tailsgreeter/persistence.py:138 ../tailsgreeter/persistence.py:163
-#: ../tailsgreeter/persistence.py:186
+#: ../tailsgreeter/persistence.py:120 ../tailsgreeter/persistence.py:137
 #, python-brace-format
 msgid ""
 "cryptsetup failed with return code {returncode}:\n"
@@ -293,7 +292,15 @@ msgstr ""
 "{stdout}\n"
 "{stderr}"
 
-#: ../tailsgreeter/persistence.py:206
+#: ../tailsgreeter/persistence.py:154
+#, python-brace-format
+msgid ""
+"live-persist failed with return code {returncode}:\n"
+"{stdout}\n"
+"{stderr}"
+msgstr ""
+
+#: ../tailsgreeter/persistence.py:168
 #, python-brace-format
 msgid ""
 "umount failed with return code {returncode}:\n"

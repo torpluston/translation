@@ -1,14 +1,14 @@
-# Tails GDM Greeter
-# Copyright (C) 2016 Tails devlopers
-# This file is distributed under the same license as the tails-greeter package.
-# Tails devloppers <tails@boum.org>, 2016.
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-12-03 13:14+0000\n"
+"POT-Creation-Date: 2017-01-31 10:47+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Ana B <abuljan031@gmail.com>, 2016\n"
 "Language-Team: Croatian (Croatia) (https://www.transifex.com/otf/teams/1519/hr_HR/)\n"
@@ -89,88 +89,104 @@ msgstr "Maskiraj sve MAC adrese (zadano)"
 msgid "Don't spoof MAC addresses"
 msgstr "Ne maskiraj MAC adrese"
 
-#: ../data/greeter.ui.h:17
+#: ../data/greeter.ui.h:17 ../tailsgreeter/gui.py:514
+msgid "Cannot unlock encrypted storage with this passphrase."
+msgstr "Ne mogu otključati enkriptiranu pohranu s ovom lozinkom."
+
+#: ../data/greeter.ui.h:18
+msgid ""
+"You will configure the Tor bridge and local proxy later on after connecting "
+"to a network."
+msgstr ""
+"Konfigurirat će te Tor most i lokalni proxy kasnije, nakon spajanja na "
+"mrežu."
+
+#: ../data/greeter.ui.h:19
 msgid "Welcome to Tails!"
 msgstr "Dobrodošli u Tails!"
 
 #. This string will never be displayed in the 1st version of the greeter.
-#: ../data/greeter.ui.h:19
+#: ../data/greeter.ui.h:21
 msgctxt ""
 msgid ""
 "To get guided through Tails' settings, click on <b>Take a Tour</b> above"
 msgstr ""
 "Da bi Vas proveli kroz Tails postavke, kliknite na <b>Obilazak</b> iznad"
 
-#: ../data/greeter.ui.h:20
+#: ../data/greeter.ui.h:22
 msgid "Language & Region"
 msgstr "Jezik i regija"
 
-#: ../data/greeter.ui.h:21
+#: ../data/greeter.ui.h:23
 msgid "Default Settings"
 msgstr "Zadane postavke"
 
-#: ../data/greeter.ui.h:22
+#: ../data/greeter.ui.h:24
 msgid "Save Language & Region Settings"
 msgstr "Spremite postavke jezika i regije"
 
-#: ../data/greeter.ui.h:23
+#: ../data/greeter.ui.h:25
 msgid "Language"
 msgstr "Jezik"
 
-#: ../data/greeter.ui.h:24
+#: ../data/greeter.ui.h:26
 msgid "Keyboard Layout"
 msgstr "Postavke tipkovnice"
 
-#: ../data/greeter.ui.h:25
+#: ../data/greeter.ui.h:27
 msgid "Formats"
 msgstr "Formati"
 
-#: ../data/greeter.ui.h:26
+#: ../data/greeter.ui.h:28
 msgid "Time Zone"
 msgstr "Vremenska zona"
 
-#: ../data/greeter.ui.h:27
+#: ../data/greeter.ui.h:29
 msgid "Encrypted Persistent Storage"
 msgstr "Enkriptirana trajna pohrana"
 
-#: ../data/greeter.ui.h:28
+#: ../data/greeter.ui.h:30
 msgid "Show Passphrase"
 msgstr "Pokaži lozinku"
 
-#: ../data/greeter.ui.h:29
+#: ../data/greeter.ui.h:31
 msgid "Configure Persistent Storage"
 msgstr "Postavi trajnu pohranu"
 
-#: ../data/greeter.ui.h:30
+#: ../data/greeter.ui.h:32
 msgid "Enter your passphrase to unlock the persistent storage"
 msgstr "Unesite lozinku za otključavanje trajne pohrane"
 
-#: ../data/greeter.ui.h:31 ../tailsgreeter/gui.py:798
-#: ../tailsgreeter/gui.py:962
+#: ../data/greeter.ui.h:33 ../tailsgreeter/gui.py:460
+#: ../tailsgreeter/gui.py:510
 msgid "Unlock"
 msgstr "Otključaj"
 
-#: ../data/greeter.ui.h:32
+#: ../data/greeter.ui.h:34
 msgid "Relock Persistent Storage"
 msgstr "Zaključaj trajnu pohranu"
 
-#: ../data/greeter.ui.h:33 ../tailsgreeter/gui.py:514
+#: ../data/greeter.ui.h:35
+msgid "Your persistent storage is unlocked. Restart Tails to lock it again."
+msgstr ""
+
+#: ../data/greeter.ui.h:36 ../tailsgreeter/gui.py:554
 msgid "Additional Settings"
 msgstr "Dodatne postavke"
 
-#: ../data/greeter.ui.h:34
+#: ../data/greeter.ui.h:37
 msgid "Save Additional Settings"
 msgstr "Spremi dodatne postavke"
 
-#: ../data/greeter.ui.h:35
+#: ../data/greeter.ui.h:38
 msgid "Add an additional setting"
 msgstr ""
 
-#: ../data/greeter.ui.h:36
+#: ../data/greeter.ui.h:39
 msgid "Network Configuration"
 msgstr "Mrežna konfiguracija"
 
-#: ../data/greeter.ui.h:37
+#: ../data/greeter.ui.h:40
 msgid ""
 "If your Internet connection is censored, filtered, or proxied you can "
 "configure a Tor bridge or a local proxy. To work completely offline, you can"
@@ -180,19 +196,19 @@ msgstr ""
 "konfigurirati Tor most ili lokalni proxy.  Kako bi radili kompletno offline,"
 " možete onemogućiti sve mrežne radnje."
 
-#: ../data/greeter.ui.h:38
+#: ../data/greeter.ui.h:41
 msgid "Connect directly to the Tor network (default)"
 msgstr "Spoji se izravno na Tor mrežu (zadano)"
 
-#: ../data/greeter.ui.h:39
+#: ../data/greeter.ui.h:42
 msgid "Configure a Tor bridge, firewall, or proxy settings"
 msgstr "Konfiguriraj postavke Tor mosta, vatrozida ili proxya"
 
-#: ../data/greeter.ui.h:40
+#: ../data/greeter.ui.h:43
 msgid "Disable all networking"
 msgstr "Onemogući sav mrežni rad"
 
-#: ../data/greeter.ui.h:41
+#: ../data/greeter.ui.h:44
 msgid ""
 "The default settings are safe in most situations. To add a custom setting, "
 "press the \"+\" button below."
@@ -200,79 +216,63 @@ msgstr ""
 "Zadane postavke su sigurne u većini situacija. Kako bi dodali prilagođene "
 "postavke, stisnite \"+\" gumb."
 
-#: ../data/greeter.ui.h:42 ../tailsgreeter/gui.py:717
+#: ../data/greeter.ui.h:45
 msgid "Off (default)"
 msgstr "Isključeno (zadano)"
 
-#: ../data/greeter.ui.h:43 ../tailsgreeter/gui.py:715
+#: ../data/greeter.ui.h:46
 msgid "On (default)"
 msgstr "Uključeno (zadano)"
 
-#: ../data/greeter.ui.h:44
+#: ../data/greeter.ui.h:47
 msgid "Network Connection"
 msgstr "Mrežna veza"
 
-#: ../data/greeter.ui.h:45 ../tailsgreeter/gui.py:914
+#: ../data/greeter.ui.h:48 ../tailsgreeter/gui.py:367
 msgid "Direct (default)"
 msgstr "Direktno (zadano)"
 
-#: ../tailsgreeter/gui.py:456
-msgid "Shutdown"
-msgstr "Gašenje"
-
-#: ../tailsgreeter/gui.py:462
-msgid "Start Tails"
-msgstr "Pokreni Tails"
-
-#: ../tailsgreeter/gui.py:523
-msgid "Cancel"
-msgstr "Otkaži"
-
-#: ../tailsgreeter/gui.py:527
-msgid "Add"
-msgstr "Dodaj"
-
-#: ../tailsgreeter/gui.py:534
-msgid "Back"
-msgstr "Povratak"
-
-#: ../tailsgreeter/gui.py:652
-msgid "Unlocking…"
-msgstr "Otključavam..."
-
-#: ../tailsgreeter/gui.py:680
-msgid ""
-"You will configure the Tor bridge and local proxy later on after connecting "
-"to a network."
-msgstr ""
-"Konfigurirat će te Tor most i lokalni proxy kasnije, nakon spajanja na "
-"mrežu."
-
-#: ../tailsgreeter/gui.py:720
-msgid "On"
-msgstr "Uključeno"
-
-#: ../tailsgreeter/gui.py:722
-msgid "Off"
-msgstr "Isključeno"
-
-#: ../tailsgreeter/gui.py:801
-msgid "Failed to relock persistent storage."
-msgstr "Nije uspjelo zaključavanje trajne pohrane."
-
-#: ../tailsgreeter/gui.py:920
+#: ../tailsgreeter/gui.py:373
 msgid "Bridge & Proxy"
 msgstr "Most i proxy"
 
-#: ../tailsgreeter/gui.py:926
+#: ../tailsgreeter/gui.py:379
 msgid "Offline"
 msgstr "Offline"
 
-#: ../tailsgreeter/gui.py:965
-msgid "Cannot unlock encrypted storage with this passphrase."
-msgstr "Ne mogu otključati enkriptiranu pohranu s ovom lozinkom."
+#: ../tailsgreeter/gui.py:463
+msgid "Failed to relock persistent storage."
+msgstr "Nije uspjelo zaključavanje trajne pohrane."
 
-#: ../tailsgreeter/persistence.py:96
+#: ../tailsgreeter/gui.py:481
+msgid "Unlocking…"
+msgstr "Otključavam..."
+
+#: ../tailsgreeter/gui.py:562
+msgid "Cancel"
+msgstr "Otkaži"
+
+#: ../tailsgreeter/gui.py:566
+msgid "Add"
+msgstr "Dodaj"
+
+#: ../tailsgreeter/gui.py:572
+msgid "Back"
+msgstr "Povratak"
+
+#: ../tailsgreeter/gui.py:658
+msgid "Shutdown"
+msgstr "Gašenje"
+
+#: ../tailsgreeter/gui.py:664
+msgid "Start Tails"
+msgstr "Pokreni Tails"
+
+#: ../tailsgreeter/language.py:119
+msgid "default:LTR"
+msgstr ""
+
+#: ../tailsgreeter/persistence.py:89
 #, python-brace-format
 msgid ""
 "live-persist failed with return code {returncode}:\n"
@@ -281,8 +281,7 @@ msgstr ""
 "live-persist nije uspio s povratnim kodom {returncode}:\n"
 "{stderr}"
 
-#: ../tailsgreeter/persistence.py:138 ../tailsgreeter/persistence.py:163
-#: ../tailsgreeter/persistence.py:186
+#: ../tailsgreeter/persistence.py:120 ../tailsgreeter/persistence.py:137
 #, python-brace-format
 msgid ""
 "cryptsetup failed with return code {returncode}:\n"
@@ -293,7 +292,15 @@ msgstr ""
 "{stdout}\n"
 "{stderr}"
 
-#: ../tailsgreeter/persistence.py:206
+#: ../tailsgreeter/persistence.py:154
+#, python-brace-format
+msgid ""
+"live-persist failed with return code {returncode}:\n"
+"{stdout}\n"
+"{stderr}"
+msgstr ""
+
+#: ../tailsgreeter/persistence.py:168
 #, python-brace-format
 msgid ""
 "umount failed with return code {returncode}:\n"
