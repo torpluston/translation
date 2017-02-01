@@ -28,9 +28,9 @@ msgid ""
 "tasks. Otherwise, the administration password is disabled for better "
 "security."
 msgstr ""
-"Voer een beheerderswachtwoord in wanneer je beheerstaken moet kunnen "
-"uitvoeren. Indien dit niet ingevuld wordt, zal het uitgeschakeld worden voor"
-" een betere beveiliging."
+"Voer een beheerderswachtwoord in wanneer je beheerstaken moet uitvoeren. "
+"Indien dit niet ingevuld wordt, zal het uitgeschakeld worden voor een betere"
+" beveiliging."
 
 #: ../data/greeter.ui.h:3
 msgid "Enter an administration password"
@@ -159,7 +159,7 @@ msgstr "Versleutelde persistente opslag configureren"
 
 #: ../data/greeter.ui.h:32
 msgid "Enter your passphrase to unlock the persistent storage"
-msgstr ""
+msgstr "Voer je wachtzin in om de persistente opslag te ontgrendelen."
 
 #: ../data/greeter.ui.h:33 ../tailsgreeter/gui.py:460
 #: ../tailsgreeter/gui.py:510
@@ -168,11 +168,13 @@ msgstr "Ontgrendel"
 
 #: ../data/greeter.ui.h:34
 msgid "Relock Persistent Storage"
-msgstr ""
+msgstr "Persistente opslag weer vergrendelen"
 
 #: ../data/greeter.ui.h:35
 msgid "Your persistent storage is unlocked. Restart Tails to lock it again."
 msgstr ""
+"Je persistente opslag is ontgrendeld. Herstart Tails om het opnieuw te "
+"vergrendelen."
 
 #: ../data/greeter.ui.h:36 ../tailsgreeter/gui.py:554
 msgid "Additional Settings"
@@ -196,6 +198,9 @@ msgid ""
 "configure a Tor bridge or a local proxy. To work completely offline, you can"
 " disable all networking."
 msgstr ""
+"Als je internetverbinding is gecensureerd, gefilterd of via een proxy loopt,"
+" kan je een Tor bridge of lokale proxy configureren. Om helemaal offline te "
+"werken, kan je alle netwerken uitschakelen."
 
 #: ../data/greeter.ui.h:41
 msgid "Connect directly to the Tor network (default)"
@@ -235,7 +240,7 @@ msgstr "Rechtstreeks (standaard)"
 
 #: ../tailsgreeter/gui.py:373
 msgid "Bridge & Proxy"
-msgstr ""
+msgstr "Bridge & Proxy"
 
 #: ../tailsgreeter/gui.py:379
 msgid "Offline"
@@ -243,7 +248,7 @@ msgstr "Offline"
 
 #: ../tailsgreeter/gui.py:463
 msgid "Failed to relock persistent storage."
-msgstr ""
+msgstr "Mislukt om de persistente opslag weer te vergrendelen."
 
 #: ../tailsgreeter/gui.py:481
 msgid "Unlocking…"
@@ -279,6 +284,8 @@ msgid ""
 "live-persist failed with return code {returncode}:\n"
 "{stderr}"
 msgstr ""
+"live-persist mislukte met retourcode {returncode}:\n"
+"{stderr}"
 
 #: ../tailsgreeter/persistence.py:120 ../tailsgreeter/persistence.py:137
 #, python-brace-format
@@ -287,6 +294,9 @@ msgid ""
 "{stdout}\n"
 "{stderr}"
 msgstr ""
+"cryptsetup mislukte met retourcode {returncode}:\n"
+"{stdout}\n"
+"{stderr}"
 
 #: ../tailsgreeter/persistence.py:154
 #, python-brace-format
@@ -295,6 +305,9 @@ msgid ""
 "{stdout}\n"
 "{stderr}"
 msgstr ""
+"live-persist mislukte met retourcode {returncode}:\n"
+"{stdout}\n"
+"{stderr}"
 
 #: ../tailsgreeter/persistence.py:168
 #, python-brace-format
@@ -303,3 +316,6 @@ msgid ""
 "{stdout}\n"
 "{stderr}"
 msgstr ""
+"unmount mislukte met retourcode {returncode}:\n"
+"{stdout}\n"
+"{stderr}"
