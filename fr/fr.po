@@ -1,14 +1,14 @@
-# Tails GDM Greeter
-# Copyright (C) 2016 Tails devlopers
-# This file is distributed under the same license as the tails-greeter package.
-# Tails devloppers <tails@boum.org>, 2016.
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-12-03 13:14+0000\n"
+"POT-Creation-Date: 2017-01-31 10:47+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Mortimer <doug.mortimer@netcourrier.com>, 2016\n"
 "Language-Team: French (https://www.transifex.com/otf/teams/1519/fr/)\n"
@@ -92,12 +92,25 @@ msgstr "Déguiser toutes les adresses MAC (par défaut)"
 msgid "Don't spoof MAC addresses"
 msgstr "Ne pas déguiser les adresses MAC"
 
-#: ../data/greeter.ui.h:17
+#: ../data/greeter.ui.h:17 ../tailsgreeter/gui.py:514
+msgid "Cannot unlock encrypted storage with this passphrase."
+msgstr ""
+"Cette phrase de passe ne permet pas de déverrouiller le stockage chiffré."
+
+#: ../data/greeter.ui.h:18
+msgid ""
+"You will configure the Tor bridge and local proxy later on after connecting "
+"to a network."
+msgstr ""
+"Vous configurerez le pont Tor et le mandataire local plus tard, après vous "
+"être connecté à un réseau"
+
+#: ../data/greeter.ui.h:19
 msgid "Welcome to Tails!"
 msgstr "Bienvenue à Tails !"
 
 #. This string will never be displayed in the 1st version of the greeter.
-#: ../data/greeter.ui.h:19
+#: ../data/greeter.ui.h:21
 msgctxt ""
 msgid ""
 "To get guided through Tails' settings, click on <b>Take a Tour</b> above"
@@ -105,77 +118,83 @@ msgstr ""
 "Pour découvrir les paramètres de Tails, cliquez sur <b>Visite guidée</b> ci-"
 "dessus"
 
-#: ../data/greeter.ui.h:20
+#: ../data/greeter.ui.h:22
 msgid "Language & Region"
 msgstr "Langue et région"
 
-#: ../data/greeter.ui.h:21
+#: ../data/greeter.ui.h:23
 msgid "Default Settings"
 msgstr "Paramètres par défaut"
 
-#: ../data/greeter.ui.h:22
+#: ../data/greeter.ui.h:24
 msgid "Save Language & Region Settings"
 msgstr "Enregistrer les paramètres de langue et de région"
 
-#: ../data/greeter.ui.h:23
+#: ../data/greeter.ui.h:25
 msgid "Language"
 msgstr "Langue"
 
-#: ../data/greeter.ui.h:24
+#: ../data/greeter.ui.h:26
 msgid "Keyboard Layout"
 msgstr "Disposition du clavier"
 
-#: ../data/greeter.ui.h:25
+#: ../data/greeter.ui.h:27
 msgid "Formats"
 msgstr "Formats"
 
-#: ../data/greeter.ui.h:26
+#: ../data/greeter.ui.h:28
 msgid "Time Zone"
 msgstr "Fuseau horaire"
 
-#: ../data/greeter.ui.h:27
+#: ../data/greeter.ui.h:29
 msgid "Encrypted Persistent Storage"
 msgstr "Stockage persistant chiffré"
 
-#: ../data/greeter.ui.h:28
+#: ../data/greeter.ui.h:30
 msgid "Show Passphrase"
 msgstr "Afficher la phrase de passe"
 
-#: ../data/greeter.ui.h:29
+#: ../data/greeter.ui.h:31
 msgid "Configure Persistent Storage"
 msgstr "Configurer le stockage persistant"
 
-#: ../data/greeter.ui.h:30
+#: ../data/greeter.ui.h:32
 msgid "Enter your passphrase to unlock the persistent storage"
 msgstr ""
 "Saisir votre phrase de passe pour déverrouiller le stockage persistant"
 
-#: ../data/greeter.ui.h:31 ../tailsgreeter/gui.py:798
-#: ../tailsgreeter/gui.py:962
+#: ../data/greeter.ui.h:33 ../tailsgreeter/gui.py:460
+#: ../tailsgreeter/gui.py:510
 msgid "Unlock"
 msgstr "Déverrouiller"
 
-#: ../data/greeter.ui.h:32
+#: ../data/greeter.ui.h:34
 msgid "Relock Persistent Storage"
 msgstr "Reverrouiller le stockage persistant"
 
-#: ../data/greeter.ui.h:33 ../tailsgreeter/gui.py:514
+#: ../data/greeter.ui.h:35
+msgid "Your persistent storage is unlocked. Restart Tails to lock it again."
+msgstr ""
+"Votre stockage persistant est déverrouillé. Redémarrer Tails pour le "
+"reverrouiller."
+
+#: ../data/greeter.ui.h:36 ../tailsgreeter/gui.py:554
 msgid "Additional Settings"
 msgstr "Paramètres supplémentaires"
 
-#: ../data/greeter.ui.h:34
+#: ../data/greeter.ui.h:37
 msgid "Save Additional Settings"
 msgstr "Enregistrer les paramètres supplémentaires"
 
-#: ../data/greeter.ui.h:35
+#: ../data/greeter.ui.h:38
 msgid "Add an additional setting"
 msgstr "Ajouter un paramètre supplémentaire"
 
-#: ../data/greeter.ui.h:36
+#: ../data/greeter.ui.h:39
 msgid "Network Configuration"
 msgstr "Configuration du réseau"
 
-#: ../data/greeter.ui.h:37
+#: ../data/greeter.ui.h:40
 msgid ""
 "If your Internet connection is censored, filtered, or proxied you can "
 "configure a Tor bridge or a local proxy. To work completely offline, you can"
@@ -185,19 +204,19 @@ msgstr ""
 "mandataire, vous pouvez configurer un pont Tor ou un mandataire local. Pour "
 "travailler complètement hors ligne, vous pouvez désactiver le réseau."
 
-#: ../data/greeter.ui.h:38
+#: ../data/greeter.ui.h:41
 msgid "Connect directly to the Tor network (default)"
 msgstr "Se connecter directement au réseau Tor (par défaut)"
 
-#: ../data/greeter.ui.h:39
+#: ../data/greeter.ui.h:42
 msgid "Configure a Tor bridge, firewall, or proxy settings"
 msgstr "Configurer un pont Tor, un pare-feu ou les paramètres du mandataire"
 
-#: ../data/greeter.ui.h:40
+#: ../data/greeter.ui.h:43
 msgid "Disable all networking"
 msgstr "Désactiver le réseau"
 
-#: ../data/greeter.ui.h:41
+#: ../data/greeter.ui.h:44
 msgid ""
 "The default settings are safe in most situations. To add a custom setting, "
 "press the \"+\" button below."
@@ -205,80 +224,63 @@ msgstr ""
 "Les paramètres par défaut sont sûrs dans la plupart des cas. Pour ajouter un"
 " paramètre personnalisé, appuyer sur le bouton « + » ci-dessous."
 
-#: ../data/greeter.ui.h:42 ../tailsgreeter/gui.py:717
+#: ../data/greeter.ui.h:45
 msgid "Off (default)"
 msgstr "Désactivé (par défaut)"
 
-#: ../data/greeter.ui.h:43 ../tailsgreeter/gui.py:715
+#: ../data/greeter.ui.h:46
 msgid "On (default)"
 msgstr "Activé (par défaut)"
 
-#: ../data/greeter.ui.h:44
+#: ../data/greeter.ui.h:47
 msgid "Network Connection"
 msgstr "Connexion réseau"
 
-#: ../data/greeter.ui.h:45 ../tailsgreeter/gui.py:914
+#: ../data/greeter.ui.h:48 ../tailsgreeter/gui.py:367
 msgid "Direct (default)"
 msgstr "Directe (par défaut)"
 
-#: ../tailsgreeter/gui.py:456
-msgid "Shutdown"
-msgstr "Extinction"
-
-#: ../tailsgreeter/gui.py:462
-msgid "Start Tails"
-msgstr "Démarrer Tails"
-
-#: ../tailsgreeter/gui.py:523
-msgid "Cancel"
-msgstr "Annuler"
-
-#: ../tailsgreeter/gui.py:527
-msgid "Add"
-msgstr "Ajouter"
-
-#: ../tailsgreeter/gui.py:534
-msgid "Back"
-msgstr "Retour"
-
-#: ../tailsgreeter/gui.py:652
-msgid "Unlocking…"
-msgstr "Déverrouillage..."
-
-#: ../tailsgreeter/gui.py:680
-msgid ""
-"You will configure the Tor bridge and local proxy later on after connecting "
-"to a network."
-msgstr ""
-"Vous configurerez le pont Tor et le mandataire local plus tard, après vous "
-"être connecté à un réseau"
-
-#: ../tailsgreeter/gui.py:720
-msgid "On"
-msgstr "Activé"
-
-#: ../tailsgreeter/gui.py:722
-msgid "Off"
-msgstr "Désactivé"
-
-#: ../tailsgreeter/gui.py:801
-msgid "Failed to relock persistent storage."
-msgstr "Échec de reverrouillage du stockage persistant."
-
-#: ../tailsgreeter/gui.py:920
+#: ../tailsgreeter/gui.py:373
 msgid "Bridge & Proxy"
 msgstr "Bon et mandataire"
 
-#: ../tailsgreeter/gui.py:926
+#: ../tailsgreeter/gui.py:379
 msgid "Offline"
 msgstr "Hors ligne"
 
-#: ../tailsgreeter/gui.py:965
-msgid "Cannot unlock encrypted storage with this passphrase."
-msgstr ""
-"Cette phrase de passe ne permet pas de déverrouiller le stockage chiffré."
+#: ../tailsgreeter/gui.py:463
+msgid "Failed to relock persistent storage."
+msgstr "Échec de reverrouillage du stockage persistant."
 
-#: ../tailsgreeter/persistence.py:96
+#: ../tailsgreeter/gui.py:481
+msgid "Unlocking…"
+msgstr "Déverrouillage..."
+
+#: ../tailsgreeter/gui.py:562
+msgid "Cancel"
+msgstr "Annuler"
+
+#: ../tailsgreeter/gui.py:566
+msgid "Add"
+msgstr "Ajouter"
+
+#: ../tailsgreeter/gui.py:572
+msgid "Back"
+msgstr "Retour"
+
+#: ../tailsgreeter/gui.py:658
+msgid "Shutdown"
+msgstr "Extinction"
+
+#: ../tailsgreeter/gui.py:664
+msgid "Start Tails"
+msgstr "Démarrer Tails"
+
+#: ../tailsgreeter/language.py:119
+msgid "default:LTR"
+msgstr "default:LTR"
+
+#: ../tailsgreeter/persistence.py:89
 #, python-brace-format
 msgid ""
 "live-persist failed with return code {returncode}:\n"
@@ -287,8 +289,7 @@ msgstr ""
 "Échec de live-persist avec le code de retour {returncode}:\n"
 "{stderr}"
 
-#: ../tailsgreeter/persistence.py:138 ../tailsgreeter/persistence.py:163
-#: ../tailsgreeter/persistence.py:186
+#: ../tailsgreeter/persistence.py:120 ../tailsgreeter/persistence.py:137
 #, python-brace-format
 msgid ""
 "cryptsetup failed with return code {returncode}:\n"
@@ -299,7 +300,18 @@ msgstr ""
 "{stdout}\n"
 "{stderr}"
 
-#: ../tailsgreeter/persistence.py:206
+#: ../tailsgreeter/persistence.py:154
+#, python-brace-format
+msgid ""
+"live-persist failed with return code {returncode}:\n"
+"{stdout}\n"
+"{stderr}"
+msgstr ""
+"live-persist a échoué avec le code de retour {returncode} :\n"
+"{stdout}\n"
+"{stderr}"
+
+#: ../tailsgreeter/persistence.py:168
 #, python-brace-format
 msgid ""
 "umount failed with return code {returncode}:\n"
