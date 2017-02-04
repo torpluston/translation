@@ -1,14 +1,14 @@
-# Tails GDM Greeter
-# Copyright (C) 2016 Tails devlopers
-# This file is distributed under the same license as the tails-greeter package.
-# Tails devloppers <tails@boum.org>, 2016.
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-12-03 13:14+0000\n"
+"POT-Creation-Date: 2017-01-31 10:47+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Ojars Balcers <ojars.balcers@gmail.com>, 2016\n"
 "Language-Team: Latvian (https://www.transifex.com/otf/teams/1519/lv/)\n"
@@ -91,12 +91,24 @@ msgstr "Maldinoši norādīt visas MAC adreses (noklusējuma vērtība)"
 msgid "Don't spoof MAC addresses"
 msgstr "Maldinoši nenorādīt MAC adreses"
 
-#: ../data/greeter.ui.h:17
+#: ../data/greeter.ui.h:17 ../tailsgreeter/gui.py:514
+msgid "Cannot unlock encrypted storage with this passphrase."
+msgstr "Ar šo paroles frāzi nav iespējams atbloķēt šifrēto krātuvi. "
+
+#: ../data/greeter.ui.h:18
+msgid ""
+"You will configure the Tor bridge and local proxy later on after connecting "
+"to a network."
+msgstr ""
+"Vēlāk, pēc tam, kad izveidosit savienojumu ar tīklu, Jūs konfigurēsit Tor "
+"tiltu vai vietējo starpniekserveri."
+
+#: ../data/greeter.ui.h:19
 msgid "Welcome to Tails!"
 msgstr "Sveicināti Tails!"
 
 #. This string will never be displayed in the 1st version of the greeter.
-#: ../data/greeter.ui.h:19
+#: ../data/greeter.ui.h:21
 msgctxt ""
 msgid ""
 "To get guided through Tails' settings, click on <b>Take a Tour</b> above"
@@ -104,76 +116,82 @@ msgstr ""
 "Lai uzzinātu vairāk par Tails iestatījumiem, noklikšķiniet uz "
 "<b>Iepazīstieties</b> augstāk."
 
-#: ../data/greeter.ui.h:20
+#: ../data/greeter.ui.h:22
 msgid "Language & Region"
 msgstr "Valoda un reģions"
 
-#: ../data/greeter.ui.h:21
+#: ../data/greeter.ui.h:23
 msgid "Default Settings"
 msgstr "Noklusējuma iestatījumi"
 
-#: ../data/greeter.ui.h:22
+#: ../data/greeter.ui.h:24
 msgid "Save Language & Region Settings"
 msgstr "Saglabāt valodas un reģiona iestatījumus"
 
-#: ../data/greeter.ui.h:23
+#: ../data/greeter.ui.h:25
 msgid "Language"
 msgstr "Valoda"
 
-#: ../data/greeter.ui.h:24
+#: ../data/greeter.ui.h:26
 msgid "Keyboard Layout"
 msgstr "Tastatūras izkārtojums"
 
-#: ../data/greeter.ui.h:25
+#: ../data/greeter.ui.h:27
 msgid "Formats"
 msgstr "Formāti"
 
-#: ../data/greeter.ui.h:26
+#: ../data/greeter.ui.h:28
 msgid "Time Zone"
 msgstr "Laika zonas"
 
-#: ../data/greeter.ui.h:27
+#: ../data/greeter.ui.h:29
 msgid "Encrypted Persistent Storage"
 msgstr "Šifrēta pastāvīgā krātuve"
 
-#: ../data/greeter.ui.h:28
+#: ../data/greeter.ui.h:30
 msgid "Show Passphrase"
 msgstr "Parādīt paroles frāzi"
 
-#: ../data/greeter.ui.h:29
+#: ../data/greeter.ui.h:31
 msgid "Configure Persistent Storage"
 msgstr "Konfigurēt pastāvīgo krātuvi"
 
-#: ../data/greeter.ui.h:30
+#: ../data/greeter.ui.h:32
 msgid "Enter your passphrase to unlock the persistent storage"
 msgstr "Ievadiet savu paroles frāzi, lai atslēgtu pastāvīgo krātuvi"
 
-#: ../data/greeter.ui.h:31 ../tailsgreeter/gui.py:798
-#: ../tailsgreeter/gui.py:962
+#: ../data/greeter.ui.h:33 ../tailsgreeter/gui.py:460
+#: ../tailsgreeter/gui.py:510
 msgid "Unlock"
 msgstr "Atslēgt"
 
-#: ../data/greeter.ui.h:32
+#: ../data/greeter.ui.h:34
 msgid "Relock Persistent Storage"
 msgstr "Atkārtoti bloķēt pastāvīgo krātuvi"
 
-#: ../data/greeter.ui.h:33 ../tailsgreeter/gui.py:514
+#: ../data/greeter.ui.h:35
+msgid "Your persistent storage is unlocked. Restart Tails to lock it again."
+msgstr ""
+"Jūsu pastāvīgā krātuve ir atbloķēta. Restartējiet Tails, lai to atkal "
+"bloķētu."
+
+#: ../data/greeter.ui.h:36 ../tailsgreeter/gui.py:554
 msgid "Additional Settings"
 msgstr "Papildu iestatījumi"
 
-#: ../data/greeter.ui.h:34
+#: ../data/greeter.ui.h:37
 msgid "Save Additional Settings"
 msgstr "Saglabāt papildu iestatījumus"
 
-#: ../data/greeter.ui.h:35
+#: ../data/greeter.ui.h:38
 msgid "Add an additional setting"
 msgstr "Pievienot papildu iestatījumu"
 
-#: ../data/greeter.ui.h:36
+#: ../data/greeter.ui.h:39
 msgid "Network Configuration"
 msgstr "Tīkla konfigurēšana"
 
-#: ../data/greeter.ui.h:37
+#: ../data/greeter.ui.h:40
 msgid ""
 "If your Internet connection is censored, filtered, or proxied you can "
 "configure a Tor bridge or a local proxy. To work completely offline, you can"
@@ -183,19 +201,19 @@ msgstr ""
 "varat nokonfigurēt Tor tiltu vai vietējo starpniekserveri. Lai pilnīgi "
 "strādātu bezsaistē, Jūs varat atspējot jebkādu tīklošanu."
 
-#: ../data/greeter.ui.h:38
+#: ../data/greeter.ui.h:41
 msgid "Connect directly to the Tor network (default)"
 msgstr "Veidot tiešu savienojumu ar tīklu Tor (noklusējuma vērtība)"
 
-#: ../data/greeter.ui.h:39
+#: ../data/greeter.ui.h:42
 msgid "Configure a Tor bridge, firewall, or proxy settings"
 msgstr "Konfigurēt Tor tilta, ugunsmūra vai starpniekservera iestatījumus"
 
-#: ../data/greeter.ui.h:40
+#: ../data/greeter.ui.h:43
 msgid "Disable all networking"
 msgstr "Atspējot jebkādu tīklošanu"
 
-#: ../data/greeter.ui.h:41
+#: ../data/greeter.ui.h:44
 msgid ""
 "The default settings are safe in most situations. To add a custom setting, "
 "press the \"+\" button below."
@@ -203,79 +221,63 @@ msgstr ""
 "Vairumā gadījumu noklusējuma vērtības ir drošas. Lai pievienotu pielāgotus "
 "iestatījumus, nospiediet tālāk esošo \"+\" pogu."
 
-#: ../data/greeter.ui.h:42 ../tailsgreeter/gui.py:717
+#: ../data/greeter.ui.h:45
 msgid "Off (default)"
 msgstr "Izslēgts (noklusējuma vērtība)"
 
-#: ../data/greeter.ui.h:43 ../tailsgreeter/gui.py:715
+#: ../data/greeter.ui.h:46
 msgid "On (default)"
 msgstr "Ieslēgts (noklusējuma vērtība)"
 
-#: ../data/greeter.ui.h:44
+#: ../data/greeter.ui.h:47
 msgid "Network Connection"
 msgstr "Tīkla savienojumi"
 
-#: ../data/greeter.ui.h:45 ../tailsgreeter/gui.py:914
+#: ../data/greeter.ui.h:48 ../tailsgreeter/gui.py:367
 msgid "Direct (default)"
 msgstr "Tiešs (noklusējuma vērtība)"
 
-#: ../tailsgreeter/gui.py:456
-msgid "Shutdown"
-msgstr "Izslēgšana"
-
-#: ../tailsgreeter/gui.py:462
-msgid "Start Tails"
-msgstr "Sākt Tails"
-
-#: ../tailsgreeter/gui.py:523
-msgid "Cancel"
-msgstr "Atcelt"
-
-#: ../tailsgreeter/gui.py:527
-msgid "Add"
-msgstr "Pievienot"
-
-#: ../tailsgreeter/gui.py:534
-msgid "Back"
-msgstr "Atpakaļ"
-
-#: ../tailsgreeter/gui.py:652
-msgid "Unlocking…"
-msgstr "Atslēdz..."
-
-#: ../tailsgreeter/gui.py:680
-msgid ""
-"You will configure the Tor bridge and local proxy later on after connecting "
-"to a network."
-msgstr ""
-"Vēlāk, pēc tam, kad izveidosit savienojumu ar tīklu, Jūs konfigurēsit Tor "
-"tiltu vai vietējo starpniekserveri."
-
-#: ../tailsgreeter/gui.py:720
-msgid "On"
-msgstr "Ieslēgt"
-
-#: ../tailsgreeter/gui.py:722
-msgid "Off"
-msgstr "Izslēgt"
-
-#: ../tailsgreeter/gui.py:801
-msgid "Failed to relock persistent storage."
-msgstr "Neizdevās atkārtoti bloķēt pastāvīgo krātuvi."
-
-#: ../tailsgreeter/gui.py:920
+#: ../tailsgreeter/gui.py:373
 msgid "Bridge & Proxy"
 msgstr "Tilti un starpniekserveri"
 
-#: ../tailsgreeter/gui.py:926
+#: ../tailsgreeter/gui.py:379
 msgid "Offline"
 msgstr "Bezsaistē"
 
-#: ../tailsgreeter/gui.py:965
-msgid "Cannot unlock encrypted storage with this passphrase."
-msgstr "Ar šo paroles frāzi nav iespējams atbloķēt šifrēto krātuvi. "
+#: ../tailsgreeter/gui.py:463
+msgid "Failed to relock persistent storage."
+msgstr "Neizdevās atkārtoti bloķēt pastāvīgo krātuvi."
 
-#: ../tailsgreeter/persistence.py:96
+#: ../tailsgreeter/gui.py:481
+msgid "Unlocking…"
+msgstr "Atslēdz..."
+
+#: ../tailsgreeter/gui.py:562
+msgid "Cancel"
+msgstr "Atcelt"
+
+#: ../tailsgreeter/gui.py:566
+msgid "Add"
+msgstr "Pievienot"
+
+#: ../tailsgreeter/gui.py:572
+msgid "Back"
+msgstr "Atpakaļ"
+
+#: ../tailsgreeter/gui.py:658
+msgid "Shutdown"
+msgstr "Izslēgšana"
+
+#: ../tailsgreeter/gui.py:664
+msgid "Start Tails"
+msgstr "Sākt Tails"
+
+#: ../tailsgreeter/language.py:119
+msgid "default:LTR"
+msgstr "noklusējums:LTR"
+
+#: ../tailsgreeter/persistence.py:89
 #, python-brace-format
 msgid ""
 "live-persist failed with return code {returncode}:\n"
@@ -284,8 +286,7 @@ msgstr ""
 "live-persist neizdevās, norādītais kods {returncode}:\n"
 "{stderr}"
 
-#: ../tailsgreeter/persistence.py:138 ../tailsgreeter/persistence.py:163
-#: ../tailsgreeter/persistence.py:186
+#: ../tailsgreeter/persistence.py:120 ../tailsgreeter/persistence.py:137
 #, python-brace-format
 msgid ""
 "cryptsetup failed with return code {returncode}:\n"
@@ -296,7 +297,18 @@ msgstr ""
 "{stdout}\n"
 "{stderr}"
 
-#: ../tailsgreeter/persistence.py:206
+#: ../tailsgreeter/persistence.py:154
+#, python-brace-format
+msgid ""
+"live-persist failed with return code {returncode}:\n"
+"{stdout}\n"
+"{stderr}"
+msgstr ""
+"dinamisks-pastāvīgums nesekmīgs ar atgriezes kodu {returncode}:\n"
+"{stdout}\n"
+"{stderr}"
+
+#: ../tailsgreeter/persistence.py:168
 #, python-brace-format
 msgid ""
 "umount failed with return code {returncode}:\n"
