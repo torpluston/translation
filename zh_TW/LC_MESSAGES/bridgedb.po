@@ -4,6 +4,7 @@
 # 
 # Translators:
 # Agustín Wu <losangwuyts@gmail.com>, 2016
+# Chi-Hsun Tsai <chihsun.tsai@gmail.com>, 2017
 # danfong <danfong.hsieh@gmail.com>, 2014
 # LNDDYL, 2014
 # guihu, 2016
@@ -14,7 +15,7 @@ msgstr ""
 "Project-Id-Version: The Tor Project\n"
 "Report-Msgid-Bugs-To: 'https://trac.torproject.org/projects/tor/newticket?component=BridgeDB&keywords=bridgedb-reported,msgid&cc=isis,sysrqb&owner=isis'\n"
 "POT-Creation-Date: 2015-07-25 03:40+0000\n"
-"PO-Revision-Date: 2017-02-06 01:44+0000\n"
+"PO-Revision-Date: 2017-02-06 02:13+0000\n"
 "Last-Translator: Chi-Hsun Tsai <chihsun.tsai@gmail.com>\n"
 "Language-Team: Chinese (Taiwan) (http://www.transifex.com/otf/torproject/language/zh_TW/)\n"
 "MIME-Version: 1.0\n"
@@ -166,7 +167,7 @@ msgstr "%sG%s 設定橋接器"
 
 #: bridgedb/strings.py:43
 msgid "[This is an automated message; please do not reply.]"
-msgstr "[這是一個自動回覆郵件;請不要回覆。]"
+msgstr "[這是一個自動郵件;請不要回覆。]"
 
 #: bridgedb/strings.py:45
 msgid "Here are your bridges:"
@@ -177,7 +178,7 @@ msgstr "這是您的橋接器："
 msgid ""
 "You have exceeded the rate limit. Please slow down! The minimum time between\n"
 "emails is %s hours. All further emails during this time period will be ignored."
-msgstr "您已超過速度限制。請減慢速度！電子郵件之間的最短時間為 %s 個小時。在這段時間內所有的郵件將被忽略。"
+msgstr "您已超過速度限制。請減慢速度！電子郵件之間的最短時間為 %s 個小時。超過的話，在這段時間內所有的郵件將被忽略。"
 
 #: bridgedb/strings.py:50
 msgid ""
@@ -229,7 +230,7 @@ msgid ""
 "difficult for anyone watching your internet traffic to determine that you are\n"
 "using Tor.\n"
 "\n"
-msgstr "BridgeDB 可以使用幾種 Pluggable Transports%s 的 %stypes 來提供橋接，\n它可以幫助您混淆連接到 Tor Network，使其任何人藉由監看您的網路流\n量來確定您正使用 Tor 會更加困難\n。\n"
+msgstr "BridgeDB 可以使用幾種可插拔傳輸 %s 的 %stypes 來提供橋接，\n它可以幫助您混淆連接到 Tor Network，使其任何人藉由監看您的網路流\n量來確定您正使用 Tor 會更加困難\n。\n"
 
 #. TRANSLATORS: Please DO NOT translate "Pluggable Transports".
 #: bridgedb/strings.py:79
@@ -251,7 +252,7 @@ msgid ""
 "Pluggable Transports %s which maybe doesn't sound as cool, but they can still\n"
 "help to circumvent internet censorship in many cases.\n"
 "\n"
-msgstr "此外，BridgeDB 有普通的橋接器 %s，沒有任何\nPluggable Transports %s，這也許聽起來不酷，但它\n仍有助於規避在許多情況下的網路審查。\n"
+msgstr "此外，BridgeDB 有普通的橋接器 %s，沒有任何\n可插拔傳輸 %s，這也許聽起來不酷，但它\n仍有助於規避在許多情況下的網路審查。\n"
 
 #: bridgedb/strings.py:101
 msgid "What are bridges?"
@@ -292,7 +293,7 @@ msgid ""
 "Try including as much info about your case as you can, including the list of\n"
 "bridges and Pluggable Transports you tried to use, your Tor Browser version,\n"
 "and any messages which Tor gave out, etc."
-msgstr "請儘可能的給我們更多關於您的問題之相關資訊，包含您嘗試使用過的 \n橋接器和 Pluggable Transports、您的洋蔥路由瀏覽器版本\n以及洋蔥路由給出的任何訊息。"
+msgstr "請儘可能的給我們更多關於您的問題之相關資訊，包含您嘗試使用過的 \n橋接器和可插拔傳輸、您的洋蔥路由瀏覽器版本\n以及洋蔥路由給出的任何訊息。"
 
 #: bridgedb/strings.py:128
 msgid "Here are your bridge lines:"
@@ -368,7 +369,7 @@ msgstr "顯示此訊息。"
 #. "plain-ol'-vanilla" bridges.
 #: bridgedb/strings.py:171
 msgid "Request vanilla bridges."
-msgstr "請求 vanilla 橋接器。"
+msgstr "請求標準橋接器。"
 
 #: bridgedb/strings.py:172
 msgid "Request IPv6 bridges."
@@ -377,7 +378,7 @@ msgstr "請求 IPv6 橋接器。"
 #. TRANSLATORS: Please DO NOT translate the word the word "TYPE".
 #: bridgedb/strings.py:174
 msgid "Request a Pluggable Transport by TYPE."
-msgstr "按照 TYPE 請求 Pluggable Transport。"
+msgstr "按照 TYPE 請求可插拔傳輸。"
 
 #. TRANSLATORS: Please DO NOT translate "BridgeDB".
 #. TRANSLATORS: Please DO NOT translate "GnuPG".
