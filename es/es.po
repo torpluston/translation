@@ -9,6 +9,7 @@
 # BL <tresemes3@gmail.com>, 2014
 # Carlos Capote <carloscapote@masticable.org>, 2012
 # Dani Lobo <dani@dominiosvm.es>, 2013
+# Emma Peel, 2017
 # eulalio barbero espinosa <eulaliob@gmail.com>, 2016
 # F Xavier Castane <electromigracion@gmail.com>, 2015
 # Jose Luis <joseluis.tirado@gmail.com>, 2015
@@ -21,8 +22,8 @@ msgstr ""
 "Project-Id-Version: The Tor Project\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-11-02 21:23+0100\n"
-"PO-Revision-Date: 2016-11-29 20:26+0000\n"
-"Last-Translator: eulalio barbero espinosa <eulaliob@gmail.com>\n"
+"PO-Revision-Date: 2017-02-08 18:11+0000\n"
+"Last-Translator: Emma Peel\n"
 "Language-Team: Spanish (http://www.transifex.com/otf/torproject/language/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -82,7 +83,7 @@ msgid ""
 "<li>The encrypted persistent storage of the Tails USB stick that you are currently using is not copied.</li>\n"
 "\n"
 "</ul>"
-msgstr "<ul>\n<li>Instala Tails en otra memoria USB copiaando el sistema Tails que está usando actualmente.</li>\n\n<li>La memoria USB en la que instala se formatea y se pierden todos los datos.</li>\n\n<li>El almacenamiento cifrado permanente de la memoria USB de Tails que está usando en este momento no se copia.</li>\n\n</ul>"
+msgstr "<ul>\n<li>Instala Tails en otra memoria USB copiando el sistema Tails que está usando actualmente.</li>\n\n<li>La memoria USB en la que instala se formatea y se pierden todos los datos.</li>\n\n<li>El almacenamiento cifrado permanente de la memoria USB de Tails que está usando en este momento no se copia.</li>\n\n</ul>"
 
 #: ../liveusb/launcher_ui.py:157
 msgid ""
@@ -184,13 +185,13 @@ msgstr "Error probando el dispositivo "
 msgid ""
 "Error: Cannot set the label or obtain the UUID of your device.  Unable to "
 "continue."
-msgstr "Error: No se pudo establecer u obtener el UUID de su dispositivo. No se pudo continuar."
+msgstr "Error: No se pudo establecer u obtener el UUID de tu dispositivo. No se pudo continuar."
 
 #: ../liveusb/creator.py:393
 msgid ""
 "Error: The SHA1 of your Live CD is invalid.  You can run this program with "
 "the --noverify argument to bypass this verification check."
-msgstr "Error: El identificador criptográfico ('checksum') SHA1 de su CD autoarrancable (Live CD) no es válido. Puede ejecutar este programa con el modificador --noverify para evitar este chequeo de verificación."
+msgstr "Error: El identificador criptográfico ('checksum') SHA1 de tu CD autoarrancable (Live CD) no es válido. Puedes ejecutar este programa con el modificador --noverify para evitar este chequeo de verificación."
 
 #: ../liveusb/creator.py:155
 msgid "Extracting live image to the target device..."
@@ -248,7 +249,7 @@ msgid ""
 "It is impossible to upgrade the device %(pretty_name)s because it was not "
 "created using Tails Installer. You should instead use %(action)s to upgrade "
 "Tails on this device."
-msgstr "Es imposible actualizar el dispositivo %(pretty_name)s porque no fue creado usando el Instalador de Tails. En su lugar debe usar %(action)s para actualizar Tails en este dispositivo."
+msgstr "Es imposible actualizar el dispositivo %(pretty_name)s porque no fue creado usando el Instalador de Tails. En su lugar debes usar %(action)s para actualizar Tails en este dispositivo."
 
 #: ../liveusb/gui.py:270
 msgid "LiveUSB creation failed!"
@@ -258,12 +259,12 @@ msgstr "¡La creación del USB autoarrancable (LiveUSB) falló!"
 msgid ""
 "Make sure to extract the entire liveusb-creator zip file before running this"
 " program."
-msgstr "Asegúrese de extraer el fichero zip liveusb-creator completamente antes de ejecutar este programa."
+msgstr "Asegúrate de extraer el fichero zip liveusb-creator completamente antes de ejecutar este programa."
 
 #: ../liveusb/creator.py:1284
 msgid ""
 "Make sure your USB key is plugged in and formatted with the FAT filesystem"
-msgstr "Asegúrese de que su memoria USB está conectada, y formateada con el sistema de ficheros FAT"
+msgstr "Asegúrate de que tu memoria USB está conectada, y formateada con el sistema de ficheros FAT"
 
 #: ../liveusb/creator.py:859
 #, python-format
@@ -309,7 +310,7 @@ msgstr "Almacenamiento persistente (0 MB)"
 
 #: ../liveusb/gui.py:698 ../liveusb/gui.py:727
 msgid "Please confirm your device selection"
-msgstr "Por favor confirme la selección de su dispositivo"
+msgstr "Por favor confirma tu selección de dispositivo"
 
 #: ../liveusb/gui.py:481
 msgid "Refreshing releases..."
@@ -335,11 +336,11 @@ msgstr "Restableciendo Master Boot Record de %s"
 
 #: ../liveusb/gui.py:789
 msgid "Select Live ISO"
-msgstr "Seleccione una ISO autoarrancable (Live ISO)"
+msgstr "Selecciona una ISO autoarrancable (Live ISO)"
 
 #: ../liveusb/creator.py:192
 msgid "Setting up OLPC boot file..."
-msgstr "Configurando un fichero de arranque OLPC (One Laptop Per Child)..."
+msgstr "Configurando un fichero de arranque OLPC ..."
 
 #: ../liveusb/creator.py:742
 #, python-format
@@ -366,13 +367,13 @@ msgstr "Dispositivo de destino"
 msgid ""
 "The device \"%(pretty_name)s\" is too small to install Tails (at least "
 "%(size)s GB is required)."
-msgstr "El dispositivo \"%(pretty_name)s\" es demasiado pequeño para instalar Tails (al menos se requieren %(size)s GB)."
+msgstr "El dispositivo \"%(pretty_name)s\" es demasiado pequeño para instalar Tails (se requieren al menos %(size)s GB)."
 
 #: ../liveusb/gui.py:792
 msgid ""
 "The selected file is unreadable. Please fix its permissions or select "
 "another file."
-msgstr "El fichero seleccionado no se pudo leer. Ajuste sus permisos o seleccione otro fichero."
+msgstr "El fichero seleccionado no se puede leer. Ajusta tus permisos o selecciona otro fichero."
 
 #: ../liveusb/creator.py:354
 #, python-format
@@ -386,7 +387,7 @@ msgid ""
 "This button allows you to browse for an existing Live system ISO that you "
 "have previously downloaded.  If you do not select one, a release will be "
 "downloaded for you automatically."
-msgstr "Este botón le permite desplazarse para seleccionar una ISO de sistema autoarrancable existente que haya descargado previamente. Si no selecciona una se descargará una versión automáticamente para usted."
+msgstr "Este botón te permite desplazarte para seleccionar una ISO de sistema autoarrancable existente que hayas descargado previamente. Si no seleccionas una se descargará una versión automáticamente para ti."
 
 #: ../liveusb/dialog.py:171
 msgid ""
@@ -437,7 +438,7 @@ msgstr "No se pudo copiar %(infile)s en %(outfile)s: %(message)s"
 
 #: ../liveusb/gui.py:403
 msgid "Unable to find any USB drive"
-msgstr "No fue posible encontrar alguna unidad USB"
+msgstr "No fue posible encontrar ninguna unidad USB"
 
 #: ../liveusb/creator.py:1274
 msgid "Unable to find any supported device"
