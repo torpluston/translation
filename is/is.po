@@ -1,14 +1,14 @@
-# Tails GDM Greeter
-# Copyright (C) 2016 Tails devlopers
-# This file is distributed under the same license as the tails-greeter package.
-# Tails devloppers <tails@boum.org>, 2016.
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-12-03 13:14+0000\n"
+"POT-Creation-Date: 2017-01-31 10:47+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Sveinn í Felli <sv1@fellsnet.is>, 2016\n"
 "Language-Team: Icelandic (https://www.transifex.com/otf/teams/1519/is/)\n"
@@ -91,12 +91,24 @@ msgstr "Dulbúa öll MAC-vistföng (sjálfgefið)"
 msgid "Don't spoof MAC addresses"
 msgstr "Ekki dulbúa MAC-vistföng"
 
-#: ../data/greeter.ui.h:17
+#: ../data/greeter.ui.h:17 ../tailsgreeter/gui.py:514
+msgid "Cannot unlock encrypted storage with this passphrase."
+msgstr "Get ekki aflæst dulritaðri gagnageymslu með þessum lykilfrasa."
+
+#: ../data/greeter.ui.h:18
+msgid ""
+"You will configure the Tor bridge and local proxy later on after connecting "
+"to a network."
+msgstr ""
+"Þú munt setja upp Tor-brú og staðværan milliþjón (proxy) síðar eftir að hafa"
+" tengst neti."
+
+#: ../data/greeter.ui.h:19
 msgid "Welcome to Tails!"
 msgstr "Velkomin í Tails!"
 
 #. This string will never be displayed in the 1st version of the greeter.
-#: ../data/greeter.ui.h:19
+#: ../data/greeter.ui.h:21
 msgctxt ""
 msgid ""
 "To get guided through Tails' settings, click on <b>Take a Tour</b> above"
@@ -104,76 +116,82 @@ msgstr ""
 "Til að fá leiðsögn um stillingar Tails, smelltu á <b>Fara í skoðunarferð</b>"
 " hér fyrir ofan"
 
-#: ../data/greeter.ui.h:20
+#: ../data/greeter.ui.h:22
 msgid "Language & Region"
 msgstr "Tungumál og hérað"
 
-#: ../data/greeter.ui.h:21
+#: ../data/greeter.ui.h:23
 msgid "Default Settings"
 msgstr "Sjálfgefnar stillingar"
 
-#: ../data/greeter.ui.h:22
+#: ../data/greeter.ui.h:24
 msgid "Save Language & Region Settings"
 msgstr "Vista tungumála- og svæðisstillingar"
 
-#: ../data/greeter.ui.h:23
+#: ../data/greeter.ui.h:25
 msgid "Language"
 msgstr "Tungumál"
 
-#: ../data/greeter.ui.h:24
+#: ../data/greeter.ui.h:26
 msgid "Keyboard Layout"
 msgstr "Lyklaborðsuppsetning"
 
-#: ../data/greeter.ui.h:25
+#: ../data/greeter.ui.h:27
 msgid "Formats"
 msgstr "Snið"
 
-#: ../data/greeter.ui.h:26
+#: ../data/greeter.ui.h:28
 msgid "Time Zone"
 msgstr "Tímabelti"
 
-#: ../data/greeter.ui.h:27
+#: ../data/greeter.ui.h:29
 msgid "Encrypted Persistent Storage"
 msgstr "Dulrituð varanleg gagnageymsla"
 
-#: ../data/greeter.ui.h:28
+#: ../data/greeter.ui.h:30
 msgid "Show Passphrase"
 msgstr "Birta lykilsetningu"
 
-#: ../data/greeter.ui.h:29
+#: ../data/greeter.ui.h:31
 msgid "Configure Persistent Storage"
 msgstr "Stilla varanlega gagnageymslu"
 
-#: ../data/greeter.ui.h:30
+#: ../data/greeter.ui.h:32
 msgid "Enter your passphrase to unlock the persistent storage"
 msgstr "Settu inn lykilfrasann til að aflæsa varanlegu gagnageymslunni"
 
-#: ../data/greeter.ui.h:31 ../tailsgreeter/gui.py:798
-#: ../tailsgreeter/gui.py:962
+#: ../data/greeter.ui.h:33 ../tailsgreeter/gui.py:460
+#: ../tailsgreeter/gui.py:510
 msgid "Unlock"
 msgstr "Aflæsa"
 
-#: ../data/greeter.ui.h:32
+#: ../data/greeter.ui.h:34
 msgid "Relock Persistent Storage"
 msgstr "Læsa aftur varanlegri gagnageymslu"
 
-#: ../data/greeter.ui.h:33 ../tailsgreeter/gui.py:514
+#: ../data/greeter.ui.h:35
+msgid "Your persistent storage is unlocked. Restart Tails to lock it again."
+msgstr ""
+"Varanlega gagnageymslan þín er ólæst. Endurræstu Tails til að læsa henni "
+"aftur."
+
+#: ../data/greeter.ui.h:36 ../tailsgreeter/gui.py:554
 msgid "Additional Settings"
 msgstr "Aukastillingar"
 
-#: ../data/greeter.ui.h:34
+#: ../data/greeter.ui.h:37
 msgid "Save Additional Settings"
 msgstr "Vista aukastillingar"
 
-#: ../data/greeter.ui.h:35
+#: ../data/greeter.ui.h:38
 msgid "Add an additional setting"
 msgstr "Bæta við aukastillingum"
 
-#: ../data/greeter.ui.h:36
+#: ../data/greeter.ui.h:39
 msgid "Network Configuration"
 msgstr "Stillingar netkerfis"
 
-#: ../data/greeter.ui.h:37
+#: ../data/greeter.ui.h:40
 msgid ""
 "If your Internet connection is censored, filtered, or proxied you can "
 "configure a Tor bridge or a local proxy. To work completely offline, you can"
@@ -183,19 +201,19 @@ msgstr ""
 "milliþjón, þá ættir þú að stilla Tor-brú eða milliþjón. Til að vinna án "
 "nettengingar geturðu gert netvinnslu óvirka."
 
-#: ../data/greeter.ui.h:38
+#: ../data/greeter.ui.h:41
 msgid "Connect directly to the Tor network (default)"
 msgstr "Tengjast beint við Tor-netið (sjálfgefið)"
 
-#: ../data/greeter.ui.h:39
+#: ../data/greeter.ui.h:42
 msgid "Configure a Tor bridge, firewall, or proxy settings"
 msgstr "Stilla Tor-brú, eldvegg, eða stillingar milliþjóns (proxy)"
 
-#: ../data/greeter.ui.h:40
+#: ../data/greeter.ui.h:43
 msgid "Disable all networking"
 msgstr "Afvirkja alla netvinnslu"
 
-#: ../data/greeter.ui.h:41
+#: ../data/greeter.ui.h:44
 msgid ""
 "The default settings are safe in most situations. To add a custom setting, "
 "press the \"+\" button below."
@@ -203,79 +221,63 @@ msgstr ""
 "Sjálfgefnar stillingar eru í flestum tilfellum nógu öruggar. Til að bæta við"
 " sérsniðnum stillingum, ýttu á \"+\" hnappinn hér fyrir neðan."
 
-#: ../data/greeter.ui.h:42 ../tailsgreeter/gui.py:717
+#: ../data/greeter.ui.h:45
 msgid "Off (default)"
 msgstr "Slökkt (sjálfgefið)"
 
-#: ../data/greeter.ui.h:43 ../tailsgreeter/gui.py:715
+#: ../data/greeter.ui.h:46
 msgid "On (default)"
 msgstr "Kveikt (sjálfgefið)"
 
-#: ../data/greeter.ui.h:44
+#: ../data/greeter.ui.h:47
 msgid "Network Connection"
 msgstr "Netkerfistenging"
 
-#: ../data/greeter.ui.h:45 ../tailsgreeter/gui.py:914
+#: ../data/greeter.ui.h:48 ../tailsgreeter/gui.py:367
 msgid "Direct (default)"
 msgstr "Beint (sjálfgefið)"
 
-#: ../tailsgreeter/gui.py:456
-msgid "Shutdown"
-msgstr "Slökkva"
-
-#: ../tailsgreeter/gui.py:462
-msgid "Start Tails"
-msgstr "Ræsa Tails"
-
-#: ../tailsgreeter/gui.py:523
-msgid "Cancel"
-msgstr "Hætta við"
-
-#: ../tailsgreeter/gui.py:527
-msgid "Add"
-msgstr "Bæta við"
-
-#: ../tailsgreeter/gui.py:534
-msgid "Back"
-msgstr "Til baka"
-
-#: ../tailsgreeter/gui.py:652
-msgid "Unlocking…"
-msgstr "Aflæsi…"
-
-#: ../tailsgreeter/gui.py:680
-msgid ""
-"You will configure the Tor bridge and local proxy later on after connecting "
-"to a network."
-msgstr ""
-"Þú munt setja upp Tor-brú og staðværan milliþjón (proxy) síðar eftir að hafa"
-" tengst neti."
-
-#: ../tailsgreeter/gui.py:720
-msgid "On"
-msgstr "Kveikt"
-
-#: ../tailsgreeter/gui.py:722
-msgid "Off"
-msgstr "Slökkt"
-
-#: ../tailsgreeter/gui.py:801
-msgid "Failed to relock persistent storage."
-msgstr "Tókst ekki að læsa aftur varanlegri gagnageymslu."
-
-#: ../tailsgreeter/gui.py:920
+#: ../tailsgreeter/gui.py:373
 msgid "Bridge & Proxy"
 msgstr "Brú og milliþjónn"
 
-#: ../tailsgreeter/gui.py:926
+#: ../tailsgreeter/gui.py:379
 msgid "Offline"
 msgstr "Ónettengt"
 
-#: ../tailsgreeter/gui.py:965
-msgid "Cannot unlock encrypted storage with this passphrase."
-msgstr "Get ekki aflæst dulritaðri gagnageymslu með þessum lykilfrasa."
+#: ../tailsgreeter/gui.py:463
+msgid "Failed to relock persistent storage."
+msgstr "Tókst ekki að læsa aftur varanlegri gagnageymslu."
 
-#: ../tailsgreeter/persistence.py:96
+#: ../tailsgreeter/gui.py:481
+msgid "Unlocking…"
+msgstr "Aflæsi…"
+
+#: ../tailsgreeter/gui.py:562
+msgid "Cancel"
+msgstr "Hætta við"
+
+#: ../tailsgreeter/gui.py:566
+msgid "Add"
+msgstr "Bæta við"
+
+#: ../tailsgreeter/gui.py:572
+msgid "Back"
+msgstr "Til baka"
+
+#: ../tailsgreeter/gui.py:658
+msgid "Shutdown"
+msgstr "Slökkva"
+
+#: ../tailsgreeter/gui.py:664
+msgid "Start Tails"
+msgstr "Ræsa Tails"
+
+#: ../tailsgreeter/language.py:119
+msgid "default:LTR"
+msgstr "default:LTR"
+
+#: ../tailsgreeter/persistence.py:89
 #, python-brace-format
 msgid ""
 "live-persist failed with return code {returncode}:\n"
@@ -284,8 +286,7 @@ msgstr ""
 "live-persist mistókst með svarkóða {returncode}:\n"
 "{stderr}"
 
-#: ../tailsgreeter/persistence.py:138 ../tailsgreeter/persistence.py:163
-#: ../tailsgreeter/persistence.py:186
+#: ../tailsgreeter/persistence.py:120 ../tailsgreeter/persistence.py:137
 #, python-brace-format
 msgid ""
 "cryptsetup failed with return code {returncode}:\n"
@@ -296,7 +297,18 @@ msgstr ""
 "{stdout}\n"
 "{stderr}"
 
-#: ../tailsgreeter/persistence.py:206
+#: ../tailsgreeter/persistence.py:154
+#, python-brace-format
+msgid ""
+"live-persist failed with return code {returncode}:\n"
+"{stdout}\n"
+"{stderr}"
+msgstr ""
+"live-persist mistókst með svarkóða {returncode}:\n"
+"{stdout}\n"
+"{stderr}"
+
+#: ../tailsgreeter/persistence.py:168
 #, python-brace-format
 msgid ""
 "umount failed with return code {returncode}:\n"
