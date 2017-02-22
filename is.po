@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: The Tor Project\n"
 "Report-Msgid-Bugs-To: Tails developers <tails@boum.org>\n"
 "POT-Creation-Date: 2016-05-25 16:55+0200\n"
-"PO-Revision-Date: 2017-01-26 15:35+0000\n"
+"PO-Revision-Date: 2017-02-13 08:41+0000\n"
 "Last-Translator: Sveinn í Felli <sv1@fellsnet.is>\n"
 "Language-Team: Icelandic (http://www.transifex.com/otf/torproject/language/is/)\n"
 "MIME-Version: 1.0\n"
@@ -36,7 +36,7 @@ msgid ""
 "Check your network connection, and restart Tails to try upgrading again.\n"
 "\n"
 "If the problem persists, go to file:///usr/share/doc/tails/website/doc/upgrade/error/check.en.html"
-msgstr ""
+msgstr "<b>Gat ekki fundið hvort uppfærsla sé tiltæk á vefsvæðinu.</b>\\n\\nAthugaðu nettenginguna og endurræstu Tails til að reyna aftur við uppfærsluna.\\n\\nEf vandamálið hverfur ekki, farðu þá á file:///usr/share/doc/tails/website/doc/upgrade/error/check.en.html"
 
 #: ../lib/Tails/IUK/Frontend.pm:235
 msgid "no automatic upgrade is available from our website for this version"
@@ -76,14 +76,14 @@ msgstr "Þessi útgáfa Tails er úrelt og gæti verið með öryggisvandamál."
 msgid ""
 "The available incremental upgrade requires %{space_needed}s of free space on"
 " Tails system partition,  but only %{free_space}s is available."
-msgstr ""
+msgstr "Tiltæka hlutauppfærslan krefst %{space_needed}s af lausu plássi á kerfissneið Tails, en aðeins %{free_space}s eru laus."
 
 #: ../lib/Tails/IUK/Frontend.pm:335
 #, perl-brace-format
 msgid ""
 "The available incremental upgrade requires %{memory_needed}s of free memory,"
 " but only %{free_memory}s is available."
-msgstr ""
+msgstr "Tiltæka hlutauppfærslan krefst %{memory_needed}s af lausu minni, en aðeins %{free_memory}s er laust."
 
 #: ../lib/Tails/IUK/Frontend.pm:357
 msgid ""
@@ -133,7 +133,7 @@ msgid ""
 "It is not possible to automatically upgrade your device to this new version: %{explanation}s.\n"
 "\n"
 "To learn how to do a manual upgrade, go to https://tails.boum.org/doc/first_steps/upgrade/#manual"
-msgstr ""
+msgstr "<b>Þú ættir að uppfæra handvirkt í %{name}s %{version}s.</b>\n\nTil að sjá nánari upplýsingar um nýju útgáfuna, farðu á %{details_url}s\n\nEkki er hægt að uppfæra tækið sjálfvirkt í þessa nýju útgáfu: %{explanation}s.\n\nTil að sjá hvernig framkvæma eigi handvirka uppfærslu, farðu þá á https://tails.boum.org/doc/first_steps/upgrade/#manual"
 
 #: ../lib/Tails/IUK/Frontend.pm:412
 msgid "New version available"
@@ -154,7 +154,7 @@ msgid ""
 "connection, and restart Tails to try upgrading again.\\n\\nIf the problem "
 "persists, go to "
 "file:///usr/share/doc/tails/website/doc/upgrade/error/download.en.html"
-msgstr ""
+msgstr "<b>Ekki var hægt að sækja uppfærsluna.</b>\\n\\nAthugaðu nettenginguna og endurræstu Tails til að reyna aftur við uppfærsluna.\\n\\nEf vandamálið hverfur ekki, farðu þá á file:///usr/share/doc/tails/website/doc/upgrade/error/download.en.html"
 
 #: ../lib/Tails/IUK/Frontend.pm:529 ../lib/Tails/IUK/Frontend.pm:548
 msgid "Error while downloading the upgrade"
@@ -165,7 +165,7 @@ msgstr "Villa kom upp við niðurhal uppfærslunnar"
 msgid ""
 "Output file '%{output_file}s' does not exist, but tails-iuk-get-target-file "
 "did not complain. Please report a bug."
-msgstr ""
+msgstr "Frálagsskráin '%{output_file}s' er ekki til, en tails-iuk-get-target-file kvartaði ekki. Endilega tilkynntu um villu."
 
 #: ../lib/Tails/IUK/Frontend.pm:560
 msgid "Error while creating temporary downloading directory"
@@ -194,7 +194,7 @@ msgid ""
 "You should restart Tails on the new version as soon as possible.\n"
 "\n"
 "Do you want to restart now?"
-msgstr ""
+msgstr "<b>Það tókst að uppfæra Tails tækið þitt.</b>\n\nSumir öryggiseiginleikar voru tímabundið gerðir óvirkir.\nÞú ættir að endurræsa Tails með nýju útgáfunni eins fljótt og auðið er.\n\nViltu endurræsa núna?"
 
 #: ../lib/Tails/IUK/Frontend.pm:613
 msgid "Restart Tails"
@@ -241,7 +241,7 @@ msgid ""
 " needs to be repaired and might be unable to restart.\\n\\nPlease follow the"
 " instructions at "
 "file:///usr/share/doc/tails/website/doc/upgrade/error/install.en.html"
-msgstr ""
+msgstr "<b>Villa kom upp við uppsetningu uppfærslunnar.</b>\\n\\nÞað þarf að gera við Tails tækið, sem gæti verið ófært um að endurræsa sig.\\n\\nFarðu eftir leiðbeiningunum á file:///usr/share/doc/tails/website/doc/upgrade/error/install.en.html"
 
 #: ../lib/Tails/IUK/Frontend.pm:702
 msgid "Error while installing the upgrade"
