@@ -201,6 +201,9 @@ msgid ""
 "configure a Tor bridge or a local proxy. To work completely offline, you can"
 " disable all networking."
 msgstr ""
+"Se a ligação à Internet está censurada, filtrada ou com proxy, pode "
+"configurar uma ponte Tor, ou um proxy local. Para funcionar completamente "
+"off-line, pode desativar toda a rede."
 
 #: ../data/greeter.ui.h:41
 msgid "Connect directly to the Tor network (default)"
@@ -248,7 +251,7 @@ msgstr "Off-line"
 
 #: ../tailsgreeter/gui.py:463
 msgid "Failed to relock persistent storage."
-msgstr ""
+msgstr "Não foi possível voltar a bloquear o armazenamento persistente."
 
 #: ../tailsgreeter/gui.py:481
 msgid "Unlocking…"
@@ -284,6 +287,8 @@ msgid ""
 "live-persist failed with return code {returncode}:\n"
 "{stderr}"
 msgstr ""
+"live-persist failed with return code {returncode}:\n"
+"{stderr}"
 
 #: ../tailsgreeter/persistence.py:120 ../tailsgreeter/persistence.py:137
 #, python-brace-format
@@ -292,6 +297,9 @@ msgid ""
 "{stdout}\n"
 "{stderr}"
 msgstr ""
+"cryptsetup failed with return code {returncode}:\n"
+"{stdout}\n"
+"{stderr}"
 
 #: ../tailsgreeter/persistence.py:154
 #, python-brace-format
@@ -300,6 +308,9 @@ msgid ""
 "{stdout}\n"
 "{stderr}"
 msgstr ""
+"live-persist failed with return code {returncode}:\n"
+"{stdout}\n"
+"{stderr}"
 
 #: ../tailsgreeter/persistence.py:168
 #, python-brace-format
@@ -308,3 +319,6 @@ msgid ""
 "{stdout}\n"
 "{stderr}"
 msgstr ""
+"umount failed with return code {returncode}:\n"
+"{stdout}\n"
+"{stderr}"
