@@ -11,12 +11,12 @@
 # D P, 2015
 # Ettore Atalan <atalanttore@googlemail.com>, 2014-2016
 # gerhard <listmember@rinnberger.de>, 2013
-# konstibae, 2015
+# Konstantin BB, 2015
 # Larson März <larson@protonmail.ch>, 2013
 # Mario Baier <mario.baier26@gmx.de>, 2013
 # Mart3000, 2015
 # malexmave <inactive+malexmave@transifex.com>, 2014
-# max weber, 2015
+# max weber, 2015,2017
 # Sandra R <drahtseilakt@live.com>, 2014
 # Sebastian <sebix+transifex@sebix.at>, 2015
 # spriver <spriver@autistici.org>, 2015
@@ -28,9 +28,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: The Tor Project\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-09-02 16:02+0200\n"
-"PO-Revision-Date: 2016-09-03 08:57+0000\n"
-"Last-Translator: carolyn <carolyn@anhalt.org>\n"
+"POT-Creation-Date: 2017-03-06 12:07+0100\n"
+"PO-Revision-Date: 2017-03-07 17:09+0000\n"
+"Last-Translator: max weber\n"
 "Language-Team: German (http://www.transifex.com/otf/torproject/language/de/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -116,6 +116,20 @@ msgstr "Neustart"
 msgid "Power Off"
 msgstr "Ausschalten"
 
+#: config/chroot_local-includes/usr/local/lib/tails-32-bit-notify-user:59
+msgid "Warning: Tails 3.0 won't work on this computer!"
+msgstr "Warnung: Tails 3.0 wird auf diesem Computer nicht laufen!"
+
+#: config/chroot_local-includes/usr/local/lib/tails-32-bit-notify-user:60
+msgid "Tails 3.0 will require a 64-bit processor."
+msgstr "Tails 3.0 benötigt einen 64-bit-Prozessor."
+
+#: config/chroot_local-includes/usr/local/lib/tails-32-bit-notify-user:63
+#: config/chroot_local-includes/usr/local/lib/tails-i2p-removal-notify-user:59
+#: config/chroot_local-includes/usr/local/lib/tails-virt-notify-user:83
+msgid "Learn more"
+msgstr "Mehr erfahren"
+
 #: config/chroot_local-includes/usr/local/bin/tails-about:22
 #: ../config/chroot_local-includes/usr/share/desktop-directories/Tails.directory.in.h:1
 msgid "Tails"
@@ -173,11 +187,15 @@ msgstr "Tor braucht eine exakte Systemuhr um genau zu arbeiten, besonders für v
 msgid "Failed to synchronize the clock!"
 msgstr "Fehler beim synchronisieren der Systemuhr!"
 
-#: config/chroot_local-includes/usr/local/bin/tails-security-check:146
+#: config/chroot_local-includes/usr/local/lib/tails-i2p-removal-notify-user:57
+msgid "Warning: I2P will be removed in Tails 2.12"
+msgstr "Warnung: I2P wird in Tails 2.12 entfernt werden"
+
+#: config/chroot_local-includes/usr/local/bin/tails-security-check:124
 msgid "This version of Tails has known security issues:"
 msgstr "Diese Tails-Version weist Sicherheitslücken auf:"
 
-#: config/chroot_local-includes/usr/local/bin/tails-security-check:156
+#: config/chroot_local-includes/usr/local/bin/tails-security-check:134
 msgid "Known security issues"
 msgstr "Bekannte Sicherheitsprobleme"
 
@@ -227,21 +245,21 @@ msgid ""
 "See https://tails.boum.org/doc/first_steps/upgrade#manual"
 msgstr "<b>Nicht genügend Speicher vorhanden um nach Aktualisierungen zu suchen.</b>\n\nStellen Sie bitte sicher, dass dieses System den Minimalanforderungen für Tails entspricht.\nSiehe: file:///usr/share/doc/tails/website/doc/about/requirements.en.html\n\nVersuchen Sie Tails neu zu starten, um erneut nach Aktualisierungen zu suchen.\n\nOder führen Sie eine manuelle Aktualisierung durch.\nBeachten Sie bitte dazu: https://tails.boum.org/doc/first_steps/upgrade#manual"
 
-#: config/chroot_local-includes/usr/local/lib/tails-virt-notify-user:67
+#: config/chroot_local-includes/usr/local/lib/tails-virt-notify-user:71
 msgid "Warning: virtual machine detected!"
 msgstr "Warnung: Virtuelle Maschine erkannt!"
 
-#: config/chroot_local-includes/usr/local/lib/tails-virt-notify-user:69
+#: config/chroot_local-includes/usr/local/lib/tails-virt-notify-user:73
 msgid ""
 "Both the host operating system and the virtualization software are able to "
 "monitor what you are doing in Tails."
 msgstr "Sowohl das Wirtsbetriebssystem als auch die Virtualisierungsanwendung können überwachen, was Sie in Tails machen."
 
-#: config/chroot_local-includes/usr/local/lib/tails-virt-notify-user:72
+#: config/chroot_local-includes/usr/local/lib/tails-virt-notify-user:76
 msgid "Warning: non-free virtual machine detected!"
 msgstr "Warnung: nicht-freie virtuelle Maschine erkannt!"
 
-#: config/chroot_local-includes/usr/local/lib/tails-virt-notify-user:74
+#: config/chroot_local-includes/usr/local/lib/tails-virt-notify-user:78
 msgid ""
 "Both the host operating system and the virtualization software are able to "
 "monitor what you are doing in Tails. Only free software can be considered "
@@ -249,23 +267,19 @@ msgid ""
 "software."
 msgstr "Sowohl das Wirts-Betriebssystem als auch die Virtualisierungs-Anwendung können überwachen, was Sie in Tails machen. Nur Freie Software kann sowohl für das Wirts-Betriebssystem als auch für die Virtualisierungs-Anwendung als vertrauenswürdig gelten."
 
-#: config/chroot_local-includes/usr/local/lib/tails-virt-notify-user:79
-msgid "Learn more"
-msgstr "Mehr erfahren"
-
-#: config/chroot_local-includes/usr/local/bin/tor-browser:40
+#: config/chroot_local-includes/usr/local/bin/tor-browser:43
 msgid "Tor is not ready"
 msgstr "Tor ist nicht bereit"
 
-#: config/chroot_local-includes/usr/local/bin/tor-browser:41
+#: config/chroot_local-includes/usr/local/bin/tor-browser:44
 msgid "Tor is not ready. Start Tor Browser anyway?"
 msgstr "Tor ist nicht bereit. Möchten Sie den Tor-Browser trotzdem starten?"
 
-#: config/chroot_local-includes/usr/local/bin/tor-browser:42
+#: config/chroot_local-includes/usr/local/bin/tor-browser:45
 msgid "Start Tor Browser"
 msgstr "Tor-Browser starten"
 
-#: config/chroot_local-includes/usr/local/bin/tor-browser:43
+#: config/chroot_local-includes/usr/local/bin/tor-browser:46
 msgid "Cancel"
 msgstr "Abbrechen"
 
