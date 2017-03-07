@@ -14,7 +14,7 @@
 # Matt Santy <matt_santy@hotmail.com>, 2013
 # stayanonymous, 2015
 # Mohammed ALDOUB <voulnet@gmail.com>, 2013
-# Osama H. Qasho' <osamah_owis@windowslive.com>, 2014
+# Osama H. Qasho <osamah_owis@windowslive.com>, 2014
 # Osama M. Mneina <o.mneina@gmail.com>, 2014
 # Sherief Alaa <sheriefalaa.w@gmail.com>, 2013
 # Singapore Goldindor, 2016
@@ -24,9 +24,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: The Tor Project\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-09-19 13:02+0200\n"
-"PO-Revision-Date: 2016-09-24 16:51+0000\n"
-"Last-Translator: Singapore Goldindor\n"
+"POT-Creation-Date: 2017-03-06 12:07+0100\n"
+"PO-Revision-Date: 2017-03-07 09:32+0000\n"
+"Last-Translator: carolyn <carolyn@anhalt.org>\n"
 "Language-Team: Arabic (http://www.transifex.com/otf/torproject/language/ar/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -112,6 +112,20 @@ msgstr "إعادة تشغيل"
 msgid "Power Off"
 msgstr "إيقاف التشغيل"
 
+#: config/chroot_local-includes/usr/local/lib/tails-32-bit-notify-user:59
+msgid "Warning: Tails 3.0 won't work on this computer!"
+msgstr ""
+
+#: config/chroot_local-includes/usr/local/lib/tails-32-bit-notify-user:60
+msgid "Tails 3.0 will require a 64-bit processor."
+msgstr ""
+
+#: config/chroot_local-includes/usr/local/lib/tails-32-bit-notify-user:63
+#: config/chroot_local-includes/usr/local/lib/tails-i2p-removal-notify-user:59
+#: config/chroot_local-includes/usr/local/lib/tails-virt-notify-user:83
+msgid "Learn more"
+msgstr "تعرف على المزيد"
+
 #: config/chroot_local-includes/usr/local/bin/tails-about:22
 #: ../config/chroot_local-includes/usr/share/desktop-directories/Tails.directory.in.h:1
 msgid "Tails"
@@ -169,11 +183,15 @@ msgstr "تور يحتاج ساعة دقيقة للعمل، خصوصاً للخد
 msgid "Failed to synchronize the clock!"
 msgstr "فشل في تزامن ساعة النظام!"
 
-#: config/chroot_local-includes/usr/local/bin/tails-security-check:146
+#: config/chroot_local-includes/usr/local/lib/tails-i2p-removal-notify-user:57
+msgid "Warning: I2P will be removed in Tails 2.12"
+msgstr ""
+
+#: config/chroot_local-includes/usr/local/bin/tails-security-check:124
 msgid "This version of Tails has known security issues:"
 msgstr "هذه النسخة من تيلز تحتوي مشاكل أمنية:"
 
-#: config/chroot_local-includes/usr/local/bin/tails-security-check:156
+#: config/chroot_local-includes/usr/local/bin/tails-security-check:134
 msgid "Known security issues"
 msgstr "أعطال أمنية معروفة"
 
@@ -223,21 +241,21 @@ msgid ""
 "See https://tails.boum.org/doc/first_steps/upgrade#manual"
 msgstr "<b>لا يوجد ذاكرة كافية متاحة لفحص وجود ترقيات.</b>\n\nتأكّد من أنّ نظامك يلبّي حاجات تشغيل Tails.\nأنظر للملف file:///usr/share/doc/tails/website/doc/about/requirements.en.html\n\nقم بإعادة تشغيل Tails لإعادة التحقق من وجود ترقيات\n\nأو قم بالترقية يدويًّا.\nأنظر https://tails.boum.org/doc/first_steps/upgrade#manual"
 
-#: config/chroot_local-includes/usr/local/lib/tails-virt-notify-user:67
+#: config/chroot_local-includes/usr/local/lib/tails-virt-notify-user:71
 msgid "Warning: virtual machine detected!"
 msgstr "تحذير: تم اكتشاف بيئة عمل افتراضية!"
 
-#: config/chroot_local-includes/usr/local/lib/tails-virt-notify-user:69
+#: config/chroot_local-includes/usr/local/lib/tails-virt-notify-user:73
 msgid ""
 "Both the host operating system and the virtualization software are able to "
 "monitor what you are doing in Tails."
 msgstr "كلا من نظام التشغيل المستضيف وبرنامج تشغيل البيئة الافتراضية قادرين على معرفة ما تفعله في تايلز."
 
-#: config/chroot_local-includes/usr/local/lib/tails-virt-notify-user:72
+#: config/chroot_local-includes/usr/local/lib/tails-virt-notify-user:76
 msgid "Warning: non-free virtual machine detected!"
 msgstr "تحذير: تم الكشف على آلة افتراضيه غير حره"
 
-#: config/chroot_local-includes/usr/local/lib/tails-virt-notify-user:74
+#: config/chroot_local-includes/usr/local/lib/tails-virt-notify-user:78
 msgid ""
 "Both the host operating system and the virtualization software are able to "
 "monitor what you are doing in Tails. Only free software can be considered "
@@ -245,23 +263,19 @@ msgid ""
 "software."
 msgstr "كل من نظام التشغيل المضيف والبرنامج الافتراضي هي قادرة على رصد ما تقومون به في تيلز. البرامج الحرة فقط هي التي يمكن اعتبارها جديرة بالثقة، على كل من نظام التشغيل المضيف والبرنامج الافتراضي."
 
-#: config/chroot_local-includes/usr/local/lib/tails-virt-notify-user:79
-msgid "Learn more"
-msgstr "تعرف على المزيد"
-
-#: config/chroot_local-includes/usr/local/bin/tor-browser:40
+#: config/chroot_local-includes/usr/local/bin/tor-browser:43
 msgid "Tor is not ready"
 msgstr "تور غير جاهز"
 
-#: config/chroot_local-includes/usr/local/bin/tor-browser:41
+#: config/chroot_local-includes/usr/local/bin/tor-browser:44
 msgid "Tor is not ready. Start Tor Browser anyway?"
 msgstr "تور غير جاهز. بدء متصفح تور على أي حال؟"
 
-#: config/chroot_local-includes/usr/local/bin/tor-browser:42
+#: config/chroot_local-includes/usr/local/bin/tor-browser:45
 msgid "Start Tor Browser"
 msgstr "أبدأ متصفح تور"
 
-#: config/chroot_local-includes/usr/local/bin/tor-browser:43
+#: config/chroot_local-includes/usr/local/bin/tor-browser:46
 msgid "Cancel"
 msgstr "إلغاء"
 

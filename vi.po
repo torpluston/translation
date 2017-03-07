@@ -8,9 +8,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: The Tor Project\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-09-19 13:02+0200\n"
-"PO-Revision-Date: 2016-10-03 03:55+0000\n"
-"Last-Translator: Khanh Nguyen <nguyenduykhanh85@gmail.com>\n"
+"POT-Creation-Date: 2017-03-06 12:07+0100\n"
+"PO-Revision-Date: 2017-03-07 09:32+0000\n"
+"Last-Translator: carolyn <carolyn@anhalt.org>\n"
 "Language-Team: Vietnamese (http://www.transifex.com/otf/torproject/language/vi/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -96,6 +96,20 @@ msgstr "Khởi động lại"
 msgid "Power Off"
 msgstr "Tắt nguồn"
 
+#: config/chroot_local-includes/usr/local/lib/tails-32-bit-notify-user:59
+msgid "Warning: Tails 3.0 won't work on this computer!"
+msgstr ""
+
+#: config/chroot_local-includes/usr/local/lib/tails-32-bit-notify-user:60
+msgid "Tails 3.0 will require a 64-bit processor."
+msgstr ""
+
+#: config/chroot_local-includes/usr/local/lib/tails-32-bit-notify-user:63
+#: config/chroot_local-includes/usr/local/lib/tails-i2p-removal-notify-user:59
+#: config/chroot_local-includes/usr/local/lib/tails-virt-notify-user:83
+msgid "Learn more"
+msgstr "Biết thêm"
+
 #: config/chroot_local-includes/usr/local/bin/tails-about:22
 #: ../config/chroot_local-includes/usr/share/desktop-directories/Tails.directory.in.h:1
 msgid "Tails"
@@ -153,11 +167,15 @@ msgstr "Tor cần một đồng hồ chính xác để hoạt động đúng, đ
 msgid "Failed to synchronize the clock!"
 msgstr "Thất bại trong việc đồng bộ đồng hồ!"
 
-#: config/chroot_local-includes/usr/local/bin/tails-security-check:146
+#: config/chroot_local-includes/usr/local/lib/tails-i2p-removal-notify-user:57
+msgid "Warning: I2P will be removed in Tails 2.12"
+msgstr ""
+
+#: config/chroot_local-includes/usr/local/bin/tails-security-check:124
 msgid "This version of Tails has known security issues:"
 msgstr "Phiên bản này của Tails có một vài vấn đề an ninh đã được biết đến:"
 
-#: config/chroot_local-includes/usr/local/bin/tails-security-check:156
+#: config/chroot_local-includes/usr/local/bin/tails-security-check:134
 msgid "Known security issues"
 msgstr "Những vấn đề an ninh đã được biết đến"
 
@@ -207,21 +225,21 @@ msgid ""
 "See https://tails.boum.org/doc/first_steps/upgrade#manual"
 msgstr "<b>Không đủ bộ nhớ trống để kiểm tra việc nâng cấp.</b>\n\n\nHãy bảm đảm rằng hệ thống này thỏa các yêu cầu để vận hành Tails.\n\nXem file:///usr/share/doc/tails/website/doc/about/requirements.en.html\n\n\nCố gắng khởi động lại Tails để kiểm tra lại việc nâng cấp.\n\n\nHoặc thực hiện nâng cấp thủ công.\n\nXem https://tails.boum.org/doc/first_steps/upgrade#manual"
 
-#: config/chroot_local-includes/usr/local/lib/tails-virt-notify-user:67
+#: config/chroot_local-includes/usr/local/lib/tails-virt-notify-user:71
 msgid "Warning: virtual machine detected!"
 msgstr "Cảnh báo: máy ảo được phát hiện!"
 
-#: config/chroot_local-includes/usr/local/lib/tails-virt-notify-user:69
+#: config/chroot_local-includes/usr/local/lib/tails-virt-notify-user:73
 msgid ""
 "Both the host operating system and the virtualization software are able to "
 "monitor what you are doing in Tails."
 msgstr "Cả hệ thống vận hành máy chủ và phần mềm ảo hóa đều có thể theo dõi những gì bạn đang làm trên Tails."
 
-#: config/chroot_local-includes/usr/local/lib/tails-virt-notify-user:72
+#: config/chroot_local-includes/usr/local/lib/tails-virt-notify-user:76
 msgid "Warning: non-free virtual machine detected!"
 msgstr "Cảnh báo: máy ảo không miễn phí được phát hiện!"
 
-#: config/chroot_local-includes/usr/local/lib/tails-virt-notify-user:74
+#: config/chroot_local-includes/usr/local/lib/tails-virt-notify-user:78
 msgid ""
 "Both the host operating system and the virtualization software are able to "
 "monitor what you are doing in Tails. Only free software can be considered "
@@ -229,23 +247,19 @@ msgid ""
 "software."
 msgstr "Cả hệ thống vận hành máy chủ và phần mềm ảo hóa đều có thể theo dõi những gì bạn đang làm trên Tails. Chỉ có phần mềm miễn phí có thể được xem xét đáng tin cậy, dành cho cả hệ thống vận hành máy chủ và phần mềm ảo hóa."
 
-#: config/chroot_local-includes/usr/local/lib/tails-virt-notify-user:79
-msgid "Learn more"
-msgstr "Biết thêm"
-
-#: config/chroot_local-includes/usr/local/bin/tor-browser:40
+#: config/chroot_local-includes/usr/local/bin/tor-browser:43
 msgid "Tor is not ready"
 msgstr "Tor chưa sẵn sàng"
 
-#: config/chroot_local-includes/usr/local/bin/tor-browser:41
+#: config/chroot_local-includes/usr/local/bin/tor-browser:44
 msgid "Tor is not ready. Start Tor Browser anyway?"
 msgstr "Tor chưa sẵn sàng. Bắt đầu Tor Browser dù thế nào đi nữa?"
 
-#: config/chroot_local-includes/usr/local/bin/tor-browser:42
+#: config/chroot_local-includes/usr/local/bin/tor-browser:45
 msgid "Start Tor Browser"
 msgstr "Bắt đầu trình duyệt Tor"
 
-#: config/chroot_local-includes/usr/local/bin/tor-browser:43
+#: config/chroot_local-includes/usr/local/bin/tor-browser:46
 msgid "Cancel"
 msgstr "Hủy bỏ"
 

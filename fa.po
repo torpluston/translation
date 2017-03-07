@@ -20,8 +20,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: The Tor Project\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-09-02 16:02+0200\n"
-"PO-Revision-Date: 2016-09-03 08:57+0000\n"
+"POT-Creation-Date: 2017-03-06 12:07+0100\n"
+"PO-Revision-Date: 2017-03-07 09:32+0000\n"
 "Last-Translator: carolyn <carolyn@anhalt.org>\n"
 "Language-Team: Persian (http://www.transifex.com/otf/torproject/language/fa/)\n"
 "MIME-Version: 1.0\n"
@@ -108,6 +108,20 @@ msgstr "شروع دوباره"
 msgid "Power Off"
 msgstr "خاموش کردن رایانه"
 
+#: config/chroot_local-includes/usr/local/lib/tails-32-bit-notify-user:59
+msgid "Warning: Tails 3.0 won't work on this computer!"
+msgstr ""
+
+#: config/chroot_local-includes/usr/local/lib/tails-32-bit-notify-user:60
+msgid "Tails 3.0 will require a 64-bit processor."
+msgstr ""
+
+#: config/chroot_local-includes/usr/local/lib/tails-32-bit-notify-user:63
+#: config/chroot_local-includes/usr/local/lib/tails-i2p-removal-notify-user:59
+#: config/chroot_local-includes/usr/local/lib/tails-virt-notify-user:83
+msgid "Learn more"
+msgstr "بیشتر بدانید"
+
 #: config/chroot_local-includes/usr/local/bin/tails-about:22
 #: ../config/chroot_local-includes/usr/share/desktop-directories/Tails.directory.in.h:1
 msgid "Tails"
@@ -165,11 +179,15 @@ msgstr "تور برای درست کار کاردن، مخصوصا برای خد�
 msgid "Failed to synchronize the clock!"
 msgstr "هم‌زمان‌سازی ساعت موفقیت‌آمیز نبود!"
 
-#: config/chroot_local-includes/usr/local/bin/tails-security-check:146
+#: config/chroot_local-includes/usr/local/lib/tails-i2p-removal-notify-user:57
+msgid "Warning: I2P will be removed in Tails 2.12"
+msgstr ""
+
+#: config/chroot_local-includes/usr/local/bin/tails-security-check:124
 msgid "This version of Tails has known security issues:"
 msgstr "این نسخه از Tails این مشکلات امنیت شناخته شده را دارد:"
 
-#: config/chroot_local-includes/usr/local/bin/tails-security-check:156
+#: config/chroot_local-includes/usr/local/bin/tails-security-check:134
 msgid "Known security issues"
 msgstr "مسائل امنیتی شناخته شده"
 
@@ -219,21 +237,21 @@ msgid ""
 "See https://tails.boum.org/doc/first_steps/upgrade#manual"
 msgstr "<b>حافظه رم خالی جهت بررسی برای به روز رسانی موجود نیست.</b>\n\nمطمئن شوید این سیستم حداقل پیش نیازهای لازم برای تیلز را پشتیبانی می کند.\nاین فایل را ببینید:  file:///usr/share/doc/tails/website/doc/about/requirements.en.html\n\nتیلز را راه اندازی مجدد کنید و دوباره برای به روز رسانی اقدام کنید.\n\nو یا به صورت دستی به روز رسانی کنید.\nاین فایل را ببینید: https://tails.boum.org/doc/first_steps/upgrade#manual"
 
-#: config/chroot_local-includes/usr/local/lib/tails-virt-notify-user:67
+#: config/chroot_local-includes/usr/local/lib/tails-virt-notify-user:71
 msgid "Warning: virtual machine detected!"
 msgstr "هشدار: ماشین مجازی کشف شد!"
 
-#: config/chroot_local-includes/usr/local/lib/tails-virt-notify-user:69
+#: config/chroot_local-includes/usr/local/lib/tails-virt-notify-user:73
 msgid ""
 "Both the host operating system and the virtualization software are able to "
 "monitor what you are doing in Tails."
 msgstr "هم سیستم میزبان و هم نرم افزار مجازی سازی می توانند هر کاری که در Tails انجام می دهید، مشاهده کنند."
 
-#: config/chroot_local-includes/usr/local/lib/tails-virt-notify-user:72
+#: config/chroot_local-includes/usr/local/lib/tails-virt-notify-user:76
 msgid "Warning: non-free virtual machine detected!"
 msgstr "هشدار: ماشین مجازی غیر آزاد شناسایی شد!"
 
-#: config/chroot_local-includes/usr/local/lib/tails-virt-notify-user:74
+#: config/chroot_local-includes/usr/local/lib/tails-virt-notify-user:78
 msgid ""
 "Both the host operating system and the virtualization software are able to "
 "monitor what you are doing in Tails. Only free software can be considered "
@@ -241,23 +259,19 @@ msgid ""
 "software."
 msgstr "سیستم عامل میزبان و نرم افزار مجازی ساز می توانند آنچه شما در Tails انجام می دهید را مشاهده کنند. تنها نرم افزارهای آزاد می توانند برای سیستم عامل میزبان و نرم افزار مجازی ساز قابل اعتماد باشند."
 
-#: config/chroot_local-includes/usr/local/lib/tails-virt-notify-user:79
-msgid "Learn more"
-msgstr "بیشتر بدانید"
-
-#: config/chroot_local-includes/usr/local/bin/tor-browser:40
+#: config/chroot_local-includes/usr/local/bin/tor-browser:43
 msgid "Tor is not ready"
 msgstr "تور آماده نیست"
 
-#: config/chroot_local-includes/usr/local/bin/tor-browser:41
+#: config/chroot_local-includes/usr/local/bin/tor-browser:44
 msgid "Tor is not ready. Start Tor Browser anyway?"
 msgstr "تور آماده نیست. مرورگر تور به هر حال اجرا شود؟"
 
-#: config/chroot_local-includes/usr/local/bin/tor-browser:42
+#: config/chroot_local-includes/usr/local/bin/tor-browser:45
 msgid "Start Tor Browser"
 msgstr "اجرای مرورگر تور"
 
-#: config/chroot_local-includes/usr/local/bin/tor-browser:43
+#: config/chroot_local-includes/usr/local/bin/tor-browser:46
 msgid "Cancel"
 msgstr "لغو"
 

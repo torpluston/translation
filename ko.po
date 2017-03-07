@@ -13,8 +13,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: The Tor Project\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-09-02 16:02+0200\n"
-"PO-Revision-Date: 2016-09-03 08:57+0000\n"
+"POT-Creation-Date: 2017-03-06 12:07+0100\n"
+"PO-Revision-Date: 2017-03-07 09:32+0000\n"
 "Last-Translator: carolyn <carolyn@anhalt.org>\n"
 "Language-Team: Korean (http://www.transifex.com/otf/torproject/language/ko/)\n"
 "MIME-Version: 1.0\n"
@@ -101,6 +101,20 @@ msgstr "재시작"
 msgid "Power Off"
 msgstr "끄기"
 
+#: config/chroot_local-includes/usr/local/lib/tails-32-bit-notify-user:59
+msgid "Warning: Tails 3.0 won't work on this computer!"
+msgstr ""
+
+#: config/chroot_local-includes/usr/local/lib/tails-32-bit-notify-user:60
+msgid "Tails 3.0 will require a 64-bit processor."
+msgstr ""
+
+#: config/chroot_local-includes/usr/local/lib/tails-32-bit-notify-user:63
+#: config/chroot_local-includes/usr/local/lib/tails-i2p-removal-notify-user:59
+#: config/chroot_local-includes/usr/local/lib/tails-virt-notify-user:83
+msgid "Learn more"
+msgstr "더 알아보기"
+
 #: config/chroot_local-includes/usr/local/bin/tails-about:22
 #: ../config/chroot_local-includes/usr/share/desktop-directories/Tails.directory.in.h:1
 msgid "Tails"
@@ -158,11 +172,15 @@ msgstr "Tor에서 적절한 작업을 위해 정확한 시계가 필요하니 �
 msgid "Failed to synchronize the clock!"
 msgstr "시간 맞추기 실패!"
 
-#: config/chroot_local-includes/usr/local/bin/tails-security-check:146
+#: config/chroot_local-includes/usr/local/lib/tails-i2p-removal-notify-user:57
+msgid "Warning: I2P will be removed in Tails 2.12"
+msgstr ""
+
+#: config/chroot_local-includes/usr/local/bin/tails-security-check:124
 msgid "This version of Tails has known security issues:"
 msgstr "지금 버전 Tails은 보안에 문제가 있습니다."
 
-#: config/chroot_local-includes/usr/local/bin/tails-security-check:156
+#: config/chroot_local-includes/usr/local/bin/tails-security-check:134
 msgid "Known security issues"
 msgstr "알려진 보안 문제"
 
@@ -212,21 +230,21 @@ msgid ""
 "See https://tails.boum.org/doc/first_steps/upgrade#manual"
 msgstr "<b>업그레이드 확인에 충분한 메모리를 사용할 수 없습니다.</b>\n\n이 시스템이 Tails의 작동 요구 사항을 충족하는지 확인하십시오.\nfile:///usr/share/doc/tails/website/doc/about/requirements.en.html를 참조하십시오.\n\nTails를 다시 시작하고 다시 업그레이드를 확인하십시오.\n\n또는 수동으로 업그레이드해야합니다.\nhttps://tails.boum.org/doc/first_steps/upgrade#manual 을 참조하십시오."
 
-#: config/chroot_local-includes/usr/local/lib/tails-virt-notify-user:67
+#: config/chroot_local-includes/usr/local/lib/tails-virt-notify-user:71
 msgid "Warning: virtual machine detected!"
 msgstr "경고 : 가상 머신을 발견!"
 
-#: config/chroot_local-includes/usr/local/lib/tails-virt-notify-user:69
+#: config/chroot_local-includes/usr/local/lib/tails-virt-notify-user:73
 msgid ""
 "Both the host operating system and the virtualization software are able to "
 "monitor what you are doing in Tails."
 msgstr "호스트 운영 체제 및 가상화 소프트웨어 모두 Tails에서 실시하고있는 것을 확인할 수 있습니다."
 
-#: config/chroot_local-includes/usr/local/lib/tails-virt-notify-user:72
+#: config/chroot_local-includes/usr/local/lib/tails-virt-notify-user:76
 msgid "Warning: non-free virtual machine detected!"
 msgstr "경고: 상용 가상 머신 탐지됨!"
 
-#: config/chroot_local-includes/usr/local/lib/tails-virt-notify-user:74
+#: config/chroot_local-includes/usr/local/lib/tails-virt-notify-user:78
 msgid ""
 "Both the host operating system and the virtualization software are able to "
 "monitor what you are doing in Tails. Only free software can be considered "
@@ -234,23 +252,19 @@ msgid ""
 "software."
 msgstr "호스트 운영 체제와 가상 머신 모두 Tails에서 사용자가 하는 것을 볼 수 있을 수 있습니다. 믿을 수 있는 것은 오픈소스 공짜 소프트웨어 뿐이며, 이는 호스트와 가상머신 모두에게 해당됩니다."
 
-#: config/chroot_local-includes/usr/local/lib/tails-virt-notify-user:79
-msgid "Learn more"
-msgstr "더 알아보기"
-
-#: config/chroot_local-includes/usr/local/bin/tor-browser:40
+#: config/chroot_local-includes/usr/local/bin/tor-browser:43
 msgid "Tor is not ready"
 msgstr "Tor 준비 안 됨"
 
-#: config/chroot_local-includes/usr/local/bin/tor-browser:41
+#: config/chroot_local-includes/usr/local/bin/tor-browser:44
 msgid "Tor is not ready. Start Tor Browser anyway?"
 msgstr "Tor는 준비 안 됐는데, 그래도 Tor 브라우저를 실행할까요?"
 
-#: config/chroot_local-includes/usr/local/bin/tor-browser:42
+#: config/chroot_local-includes/usr/local/bin/tor-browser:45
 msgid "Start Tor Browser"
 msgstr "Tor 브라우저 시작"
 
-#: config/chroot_local-includes/usr/local/bin/tor-browser:43
+#: config/chroot_local-includes/usr/local/bin/tor-browser:46
 msgid "Cancel"
 msgstr "취소"
 

@@ -12,15 +12,15 @@
 # pilino1234 <mhilgendrf@aol.com>, 2016
 # Michael Cavén, 2014
 # ph AA, 2015
-# phst <transifex@sturman.se>, 2015
-# leveebreaks, 2014
+# phst, 2015
+# Isis, 2014
 # WinterFairy <winterfairy@riseup.net>, 2013-2014
 msgid ""
 msgstr ""
 "Project-Id-Version: The Tor Project\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-09-02 16:02+0200\n"
-"PO-Revision-Date: 2016-09-03 08:57+0000\n"
+"POT-Creation-Date: 2017-03-06 12:07+0100\n"
+"PO-Revision-Date: 2017-03-07 09:32+0000\n"
 "Last-Translator: carolyn <carolyn@anhalt.org>\n"
 "Language-Team: Swedish (http://www.transifex.com/otf/torproject/language/sv/)\n"
 "MIME-Version: 1.0\n"
@@ -107,6 +107,20 @@ msgstr "Starta om"
 msgid "Power Off"
 msgstr "Stäng av"
 
+#: config/chroot_local-includes/usr/local/lib/tails-32-bit-notify-user:59
+msgid "Warning: Tails 3.0 won't work on this computer!"
+msgstr ""
+
+#: config/chroot_local-includes/usr/local/lib/tails-32-bit-notify-user:60
+msgid "Tails 3.0 will require a 64-bit processor."
+msgstr ""
+
+#: config/chroot_local-includes/usr/local/lib/tails-32-bit-notify-user:63
+#: config/chroot_local-includes/usr/local/lib/tails-i2p-removal-notify-user:59
+#: config/chroot_local-includes/usr/local/lib/tails-virt-notify-user:83
+msgid "Learn more"
+msgstr "Mer information"
+
 #: config/chroot_local-includes/usr/local/bin/tails-about:22
 #: ../config/chroot_local-includes/usr/share/desktop-directories/Tails.directory.in.h:1
 msgid "Tails"
@@ -164,11 +178,15 @@ msgstr "Klockan måste gå rätt för att Tor ska fungera bra, speciellt för Hi
 msgid "Failed to synchronize the clock!"
 msgstr "Misslyckades med att synkronisera klockan!"
 
-#: config/chroot_local-includes/usr/local/bin/tails-security-check:146
+#: config/chroot_local-includes/usr/local/lib/tails-i2p-removal-notify-user:57
+msgid "Warning: I2P will be removed in Tails 2.12"
+msgstr ""
+
+#: config/chroot_local-includes/usr/local/bin/tails-security-check:124
 msgid "This version of Tails has known security issues:"
 msgstr "Det finns kända säkerhetsproblem i den här Tails versionen:"
 
-#: config/chroot_local-includes/usr/local/bin/tails-security-check:156
+#: config/chroot_local-includes/usr/local/bin/tails-security-check:134
 msgid "Known security issues"
 msgstr "Kända säkerhetsproblem"
 
@@ -218,21 +236,21 @@ msgid ""
 "See https://tails.boum.org/doc/first_steps/upgrade#manual"
 msgstr "<b>Inte tillräckligt med tillgängligt minne för att leta efter uppdateringar.</b>\n\nKontrollera så att detta system uppfyller kraven för att köra Tails. \nSe file:///usr/share/doc/tails/website/doc/about/requirements.en.html\n\nStarta om Tails för att söka efter uppdateringar igen.\n\nEller gör en manuell uppdatering.\nSe https://tails.boum.org/doc/first_steps/upgrade#manual"
 
-#: config/chroot_local-includes/usr/local/lib/tails-virt-notify-user:67
+#: config/chroot_local-includes/usr/local/lib/tails-virt-notify-user:71
 msgid "Warning: virtual machine detected!"
 msgstr "Varning: Virtuell maskin upptäcktes!"
 
-#: config/chroot_local-includes/usr/local/lib/tails-virt-notify-user:69
+#: config/chroot_local-includes/usr/local/lib/tails-virt-notify-user:73
 msgid ""
 "Both the host operating system and the virtualization software are able to "
 "monitor what you are doing in Tails."
 msgstr "Både värdsystemet och virtualiseringsmjukvaran kan se allt du gör i Tails."
 
-#: config/chroot_local-includes/usr/local/lib/tails-virt-notify-user:72
+#: config/chroot_local-includes/usr/local/lib/tails-virt-notify-user:76
 msgid "Warning: non-free virtual machine detected!"
 msgstr "Varning: virtuell maskin som inte är fri påträffad!"
 
-#: config/chroot_local-includes/usr/local/lib/tails-virt-notify-user:74
+#: config/chroot_local-includes/usr/local/lib/tails-virt-notify-user:78
 msgid ""
 "Both the host operating system and the virtualization software are able to "
 "monitor what you are doing in Tails. Only free software can be considered "
@@ -240,23 +258,19 @@ msgid ""
 "software."
 msgstr "Både värdsystemet och virtualiseringsmjukvaran kan övervaka det du gör i Tails. Bara fri mjukvara kan räknas som pålitlig, för både värdsystemet och virtualiseringsmjukvaran."
 
-#: config/chroot_local-includes/usr/local/lib/tails-virt-notify-user:79
-msgid "Learn more"
-msgstr "Mer information"
-
-#: config/chroot_local-includes/usr/local/bin/tor-browser:40
+#: config/chroot_local-includes/usr/local/bin/tor-browser:43
 msgid "Tor is not ready"
 msgstr "Tor är inte redo"
 
-#: config/chroot_local-includes/usr/local/bin/tor-browser:41
+#: config/chroot_local-includes/usr/local/bin/tor-browser:44
 msgid "Tor is not ready. Start Tor Browser anyway?"
 msgstr "Tor är inte redo. Starta Tor Browser ändå?"
 
-#: config/chroot_local-includes/usr/local/bin/tor-browser:42
+#: config/chroot_local-includes/usr/local/bin/tor-browser:45
 msgid "Start Tor Browser"
 msgstr "Starta Tor Browser"
 
-#: config/chroot_local-includes/usr/local/bin/tor-browser:43
+#: config/chroot_local-includes/usr/local/bin/tor-browser:46
 msgid "Cancel"
 msgstr "Avbryt"
 

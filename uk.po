@@ -4,20 +4,20 @@
 # 
 # Translators:
 # jonny_nut, 2014
-# Konstantin Tiler <tilersever@gmail.com>, 2016
+# Konstantin Tiler <inactive+tilersever@transifex.com>, 2016
 # LinuxChata, 2014
 # Oleksii Golub <sclub2018@yandex.ua>, 2015
 # Pinro Lomil <lomil97@gmail.com>, 2013
 # Vira Motorko <ato4ka@i.ua>, 2015-2016
-# Yasha <yasha88888@hotmail.com>, 2015
+# Yasha, 2015
 # Андрій Бандура <andriykopanytsia@gmail.com>, 2014
 # Владислав <inactive+PersonalJesus@transifex.com>, 2014
 msgid ""
 msgstr ""
 "Project-Id-Version: The Tor Project\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-09-02 16:02+0200\n"
-"PO-Revision-Date: 2016-09-03 08:57+0000\n"
+"POT-Creation-Date: 2017-03-06 12:07+0100\n"
+"PO-Revision-Date: 2017-03-07 09:32+0000\n"
 "Last-Translator: carolyn <carolyn@anhalt.org>\n"
 "Language-Team: Ukrainian (http://www.transifex.com/otf/torproject/language/uk/)\n"
 "MIME-Version: 1.0\n"
@@ -104,6 +104,20 @@ msgstr "Перезавантажити"
 msgid "Power Off"
 msgstr "Вимкнення живлення"
 
+#: config/chroot_local-includes/usr/local/lib/tails-32-bit-notify-user:59
+msgid "Warning: Tails 3.0 won't work on this computer!"
+msgstr ""
+
+#: config/chroot_local-includes/usr/local/lib/tails-32-bit-notify-user:60
+msgid "Tails 3.0 will require a 64-bit processor."
+msgstr ""
+
+#: config/chroot_local-includes/usr/local/lib/tails-32-bit-notify-user:63
+#: config/chroot_local-includes/usr/local/lib/tails-i2p-removal-notify-user:59
+#: config/chroot_local-includes/usr/local/lib/tails-virt-notify-user:83
+msgid "Learn more"
+msgstr "Детальніше"
+
 #: config/chroot_local-includes/usr/local/bin/tails-about:22
 #: ../config/chroot_local-includes/usr/share/desktop-directories/Tails.directory.in.h:1
 msgid "Tails"
@@ -161,11 +175,15 @@ msgstr "Tor потребує точного часу, щоб працювати 
 msgid "Failed to synchronize the clock!"
 msgstr "Не вдалося синхронізувати годинник!"
 
-#: config/chroot_local-includes/usr/local/bin/tails-security-check:146
+#: config/chroot_local-includes/usr/local/lib/tails-i2p-removal-notify-user:57
+msgid "Warning: I2P will be removed in Tails 2.12"
+msgstr ""
+
+#: config/chroot_local-includes/usr/local/bin/tails-security-check:124
 msgid "This version of Tails has known security issues:"
 msgstr "Ця версія Tails має відомі проблеми безпеки:"
 
-#: config/chroot_local-includes/usr/local/bin/tails-security-check:156
+#: config/chroot_local-includes/usr/local/bin/tails-security-check:134
 msgid "Known security issues"
 msgstr "Відомі проблеми безпеки"
 
@@ -215,21 +233,21 @@ msgid ""
 "See https://tails.boum.org/doc/first_steps/upgrade#manual"
 msgstr "<b>Недостатньо доступної пам'яті для перевірки оновлень.</b>\n\nПереконайтеся, що система задовільняє вимогам для запущеного Tails.\nПрочитайте файл:///usr/share/doc/tails/website/doc/about/requirements.en.html\n\nСпробуйте перезапустити Tails для повторної перевірки оновлень.\n\nАбо здійсніть ручне оновлення.\nДив. https://tails.boum.org/doc/first_steps/upgrade#manual"
 
-#: config/chroot_local-includes/usr/local/lib/tails-virt-notify-user:67
+#: config/chroot_local-includes/usr/local/lib/tails-virt-notify-user:71
 msgid "Warning: virtual machine detected!"
 msgstr "Увага: знайдено віртуальну машину!"
 
-#: config/chroot_local-includes/usr/local/lib/tails-virt-notify-user:69
+#: config/chroot_local-includes/usr/local/lib/tails-virt-notify-user:73
 msgid ""
 "Both the host operating system and the virtualization software are able to "
 "monitor what you are doing in Tails."
 msgstr "Операційна система та програмне забезпечення віртуалізації у змозі контролювати те, що Ви робите в Tails."
 
-#: config/chroot_local-includes/usr/local/lib/tails-virt-notify-user:72
+#: config/chroot_local-includes/usr/local/lib/tails-virt-notify-user:76
 msgid "Warning: non-free virtual machine detected!"
 msgstr "Увага: знайдено невільну віртуальну машину!"
 
-#: config/chroot_local-includes/usr/local/lib/tails-virt-notify-user:74
+#: config/chroot_local-includes/usr/local/lib/tails-virt-notify-user:78
 msgid ""
 "Both the host operating system and the virtualization software are able to "
 "monitor what you are doing in Tails. Only free software can be considered "
@@ -237,23 +255,19 @@ msgid ""
 "software."
 msgstr "Операційна система та програмне забезпечення віртуалізації у змозі контролювати те, що Ви робите в Tails. Лише вільне програмне забезпечення розглядається як варте довіри, як для операційної системи, так і для програмне забезпечення віртуалізації."
 
-#: config/chroot_local-includes/usr/local/lib/tails-virt-notify-user:79
-msgid "Learn more"
-msgstr "Детальніше"
-
-#: config/chroot_local-includes/usr/local/bin/tor-browser:40
+#: config/chroot_local-includes/usr/local/bin/tor-browser:43
 msgid "Tor is not ready"
 msgstr "Tor не готовий"
 
-#: config/chroot_local-includes/usr/local/bin/tor-browser:41
+#: config/chroot_local-includes/usr/local/bin/tor-browser:44
 msgid "Tor is not ready. Start Tor Browser anyway?"
 msgstr "Tor не готовий. Запустити Tor у будь-якому разі?"
 
-#: config/chroot_local-includes/usr/local/bin/tor-browser:42
+#: config/chroot_local-includes/usr/local/bin/tor-browser:45
 msgid "Start Tor Browser"
 msgstr "Запустити Tor Browser"
 
-#: config/chroot_local-includes/usr/local/bin/tor-browser:43
+#: config/chroot_local-includes/usr/local/bin/tor-browser:46
 msgid "Cancel"
 msgstr "Відмова"
 
