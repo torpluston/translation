@@ -4,21 +4,22 @@
 # 
 # Translators:
 # khi, 2013
+# Chi-Hsun Tsai <chihsun.tsai@gmail.com>, 2017
 # bnw, 2014
 # Meng San, 2014
 # leungsookfan <leung.sookfan@riseup.net>, 2014
 # Sanya chang <408070986@qq.com>, 2013
 # khi, 2014
 # Xiaolan <xiaolan@protonmail.ch>, 2014
-# Y.F Yang <yfdyh000@gmail.com>, 2016
-# Y.F Yang <yfdyh000@gmail.com>, 2013-2016
+# YF <yfdyh000@gmail.com>, 2016
+# YF <yfdyh000@gmail.com>, 2013-2016
 msgid ""
 msgstr ""
 "Project-Id-Version: The Tor Project\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-11-13 08:15+0100\n"
-"PO-Revision-Date: 2016-11-19 10:31+0000\n"
-"Last-Translator: Y.F Yang <yfdyh000@gmail.com>\n"
+"POT-Creation-Date: 2017-03-06 12:07+0100\n"
+"PO-Revision-Date: 2017-03-17 15:59+0000\n"
+"Last-Translator: Chi-Hsun Tsai <chihsun.tsai@gmail.com>\n"
 "Language-Team: Chinese (China) (http://www.transifex.com/otf/torproject/language/zh_CN/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -104,6 +105,20 @@ msgstr "重新启动"
 msgid "Power Off"
 msgstr "关机"
 
+#: config/chroot_local-includes/usr/local/lib/tails-32-bit-notify-user:59
+msgid "Warning: Tails 3.0 won't work on this computer!"
+msgstr "警告：Tails 3.0 将无法在这台电脑上运行！"
+
+#: config/chroot_local-includes/usr/local/lib/tails-32-bit-notify-user:60
+msgid "Tails 3.0 will require a 64-bit processor."
+msgstr "Tails 3.0 将需要 64位元的处理器"
+
+#: config/chroot_local-includes/usr/local/lib/tails-32-bit-notify-user:63
+#: config/chroot_local-includes/usr/local/lib/tails-i2p-removal-notify-user:59
+#: config/chroot_local-includes/usr/local/lib/tails-virt-notify-user:83
+msgid "Learn more"
+msgstr "详细了解"
+
 #: config/chroot_local-includes/usr/local/bin/tails-about:22
 #: ../config/chroot_local-includes/usr/share/desktop-directories/Tails.directory.in.h:1
 msgid "Tails"
@@ -161,6 +176,10 @@ msgstr "为了正常运行，尤其隐匿服务，Tor 需要准确的时钟。�
 msgid "Failed to synchronize the clock!"
 msgstr "同步时钟失败！"
 
+#: config/chroot_local-includes/usr/local/lib/tails-i2p-removal-notify-user:57
+msgid "Warning: I2P will be removed in Tails 2.12"
+msgstr "警告：I2P将会在 Tails 2.12 里被移除。"
+
 #: config/chroot_local-includes/usr/local/bin/tails-security-check:124
 msgid "This version of Tails has known security issues:"
 msgstr "该版本 Tails 的已知安全问题："
@@ -215,21 +234,21 @@ msgid ""
 "See https://tails.boum.org/doc/first_steps/upgrade#manual"
 msgstr "<b>内存不足，无法检测更新。</b>\n\n请确保系统满足 Tails 的最低运行要求。参阅文件：///usr/share/doc/tails/website/doc/about/requirements.en.html\n\n重启再次检测更新。\n\n或者手动更新。\n参阅：https://tails.boum.org/doc/first_steps/upgrade#manual"
 
-#: config/chroot_local-includes/usr/local/lib/tails-virt-notify-user:67
+#: config/chroot_local-includes/usr/local/lib/tails-virt-notify-user:71
 msgid "Warning: virtual machine detected!"
 msgstr "警告：检测到虚拟机！"
 
-#: config/chroot_local-includes/usr/local/lib/tails-virt-notify-user:69
+#: config/chroot_local-includes/usr/local/lib/tails-virt-notify-user:73
 msgid ""
 "Both the host operating system and the virtualization software are able to "
 "monitor what you are doing in Tails."
 msgstr "主机操作系统和虚拟化软件都可能监视您在使用 Tails 时的行为。"
 
-#: config/chroot_local-includes/usr/local/lib/tails-virt-notify-user:72
+#: config/chroot_local-includes/usr/local/lib/tails-virt-notify-user:76
 msgid "Warning: non-free virtual machine detected!"
 msgstr "警告：检测到非自由虚拟机！"
 
-#: config/chroot_local-includes/usr/local/lib/tails-virt-notify-user:74
+#: config/chroot_local-includes/usr/local/lib/tails-virt-notify-user:78
 msgid ""
 "Both the host operating system and the virtualization software are able to "
 "monitor what you are doing in Tails. Only free software can be considered "
@@ -237,23 +256,19 @@ msgid ""
 "software."
 msgstr "主机的操作系统和虚拟化软件都可能监视您在使用 Tails 时的行为。只有自由软件值得信赖，包括主机的操作系统和虚拟化软件。"
 
-#: config/chroot_local-includes/usr/local/lib/tails-virt-notify-user:79
-msgid "Learn more"
-msgstr "详细了解"
-
-#: config/chroot_local-includes/usr/local/bin/tor-browser:40
+#: config/chroot_local-includes/usr/local/bin/tor-browser:43
 msgid "Tor is not ready"
 msgstr "Tor 未就绪"
 
-#: config/chroot_local-includes/usr/local/bin/tor-browser:41
+#: config/chroot_local-includes/usr/local/bin/tor-browser:44
 msgid "Tor is not ready. Start Tor Browser anyway?"
 msgstr "Tor 未就绪。确定启动 Tor Browser？"
 
-#: config/chroot_local-includes/usr/local/bin/tor-browser:42
+#: config/chroot_local-includes/usr/local/bin/tor-browser:45
 msgid "Start Tor Browser"
 msgstr "启动 Tor Browser"
 
-#: config/chroot_local-includes/usr/local/bin/tor-browser:43
+#: config/chroot_local-includes/usr/local/bin/tor-browser:46
 msgid "Cancel"
 msgstr "取消"
 
@@ -352,7 +367,7 @@ msgid ""
 "Eepsite tunnel not built within six minutes. Check the router console in the"
 " I2P Browser or the logs in /var/log/i2p for more information. Reconnect to "
 "the network to try again."
-msgstr "eepSite 隧道未在6分钟内创建成功。请在 I2P 浏览器的路由控制台中检查，或者查看 /var/log/i2p 中的日志以了解更多。重连网络以重试。"
+msgstr "EepSite 隧道未在6分钟内创建成功。请在 I2P 浏览器的路由控制台中检查，或者查看 /var/log/i2p 中的日志以了解更多。重连网络以重试。"
 
 #: config/chroot_local-includes/usr/local/sbin/tails-i2p:71
 msgid "I2P is ready"
