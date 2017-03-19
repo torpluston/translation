@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-01-31 10:47+0100\n"
+"POT-Creation-Date: 2017-03-18 19:45+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Ojars Balcers <ojars.balcers@gmail.com>, 2016\n"
 "Language-Team: Latvian (https://www.transifex.com/otf/teams/1519/lv/)\n"
@@ -91,7 +91,7 @@ msgstr "Maldinoši norādīt visas MAC adreses (noklusējuma vērtība)"
 msgid "Don't spoof MAC addresses"
 msgstr "Maldinoši nenorādīt MAC adreses"
 
-#: ../data/greeter.ui.h:17 ../tailsgreeter/gui.py:514
+#: ../data/greeter.ui.h:17 ../tailsgreeter/gui.py:529
 msgid "Cannot unlock encrypted storage with this passphrase."
 msgstr "Ar šo paroles frāzi nav iespējams atbloķēt šifrēto krātuvi. "
 
@@ -129,24 +129,24 @@ msgid "Save Language & Region Settings"
 msgstr "Saglabāt valodas un reģiona iestatījumus"
 
 #: ../data/greeter.ui.h:25
-msgid "Language"
-msgstr "Valoda"
+msgid "_Language"
+msgstr "_Valoda"
 
 #: ../data/greeter.ui.h:26
-msgid "Keyboard Layout"
-msgstr "Tastatūras izkārtojums"
+msgid "_Keyboard Layout"
+msgstr "_Klaviatūras izkārtojums"
 
 #: ../data/greeter.ui.h:27
-msgid "Formats"
-msgstr "Formāti"
+msgid "_Formats"
+msgstr "_Formāts"
 
 #: ../data/greeter.ui.h:28
-msgid "Time Zone"
-msgstr "Laika zonas"
+msgid "_Time Zone"
+msgstr "_Laika zona"
 
 #: ../data/greeter.ui.h:29
-msgid "Encrypted Persistent Storage"
-msgstr "Šifrēta pastāvīgā krātuve"
+msgid "Encrypted _Persistent Storage"
+msgstr "Šifrēta _Pastāvīgā uzglabāšana"
 
 #: ../data/greeter.ui.h:30
 msgid "Show Passphrase"
@@ -160,8 +160,8 @@ msgstr "Konfigurēt pastāvīgo krātuvi"
 msgid "Enter your passphrase to unlock the persistent storage"
 msgstr "Ievadiet savu paroles frāzi, lai atslēgtu pastāvīgo krātuvi"
 
-#: ../data/greeter.ui.h:33 ../tailsgreeter/gui.py:460
-#: ../tailsgreeter/gui.py:510
+#: ../data/greeter.ui.h:33 ../tailsgreeter/gui.py:475
+#: ../tailsgreeter/gui.py:525
 msgid "Unlock"
 msgstr "Atslēgt"
 
@@ -175,9 +175,9 @@ msgstr ""
 "Jūsu pastāvīgā krātuve ir atbloķēta. Restartējiet Tails, lai to atkal "
 "bloķētu."
 
-#: ../data/greeter.ui.h:36 ../tailsgreeter/gui.py:554
-msgid "Additional Settings"
-msgstr "Papildu iestatījumi"
+#: ../data/greeter.ui.h:36
+msgid "_Additional Settings"
+msgstr "_Papildu iestatījumi"
 
 #: ../data/greeter.ui.h:37
 msgid "Save Additional Settings"
@@ -222,58 +222,74 @@ msgstr ""
 "iestatījumus, nospiediet tālāk esošo \"+\" pogu."
 
 #: ../data/greeter.ui.h:45
+msgid "_Administration Password"
+msgstr "_Administratora parole"
+
+#: ../data/greeter.ui.h:46
 msgid "Off (default)"
 msgstr "Izslēgts (noklusējuma vērtība)"
 
-#: ../data/greeter.ui.h:46
+#: ../data/greeter.ui.h:47
+msgid "_MAC Address Spoofing"
+msgstr "_MAC adrešu imitēšana"
+
+#: ../data/greeter.ui.h:48
 msgid "On (default)"
 msgstr "Ieslēgts (noklusējuma vērtība)"
 
-#: ../data/greeter.ui.h:47
-msgid "Network Connection"
-msgstr "Tīkla savienojumi"
+#: ../data/greeter.ui.h:49
+msgid "_Network Connection"
+msgstr "_Tīkla savienojums"
 
-#: ../data/greeter.ui.h:48 ../tailsgreeter/gui.py:367
+#: ../data/greeter.ui.h:50 ../tailsgreeter/gui.py:382
 msgid "Direct (default)"
 msgstr "Tiešs (noklusējuma vērtība)"
 
-#: ../tailsgreeter/gui.py:373
+#: ../data/greeter.ui.h:51
+msgid "_Windows Camouflage"
+msgstr "_Windows kamuflāža"
+
+#: ../tailsgreeter/gui.py:388
 msgid "Bridge & Proxy"
 msgstr "Tilti un starpniekserveri"
 
-#: ../tailsgreeter/gui.py:379
+#: ../tailsgreeter/gui.py:394
 msgid "Offline"
 msgstr "Bezsaistē"
 
-#: ../tailsgreeter/gui.py:463
+#: ../tailsgreeter/gui.py:478
 msgid "Failed to relock persistent storage."
 msgstr "Neizdevās atkārtoti bloķēt pastāvīgo krātuvi."
 
-#: ../tailsgreeter/gui.py:481
+#: ../tailsgreeter/gui.py:496
 msgid "Unlocking…"
 msgstr "Atslēdz..."
 
-#: ../tailsgreeter/gui.py:562
+#: ../tailsgreeter/gui.py:591
+msgid "Additional Settings"
+msgstr "Papildu iestatījumi"
+
+#: ../tailsgreeter/gui.py:599
 msgid "Cancel"
 msgstr "Atcelt"
 
-#: ../tailsgreeter/gui.py:566
+#: ../tailsgreeter/gui.py:605
 msgid "Add"
 msgstr "Pievienot"
 
-#: ../tailsgreeter/gui.py:572
+#: ../tailsgreeter/gui.py:613
 msgid "Back"
 msgstr "Atpakaļ"
 
-#: ../tailsgreeter/gui.py:658
+#: ../tailsgreeter/gui.py:716
 msgid "Shutdown"
 msgstr "Izslēgšana"
 
-#: ../tailsgreeter/gui.py:664
-msgid "Start Tails"
-msgstr "Sākt Tails"
+#: ../tailsgreeter/gui.py:721
+msgid "_Start Tails"
+msgstr "_Palaist Tails"
 
-#: ../tailsgreeter/language.py:119
+#: ../tailsgreeter/language.py:131
 msgid "default:LTR"
 msgstr "noklusējums:LTR"
 
