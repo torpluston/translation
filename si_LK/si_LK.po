@@ -9,9 +9,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: The Tor Project\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-12-16 19:54+0100\n"
-"PO-Revision-Date: 2016-03-21 16:28+0000\n"
-"Last-Translator: Ganesh Wakista <ganeshwaki@gmail.com>\n"
+"POT-Creation-Date: 2017-03-20 12:09+0000\n"
+"PO-Revision-Date: 2017-03-21 08:24+0000\n"
+"Last-Translator: carolyn <carolyn@anhalt.org>\n"
 "Language-Team: Sinhala (Sri Lanka) (http://www.transifex.com/otf/torproject/language/si_LK/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -41,40 +41,56 @@ msgid ""
 "/etc/whisperback/config.py, ~/.whisperback/config.py, ./config.py"
 msgstr "%s විචල්‍ය කිසිම වින්‍යාස ගොනුවක සොයාගත නොහැකි විය /etc/whisperback/config.py, ~/.whisperback/config.py, ./config.py"
 
-#: ../whisperBack/gui.py:148
+#: ../whisperBack/gui.py:110
+msgid "Name of the affected software"
+msgstr ""
+
+#: ../whisperBack/gui.py:112
+msgid "Exact steps to reproduce the error"
+msgstr ""
+
+#: ../whisperBack/gui.py:114
+msgid "Actual result and description of the error"
+msgstr ""
+
+#: ../whisperBack/gui.py:116
+msgid "Desired result"
+msgstr ""
+
+#: ../whisperBack/gui.py:152
 msgid "Unable to load a valid configuration."
 msgstr "වලංගු වින්‍යාසය ප්‍රවේෂණයට අසමර්ථ විය."
 
-#: ../whisperBack/gui.py:214
+#: ../whisperBack/gui.py:218
 msgid "Sending mail..."
 msgstr "විද්‍යුත් තැපෑලය යවමින්..."
 
-#: ../whisperBack/gui.py:215
+#: ../whisperBack/gui.py:219
 msgid "Sending mail"
 msgstr "විද්‍යුත් තැපෑලය යවමින්"
 
 #. pylint: disable=C0301
-#: ../whisperBack/gui.py:217
+#: ../whisperBack/gui.py:221
 msgid "This could take a while..."
 msgstr "මෙම කාර්යය ඉටුකිරීමට ටික වෙලාවක් ගත විය හැක..."
 
-#: ../whisperBack/gui.py:232
+#: ../whisperBack/gui.py:236
 msgid "The contact email adress doesn't seem valid."
 msgstr "මෙම සම්බන්ධක විද්‍යුත් තැපෑල ලිපිනය වලංගු නොවේ."
 
-#: ../whisperBack/gui.py:249
+#: ../whisperBack/gui.py:253
 msgid "Unable to send the mail: SMTP error."
 msgstr "තැපෑලය යැවීමට අසමර්ථ විය: SMTP දෝෂය."
 
-#: ../whisperBack/gui.py:251
+#: ../whisperBack/gui.py:255
 msgid "Unable to connect to the server."
 msgstr "සේවාදායකයාට සම්බන්ධවීමට නොහැක."
 
-#: ../whisperBack/gui.py:253
+#: ../whisperBack/gui.py:257
 msgid "Unable to create or to send the mail."
 msgstr "තැපෑලය නිර්මාණය කිරීමට හෝ යැවීමට අසමර්ථ විය."
 
-#: ../whisperBack/gui.py:256
+#: ../whisperBack/gui.py:260
 msgid ""
 "\n"
 "\n"
@@ -83,20 +99,20 @@ msgid ""
 "If it does not work, you will be offered to save the bug report."
 msgstr "\n\nදෝෂ වාර්තාව ජාල ගැටලු නිසා, යැවීමට නොහැකි විය. කරුණාකර ජාල සැපයුම නැවත සම්බන්ධකර යවන්න ක්ලික් කරන්න.\n\nමෙයද ක්‍රියා නොකළේ නම්, ඔබට දෝෂ වාර්තාව සුරැකීමේ අවස්ථාවක් පිරිනැමේ."
 
-#: ../whisperBack/gui.py:269
+#: ../whisperBack/gui.py:273
 msgid "Your message has been sent."
 msgstr "ඔබේ පණිවිඩය යවා අවසානය."
 
-#: ../whisperBack/gui.py:276
+#: ../whisperBack/gui.py:280
 msgid "An error occured during encryption."
 msgstr "සංකේතනය කිරීමේදී දෝෂයක් හටගෙන ඇත."
 
-#: ../whisperBack/gui.py:296
+#: ../whisperBack/gui.py:300
 #, python-format
 msgid "Unable to save %s."
 msgstr "%s සුරැකීමට අසමත්."
 
-#: ../whisperBack/gui.py:319
+#: ../whisperBack/gui.py:323
 #, python-format
 msgid ""
 "The bug report could not be sent, likely due to network problems.\n"
@@ -106,27 +122,27 @@ msgid ""
 "Do you want to save the bug report to a file?"
 msgstr "දෝෂ වාර්තාව යැවීමට නොහැකි විය, බොහෝ දුරට හේතුව ජාල ගැටළුවක් විය හැක. \n\nඔබට දෝෂ වාර්තාව USB ධාරකයක සුරක්ෂිත කර වෙනත් පද්ධතියකින් ඔබේ විද්‍යුත් තැපෑල මගින් අපට %s එවන්න. ඔබ වැඩිදුර පියවර අනුගමනය නොකරන්නේ නම් (Tor ඉවතලන විද්‍යුත් තැපැල් ගිණුමක් මගින් භාවිතය), මෙම ක්‍රියාවලිය සිදුකරන විට ඔබේ දෝෂ වාර්තාව නිර්නාමික නොවේ. \n\nඔබට දෝෂ වාර්තාව ගොනුවකට සුරැකීමට අවශ්‍ය ද?"
 
-#: ../whisperBack/gui.py:379 ../data/whisperback.ui.h:21
+#: ../whisperBack/gui.py:383 ../data/whisperback.ui.h:21
 msgid "WhisperBack"
 msgstr "නැවත ඉගි කිරීම "
 
-#: ../whisperBack/gui.py:380 ../data/whisperback.ui.h:2
+#: ../whisperBack/gui.py:384 ../data/whisperback.ui.h:2
 msgid "Send feedback in an encrypted mail."
 msgstr "සංකේතනය කල තැපැලක් මගින් ප්‍රතිපෝෂණය යවන්න."
 
-#: ../whisperBack/gui.py:383
+#: ../whisperBack/gui.py:387
 msgid "Copyright © 2009-2012 Tails developpers (tails@boum.org)"
 msgstr "කතු හිමිකම © 2009-2012 Tails ක්‍රමලේඛකයන් (tails@boum.org)"
 
-#: ../whisperBack/gui.py:384
+#: ../whisperBack/gui.py:388
 msgid "Tails developers <tails@boum.org>"
 msgstr "Tails කේතකරුවන් <tails@boum.org>"
 
-#: ../whisperBack/gui.py:385
+#: ../whisperBack/gui.py:389
 msgid "translator-credits"
 msgstr "පරිවර්තක-ස්තුතිය "
 
-#: ../whisperBack/gui.py:412
+#: ../whisperBack/gui.py:417
 msgid "This doesn't seem to be a valid URL or OpenPGP key."
 msgstr "මෙය වලංගු URL එකක් හෝ OpenPGP යතුරක් නොවේ."
 
