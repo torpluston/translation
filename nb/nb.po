@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-01-31 10:47+0100\n"
+"POT-Creation-Date: 2017-03-20 09:46+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Knut Ole <>, 2016\n"
 "Language-Team: Norwegian Bokmål (https://www.transifex.com/otf/teams/1519/nb/)\n"
@@ -91,7 +91,7 @@ msgstr "Simuler alle MAC-adresser (forvalg)"
 msgid "Don't spoof MAC addresses"
 msgstr "Ikke simuler MAC-adresser"
 
-#: ../data/greeter.ui.h:17 ../tailsgreeter/gui.py:514
+#: ../data/greeter.ui.h:17 ../tailsgreeter/gui.py:529
 msgid "Cannot unlock encrypted storage with this passphrase."
 msgstr "Kan ikke låse opp kryptert lagring med denne passordsekvensen."
 
@@ -129,24 +129,24 @@ msgid "Save Language & Region Settings"
 msgstr "Lagre språk- og regions -innstillinger"
 
 #: ../data/greeter.ui.h:25
-msgid "Language"
-msgstr "Språk"
+msgid "_Language"
+msgstr "_Språk"
 
 #: ../data/greeter.ui.h:26
-msgid "Keyboard Layout"
-msgstr "Tastauroppsett"
+msgid "_Keyboard Layout"
+msgstr "_Tastaturoppsett"
 
 #: ../data/greeter.ui.h:27
-msgid "Formats"
-msgstr "Formater"
+msgid "_Formats"
+msgstr "_Formater"
 
 #: ../data/greeter.ui.h:28
-msgid "Time Zone"
-msgstr "Tidssone"
+msgid "_Time Zone"
+msgstr "_Tidssone"
 
 #: ../data/greeter.ui.h:29
-msgid "Encrypted Persistent Storage"
-msgstr "Kryptert vedvarende lagring"
+msgid "Encrypted _Persistent Storage"
+msgstr "Kryptert _vedvarende lagring"
 
 #: ../data/greeter.ui.h:30
 msgid "Show Passphrase"
@@ -160,8 +160,8 @@ msgstr "Sett opp vedvarende lagring"
 msgid "Enter your passphrase to unlock the persistent storage"
 msgstr "Skriv inn din passordsekvens for å låse opp det vedvarende lageret"
 
-#: ../data/greeter.ui.h:33 ../tailsgreeter/gui.py:460
-#: ../tailsgreeter/gui.py:510
+#: ../data/greeter.ui.h:33 ../tailsgreeter/gui.py:475
+#: ../tailsgreeter/gui.py:525
 msgid "Unlock"
 msgstr "Lås opp"
 
@@ -174,9 +174,9 @@ msgid "Your persistent storage is unlocked. Restart Tails to lock it again."
 msgstr ""
 "Ditt vedvarende område er låst opp. En omstart av Tails vil låse det igjen."
 
-#: ../data/greeter.ui.h:36 ../tailsgreeter/gui.py:554
-msgid "Additional Settings"
-msgstr "Ytterligere innstillinger"
+#: ../data/greeter.ui.h:36
+msgid "_Additional Settings"
+msgstr "_Ytterligere innstillinger"
 
 #: ../data/greeter.ui.h:37
 msgid "Save Additional Settings"
@@ -222,58 +222,76 @@ msgstr ""
 "egendefinert innstilling, trykk \"+\"-knappen nedenfor."
 
 #: ../data/greeter.ui.h:45
+msgid "_Administration Password"
+msgstr "_Administrasjonspassord"
+
+#: ../data/greeter.ui.h:46
 msgid "Off (default)"
 msgstr "Av (forvalg)"
 
-#: ../data/greeter.ui.h:46
+#: ../data/greeter.ui.h:47
+msgid "_MAC Address Spoofing"
+msgstr "Simulering av _MAC-adresse"
+
+#: ../data/greeter.ui.h:48
 msgid "On (default)"
 msgstr "På (forvalg)"
 
-#: ../data/greeter.ui.h:47
-msgid "Network Connection"
-msgstr "Nettverkstilkobling"
+#: ../data/greeter.ui.h:49
+msgid "_Network Connection"
+msgstr "_Nettverkstilkobling"
 
-#: ../data/greeter.ui.h:48 ../tailsgreeter/gui.py:367
+#: ../data/greeter.ui.h:50 ../tailsgreeter/gui.py:382
 msgid "Direct (default)"
 msgstr "Direkte (forvalg)"
 
-#: ../tailsgreeter/gui.py:373
+#: ../data/greeter.ui.h:51
+msgid "_Windows Camouflage"
+msgstr "_Windows-kamuflasje"
+
+#: ../tailsgreeter/gui.py:388
 msgid "Bridge & Proxy"
 msgstr "Bro og mellomtjener"
 
-#: ../tailsgreeter/gui.py:379
+#: ../tailsgreeter/gui.py:394
 msgid "Offline"
 msgstr "Frakoblet"
 
-#: ../tailsgreeter/gui.py:463
+#: ../tailsgreeter/gui.py:478
 msgid "Failed to relock persistent storage."
 msgstr "Klarte ikke å låse vedvarende lagring igjen."
 
-#: ../tailsgreeter/gui.py:481
+#: ../tailsgreeter/gui.py:496
 msgid "Unlocking…"
 msgstr "Låser opp…"
 
-#: ../tailsgreeter/gui.py:562
+#: ../tailsgreeter/gui.py:591
+msgid "Additional Settings"
+msgstr "Ytterligere innstillinger"
+
+#: ../tailsgreeter/gui.py:599
 msgid "Cancel"
 msgstr "Avbryt"
 
-#: ../tailsgreeter/gui.py:566
+#: ../tailsgreeter/gui.py:605
 msgid "Add"
 msgstr "Legg til"
 
-#: ../tailsgreeter/gui.py:572
+#: ../tailsgreeter/gui.py:613
 msgid "Back"
 msgstr "Tilbake"
 
-#: ../tailsgreeter/gui.py:658
+#: ../tailsgreeter/gui.py:716
 msgid "Shutdown"
 msgstr "Slå av"
 
-#: ../tailsgreeter/gui.py:664
-msgid "Start Tails"
-msgstr "Start Tails"
+#: ../tailsgreeter/gui.py:721
+msgid "_Start Tails"
+msgstr "_Start Tails"
 
-#: ../tailsgreeter/language.py:119
+#. Translators: translate to default:RTL if your language
+#. is written from right to left
+#: ../tailsgreeter/language.py:133
 msgid "default:LTR"
 msgstr "forvalg:VTH"
 
