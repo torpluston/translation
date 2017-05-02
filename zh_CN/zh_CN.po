@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-01-31 10:47+0100\n"
+"POT-Creation-Date: 2017-03-20 09:46+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Chi-Hsun Tsai <chihsun.tsai@gmail.com>, 2016\n"
 "Language-Team: Chinese (China) (https://www.transifex.com/otf/teams/1519/zh_CN/)\n"
@@ -84,7 +84,7 @@ msgstr "欺骗所有 MAC 地址（默认）"
 msgid "Don't spoof MAC addresses"
 msgstr "不欺骗任何 MAC 地址"
 
-#: ../data/greeter.ui.h:17 ../tailsgreeter/gui.py:514
+#: ../data/greeter.ui.h:17 ../tailsgreeter/gui.py:529
 msgid "Cannot unlock encrypted storage with this passphrase."
 msgstr "无法用此密码解锁加密的存储。"
 
@@ -118,24 +118,24 @@ msgid "Save Language & Region Settings"
 msgstr "保存语言和区域设置"
 
 #: ../data/greeter.ui.h:25
-msgid "Language"
-msgstr "语言"
+msgid "_Language"
+msgstr "语言(_L)"
 
 #: ../data/greeter.ui.h:26
-msgid "Keyboard Layout"
-msgstr "键盘布局"
+msgid "_Keyboard Layout"
+msgstr "键盘布局(_K)"
 
 #: ../data/greeter.ui.h:27
-msgid "Formats"
-msgstr "格式"
+msgid "_Formats"
+msgstr "格式(_F)"
 
 #: ../data/greeter.ui.h:28
-msgid "Time Zone"
-msgstr "时区"
+msgid "_Time Zone"
+msgstr "时区(_T)"
 
 #: ../data/greeter.ui.h:29
-msgid "Encrypted Persistent Storage"
-msgstr "加密持久存储"
+msgid "Encrypted _Persistent Storage"
+msgstr "加密的持久存储(_P)"
 
 #: ../data/greeter.ui.h:30
 msgid "Show Passphrase"
@@ -149,8 +149,8 @@ msgstr "配置持久存储"
 msgid "Enter your passphrase to unlock the persistent storage"
 msgstr "请输入您的密码以解锁持久存储"
 
-#: ../data/greeter.ui.h:33 ../tailsgreeter/gui.py:460
-#: ../tailsgreeter/gui.py:510
+#: ../data/greeter.ui.h:33 ../tailsgreeter/gui.py:475
+#: ../tailsgreeter/gui.py:525
 msgid "Unlock"
 msgstr "解锁"
 
@@ -162,9 +162,9 @@ msgstr "重新锁定持久存储"
 msgid "Your persistent storage is unlocked. Restart Tails to lock it again."
 msgstr "您的持久存储已解锁。重启 Tails 以再次锁定它。"
 
-#: ../data/greeter.ui.h:36 ../tailsgreeter/gui.py:554
-msgid "Additional Settings"
-msgstr "额外设置"
+#: ../data/greeter.ui.h:36
+msgid "_Additional Settings"
+msgstr "额外设置(_A)"
 
 #: ../data/greeter.ui.h:37
 msgid "Save Additional Settings"
@@ -204,58 +204,76 @@ msgid ""
 msgstr "默认设置在大多数情况下是安全的。要添加自定义设置，点击下面的 + 按钮。"
 
 #: ../data/greeter.ui.h:45
+msgid "_Administration Password"
+msgstr "管理密码(_A)"
+
+#: ../data/greeter.ui.h:46
 msgid "Off (default)"
 msgstr "关闭（默认）"
 
-#: ../data/greeter.ui.h:46
+#: ../data/greeter.ui.h:47
+msgid "_MAC Address Spoofing"
+msgstr "MAC 地址欺骗(_M)"
+
+#: ../data/greeter.ui.h:48
 msgid "On (default)"
 msgstr "开启（默认）"
 
-#: ../data/greeter.ui.h:47
-msgid "Network Connection"
-msgstr "网络连接"
+#: ../data/greeter.ui.h:49
+msgid "_Network Connection"
+msgstr "网络连接(_N)"
 
-#: ../data/greeter.ui.h:48 ../tailsgreeter/gui.py:367
+#: ../data/greeter.ui.h:50 ../tailsgreeter/gui.py:382
 msgid "Direct (default)"
 msgstr "直接（默认）"
 
-#: ../tailsgreeter/gui.py:373
+#: ../data/greeter.ui.h:51
+msgid "_Windows Camouflage"
+msgstr "伪装 Windows(_W)"
+
+#: ../tailsgreeter/gui.py:388
 msgid "Bridge & Proxy"
 msgstr "网桥和代理"
 
-#: ../tailsgreeter/gui.py:379
+#: ../tailsgreeter/gui.py:394
 msgid "Offline"
 msgstr "离线"
 
-#: ../tailsgreeter/gui.py:463
+#: ../tailsgreeter/gui.py:478
 msgid "Failed to relock persistent storage."
 msgstr "重新锁定持久存储失败。"
 
-#: ../tailsgreeter/gui.py:481
+#: ../tailsgreeter/gui.py:496
 msgid "Unlocking…"
 msgstr "正在解锁…"
 
-#: ../tailsgreeter/gui.py:562
+#: ../tailsgreeter/gui.py:591
+msgid "Additional Settings"
+msgstr "额外设置"
+
+#: ../tailsgreeter/gui.py:599
 msgid "Cancel"
 msgstr "取消"
 
-#: ../tailsgreeter/gui.py:566
+#: ../tailsgreeter/gui.py:605
 msgid "Add"
 msgstr "添加"
 
-#: ../tailsgreeter/gui.py:572
+#: ../tailsgreeter/gui.py:613
 msgid "Back"
 msgstr "上一步"
 
-#: ../tailsgreeter/gui.py:658
+#: ../tailsgreeter/gui.py:716
 msgid "Shutdown"
 msgstr "关闭"
 
-#: ../tailsgreeter/gui.py:664
-msgid "Start Tails"
-msgstr "启动 Tails"
+#: ../tailsgreeter/gui.py:721
+msgid "_Start Tails"
+msgstr "启动 Tails(_S)"
 
-#: ../tailsgreeter/language.py:119
+#. Translators: translate to default:RTL if your language
+#. is written from right to left
+#: ../tailsgreeter/language.py:133
 msgid "default:LTR"
 msgstr "默认:LTR"
 
