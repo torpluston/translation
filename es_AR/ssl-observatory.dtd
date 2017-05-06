@@ -30,7 +30,7 @@ se encuentre en una red corporativa muy invasiva:">
 "Aplicar y verificar los certificados firmados por CAs no estandar">
 
 <!ENTITY ssl-observatory.prefs.alt_roots_tooltip 
-"It is safe (and a good idea) to enable this option, unless you use an intrusive corporate network or Kaspersky antivirus software that monitors your browsing with a TLS proxy and a private root Certificate Authority.  If enabled on such a network, this option might publish evidence of which https:// domains were being visited through that proxy, because of the unique certificates it would produce.  So we leave it off by default.">
+"Es seguro (y una buena idea) habilitar esta opción, a menos que uses una red corporativa intrusiva o el antivirus Kaspersky que monitorea tu navegación con un proxy TLS y un Certificado de Autoridad de raíz privado. Si se habilita en dicha red, esta opción puede presentar evidencia de que dominios https:// estaban siendo visitados a través del proxy, debido a los certificados únicos que produciría. Por eso lo dejamos apagado por defecto.">
 
 <!ENTITY ssl-observatory.prefs.anonymous "Compruebe certificados usando Tor para el anonimato">
 <!ENTITY ssl-observatory.prefs.anonymous_unavailable 
@@ -39,13 +39,13 @@ se encuentre en una red corporativa muy invasiva:">
 "Esta opción requiere Tor para ser instalado y en ejecución">
 
 <!ENTITY ssl-observatory.prefs.asn 
-"When you see a new certificate, tell the Observatory which ISP you are connected to">
+"Cuando veas un nuevo certificado, avisale al Observatorio a que ISP estás conectado">
 
 <!ENTITY ssl-observatory.prefs.asn_tooltip
 "This will fetch and send the &quot;Autonomous System number&quot; of your network.  This will help us locate attacks against HTTPS, and to determine whether we have observations from networks in places like Iran and Syria where attacks are comparatively common.">
 
 <!ENTITY ssl-observatory.prefs.show_cert_warning
-"Show a warning when the Observatory detects a revoked certificate not caught by your browser">
+"Mostrar una advertencia cuando el Observatorio detecte un certificado revocado no atrapado por tu navegador">
 
 <!ENTITY ssl-observatory.prefs.show_cert_warning_tooltip
 "This will check submitted certificates against known Certificate Revocation Lists. Unfortunately we cannot guarantee that we will flag every revoked certificate, but if you do see a warning there's a good chance something is wrong.">
@@ -73,13 +73,13 @@ looked at.  Mouseover the options for further details:">
 <!ENTITY ssl-observatory.prefs.hide "Ocultar opciones avanzadas">
 
 <!ENTITY ssl-observatory.prefs.nonanon 
-"Check certificates even if Tor is not available">
+"Comprobar certificados aunque Tor no esté disponible">
 
 <!ENTITY ssl-observatory.prefs.nonanon_tooltip
 "We will still try to keep the data anonymous, but this option is less secure">
 
 <!ENTITY ssl-observatory.prefs.priv_dns 
-"Submit and check certificates for non-public DNS names">
+"Enviar y comprobar certificados para nombres DNS no-públicos">
 
 <!ENTITY ssl-observatory.prefs.priv_dns_tooltip
 "Unless this option is checked, the Observatory will not record certificates for names that it cannot resolve through the DNS system.">
@@ -88,9 +88,9 @@ looked at.  Mouseover the options for further details:">
 
 <!ENTITY ssl-observatory.prefs.title "Preferencias del Observatorio SSL">
 
-<!ENTITY ssl-observatory.prefs.use "Use the Observatory?">
-<!ENTITY ssl-observatory.warning.title "WARNING from EFF's SSL Observatory">
-<!ENTITY ssl-observatory.warning.showcert "Show the certificate chain">
+<!ENTITY ssl-observatory.prefs.use "¿Usar el Observatorio?">
+<!ENTITY ssl-observatory.warning.title "ADVERTENCIA del Observatorio SSL de EFF">
+<!ENTITY ssl-observatory.warning.showcert "Mostrar la cadena de certificado">
 <!ENTITY ssl-observatory.warning.okay "I understand">
 <!ENTITY ssl-observatory.warning.text "EFF's SSL Observatory has issued a warning about the HTTPS certificiate(s) for this site:">
 <!ENTITY ssl-observatory.warning.defense "If you are logged in to this site, it may be advisable to change your password once you have a safe connection. (These warnings can be disabled in the &quot;SSL Observatory&quot; tab of the HTTPS Everywhere preferences dialog.)">
