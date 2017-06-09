@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-01-31 10:47+0100\n"
+"POT-Creation-Date: 2017-06-04 12:08+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Ana B <abuljan031@gmail.com>, 2016\n"
 "Language-Team: Croatian (Croatia) (https://www.transifex.com/otf/teams/1519/hr_HR/)\n"
@@ -91,7 +91,7 @@ msgstr "Maskiraj sve MAC adrese (zadano)"
 msgid "Don't spoof MAC addresses"
 msgstr "Ne maskiraj MAC adrese"
 
-#: ../data/greeter.ui.h:17 ../tailsgreeter/gui.py:514
+#: ../data/greeter.ui.h:17 ../tailsgreeter/gui.py:532
 msgid "Cannot unlock encrypted storage with this passphrase."
 msgstr "Ne mogu otključati enkriptiranu pohranu s ovom lozinkom."
 
@@ -128,24 +128,24 @@ msgid "Save Language & Region Settings"
 msgstr "Spremite postavke jezika i regije"
 
 #: ../data/greeter.ui.h:25
-msgid "Language"
-msgstr "Jezik"
+msgid "_Language"
+msgstr "_Jezik"
 
 #: ../data/greeter.ui.h:26
-msgid "Keyboard Layout"
-msgstr "Postavke tipkovnice"
+msgid "_Keyboard Layout"
+msgstr "_Raspored tipkovnice"
 
 #: ../data/greeter.ui.h:27
-msgid "Formats"
-msgstr "Formati"
+msgid "_Formats"
+msgstr "_Formati"
 
 #: ../data/greeter.ui.h:28
-msgid "Time Zone"
-msgstr "Vremenska zona"
+msgid "_Time Zone"
+msgstr "_Vremenska zona"
 
 #: ../data/greeter.ui.h:29
-msgid "Encrypted Persistent Storage"
-msgstr "Enkriptirana trajna pohrana"
+msgid "Encrypted _Persistent Storage"
+msgstr "Enkriptirana _Trajna pohrana"
 
 #: ../data/greeter.ui.h:30
 msgid "Show Passphrase"
@@ -159,8 +159,8 @@ msgstr "Postavi trajnu pohranu"
 msgid "Enter your passphrase to unlock the persistent storage"
 msgstr "Unesite lozinku za otključavanje trajne pohrane"
 
-#: ../data/greeter.ui.h:33 ../tailsgreeter/gui.py:460
-#: ../tailsgreeter/gui.py:510
+#: ../data/greeter.ui.h:33 ../tailsgreeter/gui.py:478
+#: ../tailsgreeter/gui.py:528
 msgid "Unlock"
 msgstr "Otključaj"
 
@@ -174,9 +174,9 @@ msgstr ""
 "Vaša trajna pohrana je otključana. Ponovno pokrenite Tails kako bi ju opet "
 "zaključali."
 
-#: ../data/greeter.ui.h:36 ../tailsgreeter/gui.py:554
-msgid "Additional Settings"
-msgstr "Dodatne postavke"
+#: ../data/greeter.ui.h:36
+msgid "_Additional Settings"
+msgstr "_Dodatne postavke"
 
 #: ../data/greeter.ui.h:37
 msgid "Save Additional Settings"
@@ -205,8 +205,8 @@ msgid "Connect directly to the Tor network (default)"
 msgstr "Spoji se izravno na Tor mrežu (zadano)"
 
 #: ../data/greeter.ui.h:42
-msgid "Configure a Tor bridge, firewall, or proxy settings"
-msgstr "Konfiguriraj postavke Tor mosta, vatrozida ili proxya"
+msgid "Configure a Tor bridge or local proxy"
+msgstr "Konfigurirajte Tor most ili lokalni proxy"
 
 #: ../data/greeter.ui.h:43
 msgid "Disable all networking"
@@ -221,58 +221,76 @@ msgstr ""
 "postavke, stisnite \"+\" gumb."
 
 #: ../data/greeter.ui.h:45
+msgid "_Administration Password"
+msgstr "_Administratorska lozinka"
+
+#: ../data/greeter.ui.h:46
 msgid "Off (default)"
 msgstr "Isključeno (zadano)"
 
-#: ../data/greeter.ui.h:46
+#: ../data/greeter.ui.h:47
+msgid "_MAC Address Spoofing"
+msgstr "_Maskiranje MAC adrese"
+
+#: ../data/greeter.ui.h:48
 msgid "On (default)"
 msgstr "Uključeno (zadano)"
 
-#: ../data/greeter.ui.h:47
-msgid "Network Connection"
-msgstr "Mrežna veza"
+#: ../data/greeter.ui.h:49
+msgid "_Network Connection"
+msgstr "_Mrežna veza"
 
-#: ../data/greeter.ui.h:48 ../tailsgreeter/gui.py:367
+#: ../data/greeter.ui.h:50 ../tailsgreeter/gui.py:385
 msgid "Direct (default)"
 msgstr "Direktno (zadano)"
 
-#: ../tailsgreeter/gui.py:373
+#: ../data/greeter.ui.h:51
+msgid "_Windows Camouflage"
+msgstr "_Windows kamuflaža"
+
+#: ../tailsgreeter/gui.py:391
 msgid "Bridge & Proxy"
 msgstr "Most i proxy"
 
-#: ../tailsgreeter/gui.py:379
+#: ../tailsgreeter/gui.py:397
 msgid "Offline"
 msgstr "Offline"
 
-#: ../tailsgreeter/gui.py:463
+#: ../tailsgreeter/gui.py:481
 msgid "Failed to relock persistent storage."
 msgstr "Nije uspjelo zaključavanje trajne pohrane."
 
-#: ../tailsgreeter/gui.py:481
+#: ../tailsgreeter/gui.py:499
 msgid "Unlocking…"
 msgstr "Otključavam..."
 
-#: ../tailsgreeter/gui.py:562
+#: ../tailsgreeter/gui.py:594
+msgid "Additional Settings"
+msgstr "Dodatne postavke"
+
+#: ../tailsgreeter/gui.py:602
 msgid "Cancel"
 msgstr "Otkaži"
 
-#: ../tailsgreeter/gui.py:566
+#: ../tailsgreeter/gui.py:608
 msgid "Add"
 msgstr "Dodaj"
 
-#: ../tailsgreeter/gui.py:572
+#: ../tailsgreeter/gui.py:616
 msgid "Back"
 msgstr "Povratak"
 
-#: ../tailsgreeter/gui.py:658
+#: ../tailsgreeter/gui.py:730
 msgid "Shutdown"
 msgstr "Gašenje"
 
-#: ../tailsgreeter/gui.py:664
-msgid "Start Tails"
-msgstr "Pokreni Tails"
+#: ../tailsgreeter/gui.py:735
+msgid "_Start Tails"
+msgstr "_Pokreni Tails"
 
-#: ../tailsgreeter/language.py:119
+#. Translators: please do not translate this string (it is read from
+#. Gtk translation)
+#: ../tailsgreeter/language.py:133
 msgid "default:LTR"
 msgstr "zadano:LTR"
 
@@ -285,7 +303,7 @@ msgstr ""
 "live-persist nije uspio s povratnim kodom {returncode}:\n"
 "{stderr}"
 
-#: ../tailsgreeter/persistence.py:120 ../tailsgreeter/persistence.py:137
+#: ../tailsgreeter/persistence.py:122 ../tailsgreeter/persistence.py:139
 #, python-brace-format
 msgid ""
 "cryptsetup failed with return code {returncode}:\n"
@@ -296,7 +314,7 @@ msgstr ""
 "{stdout}\n"
 "{stderr}"
 
-#: ../tailsgreeter/persistence.py:154
+#: ../tailsgreeter/persistence.py:156
 #, python-brace-format
 msgid ""
 "live-persist failed with return code {returncode}:\n"
@@ -307,7 +325,7 @@ msgstr ""
 "{stdout}\n"
 "{stderr}"
 
-#: ../tailsgreeter/persistence.py:168
+#: ../tailsgreeter/persistence.py:170
 #, python-brace-format
 msgid ""
 "umount failed with return code {returncode}:\n"
