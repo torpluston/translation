@@ -12,8 +12,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: The Tor Project\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-11-02 21:23+0100\n"
-"PO-Revision-Date: 2017-04-22 15:44+0000\n"
+"POT-Creation-Date: 2017-06-10 07:50+0200\n"
+"PO-Revision-Date: 2017-06-11 18:33+0000\n"
 "Last-Translator: Allan Nordhøy <epost@anotheragency.no>\n"
 "Language-Team: Norwegian Bokmål (http://www.transifex.com/otf/torproject/language/nb/)\n"
 "MIME-Version: 1.0\n"
@@ -22,219 +22,346 @@ msgstr ""
 "Language: nb\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: ../liveusb/gui.py:451
-msgid "\"Clone & Install\""
-msgstr "\"Klon & installer\""
+#: ../tails_installer/creator.py:100
+msgid "You must run this application as root"
+msgstr "Du må kjøre denne applikasjonen som administrator"
 
-#: ../liveusb/gui.py:453
-msgid "\"Install from ISO\""
-msgstr "\"Installer fra ISO\""
+#: ../tails_installer/creator.py:146
+msgid "Extracting live image to the target device..."
+msgstr "Pakker ut det levende bildeavtrykket til målenheten…"
 
-#: ../liveusb/dialog.py:157 ../liveusb/launcher_ui.py:153
+#: ../tails_installer/creator.py:153
 #, python-format
-msgid "%(distribution)s Installer"
-msgstr "%(distribution)s -installasjonskandidat"
+msgid "Wrote to device at %(speed)d MB/sec"
+msgstr "Skrev til enheten ved %(speed)d MB/sekund"
 
-#: ../liveusb/gui.py:804
+#: ../tails_installer/creator.py:183
+msgid "Setting up OLPC boot file..."
+msgstr "Setter opp OLPC-oppstartsfil…"
+
+#: ../tails_installer/creator.py:302
 #, python-format
-msgid "%(filename)s selected"
-msgstr "%(filename)s valgt"
-
-#: ../liveusb/gui.py:424
-#, python-format
-msgid "%(size)s %(label)s"
-msgstr "%(size)s %(label)s"
-
-#: ../liveusb/gui.py:430
-#, python-format
-msgid "%(vendor)s %(model)s (%(details)s) - %(device)s"
-msgstr "%(vendor)s %(model)s (%(details)s) - %(device)s"
-
-#: ../liveusb/creator.py:1097
-#, python-format
-msgid "%s already bootable"
-msgstr "%s kan brukes ved oppstart"
-
-#: ../liveusb/launcher_ui.py:160
 msgid ""
-"<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
-"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
-"p, li { white-space: pre-wrap; }\n"
-"</style></head><body style=\" font-family:'Cantarell'; font-size:11pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">Need help? Read the <a href=\"file:///usr/share/doc/tails/website/doc/first_steps/installation.en.html\"><span style=\" text-decoration: underline; color:#0000ff;\">documentation</span></a>.</p></body></html>"
-msgstr "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\np, li { white-space: pre-wrap; }\n</style></head><body style=\" font-family:'Cantarell'; font-size:11pt; font-weight:400; font-style:normal;\">\n<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">Behov for hjelp? Les <a href=\"file:///usr/share/doc/tails/website/doc/first_steps/installation.en.html\"><span style=\" text-decoration: underline; color:#0000ff;\">dokumentasjonen</span></a>.</p></body></html>"
+"There was a problem executing the following command: `%(command)s`.\n"
+"A more detailed error log has been written to '%(filename)s'."
+msgstr "Det oppstod et problem i utførelsen av følgende kommando: `%(command)s`.\nEn mer detaljert feilmelding er lagret i '%(filename)s'."
 
-#: ../liveusb/launcher_ui.py:155
-msgid ""
-"<ul>\n"
-"<li>Install Tails on another USB stick by copying the Tails system that you are currently using..</li>\n"
-"\n"
-"<li>The USB stick that you install on is formatted and all data is lost.</li>\n"
-"\n"
-"<li>The encrypted persistent storage of the Tails USB stick that you are currently using is not copied.</li>\n"
-"\n"
-"</ul>"
-msgstr "<ul>\n<li>Installer Tails på en annen USB-pinne ved å kopiere Tails-systemet du bruker nå dithen</li>\n\n<li>USB-pinnen du installerer på vil bli formatert og all data på den går tapt</li>\n\n<li>Det krypterte vedvarende lagringsområdet til Tails-pinnen du bruker nå blir ikke kopiert.</li>\n\n</ul>"
+#: ../tails_installer/creator.py:321
+msgid "Verifying SHA1 checksum of LiveCD image..."
+msgstr "Verifiserer SHA1-sjekksum av levende CD-avbildning…"
 
-#: ../liveusb/launcher_ui.py:157
-msgid ""
-"<ul>\n"
-"<li>Upgrade another Tails USB stick to the same version of Tails that you are currently using.</li>\n"
-"\n"
-"<li>The encrypted persistent storage of the Tails USB stick that you upgrade is preserved.</li>\n"
-"\n"
-"<li>The encrypted persistent storage of the Tails USB stick that you are currently using is not copied.</li>\n"
-"\n"
-"\n"
-"</ul>"
-msgstr "<ul>\n<li>Oppgrader en eldre versjon Tails USB-pinne til den samme versjonen av Tails du bruker nå.</li>\n\n<li>Det krypterte vedvarende området av Tails-pinnen du oppgraderer blir beholdt</li>\n\n<li>Det krypterte vedvarende lagringsområdet av Tails-pinnen du bruker nå blir ikke kopiert.</li>\n\n\n</ul>"
+#: ../tails_installer/creator.py:325
+msgid "Verifying SHA256 checksum of LiveCD image..."
+msgstr "Verifiserer SHA256-sjekksum av levende CD-avbildning…"
 
-#: ../liveusb/launcher_ui.py:159
-msgid ""
-"<ul>\n"
-"<li>Upgrade another Tails USB stick to the version of an ISO image.</li>\n"
-"\n"
-"<li>The encrypted persistent storage of the Tails USB stick that you upgrade is preserved.</li>\n"
-"\n"
-"<li>The encrypted persistent storage of the Tails USB stick that you are currently using is not copied.</li>\n"
-"\n"
-"</ul>"
-msgstr "<ul>\n<li>Oppgrader en annen Tails-pinne til versjonen funnet i en ISO-avbildning</li>\n\n<li>Det krypterte vedvarende området av Tails-pinnen som du oppgraderer blir beholdt.</li>\n\n<li>Det krypterte vedvarende lagringsområdet av Tails-pinnen du bruker nå blir ikke kopiert.</li>\n\n</ul>"
-
-#: ../liveusb/dialog.py:161
-msgid "Alt+B"
-msgstr "Alt+B"
-
-#: ../liveusb/dialog.py:160
-msgid "Browse"
-msgstr "Gå til"
-
-#: ../liveusb/dialog.py:167
-msgid ""
-"By allocating extra space on your USB stick for a persistent overlay, you "
-"will be able to store data and make permanent modifications to your live "
-"operating system.  Without it, you will not be able to save data that will "
-"persist after a reboot."
-msgstr "Ved å tildele ekstra lagringsplass for vedvarende overlegg på USB-enheten, vil du bli i stand til å lagre og gjøre permanente modifiseringer på live operativsystemet. Uten dette, vil du ikke være i stand til å lagre data som vil vedvare etter omstart."
-
-#: ../liveusb/creator.py:1196 ../liveusb/creator.py:1459
-#, python-format
-msgid "Calculating the SHA1 of %s"
-msgstr "Kalkulerer SHA1 av %s"
-
-#: ../liveusb/creator.py:1407
-msgid "Cannot find"
-msgstr "Finner ikke"
-
-#: ../liveusb/creator.py:560
-#, python-format
-msgid "Cannot find device %s"
-msgstr "Kan ikke finne enhet %s"
-
-#: ../liveusb/creator.py:417
-#, python-format
-msgid "Creating %sMB persistent overlay"
-msgstr "Lager %sMB vedvarende overlegg"
-
-#: ../liveusb/gui.py:582
-msgid ""
-"Device is not yet mounted, so we cannot determine the amount of free space."
-msgstr "Enheten er ikke montert enda, dermed kan ikke mengden ledig plass bestemmes."
-
-#: ../liveusb/dialog.py:164
-#, python-format
-msgid "Download %(distribution)s"
-msgstr "Last ned %(distribution)s"
-
-#: ../liveusb/gui.py:778
-msgid "Download complete!"
-msgstr "Nedlasting fullført!"
-
-#: ../liveusb/gui.py:782
-msgid "Download failed: "
-msgstr "Nedlasting feilet: "
-
-#: ../liveusb/gui.py:89
-#, python-format
-msgid "Downloading %s..."
-msgstr "Laster ned %s…"
-
-#: ../liveusb/creator.py:1192
-msgid "Drive is a loopback, skipping MBR reset"
-msgstr "Stasjonen er en loopback, hopper over tilbakestilling av MBR"
-
-#: ../liveusb/creator.py:837
-#, python-format
-msgid "Entering unmount_device for '%(device)s'"
-msgstr "Angir unmount_device for '%(device)s'"
-
-#: ../liveusb/creator.py:1272
-msgid "Error probing device"
-msgstr "Feil ved sondering av enhet"
-
-#: ../liveusb/gui.py:213
-msgid ""
-"Error: Cannot set the label or obtain the UUID of your device.  Unable to "
-"continue."
-msgstr "Feil: Kan ikke sette etikett eller få UUID fra enheten. Kan ikke fortsette."
-
-#: ../liveusb/creator.py:393
+#: ../tails_installer/creator.py:341
 msgid ""
 "Error: The SHA1 of your Live CD is invalid.  You can run this program with "
 "the --noverify argument to bypass this verification check."
 msgstr "Feil: SHA1-sjekksummen for Live CDen din er ugyldig. Du kan kjøre dette programmet med argumentet --noverify for å utelate denne bekfeftelsessjekken.."
 
-#: ../liveusb/creator.py:155
-msgid "Extracting live image to the target device..."
-msgstr "Pakker ut det levende bildeavtrykket til målenheten…"
+#: ../tails_installer/creator.py:347
+msgid "Unknown ISO, skipping checksum verification"
+msgstr "Ukjent ISO, hopper over sjekksum verifisering"
 
-#: ../liveusb/creator.py:1140
+#: ../tails_installer/creator.py:358
+#, python-format
+msgid ""
+"Not enough free space on device.\n"
+"%dMB ISO + %dMB overlay > %dMB free space"
+msgstr "Ikke nok ledig plass på enheten\n%dMB ISO + %dMB over kapasitet > %dMB ledig plass"
+
+#: ../tails_installer/creator.py:365
+#, python-format
+msgid "Creating %sMB persistent overlay"
+msgstr "Lager %sMB vedvarende overlegg"
+
+#: ../tails_installer/creator.py:426
+#, python-format
+msgid "Unable to copy %(infile)s to %(outfile)s: %(message)s"
+msgstr "Klarer ikke kopiere %(infile)s til %(outfile)s: %(message)s"
+
+#: ../tails_installer/creator.py:440
+msgid "Removing existing Live OS"
+msgstr "Fjerner eksisterende Live OS"
+
+#: ../tails_installer/creator.py:449 ../tails_installer/creator.py:460
+#, python-format
+msgid "Unable to chmod %(file)s: %(message)s"
+msgstr "Klarer ikke chmod %(file)s: %(message)s"
+
+#: ../tails_installer/creator.py:453
+#, python-format
+msgid "Unable to remove file from previous LiveOS: %(message)s"
+msgstr "Klarer ikke slette fil fra tidligere LiveOS: %(message)s"
+
+#: ../tails_installer/creator.py:465
+#, python-format
+msgid "Unable to remove directory from previous LiveOS: %(message)s"
+msgstr "Klarer ikke å fjerne katalog fra tidligere LiveOS: %(message)s"
+
+#: ../tails_installer/creator.py:513
+#, python-format
+msgid "Cannot find device %s"
+msgstr "Kan ikke finne enhet %s"
+
+#: ../tails_installer/creator.py:678
+#, python-format
+msgid "Unable to write on %(device)s, skipping."
+msgstr "Klarer ikke å skrive til %(device)s, hopper over."
+
+#: ../tails_installer/creator.py:697
+#, python-format
+msgid ""
+"Some partitions of the target device %(device)s are mounted. They will be "
+"unmounted before starting the installation process."
+msgstr "Noen partisjoner på målenheten %(device)s er montert. De vil avmontert før installasjonsprosessen starter."
+
+#: ../tails_installer/creator.py:740 ../tails_installer/creator.py:964
+msgid "Unknown filesystem.  Your device may need to be reformatted."
+msgstr "Ukjent filsystem. Din enhet må kanskje omformateres."
+
+#: ../tails_installer/creator.py:743 ../tails_installer/creator.py:967
+#, python-format
+msgid "Unsupported filesystem: %s"
+msgstr "Ikke støttet filsystem: %s"
+
+#: ../tails_installer/creator.py:760
+#, python-format
+msgid "Unknown GLib exception while trying to mount device: %(message)s"
+msgstr "Ukjent GLib-unntak under montering av enhet: %(message)s"
+
+#: ../tails_installer/creator.py:764
+#, python-format
+msgid "Unable to mount device: %(message)s"
+msgstr "Klarer ikke å laste enhet: %(message)s"
+
+#: ../tails_installer/creator.py:769
+msgid "No mount points found"
+msgstr "Ingen lastepunkter funnet"
+
+#: ../tails_installer/creator.py:780
+#, python-format
+msgid "Entering unmount_device for '%(device)s'"
+msgstr "Angir unmount_device for '%(device)s'"
+
+#: ../tails_installer/creator.py:790
+#, python-format
+msgid "Unmounting mounted filesystems on '%(device)s'"
+msgstr "Avmonterer monterte filsystem på  '%(device)s'"
+
+#: ../tails_installer/creator.py:794
+#, python-format
+msgid "Unmounting '%(udi)s' on '%(device)s'"
+msgstr "Avmonterer '%(udi)s' på '%(device)s'"
+
+#: ../tails_installer/creator.py:804
+#, python-format
+msgid "Mount %s exists after unmounting"
+msgstr "%s eksisterer fortsatt etter frakoblingsforsøk"
+
+#: ../tails_installer/creator.py:817
+#, python-format
+msgid "Partitioning device %(device)s"
+msgstr "Partisjonerer enheten %(device)s"
+
+#: ../tails_installer/creator.py:895
+#, python-format
+msgid "Updating properties of system partition %(system_partition)s"
+msgstr "Oppdaterer egenskaper for systempartisjon %(system_partition)s"
+
+#: ../tails_installer/creator.py:949
+#, python-format
+msgid "Unsupported device '%(device)s', please report a bug."
+msgstr "Enheten '%(device)s' støttes ikke, rapporter som feil."
+
+#: ../tails_installer/creator.py:952
+msgid "Trying to continue anyway."
+msgstr "Prøver å fortsette uansett. "
+
+#: ../tails_installer/creator.py:961 ../tails_installer/creator.py:1354
+msgid "Verifying filesystem..."
+msgstr "Verifiserer filsystem…"
+
+#: ../tails_installer/creator.py:985
+#, python-format
+msgid "Unable to change volume label: %(message)s"
+msgstr "Kan ikke endre volum etikett: %(message)s"
+
+#: ../tails_installer/creator.py:990 ../tails_installer/creator.py:1387
+msgid "Installing bootloader..."
+msgstr "Installerer oppstartslaster…"
+
+#: ../tails_installer/creator.py:1016
+#, python-format
+msgid "Could not find the '%s' COM32 module"
+msgstr "Fant ikke '%s' COM32-modul"
+
+#: ../tails_installer/creator.py:1024 ../tails_installer/creator.py:1405
+#, python-format
+msgid "Removing %(file)s"
+msgstr "Fjerner %(file)s"
+
+#: ../tails_installer/creator.py:1136
+#, python-format
+msgid "%s already bootable"
+msgstr "%s kan brukes ved oppstart"
+
+#: ../tails_installer/creator.py:1156
+msgid "Unable to find partition"
+msgstr "Klarer ikke å finne partisjon"
+
+#: ../tails_installer/creator.py:1179
 #, python-format
 msgid "Formatting %(device)s as FAT32"
 msgstr "Formaterer %(device)s til FAT32"
 
-#: ../liveusb/creator.py:150
-msgid "ISO MD5 checksum passed"
-msgstr "ISO MD5 sjekksum godkjent"
+#: ../tails_installer/creator.py:1239
+msgid "Could not find syslinux' gptmbr.bin"
+msgstr "Fant ikke gptmbr.bin for SYSLINUX"
 
-#: ../liveusb/creator.py:148
-msgid "ISO MD5 checksum verification failed"
-msgstr "ISO MD5 sjekksum verifisering mislyktes"
+#: ../tails_installer/creator.py:1252
+#, python-format
+msgid "Reading extracted MBR from %s"
+msgstr "Leser utpakket MBR fra %s"
 
-#: ../liveusb/dialog.py:163
+#: ../tails_installer/creator.py:1256
+#, python-format
+msgid "Could not read the extracted MBR from %(path)s"
+msgstr "Kunne ikke lese utpakket MBR fra %(path)s"
+
+#: ../tails_installer/creator.py:1269 ../tails_installer/creator.py:1270
+#, python-format
+msgid "Resetting Master Boot Record of %s"
+msgstr "Tilbakestiller Master Boot Record av %s"
+
+#: ../tails_installer/creator.py:1275
+msgid "Drive is a loopback, skipping MBR reset"
+msgstr "Stasjonen er en loopback, hopper over tilbakestilling av MBR"
+
+#: ../tails_installer/creator.py:1279 ../tails_installer/creator.py:1533
+#, python-format
+msgid "Calculating the SHA1 of %s"
+msgstr "Kalkulerer SHA1 av %s"
+
+#: ../tails_installer/creator.py:1304
+msgid "Synchronizing data on disk..."
+msgstr "Synkroniserer data på stasjonen…"
+
+#: ../tails_installer/creator.py:1346
+msgid "Error probing device"
+msgstr "Feil ved sondering av enhet"
+
+#: ../tails_installer/creator.py:1348
+msgid "Unable to find any supported device"
+msgstr "Fant ingen enhet som støttes"
+
+#: ../tails_installer/creator.py:1358
 msgid ""
-"If you do not select an existing Live ISO, the selected release will be "
-"downloaded for you."
-msgstr "Dersom du ikke har valgt en eksisterende Live-ISO, vil den valgte utgivelsen bli lastet ned for deg. "
+"Make sure your USB key is plugged in and formatted with the FAT filesystem"
+msgstr "Sjekk at USB enheten din er koblet til og formatert med FAT filsystem"
 
-#: ../liveusb/launcher_ui.py:154
+#: ../tails_installer/creator.py:1361
+#, python-format
 msgid ""
-"Install\n"
-"by cloning"
-msgstr "Installer\nved å klone"
+"Unsupported filesystem: %s\n"
+"Please backup and format your USB key with the FAT filesystem."
+msgstr "Filsystemet er ikke støttet: %s\nTa en sikkerhetskopi av USB-enheten og formater med FAT-filsystem"
 
-#: ../liveusb/dialog.py:172
-msgid "Install Tails"
-msgstr "Installer Tails"
+#: ../tails_installer/creator.py:1428
+msgid ""
+"Unable to get Win32_LogicalDisk; win32com query did not return any results"
+msgstr "Klarte ikke å hente Win32_LogicalDisk; win32com spørringen ga ingen resultat"
 
-#: ../liveusb/gui.py:645
-msgid "Installation complete!"
-msgstr "Installasjonen er fullført!"
+#: ../tails_installer/creator.py:1481
+msgid "Cannot find"
+msgstr "Finner ikke"
 
-#: ../liveusb/gui.py:265
+#: ../tails_installer/creator.py:1482
+msgid ""
+"Make sure to extract the entire tails-installer zip file before running this"
+" program."
+msgstr "Sørg for å pakke ut hele tails-installer ZIP-filen før du kjører dette programmet."
+
+#: ../tails_installer/gui.py:69
+#, python-format
+msgid "Unknown release: %s"
+msgstr "Ukjent versjon: %s"
+
+#: ../tails_installer/gui.py:73
+#, python-format
+msgid "Downloading %s..."
+msgstr "Laster ned %s…"
+
+#: ../tails_installer/gui.py:204
+msgid ""
+"Error: Cannot set the label or obtain the UUID of your device.  Unable to "
+"continue."
+msgstr "Feil: Kan ikke sette etikett eller få UUID fra enheten. Kan ikke fortsette."
+
+#: ../tails_installer/gui.py:253
 #, python-format
 msgid "Installation complete! (%s)"
 msgstr "Installasjonen er fullført! (%s)"
 
-#: ../liveusb/gui.py:646
-msgid "Installation was completed. Press OK to close this program."
-msgstr "Installasjonen er ferdig. Klikk OK for å lukke dette programmet."
+#: ../tails_installer/gui.py:258
+msgid "Tails installation failed!"
+msgstr "Tails-installasjon mislyktes"
 
-#: ../liveusb/creator.py:990 ../liveusb/creator.py:1313
-msgid "Installing bootloader..."
-msgstr "Installerer oppstartslaster…"
+#: ../tails_installer/gui.py:353
+msgid ""
+"Warning: This tool needs to be run as an Administrator. To do this, right "
+"click on the icon and open the Properties. Under the Compatibility tab, "
+"check the \"Run this program as an administrator\" box."
+msgstr "Advarsel: Dette verktøyet må kjøres som Administrator. For å gjøre det, høyreklikker du på ikonet og åpner Egenskaper. Under kompatibilitets fanen, kryss av i boksen for \"Kjør dette programmet som administrator\"."
 
-#: ../liveusb/gui.py:454
+#: ../tails_installer/gui.py:365 ../tails_installer/launcher.py:31
+msgid "Tails Installer"
+msgstr "Tails-installasjonskandidat"
+
+#: ../tails_installer/gui.py:440
+msgid "No device suitable to install Tails could be found"
+msgstr "Fant ingen egnet enhet for installasjon av Tails"
+
+#: ../tails_installer/gui.py:442
+#, python-format
+msgid "Please plug a USB flash drive or SD card of at least %0.1f GB."
+msgstr "Plugg inn en USB-minnepinne eller SD-kort på minst %0.1f GB."
+
+#: ../tails_installer/gui.py:474
+#, python-format
+msgid "%(size)s %(label)s"
+msgstr "%(size)s %(label)s"
+
+#: ../tails_installer/gui.py:480
+#, python-format
+msgid "%(vendor)s %(model)s (%(details)s) - %(device)s"
+msgstr "%(vendor)s %(model)s (%(details)s) - %(device)s"
+
+#: ../tails_installer/gui.py:488
+#, python-format
+msgid ""
+"The USB stick \"%(pretty_name)s\" is configured as non-removable by its "
+"manufacturer and Tails will fail to start on it. Please try installing on a "
+"different model."
+msgstr "USB-minnepinnen \"%(pretty_name)s\" er satt opp som ikke-fjernbar av fabrikken og Tails klarer ikke å starte fra den. Prøv å installere på en annen modell."
+
+#: ../tails_installer/gui.py:498
+#, python-format
+msgid ""
+"The device \"%(pretty_name)s\" is too small to install Tails (at least "
+"%(size)s GB is required)."
+msgstr "Enheten \"%(pretty_name)s\" har for liten lagringsplass for å installere Tails (minst %(size)s Gb er påkrevet)"
+
+#: ../tails_installer/gui.py:511
+msgid "\"Install by cloning\""
+msgstr "\"Installer ved å klone\""
+
+#: ../tails_installer/gui.py:513
+msgid "\"Install from ISO\""
+msgstr "\"Installer fra ISO\""
+
+#: ../tails_installer/gui.py:514
 #, python-format
 msgid ""
 "It is impossible to upgrade the device %(pretty_name)s because it was not "
@@ -242,350 +369,42 @@ msgid ""
 "Tails on this device."
 msgstr "Det er umulig å oppgradere enheten %(pretty_name)s fordi den ikke ble opprettet med Tails-installereren. Du bør istedet bruke %(action)s for å oppgradere Tails på enheten."
 
-#: ../liveusb/gui.py:270
-msgid "LiveUSB creation failed!"
-msgstr "Oppretting av LiveUSB feilet!"
+#: ../tails_installer/gui.py:533
+msgid "An error happened while installing Tails"
+msgstr "Feil under installasjon av Tails"
 
-#: ../liveusb/creator.py:1408
-msgid ""
-"Make sure to extract the entire liveusb-creator zip file before running this"
-" program."
-msgstr "Sørg for å pakke ut  hele \"liveusb-creator\" zip-filen før du kjører dette programmet."
-
-#: ../liveusb/creator.py:1284
-msgid ""
-"Make sure your USB key is plugged in and formatted with the FAT filesystem"
-msgstr "Sjekk at USB enheten din er koblet til og formatert med FAT filsystem"
-
-#: ../liveusb/creator.py:859
-#, python-format
-msgid "Mount %s exists after unmounting"
-msgstr "%s eksisterer fortsatt etter frakoblingsforsøk"
-
-#: ../liveusb/gui.py:588
-#, python-format
-msgid "No free space on device %(device)s"
-msgstr "Ingen ledig plass på enheten %(device)s"
-
-#: ../liveusb/creator.py:826
-msgid "No mount points found"
-msgstr "Ingen lastepunkter funnet"
-
-#: ../liveusb/creator.py:410
-#, python-format
-msgid ""
-"Not enough free space on device.\n"
-"%dMB ISO + %dMB overlay > %dMB free space"
-msgstr "Ikke nok ledig plass på enheten\n%dMB ISO + %dMB over kapasitet > %dMB ledig plass"
-
-#: ../liveusb/gui.py:569
-msgid "Partition is FAT16; Restricting overlay size to 2G"
-msgstr "Partisjonen er FAT16; Begrenser overlegg størrelse til 2G."
-
-#: ../liveusb/gui.py:565
-msgid "Partition is FAT32; Restricting overlay size to 4G"
-msgstr "Partisjonen er FAT32; Begrenser overlagringskapasitet til 4GB."
-
-#: ../liveusb/creator.py:236 ../liveusb/creator.py:866
-#, python-format
-msgid "Partitioning device %(device)s"
-msgstr "Partisjonerer enheten %(device)s"
-
-#: ../liveusb/gui.py:636
-msgid "Persistent Storage"
-msgstr "Vedvarende lagring"
-
-#: ../liveusb/dialog.py:168
-msgid "Persistent Storage (0 MB)"
-msgstr "Vedvarende lagring (0 MB)"
-
-#: ../liveusb/gui.py:698 ../liveusb/gui.py:727
-msgid "Please confirm your device selection"
-msgstr "Bekreft valg av enhet"
-
-#: ../liveusb/gui.py:481
+#: ../tails_installer/gui.py:545
 msgid "Refreshing releases..."
 msgstr "Oppdaterer utgivelser…"
 
-#: ../liveusb/gui.py:486
+#: ../tails_installer/gui.py:550
 msgid "Releases updated!"
 msgstr "Utgivelser oppdatert!"
 
-#: ../liveusb/creator.py:997 ../liveusb/creator.py:1331
-#, python-format
-msgid "Removing %(file)s"
-msgstr "Fjerner %(file)s"
+#: ../tails_installer/gui.py:589
+msgid "Installation complete!"
+msgstr "Installasjonen er fullført!"
 
-#: ../liveusb/creator.py:492
-msgid "Removing existing Live OS"
-msgstr "Fjerner eksisterende Live OS"
+#: ../tails_installer/gui.py:590
+msgid "Installation was completed."
+msgstr "Installasjonen er fullført."
 
-#: ../liveusb/creator.py:1186
-#, python-format
-msgid "Resetting Master Boot Record of %s"
-msgstr "Tilbakestiller Master Boot Record av %s"
-
-#: ../liveusb/gui.py:789
-msgid "Select Live ISO"
-msgstr "Velg Live-ISO"
-
-#: ../liveusb/creator.py:192
-msgid "Setting up OLPC boot file..."
-msgstr "Setter opp OLPC-oppstartsfil…"
-
-#: ../liveusb/creator.py:742
-#, python-format
-msgid ""
-"Some partitions of the target device %(device)s are mounted. They will be "
-"unmounted before starting the installation process."
-msgstr "Noen partisjoner på målenheten %(device)s er montert. De vil avmontert før installasjonsprosessen starter."
-
-#: ../liveusb/creator.py:141
-msgid ""
-"Source type does not support verification of ISO MD5 checksum, skipping"
-msgstr "Kildetypen støtter ikke verifisering av ISO MD5 kontrollsummer, hopper over"
-
-#: ../liveusb/creator.py:1220
-msgid "Synchronizing data on disk..."
-msgstr "Synkroniserer data på stasjonen…"
-
-#: ../liveusb/dialog.py:166
-msgid "Target Device"
-msgstr "Målenhet"
-
-#: ../liveusb/gui.py:438
-#, python-format
-msgid ""
-"The device \"%(pretty_name)s\" is too small to install Tails (at least "
-"%(size)s GB is required)."
-msgstr "Enheten \"%(pretty_name)s\" har for liten lagringsplass for å installere Tails (minst %(size)s Gb er påkrevet)"
-
-#: ../liveusb/gui.py:792
-msgid ""
-"The selected file is unreadable. Please fix its permissions or select "
-"another file."
-msgstr "Den valgte filen er uleselig. Sørg for at du har de nødvendige rettighetene eller velg en annen fil."
-
-#: ../liveusb/creator.py:354
-#, python-format
-msgid ""
-"There was a problem executing the following command: `%(command)s`.\n"
-"A more detailed error log has been written to '%(filename)s'."
-msgstr "Det oppstod et problem i utførelsen av følgende kommando: `%(command)s`.\nEn mer detaljert feilmelding er lagret i '%(filename)s'."
-
-#: ../liveusb/dialog.py:158
-msgid ""
-"This button allows you to browse for an existing Live system ISO that you "
-"have previously downloaded.  If you do not select one, a release will be "
-"downloaded for you automatically."
-msgstr "Denne knappen lar deg lete etter en tidligere nedlastet Livesystem ISO. Hvis du ikke velger en, vil en utgivelse bli lastet ned automatisk. "
-
-#: ../liveusb/dialog.py:171
-msgid ""
-"This button will begin the LiveUSB creation process.  This entails "
-"optionally downloading a release (if an existing one wasn't selected),  "
-"extracting the ISO to the USB device, creating the persistent overlay, and "
-"installing the bootloader."
-msgstr "Denne knappen starter LiveUSB opprettelsen. Dette innebærer nedlastning av en utgivelse (om det ikke ble valgt en eksisterende), oppakking av ISOen til USB-enheten, opprettelse av vedvarende overlegg, og installasjon av bootloader."
-
-#: ../liveusb/dialog.py:165
-msgid ""
-"This is the USB stick that you want to install your Live system on.  This "
-"device must be formatted with the FAT filesystem."
-msgstr "Dette er USB-enheten du ønsker å installere Livesystemet ditt på. Enheten må være formatert med FAT-filsystemet."
-
-#: ../liveusb/dialog.py:170
-msgid ""
-"This is the progress bar that will indicate how far along in the LiveUSB "
-"creation process you are"
-msgstr "Dette er fremdriftslinjen som angir hvor langt du er kommet i LiveUSB opprettelsen."
-
-#: ../liveusb/dialog.py:169
-msgid "This is the status console, where all messages get written to."
-msgstr "Dette er statuskonsollen hvor alle meldinger lagres."
-
-#: ../liveusb/creator.py:952
-msgid "Trying to continue anyway."
-msgstr "Prøver å fortsette uansett. "
-
-#: ../liveusb/gui.py:464
-msgid "USB drive found"
-msgstr "USB disk funnet"
-
-#: ../liveusb/creator.py:985
-#, python-format
-msgid "Unable to change volume label: %(message)s"
-msgstr "Kan ikke endre volum etikett: %(message)s"
-
-#: ../liveusb/creator.py:501 ../liveusb/creator.py:512
-#, python-format
-msgid "Unable to chmod %(file)s: %(message)s"
-msgstr "Klarer ikke chmod %(file)s: %(message)s"
-
-#: ../liveusb/creator.py:478
-#, python-format
-msgid "Unable to copy %(infile)s to %(outfile)s: %(message)s"
-msgstr "Klarer ikke kopiere %(infile)s til %(outfile)s: %(message)s"
-
-#: ../liveusb/gui.py:403
-msgid "Unable to find any USB drive"
-msgstr "Finner ingen USB-stasjoner"
-
-#: ../liveusb/creator.py:1274
-msgid "Unable to find any supported device"
-msgstr "Fant ingen enhet som støttes"
-
-#: ../liveusb/creator.py:1117
-msgid "Unable to find partition"
-msgstr "Klarer ikke å finne partisjon"
-
-#: ../liveusb/creator.py:1354
-msgid ""
-"Unable to get Win32_LogicalDisk; win32com query did not return any results"
-msgstr "Klarte ikke å hente Win32_LogicalDisk; win32com spørringen ga ingen resultat"
-
-#: ../liveusb/gui.py:691
+#: ../tails_installer/gui.py:635
 msgid "Unable to mount device"
 msgstr "Klarer ikke å laste enhet"
 
-#: ../liveusb/creator.py:814
-#, python-format
-msgid "Unable to mount device: %(message)s"
-msgstr "Klarer ikke å laste enhet: %(message)s"
+#: ../tails_installer/gui.py:642 ../tails_installer/gui.py:670
+msgid "Please confirm your device selection"
+msgstr "Bekreft valg av enhet"
 
-#: ../liveusb/creator.py:517
-#, python-format
-msgid "Unable to remove directory from previous LiveOS: %(message)s"
-msgstr "Klarer ikke å fjerne katalog fra tidligere LiveOS: %(message)s"
-
-#: ../liveusb/creator.py:505
-#, python-format
-msgid "Unable to remove file from previous LiveOS: %(message)s"
-msgstr "Klarer ikke slette fil fra tidligere LiveOS: %(message)s"
-
-#: ../liveusb/creator.py:1189
-msgid ""
-"Unable to reset MBR.  You may not have the `syslinux` package installed."
-msgstr "Klarer ikke å tilbakestille MBR. Du har kanskje ikke `syslinux` pakken installert."
-
-#: ../liveusb/gui.py:798
-msgid ""
-"Unable to use the selected file.  You may have better luck if you move your "
-"ISO to the root of your drive (ie: C:\\)"
-msgstr "Kunne ikke bruke den angitte filen. Du kan være heldigere hvis du flytter ISOen din til root (f.eks: C:\\)"
-
-#: ../liveusb/creator.py:723
-#, python-format
-msgid "Unable to write on %(device)s, skipping."
-msgstr "Klarer ikke å skrive til %(device)s, hopper over."
-
-#: ../liveusb/creator.py:399
-msgid "Unknown ISO, skipping checksum verification"
-msgstr "Ukjent ISO, hopper over sjekksum verifisering"
-
-#: ../liveusb/creator.py:810
-#, python-format
-msgid "Unknown dbus exception while trying to mount device: %(message)s"
-msgstr "Ukjent dbus unntak under montering av enhet: %(message)s"
-
-#: ../liveusb/creator.py:791 ../liveusb/creator.py:964
-msgid "Unknown filesystem.  Your device may need to be reformatted."
-msgstr "Ukjent filsystem. Din enhet må kanskje omformateres."
-
-#: ../liveusb/gui.py:85
-#, python-format
-msgid "Unknown release: %s"
-msgstr "Ukjent versjon: %s"
-
-#: ../liveusb/creator.py:851
-#, python-format
-msgid "Unmounting '%(udi)s' on '%(device)s'"
-msgstr "Avmonterer '%(udi)s' på '%(device)s'"
-
-#: ../liveusb/creator.py:847
-#, python-format
-msgid "Unmounting mounted filesystems on '%(device)s'"
-msgstr "Avmonterer monterte filsystem på  '%(device)s'"
-
-#: ../liveusb/creator.py:949
-#, python-format
-msgid "Unsupported device '%(device)s', please report a bug."
-msgstr "Enheten '%(device)s' støttes ikke, rapporter som feil."
-
-#: ../liveusb/creator.py:794 ../liveusb/creator.py:967
-#, python-format
-msgid "Unsupported filesystem: %s"
-msgstr "Ikke støttet filsystem: %s"
-
-#: ../liveusb/creator.py:1287
-#, python-format
-msgid ""
-"Unsupported filesystem: %s\n"
-"Please backup and format your USB key with the FAT filesystem."
-msgstr "Filsystemet er ikke støttet: %s\nTa en sikkerhetskopi av USB-enheten og formater med FAT-filsystem"
-
-#: ../liveusb/creator.py:892
-#, python-format
-msgid "Updating properties of system partition %(system_partition)s"
-msgstr "Oppdaterer egenskaper for systempartisjon %(system_partition)s"
-
-#: ../liveusb/launcher_ui.py:156
-msgid ""
-"Upgrade\n"
-"by cloning"
-msgstr "Oppgrader\nved å klone"
-
-#: ../liveusb/launcher_ui.py:158
-msgid ""
-"Upgrade\n"
-"from ISO"
-msgstr "Oppgrader\nfra ISO"
-
-#: ../liveusb/dialog.py:159
-msgid "Use existing Live system ISO"
-msgstr "Bruk eksisterende Live system ISO"
-
-#: ../liveusb/creator.py:143
-msgid "Verifying ISO MD5 checksum"
-msgstr "Verifiserer ISO MD5 sjekksum"
-
-#: ../liveusb/creator.py:373
-msgid "Verifying SHA1 checksum of LiveCD image..."
-msgstr "Verifiserer SHA1-sjekksum av levende CD-avbildning…"
-
-#: ../liveusb/creator.py:377
-msgid "Verifying SHA256 checksum of LiveCD image..."
-msgstr "Verifiserer SHA256-sjekksum av levende CD-avbildning…"
-
-#: ../liveusb/creator.py:961 ../liveusb/creator.py:1280
-msgid "Verifying filesystem..."
-msgstr "Verifiserer filsystem…"
-
-#: ../liveusb/gui.py:725
-msgid ""
-"Warning: Creating a new persistent overlay will delete your existing one."
-msgstr "Advarsel: Opprettelse av et nytt vedvarende overlegg vil overskrive det eksisterende."
-
-#: ../liveusb/gui.py:377
-msgid ""
-"Warning: This tool needs to be run as an Administrator. To do this, right "
-"click on the icon and open the Properties. Under the Compatibility tab, "
-"check the \"Run this program as an administrator\" box."
-msgstr "Advarsel: Dette verktøyet må kjøres som Administrator. For å gjøre det, høyreklikker du på ikonet og åpner Egenskaper. Under kompatibilitets fanen, kryss av i boksen for \"Kjør dette programmet som administrator\"."
-
-#: ../liveusb/creator.py:162
-#, python-format
-msgid "Wrote to device at %(speed)d MB/sec"
-msgstr "Skrev til enheten ved %(speed)d MB/sekund"
-
-#: ../liveusb/gui.py:699
+#: ../tails_installer/gui.py:643
 #, python-format
 msgid ""
 "You are going to install Tails on the %(size)s %(vendor)s %(model)s device "
 "(%(device)s). All data on the selected device will be lost. Continue?"
 msgstr "Du er i ferd med å installere Tails på enheten %(size)s %(vendor)s %(model)s (%(device)s). All data på den valgte enheten vil gå tapt. Vil du fortsette?"
 
-#: ../liveusb/gui.py:715
+#: ../tails_installer/gui.py:660
 #, python-format
 msgid ""
 "You are going to upgrade Tails on the %(parent_size)s %(vendor)s %(model)s "
@@ -593,20 +412,169 @@ msgid ""
 "unchanged. Continue?"
 msgstr "Du er i ferd med å oppgradere Tails på enheten %(parent_size)s %(vendor)s %(model)s (%(device)s). Eventuell vedvarende lagring på enheten vil forbli uforandret. Vil du fortsette? "
 
-#: ../liveusb/creator.py:622
-msgid ""
-"You are using an old version of syslinux-extlinux that does not support the "
-"ext4 filesystem"
-msgstr "Du bruker en gammel versjon av syslinux-extlinux som ikke støtter ext4 filsystemet"
+#: ../tails_installer/gui.py:716
+msgid "Download complete!"
+msgstr "Nedlasting fullført!"
 
-#: ../liveusb/gui.py:783
+#: ../tails_installer/gui.py:720
+msgid "Download failed: "
+msgstr "Nedlasting mislyktes: "
+
+#: ../tails_installer/gui.py:721
 msgid "You can try again to resume your download"
 msgstr "Du kan prøve igjen for å gjenoppta din nedlasting"
 
-#: ../liveusb/creator.py:95
-msgid "You must run this application as root"
-msgstr "Du må kjøre denne applikasjonen som administrator"
+#: ../tails_installer/gui.py:729
+msgid ""
+"The selected file is unreadable. Please fix its permissions or select "
+"another file."
+msgstr "Den valgte filen er uleselig. Sørg for at du har de nødvendige rettighetene eller velg en annen fil."
 
-#: ../liveusb/dialog.py:162
-msgid "or"
-msgstr "eller"
+#: ../tails_installer/gui.py:735
+msgid ""
+"Unable to use the selected file.  You may have better luck if you move your "
+"ISO to the root of your drive (ie: C:\\)"
+msgstr "Kunne ikke bruke den angitte filen. Du kan være heldigere hvis du flytter ISOen din til root (f.eks: C:\\)"
+
+#: ../tails_installer/gui.py:741
+#, python-format
+msgid "%(filename)s selected"
+msgstr "%(filename)s valgt"
+
+#: ../tails_installer/source.py:28
+msgid "Unable to find LiveOS on ISO"
+msgstr "Klarte ikke å finne LiveOS på ISO"
+
+#: ../tails_installer/source.py:34
+#, python-format
+msgid "Could not guess underlying block device: %s"
+msgstr "Kan ikke gjette seg til underliggende blokk-enhet: %s"
+
+#: ../tails_installer/source.py:49
+#, python-format
+msgid ""
+"There was a problem executing `%s`.\n"
+"%s\n"
+"%s"
+msgstr "Problem under kjøring av '%s'.\n%s\n%s"
+
+#: ../tails_installer/source.py:63
+#, python-format
+msgid "'%s' does not exist"
+msgstr "'%s' finnes ikke"
+
+#: ../tails_installer/source.py:65
+#, python-format
+msgid "'%s' is not a directory"
+msgstr "'%s' er ikke ei mappe"
+
+#: ../tails_installer/source.py:75
+#, python-format
+msgid "Skipping '%(filename)s'"
+msgstr "Hopper over '%(filename)s'"
+
+#: ../tails_installer/utils.py:44
+#, python-format
+msgid ""
+"There was a problem executing `%s`.%s\n"
+"%s"
+msgstr "Problem under kjøring av '%s'.%s\n%s"
+
+#: ../tails_installer/utils.py:119
+msgid "Could not open device for writing."
+msgstr "Kunne ikke åpne enhet for skriving."
+
+#: ../data/tails-installer.ui.h:1
+msgid "Use existing Live system ISO:"
+msgstr "Bruk eksisterende levende system-ISO:"
+
+#: ../data/tails-installer.ui.h:2
+msgid "Select a distribution to download:"
+msgstr "Velg distribusjon å laste ned:"
+
+#: ../data/tails-installer.ui.h:3
+msgid "Target Device:"
+msgstr "Målenhet:"
+
+#: ../data/tails-installer.ui.h:4
+msgid "Install Tails"
+msgstr "Installer Tails"
+
+#: ../data/tails-installer-launcher.ui.h:1
+msgid ""
+"To run Tails Installer you need an ISO image which can be downloaded from "
+"the Tails website: <a "
+"href=\"https://tails.boum.org/download/\">https://tails.boum.org/download/</a>"
+msgstr "For å kjøre Tails-installasjonskandidaten trenger du en ISO-avbildning som kan lastes ned fra Tails sin nettside: <a href=\"https://tails.boum.org/download/\">https://tails.boum.org/download/</a>"
+
+#: ../data/tails-installer-launcher.ui.h:2
+msgid "Install"
+msgstr "Innstaller"
+
+#: ../data/tails-installer-launcher.ui.h:3
+msgid "• Install Tails on a new USB stick."
+msgstr "• Installer Tails på en ny USB-minnepinne."
+
+#: ../data/tails-installer-launcher.ui.h:4
+msgid "• The USB stick that you install on is formatted and all data is lost."
+msgstr "• USB-minnepinnen du prøver å installere på er formatert og all data har gått tapt."
+
+#: ../data/tails-installer-launcher.ui.h:5
+msgid "Upgrade"
+msgstr "Oppgrader"
+
+#: ../data/tails-installer-launcher.ui.h:6
+msgid "• Upgrade a Tails USB stick to the version of an ISO image."
+msgstr "• Oppgrader en Tails-USB-minnepinne til versjonen fra en ISO-avbildning."
+
+#: ../data/tails-installer-launcher.ui.h:7
+msgid ""
+"• The encrypted persistent storage of the Tails USB stick that you upgrade "
+"is preserved."
+msgstr "• Det vedvarende lageret til en Tails-USB-minnepinne du oppgraderer er beholdt."
+
+#: ../data/tails-installer-launcher.ui.h:8
+msgid ""
+"Need help? Read the <a "
+"href=\"https://tails.boum.org/doc/first_steps/installation/\">documentation</a>"
+msgstr "Behov for hjelp? Les <a href=\"https://tails.boum.org/doc/first_steps/installation/\">dokumentasjonen</a>"
+
+#: ../data/tails-installer-launcher.ui.h:9
+msgid "Install by cloning"
+msgstr "Installer ved å klone"
+
+#: ../data/tails-installer-launcher.ui.h:10
+msgid ""
+"• Install Tails on another USB stick by copying the Tails system that you "
+"are currently using."
+msgstr "• Installer Tails på en annen USB-minnepinne ved å kopiere Tails-systemet du bruker for øyeblikket."
+
+#: ../data/tails-installer-launcher.ui.h:11
+msgid ""
+"• The encrypted persistent storage of the Tails USB stick that you are "
+"currently using is not copied."
+msgstr "• Det krypterte vedvarende lageret på en Tails-USB-minnepinne du bruker for øyeblikket har ikke blitt kopiert."
+
+#: ../data/tails-installer-launcher.ui.h:12
+msgid "Upgrade by cloning"
+msgstr "Oppgrader ved å klone"
+
+#: ../data/tails-installer-launcher.ui.h:13
+msgid ""
+"• Upgrade another Tails USB stick to the same version of Tails that you are "
+"currently using."
+msgstr "• Oppgrader en annen Tails-USB-minnepinne til samme versjon av Tails som du bruker for øyeblikket."
+
+#: ../data/tails-installer-launcher.ui.h:14
+msgid "Upgrade from ISO"
+msgstr "Oppgrader fra ISO"
+
+#: ../data/tails-installer-launcher.ui.h:15
+msgid "• Upgrade another Tails USB stick to the version of an ISO image."
+msgstr "• Oppgrader en annen Tails-USB-minnepinne til versjonen fra en ISO-avbildning."
+
+#: ../data/tails-installer-launcher.ui.h:16
+msgid ""
+"Need help? Read the <a "
+"href=\"file:///usr/share/doc/tails/website/doc/first_steps/installation.en.html\">documentation</a>"
+msgstr "Behov for hjelp? Les <a href=\"file:///usr/share/doc/tails/website/doc/first_steps/installation.en.html\">dokumentasjonen</a>"
