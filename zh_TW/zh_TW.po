@@ -3,9 +3,9 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
-# Agustín Wu <losangwuyts@gmail.com>, 2016
+# Agustín Wu <losangwuyts@gmail.com>, 2016-2017
 # BrLi <rainman59118@gmail.com>, 2015
-# cges30901 <cges30901@gmail.com>, 2014
+# Hsiu-Ming Chang <cges30901@gmail.com>, 2014
 # Chinrur Yang <chinrur@gmail.com>, 2013
 # danfong <danfong.hsieh@gmail.com>, 2014
 # David Chen <david203812@gmail.com>, 2015
@@ -21,8 +21,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: The Tor Project\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-11-02 21:23+0100\n"
-"PO-Revision-Date: 2016-11-27 14:02+0000\n"
+"POT-Creation-Date: 2017-06-10 07:50+0200\n"
+"PO-Revision-Date: 2017-06-18 01:31+0000\n"
 "Last-Translator: Agustín Wu <losangwuyts@gmail.com>\n"
 "Language-Team: Chinese (Taiwan) (http://www.transifex.com/otf/torproject/language/zh_TW/)\n"
 "MIME-Version: 1.0\n"
@@ -31,219 +31,346 @@ msgstr ""
 "Language: zh_TW\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
-#: ../liveusb/gui.py:451
-msgid "\"Clone & Install\""
-msgstr "「複製並安裝」"
+#: ../tails_installer/creator.py:100
+msgid "You must run this application as root"
+msgstr "你必須以 root 身份執行此應用程式"
 
-#: ../liveusb/gui.py:453
-msgid "\"Install from ISO\""
-msgstr "「從ISO文件安裝」"
+#: ../tails_installer/creator.py:146
+msgid "Extracting live image to the target device..."
+msgstr "正在解壓縮即時映像檔到目標設備上..."
 
-#: ../liveusb/dialog.py:157 ../liveusb/launcher_ui.py:153
+#: ../tails_installer/creator.py:153
 #, python-format
-msgid "%(distribution)s Installer"
-msgstr "%(distribution)s 安裝程式"
+msgid "Wrote to device at %(speed)d MB/sec"
+msgstr "以 %(speed)d MB/秒 的速度寫入裝置"
 
-#: ../liveusb/gui.py:804
+#: ../tails_installer/creator.py:183
+msgid "Setting up OLPC boot file..."
+msgstr "設定 OLPC 開機檔案..."
+
+#: ../tails_installer/creator.py:302
 #, python-format
-msgid "%(filename)s selected"
-msgstr "%(filename)s 已選取"
-
-#: ../liveusb/gui.py:424
-#, python-format
-msgid "%(size)s %(label)s"
-msgstr "%(size)s %(label)s"
-
-#: ../liveusb/gui.py:430
-#, python-format
-msgid "%(vendor)s %(model)s (%(details)s) - %(device)s"
-msgstr "%(vendor)s %(model)s (%(details)s) - %(device)s"
-
-#: ../liveusb/creator.py:1097
-#, python-format
-msgid "%s already bootable"
-msgstr "%s 已經可開機"
-
-#: ../liveusb/launcher_ui.py:160
 msgid ""
-"<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
-"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
-"p, li { white-space: pre-wrap; }\n"
-"</style></head><body style=\" font-family:'Cantarell'; font-size:11pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">Need help? Read the <a href=\"file:///usr/share/doc/tails/website/doc/first_steps/installation.en.html\"><span style=\" text-decoration: underline; color:#0000ff;\">documentation</span></a>.</p></body></html>"
-msgstr "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\np, li { white-space: pre-wrap; }\n</style></head><body style=\" font-family:'Cantarell'; font-size:11pt; font-weight:400; font-style:normal;\">\n<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">需要幫助？請閱讀 <a href=\"file:///usr/share/doc/tails/website/doc/first_steps/installation.en.html\"><span style=\" text-decoration: underline; color:#0000ff;\">文檔</span></a>.</p></body></html>"
+"There was a problem executing the following command: `%(command)s`.\n"
+"A more detailed error log has been written to '%(filename)s'."
+msgstr "執行下列命令時發生問題：`%(command)s`。\n更詳細的錯誤記錄已寫入到'%(filename)s'。"
 
-#: ../liveusb/launcher_ui.py:155
-msgid ""
-"<ul>\n"
-"<li>Install Tails on another USB stick by copying the Tails system that you are currently using..</li>\n"
-"\n"
-"<li>The USB stick that you install on is formatted and all data is lost.</li>\n"
-"\n"
-"<li>The encrypted persistent storage of the Tails USB stick that you are currently using is not copied.</li>\n"
-"\n"
-"</ul>"
-msgstr "<ul>\n<li>藉由複製您正在使用的 Tails 系統來將 Tails 安裝至別的 USB 隨身碟中。</li>\n\n<li>該 USB 隨身碟將被格式化，且所有儲存於其上的資料都將遺失。</li>\n\n<li>您所正在使用的 Tails USB 中的加密保留磁區不會被複製</li>\n\n</ul>"
+#: ../tails_installer/creator.py:321
+msgid "Verifying SHA1 checksum of LiveCD image..."
+msgstr "正在驗證 LiveCD 映像檔的 SHA1 總和檢查碼..."
 
-#: ../liveusb/launcher_ui.py:157
-msgid ""
-"<ul>\n"
-"<li>Upgrade another Tails USB stick to the same version of Tails that you are currently using.</li>\n"
-"\n"
-"<li>The encrypted persistent storage of the Tails USB stick that you upgrade is preserved.</li>\n"
-"\n"
-"<li>The encrypted persistent storage of the Tails USB stick that you are currently using is not copied.</li>\n"
-"\n"
-"\n"
-"</ul>"
-msgstr "<ul>\n<li>藉由您正在使用的 Tails 系統來把別的 USB 隨身碟中的 Tails 進行升級。</li>\n\n<li>目的地 USB 隨身碟上其所有所儲存資料都會被保留。</li>\n\n<li>而您所正在使用的 Tails USB 的資料是不會複製到目的地 USB 隨身碟上。</li>\n\n</ul>"
+#: ../tails_installer/creator.py:325
+msgid "Verifying SHA256 checksum of LiveCD image..."
+msgstr "正在驗證 LiveCD 映像檔的 SHA256 總和檢查碼..."
 
-#: ../liveusb/launcher_ui.py:159
-msgid ""
-"<ul>\n"
-"<li>Upgrade another Tails USB stick to the version of an ISO image.</li>\n"
-"\n"
-"<li>The encrypted persistent storage of the Tails USB stick that you upgrade is preserved.</li>\n"
-"\n"
-"<li>The encrypted persistent storage of the Tails USB stick that you are currently using is not copied.</li>\n"
-"\n"
-"</ul>"
-msgstr "<ul>\n<li>藉由ISO檔來把別的 USB 隨身碟中的 Tails 進行升級。</li>\n\n<li>目的地 USB 隨身碟上其所有所儲存資料都會被保留。</li>\n\n<li>而您所正在使用的 Tails USB 的資料是不會複製到目的地 USB 隨身碟上。</li>\n\n</ul>"
-
-#: ../liveusb/dialog.py:161
-msgid "Alt+B"
-msgstr "Alt+B"
-
-#: ../liveusb/dialog.py:160
-msgid "Browse"
-msgstr "瀏覽"
-
-#: ../liveusb/dialog.py:167
-msgid ""
-"By allocating extra space on your USB stick for a persistent overlay, you "
-"will be able to store data and make permanent modifications to your live "
-"operating system.  Without it, you will not be able to save data that will "
-"persist after a reboot."
-msgstr "藉由在您的 USB 隨身碟配置額外空間給永久覆蓋，您將能夠在即時作業系統中存放資料和作永久修改。否則，您將無法在重新開機後儲存資料。"
-
-#: ../liveusb/creator.py:1196 ../liveusb/creator.py:1459
-#, python-format
-msgid "Calculating the SHA1 of %s"
-msgstr "正在計算 %s 的 SHA1 雜湊碼"
-
-#: ../liveusb/creator.py:1407
-msgid "Cannot find"
-msgstr "找不到"
-
-#: ../liveusb/creator.py:560
-#, python-format
-msgid "Cannot find device %s"
-msgstr "找不到裝置 %s"
-
-#: ../liveusb/creator.py:417
-#, python-format
-msgid "Creating %sMB persistent overlay"
-msgstr "建立 %sMB 永久覆蓋"
-
-#: ../liveusb/gui.py:582
-msgid ""
-"Device is not yet mounted, so we cannot determine the amount of free space."
-msgstr "裝置尚未掛載，所以我們無法確定可用空間容量。"
-
-#: ../liveusb/dialog.py:164
-#, python-format
-msgid "Download %(distribution)s"
-msgstr "下載 %(distribution)s"
-
-#: ../liveusb/gui.py:778
-msgid "Download complete!"
-msgstr "下載完成！"
-
-#: ../liveusb/gui.py:782
-msgid "Download failed: "
-msgstr "下載失敗："
-
-#: ../liveusb/gui.py:89
-#, python-format
-msgid "Downloading %s..."
-msgstr "正在下載 %s..."
-
-#: ../liveusb/creator.py:1192
-msgid "Drive is a loopback, skipping MBR reset"
-msgstr "磁碟回送，略過 MBR 重設"
-
-#: ../liveusb/creator.py:837
-#, python-format
-msgid "Entering unmount_device for '%(device)s'"
-msgstr "進入未掛載裝置 '%(device)s'"
-
-#: ../liveusb/creator.py:1272
-msgid "Error probing device"
-msgstr "探測裝置失敗"
-
-#: ../liveusb/gui.py:213
-msgid ""
-"Error: Cannot set the label or obtain the UUID of your device.  Unable to "
-"continue."
-msgstr "錯誤：無法設定標籤或取得裝置的 UUID，無法繼續。"
-
-#: ../liveusb/creator.py:393
+#: ../tails_installer/creator.py:341
 msgid ""
 "Error: The SHA1 of your Live CD is invalid.  You can run this program with "
 "the --noverify argument to bypass this verification check."
 msgstr "錯誤：您 Live CD 的 SHA1 雜湊碼無效。您可以使用 --noverify 參數來略過驗證檢查程序並直接執行此程式。"
 
-#: ../liveusb/creator.py:155
-msgid "Extracting live image to the target device..."
-msgstr "正在解壓縮即時映像檔到目標設備上..."
+#: ../tails_installer/creator.py:347
+msgid "Unknown ISO, skipping checksum verification"
+msgstr "未知的 ISO 檔，略過總和檢查碼驗證程序"
 
-#: ../liveusb/creator.py:1140
+#: ../tails_installer/creator.py:358
+#, python-format
+msgid ""
+"Not enough free space on device.\n"
+"%dMB ISO + %dMB overlay > %dMB free space"
+msgstr "裝置上的可用空間不足。\n%dMB ISO + %dMB覆蓋 > %dMB可用空間"
+
+#: ../tails_installer/creator.py:365
+#, python-format
+msgid "Creating %sMB persistent overlay"
+msgstr "建立 %sMB 永久覆蓋"
+
+#: ../tails_installer/creator.py:426
+#, python-format
+msgid "Unable to copy %(infile)s to %(outfile)s: %(message)s"
+msgstr "無法複製 %(infile)s 到 %(outfile)s: %(message)s"
+
+#: ../tails_installer/creator.py:440
+msgid "Removing existing Live OS"
+msgstr "正在移除現有的 Live OS"
+
+#: ../tails_installer/creator.py:449 ../tails_installer/creator.py:460
+#, python-format
+msgid "Unable to chmod %(file)s: %(message)s"
+msgstr "無法以 chmod 變更權限 %(file)s: %(message)s"
+
+#: ../tails_installer/creator.py:453
+#, python-format
+msgid "Unable to remove file from previous LiveOS: %(message)s"
+msgstr "無法從先前的 LiveOS 移除檔案: %(message)s"
+
+#: ../tails_installer/creator.py:465
+#, python-format
+msgid "Unable to remove directory from previous LiveOS: %(message)s"
+msgstr "無法從先前的 LiveOS 移除目錄: %(message)s"
+
+#: ../tails_installer/creator.py:513
+#, python-format
+msgid "Cannot find device %s"
+msgstr "找不到裝置 %s"
+
+#: ../tails_installer/creator.py:678
+#, python-format
+msgid "Unable to write on %(device)s, skipping."
+msgstr "無法寫入 %(device)s，略過。"
+
+#: ../tails_installer/creator.py:697
+#, python-format
+msgid ""
+"Some partitions of the target device %(device)s are mounted. They will be "
+"unmounted before starting the installation process."
+msgstr "目標裝置 %(device)s 中有些分割區已經被掛載。它們將在開始安裝前被自動卸載。"
+
+#: ../tails_installer/creator.py:740 ../tails_installer/creator.py:964
+msgid "Unknown filesystem.  Your device may need to be reformatted."
+msgstr "未知的檔案系統。您的裝置可能需要重新格式化。"
+
+#: ../tails_installer/creator.py:743 ../tails_installer/creator.py:967
+#, python-format
+msgid "Unsupported filesystem: %s"
+msgstr "不支援的檔案系統：%s"
+
+#: ../tails_installer/creator.py:760
+#, python-format
+msgid "Unknown GLib exception while trying to mount device: %(message)s"
+msgstr "試圖掛載底下裝置時，發生了未知的 GLib 例外事件：%(message)s"
+
+#: ../tails_installer/creator.py:764
+#, python-format
+msgid "Unable to mount device: %(message)s"
+msgstr "無法掛載裝置: %(message)s"
+
+#: ../tails_installer/creator.py:769
+msgid "No mount points found"
+msgstr "找不到掛載點"
+
+#: ../tails_installer/creator.py:780
+#, python-format
+msgid "Entering unmount_device for '%(device)s'"
+msgstr "進入未掛載裝置 '%(device)s'"
+
+#: ../tails_installer/creator.py:790
+#, python-format
+msgid "Unmounting mounted filesystems on '%(device)s'"
+msgstr "正在卸載已掛載於 '%(device)s' 上的檔案系統"
+
+#: ../tails_installer/creator.py:794
+#, python-format
+msgid "Unmounting '%(udi)s' on '%(device)s'"
+msgstr "正在卸載 '%(udi)s' 在 '%(device)s'"
+
+#: ../tails_installer/creator.py:804
+#, python-format
+msgid "Mount %s exists after unmounting"
+msgstr "取消掛載後 %s 掛載仍存在"
+
+#: ../tails_installer/creator.py:817
+#, python-format
+msgid "Partitioning device %(device)s"
+msgstr "正在為 %(device)s 建立分割區"
+
+#: ../tails_installer/creator.py:895
+#, python-format
+msgid "Updating properties of system partition %(system_partition)s"
+msgstr "正在更新系統分割區 %(system_partition)s 的屬性"
+
+#: ../tails_installer/creator.py:949
+#, python-format
+msgid "Unsupported device '%(device)s', please report a bug."
+msgstr "不支援的裝置 '%(device)s'，請回報此錯誤。"
+
+#: ../tails_installer/creator.py:952
+msgid "Trying to continue anyway."
+msgstr "無論如何仍嘗試繼續。"
+
+#: ../tails_installer/creator.py:961 ../tails_installer/creator.py:1354
+msgid "Verifying filesystem..."
+msgstr "正在驗證檔案系統..."
+
+#: ../tails_installer/creator.py:985
+#, python-format
+msgid "Unable to change volume label: %(message)s"
+msgstr "無法變更磁碟區標籤: %(message)s"
+
+#: ../tails_installer/creator.py:990 ../tails_installer/creator.py:1387
+msgid "Installing bootloader..."
+msgstr "正在安裝 bootloader..."
+
+#: ../tails_installer/creator.py:1016
+#, python-format
+msgid "Could not find the '%s' COM32 module"
+msgstr "找不到「%s」COM32模組"
+
+#: ../tails_installer/creator.py:1024 ../tails_installer/creator.py:1405
+#, python-format
+msgid "Removing %(file)s"
+msgstr "正在移除 %(file)s"
+
+#: ../tails_installer/creator.py:1136
+#, python-format
+msgid "%s already bootable"
+msgstr "%s 已經可開機"
+
+#: ../tails_installer/creator.py:1156
+msgid "Unable to find partition"
+msgstr "找不到分割區"
+
+#: ../tails_installer/creator.py:1179
 #, python-format
 msgid "Formatting %(device)s as FAT32"
 msgstr "正將 %(device)s 格式化成 FAT32 格式"
 
-#: ../liveusb/creator.py:150
-msgid "ISO MD5 checksum passed"
-msgstr "ISO MD5 總和檢查碼成功"
+#: ../tails_installer/creator.py:1239
+msgid "Could not find syslinux' gptmbr.bin"
+msgstr "找不到syslinux' gptmbr.bin"
 
-#: ../liveusb/creator.py:148
-msgid "ISO MD5 checksum verification failed"
-msgstr "ISO MD5 總和檢查碼驗證失敗"
+#: ../tails_installer/creator.py:1252
+#, python-format
+msgid "Reading extracted MBR from %s"
+msgstr "正在從%s中讀取MBR資訊"
 
-#: ../liveusb/dialog.py:163
+#: ../tails_installer/creator.py:1256
+#, python-format
+msgid "Could not read the extracted MBR from %(path)s"
+msgstr "無法從%(path)s中讀取MBR資訊"
+
+#: ../tails_installer/creator.py:1269 ../tails_installer/creator.py:1270
+#, python-format
+msgid "Resetting Master Boot Record of %s"
+msgstr "重設 %s 的 MBR 主開機紀錄"
+
+#: ../tails_installer/creator.py:1275
+msgid "Drive is a loopback, skipping MBR reset"
+msgstr "磁碟回送，略過 MBR 重設"
+
+#: ../tails_installer/creator.py:1279 ../tails_installer/creator.py:1533
+#, python-format
+msgid "Calculating the SHA1 of %s"
+msgstr "正在計算 %s 的 SHA1 雜湊碼"
+
+#: ../tails_installer/creator.py:1304
+msgid "Synchronizing data on disk..."
+msgstr "正在同步磁碟上的資料..."
+
+#: ../tails_installer/creator.py:1346
+msgid "Error probing device"
+msgstr "探測裝置失敗"
+
+#: ../tails_installer/creator.py:1348
+msgid "Unable to find any supported device"
+msgstr "找不到任何有支援的裝置"
+
+#: ../tails_installer/creator.py:1358
 msgid ""
-"If you do not select an existing Live ISO, the selected release will be "
-"downloaded for you."
-msgstr "如果您沒有選擇一個現有的 Live ISO，將會替您下載所選的版本。"
+"Make sure your USB key is plugged in and formatted with the FAT filesystem"
+msgstr "請確認您的 USB 磁碟已插入，並且已被格式化成 FAT 檔案系統"
 
-#: ../liveusb/launcher_ui.py:154
+#: ../tails_installer/creator.py:1361
+#, python-format
 msgid ""
-"Install\n"
-"by cloning"
-msgstr "通過複製文件\n安裝"
+"Unsupported filesystem: %s\n"
+"Please backup and format your USB key with the FAT filesystem."
+msgstr "不支援的檔案系統：%s\n請將您的 USB 隨身碟內之資料進行備份，並將它格式化成 FAT 檔案系統。"
 
-#: ../liveusb/dialog.py:172
-msgid "Install Tails"
-msgstr "安裝 Tails"
+#: ../tails_installer/creator.py:1428
+msgid ""
+"Unable to get Win32_LogicalDisk; win32com query did not return any results"
+msgstr "無法取得 Win32_LogicalDisk；win32com 查詢沒有傳回任何結果"
 
-#: ../liveusb/gui.py:645
-msgid "Installation complete!"
-msgstr "安裝完成！"
+#: ../tails_installer/creator.py:1481
+msgid "Cannot find"
+msgstr "找不到"
 
-#: ../liveusb/gui.py:265
+#: ../tails_installer/creator.py:1482
+msgid ""
+"Make sure to extract the entire tails-installer zip file before running this"
+" program."
+msgstr "請確保已經將 Tails 安裝程式的壓縮檔完整的解壓縮後，再執行此程式。"
+
+#: ../tails_installer/gui.py:69
+#, python-format
+msgid "Unknown release: %s"
+msgstr "未知的發行版本：%s"
+
+#: ../tails_installer/gui.py:73
+#, python-format
+msgid "Downloading %s..."
+msgstr "正在下載 %s..."
+
+#: ../tails_installer/gui.py:204
+msgid ""
+"Error: Cannot set the label or obtain the UUID of your device.  Unable to "
+"continue."
+msgstr "錯誤：無法設定標籤或取得裝置的 UUID，無法繼續。"
+
+#: ../tails_installer/gui.py:253
 #, python-format
 msgid "Installation complete! (%s)"
 msgstr "安裝完成! (%s)"
 
-#: ../liveusb/gui.py:646
-msgid "Installation was completed. Press OK to close this program."
-msgstr "安裝已完成，按下「確定」關閉此程式。"
+#: ../tails_installer/gui.py:258
+msgid "Tails installation failed!"
+msgstr "Tails 系統安裝失敗！"
 
-#: ../liveusb/creator.py:990 ../liveusb/creator.py:1313
-msgid "Installing bootloader..."
-msgstr "正在安裝 bootloader..."
+#: ../tails_installer/gui.py:353
+msgid ""
+"Warning: This tool needs to be run as an Administrator. To do this, right "
+"click on the icon and open the Properties. Under the Compatibility tab, "
+"check the \"Run this program as an administrator\" box."
+msgstr "警告：此工具需以系統管理員身分執行。請對圖示按滑鼠右鍵後點選內容，在相容性頁籤下，勾選「以系統管理員身份執行此程式」方塊。"
 
-#: ../liveusb/gui.py:454
+#: ../tails_installer/gui.py:365 ../tails_installer/launcher.py:31
+msgid "Tails Installer"
+msgstr "Tails 安裝程式"
+
+#: ../tails_installer/gui.py:440
+msgid "No device suitable to install Tails could be found"
+msgstr "找不到可以安裝 Tails 系統的裝置"
+
+#: ../tails_installer/gui.py:442
+#, python-format
+msgid "Please plug a USB flash drive or SD card of at least %0.1f GB."
+msgstr "請插入最少有%0.1fGB空間的USB隨身碟或SD記憶卡。"
+
+#: ../tails_installer/gui.py:474
+#, python-format
+msgid "%(size)s %(label)s"
+msgstr "%(size)s %(label)s"
+
+#: ../tails_installer/gui.py:480
+#, python-format
+msgid "%(vendor)s %(model)s (%(details)s) - %(device)s"
+msgstr "%(vendor)s %(model)s (%(details)s) - %(device)s"
+
+#: ../tails_installer/gui.py:488
+#, python-format
+msgid ""
+"The USB stick \"%(pretty_name)s\" is configured as non-removable by its "
+"manufacturer and Tails will fail to start on it. Please try installing on a "
+"different model."
+msgstr "此USB隨身碟「%(pretty_name)s」已被原廠設定為不可移除模式，故安裝於其中的 Tails 系統將無法正常啟動。請試著更換別種型號的儲存裝置。"
+
+#: ../tails_installer/gui.py:498
+#, python-format
+msgid ""
+"The device \"%(pretty_name)s\" is too small to install Tails (at least "
+"%(size)s GB is required)."
+msgstr "“%(pretty_name)s”設備的容量太小，無法安裝Tails (至少需要 %(size)s GB 的空間)。"
+
+#: ../tails_installer/gui.py:511
+msgid "\"Install by cloning\""
+msgstr "「複製式安裝」"
+
+#: ../tails_installer/gui.py:513
+msgid "\"Install from ISO\""
+msgstr "「從ISO文件安裝」"
+
+#: ../tails_installer/gui.py:514
 #, python-format
 msgid ""
 "It is impossible to upgrade the device %(pretty_name)s because it was not "
@@ -251,350 +378,42 @@ msgid ""
 "Tails on this device."
 msgstr "由於裝置 %(pretty_name)s 不是由 Tails 安裝程式所創建，故不能進行升級。應使用 %(action)s 去升級此裝置上的 Tails 。"
 
-#: ../liveusb/gui.py:270
-msgid "LiveUSB creation failed!"
-msgstr "LiveUSB 建立失敗！"
+#: ../tails_installer/gui.py:533
+msgid "An error happened while installing Tails"
+msgstr "安裝 Tails 系統時發生錯誤"
 
-#: ../liveusb/creator.py:1408
-msgid ""
-"Make sure to extract the entire liveusb-creator zip file before running this"
-" program."
-msgstr "執行此程式前請先解壓縮整個 libusb-creator zip 檔案。"
-
-#: ../liveusb/creator.py:1284
-msgid ""
-"Make sure your USB key is plugged in and formatted with the FAT filesystem"
-msgstr "請確認您的 USB 磁碟已插入，並且已被格式化成 FAT 檔案系統"
-
-#: ../liveusb/creator.py:859
-#, python-format
-msgid "Mount %s exists after unmounting"
-msgstr "取消掛載後 %s 掛載仍存在"
-
-#: ../liveusb/gui.py:588
-#, python-format
-msgid "No free space on device %(device)s"
-msgstr "裝置 %(device)s 上的可用空間不足。"
-
-#: ../liveusb/creator.py:826
-msgid "No mount points found"
-msgstr "找不到掛載點"
-
-#: ../liveusb/creator.py:410
-#, python-format
-msgid ""
-"Not enough free space on device.\n"
-"%dMB ISO + %dMB overlay > %dMB free space"
-msgstr "裝置上的可用空間不足。\n%dMB ISO + %dMB覆蓋 > %dMB可用空間"
-
-#: ../liveusb/gui.py:569
-msgid "Partition is FAT16; Restricting overlay size to 2G"
-msgstr "分割區為 FAT16 檔案系統；限制重疊區大小為 2 GB"
-
-#: ../liveusb/gui.py:565
-msgid "Partition is FAT32; Restricting overlay size to 4G"
-msgstr "分割區為 FAT32 檔案系統; 限制重疊區大小為 4G"
-
-#: ../liveusb/creator.py:236 ../liveusb/creator.py:866
-#, python-format
-msgid "Partitioning device %(device)s"
-msgstr "正在為 %(device)s 建立分割區"
-
-#: ../liveusb/gui.py:636
-msgid "Persistent Storage"
-msgstr "永久性儲存裝置"
-
-#: ../liveusb/dialog.py:168
-msgid "Persistent Storage (0 MB)"
-msgstr "永久性儲存裝置 (0 MB)"
-
-#: ../liveusb/gui.py:698 ../liveusb/gui.py:727
-msgid "Please confirm your device selection"
-msgstr "請確認您所選取的裝置"
-
-#: ../liveusb/gui.py:481
+#: ../tails_installer/gui.py:545
 msgid "Refreshing releases..."
 msgstr "正在重新整理版本..."
 
-#: ../liveusb/gui.py:486
+#: ../tails_installer/gui.py:550
 msgid "Releases updated!"
 msgstr "版本已更新！"
 
-#: ../liveusb/creator.py:997 ../liveusb/creator.py:1331
-#, python-format
-msgid "Removing %(file)s"
-msgstr "正在移除 %(file)s"
+#: ../tails_installer/gui.py:589
+msgid "Installation complete!"
+msgstr "安裝完成！"
 
-#: ../liveusb/creator.py:492
-msgid "Removing existing Live OS"
-msgstr "正在移除現有的 Live OS"
+#: ../tails_installer/gui.py:590
+msgid "Installation was completed."
+msgstr "安裝已經完成。"
 
-#: ../liveusb/creator.py:1186
-#, python-format
-msgid "Resetting Master Boot Record of %s"
-msgstr "重設 %s 的 MBR 主開機紀錄"
-
-#: ../liveusb/gui.py:789
-msgid "Select Live ISO"
-msgstr "選取 Live ISO"
-
-#: ../liveusb/creator.py:192
-msgid "Setting up OLPC boot file..."
-msgstr "設定 OLPC 開機檔案..."
-
-#: ../liveusb/creator.py:742
-#, python-format
-msgid ""
-"Some partitions of the target device %(device)s are mounted. They will be "
-"unmounted before starting the installation process."
-msgstr "目標裝置 %(device)s 中有些分割區已經被掛載。它們將在開始安裝前被自動卸載。"
-
-#: ../liveusb/creator.py:141
-msgid ""
-"Source type does not support verification of ISO MD5 checksum, skipping"
-msgstr "來源類型不支援 ISO MD5 總和檢查碼的驗證功能，略過"
-
-#: ../liveusb/creator.py:1220
-msgid "Synchronizing data on disk..."
-msgstr "正在同步磁碟上的資料..."
-
-#: ../liveusb/dialog.py:166
-msgid "Target Device"
-msgstr "目標裝置"
-
-#: ../liveusb/gui.py:438
-#, python-format
-msgid ""
-"The device \"%(pretty_name)s\" is too small to install Tails (at least "
-"%(size)s GB is required)."
-msgstr "“%(pretty_name)s”設備的容量太小，無法安裝Tails (至少需要 %(size)s GB 的空間)。"
-
-#: ../liveusb/gui.py:792
-msgid ""
-"The selected file is unreadable. Please fix its permissions or select "
-"another file."
-msgstr "所選取的檔案無法讀取，請修改該檔案之存取權限或選擇另一個檔案。"
-
-#: ../liveusb/creator.py:354
-#, python-format
-msgid ""
-"There was a problem executing the following command: `%(command)s`.\n"
-"A more detailed error log has been written to '%(filename)s'."
-msgstr "執行下列命令時發生問題：`%(command)s`。\n更詳細的錯誤記錄已寫入到'%(filename)s'。"
-
-#: ../liveusb/dialog.py:158
-msgid ""
-"This button allows you to browse for an existing Live system ISO that you "
-"have previously downloaded.  If you do not select one, a release will be "
-"downloaded for you automatically."
-msgstr "此按鈕讓您可以瀏覽先前已下載的 Live 系統之 ISO 檔，如果您沒有選取的話，程式將會自動為您下載一個版本。"
-
-#: ../liveusb/dialog.py:171
-msgid ""
-"This button will begin the LiveUSB creation process.  This entails "
-"optionally downloading a release (if an existing one wasn't selected),  "
-"extracting the ISO to the USB device, creating the persistent overlay, and "
-"installing the bootloader."
-msgstr "此按鈕將啟動 LiveUSB 建立程序。這將會選擇性地下載一個版本 (如果您沒有選取任何現有版本的話)，再將 ISO 解壓縮到 USB 裝置，並建立永久性重疊區，然後會安裝系統之啟動載入程式。"
-
-#: ../liveusb/dialog.py:165
-msgid ""
-"This is the USB stick that you want to install your Live system on.  This "
-"device must be formatted with the FAT filesystem."
-msgstr "這是您想安裝 Live 系統的 USB 隨身碟，它必須是已被格式化成 FAT 檔案系統之儲存裝置。"
-
-#: ../liveusb/dialog.py:170
-msgid ""
-"This is the progress bar that will indicate how far along in the LiveUSB "
-"creation process you are"
-msgstr "這個進度列將會表示 LiveUSB 建立過程還需要多久"
-
-#: ../liveusb/dialog.py:169
-msgid "This is the status console, where all messages get written to."
-msgstr "這是狀態主控台，所有訊息都會寫入到這裡。"
-
-#: ../liveusb/creator.py:952
-msgid "Trying to continue anyway."
-msgstr "無論如何仍嘗試繼續。"
-
-#: ../liveusb/gui.py:464
-msgid "USB drive found"
-msgstr "找到 USB 裝置"
-
-#: ../liveusb/creator.py:985
-#, python-format
-msgid "Unable to change volume label: %(message)s"
-msgstr "無法變更磁碟區標籤: %(message)s"
-
-#: ../liveusb/creator.py:501 ../liveusb/creator.py:512
-#, python-format
-msgid "Unable to chmod %(file)s: %(message)s"
-msgstr "無法以 chmod 變更權限 %(file)s: %(message)s"
-
-#: ../liveusb/creator.py:478
-#, python-format
-msgid "Unable to copy %(infile)s to %(outfile)s: %(message)s"
-msgstr "無法複製 %(infile)s 到 %(outfile)s: %(message)s"
-
-#: ../liveusb/gui.py:403
-msgid "Unable to find any USB drive"
-msgstr "找不到任何的 USB 裝置"
-
-#: ../liveusb/creator.py:1274
-msgid "Unable to find any supported device"
-msgstr "找不到任何有支援的裝置"
-
-#: ../liveusb/creator.py:1117
-msgid "Unable to find partition"
-msgstr "找不到分割區"
-
-#: ../liveusb/creator.py:1354
-msgid ""
-"Unable to get Win32_LogicalDisk; win32com query did not return any results"
-msgstr "無法取得 Win32_LogicalDisk；win32com 查詢沒有傳回任何結果"
-
-#: ../liveusb/gui.py:691
+#: ../tails_installer/gui.py:635
 msgid "Unable to mount device"
 msgstr "無法掛接裝置"
 
-#: ../liveusb/creator.py:814
-#, python-format
-msgid "Unable to mount device: %(message)s"
-msgstr "無法掛載裝置: %(message)s"
+#: ../tails_installer/gui.py:642 ../tails_installer/gui.py:670
+msgid "Please confirm your device selection"
+msgstr "請確認您所選取的裝置"
 
-#: ../liveusb/creator.py:517
-#, python-format
-msgid "Unable to remove directory from previous LiveOS: %(message)s"
-msgstr "無法從先前的 LiveOS 移除目錄: %(message)s"
-
-#: ../liveusb/creator.py:505
-#, python-format
-msgid "Unable to remove file from previous LiveOS: %(message)s"
-msgstr "無法從先前的 LiveOS 移除檔案: %(message)s"
-
-#: ../liveusb/creator.py:1189
-msgid ""
-"Unable to reset MBR.  You may not have the `syslinux` package installed."
-msgstr "無法重設 MBR。您可能沒有安裝「syslinux」套件。"
-
-#: ../liveusb/gui.py:798
-msgid ""
-"Unable to use the selected file.  You may have better luck if you move your "
-"ISO to the root of your drive (ie: C:\\)"
-msgstr "無法使用所選取的檔案，或許您可以嘗試將 ISO 檔移動到磁碟根目錄下(例如：C：\\)"
-
-#: ../liveusb/creator.py:723
-#, python-format
-msgid "Unable to write on %(device)s, skipping."
-msgstr "無法寫入 %(device)s，略過。"
-
-#: ../liveusb/creator.py:399
-msgid "Unknown ISO, skipping checksum verification"
-msgstr "未知的 ISO 檔，略過總和檢查碼驗證程序"
-
-#: ../liveusb/creator.py:810
-#, python-format
-msgid "Unknown dbus exception while trying to mount device: %(message)s"
-msgstr "掛載裝置時發生未知的 dbus 例外: %(message)s"
-
-#: ../liveusb/creator.py:791 ../liveusb/creator.py:964
-msgid "Unknown filesystem.  Your device may need to be reformatted."
-msgstr "未知的檔案系統。您的裝置可能需要重新格式化。"
-
-#: ../liveusb/gui.py:85
-#, python-format
-msgid "Unknown release: %s"
-msgstr "未知的發行版本：%s"
-
-#: ../liveusb/creator.py:851
-#, python-format
-msgid "Unmounting '%(udi)s' on '%(device)s'"
-msgstr "正在卸載 '%(udi)s' 在 '%(device)s'"
-
-#: ../liveusb/creator.py:847
-#, python-format
-msgid "Unmounting mounted filesystems on '%(device)s'"
-msgstr "正在卸載已掛載於 '%(device)s' 上的檔案系統"
-
-#: ../liveusb/creator.py:949
-#, python-format
-msgid "Unsupported device '%(device)s', please report a bug."
-msgstr "不支援的裝置 '%(device)s'，請回報此錯誤。"
-
-#: ../liveusb/creator.py:794 ../liveusb/creator.py:967
-#, python-format
-msgid "Unsupported filesystem: %s"
-msgstr "不支援的檔案系統：%s"
-
-#: ../liveusb/creator.py:1287
-#, python-format
-msgid ""
-"Unsupported filesystem: %s\n"
-"Please backup and format your USB key with the FAT filesystem."
-msgstr "不支援的檔案系統：%s\n請將您的 USB 隨身碟內之資料進行備份，並將它格式化成 FAT 檔案系統。"
-
-#: ../liveusb/creator.py:892
-#, python-format
-msgid "Updating properties of system partition %(system_partition)s"
-msgstr "正在更新系統分割區 %(system_partition)s 的屬性"
-
-#: ../liveusb/launcher_ui.py:156
-msgid ""
-"Upgrade\n"
-"by cloning"
-msgstr "通過複製文件\n升級"
-
-#: ../liveusb/launcher_ui.py:158
-msgid ""
-"Upgrade\n"
-"from ISO"
-msgstr "從ISO\n升級"
-
-#: ../liveusb/dialog.py:159
-msgid "Use existing Live system ISO"
-msgstr "使用現有的 Live system ISO"
-
-#: ../liveusb/creator.py:143
-msgid "Verifying ISO MD5 checksum"
-msgstr "正在驗證 ISO 檔之 MD5 總和檢查碼"
-
-#: ../liveusb/creator.py:373
-msgid "Verifying SHA1 checksum of LiveCD image..."
-msgstr "正在驗證 LiveCD 映像檔的 SHA1 總和檢查碼..."
-
-#: ../liveusb/creator.py:377
-msgid "Verifying SHA256 checksum of LiveCD image..."
-msgstr "正在驗證 LiveCD 映像檔的 SHA256 總和檢查碼..."
-
-#: ../liveusb/creator.py:961 ../liveusb/creator.py:1280
-msgid "Verifying filesystem..."
-msgstr "正在驗證檔案系統..."
-
-#: ../liveusb/gui.py:725
-msgid ""
-"Warning: Creating a new persistent overlay will delete your existing one."
-msgstr "警告：現有的永久性重疊區將會被新建立的取代。"
-
-#: ../liveusb/gui.py:377
-msgid ""
-"Warning: This tool needs to be run as an Administrator. To do this, right "
-"click on the icon and open the Properties. Under the Compatibility tab, "
-"check the \"Run this program as an administrator\" box."
-msgstr "警告：此工具需以系統管理員身分執行。請對圖示按滑鼠右鍵後點選內容，在相容性頁籤下，勾選「以系統管理員身份執行此程式」方塊。"
-
-#: ../liveusb/creator.py:162
-#, python-format
-msgid "Wrote to device at %(speed)d MB/sec"
-msgstr "以 %(speed)d MB/秒 的速度寫入裝置"
-
-#: ../liveusb/gui.py:699
+#: ../tails_installer/gui.py:643
 #, python-format
 msgid ""
 "You are going to install Tails on the %(size)s %(vendor)s %(model)s device "
 "(%(device)s). All data on the selected device will be lost. Continue?"
 msgstr "您即將在 %(size)s %(vendor)s %(model)s 裝置 (%(device)s)上安裝 Tails ，被選取裝置上的資料都將會消失，確定要繼續嗎？"
 
-#: ../liveusb/gui.py:715
+#: ../tails_installer/gui.py:660
 #, python-format
 msgid ""
 "You are going to upgrade Tails on the %(parent_size)s %(vendor)s %(model)s "
@@ -602,20 +421,169 @@ msgid ""
 "unchanged. Continue?"
 msgstr "您即將升級位於 %(parent_size)s %(vendor)s %(model)s 裝置 (%(device)s)上的 Tails。在此裝置上的永久性磁碟區將保持不變，確定要繼續嗎？"
 
-#: ../liveusb/creator.py:622
-msgid ""
-"You are using an old version of syslinux-extlinux that does not support the "
-"ext4 filesystem"
-msgstr "您正使用舊版的 syslinux-extlinux，不支援 ext4 檔案系統"
+#: ../tails_installer/gui.py:716
+msgid "Download complete!"
+msgstr "下載完成！"
 
-#: ../liveusb/gui.py:783
+#: ../tails_installer/gui.py:720
+msgid "Download failed: "
+msgstr "下載失敗："
+
+#: ../tails_installer/gui.py:721
 msgid "You can try again to resume your download"
 msgstr "您可再次嘗試來繼續您的下載"
 
-#: ../liveusb/creator.py:95
-msgid "You must run this application as root"
-msgstr "你必須以 root 身份執行此應用程式"
+#: ../tails_installer/gui.py:729
+msgid ""
+"The selected file is unreadable. Please fix its permissions or select "
+"another file."
+msgstr "所選取的檔案無法讀取，請修改該檔案之存取權限或選擇另一個檔案。"
 
-#: ../liveusb/dialog.py:162
-msgid "or"
-msgstr "或"
+#: ../tails_installer/gui.py:735
+msgid ""
+"Unable to use the selected file.  You may have better luck if you move your "
+"ISO to the root of your drive (ie: C:\\)"
+msgstr "無法使用所選取的檔案，或許您可以嘗試將 ISO 檔移動到磁碟根目錄下(例如：C：\\)"
+
+#: ../tails_installer/gui.py:741
+#, python-format
+msgid "%(filename)s selected"
+msgstr "%(filename)s 已選取"
+
+#: ../tails_installer/source.py:28
+msgid "Unable to find LiveOS on ISO"
+msgstr "在 ISO 檔中找不到 LiveOS"
+
+#: ../tails_installer/source.py:34
+#, python-format
+msgid "Could not guess underlying block device: %s"
+msgstr "無法偵測底層的區塊裝置：%s"
+
+#: ../tails_installer/source.py:49
+#, python-format
+msgid ""
+"There was a problem executing `%s`.\n"
+"%s\n"
+"%s"
+msgstr "執行「%s」時發生了錯誤。\n%s\n%s"
+
+#: ../tails_installer/source.py:63
+#, python-format
+msgid "'%s' does not exist"
+msgstr "「%s」不存在"
+
+#: ../tails_installer/source.py:65
+#, python-format
+msgid "'%s' is not a directory"
+msgstr "「%s」不是目錄"
+
+#: ../tails_installer/source.py:75
+#, python-format
+msgid "Skipping '%(filename)s'"
+msgstr "略過「%(filename)s」"
+
+#: ../tails_installer/utils.py:44
+#, python-format
+msgid ""
+"There was a problem executing `%s`.%s\n"
+"%s"
+msgstr "執行「%s」時發生錯誤。%s\n%s"
+
+#: ../tails_installer/utils.py:119
+msgid "Could not open device for writing."
+msgstr "無法以寫入模式開啟裝置。"
+
+#: ../data/tails-installer.ui.h:1
+msgid "Use existing Live system ISO:"
+msgstr "使用既有的 Live System 之 ISO 檔："
+
+#: ../data/tails-installer.ui.h:2
+msgid "Select a distribution to download:"
+msgstr "請選擇要下載的發行版："
+
+#: ../data/tails-installer.ui.h:3
+msgid "Target Device:"
+msgstr "目標裝置："
+
+#: ../data/tails-installer.ui.h:4
+msgid "Install Tails"
+msgstr "安裝 Tails"
+
+#: ../data/tails-installer-launcher.ui.h:1
+msgid ""
+"To run Tails Installer you need an ISO image which can be downloaded from "
+"the Tails website: <a "
+"href=\"https://tails.boum.org/download/\">https://tails.boum.org/download/</a>"
+msgstr "若要執行 Tails 安裝程式，你必須要先從此網站下載一個 ISO 影像檔：<a href=\"https://tails.boum.org/download/\">https://tails.boum.org/download/</a>"
+
+#: ../data/tails-installer-launcher.ui.h:2
+msgid "Install"
+msgstr "安裝"
+
+#: ../data/tails-installer-launcher.ui.h:3
+msgid "• Install Tails on a new USB stick."
+msgstr "‧將 Tails 系統安裝在一個新的 USB 隨身碟中。"
+
+#: ../data/tails-installer-launcher.ui.h:4
+msgid "• The USB stick that you install on is formatted and all data is lost."
+msgstr "‧您所選擇要安裝的 USB 隨身碟已被格式化，裡面的資料已經全部消失。"
+
+#: ../data/tails-installer-launcher.ui.h:5
+msgid "Upgrade"
+msgstr "升級"
+
+#: ../data/tails-installer-launcher.ui.h:6
+msgid "• Upgrade a Tails USB stick to the version of an ISO image."
+msgstr "‧將隨身碟中的 Tails 系統版本升級到與 ISO 影像檔相同。"
+
+#: ../data/tails-installer-launcher.ui.h:7
+msgid ""
+"• The encrypted persistent storage of the Tails USB stick that you upgrade "
+"is preserved."
+msgstr "‧裝有 Tails 系統的加密式永久儲存裝置已經被保存。"
+
+#: ../data/tails-installer-launcher.ui.h:8
+msgid ""
+"Need help? Read the <a "
+"href=\"https://tails.boum.org/doc/first_steps/installation/\">documentation</a>"
+msgstr "需要幫助嗎？請閱讀<a href=\"https://tails.boum.org/doc/first_steps/installation/\">說明文件</a>"
+
+#: ../data/tails-installer-launcher.ui.h:9
+msgid "Install by cloning"
+msgstr "複製式安裝"
+
+#: ../data/tails-installer-launcher.ui.h:10
+msgid ""
+"• Install Tails on another USB stick by copying the Tails system that you "
+"are currently using."
+msgstr "‧藉由複製目前正在使用的 Tails 系統來將它安裝到另一個 USB 隨身碟中。"
+
+#: ../data/tails-installer-launcher.ui.h:11
+msgid ""
+"• The encrypted persistent storage of the Tails USB stick that you are "
+"currently using is not copied."
+msgstr "‧您正在使用的加密式永久儲存裝置裡的 Tails 隨身碟並未被複製。"
+
+#: ../data/tails-installer-launcher.ui.h:12
+msgid "Upgrade by cloning"
+msgstr "複製式升級"
+
+#: ../data/tails-installer-launcher.ui.h:13
+msgid ""
+"• Upgrade another Tails USB stick to the same version of Tails that you are "
+"currently using."
+msgstr "‧將另一個隨身碟中的 Tails 系統升級至與目前您正使用版本相同。"
+
+#: ../data/tails-installer-launcher.ui.h:14
+msgid "Upgrade from ISO"
+msgstr "由 ISO 影像檔升級"
+
+#: ../data/tails-installer-launcher.ui.h:15
+msgid "• Upgrade another Tails USB stick to the version of an ISO image."
+msgstr "‧將另一個隨身碟中的 Tails 系統版本升級到與 ISO 影像檔相同。"
+
+#: ../data/tails-installer-launcher.ui.h:16
+msgid ""
+"Need help? Read the <a "
+"href=\"file:///usr/share/doc/tails/website/doc/first_steps/installation.en.html\">documentation</a>"
+msgstr "需要幫助嗎？請閱讀<a href=\"file:///usr/share/doc/tails/website/doc/first_steps/installation.en.html\">說明文件</a>"
