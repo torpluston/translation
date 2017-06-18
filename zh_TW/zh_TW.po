@@ -3,7 +3,7 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
-# Agustín Wu <losangwuyts@gmail.com>, 2016
+# Agustín Wu <losangwuyts@gmail.com>, 2016-2017
 # BrLi <rainman59118@gmail.com>, 2015
 # Hsiu-Ming Chang <cges30901@gmail.com>, 2014
 # Chinrur Yang <chinrur@gmail.com>, 2013
@@ -21,9 +21,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: The Tor Project\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-06-09 17:50+0200\n"
-"PO-Revision-Date: 2017-06-10 01:55+0000\n"
-"Last-Translator: carolyn <carolyn@anhalt.org>\n"
+"POT-Creation-Date: 2017-06-10 07:50+0200\n"
+"PO-Revision-Date: 2017-06-18 01:15+0000\n"
+"Last-Translator: Agustín Wu <losangwuyts@gmail.com>\n"
 "Language-Team: Chinese (Taiwan) (http://www.transifex.com/otf/torproject/language/zh_TW/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -138,7 +138,7 @@ msgstr "不支援的檔案系統：%s"
 #: ../tails_installer/creator.py:760
 #, python-format
 msgid "Unknown GLib exception while trying to mount device: %(message)s"
-msgstr ""
+msgstr "試圖掛載底下裝置時，發生了未知的 GLib 例外事件：%(message)s"
 
 #: ../tails_installer/creator.py:764
 #, python-format
@@ -204,7 +204,7 @@ msgstr "正在安裝 bootloader..."
 #: ../tails_installer/creator.py:1016
 #, python-format
 msgid "Could not find the '%s' COM32 module"
-msgstr ""
+msgstr "找不到「%s」COM32模組"
 
 #: ../tails_installer/creator.py:1024 ../tails_installer/creator.py:1405
 #, python-format
@@ -227,17 +227,17 @@ msgstr "正將 %(device)s 格式化成 FAT32 格式"
 
 #: ../tails_installer/creator.py:1239
 msgid "Could not find syslinux' gptmbr.bin"
-msgstr ""
+msgstr "找不到syslinux' gptmbr.bin"
 
 #: ../tails_installer/creator.py:1252
 #, python-format
 msgid "Reading extracted MBR from %s"
-msgstr ""
+msgstr "正在從%s中讀取MBR資訊"
 
 #: ../tails_installer/creator.py:1256
 #, python-format
 msgid "Could not read the extracted MBR from %(path)s"
-msgstr ""
+msgstr "無法從%(path)s中讀取MBR資訊"
 
 #: ../tails_installer/creator.py:1269 ../tails_installer/creator.py:1270
 #, python-format
@@ -290,7 +290,7 @@ msgstr "找不到"
 msgid ""
 "Make sure to extract the entire tails-installer zip file before running this"
 " program."
-msgstr ""
+msgstr "請確保已經將 Tails 安裝程式的壓縮檔完整的解壓縮後，再執行此程式。"
 
 #: ../tails_installer/gui.py:69
 #, python-format
@@ -315,7 +315,7 @@ msgstr "安裝完成! (%s)"
 
 #: ../tails_installer/gui.py:258
 msgid "Tails installation failed!"
-msgstr ""
+msgstr "Tails 系統安裝失敗！"
 
 #: ../tails_installer/gui.py:353
 msgid ""
@@ -326,16 +326,16 @@ msgstr "警告：此工具需以系統管理員身分執行。請對圖示按滑
 
 #: ../tails_installer/gui.py:365 ../tails_installer/launcher.py:31
 msgid "Tails Installer"
-msgstr ""
+msgstr "Tails 安裝程式"
 
 #: ../tails_installer/gui.py:440
 msgid "No device suitable to install Tails could be found"
-msgstr ""
+msgstr "找不到可以安裝 Tails 系統的裝置"
 
 #: ../tails_installer/gui.py:442
 #, python-format
 msgid "Please plug a USB flash drive or SD card of at least %0.1f GB."
-msgstr ""
+msgstr "請插入最少有%0.1fGB空間的USB隨身碟或SD記憶卡。"
 
 #: ../tails_installer/gui.py:474
 #, python-format
@@ -353,7 +353,7 @@ msgid ""
 "The USB stick \"%(pretty_name)s\" is configured as non-removable by its "
 "manufacturer and Tails will fail to start on it. Please try installing on a "
 "different model."
-msgstr ""
+msgstr "此USB隨身碟「%(pretty_name)s」已被原廠設定為不可移除模式，故安裝於其中的 Tails 系統將無法正常啟動。請試著更換別種型號的儲存裝置。"
 
 #: ../tails_installer/gui.py:498
 #, python-format
@@ -364,7 +364,7 @@ msgstr "“%(pretty_name)s”設備的容量太小，無法安裝Tails (至少�
 
 #: ../tails_installer/gui.py:511
 msgid "\"Install by cloning\""
-msgstr ""
+msgstr "「複製式安裝」"
 
 #: ../tails_installer/gui.py:513
 msgid "\"Install from ISO\""
@@ -380,7 +380,7 @@ msgstr "由於裝置 %(pretty_name)s 不是由 Tails 安裝程式所創建，故
 
 #: ../tails_installer/gui.py:533
 msgid "An error happened while installing Tails"
-msgstr ""
+msgstr "安裝 Tails 系統時發生錯誤"
 
 #: ../tails_installer/gui.py:545
 msgid "Refreshing releases..."
@@ -396,7 +396,7 @@ msgstr "安裝完成！"
 
 #: ../tails_installer/gui.py:590
 msgid "Installation was completed."
-msgstr ""
+msgstr "安裝已經完成。"
 
 #: ../tails_installer/gui.py:635
 msgid "Unable to mount device"
@@ -452,7 +452,7 @@ msgstr "%(filename)s 已選取"
 
 #: ../tails_installer/source.py:28
 msgid "Unable to find LiveOS on ISO"
-msgstr ""
+msgstr "在 ISO 檔中找不到 LiveOS"
 
 #: ../tails_installer/source.py:34
 #, python-format
