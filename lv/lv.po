@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-03-20 09:46+0100\n"
+"POT-Creation-Date: 2017-06-10 12:27+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Ojars Balcers <ojars.balcers@gmail.com>, 2016\n"
 "Language-Team: Latvian (https://www.transifex.com/otf/teams/1519/lv/)\n"
@@ -91,7 +91,7 @@ msgstr "Maldinoši norādīt visas MAC adreses (noklusējuma vērtība)"
 msgid "Don't spoof MAC addresses"
 msgstr "Maldinoši nenorādīt MAC adreses"
 
-#: ../data/greeter.ui.h:17 ../tailsgreeter/gui.py:529
+#: ../data/greeter.ui.h:17 ../tailsgreeter/gui.py:532
 msgid "Cannot unlock encrypted storage with this passphrase."
 msgstr "Ar šo paroles frāzi nav iespējams atbloķēt šifrēto krātuvi. "
 
@@ -160,8 +160,8 @@ msgstr "Konfigurēt pastāvīgo krātuvi"
 msgid "Enter your passphrase to unlock the persistent storage"
 msgstr "Ievadiet savu paroles frāzi, lai atslēgtu pastāvīgo krātuvi"
 
-#: ../data/greeter.ui.h:33 ../tailsgreeter/gui.py:475
-#: ../tailsgreeter/gui.py:525
+#: ../data/greeter.ui.h:33 ../tailsgreeter/gui.py:478
+#: ../tailsgreeter/gui.py:528
 msgid "Unlock"
 msgstr "Atslēgt"
 
@@ -206,8 +206,8 @@ msgid "Connect directly to the Tor network (default)"
 msgstr "Veidot tiešu savienojumu ar tīklu Tor (noklusējuma vērtība)"
 
 #: ../data/greeter.ui.h:42
-msgid "Configure a Tor bridge, firewall, or proxy settings"
-msgstr "Konfigurēt Tor tilta, ugunsmūra vai starpniekservera iestatījumus"
+msgid "Configure a Tor bridge or local proxy"
+msgstr "Konfigurēt Tor tiltu vai vietējo starpniekserveri"
 
 #: ../data/greeter.ui.h:43
 msgid "Disable all networking"
@@ -241,7 +241,7 @@ msgstr "Ieslēgts (noklusējuma vērtība)"
 msgid "_Network Connection"
 msgstr "_Tīkla savienojums"
 
-#: ../data/greeter.ui.h:50 ../tailsgreeter/gui.py:382
+#: ../data/greeter.ui.h:50 ../tailsgreeter/gui.py:385
 msgid "Direct (default)"
 msgstr "Tiešs (noklusējuma vērtība)"
 
@@ -249,48 +249,48 @@ msgstr "Tiešs (noklusējuma vērtība)"
 msgid "_Windows Camouflage"
 msgstr "_Windows kamuflāža"
 
-#: ../tailsgreeter/gui.py:388
+#: ../tailsgreeter/gui.py:391
 msgid "Bridge & Proxy"
 msgstr "Tilti un starpniekserveri"
 
-#: ../tailsgreeter/gui.py:394
+#: ../tailsgreeter/gui.py:397
 msgid "Offline"
 msgstr "Bezsaistē"
 
-#: ../tailsgreeter/gui.py:478
+#: ../tailsgreeter/gui.py:481
 msgid "Failed to relock persistent storage."
 msgstr "Neizdevās atkārtoti bloķēt pastāvīgo krātuvi."
 
-#: ../tailsgreeter/gui.py:496
+#: ../tailsgreeter/gui.py:499
 msgid "Unlocking…"
 msgstr "Atslēdz..."
 
-#: ../tailsgreeter/gui.py:591
+#: ../tailsgreeter/gui.py:594
 msgid "Additional Settings"
 msgstr "Papildu iestatījumi"
 
-#: ../tailsgreeter/gui.py:599
+#: ../tailsgreeter/gui.py:602
 msgid "Cancel"
 msgstr "Atcelt"
 
-#: ../tailsgreeter/gui.py:605
+#: ../tailsgreeter/gui.py:608
 msgid "Add"
 msgstr "Pievienot"
 
-#: ../tailsgreeter/gui.py:613
+#: ../tailsgreeter/gui.py:616
 msgid "Back"
 msgstr "Atpakaļ"
 
-#: ../tailsgreeter/gui.py:716
+#: ../tailsgreeter/gui.py:730
 msgid "Shutdown"
 msgstr "Izslēgšana"
 
-#: ../tailsgreeter/gui.py:721
+#: ../tailsgreeter/gui.py:735
 msgid "_Start Tails"
 msgstr "_Palaist Tails"
 
-#. Translators: translate to default:RTL if your language
-#. is written from right to left
+#. Translators: please do not translate this string (it is read from
+#. Gtk translation)
 #: ../tailsgreeter/language.py:133
 msgid "default:LTR"
 msgstr "noklusējums:LTR"
@@ -304,7 +304,7 @@ msgstr ""
 "live-persist neizdevās, norādītais kods {returncode}:\n"
 "{stderr}"
 
-#: ../tailsgreeter/persistence.py:120 ../tailsgreeter/persistence.py:137
+#: ../tailsgreeter/persistence.py:122 ../tailsgreeter/persistence.py:139
 #, python-brace-format
 msgid ""
 "cryptsetup failed with return code {returncode}:\n"
@@ -315,7 +315,7 @@ msgstr ""
 "{stdout}\n"
 "{stderr}"
 
-#: ../tailsgreeter/persistence.py:154
+#: ../tailsgreeter/persistence.py:156
 #, python-brace-format
 msgid ""
 "live-persist failed with return code {returncode}:\n"
@@ -326,7 +326,7 @@ msgstr ""
 "{stdout}\n"
 "{stderr}"
 
-#: ../tailsgreeter/persistence.py:168
+#: ../tailsgreeter/persistence.py:170
 #, python-brace-format
 msgid ""
 "umount failed with return code {returncode}:\n"
