@@ -4,15 +4,15 @@
 # 
 # Translators:
 # Jānis-Marks Gailis <jm-gailis@fai-vianet.fr>, 2013
-# Ojārs Balcers <ojars.balcers@gmail.com>, 2012
-# Ojārs Balcers <ojars.balcers@gmail.com>, 2013-2015
+# Ojars Balcers <ojars.balcers@gmail.com>, 2012,2017
+# Ojars Balcers <ojars.balcers@gmail.com>, 2013-2015
 msgid ""
 msgstr ""
 "Project-Id-Version: The Tor Project\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-11-02 21:23+0100\n"
-"PO-Revision-Date: 2016-03-21 16:31+0000\n"
-"Last-Translator: Ojārs Balcers <ojars.balcers@gmail.com>\n"
+"POT-Creation-Date: 2017-06-30 13:14+0200\n"
+"PO-Revision-Date: 2017-07-01 17:57+0000\n"
+"Last-Translator: Ojars Balcers <ojars.balcers@gmail.com>\n"
 "Language-Team: Latvian (http://www.transifex.com/otf/torproject/language/lv/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -20,219 +20,346 @@ msgstr ""
 "Language: lv\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n != 0 ? 1 : 2);\n"
 
-#: ../liveusb/gui.py:451
-msgid "\"Clone & Install\""
-msgstr "\"Klonēt & instalēt\""
+#: ../tails_installer/creator.py:100
+msgid "You must run this application as root"
+msgstr "Šī lietotne jāizpilda saknes režīmā"
 
-#: ../liveusb/gui.py:453
-msgid "\"Install from ISO\""
-msgstr "\"Instalēt no ISO\""
+#: ../tails_installer/creator.py:146
+msgid "Extracting live image to the target device..."
+msgstr "Uz mērķa ierīces izvērš tiešo attēlu jeb live image..."
 
-#: ../liveusb/dialog.py:157 ../liveusb/launcher_ui.py:153
+#: ../tails_installer/creator.py:153
 #, python-format
-msgid "%(distribution)s Installer"
-msgstr "%(distribution)s instalēšanas programma"
+msgid "Wrote to device at %(speed)d MB/sec"
+msgstr "Ieraksts ierīcē tika veikts ar ātrumu %(speed)d MB/sec"
 
-#: ../liveusb/gui.py:804
+#: ../tails_installer/creator.py:183
+msgid "Setting up OLPC boot file..."
+msgstr "Iestata OLPC sāknēšanas datni..."
+
+#: ../tails_installer/creator.py:302
 #, python-format
-msgid "%(filename)s selected"
-msgstr "%(filename)s izvēlēts"
-
-#: ../liveusb/gui.py:424
-#, python-format
-msgid "%(size)s %(label)s"
-msgstr "%(size)s %(label)s"
-
-#: ../liveusb/gui.py:430
-#, python-format
-msgid "%(vendor)s %(model)s (%(details)s) - %(device)s"
-msgstr "%(vendor)s %(model)s (%(details)s) - %(device)s"
-
-#: ../liveusb/creator.py:1097
-#, python-format
-msgid "%s already bootable"
-msgstr "%s jau ir sāknējams"
-
-#: ../liveusb/launcher_ui.py:160
 msgid ""
-"<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
-"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
-"p, li { white-space: pre-wrap; }\n"
-"</style></head><body style=\" font-family:'Cantarell'; font-size:11pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">Need help? Read the <a href=\"file:///usr/share/doc/tails/website/doc/first_steps/installation.en.html\"><span style=\" text-decoration: underline; color:#0000ff;\">documentation</span></a>.</p></body></html>"
-msgstr "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\np, li { white-space: pre-wrap; }\n</style></head><body style=\" font-family:'Cantarell'; font-size:11pt; font-weight:400; font-style:normal;\">\n<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">Nepieciešama palīdzība? Lasiet <a href=\"file:///usr/share/doc/tails/website/doc/first_steps/installation.en.html\"><span style=\" text-decoration: underline; color:#0000ff;\">dokumentāciju</span></a>.</p></body></html>"
+"There was a problem executing the following command: `%(command)s`.\n"
+"A more detailed error log has been written to '%(filename)s'."
+msgstr "Radās problēmsituācija izpildot komandu: `%(command)s`.\nDetalizētāks kļūdas žurnāls tika ierakstīts '%(filename)s'."
 
-#: ../liveusb/launcher_ui.py:155
-msgid ""
-"<ul>\n"
-"<li>Install Tails on another USB stick by copying the Tails system that you are currently using..</li>\n"
-"\n"
-"<li>The USB stick that you install on is formatted and all data is lost.</li>\n"
-"\n"
-"<li>The encrypted persistent storage of the Tails USB stick that you are currently using is not copied.</li>\n"
-"\n"
-"</ul>"
-msgstr "<ul>\n<li>Instalē Tails uz cita USB zibja, kopējot pašlaik lietoto Tails sistēmu.</li>\n\n<li>USB zibis, uz kura instalēs, tiks formatēts un visi dati būs izdzēsti.</li>\n\n<li>Šobrīd lietotā Tails USB zibja šifrētā, pastavīgā glabātuve netiek kopēta.</li>\n\n</ul>"
+#: ../tails_installer/creator.py:321
+msgid "Verifying SHA1 checksum of LiveCD image..."
+msgstr "Verificē LiveCD attēla kontrolsummu SHA1..."
 
-#: ../liveusb/launcher_ui.py:157
-msgid ""
-"<ul>\n"
-"<li>Upgrade another Tails USB stick to the same version of Tails that you are currently using.</li>\n"
-"\n"
-"<li>The encrypted persistent storage of the Tails USB stick that you upgrade is preserved.</li>\n"
-"\n"
-"<li>The encrypted persistent storage of the Tails USB stick that you are currently using is not copied.</li>\n"
-"\n"
-"\n"
-"</ul>"
-msgstr "<ul>\n<li>Atjauniniet citu Tails USB zibi uz to pašu Tails versiju, kuru šobrīd lietojat.</li>\n\n<li>Atjaunojamā Tails USB zibja šifrētā, pastavīgā glabātuve tiek saglabāta.</li>\n\n<li>Šobrīd lietotā Tails USB zibja šifrētā, pastavīgā glabātuve netiek kopēta.</li>\n\n</ul>"
+#: ../tails_installer/creator.py:325
+msgid "Verifying SHA256 checksum of LiveCD image..."
+msgstr "Verificē LiveCD attēla kontrolsummu SHA256..."
 
-#: ../liveusb/launcher_ui.py:159
-msgid ""
-"<ul>\n"
-"<li>Upgrade another Tails USB stick to the version of an ISO image.</li>\n"
-"\n"
-"<li>The encrypted persistent storage of the Tails USB stick that you upgrade is preserved.</li>\n"
-"\n"
-"<li>The encrypted persistent storage of the Tails USB stick that you are currently using is not copied.</li>\n"
-"\n"
-"</ul>"
-msgstr "<ul>\n<li>Atjauniniet citu Tails USB zibi uz ISO attēla versiju.</li>\n\n<li>Atjaunojamā Tails USB zibja šifrētā, pastavīgā glabātuve tiek saglabāta.</li>\n\n<li>Šobrīd lietotā Tails USB zibja šifrētā, pastavīgā glabātuve netiek kopēta.</li>\n\n</ul>"
-
-#: ../liveusb/dialog.py:161
-msgid "Alt+B"
-msgstr "Alt+B"
-
-#: ../liveusb/dialog.py:160
-msgid "Browse"
-msgstr "Pārlūkot"
-
-#: ../liveusb/dialog.py:167
-msgid ""
-"By allocating extra space on your USB stick for a persistent overlay, you "
-"will be able to store data and make permanent modifications to your live "
-"operating system.  Without it, you will not be able to save data that will "
-"persist after a reboot."
-msgstr "Piešķirot pastāvīgam pārklājumam papildu vietu savā USB zibatmiņā, Jums būs iespēja glabāt datus un paliekoši modificēt dzīvu sistēmu, kura darbojas. To nedarot, pēc pārlādes nebūs iespējams saglabāt datus."
-
-#: ../liveusb/creator.py:1196 ../liveusb/creator.py:1459
-#, python-format
-msgid "Calculating the SHA1 of %s"
-msgstr "Aprēķina %s SHA1"
-
-#: ../liveusb/creator.py:1407
-msgid "Cannot find"
-msgstr "Nav iespējams atrast"
-
-#: ../liveusb/creator.py:560
-#, python-format
-msgid "Cannot find device %s"
-msgstr "Nav iespējams atrast ierīci %s"
-
-#: ../liveusb/creator.py:417
-#, python-format
-msgid "Creating %sMB persistent overlay"
-msgstr "Rada %sMB lielu pastāvīgo pārklājumu"
-
-#: ../liveusb/gui.py:582
-msgid ""
-"Device is not yet mounted, so we cannot determine the amount of free space."
-msgstr "Ierīce vēl nav uzmontēta, tāpēc nav iespējams noteikt brīvas vietas daudzumu."
-
-#: ../liveusb/dialog.py:164
-#, python-format
-msgid "Download %(distribution)s"
-msgstr "Lejuplādēt %(distribution)s"
-
-#: ../liveusb/gui.py:778
-msgid "Download complete!"
-msgstr "Lejupielāde pabeigta!"
-
-#: ../liveusb/gui.py:782
-msgid "Download failed: "
-msgstr "Lejupielāde neizdevās: "
-
-#: ../liveusb/gui.py:89
-#, python-format
-msgid "Downloading %s..."
-msgstr "Lejuplādē %s..."
-
-#: ../liveusb/creator.py:1192
-msgid "Drive is a loopback, skipping MBR reset"
-msgstr "Disks ir cilptestā, tiek izlaista MBR atiestatīšana"
-
-#: ../liveusb/creator.py:837
-#, python-format
-msgid "Entering unmount_device for '%(device)s'"
-msgstr "Ievada unmount_device objektam '%(device)s'"
-
-#: ../liveusb/creator.py:1272
-msgid "Error probing device"
-msgstr "Kļūda pētot ierīci"
-
-#: ../liveusb/gui.py:213
-msgid ""
-"Error: Cannot set the label or obtain the UUID of your device.  Unable to "
-"continue."
-msgstr "Kļūda: Nav iespējams iegūt ierīces UUID vai piešķirt iezīmi. Nespēj turpināt."
-
-#: ../liveusb/creator.py:393
+#: ../tails_installer/creator.py:341
 msgid ""
 "Error: The SHA1 of your Live CD is invalid.  You can run this program with "
 "the --noverify argument to bypass this verification check."
 msgstr "Kļūda: Live CD SHA1 nav derīgs.  Lai apietu šo verifikācijas pārbaudi, programmu var izpildīt ar argumentu --noverify ."
 
-#: ../liveusb/creator.py:155
-msgid "Extracting live image to the target device..."
-msgstr "Uz mērķa ierīces izvērš tiešo attēlu jeb live image..."
+#: ../tails_installer/creator.py:347
+msgid "Unknown ISO, skipping checksum verification"
+msgstr "Nezināms ISO, tiek izlaista kontrolsummas verifikācija"
 
-#: ../liveusb/creator.py:1140
+#: ../tails_installer/creator.py:358
+#, python-format
+msgid ""
+"Not enough free space on device.\n"
+"%dMB ISO + %dMB overlay > %dMB free space"
+msgstr "Uz ierīces nav pietiekami daudz brīvas vietas.\n%dMB ISO + %dMB pārklājums > %dMB brīvas vietas"
+
+#: ../tails_installer/creator.py:365
+#, python-format
+msgid "Creating %sMB persistent overlay"
+msgstr "Rada %sMB lielu pastāvīgo pārklājumu"
+
+#: ../tails_installer/creator.py:426
+#, python-format
+msgid "Unable to copy %(infile)s to %(outfile)s: %(message)s"
+msgstr "Nespēj kopēt %(infile)s uz %(outfile)s: %(message)s"
+
+#: ../tails_installer/creator.py:440
+msgid "Removing existing Live OS"
+msgstr "Noņem esošo Live OS"
+
+#: ../tails_installer/creator.py:449 ../tails_installer/creator.py:460
+#, python-format
+msgid "Unable to chmod %(file)s: %(message)s"
+msgstr "Nespēj chmod %(file)s: %(message)s"
+
+#: ../tails_installer/creator.py:453
+#, python-format
+msgid "Unable to remove file from previous LiveOS: %(message)s"
+msgstr "Nespēj noņemt datni no iepriekšējās LiveOS: %(message)s"
+
+#: ../tails_installer/creator.py:465
+#, python-format
+msgid "Unable to remove directory from previous LiveOS: %(message)s"
+msgstr "Nespēj noņemt direktoriju no iepriekšējās LiveOS: %(message)s"
+
+#: ../tails_installer/creator.py:513
+#, python-format
+msgid "Cannot find device %s"
+msgstr "Nav iespējams atrast ierīci %s"
+
+#: ../tails_installer/creator.py:678
+#, python-format
+msgid "Unable to write on %(device)s, skipping."
+msgstr "Nespēj rakstīt %(device)s, šis solis tiek izlaists."
+
+#: ../tails_installer/creator.py:697
+#, python-format
+msgid ""
+"Some partitions of the target device %(device)s are mounted. They will be "
+"unmounted before starting the installation process."
+msgstr "Uz mērķa ierīces %(device)s ir uzmontēti daži nodalījumi. Tie tiks nomontēti pirms instalēšanas procesa sākšanas."
+
+#: ../tails_installer/creator.py:740 ../tails_installer/creator.py:964
+msgid "Unknown filesystem.  Your device may need to be reformatted."
+msgstr "Nezināma datņu sistēma.  Iespējams, ierīci nepieciešams pārformatēt."
+
+#: ../tails_installer/creator.py:743 ../tails_installer/creator.py:967
+#, python-format
+msgid "Unsupported filesystem: %s"
+msgstr "Datņu sistēma, kura netiek atbalstīta: %s"
+
+#: ../tails_installer/creator.py:760
+#, python-format
+msgid "Unknown GLib exception while trying to mount device: %(message)s"
+msgstr "Nezināms GLib izņēmums, montējot ierīci: %(message)s"
+
+#: ../tails_installer/creator.py:764
+#, python-format
+msgid "Unable to mount device: %(message)s"
+msgstr "Nespēj montēt iekārtu: %(message)s"
+
+#: ../tails_installer/creator.py:769
+msgid "No mount points found"
+msgstr "Montēšanas punkti netika atrasti"
+
+#: ../tails_installer/creator.py:780
+#, python-format
+msgid "Entering unmount_device for '%(device)s'"
+msgstr "Ievada unmount_device objektam '%(device)s'"
+
+#: ../tails_installer/creator.py:790
+#, python-format
+msgid "Unmounting mounted filesystems on '%(device)s'"
+msgstr "Nomontē uz '%(device)s' uzmontētās datņu sistēmas"
+
+#: ../tails_installer/creator.py:794
+#, python-format
+msgid "Unmounting '%(udi)s' on '%(device)s'"
+msgstr "Nomontē  '%(udi)s' , kurš atrodas uz '%(device)s'"
+
+#: ../tails_installer/creator.py:804
+#, python-format
+msgid "Mount %s exists after unmounting"
+msgstr "Pēc nomontēšanas pastāv montējums %s"
+
+#: ../tails_installer/creator.py:817
+#, python-format
+msgid "Partitioning device %(device)s"
+msgstr "Nodalīšanas ierīce %(device)s"
+
+#: ../tails_installer/creator.py:895
+#, python-format
+msgid "Updating properties of system partition %(system_partition)s"
+msgstr "Jaunina sistēmas nodalījuma īpašības %(system_partition)s"
+
+#: ../tails_installer/creator.py:949
+#, python-format
+msgid "Unsupported device '%(device)s', please report a bug."
+msgstr "Neatbalstīta ierīce '%(device)s', lūdzu ziņojiet par šo kļūdi."
+
+#: ../tails_installer/creator.py:952
+msgid "Trying to continue anyway."
+msgstr "Lai vai kas, cenšas turpināt."
+
+#: ../tails_installer/creator.py:961 ../tails_installer/creator.py:1354
+msgid "Verifying filesystem..."
+msgstr "Verificē datņu sistēmu..."
+
+#: ../tails_installer/creator.py:985
+#, python-format
+msgid "Unable to change volume label: %(message)s"
+msgstr "Nespēj mainīt sējuma iezīmi: %(message)s"
+
+#: ../tails_installer/creator.py:990 ../tails_installer/creator.py:1387
+msgid "Installing bootloader..."
+msgstr "Instalē sāknēšanas lādētāju..."
+
+#: ../tails_installer/creator.py:1016
+#, python-format
+msgid "Could not find the '%s' COM32 module"
+msgstr "Neizdevās atrast '%s' COM32 moduli"
+
+#: ../tails_installer/creator.py:1024 ../tails_installer/creator.py:1405
+#, python-format
+msgid "Removing %(file)s"
+msgstr "Noņem %(file)s"
+
+#: ../tails_installer/creator.py:1136
+#, python-format
+msgid "%s already bootable"
+msgstr "%s jau ir sāknējams"
+
+#: ../tails_installer/creator.py:1156
+msgid "Unable to find partition"
+msgstr "Nespēj atrast nodalījumu"
+
+#: ../tails_installer/creator.py:1179
 #, python-format
 msgid "Formatting %(device)s as FAT32"
 msgstr "Formatē %(device)s kā FAT32"
 
-#: ../liveusb/creator.py:150
-msgid "ISO MD5 checksum passed"
-msgstr "ISO MD5 kontrolsumma bija sekmīga"
+#: ../tails_installer/creator.py:1239
+msgid "Could not find syslinux' gptmbr.bin"
+msgstr "Neizdevās atrast syslinux' gptmbr.bin"
 
-#: ../liveusb/creator.py:148
-msgid "ISO MD5 checksum verification failed"
-msgstr "ISO MD5 kontrolsummas verifikācija bija nesekmīga"
+#: ../tails_installer/creator.py:1252
+#, python-format
+msgid "Reading extracted MBR from %s"
+msgstr "Lasa no %s izgūto MBR "
 
-#: ../liveusb/dialog.py:163
+#: ../tails_installer/creator.py:1256
+#, python-format
+msgid "Could not read the extracted MBR from %(path)s"
+msgstr "Neidzevās nolasīt no %(path)s izgūto MBR"
+
+#: ../tails_installer/creator.py:1269 ../tails_installer/creator.py:1270
+#, python-format
+msgid "Resetting Master Boot Record of %s"
+msgstr "Atiestata %s pamatsāknēšanas ierakstu jeb MBR"
+
+#: ../tails_installer/creator.py:1275
+msgid "Drive is a loopback, skipping MBR reset"
+msgstr "Disks ir cilptestā, tiek izlaista MBR atiestatīšana"
+
+#: ../tails_installer/creator.py:1279 ../tails_installer/creator.py:1533
+#, python-format
+msgid "Calculating the SHA1 of %s"
+msgstr "Aprēķina %s SHA1"
+
+#: ../tails_installer/creator.py:1304
+msgid "Synchronizing data on disk..."
+msgstr "Sinhronizē datus uz diska..."
+
+#: ../tails_installer/creator.py:1346
+msgid "Error probing device"
+msgstr "Kļūda pētot ierīci"
+
+#: ../tails_installer/creator.py:1348
+msgid "Unable to find any supported device"
+msgstr "Nevarēja atrast jebkādu atbalstītu ierīci"
+
+#: ../tails_installer/creator.py:1358
 msgid ""
-"If you do not select an existing Live ISO, the selected release will be "
-"downloaded for you."
-msgstr "Ja neizvēlēsities esošu Dzīvu ISO, tiks lejuplādēts atlasītais izlaidums."
+"Make sure your USB key is plugged in and formatted with the FAT filesystem"
+msgstr "Pārliecinieties, ka USB atslēga ir iesprausta un formatēta kā FAT datņu sistēma"
 
-#: ../liveusb/launcher_ui.py:154
+#: ../tails_installer/creator.py:1361
+#, python-format
 msgid ""
-"Install\n"
-"by cloning"
-msgstr "Instalēt\nklonējot"
+"Unsupported filesystem: %s\n"
+"Please backup and format your USB key with the FAT filesystem."
+msgstr "Neatbalstīta datņu sistēma: %s\nLūdzu veiciet datu rezerves kopēšanu un formatējiet savu USB atslēgu kā FAT datņu sistēmu."
 
-#: ../liveusb/dialog.py:172
-msgid "Install Tails"
-msgstr "Instalēt Tails"
+#: ../tails_installer/creator.py:1428
+msgid ""
+"Unable to get Win32_LogicalDisk; win32com query did not return any results"
+msgstr "Nespēj sasniegt Win32_LogicalDisk; win32com vaicājums nesniedza atbildes"
 
-#: ../liveusb/gui.py:645
-msgid "Installation complete!"
-msgstr "Instalēšana ir pabeigta!"
+#: ../tails_installer/creator.py:1481
+msgid "Cannot find"
+msgstr "Nav iespējams atrast"
 
-#: ../liveusb/gui.py:265
+#: ../tails_installer/creator.py:1482
+msgid ""
+"Make sure to extract the entire tails-installer zip file before running this"
+" program."
+msgstr "Pirms izpildat šo programmu, pārliecinieties, ka izgūta visa tails-instalētāja zip datne."
+
+#: ../tails_installer/gui.py:69
+#, python-format
+msgid "Unknown release: %s"
+msgstr "Nezināms laidiens: %s"
+
+#: ../tails_installer/gui.py:73
+#, python-format
+msgid "Downloading %s..."
+msgstr "Lejuplādē %s..."
+
+#: ../tails_installer/gui.py:204
+msgid ""
+"Error: Cannot set the label or obtain the UUID of your device.  Unable to "
+"continue."
+msgstr "Kļūda: Nav iespējams iegūt ierīces UUID vai piešķirt iezīmi. Nespēj turpināt."
+
+#: ../tails_installer/gui.py:253
 #, python-format
 msgid "Installation complete! (%s)"
 msgstr "Instalēšana pabeigta! (%s)"
 
-#: ../liveusb/gui.py:646
-msgid "Installation was completed. Press OK to close this program."
-msgstr "Instalēšana ir pabeigta. Nospiediet Labi, lai aizvērtu programmu."
+#: ../tails_installer/gui.py:258
+msgid "Tails installation failed!"
+msgstr "Tails instalācija neizdevās!"
 
-#: ../liveusb/creator.py:990 ../liveusb/creator.py:1313
-msgid "Installing bootloader..."
-msgstr "Instalē sāknēšanas lādētāju..."
+#: ../tails_installer/gui.py:353
+msgid ""
+"Warning: This tool needs to be run as an Administrator. To do this, right "
+"click on the icon and open the Properties. Under the Compatibility tab, "
+"check the \"Run this program as an administrator\" box."
+msgstr "Brīdinājums: Šis rīks jālieto administratora režīmā. Lai to izdarītu, ar labo peles taustiņu noklikšķiniet uz ikonas un atveriet Rekvizītus. Verot cilni Savietojamība, atzīmējiet lodziņu \"Izpildīt programmu administratora režīmā\"."
 
-#: ../liveusb/gui.py:454
+#: ../tails_installer/gui.py:365 ../tails_installer/launcher.py:31
+msgid "Tails Installer"
+msgstr "Tails instalētājs"
+
+#: ../tails_installer/gui.py:440
+msgid "No device suitable to install Tails could be found"
+msgstr "Neizdevās atrast nevienu ierīci, kas spēj instalēt Tails"
+
+#: ../tails_installer/gui.py:442
+#, python-format
+msgid "Please plug a USB flash drive or SD card of at least %0.1f GB."
+msgstr "Lūdzu pievienojiet USB zibatmiņu vai SD karti, kuru ietilpība ir vismaz %0.1f GB."
+
+#: ../tails_installer/gui.py:474
+#, python-format
+msgid "%(size)s %(label)s"
+msgstr "%(size)s %(label)s"
+
+#: ../tails_installer/gui.py:480
+#, python-format
+msgid "%(vendor)s %(model)s (%(details)s) - %(device)s"
+msgstr "%(vendor)s %(model)s (%(details)s) - %(device)s"
+
+#: ../tails_installer/gui.py:488
+#, python-format
+msgid ""
+"The USB stick \"%(pretty_name)s\" is configured as non-removable by its "
+"manufacturer and Tails will fail to start on it. Please try installing on a "
+"different model."
+msgstr "USB disku \"%(pretty_name)s\" tā ražotājs ir nokonfigurējis kā nenoņemamu, un Tails neizdosies no tā startēt. Lūdzu mēģiniet instalēt uz cita modeļa."
+
+#: ../tails_installer/gui.py:498
+#, python-format
+msgid ""
+"The device \"%(pretty_name)s\" is too small to install Tails (at least "
+"%(size)s GB is required)."
+msgstr "Ierīce \"%(pretty_name)s\" ir pārāk maza, lai instalētu Tails (ir nepieciešams vismaz %(size)s GB)."
+
+#: ../tails_installer/gui.py:511
+msgid "\"Install by cloning\""
+msgstr "\"Instalēt klonējot\""
+
+#: ../tails_installer/gui.py:513
+msgid "\"Install from ISO\""
+msgstr "\"Instalēt no ISO\""
+
+#: ../tails_installer/gui.py:514
 #, python-format
 msgid ""
 "It is impossible to upgrade the device %(pretty_name)s because it was not "
@@ -240,350 +367,42 @@ msgid ""
 "Tails on this device."
 msgstr "Ierīci %(pretty_name)s nav iespējams atjaunināt, jo tā nav izveidota ar Tails instalēšanas programmu. Jums drīzāk vajadzētu veikt %(action)s , lai uz šīs ierīces atjauninātu Tails."
 
-#: ../liveusb/gui.py:270
-msgid "LiveUSB creation failed!"
-msgstr "LiveUSB izveide neizdevās!"
+#: ../tails_installer/gui.py:533
+msgid "An error happened while installing Tails"
+msgstr "Instalējot Tails radās kļūda"
 
-#: ../liveusb/creator.py:1408
-msgid ""
-"Make sure to extract the entire liveusb-creator zip file before running this"
-" program."
-msgstr "Pirms sākat šo programmu, pārliecinieties, ka tiek izvērsta visa tilpdatne jeb zipfails liveusb-creator."
-
-#: ../liveusb/creator.py:1284
-msgid ""
-"Make sure your USB key is plugged in and formatted with the FAT filesystem"
-msgstr "Pārliecinieties, ka USB atslēga ir iesprausta un formatēta kā FAT datņu sistēma"
-
-#: ../liveusb/creator.py:859
-#, python-format
-msgid "Mount %s exists after unmounting"
-msgstr "Pēc nomontēšanas pastāv montējums %s"
-
-#: ../liveusb/gui.py:588
-#, python-format
-msgid "No free space on device %(device)s"
-msgstr "Uz ierīces %(device)s nav brīvas vietas"
-
-#: ../liveusb/creator.py:826
-msgid "No mount points found"
-msgstr "Montēšanas punkti netika atrasti"
-
-#: ../liveusb/creator.py:410
-#, python-format
-msgid ""
-"Not enough free space on device.\n"
-"%dMB ISO + %dMB overlay > %dMB free space"
-msgstr "Uz ierīces nav pietiekami daudz brīvas vietas.\n%dMB ISO + %dMB pārklājums > %dMB brīvas vietas"
-
-#: ../liveusb/gui.py:569
-msgid "Partition is FAT16; Restricting overlay size to 2G"
-msgstr "Nodalījums ir FAT16; Pārklājuma izmērs tiek ierobežots līdz 2G"
-
-#: ../liveusb/gui.py:565
-msgid "Partition is FAT32; Restricting overlay size to 4G"
-msgstr "Nodalījums ir FAT32. Pārklājuma izmērs tiek ierobežots līdz 4G."
-
-#: ../liveusb/creator.py:236 ../liveusb/creator.py:866
-#, python-format
-msgid "Partitioning device %(device)s"
-msgstr "Nodalīšanas ierīce %(device)s"
-
-#: ../liveusb/gui.py:636
-msgid "Persistent Storage"
-msgstr "Pastāvīgā krātuve"
-
-#: ../liveusb/dialog.py:168
-msgid "Persistent Storage (0 MB)"
-msgstr "Pastāvīga glabātuve (0 MB)"
-
-#: ../liveusb/gui.py:698 ../liveusb/gui.py:727
-msgid "Please confirm your device selection"
-msgstr "Lūdzu, apstipriniet savu ierīces izvēli"
-
-#: ../liveusb/gui.py:481
+#: ../tails_installer/gui.py:545
 msgid "Refreshing releases..."
 msgstr "Atsvaidzinoši izlaidumi..."
 
-#: ../liveusb/gui.py:486
+#: ../tails_installer/gui.py:550
 msgid "Releases updated!"
 msgstr "Laidieni atjaunināti!"
 
-#: ../liveusb/creator.py:997 ../liveusb/creator.py:1331
-#, python-format
-msgid "Removing %(file)s"
-msgstr "Noņem %(file)s"
+#: ../tails_installer/gui.py:589
+msgid "Installation complete!"
+msgstr "Instalēšana ir pabeigta!"
 
-#: ../liveusb/creator.py:492
-msgid "Removing existing Live OS"
-msgstr "Noņem esošo Live OS"
+#: ../tails_installer/gui.py:590
+msgid "Installation was completed."
+msgstr "Instalācija ir pabeigta."
 
-#: ../liveusb/creator.py:1186
-#, python-format
-msgid "Resetting Master Boot Record of %s"
-msgstr "Atiestata %s pamatsāknēšanas ierakstu jeb MBR"
-
-#: ../liveusb/gui.py:789
-msgid "Select Live ISO"
-msgstr "Izvēlēties Live ISO"
-
-#: ../liveusb/creator.py:192
-msgid "Setting up OLPC boot file..."
-msgstr "Iestata OLPC sāknēšanas datni..."
-
-#: ../liveusb/creator.py:742
-#, python-format
-msgid ""
-"Some partitions of the target device %(device)s are mounted. They will be "
-"unmounted before starting the installation process."
-msgstr "Uz mērķa ierīces %(device)s ir uzmontēti daži nodalījumi. Tie tiks nomontēti pirms instalēšanas procesa sākšanas."
-
-#: ../liveusb/creator.py:141
-msgid ""
-"Source type does not support verification of ISO MD5 checksum, skipping"
-msgstr "Avota veids neatbalsta ISO kontrolsummas MD5 verifikāciju, šis solis tiek izlaists"
-
-#: ../liveusb/creator.py:1220
-msgid "Synchronizing data on disk..."
-msgstr "Sinhronizē datus uz diska..."
-
-#: ../liveusb/dialog.py:166
-msgid "Target Device"
-msgstr "Mērķierīce"
-
-#: ../liveusb/gui.py:438
-#, python-format
-msgid ""
-"The device \"%(pretty_name)s\" is too small to install Tails (at least "
-"%(size)s GB is required)."
-msgstr "Ierīce \"%(pretty_name)s\" ir pārāk maza, lai instalētu Tails (ir nepieciešams vismaz %(size)s GB)."
-
-#: ../liveusb/gui.py:792
-msgid ""
-"The selected file is unreadable. Please fix its permissions or select "
-"another file."
-msgstr "Atlasīto datni nav iespējams lasīt. Lūdzu sakārtojiet atļaujas vai izvēlieties citu datni. "
-
-#: ../liveusb/creator.py:354
-#, python-format
-msgid ""
-"There was a problem executing the following command: `%(command)s`.\n"
-"A more detailed error log has been written to '%(filename)s'."
-msgstr "Radās problēmsituācija izpildot komandu: `%(command)s`.\nDetalizētāks kļūdas žurnāls tika ierakstīts '%(filename)s'."
-
-#: ../liveusb/dialog.py:158
-msgid ""
-"This button allows you to browse for an existing Live system ISO that you "
-"have previously downloaded.  If you do not select one, a release will be "
-"downloaded for you automatically."
-msgstr "Šī poga ļauj meklēt esošu, iepriekš lejuplādētu Dzīvu sistēmu ISO. Neatzīmējot nevienu, automātiski tiks lejuplādēts laidiens."
-
-#: ../liveusb/dialog.py:171
-msgid ""
-"This button will begin the LiveUSB creation process.  This entails "
-"optionally downloading a release (if an existing one wasn't selected),  "
-"extracting the ISO to the USB device, creating the persistent overlay, and "
-"installing the bootloader."
-msgstr "Šī poga aizsāk LiveUSB izveides procesu. Tas nozīmē laidiena lejuplādi (pēc izvēles, un, ja nav atlasīts esošs laidiens), ISO izvēršanu uz USB zibatmiņas ierīces, pastāvīga pārklājuma izveidošanu un sāknēšanas ielādētāja instalāciju."
-
-#: ../liveusb/dialog.py:165
-msgid ""
-"This is the USB stick that you want to install your Live system on.  This "
-"device must be formatted with the FAT filesystem."
-msgstr "Uz šīs USB zibatmiņas vēlaties instalēt savu Dzīvo sistēmu. Šī ierīce jāformatē ar datņu sistēmu FAT."
-
-#: ../liveusb/dialog.py:170
-msgid ""
-"This is the progress bar that will indicate how far along in the LiveUSB "
-"creation process you are"
-msgstr "Norises josla rāda cik tālu aizritējis LiveUSB izveidošanas process"
-
-#: ../liveusb/dialog.py:169
-msgid "This is the status console, where all messages get written to."
-msgstr "Šis ir statusa žurnāls, kurā tiek ierakstīti visi ziņojumi."
-
-#: ../liveusb/creator.py:952
-msgid "Trying to continue anyway."
-msgstr "Lai vai kas, cenšas turpināt."
-
-#: ../liveusb/gui.py:464
-msgid "USB drive found"
-msgstr "Atrasts USB disks"
-
-#: ../liveusb/creator.py:985
-#, python-format
-msgid "Unable to change volume label: %(message)s"
-msgstr "Nespēj mainīt sējuma iezīmi: %(message)s"
-
-#: ../liveusb/creator.py:501 ../liveusb/creator.py:512
-#, python-format
-msgid "Unable to chmod %(file)s: %(message)s"
-msgstr "Nespēj chmod %(file)s: %(message)s"
-
-#: ../liveusb/creator.py:478
-#, python-format
-msgid "Unable to copy %(infile)s to %(outfile)s: %(message)s"
-msgstr "Nespēj kopēt %(infile)s uz %(outfile)s: %(message)s"
-
-#: ../liveusb/gui.py:403
-msgid "Unable to find any USB drive"
-msgstr "Nespēj atrast vismaz vienu USB disku"
-
-#: ../liveusb/creator.py:1274
-msgid "Unable to find any supported device"
-msgstr "Nevarēja atrast jebkādu atbalstītu ierīci"
-
-#: ../liveusb/creator.py:1117
-msgid "Unable to find partition"
-msgstr "Nespēj atrast nodalījumu"
-
-#: ../liveusb/creator.py:1354
-msgid ""
-"Unable to get Win32_LogicalDisk; win32com query did not return any results"
-msgstr "Nespēj sasniegt Win32_LogicalDisk; win32com vaicājums nesniedza atbildes"
-
-#: ../liveusb/gui.py:691
+#: ../tails_installer/gui.py:635
 msgid "Unable to mount device"
 msgstr "Nespēj uzmontēt ierīci"
 
-#: ../liveusb/creator.py:814
-#, python-format
-msgid "Unable to mount device: %(message)s"
-msgstr "Nespēj montēt iekārtu: %(message)s"
+#: ../tails_installer/gui.py:642 ../tails_installer/gui.py:670
+msgid "Please confirm your device selection"
+msgstr "Lūdzu, apstipriniet savu ierīces izvēli"
 
-#: ../liveusb/creator.py:517
-#, python-format
-msgid "Unable to remove directory from previous LiveOS: %(message)s"
-msgstr "Nespēj noņemt direktoriju no iepriekšējās LiveOS: %(message)s"
-
-#: ../liveusb/creator.py:505
-#, python-format
-msgid "Unable to remove file from previous LiveOS: %(message)s"
-msgstr "Nespēj noņemt datni no iepriekšējās LiveOS: %(message)s"
-
-#: ../liveusb/creator.py:1189
-msgid ""
-"Unable to reset MBR.  You may not have the `syslinux` package installed."
-msgstr "Nespēj atiestatīt MBR.  Iespējams, ka nav instalēta pakotne `syslinux`."
-
-#: ../liveusb/gui.py:798
-msgid ""
-"Unable to use the selected file.  You may have better luck if you move your "
-"ISO to the root of your drive (ie: C:\\)"
-msgstr "Nespēj lietot atlasīto datni.  Iespējams, veiktos labāk, ja ISO tiktu pārvietots uz diska sakni (proti, C:\\)"
-
-#: ../liveusb/creator.py:723
-#, python-format
-msgid "Unable to write on %(device)s, skipping."
-msgstr "Nespēj rakstīt %(device)s, šis solis tiek izlaists."
-
-#: ../liveusb/creator.py:399
-msgid "Unknown ISO, skipping checksum verification"
-msgstr "Nezināms ISO, tiek izlaista kontrolsummas verifikācija"
-
-#: ../liveusb/creator.py:810
-#, python-format
-msgid "Unknown dbus exception while trying to mount device: %(message)s"
-msgstr "Nezināms dbus izņēmums cenšoties montēt iekārtu: %(message)s"
-
-#: ../liveusb/creator.py:791 ../liveusb/creator.py:964
-msgid "Unknown filesystem.  Your device may need to be reformatted."
-msgstr "Nezināma datņu sistēma.  Iespējams, ierīci nepieciešams pārformatēt."
-
-#: ../liveusb/gui.py:85
-#, python-format
-msgid "Unknown release: %s"
-msgstr "Nezināms laidiens: %s"
-
-#: ../liveusb/creator.py:851
-#, python-format
-msgid "Unmounting '%(udi)s' on '%(device)s'"
-msgstr "Nomontē  '%(udi)s' , kurš atrodas uz '%(device)s'"
-
-#: ../liveusb/creator.py:847
-#, python-format
-msgid "Unmounting mounted filesystems on '%(device)s'"
-msgstr "Nomontē uz '%(device)s' uzmontētās datņu sistēmas"
-
-#: ../liveusb/creator.py:949
-#, python-format
-msgid "Unsupported device '%(device)s', please report a bug."
-msgstr "Neatbalstīta ierīce '%(device)s', lūdzu ziņojiet par šo kļūdi."
-
-#: ../liveusb/creator.py:794 ../liveusb/creator.py:967
-#, python-format
-msgid "Unsupported filesystem: %s"
-msgstr "Datņu sistēma, kura netiek atbalstīta: %s"
-
-#: ../liveusb/creator.py:1287
-#, python-format
-msgid ""
-"Unsupported filesystem: %s\n"
-"Please backup and format your USB key with the FAT filesystem."
-msgstr "Neatbalstīta datņu sistēma: %s\nLūdzu veiciet datu rezerves kopēšanu un formatējiet savu USB atslēgu kā FAT datņu sistēmu."
-
-#: ../liveusb/creator.py:892
-#, python-format
-msgid "Updating properties of system partition %(system_partition)s"
-msgstr "Jaunina sistēmas nodalījuma īpašības %(system_partition)s"
-
-#: ../liveusb/launcher_ui.py:156
-msgid ""
-"Upgrade\n"
-"by cloning"
-msgstr "Jaunināt\nklonējot"
-
-#: ../liveusb/launcher_ui.py:158
-msgid ""
-"Upgrade\n"
-"from ISO"
-msgstr "Jaunināt\nno ISO"
-
-#: ../liveusb/dialog.py:159
-msgid "Use existing Live system ISO"
-msgstr "Lietot esošo Dzīvas sistēmas ISO"
-
-#: ../liveusb/creator.py:143
-msgid "Verifying ISO MD5 checksum"
-msgstr "Verificē ISO MD5 kontrolsummu"
-
-#: ../liveusb/creator.py:373
-msgid "Verifying SHA1 checksum of LiveCD image..."
-msgstr "Verificē LiveCD attēla kontrolsummu SHA1..."
-
-#: ../liveusb/creator.py:377
-msgid "Verifying SHA256 checksum of LiveCD image..."
-msgstr "Verificē LiveCD attēla kontrolsummu SHA256..."
-
-#: ../liveusb/creator.py:961 ../liveusb/creator.py:1280
-msgid "Verifying filesystem..."
-msgstr "Verificē datņu sistēmu..."
-
-#: ../liveusb/gui.py:725
-msgid ""
-"Warning: Creating a new persistent overlay will delete your existing one."
-msgstr "Brīdinājums: Jauna pastāvīga pārklājuma izveide, dzēsīs esošo."
-
-#: ../liveusb/gui.py:377
-msgid ""
-"Warning: This tool needs to be run as an Administrator. To do this, right "
-"click on the icon and open the Properties. Under the Compatibility tab, "
-"check the \"Run this program as an administrator\" box."
-msgstr "Brīdinājums: Šis rīks jālieto administratora režīmā. Lai to izdarītu, ar labo peles taustiņu noklikšķiniet uz ikonas un atveriet Rekvizītus. Verot cilni Savietojamība, atzīmējiet lodziņu \"Izpildīt programmu administratora režīmā\"."
-
-#: ../liveusb/creator.py:162
-#, python-format
-msgid "Wrote to device at %(speed)d MB/sec"
-msgstr "Ieraksts ierīcē tika veikts ar ātrumu %(speed)d MB/sec"
-
-#: ../liveusb/gui.py:699
+#: ../tails_installer/gui.py:643
 #, python-format
 msgid ""
 "You are going to install Tails on the %(size)s %(vendor)s %(model)s device "
 "(%(device)s). All data on the selected device will be lost. Continue?"
 msgstr "Tūliņ Jūs instalēsit Tails uz %(size)s %(vendor)s %(model)s ierīces (%(device)s). Uz izvēlētās ierīces pazudīs visi dati. Vai turpināt?"
 
-#: ../liveusb/gui.py:715
+#: ../tails_installer/gui.py:660
 #, python-format
 msgid ""
 "You are going to upgrade Tails on the %(parent_size)s %(vendor)s %(model)s "
@@ -591,20 +410,169 @@ msgid ""
 "unchanged. Continue?"
 msgstr "Tūliņ Jūs jaunināsiet Tails uz %(parent_size)s %(vendor)s %(model)s ierīces (%(device)s). Uz šīs ierīces ikviens pastāvīgs sējums paliks nemainīts. Vai turpināt?"
 
-#: ../liveusb/creator.py:622
-msgid ""
-"You are using an old version of syslinux-extlinux that does not support the "
-"ext4 filesystem"
-msgstr "Tiek lietota veca syslinux-extlinux versija, kura neatbalsta datņu sistēmu ext4 "
+#: ../tails_installer/gui.py:716
+msgid "Download complete!"
+msgstr "Lejupielāde pabeigta!"
 
-#: ../liveusb/gui.py:783
+#: ../tails_installer/gui.py:720
+msgid "Download failed: "
+msgstr "Lejupielāde neizdevās: "
+
+#: ../tails_installer/gui.py:721
 msgid "You can try again to resume your download"
 msgstr "Variet vēlreiz mēģināt atjaunot lejupielādi"
 
-#: ../liveusb/creator.py:95
-msgid "You must run this application as root"
-msgstr "Šī lietotne jāizpilda saknes režīmā"
+#: ../tails_installer/gui.py:729
+msgid ""
+"The selected file is unreadable. Please fix its permissions or select "
+"another file."
+msgstr "Atlasīto datni nav iespējams lasīt. Lūdzu sakārtojiet atļaujas vai izvēlieties citu datni. "
 
-#: ../liveusb/dialog.py:162
-msgid "or"
-msgstr "vai"
+#: ../tails_installer/gui.py:735
+msgid ""
+"Unable to use the selected file.  You may have better luck if you move your "
+"ISO to the root of your drive (ie: C:\\)"
+msgstr "Nespēj lietot atlasīto datni.  Iespējams, veiktos labāk, ja ISO tiktu pārvietots uz diska sakni (proti, C:\\)"
+
+#: ../tails_installer/gui.py:741
+#, python-format
+msgid "%(filename)s selected"
+msgstr "%(filename)s izvēlēts"
+
+#: ../tails_installer/source.py:28
+msgid "Unable to find LiveOS on ISO"
+msgstr "Uz ISO neizdevās atrast LiveOS"
+
+#: ../tails_installer/source.py:34
+#, python-format
+msgid "Could not guess underlying block device: %s"
+msgstr "Neizdevās uzminēt pamata blokierīci: %s"
+
+#: ../tails_installer/source.py:49
+#, python-format
+msgid ""
+"There was a problem executing `%s`.\n"
+"%s\n"
+"%s"
+msgstr "Radās problēma izpildot `%s`.\n%s\n%s"
+
+#: ../tails_installer/source.py:63
+#, python-format
+msgid "'%s' does not exist"
+msgstr "'%s' nepastāv"
+
+#: ../tails_installer/source.py:65
+#, python-format
+msgid "'%s' is not a directory"
+msgstr "'%s' nav direktorijs"
+
+#: ../tails_installer/source.py:75
+#, python-format
+msgid "Skipping '%(filename)s'"
+msgstr "Izlaiž '%(filename)s'"
+
+#: ../tails_installer/utils.py:44
+#, python-format
+msgid ""
+"There was a problem executing `%s`.%s\n"
+"%s"
+msgstr "Radās problēma izpildot `%s`.%s\n%s"
+
+#: ../tails_installer/utils.py:119
+msgid "Could not open device for writing."
+msgstr "Ierīci neizdevās atvērt rakstīšanai."
+
+#: ../data/tails-installer.ui.h:1
+msgid "Use existing Live system ISO:"
+msgstr "Izmanto esošo sistēmas Live ISO:"
+
+#: ../data/tails-installer.ui.h:2
+msgid "Select a distribution to download:"
+msgstr "Atlasiet sadali lejuplādei:"
+
+#: ../data/tails-installer.ui.h:3
+msgid "Target Device:"
+msgstr "Mērķa ierīce:"
+
+#: ../data/tails-installer.ui.h:4
+msgid "Install Tails"
+msgstr "Instalēt Tails"
+
+#: ../data/tails-installer-launcher.ui.h:1
+msgid ""
+"To run Tails Installer you need an ISO image which can be downloaded from "
+"the Tails website: <a "
+"href=\"https://tails.boum.org/download/\">https://tails.boum.org/download/</a>"
+msgstr "Lai izpildītu Tails Instalētāju, Jums nepieciešams ISO attēls, kuru var lejuplādēt no Tails mājaslapas: <a href=\"https://tails.boum.org/download/\">https://tails.boum.org/download/</a>"
+
+#: ../data/tails-installer-launcher.ui.h:2
+msgid "Install"
+msgstr "Instalēt"
+
+#: ../data/tails-installer-launcher.ui.h:3
+msgid "• Install Tails on a new USB stick."
+msgstr "Instalēt Tails uz jauna USB diska."
+
+#: ../data/tails-installer-launcher.ui.h:4
+msgid "• The USB stick that you install on is formatted and all data is lost."
+msgstr "USB disks, uz kura instalējat, ir formatēts, un visi dati tiks izdzēsti."
+
+#: ../data/tails-installer-launcher.ui.h:5
+msgid "Upgrade"
+msgstr "Jaunināt"
+
+#: ../data/tails-installer-launcher.ui.h:6
+msgid "• Upgrade a Tails USB stick to the version of an ISO image."
+msgstr "Jaunināt Tails USB disku uz ISO atēla versiju."
+
+#: ../data/tails-installer-launcher.ui.h:7
+msgid ""
+"• The encrypted persistent storage of the Tails USB stick that you upgrade "
+"is preserved."
+msgstr "Tiks saglabāta tā Tails USB diska, kuru jaunināt, šifrētā pastāvīgā krātuve. "
+
+#: ../data/tails-installer-launcher.ui.h:8
+msgid ""
+"Need help? Read the <a "
+"href=\"https://tails.boum.org/doc/first_steps/installation/\">documentation</a>"
+msgstr "Nepieciešama palīdzība? Lasiet <a href=\"https://tails.boum.org/doc/first_steps/installation/\">dokumentāciju</a>"
+
+#: ../data/tails-installer-launcher.ui.h:9
+msgid "Install by cloning"
+msgstr "Instalēt klonējot"
+
+#: ../data/tails-installer-launcher.ui.h:10
+msgid ""
+"• Install Tails on another USB stick by copying the Tails system that you "
+"are currently using."
+msgstr "Kopējot Jūsu šobrīd izmantoto Tails sistēmu, instalēt Tails uz cita USB diska."
+
+#: ../data/tails-installer-launcher.ui.h:11
+msgid ""
+"• The encrypted persistent storage of the Tails USB stick that you are "
+"currently using is not copied."
+msgstr "Nav nokopēta šifrētā pastāvīgā krātuve Jūsu šobrīd izmantotajam Tails USB diskam. "
+
+#: ../data/tails-installer-launcher.ui.h:12
+msgid "Upgrade by cloning"
+msgstr "Jaunināt klonējot"
+
+#: ../data/tails-installer-launcher.ui.h:13
+msgid ""
+"• Upgrade another Tails USB stick to the same version of Tails that you are "
+"currently using."
+msgstr "Jaunināt citu Tails USB disku uz Jūsu šobrīd izmantoto Tails versiju."
+
+#: ../data/tails-installer-launcher.ui.h:14
+msgid "Upgrade from ISO"
+msgstr "Jaunināt no ISO"
+
+#: ../data/tails-installer-launcher.ui.h:15
+msgid "• Upgrade another Tails USB stick to the version of an ISO image."
+msgstr "Jaunināt citu Tails USB disku uz ISO atēla versiju."
+
+#: ../data/tails-installer-launcher.ui.h:16
+msgid ""
+"Need help? Read the <a "
+"href=\"file:///usr/share/doc/tails/website/doc/first_steps/installation.en.html\">documentation</a>"
+msgstr "Nepieciešama palīdzība? Lasiet <a href=\"file:///usr/share/doc/tails/website/doc/first_steps/installation.en.html\">dokumentāciju</a>"
