@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-03-20 09:46+0100\n"
+"POT-Creation-Date: 2017-06-10 12:27+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Acooldude <chibqc@gmail.com>, 2016\n"
 "Language-Team: Vietnamese (https://www.transifex.com/otf/teams/1519/vi/)\n"
@@ -90,7 +90,7 @@ msgstr "Làm giả tất cả địa chỉ MAC (mặc định)"
 msgid "Don't spoof MAC addresses"
 msgstr "Không làm giả địa chỉ MAC"
 
-#: ../data/greeter.ui.h:17 ../tailsgreeter/gui.py:529
+#: ../data/greeter.ui.h:17 ../tailsgreeter/gui.py:532
 msgid "Cannot unlock encrypted storage with this passphrase."
 msgstr "Không thể mở khóa vùng lưu trữ bị mã hóa với mật khẩu này."
 
@@ -159,8 +159,8 @@ msgstr "Cấu hình dung lượng bền vững"
 msgid "Enter your passphrase to unlock the persistent storage"
 msgstr "Nhập mật khẩu của bạn để mở khóa dung lượng bền vững"
 
-#: ../data/greeter.ui.h:33 ../tailsgreeter/gui.py:475
-#: ../tailsgreeter/gui.py:525
+#: ../data/greeter.ui.h:33 ../tailsgreeter/gui.py:478
+#: ../tailsgreeter/gui.py:528
 msgid "Unlock"
 msgstr "Mở khóa"
 
@@ -205,8 +205,8 @@ msgid "Connect directly to the Tor network (default)"
 msgstr "Kết nối trực tiếp tới mạng lưới Tor (mặc định)"
 
 #: ../data/greeter.ui.h:42
-msgid "Configure a Tor bridge, firewall, or proxy settings"
-msgstr "Cấu hình một cầu nối Tor, tường lửa, hoặc những cài đặt ủy quyền"
+msgid "Configure a Tor bridge or local proxy"
+msgstr "Cấu hình một cầu nối Tor hay một đại diện (proxy) địa phương"
 
 #: ../data/greeter.ui.h:43
 msgid "Disable all networking"
@@ -240,7 +240,7 @@ msgstr "Mở (mặc định)"
 msgid "_Network Connection"
 msgstr "_Network Connection"
 
-#: ../data/greeter.ui.h:50 ../tailsgreeter/gui.py:382
+#: ../data/greeter.ui.h:50 ../tailsgreeter/gui.py:385
 msgid "Direct (default)"
 msgstr "Trực tiếp (mặc định)"
 
@@ -248,48 +248,48 @@ msgstr "Trực tiếp (mặc định)"
 msgid "_Windows Camouflage"
 msgstr "_Windows Camouflage"
 
-#: ../tailsgreeter/gui.py:388
+#: ../tailsgreeter/gui.py:391
 msgid "Bridge & Proxy"
 msgstr "Cầu nối & Ủy quyền"
 
-#: ../tailsgreeter/gui.py:394
+#: ../tailsgreeter/gui.py:397
 msgid "Offline"
 msgstr "Ngoại tuyến"
 
-#: ../tailsgreeter/gui.py:478
+#: ../tailsgreeter/gui.py:481
 msgid "Failed to relock persistent storage."
 msgstr "Thất bại khi khóa dung lượng bền vững lại."
 
-#: ../tailsgreeter/gui.py:496
+#: ../tailsgreeter/gui.py:499
 msgid "Unlocking…"
 msgstr "Đang mở khóa..."
 
-#: ../tailsgreeter/gui.py:591
+#: ../tailsgreeter/gui.py:594
 msgid "Additional Settings"
 msgstr "Những cài đặt thêm"
 
-#: ../tailsgreeter/gui.py:599
+#: ../tailsgreeter/gui.py:602
 msgid "Cancel"
 msgstr "Huỷ bỏ"
 
-#: ../tailsgreeter/gui.py:605
+#: ../tailsgreeter/gui.py:608
 msgid "Add"
 msgstr "Thêm vào"
 
-#: ../tailsgreeter/gui.py:613
+#: ../tailsgreeter/gui.py:616
 msgid "Back"
 msgstr "Trở về"
 
-#: ../tailsgreeter/gui.py:716
+#: ../tailsgreeter/gui.py:730
 msgid "Shutdown"
 msgstr "Tắt trình duyệt"
 
-#: ../tailsgreeter/gui.py:721
+#: ../tailsgreeter/gui.py:735
 msgid "_Start Tails"
 msgstr "_Start Tails"
 
-#. Translators: translate to default:RTL if your language
-#. is written from right to left
+#. Translators: please do not translate this string (it is read from
+#. Gtk translation)
 #: ../tailsgreeter/language.py:133
 msgid "default:LTR"
 msgstr "mặc định:LTR"
@@ -303,7 +303,7 @@ msgstr ""
 "live-persit thất bại với mã trả về {returncode}:\n"
 " {stderr}"
 
-#: ../tailsgreeter/persistence.py:120 ../tailsgreeter/persistence.py:137
+#: ../tailsgreeter/persistence.py:122 ../tailsgreeter/persistence.py:139
 #, python-brace-format
 msgid ""
 "cryptsetup failed with return code {returncode}:\n"
@@ -314,7 +314,7 @@ msgstr ""
 "{stdout}\n"
 "{stderr}"
 
-#: ../tailsgreeter/persistence.py:154
+#: ../tailsgreeter/persistence.py:156
 #, python-brace-format
 msgid ""
 "live-persist failed with return code {returncode}:\n"
@@ -325,7 +325,7 @@ msgstr ""
 "{stdout}\n"
 "{stderr}"
 
-#: ../tailsgreeter/persistence.py:168
+#: ../tailsgreeter/persistence.py:170
 #, python-brace-format
 msgid ""
 "umount failed with return code {returncode}:\n"
