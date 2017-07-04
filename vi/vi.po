@@ -3,7 +3,7 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
-# Acooldude, 2016
+# Acooldude, 2016-2017
 # Hoang Thu Giang <hoanggiang0811@yahoo.com>, 2014
 # Khanh Nguyen <nguyenduykhanh85@gmail.com>, 2015-2016
 # Tho Nguyen <tho.nguyen@savoirfairelinux.com>, 2015
@@ -11,9 +11,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: The Tor Project\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-11-02 21:23+0100\n"
-"PO-Revision-Date: 2016-10-03 04:23+0000\n"
-"Last-Translator: Khanh Nguyen <nguyenduykhanh85@gmail.com>\n"
+"POT-Creation-Date: 2017-06-30 13:14+0200\n"
+"PO-Revision-Date: 2017-07-04 09:34+0000\n"
+"Last-Translator: Acooldude\n"
 "Language-Team: Vietnamese (http://www.transifex.com/otf/torproject/language/vi/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -21,219 +21,346 @@ msgstr ""
 "Language: vi\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
-#: ../liveusb/gui.py:451
-msgid "\"Clone & Install\""
-msgstr "\"Nhân bản và Cài đặt\""
+#: ../tails_installer/creator.py:100
+msgid "You must run this application as root"
+msgstr "Bạn phải chạy ứng dụng này với quyền root"
 
-#: ../liveusb/gui.py:453
-msgid "\"Install from ISO\""
-msgstr "\"Cài đặt từ ISO\""
+#: ../tails_installer/creator.py:146
+msgid "Extracting live image to the target device..."
+msgstr "Đang trích xuất hình ảnh tới ổ đĩa đích..."
 
-#: ../liveusb/dialog.py:157 ../liveusb/launcher_ui.py:153
+#: ../tails_installer/creator.py:153
 #, python-format
-msgid "%(distribution)s Installer"
-msgstr "%(distribution)s Bản cài đặt"
+msgid "Wrote to device at %(speed)d MB/sec"
+msgstr "Đã được viết vào thiết bị ở %(speed)d MB/giây"
 
-#: ../liveusb/gui.py:804
+#: ../tails_installer/creator.py:183
+msgid "Setting up OLPC boot file..."
+msgstr "Đang cài đặt tập tin khởi động OLPC"
+
+#: ../tails_installer/creator.py:302
 #, python-format
-msgid "%(filename)s selected"
-msgstr "%(filename)s được chọn"
-
-#: ../liveusb/gui.py:424
-#, python-format
-msgid "%(size)s %(label)s"
-msgstr "%(size)s %(label)s"
-
-#: ../liveusb/gui.py:430
-#, python-format
-msgid "%(vendor)s %(model)s (%(details)s) - %(device)s"
-msgstr "%(vendor)s %(model)s (%(details)s) - %(device)s"
-
-#: ../liveusb/creator.py:1097
-#, python-format
-msgid "%s already bootable"
-msgstr "%s đã có thể khởi động"
-
-#: ../liveusb/launcher_ui.py:160
 msgid ""
-"<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
-"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
-"p, li { white-space: pre-wrap; }\n"
-"</style></head><body style=\" font-family:'Cantarell'; font-size:11pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">Need help? Read the <a href=\"file:///usr/share/doc/tails/website/doc/first_steps/installation.en.html\"><span style=\" text-decoration: underline; color:#0000ff;\">documentation</span></a>.</p></body></html>"
-msgstr "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\np, li { white-space: pre-wrap; }\n</style></head><body style=\" font-family:'Cantarell'; font-size:11pt; font-weight:400; font-style:normal;\">\n<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">Cần giúp đỡ? Hãy đọc <a href=\"file:///usr/share/doc/tails/website/doc/first_steps/installation.en.html\"><span style=\" text-decoration: underline; color:#0000ff;\">tài liệu</span></a>.</p></body></html>"
+"There was a problem executing the following command: `%(command)s`.\n"
+"A more detailed error log has been written to '%(filename)s'."
+msgstr "Có vấn đề xảy ra khi thực thi lệnh dưới đây: `%(command)s`.\nMột nhật ký chi tiết hơn của lỗi đã được ghi vào '%(filename)s'."
 
-#: ../liveusb/launcher_ui.py:155
-msgid ""
-"<ul>\n"
-"<li>Install Tails on another USB stick by copying the Tails system that you are currently using..</li>\n"
-"\n"
-"<li>The USB stick that you install on is formatted and all data is lost.</li>\n"
-"\n"
-"<li>The encrypted persistent storage of the Tails USB stick that you are currently using is not copied.</li>\n"
-"\n"
-"</ul>"
-msgstr "<ul>\n<li>Cài đặt Tails trên một USB khác bằng cách chép hệ thống Tails mà bạn đang sử dụng..</li>\n\n<li>USB mà bạn cài đặt lên bị định dạng và tất cả dữ liệu đã mất.</li>\n\n<li>Vùng lưu trữ bền vững được mã hóa của USB chứa Tails mà bạn đang sử dụng chưa được sao chép.</li>\n\n</ul>"
+#: ../tails_installer/creator.py:321
+msgid "Verifying SHA1 checksum of LiveCD image..."
+msgstr "Đang xác minh SHA1 checksum của hình ảnh LiveCD..."
 
-#: ../liveusb/launcher_ui.py:157
-msgid ""
-"<ul>\n"
-"<li>Upgrade another Tails USB stick to the same version of Tails that you are currently using.</li>\n"
-"\n"
-"<li>The encrypted persistent storage of the Tails USB stick that you upgrade is preserved.</li>\n"
-"\n"
-"<li>The encrypted persistent storage of the Tails USB stick that you are currently using is not copied.</li>\n"
-"\n"
-"\n"
-"</ul>"
-msgstr "<ul>\n<li>Nâng cấp một USB chứa Tails khác tới cùng phiên bản Tails mà bạn đang sử dụng.</li>\n\n<li>Vùng lưu trữ bên vững đã được mã hóa của USB chứa Tails mà bạn nâng cấp đã được bảo lưu.</li>\n\n<li>Vùng lưu trữ bền vững đã được mã hóa của USB chứa Tails mà bạn đang sử dụng chưa được sao chép.</li>\n\n\n</ul>"
+#: ../tails_installer/creator.py:325
+msgid "Verifying SHA256 checksum of LiveCD image..."
+msgstr "Đang xác minh SHA256 checksum của hình ảnh LiveCD"
 
-#: ../liveusb/launcher_ui.py:159
-msgid ""
-"<ul>\n"
-"<li>Upgrade another Tails USB stick to the version of an ISO image.</li>\n"
-"\n"
-"<li>The encrypted persistent storage of the Tails USB stick that you upgrade is preserved.</li>\n"
-"\n"
-"<li>The encrypted persistent storage of the Tails USB stick that you are currently using is not copied.</li>\n"
-"\n"
-"</ul>"
-msgstr "<ul>\n<li>Nâng cấp một USB khác chứa Tails tới phiên bản của một ISO image.</li>\n\n\n<li>Vùng lưu trữ bền vững đã được mã hóa của USB chứa Tails mà bạn đã nâng cấp đã được bảo lưu.</li>\n\n\n<li>Vùng lưu trữ bền vững đã được mã hóa của USB chứa Tails mà bạn đang sử dụng chưa được sao chép.</li>\n\n\n</ul>"
-
-#: ../liveusb/dialog.py:161
-msgid "Alt+B"
-msgstr "Alt+B"
-
-#: ../liveusb/dialog.py:160
-msgid "Browse"
-msgstr "Duyệt qua"
-
-#: ../liveusb/dialog.py:167
-msgid ""
-"By allocating extra space on your USB stick for a persistent overlay, you "
-"will be able to store data and make permanent modifications to your live "
-"operating system.  Without it, you will not be able to save data that will "
-"persist after a reboot."
-msgstr "Bằng việc phân chia thêm khoảng trống trên USB dành cho một vùng cố định, bạn có thể lưu dữ liệu và tạo sự thay đổi vĩnh viễn đối với hệ thống vận hành hiện nay của bạn. Nếu không có nó, bạn không thể lưu dữ liệu mà có thể tồn tại sau khi khởi động lại."
-
-#: ../liveusb/creator.py:1196 ../liveusb/creator.py:1459
-#, python-format
-msgid "Calculating the SHA1 of %s"
-msgstr "Đang tính toán SHA của %s"
-
-#: ../liveusb/creator.py:1407
-msgid "Cannot find"
-msgstr "Không thể tìm thấy"
-
-#: ../liveusb/creator.py:560
-#, python-format
-msgid "Cannot find device %s"
-msgstr "Không thể tìm thấy thiết bị %s"
-
-#: ../liveusb/creator.py:417
-#, python-format
-msgid "Creating %sMB persistent overlay"
-msgstr "Đang tạo vùng cố định %sMB"
-
-#: ../liveusb/gui.py:582
-msgid ""
-"Device is not yet mounted, so we cannot determine the amount of free space."
-msgstr "Thiết bị chưa được gắn vào, nên chúng tôi không thể xác định dung lượng còn trống"
-
-#: ../liveusb/dialog.py:164
-#, python-format
-msgid "Download %(distribution)s"
-msgstr "Tải về %(distribution)s"
-
-#: ../liveusb/gui.py:778
-msgid "Download complete!"
-msgstr "Tải xuống hoàn tất!"
-
-#: ../liveusb/gui.py:782
-msgid "Download failed: "
-msgstr "Tải xuống thất bại:"
-
-#: ../liveusb/gui.py:89
-#, python-format
-msgid "Downloading %s..."
-msgstr "Đang tải xuống %s"
-
-#: ../liveusb/creator.py:1192
-msgid "Drive is a loopback, skipping MBR reset"
-msgstr "Ổ đĩa là loopback, bỏ qua việc thiết lập lại MBR"
-
-#: ../liveusb/creator.py:837
-#, python-format
-msgid "Entering unmount_device for '%(device)s'"
-msgstr "Đang nhập thiết bị_chưa gắn cho '%(device)s'"
-
-#: ../liveusb/creator.py:1272
-msgid "Error probing device"
-msgstr "Thiết bị gặp lỗi thăm dò"
-
-#: ../liveusb/gui.py:213
-msgid ""
-"Error: Cannot set the label or obtain the UUID of your device.  Unable to "
-"continue."
-msgstr "Lỗi: Không thể gán nhãn hoặc lấy UUID từ thiết bị của bạn. Không thể tiếp tục."
-
-#: ../liveusb/creator.py:393
+#: ../tails_installer/creator.py:341
 msgid ""
 "Error: The SHA1 of your Live CD is invalid.  You can run this program with "
 "the --noverify argument to bypass this verification check."
 msgstr "Lỗi: SHA1 của Live CD không hợp lệ. Bạn có thể chạy chương trình với -noverify argument để bỏ qua việc kiểm tra này."
 
-#: ../liveusb/creator.py:155
-msgid "Extracting live image to the target device..."
-msgstr "Đang trích xuất hình ảnh tới ổ đĩa đích..."
+#: ../tails_installer/creator.py:347
+msgid "Unknown ISO, skipping checksum verification"
+msgstr "ISO không xác định, bỏ qua việc kiểm tra checksum"
 
-#: ../liveusb/creator.py:1140
+#: ../tails_installer/creator.py:358
+#, python-format
+msgid ""
+"Not enough free space on device.\n"
+"%dMB ISO + %dMB overlay > %dMB free space"
+msgstr "Không đủ khoảng trống trên thiết bị\n%dMB ISO + %dMB overlay > %dMB free space"
+
+#: ../tails_installer/creator.py:365
+#, python-format
+msgid "Creating %sMB persistent overlay"
+msgstr "Đang tạo vùng cố định %sMB"
+
+#: ../tails_installer/creator.py:426
+#, python-format
+msgid "Unable to copy %(infile)s to %(outfile)s: %(message)s"
+msgstr "Không thể chép %(infile)s tới %(outfile)s: %(message)s"
+
+#: ../tails_installer/creator.py:440
+msgid "Removing existing Live OS"
+msgstr "Đang loại bỏ Live OS đang tồn tại"
+
+#: ../tails_installer/creator.py:449 ../tails_installer/creator.py:460
+#, python-format
+msgid "Unable to chmod %(file)s: %(message)s"
+msgstr "Không thể chmod %(file)s: %(message)s"
+
+#: ../tails_installer/creator.py:453
+#, python-format
+msgid "Unable to remove file from previous LiveOS: %(message)s"
+msgstr "Không thể gỡ bỏ tập tin từ LiveOS trước: %(message)s"
+
+#: ../tails_installer/creator.py:465
+#, python-format
+msgid "Unable to remove directory from previous LiveOS: %(message)s"
+msgstr "Không thể gỡ bỏ thư mục từ LiveOS trước: %(message)s"
+
+#: ../tails_installer/creator.py:513
+#, python-format
+msgid "Cannot find device %s"
+msgstr "Không thể tìm thấy thiết bị %s"
+
+#: ../tails_installer/creator.py:678
+#, python-format
+msgid "Unable to write on %(device)s, skipping."
+msgstr "Không thể viết lên %(device)s, đang bỏ qua."
+
+#: ../tails_installer/creator.py:697
+#, python-format
+msgid ""
+"Some partitions of the target device %(device)s are mounted. They will be "
+"unmounted before starting the installation process."
+msgstr "Một vài phân vùng của thiết bị %(device)s đã được gắn lên. Chũng sẽ bị gỡ ra trước khi bắt đầu quá trình cài đặt."
+
+#: ../tails_installer/creator.py:740 ../tails_installer/creator.py:964
+msgid "Unknown filesystem.  Your device may need to be reformatted."
+msgstr "Định dạng không xác định. Thiết bị của bạn có thể cần được định dạng lại."
+
+#: ../tails_installer/creator.py:743 ../tails_installer/creator.py:967
+#, python-format
+msgid "Unsupported filesystem: %s"
+msgstr "Tập tin hệ thống không được hỗ trợ: %s"
+
+#: ../tails_installer/creator.py:760
+#, python-format
+msgid "Unknown GLib exception while trying to mount device: %(message)s"
+msgstr "Ngoại lệ GLib chưa biết khi kết nối thiết bị: %(message)s"
+
+#: ../tails_installer/creator.py:764
+#, python-format
+msgid "Unable to mount device: %(message)s"
+msgstr "Không thể gắn thiết bị: %(message)s"
+
+#: ../tails_installer/creator.py:769
+msgid "No mount points found"
+msgstr "Không có ổ đĩa được tìm thấy"
+
+#: ../tails_installer/creator.py:780
+#, python-format
+msgid "Entering unmount_device for '%(device)s'"
+msgstr "Đang nhập thiết bị_chưa gắn cho '%(device)s'"
+
+#: ../tails_installer/creator.py:790
+#, python-format
+msgid "Unmounting mounted filesystems on '%(device)s'"
+msgstr "Đang gỡ tập tin hệ thống đã được gắn trên '%(device)s'"
+
+#: ../tails_installer/creator.py:794
+#, python-format
+msgid "Unmounting '%(udi)s' on '%(device)s'"
+msgstr "Đang gỡ '%(udi)s' trên '%(device)s'"
+
+#: ../tails_installer/creator.py:804
+#, python-format
+msgid "Mount %s exists after unmounting"
+msgstr "Việc gắn %s thoát ra sau khi gỡ bỏ"
+
+#: ../tails_installer/creator.py:817
+#, python-format
+msgid "Partitioning device %(device)s"
+msgstr "Đang phân vùng thiết bị %(device)s"
+
+#: ../tails_installer/creator.py:895
+#, python-format
+msgid "Updating properties of system partition %(system_partition)s"
+msgstr "Đang cập nhật thuộc tính của phân vùng hệ thống %(system_partition)s"
+
+#: ../tails_installer/creator.py:949
+#, python-format
+msgid "Unsupported device '%(device)s', please report a bug."
+msgstr "Thiết bị không được hỗ trợ  '%(device)s', vui lòng báo lỗi."
+
+#: ../tails_installer/creator.py:952
+msgid "Trying to continue anyway."
+msgstr "Cứ tiếp tục."
+
+#: ../tails_installer/creator.py:961 ../tails_installer/creator.py:1354
+msgid "Verifying filesystem..."
+msgstr "Đang xác minh tập tin hệ thống..."
+
+#: ../tails_installer/creator.py:985
+#, python-format
+msgid "Unable to change volume label: %(message)s"
+msgstr "Không thể đổi tên ổ đĩa: %(message)s"
+
+#: ../tails_installer/creator.py:990 ../tails_installer/creator.py:1387
+msgid "Installing bootloader..."
+msgstr "Đang cài đặt chương trình khởi động..."
+
+#: ../tails_installer/creator.py:1016
+#, python-format
+msgid "Could not find the '%s' COM32 module"
+msgstr "Đã không thể tìm thấy phần '%s' COM32"
+
+#: ../tails_installer/creator.py:1024 ../tails_installer/creator.py:1405
+#, python-format
+msgid "Removing %(file)s"
+msgstr "Đang loại bỏ %(file)s"
+
+#: ../tails_installer/creator.py:1136
+#, python-format
+msgid "%s already bootable"
+msgstr "%s đã có thể khởi động"
+
+#: ../tails_installer/creator.py:1156
+msgid "Unable to find partition"
+msgstr "Không thể tìm thấy phân vùng"
+
+#: ../tails_installer/creator.py:1179
 #, python-format
 msgid "Formatting %(device)s as FAT32"
 msgstr "Đang định dạng %(device)s ở dạng FAT32"
 
-#: ../liveusb/creator.py:150
-msgid "ISO MD5 checksum passed"
-msgstr "ISO MD5 checksum đã được chấp nhận"
+#: ../tails_installer/creator.py:1239
+msgid "Could not find syslinux' gptmbr.bin"
+msgstr "Đã không thể tìm thấy syslinux' gptmbr.bin"
 
-#: ../liveusb/creator.py:148
-msgid "ISO MD5 checksum verification failed"
-msgstr "Việc kiểm tra ISO MD5 checksum thất bại"
+#: ../tails_installer/creator.py:1252
+#, python-format
+msgid "Reading extracted MBR from %s"
+msgstr "Đọc MBR được giải nén từ %s"
 
-#: ../liveusb/dialog.py:163
+#: ../tails_installer/creator.py:1256
+#, python-format
+msgid "Could not read the extracted MBR from %(path)s"
+msgstr "Đã không thể đọc MBR được giải nén từ %(path)s"
+
+#: ../tails_installer/creator.py:1269 ../tails_installer/creator.py:1270
+#, python-format
+msgid "Resetting Master Boot Record of %s"
+msgstr "Đang thiết lập lại Master Boot Record của %s"
+
+#: ../tails_installer/creator.py:1275
+msgid "Drive is a loopback, skipping MBR reset"
+msgstr "Ổ đĩa là loopback, bỏ qua việc thiết lập lại MBR"
+
+#: ../tails_installer/creator.py:1279 ../tails_installer/creator.py:1533
+#, python-format
+msgid "Calculating the SHA1 of %s"
+msgstr "Đang tính toán SHA của %s"
+
+#: ../tails_installer/creator.py:1304
+msgid "Synchronizing data on disk..."
+msgstr "Đang đồng bộ hóa dữ liệu trên ổ đĩa..."
+
+#: ../tails_installer/creator.py:1346
+msgid "Error probing device"
+msgstr "Thiết bị gặp lỗi thăm dò"
+
+#: ../tails_installer/creator.py:1348
+msgid "Unable to find any supported device"
+msgstr "Không thể tìm thấy bất kỳ thiết bị được hỗ trợ nào"
+
+#: ../tails_installer/creator.py:1358
 msgid ""
-"If you do not select an existing Live ISO, the selected release will be "
-"downloaded for you."
-msgstr "Nếu bạn không chọn một Live ISO hiện có, phiên bản được chọn sẵn sẽ được tải xuống cho bạn"
+"Make sure your USB key is plugged in and formatted with the FAT filesystem"
+msgstr "Cần đảm bảo USB của bạn được cắm vào và được format với định dạng FAT."
 
-#: ../liveusb/launcher_ui.py:154
+#: ../tails_installer/creator.py:1361
+#, python-format
 msgid ""
-"Install\n"
-"by cloning"
-msgstr "Cài đặt\nbằng cách nhân bản"
+"Unsupported filesystem: %s\n"
+"Please backup and format your USB key with the FAT filesystem."
+msgstr "Tập tin hệ thống không được hỗ trợ: %s\nVui lòng sao lưu và định dạng lại USB của bạn với file hệ thống định dạng FAT."
 
-#: ../liveusb/dialog.py:172
-msgid "Install Tails"
-msgstr "Cài đặt Tails"
+#: ../tails_installer/creator.py:1428
+msgid ""
+"Unable to get Win32_LogicalDisk; win32com query did not return any results"
+msgstr "Không thể lấy Win32_LogicalDisk; truy vấn win32com không trả bất kỳ kết quả nào"
 
-#: ../liveusb/gui.py:645
-msgid "Installation complete!"
-msgstr "Cài đặt hoàn tất!"
+#: ../tails_installer/creator.py:1481
+msgid "Cannot find"
+msgstr "Không thể tìm thấy"
 
-#: ../liveusb/gui.py:265
+#: ../tails_installer/creator.py:1482
+msgid ""
+"Make sure to extract the entire tails-installer zip file before running this"
+" program."
+msgstr "Hãy đảm bảo giải nén toàn bộ tệp nén tails-installer trước khi chạy trương trình này."
+
+#: ../tails_installer/gui.py:69
+#, python-format
+msgid "Unknown release: %s"
+msgstr "Phiên bản không xác định: %s"
+
+#: ../tails_installer/gui.py:73
+#, python-format
+msgid "Downloading %s..."
+msgstr "Đang tải xuống %s"
+
+#: ../tails_installer/gui.py:204
+msgid ""
+"Error: Cannot set the label or obtain the UUID of your device.  Unable to "
+"continue."
+msgstr "Lỗi: Không thể gán nhãn hoặc lấy UUID từ thiết bị của bạn. Không thể tiếp tục."
+
+#: ../tails_installer/gui.py:253
 #, python-format
 msgid "Installation complete! (%s)"
 msgstr "Cài đặt hoàn tất! (%s)"
 
-#: ../liveusb/gui.py:646
-msgid "Installation was completed. Press OK to close this program."
-msgstr "Cài đặt đã hoàn tất. Bấm OK để tắt chương trình này"
+#: ../tails_installer/gui.py:258
+msgid "Tails installation failed!"
+msgstr "Việc cài đặt Tails đã thất bại!"
 
-#: ../liveusb/creator.py:990 ../liveusb/creator.py:1313
-msgid "Installing bootloader..."
-msgstr "Đang cài đặt chương trình khởi động..."
+#: ../tails_installer/gui.py:353
+msgid ""
+"Warning: This tool needs to be run as an Administrator. To do this, right "
+"click on the icon and open the Properties. Under the Compatibility tab, "
+"check the \"Run this program as an administrator\" box."
+msgstr "Cảnh báo: Công cụ này cần phải chạy với quyền quản trị. Để làm được điều này, bấm chuột phải vào biểu tượng và mở Thuộc tính. Ở thẻ Tương thích, chọn hộp \"Chạy chương trình với quyền quản trị\"."
 
-#: ../liveusb/gui.py:454
+#: ../tails_installer/gui.py:365 ../tails_installer/launcher.py:31
+msgid "Tails Installer"
+msgstr "Trình cài đặt Tails"
+
+#: ../tails_installer/gui.py:440
+msgid "No device suitable to install Tails could be found"
+msgstr "Đã không thể tìm thấy thiết bị nào phù hợp cho việc cài đặt Tails"
+
+#: ../tails_installer/gui.py:442
+#, python-format
+msgid "Please plug a USB flash drive or SD card of at least %0.1f GB."
+msgstr "Hãy cắm một ổ USB di động hay thẻ SD với dung lượng ít nhất %0.1f GB."
+
+#: ../tails_installer/gui.py:474
+#, python-format
+msgid "%(size)s %(label)s"
+msgstr "%(size)s %(label)s"
+
+#: ../tails_installer/gui.py:480
+#, python-format
+msgid "%(vendor)s %(model)s (%(details)s) - %(device)s"
+msgstr "%(vendor)s %(model)s (%(details)s) - %(device)s"
+
+#: ../tails_installer/gui.py:488
+#, python-format
+msgid ""
+"The USB stick \"%(pretty_name)s\" is configured as non-removable by its "
+"manufacturer and Tails will fail to start on it. Please try installing on a "
+"different model."
+msgstr "Thẻ USB %(pretty_name)s được cấu hình không thể di rời bởi nhà sản xuất và Tails sẽ không khởi động được. Hãy thử cài đặt lên một mẫu USB khác."
+
+#: ../tails_installer/gui.py:498
+#, python-format
+msgid ""
+"The device \"%(pretty_name)s\" is too small to install Tails (at least "
+"%(size)s GB is required)."
+msgstr "Thiết bị \"%(pretty_name)s\" quá nhỏ để cài đặt Tails (yêu cầu ít nhất %(size)s GB)."
+
+#: ../tails_installer/gui.py:511
+msgid "\"Install by cloning\""
+msgstr "\"Cài đặt bằng cách nhân bản\""
+
+#: ../tails_installer/gui.py:513
+msgid "\"Install from ISO\""
+msgstr "\"Cài đặt từ ISO\""
+
+#: ../tails_installer/gui.py:514
 #, python-format
 msgid ""
 "It is impossible to upgrade the device %(pretty_name)s because it was not "
@@ -241,350 +368,42 @@ msgid ""
 "Tails on this device."
 msgstr "Không thể nâng cấp thiết bị %(pretty_name)s bởi vì nó không được tạo thành bằng Tails Installer. Bạn nên dùng %(action)s để nâng cấp Tails trên thiết bị này."
 
-#: ../liveusb/gui.py:270
-msgid "LiveUSB creation failed!"
-msgstr "Việc tạo LiveUSB thất bại!"
+#: ../tails_installer/gui.py:533
+msgid "An error happened while installing Tails"
+msgstr "Một lỗi đã xuất hiện trong khi cài đặt Tails"
 
-#: ../liveusb/creator.py:1408
-msgid ""
-"Make sure to extract the entire liveusb-creator zip file before running this"
-" program."
-msgstr "Cần chắc chắn là trích xuất toàn bộ file nén liveusb-creator trước khi chạy chương trình này."
-
-#: ../liveusb/creator.py:1284
-msgid ""
-"Make sure your USB key is plugged in and formatted with the FAT filesystem"
-msgstr "Cần đảm bảo USB của bạn được cắm vào và được format với định dạng FAT."
-
-#: ../liveusb/creator.py:859
-#, python-format
-msgid "Mount %s exists after unmounting"
-msgstr "Việc gắn %s thoát ra sau khi gỡ bỏ"
-
-#: ../liveusb/gui.py:588
-#, python-format
-msgid "No free space on device %(device)s"
-msgstr "Không có khoảng trống trên thiết bị %(device)s"
-
-#: ../liveusb/creator.py:826
-msgid "No mount points found"
-msgstr "Không có ổ đĩa được tìm thấy"
-
-#: ../liveusb/creator.py:410
-#, python-format
-msgid ""
-"Not enough free space on device.\n"
-"%dMB ISO + %dMB overlay > %dMB free space"
-msgstr "Không đủ khoảng trống trên thiết bị\n%dMB ISO + %dMB overlay > %dMB free space"
-
-#: ../liveusb/gui.py:569
-msgid "Partition is FAT16; Restricting overlay size to 2G"
-msgstr "Phân vùng là FAT16; Dung lượng giới hạn của vùng là 2GB"
-
-#: ../liveusb/gui.py:565
-msgid "Partition is FAT32; Restricting overlay size to 4G"
-msgstr "Phân vùng là FAT32; Dung lượng giới hạn của vùng là 4GB"
-
-#: ../liveusb/creator.py:236 ../liveusb/creator.py:866
-#, python-format
-msgid "Partitioning device %(device)s"
-msgstr "Đang phân vùng thiết bị %(device)s"
-
-#: ../liveusb/gui.py:636
-msgid "Persistent Storage"
-msgstr "Dung lượng bền vững"
-
-#: ../liveusb/dialog.py:168
-msgid "Persistent Storage (0 MB)"
-msgstr "Dung lượng bền vững (0 MB)"
-
-#: ../liveusb/gui.py:698 ../liveusb/gui.py:727
-msgid "Please confirm your device selection"
-msgstr "Vui lòng xác nhận lựa chọn thiết bị của bạn"
-
-#: ../liveusb/gui.py:481
+#: ../tails_installer/gui.py:545
 msgid "Refreshing releases..."
 msgstr "Đang làm mới phiên bản"
 
-#: ../liveusb/gui.py:486
+#: ../tails_installer/gui.py:550
 msgid "Releases updated!"
 msgstr "Phiên bản đã được làm mới!"
 
-#: ../liveusb/creator.py:997 ../liveusb/creator.py:1331
-#, python-format
-msgid "Removing %(file)s"
-msgstr "Đang loại bỏ %(file)s"
+#: ../tails_installer/gui.py:589
+msgid "Installation complete!"
+msgstr "Cài đặt hoàn tất!"
 
-#: ../liveusb/creator.py:492
-msgid "Removing existing Live OS"
-msgstr "Đang loại bỏ Live OS đang tồn tại"
+#: ../tails_installer/gui.py:590
+msgid "Installation was completed."
+msgstr "Việc cài đặt đã được hoàn tất."
 
-#: ../liveusb/creator.py:1186
-#, python-format
-msgid "Resetting Master Boot Record of %s"
-msgstr "Đang thiết lập lại Master Boot Record của %s"
-
-#: ../liveusb/gui.py:789
-msgid "Select Live ISO"
-msgstr "Lựa chọn Live ISO"
-
-#: ../liveusb/creator.py:192
-msgid "Setting up OLPC boot file..."
-msgstr "Đang cài đặt tập tin khởi động OLPC"
-
-#: ../liveusb/creator.py:742
-#, python-format
-msgid ""
-"Some partitions of the target device %(device)s are mounted. They will be "
-"unmounted before starting the installation process."
-msgstr "Một vài phân vùng của thiết bị %(device)s đã được gắn lên. Chũng sẽ bị gỡ ra trước khi bắt đầu quá trình cài đặt."
-
-#: ../liveusb/creator.py:141
-msgid ""
-"Source type does not support verification of ISO MD5 checksum, skipping"
-msgstr "Loại hình của nguồn không hỗ trợ việc xác minh của ISO MD5 checksum, đang bỏ qua"
-
-#: ../liveusb/creator.py:1220
-msgid "Synchronizing data on disk..."
-msgstr "Đang đồng bộ hóa dữ liệu trên ổ đĩa..."
-
-#: ../liveusb/dialog.py:166
-msgid "Target Device"
-msgstr "Thiết bị đích"
-
-#: ../liveusb/gui.py:438
-#, python-format
-msgid ""
-"The device \"%(pretty_name)s\" is too small to install Tails (at least "
-"%(size)s GB is required)."
-msgstr "Thiết bị \"%(pretty_name)s\" quá nhỏ để cài đặt Tails (yêu cầu ít nhất %(size)s GB)."
-
-#: ../liveusb/gui.py:792
-msgid ""
-"The selected file is unreadable. Please fix its permissions or select "
-"another file."
-msgstr "Những tập tin được chọn không thể đọc được. Vui lòng sửa quyền của nó hoặc chọn một tập tin khác."
-
-#: ../liveusb/creator.py:354
-#, python-format
-msgid ""
-"There was a problem executing the following command: `%(command)s`.\n"
-"A more detailed error log has been written to '%(filename)s'."
-msgstr "Có vấn đề xảy ra khi thực thi lệnh dưới đây: `%(command)s`.\nMột nhật ký chi tiết hơn của lỗi đã được ghi vào '%(filename)s'."
-
-#: ../liveusb/dialog.py:158
-msgid ""
-"This button allows you to browse for an existing Live system ISO that you "
-"have previously downloaded.  If you do not select one, a release will be "
-"downloaded for you automatically."
-msgstr "Nút này cho phép bạn duyệt một Live system ISO mà bạn đã tải về trước đó. Nếu bạn không lựa chọn một cái, một phiên bản sẽ được tự động tải về cho bạn."
-
-#: ../liveusb/dialog.py:171
-msgid ""
-"This button will begin the LiveUSB creation process.  This entails "
-"optionally downloading a release (if an existing one wasn't selected),  "
-"extracting the ISO to the USB device, creating the persistent overlay, and "
-"installing the bootloader."
-msgstr "Nút này sẽ bắt đầu quá trình tạo LiveUSB. Việc này đòi hỏi việc tải về một cách tùy chọn một phiên bản (nếu một phiên bản đang có chưa được chọn), trích xuất ISO sang thiết bị USB, tạo một vùng bền vững, và cài đặt bootloader."
-
-#: ../liveusb/dialog.py:165
-msgid ""
-"This is the USB stick that you want to install your Live system on.  This "
-"device must be formatted with the FAT filesystem."
-msgstr "Đây là thanh USB mà bạn muốn cài lên hệ thống Live. Thiết bị này phải được định dạng file hệ thống FAT."
-
-#: ../liveusb/dialog.py:170
-msgid ""
-"This is the progress bar that will indicate how far along in the LiveUSB "
-"creation process you are"
-msgstr "Đây là thanh tiến độ sẽ chỉ ra quá trình tạo LiveUSB đã được bao lâu rồi."
-
-#: ../liveusb/dialog.py:169
-msgid "This is the status console, where all messages get written to."
-msgstr "Đây là tình trạng của bàn điều khiển, nơi mọi thông điệp được viết vào."
-
-#: ../liveusb/creator.py:952
-msgid "Trying to continue anyway."
-msgstr "Cứ tiếp tục."
-
-#: ../liveusb/gui.py:464
-msgid "USB drive found"
-msgstr "Ổ đĩa USB được tìm thấy"
-
-#: ../liveusb/creator.py:985
-#, python-format
-msgid "Unable to change volume label: %(message)s"
-msgstr "Không thể đổi tên ổ đĩa: %(message)s"
-
-#: ../liveusb/creator.py:501 ../liveusb/creator.py:512
-#, python-format
-msgid "Unable to chmod %(file)s: %(message)s"
-msgstr "Không thể chmod %(file)s: %(message)s"
-
-#: ../liveusb/creator.py:478
-#, python-format
-msgid "Unable to copy %(infile)s to %(outfile)s: %(message)s"
-msgstr "Không thể chép %(infile)s tới %(outfile)s: %(message)s"
-
-#: ../liveusb/gui.py:403
-msgid "Unable to find any USB drive"
-msgstr "Không thể tìm thấy bất kỳ ổ USB nào"
-
-#: ../liveusb/creator.py:1274
-msgid "Unable to find any supported device"
-msgstr "Không thể tìm thấy bất kỳ thiết bị được hỗ trợ nào"
-
-#: ../liveusb/creator.py:1117
-msgid "Unable to find partition"
-msgstr "Không thể tìm thấy phân vùng"
-
-#: ../liveusb/creator.py:1354
-msgid ""
-"Unable to get Win32_LogicalDisk; win32com query did not return any results"
-msgstr "Không thể lấy Win32_LogicalDisk; truy vấn win32com không trả bất kỳ kết quả nào"
-
-#: ../liveusb/gui.py:691
+#: ../tails_installer/gui.py:635
 msgid "Unable to mount device"
 msgstr "Không thể gắn thiết bị"
 
-#: ../liveusb/creator.py:814
-#, python-format
-msgid "Unable to mount device: %(message)s"
-msgstr "Không thể gắn thiết bị: %(message)s"
+#: ../tails_installer/gui.py:642 ../tails_installer/gui.py:670
+msgid "Please confirm your device selection"
+msgstr "Vui lòng xác nhận lựa chọn thiết bị của bạn"
 
-#: ../liveusb/creator.py:517
-#, python-format
-msgid "Unable to remove directory from previous LiveOS: %(message)s"
-msgstr "Không thể gỡ bỏ thư mục từ LiveOS trước: %(message)s"
-
-#: ../liveusb/creator.py:505
-#, python-format
-msgid "Unable to remove file from previous LiveOS: %(message)s"
-msgstr "Không thể gỡ bỏ tập tin từ LiveOS trước: %(message)s"
-
-#: ../liveusb/creator.py:1189
-msgid ""
-"Unable to reset MBR.  You may not have the `syslinux` package installed."
-msgstr "Không thể thiết lập lại MBR. Bạn có thể không có gói `syslinux` đã cài."
-
-#: ../liveusb/gui.py:798
-msgid ""
-"Unable to use the selected file.  You may have better luck if you move your "
-"ISO to the root of your drive (ie: C:\\)"
-msgstr "Không thể sử dụng tập tin được chọn. Bạn có thể may mắn hơn nếu bạn di duyển ISO của bạn tới nền của thiết bị của bạn (ví dụ: C:\\)"
-
-#: ../liveusb/creator.py:723
-#, python-format
-msgid "Unable to write on %(device)s, skipping."
-msgstr "Không thể viết lên %(device)s, đang bỏ qua."
-
-#: ../liveusb/creator.py:399
-msgid "Unknown ISO, skipping checksum verification"
-msgstr "ISO không xác định, bỏ qua việc kiểm tra checksum"
-
-#: ../liveusb/creator.py:810
-#, python-format
-msgid "Unknown dbus exception while trying to mount device: %(message)s"
-msgstr "Có sự loại dbus không xác định trong khi đang gắn thiết bị: %(message)s"
-
-#: ../liveusb/creator.py:791 ../liveusb/creator.py:964
-msgid "Unknown filesystem.  Your device may need to be reformatted."
-msgstr "Định dạng không xác định. Thiết bị của bạn có thể cần được định dạng lại."
-
-#: ../liveusb/gui.py:85
-#, python-format
-msgid "Unknown release: %s"
-msgstr "Phiên bản không xác định: %s"
-
-#: ../liveusb/creator.py:851
-#, python-format
-msgid "Unmounting '%(udi)s' on '%(device)s'"
-msgstr "Đang gỡ '%(udi)s' trên '%(device)s'"
-
-#: ../liveusb/creator.py:847
-#, python-format
-msgid "Unmounting mounted filesystems on '%(device)s'"
-msgstr "Đang gỡ tập tin hệ thống đã được gắn trên '%(device)s'"
-
-#: ../liveusb/creator.py:949
-#, python-format
-msgid "Unsupported device '%(device)s', please report a bug."
-msgstr "Thiết bị không được hỗ trợ  '%(device)s', vui lòng báo lỗi."
-
-#: ../liveusb/creator.py:794 ../liveusb/creator.py:967
-#, python-format
-msgid "Unsupported filesystem: %s"
-msgstr "Tập tin hệ thống không được hỗ trợ: %s"
-
-#: ../liveusb/creator.py:1287
-#, python-format
-msgid ""
-"Unsupported filesystem: %s\n"
-"Please backup and format your USB key with the FAT filesystem."
-msgstr "Tập tin hệ thống không được hỗ trợ: %s\nVui lòng sao lưu và định dạng lại USB của bạn với file hệ thống định dạng FAT."
-
-#: ../liveusb/creator.py:892
-#, python-format
-msgid "Updating properties of system partition %(system_partition)s"
-msgstr "Đang cập nhật thuộc tính của phân vùng hệ thống %(system_partition)s"
-
-#: ../liveusb/launcher_ui.py:156
-msgid ""
-"Upgrade\n"
-"by cloning"
-msgstr "Nâng cấp\nbằng cách nhân bản"
-
-#: ../liveusb/launcher_ui.py:158
-msgid ""
-"Upgrade\n"
-"from ISO"
-msgstr "Nâng cấp\ntừ ISO"
-
-#: ../liveusb/dialog.py:159
-msgid "Use existing Live system ISO"
-msgstr "Sử dụng Live system ISO đang tồn tại"
-
-#: ../liveusb/creator.py:143
-msgid "Verifying ISO MD5 checksum"
-msgstr "Đang xác minh ISO MD5 checksum"
-
-#: ../liveusb/creator.py:373
-msgid "Verifying SHA1 checksum of LiveCD image..."
-msgstr "Đang xác minh SHA1 checksum của hình ảnh LiveCD..."
-
-#: ../liveusb/creator.py:377
-msgid "Verifying SHA256 checksum of LiveCD image..."
-msgstr "Đang xác minh SHA256 checksum của hình ảnh LiveCD"
-
-#: ../liveusb/creator.py:961 ../liveusb/creator.py:1280
-msgid "Verifying filesystem..."
-msgstr "Đang xác minh tập tin hệ thống..."
-
-#: ../liveusb/gui.py:725
-msgid ""
-"Warning: Creating a new persistent overlay will delete your existing one."
-msgstr "Cảnh báo: Việc tạo phân vùng bền vững sẽ xóa phân vùng đang tồn tại của bạn."
-
-#: ../liveusb/gui.py:377
-msgid ""
-"Warning: This tool needs to be run as an Administrator. To do this, right "
-"click on the icon and open the Properties. Under the Compatibility tab, "
-"check the \"Run this program as an administrator\" box."
-msgstr "Cảnh báo: Công cụ này cần phải chạy với quyền quản trị. Để làm được điều này, bấm chuột phải vào biểu tượng và mở Thuộc tính. Ở thẻ Tương thích, chọn hộp \"Chạy chương trình với quyền quản trị\"."
-
-#: ../liveusb/creator.py:162
-#, python-format
-msgid "Wrote to device at %(speed)d MB/sec"
-msgstr "Đã được viết vào thiết bị ở %(speed)d MB/giây"
-
-#: ../liveusb/gui.py:699
+#: ../tails_installer/gui.py:643
 #, python-format
 msgid ""
 "You are going to install Tails on the %(size)s %(vendor)s %(model)s device "
 "(%(device)s). All data on the selected device will be lost. Continue?"
 msgstr "Bạn đang cài đặt Tails trên %(size)s %(vendor)s %(model)s thiết bị\n(%(device)s). Tất cả dữ liệu trên thiết bị sẽ bị xóa. Bạn muốn tiếp tục?"
 
-#: ../liveusb/gui.py:715
+#: ../tails_installer/gui.py:660
 #, python-format
 msgid ""
 "You are going to upgrade Tails on the %(parent_size)s %(vendor)s %(model)s "
@@ -592,20 +411,169 @@ msgid ""
 "unchanged. Continue?"
 msgstr "Bạn đang nâng cấp Tails trên %(parent_size)s %(vendor)s %(model)s thiết bị\n(%(device)s). Tất cả các ổ lưu trữ thường trực\nsẽ được giữ nguyên. Bạn muốn tiếp tục?"
 
-#: ../liveusb/creator.py:622
-msgid ""
-"You are using an old version of syslinux-extlinux that does not support the "
-"ext4 filesystem"
-msgstr "Bạn đang sử dụng phiên bản cũ của syslinux-extlinux, không hỗ trợ định dạng ext4"
+#: ../tails_installer/gui.py:716
+msgid "Download complete!"
+msgstr "Tải xuống hoàn tất!"
 
-#: ../liveusb/gui.py:783
+#: ../tails_installer/gui.py:720
+msgid "Download failed: "
+msgstr "Tải xuống thất bại:"
+
+#: ../tails_installer/gui.py:721
 msgid "You can try again to resume your download"
 msgstr "Bạn có thể thử lại để tiếp tục việc tải xuống"
 
-#: ../liveusb/creator.py:95
-msgid "You must run this application as root"
-msgstr "Bạn phải chạy ứng dụng này với quyền root"
+#: ../tails_installer/gui.py:729
+msgid ""
+"The selected file is unreadable. Please fix its permissions or select "
+"another file."
+msgstr "Những tập tin được chọn không thể đọc được. Vui lòng sửa quyền của nó hoặc chọn một tập tin khác."
 
-#: ../liveusb/dialog.py:162
-msgid "or"
-msgstr "Hoặc"
+#: ../tails_installer/gui.py:735
+msgid ""
+"Unable to use the selected file.  You may have better luck if you move your "
+"ISO to the root of your drive (ie: C:\\)"
+msgstr "Không thể sử dụng tập tin được chọn. Bạn có thể may mắn hơn nếu bạn di duyển ISO của bạn tới nền của thiết bị của bạn (ví dụ: C:\\)"
+
+#: ../tails_installer/gui.py:741
+#, python-format
+msgid "%(filename)s selected"
+msgstr "%(filename)s được chọn"
+
+#: ../tails_installer/source.py:28
+msgid "Unable to find LiveOS on ISO"
+msgstr "Không tìm thấy Hệ điều hành Trực tiếp (LiveOS) trên ảnh ISO"
+
+#: ../tails_installer/source.py:34
+#, python-format
+msgid "Could not guess underlying block device: %s"
+msgstr "Đã không thể đoán được thiết bị cản trở bên dưới: %s"
+
+#: ../tails_installer/source.py:49
+#, python-format
+msgid ""
+"There was a problem executing `%s`.\n"
+"%s\n"
+"%s"
+msgstr "Đã có một vấn đề khi thực hiện `%s`.\n%s\n%s"
+
+#: ../tails_installer/source.py:63
+#, python-format
+msgid "'%s' does not exist"
+msgstr "'%s' không tồn tại "
+
+#: ../tails_installer/source.py:65
+#, python-format
+msgid "'%s' is not a directory"
+msgstr "'%skhông phải là một thư mục' "
+
+#: ../tails_installer/source.py:75
+#, python-format
+msgid "Skipping '%(filename)s'"
+msgstr "Bỏ qua '%(filename)s'"
+
+#: ../tails_installer/utils.py:44
+#, python-format
+msgid ""
+"There was a problem executing `%s`.%s\n"
+"%s"
+msgstr "Đã có một vấn đề khi thực hiện `%s`.%s\n%s"
+
+#: ../tails_installer/utils.py:119
+msgid "Could not open device for writing."
+msgstr "Đã không thể mở thiết bị cho việc ghi dữ liệu (writing)."
+
+#: ../data/tails-installer.ui.h:1
+msgid "Use existing Live system ISO:"
+msgstr "Sử dụng [ảnh] ISO hệ thống trực tiếp (Live system) đang tồn tại:"
+
+#: ../data/tails-installer.ui.h:2
+msgid "Select a distribution to download:"
+msgstr "Chọn một bản phân phối (distribution) để tải về:"
+
+#: ../data/tails-installer.ui.h:3
+msgid "Target Device:"
+msgstr "Thiết bị Mục tiêu:"
+
+#: ../data/tails-installer.ui.h:4
+msgid "Install Tails"
+msgstr "Cài đặt Tails"
+
+#: ../data/tails-installer-launcher.ui.h:1
+msgid ""
+"To run Tails Installer you need an ISO image which can be downloaded from "
+"the Tails website: <a "
+"href=\"https://tails.boum.org/download/\">https://tails.boum.org/download/</a>"
+msgstr "Để chạy trình cài đặt Tails bạn cần một ảnh ISO được tải về từ trang web Tails: <a href=\"https://tails.boum.org/download/\">https://tails.boum.org/download/</a>"
+
+#: ../data/tails-installer-launcher.ui.h:2
+msgid "Install"
+msgstr "Cài đặt"
+
+#: ../data/tails-installer-launcher.ui.h:3
+msgid "• Install Tails on a new USB stick."
+msgstr "• Cài đặt Tails lên một thẻ USB mới."
+
+#: ../data/tails-installer-launcher.ui.h:4
+msgid "• The USB stick that you install on is formatted and all data is lost."
+msgstr "• Thẻ USB bạn cài đặt bị định dạng (format) và tất cả giữ liệu bị mất"
+
+#: ../data/tails-installer-launcher.ui.h:5
+msgid "Upgrade"
+msgstr "Nâng cấp"
+
+#: ../data/tails-installer-launcher.ui.h:6
+msgid "• Upgrade a Tails USB stick to the version of an ISO image."
+msgstr "• Nâng cấp một thẻ USB Tails lên phiên bản của một ảnh ISO."
+
+#: ../data/tails-installer-launcher.ui.h:7
+msgid ""
+"• The encrypted persistent storage of the Tails USB stick that you upgrade "
+"is preserved."
+msgstr "• Phân vùng lưu trữ bền vững được mã hoá của thẻ USB Tails bạn nâng cấp được lưu giữ."
+
+#: ../data/tails-installer-launcher.ui.h:8
+msgid ""
+"Need help? Read the <a "
+"href=\"https://tails.boum.org/doc/first_steps/installation/\">documentation</a>"
+msgstr "Cần trợ giúp? Xem <a href=\"https://tails.boum.org/doc/first_steps/installation/\">tài liệu này</a>"
+
+#: ../data/tails-installer-launcher.ui.h:9
+msgid "Install by cloning"
+msgstr "Cài đặt bằng cách nhân bản."
+
+#: ../data/tails-installer-launcher.ui.h:10
+msgid ""
+"• Install Tails on another USB stick by copying the Tails system that you "
+"are currently using."
+msgstr "• Cài đặt Tails lên một thẻ USB khác bằng cách sao chép hệ thống Tails mà bạn hiện đang sử dụng."
+
+#: ../data/tails-installer-launcher.ui.h:11
+msgid ""
+"• The encrypted persistent storage of the Tails USB stick that you are "
+"currently using is not copied."
+msgstr "• Phân vùng lưu trữ bền vững được mã hoá của thẻ USB Tails bạn hiện đang dùng không được sao chép."
+
+#: ../data/tails-installer-launcher.ui.h:12
+msgid "Upgrade by cloning"
+msgstr "Nâng cấp bằng cách nhân bản"
+
+#: ../data/tails-installer-launcher.ui.h:13
+msgid ""
+"• Upgrade another Tails USB stick to the same version of Tails that you are "
+"currently using."
+msgstr "• Nâng cấp một thẻ USB Tails khác lên cùng phiên bản của Tails mà bạn hiện đang sử dụng."
+
+#: ../data/tails-installer-launcher.ui.h:14
+msgid "Upgrade from ISO"
+msgstr "Nâng cấp từ [ảnh] ISO"
+
+#: ../data/tails-installer-launcher.ui.h:15
+msgid "• Upgrade another Tails USB stick to the version of an ISO image."
+msgstr "• Nâng cấp một thẻ USB Tails khác lên phiên bản của một ảnh ISO."
+
+#: ../data/tails-installer-launcher.ui.h:16
+msgid ""
+"Need help? Read the <a "
+"href=\"file:///usr/share/doc/tails/website/doc/first_steps/installation.en.html\">documentation</a>"
+msgstr "Cần trợ giúp? Xem <a href=\"file:///usr/share/doc/tails/website/doc/first_steps/installation.en.html\">tài liệu này</a>"
