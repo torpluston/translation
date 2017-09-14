@@ -16,9 +16,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: The Tor Project\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-06-30 13:14+0200\n"
-"PO-Revision-Date: 2017-08-12 12:42+0000\n"
-"Last-Translator: snotree <cknblue@gmail.com>\n"
+"POT-Creation-Date: 2017-09-14 14:52+0200\n"
+"PO-Revision-Date: 2017-09-14 13:47+0000\n"
+"Last-Translator: carolyn <carolyn@anhalt.org>\n"
 "Language-Team: Korean (http://www.transifex.com/otf/torproject/language/ko/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -26,262 +26,262 @@ msgstr ""
 "Language: ko\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
-#: ../tails_installer/creator.py:100
+#: ../tails_installer/creator.py:101
 msgid "You must run this application as root"
 msgstr "루트에서 이 응용프로그램을 실행해야 합니다."
 
-#: ../tails_installer/creator.py:146
+#: ../tails_installer/creator.py:147
 msgid "Extracting live image to the target device..."
 msgstr "대상 장치에 라이브 이미지를 추출 중..."
 
-#: ../tails_installer/creator.py:153
+#: ../tails_installer/creator.py:154
 #, python-format
 msgid "Wrote to device at %(speed)d MB/sec"
 msgstr "%(speed)d MB/초로 장치에 기록되었습니다"
 
-#: ../tails_installer/creator.py:183
+#: ../tails_installer/creator.py:184
 msgid "Setting up OLPC boot file..."
 msgstr "OLPC 부팅 파일을 설정합니다 ..."
 
-#: ../tails_installer/creator.py:302
+#: ../tails_installer/creator.py:321
 #, python-format
 msgid ""
 "There was a problem executing the following command: `%(command)s`.\n"
 "A more detailed error log has been written to '%(filename)s'."
 msgstr "다음 명령의 실행에 문제가있었습니다 : `%(command)s`.\n자세한 오류 로그 '%(filename)s'에 적혀 있습니다."
 
-#: ../tails_installer/creator.py:321
+#: ../tails_installer/creator.py:340
 msgid "Verifying SHA1 checksum of LiveCD image..."
 msgstr "LiveCD 이미지 SHA1 체크섬 확인 중 ..."
 
-#: ../tails_installer/creator.py:325
+#: ../tails_installer/creator.py:344
 msgid "Verifying SHA256 checksum of LiveCD image..."
 msgstr "LiveCD 이미지 SHA256 체크섬 확인 중 ..."
 
-#: ../tails_installer/creator.py:341
+#: ../tails_installer/creator.py:360
 msgid ""
 "Error: The SHA1 of your Live CD is invalid.  You can run this program with "
 "the --noverify argument to bypass this verification check."
 msgstr "오류: Live CD의 SHA1이 잘못되어 있습니다. 이러한 프로그램을 --noverify 인수와 함께 실행하여 유효성 검사를 해결할 수 있습니다. "
 
-#: ../tails_installer/creator.py:347
+#: ../tails_installer/creator.py:366
 msgid "Unknown ISO, skipping checksum verification"
 msgstr "알 수 없는 ISO 체크섬 검증을 생략합니다"
 
-#: ../tails_installer/creator.py:358
+#: ../tails_installer/creator.py:377
 #, python-format
 msgid ""
 "Not enough free space on device.\n"
 "%dMB ISO + %dMB overlay > %dMB free space"
 msgstr "디바이스에 여유공간이 없습니다.\n%dMB ISO + %dMB 이상 > %dMB 여유 공간"
 
-#: ../tails_installer/creator.py:365
+#: ../tails_installer/creator.py:384
 #, python-format
 msgid "Creating %sMB persistent overlay"
 msgstr "%sMB 퍼시스턴트 구역을 작성 중"
 
-#: ../tails_installer/creator.py:426
+#: ../tails_installer/creator.py:445
 #, python-format
 msgid "Unable to copy %(infile)s to %(outfile)s: %(message)s"
 msgstr "%(infile)s를 %(outfile)s에 복사 할 수 없습니다 : %(message)s"
 
-#: ../tails_installer/creator.py:440
+#: ../tails_installer/creator.py:459
 msgid "Removing existing Live OS"
 msgstr "기존 LiveOS을 삭제 중"
 
-#: ../tails_installer/creator.py:449 ../tails_installer/creator.py:460
+#: ../tails_installer/creator.py:468 ../tails_installer/creator.py:479
 #, python-format
 msgid "Unable to chmod %(file)s: %(message)s"
 msgstr "%(file)s를 chmod할 수 없습니다: %(message)s"
 
-#: ../tails_installer/creator.py:453
+#: ../tails_installer/creator.py:472
 #, python-format
 msgid "Unable to remove file from previous LiveOS: %(message)s"
 msgstr "이전 LiveOS에서 파일을 삭제할 수 없습니다 : %(message)s"
 
-#: ../tails_installer/creator.py:465
+#: ../tails_installer/creator.py:484
 #, python-format
 msgid "Unable to remove directory from previous LiveOS: %(message)s"
 msgstr "이전 LiveOS에서 디렉토리를 삭제할 수 없습니다 : %(message)s"
 
-#: ../tails_installer/creator.py:513
+#: ../tails_installer/creator.py:532
 #, python-format
 msgid "Cannot find device %s"
 msgstr "%s 장치를 찾을 수 없음 "
 
-#: ../tails_installer/creator.py:678
+#: ../tails_installer/creator.py:699
 #, python-format
 msgid "Unable to write on %(device)s, skipping."
 msgstr "%(device)s에 쓸 수 없습니다. 스킵합니다."
 
-#: ../tails_installer/creator.py:697
+#: ../tails_installer/creator.py:719
 #, python-format
 msgid ""
 "Some partitions of the target device %(device)s are mounted. They will be "
 "unmounted before starting the installation process."
 msgstr "대상 장치 %(device)s 파티션의 일부가 마운트되었습니다. 설치 프로세스가 시작하기 전에 이들은 마운트 해제됩니다."
 
-#: ../tails_installer/creator.py:740 ../tails_installer/creator.py:964
+#: ../tails_installer/creator.py:762 ../tails_installer/creator.py:986
 msgid "Unknown filesystem.  Your device may need to be reformatted."
 msgstr "알 수없는 파일 시스템. 장치를 다시 포맷해야할지도 모릅니다."
 
-#: ../tails_installer/creator.py:743 ../tails_installer/creator.py:967
+#: ../tails_installer/creator.py:765 ../tails_installer/creator.py:989
 #, python-format
 msgid "Unsupported filesystem: %s"
 msgstr "지원되지 않는 파일 시스템: %s "
 
-#: ../tails_installer/creator.py:760
+#: ../tails_installer/creator.py:782
 #, python-format
 msgid "Unknown GLib exception while trying to mount device: %(message)s"
 msgstr "장치를 탑재하는 동안 알 수 없는 GLib 예외가 발생했습니다:%(message)s"
 
-#: ../tails_installer/creator.py:764
+#: ../tails_installer/creator.py:786
 #, python-format
 msgid "Unable to mount device: %(message)s"
 msgstr "장치를 마운트 할 수 없습니다: %(message)s"
 
-#: ../tails_installer/creator.py:769
+#: ../tails_installer/creator.py:791
 msgid "No mount points found"
 msgstr "마운트 포인트를 찾을 수 없습니다."
 
-#: ../tails_installer/creator.py:780
+#: ../tails_installer/creator.py:802
 #, python-format
 msgid "Entering unmount_device for '%(device)s'"
 msgstr "'%(device)s'에 unmount_device를 입력 중"
 
-#: ../tails_installer/creator.py:790
+#: ../tails_installer/creator.py:812
 #, python-format
 msgid "Unmounting mounted filesystems on '%(device)s'"
 msgstr "%(device)s에 마운트 된 파일 시스템을 마운트 해제 중"
 
-#: ../tails_installer/creator.py:794
+#: ../tails_installer/creator.py:816
 #, python-format
 msgid "Unmounting '%(udi)s' on '%(device)s'"
 msgstr "%(device)s에 '%(udi)s'를 분리 중"
 
-#: ../tails_installer/creator.py:804
+#: ../tails_installer/creator.py:826
 #, python-format
 msgid "Mount %s exists after unmounting"
 msgstr "마운트 해제 후 %s의 실체를 마운트"
 
-#: ../tails_installer/creator.py:817
+#: ../tails_installer/creator.py:839
 #, python-format
 msgid "Partitioning device %(device)s"
 msgstr "장치 %(device)s의 파티션을 구성 중"
 
-#: ../tails_installer/creator.py:895
+#: ../tails_installer/creator.py:917
 #, python-format
 msgid "Updating properties of system partition %(system_partition)s"
 msgstr "%(system_partition)s 시스템 파티션의 속성을 업데이트합니다."
 
-#: ../tails_installer/creator.py:949
+#: ../tails_installer/creator.py:971
 #, python-format
 msgid "Unsupported device '%(device)s', please report a bug."
 msgstr "지원되지 않는 장치 '%(device)s', 버그를 보고하십시오."
 
-#: ../tails_installer/creator.py:952
+#: ../tails_installer/creator.py:974
 msgid "Trying to continue anyway."
 msgstr "어쨌든간에 계속하기."
 
-#: ../tails_installer/creator.py:961 ../tails_installer/creator.py:1354
+#: ../tails_installer/creator.py:983 ../tails_installer/creator.py:1376
 msgid "Verifying filesystem..."
 msgstr "파일 시스템 확인 중... "
 
-#: ../tails_installer/creator.py:985
+#: ../tails_installer/creator.py:1007
 #, python-format
 msgid "Unable to change volume label: %(message)s"
 msgstr "볼륨 레이블을 변경할 수 없습니다: %(message)s"
 
-#: ../tails_installer/creator.py:990 ../tails_installer/creator.py:1387
+#: ../tails_installer/creator.py:1012 ../tails_installer/creator.py:1409
 msgid "Installing bootloader..."
 msgstr "부트 로더를 설치 중..."
 
-#: ../tails_installer/creator.py:1016
+#: ../tails_installer/creator.py:1038
 #, python-format
 msgid "Could not find the '%s' COM32 module"
 msgstr "'%s' COM32 모듈을 찾을 수 없습니다."
 
-#: ../tails_installer/creator.py:1024 ../tails_installer/creator.py:1405
+#: ../tails_installer/creator.py:1046 ../tails_installer/creator.py:1427
 #, python-format
 msgid "Removing %(file)s"
 msgstr "%(file)s를 삭제 중"
 
-#: ../tails_installer/creator.py:1136
+#: ../tails_installer/creator.py:1158
 #, python-format
 msgid "%s already bootable"
 msgstr "%s는 이미 부팅 가능합니다"
 
-#: ../tails_installer/creator.py:1156
+#: ../tails_installer/creator.py:1178
 msgid "Unable to find partition"
 msgstr "파티션을 찾을 수 없습니다."
 
-#: ../tails_installer/creator.py:1179
+#: ../tails_installer/creator.py:1201
 #, python-format
 msgid "Formatting %(device)s as FAT32"
 msgstr "%(device)s를 FAT32로 포맷 중"
 
-#: ../tails_installer/creator.py:1239
+#: ../tails_installer/creator.py:1261
 msgid "Could not find syslinux' gptmbr.bin"
 msgstr "syslinux' gptmbr.bin을 찾을 수 없습니다."
 
-#: ../tails_installer/creator.py:1252
+#: ../tails_installer/creator.py:1274
 #, python-format
 msgid "Reading extracted MBR from %s"
 msgstr "%s에서 추출한 MBR 읽기"
 
-#: ../tails_installer/creator.py:1256
+#: ../tails_installer/creator.py:1278
 #, python-format
 msgid "Could not read the extracted MBR from %(path)s"
 msgstr "%(path)s에서 추출 된 MBR을 읽을 수 없습니다."
 
-#: ../tails_installer/creator.py:1269 ../tails_installer/creator.py:1270
+#: ../tails_installer/creator.py:1291 ../tails_installer/creator.py:1292
 #, python-format
 msgid "Resetting Master Boot Record of %s"
 msgstr "%s의 마스터 부트 레코드를 재설정 중"
 
-#: ../tails_installer/creator.py:1275
+#: ../tails_installer/creator.py:1297
 msgid "Drive is a loopback, skipping MBR reset"
 msgstr "드라이브가 루프백입니다. MBR 재설정을 건너 뜁니다."
 
-#: ../tails_installer/creator.py:1279 ../tails_installer/creator.py:1533
+#: ../tails_installer/creator.py:1301 ../tails_installer/creator.py:1555
 #, python-format
 msgid "Calculating the SHA1 of %s"
 msgstr "%s의 SHA1 계산 중"
 
-#: ../tails_installer/creator.py:1304
+#: ../tails_installer/creator.py:1326
 msgid "Synchronizing data on disk..."
 msgstr "디스크의 데이터를 동기화 중..."
 
-#: ../tails_installer/creator.py:1346
+#: ../tails_installer/creator.py:1368
 msgid "Error probing device"
 msgstr "장치를 엄격하게 조사하는 동안 오류"
 
-#: ../tails_installer/creator.py:1348
+#: ../tails_installer/creator.py:1370
 msgid "Unable to find any supported device"
 msgstr "지원되는 장치를 찾을 수 없습니다."
 
-#: ../tails_installer/creator.py:1358
+#: ../tails_installer/creator.py:1380
 msgid ""
 "Make sure your USB key is plugged in and formatted with the FAT filesystem"
 msgstr "USB 키가 연결되어 FAT 파일 시스템으로 포맷되어 있는지 확인 "
 
-#: ../tails_installer/creator.py:1361
+#: ../tails_installer/creator.py:1383
 #, python-format
 msgid ""
 "Unsupported filesystem: %s\n"
 "Please backup and format your USB key with the FAT filesystem."
 msgstr "지원되지 않는 파일 시스템: %s\nUSB 키를 FAT 파일 시스템으로 백업 및 포맷하십시오.  "
 
-#: ../tails_installer/creator.py:1428
+#: ../tails_installer/creator.py:1450
 msgid ""
 "Unable to get Win32_LogicalDisk; win32com query did not return any results"
 msgstr "Win32_LogicalDisk를 사용할 수 없습니다. win32com 쿼리가 어떠한 결과도 반환하지 않았습니다."
 
-#: ../tails_installer/creator.py:1481
+#: ../tails_installer/creator.py:1503
 msgid "Cannot find"
 msgstr "찾을 수 없음"
 
-#: ../tails_installer/creator.py:1482
+#: ../tails_installer/creator.py:1504
 msgid ""
 "Make sure to extract the entire tails-installer zip file before running this"
 " program."
@@ -297,52 +297,55 @@ msgstr "알 수 없는 자료: %s  "
 msgid "Downloading %s..."
 msgstr "%s 다운로드 중...  "
 
-#: ../tails_installer/gui.py:204
+#: ../tails_installer/gui.py:209
 msgid ""
 "Error: Cannot set the label or obtain the UUID of your device.  Unable to "
 "continue."
 msgstr "오류: 레이블을 설정할 수 없거나 장치의 UUID를 검색할 수 없습니다. 계속 진행할 수 없습니다.  "
 
-#: ../tails_installer/gui.py:253
+#: ../tails_installer/gui.py:258
 #, python-format
 msgid "Installation complete! (%s)"
 msgstr "설치 완료! (%s)"
 
-#: ../tails_installer/gui.py:258
+#: ../tails_installer/gui.py:263
 msgid "Tails installation failed!"
 msgstr "Tails 설치가 실패했습니다!"
 
-#: ../tails_installer/gui.py:353
+#: ../tails_installer/gui.py:364
 msgid ""
 "Warning: This tool needs to be run as an Administrator. To do this, right "
 "click on the icon and open the Properties. Under the Compatibility tab, "
 "check the \"Run this program as an administrator\" box."
 msgstr "경고 : 이 프로그램을 실행하기 위해 관리자 권한으로 전환해야 합니다. 아이콘을 오른쪽 마우스로 클릭하여 속성으로 들어간 후, 호환성 탭에서 \"관리자 권한으로 프로그램 실행\"을 체크해 주세요."
 
-#: ../tails_installer/gui.py:365 ../tails_installer/launcher.py:31
+#: ../tails_installer/gui.py:376 ../tails_installer/launcher.py:31
 msgid "Tails Installer"
 msgstr "Tails 설치 프로그램"
 
-#: ../tails_installer/gui.py:440
+#: ../tails_installer/gui.py:473
+#, python-format
+msgid "%(size)s %(vendor)s %(model)s device (%(device)s)"
+msgstr ""
+
+#: ../tails_installer/gui.py:484
+msgid "No ISO image selected"
+msgstr ""
+
+#: ../tails_installer/gui.py:485
+msgid "Please select a Tails ISO image."
+msgstr ""
+
+#: ../tails_installer/gui.py:524
 msgid "No device suitable to install Tails could be found"
 msgstr "Tails 설치에 적합한 장치를 찾을 수 없음"
 
-#: ../tails_installer/gui.py:442
+#: ../tails_installer/gui.py:526
 #, python-format
 msgid "Please plug a USB flash drive or SD card of at least %0.1f GB."
 msgstr "최소 %0.1fGB의 USB 플래시 드라이브 또는 SD 카드를 연결하십시오."
 
-#: ../tails_installer/gui.py:474
-#, python-format
-msgid "%(size)s %(label)s"
-msgstr "%(size)s %(label)s"
-
-#: ../tails_installer/gui.py:480
-#, python-format
-msgid "%(vendor)s %(model)s (%(details)s) - %(device)s"
-msgstr "%(vendor)s %(model)s (%(details)s) - %(device)s"
-
-#: ../tails_installer/gui.py:488
+#: ../tails_installer/gui.py:560
 #, python-format
 msgid ""
 "The USB stick \"%(pretty_name)s\" is configured as non-removable by its "
@@ -350,97 +353,82 @@ msgid ""
 "different model."
 msgstr "USB 스틱 \"%(pretty_name)s\"는 제조업체가 제거 할 수 없도록 구성하였기 때문에 Tails가 시작되지 않습니다. 다른 모델로 설치를 시도해 보십시오."
 
-#: ../tails_installer/gui.py:498
+#: ../tails_installer/gui.py:570
 #, python-format
 msgid ""
 "The device \"%(pretty_name)s\" is too small to install Tails (at least "
 "%(size)s GB is required)."
 msgstr "선택된 장치 \"%(pretty_name)s\" 의 용량이 모자라서 Tail를 설치할 수 없습니다 (최소 %(size)s GB 필요) "
 
-#: ../tails_installer/gui.py:511
-msgid "\"Install by cloning\""
-msgstr "\"클로닝으로 설치\""
-
-#: ../tails_installer/gui.py:513
-msgid "\"Install from ISO\""
-msgstr "ISO로 설치"
-
-#: ../tails_installer/gui.py:514
-#, python-format
-msgid ""
-"It is impossible to upgrade the device %(pretty_name)s because it was not "
-"created using Tails Installer. You should instead use %(action)s to upgrade "
-"Tails on this device."
-msgstr "%(pretty_name)s 는 Tails Installer로 설치되지 않았으므로 업그레이드할 수 없습니다.  %(action)s 를 통해 업그레이드해 주시기 바랍니다."
-
-#: ../tails_installer/gui.py:533
+#: ../tails_installer/gui.py:592
 msgid "An error happened while installing Tails"
 msgstr "Tails 설치 중 오류가 발생했습니다."
 
-#: ../tails_installer/gui.py:545
+#: ../tails_installer/gui.py:604
 msgid "Refreshing releases..."
 msgstr "자료 업데이트 중..."
 
-#: ../tails_installer/gui.py:550
+#: ../tails_installer/gui.py:609
 msgid "Releases updated!"
 msgstr "자료가 업데이트되었습니다!"
 
-#: ../tails_installer/gui.py:589
+#: ../tails_installer/gui.py:651
 msgid "Installation complete!"
 msgstr "다운로드 완료! "
 
-#: ../tails_installer/gui.py:590
+#: ../tails_installer/gui.py:652
 msgid "Installation was completed."
 msgstr "설치가 완료되었습니다."
 
-#: ../tails_installer/gui.py:635
+#: ../tails_installer/gui.py:701
 msgid "Unable to mount device"
 msgstr "장치를 구성할 수 없습니다."
 
-#: ../tails_installer/gui.py:642 ../tails_installer/gui.py:670
-msgid "Please confirm your device selection"
-msgstr "장치를 확인하시기 바랍니다."
+#: ../tails_installer/gui.py:708 ../tails_installer/gui.py:736
+msgid "Confirm the target USB stick"
+msgstr ""
 
-#: ../tails_installer/gui.py:643
+#: ../tails_installer/gui.py:709
 #, python-format
 msgid ""
-"You are going to install Tails on the %(size)s %(vendor)s %(model)s device "
-"(%(device)s). All data on the selected device will be lost. Continue?"
-msgstr "%(size)s%(vendor)s%(model)s장치(%(device)s)에 Tails를 설치합니다. 선택된 장치 안의 모든 데이터가 없어집니다. 계속하시겠습니까?"
+"%(size)s %(vendor)s %(model)s device (%(device)s)\n"
+"\n"
+"All data on this USB stick will be lost."
+msgstr ""
 
-#: ../tails_installer/gui.py:660
+#: ../tails_installer/gui.py:728
 #, python-format
 msgid ""
-"You are going to upgrade Tails on the %(parent_size)s %(vendor)s %(model)s "
-"device (%(device)s). Any persistent volume on this device will remain "
-"unchanged. Continue?"
-msgstr "%(parent_size)s %(vendor)s %(model)s 장치 (%(device)s) Tails를 업그레이드 합니다. 퍼시스턴트 볼륨은 변경되지 않은 채 유지됩니다. 계속 하시겠습니까?"
+"%(vendor)s %(model)s device (%(device)s)\n"
+"\n"
+"%(persistence_message)s"
+msgstr ""
 
-#: ../tails_installer/gui.py:716
+#: ../tails_installer/gui.py:782
 msgid "Download complete!"
 msgstr "다운로드 완료! "
 
-#: ../tails_installer/gui.py:720
+#: ../tails_installer/gui.py:786
 msgid "Download failed: "
 msgstr "다운로드 실패:  "
 
-#: ../tails_installer/gui.py:721
+#: ../tails_installer/gui.py:787
 msgid "You can try again to resume your download"
 msgstr "다운로드를 다시 시작할 수 있습니다  "
 
-#: ../tails_installer/gui.py:729
+#: ../tails_installer/gui.py:795
 msgid ""
 "The selected file is unreadable. Please fix its permissions or select "
 "another file."
 msgstr "선택된 파일은 읽을 수 없습니다. 권한을 수정하거나 다른 파일을 선택하십시오."
 
-#: ../tails_installer/gui.py:735
+#: ../tails_installer/gui.py:801
 msgid ""
 "Unable to use the selected file.  You may have better luck if you move your "
 "ISO to the root of your drive (ie: C:\\)"
 msgstr "지정된 파일을 사용할 수 없으니 루트 디렉토리에 ISO 파일을 이동시키십시오. (예 : C:\\)"
 
-#: ../tails_installer/gui.py:741
+#: ../tails_installer/gui.py:807
 #, python-format
 msgid "%(filename)s selected"
 msgstr "%(filename)s 선택됨"
@@ -484,23 +472,35 @@ msgid ""
 "%s"
 msgstr "`%s` 를 실행하는 중에 문제가 발생했습니다.%s\n%s"
 
-#: ../tails_installer/utils.py:119
+#: ../tails_installer/utils.py:124
 msgid "Could not open device for writing."
 msgstr "쓰기를 위해 기기를 열 수 없습니다."
 
 #: ../data/tails-installer.ui.h:1
-msgid "Use existing Live system ISO:"
-msgstr "기존 라이브 시스템 ISO 사용:"
+msgid "Installation Instructions"
+msgstr ""
 
 #: ../data/tails-installer.ui.h:2
+msgid "Clone the current Tails"
+msgstr ""
+
+#: ../data/tails-installer.ui.h:3
+msgid "Use a downloaded Tails ISO image"
+msgstr ""
+
+#: ../data/tails-installer.ui.h:4
 msgid "Select a distribution to download:"
 msgstr "다운로드 받을 배포처를 선택:"
 
-#: ../data/tails-installer.ui.h:3
-msgid "Target Device:"
-msgstr "대상 장치:"
+#: ../data/tails-installer.ui.h:5
+msgid "Target USB stick:"
+msgstr ""
 
-#: ../data/tails-installer.ui.h:4
+#: ../data/tails-installer.ui.h:6
+msgid "Reinstall (delete all data)"
+msgstr ""
+
+#: ../data/tails-installer.ui.h:7
 msgid "Install Tails"
 msgstr "Tails 설치"
 

@@ -10,9 +10,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: The Tor Project\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-06-30 13:14+0200\n"
-"PO-Revision-Date: 2017-07-01 17:57+0000\n"
-"Last-Translator: Ojars Balcers <ojars.balcers@gmail.com>\n"
+"POT-Creation-Date: 2017-09-14 14:52+0200\n"
+"PO-Revision-Date: 2017-09-14 13:47+0000\n"
+"Last-Translator: carolyn <carolyn@anhalt.org>\n"
 "Language-Team: Latvian (http://www.transifex.com/otf/torproject/language/lv/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -20,262 +20,262 @@ msgstr ""
 "Language: lv\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n != 0 ? 1 : 2);\n"
 
-#: ../tails_installer/creator.py:100
+#: ../tails_installer/creator.py:101
 msgid "You must run this application as root"
 msgstr "Šī lietotne jāizpilda saknes režīmā"
 
-#: ../tails_installer/creator.py:146
+#: ../tails_installer/creator.py:147
 msgid "Extracting live image to the target device..."
 msgstr "Uz mērķa ierīces izvērš tiešo attēlu jeb live image..."
 
-#: ../tails_installer/creator.py:153
+#: ../tails_installer/creator.py:154
 #, python-format
 msgid "Wrote to device at %(speed)d MB/sec"
 msgstr "Ieraksts ierīcē tika veikts ar ātrumu %(speed)d MB/sec"
 
-#: ../tails_installer/creator.py:183
+#: ../tails_installer/creator.py:184
 msgid "Setting up OLPC boot file..."
 msgstr "Iestata OLPC sāknēšanas datni..."
 
-#: ../tails_installer/creator.py:302
+#: ../tails_installer/creator.py:321
 #, python-format
 msgid ""
 "There was a problem executing the following command: `%(command)s`.\n"
 "A more detailed error log has been written to '%(filename)s'."
 msgstr "Radās problēmsituācija izpildot komandu: `%(command)s`.\nDetalizētāks kļūdas žurnāls tika ierakstīts '%(filename)s'."
 
-#: ../tails_installer/creator.py:321
+#: ../tails_installer/creator.py:340
 msgid "Verifying SHA1 checksum of LiveCD image..."
 msgstr "Verificē LiveCD attēla kontrolsummu SHA1..."
 
-#: ../tails_installer/creator.py:325
+#: ../tails_installer/creator.py:344
 msgid "Verifying SHA256 checksum of LiveCD image..."
 msgstr "Verificē LiveCD attēla kontrolsummu SHA256..."
 
-#: ../tails_installer/creator.py:341
+#: ../tails_installer/creator.py:360
 msgid ""
 "Error: The SHA1 of your Live CD is invalid.  You can run this program with "
 "the --noverify argument to bypass this verification check."
 msgstr "Kļūda: Live CD SHA1 nav derīgs.  Lai apietu šo verifikācijas pārbaudi, programmu var izpildīt ar argumentu --noverify ."
 
-#: ../tails_installer/creator.py:347
+#: ../tails_installer/creator.py:366
 msgid "Unknown ISO, skipping checksum verification"
 msgstr "Nezināms ISO, tiek izlaista kontrolsummas verifikācija"
 
-#: ../tails_installer/creator.py:358
+#: ../tails_installer/creator.py:377
 #, python-format
 msgid ""
 "Not enough free space on device.\n"
 "%dMB ISO + %dMB overlay > %dMB free space"
 msgstr "Uz ierīces nav pietiekami daudz brīvas vietas.\n%dMB ISO + %dMB pārklājums > %dMB brīvas vietas"
 
-#: ../tails_installer/creator.py:365
+#: ../tails_installer/creator.py:384
 #, python-format
 msgid "Creating %sMB persistent overlay"
 msgstr "Rada %sMB lielu pastāvīgo pārklājumu"
 
-#: ../tails_installer/creator.py:426
+#: ../tails_installer/creator.py:445
 #, python-format
 msgid "Unable to copy %(infile)s to %(outfile)s: %(message)s"
 msgstr "Nespēj kopēt %(infile)s uz %(outfile)s: %(message)s"
 
-#: ../tails_installer/creator.py:440
+#: ../tails_installer/creator.py:459
 msgid "Removing existing Live OS"
 msgstr "Noņem esošo Live OS"
 
-#: ../tails_installer/creator.py:449 ../tails_installer/creator.py:460
+#: ../tails_installer/creator.py:468 ../tails_installer/creator.py:479
 #, python-format
 msgid "Unable to chmod %(file)s: %(message)s"
 msgstr "Nespēj chmod %(file)s: %(message)s"
 
-#: ../tails_installer/creator.py:453
+#: ../tails_installer/creator.py:472
 #, python-format
 msgid "Unable to remove file from previous LiveOS: %(message)s"
 msgstr "Nespēj noņemt datni no iepriekšējās LiveOS: %(message)s"
 
-#: ../tails_installer/creator.py:465
+#: ../tails_installer/creator.py:484
 #, python-format
 msgid "Unable to remove directory from previous LiveOS: %(message)s"
 msgstr "Nespēj noņemt direktoriju no iepriekšējās LiveOS: %(message)s"
 
-#: ../tails_installer/creator.py:513
+#: ../tails_installer/creator.py:532
 #, python-format
 msgid "Cannot find device %s"
 msgstr "Nav iespējams atrast ierīci %s"
 
-#: ../tails_installer/creator.py:678
+#: ../tails_installer/creator.py:699
 #, python-format
 msgid "Unable to write on %(device)s, skipping."
 msgstr "Nespēj rakstīt %(device)s, šis solis tiek izlaists."
 
-#: ../tails_installer/creator.py:697
+#: ../tails_installer/creator.py:719
 #, python-format
 msgid ""
 "Some partitions of the target device %(device)s are mounted. They will be "
 "unmounted before starting the installation process."
 msgstr "Uz mērķa ierīces %(device)s ir uzmontēti daži nodalījumi. Tie tiks nomontēti pirms instalēšanas procesa sākšanas."
 
-#: ../tails_installer/creator.py:740 ../tails_installer/creator.py:964
+#: ../tails_installer/creator.py:762 ../tails_installer/creator.py:986
 msgid "Unknown filesystem.  Your device may need to be reformatted."
 msgstr "Nezināma datņu sistēma.  Iespējams, ierīci nepieciešams pārformatēt."
 
-#: ../tails_installer/creator.py:743 ../tails_installer/creator.py:967
+#: ../tails_installer/creator.py:765 ../tails_installer/creator.py:989
 #, python-format
 msgid "Unsupported filesystem: %s"
 msgstr "Datņu sistēma, kura netiek atbalstīta: %s"
 
-#: ../tails_installer/creator.py:760
+#: ../tails_installer/creator.py:782
 #, python-format
 msgid "Unknown GLib exception while trying to mount device: %(message)s"
 msgstr "Nezināms GLib izņēmums, montējot ierīci: %(message)s"
 
-#: ../tails_installer/creator.py:764
+#: ../tails_installer/creator.py:786
 #, python-format
 msgid "Unable to mount device: %(message)s"
 msgstr "Nespēj montēt iekārtu: %(message)s"
 
-#: ../tails_installer/creator.py:769
+#: ../tails_installer/creator.py:791
 msgid "No mount points found"
 msgstr "Montēšanas punkti netika atrasti"
 
-#: ../tails_installer/creator.py:780
+#: ../tails_installer/creator.py:802
 #, python-format
 msgid "Entering unmount_device for '%(device)s'"
 msgstr "Ievada unmount_device objektam '%(device)s'"
 
-#: ../tails_installer/creator.py:790
+#: ../tails_installer/creator.py:812
 #, python-format
 msgid "Unmounting mounted filesystems on '%(device)s'"
 msgstr "Nomontē uz '%(device)s' uzmontētās datņu sistēmas"
 
-#: ../tails_installer/creator.py:794
+#: ../tails_installer/creator.py:816
 #, python-format
 msgid "Unmounting '%(udi)s' on '%(device)s'"
 msgstr "Nomontē  '%(udi)s' , kurš atrodas uz '%(device)s'"
 
-#: ../tails_installer/creator.py:804
+#: ../tails_installer/creator.py:826
 #, python-format
 msgid "Mount %s exists after unmounting"
 msgstr "Pēc nomontēšanas pastāv montējums %s"
 
-#: ../tails_installer/creator.py:817
+#: ../tails_installer/creator.py:839
 #, python-format
 msgid "Partitioning device %(device)s"
 msgstr "Nodalīšanas ierīce %(device)s"
 
-#: ../tails_installer/creator.py:895
+#: ../tails_installer/creator.py:917
 #, python-format
 msgid "Updating properties of system partition %(system_partition)s"
 msgstr "Jaunina sistēmas nodalījuma īpašības %(system_partition)s"
 
-#: ../tails_installer/creator.py:949
+#: ../tails_installer/creator.py:971
 #, python-format
 msgid "Unsupported device '%(device)s', please report a bug."
 msgstr "Neatbalstīta ierīce '%(device)s', lūdzu ziņojiet par šo kļūdi."
 
-#: ../tails_installer/creator.py:952
+#: ../tails_installer/creator.py:974
 msgid "Trying to continue anyway."
 msgstr "Lai vai kas, cenšas turpināt."
 
-#: ../tails_installer/creator.py:961 ../tails_installer/creator.py:1354
+#: ../tails_installer/creator.py:983 ../tails_installer/creator.py:1376
 msgid "Verifying filesystem..."
 msgstr "Verificē datņu sistēmu..."
 
-#: ../tails_installer/creator.py:985
+#: ../tails_installer/creator.py:1007
 #, python-format
 msgid "Unable to change volume label: %(message)s"
 msgstr "Nespēj mainīt sējuma iezīmi: %(message)s"
 
-#: ../tails_installer/creator.py:990 ../tails_installer/creator.py:1387
+#: ../tails_installer/creator.py:1012 ../tails_installer/creator.py:1409
 msgid "Installing bootloader..."
 msgstr "Instalē sāknēšanas lādētāju..."
 
-#: ../tails_installer/creator.py:1016
+#: ../tails_installer/creator.py:1038
 #, python-format
 msgid "Could not find the '%s' COM32 module"
 msgstr "Neizdevās atrast '%s' COM32 moduli"
 
-#: ../tails_installer/creator.py:1024 ../tails_installer/creator.py:1405
+#: ../tails_installer/creator.py:1046 ../tails_installer/creator.py:1427
 #, python-format
 msgid "Removing %(file)s"
 msgstr "Noņem %(file)s"
 
-#: ../tails_installer/creator.py:1136
+#: ../tails_installer/creator.py:1158
 #, python-format
 msgid "%s already bootable"
 msgstr "%s jau ir sāknējams"
 
-#: ../tails_installer/creator.py:1156
+#: ../tails_installer/creator.py:1178
 msgid "Unable to find partition"
 msgstr "Nespēj atrast nodalījumu"
 
-#: ../tails_installer/creator.py:1179
+#: ../tails_installer/creator.py:1201
 #, python-format
 msgid "Formatting %(device)s as FAT32"
 msgstr "Formatē %(device)s kā FAT32"
 
-#: ../tails_installer/creator.py:1239
+#: ../tails_installer/creator.py:1261
 msgid "Could not find syslinux' gptmbr.bin"
 msgstr "Neizdevās atrast syslinux' gptmbr.bin"
 
-#: ../tails_installer/creator.py:1252
+#: ../tails_installer/creator.py:1274
 #, python-format
 msgid "Reading extracted MBR from %s"
 msgstr "Lasa no %s izgūto MBR "
 
-#: ../tails_installer/creator.py:1256
+#: ../tails_installer/creator.py:1278
 #, python-format
 msgid "Could not read the extracted MBR from %(path)s"
 msgstr "Neidzevās nolasīt no %(path)s izgūto MBR"
 
-#: ../tails_installer/creator.py:1269 ../tails_installer/creator.py:1270
+#: ../tails_installer/creator.py:1291 ../tails_installer/creator.py:1292
 #, python-format
 msgid "Resetting Master Boot Record of %s"
 msgstr "Atiestata %s pamatsāknēšanas ierakstu jeb MBR"
 
-#: ../tails_installer/creator.py:1275
+#: ../tails_installer/creator.py:1297
 msgid "Drive is a loopback, skipping MBR reset"
 msgstr "Disks ir cilptestā, tiek izlaista MBR atiestatīšana"
 
-#: ../tails_installer/creator.py:1279 ../tails_installer/creator.py:1533
+#: ../tails_installer/creator.py:1301 ../tails_installer/creator.py:1555
 #, python-format
 msgid "Calculating the SHA1 of %s"
 msgstr "Aprēķina %s SHA1"
 
-#: ../tails_installer/creator.py:1304
+#: ../tails_installer/creator.py:1326
 msgid "Synchronizing data on disk..."
 msgstr "Sinhronizē datus uz diska..."
 
-#: ../tails_installer/creator.py:1346
+#: ../tails_installer/creator.py:1368
 msgid "Error probing device"
 msgstr "Kļūda pētot ierīci"
 
-#: ../tails_installer/creator.py:1348
+#: ../tails_installer/creator.py:1370
 msgid "Unable to find any supported device"
 msgstr "Nevarēja atrast jebkādu atbalstītu ierīci"
 
-#: ../tails_installer/creator.py:1358
+#: ../tails_installer/creator.py:1380
 msgid ""
 "Make sure your USB key is plugged in and formatted with the FAT filesystem"
 msgstr "Pārliecinieties, ka USB atslēga ir iesprausta un formatēta kā FAT datņu sistēma"
 
-#: ../tails_installer/creator.py:1361
+#: ../tails_installer/creator.py:1383
 #, python-format
 msgid ""
 "Unsupported filesystem: %s\n"
 "Please backup and format your USB key with the FAT filesystem."
 msgstr "Neatbalstīta datņu sistēma: %s\nLūdzu veiciet datu rezerves kopēšanu un formatējiet savu USB atslēgu kā FAT datņu sistēmu."
 
-#: ../tails_installer/creator.py:1428
+#: ../tails_installer/creator.py:1450
 msgid ""
 "Unable to get Win32_LogicalDisk; win32com query did not return any results"
 msgstr "Nespēj sasniegt Win32_LogicalDisk; win32com vaicājums nesniedza atbildes"
 
-#: ../tails_installer/creator.py:1481
+#: ../tails_installer/creator.py:1503
 msgid "Cannot find"
 msgstr "Nav iespējams atrast"
 
-#: ../tails_installer/creator.py:1482
+#: ../tails_installer/creator.py:1504
 msgid ""
 "Make sure to extract the entire tails-installer zip file before running this"
 " program."
@@ -291,52 +291,55 @@ msgstr "Nezināms laidiens: %s"
 msgid "Downloading %s..."
 msgstr "Lejuplādē %s..."
 
-#: ../tails_installer/gui.py:204
+#: ../tails_installer/gui.py:209
 msgid ""
 "Error: Cannot set the label or obtain the UUID of your device.  Unable to "
 "continue."
 msgstr "Kļūda: Nav iespējams iegūt ierīces UUID vai piešķirt iezīmi. Nespēj turpināt."
 
-#: ../tails_installer/gui.py:253
+#: ../tails_installer/gui.py:258
 #, python-format
 msgid "Installation complete! (%s)"
 msgstr "Instalēšana pabeigta! (%s)"
 
-#: ../tails_installer/gui.py:258
+#: ../tails_installer/gui.py:263
 msgid "Tails installation failed!"
 msgstr "Tails instalācija neizdevās!"
 
-#: ../tails_installer/gui.py:353
+#: ../tails_installer/gui.py:364
 msgid ""
 "Warning: This tool needs to be run as an Administrator. To do this, right "
 "click on the icon and open the Properties. Under the Compatibility tab, "
 "check the \"Run this program as an administrator\" box."
 msgstr "Brīdinājums: Šis rīks jālieto administratora režīmā. Lai to izdarītu, ar labo peles taustiņu noklikšķiniet uz ikonas un atveriet Rekvizītus. Verot cilni Savietojamība, atzīmējiet lodziņu \"Izpildīt programmu administratora režīmā\"."
 
-#: ../tails_installer/gui.py:365 ../tails_installer/launcher.py:31
+#: ../tails_installer/gui.py:376 ../tails_installer/launcher.py:31
 msgid "Tails Installer"
 msgstr "Tails instalētājs"
 
-#: ../tails_installer/gui.py:440
+#: ../tails_installer/gui.py:473
+#, python-format
+msgid "%(size)s %(vendor)s %(model)s device (%(device)s)"
+msgstr ""
+
+#: ../tails_installer/gui.py:484
+msgid "No ISO image selected"
+msgstr ""
+
+#: ../tails_installer/gui.py:485
+msgid "Please select a Tails ISO image."
+msgstr ""
+
+#: ../tails_installer/gui.py:524
 msgid "No device suitable to install Tails could be found"
 msgstr "Neizdevās atrast nevienu ierīci, kas spēj instalēt Tails"
 
-#: ../tails_installer/gui.py:442
+#: ../tails_installer/gui.py:526
 #, python-format
 msgid "Please plug a USB flash drive or SD card of at least %0.1f GB."
 msgstr "Lūdzu pievienojiet USB zibatmiņu vai SD karti, kuru ietilpība ir vismaz %0.1f GB."
 
-#: ../tails_installer/gui.py:474
-#, python-format
-msgid "%(size)s %(label)s"
-msgstr "%(size)s %(label)s"
-
-#: ../tails_installer/gui.py:480
-#, python-format
-msgid "%(vendor)s %(model)s (%(details)s) - %(device)s"
-msgstr "%(vendor)s %(model)s (%(details)s) - %(device)s"
-
-#: ../tails_installer/gui.py:488
+#: ../tails_installer/gui.py:560
 #, python-format
 msgid ""
 "The USB stick \"%(pretty_name)s\" is configured as non-removable by its "
@@ -344,97 +347,82 @@ msgid ""
 "different model."
 msgstr "USB disku \"%(pretty_name)s\" tā ražotājs ir nokonfigurējis kā nenoņemamu, un Tails neizdosies no tā startēt. Lūdzu mēģiniet instalēt uz cita modeļa."
 
-#: ../tails_installer/gui.py:498
+#: ../tails_installer/gui.py:570
 #, python-format
 msgid ""
 "The device \"%(pretty_name)s\" is too small to install Tails (at least "
 "%(size)s GB is required)."
 msgstr "Ierīce \"%(pretty_name)s\" ir pārāk maza, lai instalētu Tails (ir nepieciešams vismaz %(size)s GB)."
 
-#: ../tails_installer/gui.py:511
-msgid "\"Install by cloning\""
-msgstr "\"Instalēt klonējot\""
-
-#: ../tails_installer/gui.py:513
-msgid "\"Install from ISO\""
-msgstr "\"Instalēt no ISO\""
-
-#: ../tails_installer/gui.py:514
-#, python-format
-msgid ""
-"It is impossible to upgrade the device %(pretty_name)s because it was not "
-"created using Tails Installer. You should instead use %(action)s to upgrade "
-"Tails on this device."
-msgstr "Ierīci %(pretty_name)s nav iespējams atjaunināt, jo tā nav izveidota ar Tails instalēšanas programmu. Jums drīzāk vajadzētu veikt %(action)s , lai uz šīs ierīces atjauninātu Tails."
-
-#: ../tails_installer/gui.py:533
+#: ../tails_installer/gui.py:592
 msgid "An error happened while installing Tails"
 msgstr "Instalējot Tails radās kļūda"
 
-#: ../tails_installer/gui.py:545
+#: ../tails_installer/gui.py:604
 msgid "Refreshing releases..."
 msgstr "Atsvaidzinoši izlaidumi..."
 
-#: ../tails_installer/gui.py:550
+#: ../tails_installer/gui.py:609
 msgid "Releases updated!"
 msgstr "Laidieni atjaunināti!"
 
-#: ../tails_installer/gui.py:589
+#: ../tails_installer/gui.py:651
 msgid "Installation complete!"
 msgstr "Instalēšana ir pabeigta!"
 
-#: ../tails_installer/gui.py:590
+#: ../tails_installer/gui.py:652
 msgid "Installation was completed."
 msgstr "Instalācija ir pabeigta."
 
-#: ../tails_installer/gui.py:635
+#: ../tails_installer/gui.py:701
 msgid "Unable to mount device"
 msgstr "Nespēj uzmontēt ierīci"
 
-#: ../tails_installer/gui.py:642 ../tails_installer/gui.py:670
-msgid "Please confirm your device selection"
-msgstr "Lūdzu, apstipriniet savu ierīces izvēli"
+#: ../tails_installer/gui.py:708 ../tails_installer/gui.py:736
+msgid "Confirm the target USB stick"
+msgstr ""
 
-#: ../tails_installer/gui.py:643
+#: ../tails_installer/gui.py:709
 #, python-format
 msgid ""
-"You are going to install Tails on the %(size)s %(vendor)s %(model)s device "
-"(%(device)s). All data on the selected device will be lost. Continue?"
-msgstr "Tūliņ Jūs instalēsit Tails uz %(size)s %(vendor)s %(model)s ierīces (%(device)s). Uz izvēlētās ierīces pazudīs visi dati. Vai turpināt?"
+"%(size)s %(vendor)s %(model)s device (%(device)s)\n"
+"\n"
+"All data on this USB stick will be lost."
+msgstr ""
 
-#: ../tails_installer/gui.py:660
+#: ../tails_installer/gui.py:728
 #, python-format
 msgid ""
-"You are going to upgrade Tails on the %(parent_size)s %(vendor)s %(model)s "
-"device (%(device)s). Any persistent volume on this device will remain "
-"unchanged. Continue?"
-msgstr "Tūliņ Jūs jaunināsiet Tails uz %(parent_size)s %(vendor)s %(model)s ierīces (%(device)s). Uz šīs ierīces ikviens pastāvīgs sējums paliks nemainīts. Vai turpināt?"
+"%(vendor)s %(model)s device (%(device)s)\n"
+"\n"
+"%(persistence_message)s"
+msgstr ""
 
-#: ../tails_installer/gui.py:716
+#: ../tails_installer/gui.py:782
 msgid "Download complete!"
 msgstr "Lejupielāde pabeigta!"
 
-#: ../tails_installer/gui.py:720
+#: ../tails_installer/gui.py:786
 msgid "Download failed: "
 msgstr "Lejupielāde neizdevās: "
 
-#: ../tails_installer/gui.py:721
+#: ../tails_installer/gui.py:787
 msgid "You can try again to resume your download"
 msgstr "Variet vēlreiz mēģināt atjaunot lejupielādi"
 
-#: ../tails_installer/gui.py:729
+#: ../tails_installer/gui.py:795
 msgid ""
 "The selected file is unreadable. Please fix its permissions or select "
 "another file."
 msgstr "Atlasīto datni nav iespējams lasīt. Lūdzu sakārtojiet atļaujas vai izvēlieties citu datni. "
 
-#: ../tails_installer/gui.py:735
+#: ../tails_installer/gui.py:801
 msgid ""
 "Unable to use the selected file.  You may have better luck if you move your "
 "ISO to the root of your drive (ie: C:\\)"
 msgstr "Nespēj lietot atlasīto datni.  Iespējams, veiktos labāk, ja ISO tiktu pārvietots uz diska sakni (proti, C:\\)"
 
-#: ../tails_installer/gui.py:741
+#: ../tails_installer/gui.py:807
 #, python-format
 msgid "%(filename)s selected"
 msgstr "%(filename)s izvēlēts"
@@ -478,23 +466,35 @@ msgid ""
 "%s"
 msgstr "Radās problēma izpildot `%s`.%s\n%s"
 
-#: ../tails_installer/utils.py:119
+#: ../tails_installer/utils.py:124
 msgid "Could not open device for writing."
 msgstr "Ierīci neizdevās atvērt rakstīšanai."
 
 #: ../data/tails-installer.ui.h:1
-msgid "Use existing Live system ISO:"
-msgstr "Izmanto esošo sistēmas Live ISO:"
+msgid "Installation Instructions"
+msgstr ""
 
 #: ../data/tails-installer.ui.h:2
+msgid "Clone the current Tails"
+msgstr ""
+
+#: ../data/tails-installer.ui.h:3
+msgid "Use a downloaded Tails ISO image"
+msgstr ""
+
+#: ../data/tails-installer.ui.h:4
 msgid "Select a distribution to download:"
 msgstr "Atlasiet sadali lejuplādei:"
 
-#: ../data/tails-installer.ui.h:3
-msgid "Target Device:"
-msgstr "Mērķa ierīce:"
+#: ../data/tails-installer.ui.h:5
+msgid "Target USB stick:"
+msgstr ""
 
-#: ../data/tails-installer.ui.h:4
+#: ../data/tails-installer.ui.h:6
+msgid "Reinstall (delete all data)"
+msgstr ""
+
+#: ../data/tails-installer.ui.h:7
 msgid "Install Tails"
 msgstr "Instalēt Tails"
 
