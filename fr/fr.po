@@ -28,7 +28,7 @@ msgstr ""
 "Project-Id-Version: The Tor Project\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-09-14 14:52+0200\n"
-"PO-Revision-Date: 2017-09-14 17:45+0000\n"
+"PO-Revision-Date: 2017-09-14 18:15+0000\n"
 "Last-Translator: French language coordinator <french.coordinator@rbox.me>\n"
 "Language-Team: French (http://www.transifex.com/otf/torproject/language/fr/)\n"
 "MIME-Version: 1.0\n"
@@ -59,7 +59,7 @@ msgstr "Configuration du fichier d'amorçage de l'OLPC..."
 msgid ""
 "There was a problem executing the following command: `%(command)s`.\n"
 "A more detailed error log has been written to '%(filename)s'."
-msgstr "Un problème est survenu lors de l'exécution de la commande suivante : « %(command)s »\nUn journal d'erreurs plus détaillé a été écrit dans le fichier « %(filename)s »."
+msgstr "Un problème est survenu lors de l'exécution de la commande suivante : « %(command)s »\nUn journal d'erreurs plus détaillé a été écrit dans le fichier « %(filename)s »."
 
 #: ../tails_installer/creator.py:340
 msgid "Verifying SHA1 checksum of LiveCD image..."
@@ -73,7 +73,7 @@ msgstr "Vérification de la somme de contrôle SHA256 de l'image du CD autonome.
 msgid ""
 "Error: The SHA1 of your Live CD is invalid.  You can run this program with "
 "the --noverify argument to bypass this verification check."
-msgstr "Erreur : le SHA1 de votre CD autonome est invalide. Vous pouvez exécuter ce programme avec l'option « --noverify » pour contourner cette vérification."
+msgstr "Erreur : le SHA1 de votre CD autonome est invalide. Vous pouvez exécuter ce programme avec l'argument  « --noverify » pour contourner cette vérification."
 
 #: ../tails_installer/creator.py:366
 msgid "Unknown ISO, skipping checksum verification"
@@ -84,7 +84,7 @@ msgstr "ISO inconnue, omission de la vérification de la somme de contrôle"
 msgid ""
 "Not enough free space on device.\n"
 "%dMB ISO + %dMB overlay > %dMB free space"
-msgstr "Pas assez d'espace libre sur le périphérique.\nISO de %dMo + %dMo de persistance > %dMo d'espace libre"
+msgstr "Pas assez d'espace libre sur le périphérique.\nISO de %d Mo + persistance de %d Mo persistance > %d Mo d'espace libre"
 
 #: ../tails_installer/creator.py:384
 #, python-format
@@ -118,7 +118,7 @@ msgstr "Impossible d'enlever le répertoire du SE autonome précédent : %(messa
 #: ../tails_installer/creator.py:532
 #, python-format
 msgid "Cannot find device %s"
-msgstr "Périphérique %s introuvable"
+msgstr "Le périphérique %s est introuvable"
 
 #: ../tails_installer/creator.py:699
 #, python-format
@@ -134,7 +134,7 @@ msgstr "Certaines partitions du périphérique cible %(device)s sont montées. E
 
 #: ../tails_installer/creator.py:762 ../tails_installer/creator.py:986
 msgid "Unknown filesystem.  Your device may need to be reformatted."
-msgstr "Système de fichiers inconnu. Votre périphérique doit être reformaté."
+msgstr "Le système de fichiers est inconnu. Il est possible qu'il faille reformater votre périphérique."
 
 #: ../tails_installer/creator.py:765 ../tails_installer/creator.py:989
 #, python-format
@@ -144,7 +144,7 @@ msgstr "Système de fichiers non pris en charge : %s"
 #: ../tails_installer/creator.py:782
 #, python-format
 msgid "Unknown GLib exception while trying to mount device: %(message)s"
-msgstr "Exception GLib inconnue en tentant de monter le périphérique : %(message)s"
+msgstr "Exception GLib inconnue en tentant de monter le périphérique : %(message)s"
 
 #: ../tails_installer/creator.py:786
 #, python-format
@@ -188,11 +188,11 @@ msgstr "Mise à jour des propriétés de la partition système %(system_partitio
 #: ../tails_installer/creator.py:971
 #, python-format
 msgid "Unsupported device '%(device)s', please report a bug."
-msgstr "Périphérique « %(device)s » non prise en charge, veuillez signaler le bogue."
+msgstr "Le périphérique « %(device)s » n'est pas pris en charge, veuillez signaler le bogue."
 
 #: ../tails_installer/creator.py:974
 msgid "Trying to continue anyway."
-msgstr "Nous nous efforçons de continuer quand même."
+msgstr "Nous tentons de continuer quand même."
 
 #: ../tails_installer/creator.py:983 ../tails_installer/creator.py:1376
 msgid "Verifying filesystem..."
@@ -210,7 +210,7 @@ msgstr "Installation du chargeur de démarrage..."
 #: ../tails_installer/creator.py:1038
 #, python-format
 msgid "Could not find the '%s' COM32 module"
-msgstr "Impossible de trouver le module '%s' COM32"
+msgstr "Impossible de trouver le module COM32 « %s »"
 
 #: ../tails_installer/creator.py:1046 ../tails_installer/creator.py:1427
 #, python-format
@@ -233,26 +233,26 @@ msgstr "Formatage de %(device)s en FAT32"
 
 #: ../tails_installer/creator.py:1261
 msgid "Could not find syslinux' gptmbr.bin"
-msgstr "Impossible de trouver syslinux' gptmbr.bin"
+msgstr "Impossible de trouver gptmbr.bin de SYSLYNUX"
 
 #: ../tails_installer/creator.py:1274
 #, python-format
 msgid "Reading extracted MBR from %s"
-msgstr "Lecture du MBR extrait de %s"
+msgstr "Lecture de l'enregistrement d'amorçage maître extrait de %s"
 
 #: ../tails_installer/creator.py:1278
 #, python-format
 msgid "Could not read the extracted MBR from %(path)s"
-msgstr "Impossible de lire le MBR extrait de %(path)s"
+msgstr "Impossible de lire l'enregistrement d'amorçage maître extrait de %(path)s"
 
 #: ../tails_installer/creator.py:1291 ../tails_installer/creator.py:1292
 #, python-format
 msgid "Resetting Master Boot Record of %s"
-msgstr "Réinitialisation de l'enregistrement d'amorçage maître (MBR) de %s"
+msgstr "Réinitialisation de l'enregistrement d'amorçage maître de %s"
 
 #: ../tails_installer/creator.py:1297
 msgid "Drive is a loopback, skipping MBR reset"
-msgstr "Le périphérique est une boucle avec retour, omission de la réinitialisation du MBR"
+msgstr "Le périphérique est une boucle avec retour, omission de la réinitialisation de l'enregistrement d'amorçage maître"
 
 #: ../tails_installer/creator.py:1301 ../tails_installer/creator.py:1555
 #, python-format
@@ -265,7 +265,7 @@ msgstr "Synchronisation des données sur le disque..."
 
 #: ../tails_installer/creator.py:1368
 msgid "Error probing device"
-msgstr "Erreur d'examen du périphérique"
+msgstr "Erreur de sondage du périphérique"
 
 #: ../tails_installer/creator.py:1370
 msgid "Unable to find any supported device"
@@ -425,7 +425,7 @@ msgstr "Échec de téléchargement : "
 
 #: ../tails_installer/gui.py:787
 msgid "You can try again to resume your download"
-msgstr "Vous pouvez essayer de reprendre votre téléchargement"
+msgstr "Vous pouvez ressayer pour reprendre votre téléchargement"
 
 #: ../tails_installer/gui.py:795
 msgid ""
