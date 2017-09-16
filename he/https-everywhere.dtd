@@ -3,25 +3,43 @@
 <!ENTITY https-everywhere.about.ext_description "הצפן את הרשת! השתמש ב-HTTPS אוטומטית באתרים רבים.">
 <!ENTITY https-everywhere.about.version "גרסה">
 <!ENTITY https-everywhere.about.created_by "נבנה על ידי">
+<!ENTITY https-everywhere.about.and ", ו">
 <!ENTITY https-everywhere.about.librarians "ספרני Ruleset">
+<!ENTITY https-everywhere.about.add_new_rule "הוסף כלל חדש">
 <!ENTITY https-everywhere.about.thanks "תודות ל">
+<!ENTITY https-everywhere.about.many_contributors "תורמים רבים, כולל">
+<!ENTITY https-everywhere.about.noscript "בנוסף, חלקים של HTTPS Everywhere מבוססים על קוד מ-NoScript, מאת Giorgio Maone ואחרים. אנחנו אסירי תודה על עבודתם המצוינת!">
 <!ENTITY https-everywhere.about.contribute  "אם הינך שבע רצון מ- &quot;HTTPS בכל מקום&quot;, אולי תרצה לשקול">
 <!ENTITY https-everywhere.about.donate_tor "לתרום ל-Tor">
 <!ENTITY https-everywhere.about.tor_lang_code "אנגלית">
 <!ENTITY https-everywhere.about.or "או">
 <!ENTITY https-everywhere.about.donate_eff "תרומה לEFF">
 
+<!ENTITY https-everywhere.menu.donate_eff_imperative "תרום אל EFF">
 <!ENTITY https-everywhere.menu.about "אודות &quot;HTTPS בכל מקום&quot;">
 <!ENTITY https-everywhere.menu.observatory "העדפות SSL Observatory">
 <!ENTITY https-everywhere.menu.globalEnable "הפעל את &quot;HTTPS בכל מקום&quot;">
 <!ENTITY https-everywhere.menu.globalDisable "השבת את &quot;HTTPS בכל מקום&quot;">
-<!ENTITY https-everywhere.menu.blockHttpRequests "חסום את כל בקשות ה-HTTP">
+<!ENTITY https-everywhere.menu.blockUnencryptedRequests "חסום את כל הבקשות הבלתי מוצפנות">
 <!ENTITY https-everywhere.menu.showCounter "הצג מונה">
 <!ENTITY https-everywhere.menu.viewAllRules "צפה בכל הכללים">
+
+<!ENTITY https-everywhere.options.importSettings "ייבא הגדרות">
+<!ENTITY https-everywhere.options.import "ייבא">
+<!ENTITY https-everywhere.options.imported "ההגדרות שלך יובאו.">
 
 <!ENTITY https-everywhere.prefs.title "הגדרות &quot;HTTPS בכל מקום&quot;">
 <!ENTITY https-everywhere.prefs.enable_all "הפעל הכל">
 <!ENTITY https-everywhere.prefs.disable_all "השבת הכל">
+<!ENTITY https-everywhere.prefs.export_settings "ייצא הגדרות">
+<!ENTITY https-everywhere.prefs.settings_warning "אזהרה:">
+<!ENTITY https-everywhere.prefs.settings_warning_delete "חלק מהגדרות HTTPS Everywhere שלך עומד להימחק!">
+<!ENTITY https-everywhere.prefs.settings_warning_explain "תוספת זו תשודרג באופן משמעותי בעתיד הקרוב. אם לא תייצא את ההגדרות שלך, אתה עלול לאבד אחד או יותר מהבאים:">
+<!ENTITY https-everywhere.prefs.settings_global "העדפות עולמיות">
+<!ENTITY https-everywhere.prefs.settings_toggle "הגדרת פועל/כבוי לכל אתר">
+<!ENTITY https-everywhere.prefs.settings_custom "כללים מותאמים של אתרים">
+<!ENTITY https-everywhere.prefs.settings_click_ok "אנא לחץ על 'אישור'">
+<!ENTITY https-everywhere.prefs.settings_warning_closing "למטה כדי להבטיח שההגדרות שלך נשמרו. ברגע ש-HTTPS Everywhere ישודרג, תצטרך מאוחר יותר לייבא הגדרות אלו בפלג האפשרויות של התוספת.">
 <!ENTITY https-everywhere.prefs.reset_defaults "איפוס לברירת מחדל">
 <!ENTITY https-everywhere.prefs.search "חפש">
 <!ENTITY https-everywhere.prefs.site "אתר">
@@ -34,17 +52,19 @@
 <!ENTITY https-everywhere.prefs.reset_default "החזר לברירת מחדל">
 <!ENTITY https-everywhere.prefs.view_xml_source "הצג מקור XML">
 
-<!ENTITY https-everywhere.source.downloading "מוריד">
-<!ENTITY https-everywhere.source.filename "שם הקובץ">
-<!ENTITY https-everywhere.source.unable_to_download "הורדת המקור נכשלה">
+<!ENTITY https-everywhere.chrome.stable_rules "כללים יציבים">
+<!ENTITY https-everywhere.chrome.stable_rules_description "אלץ חיבורים מוצפנים אל אתרים אלו:">
+<!ENTITY https-everywhere.chrome.experimental_rules "כללים ניסיוניים">
+<!ENTITY https-everywhere.chrome.experimental_rules_description "עשוי לגרום לאזהרות או לשבירה. מושבת כברירת מחדל.">
+<!ENTITY https-everywhere.chrome.add_rule "הוסף כלל עבור אתר זה">
+<!ENTITY https-everywhere.chrome.add_new_rule "הוסף כלל חדש עבור אתר זה">
+<!ENTITY https-everywhere.chrome.always_https_for_host "השתמש תמיד ב-https עבור מארח זה">
+<!ENTITY https-everywhere.chrome.host "מארח:">
+<!ENTITY https-everywhere.chrome.show_advanced "הראה מתקדם">
+<!ENTITY https-everywhere.chrome.hide_advanced "הסתר מתקדם">
+<!ENTITY https-everywhere.chrome.rule_name "שם כלל">
+<!ENTITY https-everywhere.chrome.regex "regex תואם">
+<!ENTITY https-everywhere.chrome.redirect_to "הפנה אל">
+<!ENTITY https-everywhere.chrome.status_cancel_button "בטל">
 
-<!ENTITY https-everywhere.popup.title "&quot;HTTPS בכל מקום&quot; 4.0פיתוח.11 הודעה ">
-<!ENTITY https-everywhere.popup.paragraph1 "אופס. השתמשת בגרסה היציבה של HTTPS בכל מקום, אך ייתכן שבשוגג שידרגנו אותך לגרסת הפיתוח החדשה שלנו.">
-<!ENTITY https-everywhere.popup.paragraph2 "האם אתה רוצה לחזור לגרסה היציבה?">
-<!ENTITY https-everywhere.popup.paragraph3 "היינו שמחים אם היית ממשיך להשתמש בגרסת הפיתוח כדי לסייע לנו לשפר את &quot;HTTPS בכל מקום&quot;! אתה עלול לגלות עוד כמה באגים פה ושם, שתוכל לדווח עליהם ל- https-everywhere@eff.org. אנו מצרים על אי הנעימות ומודים לך על השימוש ב-&quot;HTTPS בכל מקום&quot;.">
-<!ENTITY https-everywhere.popup.keep "השאר אותי בגרסת הפיתוח">
-<!ENTITY https-everywhere.popup.revert "הורד את הגרסה היציבה האחרונה">
 
-<!ENTITY https-everywhere.ruleset-tests.status_title "בדיקות כללי &quot;HTTPS בכל מקום&quot;">
-<!ENTITY https-everywhere.ruleset-tests.status_cancel_button "ביטול">
-<!ENTITY https-everywhere.ruleset-tests.status_start_button "התחל">
