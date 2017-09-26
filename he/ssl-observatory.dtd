@@ -47,13 +47,14 @@ to turn it on?">-->
 "הראה אזהרה כאשר המיצפה מזהה אישור שלול שלא נתפס ע&quot;י הדפדפן שלך.">
 
 <!ENTITY ssl-observatory.prefs.show_cert_warning_tooltip
-"זה יבדוק את האישורים שיישלחו אל מול רשימת האישורים המבוטלים. לצערנו הרב איננו יכולים להתחייב שנאתר כל אישור שתוקפו פג, אך אם בכל זאת תוצג התרעה ישנו סיכוי סביר שמשהו השתבש.">
+"זה יבדוק אישורים שהוגשו מול רשימות ביטול אישורים. לרוע המזל, איננו יכולים להתחייב שנסמן בדגל כל אישור שלול, אך אם תראה אזהרה, יש סיכוי גבוה שמשהו אינו כשורה.">
 
-<!ENTITY ssl-observatory.prefs.done "הושלם">
+<!ENTITY ssl-observatory.prefs.done "בוצע">
 
 <!ENTITY ssl-observatory.prefs.explanation 
-"&quot;HTTPS בכל מקום&quot; יכול להשתמש במאגר האישורים המקוון של EFF. אם תפעיל אפשרות זו היא תביא לתוצאות הבאות: 
-(1) יישלחו עותקים מאישורי HTTPS למאגר, כדי לעזור לנו ליירט התקפות &quot;אדם באמצע&quot; ולשפר את אבטחת הרשת;  ו-(2) נוכל להתריע בפניך על חיבורים לא מאובטחים ועל מתקפות על הדפדפן שלך.">
+"HTTPS Everywhere יכול להשתמש במיצפה SSL של EFF. זה עושה שני דברים: (1)
+שולח עותקים של אישורי HTTPS אל המיצפה, כדי לעזור לנו לגלות התקפות 'אדם באמצע' ולשפר את אבטחת האינטרנט; וגם (2)
+מאפשר לנו להזהיר אותך מפני חיבורים לא בטוחים או התקפות על הדפדפן שלך.">
 
 <!--<!ENTITY ssl-observatory.prefs.explanation2
 "When you visit https://www.example.com, the Observatory will learn that
@@ -62,34 +63,34 @@ Mouseover the options for further details:">-->
 
 <!ENTITY ssl-observatory.prefs.explanation2
 
-"לדוגמא, כאשר אתה מבקר ב-  https://www.something.com, האישור שיתקבל אצלנו במאגר יעיד על כך שמישהו ביקר ב- www.something.com, אך ללא פרטים על זהות המבקר או על העמודים הספציפיים אליהם גלש. עבור עם סמן העכבר על האפשרויות לקבלת פרטים נוספים:">
+"לדוגמה, כאשר אתה מבקר ב-https://www.something.com, האישור שיתקבל אצלנו במיצפה יעיד שמישהו ביקר ב-www.something.com, אך לא מי ביקר באתר או באילו דפים מסוימים הוא הביט. עבור עם סמן העכבר על האפשרויות לפרטים נוספים:">
 
 <!ENTITY ssl-observatory.prefs.hide "הסתר אפשרויות מתקדמות">
 
 <!ENTITY ssl-observatory.prefs.nonanon 
-"בדוק אישורים גם כשאינך מחובר לרשת Tor">
+"בדוק אישורים גם אם Tor אינו זמין">
 
 <!ENTITY ssl-observatory.prefs.nonanon_tooltip
-"אמנם נשתדל לשמור על פרטיות הנתונים, אבל אפשרות זאת בטוחה פחות">
+"נשתדל לשמור על הנתונים אלמוניים, אבל אפשרות זו פחות מאובטחת">
 
 <!ENTITY ssl-observatory.prefs.priv_dns 
 "שלח לבדיקה אישורים עבור שמות מתחם שאינם נחלת הכלל">
 
 <!ENTITY ssl-observatory.prefs.priv_dns_tooltip
-"אלא אם אפשרות זאת סומנה, המאגר לא ישמור אישורים עבור שמות מתחם שאינם מופיעים במאגרי שמות המתחם הציבוריים">
+"אלא אם אפשרות זו מסומנת, המיצפה לא ירשום אישורים עבור שמות שאינם יכולים להיפתר דרך מערכת ה-DNS.">
 
 <!ENTITY ssl-observatory.prefs.show "הצג אפשרויות מתקדמות">
 
-<!ENTITY ssl-observatory.prefs.title "העדפות מאגר האישורים המקוון">
+<!ENTITY ssl-observatory.prefs.title "העדפות מיצפה SSL">
 
-<!ENTITY ssl-observatory.prefs.use "האם להשתמש במאגר?">
-<!ENTITY ssl-observatory.warning.title "אזהרה ממאגר אישורי האבטחה של EFF">
-<!ENTITY ssl-observatory.warning.showcert "הצג את שרשרת האישורים">
-<!ENTITY ssl-observatory.warning.okay "הבנתי">
-<!ENTITY ssl-observatory.warning.text "מאגר אישורי האבטחה של EFF פרסם אזהרה לגבי אישורי האבטחה של אתר זה:">
-<!ENTITY ssl-observatory.warning.defense "אם הינך מחובר לאתר זה, מומלץ שתחליף את סיסמתך מתוך חיבור מאובטח. (ניתן לבטל התרעות אלה בטאב &quot;מאגר האישורים&quot; בחלונית הדו-שיח של &quot;HTTPS בכל מקום&quot;.)">
+<!ENTITY ssl-observatory.prefs.use "להשתמש במיצפה?">
+<!ENTITY ssl-observatory.warning.title "אזהרה ממיצפה SSL של EFF">
+<!ENTITY ssl-observatory.warning.showcert "הראה את שרשרת האישורים">
+<!ENTITY ssl-observatory.warning.okay "אני מבין">
+<!ENTITY ssl-observatory.warning.text "מיצפה SSL של EFF הנפיק אזהרה לגבי אישור(י) ה-HTTPS עבור אתר זה:">
+<!ENTITY ssl-observatory.warning.defense "אם אתה מחובר לאתר זה, רצוי שתשנה את סיסמתך ברגע שיש לך חיבור בטוח. (אזהרה אלו ניתנות להשבתה בלשונית &quot;מיצפה SSL&quot; של דו-השיח העדפות HTTPS Everywhere.)">
 
 <!ENTITY ssl-observatory.prefs.self_signed
-"שלח לבדיקה אישורים חתומים עצמית">
+"הגש ובדוק אישורים חתומים עצמית">
 <!ENTITY ssl-observatory.prefs.self_signed_tooltip
-"אפשרות זו מומלצת; בעיות הצפנה נפוצות במיוחד בקרב מערכות משובצות מחשב המשתמשות באישורי אבטחה חתומים עצמית">
+"אפשרות זו מומלצת; בעיות קריפטוגרפיות נפוצות במיוחד בהתקני מערכות משובצות מחשב החתומים עצמית">
