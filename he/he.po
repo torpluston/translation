@@ -17,7 +17,7 @@ msgstr ""
 "Project-Id-Version: The Tor Project\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-09-25 14:02+0200\n"
-"PO-Revision-Date: 2017-09-28 23:15+0000\n"
+"PO-Revision-Date: 2017-09-28 23:37+0000\n"
 "Last-Translator: ION\n"
 "Language-Team: Hebrew (http://www.transifex.com/otf/torproject/language/he/)\n"
 "MIME-Version: 1.0\n"
@@ -62,7 +62,7 @@ msgstr "מוודא סיכום ביקורת SHA256 של תמונת LiveCD..."
 msgid ""
 "Error: The SHA1 of your Live CD is invalid.  You can run this program with "
 "the --noverify argument to bypass this verification check."
-msgstr "שגיאה: ה־SHA1 של התקליטור החי שלך שגוי. ניתן להריץ תכנית זו עם הארגומנט ‎--noverify כדי לעקוף בדיקת אימות זו."
+msgstr "שגיאה: ה־SHA1 של התקליטור החי שלך בלתי תקף. אתה יכול להריץ תוכנית זו עם הארגומנט ‎--noverify כדי לעקוף בדיקת וידוא זו."
 
 #: ../tails_installer/creator.py:366
 msgid "Unknown ISO, skipping checksum verification"
@@ -73,12 +73,12 @@ msgstr "ISO בלתי ידוע, מדלג על וידוא סיכום ביקורת"
 msgid ""
 "Not enough free space on device.\n"
 "%dMB ISO + %dMB overlay > %dMB free space"
-msgstr "אין די שטח פנוי על ההתקן.\n%dMB ISO + %dMB overlay > %dMB שטח פנוי"
+msgstr "אין מספיק שטח פנוי בהתקן.\n%dמ\"ב ISO +%dמ\"ב כיסוי יתר > %d מ\"ב שטח פנוי"
 
 #: ../tails_installer/creator.py:384
 #, python-format
 msgid "Creating %sMB persistent overlay"
-msgstr "יוצר %sMB זכרון תמידי"
+msgstr "יוצר %s מ\"ב של כיסוי יתר"
 
 #: ../tails_installer/creator.py:445
 #, python-format
@@ -87,7 +87,7 @@ msgstr "לא היה ניתן להעתיק את  %(infile)s  אל %(outfile)s :  
 
 #: ../tails_installer/creator.py:459
 msgid "Removing existing Live OS"
-msgstr "מסיר מערכת הפעלה Live קיימת"
+msgstr "מסיר מערכת הפעלה חיה קיימת"
 
 #: ../tails_installer/creator.py:468 ../tails_installer/creator.py:479
 #, python-format
@@ -97,12 +97,12 @@ msgstr "לא היה ניתן לשנות הרשאות %(file)s: %(message)s"
 #: ../tails_installer/creator.py:472
 #, python-format
 msgid "Unable to remove file from previous LiveOS: %(message)s"
-msgstr "אי אפשר להסיר קובץ ממערכת ההפעלה הקודמת: %(message)s"
+msgstr "לא היה ניתן להסיר קובץ ממערכת ההפעלה החיה הקודמת: %(message)s"
 
 #: ../tails_installer/creator.py:484
 #, python-format
 msgid "Unable to remove directory from previous LiveOS: %(message)s"
-msgstr "אי אפשר להסיר תיקייה ממערכת ההפעלה הקודמת: %(message)s"
+msgstr "לא היה ניתן להסיר תיקייה ממערכת ההפעלה החיה הקודמת: %(message)s"
 
 #: ../tails_installer/creator.py:532
 #, python-format
@@ -112,18 +112,18 @@ msgstr "לא ניתן למצוא את ההתקן %s"
 #: ../tails_installer/creator.py:701
 #, python-format
 msgid "Unable to write on %(device)s, skipping."
-msgstr "אי אפשר לכתוב על  %(device)s, מדלג"
+msgstr "לא היה ניתן לכתוב על %(device)s, מדלג."
 
 #: ../tails_installer/creator.py:725
 #, python-format
 msgid ""
 "Some partitions of the target device %(device)s are mounted. They will be "
 "unmounted before starting the installation process."
-msgstr "חלק ממחיצות התקן היעד %(device)s טעונות כרגע. הן תיפרקנה בטרם יחל תהליך ההתקנה."
+msgstr "מספר מחיצות של התקן המטרה %(device)s מוצבות. הן יהיו בלתי מוצבות לפני התחלת תהליך ההתקנה."
 
 #: ../tails_installer/creator.py:768 ../tails_installer/creator.py:991
 msgid "Unknown filesystem.  Your device may need to be reformatted."
-msgstr "מערכת קבצים לא ידועה. המכשיר שלך צריך פרמוט מחדש."
+msgstr "מערכת קבצים בלתי ידועה. ההתקן שלך צריך להיות מתוסדר מחדש."
 
 #: ../tails_installer/creator.py:771 ../tails_installer/creator.py:994
 #, python-format
@@ -237,7 +237,7 @@ msgstr ""
 #: ../tails_installer/creator.py:1296 ../tails_installer/creator.py:1297
 #, python-format
 msgid "Resetting Master Boot Record of %s"
-msgstr "מאפס את Master Boot Record של %s"
+msgstr "מאפס רשומת אתחול-אב של %s"
 
 #: ../tails_installer/creator.py:1302
 msgid "Drive is a loopback, skipping MBR reset"
@@ -254,7 +254,7 @@ msgstr "מסנכרן נתונים על הדיסק.."
 
 #: ../tails_installer/creator.py:1373
 msgid "Error probing device"
-msgstr "מכשיר הגורם לטעות"
+msgstr "התקן הגורם לשגיאה"
 
 #: ../tails_installer/creator.py:1375
 msgid "Unable to find any supported device"
