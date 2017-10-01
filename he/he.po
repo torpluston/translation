@@ -90,7 +90,7 @@ msgstr "אינו יכול לבטל נעילת אחסון מוצפן עם ביט�
 msgid ""
 "You will configure the Tor bridge and local proxy later on after connecting "
 "to a network."
-msgstr ""
+msgstr "תגדיר את גשר ה-Tor ואת ייפוי-הכוח מאוחר יותר לאחר התחברות אל רשת."
 
 #: ../data/greeter.ui.h:19
 msgid "Welcome to Tails!"
@@ -101,7 +101,7 @@ msgstr "ברוך הבא אל Tails!"
 msgctxt ""
 msgid ""
 "To get guided through Tails' settings, click on <b>Take a Tour</b> above"
-msgstr ""
+msgstr "כדי להיות מודרך בהגדרות Tails, לחץ על <b>קח סיור</b> למעלה"
 
 #: ../data/greeter.ui.h:22
 msgid "Language & Region"
@@ -193,13 +193,15 @@ msgstr "הגדר גשר Tor או ייפוי-כוח מקומי"
 
 #: ../data/greeter.ui.h:43
 msgid "Disable all networking"
-msgstr "השבת את כל ההתחברויות לרשת"
+msgstr "השבת את כל הרישות"
 
 #: ../data/greeter.ui.h:44
 msgid ""
 "The default settings are safe in most situations. To add a custom setting, "
 "press the \"+\" button below."
 msgstr ""
+"הגדרות ברירת המחדל בטוחות ברוב המצבים. כדי להוסיף הגדרה מותאמת, לחץ על "
+"הכפתור \"+\" למטה."
 
 #: ../data/greeter.ui.h:45
 msgid "_Administration Password"
@@ -227,7 +229,7 @@ msgstr "ישיר (ברירת מחדל)"
 
 #: ../data/greeter.ui.h:51
 msgid "_Windows Camouflage"
-msgstr ""
+msgstr "_הסוואת Windows"
 
 #: ../tailsgreeter/gui.py:391
 msgid "Bridge & Proxy"
@@ -239,7 +241,7 @@ msgstr "לא מקוון"
 
 #: ../tailsgreeter/gui.py:481
 msgid "Failed to relock persistent storage."
-msgstr ""
+msgstr "נכשל בנעילה מחדש של אחסון מתמיד."
 
 #: ../tailsgreeter/gui.py:499
 msgid "Unlocking…"
@@ -263,7 +265,7 @@ msgstr "הקודם"
 
 #: ../tailsgreeter/gui.py:730
 msgid "Shutdown"
-msgstr "כיבוי"
+msgstr "כבה"
 
 #: ../tailsgreeter/gui.py:735
 msgid "_Start Tails"
@@ -273,7 +275,7 @@ msgstr "_התחל את Tails"
 #. Gtk translation)
 #: ../tailsgreeter/language.py:133
 msgid "default:LTR"
-msgstr "ברירת מחדל: משמאל לימין"
+msgstr "default:LTR"
 
 #: ../tailsgreeter/persistence.py:89
 #, python-brace-format
@@ -281,6 +283,8 @@ msgid ""
 "live-persist failed with return code {returncode}:\n"
 "{stderr}"
 msgstr ""
+"live-persist נכשל עם חזרה {returncode}:\n"
+"{stderr}"
 
 #: ../tailsgreeter/persistence.py:122 ../tailsgreeter/persistence.py:139
 #, python-brace-format
@@ -289,6 +293,9 @@ msgid ""
 "{stdout}\n"
 "{stderr}"
 msgstr ""
+"cryptsetup נכשל עם קוד חזרה {returncode}:\n"
+"{stdout}\n"
+"{stderr}"
 
 #: ../tailsgreeter/persistence.py:156
 #, python-brace-format
@@ -297,6 +304,9 @@ msgid ""
 "{stdout}\n"
 "{stderr}"
 msgstr ""
+"live-persist נכשל עם קוד חזרה {returncode}:\n"
+"{stdout}\n"
+"{stderr}"
 
 #: ../tailsgreeter/persistence.py:170
 #, python-brace-format
@@ -305,3 +315,6 @@ msgid ""
 "{stdout}\n"
 "{stderr}"
 msgstr ""
+"umount נכשל עם קוד חזרה {returncode}:\n"
+"{stdout}\n"
+"{stderr}"
