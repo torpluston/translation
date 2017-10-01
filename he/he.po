@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: The Tor Project\n"
 "Report-Msgid-Bugs-To: Tails developers <tails@boum.org>\n"
 "POT-Creation-Date: 2017-05-15 13:51+0200\n"
-"PO-Revision-Date: 2017-09-30 17:55+0000\n"
+"PO-Revision-Date: 2017-10-01 14:04+0000\n"
 "Last-Translator: ION\n"
 "Language-Team: Hebrew (http://www.transifex.com/otf/torproject/language/he/)\n"
 "MIME-Version: 1.0\n"
@@ -129,7 +129,7 @@ msgstr "צור קישור סמלי אל $HOME מכל קובץ או סיפריי�
 
 #: ../lib/Tails/Persistence/Setup.pm:230
 msgid "Setup Tails persistent volume"
-msgstr "קביעת תצורת כרך התמדה של Tails"
+msgstr "קביעת תצורת כרך מתמיד של Tails"
 
 #: ../lib/Tails/Persistence/Setup.pm:312 ../lib/Tails/Persistence/Setup.pm:459
 msgid "Error"
@@ -138,7 +138,7 @@ msgstr "שגיאה"
 #: ../lib/Tails/Persistence/Setup.pm:344
 #, perl-format
 msgid "Device %s already has a persistent volume."
-msgstr "להתקן %s יש כבר כרך התמדה."
+msgstr "להתקן %s יש כבר כרך מתמיד."
 
 #: ../lib/Tails/Persistence/Setup.pm:352
 #, perl-format
@@ -148,13 +148,13 @@ msgstr "להתקן %s אין מספיק שטח בלתי מוקצה."
 #: ../lib/Tails/Persistence/Setup.pm:360 ../lib/Tails/Persistence/Setup.pm:374
 #, perl-format
 msgid "Device %s has no persistent volume."
-msgstr "להתקן %s אין כרך התמדה."
+msgstr "להתקן %s אין כרך מתמיד."
 
 #: ../lib/Tails/Persistence/Setup.pm:366
 msgid ""
 "Cannot delete the persistent volume while in use. You should restart Tails "
 "without persistence."
-msgstr "לא יכול למחוק את כרך ההתמדה בזמן שהוא בשימוש. עליך להפעיל מחדש את Tails ללא התמדה."
+msgstr "לא יכול למחוק את הכרך המתמיד בזמן שהוא בשימוש. עליך להפעיל מחדש את Tails ללא התמדה."
 
 #: ../lib/Tails/Persistence/Setup.pm:385
 msgid "Persistence volume is not unlocked."
@@ -200,11 +200,11 @@ msgstr "שינויים כלשהם שעשית יכנסו לתוקף לאחר הפ
 
 #: ../lib/Tails/Persistence/Step/Bootstrap.pm:54
 msgid "Persistence wizard - Persistent volume creation"
-msgstr "אשף התמדה - יצירת כרך התמדה"
+msgstr "אשף התמדה - יצירת כרך מתמיד"
 
 #: ../lib/Tails/Persistence/Step/Bootstrap.pm:57
 msgid "Choose a passphrase to protect the persistent volume"
-msgstr "בחר ביטוי סיסמה כדי להגן על כרך ההתמדה"
+msgstr "בחר ביטוי סיסמה כדי להגן על הכרך המתמיד"
 
 #. TRANSLATORS: size, device vendor, device model
 #: ../lib/Tails/Persistence/Step/Bootstrap.pm:61
@@ -212,7 +212,7 @@ msgstr "בחר ביטוי סיסמה כדי להגן על כרך ההתמדה"
 msgid ""
 "A %s persistent volume will be created on the <b>%s %s</b> device. Data on "
 "this volume will be stored in an encrypted form protected by a passphrase."
-msgstr "כרך התמדה %s יווצר בהתקן <b>%s%s</b>. נתונים בכרך זה יאוחסנו בצורה מוצפנת המוגנת ע\"י ביטוי סיסמה."
+msgstr "כרך מתמיד %s יווצר בהתקן <b>%s%s</b>. נתונים בכרך זה יאוחסנו בצורה מוצפנת המוגנת ע\"י ביטוי סיסמה."
 
 #: ../lib/Tails/Persistence/Step/Bootstrap.pm:66
 msgid "Create"
@@ -259,11 +259,11 @@ msgstr "מחיצת ההתמדה של Tails תוצב."
 
 #: ../lib/Tails/Persistence/Step/Bootstrap.pm:295
 msgid "Correcting permissions of the persistent volume."
-msgstr "מתקן הרשאות של כרך ההתמדה."
+msgstr "מתקן הרשאות של הכרך המתמיד."
 
 #: ../lib/Tails/Persistence/Step/Bootstrap.pm:298
 msgid "The permissions of the persistent volume will be corrected."
-msgstr "ההרשאות של כרך ההתמדה יתוקנו."
+msgstr "ההרשאות של הכרך המתמיד יתוקנו."
 
 #: ../lib/Tails/Persistence/Step/Bootstrap.pm:320
 msgid "Creating..."
@@ -271,15 +271,15 @@ msgstr "יוצר..."
 
 #: ../lib/Tails/Persistence/Step/Bootstrap.pm:323
 msgid "Creating the persistent volume..."
-msgstr "יוצר את כרך ההתמדה..."
+msgstr "יוצר את הכרך המתמיד..."
 
 #: ../lib/Tails/Persistence/Step/Configure.pm:61
 msgid "Persistence wizard - Persistent volume configuration"
-msgstr "אשף התמדה - תצורת כרך התמדה"
+msgstr "אשף התמדה - תצורת כרך מתמיד"
 
 #: ../lib/Tails/Persistence/Step/Configure.pm:64
 msgid "Specify the files that will be saved in the persistent volume"
-msgstr "ציין את הקבצים שיישמרו בכרך ההתמדה"
+msgstr "ציין את הקבצים שיישמרו בכרך המתמיד"
 
 #. TRANSLATORS: partition, size, device vendor, device model
 #: ../lib/Tails/Persistence/Step/Configure.pm:68
@@ -303,17 +303,17 @@ msgstr "שומר תצורת התמדה..."
 
 #: ../lib/Tails/Persistence/Step/Delete.pm:41
 msgid "Persistence wizard - Persistent volume deletion"
-msgstr "אשף התמדה - מחיקת כרך התמדה"
+msgstr "אשף התמדה - מחיקת כרך מתמיד"
 
 #: ../lib/Tails/Persistence/Step/Delete.pm:44
 msgid "Your persistent data will be deleted."
-msgstr "נתוני ההתמדה שלך יימחקו."
+msgstr "הנתונים המתמידים שלך יימחקו."
 
 #: ../lib/Tails/Persistence/Step/Delete.pm:48
 #, perl-format
 msgid ""
 "The persistent volume %s (%s), on the <b>%s %s</b> device, will be deleted."
-msgstr "כרך ההתמדה %s (%s), בהתקן <b>%s%s</b>, יימחק."
+msgstr "הכרך המתמיד %s (%s), בהתקן <b>%s%s</b>, יימחק."
 
 #: ../lib/Tails/Persistence/Step/Delete.pm:54
 msgid "Delete"
@@ -325,4 +325,4 @@ msgstr "מוחק..."
 
 #: ../lib/Tails/Persistence/Step/Delete.pm:114
 msgid "Deleting the persistent volume..."
-msgstr "מוחק את כרך ההתמדה..."
+msgstr "מוחק את הכרך המתמיד..."
