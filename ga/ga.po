@@ -1,0 +1,510 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
+# Kevin Scannell <kscanne@gmail.com>, 2017
+msgid ""
+msgstr ""
+"Project-Id-Version: The Tor Project\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-09-25 14:02+0200\n"
+"PO-Revision-Date: 2017-10-03 13:46+0000\n"
+"Last-Translator: Kevin Scannell <kscanne@gmail.com>\n"
+"Language-Team: Irish (http://www.transifex.com/otf/torproject/language/ga/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ga\n"
+"Plural-Forms: nplurals=5; plural=(n==1 ? 0 : n==2 ? 1 : n<7 ? 2 : n<11 ? 3 : 4);\n"
+
+#: ../tails_installer/creator.py:101
+msgid "You must run this application as root"
+msgstr "Caithfidh tú an feidhmchlár a rith mar fhorúsáideoir"
+
+#: ../tails_installer/creator.py:147
+msgid "Extracting live image to the target device..."
+msgstr "Íomhá bheo á díphacáil ar an spriocghléas..."
+
+#: ../tails_installer/creator.py:154
+#, python-format
+msgid "Wrote to device at %(speed)d MB/sec"
+msgstr "Scríobhadh ar an ngléas ag %(speed)d MB/soic"
+
+#: ../tails_installer/creator.py:184
+msgid "Setting up OLPC boot file..."
+msgstr "Comhad tosaithe OLPC á shocrú..."
+
+#: ../tails_installer/creator.py:321
+#, python-format
+msgid ""
+"There was a problem executing the following command: `%(command)s`.\n"
+"A more detailed error log has been written to '%(filename)s'."
+msgstr "Níorbh fhéidir an t-ordú seo a leanas a chur i bhfeidhm: %(command)s.\nScríobhadh na mionsonraí in '%(filename)s'."
+
+#: ../tails_installer/creator.py:340
+msgid "Verifying SHA1 checksum of LiveCD image..."
+msgstr "Suim sheiceála SHA1 den íomhá LiveCD á deimhniú..."
+
+#: ../tails_installer/creator.py:344
+msgid "Verifying SHA256 checksum of LiveCD image..."
+msgstr "Suim sheiceála SHA256 den íomhá LiveCD á deimhniú..."
+
+#: ../tails_installer/creator.py:360
+msgid ""
+"Error: The SHA1 of your Live CD is invalid.  You can run this program with "
+"the --noverify argument to bypass this verification check."
+msgstr "Earráid: Tá SHA1 an Dhlúthdhiosca Bheo neamhbhailí. Is féidir leat an ríomhchlár a rith leis an argóint --noverify chun an tseiceáil seo a sheachaint."
+
+#: ../tails_installer/creator.py:366
+msgid "Unknown ISO, skipping checksum verification"
+msgstr "ISO anaithnid, ní dheimhneofar an tsuim seiceála"
+
+#: ../tails_installer/creator.py:377
+#, python-format
+msgid ""
+"Not enough free space on device.\n"
+"%dMB ISO + %dMB overlay > %dMB free space"
+msgstr "Níl dóthain spáis ar an ngléas.\n%dMB ISO + %dMB forleagan > %dMB spás saor"
+
+#: ../tails_installer/creator.py:384
+#, python-format
+msgid "Creating %sMB persistent overlay"
+msgstr "Forleagan seasmhach %s MB á chruthú"
+
+#: ../tails_installer/creator.py:445
+#, python-format
+msgid "Unable to copy %(infile)s to %(outfile)s: %(message)s"
+msgstr "Níorbh fhéidir %(infile)s a chóipeáil go %(outfile)s: %(message)s"
+
+#: ../tails_installer/creator.py:459
+msgid "Removing existing Live OS"
+msgstr "An LiveOS atá ann á bhaint"
+
+#: ../tails_installer/creator.py:468 ../tails_installer/creator.py:479
+#, python-format
+msgid "Unable to chmod %(file)s: %(message)s"
+msgstr "Níorbh fhéidir chmod a chur i bhfeidhm ar %(file)s: %(message)s"
+
+#: ../tails_installer/creator.py:472
+#, python-format
+msgid "Unable to remove file from previous LiveOS: %(message)s"
+msgstr "Níorbh fhéidir comhad a bhaint den LiveOS a bhí ann: %(message)s"
+
+#: ../tails_installer/creator.py:484
+#, python-format
+msgid "Unable to remove directory from previous LiveOS: %(message)s"
+msgstr "Níorbh fhéidir comhadlann a bhaint den LiveOS a bhí ann: %(message)s"
+
+#: ../tails_installer/creator.py:532
+#, python-format
+msgid "Cannot find device %s"
+msgstr "Ní féidir gléas %s a aimsiú"
+
+#: ../tails_installer/creator.py:701
+#, python-format
+msgid "Unable to write on %(device)s, skipping."
+msgstr "Níorbh fhéidir scríobh ar %(device)s, ag dul thart."
+
+#: ../tails_installer/creator.py:725
+#, python-format
+msgid ""
+"Some partitions of the target device %(device)s are mounted. They will be "
+"unmounted before starting the installation process."
+msgstr "Tá deighiltí áirithe ar an ngléas sprice %(device)s feistithe faoi láthair. Dífheisteofar iad sula dtosóidh an próiseas suiteála."
+
+#: ../tails_installer/creator.py:768 ../tails_installer/creator.py:991
+msgid "Unknown filesystem.  Your device may need to be reformatted."
+msgstr "Córas comhad anaithnid. Seans gur gá duit an gléas a fhormáidiú."
+
+#: ../tails_installer/creator.py:771 ../tails_installer/creator.py:994
+#, python-format
+msgid "Unsupported filesystem: %s"
+msgstr "Córas comhad nach dtacaítear leis: %s"
+
+#: ../tails_installer/creator.py:788
+#, python-format
+msgid "Unknown GLib exception while trying to mount device: %(message)s"
+msgstr "Earráid anaithnid GLib agus an gléas á fheistiú: %(message)s"
+
+#: ../tails_installer/creator.py:792
+#, python-format
+msgid "Unable to mount device: %(message)s"
+msgstr "Níorbh fhéidir an gléas a fheistiú: %(message)s"
+
+#: ../tails_installer/creator.py:797
+msgid "No mount points found"
+msgstr "Níor aimsíodh aon phointe feistithe"
+
+#: ../tails_installer/creator.py:808
+#, python-format
+msgid "Entering unmount_device for '%(device)s'"
+msgstr "Ag tosú unmount_device i gcomhair '%(device)s'"
+
+#: ../tails_installer/creator.py:818
+#, python-format
+msgid "Unmounting mounted filesystems on '%(device)s'"
+msgstr "Córais comhad feistithe ar '%(device)s' á ndífheistiú"
+
+#: ../tails_installer/creator.py:822
+#, python-format
+msgid "Unmounting '%(udi)s' on '%(device)s'"
+msgstr "'%(udi)s' ar '%(device)s' á dhífheistiú"
+
+#: ../tails_installer/creator.py:832
+#, python-format
+msgid "Mount %s exists after unmounting"
+msgstr "Tá %s ann fiú tar éis dífheistithe"
+
+#: ../tails_installer/creator.py:845
+#, python-format
+msgid "Partitioning device %(device)s"
+msgstr "Gléas %(device)s á dheighilt"
+
+#: ../tails_installer/creator.py:920
+#, python-format
+msgid "Updating properties of system partition %(system_partition)s"
+msgstr "Airíonna dheighilt an chórais %(system_partition)s á nuashonrú"
+
+#: ../tails_installer/creator.py:976
+#, python-format
+msgid "Unsupported device '%(device)s', please report a bug."
+msgstr "Ní thacaítear le gléas '%(device)s'; seol tuairisc chugainn faoi seo mar fhabht."
+
+#: ../tails_installer/creator.py:979
+msgid "Trying to continue anyway."
+msgstr "Déan iarracht leanúint ar aghaidh mar sin féin."
+
+#: ../tails_installer/creator.py:988 ../tails_installer/creator.py:1381
+msgid "Verifying filesystem..."
+msgstr "An córas comhad á dheimhniú..."
+
+#: ../tails_installer/creator.py:1012
+#, python-format
+msgid "Unable to change volume label: %(message)s"
+msgstr "Ní féidir an lipéad ar an imleabhar a athrú: %(message)s"
+
+#: ../tails_installer/creator.py:1017 ../tails_installer/creator.py:1414
+msgid "Installing bootloader..."
+msgstr "Lódálaí tosaithe á shuiteáil..."
+
+#: ../tails_installer/creator.py:1043
+#, python-format
+msgid "Could not find the '%s' COM32 module"
+msgstr "Níorbh fhéidir modúl COM32 '%s' a aimsiú"
+
+#: ../tails_installer/creator.py:1051 ../tails_installer/creator.py:1432
+#, python-format
+msgid "Removing %(file)s"
+msgstr "%(file)s á bhaint"
+
+#: ../tails_installer/creator.py:1163
+#, python-format
+msgid "%s already bootable"
+msgstr "Tá %s intosaithe cheana"
+
+#: ../tails_installer/creator.py:1183
+msgid "Unable to find partition"
+msgstr "Ní féidir deighilt a aimsiú"
+
+#: ../tails_installer/creator.py:1206
+#, python-format
+msgid "Formatting %(device)s as FAT32"
+msgstr "%(device)s á fhormáidiú mar FAT32"
+
+#: ../tails_installer/creator.py:1266
+msgid "Could not find syslinux' gptmbr.bin"
+msgstr "Níor aimsíodh gptmbr.bin syslinux"
+
+#: ../tails_installer/creator.py:1279
+#, python-format
+msgid "Reading extracted MBR from %s"
+msgstr "MBR asbhainte á léamh ó %s"
+
+#: ../tails_installer/creator.py:1283
+#, python-format
+msgid "Could not read the extracted MBR from %(path)s"
+msgstr "Níorbh fhéidir an MBR asbhainte a léamh ó %(path)s"
+
+#: ../tails_installer/creator.py:1296 ../tails_installer/creator.py:1297
+#, python-format
+msgid "Resetting Master Boot Record of %s"
+msgstr "Máistirthaifead Tosaithe %s á athshocrú"
+
+#: ../tails_installer/creator.py:1302
+msgid "Drive is a loopback, skipping MBR reset"
+msgstr "Is gléas aislúbtha é an tiomántán; ní athshocrófar an MBR"
+
+#: ../tails_installer/creator.py:1306 ../tails_installer/creator.py:1560
+#, python-format
+msgid "Calculating the SHA1 of %s"
+msgstr "SHA1 %s á áireamh"
+
+#: ../tails_installer/creator.py:1331
+msgid "Synchronizing data on disk..."
+msgstr "Sonraí á sioncronú ar an diosca..."
+
+#: ../tails_installer/creator.py:1373
+msgid "Error probing device"
+msgstr "Earráid agus an gléas á thóraíocht"
+
+#: ../tails_installer/creator.py:1375
+msgid "Unable to find any supported device"
+msgstr "Ní féidir aon ghléas tacaithe a aimsiú"
+
+#: ../tails_installer/creator.py:1385
+msgid ""
+"Make sure your USB key is plugged in and formatted with the FAT filesystem"
+msgstr "Deimhnigh go bhfuil an mhéaróg USB plugáilte isteach agus gur formáidíodh le córas comhad FAT é"
+
+#: ../tails_installer/creator.py:1388
+#, python-format
+msgid ""
+"Unsupported filesystem: %s\n"
+"Please backup and format your USB key with the FAT filesystem."
+msgstr "Córas comhad nach dtacaítear leis: %s\nDéan cúltaca ar an méaróg USB, agus formáidigh le córas comhad FAT í."
+
+#: ../tails_installer/creator.py:1455
+msgid ""
+"Unable to get Win32_LogicalDisk; win32com query did not return any results"
+msgstr "Níl aon fháil ar Win32_LogicalDisk; ní bhfuarthas aon toradh ón iarratas win32com"
+
+#: ../tails_installer/creator.py:1508
+msgid "Cannot find"
+msgstr "Ní féidir é a aimsiú"
+
+#: ../tails_installer/creator.py:1509
+msgid ""
+"Make sure to extract the entire tails-installer zip file before running this"
+" program."
+msgstr "Deimhnigh gur dhíphacáil tú an comhad .zip iomlán tails-installer sula gcuirfidh tú an clár seo i bhfeidhm."
+
+#: ../tails_installer/gui.py:69
+#, python-format
+msgid "Unknown release: %s"
+msgstr "Leagan anaithnid: %s"
+
+#: ../tails_installer/gui.py:73
+#, python-format
+msgid "Downloading %s..."
+msgstr "%s á íoslódáil..."
+
+#: ../tails_installer/gui.py:209
+msgid ""
+"Error: Cannot set the label or obtain the UUID of your device.  Unable to "
+"continue."
+msgstr "Earráid: Ní féidir lipéad an ghléis a shocrú, ná UUID an ghléis a fháil. Ní féidir dul ar aghaidh."
+
+#: ../tails_installer/gui.py:258
+#, python-format
+msgid "Installation complete! (%s)"
+msgstr "Críochnaíodh an tsuiteáil! (%s)"
+
+#: ../tails_installer/gui.py:263
+msgid "Tails installation failed!"
+msgstr "Theip ar shuiteáil Tails!"
+
+#: ../tails_installer/gui.py:363
+msgid ""
+"Warning: This tool needs to be run as an Administrator. To do this, right "
+"click on the icon and open the Properties. Under the Compatibility tab, "
+"check the \"Run this program as an administrator\" box."
+msgstr "Rabhadh: Ní mór duit an uirlis seo a úsáid mar Riarthóir. Chun é seo a dhéanamh, deaschliceáil an deilbhín agus oscail na hAiríonna. Faoin chluaisín Comhoiriúnacht, cuir tic leis an mbosca \"Rith an clár seo mar riarthóir\"."
+
+#: ../tails_installer/gui.py:375
+msgid "Tails Installer"
+msgstr "Suiteálaí Tails"
+
+#: ../tails_installer/gui.py:454
+msgid "Upgrade"
+msgstr "Nuashonraigh"
+
+#: ../tails_installer/gui.py:458 ../data/tails-installer.ui.h:7
+msgid "Install"
+msgstr "Suiteáil"
+
+#: ../tails_installer/gui.py:465
+#, python-format
+msgid "%(size)s %(vendor)s %(model)s device (%(device)s)"
+msgstr "Gléas %(vendor)s %(model)s %(size)s  (%(device)s)"
+
+#: ../tails_installer/gui.py:476
+msgid "No ISO image selected"
+msgstr "Níl aon íomhá ISO roghnaithe"
+
+#: ../tails_installer/gui.py:477
+msgid "Please select a Tails ISO image."
+msgstr "Roghnaigh íomhá ISO Tails."
+
+#: ../tails_installer/gui.py:516
+msgid "No device suitable to install Tails could be found"
+msgstr "Níor aimsíodh aon ghléas feiliúnach le Tails a shuiteáil"
+
+#: ../tails_installer/gui.py:518
+#, python-format
+msgid "Please plug a USB flash drive or SD card of at least %0.1f GB."
+msgstr "Cuir isteach méaróg chuimhne USB nó cárta SD ar a bhfuil ar a laghad %0.1f GB."
+
+#: ../tails_installer/gui.py:552
+#, python-format
+msgid ""
+"The USB stick \"%(pretty_name)s\" is configured as non-removable by its "
+"manufacturer and Tails will fail to start on it. Please try installing on a "
+"different model."
+msgstr "Chumraigh an déantóir an mhéaróg USB \"%(pretty_name)s\" mar ghléas dobhainte, agus ní thosóidh Tails air. Déan iarracht Tails a shuiteáil ar mhéaróg eile."
+
+#: ../tails_installer/gui.py:562
+#, python-format
+msgid ""
+"The device \"%(pretty_name)s\" is too small to install Tails (at least "
+"%(size)s GB is required)."
+msgstr "Tá an gléas \"%(pretty_name)s\" róbheag le Tails a shuiteáil (ar a laghad %(size)s GB de dhíth)."
+
+#: ../tails_installer/gui.py:584
+msgid "An error happened while installing Tails"
+msgstr "Tharla earráid agus Tails á shuiteáil"
+
+#: ../tails_installer/gui.py:596
+msgid "Refreshing releases..."
+msgstr "Leaganacha á n-athnuachan..."
+
+#: ../tails_installer/gui.py:601
+msgid "Releases updated!"
+msgstr "Nuashonraíodh na leaganacha!"
+
+#: ../tails_installer/gui.py:643
+msgid "Installation complete!"
+msgstr "Críochnaíodh an tsuiteáil!"
+
+#: ../tails_installer/gui.py:644
+msgid "Installation was completed."
+msgstr "Críochnaíodh an tsuiteáil."
+
+#: ../tails_installer/gui.py:693
+msgid "Unable to mount device"
+msgstr "Níorbh fhéidir an gléas a fheistiú"
+
+#: ../tails_installer/gui.py:700 ../tails_installer/gui.py:730
+msgid "Confirm the target USB stick"
+msgstr "Deimhnigh an mhéaróg USB mar sprioc"
+
+#: ../tails_installer/gui.py:701
+#, python-format
+msgid ""
+"%(size)s %(vendor)s %(model)s device (%(device)s)\n"
+"\n"
+"All data on this USB stick will be lost."
+msgstr "Gléas %(vendor)s %(model)s %(size)s (%(device)s)\n\nCaillfear na sonraí go léir ar an méaróg USB seo."
+
+#: ../tails_installer/gui.py:717
+#, python-format
+msgid "%(parent_size)s %(vendor)s %(model)s device (%(device)s)"
+msgstr "Gléas %(vendor)s %(model)s %(parent_size)s (%(device)s)"
+
+#: ../tails_installer/gui.py:725
+msgid ""
+"\n"
+"\n"
+"The persistent storage on this USB stick will be preserved."
+msgstr "\n\nCaomhnófar an stóras seasmhach ar an méaróg USB seo."
+
+#: ../tails_installer/gui.py:726
+#, python-format
+msgid "%(description)s%(persistence_message)s"
+msgstr "%(description)s%(persistence_message)s"
+
+#: ../tails_installer/gui.py:776
+msgid "Download complete!"
+msgstr "Íoslódáil curtha i gcrích!"
+
+#: ../tails_installer/gui.py:780
+msgid "Download failed: "
+msgstr "Theip ar an íoslódáil:"
+
+#: ../tails_installer/gui.py:781
+msgid "You can try again to resume your download"
+msgstr "Is féidir leat iarracht a dhéanamh an íoslódáil a atosú"
+
+#: ../tails_installer/gui.py:789
+msgid ""
+"The selected file is unreadable. Please fix its permissions or select "
+"another file."
+msgstr "Ní féidir an comhad roghnaithe a léamh. Ceartaigh na ceadanna nó roghnaigh comhad eile."
+
+#: ../tails_installer/gui.py:795
+msgid ""
+"Unable to use the selected file.  You may have better luck if you move your "
+"ISO to the root of your drive (ie: C:\\)"
+msgstr "Níorbh fhéidir an comhad roghnaithe a úsáid. Gheobhaidh tú torthaí níos fearr má bhogann tú an ISO go dtí fréamhchomhadlann an tiomántáin (.i. C:\\)"
+
+#: ../tails_installer/gui.py:801
+#, python-format
+msgid "%(filename)s selected"
+msgstr "%(filename)s roghnaithe"
+
+#: ../tails_installer/source.py:28
+msgid "Unable to find LiveOS on ISO"
+msgstr "Níorbh fhéidir LiveOS a aimsiú ar an ISO"
+
+#: ../tails_installer/source.py:34
+#, python-format
+msgid "Could not guess underlying block device: %s"
+msgstr "Níorbh fhéidir an bunghléas bloc a dhéanamh amach: %s"
+
+#: ../tails_installer/source.py:49
+#, python-format
+msgid ""
+"There was a problem executing `%s`.\n"
+"%s\n"
+"%s"
+msgstr "Tharla earráid agus '%s' á rith.\n%s\n%s"
+
+#: ../tails_installer/source.py:63
+#, python-format
+msgid "'%s' does not exist"
+msgstr "Níl '%s' ann"
+
+#: ../tails_installer/source.py:65
+#, python-format
+msgid "'%s' is not a directory"
+msgstr "Ní comhadlann é '%s'"
+
+#: ../tails_installer/source.py:75
+#, python-format
+msgid "Skipping '%(filename)s'"
+msgstr "Ag dul thar '%(filename)s'"
+
+#: ../tails_installer/utils.py:44
+#, python-format
+msgid ""
+"There was a problem executing `%s`.%s\n"
+"%s"
+msgstr "Tharla earráid agus '%s'.%s á rith\n%s"
+
+#: ../tails_installer/utils.py:124
+msgid "Could not open device for writing."
+msgstr "Níorbh fhéidir an gléas a oscailt le scríobh air."
+
+#: ../data/tails-installer.ui.h:1
+msgid "Installation Instructions"
+msgstr "Treoracha Suiteála"
+
+#: ../data/tails-installer.ui.h:2
+msgid "Clone the current Tails"
+msgstr "Cóipeáil an leagan reatha de Tails"
+
+#: ../data/tails-installer.ui.h:3
+msgid "Use a downloaded Tails ISO image"
+msgstr "Úsáid íomhá ISO Tails íoslódáilte"
+
+#: ../data/tails-installer.ui.h:4
+msgid "Select a distribution to download:"
+msgstr "Roghnaigh dáileadh le híoslódáil:"
+
+#: ../data/tails-installer.ui.h:5
+msgid "Target USB stick:"
+msgstr "Méaróg USB mar sprioc:"
+
+#: ../data/tails-installer.ui.h:6
+msgid "Reinstall (delete all data)"
+msgstr "Athshuiteáil (scriosfar na sonraí go léir)"
