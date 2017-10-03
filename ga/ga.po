@@ -79,6 +79,10 @@ msgid ""
 " as it helps you hide your geographical location. But it might also create "
 "connectivity problems or look suspicious."
 msgstr ""
+"Cuireann bréagsheoladh MAC sraithuimhir do chomhéadain líonra (Wi-Fi nó "
+"sreangaithe) i bhfolach. Go hiondúil tá sé níos sábháilte bréagsheoladh MAC "
+"a úsáid toisc go gcabhraíonn sé leat do shuíomh geografach a cheilt. Ach, "
+"uaireanta is cúis le fadhbanna líonra é, agus tá cuma amhrasach air freisin."
 
 #: ../data/greeter.ui.h:15
 msgid "Spoof all MAC addresses (default)"
@@ -91,12 +95,15 @@ msgstr "Ná húsáid bréagsheoltaí MAC riamh"
 #: ../data/greeter.ui.h:17 ../tailsgreeter/gui.py:532
 msgid "Cannot unlock encrypted storage with this passphrase."
 msgstr ""
+"Ní féidir an stóras criptithe a dhíghlasáil leis an bhfrása faire seo."
 
 #: ../data/greeter.ui.h:18
 msgid ""
 "You will configure the Tor bridge and local proxy later on after connecting "
 "to a network."
 msgstr ""
+"Cumróidh tú an droichead Tor agus an seachfhreastalaí áitiúil ar ball, tar "
+"éis duit ceangal a bhunú le líonra."
 
 #: ../data/greeter.ui.h:19
 msgid "Welcome to Tails!"
@@ -108,6 +115,8 @@ msgctxt ""
 msgid ""
 "To get guided through Tails' settings, click on <b>Take a Tour</b> above"
 msgstr ""
+"Chun turas treoraithe a dhéanamh trí shocruithe Tails, cliceáil <b>Déan "
+"Turas</b> thuas"
 
 #: ../data/greeter.ui.h:22
 msgid "Language & Region"
@@ -119,7 +128,7 @@ msgstr "Réamhshocruithe"
 
 #: ../data/greeter.ui.h:24
 msgid "Save Language & Region Settings"
-msgstr ""
+msgstr "Sábháil Socruithe Teanga agus Réigiúin"
 
 #: ../data/greeter.ui.h:25
 msgid "_Language"
@@ -139,7 +148,7 @@ msgstr "_Crios Ama"
 
 #: ../data/greeter.ui.h:29
 msgid "Encrypted _Persistent Storage"
-msgstr ""
+msgstr "Stóras _Seasmhach Criptithe"
 
 #: ../data/greeter.ui.h:30
 msgid "Show Passphrase"
@@ -160,11 +169,13 @@ msgstr "Díghlasáil"
 
 #: ../data/greeter.ui.h:34
 msgid "Relock Persistent Storage"
-msgstr ""
+msgstr "Athghlasáil an Stóras Seasmhach"
 
 #: ../data/greeter.ui.h:35
 msgid "Your persistent storage is unlocked. Restart Tails to lock it again."
 msgstr ""
+"Tá an stóras seasmhach díghlasáilte. Atosaigh Tails lena chur faoi ghlas "
+"arís."
 
 #: ../data/greeter.ui.h:36
 msgid "_Additional Settings"
@@ -188,6 +199,10 @@ msgid ""
 "configure a Tor bridge or a local proxy. To work completely offline, you can"
 " disable all networking."
 msgstr ""
+"Má dhéantar cinsireacht nó scagadh ar do cheangal Idirlín, nó má úsáideann "
+"sé seachfhreastalaí, is féidir leat droichead Tor nó seachfhreastalaí "
+"áitiúil a shocrú. Nó, is féidir leat an líonra a mhúchadh go huile is go "
+"hiomlán agus do chuid oibre a dhéanamh as líne."
 
 #: ../data/greeter.ui.h:41
 msgid "Connect directly to the Tor network (default)"
@@ -199,13 +214,15 @@ msgstr "Cumraigh droichead Tor nó seachfhreastalaí áitiúil"
 
 #: ../data/greeter.ui.h:43
 msgid "Disable all networking"
-msgstr ""
+msgstr "Díchumasaigh an líonra go hiomlán"
 
 #: ../data/greeter.ui.h:44
 msgid ""
 "The default settings are safe in most situations. To add a custom setting, "
 "press the \"+\" button below."
 msgstr ""
+"Tá na réamhshocruithe slán an chuid is mó den am. Brúigh an cnaipe \"+\" "
+"thíos le do shocrú féin a chur leis."
 
 #: ../data/greeter.ui.h:45
 msgid "_Administration Password"
@@ -217,11 +234,11 @@ msgstr "Múchta (réamhshocrú)"
 
 #: ../data/greeter.ui.h:47
 msgid "_MAC Address Spoofing"
-msgstr ""
+msgstr "Bréagsheoltaí _MAC"
 
 #: ../data/greeter.ui.h:48
 msgid "On (default)"
-msgstr ""
+msgstr "Ar siúl (réamhshocrú)"
 
 #: ../data/greeter.ui.h:49
 msgid "_Network Connection"
@@ -287,6 +304,8 @@ msgid ""
 "live-persist failed with return code {returncode}:\n"
 "{stderr}"
 msgstr ""
+"Theip ar live-persist leis an gcód {returncode}:\n"
+"{stderr}"
 
 #: ../tailsgreeter/persistence.py:122 ../tailsgreeter/persistence.py:139
 #, python-brace-format
@@ -295,6 +314,9 @@ msgid ""
 "{stdout}\n"
 "{stderr}"
 msgstr ""
+"Theip ar cryptsetup leis an gcód {returncode}:\n"
+"{stdout}\n"
+"{stderr}"
 
 #: ../tailsgreeter/persistence.py:156
 #, python-brace-format
@@ -303,6 +325,9 @@ msgid ""
 "{stdout}\n"
 "{stderr}"
 msgstr ""
+"Theip ar live-persist leis an gcód {returncode}:\n"
+"{stdout}\n"
+"{stderr}"
 
 #: ../tailsgreeter/persistence.py:170
 #, python-brace-format
@@ -311,3 +336,6 @@ msgid ""
 "{stdout}\n"
 "{stderr}"
 msgstr ""
+"Theip ar umount leis an gcód {returncode}:\n"
+"{stdout}\n"
+"{stderr}"
