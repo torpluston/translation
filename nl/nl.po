@@ -8,9 +8,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-01-31 10:47+0100\n"
+"POT-Creation-Date: 2017-09-15 21:21+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: kwadronaut <kwadronaut@autistici.org>, 2017\n"
+"Last-Translator: Joren Vandeweyer <jorenvandeweyer@gmail.com>, 2017\n"
 "Language-Team: Dutch (https://www.transifex.com/otf/teams/1519/nl/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -92,7 +92,7 @@ msgstr "Alle MAC adressen spoofen (standaard)"
 msgid "Don't spoof MAC addresses"
 msgstr "MAC adressen niet spoofen"
 
-#: ../data/greeter.ui.h:17 ../tailsgreeter/gui.py:514
+#: ../data/greeter.ui.h:17 ../tailsgreeter/gui.py:532
 msgid "Cannot unlock encrypted storage with this passphrase."
 msgstr "Kan versleutelde opslag niet ontgrendelen met deze wachtzin."
 
@@ -130,24 +130,24 @@ msgid "Save Language & Region Settings"
 msgstr "Bewaar Taal & Regio instellingen"
 
 #: ../data/greeter.ui.h:25
-msgid "Language"
-msgstr "Taal"
+msgid "_Language"
+msgstr "_Taal"
 
 #: ../data/greeter.ui.h:26
-msgid "Keyboard Layout"
-msgstr "Toetsenbordindeling"
+msgid "_Keyboard Layout"
+msgstr "_Toetsenbordindeling"
 
 #: ../data/greeter.ui.h:27
-msgid "Formats"
-msgstr "Formaten"
+msgid "_Formats"
+msgstr "_Formaten"
 
 #: ../data/greeter.ui.h:28
-msgid "Time Zone"
-msgstr "Tijdzone"
+msgid "_Time Zone"
+msgstr "_Tijdzone"
 
 #: ../data/greeter.ui.h:29
-msgid "Encrypted Persistent Storage"
-msgstr "Versleutelde persistente opslag"
+msgid "Encrypted _Persistent Storage"
+msgstr "Versleutelde _Aanhoudend Opslag"
 
 #: ../data/greeter.ui.h:30
 msgid "Show Passphrase"
@@ -161,8 +161,8 @@ msgstr "Versleutelde persistente opslag configureren"
 msgid "Enter your passphrase to unlock the persistent storage"
 msgstr "Voer je wachtzin in om de persistente opslag te ontgrendelen."
 
-#: ../data/greeter.ui.h:33 ../tailsgreeter/gui.py:460
-#: ../tailsgreeter/gui.py:510
+#: ../data/greeter.ui.h:33 ../tailsgreeter/gui.py:478
+#: ../tailsgreeter/gui.py:528
 msgid "Unlock"
 msgstr "Ontgrendel"
 
@@ -176,9 +176,9 @@ msgstr ""
 "Je persistente opslag is ontgrendeld. Herstart Tails om het opnieuw te "
 "vergrendelen."
 
-#: ../data/greeter.ui.h:36 ../tailsgreeter/gui.py:554
-msgid "Additional Settings"
-msgstr "bijkomende instellingen"
+#: ../data/greeter.ui.h:36
+msgid "_Additional Settings"
+msgstr "_Extra Instellingen"
 
 #: ../data/greeter.ui.h:37
 msgid "Save Additional Settings"
@@ -207,8 +207,8 @@ msgid "Connect directly to the Tor network (default)"
 msgstr "Verbind rechtstreeks met het Tor netwerk (standaard)"
 
 #: ../data/greeter.ui.h:42
-msgid "Configure a Tor bridge, firewall, or proxy settings"
-msgstr "Configureer en Tor bridge, firewall of proxy instelling"
+msgid "Configure a Tor bridge or local proxy"
+msgstr "Configureer een Tor bridge of lokale proxy"
 
 #: ../data/greeter.ui.h:43
 msgid "Disable all networking"
@@ -223,58 +223,76 @@ msgstr ""
 "aangepaste instelling toe te voegen, klik op de \"+\"knop hieronder."
 
 #: ../data/greeter.ui.h:45
+msgid "_Administration Password"
+msgstr "_Administratie Wachtwoord"
+
+#: ../data/greeter.ui.h:46
 msgid "Off (default)"
 msgstr "Uit (standaard)"
 
-#: ../data/greeter.ui.h:46
+#: ../data/greeter.ui.h:47
+msgid "_MAC Address Spoofing"
+msgstr "_MAC Adres Spoofing"
+
+#: ../data/greeter.ui.h:48
 msgid "On (default)"
 msgstr "Aan (standaard)"
 
-#: ../data/greeter.ui.h:47
-msgid "Network Connection"
-msgstr "Netwerkverbinding"
+#: ../data/greeter.ui.h:49
+msgid "_Network Connection"
+msgstr "_Netwerk Connectie"
 
-#: ../data/greeter.ui.h:48 ../tailsgreeter/gui.py:367
+#: ../data/greeter.ui.h:50 ../tailsgreeter/gui.py:385
 msgid "Direct (default)"
 msgstr "Rechtstreeks (standaard)"
 
-#: ../tailsgreeter/gui.py:373
+#: ../data/greeter.ui.h:51
+msgid "_Windows Camouflage"
+msgstr "_Windows Camouflage"
+
+#: ../tailsgreeter/gui.py:391
 msgid "Bridge & Proxy"
 msgstr "Bridge & Proxy"
 
-#: ../tailsgreeter/gui.py:379
+#: ../tailsgreeter/gui.py:397
 msgid "Offline"
 msgstr "Offline"
 
-#: ../tailsgreeter/gui.py:463
+#: ../tailsgreeter/gui.py:481
 msgid "Failed to relock persistent storage."
 msgstr "Mislukt om de persistente opslag weer te vergrendelen."
 
-#: ../tailsgreeter/gui.py:481
+#: ../tailsgreeter/gui.py:499
 msgid "Unlocking…"
 msgstr "Ontgrendelen…"
 
-#: ../tailsgreeter/gui.py:562
+#: ../tailsgreeter/gui.py:594
+msgid "Additional Settings"
+msgstr "bijkomende instellingen"
+
+#: ../tailsgreeter/gui.py:602
 msgid "Cancel"
 msgstr "Annuleren"
 
-#: ../tailsgreeter/gui.py:566
+#: ../tailsgreeter/gui.py:608
 msgid "Add"
 msgstr "Voeg toe"
 
-#: ../tailsgreeter/gui.py:572
+#: ../tailsgreeter/gui.py:616
 msgid "Back"
 msgstr "Vorige"
 
-#: ../tailsgreeter/gui.py:658
+#: ../tailsgreeter/gui.py:730
 msgid "Shutdown"
 msgstr "Uitschakelen"
 
-#: ../tailsgreeter/gui.py:664
-msgid "Start Tails"
-msgstr "Start Tails"
+#: ../tailsgreeter/gui.py:735
+msgid "_Start Tails"
+msgstr "_Start Tails"
 
-#: ../tailsgreeter/language.py:119
+#. Translators: please do not translate this string (it is read from
+#. Gtk translation)
+#: ../tailsgreeter/language.py:133
 msgid "default:LTR"
 msgstr "Standaard: links naar rechts"
 
@@ -287,7 +305,7 @@ msgstr ""
 "live-persist mislukte met retourcode {returncode}:\n"
 "{stderr}"
 
-#: ../tailsgreeter/persistence.py:120 ../tailsgreeter/persistence.py:137
+#: ../tailsgreeter/persistence.py:122 ../tailsgreeter/persistence.py:139
 #, python-brace-format
 msgid ""
 "cryptsetup failed with return code {returncode}:\n"
@@ -298,7 +316,7 @@ msgstr ""
 "{stdout}\n"
 "{stderr}"
 
-#: ../tailsgreeter/persistence.py:154
+#: ../tailsgreeter/persistence.py:156
 #, python-brace-format
 msgid ""
 "live-persist failed with return code {returncode}:\n"
@@ -309,7 +327,7 @@ msgstr ""
 "{stdout}\n"
 "{stderr}"
 
-#: ../tailsgreeter/persistence.py:168
+#: ../tailsgreeter/persistence.py:170
 #, python-brace-format
 msgid ""
 "umount failed with return code {returncode}:\n"
