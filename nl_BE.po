@@ -3,14 +3,15 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
+# Joren Vandeweyer <jorenvandeweyer@gmail.com>, 2017
 # Katrien Igodt <kigodt@gmail.com>, 2015
 msgid ""
 msgstr ""
 "Project-Id-Version: The Tor Project\n"
 "Report-Msgid-Bugs-To: Tails developers <tails@boum.org>\n"
 "POT-Creation-Date: 2017-04-18 12:13+0200\n"
-"PO-Revision-Date: 2017-09-19 23:00+0000\n"
-"Last-Translator: carolyn <carolyn@anhalt.org>\n"
+"PO-Revision-Date: 2017-10-29 00:00+0000\n"
+"Last-Translator: Joren Vandeweyer <jorenvandeweyer@gmail.com>\n"
 "Language-Team: Dutch (Belgium) (http://www.transifex.com/otf/torproject/language/nl_BE/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -23,7 +24,7 @@ msgstr ""
 msgid ""
 "For debugging information, execute the following command: sudo tails-"
 "debugging-info"
-msgstr ""
+msgstr "Voor debug-informatie, voer het volgende command uit: sudo tails-debugging-info"
 
 #: ../lib/Tails/IUK/Frontend.pm:217
 msgid "Error while checking for upgrades"
@@ -36,7 +37,7 @@ msgid ""
 "Check your network connection, and restart Tails to try upgrading again.\n"
 "\n"
 "If the problem persists, go to file:///usr/share/doc/tails/website/doc/upgrade/error/check.en.html"
-msgstr ""
+msgstr "<b>Het was niet mogelijk om te bepalen of een bijgewerkte versie beschikbaar is op onze website.</b>\n\nControleer uw netwerkverbinding en start Tails opnieuw op om de upgrade nogmaals te proberen.\n\nAls het probleem aanhoudt, ga dan naar file:///usr/share/doc/tails/website/doc/upgrade/error/check.nl.html"
 
 #: ../lib/Tails/IUK/Frontend.pm:235
 msgid "no automatic upgrade is available from our website for this version"
@@ -61,7 +62,7 @@ msgstr "onvoldoende geheugen beschikbaar op dit systeem"
 #: ../lib/Tails/IUK/Frontend.pm:262
 #, perl-brace-format
 msgid "No explanation available for reason '%{reason}s'."
-msgstr ""
+msgstr "Geen uitleg beschikbaar door '%{reason}s'."
 
 #: ../lib/Tails/IUK/Frontend.pm:282
 msgid "The system is up-to-date"
@@ -76,20 +77,20 @@ msgstr "Deze versie van Tails is verouderd en kan beveiligingsproblemen bevatten
 msgid ""
 "The available incremental upgrade requires %{space_needed}s of free space on"
 " Tails system partition,  but only %{free_space}s is available."
-msgstr ""
+msgstr "De beschikbare incrementele upgrade vereist %{space_needed}s vrije ruimte op de Tails systeem partitie, maar slechts %{free_space}s is beschikbaar."
 
 #: ../lib/Tails/IUK/Frontend.pm:335
 #, perl-brace-format
 msgid ""
 "The available incremental upgrade requires %{memory_needed}s of free memory,"
 " but only %{free_memory}s is available."
-msgstr ""
+msgstr "De beschikbare incrementele upgrade vereist %{memory_needed}s vrije ruimte, maar slechts %{free_memory}s is beschikbaar."
 
 #: ../lib/Tails/IUK/Frontend.pm:357
 msgid ""
 "An incremental upgrade is available, but no full upgrade is.\n"
 "This should not happen. Please report a bug."
-msgstr ""
+msgstr "Een incrementele upgrade is beschikbaar, maar geen volledige upgrade.\nDit zou niet moeten gebeuren. Rapporteer alstublieft een bug."
 
 #: ../lib/Tails/IUK/Frontend.pm:361
 msgid "Error while detecting available upgrades"
@@ -109,7 +110,7 @@ msgid ""
 "Download size: %{size}s\n"
 "\n"
 "Do you want to upgrade now?"
-msgstr ""
+msgstr "</b>U moet naar %{name}s %{version}s bijwerken.</b>\n\nVoor meer informatie over deze nieuwe versie kunt u naar %{details_url}s gaan.\n\nHet wordt aanbevolen om alle programma's af te sluiten tijdens het bijwerken.\nHet downloaden van de upgrade kan enige tijd duren, verschillend van een paar minuten tot enkele uren.\nAlle netwerken worden uitgeschakeld als de upgrade is gedownload.\n\nBestandsgrootte download: %{size}s\n\nWil je nu bijwerken?"
 
 #: ../lib/Tails/IUK/Frontend.pm:386
 msgid "Upgrade available"
@@ -133,7 +134,7 @@ msgid ""
 "It is not possible to automatically upgrade your device to this new version: %{explanation}s.\n"
 "\n"
 "To learn how to do a manual upgrade, go to https://tails.boum.org/doc/first_steps/upgrade/#manual"
-msgstr ""
+msgstr "</b>U zult handmatig moeten bijwerken naar %{name}s %{version}s.</b>\n\nMeer informatie over deze nieuwe versie kunt u vinden op %{details_url}s.\n\nHet is onmogelijk uw toestel automatisch te upgraden naar deze nieuwe versie: %{explanation}s.\n\nVoor uitleg hoe u handmatig bijwerkt, gaat u naar https://tails.boum.org/doc/first_steps/upgrade/#manual"
 
 #: ../lib/Tails/IUK/Frontend.pm:412
 msgid "New version available"
@@ -154,7 +155,7 @@ msgid ""
 "connection, and restart Tails to try upgrading again.\\n\\nIf the problem "
 "persists, go to "
 "file:///usr/share/doc/tails/website/doc/upgrade/error/download.en.html"
-msgstr ""
+msgstr "<b>De upgrade kon niet gedownload worden.</b>\\n\\nControleer de netwerkverbinding en start Tails opnieuw op om de upgrade nogmaals te proberen.\\n\\nAls het probleem aanhoudt, ga dan naar file:///usr/share/doc/tails/website/doc/upgrade/error/download.en.html"
 
 #: ../lib/Tails/IUK/Frontend.pm:529 ../lib/Tails/IUK/Frontend.pm:548
 msgid "Error while downloading the upgrade"
@@ -165,7 +166,7 @@ msgstr "Fout bij het downloaden van de upgrade"
 msgid ""
 "Output file '%{output_file}s' does not exist, but tails-iuk-get-target-file "
 "did not complain. Please report a bug."
-msgstr ""
+msgstr "Outputbestand '%{output_file}s' bestaat niet, maar tails-iuk-get-target-file klaagde niet. Rapporteer alstublieft een bug."
 
 #: ../lib/Tails/IUK/Frontend.pm:560
 msgid "Error while creating temporary downloading directory"
@@ -173,18 +174,18 @@ msgstr "Fout bij het aanmaken van een tijdelijke folder voor de download"
 
 #: ../lib/Tails/IUK/Frontend.pm:563
 msgid "Failed to create temporary download directory"
-msgstr ""
+msgstr "Maken van tijdelijke download directory mislukt"
 
 #: ../lib/Tails/IUK/Frontend.pm:587
 msgid ""
 "<b>Could not choose a download server.</b>\n"
 "\n"
 "This should not happen. Please report a bug."
-msgstr ""
+msgstr "<b>Kon geen download server kiezen.</b>\n\nDit hoort niet te gebeuren. Vul a.u.b. een bug report in."
 
 #: ../lib/Tails/IUK/Frontend.pm:591
 msgid "Error while choosing a download server"
-msgstr ""
+msgstr "Fout tijdens het kiezen van download server"
 
 #: ../lib/Tails/IUK/Frontend.pm:608
 msgid ""
@@ -194,7 +195,7 @@ msgid ""
 "You should restart Tails on the new version as soon as possible.\n"
 "\n"
 "Do you want to restart now?"
-msgstr ""
+msgstr "<b>Uw Tails apparaat is met succes geüpgraded.1\n\nSommige beveiligingsopties werden tijdelijk uitgeschakeld.\nU kunt het beste z.s.m. Tails in de nieuwe versie herstarten.\n\nWilt u nu herstarten?"
 
 #: ../lib/Tails/IUK/Frontend.pm:613
 msgid "Restart Tails"
@@ -233,7 +234,7 @@ msgid ""
 "<b>Your Tails device is being upgraded...</b>\n"
 "\n"
 "For security reasons, the networking is now disabled."
-msgstr ""
+msgstr "<b>Uw Tails apparaat wordt geüpgraded...</b>\n\nOm veiligheidsredenen wordt het netwerk nu uitgeschakeld."
 
 #: ../lib/Tails/IUK/Frontend.pm:692
 msgid ""
@@ -241,7 +242,7 @@ msgid ""
 " needs to be repaired and might be unable to restart.\\n\\nPlease follow the"
 " instructions at "
 "file:///usr/share/doc/tails/website/doc/upgrade/error/install.en.html"
-msgstr ""
+msgstr "<b>Er is een fout opgetreden bij het installeren van de upgrade.</b>\\n\\nUw Tails apparaat moet gerepareerd worden en kan mogelijk niet opnieuw opstarten..\\n\\nVolg a.u.b. de instructies op file:///usr/share/doc/tails/website/doc/upgrade/error/install.en.html"
 
 #: ../lib/Tails/IUK/Frontend.pm:702
 msgid "Error while installing the upgrade"
