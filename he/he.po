@@ -16,9 +16,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: The Tor Project\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-09-25 14:02+0200\n"
-"PO-Revision-Date: 2017-10-01 14:41+0000\n"
-"Last-Translator: ION\n"
+"POT-Creation-Date: 2017-11-10 15:57+0100\n"
+"PO-Revision-Date: 2017-11-11 03:09+0000\n"
+"Last-Translator: carolyn <carolyn@anhalt.org>\n"
 "Language-Team: Hebrew (http://www.transifex.com/otf/torproject/language/he/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -43,245 +43,240 @@ msgstr "כתב למכשיר ב-%(speed)d מ\"ב/שנייה"
 msgid "Setting up OLPC boot file..."
 msgstr "מגדיר קובץ אתחול  OLPC..."
 
-#: ../tails_installer/creator.py:321
+#: ../tails_installer/creator.py:315
 #, python-format
 msgid ""
 "There was a problem executing the following command: `%(command)s`.\n"
 "A more detailed error log has been written to '%(filename)s'."
 msgstr "הייתה בעיה בביצוע הפקודה הבאה: `%(command)s`.\nיומן שגיאות מפורט יותר נכתב ב-'%(filename)s'."
 
-#: ../tails_installer/creator.py:340
+#: ../tails_installer/creator.py:334
 msgid "Verifying SHA1 checksum of LiveCD image..."
 msgstr "מוודא סיכום ביקורת SHA1 של תמונת LiveCD..."
 
-#: ../tails_installer/creator.py:344
+#: ../tails_installer/creator.py:338
 msgid "Verifying SHA256 checksum of LiveCD image..."
 msgstr "מוודא סיכום ביקורת SHA256 של תמונת LiveCD..."
 
-#: ../tails_installer/creator.py:360
+#: ../tails_installer/creator.py:354
 msgid ""
 "Error: The SHA1 of your Live CD is invalid.  You can run this program with "
 "the --noverify argument to bypass this verification check."
 msgstr "שגיאה: ה־SHA1 של התקליטור החי שלך בלתי תקף. אתה יכול להריץ תוכנית זו עם הארגומנט ‎--noverify כדי לעקוף בדיקת וידוא זו."
 
-#: ../tails_installer/creator.py:366
+#: ../tails_installer/creator.py:360
 msgid "Unknown ISO, skipping checksum verification"
 msgstr "ISO בלתי ידוע, מדלג על וידוא סיכום ביקורת"
 
-#: ../tails_installer/creator.py:377
+#: ../tails_installer/creator.py:371
 #, python-format
 msgid ""
 "Not enough free space on device.\n"
 "%dMB ISO + %dMB overlay > %dMB free space"
 msgstr "אין מספיק שטח פנוי בהתקן.\n%dמ\"ב ISO +%dמ\"ב כיסוי יתר > %d מ\"ב שטח פנוי"
 
-#: ../tails_installer/creator.py:384
+#: ../tails_installer/creator.py:378
 #, python-format
 msgid "Creating %sMB persistent overlay"
 msgstr "יוצר %s מ\"ב של כיסוי יתר"
 
-#: ../tails_installer/creator.py:445
+#: ../tails_installer/creator.py:439
 #, python-format
 msgid "Unable to copy %(infile)s to %(outfile)s: %(message)s"
 msgstr "לא היה ניתן להעתיק את  %(infile)s  אל %(outfile)s :  %(message)s"
 
-#: ../tails_installer/creator.py:459
+#: ../tails_installer/creator.py:453
 msgid "Removing existing Live OS"
 msgstr "מסיר מערכת הפעלה חיה קיימת"
 
-#: ../tails_installer/creator.py:468 ../tails_installer/creator.py:479
+#: ../tails_installer/creator.py:462 ../tails_installer/creator.py:473
 #, python-format
 msgid "Unable to chmod %(file)s: %(message)s"
 msgstr "לא היה ניתן לשנות הרשאות %(file)s: %(message)s"
 
-#: ../tails_installer/creator.py:472
+#: ../tails_installer/creator.py:466
 #, python-format
 msgid "Unable to remove file from previous LiveOS: %(message)s"
 msgstr "לא היה ניתן להסיר קובץ ממערכת ההפעלה החיה הקודמת: %(message)s"
 
-#: ../tails_installer/creator.py:484
+#: ../tails_installer/creator.py:478
 #, python-format
 msgid "Unable to remove directory from previous LiveOS: %(message)s"
 msgstr "לא היה ניתן להסיר תיקייה ממערכת ההפעלה החיה הקודמת: %(message)s"
 
-#: ../tails_installer/creator.py:532
+#: ../tails_installer/creator.py:526
 #, python-format
 msgid "Cannot find device %s"
 msgstr "לא ניתן למצוא את ההתקן %s"
 
-#: ../tails_installer/creator.py:701
+#: ../tails_installer/creator.py:695
 #, python-format
 msgid "Unable to write on %(device)s, skipping."
 msgstr "לא היה ניתן לכתוב על %(device)s, מדלג."
 
-#: ../tails_installer/creator.py:725
+#: ../tails_installer/creator.py:719
 #, python-format
 msgid ""
 "Some partitions of the target device %(device)s are mounted. They will be "
 "unmounted before starting the installation process."
 msgstr "מספר מחיצות של התקן המטרה %(device)s מוצבות. הן יהיו בלתי מוצבות לפני התחלת תהליך ההתקנה."
 
-#: ../tails_installer/creator.py:768 ../tails_installer/creator.py:991
+#: ../tails_installer/creator.py:762 ../tails_installer/creator.py:974
 msgid "Unknown filesystem.  Your device may need to be reformatted."
 msgstr "מערכת קבצים בלתי ידועה. ההתקן שלך צריך להיות מתוסדר מחדש."
 
-#: ../tails_installer/creator.py:771 ../tails_installer/creator.py:994
+#: ../tails_installer/creator.py:765 ../tails_installer/creator.py:977
 #, python-format
 msgid "Unsupported filesystem: %s"
 msgstr "מערכת קבצים בלתי נתמכת: %s"
 
-#: ../tails_installer/creator.py:788
+#: ../tails_installer/creator.py:782
 #, python-format
 msgid "Unknown GLib exception while trying to mount device: %(message)s"
 msgstr "חריגת GLib בלתי ידועה בעת ניסיון להציב התקן: %(message)s"
 
-#: ../tails_installer/creator.py:792
+#: ../tails_installer/creator.py:786
 #, python-format
 msgid "Unable to mount device: %(message)s"
 msgstr "לא היה ניתן להציב מכשיר: %(message)s"
 
-#: ../tails_installer/creator.py:797
+#: ../tails_installer/creator.py:791
 msgid "No mount points found"
 msgstr "לא נמצאו נקודות הצבה"
 
-#: ../tails_installer/creator.py:808
+#: ../tails_installer/creator.py:802
 #, python-format
 msgid "Entering unmount_device for '%(device)s'"
 msgstr "מכניס unmount_device עבור '%(device)s'"
 
-#: ../tails_installer/creator.py:818
+#: ../tails_installer/creator.py:812
 #, python-format
 msgid "Unmounting mounted filesystems on '%(device)s'"
 msgstr "מבטל הצבת מערכות קבצים המוצבות על '%(device)s'"
 
-#: ../tails_installer/creator.py:822
+#: ../tails_installer/creator.py:816
 #, python-format
 msgid "Unmounting '%(udi)s' on '%(device)s'"
 msgstr "מבטל הצבת '%(udi)s' על '%(device)s'"
 
-#: ../tails_installer/creator.py:832
+#: ../tails_installer/creator.py:826
 #, python-format
 msgid "Mount %s exists after unmounting"
 msgstr "הצבת %s קיימת לאחר ביטול הצבה"
 
-#: ../tails_installer/creator.py:845
+#: ../tails_installer/creator.py:839
 #, python-format
 msgid "Partitioning device %(device)s"
 msgstr "יוצר מחיצות על התקן %(device)s"
 
-#: ../tails_installer/creator.py:920
-#, python-format
-msgid "Updating properties of system partition %(system_partition)s"
-msgstr "מעדכן מאפיינים של מחיצת מערכת %(system_partition)s"
-
-#: ../tails_installer/creator.py:976
+#: ../tails_installer/creator.py:959
 #, python-format
 msgid "Unsupported device '%(device)s', please report a bug."
 msgstr "התקן בלתי נתמך '%(device)s', אנא דווח על תקל."
 
-#: ../tails_installer/creator.py:979
+#: ../tails_installer/creator.py:962
 msgid "Trying to continue anyway."
 msgstr "מנסה להמשיך בכל זאת."
 
-#: ../tails_installer/creator.py:988 ../tails_installer/creator.py:1381
+#: ../tails_installer/creator.py:971 ../tails_installer/creator.py:1364
 msgid "Verifying filesystem..."
 msgstr "מוודא מערכת קבצים..."
 
-#: ../tails_installer/creator.py:1012
+#: ../tails_installer/creator.py:995
 #, python-format
 msgid "Unable to change volume label: %(message)s"
 msgstr "לא היה ניתן לשנות תוית עוצמת קול: %(message)s"
 
-#: ../tails_installer/creator.py:1017 ../tails_installer/creator.py:1414
+#: ../tails_installer/creator.py:1000 ../tails_installer/creator.py:1397
 msgid "Installing bootloader..."
 msgstr "מתקין bootloader..."
 
-#: ../tails_installer/creator.py:1043
+#: ../tails_installer/creator.py:1026
 #, python-format
 msgid "Could not find the '%s' COM32 module"
 msgstr "לא היה ניתן למצוא את פירקן ה-COM32 '%s'"
 
-#: ../tails_installer/creator.py:1051 ../tails_installer/creator.py:1432
+#: ../tails_installer/creator.py:1034 ../tails_installer/creator.py:1415
 #, python-format
 msgid "Removing %(file)s"
 msgstr "מסיר את %(file)s"
 
-#: ../tails_installer/creator.py:1163
+#: ../tails_installer/creator.py:1146
 #, python-format
 msgid "%s already bootable"
 msgstr "%s כבר בר-אתחול"
 
-#: ../tails_installer/creator.py:1183
+#: ../tails_installer/creator.py:1166
 msgid "Unable to find partition"
 msgstr "לא היה ניתן למצוא מחיצה"
 
-#: ../tails_installer/creator.py:1206
+#: ../tails_installer/creator.py:1189
 #, python-format
 msgid "Formatting %(device)s as FAT32"
 msgstr "תסדור %(device)s כ-FAT32"
 
-#: ../tails_installer/creator.py:1266
+#: ../tails_installer/creator.py:1249
 msgid "Could not find syslinux' gptmbr.bin"
 msgstr "לא ניתן היה למצוא את syslinux' gptmbr.bin"
 
-#: ../tails_installer/creator.py:1279
+#: ../tails_installer/creator.py:1262
 #, python-format
 msgid "Reading extracted MBR from %s"
 msgstr "קורא MBR מחולץ מ-%s"
 
-#: ../tails_installer/creator.py:1283
+#: ../tails_installer/creator.py:1266
 #, python-format
 msgid "Could not read the extracted MBR from %(path)s"
 msgstr "לא היה יכול לקרוא את ה-MBR המחולץ מן %(path)s"
 
-#: ../tails_installer/creator.py:1296 ../tails_installer/creator.py:1297
+#: ../tails_installer/creator.py:1279 ../tails_installer/creator.py:1280
 #, python-format
 msgid "Resetting Master Boot Record of %s"
 msgstr "מאפס רשומת אתחול-אב של %s"
 
-#: ../tails_installer/creator.py:1302
+#: ../tails_installer/creator.py:1285
 msgid "Drive is a loopback, skipping MBR reset"
 msgstr "הכונן הוא לולאה חוזרת, מדלג על איפוס MBR"
 
-#: ../tails_installer/creator.py:1306 ../tails_installer/creator.py:1560
+#: ../tails_installer/creator.py:1289 ../tails_installer/creator.py:1543
 #, python-format
 msgid "Calculating the SHA1 of %s"
 msgstr "מחשב את ה-SHA1 של %s"
 
-#: ../tails_installer/creator.py:1331
+#: ../tails_installer/creator.py:1314
 msgid "Synchronizing data on disk..."
 msgstr "מסנכרן נתונים על הדיסק.."
 
-#: ../tails_installer/creator.py:1373
+#: ../tails_installer/creator.py:1356
 msgid "Error probing device"
 msgstr "התקן הגורם לשגיאה"
 
-#: ../tails_installer/creator.py:1375
+#: ../tails_installer/creator.py:1358
 msgid "Unable to find any supported device"
 msgstr "לא היה ניתן למצוא התקן נתמך כלשהו"
 
-#: ../tails_installer/creator.py:1385
+#: ../tails_installer/creator.py:1368
 msgid ""
 "Make sure your USB key is plugged in and formatted with the FAT filesystem"
 msgstr "וודא שמפתח ה־USB שלך מחובר ומתוסדר עם מערכת הקבצים FAT"
 
-#: ../tails_installer/creator.py:1388
+#: ../tails_installer/creator.py:1371
 #, python-format
 msgid ""
 "Unsupported filesystem: %s\n"
 "Please backup and format your USB key with the FAT filesystem."
 msgstr "מערכת קבצים בלתי נתמכת: %s\nאנא גבה ותסדר את מפתח ה־USB שלך עם מערכת הקבצים FAT."
 
-#: ../tails_installer/creator.py:1455
+#: ../tails_installer/creator.py:1438
 msgid ""
 "Unable to get Win32_LogicalDisk; win32com query did not return any results"
 msgstr "לא היה ניתן להשיג את Win32_LogicalDisk; שאילתת win32com לא החזירה תוצאות כלשהן"
 
-#: ../tails_installer/creator.py:1508
+#: ../tails_installer/creator.py:1491
 msgid "Cannot find"
 msgstr "לא יכול למצוא"
 
-#: ../tails_installer/creator.py:1509
+#: ../tails_installer/creator.py:1492
 msgid ""
 "Make sure to extract the entire tails-installer zip file before running this"
 " program."
@@ -297,7 +292,7 @@ msgstr "שחרור בלתי ידוע: %s"
 msgid "Downloading %s..."
 msgstr "מוריד את %s..."
 
-#: ../tails_installer/gui.py:209
+#: ../tails_installer/gui.py:211
 msgid ""
 "Error: Cannot set the label or obtain the UUID of your device.  Unable to "
 "continue."
@@ -323,37 +318,37 @@ msgstr "אזהרה: כלי זה צריך להיות מופעל כמנהלן. כ�
 msgid "Tails Installer"
 msgstr "המתקין של Tails"
 
-#: ../tails_installer/gui.py:454
+#: ../tails_installer/gui.py:456
 msgid "Upgrade"
 msgstr "שדרג"
 
-#: ../tails_installer/gui.py:458 ../data/tails-installer.ui.h:7
+#: ../tails_installer/gui.py:462 ../data/tails-installer.ui.h:7
 msgid "Install"
 msgstr "התקן"
 
-#: ../tails_installer/gui.py:465
+#: ../tails_installer/gui.py:469
 #, python-format
 msgid "%(size)s %(vendor)s %(model)s device (%(device)s)"
 msgstr "%(size)s %(vendor)s %(model)s התקן (%(device)s)"
 
-#: ../tails_installer/gui.py:476
+#: ../tails_installer/gui.py:481
 msgid "No ISO image selected"
 msgstr "לא נבחרה תמונת ISO"
 
-#: ../tails_installer/gui.py:477
+#: ../tails_installer/gui.py:482
 msgid "Please select a Tails ISO image."
 msgstr "אנא בחר תמונת ISO של Tails."
 
-#: ../tails_installer/gui.py:516
+#: ../tails_installer/gui.py:521
 msgid "No device suitable to install Tails could be found"
 msgstr "לא היה ניתן למצוא התקן הולם להתקין את Tails"
 
-#: ../tails_installer/gui.py:518
+#: ../tails_installer/gui.py:523
 #, python-format
 msgid "Please plug a USB flash drive or SD card of at least %0.1f GB."
 msgstr "אנא חבר כונן החסן USB או כרטיס SD של לפחות %0.1f ג\"ב."
 
-#: ../tails_installer/gui.py:552
+#: ../tails_installer/gui.py:557
 #, python-format
 msgid ""
 "The USB stick \"%(pretty_name)s\" is configured as non-removable by its "
@@ -361,42 +356,42 @@ msgid ""
 "different model."
 msgstr "החסן ה-USB \"%(pretty_name)s\" מוגדר כבלתי בר-הסרה ע\"י היצרן שלו ו-Tails יכשל בהתחלה עליו. אנא נסה להתקין על דגם שונה."
 
-#: ../tails_installer/gui.py:562
+#: ../tails_installer/gui.py:567
 #, python-format
 msgid ""
 "The device \"%(pretty_name)s\" is too small to install Tails (at least "
 "%(size)s GB is required)."
 msgstr "ההתקן \"%(pretty_name)s\" קטן מדי כדי להתקין עליו את Tails (לפחות %(size)s ג\"ב דרושים)."
 
-#: ../tails_installer/gui.py:584
+#: ../tails_installer/gui.py:589
 msgid "An error happened while installing Tails"
 msgstr "שגיאה התרחשה בעת התקנת Tails"
 
-#: ../tails_installer/gui.py:596
+#: ../tails_installer/gui.py:601
 msgid "Refreshing releases..."
 msgstr "מרענן שחרורים..."
 
-#: ../tails_installer/gui.py:601
+#: ../tails_installer/gui.py:606
 msgid "Releases updated!"
 msgstr "שחרורים עודכנו!"
 
-#: ../tails_installer/gui.py:643
+#: ../tails_installer/gui.py:648
 msgid "Installation complete!"
 msgstr "התקנה הושלמה!"
 
-#: ../tails_installer/gui.py:644
+#: ../tails_installer/gui.py:649
 msgid "Installation was completed."
 msgstr "ההתקנה הושלמה."
 
-#: ../tails_installer/gui.py:693
+#: ../tails_installer/gui.py:698
 msgid "Unable to mount device"
 msgstr "לא היה ניתן להציב התקן."
 
-#: ../tails_installer/gui.py:700 ../tails_installer/gui.py:730
+#: ../tails_installer/gui.py:705 ../tails_installer/gui.py:735
 msgid "Confirm the target USB stick"
 msgstr "אשר את החסן ה-USB של המטרה"
 
-#: ../tails_installer/gui.py:701
+#: ../tails_installer/gui.py:706
 #, python-format
 msgid ""
 "%(size)s %(vendor)s %(model)s device (%(device)s)\n"
@@ -404,48 +399,48 @@ msgid ""
 "All data on this USB stick will be lost."
 msgstr "%(size)s %(vendor)s %(model)s התקן (%(device)s)\n\nכל הנתונים בהחסן USB זה יאבדו."
 
-#: ../tails_installer/gui.py:717
+#: ../tails_installer/gui.py:722
 #, python-format
 msgid "%(parent_size)s %(vendor)s %(model)s device (%(device)s)"
 msgstr "%(parent_size)s %(vendor)s %(model)s התקן (%(device)s)"
 
-#: ../tails_installer/gui.py:725
+#: ../tails_installer/gui.py:730
 msgid ""
 "\n"
 "\n"
 "The persistent storage on this USB stick will be preserved."
 msgstr "\n\nהאחסון המתמיד בהחסן USB זה ישומר."
 
-#: ../tails_installer/gui.py:726
+#: ../tails_installer/gui.py:731
 #, python-format
 msgid "%(description)s%(persistence_message)s"
 msgstr "%(description)s%(persistence_message)s"
 
-#: ../tails_installer/gui.py:776
+#: ../tails_installer/gui.py:781
 msgid "Download complete!"
 msgstr "הורדה הושלמה!"
 
-#: ../tails_installer/gui.py:780
+#: ../tails_installer/gui.py:785
 msgid "Download failed: "
 msgstr "הורדה נכשלה:"
 
-#: ../tails_installer/gui.py:781
+#: ../tails_installer/gui.py:786
 msgid "You can try again to resume your download"
 msgstr "אתה יכול לנסות שוב להמשיך את ההורדה שלך"
 
-#: ../tails_installer/gui.py:789
+#: ../tails_installer/gui.py:794
 msgid ""
 "The selected file is unreadable. Please fix its permissions or select "
 "another file."
 msgstr "הקובץ שנבחר אינו קריא. אנא תקן את הרשאותיו או בחר קובץ אחר."
 
-#: ../tails_installer/gui.py:795
+#: ../tails_installer/gui.py:800
 msgid ""
 "Unable to use the selected file.  You may have better luck if you move your "
 "ISO to the root of your drive (ie: C:\\)"
 msgstr "לא היה ניתן להשתמש בקובץ שנבחר. יהיה לך אולי יותר מזל אם תעביר את ה-ISO שלך לשורש של הכונן שלך (למשל: \\:C)"
 
-#: ../tails_installer/gui.py:801
+#: ../tails_installer/gui.py:806
 #, python-format
 msgid "%(filename)s selected"
 msgstr "%(filename)s נבחר"

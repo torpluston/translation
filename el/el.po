@@ -24,9 +24,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: The Tor Project\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-09-25 14:02+0200\n"
-"PO-Revision-Date: 2017-10-22 16:16+0000\n"
-"Last-Translator: Elektra M. <safiragon@yahoo.gr>\n"
+"POT-Creation-Date: 2017-11-10 15:57+0100\n"
+"PO-Revision-Date: 2017-11-11 03:09+0000\n"
+"Last-Translator: carolyn <carolyn@anhalt.org>\n"
 "Language-Team: Greek (http://www.transifex.com/otf/torproject/language/el/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -51,245 +51,240 @@ msgstr "Έγινε εγγραφή στην συσκευή με ταχύτητα 
 msgid "Setting up OLPC boot file..."
 msgstr "Ρύθμιση του αρχείου εκκίνησης για το OLPC..."
 
-#: ../tails_installer/creator.py:321
+#: ../tails_installer/creator.py:315
 #, python-format
 msgid ""
 "There was a problem executing the following command: `%(command)s`.\n"
 "A more detailed error log has been written to '%(filename)s'."
 msgstr "Παρουσιάστηκε πρόβλημα κατά την εκτέλεση της ακόλουθης εντολής: `%(command)s`.\nΈχει γραφεί λεπτομερέστερη εγγραφή σφάλματος στο '%(filename)s' ."
 
-#: ../tails_installer/creator.py:340
+#: ../tails_installer/creator.py:334
 msgid "Verifying SHA1 checksum of LiveCD image..."
 msgstr "Επαλήθευση του αθροίσματος ελέγχου SHA1 της εικόνας του LiveCD..."
 
-#: ../tails_installer/creator.py:344
+#: ../tails_installer/creator.py:338
 msgid "Verifying SHA256 checksum of LiveCD image..."
 msgstr "Επαλήθευση του αθροίσματος ελέγχου SHA256 της εικόνας του LiveCD..."
 
-#: ../tails_installer/creator.py:360
+#: ../tails_installer/creator.py:354
 msgid ""
 "Error: The SHA1 of your Live CD is invalid.  You can run this program with "
 "the --noverify argument to bypass this verification check."
 msgstr "Σφάλμα: Το SHA1 του Live CD σας δεν είναι έγκυρο.  Μπορείτε να εκτελέσετε το πρόγραμμα με την παράμετρο --noverify για να παρακάμψετε τον έλεγχο επιβεβαίωσης."
 
-#: ../tails_installer/creator.py:366
+#: ../tails_installer/creator.py:360
 msgid "Unknown ISO, skipping checksum verification"
 msgstr "Άγνωστο ISO, παράκαμψη επαλήθευσης αθροίσματος ελέγχου."
 
-#: ../tails_installer/creator.py:377
+#: ../tails_installer/creator.py:371
 #, python-format
 msgid ""
 "Not enough free space on device.\n"
 "%dMB ISO + %dMB overlay > %dMB free space"
 msgstr "Δεν υπάρχει αρκετός ελεύθερος χώρος στη συσκευή.\n%dMB ISO + %dMB overlay > %dMB ελεύθερου χώρου"
 
-#: ../tails_installer/creator.py:384
+#: ../tails_installer/creator.py:378
 #, python-format
 msgid "Creating %sMB persistent overlay"
 msgstr "Δημιουργία %sMB μόνιμου χώρου"
 
-#: ../tails_installer/creator.py:445
+#: ../tails_installer/creator.py:439
 #, python-format
 msgid "Unable to copy %(infile)s to %(outfile)s: %(message)s"
 msgstr "Αδυναμία αντιγραφής %(infile)s στο %(outfile)s: %(message)s"
 
-#: ../tails_installer/creator.py:459
+#: ../tails_installer/creator.py:453
 msgid "Removing existing Live OS"
 msgstr "Αφαίρεση υπάρχοντος Live Λειτουργικού"
 
-#: ../tails_installer/creator.py:468 ../tails_installer/creator.py:479
+#: ../tails_installer/creator.py:462 ../tails_installer/creator.py:473
 #, python-format
 msgid "Unable to chmod %(file)s: %(message)s"
 msgstr "Αδυναμία εφαρμογής chmod στο/στα αρχείο/α %(file)s: %(message)s"
 
-#: ../tails_installer/creator.py:472
+#: ../tails_installer/creator.py:466
 #, python-format
 msgid "Unable to remove file from previous LiveOS: %(message)s"
 msgstr "Αδυναμία απομάκρυνσης αρχείου από προηγούμενο LiveOS: %(message)s"
 
-#: ../tails_installer/creator.py:484
+#: ../tails_installer/creator.py:478
 #, python-format
 msgid "Unable to remove directory from previous LiveOS: %(message)s"
 msgstr "Αδυναμία απομάκρυνσης καταλόγου από προηγούμενο LiveOS: %(message)s"
 
-#: ../tails_installer/creator.py:532
+#: ../tails_installer/creator.py:526
 #, python-format
 msgid "Cannot find device %s"
 msgstr "Αδυναμία εύρεσης συσκευής %s"
 
-#: ../tails_installer/creator.py:701
+#: ../tails_installer/creator.py:695
 #, python-format
 msgid "Unable to write on %(device)s, skipping."
 msgstr "Αδυναμία εγγραφής στο %(device)s, παράκαμψη."
 
-#: ../tails_installer/creator.py:725
+#: ../tails_installer/creator.py:719
 #, python-format
 msgid ""
 "Some partitions of the target device %(device)s are mounted. They will be "
 "unmounted before starting the installation process."
 msgstr "Κάποιες κατατμήσεις του δίσκου %(device)s είναι προσαρτημένες. Θα αποσυνδεθούν πριν ξεκινήσει η διαδικασία εγκατάστασης."
 
-#: ../tails_installer/creator.py:768 ../tails_installer/creator.py:991
+#: ../tails_installer/creator.py:762 ../tails_installer/creator.py:974
 msgid "Unknown filesystem.  Your device may need to be reformatted."
 msgstr "Άγνωστο σύστημα αρχείων. Η συσκευή μπορεί να χρειάζεται διαμόρφωση."
 
-#: ../tails_installer/creator.py:771 ../tails_installer/creator.py:994
+#: ../tails_installer/creator.py:765 ../tails_installer/creator.py:977
 #, python-format
 msgid "Unsupported filesystem: %s"
 msgstr "Μη υποστηριζόμενο σύστημα αρχείων: %s"
 
-#: ../tails_installer/creator.py:788
+#: ../tails_installer/creator.py:782
 #, python-format
 msgid "Unknown GLib exception while trying to mount device: %(message)s"
 msgstr "Άγνωστη εξαίρεση GLib κατά την προσπάθειά προσάρτησης της συσκευής: %(message)s"
 
-#: ../tails_installer/creator.py:792
+#: ../tails_installer/creator.py:786
 #, python-format
 msgid "Unable to mount device: %(message)s"
 msgstr "Αδυναμία προσάρτησης συσκευής: %(message)s"
 
-#: ../tails_installer/creator.py:797
+#: ../tails_installer/creator.py:791
 msgid "No mount points found"
 msgstr "Δεν βρέθηκαν σημεία προσάρτησης"
 
-#: ../tails_installer/creator.py:808
+#: ../tails_installer/creator.py:802
 #, python-format
 msgid "Entering unmount_device for '%(device)s'"
 msgstr "Εισαγωγή  unmount_device για '%(device)s'"
 
-#: ../tails_installer/creator.py:818
+#: ../tails_installer/creator.py:812
 #, python-format
 msgid "Unmounting mounted filesystems on '%(device)s'"
 msgstr "Αποπροσάρτηση προσαρτημένων συστημάτων αρχείων σε '%(device)s'"
 
-#: ../tails_installer/creator.py:822
+#: ../tails_installer/creator.py:816
 #, python-format
 msgid "Unmounting '%(udi)s' on '%(device)s'"
 msgstr "Αποπροσάρτηση '%(udi)s' σε '%(device)s'"
 
-#: ../tails_installer/creator.py:832
+#: ../tails_installer/creator.py:826
 #, python-format
 msgid "Mount %s exists after unmounting"
 msgstr "Η προσάρτηση %s παραμένει μετά την αποπροσάρτηση"
 
-#: ../tails_installer/creator.py:845
+#: ../tails_installer/creator.py:839
 #, python-format
 msgid "Partitioning device %(device)s"
 msgstr "Κατάτμηση συσκευής %(device)s"
 
-#: ../tails_installer/creator.py:920
-#, python-format
-msgid "Updating properties of system partition %(system_partition)s"
-msgstr "Ενημέρωση ιδιοτήτων της κατάτμησης συστήματος %(system_partition)s"
-
-#: ../tails_installer/creator.py:976
+#: ../tails_installer/creator.py:959
 #, python-format
 msgid "Unsupported device '%(device)s', please report a bug."
 msgstr "Μη υποστηριζόμενη συσκευή '%(device)s', παρακαλούμε να αναφέρετε το σφάλμα."
 
-#: ../tails_installer/creator.py:979
+#: ../tails_installer/creator.py:962
 msgid "Trying to continue anyway."
 msgstr "Προσπάθεια να συνεχίσετε ούτως ή άλλως."
 
-#: ../tails_installer/creator.py:988 ../tails_installer/creator.py:1381
+#: ../tails_installer/creator.py:971 ../tails_installer/creator.py:1364
 msgid "Verifying filesystem..."
 msgstr "Έλεγχος συστήματος αρχείων..."
 
-#: ../tails_installer/creator.py:1012
+#: ../tails_installer/creator.py:995
 #, python-format
 msgid "Unable to change volume label: %(message)s"
 msgstr "Αδυναμία αλλαγής της ετικέτας του τόμου: %(message)s"
 
-#: ../tails_installer/creator.py:1017 ../tails_installer/creator.py:1414
+#: ../tails_installer/creator.py:1000 ../tails_installer/creator.py:1397
 msgid "Installing bootloader..."
 msgstr "Εγκατάσταση φορτωτή εκκίνησης..."
 
-#: ../tails_installer/creator.py:1043
+#: ../tails_installer/creator.py:1026
 #, python-format
 msgid "Could not find the '%s' COM32 module"
 msgstr "Δεν ήταν δυνατή η εύρεση της  '%s' COM32 μονάδας"
 
-#: ../tails_installer/creator.py:1051 ../tails_installer/creator.py:1432
+#: ../tails_installer/creator.py:1034 ../tails_installer/creator.py:1415
 #, python-format
 msgid "Removing %(file)s"
 msgstr "Απομακρύνονται τα %(file)s"
 
-#: ../tails_installer/creator.py:1163
+#: ../tails_installer/creator.py:1146
 #, python-format
 msgid "%s already bootable"
 msgstr "%s ήδη επανεκκινήσιμο"
 
-#: ../tails_installer/creator.py:1183
+#: ../tails_installer/creator.py:1166
 msgid "Unable to find partition"
 msgstr "Αδυναμία εντοπισμού κατάτμησης"
 
-#: ../tails_installer/creator.py:1206
+#: ../tails_installer/creator.py:1189
 #, python-format
 msgid "Formatting %(device)s as FAT32"
 msgstr "Η συσκευή %(device)s διαμορφώνεται ως FAT32"
 
-#: ../tails_installer/creator.py:1266
+#: ../tails_installer/creator.py:1249
 msgid "Could not find syslinux' gptmbr.bin"
 msgstr "Δεν ήταν δυνατή η εύρεση του αρχείου gptmbr.bin του syslinux"
 
-#: ../tails_installer/creator.py:1279
+#: ../tails_installer/creator.py:1262
 #, python-format
 msgid "Reading extracted MBR from %s"
 msgstr "Γίνεται ανάγνωση του εξαγόμενου MBR από %s"
 
-#: ../tails_installer/creator.py:1283
+#: ../tails_installer/creator.py:1266
 #, python-format
 msgid "Could not read the extracted MBR from %(path)s"
 msgstr "Δεν ήταν δυνατή η ανάγνωση του εξαγόμενου MBR από %(path)s"
 
-#: ../tails_installer/creator.py:1296 ../tails_installer/creator.py:1297
+#: ../tails_installer/creator.py:1279 ../tails_installer/creator.py:1280
 #, python-format
 msgid "Resetting Master Boot Record of %s"
 msgstr "Επαναφορά Master Boot Record στο %s"
 
-#: ../tails_installer/creator.py:1302
+#: ../tails_installer/creator.py:1285
 msgid "Drive is a loopback, skipping MBR reset"
 msgstr "Η συσκευή είναι loopback. Παρακάμπτεται η επαναφορά του MBR"
 
-#: ../tails_installer/creator.py:1306 ../tails_installer/creator.py:1560
+#: ../tails_installer/creator.py:1289 ../tails_installer/creator.py:1543
 #, python-format
 msgid "Calculating the SHA1 of %s"
 msgstr "Υπολογισμός του SHA1 για το %s"
 
-#: ../tails_installer/creator.py:1331
+#: ../tails_installer/creator.py:1314
 msgid "Synchronizing data on disk..."
 msgstr "Γίνεται συγχρονισμός των δεδομένων δίσκου..."
 
-#: ../tails_installer/creator.py:1373
+#: ../tails_installer/creator.py:1356
 msgid "Error probing device"
 msgstr "Σφάλμα κατά τον έλεγχο της συσκευής"
 
-#: ../tails_installer/creator.py:1375
+#: ../tails_installer/creator.py:1358
 msgid "Unable to find any supported device"
 msgstr "Δεν βρέθηκε συμβατή συσκευή"
 
-#: ../tails_installer/creator.py:1385
+#: ../tails_installer/creator.py:1368
 msgid ""
 "Make sure your USB key is plugged in and formatted with the FAT filesystem"
 msgstr "Σιγουρευτείτε ότι το USB stick σας είναι συνδεδεμένο και διαμορφωμένο σε σύστημα αρχείων FAT"
 
-#: ../tails_installer/creator.py:1388
+#: ../tails_installer/creator.py:1371
 #, python-format
 msgid ""
 "Unsupported filesystem: %s\n"
 "Please backup and format your USB key with the FAT filesystem."
 msgstr "Μη υποστηριζόμενο σύστημα αρχείων: %s\nΠαρακαλώ δημιουργείστε ένα αντίγραφο ασφαλείας και μορφοποιήστε τη συσκευή USB σε σύστημα αρχείων FAT."
 
-#: ../tails_installer/creator.py:1455
+#: ../tails_installer/creator.py:1438
 msgid ""
 "Unable to get Win32_LogicalDisk; win32com query did not return any results"
 msgstr "Αδυναμία λήψης του Win32_LogicalDisk· η αναζήτηση του win32com δεν απέδωσε αποτελέσματα"
 
-#: ../tails_installer/creator.py:1508
+#: ../tails_installer/creator.py:1491
 msgid "Cannot find"
 msgstr "Αδυναμία εύρεσης"
 
-#: ../tails_installer/creator.py:1509
+#: ../tails_installer/creator.py:1492
 msgid ""
 "Make sure to extract the entire tails-installer zip file before running this"
 " program."
@@ -305,7 +300,7 @@ msgstr "Άγνωστη έκδοση: %s"
 msgid "Downloading %s..."
 msgstr "Γίνεται λήψη %s..."
 
-#: ../tails_installer/gui.py:209
+#: ../tails_installer/gui.py:211
 msgid ""
 "Error: Cannot set the label or obtain the UUID of your device.  Unable to "
 "continue."
@@ -331,37 +326,37 @@ msgstr "Προειδοποίηση: Αυτό το εργαλείο πρέπει 
 msgid "Tails Installer"
 msgstr "Πρόγραμμα εγκατάστασης Tails"
 
-#: ../tails_installer/gui.py:454
+#: ../tails_installer/gui.py:456
 msgid "Upgrade"
 msgstr "Αναβάθμιση"
 
-#: ../tails_installer/gui.py:458 ../data/tails-installer.ui.h:7
+#: ../tails_installer/gui.py:462 ../data/tails-installer.ui.h:7
 msgid "Install"
 msgstr "Εγκατάσταση"
 
-#: ../tails_installer/gui.py:465
+#: ../tails_installer/gui.py:469
 #, python-format
 msgid "%(size)s %(vendor)s %(model)s device (%(device)s)"
 msgstr "%(size)s %(vendor)s %(model)s συσκευή (%(device)s)"
 
-#: ../tails_installer/gui.py:476
+#: ../tails_installer/gui.py:481
 msgid "No ISO image selected"
 msgstr "Δεν έχει επιλεγεί ISO image"
 
-#: ../tails_installer/gui.py:477
+#: ../tails_installer/gui.py:482
 msgid "Please select a Tails ISO image."
 msgstr "Παρακαλούμε επιλέξτε ένα Tails ISO image."
 
-#: ../tails_installer/gui.py:516
+#: ../tails_installer/gui.py:521
 msgid "No device suitable to install Tails could be found"
 msgstr "Δε βρέθηκε συσκευή που να πληρεί τις προϋποθέσεις για την εγκατάσταση του Tails"
 
-#: ../tails_installer/gui.py:518
+#: ../tails_installer/gui.py:523
 #, python-format
 msgid "Please plug a USB flash drive or SD card of at least %0.1f GB."
 msgstr "Παρακαλώ εισάγετε μονάδα δίσκου usb ή κάρτα SD μεγέθους τουλάχιστον %0.1f GB."
 
-#: ../tails_installer/gui.py:552
+#: ../tails_installer/gui.py:557
 #, python-format
 msgid ""
 "The USB stick \"%(pretty_name)s\" is configured as non-removable by its "
@@ -369,42 +364,42 @@ msgid ""
 "different model."
 msgstr "Αυτή η μονάδα δίσκου USB \"%(pretty_name)s\" είναι ρυθμισμένο ως μη αφαιρέσιμο από τον κατασκευαστή του και το Tails θα αποτύχει να εκκινηθεί σε αυτό. Παρακαλώ προσπαθήστε να εγκαταστήσετε σε διαφορετικό μοντέλο."
 
-#: ../tails_installer/gui.py:562
+#: ../tails_installer/gui.py:567
 #, python-format
 msgid ""
 "The device \"%(pretty_name)s\" is too small to install Tails (at least "
 "%(size)s GB is required)."
 msgstr "Η συσκευή  \"%(pretty_name)s\" είναι πολύ μικρή για να εγκαταστήσετε το Tails (απαιτούνται τουλάχιστον %(size)s GB)."
 
-#: ../tails_installer/gui.py:584
+#: ../tails_installer/gui.py:589
 msgid "An error happened while installing Tails"
 msgstr "Προέκυψε σφάλμα κατά την εγκατάσταση του Tails"
 
-#: ../tails_installer/gui.py:596
+#: ../tails_installer/gui.py:601
 msgid "Refreshing releases..."
 msgstr "Ανανέωση εκδόσεων..."
 
-#: ../tails_installer/gui.py:601
+#: ../tails_installer/gui.py:606
 msgid "Releases updated!"
 msgstr "Η ανανεωση πετυχε!"
 
-#: ../tails_installer/gui.py:643
+#: ../tails_installer/gui.py:648
 msgid "Installation complete!"
 msgstr "Η εγκατάσταση ολοκληρώθηκε!"
 
-#: ../tails_installer/gui.py:644
+#: ../tails_installer/gui.py:649
 msgid "Installation was completed."
 msgstr "Η εγκατάσταση έχει ήδη ολοκληρωθεί"
 
-#: ../tails_installer/gui.py:693
+#: ../tails_installer/gui.py:698
 msgid "Unable to mount device"
 msgstr "Αδυναμία προσάρτησης συσκευής"
 
-#: ../tails_installer/gui.py:700 ../tails_installer/gui.py:730
+#: ../tails_installer/gui.py:705 ../tails_installer/gui.py:735
 msgid "Confirm the target USB stick"
 msgstr "Επιβεβαιώστε το USB stick προορισμού"
 
-#: ../tails_installer/gui.py:701
+#: ../tails_installer/gui.py:706
 #, python-format
 msgid ""
 "%(size)s %(vendor)s %(model)s device (%(device)s)\n"
@@ -412,48 +407,48 @@ msgid ""
 "All data on this USB stick will be lost."
 msgstr "%(size)s %(vendor)s %(model)s συσκευή (%(device)s)\n\nΌλα τα δεδομένα σε αυτό το USB stick θα χαθούν."
 
-#: ../tails_installer/gui.py:717
+#: ../tails_installer/gui.py:722
 #, python-format
 msgid "%(parent_size)s %(vendor)s %(model)s device (%(device)s)"
 msgstr "%(parent_size)s %(vendor)s %(model)s συσκευή (%(device)s)"
 
-#: ../tails_installer/gui.py:725
+#: ../tails_installer/gui.py:730
 msgid ""
 "\n"
 "\n"
 "The persistent storage on this USB stick will be preserved."
 msgstr "\n\nΗ μόνιμη αποθήκευση σε αυτό το USB stick θα διατηρηθεί."
 
-#: ../tails_installer/gui.py:726
+#: ../tails_installer/gui.py:731
 #, python-format
 msgid "%(description)s%(persistence_message)s"
 msgstr "%(description)s%(persistence_message)s"
 
-#: ../tails_installer/gui.py:776
+#: ../tails_installer/gui.py:781
 msgid "Download complete!"
 msgstr "Η λήψη ολοκληρώθηκε!"
 
-#: ../tails_installer/gui.py:780
+#: ../tails_installer/gui.py:785
 msgid "Download failed: "
 msgstr "Η λήψη απέτυχε:"
 
-#: ../tails_installer/gui.py:781
+#: ../tails_installer/gui.py:786
 msgid "You can try again to resume your download"
 msgstr "Μπορείτε να δοκιμάσετε να συνεχίσετε τη λήψη"
 
-#: ../tails_installer/gui.py:789
+#: ../tails_installer/gui.py:794
 msgid ""
 "The selected file is unreadable. Please fix its permissions or select "
 "another file."
 msgstr "Το συγκεκριμένο αρχείο δεν μπορεί να αναγνωσθεί. Παρακαλώ διορθώστε τα δικαιώματά του ή διαλέξτε άλλο αρχείο."
 
-#: ../tails_installer/gui.py:795
+#: ../tails_installer/gui.py:800
 msgid ""
 "Unable to use the selected file.  You may have better luck if you move your "
 "ISO to the root of your drive (ie: C:\\)"
 msgstr "Αδυναμία χρήσης του επιλεγμένου αρχείου. Μπορεί να έχετε καλύτερη τύχη αν μετακινήσετε το ISO στη ριζα του δίσκου σας (πχ C:\\)"
 
-#: ../tails_installer/gui.py:801
+#: ../tails_installer/gui.py:806
 #, python-format
 msgid "%(filename)s selected"
 msgstr "επιλέχθηκαν %(filename)s"
