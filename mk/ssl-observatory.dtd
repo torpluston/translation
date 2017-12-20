@@ -1,0 +1,99 @@
+<!-- Observatory popup window -->
+<!ENTITY ssl-observatory.popup.details "Детали и информации за приватност">
+<!ENTITY ssl-observatory.popup.later "Прашај ме подоцна">
+<!ENTITY ssl-observatory.popup.no "Не">
+
+<!ENTITY ssl-observatory.popup.text "'HTTPS секаде' може да пронајде напади
+ против твојот пребарувач преку праќање на примените сертификати во 
+опсерваторијата. Вклучи го ова?">
+
+<!--<!ENTITY ssl-observatory.popup.text 
+"EFF's SSL Observatory can detect attacks against HTTPS websites by collecting
+and auditing the certificates being presented to your browser. Would you like
+to turn it on?">-->
+
+<!ENTITY ssl-observatory.popup.title 
+"Треба ли 'HTTPS секаде' да користи SSL опсерваторија?">
+
+<!ENTITY ssl-observatory.popup.yes "Да">
+
+<!-- Observatory preferences dialog -->
+
+<!ENTITY ssl-observatory.prefs.adv_priv_opts1
+"Ова е безбедно да се вклучи, освен ако користиш
+високо наметлива корпоративната мрежа:">
+
+<!ENTITY ssl-observatory.prefs.adv_priv_opts2
+"Безбедно, освен ако користиш корпоративна мрежа со тајни интранет серверни имиња:">
+
+<!ENTITY ssl-observatory.prefs.alt_roots 
+"Поднеси и провери сертификати потпишани од нестандардни основни / root сертификати">
+
+<!ENTITY ssl-observatory.prefs.alt_roots_tooltip 
+"Безбедно е (и е добра идеа) да ја овозможиш оваа опција, доколку користиш наметлива корпоративна / компаниска мрежа или Kaspersky анитивирусно решение кое го мониторира твоето прелистување на Интернет преку TLS прокси и приватен основен авторитет за издавање на дигитален сертификат. Ако е овозможено на овој тип на мрежа оваа опција може да објави доказ од кои https:// домеините биле посетени од тоа прокси, бидејќи ќе создаде уникатни сертификати. Затоа е исклучено под дифолт.">
+
+<!ENTITY ssl-observatory.prefs.anonymous "Провери ги сертификатите користејќи Tor за анонимност">
+<!ENTITY ssl-observatory.prefs.anonymous_unavailable 
+"Провери ги сертификатите користејќи Tor за анонимност (потребен е Tor)">
+<!ENTITY ssl-observatory.prefs.anonymous_tooltip 
+"Оваа опција бара Tor да биде инсталиран и стартуван">
+
+<!ENTITY ssl-observatory.prefs.asn 
+"Кога ќе видиш нов сертификат, кажи и на опсерваторијата преку кој ISP / Интернет провајдер си приклучен">
+
+<!ENTITY ssl-observatory.prefs.asn_tooltip
+"Ова ќе донесе и испрати 'Автономен системски број' од твојата мрежа. Ова ќе ни помогне да ги лоцираме нападите против HTTPS, и да утврдиме кога имаме опсервации од мрежите како во Иран или Сирија каде нападите се компаративно земено доста чести.">
+
+<!ENTITY ssl-observatory.prefs.show_cert_warning
+"Покажи предупредување кога опсерваторијата детектира повлечен сертификат недектиран од страна на твојот прелистувач">
+
+<!ENTITY ssl-observatory.prefs.show_cert_warning_tooltip
+"Ова ќе ги провери испратените сертификати наспроти листата познатите повлечени/отповикани сертификати. На жалост не гарантиранме ќе го обележиме секој повлечен сертификат, но доколку видите предупредување има голема веројатност нешто да не е во ред.">
+
+<!ENTITY ssl-observatory.prefs.done "Готово">
+
+<!ENTITY ssl-observatory.prefs.explanation 
+"'HTTPS секаде'  може да ја користи сертификатска EFF-ска SSL опсерваторија. Ова прави две нешта: (1)
+праќа копии од HTTPS сертификати до опсерваторијата, да ни помогне
+да ги детектираме нападите од типот 'човек-во-средина' / 'пресретнувач-на-комуникација' и да ја унапредиме веб-безбедноста; и (2)
+ни овозможува да ве предупредиме за несигурни конекции или напади врз вашиот прелистувач.">
+
+<!--<!ENTITY ssl-observatory.prefs.explanation2
+"When you visit https://www.example.com, the Observatory will learn that
+somebody visited that site, but will not know who or what page they looked at.
+Mouseover the options for further details:">-->
+
+<!ENTITY ssl-observatory.prefs.explanation2
+
+"На пример, кога посетувате https://www.something.com, сертификатот
+примен од опсерваторијата ќе индицира дека некој ја посетил: www.something.com, но не и кој точно ја посетил таа страна, или кон која точно секција на таа страна била гледана. Обележете ги опциите со глувчето за понатамошни детали:">
+
+<!ENTITY ssl-observatory.prefs.hide "Сокриј ги напредните опции">
+
+<!ENTITY ssl-observatory.prefs.nonanon 
+"Провери ги сертификати иако Tor не е достапен">
+
+<!ENTITY ssl-observatory.prefs.nonanon_tooltip
+"Ние ќе пробаме да ги задржиме анонимноста на податоците, но опција е помалку сигурна">
+
+<!ENTITY ssl-observatory.prefs.priv_dns 
+"Испрати и провери сертификати за не-јавни DNS имиња">
+
+<!ENTITY ssl-observatory.prefs.priv_dns_tooltip
+"Доколку опција е вклучена, тогаш опсерваторијата нема да ги зачувува сертификатите за имињата кои не можат да бидат прифатени преку DNS системот.">
+
+<!ENTITY ssl-observatory.prefs.show "Покажи ги напредните опции">
+
+<!ENTITY ssl-observatory.prefs.title "SLL опсерваторски параметри">
+
+<!ENTITY ssl-observatory.prefs.use "Користи опсерваторија?">
+<!ENTITY ssl-observatory.warning.title "ПРЕДУПРЕДУВАЊЕ од EFF-ската SSL опсерваторија">
+<!ENTITY ssl-observatory.warning.showcert "Покажи го сертификатскиот синџир">
+<!ENTITY ssl-observatory.warning.okay "Разбирам">
+<!ENTITY ssl-observatory.warning.text "EFF-ската SSL опсерваторија испрати предупредување за HTTPS сертификат(и) за оваа страна:">
+<!ENTITY ssl-observatory.warning.defense "Ако сте логиран на оваа страна, е препорачливо да ја замените вашата лозинка кога ќе добиете сигурна конекција. (Овие предупредувања можат да се исклучат во 'SSL опсерваторија' табот од 'HTTPS секаде' параметри дијалогот.)">
+
+<!ENTITY ssl-observatory.prefs.self_signed
+"Испрати и провери само-потпишани сертификати">
+<!ENTITY ssl-observatory.prefs.self_signed_tooltip
+"Ова е препорачано; криптографските проблеми се многу често во само-потпишаните специјализирани уреди.">
