@@ -3,9 +3,9 @@
 <!ENTITY ssl-observatory.popup.later "Spyrja mig síðar">
 <!ENTITY ssl-observatory.popup.no "Nei">
 
-<!ENTITY ssl-observatory.popup.text "HTTPS Everywhere can detect attacks
-against your browser by sending the certificates you receive to the
-Observatory.  Turn this on?">
+<!ENTITY ssl-observatory.popup.text "HTTPS-allsstaðar getur skynjað árásir
+á vafrann þinn með því að senda skilríkin sem þú tekur á móti til
+Observatory-þjónustunnar.  Kveikja á þessu?">
 
 <!--<!ENTITY ssl-observatory.popup.text 
 "EFF's SSL Observatory can detect attacks against HTTPS websites by collecting
@@ -13,18 +13,18 @@ and auditing the certificates being presented to your browser. Would you like
 to turn it on?">-->
 
 <!ENTITY ssl-observatory.popup.title 
-"Should HTTPS Everywhere use the SSL Observatory?">
+"Ætti HTTPS-allsstaðar að nota SSL Observatory?">
 
 <!ENTITY ssl-observatory.popup.yes "Já">
 
 <!-- Observatory preferences dialog -->
 
 <!ENTITY ssl-observatory.prefs.adv_priv_opts1
-"It is safe to enable this, unless you use a very
-intrusive corporate network:">
+"Það er öruggt að virkja þetta, nema þú sért að nota
+verulega nærgöngult fyrirtækjanet:">
 
 <!ENTITY ssl-observatory.prefs.adv_priv_opts2
-"Safe, unless you use a corporate network with secret intranet server names:">
+"Öruggt, nema þú notir fyrirtækjanet með földum innranetsþjónum:">
 
 <!ENTITY ssl-observatory.prefs.alt_roots 
 "Submit and check certificates signed by non-standard root CAs">
@@ -32,20 +32,20 @@ intrusive corporate network:">
 <!ENTITY ssl-observatory.prefs.alt_roots_tooltip 
 "It is safe (and a good idea) to enable this option, unless you use an intrusive corporate network or Kaspersky antivirus software that monitors your browsing with a TLS proxy and a private root Certificate Authority.  If enabled on such a network, this option might publish evidence of which https:// domains were being visited through that proxy, because of the unique certificates it would produce.  So we leave it off by default.">
 
-<!ENTITY ssl-observatory.prefs.anonymous "Check certificates using Tor for anonymity">
+<!ENTITY ssl-observatory.prefs.anonymous "Athuga skilríki sem nota Tor til að dyljast">
 <!ENTITY ssl-observatory.prefs.anonymous_unavailable 
-"Check certificates using Tor for anonymity (requires Tor)">
+"Athuga hvort skilríki sem nota Tor séu naflaus (krefst Tor)">
 <!ENTITY ssl-observatory.prefs.anonymous_tooltip 
-"This option requires Tor to be installed and running">
+"Þessi kostur krefst þess að Tor sé uppsett og keyrandi">
 
 <!ENTITY ssl-observatory.prefs.asn 
-"When you see a new certificate, tell the Observatory which ISP you are connected to">
+"Þegar þú sérð nýtt skilríki, láttu Observatory vita hvaða ISP-netþjónustu þú tengist">
 
 <!ENTITY ssl-observatory.prefs.asn_tooltip
 "This will fetch and send the &quot;Autonomous System number&quot; of your network.  This will help us locate attacks against HTTPS, and to determine whether we have observations from networks in places like Iran and Syria where attacks are comparatively common.">
 
 <!ENTITY ssl-observatory.prefs.show_cert_warning
-"Show a warning when the Observatory detects a revoked certificate not caught by your browser">
+"Birta aðvörun þegar Observatory finnur afturkallað skilríki sem vafrinn þinn greip ekki">
 
 <!ENTITY ssl-observatory.prefs.show_cert_warning_tooltip
 "This will check submitted certificates against known Certificate Revocation Lists. Unfortunately we cannot guarantee that we will flag every revoked certificate, but if you do see a warning there's a good chance something is wrong.">
@@ -73,10 +73,10 @@ looked at.  Mouseover the options for further details:">
 <!ENTITY ssl-observatory.prefs.hide "Fela ítarlegar stillingar">
 
 <!ENTITY ssl-observatory.prefs.nonanon 
-"Check certificates even if Tor is not available">
+"Athuga skilríki jafnvel þó Tor sé ekki tiltækt">
 
 <!ENTITY ssl-observatory.prefs.nonanon_tooltip
-"We will still try to keep the data anonymous, but this option is less secure">
+"Við munum samt reyna að halda gögnunum nafnlausum, en þessi valkostur er ekki eins öruggur">
 
 <!ENTITY ssl-observatory.prefs.priv_dns 
 "Submit and check certificates for non-public DNS names">
@@ -86,16 +86,16 @@ looked at.  Mouseover the options for further details:">
 
 <!ENTITY ssl-observatory.prefs.show "Birta ítarlegar stillingar">
 
-<!ENTITY ssl-observatory.prefs.title "SSL Observatory valkostir">
+<!ENTITY ssl-observatory.prefs.title "Kjörstillingar SSL Observatory">
 
 <!ENTITY ssl-observatory.prefs.use "Nota Observatory?">
-<!ENTITY ssl-observatory.warning.title "WARNING from EFF's SSL Observatory">
+<!ENTITY ssl-observatory.warning.title "AÐVÖRUN frá SSL Observatory í boði EFF">
 <!ENTITY ssl-observatory.warning.showcert "Sýna skilríkjakeðjuna">
 <!ENTITY ssl-observatory.warning.okay "Ég skil">
 <!ENTITY ssl-observatory.warning.text "EFF's SSL Observatory has issued a warning about the HTTPS certificiate(s) for this site:">
 <!ENTITY ssl-observatory.warning.defense "If you are logged in to this site, it may be advisable to change your password once you have a safe connection. (These warnings can be disabled in the &quot;SSL Observatory&quot; tab of the HTTPS Everywhere preferences dialog.)">
 
 <!ENTITY ssl-observatory.prefs.self_signed
-"Submit and check self-signed certificates">
+"Senda inn og yfirfara sjálfundirrituð skilríki">
 <!ENTITY ssl-observatory.prefs.self_signed_tooltip
 "This is recommended; cryptographic problems are especially common in self-signed embedded devices">
