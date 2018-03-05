@@ -13,8 +13,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: The Tor Project\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-02-20 11:29+0100\n"
-"PO-Revision-Date: 2018-02-20 14:06+0000\n"
+"POT-Creation-Date: 2018-03-01 16:34+0100\n"
+"PO-Revision-Date: 2018-03-02 01:37+0000\n"
 "Last-Translator: carolyn <carolyn@anhalt.org>\n"
 "Language-Team: Korean (http://www.transifex.com/otf/torproject/language/ko/)\n"
 "MIME-Version: 1.0\n"
@@ -48,36 +48,41 @@ msgid ""
 "</p>\n"
 msgstr "<h1>우리가 버그를 수정할 수 있도록 도와주세요! <h1>\n<p><a href=\"%s\">버그 리포팅 지침서</a>를 참조하세요.</p>\n<p><strong>필요한 것 이상의 개인정보를 포함하시지 마세요!</strong></p>\n<h2>우리가 이메일 주소를 받는 이유</h2>\n<p>\n우리가 이메일 주소를 받는 것은 문제를 명확하게 하기 위해 연락을 할 수 있기 때문입니다.\n우리가 받는 대부분의 리포팅은 연락처 정보가 필요합니다만, 그런것들의 일부는 연락처 \n정보가 없는 경우가 있기 때문입니다. 다른 한편으로는 당신이 Tails를 사용하여 이메일이나 \n인터넷 제공자처럼 도청자에대한 확인할 수 있는 기회를 제공하기 위함입니다.\n<./p>\n"
 
-#: config/chroot_local-includes/usr/local/bin/electrum:17
+#: config/chroot_local-includes/usr/local/bin/electrum:57
 msgid "Persistence is disabled for Electrum"
 msgstr "지속성은 Electrum을 비활성시킵니다."
 
-#: config/chroot_local-includes/usr/local/bin/electrum:19
+#: config/chroot_local-includes/usr/local/bin/electrum:59
 msgid ""
 "When you reboot Tails, all of Electrum's data will be lost, including your "
 "Bitcoin wallet. It is strongly recommended to only run Electrum when its "
 "persistence feature is activated."
 msgstr "Tails를 다시 부팅할때, Electrum의 모든 데이터는 비트 코인 지갑을 포함하여 없어집니다. 지속성 기능이 활성화 되어있을때 Electrum만 실행하는 것을 추천드립니다."
 
-#: config/chroot_local-includes/usr/local/bin/electrum:21
+#: config/chroot_local-includes/usr/local/bin/electrum:60
 msgid "Do you want to start Electrum anyway?"
 msgstr "그래도 Electrum을 실행하시겠습니까?"
 
-#: config/chroot_local-includes/usr/local/bin/electrum:23
+#: config/chroot_local-includes/usr/local/bin/electrum:63
 #: config/chroot_local-includes/usr/local/sbin/unsafe-browser:41
 msgid "_Launch"
 msgstr "_Launch"
 
-#: config/chroot_local-includes/usr/local/bin/electrum:24
+#: config/chroot_local-includes/usr/local/bin/electrum:64
 #: config/chroot_local-includes/usr/local/sbin/unsafe-browser:42
 msgid "_Exit"
 msgstr "_Exit"
 
-#: config/chroot_local-includes/usr/share/gnome-shell/extensions/shutdown-helper@tails.boum.org/extension.js:71
+#: config/chroot_local-includes/usr/share/gnome-shell/extensions/status-menu-helper@tails.boum.org/extension.js:75
 msgid "Restart"
 msgstr "재시작"
 
-#: config/chroot_local-includes/usr/share/gnome-shell/extensions/shutdown-helper@tails.boum.org/extension.js:74
+#: config/chroot_local-includes/usr/share/gnome-shell/extensions/status-menu-helper@tails.boum.org/extension.js:78
+#: config/chroot_local-includes/usr/local/bin/tails-screen-locker:147
+msgid "Lock screen"
+msgstr ""
+
+#: config/chroot_local-includes/usr/share/gnome-shell/extensions/status-menu-helper@tails.boum.org/extension.js:81
 msgid "Power Off"
 msgstr "끄기"
 
@@ -106,45 +111,45 @@ msgstr "생성 정보:\n%s"
 msgid "not available"
 msgstr "불가능"
 
-#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:119
+#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:170
 msgid "Your additional software installation failed"
 msgstr ""
 
-#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:120
+#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:171
 msgid ""
 "The installation failed. Please check your additional software "
 "configuration, or read the system log to understand better the problem."
 msgstr ""
 
-#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:126
+#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:177
 msgid "Your additional software are installed"
 msgstr ""
 
-#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:127
+#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:178
 msgid "Your additional software are ready to use."
 msgstr ""
 
-#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:138
-#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:157
+#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:194
+#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:204
 msgid "Your additional software upgrade failed"
 msgstr ""
 
-#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:139
+#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:195
 msgid ""
 "The check for upgrades failed. This might be due to a network problem. "
 "Please check your network connection, try to restart Tails, or read the "
 "system log to understand better the problem."
 msgstr ""
 
-#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:153
+#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:201
 msgid "Your additional software are up to date"
 msgstr ""
 
-#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:154
+#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:202
 msgid "The upgrade was successful."
 msgstr "업그레이드 성공"
 
-#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:158
+#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:205
 msgid ""
 "The upgrade failed. This might be due to a network problem. Please check "
 "your network connection, try to restart Tails, or read the system log to "
@@ -196,19 +201,26 @@ msgid ""
 "You might prefer to restart Tails and disable MAC spoofing."
 msgstr "네트워크 카드 ${nic_name} (${nic}) 의 MAC 스푸핑이 실패했습니다. 오류복구도 실패했기 때문에 모든 네트워킹이 비활성화 되었습니다.\nTails를 다시 키고 MAC 위장을 비활성화하실 수 있습니다."
 
-#: config/chroot_local-includes/usr/local/bin/tails-upgrade-frontend-wrapper:24
-#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:27
-msgid "error:"
-msgstr "오류:"
+#: config/chroot_local-includes/usr/local/bin/tails-screen-locker:109
+msgid "Set up a password to unlock the screen"
+msgstr ""
 
-#: config/chroot_local-includes/usr/local/bin/tails-upgrade-frontend-wrapper:25
-#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:28
-msgid "Error"
-msgstr "오류"
+#: config/chroot_local-includes/usr/local/bin/tails-screen-locker:115
+msgid "Password"
+msgstr "비밀번호"
 
-#: config/chroot_local-includes/usr/local/bin/tails-upgrade-frontend-wrapper:45
+#: config/chroot_local-includes/usr/local/bin/tails-screen-locker:122
+msgid "Confirm"
+msgstr "확인"
+
+#: config/chroot_local-includes/usr/local/bin/tails-screen-locker:155
+#: config/chroot_local-includes/usr/local/bin/tor-browser:46
+msgid "Cancel"
+msgstr "취소"
+
+#: config/chroot_local-includes/usr/local/bin/tails-upgrade-frontend-wrapper:35
 msgid ""
-"<b>Not enough memory available to check for upgrades.</b>\n"
+"\"<b>Not enough memory available to check for upgrades.</b>\n"
 "\n"
 "Make sure this system satisfies the requirements for running Tails.\n"
 "See file:///usr/share/doc/tails/website/doc/about/requirements.en.html\n"
@@ -216,8 +228,18 @@ msgid ""
 "Try to restart Tails to check for upgrades again.\n"
 "\n"
 "Or do a manual upgrade.\n"
-"See https://tails.boum.org/doc/first_steps/upgrade#manual"
-msgstr "<b>업그레이드 확인에 충분한 메모리를 사용할 수 없습니다.</b>\n\n이 시스템이 Tails의 작동 요구 사항을 충족하는지 확인하십시오.\nfile:///usr/share/doc/tails/website/doc/about/requirements.en.html를 참조하십시오.\n\nTails를 다시 시작하고 다시 업그레이드를 확인하십시오.\n\n또는 수동으로 업그레이드해야합니다.\nhttps://tails.boum.org/doc/first_steps/upgrade#manual 을 참조하십시오."
+"See https://tails.boum.org/doc/first_steps/upgrade#manual\""
+msgstr ""
+
+#: config/chroot_local-includes/usr/local/bin/tails-upgrade-frontend-wrapper:72
+#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:27
+msgid "error:"
+msgstr "오류:"
+
+#: config/chroot_local-includes/usr/local/bin/tails-upgrade-frontend-wrapper:73
+#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:28
+msgid "Error"
+msgstr "오류"
 
 #: config/chroot_local-includes/usr/local/lib/tails-virt-notify-user:71
 msgid "Warning: virtual machine detected!"
@@ -256,10 +278,6 @@ msgstr "Tor는 준비 안 됐는데, 그래도 Tor 브라우저를 실행할까�
 #: config/chroot_local-includes/usr/local/bin/tor-browser:45
 msgid "Start Tor Browser"
 msgstr "Tor 브라우저 시작"
-
-#: config/chroot_local-includes/usr/local/bin/tor-browser:46
-msgid "Cancel"
-msgstr "취소"
 
 #: config/chroot_local-includes/usr/local/sbin/unsafe-browser:38
 msgid "Do you really want to launch the Unsafe Browser?"
@@ -305,27 +323,21 @@ msgid ""
 "retry in a while."
 msgstr "다른 안전하지 않은 웹 브라우저가 실행 중이거나 정리되어 있습니다. 잠시 후 다시 시도해주세요."
 
-#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:104
-msgid ""
-"NetworkManager passed us garbage data when trying to deduce the clearnet DNS"
-" server."
-msgstr "clearnet DNS 서버를 추적할때, NetworkManager는 우리의 가비지 데이터를 지나갔습니다."
+#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:100
+msgid "Failed to setup chroot."
+msgstr "chroot 설치에 실패했습니다."
 
-#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:114
+#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:105
+msgid "Failed to configure browser."
+msgstr "브라우저를 구성할 수 없습니다."
+
+#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:111
 msgid ""
 "No DNS server was obtained through DHCP or manually configured in "
 "NetworkManager."
 msgstr "DNS 서버는 DHCP를 통해 검색하거나 NetworkManager에서 수동으로 구성되지 않았습니다."
 
-#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:122
-msgid "Failed to setup chroot."
-msgstr "chroot 설치에 실패했습니다."
-
-#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:128
-msgid "Failed to configure browser."
-msgstr "브라우저를 구성할 수 없습니다."
-
-#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:133
+#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:117
 msgid "Failed to run browser."
 msgstr "브라우저를 실행시키지 못 했습니다."
 
