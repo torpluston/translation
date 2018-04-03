@@ -3,13 +3,13 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
-# Kevin Scannell <kscanne@gmail.com>, 2017
+# Kevin Scannell <kscanne@gmail.com>, 2017-2018
 msgid ""
 msgstr ""
 "Project-Id-Version: The Tor Project\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-09-13 20:10+0200\n"
-"PO-Revision-Date: 2018-01-12 14:26+0000\n"
+"POT-Creation-Date: 2018-03-12 19:03+0100\n"
+"PO-Revision-Date: 2018-04-03 14:59+0000\n"
 "Last-Translator: Kevin Scannell <kscanne@gmail.com>\n"
 "Language-Team: Irish (http://www.transifex.com/otf/torproject/language/ga/)\n"
 "MIME-Version: 1.0\n"
@@ -43,36 +43,40 @@ msgid ""
 "</p>\n"
 msgstr "<h1>Cabhraigh linn an fhadhb a réiteach!</h1>\n<p>Léigh <a href=\"%s\">conas a chuirtear tuairisc ar fhabht faoinár mbráid</a>.</p>\n<p>Ná cuir an iomarca sonraí pearsanta sa tuairisc!</strong></p>\n<h2>Maidir le seoladh ríomhphoist a sholáthar</h2>\n<p>\nMá thugann tú seoladh ríomhphoist dúinn, beimid in ann dul i dteagmháil leat chun an fhadhb a shoiléiriú. Tá tuilleadh mionsonraí de dhíth i bhformhór mór na gcásanna agus is minic nach féidir linn aon tairbhe a bhaint as tuairisc gan sonraí teagmhála. É sin ráite, tugann sé deis do chúléisteoirí, mar shampla do sholáthraí seirbhíse Idirlín nó do sholáthraí ríomhphoist, deimhniú go n-úsáideann tú Tails.\n</p>\n"
 
-#: config/chroot_local-includes/usr/local/bin/electrum:17
+#: config/chroot_local-includes/usr/local/bin/electrum:57
 msgid "Persistence is disabled for Electrum"
 msgstr "Díchumasaíodh seasmhacht sonraí in Electrum"
 
-#: config/chroot_local-includes/usr/local/bin/electrum:19
+#: config/chroot_local-includes/usr/local/bin/electrum:59
 msgid ""
 "When you reboot Tails, all of Electrum's data will be lost, including your "
 "Bitcoin wallet. It is strongly recommended to only run Electrum when its "
 "persistence feature is activated."
 msgstr "Nuair a atosaíonn tú Tails, cailleann tú na sonraí go léir ó Electrum, do sparán Bitcoin san áireamh. Molaimid go láidir duit gan Electrum a úsáid gan seasmhacht sonraí a bheith ar siúl."
 
-#: config/chroot_local-includes/usr/local/bin/electrum:21
+#: config/chroot_local-includes/usr/local/bin/electrum:60
 msgid "Do you want to start Electrum anyway?"
 msgstr "An bhfuil fonn ort Electrum a thosú mar sin féin?"
 
-#: config/chroot_local-includes/usr/local/bin/electrum:23
+#: config/chroot_local-includes/usr/local/bin/electrum:63
 #: config/chroot_local-includes/usr/local/sbin/unsafe-browser:41
 msgid "_Launch"
 msgstr "_Tosaigh"
 
-#: config/chroot_local-includes/usr/local/bin/electrum:24
+#: config/chroot_local-includes/usr/local/bin/electrum:64
 #: config/chroot_local-includes/usr/local/sbin/unsafe-browser:42
 msgid "_Exit"
 msgstr "_Scoir"
 
-#: config/chroot_local-includes/usr/share/gnome-shell/extensions/shutdown-helper@tails.boum.org/extension.js:71
+#: config/chroot_local-includes/usr/share/gnome-shell/extensions/status-menu-helper@tails.boum.org/extension.js:75
 msgid "Restart"
 msgstr "Atosaigh"
 
-#: config/chroot_local-includes/usr/share/gnome-shell/extensions/shutdown-helper@tails.boum.org/extension.js:74
+#: config/chroot_local-includes/usr/share/gnome-shell/extensions/status-menu-helper@tails.boum.org/extension.js:78
+msgid "Lock screen"
+msgstr "Cuir an scáileán faoi ghlas"
+
+#: config/chroot_local-includes/usr/share/gnome-shell/extensions/status-menu-helper@tails.boum.org/extension.js:81
 msgid "Power Off"
 msgstr "Múch"
 
@@ -101,23 +105,50 @@ msgstr "Eolas faoin leagan:\n%s"
 msgid "not available"
 msgstr "níl ar fáil"
 
-#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:147
-#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:162
-#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:166
-msgid "Your additional software"
-msgstr "Bogearraí breise atá agat"
+#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:170
+msgid "Your additional software installation failed"
+msgstr "Theip orainn an bogearra breise a shuiteáil"
 
-#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:148
-#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:167
+#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:171
+msgid ""
+"The installation failed. Please check your additional software "
+"configuration, or read the system log to understand better the problem."
+msgstr "Theip ar an tsuiteáil. Féach ar chumraíocht do chórais ó thaobh bogearraí breise, nó caith súil ar loganna an chóras chun tuiscint níos fearr a fháil ar an bhfadhb."
+
+#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:177
+msgid "Your additional software are installed"
+msgstr "Suiteáladh na bogearraí breise"
+
+#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:178
+msgid "Your additional software are ready to use."
+msgstr "Tá na bogearraí breise réidh le húsáid."
+
+#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:194
+#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:204
+msgid "Your additional software upgrade failed"
+msgstr "Theip orainn na bogearraí breise a nuashonrú"
+
+#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:195
+msgid ""
+"The check for upgrades failed. This might be due to a network problem. "
+"Please check your network connection, try to restart Tails, or read the "
+"system log to understand better the problem."
+msgstr "Níorbh fhéidir linn nuashonruithe a lorg. Seans gur tharla sé seo mar gheall ar fhadhb leis an líonra. Féach ar do cheangal líonra, atosaigh Tails, nó caith súil ar loganna an chórais chun tuiscint níos fearr a fháil ar an bhfadhb."
+
+#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:201
+msgid "Your additional software are up to date"
+msgstr "Tá do bhogearraí breise cothrom le dáta"
+
+#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:202
+msgid "The upgrade was successful."
+msgstr "D'éirigh leis an nuashonrú."
+
+#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:205
 msgid ""
 "The upgrade failed. This might be due to a network problem. Please check "
 "your network connection, try to restart Tails, or read the system log to "
 "understand better the problem."
 msgstr "Theip ar an nuashonrú. Seans gur tharla sé seo mar gheall ar fhadhb leis an líonra. Deimhnigh do cheangal Idirlín, déan iarracht Tails a atosú, nó caith súil ar logchomhad an chórais chun tuiscint níos fearr a fháil ar an bhfadhb."
-
-#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:163
-msgid "The upgrade was successful."
-msgstr "D'éirigh leis an nuashonrú."
 
 #: config/chroot_local-includes/usr/local/lib/tails-htp-notify-user:52
 msgid "Synchronizing the system's clock"
@@ -164,19 +195,34 @@ msgid ""
 "You might prefer to restart Tails and disable MAC spoofing."
 msgstr "Theip ar dhallamullóg MAC ar chárta líonra ${nic_name} (${nic}). Theip ar athshlánú ón earráid freisin, agus díchumasaíodh líonrú go hiomlán dá bharr sin.\nB'fhéidir gurbh fhearr leat Tails a atosú agus dallamullóg MAC a dhíchumasú."
 
-#: config/chroot_local-includes/usr/local/bin/tails-upgrade-frontend-wrapper:24
-#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:27
-msgid "error:"
-msgstr "earráid:"
+#: config/chroot_local-includes/usr/local/bin/tails-screen-locker:109
+msgid "Lock Screen"
+msgstr "Cuir an scáileán faoi ghlas"
 
-#: config/chroot_local-includes/usr/local/bin/tails-upgrade-frontend-wrapper:25
-#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:28
-msgid "Error"
-msgstr "Earráid"
+#: config/chroot_local-includes/usr/local/bin/tails-screen-locker:118
+#: config/chroot_local-includes/usr/local/bin/tor-browser:46
+msgid "Cancel"
+msgstr "Cealaigh"
 
-#: config/chroot_local-includes/usr/local/bin/tails-upgrade-frontend-wrapper:45
+#: config/chroot_local-includes/usr/local/bin/tails-screen-locker:124
+msgid "Screen Locker"
+msgstr "Glasálaí an Scáileáin"
+
+#: config/chroot_local-includes/usr/local/bin/tails-screen-locker:130
+msgid "Set up a password to unlock the screen."
+msgstr "Socraigh focal faire chun an scáileán a dhíghlasáil."
+
+#: config/chroot_local-includes/usr/local/bin/tails-screen-locker:135
+msgid "Password"
+msgstr "Focal faire"
+
+#: config/chroot_local-includes/usr/local/bin/tails-screen-locker:141
+msgid "Confirm"
+msgstr "Deimhnigh"
+
+#: config/chroot_local-includes/usr/local/bin/tails-upgrade-frontend-wrapper:35
 msgid ""
-"<b>Not enough memory available to check for upgrades.</b>\n"
+"\"<b>Not enough memory available to check for upgrades.</b>\n"
 "\n"
 "Make sure this system satisfies the requirements for running Tails.\n"
 "See file:///usr/share/doc/tails/website/doc/about/requirements.en.html\n"
@@ -184,8 +230,18 @@ msgid ""
 "Try to restart Tails to check for upgrades again.\n"
 "\n"
 "Or do a manual upgrade.\n"
-"See https://tails.boum.org/doc/first_steps/upgrade#manual"
-msgstr "<b>Níl dóthain cuimhne ann le nuashonruithe a lorg.</b>\n\nDeimhnigh go gcomhlíonann an córas seo na bunriachtanais le Tails a úsáid.\nFéach file:///usr/share/doc/tails/website/doc/about/requirements.en.html\n\nDéan iarracht Tails a atosú le nuashonruithe a lorg arís.\n\nNó is féidir nuashonrú a dhéanamh de láimh.\nFéach https://tails.boum.org/doc/first_steps/upgrade#manual"
+"See https://tails.boum.org/doc/first_steps/upgrade#manual\""
+msgstr "\"<b>Níl go leor cuimhne agat le nuashonruithe a lorg.</b>\n\nBa chóir duit deimhniú go gcomhlíonann an córas seo na riachtanais chun Tails a úsáid.\nFéach file:///usr/share/doc/tails/website/doc/about/requirements.en.html\n\nAtosaigh Tails agus bain triail eile as.\n\nNó déan nuashonrú de láimh.\nFéach https://tails.boum.org/doc/first_steps/upgrade#manual\""
+
+#: config/chroot_local-includes/usr/local/bin/tails-upgrade-frontend-wrapper:72
+#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:27
+msgid "error:"
+msgstr "earráid:"
+
+#: config/chroot_local-includes/usr/local/bin/tails-upgrade-frontend-wrapper:73
+#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:28
+msgid "Error"
+msgstr "Earráid"
 
 #: config/chroot_local-includes/usr/local/lib/tails-virt-notify-user:71
 msgid "Warning: virtual machine detected!"
@@ -224,10 +280,6 @@ msgstr "Níl Tor réidh. An bhfuil fonn ort Brabhsálaí Tor a thosú mar sin f�
 #: config/chroot_local-includes/usr/local/bin/tor-browser:45
 msgid "Start Tor Browser"
 msgstr "Tosaigh Brabhsálaí Tor"
-
-#: config/chroot_local-includes/usr/local/bin/tor-browser:46
-msgid "Cancel"
-msgstr "Cealaigh"
 
 #: config/chroot_local-includes/usr/local/sbin/unsafe-browser:38
 msgid "Do you really want to launch the Unsafe Browser?"
@@ -273,27 +325,21 @@ msgid ""
 "retry in a while."
 msgstr "Tá brabhsálaí neamhshlán eile ar siúl, nó á dhúnadh, faoi láthair. Déan iarracht eile ar ball."
 
-#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:104
-msgid ""
-"NetworkManager passed us garbage data when trying to deduce the clearnet DNS"
-" server."
-msgstr "Sheol Bainisteoir an Líonra drochshonraí chugainn nuair a bhíomar ag iarraidh an freastalaí clearnet DNS a fháil amach."
+#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:100
+msgid "Failed to setup chroot."
+msgstr "Theip ar shocrú chroot."
 
-#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:114
+#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:105
+msgid "Failed to configure browser."
+msgstr "Níorbh fhéidir an brabhsálaí a chumrú."
+
+#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:111
 msgid ""
 "No DNS server was obtained through DHCP or manually configured in "
 "NetworkManager."
 msgstr "Ní bhfuarthas freastalaí DNS trí DHCP agus ní raibh sé cumraithe de láimh i mBainisteoir an Líonra."
 
-#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:122
-msgid "Failed to setup chroot."
-msgstr "Theip ar shocrú chroot."
-
-#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:128
-msgid "Failed to configure browser."
-msgstr "Níorbh fhéidir an brabhsálaí a chumrú."
-
-#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:133
+#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:117
 msgid "Failed to run browser."
 msgstr "Níorbh fhéidir an brabhsálaí a thosú."
 
