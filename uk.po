@@ -18,8 +18,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: The Tor Project\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-09-13 20:10+0200\n"
-"PO-Revision-Date: 2018-02-19 20:49+0000\n"
+"POT-Creation-Date: 2018-03-12 19:03+0100\n"
+"PO-Revision-Date: 2018-04-10 08:33+0000\n"
 "Last-Translator: O Herenko <herenko@ex.ua>\n"
 "Language-Team: Ukrainian (http://www.transifex.com/otf/torproject/language/uk/)\n"
 "MIME-Version: 1.0\n"
@@ -53,36 +53,40 @@ msgid ""
 "</p>\n"
 msgstr "<h1> Допоможіть нам виправити нашу помилку! </h1>\n<p> Прочитайте <a href=\"%s\"> наші інструкції, як повідомляти про помилки </a>.</p>\n<p><strong> Не повідомляйте більше особистої інформації, ніж необхідно! </strong></p>\n<h2> Про надання нам адреси електронної пошти </h2>\n<p>\nНадання нам адреси електронної пошти дозволяє нам зв'язатися з Вами для уточнення проблеми. Це\nнеобхідно в переважній більшості випадків, коли ми отримуємо повідомлення про помилки,\n оскільки більшість повідомлень без контактної інформації марні. З іншого боку, це також дає можливість засобам перехоплення\n та збору інформації, наприклад, провайдеру Вашої електронної пошти або Інтернет-провайдеру, встановити,\n що Ви використовуєте Tails.\n</p>\n"
 
-#: config/chroot_local-includes/usr/local/bin/electrum:17
+#: config/chroot_local-includes/usr/local/bin/electrum:57
 msgid "Persistence is disabled for Electrum"
 msgstr "Режим постійного сховища відключений для Electrum"
 
-#: config/chroot_local-includes/usr/local/bin/electrum:19
+#: config/chroot_local-includes/usr/local/bin/electrum:59
 msgid ""
 "When you reboot Tails, all of Electrum's data will be lost, including your "
 "Bitcoin wallet. It is strongly recommended to only run Electrum when its "
 "persistence feature is activated."
 msgstr "Коли Ви перезавантажете Tails, всі дані Electrum будуть загублені, включаючи Ваш гаманець Bitcoin. Настійно рекомендується запускати Electrum, тільки коли активована функція постійного сховища."
 
-#: config/chroot_local-includes/usr/local/bin/electrum:21
+#: config/chroot_local-includes/usr/local/bin/electrum:60
 msgid "Do you want to start Electrum anyway?"
 msgstr "У будь-якому випадку запустити Electrum ?"
 
-#: config/chroot_local-includes/usr/local/bin/electrum:23
+#: config/chroot_local-includes/usr/local/bin/electrum:63
 #: config/chroot_local-includes/usr/local/sbin/unsafe-browser:41
 msgid "_Launch"
 msgstr "_Запуск"
 
-#: config/chroot_local-includes/usr/local/bin/electrum:24
+#: config/chroot_local-includes/usr/local/bin/electrum:64
 #: config/chroot_local-includes/usr/local/sbin/unsafe-browser:42
 msgid "_Exit"
 msgstr "_Вихід"
 
-#: config/chroot_local-includes/usr/share/gnome-shell/extensions/shutdown-helper@tails.boum.org/extension.js:71
+#: config/chroot_local-includes/usr/share/gnome-shell/extensions/status-menu-helper@tails.boum.org/extension.js:75
 msgid "Restart"
 msgstr "Перезавантажити"
 
-#: config/chroot_local-includes/usr/share/gnome-shell/extensions/shutdown-helper@tails.boum.org/extension.js:74
+#: config/chroot_local-includes/usr/share/gnome-shell/extensions/status-menu-helper@tails.boum.org/extension.js:78
+msgid "Lock screen"
+msgstr "Заблокувати екран"
+
+#: config/chroot_local-includes/usr/share/gnome-shell/extensions/status-menu-helper@tails.boum.org/extension.js:81
 msgid "Power Off"
 msgstr "Вимкнення живлення"
 
@@ -111,23 +115,50 @@ msgstr "Інформація про зборку:\n%s"
 msgid "not available"
 msgstr "недоступно"
 
-#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:147
-#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:162
-#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:166
-msgid "Your additional software"
-msgstr "Ваше додаткове програмне забезпечення"
+#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:170
+msgid "Your additional software installation failed"
+msgstr "Ваше додаткове встановлення не вдалося"
 
-#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:148
-#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:167
+#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:171
+msgid ""
+"The installation failed. Please check your additional software "
+"configuration, or read the system log to understand better the problem."
+msgstr "Встановлення не вдалося. Перевірте додаткову конфігурацію програмного забезпечення або прочитайте системний журнал, щоб краще зрозуміти проблему."
+
+#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:177
+msgid "Your additional software are installed"
+msgstr "Ваше додаткове програмне забезпечення встановлено"
+
+#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:178
+msgid "Your additional software are ready to use."
+msgstr "Ваше додаткове програмне забезпечення готове до використання."
+
+#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:194
+#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:204
+msgid "Your additional software upgrade failed"
+msgstr "Ваше оновлення додаткового програмного забезпечення не вдалося"
+
+#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:195
+msgid ""
+"The check for upgrades failed. This might be due to a network problem. "
+"Please check your network connection, try to restart Tails, or read the "
+"system log to understand better the problem."
+msgstr "Не вдалося перевірити наявність оновлень. Це може бути пов'язано з мережевою проблемою. Будь ласка, перевірте підключення до мережі, спробуйте перезапустити Tails або прочитайте системний журнал, щоб краще зрозуміти проблему."
+
+#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:201
+msgid "Your additional software are up to date"
+msgstr "Ваше додаткове програмне забезпечення оновлено"
+
+#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:202
+msgid "The upgrade was successful."
+msgstr "Оновлення пройшло успішно."
+
+#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:205
 msgid ""
 "The upgrade failed. This might be due to a network problem. Please check "
 "your network connection, try to restart Tails, or read the system log to "
 "understand better the problem."
 msgstr "Оновлення не вдалося. Це може бути через проблеми з мережею. Будь ласка, перевірте підключення до мережі, спробуйте перезавантажити Tails, або прочитайте логи, щоб краще зрозуміти проблему."
-
-#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:163
-msgid "The upgrade was successful."
-msgstr "Оновлення пройшло успішно."
 
 #: config/chroot_local-includes/usr/local/lib/tails-htp-notify-user:52
 msgid "Synchronizing the system's clock"
@@ -174,19 +205,34 @@ msgid ""
 "You might prefer to restart Tails and disable MAC spoofing."
 msgstr "Підміна MAC не вдалася для мережевої карти ${nic_name} (${nic}). Помилку не вдалося виправити, тому мережа повністю вимкнена.\nМожливо, ви віддасте перевагу перевантаженню Tails і вимкненню підміни MAC. "
 
-#: config/chroot_local-includes/usr/local/bin/tails-upgrade-frontend-wrapper:24
-#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:27
-msgid "error:"
-msgstr "помилка:"
+#: config/chroot_local-includes/usr/local/bin/tails-screen-locker:109
+msgid "Lock Screen"
+msgstr "Заблокувати екран"
 
-#: config/chroot_local-includes/usr/local/bin/tails-upgrade-frontend-wrapper:25
-#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:28
-msgid "Error"
-msgstr "Помилка"
+#: config/chroot_local-includes/usr/local/bin/tails-screen-locker:118
+#: config/chroot_local-includes/usr/local/bin/tor-browser:46
+msgid "Cancel"
+msgstr "Відмова"
 
-#: config/chroot_local-includes/usr/local/bin/tails-upgrade-frontend-wrapper:45
+#: config/chroot_local-includes/usr/local/bin/tails-screen-locker:124
+msgid "Screen Locker"
+msgstr "Блокувальник екрану"
+
+#: config/chroot_local-includes/usr/local/bin/tails-screen-locker:130
+msgid "Set up a password to unlock the screen."
+msgstr "Встановіть пароль, щоб розблокувати екран."
+
+#: config/chroot_local-includes/usr/local/bin/tails-screen-locker:135
+msgid "Password"
+msgstr "Пароль "
+
+#: config/chroot_local-includes/usr/local/bin/tails-screen-locker:141
+msgid "Confirm"
+msgstr "Підтвердити"
+
+#: config/chroot_local-includes/usr/local/bin/tails-upgrade-frontend-wrapper:35
 msgid ""
-"<b>Not enough memory available to check for upgrades.</b>\n"
+"\"<b>Not enough memory available to check for upgrades.</b>\n"
 "\n"
 "Make sure this system satisfies the requirements for running Tails.\n"
 "See file:///usr/share/doc/tails/website/doc/about/requirements.en.html\n"
@@ -194,8 +240,18 @@ msgid ""
 "Try to restart Tails to check for upgrades again.\n"
 "\n"
 "Or do a manual upgrade.\n"
-"See https://tails.boum.org/doc/first_steps/upgrade#manual"
-msgstr "<b>Недостатньо доступної пам'яті для перевірки оновлень.</b>\n\nПереконайтеся, що система задовільняє вимогам для запущеного Tails.\nПрочитайте файл:///usr/share/doc/tails/website/doc/about/requirements.en.html\n\nСпробуйте перезапустити Tails для повторної перевірки оновлень.\n\nАбо здійсніть ручне оновлення.\nДив. https://tails.boum.org/doc/first_steps/upgrade#manual"
+"See https://tails.boum.org/doc/first_steps/upgrade#manual\""
+msgstr "\"<b>Недостатньо пам'яті для перевірки наявності оновлень.</b>\n\nПереконайтеся, що ця система відповідає вимогам щодо запуску Tails.\nДивіться file:///usr/share/doc/tails/website/doc/about/requirements.en.html\n\nСпробуйте перезапустити Tails, щоб знову перевірити наявність оновлень.\n\nАбо виконайте ручне оновлення.\nДивіться https://tails.boum.org/doc/first_steps/upgrade#manual\" "
+
+#: config/chroot_local-includes/usr/local/bin/tails-upgrade-frontend-wrapper:72
+#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:27
+msgid "error:"
+msgstr "помилка:"
+
+#: config/chroot_local-includes/usr/local/bin/tails-upgrade-frontend-wrapper:73
+#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:28
+msgid "Error"
+msgstr "Помилка"
 
 #: config/chroot_local-includes/usr/local/lib/tails-virt-notify-user:71
 msgid "Warning: virtual machine detected!"
@@ -234,10 +290,6 @@ msgstr "Tor не готовий. Запустити Tor у будь-якому �
 #: config/chroot_local-includes/usr/local/bin/tor-browser:45
 msgid "Start Tor Browser"
 msgstr "Запустити Tor Browser"
-
-#: config/chroot_local-includes/usr/local/bin/tor-browser:46
-msgid "Cancel"
-msgstr "Відмова"
 
 #: config/chroot_local-includes/usr/local/sbin/unsafe-browser:38
 msgid "Do you really want to launch the Unsafe Browser?"
@@ -283,27 +335,21 @@ msgid ""
 "retry in a while."
 msgstr "Інший Небезпечна Браузер у даний час працює або очищається. Повторіть спробу через деякий час."
 
-#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:104
-msgid ""
-"NetworkManager passed us garbage data when trying to deduce the clearnet DNS"
-" server."
-msgstr "NetworkManager повернув сміттєві дані при спробі дізнатися clearnet DNS сервер"
+#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:100
+msgid "Failed to setup chroot."
+msgstr "Не вдалося встановити chroot."
 
-#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:114
+#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:105
+msgid "Failed to configure browser."
+msgstr "Не вдалося налаштувати браузер."
+
+#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:111
 msgid ""
 "No DNS server was obtained through DHCP or manually configured in "
 "NetworkManager."
 msgstr "Жоден DNS-сервер не був отриманий через DHCP або не був налаштований вручну у NetworkManager."
 
-#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:122
-msgid "Failed to setup chroot."
-msgstr "Не вдалося встановити chroot."
-
-#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:128
-msgid "Failed to configure browser."
-msgstr "Не вдалося налаштувати браузер."
-
-#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:133
+#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:117
 msgid "Failed to run browser."
 msgstr "Не вдалося запустити браузер."
 
