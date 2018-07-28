@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: The Tor Project\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-09-13 20:10+0200\n"
-"PO-Revision-Date: 2018-01-31 08:15+0000\n"
+"POT-Creation-Date: 2018-07-24 08:44+0800\n"
+"PO-Revision-Date: 2018-07-28 19:28+0000\n"
 "Last-Translator: Sveinn í Felli <sv1@fellsnet.is>\n"
 "Language-Team: Icelandic (http://www.transifex.com/otf/torproject/language/is/)\n"
 "MIME-Version: 1.0\n"
@@ -26,7 +26,7 @@ msgstr "Tor er tilbúið"
 msgid "You can now access the Internet."
 msgstr "Þú getur núna tengst við internetið."
 
-#: config/chroot_local-includes/etc/whisperback/config.py:65
+#: config/chroot_local-includes/etc/whisperback/config.py:66
 #, python-format
 msgid ""
 "<h1>Help us fix your bug!</h1>\n"
@@ -43,36 +43,56 @@ msgid ""
 "</p>\n"
 msgstr "<h1>Hjálpaðu okkur að laga villuna þína!</h1>\n<p>Lestu <a href=\"%s\">hvernig tilkynna eigi villur og galla</a>.</p>\n<p><strong>Ekki hafa með meira af persónulegum\nupplýsingum en þarf!</strong></p>\n<h2>Að gefa okkur tölvupóstfang</h2>\n<p>\nEf þú gefur okkur upp tölvupóstfang getum við haft samband til að útskýra stöðu mála.\nÞetta á við mikinn meirihluta villuskýrslna sem okkur berast, því annars eru skýrslur án\nupplýsinga um sendanda nokkuð gagnslitlar. Séu slíkar upplýsingar gefnar, verður aftur\ntil tækifæri fyrir þá sem eru að njósna, eins og til dæmis netþjónustuna þína, að staðfesta\nað þú sért að nota Tails.\n</p>\n"
 
-#: config/chroot_local-includes/usr/local/bin/electrum:17
+#: config/chroot_local-includes/usr/local/bin/electrum:57
 msgid "Persistence is disabled for Electrum"
 msgstr "Varanleg geymsla gagna er óvirk í Electrum"
 
-#: config/chroot_local-includes/usr/local/bin/electrum:19
+#: config/chroot_local-includes/usr/local/bin/electrum:59
 msgid ""
 "When you reboot Tails, all of Electrum's data will be lost, including your "
 "Bitcoin wallet. It is strongly recommended to only run Electrum when its "
 "persistence feature is activated."
-msgstr "Þegar þú endurræsir Tails, tapast öll g0gn í Electrum, þar með talið Bitcoin-veskið. Sterklega er mælt með því að keyra Electrum einungis þegar varanleg gagnageymsla er virk."
+msgstr "Þegar þú endurræsir Tails, tapast öll gögn í Electrum, þar með talið Bitcoin-veskið. Sterklega er mælt með því að keyra Electrum einungis þegar varanleg gagnageymsla er virk."
 
-#: config/chroot_local-includes/usr/local/bin/electrum:21
+#: config/chroot_local-includes/usr/local/bin/electrum:60
 msgid "Do you want to start Electrum anyway?"
 msgstr "Viltu samt ræsa Electrum?"
 
-#: config/chroot_local-includes/usr/local/bin/electrum:23
+#: config/chroot_local-includes/usr/local/bin/electrum:63
+#: config/chroot_local-includes/usr/local/bin/liferea:33
 #: config/chroot_local-includes/usr/local/sbin/unsafe-browser:41
 msgid "_Launch"
 msgstr "_Ræsa"
 
-#: config/chroot_local-includes/usr/local/bin/electrum:24
+#: config/chroot_local-includes/usr/local/bin/electrum:64
+#: config/chroot_local-includes/usr/local/bin/liferea:32
 #: config/chroot_local-includes/usr/local/sbin/unsafe-browser:42
 msgid "_Exit"
 msgstr "_Hætta"
 
-#: config/chroot_local-includes/usr/share/gnome-shell/extensions/shutdown-helper@tails.boum.org/extension.js:71
+#: config/chroot_local-includes/usr/local/bin/liferea:18
+msgid "Liferea is deprecated"
+msgstr "Liferea hugbúnaðurinn er úreltur"
+
+#: config/chroot_local-includes/usr/local/bin/liferea:19
+msgid "Do you wish to start Liferea anyway?"
+msgstr "Viltu samt ræsa Liferea?"
+
+#: config/chroot_local-includes/usr/local/bin/liferea:21
+msgid ""
+"Due to security concerns the Liferea feed reader will be removed from Tails "
+"by the end of 2018. Please migrate your feeds to Thunderbird."
+msgstr "Vegna öryggistakmarkana verður Liferea fréttastraumalesarinn fjarlægður úr Tails í árslok 2018. Endilega yfirfærðu fréttastreymin þín yfir í Thunderbird."
+
+#: config/chroot_local-includes/usr/share/gnome-shell/extensions/status-menu-helper@tails.boum.org/extension.js:75
 msgid "Restart"
 msgstr "Endurræsa"
 
-#: config/chroot_local-includes/usr/share/gnome-shell/extensions/shutdown-helper@tails.boum.org/extension.js:74
+#: config/chroot_local-includes/usr/share/gnome-shell/extensions/status-menu-helper@tails.boum.org/extension.js:78
+msgid "Lock screen"
+msgstr "Læsa skjá"
+
+#: config/chroot_local-includes/usr/share/gnome-shell/extensions/status-menu-helper@tails.boum.org/extension.js:81
 msgid "Power Off"
 msgstr "Slökkva"
 
@@ -101,23 +121,50 @@ msgstr "Byggingarupplýsingar:\n%s"
 msgid "not available"
 msgstr "ekki tiltækt"
 
-#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:147
-#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:162
-#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:166
-msgid "Your additional software"
-msgstr "Viðbótarhugbúnaðurinn þinn"
+#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:170
+msgid "Your additional software installation failed"
+msgstr "Uppsetning á viðbótarhugbúnaðnum þínum mistókst"
 
-#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:148
-#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:167
+#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:171
+msgid ""
+"The installation failed. Please check your additional software "
+"configuration, or read the system log to understand better the problem."
+msgstr "Uppsetningin mistókst. Það gæti verið vegna vandamála í nettengingu. Athugaðu netið, reyndu að endurræsa Tails, eða lestu kerfisannálana svo þú getir skilið betur hvað er í gangi."
+
+#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:177
+msgid "Your additional software are installed"
+msgstr "Viðbótarhugbúnaðurinn þinn er uppsettur"
+
+#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:178
+msgid "Your additional software are ready to use."
+msgstr "Viðbótarhugbúnaðurinn þinn er tilbúinn til notkunar."
+
+#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:194
+#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:204
+msgid "Your additional software upgrade failed"
+msgstr "Uppfærsla á viðbótarhugbúnaðnum þínum mistókst"
+
+#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:195
+msgid ""
+"The check for upgrades failed. This might be due to a network problem. "
+"Please check your network connection, try to restart Tails, or read the "
+"system log to understand better the problem."
+msgstr "Athugun með uppfærslu mistókst. Það gæti verið vegna vandamála í nettengingu. Athugaðu netið, reyndu að endurræsa Tails, eða lestu kerfisannálana svo þú getir skilið betur hvað er í gangi."
+
+#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:201
+msgid "Your additional software are up to date"
+msgstr "Viðbótarhugbúnaðurinn þinn er með öllum uppfærslum"
+
+#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:202
+msgid "The upgrade was successful."
+msgstr "Uppfærslan tókst."
+
+#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:205
 msgid ""
 "The upgrade failed. This might be due to a network problem. Please check "
 "your network connection, try to restart Tails, or read the system log to "
 "understand better the problem."
 msgstr "Uppfærslan mistókst. Það gæti verið vegna vandamála í nettengingu. Athugaðu netið, reyndu að endurræsa Tails, eða lestu kerfisannálana svo þú getir skilið betur hvað er í gangi."
-
-#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:163
-msgid "The upgrade was successful."
-msgstr "Uppfærslan tókst."
 
 #: config/chroot_local-includes/usr/local/lib/tails-htp-notify-user:52
 msgid "Synchronizing the system's clock"
@@ -164,19 +211,34 @@ msgid ""
 "You might prefer to restart Tails and disable MAC spoofing."
 msgstr "Dulbúningur MAC-vistfangs mistókst fyrir netkortið ${nic_name} (${nic}). Viðgerð villunnar mistókst einnig, þannig að öll netvinnsla er tímabundið óvirk.\nÞú gætir viljað endurræsa Tails og gera dulbúning MAC-vistfangs óvirkan."
 
-#: config/chroot_local-includes/usr/local/bin/tails-upgrade-frontend-wrapper:24
-#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:27
-msgid "error:"
-msgstr "villa:"
+#: config/chroot_local-includes/usr/local/bin/tails-screen-locker:109
+msgid "Lock Screen"
+msgstr "Læsa skjá"
 
-#: config/chroot_local-includes/usr/local/bin/tails-upgrade-frontend-wrapper:25
-#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:28
-msgid "Error"
-msgstr "Villa"
+#: config/chroot_local-includes/usr/local/bin/tails-screen-locker:118
+#: config/chroot_local-includes/usr/local/bin/tor-browser:46
+msgid "Cancel"
+msgstr "Hætta við"
 
-#: config/chroot_local-includes/usr/local/bin/tails-upgrade-frontend-wrapper:45
+#: config/chroot_local-includes/usr/local/bin/tails-screen-locker:124
+msgid "Screen Locker"
+msgstr "Skjálæsing"
+
+#: config/chroot_local-includes/usr/local/bin/tails-screen-locker:130
+msgid "Set up a password to unlock the screen."
+msgstr "Settu upp lykilorð til að aflæsa skjánum."
+
+#: config/chroot_local-includes/usr/local/bin/tails-screen-locker:135
+msgid "Password"
+msgstr "Lykilorð"
+
+#: config/chroot_local-includes/usr/local/bin/tails-screen-locker:141
+msgid "Confirm"
+msgstr "Staðfesta"
+
+#: config/chroot_local-includes/usr/local/bin/tails-upgrade-frontend-wrapper:35
 msgid ""
-"<b>Not enough memory available to check for upgrades.</b>\n"
+"\"<b>Not enough memory available to check for upgrades.</b>\n"
 "\n"
 "Make sure this system satisfies the requirements for running Tails.\n"
 "See file:///usr/share/doc/tails/website/doc/about/requirements.en.html\n"
@@ -184,8 +246,18 @@ msgid ""
 "Try to restart Tails to check for upgrades again.\n"
 "\n"
 "Or do a manual upgrade.\n"
-"See https://tails.boum.org/doc/first_steps/upgrade#manual"
-msgstr "<b>Ekki er nægt minni eftir til að athuga með uppfærslur.</b>\n\nGakktu úr skugga um að þetta kerfi uppfylli kröfur til að keyra Tails.\nSkoðaðu file:///usr/share/doc/tails/website/doc/about/requirements.en.html\n\nReyndu að endurræsa Tails til að athuga aftur með uppfærslur.\n\nEða uppfærðu handvirkt.\nSkoðaðu https://tails.boum.org/doc/first_steps/upgrade#manual"
+"See https://tails.boum.org/doc/first_steps/upgrade#manual\""
+msgstr "\"<b>Ekki er nægt minni eftir til að athuga með uppfærslur.</b>\n\nGakktu úr skugga um að þetta kerfi uppfylli kröfur til að keyra Tails.\nSkoðaðu file:///usr/share/doc/tails/website/doc/about/requirements.en.html\n\nReyndu að endurræsa Tails til að athuga aftur með uppfærslur.\n\nEða uppfærðu handvirkt.\nSkoðaðu https://tails.boum.org/doc/first_steps/upgrade#manual\""
+
+#: config/chroot_local-includes/usr/local/bin/tails-upgrade-frontend-wrapper:72
+#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:27
+msgid "error:"
+msgstr "villa:"
+
+#: config/chroot_local-includes/usr/local/bin/tails-upgrade-frontend-wrapper:73
+#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:28
+msgid "Error"
+msgstr "Villa"
 
 #: config/chroot_local-includes/usr/local/lib/tails-virt-notify-user:71
 msgid "Warning: virtual machine detected!"
@@ -224,10 +296,6 @@ msgstr "Tor er ekki tilbúið. Ræsa samt Tor-vafrann?"
 #: config/chroot_local-includes/usr/local/bin/tor-browser:45
 msgid "Start Tor Browser"
 msgstr "Ræsa Tor-vafrann"
-
-#: config/chroot_local-includes/usr/local/bin/tor-browser:46
-msgid "Cancel"
-msgstr "Hætta við"
 
 #: config/chroot_local-includes/usr/local/sbin/unsafe-browser:38
 msgid "Do you really want to launch the Unsafe Browser?"
@@ -273,27 +341,21 @@ msgid ""
 "retry in a while."
 msgstr "Annað tilvik af óörugga netvafranum er í gangi eða er verið að hreinsa upp eftir slíkt. Prófaðu aftur eftir smá stund."
 
-#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:104
-msgid ""
-"NetworkManager passed us garbage data when trying to deduce the clearnet DNS"
-" server."
-msgstr "NetworkManager netstýringin gaf okkur ruslgögn til baka þegar reynt var að greina DNS-þjóninn á ódulritaða netinu."
+#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:100
+msgid "Failed to setup chroot."
+msgstr "Mistókst að setja upp chroot."
 
-#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:114
+#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:105
+msgid "Failed to configure browser."
+msgstr "Mistókst að stilla vafra."
+
+#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:111
 msgid ""
 "No DNS server was obtained through DHCP or manually configured in "
 "NetworkManager."
 msgstr "Enginn DNS-nafnaþjónn fékkst í gegnum DHCP eða var skilgreindur í Netkerfisstjóranum."
 
-#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:122
-msgid "Failed to setup chroot."
-msgstr "Mistókst að setja upp chroot."
-
-#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:128
-msgid "Failed to configure browser."
-msgstr "Mistókst að stilla vafra."
-
-#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:133
+#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:117
 msgid "Failed to run browser."
 msgstr "Mistókst að ræsa vafra."
 
