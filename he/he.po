@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-03-01 20:26+0100\n"
+"POT-Creation-Date: 2018-06-25 09:49+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: GenghisKhan <genghiskhan@gmx.ca>, 2016\n"
 "Language-Team: Hebrew (https://www.transifex.com/otf/teams/1519/he/)\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: he\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=4; plural=(n == 1 && n % 1 == 0) ? 0 : (n == 2 && n % 1 == 0) ? 1: (n % 10 == 0 && n % 1 == 0 && n > 10) ? 2 : 3;\n"
 
 #: ../data/greeter.ui.h:1
 msgid "Administration Password"
@@ -97,7 +97,7 @@ msgstr "אינו יכול לבטל נעילת אחסון מוצפן עם ביט�
 msgid ""
 "You will configure the Tor bridge and local proxy later on after connecting "
 "to a network."
-msgstr "תגדיר את גשר ה-Tor ואת ייפוי-הכוח מאוחר יותר לאחר התחברות אל רשת."
+msgstr "תגדיר את גשר ה-Tor ואת ייפוי־הכוח מאוחר יותר לאחר התחברות אל רשת."
 
 #: ../data/greeter.ui.h:19
 msgid "Welcome to Tails!"
@@ -189,8 +189,8 @@ msgid ""
 "configure a Tor bridge or a local proxy. To work completely offline, you can"
 " disable all networking."
 msgstr ""
-"אם חיבור האינטרנט שלך מצונזר, מסונן או עובר דרך ייפוי-כוח, אתה יכול להגדיר "
-"גשר Tor או ייפוי-כוח מקומי. כדי לעבוד באופן מקוון לחלוטין, אתה יכול להשבית "
+"אם חיבור האינטרנט שלך מצונזר, מסונן או עובר דרך ייפוי־כוח, אתה יכול להגדיר "
+"גשר Tor או ייפוי־כוח מקומי. כדי לעבוד באופן מקוון לחלוטין, אתה יכול להשבית "
 "את כל הרישות."
 
 #: ../data/greeter.ui.h:41
@@ -199,7 +199,7 @@ msgstr "התחבר ישירות אל רשת Tor (ברירת מחדל)"
 
 #: ../data/greeter.ui.h:42
 msgid "Configure a Tor bridge or local proxy"
-msgstr "הגדר גשר Tor או ייפוי-כוח מקומי"
+msgstr "הגדר גשר Tor או ייפוי־כוח מקומי"
 
 #: ../data/greeter.ui.h:43
 msgid "Disable all networking"
@@ -243,7 +243,7 @@ msgstr "_הסוואת Windows"
 
 #: ../tailsgreeter/gui.py:391
 msgid "Bridge & Proxy"
-msgstr "גשר וייפוי-כוח"
+msgstr "גשר וייפוי־כוח"
 
 #: ../tailsgreeter/gui.py:397
 msgid "Offline"
@@ -287,7 +287,7 @@ msgstr "_התחל את Tails"
 msgid "default:LTR"
 msgstr "default:LTR"
 
-#: ../tailsgreeter/persistence.py:89
+#: ../tailsgreeter/persistence.py:91
 #, python-brace-format
 msgid ""
 "live-persist failed with return code {returncode}:\n"
@@ -296,7 +296,7 @@ msgstr ""
 "live-persist נכשל עם חזרה {returncode}:\n"
 "{stderr}"
 
-#: ../tailsgreeter/persistence.py:122 ../tailsgreeter/persistence.py:139
+#: ../tailsgreeter/persistence.py:124 ../tailsgreeter/persistence.py:141
 #, python-brace-format
 msgid ""
 "cryptsetup failed with return code {returncode}:\n"
@@ -307,7 +307,7 @@ msgstr ""
 "{stdout}\n"
 "{stderr}"
 
-#: ../tailsgreeter/persistence.py:156
+#: ../tailsgreeter/persistence.py:158
 #, python-brace-format
 msgid ""
 "live-persist failed with return code {returncode}:\n"
@@ -318,7 +318,7 @@ msgstr ""
 "{stdout}\n"
 "{stderr}"
 
-#: ../tailsgreeter/persistence.py:170
+#: ../tailsgreeter/persistence.py:172
 #, python-brace-format
 msgid ""
 "umount failed with return code {returncode}:\n"
