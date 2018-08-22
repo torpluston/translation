@@ -8,9 +8,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-01-22 14:15+0100\n"
+"POT-Creation-Date: 2018-08-16 11:00+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Joaquín Serna, 2017\n"
+"Last-Translator: Zuhualime Akoochimoya, 2018\n"
 "Language-Team: Spanish (Argentina) (https://www.transifex.com/otf/teams/1519/es_AR/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -102,6 +102,8 @@ msgid ""
 "You will configure the Tor bridge and local proxy later on after connecting "
 "to a network."
 msgstr ""
+"Vas a configurar el puente Tor y el proxy local luego, después de conectar a"
+" una red."
 
 #: ../data/greeter.ui.h:19
 msgid "Welcome to Tails!"
@@ -113,6 +115,8 @@ msgctxt ""
 msgid ""
 "To get guided through Tails' settings, click on <b>Take a Tour</b> above"
 msgstr ""
+"Para ser guiado a través de los ajustes de Tails, cliqueá arriba en <b>Tomar"
+" un tour</b>"
 
 #: ../data/greeter.ui.h:22
 msgid "Language & Region"
@@ -132,7 +136,7 @@ msgstr "_Idioma"
 
 #: ../data/greeter.ui.h:26
 msgid "_Keyboard Layout"
-msgstr ""
+msgstr "Distribución de _Teclado"
 
 #: ../data/greeter.ui.h:27
 msgid "_Formats"
@@ -144,7 +148,7 @@ msgstr "_Zona Horaria"
 
 #: ../data/greeter.ui.h:29
 msgid "Encrypted _Persistent Storage"
-msgstr ""
+msgstr "Almacenamiento encriptado _Persistente"
 
 #: ../data/greeter.ui.h:30
 msgid "Show Passphrase"
@@ -165,7 +169,7 @@ msgstr "Desbloquear"
 
 #: ../data/greeter.ui.h:34
 msgid "Relock Persistent Storage"
-msgstr ""
+msgstr "Volver a cerrar almacenamiento persistente"
 
 #: ../data/greeter.ui.h:35
 msgid "Your persistent storage is unlocked. Restart Tails to lock it again."
@@ -175,7 +179,7 @@ msgstr ""
 
 #: ../data/greeter.ui.h:36
 msgid "_Additional Settings"
-msgstr ""
+msgstr "Ajustes _Adicionales"
 
 #: ../data/greeter.ui.h:37
 msgid "Save Additional Settings"
@@ -195,6 +199,9 @@ msgid ""
 "configure a Tor bridge or a local proxy. To work completely offline, you can"
 " disable all networking."
 msgstr ""
+"Si tu conexión de Internet está censurada, filtrada, o a través de un proxy,"
+" podés configurar un puente Tor o un proxy local. Para trabajar "
+"completamente fuera de línea, podés deshabilitar todas las funciones de red."
 
 #: ../data/greeter.ui.h:41
 msgid "Connect directly to the Tor network (default)"
@@ -202,7 +209,7 @@ msgstr "Conectar directamente a la red Tor (default)"
 
 #: ../data/greeter.ui.h:42
 msgid "Configure a Tor bridge or local proxy"
-msgstr ""
+msgstr "Configurar un puente Tor o proxy local"
 
 #: ../data/greeter.ui.h:43
 msgid "Disable all networking"
@@ -213,10 +220,12 @@ msgid ""
 "The default settings are safe in most situations. To add a custom setting, "
 "press the \"+\" button below."
 msgstr ""
+"Los ajustes por defecto son seguros en la mayoría de las situaciones. Para "
+"añadir un ajuste personalizado, presioná el botón \"+\" que está abajo."
 
 #: ../data/greeter.ui.h:45
 msgid "_Administration Password"
-msgstr ""
+msgstr "_Clave de Administración"
 
 #: ../data/greeter.ui.h:46
 msgid "Off (default)"
@@ -224,7 +233,7 @@ msgstr "Apagado (default)"
 
 #: ../data/greeter.ui.h:47
 msgid "_MAC Address Spoofing"
-msgstr ""
+msgstr "Adulteración de dirección _MAC"
 
 #: ../data/greeter.ui.h:48
 msgid "On (default)"
@@ -232,7 +241,7 @@ msgstr "Prendido (default)"
 
 #: ../data/greeter.ui.h:49
 msgid "_Network Connection"
-msgstr ""
+msgstr "Conexión de _Red"
 
 #: ../data/greeter.ui.h:50 ../tailsgreeter/gui.py:385
 msgid "Direct (default)"
@@ -240,19 +249,19 @@ msgstr "Directo (default)"
 
 #: ../data/greeter.ui.h:51
 msgid "_Windows Camouflage"
-msgstr ""
+msgstr "Camuflaje de _Windows"
 
 #: ../tailsgreeter/gui.py:391
 msgid "Bridge & Proxy"
-msgstr ""
+msgstr "Puente y Proxy"
 
 #: ../tailsgreeter/gui.py:397
 msgid "Offline"
-msgstr ""
+msgstr "Fuera de línea"
 
 #: ../tailsgreeter/gui.py:481
 msgid "Failed to relock persistent storage."
-msgstr ""
+msgstr "Fallo en volver a cerrar almacenamiento persistente"
 
 #: ../tailsgreeter/gui.py:499
 msgid "Unlocking…"
@@ -280,41 +289,52 @@ msgstr "Apagar"
 
 #: ../tailsgreeter/gui.py:735
 msgid "_Start Tails"
-msgstr ""
+msgstr "_Iniciar Tails"
 
 #. Translators: please do not translate this string (it is read from
 #. Gtk translation)
 #: ../tailsgreeter/language.py:136
 msgid "default:LTR"
-msgstr ""
+msgstr "default:LTR"
 
-#: ../tailsgreeter/persistence.py:89
+#: ../tailsgreeter/persistence.py:91
 #, python-brace-format
 msgid ""
 "live-persist failed with return code {returncode}:\n"
 "{stderr}"
 msgstr ""
+"live-persist falló con código de retorno {returncode}:\n"
+"{stderr}"
 
-#: ../tailsgreeter/persistence.py:122 ../tailsgreeter/persistence.py:139
+#: ../tailsgreeter/persistence.py:124 ../tailsgreeter/persistence.py:141
 #, python-brace-format
 msgid ""
 "cryptsetup failed with return code {returncode}:\n"
 "{stdout}\n"
 "{stderr}"
 msgstr ""
+"cryptsetup falló con código de retorno {returncode}:\n"
+"{stdout}\n"
+"{stderr}"
 
-#: ../tailsgreeter/persistence.py:156
+#: ../tailsgreeter/persistence.py:158
 #, python-brace-format
 msgid ""
 "live-persist failed with return code {returncode}:\n"
 "{stdout}\n"
 "{stderr}"
 msgstr ""
+"live-persist falló con código de retorno {returncode}:\n"
+"{stdout}\n"
+"{stderr}"
 
-#: ../tailsgreeter/persistence.py:170
+#: ../tailsgreeter/persistence.py:172
 #, python-brace-format
 msgid ""
 "umount failed with return code {returncode}:\n"
 "{stdout}\n"
 "{stderr}"
 msgstr ""
+"umount falló con código de retorno {returncode}:\n"
+"{stdout}\n"
+"{stderr}"
