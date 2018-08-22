@@ -18,8 +18,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: The Tor Project\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-07-24 08:44+0800\n"
-"PO-Revision-Date: 2018-07-24 03:04+0000\n"
+"POT-Creation-Date: 2018-08-16 07:57+0200\n"
+"PO-Revision-Date: 2018-08-16 14:42+0000\n"
 "Last-Translator: carolyn <carolyn@anhalt.org>\n"
 "Language-Team: Ukrainian (http://www.transifex.com/otf/torproject/language/uk/)\n"
 "MIME-Version: 1.0\n"
@@ -36,7 +36,7 @@ msgstr "Tor готовий"
 msgid "You can now access the Internet."
 msgstr "Тепер Ви можете отримати доступ до Інтернет."
 
-#: config/chroot_local-includes/etc/whisperback/config.py:66
+#: config/chroot_local-includes/etc/whisperback/config.py:69
 #, python-format
 msgid ""
 "<h1>Help us fix your bug!</h1>\n"
@@ -52,6 +52,29 @@ msgid ""
 "confirm that you are using Tails.\n"
 "</p>\n"
 msgstr "<h1> Допоможіть нам виправити нашу помилку! </h1>\n<p> Прочитайте <a href=\"%s\"> наші інструкції, як повідомляти про помилки </a>.</p>\n<p><strong> Не повідомляйте більше особистої інформації, ніж необхідно! </strong></p>\n<h2> Про надання нам адреси електронної пошти </h2>\n<p>\nНадання нам адреси електронної пошти дозволяє нам зв'язатися з Вами для уточнення проблеми. Це\nнеобхідно в переважній більшості випадків, коли ми отримуємо повідомлення про помилки,\n оскільки більшість повідомлень без контактної інформації марні. З іншого боку, це також дає можливість засобам перехоплення\n та збору інформації, наприклад, провайдеру Вашої електронної пошти або Інтернет-провайдеру, встановити,\n що Ви використовуєте Tails.\n</p>\n"
+
+#: config/chroot_local-includes/usr/share/tails/additional-software/configuration-window.ui:51
+msgid ""
+"You can install additional software automatically from your persistent "
+"storage when starting Tails."
+msgstr ""
+
+#: config/chroot_local-includes/usr/share/tails/additional-software/configuration-window.ui:77
+msgid ""
+"The following software is installed automatically from your persistent "
+"storage when starting Tails."
+msgstr ""
+
+#: config/chroot_local-includes/usr/share/tails/additional-software/configuration-window.ui:132
+msgid ""
+"To add more, install some software using <a "
+"href=\"synaptic.desktop\">Synaptic Package Manager</a> or <a "
+"href=\"org.gnome.Terminal.desktop\">APT on the command line</a>."
+msgstr ""
+
+#: config/chroot_local-includes/usr/share/tails/additional-software/configuration-window.ui:151
+msgid "_Create persistent storage"
+msgstr ""
 
 #: config/chroot_local-includes/usr/local/bin/electrum:57
 msgid "Persistence is disabled for Electrum"
@@ -131,50 +154,167 @@ msgstr "Інформація про зборку:\n%s"
 msgid "not available"
 msgstr "недоступно"
 
-#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:170
-msgid "Your additional software installation failed"
-msgstr "Ваше додаткове встановлення не вдалося"
-
-#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:171
+#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:142
+#, python-brace-format
 msgid ""
-"The installation failed. Please check your additional software "
-"configuration, or read the system log to understand better the problem."
-msgstr "Встановлення не вдалося. Перевірте додаткову конфігурацію програмного забезпечення або прочитайте системний журнал, щоб краще зрозуміти проблему."
+"{details} Please check your list of additional software or read the system "
+"log to understand the problem."
+msgstr ""
 
-#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:177
-msgid "Your additional software are installed"
-msgstr "Ваше додаткове програмне забезпечення встановлено"
-
-#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:178
-msgid "Your additional software are ready to use."
-msgstr "Ваше додаткове програмне забезпечення готове до використання."
-
-#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:194
-#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:204
-msgid "Your additional software upgrade failed"
-msgstr "Ваше оновлення додаткового програмного забезпечення не вдалося"
-
-#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:195
+#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:147
 msgid ""
-"The check for upgrades failed. This might be due to a network problem. "
-"Please check your network connection, try to restart Tails, or read the "
-"system log to understand better the problem."
-msgstr "Не вдалося перевірити наявність оновлень. Це може бути пов'язано з мережевою проблемою. Будь ласка, перевірте підключення до мережі, спробуйте перезапустити Tails або прочитайте системний журнал, щоб краще зрозуміти проблему."
+"Please check your list of additional software or read the system log to "
+"understand the problem."
+msgstr ""
 
-#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:201
-msgid "Your additional software are up to date"
-msgstr "Ваше додаткове програмне забезпечення оновлено"
+#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:151
+msgid "Show Log"
+msgstr ""
 
-#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:202
-msgid "The upgrade was successful."
-msgstr "Оновлення пройшло успішно."
+#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:151
+msgid "Configure"
+msgstr "Налаштування"
 
-#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:205
+#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:215
+#, python-brace-format
+msgid "{beginning} and {last}"
+msgstr ""
+
+#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:216
+msgid ", "
+msgstr ""
+
+#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:280
+#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:308
+#, python-brace-format
+msgid "Add {packages} to your additional software?"
+msgstr ""
+
+#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:282
 msgid ""
-"The upgrade failed. This might be due to a network problem. Please check "
-"your network connection, try to restart Tails, or read the system log to "
-"understand better the problem."
-msgstr "Оновлення не вдалося. Це може бути через проблеми з мережею. Будь ласка, перевірте підключення до мережі, спробуйте перезавантажити Tails, або прочитайте логи, щоб краще зрозуміти проблему."
+"To install it automatically from your persistent storage when starting "
+"Tails."
+msgstr ""
+
+#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:284
+msgid "Install Every Time"
+msgstr ""
+
+#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:285
+#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:314
+msgid "Install Only Once"
+msgstr ""
+
+#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:291
+#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:319
+#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:354
+msgid "The configuration of your additional software failed."
+msgstr ""
+
+#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:310
+msgid ""
+"To install it automatically when starting Tails, you can create a persistent"
+" storage and activate the <b>Additional Software</b> feature."
+msgstr ""
+
+#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:313
+msgid "Create Persistent Storage"
+msgstr ""
+
+#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:321
+msgid "Creating your persistent storage failed."
+msgstr ""
+
+#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:328
+#, python-brace-format
+msgid "You could install {packages} automatically when starting Tails"
+msgstr ""
+
+#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:331
+msgid ""
+"To do so, you need to run Tails from a USB stick installed using <i>Tails "
+"Installer</i>."
+msgstr ""
+
+#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:344
+#, python-brace-format
+msgid "Remove {packages} from your additional software?"
+msgstr ""
+
+#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:346
+#, python-brace-format
+msgid "This will stop installing {packages} automatically."
+msgstr ""
+
+#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:348
+msgid "Remove"
+msgstr "Забрати"
+
+#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:349
+#: config/chroot_local-includes/usr/local/bin/tails-screen-locker:118
+#: config/chroot_local-includes/usr/local/bin/tor-browser:46
+msgid "Cancel"
+msgstr "Відмова"
+
+#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:517
+msgid "Installing your additional software from persistent storage..."
+msgstr ""
+
+#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:519
+msgid "This can take several minutes."
+msgstr ""
+
+#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:530
+msgid "The installation of your additional software failed"
+msgstr ""
+
+#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:543
+msgid "Additional software installed successfully"
+msgstr ""
+
+#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:563
+msgid "The check for upgrades of your additional software failed"
+msgstr ""
+
+#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:565
+#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:573
+msgid ""
+"Please check your network connection, restart Tails, or read the system log "
+"to understand the problem."
+msgstr ""
+
+#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:572
+msgid "The upgrade of your additional software failed"
+msgstr ""
+
+#: config/chroot_local-includes/usr/local/lib/tails-additional-software-notify:37
+msgid "Documentation"
+msgstr "Документація"
+
+#: config/chroot_local-includes/usr/local/bin/tails-additional-software-config:94
+#, python-brace-format
+msgid ""
+"Remove {package} from your additional software? This will stop installing "
+"the package automatically."
+msgstr ""
+
+#: config/chroot_local-includes/usr/local/bin/tails-additional-software-config:104
+#, python-brace-format
+msgid "Failed to remove {pkg}"
+msgstr ""
+
+#: config/chroot_local-includes/usr/local/bin/tails-additional-software-config:121
+msgid "Failed to read additional software configuration"
+msgstr ""
+
+#: config/chroot_local-includes/usr/local/bin/tails-additional-software-config:150
+#, python-brace-format
+msgid "Stop installing {package} automatically"
+msgstr ""
+
+#: config/chroot_local-includes/usr/local/bin/tails-additional-software-config:246
+msgid "[package not available]"
+msgstr ""
 
 #: config/chroot_local-includes/usr/local/lib/tails-htp-notify-user:52
 msgid "Synchronizing the system's clock"
@@ -224,11 +364,6 @@ msgstr "Підміна MAC не вдалася для мережевої кар�
 #: config/chroot_local-includes/usr/local/bin/tails-screen-locker:109
 msgid "Lock Screen"
 msgstr "Заблокувати екран"
-
-#: config/chroot_local-includes/usr/local/bin/tails-screen-locker:118
-#: config/chroot_local-includes/usr/local/bin/tor-browser:46
-msgid "Cancel"
-msgstr "Відмова"
 
 #: config/chroot_local-includes/usr/local/bin/tails-screen-locker:124
 msgid "Screen Locker"
@@ -307,6 +442,14 @@ msgstr "Tor не готовий. Запустити Tor у будь-якому �
 msgid "Start Tor Browser"
 msgstr "Запустити Tor Browser"
 
+#: config/chroot_local-includes/usr/share/gnome-shell/extensions/torstatus@tails.boum.org/extension.js:40
+msgid "Tor"
+msgstr "Тор"
+
+#: config/chroot_local-includes/usr/share/gnome-shell/extensions/torstatus@tails.boum.org/extension.js:55
+msgid "Open Onion Circuits"
+msgstr ""
+
 #: config/chroot_local-includes/usr/local/sbin/unsafe-browser:38
 msgid "Do you really want to launch the Unsafe Browser?"
 msgstr "Ви дійсно хочете запустити небезпечний браузер?"
@@ -345,29 +488,139 @@ msgstr "Не вдалося перезапустити Tor."
 msgid "Unsafe Browser"
 msgstr "Ненадійний браузер"
 
-#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:92
+#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:91
 msgid ""
 "Another Unsafe Browser is currently running, or being cleaned up. Please "
 "retry in a while."
 msgstr "Інший Небезпечна Браузер у даний час працює або очищається. Повторіть спробу через деякий час."
 
-#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:100
+#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:99
 msgid "Failed to setup chroot."
 msgstr "Не вдалося встановити chroot."
 
-#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:105
+#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:104
 msgid "Failed to configure browser."
 msgstr "Не вдалося налаштувати браузер."
 
-#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:111
+#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:110
 msgid ""
 "No DNS server was obtained through DHCP or manually configured in "
 "NetworkManager."
 msgstr "Жоден DNS-сервер не був отриманий через DHCP або не був налаштований вручну у NetworkManager."
 
-#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:117
+#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:121
 msgid "Failed to run browser."
 msgstr "Не вдалося запустити браузер."
+
+#: config/chroot_local-includes/usr/local/lib/python3/dist-packages/unlock_veracrypt_volumes/volume.py:56
+#, python-brace-format
+msgid "{volume_label} ({volume_size})"
+msgstr ""
+
+#: config/chroot_local-includes/usr/local/lib/python3/dist-packages/unlock_veracrypt_volumes/volume.py:59
+#, python-brace-format
+msgid "{partition_name} ({partition_size})"
+msgstr ""
+
+#: config/chroot_local-includes/usr/local/lib/python3/dist-packages/unlock_veracrypt_volumes/volume.py:62
+#, python-brace-format
+msgid "{volume_size} Volume"
+msgstr ""
+
+#. Translators: Don't translate {volume_name}, it's a placeholder and
+#. will be replaced.
+#: config/chroot_local-includes/usr/local/lib/python3/dist-packages/unlock_veracrypt_volumes/volume.py:101
+#, python-brace-format
+msgid "{volume_name} (Read-Only)"
+msgstr ""
+
+#. Translators: Don't translate {partition_name} and {container_path}, they
+#. are placeholders and will be replaced.
+#: config/chroot_local-includes/usr/local/lib/python3/dist-packages/unlock_veracrypt_volumes/volume.py:109
+#, python-brace-format
+msgid "{partition_name} in {container_path}"
+msgstr ""
+
+#. Translators: Don't translate {volume_name} and {path_to_file_container},
+#. they are placeholders and will be replaced. You should only have to
+#. translate
+#. this string if it makes sense to reverse the order of the placeholders.
+#: config/chroot_local-includes/usr/local/lib/python3/dist-packages/unlock_veracrypt_volumes/volume.py:116
+#, python-brace-format
+msgid "{volume_name} – {path_to_file_container}"
+msgstr ""
+
+#. Translators: Don't translate {partition_name} and {drive_name}, they
+#. are placeholders and will be replaced.
+#: config/chroot_local-includes/usr/local/lib/python3/dist-packages/unlock_veracrypt_volumes/volume.py:122
+#, python-brace-format
+msgid "{partition_name} on {drive_name}"
+msgstr ""
+
+#. Translators: Don't translate {volume_name} and {drive_name},
+#. they are placeholders and will be replaced. You should only have to
+#. translate
+#. this string if it makes sense to reverse the order of the placeholders.
+#: config/chroot_local-includes/usr/local/lib/python3/dist-packages/unlock_veracrypt_volumes/volume.py:129
+#, python-brace-format
+msgid "{volume_name} – {drive_name}"
+msgstr ""
+
+#: config/chroot_local-includes/usr/local/lib/python3/dist-packages/unlock_veracrypt_volumes/volume_list.py:83
+msgid "No file containers added"
+msgstr ""
+
+#: config/chroot_local-includes/usr/local/lib/python3/dist-packages/unlock_veracrypt_volumes/volume_list.py:98
+msgid "No VeraCrypt devices detected"
+msgstr ""
+
+#: config/chroot_local-includes/usr/local/lib/python3/dist-packages/unlock_veracrypt_volumes/volume_manager.py:114
+msgid "Container already added"
+msgstr ""
+
+#: config/chroot_local-includes/usr/local/lib/python3/dist-packages/unlock_veracrypt_volumes/volume_manager.py:115
+#, python-format
+msgid "The file container %s should already be listed."
+msgstr ""
+
+#: config/chroot_local-includes/usr/local/lib/python3/dist-packages/unlock_veracrypt_volumes/volume_manager.py:131
+msgid "Container opened read-only"
+msgstr ""
+
+#: config/chroot_local-includes/usr/local/lib/python3/dist-packages/unlock_veracrypt_volumes/volume_manager.py:132
+#, python-brace-format
+msgid ""
+"The file container {path} could not be opened with write access. It was opened read-only instead. You will not be able to modify the content of the container.\n"
+"{error_message}"
+msgstr ""
+
+#: config/chroot_local-includes/usr/local/lib/python3/dist-packages/unlock_veracrypt_volumes/volume_manager.py:137
+msgid "Error opening file"
+msgstr ""
+
+#: config/chroot_local-includes/usr/local/lib/python3/dist-packages/unlock_veracrypt_volumes/volume_manager.py:159
+msgid "Not a VeraCrypt container"
+msgstr ""
+
+#: config/chroot_local-includes/usr/local/lib/python3/dist-packages/unlock_veracrypt_volumes/volume_manager.py:160
+#, python-format
+msgid "The file %s does not seem to be a VeraCrypt container."
+msgstr ""
+
+#: config/chroot_local-includes/usr/local/lib/python3/dist-packages/unlock_veracrypt_volumes/volume_manager.py:162
+msgid "Failed to add container"
+msgstr ""
+
+#: config/chroot_local-includes/usr/local/lib/python3/dist-packages/unlock_veracrypt_volumes/volume_manager.py:163
+#, python-format
+msgid ""
+"Could not add file container %s: Timeout while waiting for loop setup.Please"
+" try using the <i>Disks</i> application instead."
+msgstr ""
+
+#: config/chroot_local-includes/usr/local/lib/python3/dist-packages/unlock_veracrypt_volumes/volume_manager.py:208
+msgid "Choose File Container"
+msgstr ""
 
 #: ../config/chroot_local-includes/etc/skel/Desktop/Report_an_error.desktop.in.h:1
 msgid "Report an error"
@@ -402,6 +655,24 @@ msgstr "Перегляд всесвітньої павутини без анон
 msgid "Unsafe Web Browser"
 msgstr "Ненадійний веб-браузер"
 
+#: ../config/chroot_local-includes/usr/share/applications/unlock-veracrypt-volumes.desktop.in.h:1
+msgid "Unlock VeraCrypt Volumes"
+msgstr ""
+
+#: ../config/chroot_local-includes/usr/share/applications/unlock-veracrypt-volumes.desktop.in.h:2
+msgid "Mount VeraCrypt encrypted file containers and devices"
+msgstr ""
+
+#: ../config/chroot_local-includes/usr/share/applications/org.boum.tails.additional-software-config.desktop.in.h:1
+msgid "Additional Software"
+msgstr ""
+
+#: ../config/chroot_local-includes/usr/share/applications/org.boum.tails.additional-software-config.desktop.in.h:2
+msgid ""
+"Configure the additional software installed from your persistent storage "
+"when starting Tails"
+msgstr ""
+
 #: ../config/chroot_local-includes/usr/share/desktop-directories/Tails.directory.in.h:2
 msgid "Tails specific tools"
 msgstr "Спеціальні інструменти Tails"
@@ -409,3 +680,31 @@ msgstr "Спеціальні інструменти Tails"
 #: ../config/chroot_local-includes/usr/share/polkit-1/actions/org.boum.tails.root-terminal.policy.in.h:1
 msgid "To start a Root Terminal, you need to authenticate."
 msgstr "Щоб запустити Кореневий термінал, потрібно автентифікуватися."
+
+#: ../config/chroot_local-includes/usr/share/unlock-veracrypt-volumes/ui/main.ui.in:61
+msgid "File Containers"
+msgstr ""
+
+#: ../config/chroot_local-includes/usr/share/unlock-veracrypt-volumes/ui/main.ui.in:80
+msgid "_Add"
+msgstr ""
+
+#: ../config/chroot_local-includes/usr/share/unlock-veracrypt-volumes/ui/main.ui.in:86
+msgid "Add a file container"
+msgstr ""
+
+#: ../config/chroot_local-includes/usr/share/unlock-veracrypt-volumes/ui/main.ui.in:103
+msgid "Partitions and Drives"
+msgstr ""
+
+#: ../config/chroot_local-includes/usr/share/unlock-veracrypt-volumes/ui/volume.ui.in:38
+msgid "Lock this volume"
+msgstr ""
+
+#: ../config/chroot_local-includes/usr/share/unlock-veracrypt-volumes/ui/volume.ui.in:61
+msgid "Detach this volume"
+msgstr ""
+
+#: ../config/chroot_local-includes/usr/local/share/mime/packages/unlock-veracrypt-volumes.xml.in.h:1
+msgid "TrueCrypt/VeraCrypt container"
+msgstr ""
