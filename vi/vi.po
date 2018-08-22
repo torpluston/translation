@@ -11,8 +11,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: The Tor Project\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-11-10 15:57+0100\n"
-"PO-Revision-Date: 2017-11-11 03:09+0000\n"
+"POT-Creation-Date: 2018-08-16 11:40+0200\n"
+"PO-Revision-Date: 2018-08-16 14:46+0000\n"
 "Last-Translator: carolyn <carolyn@anhalt.org>\n"
 "Language-Team: Vietnamese (http://www.transifex.com/otf/torproject/language/vi/)\n"
 "MIME-Version: 1.0\n"
@@ -21,257 +21,253 @@ msgstr ""
 "Language: vi\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
-#: ../tails_installer/creator.py:101
+#: ../tails_installer/creator.py:100
 msgid "You must run this application as root"
 msgstr "Bạn phải chạy ứng dụng này với quyền root"
 
-#: ../tails_installer/creator.py:147
+#: ../tails_installer/creator.py:146
 msgid "Extracting live image to the target device..."
 msgstr "Đang trích xuất hình ảnh tới ổ đĩa đích..."
 
-#: ../tails_installer/creator.py:154
+#: ../tails_installer/creator.py:153
 #, python-format
 msgid "Wrote to device at %(speed)d MB/sec"
 msgstr "Đã được viết vào thiết bị ở %(speed)d MB/giây"
 
-#: ../tails_installer/creator.py:184
-msgid "Setting up OLPC boot file..."
-msgstr "Đang cài đặt tập tin khởi động OLPC"
-
-#: ../tails_installer/creator.py:315
+#: ../tails_installer/creator.py:296
 #, python-format
 msgid ""
 "There was a problem executing the following command: `%(command)s`.\n"
 "A more detailed error log has been written to '%(filename)s'."
 msgstr "Có vấn đề xảy ra khi thực thi lệnh dưới đây: `%(command)s`.\nMột nhật ký chi tiết hơn của lỗi đã được ghi vào '%(filename)s'."
 
-#: ../tails_installer/creator.py:334
+#: ../tails_installer/creator.py:315
 msgid "Verifying SHA1 checksum of LiveCD image..."
 msgstr "Đang xác minh SHA1 checksum của hình ảnh LiveCD..."
 
-#: ../tails_installer/creator.py:338
+#: ../tails_installer/creator.py:319
 msgid "Verifying SHA256 checksum of LiveCD image..."
 msgstr "Đang xác minh SHA256 checksum của hình ảnh LiveCD"
 
-#: ../tails_installer/creator.py:354
+#: ../tails_installer/creator.py:335
 msgid ""
 "Error: The SHA1 of your Live CD is invalid.  You can run this program with "
 "the --noverify argument to bypass this verification check."
 msgstr "Lỗi: SHA1 của Live CD không hợp lệ. Bạn có thể chạy chương trình với -noverify argument để bỏ qua việc kiểm tra này."
 
-#: ../tails_installer/creator.py:360
+#: ../tails_installer/creator.py:341
 msgid "Unknown ISO, skipping checksum verification"
 msgstr "ISO không xác định, bỏ qua việc kiểm tra checksum"
 
-#: ../tails_installer/creator.py:371
+#: ../tails_installer/creator.py:353
 #, python-format
 msgid ""
 "Not enough free space on device.\n"
 "%dMB ISO + %dMB overlay > %dMB free space"
 msgstr "Không đủ khoảng trống trên thiết bị\n%dMB ISO + %dMB overlay > %dMB free space"
 
-#: ../tails_installer/creator.py:378
+#: ../tails_installer/creator.py:360
 #, python-format
 msgid "Creating %sMB persistent overlay"
 msgstr "Đang tạo vùng cố định %sMB"
 
-#: ../tails_installer/creator.py:439
+#: ../tails_installer/creator.py:421
 #, python-format
 msgid "Unable to copy %(infile)s to %(outfile)s: %(message)s"
 msgstr "Không thể chép %(infile)s tới %(outfile)s: %(message)s"
 
-#: ../tails_installer/creator.py:453
+#: ../tails_installer/creator.py:435
 msgid "Removing existing Live OS"
 msgstr "Đang loại bỏ Live OS đang tồn tại"
 
-#: ../tails_installer/creator.py:462 ../tails_installer/creator.py:473
+#: ../tails_installer/creator.py:444 ../tails_installer/creator.py:456
 #, python-format
 msgid "Unable to chmod %(file)s: %(message)s"
 msgstr "Không thể chmod %(file)s: %(message)s"
 
-#: ../tails_installer/creator.py:466
+#: ../tails_installer/creator.py:449
 #, python-format
 msgid "Unable to remove file from previous LiveOS: %(message)s"
 msgstr "Không thể gỡ bỏ tập tin từ LiveOS trước: %(message)s"
 
-#: ../tails_installer/creator.py:478
+#: ../tails_installer/creator.py:462
 #, python-format
 msgid "Unable to remove directory from previous LiveOS: %(message)s"
 msgstr "Không thể gỡ bỏ thư mục từ LiveOS trước: %(message)s"
 
-#: ../tails_installer/creator.py:526
+#: ../tails_installer/creator.py:510
 #, python-format
 msgid "Cannot find device %s"
 msgstr "Không thể tìm thấy thiết bị %s"
 
-#: ../tails_installer/creator.py:695
+#: ../tails_installer/creator.py:711
 #, python-format
 msgid "Unable to write on %(device)s, skipping."
 msgstr "Không thể viết lên %(device)s, đang bỏ qua."
 
-#: ../tails_installer/creator.py:719
+#: ../tails_installer/creator.py:741
 #, python-format
 msgid ""
 "Some partitions of the target device %(device)s are mounted. They will be "
 "unmounted before starting the installation process."
 msgstr "Một vài phân vùng của thiết bị %(device)s đã được gắn lên. Chũng sẽ bị gỡ ra trước khi bắt đầu quá trình cài đặt."
 
-#: ../tails_installer/creator.py:762 ../tails_installer/creator.py:974
+#: ../tails_installer/creator.py:784 ../tails_installer/creator.py:1008
 msgid "Unknown filesystem.  Your device may need to be reformatted."
 msgstr "Định dạng không xác định. Thiết bị của bạn có thể cần được định dạng lại."
 
-#: ../tails_installer/creator.py:765 ../tails_installer/creator.py:977
+#: ../tails_installer/creator.py:787 ../tails_installer/creator.py:1011
 #, python-format
 msgid "Unsupported filesystem: %s"
 msgstr "Tập tin hệ thống không được hỗ trợ: %s"
 
-#: ../tails_installer/creator.py:782
+#: ../tails_installer/creator.py:805
 #, python-format
 msgid "Unknown GLib exception while trying to mount device: %(message)s"
 msgstr "Ngoại lệ GLib chưa biết khi kết nối thiết bị: %(message)s"
 
-#: ../tails_installer/creator.py:786
+#: ../tails_installer/creator.py:810
 #, python-format
 msgid "Unable to mount device: %(message)s"
 msgstr "Không thể gắn thiết bị: %(message)s"
 
-#: ../tails_installer/creator.py:791
+#: ../tails_installer/creator.py:815
 msgid "No mount points found"
 msgstr "Không có ổ đĩa được tìm thấy"
 
-#: ../tails_installer/creator.py:802
+#: ../tails_installer/creator.py:826
 #, python-format
 msgid "Entering unmount_device for '%(device)s'"
 msgstr "Đang nhập thiết bị_chưa gắn cho '%(device)s'"
 
-#: ../tails_installer/creator.py:812
+#: ../tails_installer/creator.py:836
 #, python-format
 msgid "Unmounting mounted filesystems on '%(device)s'"
 msgstr "Đang gỡ tập tin hệ thống đã được gắn trên '%(device)s'"
 
-#: ../tails_installer/creator.py:816
+#: ../tails_installer/creator.py:840
 #, python-format
 msgid "Unmounting '%(udi)s' on '%(device)s'"
 msgstr "Đang gỡ '%(udi)s' trên '%(device)s'"
 
-#: ../tails_installer/creator.py:826
+#: ../tails_installer/creator.py:851
 #, python-format
 msgid "Mount %s exists after unmounting"
 msgstr "Việc gắn %s thoát ra sau khi gỡ bỏ"
 
-#: ../tails_installer/creator.py:839
+#: ../tails_installer/creator.py:864
 #, python-format
 msgid "Partitioning device %(device)s"
 msgstr "Đang phân vùng thiết bị %(device)s"
 
-#: ../tails_installer/creator.py:959
+#: ../tails_installer/creator.py:993
 #, python-format
 msgid "Unsupported device '%(device)s', please report a bug."
 msgstr "Thiết bị không được hỗ trợ  '%(device)s', vui lòng báo lỗi."
 
-#: ../tails_installer/creator.py:962
+#: ../tails_installer/creator.py:996
 msgid "Trying to continue anyway."
 msgstr "Cứ tiếp tục."
 
-#: ../tails_installer/creator.py:971 ../tails_installer/creator.py:1364
+#: ../tails_installer/creator.py:1005 ../tails_installer/creator.py:1401
 msgid "Verifying filesystem..."
 msgstr "Đang xác minh tập tin hệ thống..."
 
-#: ../tails_installer/creator.py:995
+#: ../tails_installer/creator.py:1029
 #, python-format
 msgid "Unable to change volume label: %(message)s"
 msgstr "Không thể đổi tên ổ đĩa: %(message)s"
 
-#: ../tails_installer/creator.py:1000 ../tails_installer/creator.py:1397
+#: ../tails_installer/creator.py:1034 ../tails_installer/creator.py:1434
 msgid "Installing bootloader..."
 msgstr "Đang cài đặt chương trình khởi động..."
 
-#: ../tails_installer/creator.py:1026
+#: ../tails_installer/creator.py:1061
 #, python-format
 msgid "Could not find the '%s' COM32 module"
 msgstr "Đã không thể tìm thấy phần '%s' COM32"
 
-#: ../tails_installer/creator.py:1034 ../tails_installer/creator.py:1415
+#: ../tails_installer/creator.py:1069 ../tails_installer/creator.py:1452
 #, python-format
 msgid "Removing %(file)s"
 msgstr "Đang loại bỏ %(file)s"
 
-#: ../tails_installer/creator.py:1146
+#: ../tails_installer/creator.py:1183
 #, python-format
 msgid "%s already bootable"
 msgstr "%s đã có thể khởi động"
 
-#: ../tails_installer/creator.py:1166
+#: ../tails_installer/creator.py:1203
 msgid "Unable to find partition"
 msgstr "Không thể tìm thấy phân vùng"
 
-#: ../tails_installer/creator.py:1189
+#: ../tails_installer/creator.py:1226
 #, python-format
 msgid "Formatting %(device)s as FAT32"
 msgstr "Đang định dạng %(device)s ở dạng FAT32"
 
-#: ../tails_installer/creator.py:1249
+#: ../tails_installer/creator.py:1286
 msgid "Could not find syslinux' gptmbr.bin"
 msgstr "Đã không thể tìm thấy syslinux' gptmbr.bin"
 
-#: ../tails_installer/creator.py:1262
+#: ../tails_installer/creator.py:1299
 #, python-format
 msgid "Reading extracted MBR from %s"
 msgstr "Đọc MBR được giải nén từ %s"
 
-#: ../tails_installer/creator.py:1266
+#: ../tails_installer/creator.py:1303
 #, python-format
 msgid "Could not read the extracted MBR from %(path)s"
 msgstr "Đã không thể đọc MBR được giải nén từ %(path)s"
 
-#: ../tails_installer/creator.py:1279 ../tails_installer/creator.py:1280
+#: ../tails_installer/creator.py:1316 ../tails_installer/creator.py:1317
 #, python-format
 msgid "Resetting Master Boot Record of %s"
 msgstr "Đang thiết lập lại Master Boot Record của %s"
 
-#: ../tails_installer/creator.py:1285
+#: ../tails_installer/creator.py:1322
 msgid "Drive is a loopback, skipping MBR reset"
 msgstr "Ổ đĩa là loopback, bỏ qua việc thiết lập lại MBR"
 
-#: ../tails_installer/creator.py:1289 ../tails_installer/creator.py:1543
+#: ../tails_installer/creator.py:1326 ../tails_installer/creator.py:1580
 #, python-format
 msgid "Calculating the SHA1 of %s"
 msgstr "Đang tính toán SHA của %s"
 
-#: ../tails_installer/creator.py:1314
+#: ../tails_installer/creator.py:1351
 msgid "Synchronizing data on disk..."
 msgstr "Đang đồng bộ hóa dữ liệu trên ổ đĩa..."
 
-#: ../tails_installer/creator.py:1356
+#: ../tails_installer/creator.py:1393
 msgid "Error probing device"
 msgstr "Thiết bị gặp lỗi thăm dò"
 
-#: ../tails_installer/creator.py:1358
+#: ../tails_installer/creator.py:1395
 msgid "Unable to find any supported device"
 msgstr "Không thể tìm thấy bất kỳ thiết bị được hỗ trợ nào"
 
-#: ../tails_installer/creator.py:1368
+#: ../tails_installer/creator.py:1405
 msgid ""
 "Make sure your USB key is plugged in and formatted with the FAT filesystem"
 msgstr "Cần đảm bảo USB của bạn được cắm vào và được format với định dạng FAT."
 
-#: ../tails_installer/creator.py:1371
+#: ../tails_installer/creator.py:1408
 #, python-format
 msgid ""
 "Unsupported filesystem: %s\n"
 "Please backup and format your USB key with the FAT filesystem."
 msgstr "Tập tin hệ thống không được hỗ trợ: %s\nVui lòng sao lưu và định dạng lại USB của bạn với file hệ thống định dạng FAT."
 
-#: ../tails_installer/creator.py:1438
+#: ../tails_installer/creator.py:1475
 msgid ""
 "Unable to get Win32_LogicalDisk; win32com query did not return any results"
 msgstr "Không thể lấy Win32_LogicalDisk; truy vấn win32com không trả bất kỳ kết quả nào"
 
-#: ../tails_installer/creator.py:1491
+#: ../tails_installer/creator.py:1528
 msgid "Cannot find"
 msgstr "Không thể tìm thấy"
 
-#: ../tails_installer/creator.py:1492
+#: ../tails_installer/creator.py:1529
 msgid ""
 "Make sure to extract the entire tails-installer zip file before running this"
 " program."
@@ -287,63 +283,87 @@ msgstr "Phiên bản không xác định: %s"
 msgid "Downloading %s..."
 msgstr "Đang tải xuống %s"
 
-#: ../tails_installer/gui.py:211
+#: ../tails_installer/gui.py:213
 msgid ""
 "Error: Cannot set the label or obtain the UUID of your device.  Unable to "
 "continue."
 msgstr "Lỗi: Không thể gán nhãn hoặc lấy UUID từ thiết bị của bạn. Không thể tiếp tục."
 
-#: ../tails_installer/gui.py:258
+#: ../tails_installer/gui.py:260
 #, python-format
 msgid "Installation complete! (%s)"
 msgstr "Cài đặt hoàn tất! (%s)"
 
-#: ../tails_installer/gui.py:263
+#: ../tails_installer/gui.py:265
 msgid "Tails installation failed!"
 msgstr "Việc cài đặt Tails đã thất bại!"
 
-#: ../tails_installer/gui.py:363
+#: ../tails_installer/gui.py:361
 msgid ""
 "Warning: This tool needs to be run as an Administrator. To do this, right "
 "click on the icon and open the Properties. Under the Compatibility tab, "
 "check the \"Run this program as an administrator\" box."
 msgstr "Cảnh báo: Công cụ này cần phải chạy với quyền quản trị. Để làm được điều này, bấm chuột phải vào biểu tượng và mở Thuộc tính. Ở thẻ Tương thích, chọn hộp \"Chạy chương trình với quyền quản trị\"."
 
-#: ../tails_installer/gui.py:375
+#: ../tails_installer/gui.py:373
 msgid "Tails Installer"
 msgstr "Trình cài đặt Tails"
 
-#: ../tails_installer/gui.py:456
+#: ../tails_installer/gui.py:423 ../data/tails-installer.ui.h:2
+msgid "Clone the current Tails"
+msgstr ""
+
+#: ../tails_installer/gui.py:430 ../data/tails-installer.ui.h:3
+msgid "Use a downloaded Tails ISO image"
+msgstr ""
+
+#: ../tails_installer/gui.py:467
 msgid "Upgrade"
 msgstr "Nâng cấp"
 
-#: ../tails_installer/gui.py:462 ../data/tails-installer.ui.h:7
+#: ../tails_installer/gui.py:469
+msgid "Manual Upgrade Instructions"
+msgstr ""
+
+#: ../tails_installer/gui.py:471
+msgid "https://tails.boum.org/upgrade/"
+msgstr ""
+
+#: ../tails_installer/gui.py:479 ../data/tails-installer.ui.h:7
 msgid "Install"
 msgstr "Cài đặt"
 
-#: ../tails_installer/gui.py:469
+#: ../tails_installer/gui.py:482 ../data/tails-installer.ui.h:1
+msgid "Installation Instructions"
+msgstr ""
+
+#: ../tails_installer/gui.py:484
+msgid "https://tails.boum.org/install/"
+msgstr ""
+
+#: ../tails_installer/gui.py:490
 #, python-format
 msgid "%(size)s %(vendor)s %(model)s device (%(device)s)"
 msgstr "%(size)s %(vendor)s %(model)s thiết bị (%(device)s)"
 
-#: ../tails_installer/gui.py:481
+#: ../tails_installer/gui.py:502
 msgid "No ISO image selected"
 msgstr "Không có hình ảnh ISO nào được chọn"
 
-#: ../tails_installer/gui.py:482
+#: ../tails_installer/gui.py:503
 msgid "Please select a Tails ISO image."
 msgstr ""
 
-#: ../tails_installer/gui.py:521
+#: ../tails_installer/gui.py:545
 msgid "No device suitable to install Tails could be found"
 msgstr "Đã không thể tìm thấy thiết bị nào phù hợp cho việc cài đặt Tails"
 
-#: ../tails_installer/gui.py:523
+#: ../tails_installer/gui.py:547
 #, python-format
 msgid "Please plug a USB flash drive or SD card of at least %0.1f GB."
 msgstr "Hãy cắm một ổ USB di động hay thẻ SD với dung lượng ít nhất %0.1f GB."
 
-#: ../tails_installer/gui.py:557
+#: ../tails_installer/gui.py:581
 #, python-format
 msgid ""
 "The USB stick \"%(pretty_name)s\" is configured as non-removable by its "
@@ -351,42 +371,45 @@ msgid ""
 "different model."
 msgstr "Thẻ USB %(pretty_name)s được cấu hình không thể di rời bởi nhà sản xuất và Tails sẽ không khởi động được. Hãy thử cài đặt lên một mẫu USB khác."
 
-#: ../tails_installer/gui.py:567
+#: ../tails_installer/gui.py:591
 #, python-format
 msgid ""
 "The device \"%(pretty_name)s\" is too small to install Tails (at least "
 "%(size)s GB is required)."
 msgstr "Thiết bị \"%(pretty_name)s\" quá nhỏ để cài đặt Tails (yêu cầu ít nhất %(size)s GB)."
 
-#: ../tails_installer/gui.py:589
+#: ../tails_installer/gui.py:604
+#, python-format
+msgid ""
+"To upgrade device \"%(pretty_name)s\" from this Tails, you need to use a downloaded Tails ISO image:\n"
+"https://tails.boum.org/install/download"
+msgstr ""
+
+#: ../tails_installer/gui.py:625
 msgid "An error happened while installing Tails"
 msgstr "Một lỗi đã xuất hiện trong khi cài đặt Tails"
 
-#: ../tails_installer/gui.py:601
+#: ../tails_installer/gui.py:637
 msgid "Refreshing releases..."
 msgstr "Đang làm mới phiên bản"
 
-#: ../tails_installer/gui.py:606
+#: ../tails_installer/gui.py:642
 msgid "Releases updated!"
 msgstr "Phiên bản đã được làm mới!"
 
-#: ../tails_installer/gui.py:648
+#: ../tails_installer/gui.py:695
 msgid "Installation complete!"
 msgstr "Cài đặt hoàn tất!"
 
-#: ../tails_installer/gui.py:649
-msgid "Installation was completed."
-msgstr "Việc cài đặt đã được hoàn tất."
-
-#: ../tails_installer/gui.py:698
+#: ../tails_installer/gui.py:744
 msgid "Unable to mount device"
 msgstr "Không thể gắn thiết bị"
 
-#: ../tails_installer/gui.py:705 ../tails_installer/gui.py:735
+#: ../tails_installer/gui.py:751 ../tails_installer/gui.py:783
 msgid "Confirm the target USB stick"
 msgstr ""
 
-#: ../tails_installer/gui.py:706
+#: ../tails_installer/gui.py:752
 #, python-format
 msgid ""
 "%(size)s %(vendor)s %(model)s device (%(device)s)\n"
@@ -394,48 +417,48 @@ msgid ""
 "All data on this USB stick will be lost."
 msgstr ""
 
-#: ../tails_installer/gui.py:722
+#: ../tails_installer/gui.py:770
 #, python-format
 msgid "%(parent_size)s %(vendor)s %(model)s device (%(device)s)"
 msgstr ""
 
-#: ../tails_installer/gui.py:730
+#: ../tails_installer/gui.py:778
 msgid ""
 "\n"
 "\n"
 "The persistent storage on this USB stick will be preserved."
 msgstr ""
 
-#: ../tails_installer/gui.py:731
+#: ../tails_installer/gui.py:779
 #, python-format
 msgid "%(description)s%(persistence_message)s"
 msgstr ""
 
-#: ../tails_installer/gui.py:781
+#: ../tails_installer/gui.py:821
 msgid "Download complete!"
 msgstr "Tải xuống hoàn tất!"
 
-#: ../tails_installer/gui.py:785
+#: ../tails_installer/gui.py:825
 msgid "Download failed: "
 msgstr "Tải xuống thất bại:"
 
-#: ../tails_installer/gui.py:786
+#: ../tails_installer/gui.py:826
 msgid "You can try again to resume your download"
 msgstr "Bạn có thể thử lại để tiếp tục việc tải xuống"
 
-#: ../tails_installer/gui.py:794
+#: ../tails_installer/gui.py:834
 msgid ""
 "The selected file is unreadable. Please fix its permissions or select "
 "another file."
 msgstr "Những tập tin được chọn không thể đọc được. Vui lòng sửa quyền của nó hoặc chọn một tập tin khác."
 
-#: ../tails_installer/gui.py:800
+#: ../tails_installer/gui.py:840
 msgid ""
 "Unable to use the selected file.  You may have better luck if you move your "
 "ISO to the root of your drive (ie: C:\\)"
 msgstr "Không thể sử dụng tập tin được chọn. Bạn có thể may mắn hơn nếu bạn di duyển ISO của bạn tới nền của thiết bị của bạn (ví dụ: C:\\)"
 
-#: ../tails_installer/gui.py:806
+#: ../tails_installer/gui.py:846
 #, python-format
 msgid "%(filename)s selected"
 msgstr "%(filename)s được chọn"
@@ -482,18 +505,6 @@ msgstr "Đã có một vấn đề khi thực hiện `%s`.%s\n%s"
 #: ../tails_installer/utils.py:124
 msgid "Could not open device for writing."
 msgstr "Đã không thể mở thiết bị cho việc ghi dữ liệu (writing)."
-
-#: ../data/tails-installer.ui.h:1
-msgid "Installation Instructions"
-msgstr ""
-
-#: ../data/tails-installer.ui.h:2
-msgid "Clone the current Tails"
-msgstr ""
-
-#: ../data/tails-installer.ui.h:3
-msgid "Use a downloaded Tails ISO image"
-msgstr ""
 
 #: ../data/tails-installer.ui.h:4
 msgid "Select a distribution to download:"

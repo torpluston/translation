@@ -5,6 +5,7 @@
 # Translators:
 # Cesar Silva <cesarsilvabx@gmail.com>, 2017
 # testsubject67 <deborinha97@hotmail.com>, 2014
+# Eduardo Addad de Oliveira <eduardoaddad@hotmail.com>, 2018
 # Francisco P. <sonhosdigitais@gmx.com>, 2013
 # Henrique Rodrigues, 2017
 # Koh Pyreit <inactive+kohpyreit@transifex.com>, 2013
@@ -21,9 +22,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: The Tor Project\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-11-10 15:57+0100\n"
-"PO-Revision-Date: 2018-01-18 15:41+0000\n"
-"Last-Translator: Manuela Silva <manuela.silva@sky.com>\n"
+"POT-Creation-Date: 2018-08-16 11:40+0200\n"
+"PO-Revision-Date: 2018-08-16 14:46+0000\n"
+"Last-Translator: carolyn <carolyn@anhalt.org>\n"
 "Language-Team: Portuguese (http://www.transifex.com/otf/torproject/language/pt/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -31,257 +32,253 @@ msgstr ""
 "Language: pt\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: ../tails_installer/creator.py:101
+#: ../tails_installer/creator.py:100
 msgid "You must run this application as root"
 msgstr "Deve executar esta aplicação como 'root'"
 
-#: ../tails_installer/creator.py:147
+#: ../tails_installer/creator.py:146
 msgid "Extracting live image to the target device..."
 msgstr "A extrair a imagem live para o dispositivo de destino..."
 
-#: ../tails_installer/creator.py:154
+#: ../tails_installer/creator.py:153
 #, python-format
 msgid "Wrote to device at %(speed)d MB/sec"
 msgstr "Gravado para o dispositivo a %(speed)d MB/seg"
 
-#: ../tails_installer/creator.py:184
-msgid "Setting up OLPC boot file..."
-msgstr "A configurar o ficheiro de arranque do OLPC ..."
-
-#: ../tails_installer/creator.py:315
+#: ../tails_installer/creator.py:296
 #, python-format
 msgid ""
 "There was a problem executing the following command: `%(command)s`.\n"
 "A more detailed error log has been written to '%(filename)s'."
 msgstr "Ocorreu um erro ao executar o seguinte comando: `%(command)s`.\nFoi guardado um registo detalhado do erro no '%(filename)s'."
 
-#: ../tails_installer/creator.py:334
+#: ../tails_installer/creator.py:315
 msgid "Verifying SHA1 checksum of LiveCD image..."
 msgstr "A verificar a soma de verificação SHA1 da imagem do CD Live..."
 
-#: ../tails_installer/creator.py:338
+#: ../tails_installer/creator.py:319
 msgid "Verifying SHA256 checksum of LiveCD image..."
 msgstr "A verificar a soma de verificação SHA256 da imagem do CD Live..."
 
-#: ../tails_installer/creator.py:354
+#: ../tails_installer/creator.py:335
 msgid ""
 "Error: The SHA1 of your Live CD is invalid.  You can run this program with "
 "the --noverify argument to bypass this verification check."
 msgstr "Erro: A assinatura digital SHA1 do seu CD Live está incorreta. Pode executar este programa com o argumento --noverify para evitar esta verificação."
 
-#: ../tails_installer/creator.py:360
+#: ../tails_installer/creator.py:341
 msgid "Unknown ISO, skipping checksum verification"
 msgstr "ISO desconhecido, a ignorar soma de verificação"
 
-#: ../tails_installer/creator.py:371
+#: ../tails_installer/creator.py:353
 #, python-format
 msgid ""
 "Not enough free space on device.\n"
 "%dMB ISO + %dMB overlay > %dMB free space"
 msgstr "Não existe espaço livre suficiente no dispositivo.\n%dMB ISO + %dMB overlay > %dMB espaço livre"
 
-#: ../tails_installer/creator.py:378
+#: ../tails_installer/creator.py:360
 #, python-format
 msgid "Creating %sMB persistent overlay"
 msgstr "A criar %sMB da área permanete ..."
 
-#: ../tails_installer/creator.py:439
+#: ../tails_installer/creator.py:421
 #, python-format
 msgid "Unable to copy %(infile)s to %(outfile)s: %(message)s"
 msgstr "Não foi possível copiar %(infile)s para %(outfile)s: %(message)s"
 
-#: ../tails_installer/creator.py:453
+#: ../tails_installer/creator.py:435
 msgid "Removing existing Live OS"
 msgstr "A remover o SO Live existente"
 
-#: ../tails_installer/creator.py:462 ../tails_installer/creator.py:473
+#: ../tails_installer/creator.py:444 ../tails_installer/creator.py:456
 #, python-format
 msgid "Unable to chmod %(file)s: %(message)s"
 msgstr "Não foi possível executar chmod %(file)s: %(message)s"
 
-#: ../tails_installer/creator.py:466
+#: ../tails_installer/creator.py:449
 #, python-format
 msgid "Unable to remove file from previous LiveOS: %(message)s"
 msgstr "Não é possível remover o ficheiro do LiveOS anterior: %(message)s"
 
-#: ../tails_installer/creator.py:478
+#: ../tails_installer/creator.py:462
 #, python-format
 msgid "Unable to remove directory from previous LiveOS: %(message)s"
 msgstr "Não é possível remover a diretoria do LiveOS anterior: %(message)s"
 
-#: ../tails_installer/creator.py:526
+#: ../tails_installer/creator.py:510
 #, python-format
 msgid "Cannot find device %s"
 msgstr "Não é possível encontrar %s"
 
-#: ../tails_installer/creator.py:695
+#: ../tails_installer/creator.py:711
 #, python-format
 msgid "Unable to write on %(device)s, skipping."
 msgstr "Não é possível gravar no %(device)s, a ignorar."
 
-#: ../tails_installer/creator.py:719
+#: ../tails_installer/creator.py:741
 #, python-format
 msgid ""
 "Some partitions of the target device %(device)s are mounted. They will be "
 "unmounted before starting the installation process."
 msgstr "Algumas partições do dispositivo %(device)s estão montadas. Elas serão desmontadas antes que o processo de instalação comece."
 
-#: ../tails_installer/creator.py:762 ../tails_installer/creator.py:974
+#: ../tails_installer/creator.py:784 ../tails_installer/creator.py:1008
 msgid "Unknown filesystem.  Your device may need to be reformatted."
 msgstr "Sistema de ficheiros desconhecido. Poderá ter que reformatar o seu dispositivo."
 
-#: ../tails_installer/creator.py:765 ../tails_installer/creator.py:977
+#: ../tails_installer/creator.py:787 ../tails_installer/creator.py:1011
 #, python-format
 msgid "Unsupported filesystem: %s"
 msgstr "Sistema de ficheiros não suportado: %s"
 
-#: ../tails_installer/creator.py:782
+#: ../tails_installer/creator.py:805
 #, python-format
 msgid "Unknown GLib exception while trying to mount device: %(message)s"
 msgstr "Exceção GLib desconhecida enquanto tentava montar o dispositivo: %(message)s"
 
-#: ../tails_installer/creator.py:786
+#: ../tails_installer/creator.py:810
 #, python-format
 msgid "Unable to mount device: %(message)s"
 msgstr "Não é possível montar o dispositivo: %(message)s"
 
-#: ../tails_installer/creator.py:791
+#: ../tails_installer/creator.py:815
 msgid "No mount points found"
 msgstr "Não foram encontrados pontos de montagem"
 
-#: ../tails_installer/creator.py:802
+#: ../tails_installer/creator.py:826
 #, python-format
 msgid "Entering unmount_device for '%(device)s'"
 msgstr "A entrar em unmount_device para '%(device)s'"
 
-#: ../tails_installer/creator.py:812
+#: ../tails_installer/creator.py:836
 #, python-format
 msgid "Unmounting mounted filesystems on '%(device)s'"
 msgstr "A desmontar o sistema de ficheiros montados no '%(device)s'"
 
-#: ../tails_installer/creator.py:816
+#: ../tails_installer/creator.py:840
 #, python-format
 msgid "Unmounting '%(udi)s' on '%(device)s'"
 msgstr "A desmontar '%(udi)s' no '%(device)s'"
 
-#: ../tails_installer/creator.py:826
+#: ../tails_installer/creator.py:851
 #, python-format
 msgid "Mount %s exists after unmounting"
 msgstr "O ponto de montagem %s existe depois de desmontado"
 
-#: ../tails_installer/creator.py:839
+#: ../tails_installer/creator.py:864
 #, python-format
 msgid "Partitioning device %(device)s"
 msgstr "A particionar o dispositivo %(device)s"
 
-#: ../tails_installer/creator.py:959
+#: ../tails_installer/creator.py:993
 #, python-format
 msgid "Unsupported device '%(device)s', please report a bug."
 msgstr "Dispositivo '%(device)s' não suportado, por favor, comunique um bug."
 
-#: ../tails_installer/creator.py:962
+#: ../tails_installer/creator.py:996
 msgid "Trying to continue anyway."
 msgstr "A tentar continuar de qualquer forma."
 
-#: ../tails_installer/creator.py:971 ../tails_installer/creator.py:1364
+#: ../tails_installer/creator.py:1005 ../tails_installer/creator.py:1401
 msgid "Verifying filesystem..."
 msgstr "A verificar o sistema de ficheiros ..."
 
-#: ../tails_installer/creator.py:995
+#: ../tails_installer/creator.py:1029
 #, python-format
 msgid "Unable to change volume label: %(message)s"
 msgstr "Não é possível alterar o nome do volume: %(message)s"
 
-#: ../tails_installer/creator.py:1000 ../tails_installer/creator.py:1397
+#: ../tails_installer/creator.py:1034 ../tails_installer/creator.py:1434
 msgid "Installing bootloader..."
 msgstr "A instalar o carregador de arranque..."
 
-#: ../tails_installer/creator.py:1026
+#: ../tails_installer/creator.py:1061
 #, python-format
 msgid "Could not find the '%s' COM32 module"
 msgstr "Impossível encontrar %s modulo COM32"
 
-#: ../tails_installer/creator.py:1034 ../tails_installer/creator.py:1415
+#: ../tails_installer/creator.py:1069 ../tails_installer/creator.py:1452
 #, python-format
 msgid "Removing %(file)s"
 msgstr "A remover %(file)s"
 
-#: ../tails_installer/creator.py:1146
+#: ../tails_installer/creator.py:1183
 #, python-format
 msgid "%s already bootable"
 msgstr "%s já é de arranque"
 
-#: ../tails_installer/creator.py:1166
+#: ../tails_installer/creator.py:1203
 msgid "Unable to find partition"
 msgstr "Não foi possível encontrar a partição"
 
-#: ../tails_installer/creator.py:1189
+#: ../tails_installer/creator.py:1226
 #, python-format
 msgid "Formatting %(device)s as FAT32"
 msgstr "A formatar o %(device)s como FAT32"
 
-#: ../tails_installer/creator.py:1249
+#: ../tails_installer/creator.py:1286
 msgid "Could not find syslinux' gptmbr.bin"
 msgstr "Impossível encontrar syslinux' gptmbr.bin"
 
-#: ../tails_installer/creator.py:1262
+#: ../tails_installer/creator.py:1299
 #, python-format
 msgid "Reading extracted MBR from %s"
 msgstr "A ler MBR extraído de %s"
 
-#: ../tails_installer/creator.py:1266
+#: ../tails_installer/creator.py:1303
 #, python-format
 msgid "Could not read the extracted MBR from %(path)s"
 msgstr "Não foi possível ler MBR extraído de %(path)s"
 
-#: ../tails_installer/creator.py:1279 ../tails_installer/creator.py:1280
+#: ../tails_installer/creator.py:1316 ../tails_installer/creator.py:1317
 #, python-format
 msgid "Resetting Master Boot Record of %s"
 msgstr "A reiniciar o 'Master Boot Record' de %s"
 
-#: ../tails_installer/creator.py:1285
+#: ../tails_installer/creator.py:1322
 msgid "Drive is a loopback, skipping MBR reset"
 msgstr "A unidade é um 'loopback', a ignorar o reinício do MBR"
 
-#: ../tails_installer/creator.py:1289 ../tails_installer/creator.py:1543
+#: ../tails_installer/creator.py:1326 ../tails_installer/creator.py:1580
 #, python-format
 msgid "Calculating the SHA1 of %s"
 msgstr "A calcular o SHA1 de %s"
 
-#: ../tails_installer/creator.py:1314
+#: ../tails_installer/creator.py:1351
 msgid "Synchronizing data on disk..."
 msgstr "A sincronizar os dados no disco..."
 
-#: ../tails_installer/creator.py:1356
+#: ../tails_installer/creator.py:1393
 msgid "Error probing device"
 msgstr "Erro ao examinar o dispositivo"
 
-#: ../tails_installer/creator.py:1358
+#: ../tails_installer/creator.py:1395
 msgid "Unable to find any supported device"
 msgstr "Não foi possível encontrar um dispositivo suportado"
 
-#: ../tails_installer/creator.py:1368
+#: ../tails_installer/creator.py:1405
 msgid ""
 "Make sure your USB key is plugged in and formatted with the FAT filesystem"
 msgstr "Certifique-se que a pen USB está ligada e formatada com o sistema de ficheiros FAT"
 
-#: ../tails_installer/creator.py:1371
+#: ../tails_installer/creator.py:1408
 #, python-format
 msgid ""
 "Unsupported filesystem: %s\n"
 "Please backup and format your USB key with the FAT filesystem."
 msgstr "Sistema de ficheiros não suportado: %s\nPor favor, efetue uma cópia de segurança e formate a sua pen USB com o sistema de ficheiros FAT."
 
-#: ../tails_installer/creator.py:1438
+#: ../tails_installer/creator.py:1475
 msgid ""
 "Unable to get Win32_LogicalDisk; win32com query did not return any results"
 msgstr "Não foi possível obter o Win32_LogicalDisk; a consulta win32com não devolveu quaisquer resultados"
 
-#: ../tails_installer/creator.py:1491
+#: ../tails_installer/creator.py:1528
 msgid "Cannot find"
 msgstr "Não é possível encontrar"
 
-#: ../tails_installer/creator.py:1492
+#: ../tails_installer/creator.py:1529
 msgid ""
 "Make sure to extract the entire tails-installer zip file before running this"
 " program."
@@ -297,63 +294,87 @@ msgstr "Lançamento desconhecido: %s"
 msgid "Downloading %s..."
 msgstr "A transferir %s..."
 
-#: ../tails_installer/gui.py:211
+#: ../tails_installer/gui.py:213
 msgid ""
 "Error: Cannot set the label or obtain the UUID of your device.  Unable to "
 "continue."
 msgstr "Erro: Não é possível definir o nome ou obter o UUID do seu dispositivo. Não é possível continuar."
 
-#: ../tails_installer/gui.py:258
+#: ../tails_installer/gui.py:260
 #, python-format
 msgid "Installation complete! (%s)"
 msgstr "Instalação completa! (%s)"
 
-#: ../tails_installer/gui.py:263
+#: ../tails_installer/gui.py:265
 msgid "Tails installation failed!"
 msgstr "A instalação de Tails falhou!"
 
-#: ../tails_installer/gui.py:363
+#: ../tails_installer/gui.py:361
 msgid ""
 "Warning: This tool needs to be run as an Administrator. To do this, right "
 "click on the icon and open the Properties. Under the Compatibility tab, "
 "check the \"Run this program as an administrator\" box."
 msgstr "Aviso: esta ferramenta precisa de ser executada como um Administrador. Para o fazer, clique direito no ícone e abra as Propriedades. No separador 'Compatibilidade', selecione \"Executar como Administrador\"."
 
-#: ../tails_installer/gui.py:375
+#: ../tails_installer/gui.py:373
 msgid "Tails Installer"
 msgstr "Ficheiro de instalação Tails"
 
-#: ../tails_installer/gui.py:456
+#: ../tails_installer/gui.py:423 ../data/tails-installer.ui.h:2
+msgid "Clone the current Tails"
+msgstr "Clone oTails atual"
+
+#: ../tails_installer/gui.py:430 ../data/tails-installer.ui.h:3
+msgid "Use a downloaded Tails ISO image"
+msgstr "Utilize a imagem Tails ISO transferida"
+
+#: ../tails_installer/gui.py:467
 msgid "Upgrade"
 msgstr "Atualizar"
 
-#: ../tails_installer/gui.py:462 ../data/tails-installer.ui.h:7
+#: ../tails_installer/gui.py:469
+msgid "Manual Upgrade Instructions"
+msgstr ""
+
+#: ../tails_installer/gui.py:471
+msgid "https://tails.boum.org/upgrade/"
+msgstr ""
+
+#: ../tails_installer/gui.py:479 ../data/tails-installer.ui.h:7
 msgid "Install"
 msgstr "Instalar"
 
-#: ../tails_installer/gui.py:469
+#: ../tails_installer/gui.py:482 ../data/tails-installer.ui.h:1
+msgid "Installation Instructions"
+msgstr "Guias de instalação"
+
+#: ../tails_installer/gui.py:484
+msgid "https://tails.boum.org/install/"
+msgstr ""
+
+#: ../tails_installer/gui.py:490
 #, python-format
 msgid "%(size)s %(vendor)s %(model)s device (%(device)s)"
 msgstr "%(size)s %(vendor)s %(model)s dispositivo (%(device)s)"
 
-#: ../tails_installer/gui.py:481
+#: ../tails_installer/gui.py:502
 msgid "No ISO image selected"
 msgstr "Nenhuma imagem ISO foi selecionada"
 
-#: ../tails_installer/gui.py:482
+#: ../tails_installer/gui.py:503
 msgid "Please select a Tails ISO image."
 msgstr "Por favor selecione o ficheiro de imagem Tails ISO"
 
-#: ../tails_installer/gui.py:521
+#: ../tails_installer/gui.py:545
 msgid "No device suitable to install Tails could be found"
 msgstr "Não foi encontrado nenhum dispositivo adequado para a instalação de Tails"
 
-#: ../tails_installer/gui.py:523
+#: ../tails_installer/gui.py:547
 #, python-format
 msgid "Please plug a USB flash drive or SD card of at least %0.1f GB."
 msgstr "Por favor, insira uma PEN USB ou cartão SD com pelo menos %0.1f GB."
 
-#: ../tails_installer/gui.py:557
+#: ../tails_installer/gui.py:581
 #, python-format
 msgid ""
 "The USB stick \"%(pretty_name)s\" is configured as non-removable by its "
@@ -361,42 +382,45 @@ msgid ""
 "different model."
 msgstr "A pen USB \"%(pretty_name)s\" está configurada como não removível pelo seu fabricante e Tails não será iniciado na mesma. Por favor, tente instalar num modelo diferente."
 
-#: ../tails_installer/gui.py:567
+#: ../tails_installer/gui.py:591
 #, python-format
 msgid ""
 "The device \"%(pretty_name)s\" is too small to install Tails (at least "
 "%(size)s GB is required)."
 msgstr "O dispositivo \"%(pretty_name)s\" é muito pequeno para instalar o Tails (é necessário pelo menos %(size)s GB)."
 
-#: ../tails_installer/gui.py:589
+#: ../tails_installer/gui.py:604
+#, python-format
+msgid ""
+"To upgrade device \"%(pretty_name)s\" from this Tails, you need to use a downloaded Tails ISO image:\n"
+"https://tails.boum.org/install/download"
+msgstr "Para atualizar o dispositivo %(pretty_name)s deste Tails, você precisa usar uma imagem ISO do Tails baixada:\nhttps://tails.boum.org/install/download"
+
+#: ../tails_installer/gui.py:625
 msgid "An error happened while installing Tails"
 msgstr "Aconteceu um erro durante a instalação de Tails"
 
-#: ../tails_installer/gui.py:601
+#: ../tails_installer/gui.py:637
 msgid "Refreshing releases..."
 msgstr "A atualizar os lançamentos..."
 
-#: ../tails_installer/gui.py:606
+#: ../tails_installer/gui.py:642
 msgid "Releases updated!"
 msgstr "Lançamentos atualizados!"
 
-#: ../tails_installer/gui.py:648
+#: ../tails_installer/gui.py:695
 msgid "Installation complete!"
 msgstr "Instalação completa!"
 
-#: ../tails_installer/gui.py:649
-msgid "Installation was completed."
-msgstr "Instalação completa!"
-
-#: ../tails_installer/gui.py:698
+#: ../tails_installer/gui.py:744
 msgid "Unable to mount device"
 msgstr "Não é possível montar o dispositivo"
 
-#: ../tails_installer/gui.py:705 ../tails_installer/gui.py:735
+#: ../tails_installer/gui.py:751 ../tails_installer/gui.py:783
 msgid "Confirm the target USB stick"
 msgstr "Confirme o dispositivo USB alvo"
 
-#: ../tails_installer/gui.py:706
+#: ../tails_installer/gui.py:752
 #, python-format
 msgid ""
 "%(size)s %(vendor)s %(model)s device (%(device)s)\n"
@@ -404,48 +428,48 @@ msgid ""
 "All data on this USB stick will be lost."
 msgstr "%(size)s %(vendor)s %(model)s dispositivo (%(device)s)\n\nTodos os dados na pen USB serão perdidos."
 
-#: ../tails_installer/gui.py:722
+#: ../tails_installer/gui.py:770
 #, python-format
 msgid "%(parent_size)s %(vendor)s %(model)s device (%(device)s)"
 msgstr "%(parent_size)s %(vendor)s %(model)s dispositivo (%(device)s)"
 
-#: ../tails_installer/gui.py:730
+#: ../tails_installer/gui.py:778
 msgid ""
 "\n"
 "\n"
 "The persistent storage on this USB stick will be preserved."
 msgstr "\n\nO armazenamento persistente nesta pen USB será preservado."
 
-#: ../tails_installer/gui.py:731
+#: ../tails_installer/gui.py:779
 #, python-format
 msgid "%(description)s%(persistence_message)s"
 msgstr "%(description)s%(persistence_message)s"
 
-#: ../tails_installer/gui.py:781
+#: ../tails_installer/gui.py:821
 msgid "Download complete!"
 msgstr "Transferência completa!"
 
-#: ../tails_installer/gui.py:785
+#: ../tails_installer/gui.py:825
 msgid "Download failed: "
 msgstr "A transferência falhou:"
 
-#: ../tails_installer/gui.py:786
+#: ../tails_installer/gui.py:826
 msgid "You can try again to resume your download"
 msgstr "Pode tentar novamente para retomar a sua transferência"
 
-#: ../tails_installer/gui.py:794
+#: ../tails_installer/gui.py:834
 msgid ""
 "The selected file is unreadable. Please fix its permissions or select "
 "another file."
 msgstr "O ficheiro selecionado não é legível. Por favor corrija as permissões ou selecione outro ficheiro."
 
-#: ../tails_installer/gui.py:800
+#: ../tails_installer/gui.py:840
 msgid ""
 "Unable to use the selected file.  You may have better luck if you move your "
 "ISO to the root of your drive (ie: C:\\)"
 msgstr "Não é possível utilizar o ficheiro selecionado. É capaz de ter mais sorte se mover o seu ficheiro ISO para a raiz da sua unidade (ex.: C:\\)."
 
-#: ../tails_installer/gui.py:806
+#: ../tails_installer/gui.py:846
 #, python-format
 msgid "%(filename)s selected"
 msgstr "%(filename)s selecionado"
@@ -492,18 +516,6 @@ msgstr "Ocorreu um problema ao executar `%s`.%s\n%s"
 #: ../tails_installer/utils.py:124
 msgid "Could not open device for writing."
 msgstr "Não foi possível escrever no dispositivo."
-
-#: ../data/tails-installer.ui.h:1
-msgid "Installation Instructions"
-msgstr "Guias de instalação"
-
-#: ../data/tails-installer.ui.h:2
-msgid "Clone the current Tails"
-msgstr "Clone oTails atual"
-
-#: ../data/tails-installer.ui.h:3
-msgid "Use a downloaded Tails ISO image"
-msgstr "Utilize a imagem Tails ISO transferida"
 
 #: ../data/tails-installer.ui.h:4
 msgid "Select a distribution to download:"
