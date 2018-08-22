@@ -10,9 +10,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: The Tor Project\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-03-20 12:09+0000\n"
-"PO-Revision-Date: 2018-04-12 18:55+0000\n"
-"Last-Translator: outolumo <outolumo@gmail.com>\n"
+"POT-Creation-Date: 2018-06-11 17:17+0200\n"
+"PO-Revision-Date: 2018-08-07 08:48+0000\n"
+"Last-Translator: carolyn <carolyn@anhalt.org>\n"
 "Language-Team: Finnish (http://www.transifex.com/otf/torproject/language/fi/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -26,12 +26,12 @@ msgstr ""
 msgid "Invalid contact email: %s"
 msgstr "Virheellinen sähköpostiosoite: %s"
 
-#: ../whisperBack/whisperback.py:73
+#: ../whisperBack/whisperback.py:74
 #, python-format
 msgid "Invalid contact OpenPGP key: %s"
 msgstr "Virheellinen OpenPGP-avain: %s"
 
-#: ../whisperBack/whisperback.py:75
+#: ../whisperBack/whisperback.py:76
 msgid "Invalid contact OpenPGP public key block"
 msgstr "Virheellinen julkinen OpenPGP-avain (public key block)"
 
@@ -39,59 +39,59 @@ msgstr "Virheellinen julkinen OpenPGP-avain (public key block)"
 #, python-format
 msgid ""
 "The %s variable was not found in any of the configuration files "
-"/etc/whisperback/config.py, ~/.whisperback/config.py, ./config.py"
-msgstr "Muuttujaa %s ei löydetty asetustiedostoista /etc/whisperback/config.py, ~/.whisperback/config.py, ./config.py"
+"/etc/whisperback/config.py, ~/.whisperback/config.py, or ./config.py"
+msgstr ""
 
-#: ../whisperBack/gui.py:110
+#: ../whisperBack/gui.py:111
 msgid "Name of the affected software"
 msgstr ""
 
-#: ../whisperBack/gui.py:112
+#: ../whisperBack/gui.py:113
 msgid "Exact steps to reproduce the error"
 msgstr ""
 
-#: ../whisperBack/gui.py:114
+#: ../whisperBack/gui.py:115
 msgid "Actual result and description of the error"
 msgstr ""
 
-#: ../whisperBack/gui.py:116
+#: ../whisperBack/gui.py:117
 msgid "Desired result"
 msgstr ""
 
-#: ../whisperBack/gui.py:152
+#: ../whisperBack/gui.py:130
 msgid "Unable to load a valid configuration."
 msgstr "Kelvollisten asetusten lataus epäonnistui."
 
-#: ../whisperBack/gui.py:218
+#: ../whisperBack/gui.py:166
 msgid "Sending mail..."
 msgstr "Lähetetään sähköpostia..."
 
-#: ../whisperBack/gui.py:219
+#: ../whisperBack/gui.py:167
 msgid "Sending mail"
 msgstr "Lähetetään sähköpostia"
 
 #. pylint: disable=C0301
-#: ../whisperBack/gui.py:221
+#: ../whisperBack/gui.py:169
 msgid "This could take a while..."
 msgstr "Tässä saattaa mennä hetki..."
 
-#: ../whisperBack/gui.py:236
-msgid "The contact email adress doesn't seem valid."
-msgstr "Yhteyshenkilön sähköpostiosoite ei vaikuta kelvolliselta."
+#: ../whisperBack/gui.py:185
+msgid "The contact email address doesn't seem valid."
+msgstr ""
 
-#: ../whisperBack/gui.py:253
+#: ../whisperBack/gui.py:202
 msgid "Unable to send the mail: SMTP error."
 msgstr "Sähköpostin lähetys epäonnistui: SMTP-virhe."
 
-#: ../whisperBack/gui.py:255
+#: ../whisperBack/gui.py:204
 msgid "Unable to connect to the server."
 msgstr "Yhdistäminen palvelimeen epäonnistui."
 
-#: ../whisperBack/gui.py:257
+#: ../whisperBack/gui.py:206
 msgid "Unable to create or to send the mail."
 msgstr "Sähköpostin luominen ja lähettäminen epäonnistui."
 
-#: ../whisperBack/gui.py:260
+#: ../whisperBack/gui.py:209
 msgid ""
 "\n"
 "\n"
@@ -100,20 +100,20 @@ msgid ""
 "If it does not work, you will be offered to save the bug report."
 msgstr "\nVikailmoituksen lähettäminen epäonnistui luultavasti verkko-ongelmien vuoksi. Yritä uudelleen yhdistämistä verkkoon ja napsauta taas Lähetä-painiketta.\n\nJos tämä ei auta,  sinulle ehdotetaan vikailmoituksen tallentamista."
 
-#: ../whisperBack/gui.py:273
+#: ../whisperBack/gui.py:222
 msgid "Your message has been sent."
 msgstr "Viestisi on lähetetty."
 
-#: ../whisperBack/gui.py:280
+#: ../whisperBack/gui.py:229
 msgid "An error occured during encryption."
 msgstr "Salauksen aikana sattui virhe."
 
-#: ../whisperBack/gui.py:300
+#: ../whisperBack/gui.py:249
 #, python-format
 msgid "Unable to save %s."
 msgstr "Kohteen %s tallennus epäonnistui."
 
-#: ../whisperBack/gui.py:323
+#: ../whisperBack/gui.py:272
 #, python-format
 msgid ""
 "The bug report could not be sent, likely due to network problems.\n"
@@ -123,33 +123,33 @@ msgid ""
 "Do you want to save the bug report to a file?"
 msgstr "Vikailmoituksen lähettäminen epäonnistui todennäköisesti verkko-ongelmien vuoksi.\n\nTilapäinen ratkaisu on se, että tallennat vikailmoituksen USB-levylle tiedostoon ja lähetät ilmoituksen osoitteeseen %s, kun käytät toista käyttöjärjestelmää ja omaa sähköpostitiliäsi. Huomaa, että vikailmoituksesi ei ole anonyymi ilman ylimääräisiä toimenpiteitä (kuten Tor-sovelluksen ja kertakäyttöisten sähköpostitilien käyttöä).\n\nHaluatko tallentaa vikailmoituksen tiedostoon?"
 
-#: ../whisperBack/gui.py:383 ../data/whisperback.ui.h:21
+#: ../whisperBack/gui.py:332 ../data/whisperback.ui.h:21
 msgid "WhisperBack"
 msgstr "WhisperBack"
 
-#: ../whisperBack/gui.py:384 ../data/whisperback.ui.h:2
+#: ../whisperBack/gui.py:333 ../data/whisperback.ui.h:2
 msgid "Send feedback in an encrypted mail."
 msgstr "Lähetä palautetta salatulla sähköpostilla."
 
-#: ../whisperBack/gui.py:387
-msgid "Copyright © 2009-2012 Tails developpers (tails@boum.org)"
-msgstr "Tekijänoikeus © 2009-2012 Tailsin kehittäjät (tails@boum.org)"
+#: ../whisperBack/gui.py:336
+msgid "Copyright © 2009-2018 Tails developers (tails@boum.org)"
+msgstr ""
 
-#: ../whisperBack/gui.py:388
+#: ../whisperBack/gui.py:337
 msgid "Tails developers <tails@boum.org>"
 msgstr "Tailsin kehittäjät <tails@boum.org>"
 
-#: ../whisperBack/gui.py:389
+#: ../whisperBack/gui.py:338
 msgid "translator-credits"
 msgstr "kääntäjät"
 
-#: ../whisperBack/gui.py:417
+#: ../whisperBack/gui.py:370
 msgid "This doesn't seem to be a valid URL or OpenPGP key."
 msgstr "Tämä ei vaikuta kelvolliselta verkko-osoitteelta tai OpenPGP-avaimelta."
 
 #: ../data/whisperback.ui.h:1
-msgid "Copyright © 2009-2012 tails@boum.org"
-msgstr "Tekijänoikeus © 2009-2012 tails@boum.org"
+msgid "Copyright © 2009-2018 tails@boum.org"
+msgstr ""
 
 #: ../data/whisperback.ui.h:3
 msgid "https://tails.boum.org/"
@@ -158,7 +158,7 @@ msgstr "https://tails.boum.org/"
 #: ../data/whisperback.ui.h:4
 msgid ""
 "WhisperBack - Send feedback in an encrypted mail\n"
-"Copyright (C) 2009-2012 Tails developers <tails@boum.org>\n"
+"Copyright (C) 2009-2018 Tails developers <tails@boum.org>\n"
 "\n"
 "This program is  free software; you can redistribute  it and/or modify\n"
 "it under the  terms of the GNU General Public  License as published by\n"
@@ -172,7 +172,7 @@ msgid ""
 "\n"
 "You should have received a copy of the GNU General Public License\n"
 "along with this program.  If not, see <http://www.gnu.org/licenses/>.\n"
-msgstr "WhisperBack - Lähetä palautetta salatulla sähköpostilla\nCopyright © 2009-2012 Tails developers <tails@boum.org>\n\nTämä on vapaa ohjelma: tätä ohjelmaa saa levittää edelleen ja muuttaa Free Software Foundationin julkaiseman GNU General Public Licensen (GPL-lisenssi) version 3 tai (valinnan mukaan) myöhemmän version ehtojen mukaisesti.\n\nTätä ohjelmaa levitetään siinä toivossa, että se olisi hyödyllinen mutta ilman mitään takuuta; edes hiljaista takuuta kaupallisesti hyväksyttävästä laadusta tai soveltuvuudesta tiettyyn tarkoitukseen.\nKatso GPL- lisenssistä lisää yksityiskohtia.\n\nTämän ohjelman mukana pitäisi tulla kopio GNU General Public License-lisenssistä. Jos näin ei ole, katso <http://www.gnu.org/licenses/>.\n"
+msgstr ""
 
 #: ../data/whisperback.ui.h:20
 msgid ""
@@ -189,29 +189,33 @@ msgid "Bug description"
 msgstr "Vian kuvaus"
 
 #: ../data/whisperback.ui.h:24
-msgid "Optional email address to contact you"
-msgstr "Vapaaehtoinen sähköpostiosoitteesi yhteydenottoa varten"
+msgid "Help:"
+msgstr ""
 
 #: ../data/whisperback.ui.h:25
+msgid "Read our bug reporting guidelines."
+msgstr ""
+
+#: ../data/whisperback.ui.h:26
+msgid "Email address (if you want an answer from us)"
+msgstr ""
+
+#: ../data/whisperback.ui.h:27
 msgid "optional PGP key"
 msgstr "Vapaaehtoinen PGP-avain"
 
-#: ../data/whisperback.ui.h:26
+#: ../data/whisperback.ui.h:28
 msgid "Technical details to include"
 msgstr "Liitettävät tekniset tiedot"
 
-#: ../data/whisperback.ui.h:27
+#: ../data/whisperback.ui.h:29
 msgid "headers"
 msgstr "otsakkeet"
 
-#: ../data/whisperback.ui.h:28
+#: ../data/whisperback.ui.h:30
 msgid "debugging info"
 msgstr "vianjäljityksen tiedot"
 
-#: ../data/whisperback.ui.h:29
-msgid "Help"
-msgstr "Opaste"
-
-#: ../data/whisperback.ui.h:30
+#: ../data/whisperback.ui.h:31
 msgid "Send"
 msgstr "Lähetä"
