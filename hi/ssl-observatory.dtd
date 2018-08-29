@@ -3,9 +3,7 @@
 <!ENTITY ssl-observatory.popup.later "बाद में पूछना मेरे को">
 <!ENTITY ssl-observatory.popup.no "नहीं">
 
-<!ENTITY ssl-observatory.popup.text "HTTPS Everywhere can detect attacks
-against your browser by sending the certificates you receive to the
-Observatory.  Turn this on?">
+<!ENTITY ssl-observatory.popup.text "HTTPS हर जगह ऑब्जर्वेटरी में प्राप्त प्रमाणपत्र भेजकर अापके ब्राउज़र के खिलाफ हमलों का पता लगा सकता हैं। इसे चालू करें?">
 
 <!--<!ENTITY ssl-observatory.popup.text 
 "EFF's SSL Observatory can detect attacks against HTTPS websites by collecting
@@ -39,13 +37,13 @@ to turn it on?">-->
 "इस विकल्प के लिए टोर को स्थापित और चलाने की आवश्यकता है">
 
 <!ENTITY ssl-observatory.prefs.asn 
-"When you see a new certificate, tell the Observatory which ISP you are connected to">
+"जब आप एक नया प्रमाणपत्र देखते हैं, तो ऑब्जर्वेटरी को बताएं कि आप कौनसे ISP से जुड़े हुए है ">
 
 <!ENTITY ssl-observatory.prefs.asn_tooltip
-"This will fetch and send the &quot;Autonomous System number&quot; of your network.  This will help us locate attacks against HTTPS, and to determine whether we have observations from networks in places like Iran and Syria where attacks are comparatively common.">
+"यह आपके नेटवर्क के &quot;स्वायत्त सिस्टम नंबर&quot; को लाएगा और भेज देगा। इससे हमें HTTPS के खिलाफ हमलों का पता लगाने में मदद मिलेगी, और यह निर्धारित करने के लिए कि क्या हमारे पास ईरान और सीरिया जैसे स्थानों पर नेटवर्क से अवलोकन हैं, जहां हमले तुलनात्मक रूप से आम हैं।">
 
 <!ENTITY ssl-observatory.prefs.show_cert_warning
-"Show a warning when the Observatory detects a revoked certificate not caught by your browser">
+"चेतावनी दिखाएं जब ऑब्जर्वेटरी आपके ब्राउज़र द्वारा न पकड़े गए निरस्त प्रमाण पत्र का पता लगाता है">
 
 <!ENTITY ssl-observatory.prefs.show_cert_warning_tooltip
 "This will check submitted certificates against known Certificate Revocation Lists. Unfortunately we cannot guarantee that we will flag every revoked certificate, but if you do see a warning there's a good chance something is wrong.">
@@ -53,10 +51,8 @@ to turn it on?">-->
 <!ENTITY ssl-observatory.prefs.done "सम्पन्न">
 
 <!ENTITY ssl-observatory.prefs.explanation 
-"HTTPS Everywhere can use EFF's SSL Observatory.  This does two things: (1)
-sends copies of HTTPS certificates to the Observatory, to help us
-detect 'man in the middle' attacks and improve the Web's security; and (2)
-lets us warn you about insecure connections or attacks on your browser.">
+"HTTPS हर जगह EFF के SSL ऑब्जर्वेटरी का उपयोग कर सकता हैं। यह दो चीजें करता है: (1)
+'मध्य में आदमी' हमलों का पता लगाने और वेब की सुरक्षा में सुधार करने में हमारी सहायता के लिए ऑब्जर्वेटरी में HTTPS प्रमाण पत्र की प्रतियां भेजती हैं; और (2) हमें आपको असुरक्षित कनेक्शन या आपके ब्राउज़र पर हमलों के बारे में चेतावनी देता है।">
 
 <!--<!ENTITY ssl-observatory.prefs.explanation2
 "When you visit https://www.example.com, the Observatory will learn that
@@ -70,16 +66,16 @@ Mouseover the options for further details:">-->
 <!ENTITY ssl-observatory.prefs.hide "उन्नत विकल्प छुपाएं">
 
 <!ENTITY ssl-observatory.prefs.nonanon 
-"Check certificates even if Tor is not available">
+"टोर उपलब्ध नहीं होने पर भी प्रमाणपत्र जांचें">
 
 <!ENTITY ssl-observatory.prefs.nonanon_tooltip
-"We will still try to keep the data anonymous, but this option is less secure">
+"हम अभी भी डेटा को अज्ञात रखने की कोशिश करेंगे, लेकिन यह विकल्प कम सुरक्षित है">
 
 <!ENTITY ssl-observatory.prefs.priv_dns 
-"Submit and check certificates for non-public DNS names">
+"गैर-सार्वजनिक DNS नामों के लिए प्रमाणपत्र जमा करें और जांचें">
 
 <!ENTITY ssl-observatory.prefs.priv_dns_tooltip
-"Unless this option is checked, the Observatory will not record certificates for names that it cannot resolve through the DNS system.">
+"जब तक यह विकल्प चेक नहीं किया जाता है, ऑब्जर्वेटरी उन नामों के लिए प्रमाणपत्र रिकॉर्ड नहीं करेगी जो इसे DNS सिस्टम के माध्यम से हल नहीं कर सकती हैं।">
 
 <!ENTITY ssl-observatory.prefs.show "उन्नत विकल्प दिखाएं">
 
@@ -89,8 +85,8 @@ Mouseover the options for further details:">-->
 <!ENTITY ssl-observatory.warning.title "EFF के SSL ऑब्जर्वेटरी से चेतावनी">
 <!ENTITY ssl-observatory.warning.showcert "प्रमाणपत्र श्रृंखला दिखाएं">
 <!ENTITY ssl-observatory.warning.okay "मैं समझता हूं">
-<!ENTITY ssl-observatory.warning.text "EFF's SSL Observatory has issued a warning about the HTTPS certificate(s) for this site:">
-<!ENTITY ssl-observatory.warning.defense "If you are logged in to this site, it may be advisable to change your password once you have a safe connection. (These warnings can be disabled in the &quot;SSL Observatory&quot; tab of the HTTPS Everywhere preferences dialog.)">
+<!ENTITY ssl-observatory.warning.text "EFF के SSL ऑब्जर्वेटरी ने इस साइट के HTTPS प्रमाणपत्र (त्रों ) के बारे में चेतावनी जारी की है:">
+<!ENTITY ssl-observatory.warning.defense "यदि आप इस साइट में लॉग इन हैं, तो आपके पास सुरक्षित कनेक्शन होने के बाद आपके पासवर्ड को बदलने की सलाह दी जा सकती है। (इन चेतावनियों को HTTPS हर जगह प्राथमिकता संवाद के &quot;SSL ऑब्जर्वेटरी&quot; टैब में अक्षम किया जा सकता है।)">
 
 <!ENTITY ssl-observatory.prefs.self_signed
 "स्वयं हस्ताक्षरित प्रमाणपत्र जमा करें और जांचें">
