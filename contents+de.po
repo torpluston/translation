@@ -2,7 +2,7 @@
 # Ettore Atalan <atalanttore@googlemail.com>, 2018
 # Roland Illig <roland.illig@gmx.de>, 2018
 # max weber, 2018
-# Niemand Jedermann <predatorix@web.de>, 2018
+# Niemand Jedermann, 2018
 # Julian Merkle <juli.merkle@gmail.com>, 2018
 # Lukas N <luki.niesen@gmail.com>, 2018
 # Jonathan Marquardt <parckwart_transifex@parckwart.de>, 2018
@@ -20,7 +20,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-09-06 23:17+CET\n"
+"POT-Creation-Date: 2018-09-07 10:41+CET\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Thelxinoe, 2018\n"
 "Language-Team: German (https://www.transifex.com/otf/teams/1519/de/)\n"
@@ -47,6 +47,11 @@ msgstr ""
 "Sei dir jedoch bewusst, dass dein anderer Browser deine Aktivitäten nicht "
 "privat behandelt und du versehentlich diesen unsicheren Browser für etwas "
 "verwendest, für das du eigentlich den Tor Browser nutzen wolltest."
+
+#: http//localhost/misc/misc-4/
+#: (content/misc/misc-4/contents+en.lrquestion.description)
+msgid "We do not recommend using Tor with BitTorrent."
+msgstr ""
 
 #: http//localhost/connecting/connecting-2/
 #: (content/connecting/connecting-2/contents+en.lrquestion.description)
@@ -339,15 +344,14 @@ msgstr ""
 msgid "$ sudo apt-get install tor deb.torproject.org-keyring"
 msgstr "$ sudo apt-get install tor deb.torproject.org-keyring"
 
-#: http//localhost/misc/misc-3/
-#: (content/misc/misc-3/contents+en.lrquestion.description)
+#: http//localhost/misc/misc-12/
+#: (content/misc/misc-12/contents+en.lrquestion.description)
 msgid ""
-"We feel that talking openly about our funders and funding model is the best "
-"way to maintain trust with our community."
+"Many exit nodes are configured to block certain types of file sharing "
+"traffic, such as BitTorrent."
 msgstr ""
-"Wir haben den Eindruck, dass transparent mit Spenden und "
-"Finanzierungsmöglichkeit umzugehen, am besten ist, um das Vertrauen unserer "
-"Gemeinschaft zu stärken."
+"Viele Austritts-Knoten sind so konfiguriert, Filesharing mit z.B. BitTorrent"
+" zu blockieren."
 
 #: http//localhost/censorship/censorship-4/
 #: (content/censorship/censorship-4/contents+en.lrquestion.seo_slug)
@@ -611,15 +615,6 @@ msgstr "<div class=\"col-md-6\">"
 msgid "* For OS X"
 msgstr "* Für OS X"
 
-#: http//localhost/misc/misc-12/
-#: (content/misc/misc-12/contents+en.lrquestion.description)
-msgid ""
-"Many exit nodes are configured to block certain types of file sharing "
-"traffic, such as bittorrent."
-msgstr ""
-"Viele Austritts-Knoten sind so konfiguriert, Filesharing mit z.B. bittorrent"
-" zu blockieren."
-
 #: http//localhost/tbb/tbb-21/
 #: (content/tbb/tbb-21/contents+en.lrquestion.description)
 msgid ""
@@ -877,6 +872,11 @@ msgstr "mehrere-tor-browser-betreiben"
 msgid "having-trouble-connecting-to-tor"
 msgstr "probleme-beim-verbinden-mit-tor"
 
+#: http//localhost/misc/misc-4/
+#: (content/misc/misc-4/contents+en.lrquestion.title)
+msgid "Can I use Tor with BitTorrent?"
+msgstr ""
+
 #: http//localhost/misc/misc-3/
 #: (content/misc/misc-3/contents+en.lrquestion.description)
 msgid ""
@@ -1070,11 +1070,6 @@ msgstr "Tor Mobile"
 #: (content/misc/misc-12/contents+en.lrquestion.title)
 msgid "How can I share files anonymously through Tor?"
 msgstr "Kann ich mit Tor Dateien anonym teilen?"
-
-#: http//localhost/misc/misc-4/
-#: (content/misc/misc-4/contents+en.lrquestion.description)
-msgid "We do not recommend using Tor with bittorrent."
-msgstr "Wir empfehlen es nicht, Tor zusammen mit Bittorrent zu nutzen."
 
 #: http//localhost/tbb/tbb-10/
 #: (content/tbb/tbb-10/contents+en.lrquestion.description)
@@ -1343,6 +1338,15 @@ msgstr ""
 msgid "<img class=\"card-img-top\" src=\"/static/images/image6.png\" alt=\"https\">"
 msgstr "<img class=\"card-img-top\" src=\"/static/images/image6.png\" alt=\"https\">"
 
+#: http//localhost/misc/misc-12/
+#: (content/misc/misc-12/contents+en.lrquestion.description)
+msgid ""
+"BitTorrent in specific is <mark><a href=\"https://blog.torproject.org"
+"/bittorrent-over-tor-isnt-good-idea\">not anonymous over Tor</a></mark>."
+msgstr ""
+"BitTorrent im Besonderen ist <mark><a href=\"https://blog.torproject.org"
+"/bittorrent-over-tor-isnt-good-idea\">nicht anonym über Tor</a></mark>."
+
 #: http//localhost/tbb/tbb-11/
 #: (content/tbb/tbb-11/contents+en.lrquestion.description)
 msgid ""
@@ -1406,6 +1410,13 @@ msgstr ""
 "Um ein Relay zu betreiben, siehe unsere <mark><a "
 "href=\"https://trac.torproject.org/projects/tor/wiki/TorRelayGuide\">Relay-"
 "Anleitung</a></mark>."
+
+#: http//localhost/onionservices/onionservices-2/
+#: (content/onionservices/onionservices-2/contents+en.lrquestion.description)
+msgid ""
+"<h4 class=\"card-title\">Green onion with a padlock to identify .onion "
+"website with https</h4>"
+msgstr ""
 
 #: http//localhost/operators/operators-4/
 #: (content/operators/operators-4/contents+en.lrquestion.description)
@@ -1877,6 +1888,16 @@ msgstr ""
 #: (content/censorship/censorship-5/contents+en.lrquestion.description)
 msgid "###### Common log error #1: Proxy connection failure"
 msgstr "###### Üblicher Fehler #1: Proxy-Verbindungsfehler"
+
+#: http//localhost/misc/misc-3/
+#: (content/misc/misc-3/contents+en.lrquestion.description)
+msgid ""
+"We feel that talking openly about our funders and funding model is the best "
+"way to maintain trust with our community."
+msgstr ""
+"Wir haben den Eindruck, dass transparent mit Spenden und "
+"Finanzierungsmöglichkeit umzugehen, am besten ist, um das Vertrauen unserer "
+"Gemeinschaft zu stärken."
 
 #: http//localhost/tbb/tbb-9/
 #: (content/tbb/tbb-9/contents+en.lrquestion.seo_slug)
@@ -2889,15 +2910,6 @@ msgstr ""
 msgid "I'm having a problem updating or using Vidalia."
 msgstr "Ich habe ein Problem, Vidalia zu benutzen."
 
-#: http//localhost/misc/misc-12/
-#: (content/misc/misc-12/contents+en.lrquestion.description)
-msgid ""
-"Bittorrent in specific is <mark><a href=\"https://blog.torproject.org"
-"/bittorrent-over-tor-isnt-good-idea\">not anonymous over Tor</a></mark>."
-msgstr ""
-"BitTorrent im Besonderen ist <mark><a href=\"https://blog.torproject.org"
-"/bittorrent-over-tor-isnt-good-idea\">nicht anonym über Tor</a></mark>."
-
 #: http//localhost/tbb/tbb-20/
 #: (content/tbb/tbb-20/contents+en.lrquestion.description)
 #: http//localhost/connecting/connecting-1/
@@ -3170,13 +3182,6 @@ msgstr ""
 #: http//localhost/misc/ (content/misc/contents+en.lrtopic.title)
 msgid "Misc"
 msgstr "Verschiedenes"
-
-#: http//localhost/onionservices/onionservices-2/
-#: (content/onionservices/onionservices-2/contents+en.lrquestion.description)
-msgid ""
-"<h4 class=\"card-title\">Green onion with a padloack to identify .onion "
-"website with https</h4>"
-msgstr ""
 
 #: http//localhost/tbb/tbb-10/
 #: (content/tbb/tbb-10/contents+en.lrquestion.description)
@@ -3473,11 +3478,6 @@ msgid ""
 msgstr ""
 "Es gibt bisher keine offizielle Version von Tor für iOS, aber wir empfehlen "
 "<mark><a href=\"https://onionbrowser.com/\">OnionBrowser</a></mark>."
-
-#: http//localhost/misc/misc-4/
-#: (content/misc/misc-4/contents+en.lrquestion.title)
-msgid "Can I use Tor with bittorrent?"
-msgstr "Funktioniert Tor mit bittorrent?"
 
 #: http//localhost/operators/operators-3/
 #: (content/operators/operators-3/contents+en.lrquestion.description)
