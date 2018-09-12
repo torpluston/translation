@@ -19,7 +19,7 @@ msgstr ""
 "Project-Id-Version: The Tor Project\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-09-04 09:36+0200\n"
-"PO-Revision-Date: 2018-09-12 21:15+0000\n"
+"PO-Revision-Date: 2018-09-12 21:43+0000\n"
 "Last-Translator: Zuhualime Akoochimoya\n"
 "Language-Team: Spanish (Argentina) (http://www.transifex.com/otf/torproject/language/es_AR/)\n"
 "MIME-Version: 1.0\n"
@@ -239,7 +239,7 @@ msgstr "La unidad es virtual, omitiendo el restablecimiento del MBR"
 #: ../tails_installer/creator.py:1326 ../tails_installer/creator.py:1580
 #, python-format
 msgid "Calculating the SHA1 of %s"
-msgstr "Calculando el SHA1 de %s"
+msgstr "Calculando el checksum SHA1 de %s"
 
 #: ../tails_installer/creator.py:1351
 msgid "Synchronizing data on disk..."
@@ -256,14 +256,14 @@ msgstr "No se encontraron dispositivos soportados"
 #: ../tails_installer/creator.py:1405
 msgid ""
 "Make sure your USB key is plugged in and formatted with the FAT filesystem"
-msgstr "Asegúrese de que su dispositivo USB está conectado y formateado con un sistema de archivos FAT"
+msgstr "Asegúrese de que su dispositivo USB está conectado y formateado con el sistema de archivos FAT"
 
 #: ../tails_installer/creator.py:1408
 #, python-format
 msgid ""
 "Unsupported filesystem: %s\n"
 "Please backup and format your USB key with the FAT filesystem."
-msgstr "Sistema de archivos no soportado: %s\nHaga un respaldo de los datos y formatee su dispositivo USB con un sistema de archivos FAT."
+msgstr "Sistema de archivos no soportado: %s\nHaga un respaldo de los datos y formatee su dispositivo USB con el sistema de archivos FAT."
 
 #: ../tails_installer/creator.py:1475
 msgid ""
@@ -272,13 +272,13 @@ msgstr "No se pudo obtener Win32_LogicalDisk; la consulta a win32com no retornó
 
 #: ../tails_installer/creator.py:1528
 msgid "Cannot find"
-msgstr "No se encontró"
+msgstr "No se pudo encontrar"
 
 #: ../tails_installer/creator.py:1529
 msgid ""
 "Make sure to extract the entire tails-installer zip file before running this"
 " program."
-msgstr "Asegurate de extraer todo el archivo zip del instalador de Tails  antes de ejecutar este programa."
+msgstr "Asegúrese de extraer todos los archivos del instalador de Tails antes de ejecutar este programa."
 
 #: ../tails_installer/gui.py:69
 #, python-format
@@ -322,7 +322,7 @@ msgstr "Clonar el Tails actual"
 
 #: ../tails_installer/gui.py:430 ../data/tails-installer.ui.h:3
 msgid "Use a downloaded Tails ISO image"
-msgstr "Usar una imagen ISO de Tails descargada"
+msgstr "Usar una imagen ISO de Tails ya descargada"
 
 #: ../tails_installer/gui.py:467
 msgid "Upgrade"
@@ -330,7 +330,7 @@ msgstr "Actualizar"
 
 #: ../tails_installer/gui.py:469
 msgid "Manual Upgrade Instructions"
-msgstr "Instrucciones para reemplazar manualmente por versión más nueva"
+msgstr "Instrucciones para actualización manual"
 
 #: ../tails_installer/gui.py:471
 msgid "https://tails.boum.org/upgrade/"
@@ -359,7 +359,7 @@ msgstr "No se seleccionó imagen ISO"
 
 #: ../tails_installer/gui.py:503
 msgid "Please select a Tails ISO image."
-msgstr "Por favor seleccioná una imagen ISO de Tails"
+msgstr "Por favor seleccione una imagen ISO de Tails"
 
 #: ../tails_installer/gui.py:545
 msgid "No device suitable to install Tails could be found"
@@ -368,7 +368,7 @@ msgstr "No pudo ser encontrado ningún dispositivo adecuado para instalar Tails"
 #: ../tails_installer/gui.py:547
 #, python-format
 msgid "Please plug a USB flash drive or SD card of at least %0.1f GB."
-msgstr "Por favor conecta una memoria USB o tarjeta SD de al menos %0.1f GB."
+msgstr "Por favor conecte una memoria USB o tarjeta SD de al menos %0.1f GB."
 
 #: ../tails_installer/gui.py:581
 #, python-format
@@ -376,21 +376,21 @@ msgid ""
 "The USB stick \"%(pretty_name)s\" is configured as non-removable by its "
 "manufacturer and Tails will fail to start on it. Please try installing on a "
 "different model."
-msgstr "La memoria USB \"%(pretty_name)s\" está configurada como no-removible por su fabricante y Tails fallará al iniciar desde ella. Por favor intenta instalando en un modelo distinto."
+msgstr "El pendrive \"%(pretty_name)s\" está configurado como no-removible por su fabricante y Tails fallará al iniciar desde él. Por favor intente instalando en un modelo distinto."
 
 #: ../tails_installer/gui.py:591
 #, python-format
 msgid ""
 "The device \"%(pretty_name)s\" is too small to install Tails (at least "
 "%(size)s GB is required)."
-msgstr "El dispositivo  \"%(pretty_name)s\" tiene poca capacidad para instalar Tails( se necesita al menos %(size)s GB )."
+msgstr "El dispositivo  \"%(pretty_name)s\" tiene poca capacidad para instalar Tails (se necesitan al menos %(size)s GB)."
 
 #: ../tails_installer/gui.py:604
 #, python-format
 msgid ""
 "To upgrade device \"%(pretty_name)s\" from this Tails, you need to use a downloaded Tails ISO image:\n"
 "https://tails.boum.org/install/download"
-msgstr "Para reemplazar por una versión más nueva del dispositivo \"%(pretty_name)s\" desde éste Tails, necesitás usar una imagen ISO de Tails descargada de:\nhttps://tails.boum.org/install/download"
+msgstr "Para actualizar el dispositivo \"%(pretty_name)s\" desde éste Tails, necesita usar una imagen ISO de Tails descargada de:\nhttps://tails.boum.org/install/download"
 
 #: ../tails_installer/gui.py:625
 msgid "An error happened while installing Tails"
@@ -414,7 +414,7 @@ msgstr "No se pudo montar el dispositivo"
 
 #: ../tails_installer/gui.py:751 ../tails_installer/gui.py:783
 msgid "Confirm the target USB stick"
-msgstr "Confirmá el pendrive objetivo"
+msgstr "Confirme el pendrive de destino"
 
 #: ../tails_installer/gui.py:752
 #, python-format
@@ -477,7 +477,7 @@ msgstr "Incapaz de encontrar LiveOS en ISO"
 #: ../tails_installer/source.py:34
 #, python-format
 msgid "Could not guess underlying block device: %s"
-msgstr "No se pudo adivinar el dispositivo de bloque subyacente: %s"
+msgstr "No se pudo suponer cual es el dispositivo de bloque subyacente: %s"
 
 #: ../tails_installer/source.py:49
 #, python-format
@@ -519,7 +519,7 @@ msgstr "Selecciona una distribución para descargar:"
 
 #: ../data/tails-installer.ui.h:5
 msgid "Target USB stick:"
-msgstr "Pendrive objetivo:"
+msgstr "Pendrive de destino:"
 
 #: ../data/tails-installer.ui.h:6
 msgid "Reinstall (delete all data)"
