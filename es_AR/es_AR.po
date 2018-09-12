@@ -18,8 +18,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: The Tor Project\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-08-16 11:40+0200\n"
-"PO-Revision-Date: 2018-08-18 01:03+0000\n"
+"POT-Creation-Date: 2018-09-04 09:36+0200\n"
+"PO-Revision-Date: 2018-09-12 21:15+0000\n"
 "Last-Translator: Zuhualime Akoochimoya\n"
 "Language-Team: Spanish (Argentina) (http://www.transifex.com/otf/torproject/language/es_AR/)\n"
 "MIME-Version: 1.0\n"
@@ -50,21 +50,21 @@ msgstr "Ocurrió un problema ejecutando la siguiente instrucción: `%(command)s`
 
 #: ../tails_installer/creator.py:315
 msgid "Verifying SHA1 checksum of LiveCD image..."
-msgstr "Verificando SHA1 checksum de la imagen del LiveCD..."
+msgstr "Verificando el checksum SHA1 de la imagen del LiveCD..."
 
 #: ../tails_installer/creator.py:319
 msgid "Verifying SHA256 checksum of LiveCD image..."
-msgstr "Verificando SHA256 checksum de la imagen del LiveCD..."
+msgstr "Verificando el checksum SHA256 de la imagen del LiveCD..."
 
 #: ../tails_installer/creator.py:335
 msgid ""
 "Error: The SHA1 of your Live CD is invalid.  You can run this program with "
 "the --noverify argument to bypass this verification check."
-msgstr "Error: El SHA1 de su Live CD es invalido. Puede ejecutar este programa con --noverify como argumento para omitir esta verificación."
+msgstr "Error: El checksum SHA1 de su LiveCD es inválido. Puede ejecutar este programa con --noverify como argumento para omitir esta verificación."
 
 #: ../tails_installer/creator.py:341
 msgid "Unknown ISO, skipping checksum verification"
-msgstr "ISO desconosida, omitiendo verificación de checksum..."
+msgstr "ISO desconocida, omitiendo verificación de checksum..."
 
 #: ../tails_installer/creator.py:353
 #, python-format
@@ -85,7 +85,7 @@ msgstr "No se pudo copiar %(infile)s a %(outfile)s: %(message)s"
 
 #: ../tails_installer/creator.py:435
 msgid "Removing existing Live OS"
-msgstr "Eliminando Live OS existente"
+msgstr "Eliminando LiveOS existente"
 
 #: ../tails_installer/creator.py:444 ../tails_installer/creator.py:456
 #, python-format
@@ -95,7 +95,7 @@ msgstr "No se pudo cambiar los permisos de acceso a %(file)s: %(message)s"
 #: ../tails_installer/creator.py:449
 #, python-format
 msgid "Unable to remove file from previous LiveOS: %(message)s"
-msgstr "No se pudiero borrar archivos del anterior LiveOS: %(message)s"
+msgstr "No se pudieron borrar archivos del anterior LiveOS: %(message)s"
 
 #: ../tails_installer/creator.py:462
 #, python-format
@@ -150,7 +150,7 @@ msgstr "Ejecutando unmount_device para '%(device)s'"
 #: ../tails_installer/creator.py:836
 #, python-format
 msgid "Unmounting mounted filesystems on '%(device)s'"
-msgstr "Desmontando sistema de archivos de '%(device)s'"
+msgstr "Desmontando sistemas de archivos montados en '%(device)s'"
 
 #: ../tails_installer/creator.py:840
 #, python-format
@@ -170,7 +170,7 @@ msgstr "Particionando dispositivo %(device)s"
 #: ../tails_installer/creator.py:993
 #, python-format
 msgid "Unsupported device '%(device)s', please report a bug."
-msgstr "El dispositivo '%(device)s' no está soportado, por favor envíe un informe de fallos"
+msgstr "El dispositivo '%(device)s' no está soportado, por favor envíe un informe de fallos."
 
 #: ../tails_installer/creator.py:996
 msgid "Trying to continue anyway."
@@ -192,7 +192,7 @@ msgstr "Instalando el gestor de arranque..."
 #: ../tails_installer/creator.py:1061
 #, python-format
 msgid "Could not find the '%s' COM32 module"
-msgstr "No se pudo encontrar el módulo '%s' COM32"
+msgstr "No se pudo encontrar el módulo COM32 '%s'"
 
 #: ../tails_installer/creator.py:1069 ../tails_installer/creator.py:1452
 #, python-format
@@ -215,7 +215,7 @@ msgstr "Formateando %(device)s como FAT32"
 
 #: ../tails_installer/creator.py:1286
 msgid "Could not find syslinux' gptmbr.bin"
-msgstr "No se pudo encontrar syslinux' gptmbr.bin"
+msgstr "No se pudo encontrar el archivo gptmbr.bin de SYSLINUX"
 
 #: ../tails_installer/creator.py:1299
 #, python-format
@@ -294,12 +294,12 @@ msgstr "Descargando %s..."
 msgid ""
 "Error: Cannot set the label or obtain the UUID of your device.  Unable to "
 "continue."
-msgstr "Error: No se pudo establecer u obtener el UUID de su dispositivo. No se puede continuar."
+msgstr "Error: No se pudo establecer la etiqueta u obtener el UUID de su dispositivo. No se puede continuar."
 
 #: ../tails_installer/gui.py:260
 #, python-format
 msgid "Installation complete! (%s)"
-msgstr "Instalación completa! (%s)"
+msgstr "¡Instalación completa! (%s)"
 
 #: ../tails_installer/gui.py:265
 msgid "Tails installation failed!"
@@ -451,7 +451,7 @@ msgstr "Descarga fallida:"
 
 #: ../tails_installer/gui.py:826
 msgid "You can try again to resume your download"
-msgstr "Puedes intentar de nuevo para reanudar tu descarga"
+msgstr "Puede intentar reanudar su descarga de nuevo"
 
 #: ../tails_installer/gui.py:834
 msgid ""
@@ -463,7 +463,7 @@ msgstr "No se pudo leer el archivo seleccionado. Por favor cambie los permisos o
 msgid ""
 "Unable to use the selected file.  You may have better luck if you move your "
 "ISO to the root of your drive (ie: C:\\)"
-msgstr "Imposible usar el archivo seleccionado. Quizás tenga mejor suerte si mueve su ISO a la carpeta de raíz de la unidad (ej: C:\\)"
+msgstr "Imposible usar el archivo seleccionado. Quizás tenga mejor suerte si mueve su ISO a la carpeta raíz de su unidad (ej: C:\\)"
 
 #: ../tails_installer/gui.py:846
 #, python-format
