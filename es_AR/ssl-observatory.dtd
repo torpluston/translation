@@ -30,31 +30,32 @@ te encontrés en una red corporativa muy invasiva:">
 "Enviar y verificar los certificados firmados por Autoridades de Certificación no estándar">
 
 <!ENTITY ssl-observatory.prefs.alt_roots_tooltip 
-"Es seguro (y una buena idea) habilitar esta opción, a menos que uses una red corporativa intrusiva o el antivirus Kaspersky que monitorea tu navegación con un proxy TLS y un Certificado de Autoridad de raíz privado. Si se habilita en dicha red, esta opción puede presentar evidencia de que dominios https:// estaban siendo visitados a través del proxy, debido a los certificados únicos que produciría. Por eso lo dejamos apagado por defecto.">
+"Es seguro (y una buena idea) habilitar esta opción, a menos que uses una red corporativa invasiva o el antivirus Kaspersky que monitorea tu navegación con un proxy TLS y una Autoridad de Certificados Raices privada. Si se habilita en dicha red, esta opción puede publicar evidencia de qué dominios https:// estaban siendo visitados a través del proxy, debido a los certificados únicos que produciría. Por eso la dejamos apagada por defecto.">
 
-<!ENTITY ssl-observatory.prefs.anonymous "Compruebe certificados usando Tor para el anonimato">
+<!ENTITY ssl-observatory.prefs.anonymous "Comprobar certificados usando Tor para el anonimato">
 <!ENTITY ssl-observatory.prefs.anonymous_unavailable 
-"Compruebe certificados usando Tor para el anonimato (requiere Tor)">
+"Comprobar certificados usando Tor para el anonimato (requiere Tor)">
 <!ENTITY ssl-observatory.prefs.anonymous_tooltip 
-"Esta opción requiere Tor para ser instalado y en ejecución">
+"Esta opción requiere que Tor sea instalado y esté en ejecución">
 
 <!ENTITY ssl-observatory.prefs.asn 
 "Cuando veas un nuevo certificado, avisale al Observatorio a que ISP estás conectado">
 
 <!ENTITY ssl-observatory.prefs.asn_tooltip
-"Esto buscará y enviará el &quot;número de sistema autónomo&quot; de su red. El fin es ayudar a localizar ataques contra HTTPS y determinar si tenemos observaciones de redes en lugares como Irán y Siria donde los mismos son muy comunes.">
+"Esto traerá y enviará el &quot;número de sistema autónomo&quot; de tu red. Nos ayudará a localizar ataques contra HTTPS, y determinar si tenemos observaciones de redes en lugares como Irán y Siria donde los mismos son comparativamente comunes.">
 
 <!ENTITY ssl-observatory.prefs.show_cert_warning
 "Mostrar una advertencia cuando el Observatorio detecte un certificado revocado no atrapado por tu navegador">
 
 <!ENTITY ssl-observatory.prefs.show_cert_warning_tooltip
-"Esto verificará los certificados presentados contra las listas de revocación de certificados conocidas. Desafortunadamente no podemos garantizar que marcaremos todos los certificados revocados, pero si ves una advertencia hay una buena probabilidad de que algo esté mal.">
+"Esto comprobará los certificados enviados contra listas de revocación de certificados conocidas. Desafortunadamente no podemos garantizar que marcaremos todos los certificados revocados, pero si ves una advertencia hay una buena probabilidad de que algo esté mal.">
 
 <!ENTITY ssl-observatory.prefs.done "Hecho">
 
 <!ENTITY ssl-observatory.prefs.explanation 
-"HTTPS En cada lugar se puede utilizar el Observatorio SSL de EFF. Esto hace dos cosas: (1) envía copias de los certificados HTTPS al Observatorio, para ayudarnos a detectar ataques de &quot;hombre en el medio&quot; y mejorar la seguridad de la Web; 
-Y (2) nos permite advertirle sobre conexiones inseguras o ataques en su navegador.">
+"HTTPS Everywhere puede utilizar el Observatorio SSL de EFF. Esto hace dos cosas: (1) envía copias de los certificados HTTPS al Observatorio, para ayudarnos
+a detectar ataques de &quot;hombre en el medio&quot; y mejorar la seguridad de la Web; y (2)
+nos permite advertirte sobre conexiones inseguras o ataques en tu navegador.">
 
 <!--<!ENTITY ssl-observatory.prefs.explanation2
 "When you visit https://www.example.com, the Observatory will learn that
@@ -63,7 +64,7 @@ Mouseover the options for further details:">-->
 
 <!ENTITY ssl-observatory.prefs.explanation2
 
-"Por ejemplo, cuando visite https://www.something.com, el certificado
+"Por ejemplo, cuando visites https://www.something.com, el certificado
 recibido por el Observatorio indicará que alguien visitó
 www.something.com, pero no quién visitó el sitio, ni qué página
 específica miraron. Pase el mouse sobre las opciones para obtener más detalles:">
@@ -80,7 +81,7 @@ específica miraron. Pase el mouse sobre las opciones para obtener más detalles
 "Enviar y comprobar certificados para nombres DNS no-públicos">
 
 <!ENTITY ssl-observatory.prefs.priv_dns_tooltip
-"A menos que se verifique esta opción, el Observatorio no registrará certificados para nombres que no pueda resolver a través del sistema DNS.">
+"A menos que se active esta opción, el Observatorio no registrará certificados para nombres que no pueda resolver a través del DNS.">
 
 <!ENTITY ssl-observatory.prefs.show "Mostrar opciones avanzadas">
 
@@ -90,10 +91,10 @@ específica miraron. Pase el mouse sobre las opciones para obtener más detalles
 <!ENTITY ssl-observatory.warning.title "ADVERTENCIA del Observatorio SSL de EFF">
 <!ENTITY ssl-observatory.warning.showcert "Mostrar la cadena de certificado">
 <!ENTITY ssl-observatory.warning.okay "Entiendo">
-<!ENTITY ssl-observatory.warning.text "SSL Observatory, de la Fundación Frontera Electrónica, ha emitido una advertencia acerca de el/los certificado(s) HTTPS para éste sitio:">
-<!ENTITY ssl-observatory.warning.defense "Si ha iniciado sesión en este sitio, puede ser aconsejable cambiar su contraseña una vez que tenga una conexión segura. (Estas advertencias se pueden desactivar en la pestaña &quot;Observatorio SSL&quot; del diálogo de preferencias HTTPS Everywhere).">
+<!ENTITY ssl-observatory.warning.text "El Observatorio SSL, de la Fundación Frontera Electrónica, ha emitido una advertencia acerca de el/los certificado(s) HTTPS para éste sitio:">
+<!ENTITY ssl-observatory.warning.defense "Si has iniciado sesión en este sitio, puede ser aconsejable cambiar tu contraseña una vez que tengas una conexión segura. (Estas advertencias se pueden desactivar en la pestaña &quot;Observatorio SSL&quot; del diálogo de preferencias de HTTPS Everywhere).">
 
 <!ENTITY ssl-observatory.prefs.self_signed
-"Enviar y verificar firma de certificados">
+"Enviar y verificar certificados autofirmados">
 <!ENTITY ssl-observatory.prefs.self_signed_tooltip
 "Recomendación: Los problemas criptográficos son especialmente comunes en dispositivos con auto firma">
