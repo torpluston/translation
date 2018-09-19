@@ -188,7 +188,7 @@ msgstr ""
 #: http//localhost/tbb/tbb-28/
 #: (content/tbb/tbb-28/contents+en.lrquestion.description)
 msgid "* Delete the Tor Browser folder or application."
-msgstr "* Borrá la carpeta navegador Tor o la aplicación."
+msgstr "* Borrá la carpeta del navegador Tor o la aplicación."
 
 #: http//localhost/faq/faq-3/
 #: (content/faq/faq-3/contents+en.lrquestion.description)
@@ -198,8 +198,9 @@ msgid ""
 "It's strongly discouraged to install new add-ons in Tor Browser, because "
 "they can compromise your privacy and security."
 msgstr ""
-"Está fuertemente recomendado no instalar nuevos complementos en el navegador"
-" Tor, porque los mismos pueden comprometer tu privacidad y seguridad."
+"Está enfáticamente recomendado no instalar nuevos complementos en el "
+"navegador Tor, porque los mismos pueden comprometer tu privacidad y "
+"seguridad."
 
 #: http//localhost/tbb/tbb-34/
 #: (content/tbb/tbb-34/contents+en.lrquestion.description)
@@ -210,8 +211,8 @@ msgid ""
 msgstr ""
 "Para usuarios que quieren tener Javascript deshabilitado por defecto en "
 "todos los sitios HTTP, recomendamos cambiar la regla deslizante de seguridad"
-" en tu navegador Tor (en el menú Cebolla del navegador Tor, bajo \"Ajustes "
-"de Seguridad\")."
+" en tu navegador Tor (en el menú Onion del navegador Tor, bajo \"Ajustes de "
+"Seguridad\")."
 
 #: http//localhost/faq/ (content/faq/contents+en.lrtopic.seo_slug)
 msgid "faq"
@@ -223,8 +224,8 @@ msgid ""
 "These services use the special-use tld .onion (instead of "
 ".com,.net,.org,etc..) and are only accessible through the Tor network."
 msgstr ""
-"Estos servicios usan el dominio de nivel tope especial .onion (en vez de "
-".com, .net, .org, etc.) y solamente son accesibles a través de la red de "
+"Estos servicios usan especialmente el dominio de nivel tope .onion (en vez "
+"de .com, .net, .org, etc.) y solamente son accesibles a través de la red de "
 "Tor."
 
 #: http//localhost/tbb/tbb-7/ (content/tbb/tbb-7/contents+en.lrquestion.title)
@@ -232,8 +233,8 @@ msgstr ""
 #: (content/censorship/censorship-2/contents+en.lrquestion.title)
 msgid "A website I am trying to reach is blocking access over Tor."
 msgstr ""
-"Un sitio web al que estoy intentando alcanzar está bloqueando el acceso "
-"sobre Tor."
+"Un sitio web al que estoy intentando entrar está bloqueando el acceso "
+"mediante Tor."
 
 #: http//localhost/misc/misc-6/
 #: (content/misc/misc-6/contents+en.lrquestion.title)
@@ -260,7 +261,7 @@ msgstr ""
 #: http//localhost/onionservices/onionservices-2/
 #: (content/onionservices/onionservices-2/contents+en.lrquestion.title)
 msgid "What is a .onion or what are onion services?"
-msgstr "¿Qué es un .onion o qué son servicios \"cebolla\"?"
+msgstr "¿Qué es un .onion o qué son servicios onion?"
 
 #: http//localhost/misc/misc-12/
 #: (content/misc/misc-12/contents+en.lrquestion.description)
@@ -279,7 +280,7 @@ msgstr "No."
 #: http//localhost/tbb/tbb-25/
 #: (content/tbb/tbb-25/contents+en.lrquestion.seo_slug)
 msgid "problem-noscript"
-msgstr "problema-noscript"
+msgstr "problema-de-noscript"
 
 #: http//localhost/operators/operators-4/
 #: (content/operators/operators-4/contents+en.lrquestion.description)
@@ -515,7 +516,7 @@ msgid ""
 "* Make sure tor starts on boot by running \"sysrc tor_enable=YES\" (as root)"
 msgstr ""
 "* Asegurate que tor arranque en la inicialización del sistema corriendo "
-"\"sysrc tor_enable=YES\" (como root)."
+"\"sysrc tor_enable=YES\" (como superusuario)."
 
 #: http//localhost/connecting/connecting-3/
 #: (content/connecting/connecting-3/contents+en.lrquestion.description)
@@ -526,7 +527,7 @@ msgid ""
 "allowed it to go offline without warning."
 msgstr ""
 "Puede haber una dificultad temporaria de conexión, o los operadores del "
-"sitio pueden haberle permitido ir fuera de línea sin advertencias."
+"sitio pueden haberlo sacado de línea sin ninguna advertencia."
 
 #: http//localhost/misc/misc-10/
 #: (content/misc/misc-10/contents+en.lrquestion.description)
@@ -582,7 +583,7 @@ msgid ""
 "Sorry, but there is currently no official support for running Tor Browser on"
 " *BSD."
 msgstr ""
-"Lo lamentamos, pero no hay por el momento soporte oficial para correr el "
+"Lo lamentamos, pero no hay al momento soporte oficial para correr el "
 "navegador Tor en *BSD."
 
 #: http//localhost/https/https-1/
@@ -607,7 +608,7 @@ msgstr ""
 #: http//localhost/operators/operators-3/
 #: (content/operators/operators-3/contents+en.lrquestion.description)
 msgid "* Run \"pkg install tor\" (as root)."
-msgstr "* Corré \"pkg install tor\" (como root)."
+msgstr "* Corré \"pkg install tor\" (como superusuario)."
 
 #: http//localhost/misc/misc-15/
 #: (content/misc/misc-15/contents+en.lrquestion.seo_slug)
@@ -623,10 +624,9 @@ msgid ""
 "handshake with directory server. (DONE; DONE; count 10; recommendation warn;"
 " host [host] at xxx.xxx.xxx.xx:xxx)"
 msgstr ""
-"13-11-17 19:53:49.300 [ADVERTENCIA] Problema inicializando. Trabado en 10%: "
-"Finalizando intercambio para sincronización con el servidor de directorio. "
-"(HECHO; HECHO; conteo 10; recomendación de advertencia; servidor [servidor] "
-"a xxx.xxx.xxx.xx:xxx)"
+"13-11-17 19:53:49.300 [WARN] Problem bootstrapping. Stuck at 10%: Finishing "
+"handshake with directory server. (DONE; DONE; count 10; recommendation warn;"
+" host [host] at xxx.xxx.xxx.xx:xxx)"
 
 #: http//localhost/connecting/connecting-1/
 #: (content/connecting/connecting-1/contents+en.lrquestion.seo_slug)
@@ -649,8 +649,8 @@ msgid ""
 "If law enforcement becomes interested in traffic from your exit relay, it's "
 "possible that officers will seize your computer."
 msgstr ""
-"Si las fuerzas policiales se tornan interesadas en tráfico desde tu relevo "
-"de salida, es posible que los oficiales encauten tu computadora."
+"Si las fuerzas policiales se mostraran interesadas en el tráfico desde tu "
+"relevo de salida, es posible que los oficiales encauten tu computadora."
 
 #: http//localhost/censorship/censorship-7/
 #: (content/censorship/censorship-7/contents+en.lrquestion.description)
@@ -675,7 +675,7 @@ msgid ""
 "If you are still unable to connect to the onion service, please try again "
 "later."
 msgstr ""
-"Si aún no sos capaz de conectar al servicio cebolla, por favor intenta de "
+"Si aún no sos capaz de conectar al servicio onion, por favor intentá de "
 "nuevo más tarde."
 
 #: http//localhost/tormobile/tormobile-3/
