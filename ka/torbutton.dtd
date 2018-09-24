@@ -1,7 +1,7 @@
 <!ENTITY torbutton.context_menu.new_identity "ახალი ვინაობა">
-<!ENTITY torbutton.context_menu.new_identity_key "I">
+<!ENTITY torbutton.context_menu.new_identity_key "ვ">
 <!ENTITY torbutton.context_menu.new_circuit "ახალი Tor-წრედი ამ საიტისთვის">
-<!ENTITY torbutton.context_menu.new_circuit_key "C">
+<!ENTITY torbutton.context_menu.new_circuit_key "წ">
 <!ENTITY torbutton.context_menu.preferences "უსაფრთხოების პარამეტრები">
 <!ENTITY torbutton.context_menu.preferences.key "უ">
 <!ENTITY torbutton.context_menu.networksettings "Tor-ქსელის პარამეტრები...">
@@ -9,11 +9,11 @@
 <!ENTITY torbutton.context_menu.downloadUpdate "Tor-ბრაუზერის განახლებებზე შემოწმება...">
 <!ENTITY torbutton.context_menu.downloadUpdate.key "გ">
 <!ENTITY torbutton.context_menu.cookieProtections "ფუნთუშების დაცვა...">
-<!ENTITY torbutton.context_menu.cookieProtections.key "C">
-<!ENTITY torbutton.button.tooltip "Click to initialize Torbutton">
+<!ENTITY torbutton.context_menu.cookieProtections.key "ფ">
+<!ENTITY torbutton.button.tooltip "დააწკაპეთ Torbutton-ის გასაშვებად">
 <!ENTITY torbutton.prefs.security_settings "Tor-ბრაუზერის უსაფრთხოების პარამეტრები">
-<!ENTITY torbutton.prefs.restore_defaults "გაჩუმების პრინციპით დაყენებული პარამეტრების აღდგენა">
-<!ENTITY torbutton.prefs.custom_warning "Your custom browser preferences have resulted in unusual security settings. For security and privacy reasons, we recommend you choose one of the default security levels.">
+<!ENTITY torbutton.prefs.restore_defaults "ნაგულისხმევის აღდგენა">
+<!ENTITY torbutton.prefs.custom_warning "თქვენ მიერ მითითებული პარამეტრები ბრაუზერში, არაა მისაღები უსაფრთხოებისთვის. პირადი მონაცემების სათანადოდ დაცვის უზრუნველსაყოფად, გირჩევთ შეარჩიოთ უსაფრთხოების ნაგულისხმევი დონეებიდან რომელიმე.">
 <!ENTITY torbutton.cookiedialog.title "ფუნთუშების უსაფრთხოების მართვა">
 <!ENTITY torbutton.cookiedialog.lockCol "დაცულია">
 <!ENTITY torbutton.cookiedialog.domainCol "მისამართი">
@@ -22,11 +22,11 @@
 <!ENTITY torbutton.cookiedialog.protectCookie "ფუნთუშის დაცვა">
 <!ENTITY torbutton.cookiedialog.removeCookie "ფუნთუშის მოცილება">
 <!ENTITY torbutton.cookiedialog.unprotectCookie "ფუნთუშის დაცვის მოხსნა">
-<!ENTITY torbutton.cookiedialog.removeAllBut "Remove All But Protected">
+<!ENTITY torbutton.cookiedialog.removeAllBut "ყველას მოცილება დაცულების გარდა">
 <!ENTITY torbutton.cookiedialog.saveAllCookies "ახალი ფუნთუშების დაცვა">
-<!ENTITY torbutton.cookiedialog.doNotSaveAllCookies "Do Not Protect New Cookies">
-<!ENTITY torbutton.prefs.restrict_thirdparty "Restrict third party cookies and other tracking data">
-<!ENTITY torbutton.prefs.restrict_thirdparty.accesskey "R">
+<!ENTITY torbutton.cookiedialog.doNotSaveAllCookies "ახალი ფუნთუშების დაცვის შეჩერება">
+<!ENTITY torbutton.prefs.restrict_thirdparty "მესამე მხარის ფუნთუშებისა და სხვა მეთვალყურეების შეზღუდვა">
+<!ENTITY torbutton.prefs.restrict_thirdparty.accesskey "მ">
 <!ENTITY torbutton.prefs.restrict_thirdparty_tooltip "Keep this box checked to prevent various browser features from being abused to track you as you browse the web. Modified features include blob URLs, broadcast channels, the browser cache, cookies, favicons, HTTP Auth headers, link preconnects, localStorage, mediaSource URLs, OCSP requests, SharedWorkers, and TLS session tickets.">
 <!ENTITY torbutton.prefs.resist_fingerprinting "Change details that distinguish you from other Tor Browser users">
 <!ENTITY torbutton.prefs.resist_fingerprinting.accesskey "F">
@@ -34,18 +34,18 @@
 <!ENTITY torbutton.prefs.sec_caption "უსაფრთხოების დონე">
 <!ENTITY torbutton.prefs.sec_caption_tooltip "The Security Slider lets you disable certain browser features that may make your browser more vulnerable to hacking attempts.">
 <!ENTITY torbutton.prefs.sec_standard_label "ჩვეულებრივი">
-<!ENTITY torbutton.prefs.sec_standard_description "All Tor Browser and website features are enabled.">
+<!ENTITY torbutton.prefs.sec_standard_description "Tor-ბრაუზერისა და ვებსაიტის ყველა შესაძლებლობა ჩართულია.">
 <!ENTITY torbutton.prefs.sec_safer_label "მეტად დაცული">
-<!ENTITY torbutton.prefs.sec_safer_description "Disables website features that are often dangerous, causing some sites to lose functionality.">
-<!ENTITY torbutton.prefs.sec_safer_list_label "At the safer setting:">
+<!ENTITY torbutton.prefs.sec_safer_description "გაითიშება ვებსაიტის მეტად საფრთხისშემცველი შესაძლებლობები, შედეგად შესაძლოა საიტმა სათანადოდ ვეღარ იმუშაოს.">
+<!ENTITY torbutton.prefs.sec_safer_list_label "მეტად დაცული პარამეტრებისას:">
 <!ENTITY torbutton.prefs.sec_safest_label "სრულიად დაცული">
-<!ENTITY torbutton.prefs.sec_safest_description "Only allows website features required for static sites and basic services. These changes affect images, media, and scripts.">
-<!ENTITY torbutton.prefs.sec_safest_list_label "At the safest setting:">
-<!ENTITY torbutton.prefs.sec_learn_more_label "გაიგე მეტი">
-<!ENTITY torbutton.prefs.sec_js_on_https_sites_only "JavaScript is disabled on non-HTTPS sites.">
-<!ENTITY torbutton.prefs.sec_js_disabled "JavaScript is disabled by default on all sites.">
-<!ENTITY torbutton.prefs.sec_limit_typography "Some fonts and math symbols are disabled.">
-<!ENTITY torbutton.prefs.sec_limit_graphics_and_typography "Some fonts, icons, math symbols, and images are disabled.">
-<!ENTITY torbutton.prefs.sec_click_to_play_media "Audio and video (HTML5 media) are click-to-play.">
+<!ENTITY torbutton.prefs.sec_safest_description "დაშვებულია მხოლოდ ის შესაძლებლობები, რომლებსაც საჭიროებს უცვლელი შიგთავსის მქონე საიტები და ძირითადი მომსახურებები. ცვლილებები იმოქმედებს სურათებზე, ფაილებსა და სკრიპტებზე.">
+<!ENTITY torbutton.prefs.sec_safest_list_label "სრულიად დაცული პარამეტრებისას:">
+<!ENTITY torbutton.prefs.sec_learn_more_label "იხილეთ ვრცლად">
+<!ENTITY torbutton.prefs.sec_js_on_https_sites_only "JavaScript გათიშულია HTTPS-ს არმქონე ყველა საიტზე.">
+<!ENTITY torbutton.prefs.sec_js_disabled "JavaScript გათიშულია ყველა საიტზე ნაგულისხმევად.">
+<!ENTITY torbutton.prefs.sec_limit_typography "შრიფტებისა და მათემატიკური სიმბოლოების ნაწილი გათიშულია.">
+<!ENTITY torbutton.prefs.sec_limit_graphics_and_typography "შრიფტების, ხატულების, მათემატიკური სიმბოლოებისა და სურათების ნაწილი გათიშულია.">
+<!ENTITY torbutton.prefs.sec_click_to_play_media "ხმოვანი და ვიდეოფაილები (HTML5) ეშვება მხოლოდ დაწკაპებით.">
 <!ENTITY torbutton.circuit_display.title "Tor-წრედი">
 <!ENTITY torbutton.circuit_display.new_circuit "ახალი წრედი ამ საიტისთვის">
