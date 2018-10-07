@@ -18,7 +18,7 @@ msgstr ""
 "Project-Id-Version: Tor Project\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-09-04 11:37+0200\n"
-"PO-Revision-Date: 2018-10-07 00:49+0000\n"
+"PO-Revision-Date: 2018-10-07 20:44+0000\n"
 "Last-Translator: Emma Peel\n"
 "Language-Team: Spanish (http://www.transifex.com/otf/torproject/language/es/)\n"
 "MIME-Version: 1.0\n"
@@ -159,7 +159,7 @@ msgstr "no disponible"
 msgid ""
 "{details} Please check your list of additional software or read the system "
 "log to understand the problem."
-msgstr "{details}. Comprueba la lista de tu software adicional o lee el system log para entender el problema."
+msgstr "{details} Comprueba la lista de tu software adicional o lee el registro del sistema para entender el problema."
 
 #: config/chroot_local-includes/usr/local/sbin/tails-additional-software:148
 msgid ""
@@ -234,7 +234,7 @@ msgstr "Podrías instalar {packages} automáticamente al iniciar Tails."
 msgid ""
 "To do so, you need to run Tails from a USB stick installed using <i>Tails "
 "Installer</i>."
-msgstr "Para hacer eso, necesitas ejecutar Tails desde una unidad USB usando el <i>Instalador de Tails</i>."
+msgstr "Para hacer eso, necesitas ejecutar Tails desde una memoria USB instalada con <i>Tails Installer</i>."
 
 #: config/chroot_local-includes/usr/local/sbin/tails-additional-software:345
 #, python-brace-format
@@ -244,7 +244,7 @@ msgstr "¿Quitar {packages} de tu software adicional?"
 #: config/chroot_local-includes/usr/local/sbin/tails-additional-software:347
 #, python-brace-format
 msgid "This will stop installing {packages} automatically."
-msgstr "Esto parará la instalación {packages} de forma automática."
+msgstr "Esto parará la instalación de {packages} de forma automática."
 
 #: config/chroot_local-includes/usr/local/sbin/tails-additional-software:349
 msgid "Remove"
@@ -281,7 +281,7 @@ msgstr "La verificación para la actualización de tu software adicional ha fall
 msgid ""
 "Please check your network connection, restart Tails, or read the system log "
 "to understand the problem."
-msgstr "Por favor, revisa tu conexión de red, reinicia Tails, o lee system log para comprender el problema."
+msgstr "Por favor, revisa tu conexión de red, reinicia Tails, o lee el registro del sistema para comprender el problema."
 
 #: config/chroot_local-includes/usr/local/sbin/tails-additional-software:582
 msgid "The upgrade of your additional software failed"
@@ -560,7 +560,7 @@ msgstr "{volume_size} Volumen"
 #: config/chroot_local-includes/usr/local/lib/python3/dist-packages/unlock_veracrypt_volumes/volume.py:101
 #, python-brace-format
 msgid "{volume_name} (Read-Only)"
-msgstr "{volume_name} (Read-Only)"
+msgstr "{volume_name} (Sólo lectura)"
 
 #. Translators: Don't translate {partition_name} and {container_path}, they
 #. are placeholders and will be replaced.
@@ -613,14 +613,14 @@ msgstr "El contenedor de archivo %s ya debería estar en la lista."
 
 #: config/chroot_local-includes/usr/local/lib/python3/dist-packages/unlock_veracrypt_volumes/volume_manager.py:131
 msgid "Container opened read-only"
-msgstr "Abierto contenedor de solo lelctura"
+msgstr "Abierto contenedor de solo lectura"
 
 #: config/chroot_local-includes/usr/local/lib/python3/dist-packages/unlock_veracrypt_volumes/volume_manager.py:132
 #, python-brace-format
 msgid ""
 "The file container {path} could not be opened with write access. It was opened read-only instead. You will not be able to modify the content of the container.\n"
 "{error_message}"
-msgstr "El contenedor de archivo  {path} no se debería abrir con acceso a escritura. En su lugar solo-lectura. No deberías poder modificar el contenido del contenedor. {error_message}"
+msgstr "El contenedor de archivo  {path} no se debería abrir con permiso de escritura. Ha sido abierto para solo-lectura. No deberías poder modificar el contenido del contenedor. {error_message}"
 
 #: config/chroot_local-includes/usr/local/lib/python3/dist-packages/unlock_veracrypt_volumes/volume_manager.py:137
 msgid "Error opening file"
@@ -628,7 +628,7 @@ msgstr "Error al abrir fichero"
 
 #: config/chroot_local-includes/usr/local/lib/python3/dist-packages/unlock_veracrypt_volumes/volume_manager.py:159
 msgid "Not a VeraCrypt container"
-msgstr "No un contenedor VeraCrypt "
+msgstr "No es un contenedor VeraCrypt "
 
 #: config/chroot_local-includes/usr/local/lib/python3/dist-packages/unlock_veracrypt_volumes/volume_manager.py:160
 #, python-format
@@ -644,7 +644,7 @@ msgstr "Error al agregar contenedor"
 msgid ""
 "Could not add file container %s: Timeout while waiting for loop setup.Please"
 " try using the <i>Disks</i> application instead."
-msgstr "Imposible añadir contenedor de archivo %s: Tiempo de espera mientras espera la configuración loop.Prueba a usar la aplicación <i>Disks</i>."
+msgstr "Imposible añadir contenedor de archivo %s: Tiempo de espera agotado mientras esperaba la configuración del bucle. Prueba a usar la aplicación <i>Disks</i>."
 
 #: config/chroot_local-includes/usr/local/lib/python3/dist-packages/unlock_veracrypt_volumes/volume_manager.py:208
 msgid "Choose File Container"
@@ -685,7 +685,7 @@ msgstr "Navegador No Seguro"
 
 #: ../config/chroot_local-includes/usr/share/applications/unlock-veracrypt-volumes.desktop.in.h:1
 msgid "Unlock VeraCrypt Volumes"
-msgstr "Desbloquea los volúmenes VeraCrypt"
+msgstr "Desbloquea volúmenes VeraCrypt"
 
 #: ../config/chroot_local-includes/usr/share/applications/unlock-veracrypt-volumes.desktop.in.h:2
 msgid "Mount VeraCrypt encrypted file containers and devices"
@@ -699,7 +699,7 @@ msgstr "Software Adicional"
 msgid ""
 "Configure the additional software installed from your persistent storage "
 "when starting Tails"
-msgstr "Configurar el software adicional instalado de tu almacenamiento permanente cuando inicies Tails."
+msgstr "Configura el software adicional instalado desde tu almacenamiento persistente cuando inicies Tails."
 
 #: ../config/chroot_local-includes/usr/share/desktop-directories/Tails.directory.in.h:2
 msgid "Tails specific tools"
@@ -711,7 +711,7 @@ msgstr "Para iniciar una terminal de root necesitas acreditarte."
 
 #: ../config/chroot_local-includes/usr/share/polkit-1/actions/org.boum.tails.additional-software.policy.in.h:1
 msgid "Remove an additional software package"
-msgstr "Retirar un paquete de software adicional"
+msgstr "Borrar un paquete de software adicional"
 
 #: ../config/chroot_local-includes/usr/share/polkit-1/actions/org.boum.tails.additional-software.policy.in.h:2
 msgid ""
