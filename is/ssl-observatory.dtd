@@ -30,7 +30,7 @@ verulega nærgöngult fyrirtækjanet:">
 "Senda inn og yfirfara skilríki sem undirrituð eru af óhefðbundnum rótarútgefendum (non-standard root CAs)">
 
 <!ENTITY ssl-observatory.prefs.alt_roots_tooltip 
-"It is safe (and a good idea) to enable this option, unless you use an intrusive corporate network or Kaspersky antivirus software that monitors your browsing with a TLS proxy and a private root Certificate Authority.  If enabled on such a network, this option might publish evidence of which https:// domains were being visited through that proxy, because of the unique certificates it would produce.  So we leave it off by default.">
+"Það er öruggt (og góð hugmynd) að virkja þennan valkost, nema ef þú ert að nota stýrt fyrirtækjanet eða Kaspersky vírusvarnahugbúnað sem fylgist með vafrinu þínu með TLS-milliþjóni og einka-rótarskilríkisvottunarstöð (root certificate authority). Ef þetta er virkjað á slíku netkerfi, gæti þessi valkostur birt upplýsingar um hvaða https:// lén hafi verið heimsótt í gegnum þann milliþjón, vegna þeirra einstöku skilríkja sem þetta myndi meðhöndla. Þess vegna er sjálfgefið slökkt á þessum valkosti.">
 
 <!ENTITY ssl-observatory.prefs.anonymous "Athuga skilríki sem nota Tor til að dyljast">
 <!ENTITY ssl-observatory.prefs.anonymous_unavailable 
@@ -48,15 +48,13 @@ verulega nærgöngult fyrirtækjanet:">
 "Birta aðvörun þegar Observatory finnur afturkallað skilríki sem vafrinn þinn greip ekki">
 
 <!ENTITY ssl-observatory.prefs.show_cert_warning_tooltip
-"This will check submitted certificates against known Certificate Revocation Lists. Unfortunately we cannot guarantee that we will flag every revoked certificate, but if you do see a warning there's a good chance something is wrong.">
+"Þetta mun bera innsend skilríki saman við þekkta afturköllunarlista vottunarstöðva. Því miður getum við ekki ábyrgst að við munum ávallt geta gripið hvert einasta afturkallað skilríki, en ef þú sérð aðvörun, þá eru góðar líkur á að eittthvað sé ekki í lagi.">
 
 <!ENTITY ssl-observatory.prefs.done "Búið">
 
 <!ENTITY ssl-observatory.prefs.explanation 
-"HTTPS Everywhere can use EFF's SSL Observatory.  This does two things: (1)
-sends copies of HTTPS certificates to the Observatory, to help us
-detect 'man in the middle' attacks and improve the Web's security; and (2)
-lets us warn you about insecure connections or attacks on your browser.">
+"HTTPS-allsstaðar getur notað SSL Observatory frá EFF. Þetta gerit tvennt: (1)
+sendir afrit HTTPS-skilríkja til Observatory, til að hjálpa okkur við að greina hvort einhver hafi komist inn í tenginguna og gera ráðstafanir til að bæta öryggi á vefnum; og (2) gerir okkur kleift að láta þig vita um óöruggar tengingar eða árásir á vafrann þinn.">
 
 <!--<!ENTITY ssl-observatory.prefs.explanation2
 "When you visit https://www.example.com, the Observatory will learn that
@@ -92,7 +90,7 @@ www.eitthvað.com, en ekki hver það var eða hvaða tilteknu síðu hann skoð
 <!ENTITY ssl-observatory.warning.showcert "Sýna skilríkjakeðjuna">
 <!ENTITY ssl-observatory.warning.okay "Ég skil">
 <!ENTITY ssl-observatory.warning.text "SSL Observatory frá EFF hefur gefið út viðvörun vegna HTTPS-skilríkis/skilríkja fyrir þetta vefsvæði:">
-<!ENTITY ssl-observatory.warning.defense "If you are logged in to this site, it may be advisable to change your password once you have a safe connection. (These warnings can be disabled in the &quot;SSL Observatory&quot; tab of the HTTPS Everywhere preferences dialog.)">
+<!ENTITY ssl-observatory.warning.defense "Ef þú ert skráð(ur) inn á þetta vefsvæði, þá gæti verið snjallt að skipta um lykilorð um leið og þú kemst á örugga tengingu. (Hægt er að gera þessar aðvaranir óvirkar á &quot;SSL Observatory&quot; flipanum í kjörstillingaglugga HTTPS-allsstaðar.)">
 
 <!ENTITY ssl-observatory.prefs.self_signed
 "Senda inn og yfirfara sjálfundirrituð skilríki">
