@@ -28,8 +28,8 @@ msgstr ""
 "Project-Id-Version: Tor Project\n"
 "Report-Msgid-Bugs-To: 'https://trac.torproject.org/projects/tor/newticket?component=BridgeDB&keywords=bridgedb-reported,msgid&cc=isis,sysrqb&owner=isis'\n"
 "POT-Creation-Date: 2015-07-25 03:40+0000\n"
-"PO-Revision-Date: 2018-10-04 01:06+0000\n"
-"Last-Translator: erinm\n"
+"PO-Revision-Date: 2018-10-16 05:44+0000\n"
+"Last-Translator: Timofey Lisunov <solokot@gmail.com>\n"
 "Language-Team: Russian (http://www.transifex.com/otf/torproject/language/ru/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -98,7 +98,7 @@ msgstr "Похоже, произошла ошибка при получении 
 msgid ""
 "This QRCode contains your bridge lines. Scan it with a QRCode reader to copy"
 " your bridge lines onto mobile and other devices."
-msgstr "Этот QR-код содержит ваши адреса ретрансляторов. Отсканируйте его устройством, считывающим QR-код, чтобы скопировать свои адреса рестрансляторов на мобильные и другие устройства"
+msgstr "Этот QR-код содержит адреса ретрансляторов. Отсканируйте его устройством, считывающим QR-код, чтобы скопировать адреса рестрансляторов на мобильные и другие устройства."
 
 #: bridgedb/https/templates/bridges.html:131
 msgid "There currently aren't any bridges available..."
@@ -119,7 +119,7 @@ msgstr "Шаг %s№1%s"
 #: bridgedb/https/templates/index.html:13
 #, python-format
 msgid "Download %s Tor Browser %s"
-msgstr "Скачать %s Tor Browser %s"
+msgstr "Скачайте %s Tor Browser %s"
 
 #: bridgedb/https/templates/index.html:25
 #, python-format
@@ -139,7 +139,7 @@ msgstr "Шаг %s№3%s"
 #: bridgedb/https/templates/index.html:38
 #, python-format
 msgid "Now %s add the bridges to Tor Browser %s"
-msgstr "Затем %s пропишите адрес моста в Tor Browser %s"
+msgstr "Затем %s пропишите адреса мостов в Tor Browser %s"
 
 #. TRANSLATORS: Please make sure the '%s' surrounding single letters at the
 #. beginning of words are present in your final translation. Thanks!
@@ -176,7 +176,7 @@ msgstr "%sД%sа! "
 #: bridgedb/https/templates/options.html:147
 #, python-format
 msgid "%sG%set Bridges"
-msgstr "%sП%sолучить адрес моста"
+msgstr "%sП%sолучить адреса мостов"
 
 #: bridgedb/strings.py:43
 msgid "[This is an automated message; please do not reply.]"
@@ -184,19 +184,19 @@ msgstr "[Это автоматическое сообщение, пожалуй�
 
 #: bridgedb/strings.py:45
 msgid "Here are your bridges:"
-msgstr "Ваш адрес моста:"
+msgstr "Ваши адреса мостов:"
 
 #: bridgedb/strings.py:47
 #, python-format
 msgid ""
 "You have exceeded the rate limit. Please slow down! The minimum time between\n"
 "emails is %s hours. All further emails during this time period will be ignored."
-msgstr "Вы превысили допустимый лимит. Пожалуйста, повторите ваш запрос позже! Повторить запрос можно через\n %s часов. Сообщения отправленные в это время, доставлены не будут."
+msgstr "Вы превысили допустимый лимит. Пожалуйста, повторите запрос позже!\nПовторить запрос можно через %s часов. Сообщения, отправленные до этого времени, будут проигнорированы."
 
 #: bridgedb/strings.py:50
 msgid ""
 "COMMANDs: (combine COMMANDs to specify multiple options simultaneously)"
-msgstr "КОМАНДЫ: (Совмещайте команды, чтобы использовать несколько опций одновременно )"
+msgstr "КОМАНДЫ: (совмещайте команды, чтобы использовать несколько функций одновременно)"
 
 #. TRANSLATORS: Please DO NOT translate the word "BridgeDB".
 #: bridgedb/strings.py:53
@@ -219,7 +219,7 @@ msgstr "Здравствуй, друг!"
 
 #: bridgedb/strings.py:58 bridgedb/https/templates/base.html:90
 msgid "Public Keys"
-msgstr "Публичный, открытый ключ"
+msgstr "Открытые ключи"
 
 #. TRANSLATORS: This string will end up saying something like:
 #. "This email was generated with rainbows, unicorns, and sparkles
@@ -243,7 +243,7 @@ msgid ""
 "difficult for anyone watching your internet traffic to determine that you are\n"
 "using Tor.\n"
 "\n"
-msgstr "BridgeDB может работать с несколькими %s типами передачи данных%s,\nчто помогает снизить риск обнаружения и скрыть ваше соединение с Tor Network. Благодаря этому, ваш трафик в сети Tor, отследить будет практически невозможно.\n"
+msgstr "BridgeDB может работать с несколькими %s типами передачи данных%s,\nчто помогает снизить риск обнаружения и скрыть ваше соединение с Tor Network. Благодаря этому ваш трафик в сети Tor отследить будет практически невозможно.\n"
 
 #. TRANSLATORS: Please DO NOT translate "Pluggable Transports".
 #: bridgedb/strings.py:79
@@ -265,7 +265,7 @@ msgid ""
 "Pluggable Transports %s which maybe doesn't sound as cool, but they can still\n"
 "help to circumvent internet censorship in many cases.\n"
 "\n"
-msgstr "Более того, BridgeDB содержит множество стандартных мостов %s, не поддерживающий передачу данных %s, что может повлиять на отображение страницы сайта, так-же они во многих случаях,\nпомогают обойти интернет-цензуру.\n"
+msgstr "Более того, BridgeDB содержит множество стандартных мостов %s, не поддерживающий передачу данных %s, что может повлиять на отображение страницы сайта, так-же они во многих случаях, помогают обойти интернет-цензуру.\n"
 
 #: bridgedb/strings.py:101
 msgid "What are bridges?"
@@ -274,11 +274,11 @@ msgstr "Что такое соединение типа мост?"
 #: bridgedb/strings.py:102
 #, python-format
 msgid "%s Bridges %s are Tor relays that help you circumvent censorship."
-msgstr "%s Мост %s - это сетевое соединение в сети Tor, которые позволяют вам просматривать заблокированные сайты."
+msgstr "%s Мост %s — это сетевое соединение в сети Tor, которое позволяет вам просматривать заблокированные сайты."
 
 #: bridgedb/strings.py:107
 msgid "I need an alternative way of getting bridges!"
-msgstr "Другой способ получение списка соединений типа Мост!"
+msgstr "Другой способ получение списка соединений типа мост!"
 
 #: bridgedb/strings.py:108
 #, python-format
@@ -286,7 +286,7 @@ msgid ""
 "Another way to get bridges is to send an email to %s. Please note that you must\n"
 "send the email using an address from one of the following email providers:\n"
 "%s, %s or %s."
-msgstr "Другим способом для получения списка мостов является отправка электронного сообщения на адрес %s. Обратите внимание, \nвы должны отправить электронный запрос, только с использованием одного из доступных сервисов: %s, %s или %s."
+msgstr "Другим способом для получения списка мостов является отправка электронного сообщения на адрес %s. Обратите внимание,  вы должны отправить электронный запрос только с использованием одного из доступных сервисов: %s, %s или %s."
 
 #: bridgedb/strings.py:115
 msgid "My bridges don't work! I need help!"
@@ -296,7 +296,7 @@ msgstr "Нет соединения с мостом! Помогите!"
 #: bridgedb/strings.py:117
 #, python-format
 msgid "If your Tor doesn't work, you should email %s."
-msgstr "Если не запускается Tor, тогда напишите нам на наш электронный адрес%s."
+msgstr "Если Tor не запускается, напишите нам на электронный адрес %s."
 
 #. TRANSLATORS: Please DO NOT translate "Pluggable Transports".
 #. TRANSLATORS: Please DO NOT translate "Tor Browser".
