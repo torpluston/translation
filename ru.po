@@ -14,6 +14,7 @@
 # joshua ridney, 2015
 # jujjer <jujjer@gmail.com>, 2013
 # Julia Liberman <gangsta_b@rambler.ru>, 2015
+# Legenden Rifk <rekytcsgo@gmail.com>, 2018
 # mendov, 2013
 # Misha Dyachuk <Wikia@scryptmail.com>, 2016
 # Oul Gocke <beandonlybe@yandex.ru>, 2013-2014
@@ -31,8 +32,8 @@ msgstr ""
 "Project-Id-Version: Tor Project\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-10-15 14:47+0200\n"
-"PO-Revision-Date: 2018-10-15 14:43+0000\n"
-"Last-Translator: carolyn <carolyn@anhalt.org>\n"
+"PO-Revision-Date: 2018-10-16 13:45+0000\n"
+"Last-Translator: Legenden Rifk <rekytcsgo@gmail.com>\n"
 "Language-Team: Russian (http://www.transifex.com/otf/torproject/language/ru/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -597,7 +598,7 @@ msgstr "{volume_size} Раздел"
 #: config/chroot_local-includes/usr/local/lib/python3/dist-packages/unlock_veracrypt_volumes/volume.py:107
 #, python-brace-format
 msgid "{volume_name} (Read-Only)"
-msgstr ""
+msgstr "{volume_name} (Только для чтения)"
 
 #. Translators: Don't translate {partition_name} and {container_path}, they
 #. are placeholders and will be replaced.
@@ -633,11 +634,11 @@ msgstr ""
 
 #: config/chroot_local-includes/usr/local/lib/python3/dist-packages/unlock_veracrypt_volumes/volume.py:222
 msgid "Wrong passphrase or parameters"
-msgstr ""
+msgstr "Неверная фраза или параметры"
 
 #: config/chroot_local-includes/usr/local/lib/python3/dist-packages/unlock_veracrypt_volumes/volume.py:224
 msgid "Error unlocking volume"
-msgstr ""
+msgstr "Ошибка разблокировки тома"
 
 #. Translators: Don't translate {volume_name} or {error_message},
 #. they are placeholder and will be replaced.
@@ -646,7 +647,7 @@ msgstr ""
 msgid ""
 "Couldn't unlock volume {volume_name}:\n"
 "{error_message}"
-msgstr ""
+msgstr "Не удалось разблокировать том {volume_name}:\n{error_message}"
 
 #: config/chroot_local-includes/usr/local/lib/python3/dist-packages/unlock_veracrypt_volumes/volume_list.py:83
 msgid "No file containers added"
@@ -658,7 +659,7 @@ msgstr "Не обнаружены устройства VeraCrypt"
 
 #: config/chroot_local-includes/usr/local/lib/python3/dist-packages/unlock_veracrypt_volumes/volume_manager.py:114
 msgid "Container already added"
-msgstr ""
+msgstr "Контейнер уже добавлен"
 
 #: config/chroot_local-includes/usr/local/lib/python3/dist-packages/unlock_veracrypt_volumes/volume_manager.py:115
 #, python-format
@@ -667,7 +668,7 @@ msgstr ""
 
 #: config/chroot_local-includes/usr/local/lib/python3/dist-packages/unlock_veracrypt_volumes/volume_manager.py:131
 msgid "Container opened read-only"
-msgstr ""
+msgstr "Контейнер открыт только для чтения"
 
 #. Translators: Don't translate {path}, it's a placeholder  and will be
 #. replaced.
@@ -676,7 +677,7 @@ msgstr ""
 msgid ""
 "The file container {path} could not be opened with write access. It was opened read-only instead. You will not be able to modify the content of the container.\n"
 "{error_message}"
-msgstr ""
+msgstr "Контейнер с файлом {path} не может быть открыт с доступом для записи. Вместо этого он был открыт только для чтения. Вы не сможете изменить содержимое контейнера.\n{error_message}"
 
 #: config/chroot_local-includes/usr/local/lib/python3/dist-packages/unlock_veracrypt_volumes/volume_manager.py:138
 msgid "Error opening file"
@@ -684,27 +685,27 @@ msgstr "Ошибка открытия файла"
 
 #: config/chroot_local-includes/usr/local/lib/python3/dist-packages/unlock_veracrypt_volumes/volume_manager.py:160
 msgid "Not a VeraCrypt container"
-msgstr ""
+msgstr "Не VeraCrypt контейнер"
 
 #: config/chroot_local-includes/usr/local/lib/python3/dist-packages/unlock_veracrypt_volumes/volume_manager.py:161
 #, python-format
 msgid "The file %s does not seem to be a VeraCrypt container."
-msgstr ""
+msgstr "Файл %s, не является контейнером VeraCrypt."
 
 #: config/chroot_local-includes/usr/local/lib/python3/dist-packages/unlock_veracrypt_volumes/volume_manager.py:163
 msgid "Failed to add container"
-msgstr ""
+msgstr "Ошибка в добавлении контейнера"
 
 #: config/chroot_local-includes/usr/local/lib/python3/dist-packages/unlock_veracrypt_volumes/volume_manager.py:164
 #, python-format
 msgid ""
 "Could not add file container %s: Timeout while waiting for loop setup.Please"
 " try using the <i>Disks</i> application instead."
-msgstr ""
+msgstr "Не удалось добавить контейнер файлов%s: Тайм-аут при ожидании установки цикла. Попробуйте вместо этого использовать приложение <i>«Диски»</i>."
 
 #: config/chroot_local-includes/usr/local/lib/python3/dist-packages/unlock_veracrypt_volumes/volume_manager.py:209
 msgid "Choose File Container"
-msgstr ""
+msgstr "Выберите Контейнер Файлов"
 
 #: ../config/chroot_local-includes/etc/skel/Desktop/Report_an_error.desktop.in.h:1
 msgid "Report an error"
@@ -741,11 +742,11 @@ msgstr "Небезопасный браузер"
 
 #: ../config/chroot_local-includes/usr/share/applications/unlock-veracrypt-volumes.desktop.in.h:1
 msgid "Unlock VeraCrypt Volumes"
-msgstr ""
+msgstr "Разблокировать тома VeraCrypt"
 
 #: ../config/chroot_local-includes/usr/share/applications/unlock-veracrypt-volumes.desktop.in.h:2
 msgid "Mount VeraCrypt encrypted file containers and devices"
-msgstr ""
+msgstr "Зашифрованные контейнеры файлов и устройства Mount VeraCrypt"
 
 #: ../config/chroot_local-includes/usr/share/applications/org.boum.tails.additional-software-config.desktop.in.h:1
 msgid "Additional Software"
@@ -773,19 +774,19 @@ msgstr "Удалить дополнительные программные па�
 msgid ""
 "Authentication is required to remove a package from your additional software"
 " ($(command_line))"
-msgstr ""
+msgstr "Для удаления пакета из вашего дополнительного ПО требуется аутентификация ($ (command_line))"
 
 #: ../config/chroot_local-includes/usr/share/unlock-veracrypt-volumes/ui/main.ui.in:61
 msgid "File Containers"
-msgstr ""
+msgstr "Контейнеры файлов"
 
 #: ../config/chroot_local-includes/usr/share/unlock-veracrypt-volumes/ui/main.ui.in:80
 msgid "_Add"
-msgstr ""
+msgstr "_Add"
 
 #: ../config/chroot_local-includes/usr/share/unlock-veracrypt-volumes/ui/main.ui.in:86
 msgid "Add a file container"
-msgstr ""
+msgstr "Добавить контейнер файлов"
 
 #: ../config/chroot_local-includes/usr/share/unlock-veracrypt-volumes/ui/main.ui.in:103
 msgid "Partitions and Drives"
