@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Tor Project\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-09-04 09:36+0200\n"
-"PO-Revision-Date: 2018-10-04 00:24+0000\n"
+"POT-Creation-Date: 2018-10-17 13:11+0200\n"
+"PO-Revision-Date: 2018-10-17 14:51+0000\n"
 "Last-Translator: erinm\n"
 "Language-Team: Bengali (http://www.transifex.com/otf/torproject/language/bn/)\n"
 "MIME-Version: 1.0\n"
@@ -314,7 +314,7 @@ msgstr "বর্তমান Tails ক্লোন করুন"
 msgid "Use a downloaded Tails ISO image"
 msgstr "একটি ডাউনলোড করা Tails ISO ইমেজ ব্যবহার করুন"
 
-#: ../tails_installer/gui.py:467
+#: ../tails_installer/gui.py:467 ../tails_installer/gui.py:788
 msgid "Upgrade"
 msgstr "আপগ্রেড"
 
@@ -326,7 +326,8 @@ msgstr "ম্যানুয়াল উচ্চায়ন নির্দ�
 msgid "https://tails.boum.org/upgrade/"
 msgstr "https://tails.boum.org/upgrade/"
 
-#: ../tails_installer/gui.py:479 ../data/tails-installer.ui.h:7
+#: ../tails_installer/gui.py:479 ../tails_installer/gui.py:700
+#: ../tails_installer/gui.py:765 ../data/tails-installer.ui.h:7
 msgid "Install"
 msgstr "ইনস্টল করুন"
 
@@ -398,15 +399,19 @@ msgstr "আপডেট আপডেট!"
 msgid "Installation complete!"
 msgstr "ইনস্টলেশন সম্পূর্ণ!"
 
-#: ../tails_installer/gui.py:744
+#: ../tails_installer/gui.py:711
+msgid "Cancel"
+msgstr "বাতিল"
+
+#: ../tails_installer/gui.py:747
 msgid "Unable to mount device"
 msgstr "ডিভাইস মাউন্ট করতে অক্ষম"
 
-#: ../tails_installer/gui.py:751 ../tails_installer/gui.py:783
+#: ../tails_installer/gui.py:754 ../tails_installer/gui.py:787
 msgid "Confirm the target USB stick"
 msgstr "লক্ষ্য USB স্টিক নিশ্চিত করুন"
 
-#: ../tails_installer/gui.py:752
+#: ../tails_installer/gui.py:755
 #, python-format
 msgid ""
 "%(size)s %(vendor)s %(model)s device (%(device)s)\n"
@@ -414,48 +419,48 @@ msgid ""
 "All data on this USB stick will be lost."
 msgstr "%(size)s %(vendor)s %(model)s device (%(device)s)\n\nএই USB স্টিকের সমস্ত ডেটা হারিয়ে যাবে।"
 
-#: ../tails_installer/gui.py:770
+#: ../tails_installer/gui.py:774
 #, python-format
 msgid "%(parent_size)s %(vendor)s %(model)s device (%(device)s)"
 msgstr "%(parent_size)s %(vendor)s %(model)s device (%(device)s)"
 
-#: ../tails_installer/gui.py:778
+#: ../tails_installer/gui.py:782
 msgid ""
 "\n"
 "\n"
 "The persistent storage on this USB stick will be preserved."
 msgstr "\n\nএই USB স্টিক নেভিগেশন স্থায়ী স্টোরেজ সংরক্ষণ করা হবে।"
 
-#: ../tails_installer/gui.py:779
+#: ../tails_installer/gui.py:783
 #, python-format
 msgid "%(description)s%(persistence_message)s"
 msgstr "%(description)s%(persistence_message)s"
 
-#: ../tails_installer/gui.py:821
+#: ../tails_installer/gui.py:826
 msgid "Download complete!"
 msgstr "ডাউনলোড শেষ!"
 
-#: ../tails_installer/gui.py:825
+#: ../tails_installer/gui.py:830
 msgid "Download failed: "
 msgstr "ডাউনলোড ব্যর্থ হয়েছে:"
 
-#: ../tails_installer/gui.py:826
+#: ../tails_installer/gui.py:831
 msgid "You can try again to resume your download"
 msgstr "আপনি আপনার ডাউনলোড পুনরায় শুরু করতে চেষ্টা করতে পারেন"
 
-#: ../tails_installer/gui.py:834
+#: ../tails_installer/gui.py:839
 msgid ""
 "The selected file is unreadable. Please fix its permissions or select "
 "another file."
 msgstr "নির্বাচিত ফাইল অপঠিত হয়। অনুগ্রহ করে তার অনুমতিগুলি 'permissions' ঠিক করুন বা অন্য ফাইলটি নির্বাচন করুন।"
 
-#: ../tails_installer/gui.py:840
+#: ../tails_installer/gui.py:845
 msgid ""
 "Unable to use the selected file.  You may have better luck if you move your "
 "ISO to the root of your drive (ie: C:\\)"
 msgstr "নির্বাচিত ফাইলটি ব্যবহার করতে অক্ষম। আপনি যদি আপনার আইএসওকে আপনার ড্রাইভের মূল রুটে স্থানান্তর করতে চান তবে আপনার ভাল ভাগ্য হতে পারে (অর্থাৎ: C:\\)"
 
-#: ../tails_installer/gui.py:846
+#: ../tails_installer/gui.py:851
 #, python-format
 msgid "%(filename)s selected"
 msgstr "%(filename)s নির্বাচিত "

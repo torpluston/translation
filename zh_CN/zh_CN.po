@@ -24,11 +24,11 @@
 # ヨイツの賢狼ホロ <kenookamihoro@gmail.com>, 2018
 msgid ""
 msgstr ""
-"Project-Id-Version: The Tor Project\n"
+"Project-Id-Version: Tor Project\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-09-04 09:36+0200\n"
-"PO-Revision-Date: 2018-09-06 19:25+0000\n"
-"Last-Translator: ヨイツの賢狼ホロ <kenookamihoro@gmail.com>\n"
+"POT-Creation-Date: 2018-10-17 13:11+0200\n"
+"PO-Revision-Date: 2018-10-17 14:51+0000\n"
+"Last-Translator: erinm\n"
 "Language-Team: Chinese (China) (http://www.transifex.com/otf/torproject/language/zh_CN/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -332,7 +332,7 @@ msgstr "克隆当前的Tails"
 msgid "Use a downloaded Tails ISO image"
 msgstr "使用下载的Tails ISO映像"
 
-#: ../tails_installer/gui.py:467
+#: ../tails_installer/gui.py:467 ../tails_installer/gui.py:788
 msgid "Upgrade"
 msgstr "升级"
 
@@ -344,7 +344,8 @@ msgstr "手动更新指南："
 msgid "https://tails.boum.org/upgrade/"
 msgstr "https://tails.boum.org/upgrade/"
 
-#: ../tails_installer/gui.py:479 ../data/tails-installer.ui.h:7
+#: ../tails_installer/gui.py:479 ../tails_installer/gui.py:700
+#: ../tails_installer/gui.py:765 ../data/tails-installer.ui.h:7
 msgid "Install"
 msgstr "安装"
 
@@ -416,15 +417,19 @@ msgstr "发布已更新！"
 msgid "Installation complete!"
 msgstr "安装完成!"
 
-#: ../tails_installer/gui.py:744
+#: ../tails_installer/gui.py:711
+msgid "Cancel"
+msgstr "取消"
+
+#: ../tails_installer/gui.py:747
 msgid "Unable to mount device"
 msgstr "无法挂载设备"
 
-#: ../tails_installer/gui.py:751 ../tails_installer/gui.py:783
+#: ../tails_installer/gui.py:754 ../tails_installer/gui.py:787
 msgid "Confirm the target USB stick"
 msgstr "确认目标USB存储器"
 
-#: ../tails_installer/gui.py:752
+#: ../tails_installer/gui.py:755
 #, python-format
 msgid ""
 "%(size)s %(vendor)s %(model)s device (%(device)s)\n"
@@ -432,48 +437,48 @@ msgid ""
 "All data on this USB stick will be lost."
 msgstr "%(size)s%(vendor)s%(model)s磁盘（%(device)s）\n\n此USB存储器上的所有数据将会丢失。"
 
-#: ../tails_installer/gui.py:770
+#: ../tails_installer/gui.py:774
 #, python-format
 msgid "%(parent_size)s %(vendor)s %(model)s device (%(device)s)"
 msgstr "%(parent_size)s%(vendor)s%(model)s设备（%(device)s）"
 
-#: ../tails_installer/gui.py:778
+#: ../tails_installer/gui.py:782
 msgid ""
 "\n"
 "\n"
 "The persistent storage on this USB stick will be preserved."
 msgstr "\n\nUSB存储器上现存的永久存储将会被保留。"
 
-#: ../tails_installer/gui.py:779
+#: ../tails_installer/gui.py:783
 #, python-format
 msgid "%(description)s%(persistence_message)s"
 msgstr "%(description)s%(persistence_message)s"
 
-#: ../tails_installer/gui.py:821
+#: ../tails_installer/gui.py:826
 msgid "Download complete!"
 msgstr "下载完成！"
 
-#: ../tails_installer/gui.py:825
+#: ../tails_installer/gui.py:830
 msgid "Download failed: "
 msgstr "下载失败！"
 
-#: ../tails_installer/gui.py:826
+#: ../tails_installer/gui.py:831
 msgid "You can try again to resume your download"
 msgstr "你可以重试续传你的下载"
 
-#: ../tails_installer/gui.py:834
+#: ../tails_installer/gui.py:839
 msgid ""
 "The selected file is unreadable. Please fix its permissions or select "
 "another file."
 msgstr "选中文件不可读。请修改其许可或选择其他文件。"
 
-#: ../tails_installer/gui.py:840
+#: ../tails_installer/gui.py:845
 msgid ""
 "Unable to use the selected file.  You may have better luck if you move your "
 "ISO to the root of your drive (ie: C:\\)"
 msgstr "无法使用所选文件。您可以将文件移动到磁盘根目录后再试(例如 C:\\)"
 
-#: ../tails_installer/gui.py:846
+#: ../tails_installer/gui.py:851
 #, python-format
 msgid "%(filename)s selected"
 msgstr "%(filename)s 已选取"
