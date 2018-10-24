@@ -6,7 +6,7 @@
 # Daniel Gray, 2015
 # TorUserSpanishHelp, 2013
 # guille1981 <jguillermooliver@hotmail.com>, 2014
-# Joaquín Serna, 2017
+# Joaquín Serna, 2017-2018
 # José Fabián, 2014
 # Juan José Zapponi <zapponi.juan.jose@gmail.com>, 2014
 # Juan Manuel Cruz <cruz.jm.stafe@gmail.com>, 2013
@@ -18,9 +18,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Tor Project\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-10-17 13:11+0200\n"
-"PO-Revision-Date: 2018-10-19 01:51+0000\n"
-"Last-Translator: Zuhualime Akoochimoya\n"
+"POT-Creation-Date: 2018-10-20 12:34+0200\n"
+"PO-Revision-Date: 2018-10-24 17:12+0000\n"
+"Last-Translator: Joaquín Serna\n"
 "Language-Team: Spanish (Argentina) (http://www.transifex.com/otf/torproject/language/es_AR/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -39,7 +39,7 @@ msgstr "Extrayendo imagen \"live\" en el dispositivo de destino..."
 #: ../tails_installer/creator.py:153
 #, python-format
 msgid "Wrote to device at %(speed)d MB/sec"
-msgstr "Copiando archivos a %(speed)d MB/sec"
+msgstr "Copiando archivos a %(speed)d MB/seg"
 
 #: ../tails_installer/creator.py:296
 #, python-format
@@ -87,194 +87,194 @@ msgstr "No se pudo copiar %(infile)s a %(outfile)s: %(message)s"
 msgid "Removing existing Live OS"
 msgstr "Eliminando LiveOS existente"
 
-#: ../tails_installer/creator.py:444 ../tails_installer/creator.py:456
+#: ../tails_installer/creator.py:444 ../tails_installer/creator.py:457
 #, python-format
 msgid "Unable to chmod %(file)s: %(message)s"
 msgstr "No se pudo cambiar los permisos de acceso a %(file)s: %(message)s"
 
-#: ../tails_installer/creator.py:449
+#: ../tails_installer/creator.py:450
 #, python-format
 msgid "Unable to remove file from previous LiveOS: %(message)s"
 msgstr "No se pudieron borrar archivos del anterior LiveOS: %(message)s"
 
-#: ../tails_installer/creator.py:462
+#: ../tails_installer/creator.py:464
 #, python-format
 msgid "Unable to remove directory from previous LiveOS: %(message)s"
 msgstr "No se pudieron remover directorios del LiveOS anterior: %(message)s"
 
-#: ../tails_installer/creator.py:510
+#: ../tails_installer/creator.py:512
 #, python-format
 msgid "Cannot find device %s"
 msgstr "No se encontró el dispositivo %s"
 
-#: ../tails_installer/creator.py:711
+#: ../tails_installer/creator.py:713
 #, python-format
 msgid "Unable to write on %(device)s, skipping."
 msgstr "No se puede escribir en la unidad %(device)s, omitiendo."
 
-#: ../tails_installer/creator.py:741
+#: ../tails_installer/creator.py:743
 #, python-format
 msgid ""
 "Some partitions of the target device %(device)s are mounted. They will be "
 "unmounted before starting the installation process."
 msgstr "Algunas particiones del dispositivo de destino %(device)s están montadas y serán desmontadas antes de comenzar con la instalación."
 
-#: ../tails_installer/creator.py:784 ../tails_installer/creator.py:1008
+#: ../tails_installer/creator.py:786 ../tails_installer/creator.py:1010
 msgid "Unknown filesystem.  Your device may need to be reformatted."
 msgstr "Sistema de archivos desconocido. Su dispositivo puede necesitar ser reformateado."
 
-#: ../tails_installer/creator.py:787 ../tails_installer/creator.py:1011
+#: ../tails_installer/creator.py:789 ../tails_installer/creator.py:1013
 #, python-format
 msgid "Unsupported filesystem: %s"
 msgstr "Sistema de archivos no soportado: %s"
 
-#: ../tails_installer/creator.py:805
+#: ../tails_installer/creator.py:807
 #, python-format
 msgid "Unknown GLib exception while trying to mount device: %(message)s"
 msgstr "Excepción GLib desconocida mientras se estaba intentando montar dispositivo:%(message)s"
 
-#: ../tails_installer/creator.py:810
+#: ../tails_installer/creator.py:812
 #, python-format
 msgid "Unable to mount device: %(message)s"
 msgstr "No se pudo montar el dispositivo: %(message)s"
 
-#: ../tails_installer/creator.py:815
+#: ../tails_installer/creator.py:817
 msgid "No mount points found"
 msgstr "No se encontraron puntos de montaje"
 
-#: ../tails_installer/creator.py:826
+#: ../tails_installer/creator.py:828
 #, python-format
 msgid "Entering unmount_device for '%(device)s'"
 msgstr "Ejecutando unmount_device para '%(device)s'"
 
-#: ../tails_installer/creator.py:836
+#: ../tails_installer/creator.py:838
 #, python-format
 msgid "Unmounting mounted filesystems on '%(device)s'"
 msgstr "Desmontando sistemas de archivos montados en '%(device)s'"
 
-#: ../tails_installer/creator.py:840
+#: ../tails_installer/creator.py:842
 #, python-format
 msgid "Unmounting '%(udi)s' on '%(device)s'"
 msgstr "Desmontando '%(udi)s' en '%(device)s'"
 
-#: ../tails_installer/creator.py:851
+#: ../tails_installer/creator.py:853
 #, python-format
 msgid "Mount %s exists after unmounting"
 msgstr "El punto de montaje %s sigue existiendo después del desmontado"
 
-#: ../tails_installer/creator.py:864
+#: ../tails_installer/creator.py:866
 #, python-format
 msgid "Partitioning device %(device)s"
 msgstr "Particionando dispositivo %(device)s"
 
-#: ../tails_installer/creator.py:993
+#: ../tails_installer/creator.py:995
 #, python-format
 msgid "Unsupported device '%(device)s', please report a bug."
 msgstr "El dispositivo '%(device)s' no está soportado, por favor envíe un informe de fallos."
 
-#: ../tails_installer/creator.py:996
+#: ../tails_installer/creator.py:998
 msgid "Trying to continue anyway."
 msgstr "Intentando continuar de todos modos."
 
-#: ../tails_installer/creator.py:1005 ../tails_installer/creator.py:1401
+#: ../tails_installer/creator.py:1007 ../tails_installer/creator.py:1405
 msgid "Verifying filesystem..."
 msgstr "Verificando el sistema de archivos..."
 
-#: ../tails_installer/creator.py:1029
+#: ../tails_installer/creator.py:1031
 #, python-format
 msgid "Unable to change volume label: %(message)s"
 msgstr "No se pudo cambiar la etiqueta del volumen: %(message)s"
 
-#: ../tails_installer/creator.py:1034 ../tails_installer/creator.py:1434
+#: ../tails_installer/creator.py:1037 ../tails_installer/creator.py:1440
 msgid "Installing bootloader..."
 msgstr "Instalando el gestor de arranque..."
 
-#: ../tails_installer/creator.py:1061
+#: ../tails_installer/creator.py:1064
 #, python-format
 msgid "Could not find the '%s' COM32 module"
 msgstr "No se pudo encontrar el módulo COM32 '%s'"
 
-#: ../tails_installer/creator.py:1069 ../tails_installer/creator.py:1452
+#: ../tails_installer/creator.py:1072 ../tails_installer/creator.py:1458
 #, python-format
 msgid "Removing %(file)s"
 msgstr "Removiendo %(file)s"
 
-#: ../tails_installer/creator.py:1183
+#: ../tails_installer/creator.py:1186
 #, python-format
 msgid "%s already bootable"
 msgstr "%s es arrancable"
 
-#: ../tails_installer/creator.py:1203
+#: ../tails_installer/creator.py:1206
 msgid "Unable to find partition"
 msgstr "No se encontró la partición"
 
-#: ../tails_installer/creator.py:1226
+#: ../tails_installer/creator.py:1229
 #, python-format
 msgid "Formatting %(device)s as FAT32"
 msgstr "Formateando %(device)s como FAT32"
 
-#: ../tails_installer/creator.py:1286
+#: ../tails_installer/creator.py:1289
 msgid "Could not find syslinux' gptmbr.bin"
 msgstr "No se pudo encontrar el archivo gptmbr.bin de SYSLINUX"
 
-#: ../tails_installer/creator.py:1299
+#: ../tails_installer/creator.py:1302
 #, python-format
 msgid "Reading extracted MBR from %s"
 msgstr "Leyendo el MBR extraído de %s"
 
-#: ../tails_installer/creator.py:1303
+#: ../tails_installer/creator.py:1306
 #, python-format
 msgid "Could not read the extracted MBR from %(path)s"
 msgstr "No se pudo leer el MBR extraido de %(path)s"
 
-#: ../tails_installer/creator.py:1316 ../tails_installer/creator.py:1317
+#: ../tails_installer/creator.py:1319 ../tails_installer/creator.py:1320
 #, python-format
 msgid "Resetting Master Boot Record of %s"
 msgstr "Restableciendo Registro de Arranque Maestro de %s"
 
-#: ../tails_installer/creator.py:1322
+#: ../tails_installer/creator.py:1325
 msgid "Drive is a loopback, skipping MBR reset"
 msgstr "La unidad es virtual, omitiendo el restablecimiento del MBR"
 
-#: ../tails_installer/creator.py:1326 ../tails_installer/creator.py:1580
+#: ../tails_installer/creator.py:1329 ../tails_installer/creator.py:1589
 #, python-format
 msgid "Calculating the SHA1 of %s"
 msgstr "Calculando el checksum SHA1 de %s"
 
-#: ../tails_installer/creator.py:1351
+#: ../tails_installer/creator.py:1354
 msgid "Synchronizing data on disk..."
 msgstr "Sincronizando datos en disco..."
 
-#: ../tails_installer/creator.py:1393
+#: ../tails_installer/creator.py:1397
 msgid "Error probing device"
 msgstr "Error al examinar el dispositivo"
 
-#: ../tails_installer/creator.py:1395
+#: ../tails_installer/creator.py:1399
 msgid "Unable to find any supported device"
 msgstr "No se encontraron dispositivos soportados"
 
-#: ../tails_installer/creator.py:1405
+#: ../tails_installer/creator.py:1409
 msgid ""
 "Make sure your USB key is plugged in and formatted with the FAT filesystem"
 msgstr "Asegúrese de que su dispositivo USB está conectado y formateado con el sistema de archivos FAT"
 
-#: ../tails_installer/creator.py:1408
+#: ../tails_installer/creator.py:1412
 #, python-format
 msgid ""
 "Unsupported filesystem: %s\n"
 "Please backup and format your USB key with the FAT filesystem."
 msgstr "Sistema de archivos no soportado: %s\nHaga un respaldo de los datos y formatee su dispositivo USB con el sistema de archivos FAT."
 
-#: ../tails_installer/creator.py:1475
+#: ../tails_installer/creator.py:1481
 msgid ""
 "Unable to get Win32_LogicalDisk; win32com query did not return any results"
 msgstr "No se pudo obtener Win32_LogicalDisk; la consulta a win32com no retornó ningún resultado"
 
-#: ../tails_installer/creator.py:1528
+#: ../tails_installer/creator.py:1536
 msgid "Cannot find"
 msgstr "No se pudo encontrar"
 
-#: ../tails_installer/creator.py:1529
+#: ../tails_installer/creator.py:1537
 msgid ""
 "Make sure to extract the entire tails-installer zip file before running this"
 " program."
