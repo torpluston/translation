@@ -5,13 +5,14 @@
 # Translators:
 # G <purexxxx@hotmail.com>, 2015
 # Mart Laub <mart@esec.ee>, 2014
+# Paul Martin Korp <paul.m.korp@gmail.com>, 2018
 msgid ""
 msgstr ""
-"Project-Id-Version: The Tor Project\n"
+"Project-Id-Version: Tor Project\n"
 "Report-Msgid-Bugs-To: 'https://trac.torproject.org/projects/tor/newticket?component=BridgeDB&keywords=bridgedb-reported,msgid&cc=isis,sysrqb&owner=isis'\n"
 "POT-Creation-Date: 2015-07-25 03:40+0000\n"
-"PO-Revision-Date: 2018-04-12 18:54+0000\n"
-"Last-Translator: IDRASSI Mounir <mounir.idrassi@idrix.fr>\n"
+"PO-Revision-Date: 2018-12-06 12:22+0000\n"
+"Last-Translator: Paul Martin Korp <paul.m.korp@gmail.com>\n"
 "Language-Team: Estonian (http://www.transifex.com/otf/torproject/language/et/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -33,7 +34,7 @@ msgstr ""
 #. "Tor Browser"
 #: bridgedb/https/server.py:167
 msgid "Sorry! Something went wrong with your request."
-msgstr "Vabandust! Midagi läks sinu päringuga valesti."
+msgstr "Vabandust! Midagi läks Teie päringuga valesti."
 
 #: bridgedb/https/templates/base.html:79
 msgid "Report a Bug"
@@ -57,7 +58,7 @@ msgstr "Vali kõik"
 
 #: bridgedb/https/templates/bridges.html:40
 msgid "Show QRCode"
-msgstr "Näita QRKoodi"
+msgstr "Näita QR-koodi"
 
 #: bridgedb/https/templates/bridges.html:52
 msgid "QRCode for your bridge lines"
@@ -74,7 +75,7 @@ msgstr "Oli seda nüüd vaja..."
 
 #: bridgedb/https/templates/bridges.html:68
 msgid "It seems there was an error getting your QRCode."
-msgstr "Viga tekkis teie QRKoodi hankimisel."
+msgstr "QR-koodi hankimisel ilmnes viga."
 
 #: bridgedb/https/templates/bridges.html:73
 msgid ""
@@ -101,7 +102,7 @@ msgstr "%s1%s samm."
 #: bridgedb/https/templates/index.html:13
 #, python-format
 msgid "Download %s Tor Browser %s"
-msgstr "Lae alla %s Tor Browser %s"
+msgstr "Lae alla %s Tor brauser %s"
 
 #: bridgedb/https/templates/index.html:25
 #, python-format
@@ -121,7 +122,7 @@ msgstr "%s3%s samm."
 #: bridgedb/https/templates/index.html:38
 #, python-format
 msgid "Now %s add the bridges to Tor Browser %s"
-msgstr "Nüüd %s lisa sillad Tor Browseri %s"
+msgstr "Nüüd %s lisa sillad Tor'i brauserisse%s"
 
 #. TRANSLATORS: Please make sure the '%s' surrounding single letters at the
 #. beginning of words are present in your final translation. Thanks!
@@ -158,7 +159,7 @@ msgstr "%sJ%sah!"
 #: bridgedb/https/templates/options.html:147
 #, python-format
 msgid "%sG%set Bridges"
-msgstr "%sH%sangi Bridges"
+msgstr "%sH%sangi sillad"
 
 #: bridgedb/strings.py:43
 msgid "[This is an automated message; please do not reply.]"
@@ -173,12 +174,12 @@ msgstr "Siin on sinu sillad:"
 msgid ""
 "You have exceeded the rate limit. Please slow down! The minimum time between\n"
 "emails is %s hours. All further emails during this time period will be ignored."
-msgstr "Oled ületanud määra limiidi. Palun võta aeglasemalt! Miinimum aeg e-mailide vahel\non %s tundi. Edasiseid e-maile selles ajavahemikus ignoreeritakse."
+msgstr "Olete ületanud määra limiidi. Palun võtke aeglasemalt! Miinimum aeg e-mailide vahel\non %s tundi. Edasiseid e-maile selles ajavahemikus ignoreeritakse."
 
 #: bridgedb/strings.py:50
 msgid ""
 "COMMANDs: (combine COMMANDs to specify multiple options simultaneously)"
-msgstr "KÄSUD: (ühenda KÄSUD, et täpsustada valikuid üheaegselt)"
+msgstr "KÄSUD: (kombineeri KÄSUD, et täpsustada valikuid üheaegselt)"
 
 #. TRANSLATORS: Please DO NOT translate the word "BridgeDB".
 #: bridgedb/strings.py:53
@@ -247,7 +248,7 @@ msgid ""
 "Pluggable Transports %s which maybe doesn't sound as cool, but they can still\n"
 "help to circumvent internet censorship in many cases.\n"
 "\n"
-msgstr "Lisaks, BridgeDB-l on hulgaliselt tavapäraseid, igavaid sildu %s ilma\nPluggable Transports-ideta %s, mis võib-olla ei kõla kutsuvalt, kuid on siiski\nsuutelised aitama hiilida interneti tsensuuris nii mitmelgi juhul.\n\n"
+msgstr "Lisaks on BridgeDB-l ka palju tavapäraseid, igavaid sildu %s ilma\nPluggable Transports-ideta %s, mis võib-olla ei kõla nii lahedalt, kuid need sillad saavad teil paljudel juhtul internetitsensuuri eest kõrvale põigata.\n\n"
 
 #: bridgedb/strings.py:101
 msgid "What are bridges?"
@@ -256,7 +257,7 @@ msgstr "Mis on sillad?"
 #: bridgedb/strings.py:102
 #, python-format
 msgid "%s Bridges %s are Tor relays that help you circumvent censorship."
-msgstr "%s Sillad %s on Tor-i osad, mis aitavad interneti tsensuursuses ringi hiilida."
+msgstr "%s Sillad %s on Tor-i releed, mis aitavad internetitsensuuri eest kõrvale põigata."
 
 #: bridgedb/strings.py:107
 msgid "I need an alternative way of getting bridges!"
@@ -268,7 +269,7 @@ msgid ""
 "Another way to get bridges is to send an email to %s. Please note that you must\n"
 "send the email using an address from one of the following email providers:\n"
 "%s, %s or %s."
-msgstr "Veel üheks sildade saamise viisiks on saates e-mail aadressile %s. Palun pange\ntähele, et peate saatma e-maili kasutades aadressi ühelt järgnevalt e-maili teenusepakkujalt:\n%s, %s või %s."
+msgstr "Sildu on võimalik saada ka saates e-maili järgnevale aadressile: %s. Palun pange\ntähele, et peate saatma e-maili selliselt aadressilt, mis kasutab ühte järgnevatest e-maili teenusepakkujatest:\n%s, %s või %s."
 
 #: bridgedb/strings.py:115
 msgid "My bridges don't work! I need help!"
@@ -278,7 +279,7 @@ msgstr "Mu sillad ei tööta! Vajan abi!"
 #: bridgedb/strings.py:117
 #, python-format
 msgid "If your Tor doesn't work, you should email %s."
-msgstr "Kui su Tor ei tööta, saada e-mail aadressile %s."
+msgstr "Kui Teil Tor ei tööta, saatke e-mail aadressile %s."
 
 #. TRANSLATORS: Please DO NOT translate "Pluggable Transports".
 #. TRANSLATORS: Please DO NOT translate "Tor Browser".
@@ -288,7 +289,7 @@ msgid ""
 "Try including as much info about your case as you can, including the list of\n"
 "bridges and Pluggable Transports you tried to use, your Tor Browser version,\n"
 "and any messages which Tor gave out, etc."
-msgstr "Proovi lisada võimalikult palju infot oma juhtumist, lisades listi sildadest ja\nPluggable Transports'iest, mida sa kasutad; oma Tor Browser'i versioon\nja kõik teated, mida Tor sulle edastas jne."
+msgstr "Proovige lisada võimalikult palju informatsioon seoses oma juhtumiga, lisades järjendi sildadest ja\nPluggable Transports'idest, mida Te üritasite kasutada; oma Tor brauseri versioon\nja kõik teated, mida Tor sulle edastas jne."
 
 #: bridgedb/strings.py:128
 msgid "Here are your bridge lines:"
@@ -296,7 +297,7 @@ msgstr "Siin on teie silla read:"
 
 #: bridgedb/strings.py:129
 msgid "Get Bridges!"
-msgstr "Hangi Bridges!"
+msgstr "Hangi sillad!"
 
 #: bridgedb/strings.py:133
 msgid "Please select options for bridge type:"
@@ -313,15 +314,15 @@ msgstr "Kas teil on vaja %s?"
 
 #: bridgedb/strings.py:139
 msgid "Your browser is not displaying images properly."
-msgstr "Sinu veebilehitseja ei näita pilte õigesti."
+msgstr "Teie veebilehitseja ei kuva pilte korrektselt."
 
 #: bridgedb/strings.py:140
 msgid "Enter the characters from the image above..."
-msgstr "Sisesta ülemisel pildil olevad sümbolid..."
+msgstr "Sisestage ülemisel pildil olevad sümbolid..."
 
 #: bridgedb/strings.py:144
 msgid "How to start using your bridges"
-msgstr "Kuidas kasutada sildu"
+msgstr "Kuidas alustada oma sildade kasutamist"
 
 #. TRANSLATORS: Please DO NOT translate "Tor Browser".
 #: bridgedb/strings.py:146
@@ -330,21 +331,21 @@ msgid ""
 "To enter bridges into Tor Browser, first go to the %s Tor Browser download\n"
 "page %s and then follow the instructions there for downloading and starting\n"
 "Tor Browser."
-msgstr "Et lisada bridges Tor Browserisse, mine %s Tor Browseri allalaadimis leheküljele %s ja järgi seal olevaid instruktsioone Tor Browseri allalaadimiseks ja käivitamiseks."
+msgstr "Et lisada sildu Tor'i brauserisse, minge %s Tor'i brauseri allalaadimisleheküljele %s ja järgige seal olevaid instruktsioone Tor brauseri allalaadimiseks ja käivitamiseks."
 
 #. TRANSLATORS: Please DO NOT translate "Tor".
 #: bridgedb/strings.py:151
 msgid ""
 "When the 'Tor Network Settings' dialogue pops up, click 'Configure' and follow\n"
 "the wizard until it asks:"
-msgstr "Kui 'Tor võrgu seaded' dialoog kerkib esile, vajuta 'Seadista' ja järgi nõustajat kuni see küsib:"
+msgstr "Kui 'Tor'i võrgu seaded' dialoog kerkib esile, vajutage 'Seadista' ja järgige nõustajat kuni see küsib:"
 
 #. TRANSLATORS: Please DO NOT translate "Tor".
 #: bridgedb/strings.py:155
 msgid ""
 "Does your Internet Service Provider (ISP) block or otherwise censor connections\n"
 "to the Tor network?"
-msgstr "Kas teie Interneti-teenuse pakkuja (ISP) blokeerib või tsenseerib ühendusi Tor võrku?"
+msgstr "Kas Teie Internetiteenuse pakkuja (ISP) blokeerib või tsensoreerib ühendusi Tor'i võrku?"
 
 #. TRANSLATORS: Please DO NOT translate "Tor".
 #: bridgedb/strings.py:159
@@ -353,30 +354,30 @@ msgid ""
 "paste the bridge lines into the text input box. Finally, click 'Connect', and\n"
 "you should be good to go! If you experience trouble, try clicking the 'Help'\n"
 "button in the 'Tor Network Settings' wizard for further assistance."
-msgstr "Vali \"Jah\" ja vajuta \"Järgmine\". Et seadistada uusi sildu, kopeeri ja kleebi silla read teksti sisestamise kasti. Lõpetuseks, vajuta \"Ühenda\", ja kõik peaks toimima. Kui teil tekib probleeme, proovige \"Abi\" nuppu, \"Tor võrgu seaded-ete\" nõustajas edasise abi saamiseks."
+msgstr "Valige \"Jah\" ja klikkige \"Järgmine\". Et seadistada oma uusi sildu, kopeeri ja kleebi silla read teksti sisendikasti. Lõpetuseks vajutage \"Ühenda\", ja kõik peaks toimima! Kui Teil tekib probleeme, proovige klikkida \"Abi\" nuppu, mis asub \"Tor'i võrgu seaded\" nõustajas edasise abi saamiseks."
 
 #: bridgedb/strings.py:167
 msgid "Displays this message."
-msgstr "Näita seda teadet."
+msgstr "Näitab seda teadet."
 
 #. TRANSLATORS: Please try to make it clear that "vanilla" here refers to the
 #. same non-Pluggable Transport bridges described above as being
 #. "plain-ol'-vanilla" bridges.
 #: bridgedb/strings.py:171
 msgid "Request vanilla bridges."
-msgstr "Päri tavalisi sildu."
+msgstr "Esita päring tavaliste sildade jaoks."
 
 #: bridgedb/strings.py:172
 msgid "Request IPv6 bridges."
-msgstr "Päri IPv6 sildu."
+msgstr "Esita päring IPv6 sildade jaoks."
 
 #. TRANSLATORS: Please DO NOT translate the word the word "TYPE".
 #: bridgedb/strings.py:174
 msgid "Request a Pluggable Transport by TYPE."
-msgstr "Päri blokeeritav transport(Pluggable Transport) TYPElt."
+msgstr "Esita päring Pluggable Transpordi jaoks TYPE järgi."
 
 #. TRANSLATORS: Please DO NOT translate "BridgeDB".
 #. TRANSLATORS: Please DO NOT translate "GnuPG".
 #: bridgedb/strings.py:177
 msgid "Get a copy of BridgeDB's public GnuPG key."
-msgstr "Hangi BridgeDB publik GnuPG võti."
+msgstr "Hangi koopia BridgeDB GnuPG avalikust võtmest."
