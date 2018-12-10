@@ -14,10 +14,10 @@
 # Ruben <drarbib@gmail.com>, 2014
 msgid ""
 msgstr ""
-"Project-Id-Version: The Tor Project\n"
+"Project-Id-Version: Tor Project\n"
 "Report-Msgid-Bugs-To: Tails developers <tails@boum.org>\n"
-"POT-Creation-Date: 2018-05-07 19:26+0200\n"
-"PO-Revision-Date: 2018-08-06 19:56+0000\n"
+"POT-Creation-Date: 2018-12-09 13:56+0100\n"
+"PO-Revision-Date: 2018-12-10 09:23+0000\n"
 "Last-Translator: ION\n"
 "Language-Team: Hebrew (http://www.transifex.com/otf/torproject/language/he/)\n"
 "MIME-Version: 1.0\n"
@@ -26,18 +26,18 @@ msgstr ""
 "Language: he\n"
 "Plural-Forms: nplurals=4; plural=(n == 1 && n % 1 == 0) ? 0 : (n == 2 && n % 1 == 0) ? 1: (n % 10 == 0 && n % 1 == 0 && n > 10) ? 2 : 3;\n"
 
-#: ../lib/Tails/IUK/Frontend.pm:148 ../lib/Tails/IUK/Frontend.pm:524
-#: ../lib/Tails/IUK/Frontend.pm:697
+#: ../lib/Tails/IUK/Frontend.pm:147 ../lib/Tails/IUK/Frontend.pm:524
+#: ../lib/Tails/IUK/Frontend.pm:710
 msgid ""
 "For debugging information, execute the following command: sudo tails-"
 "debugging-info"
 msgstr "למידע ניפוי תקלים, בצע את הפקודה הבאה: sudo tails-debugging-info"
 
-#: ../lib/Tails/IUK/Frontend.pm:217
+#: ../lib/Tails/IUK/Frontend.pm:218
 msgid "Error while checking for upgrades"
 msgstr "שגיאה בעת בדיקה אחר שדרוגים"
 
-#: ../lib/Tails/IUK/Frontend.pm:220
+#: ../lib/Tails/IUK/Frontend.pm:221
 msgid ""
 "<b>Could not determine whether an upgrade is available from our website.</b>\n"
 "\n"
@@ -46,78 +46,77 @@ msgid ""
 "If the problem persists, go to file:///usr/share/doc/tails/website/doc/upgrade/error/check.en.html"
 msgstr "<b>לא היה יכול לקבוע אם שדרוג זמין מהאתר שלנו.</b>\n\nבדוק את חיבור הרשת שלך והפעל מחדש את Tails כדי לנסות לשדרג שוב.\n\nאם הבעיה נמשכת, לך אל file:///usr/share/doc/tails/website/doc/upgrade/error/check.en.html"
 
-#: ../lib/Tails/IUK/Frontend.pm:235
+#: ../lib/Tails/IUK/Frontend.pm:236
 msgid "no automatic upgrade is available from our website for this version"
 msgstr "אין שדרוג אוטומטי זמין מהאתר שלנו עבור גרסה זו"
 
-#: ../lib/Tails/IUK/Frontend.pm:241
+#: ../lib/Tails/IUK/Frontend.pm:242
 msgid "your device was not created using Tails Installer"
 msgstr "ההתקן שלך לא נוצר ע\"י שימוש במתקין Tails"
 
-#: ../lib/Tails/IUK/Frontend.pm:246
+#: ../lib/Tails/IUK/Frontend.pm:247
 msgid "Tails was started from a DVD or a read-only device"
 msgstr "Tails הופעל מדי־וי־די או מהתקן לקריאה בלבד"
 
-#: ../lib/Tails/IUK/Frontend.pm:251
+#: ../lib/Tails/IUK/Frontend.pm:252
 msgid "there is not enough free space on the Tails system partition"
 msgstr "אין מספיק שטח פנוי על מחיצת מערכת Tails"
 
-#: ../lib/Tails/IUK/Frontend.pm:256
+#: ../lib/Tails/IUK/Frontend.pm:257
 msgid "not enough memory is available on this system"
 msgstr "אין מספיק זיכרון זמין במערכת זו"
 
-#: ../lib/Tails/IUK/Frontend.pm:262
+#: ../lib/Tails/IUK/Frontend.pm:263
 #, perl-brace-format
 msgid "No explanation available for reason '%{reason}s'."
 msgstr "אין הסבר זמין לסיבה '%{reason}s'."
 
-#: ../lib/Tails/IUK/Frontend.pm:282
+#: ../lib/Tails/IUK/Frontend.pm:283
 msgid "The system is up-to-date"
 msgstr "המערכת מעודכנת"
 
-#: ../lib/Tails/IUK/Frontend.pm:287
+#: ../lib/Tails/IUK/Frontend.pm:288
 msgid "This version of Tails is outdated, and may have security issues."
 msgstr "גרסה זו של Tails מיושנת ועלולות להיות לה סוגיות אבטחה."
 
-#: ../lib/Tails/IUK/Frontend.pm:319
+#: ../lib/Tails/IUK/Frontend.pm:320
 #, perl-brace-format
 msgid ""
 "The available incremental upgrade requires %{space_needed}s of free space on"
 " Tails system partition,  but only %{free_space}s is available."
 msgstr "השדרוג המצטבר הזמין דורש %{space_needed}s שטח פנוי במחיצת מערכת Tails, אך יש רק %{free_space}s זמין."
 
-#: ../lib/Tails/IUK/Frontend.pm:335
+#: ../lib/Tails/IUK/Frontend.pm:336
 #, perl-brace-format
 msgid ""
 "The available incremental upgrade requires %{memory_needed}s of free memory,"
 " but only %{free_memory}s is available."
 msgstr "השדרוג המצטבר הזמין דורש %{space_needed}s של זיכרון פנוי, אך יש רק %{free_space}s פנוי."
 
-#: ../lib/Tails/IUK/Frontend.pm:357
+#: ../lib/Tails/IUK/Frontend.pm:358
 msgid ""
 "An incremental upgrade is available, but no full upgrade is.\n"
 "This should not happen. Please report a bug."
 msgstr "שדרוג מצטבר זמין, אבל לא שדרוג מלא.\nזה לא אמור לקרות. אנא דווח על תקל."
 
-#: ../lib/Tails/IUK/Frontend.pm:361
+#: ../lib/Tails/IUK/Frontend.pm:362
 msgid "Error while detecting available upgrades"
 msgstr "שגיאה בעת גילוי שדרוגים זמינים"
 
-#: ../lib/Tails/IUK/Frontend.pm:371
+#: ../lib/Tails/IUK/Frontend.pm:372
 #, perl-brace-format
 msgid ""
 "<b>You should upgrade to %{name}s %{version}s.</b>\n"
 "\n"
 "For more information about this new version, go to %{details_url}s\n"
 "\n"
-"It is recommended to close all the open applications during the upgrade.\n"
+"We recommend you close all other applications during the upgrade.\n"
 "Downloading the upgrade might take a long time, from several minutes to a few hours.\n"
-"The networking will be disabled after downloading the upgrade.\n"
 "\n"
 "Download size: %{size}s\n"
 "\n"
 "Do you want to upgrade now?"
-msgstr "<b>עליך לשדרג אל %{name}s %{version}s.</b>\n\nלמידע נוסף אודות גרסה חדשה זו, לך אל %{details_url}s\nמומלץ לסגור את כל היישומים הפתוחים במהלך השדרוג.\nהורדת השדרוג עשויה לקחת זמן רב, מדקות ספורות למספר שעות.\nחיבור הרשת יושבת לאחר הורדת השדרוג.\n\nגודל ההורדה: %{size}s\n\nהאם אתה רוצה לשדרג כעת?"
+msgstr "<b>אתה צריך לשדרג אל %{name}s %{version}s.</b>\n\nלמידע נוסף אודות גרסה חדשה זו, לך אל %{details_url}s\nאנו ממליצים לך לסגור את כל היישומים האחרים במהלך השדרוג.\nהורדת השדרוג עשויה לקחת זמן רב, מדקות ספורות למספר שעות.\n\nגודל ההורדה: %{size}s\n\nהאם אתה רוצה לשדרג כעת?"
 
 #: ../lib/Tails/IUK/Frontend.pm:386
 msgid "Upgrade available"
@@ -194,7 +193,24 @@ msgstr "<b>לא היה ניתן לבחור שרת הורדה.</b>\n\nזה לא �
 msgid "Error while choosing a download server"
 msgstr "שגיאה בעת בחירת שרת הורדה"
 
-#: ../lib/Tails/IUK/Frontend.pm:608
+#: ../lib/Tails/IUK/Frontend.pm:606
+msgid ""
+"The upgrade was successfully downloaded.\n"
+"\n"
+"The network connection will now be disabled.\n"
+"\n"
+"Please save your work and close all other applications."
+msgstr "השדרוג ירד בהצלחה.\n\nחיבור הרשת יושבת כעת.\n\nאנא שמור את עבודתך וסגור את כל היישומים האחרים."
+
+#: ../lib/Tails/IUK/Frontend.pm:612
+msgid "Upgrade successfully downloaded"
+msgstr "שדרוג ירד בהצלחה"
+
+#: ../lib/Tails/IUK/Frontend.pm:614
+msgid "Apply upgrade"
+msgstr "החל שדרוג"
+
+#: ../lib/Tails/IUK/Frontend.pm:621
 msgid ""
 "<b>Your Tails device was successfully upgraded.</b>\n"
 "\n"
@@ -204,46 +220,46 @@ msgid ""
 "Do you want to restart now?"
 msgstr "<b>התקן ה-Tails שלך שודרג בהצלחה.</b>\n\nתכונות אבטחה מסוימות הושבתו באופן זמני.\nאתה צריך להפעיל מחדש את Tails בגרסה החדשה בהקדם האפשרי.\n\nהאם אתה רוצה להפעיל מחדש כעת?"
 
-#: ../lib/Tails/IUK/Frontend.pm:613
+#: ../lib/Tails/IUK/Frontend.pm:626
 msgid "Restart Tails"
 msgstr "הפעל מחדש את Tails"
 
-#: ../lib/Tails/IUK/Frontend.pm:614
+#: ../lib/Tails/IUK/Frontend.pm:627
 msgid "Restart now"
 msgstr "הפעל מחדש כעת"
 
-#: ../lib/Tails/IUK/Frontend.pm:615
+#: ../lib/Tails/IUK/Frontend.pm:628
 msgid "Restart later"
 msgstr "הפעל מחדש מאוחר יותר"
 
-#: ../lib/Tails/IUK/Frontend.pm:626
+#: ../lib/Tails/IUK/Frontend.pm:639
 msgid "Error while restarting the system"
 msgstr "שגיאה בעת הפעלת המערכת מחדש"
 
-#: ../lib/Tails/IUK/Frontend.pm:629
+#: ../lib/Tails/IUK/Frontend.pm:642
 msgid "Failed to restart the system"
 msgstr "נכשל בהפעלת המערכת מחדש"
 
-#: ../lib/Tails/IUK/Frontend.pm:644
+#: ../lib/Tails/IUK/Frontend.pm:657
 msgid "Error while shutting down the network"
 msgstr "שגיאה בעת כיבוי הרשת"
 
-#: ../lib/Tails/IUK/Frontend.pm:647
+#: ../lib/Tails/IUK/Frontend.pm:660
 msgid "Failed to shutdown network"
 msgstr "נכשל בכיבוי רשת"
 
-#: ../lib/Tails/IUK/Frontend.pm:657
+#: ../lib/Tails/IUK/Frontend.pm:670
 msgid "Upgrading the system"
 msgstr "משדרג את המערכת"
 
-#: ../lib/Tails/IUK/Frontend.pm:659
+#: ../lib/Tails/IUK/Frontend.pm:672
 msgid ""
 "<b>Your Tails device is being upgraded...</b>\n"
 "\n"
 "For security reasons, the networking is now disabled."
 msgstr "<b>התקן ה-Tails שלך משתדרג...</b>\n\nמסיבות אבטחה, חיבור הרשת מושבת כעת."
 
-#: ../lib/Tails/IUK/Frontend.pm:692
+#: ../lib/Tails/IUK/Frontend.pm:705
 msgid ""
 "<b>An error occured while installing the upgrade.</b>\\n\\nYour Tails device"
 " needs to be repaired and might be unable to restart.\\n\\nPlease follow the"
@@ -251,6 +267,6 @@ msgid ""
 "file:///usr/share/doc/tails/website/doc/upgrade/error/install.en.html"
 msgstr "<b>התרחשה שגיאה בעת התקנת השדרוג.</b>\\n\\nהתקן ה-Tails שלך זקוק לתיקון, וייתכן שהוא לא יהיה ניתן להיות מופעל מחדש.\\n\\nאנא עקוב אחר ההוראות ב- file:///usr/share/doc/tails/website/doc/upgrade/error/install.en.html"
 
-#: ../lib/Tails/IUK/Frontend.pm:702
+#: ../lib/Tails/IUK/Frontend.pm:715
 msgid "Error while installing the upgrade"
 msgstr "שגיאה בעת התקנת השדרוג"
