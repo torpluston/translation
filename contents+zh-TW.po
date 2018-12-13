@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-11-30 09:02+CET\n"
+"POT-Creation-Date: 2018-12-13 17:25+CET\n"
 "PO-Revision-Date: 2018-11-14 12:31+0000\n"
 "Last-Translator: erinm, 2018\n"
 "Language-Team: Chinese (Taiwan) (https://www.transifex.com/otf/teams/1519/zh_TW/)\n"
@@ -16,6 +16,204 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Language: zh_TW\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
+
+#: https//tb-manual.torproject.org/en-US/managing-identities/
+#: (content/managing-identities/contents+en-US.lrtopic.title)
+msgid "Managing identities"
+msgstr "身分管理"
+
+#: https//tb-manual.torproject.org/en-US/managing-identities/
+#: (content/managing-identities/contents+en-US.lrtopic.description)
+msgid "Learn how to control personally-identifying information in Tor Browser"
+msgstr "學習如何在洋蔥路由瀏覽器中，管控可識別個人身分的資訊"
+
+#: https//tb-manual.torproject.org/en-US/managing-identities/
+#: (content/managing-identities/contents+en-US.lrtopic.body)
+msgid ""
+"When you connect to a website, it is not only the operators of that website "
+"who can record information about your visit. Most websites now use numerous "
+"third-party services, including social networking “Like” buttons, analytics "
+"trackers, and advertising beacons, all of which can link your activity "
+"across different sites."
+msgstr ""
+"當您連上某個網站時，不只是該網站的管理員可取得有關於您的相關資訊，現今許多網站都會使用像是臉書的「讚」功能按鈕、訪客追蹤分析、廣告推播服務等各種第三方網路服務，此類的功能可以將您在不同網站上的活動紀錄串連組合起來。"
+
+#: https//tb-manual.torproject.org/en-US/managing-identities/
+#: (content/managing-identities/contents+en-US.lrtopic.body)
+msgid ""
+"Using the Tor network stops observers from being able to discover your exact"
+" location and IP address, but even without this information they might be "
+"able to link different areas of your activity together. For this reason, Tor"
+" Browser includes some additional features that help you control what "
+"information can be tied to your identity."
+msgstr ""
+"使用洋蔥路由網路可以防止網路監聽者找出您的真實網路位址以及實際地理位置，但是他們仍然能夠將您在網路上活動的各種紀錄連接組合在一起，並還原出您的網路活動全貌。有鑑於此，洋蔥路由瀏覽器有加入一些特殊設計，可以幫助您管控可能被用於身分識別的相關資訊。"
+
+#: https//tb-manual.torproject.org/en-US/managing-identities/
+#: (content/managing-identities/contents+en-US.lrtopic.body)
+msgid "##### The URL bar"
+msgstr ""
+
+#: https//tb-manual.torproject.org/en-US/managing-identities/
+#: (content/managing-identities/contents+en-US.lrtopic.body)
+msgid ""
+"Tor Browser centers your web experience around your relationship with the "
+"website in the URL bar. Even if you connect to two different sites that use "
+"the same third-party tracking service, Tor Browser will force the content to"
+" be served over two different Tor circuits, so the tracker will not know "
+"that both connections originate from your browser."
+msgstr ""
+"洋蔥路由瀏覽器會以您在網址列中的網站名稱為中心，來維護您與網站間的互動關係，因此，即使您連上了兩個不同的網站，但兩個站台上都有使用相同的第三方網路追蹤服務，洋蔥路由瀏覽器仍會強制讓您與這兩個網站間的連線，透過兩條不同的洋蔥路由迴路來交換資料，如此可以讓第三方網路追蹤服務非常難以察覺這兩條通往不同網站的連線，其實都是源自於您的瀏覽器。"
+
+#: https//tb-manual.torproject.org/en-US/managing-identities/
+#: (content/managing-identities/contents+en-US.lrtopic.body)
+msgid ""
+"On the other hand, all connections to a single website address will be made "
+"over the same Tor circuit, meaning you can browse different pages of a "
+"single website in separate tabs or windows, without any loss of "
+"functionality."
+msgstr ""
+"從另一方面而言，所有通往同一網站的連線都將會透過同一條洋蔥路由迴路來達成，因此即使您在瀏覽器中開啟多個不同的頁籤來閱覽同一網站中的不同網頁，其網站的功能也不會受到影響。"
+
+#: https//tb-manual.torproject.org/en-US/managing-identities/
+#: (content/managing-identities/contents+en-US.lrtopic.body)
+msgid "<img class=\"col-md-6\" src=\"../../static/images/circuit_full.png\">"
+msgstr ""
+
+#: https//tb-manual.torproject.org/en-US/managing-identities/
+#: (content/managing-identities/contents+en-US.lrtopic.body)
+msgid ""
+"You can see a diagram of the circuit that Tor Browser is using for the "
+"current tab in the site information menu, in the URL bar."
+msgstr ""
+
+#: https//tb-manual.torproject.org/en-US/managing-identities/
+#: (content/managing-identities/contents+en-US.lrtopic.body)
+msgid ""
+"In the circuit, the Guard or entry node is the first node and it's "
+"automatically and randomly selected by Tor. But it is different from the "
+"other nodes in the circuit. In order to avoid profiling attacks, the Guard "
+"node changes only after 2-3 months, unlike the other nodes, which change "
+"with every new domain. For more information about Guards, consult the <a "
+"href=\"https://www.torproject.org/docs/faq#EntryGuards\">FAQ</a> and <a "
+"href=\"https://support.torproject.org/tbb/tbb-2/\">Support Portal</a>."
+msgstr ""
+
+#: https//tb-manual.torproject.org/en-US/managing-identities/
+#: (content/managing-identities/contents+en-US.lrtopic.body)
+msgid "##### Logging in over Tor"
+msgstr ""
+
+#: https//tb-manual.torproject.org/en-US/managing-identities/
+#: (content/managing-identities/contents+en-US.lrtopic.body)
+msgid ""
+"Although Tor Browser is designed to enable total user anonymity on the web, "
+"there may be situations in which it makes sense to use Tor with websites "
+"that require usernames, passwords, or other identifying information."
+msgstr ""
+"雖然說洋蔥路由瀏覽器的設計，是要提供使用者以完全匿名的方式來上網，但是在某些情況中，用它來登入需要帳號密碼或可識別個人身分的網站，仍有其實用的價值。"
+
+#: https//tb-manual.torproject.org/en-US/managing-identities/
+#: (content/managing-identities/contents+en-US.lrtopic.body)
+msgid ""
+"If you log into a website using a regular browser, you also reveal your IP "
+"address and geographical location in the process. The same is often true "
+"when you send an email. Logging into your social networking or email "
+"accounts using Tor Browser allows you to choose exactly which information "
+"you reveal to the websites you browse. Logging in using Tor Browser is also "
+"useful if the website you are trying to reach is censored on your network."
+msgstr ""
+"當您使用普通的網路瀏覽器來登入某個網站時，您的真實網路位址與實際地理位置都將被公開得知，或者當您發送電子郵件時也是一樣的。然而，使用洋蔥路由瀏覽器來登入社群網站或電子郵件服務時，您則可以選擇哪些個人資訊要公開給網站取得哪些不要。而且，洋蔥路由瀏覽器也可以用來繞過某些有審查過濾機制的網路。"
+
+#: https//tb-manual.torproject.org/en-US/managing-identities/
+#: (content/managing-identities/contents+en-US.lrtopic.body)
+msgid ""
+"When you log in to a website over Tor, there are several points you should "
+"bear in mind:"
+msgstr "當您透過洋蔥路由來登入某個網站時，以下幾個重點您必須要牢記在心："
+
+#: https//tb-manual.torproject.org/en-US/managing-identities/
+#: (content/managing-identities/contents+en-US.lrtopic.body)
+msgid ""
+"* See the  <a href=\"/secure-connections\">Secure Connections</a> page for "
+"important information on how to secure your connection when logging in."
+msgstr ""
+
+#: https//tb-manual.torproject.org/en-US/managing-identities/
+#: (content/managing-identities/contents+en-US.lrtopic.body)
+msgid ""
+"* Tor Browser often makes your connection appear as though it is coming from"
+" an entirely different part of the world. Some websites, such as banks or "
+"email providers, might interpret this as a sign that your account has been "
+"hacked or compromised, and lock you out. The only way to resolve this is by "
+"following the site’s recommended procedure for account recovery, or "
+"contacting the operators and explaining the situation."
+msgstr ""
+
+#: https//tb-manual.torproject.org/en-US/managing-identities/
+#: (content/managing-identities/contents+en-US.lrtopic.body)
+msgid "##### Changing identities and circuits"
+msgstr ""
+
+#: https//tb-manual.torproject.org/en-US/managing-identities/
+#: (content/managing-identities/contents+en-US.lrtopic.body)
+msgid "<img class=\"col-md-6\" src=\"../../static/images/new_identity.png\">"
+msgstr ""
+
+#: https//tb-manual.torproject.org/en-US/managing-identities/
+#: (content/managing-identities/contents+en-US.lrtopic.body)
+msgid ""
+"Tor Browser features “New Identity” and “New Tor Circuit for this Site” "
+"options, located in the main menu (hamburger menu)."
+msgstr ""
+
+#: https//tb-manual.torproject.org/en-US/managing-identities/
+#: (content/managing-identities/contents+en-US.lrtopic.body)
+msgid "###### New Identity"
+msgstr ""
+
+#: https//tb-manual.torproject.org/en-US/managing-identities/
+#: (content/managing-identities/contents+en-US.lrtopic.body)
+msgid ""
+"This option is useful if you want to prevent your subsequent browser "
+"activity from being linkable to what you were doing before. Selecting it "
+"will close all your open tabs and windows, clear all private information "
+"such as cookies and browsing history, and use new Tor circuits for all "
+"connections. Tor Browser will warn you that all activity and downloads will "
+"be stopped, so take this into account before clicking “New Identity”."
+msgstr ""
+"若您想要避免後續在網路上活動的相關記錄，與您之前網路活動之記錄被連結組合在一起，此選項即可幫助您達成此目的。執行此功能將會關閉所有已經開啟的瀏覽器視窗及分頁、清除所有的瀏覽器"
+" cookie "
+"與歷史記錄等個人資訊，並且為後續所有的網路連線建立新的洋蔥路由迴路。洋蔥路由瀏覽器將會警告您說所有正在進行中的活動與下載將會被終止，因此當要執行「新的識別身分」功能前，請先做好相關的準備。"
+
+#: https//tb-manual.torproject.org/en-US/managing-identities/
+#: (content/managing-identities/contents+en-US.lrtopic.body)
+msgid "###### New Tor circuit for this site"
+msgstr ""
+
+#: https//tb-manual.torproject.org/en-US/managing-identities/
+#: (content/managing-identities/contents+en-US.lrtopic.body)
+msgid ""
+"This option is useful if the <a href=\"/about/#how-tor-works\">exit "
+"relay</a> you are using is unable to connect to the website you require, or "
+"is not loading it properly. Selecting it will cause the currently-active tab"
+" or window to be reloaded over a new Tor circuit. Other open tabs and "
+"windows from the same website will use the new circuit as well once they are"
+" reloaded. This option does not clear any private information or unlink your"
+" activity, nor does it affect your current connections to other websites."
+msgstr ""
+
+#: https//tb-manual.torproject.org/en-US/managing-identities/
+#: (content/managing-identities/contents+en-US.lrtopic.body)
+msgid ""
+"You can also access this option in the new circuit display, in the site "
+"information menu, in the URL bar."
+msgstr ""
+
+#: https//tb-manual.torproject.org/en-US/managing-identities/
+#: (content/managing-identities/contents+en-US.lrtopic.seo_slug)
+msgid "managing-identities"
+msgstr ""
 
 #: https//tb-manual.torproject.org/en-US/
 #: (content/contents+en-US.lrshowcase.title)
@@ -719,204 +917,6 @@ msgstr ""
 #: (content/circumvention/contents+en-US.lrtopic.seo_slug)
 msgid "circumvention"
 msgstr "規避"
-
-#: https//tb-manual.torproject.org/en-US/managing-identities/
-#: (content/managing-identities/contents+en-US.lrtopic.title)
-msgid "Managing identities"
-msgstr "身分管理"
-
-#: https//tb-manual.torproject.org/en-US/managing-identities/
-#: (content/managing-identities/contents+en-US.lrtopic.description)
-msgid "Learn how to control personally-identifying information in Tor Browser"
-msgstr "學習如何在洋蔥路由瀏覽器中，管控可識別個人身分的資訊"
-
-#: https//tb-manual.torproject.org/en-US/managing-identities/
-#: (content/managing-identities/contents+en-US.lrtopic.body)
-msgid ""
-"When you connect to a website, it is not only the operators of that website "
-"who can record information about your visit. Most websites now use numerous "
-"third-party services, including social networking “Like” buttons, analytics "
-"trackers, and advertising beacons, all of which can link your activity "
-"across different sites."
-msgstr ""
-"當您連上某個網站時，不只是該網站的管理員可取得有關於您的相關資訊，現今許多網站都會使用像是臉書的「讚」功能按鈕、訪客追蹤分析、廣告推播服務等各種第三方網路服務，此類的功能可以將您在不同網站上的活動紀錄串連組合起來。"
-
-#: https//tb-manual.torproject.org/en-US/managing-identities/
-#: (content/managing-identities/contents+en-US.lrtopic.body)
-msgid ""
-"Using the Tor network stops observers from being able to discover your exact"
-" location and IP address, but even without this information they might be "
-"able to link different areas of your activity together. For this reason, Tor"
-" Browser includes some additional features that help you control what "
-"information can be tied to your identity."
-msgstr ""
-"使用洋蔥路由網路可以防止網路監聽者找出您的真實網路位址以及實際地理位置，但是他們仍然能夠將您在網路上活動的各種紀錄連接組合在一起，並還原出您的網路活動全貌。有鑑於此，洋蔥路由瀏覽器有加入一些特殊設計，可以幫助您管控可能被用於身分識別的相關資訊。"
-
-#: https//tb-manual.torproject.org/en-US/managing-identities/
-#: (content/managing-identities/contents+en-US.lrtopic.body)
-msgid "##### The URL bar"
-msgstr ""
-
-#: https//tb-manual.torproject.org/en-US/managing-identities/
-#: (content/managing-identities/contents+en-US.lrtopic.body)
-msgid ""
-"Tor Browser centers your web experience around your relationship with the "
-"website in the URL bar. Even if you connect to two different sites that use "
-"the same third-party tracking service, Tor Browser will force the content to"
-" be served over two different Tor circuits, so the tracker will not know "
-"that both connections originate from your browser."
-msgstr ""
-"洋蔥路由瀏覽器會以您在網址列中的網站名稱為中心，來維護您與網站間的互動關係，因此，即使您連上了兩個不同的網站，但兩個站台上都有使用相同的第三方網路追蹤服務，洋蔥路由瀏覽器仍會強制讓您與這兩個網站間的連線，透過兩條不同的洋蔥路由迴路來交換資料，如此可以讓第三方網路追蹤服務非常難以察覺這兩條通往不同網站的連線，其實都是源自於您的瀏覽器。"
-
-#: https//tb-manual.torproject.org/en-US/managing-identities/
-#: (content/managing-identities/contents+en-US.lrtopic.body)
-msgid ""
-"On the other hand, all connections to a single website address will be made "
-"over the same Tor circuit, meaning you can browse different pages of a "
-"single website in separate tabs or windows, without any loss of "
-"functionality."
-msgstr ""
-"從另一方面而言，所有通往同一網站的連線都將會透過同一條洋蔥路由迴路來達成，因此即使您在瀏覽器中開啟多個不同的頁籤來閱覽同一網站中的不同網頁，其網站的功能也不會受到影響。"
-
-#: https//tb-manual.torproject.org/en-US/managing-identities/
-#: (content/managing-identities/contents+en-US.lrtopic.body)
-msgid "<img class=\"col-md-6\" src=\"../../static/images/circuit_full.png\">"
-msgstr ""
-
-#: https//tb-manual.torproject.org/en-US/managing-identities/
-#: (content/managing-identities/contents+en-US.lrtopic.body)
-msgid ""
-"You can see a diagram of the circuit that Tor Browser is using for the "
-"current tab in the site information menu, in the URL bar."
-msgstr ""
-
-#: https//tb-manual.torproject.org/en-US/managing-identities/
-#: (content/managing-identities/contents+en-US.lrtopic.body)
-msgid ""
-"In the circuit, the Guard or entry node is the first node and it's "
-"automatically and randomly selected by Tor. But it is different from the "
-"other nodes in the circuit. In order to avoid profiling attacks, the Guard "
-"node changes only after 2-3 months, unlike the other nodes, which change "
-"with every new domain. For more information about Guards, consult the <a "
-"href=\"https://www.torproject.org/docs/faq#EntryGuards\">FAQ</a> and <a "
-"href=\"https://support.torproject.org/tbb/tbb-2/\">Support Portal</a>."
-msgstr ""
-
-#: https//tb-manual.torproject.org/en-US/managing-identities/
-#: (content/managing-identities/contents+en-US.lrtopic.body)
-msgid "##### Logging in over Tor"
-msgstr ""
-
-#: https//tb-manual.torproject.org/en-US/managing-identities/
-#: (content/managing-identities/contents+en-US.lrtopic.body)
-msgid ""
-"Although Tor Browser is designed to enable total user anonymity on the web, "
-"there may be situations in which it makes sense to use Tor with websites "
-"that require usernames, passwords, or other identifying information."
-msgstr ""
-"雖然說洋蔥路由瀏覽器的設計，是要提供使用者以完全匿名的方式來上網，但是在某些情況中，用它來登入需要帳號密碼或可識別個人身分的網站，仍有其實用的價值。"
-
-#: https//tb-manual.torproject.org/en-US/managing-identities/
-#: (content/managing-identities/contents+en-US.lrtopic.body)
-msgid ""
-"If you log into a website using a regular browser, you also reveal your IP "
-"address and geographical location in the process. The same is often true "
-"when you send an email. Logging into your social networking or email "
-"accounts using Tor Browser allows you to choose exactly which information "
-"you reveal to the websites you browse. Logging in using Tor Browser is also "
-"useful if the website you are trying to reach is censored on your network."
-msgstr ""
-"當您使用普通的網路瀏覽器來登入某個網站時，您的真實網路位址與實際地理位置都將被公開得知，或者當您發送電子郵件時也是一樣的。然而，使用洋蔥路由瀏覽器來登入社群網站或電子郵件服務時，您則可以選擇哪些個人資訊要公開給網站取得哪些不要。而且，洋蔥路由瀏覽器也可以用來繞過某些有審查過濾機制的網路。"
-
-#: https//tb-manual.torproject.org/en-US/managing-identities/
-#: (content/managing-identities/contents+en-US.lrtopic.body)
-msgid ""
-"When you log in to a website over Tor, there are several points you should "
-"bear in mind:"
-msgstr "當您透過洋蔥路由來登入某個網站時，以下幾個重點您必須要牢記在心："
-
-#: https//tb-manual.torproject.org/en-US/managing-identities/
-#: (content/managing-identities/contents+en-US.lrtopic.body)
-msgid ""
-"* See the  <a href=\"/secure-connections\">Secure Connections</a> page for "
-"important information on how to secure your connection when logging in."
-msgstr ""
-
-#: https//tb-manual.torproject.org/en-US/managing-identities/
-#: (content/managing-identities/contents+en-US.lrtopic.body)
-msgid ""
-"* Tor Browser often makes your connection appear as though it is coming from"
-" an entirely different part of the world. Some websites, such as banks or "
-"email providers, might interpret this as a sign that your account has been "
-"hacked or compromised, and lock you out. The only way to resolve this is by "
-"following the site’s recommended procedure for account recovery, or "
-"contacting the operators and explaining the situation."
-msgstr ""
-
-#: https//tb-manual.torproject.org/en-US/managing-identities/
-#: (content/managing-identities/contents+en-US.lrtopic.body)
-msgid "##### Changing identities and circuits"
-msgstr ""
-
-#: https//tb-manual.torproject.org/en-US/managing-identities/
-#: (content/managing-identities/contents+en-US.lrtopic.body)
-msgid "<img class=\"col-md-6\" src=\"../../static/images/new_identity.png\">"
-msgstr ""
-
-#: https//tb-manual.torproject.org/en-US/managing-identities/
-#: (content/managing-identities/contents+en-US.lrtopic.body)
-msgid ""
-"Tor Browser features “New Identity” and “New Tor Circuit for this Site” "
-"options, located in the main menu (hamburger menu)."
-msgstr ""
-
-#: https//tb-manual.torproject.org/en-US/managing-identities/
-#: (content/managing-identities/contents+en-US.lrtopic.body)
-msgid "###### New Identity"
-msgstr ""
-
-#: https//tb-manual.torproject.org/en-US/managing-identities/
-#: (content/managing-identities/contents+en-US.lrtopic.body)
-msgid ""
-"This option is useful if you want to prevent your subsequent browser "
-"activity from being linkable to what you were doing before. Selecting it "
-"will close all your open tabs and windows, clear all private information "
-"such as cookies and browsing history, and use new Tor circuits for all "
-"connections. Tor Browser will warn you that all activity and downloads will "
-"be stopped, so take this into account before clicking “New Identity”."
-msgstr ""
-"若您想要避免後續在網路上活動的相關記錄，與您之前網路活動之記錄被連結組合在一起，此選項即可幫助您達成此目的。執行此功能將會關閉所有已經開啟的瀏覽器視窗及分頁、清除所有的瀏覽器"
-" cookie "
-"與歷史記錄等個人資訊，並且為後續所有的網路連線建立新的洋蔥路由迴路。洋蔥路由瀏覽器將會警告您說所有正在進行中的活動與下載將會被終止，因此當要執行「新的識別身分」功能前，請先做好相關的準備。"
-
-#: https//tb-manual.torproject.org/en-US/managing-identities/
-#: (content/managing-identities/contents+en-US.lrtopic.body)
-msgid "###### New Tor circuit for this site"
-msgstr ""
-
-#: https//tb-manual.torproject.org/en-US/managing-identities/
-#: (content/managing-identities/contents+en-US.lrtopic.body)
-msgid ""
-"This option is useful if the <a href=\"/about/#how-tor-works\">exit "
-"relay</a> you are using is unable to connect to the website you require, or "
-"is not loading it properly. Selecting it will cause the currently-active tab"
-" or window to be reloaded over a new Tor circuit. Other open tabs and "
-"windows from the same website will use the new circuit as well once they are"
-" reloaded. This option does not clear any private information or unlink your"
-" activity, nor does it affect your current connections to other websites."
-msgstr ""
-
-#: https//tb-manual.torproject.org/en-US/managing-identities/
-#: (content/managing-identities/contents+en-US.lrtopic.body)
-msgid ""
-"You can also access this option in the new circuit display, in the site "
-"information menu, in the URL bar."
-msgstr ""
-
-#: https//tb-manual.torproject.org/en-US/managing-identities/
-#: (content/managing-identities/contents+en-US.lrtopic.seo_slug)
-msgid "managing-identities"
-msgstr ""
 
 #: https//tb-manual.torproject.org/en-US/onion-services/
 #: (content/onion-services/contents+en-US.lrtopic.title)
@@ -1947,6 +1947,10 @@ msgstr ""
 #: templates/footer.html:25
 msgid "Get monthly updates and opportunities from the Tor Project"
 msgstr ""
+
+#: templates/footer.html:26
+msgid "Sign up"
+msgstr "註冊"
 
 #: templates/footer.html:32
 msgid ""

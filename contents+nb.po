@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-11-30 09:02+CET\n"
+"POT-Creation-Date: 2018-12-13 17:25+CET\n"
 "PO-Revision-Date: 2018-11-14 12:31+0000\n"
 "Last-Translator: erinm, 2018\n"
 "Language-Team: Norwegian Bokmål (https://www.transifex.com/otf/teams/1519/nb/)\n"
@@ -15,6 +15,235 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Language: nb\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: https//tb-manual.torproject.org/en-US/managing-identities/
+#: (content/managing-identities/contents+en-US.lrtopic.title)
+msgid "Managing identities"
+msgstr "Behandling av identiteter"
+
+#: https//tb-manual.torproject.org/en-US/managing-identities/
+#: (content/managing-identities/contents+en-US.lrtopic.description)
+msgid "Learn how to control personally-identifying information in Tor Browser"
+msgstr ""
+"Lær hvordan du kontrollerer personlig identifiserende informasjon i Tor-"
+"nettleseren"
+
+#: https//tb-manual.torproject.org/en-US/managing-identities/
+#: (content/managing-identities/contents+en-US.lrtopic.body)
+msgid ""
+"When you connect to a website, it is not only the operators of that website "
+"who can record information about your visit. Most websites now use numerous "
+"third-party services, including social networking “Like” buttons, analytics "
+"trackers, and advertising beacons, all of which can link your activity "
+"across different sites."
+msgstr ""
+"Når du kobler til en nettside, er det ikke bare operatørene av nettsiden som"
+" kan lagre informasjon om ditt besøk. De fleste nettsider bruker flerfoldige"
+" tredjepartstjenester, som usosiale nettverkstejesters \"Like\"-knapper, "
+"analysesporere, og reklamesignalering, som alle kan lenke sammen din "
+"aktivitet på tvers av forskjellige nettsider."
+
+#: https//tb-manual.torproject.org/en-US/managing-identities/
+#: (content/managing-identities/contents+en-US.lrtopic.body)
+msgid ""
+"Using the Tor network stops observers from being able to discover your exact"
+" location and IP address, but even without this information they might be "
+"able to link different areas of your activity together. For this reason, Tor"
+" Browser includes some additional features that help you control what "
+"information can be tied to your identity."
+msgstr ""
+"Bruk av Tor-nettverket stopper observatører fra å kunne oppdage din eksakte "
+"posisjon og IP-adresse, men selv med denne informasjonen kan de hende at de "
+"kan lenke sammen forskjellige deler av ditt aktivitetsmønster. Av denne "
+"grunn inneholder Tor-nettleseren ytterligere funksjoner som hjelper deg å "
+"kontrollere hvilken informasjon som kan knyttes til din identitet."
+
+#: https//tb-manual.torproject.org/en-US/managing-identities/
+#: (content/managing-identities/contents+en-US.lrtopic.body)
+msgid "##### The URL bar"
+msgstr ""
+
+#: https//tb-manual.torproject.org/en-US/managing-identities/
+#: (content/managing-identities/contents+en-US.lrtopic.body)
+msgid ""
+"Tor Browser centers your web experience around your relationship with the "
+"website in the URL bar. Even if you connect to two different sites that use "
+"the same third-party tracking service, Tor Browser will force the content to"
+" be served over two different Tor circuits, so the tracker will not know "
+"that both connections originate from your browser."
+msgstr ""
+"Tor-nettleseren baserer din surfeopplevelse rundt ditt forhold til nettsiden"
+" i nettadressefeltet. Selv om du kobler til to forskjellige sider som ikke "
+"bruker samme tredjepartssporingstjeneste, vil Tor-nettleseren tvinge "
+"innholdet til å bli servert over to forskjellige Tor-kretser, slik at "
+"sporeren ikke vil vite at begge tilkoblinger stammer fra din nettleser."
+
+#: https//tb-manual.torproject.org/en-US/managing-identities/
+#: (content/managing-identities/contents+en-US.lrtopic.body)
+msgid ""
+"On the other hand, all connections to a single website address will be made "
+"over the same Tor circuit, meaning you can browse different pages of a "
+"single website in separate tabs or windows, without any loss of "
+"functionality."
+msgstr ""
+"På den anden hånd vil alle tilkoblinger til en enkelt nettadresse bli gjort "
+"over samme Tor-krets, noe som betyr at du kan besøke forskjellige sider av "
+"en enkelt nettside i forskjellige faner eller vinduer, uten tap av "
+"funksjonalitet."
+
+#: https//tb-manual.torproject.org/en-US/managing-identities/
+#: (content/managing-identities/contents+en-US.lrtopic.body)
+msgid "<img class=\"col-md-6\" src=\"../../static/images/circuit_full.png\">"
+msgstr ""
+
+#: https//tb-manual.torproject.org/en-US/managing-identities/
+#: (content/managing-identities/contents+en-US.lrtopic.body)
+msgid ""
+"You can see a diagram of the circuit that Tor Browser is using for the "
+"current tab in the site information menu, in the URL bar."
+msgstr ""
+
+#: https//tb-manual.torproject.org/en-US/managing-identities/
+#: (content/managing-identities/contents+en-US.lrtopic.body)
+msgid ""
+"In the circuit, the Guard or entry node is the first node and it's "
+"automatically and randomly selected by Tor. But it is different from the "
+"other nodes in the circuit. In order to avoid profiling attacks, the Guard "
+"node changes only after 2-3 months, unlike the other nodes, which change "
+"with every new domain. For more information about Guards, consult the <a "
+"href=\"https://www.torproject.org/docs/faq#EntryGuards\">FAQ</a> and <a "
+"href=\"https://support.torproject.org/tbb/tbb-2/\">Support Portal</a>."
+msgstr ""
+
+#: https//tb-manual.torproject.org/en-US/managing-identities/
+#: (content/managing-identities/contents+en-US.lrtopic.body)
+msgid "##### Logging in over Tor"
+msgstr ""
+
+#: https//tb-manual.torproject.org/en-US/managing-identities/
+#: (content/managing-identities/contents+en-US.lrtopic.body)
+msgid ""
+"Although Tor Browser is designed to enable total user anonymity on the web, "
+"there may be situations in which it makes sense to use Tor with websites "
+"that require usernames, passwords, or other identifying information."
+msgstr ""
+"Selv om Tor-nettleseren er laget for å gi brukere fullstendig anonymitet på "
+"nettet, kan det være situasjoner der det gir mening å bruke Tor med "
+"nettsider som krever brukernavn, passord, eller annen identifiserende "
+"informasjon."
+
+#: https//tb-manual.torproject.org/en-US/managing-identities/
+#: (content/managing-identities/contents+en-US.lrtopic.body)
+msgid ""
+"If you log into a website using a regular browser, you also reveal your IP "
+"address and geographical location in the process. The same is often true "
+"when you send an email. Logging into your social networking or email "
+"accounts using Tor Browser allows you to choose exactly which information "
+"you reveal to the websites you browse. Logging in using Tor Browser is also "
+"useful if the website you are trying to reach is censored on your network."
+msgstr ""
+"Hvis du logger inn på en nettside med en vanlig nettleser, avslører du også "
+"IP-adressen og din geografiske plasseringen. Det samme er ofte sant om "
+"foresendelse av e-post. Å logge inn på dine sosiale nettverks- eller e-post "
+"-kontoer ved bruk av Tor-nettleseren lar deg velge akkurat hvilken "
+"informasjon du avslører ovenfor nettsidene du surfer på. Å logge inn ved "
+"bruk av Tor-nettleseren er også nyttig hvis siden du prøver å nå er "
+"sensurert på ditt nettverk."
+
+#: https//tb-manual.torproject.org/en-US/managing-identities/
+#: (content/managing-identities/contents+en-US.lrtopic.body)
+msgid ""
+"When you log in to a website over Tor, there are several points you should "
+"bear in mind:"
+msgstr ""
+"Når du logger på en nettside over Tor, er det flere punkter du bør ha i "
+"minnet:"
+
+#: https//tb-manual.torproject.org/en-US/managing-identities/
+#: (content/managing-identities/contents+en-US.lrtopic.body)
+msgid ""
+"* See the  <a href=\"/secure-connections\">Secure Connections</a> page for "
+"important information on how to secure your connection when logging in."
+msgstr ""
+
+#: https//tb-manual.torproject.org/en-US/managing-identities/
+#: (content/managing-identities/contents+en-US.lrtopic.body)
+msgid ""
+"* Tor Browser often makes your connection appear as though it is coming from"
+" an entirely different part of the world. Some websites, such as banks or "
+"email providers, might interpret this as a sign that your account has been "
+"hacked or compromised, and lock you out. The only way to resolve this is by "
+"following the site’s recommended procedure for account recovery, or "
+"contacting the operators and explaining the situation."
+msgstr ""
+
+#: https//tb-manual.torproject.org/en-US/managing-identities/
+#: (content/managing-identities/contents+en-US.lrtopic.body)
+msgid "##### Changing identities and circuits"
+msgstr ""
+
+#: https//tb-manual.torproject.org/en-US/managing-identities/
+#: (content/managing-identities/contents+en-US.lrtopic.body)
+msgid "<img class=\"col-md-6\" src=\"../../static/images/new_identity.png\">"
+msgstr ""
+
+#: https//tb-manual.torproject.org/en-US/managing-identities/
+#: (content/managing-identities/contents+en-US.lrtopic.body)
+msgid ""
+"Tor Browser features “New Identity” and “New Tor Circuit for this Site” "
+"options, located in the main menu (hamburger menu)."
+msgstr ""
+
+#: https//tb-manual.torproject.org/en-US/managing-identities/
+#: (content/managing-identities/contents+en-US.lrtopic.body)
+msgid "###### New Identity"
+msgstr ""
+
+#: https//tb-manual.torproject.org/en-US/managing-identities/
+#: (content/managing-identities/contents+en-US.lrtopic.body)
+msgid ""
+"This option is useful if you want to prevent your subsequent browser "
+"activity from being linkable to what you were doing before. Selecting it "
+"will close all your open tabs and windows, clear all private information "
+"such as cookies and browsing history, and use new Tor circuits for all "
+"connections. Tor Browser will warn you that all activity and downloads will "
+"be stopped, so take this into account before clicking “New Identity”."
+msgstr ""
+"Dette valget er nyttig hvis du ønsker å unngå din fremtidige "
+"nettleseraktivitet fra å kunne knyttes til hva du gjorde tidligere. Å velge "
+"den vil lukke alle åpne faner og vinduer, tømme all privat informasjon som "
+"kaker og surfehistorikk, og bruke nye Tor-kretser for alle tilkoblinger. "
+"Tor-nettleseren vil advare deg om at all aktivitet og nedlastinger vil bli "
+"stoppet, så ha dette i minnet før du trykker \"Ny identitet\"."
+
+#: https//tb-manual.torproject.org/en-US/managing-identities/
+#: (content/managing-identities/contents+en-US.lrtopic.body)
+msgid "###### New Tor circuit for this site"
+msgstr ""
+
+#: https//tb-manual.torproject.org/en-US/managing-identities/
+#: (content/managing-identities/contents+en-US.lrtopic.body)
+msgid ""
+"This option is useful if the <a href=\"/about/#how-tor-works\">exit "
+"relay</a> you are using is unable to connect to the website you require, or "
+"is not loading it properly. Selecting it will cause the currently-active tab"
+" or window to be reloaded over a new Tor circuit. Other open tabs and "
+"windows from the same website will use the new circuit as well once they are"
+" reloaded. This option does not clear any private information or unlink your"
+" activity, nor does it affect your current connections to other websites."
+msgstr ""
+
+#: https//tb-manual.torproject.org/en-US/managing-identities/
+#: (content/managing-identities/contents+en-US.lrtopic.body)
+msgid ""
+"You can also access this option in the new circuit display, in the site "
+"information menu, in the URL bar."
+msgstr ""
+
+#: https//tb-manual.torproject.org/en-US/managing-identities/
+#: (content/managing-identities/contents+en-US.lrtopic.seo_slug)
+msgid "managing-identities"
+msgstr ""
 
 #: https//tb-manual.torproject.org/en-US/
 #: (content/contents+en-US.lrshowcase.title)
@@ -764,235 +993,6 @@ msgstr ""
 #: https//tb-manual.torproject.org/en-US/circumvention/
 #: (content/circumvention/contents+en-US.lrtopic.seo_slug)
 msgid "circumvention"
-msgstr ""
-
-#: https//tb-manual.torproject.org/en-US/managing-identities/
-#: (content/managing-identities/contents+en-US.lrtopic.title)
-msgid "Managing identities"
-msgstr "Behandling av identiteter"
-
-#: https//tb-manual.torproject.org/en-US/managing-identities/
-#: (content/managing-identities/contents+en-US.lrtopic.description)
-msgid "Learn how to control personally-identifying information in Tor Browser"
-msgstr ""
-"Lær hvordan du kontrollerer personlig identifiserende informasjon i Tor-"
-"nettleseren"
-
-#: https//tb-manual.torproject.org/en-US/managing-identities/
-#: (content/managing-identities/contents+en-US.lrtopic.body)
-msgid ""
-"When you connect to a website, it is not only the operators of that website "
-"who can record information about your visit. Most websites now use numerous "
-"third-party services, including social networking “Like” buttons, analytics "
-"trackers, and advertising beacons, all of which can link your activity "
-"across different sites."
-msgstr ""
-"Når du kobler til en nettside, er det ikke bare operatørene av nettsiden som"
-" kan lagre informasjon om ditt besøk. De fleste nettsider bruker flerfoldige"
-" tredjepartstjenester, som usosiale nettverkstejesters \"Like\"-knapper, "
-"analysesporere, og reklamesignalering, som alle kan lenke sammen din "
-"aktivitet på tvers av forskjellige nettsider."
-
-#: https//tb-manual.torproject.org/en-US/managing-identities/
-#: (content/managing-identities/contents+en-US.lrtopic.body)
-msgid ""
-"Using the Tor network stops observers from being able to discover your exact"
-" location and IP address, but even without this information they might be "
-"able to link different areas of your activity together. For this reason, Tor"
-" Browser includes some additional features that help you control what "
-"information can be tied to your identity."
-msgstr ""
-"Bruk av Tor-nettverket stopper observatører fra å kunne oppdage din eksakte "
-"posisjon og IP-adresse, men selv med denne informasjonen kan de hende at de "
-"kan lenke sammen forskjellige deler av ditt aktivitetsmønster. Av denne "
-"grunn inneholder Tor-nettleseren ytterligere funksjoner som hjelper deg å "
-"kontrollere hvilken informasjon som kan knyttes til din identitet."
-
-#: https//tb-manual.torproject.org/en-US/managing-identities/
-#: (content/managing-identities/contents+en-US.lrtopic.body)
-msgid "##### The URL bar"
-msgstr ""
-
-#: https//tb-manual.torproject.org/en-US/managing-identities/
-#: (content/managing-identities/contents+en-US.lrtopic.body)
-msgid ""
-"Tor Browser centers your web experience around your relationship with the "
-"website in the URL bar. Even if you connect to two different sites that use "
-"the same third-party tracking service, Tor Browser will force the content to"
-" be served over two different Tor circuits, so the tracker will not know "
-"that both connections originate from your browser."
-msgstr ""
-"Tor-nettleseren baserer din surfeopplevelse rundt ditt forhold til nettsiden"
-" i nettadressefeltet. Selv om du kobler til to forskjellige sider som ikke "
-"bruker samme tredjepartssporingstjeneste, vil Tor-nettleseren tvinge "
-"innholdet til å bli servert over to forskjellige Tor-kretser, slik at "
-"sporeren ikke vil vite at begge tilkoblinger stammer fra din nettleser."
-
-#: https//tb-manual.torproject.org/en-US/managing-identities/
-#: (content/managing-identities/contents+en-US.lrtopic.body)
-msgid ""
-"On the other hand, all connections to a single website address will be made "
-"over the same Tor circuit, meaning you can browse different pages of a "
-"single website in separate tabs or windows, without any loss of "
-"functionality."
-msgstr ""
-"På den anden hånd vil alle tilkoblinger til en enkelt nettadresse bli gjort "
-"over samme Tor-krets, noe som betyr at du kan besøke forskjellige sider av "
-"en enkelt nettside i forskjellige faner eller vinduer, uten tap av "
-"funksjonalitet."
-
-#: https//tb-manual.torproject.org/en-US/managing-identities/
-#: (content/managing-identities/contents+en-US.lrtopic.body)
-msgid "<img class=\"col-md-6\" src=\"../../static/images/circuit_full.png\">"
-msgstr ""
-
-#: https//tb-manual.torproject.org/en-US/managing-identities/
-#: (content/managing-identities/contents+en-US.lrtopic.body)
-msgid ""
-"You can see a diagram of the circuit that Tor Browser is using for the "
-"current tab in the site information menu, in the URL bar."
-msgstr ""
-
-#: https//tb-manual.torproject.org/en-US/managing-identities/
-#: (content/managing-identities/contents+en-US.lrtopic.body)
-msgid ""
-"In the circuit, the Guard or entry node is the first node and it's "
-"automatically and randomly selected by Tor. But it is different from the "
-"other nodes in the circuit. In order to avoid profiling attacks, the Guard "
-"node changes only after 2-3 months, unlike the other nodes, which change "
-"with every new domain. For more information about Guards, consult the <a "
-"href=\"https://www.torproject.org/docs/faq#EntryGuards\">FAQ</a> and <a "
-"href=\"https://support.torproject.org/tbb/tbb-2/\">Support Portal</a>."
-msgstr ""
-
-#: https//tb-manual.torproject.org/en-US/managing-identities/
-#: (content/managing-identities/contents+en-US.lrtopic.body)
-msgid "##### Logging in over Tor"
-msgstr ""
-
-#: https//tb-manual.torproject.org/en-US/managing-identities/
-#: (content/managing-identities/contents+en-US.lrtopic.body)
-msgid ""
-"Although Tor Browser is designed to enable total user anonymity on the web, "
-"there may be situations in which it makes sense to use Tor with websites "
-"that require usernames, passwords, or other identifying information."
-msgstr ""
-"Selv om Tor-nettleseren er laget for å gi brukere fullstendig anonymitet på "
-"nettet, kan det være situasjoner der det gir mening å bruke Tor med "
-"nettsider som krever brukernavn, passord, eller annen identifiserende "
-"informasjon."
-
-#: https//tb-manual.torproject.org/en-US/managing-identities/
-#: (content/managing-identities/contents+en-US.lrtopic.body)
-msgid ""
-"If you log into a website using a regular browser, you also reveal your IP "
-"address and geographical location in the process. The same is often true "
-"when you send an email. Logging into your social networking or email "
-"accounts using Tor Browser allows you to choose exactly which information "
-"you reveal to the websites you browse. Logging in using Tor Browser is also "
-"useful if the website you are trying to reach is censored on your network."
-msgstr ""
-"Hvis du logger inn på en nettside med en vanlig nettleser, avslører du også "
-"IP-adressen og din geografiske plasseringen. Det samme er ofte sant om "
-"foresendelse av e-post. Å logge inn på dine sosiale nettverks- eller e-post "
-"-kontoer ved bruk av Tor-nettleseren lar deg velge akkurat hvilken "
-"informasjon du avslører ovenfor nettsidene du surfer på. Å logge inn ved "
-"bruk av Tor-nettleseren er også nyttig hvis siden du prøver å nå er "
-"sensurert på ditt nettverk."
-
-#: https//tb-manual.torproject.org/en-US/managing-identities/
-#: (content/managing-identities/contents+en-US.lrtopic.body)
-msgid ""
-"When you log in to a website over Tor, there are several points you should "
-"bear in mind:"
-msgstr ""
-"Når du logger på en nettside over Tor, er det flere punkter du bør ha i "
-"minnet:"
-
-#: https//tb-manual.torproject.org/en-US/managing-identities/
-#: (content/managing-identities/contents+en-US.lrtopic.body)
-msgid ""
-"* See the  <a href=\"/secure-connections\">Secure Connections</a> page for "
-"important information on how to secure your connection when logging in."
-msgstr ""
-
-#: https//tb-manual.torproject.org/en-US/managing-identities/
-#: (content/managing-identities/contents+en-US.lrtopic.body)
-msgid ""
-"* Tor Browser often makes your connection appear as though it is coming from"
-" an entirely different part of the world. Some websites, such as banks or "
-"email providers, might interpret this as a sign that your account has been "
-"hacked or compromised, and lock you out. The only way to resolve this is by "
-"following the site’s recommended procedure for account recovery, or "
-"contacting the operators and explaining the situation."
-msgstr ""
-
-#: https//tb-manual.torproject.org/en-US/managing-identities/
-#: (content/managing-identities/contents+en-US.lrtopic.body)
-msgid "##### Changing identities and circuits"
-msgstr ""
-
-#: https//tb-manual.torproject.org/en-US/managing-identities/
-#: (content/managing-identities/contents+en-US.lrtopic.body)
-msgid "<img class=\"col-md-6\" src=\"../../static/images/new_identity.png\">"
-msgstr ""
-
-#: https//tb-manual.torproject.org/en-US/managing-identities/
-#: (content/managing-identities/contents+en-US.lrtopic.body)
-msgid ""
-"Tor Browser features “New Identity” and “New Tor Circuit for this Site” "
-"options, located in the main menu (hamburger menu)."
-msgstr ""
-
-#: https//tb-manual.torproject.org/en-US/managing-identities/
-#: (content/managing-identities/contents+en-US.lrtopic.body)
-msgid "###### New Identity"
-msgstr ""
-
-#: https//tb-manual.torproject.org/en-US/managing-identities/
-#: (content/managing-identities/contents+en-US.lrtopic.body)
-msgid ""
-"This option is useful if you want to prevent your subsequent browser "
-"activity from being linkable to what you were doing before. Selecting it "
-"will close all your open tabs and windows, clear all private information "
-"such as cookies and browsing history, and use new Tor circuits for all "
-"connections. Tor Browser will warn you that all activity and downloads will "
-"be stopped, so take this into account before clicking “New Identity”."
-msgstr ""
-"Dette valget er nyttig hvis du ønsker å unngå din fremtidige "
-"nettleseraktivitet fra å kunne knyttes til hva du gjorde tidligere. Å velge "
-"den vil lukke alle åpne faner og vinduer, tømme all privat informasjon som "
-"kaker og surfehistorikk, og bruke nye Tor-kretser for alle tilkoblinger. "
-"Tor-nettleseren vil advare deg om at all aktivitet og nedlastinger vil bli "
-"stoppet, så ha dette i minnet før du trykker \"Ny identitet\"."
-
-#: https//tb-manual.torproject.org/en-US/managing-identities/
-#: (content/managing-identities/contents+en-US.lrtopic.body)
-msgid "###### New Tor circuit for this site"
-msgstr ""
-
-#: https//tb-manual.torproject.org/en-US/managing-identities/
-#: (content/managing-identities/contents+en-US.lrtopic.body)
-msgid ""
-"This option is useful if the <a href=\"/about/#how-tor-works\">exit "
-"relay</a> you are using is unable to connect to the website you require, or "
-"is not loading it properly. Selecting it will cause the currently-active tab"
-" or window to be reloaded over a new Tor circuit. Other open tabs and "
-"windows from the same website will use the new circuit as well once they are"
-" reloaded. This option does not clear any private information or unlink your"
-" activity, nor does it affect your current connections to other websites."
-msgstr ""
-
-#: https//tb-manual.torproject.org/en-US/managing-identities/
-#: (content/managing-identities/contents+en-US.lrtopic.body)
-msgid ""
-"You can also access this option in the new circuit display, in the site "
-"information menu, in the URL bar."
-msgstr ""
-
-#: https//tb-manual.torproject.org/en-US/managing-identities/
-#: (content/managing-identities/contents+en-US.lrtopic.seo_slug)
-msgid "managing-identities"
 msgstr ""
 
 #: https//tb-manual.torproject.org/en-US/onion-services/
@@ -2088,6 +2088,10 @@ msgstr ""
 
 #: templates/footer.html:25
 msgid "Get monthly updates and opportunities from the Tor Project"
+msgstr ""
+
+#: templates/footer.html:26
+msgid "Sign up"
 msgstr ""
 
 #: templates/footer.html:32
