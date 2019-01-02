@@ -13,14 +13,14 @@
 # 류종헌, 2015
 # Philipp Sauter <qt123@pm.me>, 2018
 # Sangmin Lee <sangminlee7648@gmail.com>, 2016
-# Sungjin Kang <potopro@gmail.com>, 2014
+# Thomas Sungjin Kang <potopro@gmail.com>, 2014
 msgid ""
 msgstr ""
 "Project-Id-Version: Tor Project\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-10-20 12:34+0200\n"
-"PO-Revision-Date: 2018-11-15 17:07+0000\n"
-"Last-Translator: erinm\n"
+"POT-Creation-Date: 2019-01-02 09:26+0100\n"
+"PO-Revision-Date: 2019-01-02 13:32+0000\n"
+"Last-Translator: carolyn <carolyn@anhalt.org>\n"
 "Language-Team: Korean (http://www.transifex.com/otf/torproject/language/ko/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -305,73 +305,83 @@ msgstr "설치 완료! (%s)"
 msgid "Tails installation failed!"
 msgstr "Tails 설치가 실패했습니다!"
 
-#: ../tails_installer/gui.py:361
+#: ../tails_installer/gui.py:369
 msgid ""
 "Warning: This tool needs to be run as an Administrator. To do this, right "
 "click on the icon and open the Properties. Under the Compatibility tab, "
 "check the \"Run this program as an administrator\" box."
 msgstr "경고 : 이 프로그램을 실행하기 위해 관리자 권한으로 전환해야 합니다. 아이콘을 오른쪽 마우스로 클릭하여 속성으로 들어간 후, 호환성 탭에서 \"관리자 권한으로 프로그램 실행\"을 체크해 주세요."
 
-#: ../tails_installer/gui.py:373
+#: ../tails_installer/gui.py:381
 msgid "Tails Installer"
 msgstr "Tails 설치 프로그램"
 
-#: ../tails_installer/gui.py:423 ../data/tails-installer.ui.h:2
+#: ../tails_installer/gui.py:441
+msgid "Tails Installer is deprecated"
+msgstr ""
+
+#: ../tails_installer/gui.py:443
+msgid ""
+"To install a new Tails, see the <a href='https://tails.boum.org/install/'>installation documentation</a>.\n"
+"To upgrade an existing Tails, see the <a href='https://tails.boum.org/upgrade/'>upgrade documentation</a>."
+msgstr ""
+
+#: ../tails_installer/gui.py:450 ../data/tails-installer.ui.h:2
 msgid "Clone the current Tails"
 msgstr "현재 Tails을 복제함"
 
-#: ../tails_installer/gui.py:430 ../data/tails-installer.ui.h:3
+#: ../tails_installer/gui.py:457 ../data/tails-installer.ui.h:3
 msgid "Use a downloaded Tails ISO image"
 msgstr "다운로드했는 Tails ISO 이미지를 사용하기"
 
-#: ../tails_installer/gui.py:467 ../tails_installer/gui.py:788
+#: ../tails_installer/gui.py:494 ../tails_installer/gui.py:815
 msgid "Upgrade"
 msgstr "업그레이드"
 
-#: ../tails_installer/gui.py:469
+#: ../tails_installer/gui.py:496
 msgid "Manual Upgrade Instructions"
 msgstr "수동으로 업그레이드를 위한 설명서"
 
-#: ../tails_installer/gui.py:471
+#: ../tails_installer/gui.py:498
 msgid "https://tails.boum.org/upgrade/"
 msgstr "https://tails.boum.org/upgrade/"
 
-#: ../tails_installer/gui.py:479 ../tails_installer/gui.py:700
-#: ../tails_installer/gui.py:765 ../data/tails-installer.ui.h:7
+#: ../tails_installer/gui.py:506 ../tails_installer/gui.py:727
+#: ../tails_installer/gui.py:792 ../data/tails-installer.ui.h:7
 msgid "Install"
 msgstr "설치"
 
-#: ../tails_installer/gui.py:482 ../data/tails-installer.ui.h:1
+#: ../tails_installer/gui.py:509 ../data/tails-installer.ui.h:1
 msgid "Installation Instructions"
 msgstr "설치를 위한 설명서"
 
-#: ../tails_installer/gui.py:484
+#: ../tails_installer/gui.py:511
 msgid "https://tails.boum.org/install/"
 msgstr "https://tails.boum.org/install/"
 
-#: ../tails_installer/gui.py:490
+#: ../tails_installer/gui.py:517
 #, python-format
 msgid "%(size)s %(vendor)s %(model)s device (%(device)s)"
 msgstr "%(size)s %(vendor)s %(model)s 장치 (%(device)s)"
 
-#: ../tails_installer/gui.py:502
+#: ../tails_installer/gui.py:529
 msgid "No ISO image selected"
 msgstr "ISO 이미지를 선택하지 않았습니다"
 
-#: ../tails_installer/gui.py:503
+#: ../tails_installer/gui.py:530
 msgid "Please select a Tails ISO image."
 msgstr "Tails ISO 이미지를 선택하십시오."
 
-#: ../tails_installer/gui.py:545
+#: ../tails_installer/gui.py:572
 msgid "No device suitable to install Tails could be found"
 msgstr "Tails 설치에 적합한 장치를 찾을 수 없음"
 
-#: ../tails_installer/gui.py:547
+#: ../tails_installer/gui.py:574
 #, python-format
 msgid "Please plug a USB flash drive or SD card of at least %0.1f GB."
 msgstr "최소 %0.1fGB의 USB 플래시 드라이브 또는 SD 카드를 연결하십시오."
 
-#: ../tails_installer/gui.py:581
+#: ../tails_installer/gui.py:608
 #, python-format
 msgid ""
 "The USB stick \"%(pretty_name)s\" is configured as non-removable by its "
@@ -379,49 +389,49 @@ msgid ""
 "different model."
 msgstr "USB 스틱 \"%(pretty_name)s\"는 제조업체가 제거 할 수 없도록 구성하였기 때문에 Tails가 시작되지 않습니다. 다른 모델로 설치를 시도해 보십시오."
 
-#: ../tails_installer/gui.py:591
+#: ../tails_installer/gui.py:618
 #, python-format
 msgid ""
 "The device \"%(pretty_name)s\" is too small to install Tails (at least "
 "%(size)s GB is required)."
 msgstr "선택된 장치 \"%(pretty_name)s\" 의 용량이 모자라서 Tail를 설치할 수 없습니다 (최소 %(size)s GB 필요) "
 
-#: ../tails_installer/gui.py:604
+#: ../tails_installer/gui.py:631
 #, python-format
 msgid ""
 "To upgrade device \"%(pretty_name)s\" from this Tails, you need to use a downloaded Tails ISO image:\n"
 "https://tails.boum.org/install/download"
 msgstr "현재의 Tails에서 \"%(pretty_name)s\" 장치를 업그레이드하려고 다운로드했는 Tails ISO 이미지를 사용하야 됩니다:\nhttps://tails.boum.org/install/download"
 
-#: ../tails_installer/gui.py:625
+#: ../tails_installer/gui.py:652
 msgid "An error happened while installing Tails"
 msgstr "Tails 설치 중 오류가 발생했습니다."
 
-#: ../tails_installer/gui.py:637
+#: ../tails_installer/gui.py:664
 msgid "Refreshing releases..."
 msgstr "자료 업데이트 중..."
 
-#: ../tails_installer/gui.py:642
+#: ../tails_installer/gui.py:669
 msgid "Releases updated!"
 msgstr "자료가 업데이트되었습니다!"
 
-#: ../tails_installer/gui.py:695
+#: ../tails_installer/gui.py:722
 msgid "Installation complete!"
 msgstr "다운로드 완료! "
 
-#: ../tails_installer/gui.py:711
+#: ../tails_installer/gui.py:738
 msgid "Cancel"
 msgstr "취소"
 
-#: ../tails_installer/gui.py:747
+#: ../tails_installer/gui.py:774
 msgid "Unable to mount device"
 msgstr "장치를 구성할 수 없습니다."
 
-#: ../tails_installer/gui.py:754 ../tails_installer/gui.py:787
+#: ../tails_installer/gui.py:781 ../tails_installer/gui.py:814
 msgid "Confirm the target USB stick"
 msgstr "대상 USB 메모리 스틱을 확인합니다"
 
-#: ../tails_installer/gui.py:755
+#: ../tails_installer/gui.py:782
 #, python-format
 msgid ""
 "%(size)s %(vendor)s %(model)s device (%(device)s)\n"
@@ -429,48 +439,48 @@ msgid ""
 "All data on this USB stick will be lost."
 msgstr "%(size)s %(vendor)s %(model)s 장치 (%(device)s)\n\n 본 USB 메모리 스틱에 있는 데이터가  모두 삭제됩니다."
 
-#: ../tails_installer/gui.py:774
+#: ../tails_installer/gui.py:801
 #, python-format
 msgid "%(parent_size)s %(vendor)s %(model)s device (%(device)s)"
 msgstr "%(parent_size)s %(vendor)s %(model)s 장치 (%(device)s)"
 
-#: ../tails_installer/gui.py:782
+#: ../tails_installer/gui.py:809
 msgid ""
 "\n"
 "\n"
 "The persistent storage on this USB stick will be preserved."
 msgstr "\n\n USB 메모리 스틱에서 있는 영구 저장소가 보존됩니다."
 
-#: ../tails_installer/gui.py:783
+#: ../tails_installer/gui.py:810
 #, python-format
 msgid "%(description)s%(persistence_message)s"
 msgstr "%(description)s%(persistence_message)s"
 
-#: ../tails_installer/gui.py:826
+#: ../tails_installer/gui.py:853
 msgid "Download complete!"
 msgstr "다운로드 완료! "
 
-#: ../tails_installer/gui.py:830
+#: ../tails_installer/gui.py:857
 msgid "Download failed: "
 msgstr "다운로드 실패:  "
 
-#: ../tails_installer/gui.py:831
+#: ../tails_installer/gui.py:858
 msgid "You can try again to resume your download"
 msgstr "다운로드를 다시 시작할 수 있습니다  "
 
-#: ../tails_installer/gui.py:839
+#: ../tails_installer/gui.py:866
 msgid ""
 "The selected file is unreadable. Please fix its permissions or select "
 "another file."
 msgstr "선택된 파일은 읽을 수 없습니다. 권한을 수정하거나 다른 파일을 선택하십시오."
 
-#: ../tails_installer/gui.py:845
+#: ../tails_installer/gui.py:872
 msgid ""
 "Unable to use the selected file.  You may have better luck if you move your "
 "ISO to the root of your drive (ie: C:\\)"
 msgstr "지정된 파일을 사용할 수 없으니 루트 디렉토리에 ISO 파일을 이동시키십시오. (예 : C:\\)"
 
-#: ../tails_installer/gui.py:851
+#: ../tails_installer/gui.py:878
 #, python-format
 msgid "%(filename)s selected"
 msgstr "%(filename)s 선택됨"
