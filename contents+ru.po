@@ -71,11 +71,10 @@ msgid ""
 " be served over two different Tor circuits, so the tracker will not know "
 "that both connections originate from your browser."
 msgstr ""
-"Tor-браузер выстраивает вашу работу в сети вокруг того, какой сайт "
-"высвечивается в адресной строке. Даже если соединились с двумя разными "
-"сайтами, использующими один и тот же сторонний сервис, Tor-браузер будет "
-"подключаться к нему через разные цепочки Tor, так что наблюдатели не будут "
-"знать, что оба подключения исходят из вашего браузера."
+"Tor Browser фокусируется на сайте, чей адрес виден в адресной строке. Даже "
+"если вы соединились с двумя разными сайтами, использующими один и тот же "
+"сторонний сервис, Tor Browser подключится к нему через разные цепочки Tor. "
+"Со стороны не будет видно, что оба подключения сделаны из вашего браузера."
 
 #: https//tb-manual.torproject.org/en-US/managing-identities/
 #: (content/managing-identities/contents+en-US.lrtopic.body)
@@ -85,9 +84,9 @@ msgid ""
 "single website in separate tabs or windows, without any loss of "
 "functionality."
 msgstr ""
-"С другой стороны, все соединения к одному и тому же сайту производятся через"
-" одну цепочку Tor, поэтому вы можете смотреть разные страницы одного сайта в"
-" разных вкладках или окнах без потери функциональности."
+"С другой стороны, все подключения к одному и тому же сайту производятся "
+"через одну цепочку Tor. Вы можете смотреть разные страницы одного сайта в "
+"разных вкладках или окнах без потери функциональности."
 
 #: https//tb-manual.torproject.org/en-US/managing-identities/
 #: (content/managing-identities/contents+en-US.lrtopic.body)
@@ -100,6 +99,8 @@ msgid ""
 "You can see a diagram of the circuit that Tor Browser is using for the "
 "current tab in the site information menu, in the URL bar."
 msgstr ""
+"Увидеть, какую цепочку Tor Browser использует для текущей вкладки, можно в "
+"информации о сайте в адресной строке."
 
 #: https//tb-manual.torproject.org/en-US/managing-identities/
 #: (content/managing-identities/contents+en-US.lrtopic.body)
@@ -288,7 +289,7 @@ msgstr "Блог"
 #: https//tb-manual.torproject.org/en-US/menu/
 #: (content/menu/contents+en-US.lrtopic.body)
 msgid "Newsletter"
-msgstr ""
+msgstr "Бюллетень"
 
 #: https//tb-manual.torproject.org/en-US/menu/
 #: (content/menu/contents+en-US.lrtopic.body)
@@ -298,14 +299,12 @@ msgstr "Контакты"
 #: https//tb-manual.torproject.org/en-US/about/
 #: (content/about/contents+en-US.lrtopic.title)
 msgid "About Tor Browser"
-msgstr "О браузере Tor"
+msgstr "О Tor Browser"
 
 #: https//tb-manual.torproject.org/en-US/about/
 #: (content/about/contents+en-US.lrtopic.description)
 msgid "Learn what Tor Browser can do to protect your privacy and anonymity"
-msgstr ""
-"Узнайте, что может сделать браузер Tor, чтобы защитить Вашу "
-"конфиденциальность и анонимность"
+msgstr "Узнайте, чем полезен Tor Browser для защиты приватности и анонимности"
 
 #: https//tb-manual.torproject.org/en-US/about/
 #: (content/about/contents+en-US.lrtopic.body)
@@ -313,8 +312,8 @@ msgid ""
 "Tor Browser uses the Tor network to protect your privacy and anonymity. "
 "Using the Tor network has two main properties:"
 msgstr ""
-"Браузер Tor использует сеть Tor чтобы защитить Ваши конфиденциальность и "
-"анонимность. Использование сети Tor имеет два основных свойства:"
+"Tor Browser использует сеть Tor для защиты конфиденциальности и анонимности."
+" Использование сети Tor имеет две основных особенности:"
 
 #: https//tb-manual.torproject.org/en-US/about/
 #: (content/about/contents+en-US.lrtopic.body)
@@ -426,8 +425,8 @@ msgstr ""
 "Безопасно скачать Tor Browser можно с официального сайта Tor Project "
 "https://www.torproject.org. Соединение с сайтом использует протокол "
 "безопасности <a href=\"https://tb-manual.torproject.org/en-US/secure-"
-"connections.html\">HTTPS</a>, что усложняет перехват вашего трафика "
-"сторонними пользователями. "
+"connections.html\">HTTPS</a>, что усложняет перехват вашего трафика другими "
+"лицами. "
 
 #: https//tb-manual.torproject.org/en-US/downloading/
 #: (content/downloading/contents+en-US.lrtopic.body)
@@ -436,10 +435,9 @@ msgid ""
 "for example, it could be blocked on your network. If this happens, you can "
 "use one of the alternative download methods listed below."
 msgstr ""
-"Однако могут возникнуть случаи, когда не удается получить доступ к веб-сайту"
-" Tor Project: например, он может быть заблокирован в вашей сети. В этом "
-"случае можно использовать один из альтернативных способов загрузки, "
-"перечисленных ниже."
+"Иногда доступ к сайту Tor Project бывает затруднен. Например, сайт может "
+"оказаться заблокирован в вашей сети. Попробуйте использовать один из "
+"описанных ниже альтернативных способов загрузки."
 
 #: https//tb-manual.torproject.org/en-US/downloading/
 #: (content/downloading/contents+en-US.lrtopic.body)
@@ -454,6 +452,10 @@ msgid ""
 "mirrors, either through [EFF](https://tor.eff.org) or [Calyx "
 "Institute](https://tor.calyxinstitute.org)."
 msgstr ""
+"Если не получается скачать Tor Browser с главного сайта Tor Project, вы "
+"можете попробовать использовать одно из наших официальных зеркал через "
+"[EFF](https://tor.eff.org) или [Calyx "
+"Institute](https://tor.calyxinstitute.org)."
 
 #: https//tb-manual.torproject.org/en-US/downloading/
 #: (content/downloading/contents+en-US.lrtopic.body)
@@ -467,14 +469,14 @@ msgid ""
 "the latest version of Tor Browser, hosted at a variety of locations, such as"
 " Dropbox, Google Drive and GitHub."
 msgstr ""
-"GetTor - сервис который автоматически обновляет ссылки на последние версии "
-"Tor Browser, который размещён на различных сервисах, таких как Dropbox, "
-"Google Диск и GitHub."
+"GetTor - сервис-автоответчик, который автоматически предоставляет ссылки на "
+"последние версии Tor Browser на разных сервисах, например, Dropbox, Google "
+"Диск и GitHub."
 
 #: https//tb-manual.torproject.org/en-US/downloading/
 #: (content/downloading/contents+en-US.lrtopic.body)
 msgid "###### To use GetTor via email:"
-msgstr "##### Чтобы использовать GetTor через e-mail:"
+msgstr "##### GetTor по e-mail:"
 
 #: https//tb-manual.torproject.org/en-US/downloading/
 #: (content/downloading/contents+en-US.lrtopic.body)
@@ -483,9 +485,9 @@ msgid ""
 "simply write “windows”, “osx”, or “linux”, (without quotation marks) "
 "depending on your operating system."
 msgstr ""
-"Отправьте сообщение электронной почты на адрес gettor@torproject.org, а в "
-"теле сообщения просто напишите \"windows\", \"osx\" или \"linux\" (без "
-"кавычек) в зависимости от вашей операционной системы."
+"Отправьте письмо на адрес gettor@torproject.org. В теле сообщения просто "
+"напишите \"windows\", \"osx\" или \"linux\" (без кавычек) в зависимости от "
+"вашей операционной системы."
 
 #: https//tb-manual.torproject.org/en-US/downloading/
 #: (content/downloading/contents+en-US.lrtopic.body)
@@ -497,16 +499,16 @@ msgid ""
 "“32-bit” or “64-bit” software: this depends on the model of the computer you"
 " are using."
 msgstr ""
-"GetTor ответит электронным письмом, содержащим ссылки для загрузки Tor "
-"Browser, цифровую подпись (необходима для проверки загрузки), отпечаток "
-"ключа, используемого для создания подписи и контрольную сумму пакета. Может "
-"быть предложено выбрать \"32-bit\" или \"64-bit\" версию: это зависит от "
-"модели используемого компьютера."
+"В ответном письме GetTor вы увидите ссылки для загрузки Tor Browser. В "
+"письме также можно видеть: цифровую подпись (нужна для проверки подлинности "
+"загрузки), отпечаток ключа, использованного для подписи и контрольную сумму."
+" В зависимости от вашего компьютера может быть предложено выбрать 32-битную "
+"или 64-битную версию."
 
 #: https//tb-manual.torproject.org/en-US/downloading/
 #: (content/downloading/contents+en-US.lrtopic.body)
 msgid "###### To use GetTor via Twitter:"
-msgstr "##### Для использования GetTor через Twitter:"
+msgstr "##### GetTor через Twitter:"
 
 #: https//tb-manual.torproject.org/en-US/downloading/
 #: (content/downloading/contents+en-US.lrtopic.body)
@@ -516,14 +518,13 @@ msgid ""
 "follow the account)."
 msgstr ""
 "Чтобы получить ссылки для скачивания Tor Browser на русском языке для OS X, "
-"отправьте сообщение для @get_tor со словами «osx ru» (при этом подписываться"
-" на аккаунт не нужно)."
+"отправьте сообщение для @get_tor со словами «osx ru» (подписываться на "
+"аккаунт не нужно)."
 
 #: https//tb-manual.torproject.org/en-US/downloading/
 #: (content/downloading/contents+en-US.lrtopic.body)
 msgid "###### To use GetTor via Jabber/XMPP (Jitsi, CoyIM, etc.):"
-msgstr ""
-"##### Для использования GetTor через Jabber/XMPP (Jitsi, CoyIM,и т.д.):"
+msgstr "##### GetTor через Jabber/XMPP (Jitsi, CoyIM и т.д.):"
 
 #: https//tb-manual.torproject.org/en-US/downloading/
 #: (content/downloading/contents+en-US.lrtopic.body)
@@ -531,8 +532,8 @@ msgid ""
 "To get links for downloading Tor Browser in Chinese for Linux, send a "
 "message to gettor@torproject.org with the words \"linux zh\" in it."
 msgstr ""
-"Для получения ссылки для скачивания Tor Browser на русском языке для Linux, "
-"отправьте сообщение gettor@torproject.org со словами «linux ru»."
+"Чтобы получить ссылку для скачивания Tor Browser на русском языке для Linux,"
+" отправьте сообщение gettor@torproject.org со словами «linux ru»."
 
 #: https//tb-manual.torproject.org/en-US/downloading/
 #: (content/downloading/contents+en-US.lrtopic.seo_slug)
@@ -557,8 +558,8 @@ msgid ""
 "network, or to configure Tor Browser for your connection."
 msgstr ""
 "При первом запуске Tor Browser вы увидите окно настройки сети Tor. Вы "
-"сможете выбрать возможность прямого подключения к сети Tor, либо настроить "
-"Tor Browser для вашего соединения."
+"сможете выбрать прямое подключение к сети Tor или настроить Tor Browser "
+"вручную."
 
 #: https//tb-manual.torproject.org/en-US/running-tor-browser/
 #: (content/running-tor-browser/contents+en-US.lrtopic.body)
