@@ -5,7 +5,7 @@
 # Translators:
 # bassmax, 2014
 # Alex <z-transifex@demollien.net>, 2014-2015
-# AO <ao@localizationlab.org>, 2018
+# AO <ao@localizationlab.org>, 2018-2019
 # arpalord <inactive+arpalord@transifex.com>, 2012
 # 5boro <bastien@pontet.eu>, 2015
 # BitingBird <bitingbird@riseup.net>, 2015
@@ -23,13 +23,14 @@
 # Onizuka, 2013
 # Martin-Gomez Pablo <pablomg+transifex@eskapa.be>, 2008
 # themen <themen2004@gmail.com>, 2014
+# Thomas Prévost <thomasprevost85@gmail.com>, 2019
 # AO <ao@localizationlab.org>, 2015
 msgid ""
 msgstr ""
 "Project-Id-Version: Tor Project\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-10-20 12:34+0200\n"
-"PO-Revision-Date: 2018-10-24 21:22+0000\n"
+"POT-Creation-Date: 2019-01-02 09:26+0100\n"
+"PO-Revision-Date: 2019-01-08 14:47+0000\n"
 "Last-Translator: AO <ao@localizationlab.org>\n"
 "Language-Team: French (http://www.transifex.com/otf/torproject/language/fr/)\n"
 "MIME-Version: 1.0\n"
@@ -315,73 +316,83 @@ msgstr "L’installation est terminée ! (%s)"
 msgid "Tails installation failed!"
 msgstr "L’installation de Tails a échoué !"
 
-#: ../tails_installer/gui.py:361
+#: ../tails_installer/gui.py:369
 msgid ""
 "Warning: This tool needs to be run as an Administrator. To do this, right "
 "click on the icon and open the Properties. Under the Compatibility tab, "
 "check the \"Run this program as an administrator\" box."
 msgstr "Avertissement : cet outil doit être exécuté en tant qu’administrateur. Pour ce faire, cliquer sur l’icône et ouvrir les Propriétés. Sous l’onglet Compatibilité, cocher « Exécuter ce programme en tant qu’administrateur »."
 
-#: ../tails_installer/gui.py:373
+#: ../tails_installer/gui.py:381
 msgid "Tails Installer"
 msgstr "Programme d’installation de Tails"
 
-#: ../tails_installer/gui.py:423 ../data/tails-installer.ui.h:2
+#: ../tails_installer/gui.py:441
+msgid "Tails Installer is deprecated"
+msgstr "Le programme d'installation Tails est déconseillé"
+
+#: ../tails_installer/gui.py:443
+msgid ""
+"To install a new Tails, see the <a href='https://tails.boum.org/install/'>installation documentation</a>.\n"
+"To upgrade an existing Tails, see the <a href='https://tails.boum.org/upgrade/'>upgrade documentation</a>."
+msgstr "Pour installer un nouveau Tails, consultez la <a href='https://tails.boum.org/install/'>documentation d’installation</a>.\nPour mettre à niveau un Tails existant, consultez la <a href='https://tails.boum.org/upgrade/'>documentation de mise à niveau</a>."
+
+#: ../tails_installer/gui.py:450 ../data/tails-installer.ui.h:2
 msgid "Clone the current Tails"
 msgstr "Cloner le Tails actuel"
 
-#: ../tails_installer/gui.py:430 ../data/tails-installer.ui.h:3
+#: ../tails_installer/gui.py:457 ../data/tails-installer.ui.h:3
 msgid "Use a downloaded Tails ISO image"
 msgstr "Utiliser une image ISO de Tails téléchargée"
 
-#: ../tails_installer/gui.py:467 ../tails_installer/gui.py:788
+#: ../tails_installer/gui.py:494 ../tails_installer/gui.py:815
 msgid "Upgrade"
 msgstr "Mettre à niveau"
 
-#: ../tails_installer/gui.py:469
+#: ../tails_installer/gui.py:496
 msgid "Manual Upgrade Instructions"
 msgstr "Instructions de mise à niveau manuelle"
 
-#: ../tails_installer/gui.py:471
+#: ../tails_installer/gui.py:498
 msgid "https://tails.boum.org/upgrade/"
 msgstr "https://tails.boum.org/upgrade/"
 
-#: ../tails_installer/gui.py:479 ../tails_installer/gui.py:700
-#: ../tails_installer/gui.py:765 ../data/tails-installer.ui.h:7
+#: ../tails_installer/gui.py:506 ../tails_installer/gui.py:727
+#: ../tails_installer/gui.py:792 ../data/tails-installer.ui.h:7
 msgid "Install"
 msgstr "Installer"
 
-#: ../tails_installer/gui.py:482 ../data/tails-installer.ui.h:1
+#: ../tails_installer/gui.py:509 ../data/tails-installer.ui.h:1
 msgid "Installation Instructions"
 msgstr "Instructions d’installation"
 
-#: ../tails_installer/gui.py:484
+#: ../tails_installer/gui.py:511
 msgid "https://tails.boum.org/install/"
 msgstr "https://tails.boum.org/install/"
 
-#: ../tails_installer/gui.py:490
+#: ../tails_installer/gui.py:517
 #, python-format
 msgid "%(size)s %(vendor)s %(model)s device (%(device)s)"
 msgstr "%(size)s %(vendor)s %(model)s périphérique (%(device)s)"
 
-#: ../tails_installer/gui.py:502
+#: ../tails_installer/gui.py:529
 msgid "No ISO image selected"
 msgstr "Aucune image ISO n’a été sélectionnée"
 
-#: ../tails_installer/gui.py:503
+#: ../tails_installer/gui.py:530
 msgid "Please select a Tails ISO image."
 msgstr "Veuillez sélectionner une image ISO de Tails."
 
-#: ../tails_installer/gui.py:545
+#: ../tails_installer/gui.py:572
 msgid "No device suitable to install Tails could be found"
 msgstr "Aucun périphérique compatible n’a été trouvé pour installer Tails"
 
-#: ../tails_installer/gui.py:547
+#: ../tails_installer/gui.py:574
 #, python-format
 msgid "Please plug a USB flash drive or SD card of at least %0.1f GB."
 msgstr "Veuillez connecter une clé USB ou une carte SD d’au moins %0.1f Go."
 
-#: ../tails_installer/gui.py:581
+#: ../tails_installer/gui.py:608
 #, python-format
 msgid ""
 "The USB stick \"%(pretty_name)s\" is configured as non-removable by its "
@@ -389,49 +400,49 @@ msgid ""
 "different model."
 msgstr "La clé USB « %(pretty_name)s » est configurée comme non amovible par son fabricant et le démarrage de Tails échouera sur cette clé. Veuillez tenter de l’installer sur un modèle différent."
 
-#: ../tails_installer/gui.py:591
+#: ../tails_installer/gui.py:618
 #, python-format
 msgid ""
 "The device \"%(pretty_name)s\" is too small to install Tails (at least "
 "%(size)s GB is required)."
 msgstr "Le dispositif « %(pretty_name)s » est trop petit pour installer Tails (au moins %(size)s Go sont exigés)."
 
-#: ../tails_installer/gui.py:604
+#: ../tails_installer/gui.py:631
 #, python-format
 msgid ""
 "To upgrade device \"%(pretty_name)s\" from this Tails, you need to use a downloaded Tails ISO image:\n"
 "https://tails.boum.org/install/download"
 msgstr "Pour mettre à niveau l’appareil « %(pretty_name)s » à partir de ce Tails, vous devez utiliser une image ISO Tails téléchargée :\nhttps://tails.boum.org/install/download"
 
-#: ../tails_installer/gui.py:625
+#: ../tails_installer/gui.py:652
 msgid "An error happened while installing Tails"
 msgstr "Une erreur est survenue lors de l’installation de Tails"
 
-#: ../tails_installer/gui.py:637
+#: ../tails_installer/gui.py:664
 msgid "Refreshing releases..."
 msgstr "Actualisation des versions…"
 
-#: ../tails_installer/gui.py:642
+#: ../tails_installer/gui.py:669
 msgid "Releases updated!"
 msgstr "Les versions ont été mises à jour !"
 
-#: ../tails_installer/gui.py:695
+#: ../tails_installer/gui.py:722
 msgid "Installation complete!"
 msgstr "L’installation est terminée !"
 
-#: ../tails_installer/gui.py:711
+#: ../tails_installer/gui.py:738
 msgid "Cancel"
 msgstr "Annuler"
 
-#: ../tails_installer/gui.py:747
+#: ../tails_installer/gui.py:774
 msgid "Unable to mount device"
 msgstr "Impossible de monter le périphérique"
 
-#: ../tails_installer/gui.py:754 ../tails_installer/gui.py:787
+#: ../tails_installer/gui.py:781 ../tails_installer/gui.py:814
 msgid "Confirm the target USB stick"
 msgstr "Confirmer la clé USB cible"
 
-#: ../tails_installer/gui.py:755
+#: ../tails_installer/gui.py:782
 #, python-format
 msgid ""
 "%(size)s %(vendor)s %(model)s device (%(device)s)\n"
@@ -439,48 +450,48 @@ msgid ""
 "All data on this USB stick will be lost."
 msgstr "%(size)s %(vendor)s %(model)s périphérique (%(device)s)\n\nToutes les données sur ce périphérique seront perdues."
 
-#: ../tails_installer/gui.py:774
+#: ../tails_installer/gui.py:801
 #, python-format
 msgid "%(parent_size)s %(vendor)s %(model)s device (%(device)s)"
 msgstr "%(parent_size)s %(vendor)s %(model)s périphérique (%(device)s)"
 
-#: ../tails_installer/gui.py:782
+#: ../tails_installer/gui.py:809
 msgid ""
 "\n"
 "\n"
 "The persistent storage on this USB stick will be preserved."
 msgstr "\n\nL’espace de stockage persistant de cette clé USB sera préservé."
 
-#: ../tails_installer/gui.py:783
+#: ../tails_installer/gui.py:810
 #, python-format
 msgid "%(description)s%(persistence_message)s"
 msgstr "%(description)s%(persistence_message)s"
 
-#: ../tails_installer/gui.py:826
+#: ../tails_installer/gui.py:853
 msgid "Download complete!"
 msgstr "Le téléchargement est terminé !"
 
-#: ../tails_installer/gui.py:830
+#: ../tails_installer/gui.py:857
 msgid "Download failed: "
 msgstr "Échec de téléchargement : "
 
-#: ../tails_installer/gui.py:831
+#: ../tails_installer/gui.py:858
 msgid "You can try again to resume your download"
 msgstr "Vous pouvez ressayer pour reprendre votre téléchargement"
 
-#: ../tails_installer/gui.py:839
+#: ../tails_installer/gui.py:866
 msgid ""
 "The selected file is unreadable. Please fix its permissions or select "
 "another file."
 msgstr "Le fichier sélectionné est illisible. Veuillez changer ses droits ou sélectionner un autre fichier."
 
-#: ../tails_installer/gui.py:845
+#: ../tails_installer/gui.py:872
 msgid ""
 "Unable to use the selected file.  You may have better luck if you move your "
 "ISO to the root of your drive (ie: C:\\)"
 msgstr "Impossible d’utiliser le fichier sélectionné.Il est possible que vous ayez plus de chance en déplaçant l’ISO sur la racine de votre disque (c.-à-d. : C:\\)"
 
-#: ../tails_installer/gui.py:851
+#: ../tails_installer/gui.py:878
 #, python-format
 msgid "%(filename)s selected"
 msgstr "%(filename)s sélectionné"
