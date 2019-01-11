@@ -25,7 +25,7 @@ msgstr ""
 "Project-Id-Version: Tor Project\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-12-07 10:24+0100\n"
-"PO-Revision-Date: 2019-01-11 20:28+0000\n"
+"PO-Revision-Date: 2019-01-11 22:11+0000\n"
 "Last-Translator: A C <ana@shiftout.net>\n"
 "Language-Team: Romanian (http://www.transifex.com/otf/torproject/language/ro/)\n"
 "MIME-Version: 1.0\n"
@@ -191,7 +191,7 @@ msgstr "Adăugați {packages} la aplicațiile dumneavoastră adiționale?"
 msgid ""
 "To install it automatically from your persistent storage when starting "
 "Tails."
-msgstr "Pentru installarea automată din stocarea permanentă la pornirea Tails."
+msgstr "Pentru instalarea automată din stocarea permanentă la pornirea Tails."
 
 #: config/chroot_local-includes/usr/local/sbin/tails-additional-software:293
 msgid "Install Every Time"
@@ -334,7 +334,7 @@ msgid ""
 "some software using <a href=\"synaptic.desktop\">Synaptic Package "
 "Manager</a> or <a href=\"org.gnome.Terminal.desktop\">APT on the command "
 "line</a>."
-msgstr "Pentru a face acest lucru, deblocați stocarea permanentă la pornirea sistemului Tails și instalați niște aplicații folosind <a href=\"synaptic.desktop\">Synaptic Package Manager</a> sau <a href=\"org.gnome.Terminal.desktop\">APT în linia de comandă</a>."
+msgstr "Pentru a face acest lucru, deblocați stocarea persistentă la pornirea sistemului Tails și instalați niște aplicații folosind <a href=\"synaptic.desktop\">Synaptic Package Manager</a> sau <a href=\"org.gnome.Terminal.desktop\">APT în linia de comandă</a>."
 
 #: config/chroot_local-includes/usr/local/bin/tails-additional-software-config:198
 msgid ""
@@ -569,7 +569,7 @@ msgstr "{volume_size} Volum"
 #: config/chroot_local-includes/usr/local/lib/python3/dist-packages/unlock_veracrypt_volumes/volume.py:107
 #, python-brace-format
 msgid "{volume_name} (Read-Only)"
-msgstr "volume_name} (Read-Only)"
+msgstr "{volume_name} (Read-Only)"
 
 #. Translators: Don't translate {partition_name} and {container_path}, they
 #. are placeholders and will be replaced.
@@ -648,7 +648,7 @@ msgstr "Containerul este deschis în mod read-only"
 msgid ""
 "The file container {path} could not be opened with write access. It was opened read-only instead. You will not be able to modify the content of the container.\n"
 "{error_message}"
-msgstr "Containerul de fișiere {path} nu a putut fi deschis cu permisiune de scriere. În schimb fost deschis în mod read-only. Nu veți putea modifica conținutul containerului.\n{error_message}"
+msgstr "Containerul de fișiere {path} nu a putut fi deschis cu permisiune de scriere. În schimb a fost deschis în mod read-only. Nu veți putea modifica conținutul containerului.\n{error_message}"
 
 #: config/chroot_local-includes/usr/local/lib/python3/dist-packages/unlock_veracrypt_volumes/volume_manager.py:138
 msgid "Error opening file"
@@ -665,18 +665,18 @@ msgstr "Fișierul %s nu pare să fie un container VeraCrypt."
 
 #: config/chroot_local-includes/usr/local/lib/python3/dist-packages/unlock_veracrypt_volumes/volume_manager.py:163
 msgid "Failed to add container"
-msgstr "Eșuare la adăugarea containerului"
+msgstr "Adăugarea containerului a eșuat"
 
 #: config/chroot_local-includes/usr/local/lib/python3/dist-packages/unlock_veracrypt_volumes/volume_manager.py:164
 #, python-format
 msgid ""
 "Could not add file container %s: Timeout while waiting for loop setup.Please"
 " try using the <i>Disks</i> application instead."
-msgstr ""
+msgstr "Adăugarea containerului a eșuat%s: setarea inițială a componentei loop durează prea mult timp. Vă rugăm să reîncercați folosind aplicația <i>Disks</i>."
 
 #: config/chroot_local-includes/usr/local/lib/python3/dist-packages/unlock_veracrypt_volumes/volume_manager.py:209
 msgid "Choose File Container"
-msgstr ""
+msgstr "Alegere Container de Fișiere"
 
 #: ../config/chroot_local-includes/etc/skel/Desktop/Report_an_error.desktop.in.h:1
 msgid "Report an error"
@@ -713,11 +713,11 @@ msgstr "Navigator Web Neprotejat"
 
 #: ../config/chroot_local-includes/usr/share/applications/unlock-veracrypt-volumes.desktop.in.h:1
 msgid "Unlock VeraCrypt Volumes"
-msgstr ""
+msgstr "Deblocare Volum VeraCrypt"
 
 #: ../config/chroot_local-includes/usr/share/applications/unlock-veracrypt-volumes.desktop.in.h:2
 msgid "Mount VeraCrypt encrypted file containers and devices"
-msgstr ""
+msgstr "Montare dispozitive și containere de fișiere criptate VeraCrypt"
 
 #: ../config/chroot_local-includes/usr/share/applications/org.boum.tails.additional-software-config.desktop.in.h:1
 msgid "Additional Software"
@@ -739,17 +739,17 @@ msgstr "Pentru a porni un terminal ca Root trebuie să vă autentificați."
 
 #: ../config/chroot_local-includes/usr/share/polkit-1/actions/org.boum.tails.additional-software.policy.in.h:1
 msgid "Remove an additional software package"
-msgstr ""
+msgstr "Eliminare aplicație adițională"
 
 #: ../config/chroot_local-includes/usr/share/polkit-1/actions/org.boum.tails.additional-software.policy.in.h:2
 msgid ""
 "Authentication is required to remove a package from your additional software"
 " ($(command_line))"
-msgstr ""
+msgstr "Aveți nevoie de autentificare pentru a elimina un pachet din aplicațiile adiționale ($(command_line))"
 
 #: ../config/chroot_local-includes/usr/share/unlock-veracrypt-volumes/ui/main.ui.in:61
 msgid "File Containers"
-msgstr ""
+msgstr "Containere de Fișiere"
 
 #: ../config/chroot_local-includes/usr/share/unlock-veracrypt-volumes/ui/main.ui.in:80
 msgid "_Add"
@@ -757,26 +757,26 @@ msgstr "_Adaugă"
 
 #: ../config/chroot_local-includes/usr/share/unlock-veracrypt-volumes/ui/main.ui.in:86
 msgid "Add a file container"
-msgstr ""
+msgstr "Adăugați un container de fișiere"
 
 #: ../config/chroot_local-includes/usr/share/unlock-veracrypt-volumes/ui/main.ui.in:103
 msgid "Partitions and Drives"
-msgstr ""
+msgstr "Partiții si Unități de disc"
 
 #: ../config/chroot_local-includes/usr/share/unlock-veracrypt-volumes/ui/main.ui.in:121
 msgid ""
 "This application is not affiliated with or endorsed by the VeraCrypt project"
 " or IDRIX."
-msgstr ""
+msgstr "Această aplicație nu este afiliată cu sau susținută de proiectul VeraCrypt sau IDRIX."
 
 #: ../config/chroot_local-includes/usr/share/unlock-veracrypt-volumes/ui/volume.ui.in:38
 msgid "Lock this volume"
-msgstr ""
+msgstr "Blochează acest volum"
 
 #: ../config/chroot_local-includes/usr/share/unlock-veracrypt-volumes/ui/volume.ui.in:61
 msgid "Detach this volume"
-msgstr ""
+msgstr "Detașează acest volum"
 
 #: ../config/chroot_local-includes/usr/local/share/mime/packages/unlock-veracrypt-volumes.xml.in.h:1
 msgid "TrueCrypt/VeraCrypt container"
-msgstr ""
+msgstr "Container TrueCrypt/VeraCrypt"
