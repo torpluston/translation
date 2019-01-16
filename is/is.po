@@ -3,14 +3,14 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
-# Sveinn í Felli <sv1@fellsnet.is>, 2010,2016-2018
+# Sveinn í Felli <sv1@fellsnet.is>, 2010,2016-2019
 # Sveinn í Felli <sv1@fellsnet.is>, 2010
 msgid ""
 msgstr ""
 "Project-Id-Version: Tor Project\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-10-20 12:34+0200\n"
-"PO-Revision-Date: 2018-11-04 16:20+0000\n"
+"POT-Creation-Date: 2019-01-02 09:26+0100\n"
+"PO-Revision-Date: 2019-01-16 14:54+0000\n"
 "Last-Translator: Sveinn í Felli <sv1@fellsnet.is>\n"
 "Language-Team: Icelandic (http://www.transifex.com/otf/torproject/language/is/)\n"
 "MIME-Version: 1.0\n"
@@ -296,73 +296,83 @@ msgstr "Uppsetningu lokið! (%s)"
 msgid "Tails installation failed!"
 msgstr "Uppsetning Tails mistókst!"
 
-#: ../tails_installer/gui.py:361
+#: ../tails_installer/gui.py:369
 msgid ""
 "Warning: This tool needs to be run as an Administrator. To do this, right "
 "click on the icon and open the Properties. Under the Compatibility tab, "
 "check the \"Run this program as an administrator\" box."
 msgstr "Aðvörun: Þetta tól verður að keyra sem kerfisstjóri (administrator). Til að gera það, hægri-smelltu á táknmyndina og opnaðu eiginleikana (Properties). Á samhæfniflipanum (Compatibility), hakaðu við að keyra þetta forrit sem kerfisstjóri (Run this program as an administrator)."
 
-#: ../tails_installer/gui.py:373
+#: ../tails_installer/gui.py:381
 msgid "Tails Installer"
 msgstr "Tails-uppsetningarforrit"
 
-#: ../tails_installer/gui.py:423 ../data/tails-installer.ui.h:2
+#: ../tails_installer/gui.py:441
+msgid "Tails Installer is deprecated"
+msgstr "Tails-uppsetningarforritið er úrelt"
+
+#: ../tails_installer/gui.py:443
+msgid ""
+"To install a new Tails, see the <a href='https://tails.boum.org/install/'>installation documentation</a>.\n"
+"To upgrade an existing Tails, see the <a href='https://tails.boum.org/upgrade/'>upgrade documentation</a>."
+msgstr "Til að setja upp nýtt Tails, skoðaðu <a href='https://tails.boum.org/install/'>hjálparskjöl fyrir uppsetningar</a>.\nTil að uppfæra fyrirliggjandi Tails, skoðaðu <a href='https://tails.boum.org/upgrade/'>hjálparskjöl fyrir uppfærslu</a>."
+
+#: ../tails_installer/gui.py:450 ../data/tails-installer.ui.h:2
 msgid "Clone the current Tails"
 msgstr "Klóna núverandi Tails"
 
-#: ../tails_installer/gui.py:430 ../data/tails-installer.ui.h:3
+#: ../tails_installer/gui.py:457 ../data/tails-installer.ui.h:3
 msgid "Use a downloaded Tails ISO image"
 msgstr "Nota Tails ISO-diskmynd sem sótt var á netinu"
 
-#: ../tails_installer/gui.py:467 ../tails_installer/gui.py:788
+#: ../tails_installer/gui.py:494 ../tails_installer/gui.py:815
 msgid "Upgrade"
 msgstr "Uppfæra"
 
-#: ../tails_installer/gui.py:469
+#: ../tails_installer/gui.py:496
 msgid "Manual Upgrade Instructions"
 msgstr "Leiðbeiningar fyrir handvirka uppfærslu"
 
-#: ../tails_installer/gui.py:471
+#: ../tails_installer/gui.py:498
 msgid "https://tails.boum.org/upgrade/"
 msgstr "https://tails.boum.org/upgrade/"
 
-#: ../tails_installer/gui.py:479 ../tails_installer/gui.py:700
-#: ../tails_installer/gui.py:765 ../data/tails-installer.ui.h:7
+#: ../tails_installer/gui.py:506 ../tails_installer/gui.py:727
+#: ../tails_installer/gui.py:792 ../data/tails-installer.ui.h:7
 msgid "Install"
 msgstr "Setja upp"
 
-#: ../tails_installer/gui.py:482 ../data/tails-installer.ui.h:1
+#: ../tails_installer/gui.py:509 ../data/tails-installer.ui.h:1
 msgid "Installation Instructions"
 msgstr "Leiðbeiningar fyrir uppsetningu"
 
-#: ../tails_installer/gui.py:484
+#: ../tails_installer/gui.py:511
 msgid "https://tails.boum.org/install/"
 msgstr "https://tails.boum.org/install/"
 
-#: ../tails_installer/gui.py:490
+#: ../tails_installer/gui.py:517
 #, python-format
 msgid "%(size)s %(vendor)s %(model)s device (%(device)s)"
 msgstr "%(size)s %(vendor)s %(model)s tæki (%(device)s)"
 
-#: ../tails_installer/gui.py:502
+#: ../tails_installer/gui.py:529
 msgid "No ISO image selected"
 msgstr "Engin ISO-diskmynd valin"
 
-#: ../tails_installer/gui.py:503
+#: ../tails_installer/gui.py:530
 msgid "Please select a Tails ISO image."
 msgstr "Veldu Tails ISO-diskmynd."
 
-#: ../tails_installer/gui.py:545
+#: ../tails_installer/gui.py:572
 msgid "No device suitable to install Tails could be found"
 msgstr "Ekkert hentugt tæki fannst til uppsetningar á Tails"
 
-#: ../tails_installer/gui.py:547
+#: ../tails_installer/gui.py:574
 #, python-format
 msgid "Please plug a USB flash drive or SD card of at least %0.1f GB."
 msgstr "Tengdu USB-minnislykil eða SD-minniskort með að minnsta kosti %0.1f GB gagnarýmd."
 
-#: ../tails_installer/gui.py:581
+#: ../tails_installer/gui.py:608
 #, python-format
 msgid ""
 "The USB stick \"%(pretty_name)s\" is configured as non-removable by its "
@@ -370,49 +380,49 @@ msgid ""
 "different model."
 msgstr "USB-minnislykillinn \"%(pretty_name)s\" er ekki hannaður frá framleiðanda til að vera útskiptanlegur, Tails mun því ekki geta ræst upp af honum. Prófaðu að nota einhverja aðra tegund minnislykils."
 
-#: ../tails_installer/gui.py:591
+#: ../tails_installer/gui.py:618
 #, python-format
 msgid ""
 "The device \"%(pretty_name)s\" is too small to install Tails (at least "
 "%(size)s GB is required)."
 msgstr "Tækið \"%(pretty_name)s\" er of lítið til að hægt sé að setja Tails upp á því (að minnsta kosti %(size)s GB eru nauðsynleg)."
 
-#: ../tails_installer/gui.py:604
+#: ../tails_installer/gui.py:631
 #, python-format
 msgid ""
 "To upgrade device \"%(pretty_name)s\" from this Tails, you need to use a downloaded Tails ISO image:\n"
 "https://tails.boum.org/install/download"
 msgstr "Til að uppfæra tækið \"%(pretty_name)s\" úr þessu tilviki Tails, þá þarftu að nota Tails ISO diskmynd sem þú nærð í hér:\nhttps://tails.boum.org/install/download"
 
-#: ../tails_installer/gui.py:625
+#: ../tails_installer/gui.py:652
 msgid "An error happened while installing Tails"
 msgstr "Villa kom upp við að setja upp Tails"
 
-#: ../tails_installer/gui.py:637
+#: ../tails_installer/gui.py:664
 msgid "Refreshing releases..."
 msgstr "Endurles útgáfur..."
 
-#: ../tails_installer/gui.py:642
+#: ../tails_installer/gui.py:669
 msgid "Releases updated!"
 msgstr "Uppfærði útgáfur!"
 
-#: ../tails_installer/gui.py:695
+#: ../tails_installer/gui.py:722
 msgid "Installation complete!"
 msgstr "Uppsetningu lokið!"
 
-#: ../tails_installer/gui.py:711
+#: ../tails_installer/gui.py:738
 msgid "Cancel"
 msgstr "Hætta við"
 
-#: ../tails_installer/gui.py:747
+#: ../tails_installer/gui.py:774
 msgid "Unable to mount device"
 msgstr "Tókst ekki að tengja tæki"
 
-#: ../tails_installer/gui.py:754 ../tails_installer/gui.py:787
+#: ../tails_installer/gui.py:781 ../tails_installer/gui.py:814
 msgid "Confirm the target USB stick"
 msgstr "Staðfestu USB-minnislykilinn sem á að skrifa á"
 
-#: ../tails_installer/gui.py:755
+#: ../tails_installer/gui.py:782
 #, python-format
 msgid ""
 "%(size)s %(vendor)s %(model)s device (%(device)s)\n"
@@ -420,48 +430,48 @@ msgid ""
 "All data on this USB stick will be lost."
 msgstr "%(size)s %(vendor)s %(model)s tæki (%(device)s)\n\nÖll gögn á á þessum USB-lykli munu tapast."
 
-#: ../tails_installer/gui.py:774
+#: ../tails_installer/gui.py:801
 #, python-format
 msgid "%(parent_size)s %(vendor)s %(model)s device (%(device)s)"
 msgstr "%(parent_size)s %(vendor)s %(model)s tæki (%(device)s)"
 
-#: ../tails_installer/gui.py:782
+#: ../tails_installer/gui.py:809
 msgid ""
 "\n"
 "\n"
 "The persistent storage on this USB stick will be preserved."
 msgstr "\n\nVaranlegu gagnageymslunni á þessum USB-lykli verður haldið til haga"
 
-#: ../tails_installer/gui.py:783
+#: ../tails_installer/gui.py:810
 #, python-format
 msgid "%(description)s%(persistence_message)s"
 msgstr "%(description)s%(persistence_message)s"
 
-#: ../tails_installer/gui.py:826
+#: ../tails_installer/gui.py:853
 msgid "Download complete!"
 msgstr "Niðurhali lokið!"
 
-#: ../tails_installer/gui.py:830
+#: ../tails_installer/gui.py:857
 msgid "Download failed: "
 msgstr "Niðurhal mistókst: "
 
-#: ../tails_installer/gui.py:831
+#: ../tails_installer/gui.py:858
 msgid "You can try again to resume your download"
 msgstr "Þú getur reynt aftur til að klára niðurhalið"
 
-#: ../tails_installer/gui.py:839
+#: ../tails_installer/gui.py:866
 msgid ""
 "The selected file is unreadable. Please fix its permissions or select "
 "another file."
 msgstr "Skráin sem þú valdir er ekki lesanleg. Lagaðu heimildir hennar eða veldu aðra skrá."
 
-#: ../tails_installer/gui.py:845
+#: ../tails_installer/gui.py:872
 msgid ""
 "Unable to use the selected file.  You may have better luck if you move your "
 "ISO to the root of your drive (ie: C:\\)"
 msgstr "Gat ekki notað völdu skrána. Það gæti gengið betur ef þú færir ISO-skrána á rót drifsins (dæmi: C:\\)"
 
-#: ../tails_installer/gui.py:851
+#: ../tails_installer/gui.py:878
 #, python-format
 msgid "%(filename)s selected"
 msgstr "%(filename)s valið"
