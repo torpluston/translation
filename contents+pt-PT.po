@@ -701,7 +701,7 @@ msgstr "transferir-tor-browser-chromeos"
 #: http//localhost/tbb/pick-which-country-i-am-exiting/
 #: (content/tbb/tbb-16/contents+en.lrquestion.title)
 msgid "Can I pick which country I'm exiting from?"
-msgstr "Eu posso escolher o país do meu nodo de saída?"
+msgstr "Eu posso escolher o país do nó de saída que estou a utilizar?"
 
 #: http//localhost/tbb/pick-which-country-i-am-exiting/
 #: (content/tbb/tbb-16/contents+en.lrquestion.description)
@@ -719,8 +719,8 @@ msgid ""
 "anonymity."
 msgstr ""
 "Obtém a melhor segurança que o Tor pode oferecer quando permite que o este "
-"efetue a seleção da rota; substituindo os nodos de entrada / saída que podem"
-" comprometer o seu anonimato."
+"efetue a seleção da rota; substituindo os nós de entrada / saída que podem "
+"comprometer o seu anonimato."
 
 #: http//localhost/tbb/pick-which-country-i-am-exiting/
 #: (content/tbb/tbb-16/contents+en.lrquestion.description)
@@ -746,7 +746,7 @@ msgstr ""
 #: http//localhost/tbb/pick-which-country-i-am-exiting/
 #: (content/tbb/tbb-16/contents+en.lrquestion.seo_slug)
 msgid "pick-which-country-i-am-exiting"
-msgstr "escolher-pais-nodo-saida"
+msgstr "escolher-o-pais-do-retransmissor-de-saida"
 
 #: http//localhost/tbb/run-tor-browser-and-different-browser/
 #: (content/tbb/tbb-17/contents+en.lrquestion.title)
@@ -2893,7 +2893,7 @@ msgstr "Se utilizar pontes poderá resolver este problema."
 #: http//localhost/censorship/having-trouble-connecting-to-tor/
 #: (content/censorship/censorship-5/contents+en.lrquestion.description)
 msgid "##### Common log error #4: Clock skew"
-msgstr ""
+msgstr "##### Erro comum no registo: #4 Diferença horária"
 
 #: http//localhost/connecting/having-trouble-connecting-to-tor/
 #: (content/connecting/connecting-2/contents+en.lrquestion.description)
@@ -4156,11 +4156,13 @@ msgid ""
 "The same protections that keep bad people from breaking Tor's anonymity also"
 " prevent us from tracking users."
 msgstr ""
+"As mesmas proteções que impedem que as pessoas más quebrem o anonimato do "
+"Tor também impedem que nós rastreemos os utilizadores."
 
 #: http//localhost/misc/tracing-tor-user/
 #: (content/misc/misc-1/contents+en.lrquestion.seo_slug)
 msgid "tracing-tor-user"
-msgstr ""
+msgstr "rastrear-utilizador-tor"
 
 #: http//localhost/misc/does-tor-project-offer-hosting/
 #: (content/misc/misc-10/contents+en.lrquestion.title)
@@ -4175,7 +4177,7 @@ msgstr "Não, o Projeto Tor não oferece serviços de hospedagem."
 #: http//localhost/misc/does-tor-project-offer-hosting/
 #: (content/misc/misc-10/contents+en.lrquestion.seo_slug)
 msgid "does-tor-project-offer-hosting"
-msgstr ""
+msgstr "projeto-tor-fornece-alojamento-de-sites"
 
 #: http//localhost/misc/change-the-number-of-hops-tor-uses/
 #: (content/misc/misc-11/contents+en.lrquestion.title)
@@ -4188,6 +4190,8 @@ msgid ""
 "Right now the path length is hard-coded at 3 plus the number of nodes in "
 "your path that are sensitive."
 msgstr ""
+"Neste momento, o comprimento do caminho é codificado com 3 mais o número de "
+"nós no seu caminho que sejam sensíveis."
 
 #: http//localhost/misc/change-the-number-of-hops-tor-uses/
 #: (content/misc/misc-11/contents+en.lrquestion.description)
@@ -4195,6 +4199,9 @@ msgid ""
 "That is, in normal cases it's 3, but for example if you're accessing an "
 "onion service or a \".exit\" address it could be more."
 msgstr ""
+"Isto é, em situações normais, esse número é 3 mas, por exemplo, caso esteja "
+"acedendo a um serviço onion ou um endereço de \"saída\", este poderá ser "
+"maior."
 
 #: http//localhost/misc/change-the-number-of-hops-tor-uses/
 #: (content/misc/misc-11/contents+en.lrquestion.description)
@@ -4203,6 +4210,9 @@ msgid ""
 "increases load on the network without (as far as we can tell) providing any "
 "more security."
 msgstr ""
+"Nós não queremos encorajar as pessoas a utilizarem caminhos mais longos do "
+"que este, pois isto aumentaria a carga na rede (até onde sabemos) sem "
+"fornecer qualquer melhoria na segurança."
 
 #: http//localhost/misc/change-the-number-of-hops-tor-uses/
 #: (content/misc/misc-11/contents+en.lrquestion.description)
@@ -4213,11 +4223,17 @@ msgid ""
 " identifier if only a small number of users have the same path length as "
 "you."
 msgstr ""
+"Além disso, a utilização de caminhos mais longos do que 3 poderá prejudicar "
+"o seu anonimato; em primeiro lugar, porque torna mais fácil os ataques de "
+"<mark><a href=\"https://www.freehaven.net/anonbib/#ccs07-doa\">negação de "
+"segurança</a></mark> e, em segundo lugar, porque funcionará como um "
+"identificador, já que apenas um pequeno número de utilizadores têm um "
+"caminho com o mesmo comprimento que o seu."
 
 #: http//localhost/misc/change-the-number-of-hops-tor-uses/
 #: (content/misc/misc-11/contents+en.lrquestion.seo_slug)
 msgid "change-the-number-of-hops-tor-uses"
-msgstr ""
+msgstr "alterar-o-numero-de-saltos-que-o-tor-usa"
 
 #: http//localhost/misc/share-files-anonymously-through-tor/
 #: (content/misc/misc-12/contents+en.lrquestion.title)
@@ -4231,6 +4247,8 @@ msgid ""
 "Many exit nodes are configured to block certain types of file sharing "
 "traffic, such as BitTorrent."
 msgstr ""
+"Muitos nós de saída são configurados para bloquear certos tipos de tráfego "
+"de partilha de ficheiros como por exemplo do BitTorrent."
 
 #: http//localhost/misc/share-files-anonymously-through-tor/
 #: (content/misc/misc-12/contents+en.lrquestion.description)
@@ -4238,6 +4256,8 @@ msgid ""
 "BitTorrent in specific is <mark><a href=\"https://blog.torproject.org"
 "/bittorrent-over-tor-isnt-good-idea\">not anonymous over Tor</a></mark>."
 msgstr ""
+"O BitTorrent, especificamente, <mark><a href=\"https://blog.torproject.org"
+"/bittorrent-over-tor-isnt-good-idea\">não é anónimo na rede Tor</a></mark>."
 
 #: http//localhost/misc/share-files-anonymously-through-tor/
 #: (content/misc/misc-12/contents+en.lrquestion.description)
@@ -4251,7 +4271,7 @@ msgstr ""
 #: http//localhost/misc/share-files-anonymously-through-tor/
 #: (content/misc/misc-12/contents+en.lrquestion.seo_slug)
 msgid "share-files-anonymously-through-tor"
-msgstr ""
+msgstr "parilhar-ficheiros-anonimamente-atraves-do-tor"
 
 #: http//localhost/misc/volunteer-with-tor-project/
 #: (content/misc/misc-14/contents+en.lrquestion.title)
@@ -4265,11 +4285,14 @@ msgid ""
 "href=\"https://www.torproject.org/getinvolved/volunteer.html.en\">volunteer "
 "page</a></mark> for how to get involved!"
 msgstr ""
+"Por favor veja a nossa <mark><a "
+"href=\"https://www.torproject.org/getinvolved/volunteer.html.en\">página de "
+"voluntariado</a></mark> e descubra como participar!"
 
 #: http//localhost/misc/volunteer-with-tor-project/
 #: (content/misc/misc-14/contents+en.lrquestion.seo_slug)
 msgid "volunteer-with-tor-project"
-msgstr ""
+msgstr "voluntario-do-projeto-tor"
 
 #: http//localhost/misc/donate-tor-project/
 #: (content/misc/misc-15/contents+en.lrquestion.title)
@@ -4309,6 +4332,8 @@ msgid ""
 "Tor is designed to defend human rights and privacy by preventing anyone from"
 " censoring things, even us."
 msgstr ""
+"O Tor foi concebido para defender os direitos humanos e a privacidade ao "
+"impedir qualquer pessoa censurar coisas, inclusive nós mesmos."
 
 #: http//localhost/misc/prevent-bad-people-doing-bad-things-with-tor/
 #: (content/misc/misc-2/contents+en.lrquestion.description)
@@ -4318,6 +4343,10 @@ msgid ""
 "rights activists, journalists, abuse survivors, and other people who use Tor"
 " for good things."
 msgstr ""
+"Nós detestamos o facto que algumas pessoas utilizam o Tor para fazer coisas "
+"horríveis, mas nada podemos fazer para livrar-nos deles sem também minar a "
+"segurança de ativistas de direitos, jornalistas, sobreviventes de abusos, "
+"entre outras pessoas que utilizam o Tor para coisas boas."
 
 #: http//localhost/misc/prevent-bad-people-doing-bad-things-with-tor/
 #: (content/misc/misc-2/contents+en.lrquestion.description)
@@ -4326,11 +4355,15 @@ msgid ""
 "adding a backdoor to the software, which would open up our vulnerable users "
 "to attacks from bad regimes and other adversaries."
 msgstr ""
+"Se quiséssemos bloquear certas pessoas de utilizarem o Tor, basicamente "
+"estaríamos a criar uma \"porta dos fundos\" no software, que resultaria na "
+"vulnerabilidade dos nossos utilizadores, expondo-os a ataques de regimes "
+"perversos ou de outros adversários."
 
 #: http//localhost/misc/prevent-bad-people-doing-bad-things-with-tor/
 #: (content/misc/misc-2/contents+en.lrquestion.seo_slug)
 msgid "prevent-bad-people-doing-bad-things-with-tor"
-msgstr ""
+msgstr "impedir-os-maus-fazerem-maldades-com-o-tor"
 
 #: http//localhost/misc/tor-funding/
 #: (content/misc/misc-3/contents+en.lrquestion.title)
@@ -4343,6 +4376,8 @@ msgid ""
 "Tor is funded by a number of different sponsors including US federal "
 "agencies, private foundations, and individual donors."
 msgstr ""
+"O Tor é financiado por diversos patrocinadores, incluindo agências federais "
+"dos Estados Unidos da América, fundações privadas e doadores individuais."
 
 #: http//localhost/misc/tor-funding/
 #: (content/misc/misc-3/contents+en.lrquestion.description)
@@ -4353,6 +4388,11 @@ msgid ""
 "href=\"https://blog.torproject.org/category/tags/form-990\">blog "
 "posts</a></mark> on our financial reports."
 msgstr ""
+"Veja a lista de todos os <mark><a "
+"href=\"https://www.torproject.org/about/sponsors.html.en\">nossos "
+"patrocinadores</a></mark> e uma série de <mark><a "
+"href=\"https://blog.torproject.org/category/tags/form-990\">artigos no nosso"
+" blogue</a></mark> sobre os nossos relatórios financeiros."
 
 #: http//localhost/misc/tor-funding/
 #: (content/misc/misc-3/contents+en.lrquestion.description)
@@ -4360,6 +4400,9 @@ msgid ""
 "We feel that talking openly about our funders and funding model is the best "
 "way to maintain trust with our community."
 msgstr ""
+"Sentimos que uma conversa franca sobre os nossos financiadores e nosso "
+"modelo de financiamento é a melhor forma de manter a confiança da "
+"comunidade."
 
 #: http//localhost/misc/tor-funding/
 #: (content/misc/misc-3/contents+en.lrquestion.description)
@@ -4367,16 +4410,18 @@ msgid ""
 "We are always seeking more diversity in our funding sources, especially from"
 " foundations and individuals."
 msgstr ""
+"Estamos sempre à procura de maior diversidade nas nossas fontes de "
+"financiamento, especialmente por parte de fundações e indivíduos."
 
 #: http//localhost/misc/tor-funding/
 #: (content/misc/misc-3/contents+en.lrquestion.seo_slug)
 msgid "tor-funding"
-msgstr ""
+msgstr "financiamento-tor"
 
 #: http//localhost/misc/tor-bittorrent/
 #: (content/misc/misc-4/contents+en.lrquestion.title)
 msgid "Can I use Tor with BitTorrent?"
-msgstr ""
+msgstr "Posso utilizar o Tor com o BitTorrent?"
 
 #: http//localhost/misc/tor-bittorrent/
 #: (content/misc/misc-4/contents+en.lrquestion.description)
@@ -4411,7 +4456,7 @@ msgstr ""
 #: http//localhost/misc/someone-asks-to-download-tor-browser-to-unlock-my-files/
 #: (content/misc/misc-5/contents+en.lrquestion.description)
 msgid "We are so sorry, but you have been infected with malware."
-msgstr ""
+msgstr "Pedimos desculpa, mas você foi infetado com software malicioso."
 
 #: http//localhost/misc/someone-asks-to-download-tor-browser-to-unlock-my-files/
 #: (content/misc/misc-5/contents+en.lrquestion.description)
@@ -4420,6 +4465,9 @@ msgid ""
 "you to download Tor Browser presumably to contact them anonymously with the "
 "ransom they're demanding from you."
 msgstr ""
+"O Projeto Tor não criou esse programa malicioso. Os autores do programa "
+"malicioso estão a pedir para descarregarem o Tor Browser, supostamente para "
+"contactá-los e permitir o pagamento anónimo do resgate que exigem de si."
 
 #: http//localhost/misc/someone-asks-to-download-tor-browser-to-unlock-my-files/
 #: (content/misc/misc-5/contents+en.lrquestion.description)
@@ -4427,6 +4475,9 @@ msgid ""
 "If this is your first introduction to Tor Browser, we understand that you "
 "might think we're bad people who enable even worse people."
 msgstr ""
+"Se este é o seu primeiro contacto com o Tor Browser, nós compreendemos que "
+"você possa pensar que somos pessoas más que alimentam o poder de pessoas "
+"ainda piores."
 
 #: http//localhost/misc/someone-asks-to-download-tor-browser-to-unlock-my-files/
 #: (content/misc/misc-5/contents+en.lrquestion.description)
@@ -4437,6 +4488,12 @@ msgid ""
 "Unfortunately, the protection that our software can provide to these groups "
 "of people can also be abused by criminals and malware authors."
 msgstr ""
+"Mas, por favor, entenda que nosso software é utilizado todos os dias com uma"
+" ampla variedade de objetivos por ativistas de direitos humanos, "
+"jornalistas, sobreviventes de violência, informadores, forças policiais e "
+"muitos outros. Infelizmente, a proteção oferecida pelo nosso software a "
+"essas pessoas também pode ser objeto de abusos por criminosos e "
+"programadores de software malicioso (malware)."
 
 #: http//localhost/misc/someone-asks-to-download-tor-browser-to-unlock-my-files/
 #: (content/misc/misc-5/contents+en.lrquestion.description)
@@ -4444,11 +4501,15 @@ msgid ""
 "The Tor Project does not support or condone the use of our software for "
 "malicious purposes."
 msgstr ""
+"O Projeto Tor não apoia nem faz vista grossa na utilização do nosso software"
+" com propósitos maliciosos."
 
 #: http//localhost/misc/someone-asks-to-download-tor-browser-to-unlock-my-files/
 #: (content/misc/misc-5/contents+en.lrquestion.seo_slug)
 msgid "someone-asks-to-download-tor-browser-to-unlock-my-files"
 msgstr ""
+"alguem-esta-a-pedir-para-eu-descarregar-o-tor-browser-para-desbloquear-os-"
+"meus-ficheiros"
 
 #: http//localhost/misc/does-tor-keep-logs/
 #: (content/misc/misc-6/contents+en.lrquestion.title)
@@ -4459,6 +4520,8 @@ msgstr "O Tor mantém registos de eventos?"
 #: (content/misc/misc-6/contents+en.lrquestion.description)
 msgid "Tor doesn't keep any logs that could identify a particular user."
 msgstr ""
+"O Tor não mantém qualquer tipo de registo que permita a identificação de um "
+"utilizador em específico."
 
 #: http//localhost/misc/does-tor-keep-logs/
 #: (content/misc/misc-6/contents+en.lrquestion.description)
@@ -4467,11 +4530,14 @@ msgid ""
 "can check out at <mark><a href=\"https://metrics.torproject.org/\">Tor "
 "Metrics</a></mark>."
 msgstr ""
+"Na verdade fazemos algumas medições seguras sobre o funcionamento da rede, e"
+" que qualquer pessoa pode verificar na página de <mark><a "
+"href=\"https://metrics.torproject.org/\">Métricas do Tor</a></mark>."
 
 #: http//localhost/misc/does-tor-keep-logs/
 #: (content/misc/misc-6/contents+en.lrquestion.seo_slug)
 msgid "does-tor-keep-logs"
-msgstr ""
+msgstr "o-tor-mantem-registos"
 
 #: http//localhost/misc/does-tor-project-offer-email-or-privacy-protecting-web-services/
 #: (content/misc/misc-7/contents+en.lrquestion.title)
@@ -4502,7 +4568,7 @@ msgstr ""
 #: http//localhost/misc/does-tor-project-offer-email-or-privacy-protecting-web-services/
 #: (content/misc/misc-7/contents+en.lrquestion.seo_slug)
 msgid "does-tor-project-offer-email-or-privacy-protecting-web-services"
-msgstr ""
+msgstr "projeto-tor-oferece-email-ou-servicos-web-de-protecao-privacidade"
 
 #: http//localhost/misc/using-tor-logo/
 #: (content/misc/misc-8/contents+en.lrquestion.title)
@@ -4516,11 +4582,14 @@ msgid ""
 "href=\"https://www.torproject.org/docs/trademark-faq.html\">Trademark faq "
 "page</a></mark>."
 msgstr ""
+"Pode ler sobre esse tema na nossa <mark><a "
+"href=\"https://www.torproject.org/docs/trademark-faq.html\">Página de "
+"Perguntas Frequentes sobre a marca registada</a></mark>."
 
 #: http//localhost/misc/using-tor-logo/
 #: (content/misc/misc-8/contents+en.lrquestion.seo_slug)
 msgid "using-tor-logo"
-msgstr ""
+msgstr "utilizar-o-logotipo-do-tor"
 
 #: http//localhost/misc/having-a-problem-updating-vidalia/
 #: (content/misc/misc-9/contents+en.lrquestion.title)
@@ -4530,7 +4599,7 @@ msgstr "Eu estou com um problema ao atualizar ou a utilizar Vidalia."
 #: http//localhost/misc/having-a-problem-updating-vidalia/
 #: (content/misc/misc-9/contents+en.lrquestion.description)
 msgid "Vidalia is no longer maintained or supported."
-msgstr ""
+msgstr "O Vidalia já não é desenvolvido nem suportado."
 
 #: http//localhost/misc/having-a-problem-updating-vidalia/
 #: (content/misc/misc-9/contents+en.lrquestion.description)
@@ -4538,11 +4607,13 @@ msgid ""
 "A large portion of the features Vidalia offered have now been integrated "
 "into Tor Browser itself."
 msgstr ""
+"Uma grande parte das funcionalidades oferecidas anteriormente pelo Vidalia "
+"foram agora integradas no próprio Tor Browser."
 
 #: http//localhost/misc/having-a-problem-updating-vidalia/
 #: (content/misc/misc-9/contents+en.lrquestion.seo_slug)
 msgid "having-a-problem-updating-vidalia"
-msgstr ""
+msgstr "tenho-problemas-ao-atualizar-o-vidalia"
 
 #: templates/footer.html:5
 msgid "Our mission:"
@@ -4555,6 +4626,10 @@ msgid ""
 "availability and use, and furthering their scientific and popular "
 "understanding."
 msgstr ""
+"para o progresso nos direitos humanos e liberdades criando e implementando "
+"tecnologias livres e de código-aberto de anonimato e privacidade, apoiando a"
+" sua disponibilidade e utilização não restringida, e contribuindo para o "
+"avanço da sua compreensão científica e popular. "
 
 #: templates/footer.html:24
 msgid "Subscribe to our Newsletter"
@@ -4562,13 +4637,15 @@ msgstr "Subscreva o nosso Boletim Informativo"
 
 #: templates/footer.html:25
 msgid "Get monthly updates and opportunities from the Tor Project"
-msgstr ""
+msgstr "Receba atualizações mensais e oportunidades do Projeto Tor"
 
 #: templates/footer.html:32
 msgid ""
 "Trademark, copyright notices, and rules for use by third parties can be "
 "found in our "
 msgstr ""
+"As marcas comerciais, avisos de direitos de autor e regras de utilização por"
+" parte de terceiros podem ser encontradas em"
 
 #: templates/layout.html:7
 msgid "Tor Project | Support"
