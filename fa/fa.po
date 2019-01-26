@@ -4,6 +4,7 @@
 # 
 # Translators:
 # Amir Moezzi <amirreza.mz@yahoo.com>, 2017
+# Atash G <Ali_hosseine@yahoo.com>, 2019
 # zmix <check_people_status@yahoo.com>, 2013
 # Mohammad Hossein <desmati@gmail.com>, 2014
 # Eric D Smallberg <esmallberg@ndi.org>, 2013
@@ -26,9 +27,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Tor Project\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-10-20 12:34+0200\n"
-"PO-Revision-Date: 2018-12-10 14:04+0000\n"
-"Last-Translator: Goudarz Jafari <goudarz.jafari@gmail.com>\n"
+"POT-Creation-Date: 2019-01-02 09:26+0100\n"
+"PO-Revision-Date: 2019-01-26 16:28+0000\n"
+"Last-Translator: Atash G <Ali_hosseine@yahoo.com>\n"
 "Language-Team: Persian (http://www.transifex.com/otf/torproject/language/fa/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -313,73 +314,83 @@ msgstr "عمليات نصب به پايان رسيد! (%s)"
 msgid "Tails installation failed!"
 msgstr "نصب تیلز ناموفق بود!"
 
-#: ../tails_installer/gui.py:361
+#: ../tails_installer/gui.py:369
 msgid ""
 "Warning: This tool needs to be run as an Administrator. To do this, right "
 "click on the icon and open the Properties. Under the Compatibility tab, "
 "check the \"Run this program as an administrator\" box."
 msgstr "هشدار: اين ابزار نياز به اجرا شدن توسط مدير سيستم دارد. براي انجام اين كار، بر روي آيكون راست كليك كرده، سپس Properties را انتخاب كرده و از لبه Compatibility، گزينه Run the program as an administrator را انتخاب كنيد."
 
-#: ../tails_installer/gui.py:373
+#: ../tails_installer/gui.py:381
 msgid "Tails Installer"
 msgstr "نصب کننده تیلز"
 
-#: ../tails_installer/gui.py:423 ../data/tails-installer.ui.h:2
+#: ../tails_installer/gui.py:441
+msgid "Tails Installer is deprecated"
+msgstr "نصب کننده تیلز منسوخ شده است"
+
+#: ../tails_installer/gui.py:443
+msgid ""
+"To install a new Tails, see the <a href='https://tails.boum.org/install/'>installation documentation</a>.\n"
+"To upgrade an existing Tails, see the <a href='https://tails.boum.org/upgrade/'>upgrade documentation</a>."
+msgstr "برای نصب یک تیلز جدید ،<a href='https://tails.boum.org/install/'> اسناد نصب</a> را ببینید .\nبرای ارتقا یک تیلز موجود ،<a href='https://tails.boum.org/upgrade/'> اسناد ارتقا</a> را ببینید ."
+
+#: ../tails_installer/gui.py:450 ../data/tails-installer.ui.h:2
 msgid "Clone the current Tails"
 msgstr "همین تیلز را کلون کن"
 
-#: ../tails_installer/gui.py:430 ../data/tails-installer.ui.h:3
+#: ../tails_installer/gui.py:457 ../data/tails-installer.ui.h:3
 msgid "Use a downloaded Tails ISO image"
 msgstr "از یک تصویر ISO تیلز بارگیری شده استفاده کن"
 
-#: ../tails_installer/gui.py:467 ../tails_installer/gui.py:788
+#: ../tails_installer/gui.py:494 ../tails_installer/gui.py:815
 msgid "Upgrade"
 msgstr "ارتقاء"
 
-#: ../tails_installer/gui.py:469
+#: ../tails_installer/gui.py:496
 msgid "Manual Upgrade Instructions"
 msgstr "دستورالعمل‌های بروزرسانی دستی"
 
-#: ../tails_installer/gui.py:471
+#: ../tails_installer/gui.py:498
 msgid "https://tails.boum.org/upgrade/"
 msgstr "https://tails.boum.org/upgrade/"
 
-#: ../tails_installer/gui.py:479 ../tails_installer/gui.py:700
-#: ../tails_installer/gui.py:765 ../data/tails-installer.ui.h:7
+#: ../tails_installer/gui.py:506 ../tails_installer/gui.py:727
+#: ../tails_installer/gui.py:792 ../data/tails-installer.ui.h:7
 msgid "Install"
 msgstr "نصب"
 
-#: ../tails_installer/gui.py:482 ../data/tails-installer.ui.h:1
+#: ../tails_installer/gui.py:509 ../data/tails-installer.ui.h:1
 msgid "Installation Instructions"
 msgstr " دستورالعمل‌های نصب"
 
-#: ../tails_installer/gui.py:484
+#: ../tails_installer/gui.py:511
 msgid "https://tails.boum.org/install/"
 msgstr "https://tails.boum.org/install/"
 
-#: ../tails_installer/gui.py:490
+#: ../tails_installer/gui.py:517
 #, python-format
 msgid "%(size)s %(vendor)s %(model)s device (%(device)s)"
 msgstr "%(size)s %(vendor)s %(model)s دستگاه (%(device)s)"
 
-#: ../tails_installer/gui.py:502
+#: ../tails_installer/gui.py:529
 msgid "No ISO image selected"
 msgstr "هیچ تصویر ISO انتخاب نشده است"
 
-#: ../tails_installer/gui.py:503
+#: ../tails_installer/gui.py:530
 msgid "Please select a Tails ISO image."
 msgstr "لطفا یک تصویر ISO تیلز انتخاب کنید."
 
-#: ../tails_installer/gui.py:545
+#: ../tails_installer/gui.py:572
 msgid "No device suitable to install Tails could be found"
 msgstr "دستگاه مناسبی برای نصب تیلز پیدا نشد"
 
-#: ../tails_installer/gui.py:547
+#: ../tails_installer/gui.py:574
 #, python-format
 msgid "Please plug a USB flash drive or SD card of at least %0.1f GB."
 msgstr "لطفا یک فلش درایو USB یا SD کارتی با حجم حداقل %0.1f گیگابایت وارد کنید."
 
-#: ../tails_installer/gui.py:581
+#: ../tails_installer/gui.py:608
 #, python-format
 msgid ""
 "The USB stick \"%(pretty_name)s\" is configured as non-removable by its "
@@ -387,49 +398,49 @@ msgid ""
 "different model."
 msgstr "این فلش USB \"%(pretty_name)s\" توسط تولید کننده اش غیر قابل حذف تعیین شده است. تیلز ممکن است در اجرا روی این دستگاه با مشکل مواجه شود. لطفا مدل دیگری را امتحان کنید."
 
-#: ../tails_installer/gui.py:591
+#: ../tails_installer/gui.py:618
 #, python-format
 msgid ""
 "The device \"%(pretty_name)s\" is too small to install Tails (at least "
 "%(size)s GB is required)."
 msgstr "فضای دستگاه \"%(pretty_name)s\" برای نصب کم است (حداقل %(size)s گیگابایت فضا لازم است)."
 
-#: ../tails_installer/gui.py:604
+#: ../tails_installer/gui.py:631
 #, python-format
 msgid ""
 "To upgrade device \"%(pretty_name)s\" from this Tails, you need to use a downloaded Tails ISO image:\n"
 "https://tails.boum.org/install/download"
 msgstr "برای ارتقا دستگاه \"%(pretty_name)s\" از این تیلز، شما نیاز به استفاده از یک ایمیج ISO تیلز دارید برای دانلود روی لینک زیر کلیک کنید: \nhttps://tails.boum.org/install/download"
 
-#: ../tails_installer/gui.py:625
+#: ../tails_installer/gui.py:652
 msgid "An error happened while installing Tails"
 msgstr "در نصب تیلز یک خطا رخ داد"
 
-#: ../tails_installer/gui.py:637
+#: ../tails_installer/gui.py:664
 msgid "Refreshing releases..."
 msgstr "بازنگری انتشار‌ها…"
 
-#: ../tails_installer/gui.py:642
+#: ../tails_installer/gui.py:669
 msgid "Releases updated!"
 msgstr "انتشارها بروزرسانی شدند!"
 
-#: ../tails_installer/gui.py:695
+#: ../tails_installer/gui.py:722
 msgid "Installation complete!"
 msgstr "عمليات نصب به پايان رسيد!"
 
-#: ../tails_installer/gui.py:711
+#: ../tails_installer/gui.py:738
 msgid "Cancel"
 msgstr "لغو"
 
-#: ../tails_installer/gui.py:747
+#: ../tails_installer/gui.py:774
 msgid "Unable to mount device"
 msgstr "فادر به بارگذاري دستگاه نيست."
 
-#: ../tails_installer/gui.py:754 ../tails_installer/gui.py:787
+#: ../tails_installer/gui.py:781 ../tails_installer/gui.py:814
 msgid "Confirm the target USB stick"
 msgstr "فلش USB هدف را تایید کنید"
 
-#: ../tails_installer/gui.py:755
+#: ../tails_installer/gui.py:782
 #, python-format
 msgid ""
 "%(size)s %(vendor)s %(model)s device (%(device)s)\n"
@@ -437,48 +448,48 @@ msgid ""
 "All data on this USB stick will be lost."
 msgstr "%(size)s %(vendor)s %(model)s دستگاه (%(device)s)\n\nتمام اطلاعات موجود در این فلش USB حذف می شوند."
 
-#: ../tails_installer/gui.py:774
+#: ../tails_installer/gui.py:801
 #, python-format
 msgid "%(parent_size)s %(vendor)s %(model)s device (%(device)s)"
 msgstr "%(parent_size)s %(vendor)s %(model)s دستگاه (%(device)s)"
 
-#: ../tails_installer/gui.py:782
+#: ../tails_installer/gui.py:809
 msgid ""
 "\n"
 "\n"
 "The persistent storage on this USB stick will be preserved."
 msgstr "\n\nذخیره دائمی در این فلش USB حفظ می شود"
 
-#: ../tails_installer/gui.py:783
+#: ../tails_installer/gui.py:810
 #, python-format
 msgid "%(description)s%(persistence_message)s"
 msgstr "%(description)s%(persistence_message)s"
 
-#: ../tails_installer/gui.py:826
+#: ../tails_installer/gui.py:853
 msgid "Download complete!"
 msgstr "دانلود کامل شد!"
 
-#: ../tails_installer/gui.py:830
+#: ../tails_installer/gui.py:857
 msgid "Download failed: "
 msgstr "دانلود نا موفق:"
 
-#: ../tails_installer/gui.py:831
+#: ../tails_installer/gui.py:858
 msgid "You can try again to resume your download"
 msgstr "بار دیگر می توانید برای ادامه دانلود سعی کنید"
 
-#: ../tails_installer/gui.py:839
+#: ../tails_installer/gui.py:866
 msgid ""
 "The selected file is unreadable. Please fix its permissions or select "
 "another file."
 msgstr "فایل انتخاب‌شده قابل خواندن نیست. لطفا اجازه دسترسی به آن را اصلاح کنید یا فایل دیگری را انتخاب کنید"
 
-#: ../tails_installer/gui.py:845
+#: ../tails_installer/gui.py:872
 msgid ""
 "Unable to use the selected file.  You may have better luck if you move your "
 "ISO to the root of your drive (ie: C:\\)"
 msgstr "قادر به استفاده از فايل انتخاب شده نيست. اگر فايل ايزو را به ريشه درايو خود (مثلاً C) منتقل كنيد ممكن است شانس بيتشري داشته باشيد."
 
-#: ../tails_installer/gui.py:851
+#: ../tails_installer/gui.py:878
 #, python-format
 msgid "%(filename)s selected"
 msgstr "%(filename)s انتخاب شده"
