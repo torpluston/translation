@@ -1766,7 +1766,7 @@ msgstr ""
 #: https//support.torproject.org/misc/tor-glossary/
 #: (content/misc/glossary/contents+en.lrquestion.description)
 msgid "This is the key that can be disseminated to others."
-msgstr ""
+msgstr "Esta es la clave que puede ser diseminada a otros."
 
 #: https//support.torproject.org/glossary/
 #: (content/glossary/contents+en.lrquestion.description)
@@ -1781,6 +1781,7 @@ msgstr "### criptografía de clave pública"
 #: (content/misc/glossary/contents+en.lrquestion.description)
 msgid "A public-key cryptography system uses pairs of mathematical keys."
 msgstr ""
+"Un sistema criptográfico de clave pública usa pares de claves matemáticas."
 
 #: https//support.torproject.org/glossary/
 #: (content/glossary/contents+en.lrquestion.description)
@@ -1790,6 +1791,9 @@ msgid ""
 "The [public key](#public-key) can be disseminated widely while its belonging"
 " [private key](#private-key) is known only by the owner of the key pair."
 msgstr ""
+"La [clave pública](#public-key) puede ser diseminada ampliamente, mientras "
+"que su respectiva [clave privada](#private-key) soolamente es conocida por "
+"el propietario del par de claves."
 
 #: https//support.torproject.org/glossary/
 #: (content/glossary/contents+en.lrquestion.description)
@@ -1800,6 +1804,9 @@ msgid ""
 "receiver but only the receiver in possession of the private key is able to "
 "decrypt the message."
 msgstr ""
+"Cualquier persona puede [encriptar](#encryption) un mensaje usando la clave "
+"pública del receptor, pero solamente el receptor en posesión de la clave "
+"privada es capaz de descifrar el mensaje."
 
 #: https//support.torproject.org/glossary/
 #: (content/glossary/contents+en.lrquestion.description)
@@ -1810,13 +1817,16 @@ msgid ""
 "](#cryptographic-signature) to proof the identity of the creator of a "
 "message or other files."
 msgstr ""
+"Adicionalmante, la clave privada puede ser usada para crear una [firma"
+"](#cryptographic-signature) para probar la identidad del creador de un "
+"mensaje u otros archivos."
 
 #: https//support.torproject.org/glossary/
 #: (content/glossary/contents+en.lrquestion.description)
 #: https//support.torproject.org/misc/tor-glossary/
 #: (content/misc/glossary/contents+en.lrquestion.description)
 msgid "This signature can be verified by the public key."
-msgstr ""
+msgstr "Esta firma puede ser verificada por la clave pública."
 
 #: https//support.torproject.org/glossary/
 #: (content/glossary/contents+en.lrquestion.description)
@@ -1848,6 +1858,10 @@ msgid ""
 "that forwards [traffic](#traffic) on behalf of [clients](#client), and that "
 "registers itself with the [directory authorities](#directory-authority)."
 msgstr ""
+"Un nodo listado públicamente en la [red de Tor](#tor-/-tor-network/-core-"
+"tor) que direcciona [tráfico](#traffic) de parte de [clientes](#client), y "
+"que se registra a sí mismo con las [autoridades de directorio](#directory-"
+"authority)."
 
 #: https//support.torproject.org/glossary/
 #: (content/glossary/contents+en.lrquestion.description)
@@ -1873,6 +1887,10 @@ msgid ""
 "including [Tor Browser](#tor-browser), from different sources. You can "
 "Install Satori from the Chrome App Store."
 msgstr ""
+"Es una [extensión](#add-on-extension-or-plugin) para los navegadores Chrome "
+"o Chromium que te permite descargar varios programas de seguridad y "
+"privacidad, incluyendo el [navegador Tor](#tor-browser), desde diferentes "
+"orígenes. Podés instalar Satori desde la Chrome App Store."
 
 #: https//support.torproject.org/glossary/
 #: (content/glossary/contents+en.lrquestion.description)
@@ -1889,6 +1907,8 @@ msgid ""
 "Scramblesuit is similar to obfs4 but has a different set of "
 "[bridges](#bridge)."
 msgstr ""
+"ScrambleSuit es similar a obfs4 pero tiene un conjunto diferente de "
+"[puentes](#bridge)."
 
 #: https//support.torproject.org/glossary/
 #: (content/glossary/contents+en.lrquestion.description)
@@ -1903,6 +1923,7 @@ msgstr "### script"
 #: (content/misc/glossary/contents+en.lrquestion.description)
 msgid "Elements used for offering dynamic/interactive content via websites."
 msgstr ""
+"Elementos usados para ofrecer contenido dinámico/interactivo vía sitios web."
 
 #: https//support.torproject.org/glossary/
 #: (content/glossary/contents+en.lrquestion.description)
@@ -1921,6 +1942,11 @@ msgid ""
 " attack your security and anonymity. It is located in Torbutton’s “Privacy "
 "and Security Settings” menu."
 msgstr ""
+"El [navegador Tor](#tor-browser) incluye una \"Regla deslizante de "
+"seguridad\" que te permite incrementar tu seguridad deshabilitando ciertas "
+"características web que pueden ser usadas para atacar tu seguridad y "
+"anonimato. Está ubicada en el menú \"Ajustes de Privacidad y Seguridad\" del"
+" Botón Tor."
 
 #: https//support.torproject.org/glossary/
 #: (content/glossary/contents+en.lrquestion.description)
@@ -1931,6 +1957,9 @@ msgid ""
 "Slider will disable or partially disable certain [web browser](#web-browser)"
 " features to protect against possible attacks."
 msgstr ""
+"Incrementando el nivel (Estándar, Seguro, Más Seguro) de la regla deslizante"
+" de seguridad deshabilitará total o parcialmente ciertas características del"
+" [navegador web](#web-browser) para protegerte contra posibles ataques."
 
 #: https//support.torproject.org/glossary/
 #: (content/glossary/contents+en.lrquestion.description)
@@ -1952,6 +1981,14 @@ msgid ""
 "and they are subject to hijack by the CA and typically by many other parties"
 " as well."
 msgstr ""
+"El formato de direcciones especializado de las [direcciones onion](#onion-"
+"address) es auto-autenticante. El formato automáticamente garantiza que la "
+"dirección onion está ligada a la clave usada para proteger conexiones al "
+"[sitio onion](#onionsite). Los nombres de dominio de internet ordinarios "
+"requieren que los propietarios de los sitios confíen y sean aprobados por "
+"una  Autoridad de Certificación (CA) para ésta vinculación, y están sujetos "
+"a secuestro por parte de la CA y, típicamente, por muchos otros "
+"participantes."
 
 #: https//support.torproject.org/glossary/
 #: (content/glossary/contents+en.lrquestion.description)
