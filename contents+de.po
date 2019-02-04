@@ -474,7 +474,7 @@ msgstr ""
 #: https//support.torproject.org/misc/tor-glossary/
 #: (content/misc/glossary/contents+en.lrquestion.description)
 msgid "### cookie"
-msgstr ""
+msgstr "### cookie"
 
 #: https//support.torproject.org/glossary/
 #: (content/glossary/contents+en.lrquestion.description)
@@ -487,13 +487,18 @@ msgid ""
 "while the user is browsing. [Tor Browser](#tor-browser) does not store "
 "cookies."
 msgstr ""
+"Ein [HTTP](#http)-Cookie (auch Web-Cookie, Internet-Cookie, Browser-Cookie "
+"oder einfach Cookie genannt) ist ein kleines Datenstück, das von einer "
+"Website gesendet und vom [Webbrowser](#Webbrowser) des Benutzers auf dem "
+"Computer des Benutzers gespeichert wird, während der Benutzer gerade surft. "
+"[Tor Browser](#tor-browser) speichert keine Cookies."
 
 #: https//support.torproject.org/glossary/
 #: (content/glossary/contents+en.lrquestion.description)
 #: https//support.torproject.org/misc/tor-glossary/
 #: (content/misc/glossary/contents+en.lrquestion.description)
 msgid "### cross-site scripting (XSS)"
-msgstr ""
+msgstr "### Cross-Site-Scripting (XSS)"
 
 #: https//support.torproject.org/glossary/
 #: (content/glossary/contents+en.lrquestion.description)
@@ -503,13 +508,16 @@ msgid ""
 "Cross-Site Scripting (XSS) allows an attacker to add malicious functionality"
 " or behavior to a website when they shouldn't have the ability to do so."
 msgstr ""
+"Cross-Site Scripting (XSS) ermöglicht es einem Angreifer, einer Website "
+"schädliche Funktionen oder Verhaltensweisen hinzuzufügen, wenn er dazu nicht"
+" in der Lage sein sollte."
 
 #: https//support.torproject.org/glossary/
 #: (content/glossary/contents+en.lrquestion.description)
 #: https//support.torproject.org/misc/tor-glossary/
 #: (content/misc/glossary/contents+en.lrquestion.description)
 msgid "### cryptographic signature"
-msgstr ""
+msgstr "### Kryptographische Signatur"
 
 #: https//support.torproject.org/glossary/
 #: (content/glossary/contents+en.lrquestion.description)
@@ -525,20 +533,30 @@ msgid ""
 " you to get. For more information about how you can verify signatures, "
 "please see https://www.torproject.org/docs/verifying-signatures.html.en."
 msgstr ""
+"Eine kryptografische Signatur beweist die Authentizität einer Nachricht oder"
+" Datei. Sie wird vom Inhaber des privaten Teils eines Schlüsselpaares "
+"[Public Key Cryptography](#public-key-cryptography) erstellt und kann durch "
+"den entsprechenden öffentlichen Schlüssel verifiziert werden. Wenn du "
+"Software von torproject.org herunterlädst, findest du sie als sig-Dateien "
+"(.asc). Dies sind PGP-Signaturen, so dass du überprüfen kannst, ob die "
+"Datei, die du heruntergeladen hast, genau diejenige ist, die du erhalten "
+"solltest. Weitere Informationen darüber, wie du Signaturen überprüfen "
+"kannst, findest du unter https://www.torproject.org/docs/verifying-"
+"signatures.html.en."
 
 #: https//support.torproject.org/glossary/
 #: (content/glossary/contents+en.lrquestion.description)
 #: https//support.torproject.org/misc/tor-glossary/
 #: (content/misc/glossary/contents+en.lrquestion.description)
 msgid "## D"
-msgstr ""
+msgstr "## D"
 
 #: https//support.torproject.org/glossary/
 #: (content/glossary/contents+en.lrquestion.description)
 #: https//support.torproject.org/misc/tor-glossary/
 #: (content/misc/glossary/contents+en.lrquestion.description)
 msgid "### Daemon"
-msgstr ""
+msgstr "### Daemon"
 
 #: https//support.torproject.org/glossary/
 #: (content/glossary/contents+en.lrquestion.description)
@@ -548,13 +566,15 @@ msgid ""
 "A daemon is a computer program that runs as a background process, rather "
 "than being under the direct control of a user."
 msgstr ""
+"Ein Daemon ist ein Computerprogramm, das als Hintergrundprozess ausgeführt "
+"wird und nicht unter der direkten Kontrolle eines Benutzers steht."
 
 #: https//support.torproject.org/glossary/
 #: (content/glossary/contents+en.lrquestion.description)
 #: https//support.torproject.org/misc/tor-glossary/
 #: (content/misc/glossary/contents+en.lrquestion.description)
 msgid "### directory authority"
-msgstr ""
+msgstr "### Verzeichnisautorität"
 
 #: https//support.torproject.org/glossary/
 #: (content/glossary/contents+en.lrquestion.description)
@@ -565,20 +585,23 @@ msgid ""
 " relays and periodically publishes a [consensus](#consensus) together with "
 "the other directory authorities."
 msgstr ""
+"Ein spezielles [relay](#relay), das eine Liste der aktuell laufenden Relais "
+"führt und regelmäßig zusammen mit den anderen Verzeichnisbehörden einen "
+"[consensus](#consensus) veröffentlicht."
 
 #: https//support.torproject.org/glossary/
 #: (content/glossary/contents+en.lrquestion.description)
 #: https//support.torproject.org/misc/tor-glossary/
 #: (content/misc/glossary/contents+en.lrquestion.description)
 msgid "## E"
-msgstr ""
+msgstr "## E"
 
 #: https//support.torproject.org/glossary/
 #: (content/glossary/contents+en.lrquestion.description)
 #: https//support.torproject.org/misc/tor-glossary/
 #: (content/misc/glossary/contents+en.lrquestion.description)
 msgid "### encryption"
-msgstr ""
+msgstr "### Verschlüsselung"
 
 #: https//support.torproject.org/glossary/
 #: (content/glossary/contents+en.lrquestion.description)
@@ -591,13 +614,18 @@ msgid ""
 "each [relay](#relay) decrypts one layer before passing the request on to the"
 " next relay."
 msgstr ""
+"Der Prozess, ein Datenstück zu nehmen und es in einen Geheimcode zu "
+"verwandeln, der nur vom vorgesehenen Empfänger gelesen werden kann. "
+"[Tor](#tor-/-tor-network/-core-tor) verwendet drei Verschlüsselungsschichten"
+" im Tor [circuit](#circuit); jedes [relay](#relay) entschlüsselt eine "
+"Schicht, bevor es die Anforderung an das nächste Relais weiterleitet."
 
 #: https//support.torproject.org/glossary/
 #: (content/glossary/contents+en.lrquestion.description)
 #: https//support.torproject.org/misc/tor-glossary/
 #: (content/misc/glossary/contents+en.lrquestion.description)
 msgid "### end-to-end encrypted"
-msgstr ""
+msgstr "### End-to-End verschlüsselt."
 
 #: https//support.torproject.org/glossary/
 #: (content/glossary/contents+en.lrquestion.description)
@@ -607,13 +635,16 @@ msgid ""
 "Transmitted data which is [encrypted](#encryption) from origin to "
 "destination is called end-to-end encrypted."
 msgstr ""
+"Übertragene Daten, die vom Ursprung bis zum Ziel "
+"[verschlüsselt](#Verschlüsselung) sind, werden als End-to-End-"
+"Verschlüsselung bezeichnet."
 
 #: https//support.torproject.org/glossary/
 #: (content/glossary/contents+en.lrquestion.description)
 #: https//support.torproject.org/misc/tor-glossary/
 #: (content/misc/glossary/contents+en.lrquestion.description)
 msgid "### exit"
-msgstr ""
+msgstr "### exit"
 
 #: https//support.torproject.org/glossary/
 #: (content/glossary/contents+en.lrquestion.description)
@@ -625,6 +656,10 @@ msgid ""
 "connecting to (website, chat service, email provider, etc..) will see the "
 "[IP address](#ip-address) of the exit."
 msgstr ""
+"Das letzte [relay](#relay) im [Tor-Schaltkreis](#circuit), das "
+"[traffic](#traffic) ins öffentliche Internet sendet. Der Dienst, mit dem du "
+"dich verbindest (Website, Chatdienst, E-Mail-Anbieter, etc...) sieht die "
+"[IP-Adresse](#ip-Adresse) des Exits."
 
 #: https//support.torproject.org/glossary/
 #: (content/glossary/contents+en.lrquestion.description)
