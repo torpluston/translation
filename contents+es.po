@@ -529,20 +529,28 @@ msgid ""
 " you to get. For more information about how you can verify signatures, "
 "please see https://www.torproject.org/docs/verifying-signatures.html.en."
 msgstr ""
+"Una firma criptográfica prueba la autenticidad de un mensaje o archivo. Es "
+"creado por el titular de la parte privada de un par de claves [public key "
+"cryptography](#public-key-cryptography) y se puede verificar por la clave "
+"pública correspondiente. Si descargas software de torproject.org, lo "
+"encontrará como archivos sig (.asc). Estas son firmas PGP, por la que puedes"
+" verificar que el archivo  descargado es exactamente el que queríamos que "
+"obtuvieras. Para más información sobre cómo puedes verificar las firmas, "
+"consulta https://www.torproject.org/docs/verifying-signatures.html.en."
 
 #: https//support.torproject.org/glossary/
 #: (content/glossary/contents+en.lrquestion.description)
 #: https//support.torproject.org/misc/tor-glossary/
 #: (content/misc/glossary/contents+en.lrquestion.description)
 msgid "## D"
-msgstr ""
+msgstr "## D"
 
 #: https//support.torproject.org/glossary/
 #: (content/glossary/contents+en.lrquestion.description)
 #: https//support.torproject.org/misc/tor-glossary/
 #: (content/misc/glossary/contents+en.lrquestion.description)
 msgid "### Daemon"
-msgstr ""
+msgstr "### Daemon"
 
 #: https//support.torproject.org/glossary/
 #: (content/glossary/contents+en.lrquestion.description)
@@ -552,13 +560,15 @@ msgid ""
 "A daemon is a computer program that runs as a background process, rather "
 "than being under the direct control of a user."
 msgstr ""
+"Un demonio-daemon es un programa de ordenador que se ejecuta como un proceso"
+" en segundo plano, en lugar de estar bajo el control directo de un usuario."
 
 #: https//support.torproject.org/glossary/
 #: (content/glossary/contents+en.lrquestion.description)
 #: https//support.torproject.org/misc/tor-glossary/
 #: (content/misc/glossary/contents+en.lrquestion.description)
 msgid "### directory authority"
-msgstr ""
+msgstr "### autoridad de directorio"
 
 #: https//support.torproject.org/glossary/
 #: (content/glossary/contents+en.lrquestion.description)
@@ -569,20 +579,23 @@ msgid ""
 " relays and periodically publishes a [consensus](#consensus) together with "
 "the other directory authorities."
 msgstr ""
+"Un  [relay](#relay) de propósito especial que mantiene una lista de los "
+"relés actualmente en funcionamiento y publica periódicamente un  "
+"[consensus](#consensus) junto con las otras autoridades del directorio."
 
 #: https//support.torproject.org/glossary/
 #: (content/glossary/contents+en.lrquestion.description)
 #: https//support.torproject.org/misc/tor-glossary/
 #: (content/misc/glossary/contents+en.lrquestion.description)
 msgid "## E"
-msgstr ""
+msgstr "## E"
 
 #: https//support.torproject.org/glossary/
 #: (content/glossary/contents+en.lrquestion.description)
 #: https//support.torproject.org/misc/tor-glossary/
 #: (content/misc/glossary/contents+en.lrquestion.description)
 msgid "### encryption"
-msgstr ""
+msgstr "### encriptación"
 
 #: https//support.torproject.org/glossary/
 #: (content/glossary/contents+en.lrquestion.description)
@@ -595,13 +608,18 @@ msgid ""
 "each [relay](#relay) decrypts one layer before passing the request on to the"
 " next relay."
 msgstr ""
+"El proceso de tomar una ficha de datos y codificarlos en un código secreto "
+"que sólo puede ser leído por el destinatario previsto. [Tor](#tor-/-tor-"
+"network/-core-tor) usa tres capas de encriptación en el [circuit](#circuit) "
+"de Tor; cada [relay](#relay) descifra una capa antes de pasar la petición al"
+" siguiente relé."
 
 #: https//support.torproject.org/glossary/
 #: (content/glossary/contents+en.lrquestion.description)
 #: https//support.torproject.org/misc/tor-glossary/
 #: (content/misc/glossary/contents+en.lrquestion.description)
 msgid "### end-to-end encrypted"
-msgstr ""
+msgstr "### encriptados de extremo a extremo"
 
 #: https//support.torproject.org/glossary/
 #: (content/glossary/contents+en.lrquestion.description)
@@ -611,13 +629,15 @@ msgid ""
 "Transmitted data which is [encrypted](#encryption) from origin to "
 "destination is called end-to-end encrypted."
 msgstr ""
+"Los datos transmitidos que están [encrypted](#encryption) desde el origen "
+"hasta el destino se denominan encriptados de extremo a extremo."
 
 #: https//support.torproject.org/glossary/
 #: (content/glossary/contents+en.lrquestion.description)
 #: https//support.torproject.org/misc/tor-glossary/
 #: (content/misc/glossary/contents+en.lrquestion.description)
 msgid "### exit"
-msgstr ""
+msgstr "### salir"
 
 #: https//support.torproject.org/glossary/
 #: (content/glossary/contents+en.lrquestion.description)
@@ -629,13 +649,17 @@ msgid ""
 "connecting to (website, chat service, email provider, etc..) will see the "
 "[IP address](#ip-address) of the exit."
 msgstr ""
+"El último [relay](#relay) en el  [Tor circuit](#circuit) que envía  "
+"[traffic](#traffic) al Internet público. El servicio al que te estás "
+"conectando (página web, servicio de chat, proveedor de correo electrónico, "
+"etc.) verá la  [IP address](#ip-address) de la salida."
 
 #: https//support.torproject.org/glossary/
 #: (content/glossary/contents+en.lrquestion.description)
 #: https//support.torproject.org/misc/tor-glossary/
 #: (content/misc/glossary/contents+en.lrquestion.description)
 msgid "### ExoneraTor"
-msgstr ""
+msgstr "### ExoneraTor"
 
 #: https//support.torproject.org/glossary/
 #: (content/glossary/contents+en.lrquestion.description)
@@ -648,20 +672,25 @@ msgid ""
 "running on a given IP address on a given date.  This service is often useful"
 " when dealing with law enforcement."
 msgstr ""
+"El servicio ExoneraTor mantiene una base de datos de [relay](#relay) [IP "
+"addresses](#ip-address) que han sido parte de la red Tor. Responde a la "
+"pregunta de si había un relé [Tor](#tor-/-tor-network/-core-tor) corriendo "
+"en una dirección IP dada en una fecha dada. Este servicio suele ser útil "
+"cuando se trata de hacer cumplir la ley."
 
 #: https//support.torproject.org/glossary/
 #: (content/glossary/contents+en.lrquestion.description)
 #: https//support.torproject.org/misc/tor-glossary/
 #: (content/misc/glossary/contents+en.lrquestion.description)
 msgid "## F"
-msgstr ""
+msgstr "## F"
 
 #: https//support.torproject.org/glossary/
 #: (content/glossary/contents+en.lrquestion.description)
 #: https//support.torproject.org/misc/tor-glossary/
 #: (content/misc/glossary/contents+en.lrquestion.description)
 msgid "### Firefox"
-msgstr ""
+msgstr "### Firefox"
 
 #: https//support.torproject.org/glossary/
 #: (content/glossary/contents+en.lrquestion.description)
@@ -672,6 +701,9 @@ msgid ""
 "developed by the Mozilla Foundation and its subsidiary, the Mozilla "
 "Corporation."
 msgstr ""
+"Mozilla Firefox es un [web browser](#web-browser) libre y de código abierto"
+"  desarrollado por la Fundación Mozilla y su subsidiaria, Mozilla "
+"Corporation."
 
 #: https//support.torproject.org/glossary/
 #: (content/glossary/contents+en.lrquestion.description)
@@ -681,6 +713,8 @@ msgid ""
 "[Tor Browser](#tor-browser) is built from a modified version of Firefox ESR "
 "(Extended Support Release)."
 msgstr ""
+"[Tor Browser](#tor-browser) está construido a partir de una versión "
+"modificada de Firefox ESR (Extended Support Release)."
 
 #: https//support.torproject.org/glossary/
 #: (content/glossary/contents+en.lrquestion.description)
@@ -691,13 +725,16 @@ msgid ""
 "](#operating-system-os), with its mobile versions available for Android, and"
 " Firefox OS."
 msgstr ""
+"Firefox está disponible para Windows, OS X y Linux [operating systems"
+"](#operating-system-os), con sus versiones para móviles disponibles para "
+"Android y Firefox OS."
 
 #: https//support.torproject.org/glossary/
 #: (content/glossary/contents+en.lrquestion.description)
 #: https//support.torproject.org/misc/tor-glossary/
 #: (content/misc/glossary/contents+en.lrquestion.description)
 msgid "### firewall"
-msgstr ""
+msgstr "### firewall"
 
 #: https//support.torproject.org/glossary/
 #: (content/glossary/contents+en.lrquestion.description)
@@ -714,13 +751,22 @@ msgid ""
 "connections. You can reconfigure or disable your firewall and restart Tor to"
 " test this."
 msgstr ""
+"Un firewall es un sistema de seguridad de red que monitorea y controla el  "
+"[traffic](#traffic) entrante y saliente de la red. Este filtro de tráfico se"
+" basa en reglas predeterminadas. Un firewall suele establecer una barrera "
+"entre una red interna segura y de confianza y otra red externa, pero también"
+" puede utilizarse como filtro de contenido en el sentido de [censorship"
+"](#network-censorship). A veces la gente tiene problemas para conectarse a "
+"[Tor](#tor-/-tor-network/-core-tor) porque su firewall bloquea las "
+"conexiones Tor. Puedes reconfigurar o desactivar tu cortafuegos y reiniciar "
+"Tor para probar esto."
 
 #: https//support.torproject.org/glossary/
 #: (content/glossary/contents+en.lrquestion.description)
 #: https//support.torproject.org/misc/tor-glossary/
 #: (content/misc/glossary/contents+en.lrquestion.description)
 msgid "### Flash Player"
-msgstr ""
+msgstr "### Flash Player"
 
 #: https//support.torproject.org/glossary/
 #: (content/glossary/contents+en.lrquestion.description)
