@@ -1116,11 +1116,19 @@ msgid ""
 "connections. Tor Browser will warn you that all activity and downloads will "
 "be stopped, so take this into account before clicking “New Identity”."
 msgstr ""
+"Această opțiune este utilă dacă doriți să împiedicați ca activitatea "
+"ulterioară a navigatorului dvs. să fie legată de ceea ce ați făcut înainte. "
+"Selectarea acesteia va închide toate filele și ferestrele deschise, va "
+"șterge toate informațiile private, cum ar fi cookie-urile și istoricul de "
+"navigare, și va utiliza noile circuite Tor pentru toate conexiunile. Tor "
+"Browser vă va avertiza că întreaga activitate și descărcările vor fi oprite,"
+" deci luați acest lucru în considerare înainte de a da clic pe \"Identitate "
+"nouă\"."
 
 #: https//tb-manual.torproject.org/en-US/managing-identities/
 #: (content/managing-identities/contents+en-US.lrtopic.body)
 msgid "###### New Tor circuit for this site"
-msgstr ""
+msgstr "###### Circuit nou Tor pentru acest site"
 
 #: https//tb-manual.torproject.org/en-US/managing-identities/
 #: (content/managing-identities/contents+en-US.lrtopic.body)
@@ -1133,6 +1141,15 @@ msgid ""
 " reloaded. This option does not clear any private information or unlink your"
 " activity, nor does it affect your current connections to other websites."
 msgstr ""
+"Această opțiune este utilă dacă <a href=\"/about/#how-tor-works\">eleul de "
+"ieșire</a> pe care îl utilizați nu poate să se conecteze la site-ul web pe "
+"care îl solicitați sau nu îl încarcă în mod corespunzător. Selectarea "
+"opțiunii va face ca fila sau fereastra activă în prezent să fie reîncărcate "
+"pe un nou circuit Tor. Celelalte file și ferestre deschise de pe același "
+"site web vor folosi și noul circuit, odată ce sunt reîncărcate. Această "
+"opțiune nu elimină niciun fel de informații private și nu vă deconectează de"
+" la activitatea dvs., nici nu afectează conexiunile dvs. curente către alte "
+"site-uri web."
 
 #: https//tb-manual.torproject.org/en-US/managing-identities/
 #: (content/managing-identities/contents+en-US.lrtopic.body)
@@ -1140,16 +1157,18 @@ msgid ""
 "You can also access this option in the new circuit display, in the site "
 "information menu, in the URL bar."
 msgstr ""
+"De asemenea, puteți accesa opțiunea de afișare a noului circuit, din meniul "
+"Informații al site-ului, în bara de adrese URL."
 
 #: https//tb-manual.torproject.org/en-US/onion-services/
 #: (content/onion-services/contents+en-US.lrtopic.title)
 msgid "Onion Services"
-msgstr ""
+msgstr "Servicii Onion"
 
 #: https//tb-manual.torproject.org/en-US/onion-services/
 #: (content/onion-services/contents+en-US.lrtopic.description)
 msgid "Services that are only accessible using Tor"
-msgstr ""
+msgstr "Servicii care sunt accesibile doar folosind Tor"
 
 #: https//tb-manual.torproject.org/en-US/onion-services/
 #: (content/onion-services/contents+en-US.lrtopic.body)
@@ -1157,6 +1176,8 @@ msgid ""
 "Onion services (formerly known as “hidden services”) are services (like "
 "websites) that are only accessible through the Tor network."
 msgstr ""
+"Serviciile Onion (denumite anterior \"servicii ascunse\") sunt servicii (cum"
+" ar fi site-uri web) care sunt accesibile numai prin rețeaua Tor."
 
 #: https//tb-manual.torproject.org/en-US/onion-services/
 #: (content/onion-services/contents+en-US.lrtopic.body)
@@ -1164,6 +1185,8 @@ msgid ""
 "Onion services offer several advantages over ordinary services on the non-"
 "private web:"
 msgstr ""
+"Serviciile Onion oferă mai multe avantaje față de serviciile obișnuite pe "
+"web non-privat:"
 
 #: https//tb-manual.torproject.org/en-US/onion-services/
 #: (content/onion-services/contents+en-US.lrtopic.body)
@@ -1171,6 +1194,8 @@ msgid ""
 "* An onion services’s location and IP address are hidden, making it "
 "difficult for adversaries to censor it or identify its operators."
 msgstr ""
+"* Locația și adresa IP ale serviciilor Onion sunt ascunse, ceea ce face "
+"dificilă cenzurarea de către adversari sau identificarea operatorilor săi."
 
 #: https//tb-manual.torproject.org/en-US/onion-services/
 #: (content/onion-services/contents+en-US.lrtopic.body)
@@ -1179,6 +1204,9 @@ msgid ""
 "so you do not need to worry about <a href=\"/secure-connections\">connecting"
 " over HTTPS</a>."
 msgstr ""
+"* Tot traficul dintre utilizatorii Tor și serviciile Onion este criptat end-"
+"to-end, deci nu trebuie să vă faceți griji în legătură cu <a href=\"/secure-"
+"connections\">conectarea prin HTTPS</a>."
 
 #: https//tb-manual.torproject.org/en-US/onion-services/
 #: (content/onion-services/contents+en-US.lrtopic.body)
@@ -1188,11 +1216,15 @@ msgid ""
 "Tor ensure that it is connecting to the right location and that the "
 "connection is not being tampered with."
 msgstr ""
+"* Adresa unui serviciu Onion este generată automat, astfel încât operatorii "
+"nu trebuie să achiziționeze un nume de domeniu; URL-ul .onion ajută Tor să "
+"se asigure că se conectează la locația potrivită și că nu se schimbă "
+"conexiunea."
 
 #: https//tb-manual.torproject.org/en-US/onion-services/
 #: (content/onion-services/contents+en-US.lrtopic.body)
 msgid "##### How to access an onion service"
-msgstr ""
+msgstr "##### Cum se poate accesa un serviciu Onion"
 
 #: https//tb-manual.torproject.org/en-US/onion-services/
 #: (content/onion-services/contents+en-US.lrtopic.body)
@@ -1215,11 +1247,16 @@ msgid ""
 "website with https and onion service, it will show an icon of a green onion "
 "and a padlock."
 msgstr ""
+"Când accesați un site web care utilizează un serviciu Onion, Tor Browser "
+"afișează în bara de adrese URL o pictogramă cu o mică ceapă verde care "
+"afișează starea conexiunii: securizată și folosind un serviciu Onion. Și "
+"dacă accesați un site web cu https și servicii Onion, acesta va afișa o "
+"pictogramă cu o ceapă verde și un lacăt."
 
 #: https//tb-manual.torproject.org/en-US/onion-services/
 #: (content/onion-services/contents+en-US.lrtopic.body)
 msgid "##### Troubleshooting"
-msgstr ""
+msgstr "##### Depanare"
 
 #: https//tb-manual.torproject.org/en-US/onion-services/
 #: (content/onion-services/contents+en-US.lrtopic.body)
@@ -1228,6 +1265,9 @@ msgid ""
 "entered the onion address correctly: even a small mistake will stop Tor "
 "Browser from being able to reach the site."
 msgstr ""
+"Dacă nu puteți ajunge la serviciul Onion de care aveți nevoie, asigurați-vă "
+"că ați introdus corect adresa Onion: chiar și o mică greșeală va împiedica "
+"Tor Browser să ajungă pe site."
 
 #: https//tb-manual.torproject.org/en-US/onion-services/
 #: (content/onion-services/contents+en-US.lrtopic.body)
