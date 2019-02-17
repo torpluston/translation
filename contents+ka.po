@@ -539,8 +539,8 @@ msgstr ""
 "შიფრის ხელმოწერა ადასტურებს წერილის ან ფაილის ნამდვილობას. იგი იქმნება "
 "პირადი გასაღების მფლობელის მიერ, [საჯარო გასაღებით დაშიფვრის](#public-key-"
 "cryptography) გასაღებების წყვილიდან და შეიძლება დამოწმდეს შესაბამისი საჯარო "
-"გასაღებით. თუ თქვენ ჩამოტვირთავთ პროგრამას მისამართიდან torproject.org, მისი"
-" პოვნა შეგეძლებათ ხელმოწერის ფაილებში (.asc). ისინი წარმოდგენილია PGP-"
+"გასაღებით. თუ თქვენ ჩამოტვირთავთ პროგრამას მისამართიდან torproject.org, მის "
+"პოვნას შეძლებთ ხელმოწერის ფაილებში (.asc). ისინი წარმოდგენილია PGP-"
 "ხელმოწერების სახით, ასე რომ შეგეძლებათ გადაამოწმოთ, ჩამოტვირთული ფაილი "
 "ნამდვილად თქვენთვის იყო განკუთვნილი თუ არა. ვრცლად, ხელმოწერების დამოწმების "
 "შესახებ, იხილეთ https://www.torproject.org/docs/verifying-"
@@ -576,7 +576,7 @@ msgstr ""
 #: https//support.torproject.org/misc/tor-glossary/
 #: (content/misc/glossary/contents+en.lrquestion.description)
 msgid "### directory authority"
-msgstr ""
+msgstr "### ცნობარის უფლებამოსილი მხარე (directory authority)"
 
 #: https//support.torproject.org/glossary/
 #: (content/glossary/contents+en.lrquestion.description)
@@ -587,20 +587,23 @@ msgid ""
 " relays and periodically publishes a [consensus](#consensus) together with "
 "the other directory authorities."
 msgstr ""
+"საგანგებო დანიშნულების [გადამცემი](#relay), რომელიც ზედამხედველობას უწევს "
+"მიმდინარე დროში გაშვებული გადამცემების ჩამონათვალს და დროდადრო აქვეყნებს "
+"[ერთიან ჩანაწერში](#consensus) ცნობარის სხვა უფლებამოსილ მხარეებთან ერთად."
 
 #: https//support.torproject.org/glossary/
 #: (content/glossary/contents+en.lrquestion.description)
 #: https//support.torproject.org/misc/tor-glossary/
 #: (content/misc/glossary/contents+en.lrquestion.description)
 msgid "## E"
-msgstr ""
+msgstr "## E"
 
 #: https//support.torproject.org/glossary/
 #: (content/glossary/contents+en.lrquestion.description)
 #: https//support.torproject.org/misc/tor-glossary/
 #: (content/misc/glossary/contents+en.lrquestion.description)
 msgid "### encryption"
-msgstr ""
+msgstr "### დაშიფვრა (encryption)"
 
 #: https//support.torproject.org/glossary/
 #: (content/glossary/contents+en.lrquestion.description)
@@ -613,13 +616,18 @@ msgid ""
 "each [relay](#relay) decrypts one layer before passing the request on to the"
 " next relay."
 msgstr ""
+"ეწოდება მონაცემთა დამუშავებასა და გარდაქმნას საიდუმლო ნიშნებად, რომლის "
+"გარჩევაც მხოლოდ სასურველ პირს შეეძლება. [Tor](#tor-/-tor-network/-core-tor) "
+"იყენებს სამშრიან დაშიფვრას Tor-[წრედში](#circuit); თითოეულ "
+"[გადამცემს](#relay), მხოლოდ ერთი ფენის გაშიფვრა შეუძლია, მოთხოვნის მომდევნო "
+"გადამცემისთვის გაგზავნამდე."
 
 #: https//support.torproject.org/glossary/
 #: (content/glossary/contents+en.lrquestion.description)
 #: https//support.torproject.org/misc/tor-glossary/
 #: (content/misc/glossary/contents+en.lrquestion.description)
 msgid "### end-to-end encrypted"
-msgstr ""
+msgstr "### გამჭოლად დაშიფრული (end-to-end)"
 
 #: https//support.torproject.org/glossary/
 #: (content/glossary/contents+en.lrquestion.description)
@@ -629,13 +637,15 @@ msgid ""
 "Transmitted data which is [encrypted](#encryption) from origin to "
 "destination is called end-to-end encrypted."
 msgstr ""
+"გადაცემულ მონაცემებს, რომლებიც [დაშიფრულია](#encryption) პირველწყაროდან "
+"დანიშნულების წერტილამდე, უწოდებენ გამჭოლად დაშიფრულს."
 
 #: https//support.torproject.org/glossary/
 #: (content/glossary/contents+en.lrquestion.description)
 #: https//support.torproject.org/misc/tor-glossary/
 #: (content/misc/glossary/contents+en.lrquestion.description)
 msgid "### exit"
-msgstr ""
+msgstr "### გამსვლელი (exit)"
 
 #: https//support.torproject.org/glossary/
 #: (content/glossary/contents+en.lrquestion.description)
@@ -647,6 +657,10 @@ msgid ""
 "connecting to (website, chat service, email provider, etc..) will see the "
 "[IP address](#ip-address) of the exit."
 msgstr ""
+"ეწოდება ბოლო [გადამცემს](#relay) [Tor-წრედში](#circuit), რომელიც აგზავნის "
+"[მონაცემებს](#traffic) ინტერნეტში. მომსახურება, რომელსაც უკავშირდებით "
+"(საიტი, სასაუბრო, ელფოსტა და ა.შ.) იხილავს სწორედ გამსვლელი წერტილის [IP-"
+"მისამართს](#ip-address)."
 
 #: https//support.torproject.org/glossary/
 #: (content/glossary/contents+en.lrquestion.description)
