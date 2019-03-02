@@ -3,6 +3,7 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
+# Ali Mirjamali <ali.mirjamali@gmail.com>, 2019
 # Amir Moezzi <amirreza.mz@yahoo.com>, 2017
 # Atash G <Ali_hosseine@yahoo.com>, 2019
 # zmix <check_people_status@yahoo.com>, 2013
@@ -27,9 +28,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Tor Project\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-01-02 09:26+0100\n"
-"PO-Revision-Date: 2019-01-26 16:28+0000\n"
-"Last-Translator: Atash G <Ali_hosseine@yahoo.com>\n"
+"POT-Creation-Date: 2019-02-24 07:24+0100\n"
+"PO-Revision-Date: 2019-03-02 19:16+0000\n"
+"Last-Translator: Ali Mirjamali <ali.mirjamali@gmail.com>\n"
 "Language-Team: Persian (http://www.transifex.com/otf/torproject/language/fa/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -326,14 +327,17 @@ msgid "Tails Installer"
 msgstr "نصب کننده تیلز"
 
 #: ../tails_installer/gui.py:441
-msgid "Tails Installer is deprecated"
-msgstr "نصب کننده تیلز منسوخ شده است"
+msgid "Tails Installer is deprecated in Debian"
+msgstr "نصب کننده تیلز در دبین منسوخ شده است"
 
 #: ../tails_installer/gui.py:443
 msgid ""
-"To install a new Tails, see the <a href='https://tails.boum.org/install/'>installation documentation</a>.\n"
-"To upgrade an existing Tails, see the <a href='https://tails.boum.org/upgrade/'>upgrade documentation</a>."
-msgstr "برای نصب یک تیلز جدید ،<a href='https://tails.boum.org/install/'> اسناد نصب</a> را ببینید .\nبرای ارتقا یک تیلز موجود ،<a href='https://tails.boum.org/upgrade/'> اسناد ارتقا</a> را ببینید ."
+"To install Tails from scratch, use GNOME Disks instead.\n"
+"<a href='https://tails.boum.org/install/linux/usb-overview'>See the installation instructions</a>\n"
+"\n"
+"To upgrade Tails, do an automatic upgrade from Tails or a manual upgrade from Debian using a second USB stick.\n"
+"<a href='https://tails.boum.org/upgrade/tails-overview'>See the manual upgrade instructions</a>"
+msgstr "برای نصب تیلز از پایه، از GNOME Disks استفاده کنید.\n<a href='https://tails.boum.org/install/linux/usb-overview'>مستندات نصب را ببینید</a>\n\nبرای به روز رسانی تیلز، از خود تیلز به صورت اتوماتیک به روز رسانی  کنید و یا به کمک یک فلش یو‌اس‌بی دوم به شکل دستی دبین را به روز رسانی کنید.\n<a href='https://tails.boum.org/upgrade/tails-overview'>مستندات به روز رسانی دستی دستی را ببینید</a>"
 
 #: ../tails_installer/gui.py:450 ../data/tails-installer.ui.h:2
 msgid "Clone the current Tails"
@@ -494,16 +498,16 @@ msgstr "قادر به استفاده از فايل انتخاب شده نيست.
 msgid "%(filename)s selected"
 msgstr "%(filename)s انتخاب شده"
 
-#: ../tails_installer/source.py:28
+#: ../tails_installer/source.py:29
 msgid "Unable to find LiveOS on ISO"
 msgstr "ناتوان در پیداکردن سیستم عامل زنده در ISO"
 
-#: ../tails_installer/source.py:34
+#: ../tails_installer/source.py:35
 #, python-format
 msgid "Could not guess underlying block device: %s"
 msgstr "خطا در تعیین محل دستگاه: %s"
 
-#: ../tails_installer/source.py:49
+#: ../tails_installer/source.py:50
 #, python-format
 msgid ""
 "There was a problem executing `%s`.\n"
@@ -511,29 +515,29 @@ msgid ""
 "%s"
 msgstr "خطا در اجرا کردن `%s`.\n%s\n%s"
 
-#: ../tails_installer/source.py:63
+#: ../tails_installer/source.py:64
 #, python-format
 msgid "'%s' does not exist"
 msgstr "'%s' وجود ندارد"
 
-#: ../tails_installer/source.py:65
+#: ../tails_installer/source.py:66
 #, python-format
 msgid "'%s' is not a directory"
 msgstr "'%s' یک دایرکتوری نمی باشد"
 
-#: ../tails_installer/source.py:75
+#: ../tails_installer/source.py:76
 #, python-format
 msgid "Skipping '%(filename)s'"
 msgstr "پرش '%(filename)s'"
 
-#: ../tails_installer/utils.py:44
+#: ../tails_installer/utils.py:55
 #, python-format
 msgid ""
 "There was a problem executing `%s`.%s\n"
 "%s"
 msgstr "خطا در اجرا کردن `%s`.%s\n%s"
 
-#: ../tails_installer/utils.py:124
+#: ../tails_installer/utils.py:135
 msgid "Could not open device for writing."
 msgstr "دستگاه برای نوشتن باز نشد."
 
