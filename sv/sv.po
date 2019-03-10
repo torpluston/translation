@@ -6,12 +6,12 @@
 # Anders Nilsson <anders@devode.se>, 2017
 # Anders Nilsson <anders@devode.se>, 2015
 # cryptohead <cryptohead@gmail.com>, 2013
-# Max / Foorack, 2015
+# Max Faxälv (Foorack), 2015
 # Gabor Sebastiani, 2014
 # Göran Uddeborg <goeran@uddeborg.se>, 2010
-# Jacob Andersson <jacob.c.andersson@protonmail.com>, 2018
+# Jacob Andersson <jacob.c.andersson@protonmail.com>, 2018-2019
 # Jonatan Nyberg, 2017
-# Jonatan Nyberg, 2018
+# Jonatan Nyberg, 2018-2019
 # Jonatan Nyberg, 2017
 # Mikael Hiort af Ornäs <mikael.hafo@hotmail.com>, 2013
 # leveebreaks, 2014
@@ -20,8 +20,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Tor Project\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-10-20 12:34+0200\n"
-"PO-Revision-Date: 2018-11-07 06:48+0000\n"
+"POT-Creation-Date: 2019-02-24 07:24+0100\n"
+"PO-Revision-Date: 2019-03-10 07:06+0000\n"
 "Last-Translator: Jonatan Nyberg\n"
 "Language-Team: Swedish (http://www.transifex.com/otf/torproject/language/sv/)\n"
 "MIME-Version: 1.0\n"
@@ -172,7 +172,7 @@ msgstr "Partitionerar enheten %(device)s"
 #: ../tails_installer/creator.py:995
 #, python-format
 msgid "Unsupported device '%(device)s', please report a bug."
-msgstr "Enheten '%(device)s' stöds inte, anmäl detta som en bugg."
+msgstr "Enheten '%(device)s' stöds inte, anmäl detta som ett fel."
 
 #: ../tails_installer/creator.py:998
 msgid "Trying to continue anyway."
@@ -307,73 +307,86 @@ msgstr "Installationen är slutförd! (%s)"
 msgid "Tails installation failed!"
 msgstr "Tails installation misslyckades!"
 
-#: ../tails_installer/gui.py:361
+#: ../tails_installer/gui.py:369
 msgid ""
 "Warning: This tool needs to be run as an Administrator. To do this, right "
 "click on the icon and open the Properties. Under the Compatibility tab, "
 "check the \"Run this program as an administrator\" box."
 msgstr "Varning: Detta verktyg måste köras som en administratör. För att göra detta, högerklicka på ikonen och välj Egenskaper. Under kompatibilitets-fliken markerar du rutan \"Kör detta program som administratör\"."
 
-#: ../tails_installer/gui.py:373
+#: ../tails_installer/gui.py:381
 msgid "Tails Installer"
 msgstr "Tails Installer"
 
-#: ../tails_installer/gui.py:423 ../data/tails-installer.ui.h:2
+#: ../tails_installer/gui.py:441
+msgid "Tails Installer is deprecated in Debian"
+msgstr "Tails-installeraren är föråldrad i Debian"
+
+#: ../tails_installer/gui.py:443
+msgid ""
+"To install Tails from scratch, use GNOME Disks instead.\n"
+"<a href='https://tails.boum.org/install/linux/usb-overview'>See the installation instructions</a>\n"
+"\n"
+"To upgrade Tails, do an automatic upgrade from Tails or a manual upgrade from Debian using a second USB stick.\n"
+"<a href='https://tails.boum.org/upgrade/tails-overview'>See the manual upgrade instructions</a>"
+msgstr "För att installera Tails från början, använd GNOME-diskar istället.\n<a href='https://tails.boum.org/install/linux/usb-overview'>Se installationsanvisningarna</a>\n\nFör att uppgradera Tails, gör en automatisk uppgradering från Tails eller en manuell uppgradering från Debian med ett annat USB-minne.\n<a href='https://tails.boum.org/upgrade/tails-overview'>Se instruktionerna för manuell uppgradering</a>"
+
+#: ../tails_installer/gui.py:450 ../data/tails-installer.ui.h:2
 msgid "Clone the current Tails"
 msgstr "Klona nuvarande Tails"
 
-#: ../tails_installer/gui.py:430 ../data/tails-installer.ui.h:3
+#: ../tails_installer/gui.py:457 ../data/tails-installer.ui.h:3
 msgid "Use a downloaded Tails ISO image"
 msgstr "Använd en hämtad Tails-ISO-bild"
 
-#: ../tails_installer/gui.py:467 ../tails_installer/gui.py:788
+#: ../tails_installer/gui.py:494 ../tails_installer/gui.py:815
 msgid "Upgrade"
 msgstr "Uppgradera"
 
-#: ../tails_installer/gui.py:469
+#: ../tails_installer/gui.py:496
 msgid "Manual Upgrade Instructions"
 msgstr "Manuell uppgraderingsinstruktioner"
 
-#: ../tails_installer/gui.py:471
+#: ../tails_installer/gui.py:498
 msgid "https://tails.boum.org/upgrade/"
 msgstr "https://tails.boum.org/upgrade/"
 
-#: ../tails_installer/gui.py:479 ../tails_installer/gui.py:700
-#: ../tails_installer/gui.py:765 ../data/tails-installer.ui.h:7
+#: ../tails_installer/gui.py:506 ../tails_installer/gui.py:727
+#: ../tails_installer/gui.py:792 ../data/tails-installer.ui.h:7
 msgid "Install"
 msgstr "Installera"
 
-#: ../tails_installer/gui.py:482 ../data/tails-installer.ui.h:1
+#: ../tails_installer/gui.py:509 ../data/tails-installer.ui.h:1
 msgid "Installation Instructions"
 msgstr "Installations instruktioner"
 
-#: ../tails_installer/gui.py:484
+#: ../tails_installer/gui.py:511
 msgid "https://tails.boum.org/install/"
 msgstr "https://tails.boum.org/install/"
 
-#: ../tails_installer/gui.py:490
+#: ../tails_installer/gui.py:517
 #, python-format
 msgid "%(size)s %(vendor)s %(model)s device (%(device)s)"
 msgstr "%(size)s %(vendor)s %(model)s enhet (%(device)s)"
 
-#: ../tails_installer/gui.py:502
+#: ../tails_installer/gui.py:529
 msgid "No ISO image selected"
 msgstr "Ingen ISO-bild vald"
 
-#: ../tails_installer/gui.py:503
+#: ../tails_installer/gui.py:530
 msgid "Please select a Tails ISO image."
 msgstr "Välj en Tails-ISO-bild."
 
-#: ../tails_installer/gui.py:545
+#: ../tails_installer/gui.py:572
 msgid "No device suitable to install Tails could be found"
 msgstr "Ingen enhet som är lämplig för att installera Tails kunde hittas"
 
-#: ../tails_installer/gui.py:547
+#: ../tails_installer/gui.py:574
 #, python-format
 msgid "Please plug a USB flash drive or SD card of at least %0.1f GB."
 msgstr "Anslut en USB-flash-enhet eller SD-kort med minst %0.1f GB."
 
-#: ../tails_installer/gui.py:581
+#: ../tails_installer/gui.py:608
 #, python-format
 msgid ""
 "The USB stick \"%(pretty_name)s\" is configured as non-removable by its "
@@ -381,49 +394,49 @@ msgid ""
 "different model."
 msgstr "USB-minnet \"%(pretty_name)s\" är konfigurerad som icke-flyttbar av dess tillverkare och Tails kommer misslyckas starta från det. Vänligen försök installera på ett annat märke."
 
-#: ../tails_installer/gui.py:591
+#: ../tails_installer/gui.py:618
 #, python-format
 msgid ""
 "The device \"%(pretty_name)s\" is too small to install Tails (at least "
 "%(size)s GB is required)."
 msgstr "Enheten \"%(pretty_name)s\" är för liten för att installera Tails (minst %(size)s GB krävs)."
 
-#: ../tails_installer/gui.py:604
+#: ../tails_installer/gui.py:631
 #, python-format
 msgid ""
 "To upgrade device \"%(pretty_name)s\" from this Tails, you need to use a downloaded Tails ISO image:\n"
 "https://tails.boum.org/install/download"
 msgstr "För att uppgradera enheten \"%(pretty_name)s\" från denna Tails måste du använda en hämtad Tails ISO-bild:\nhttps://tails.boum.org/install/download"
 
-#: ../tails_installer/gui.py:625
+#: ../tails_installer/gui.py:652
 msgid "An error happened while installing Tails"
 msgstr "Ett fel inträffade under installationen av Tails"
 
-#: ../tails_installer/gui.py:637
+#: ../tails_installer/gui.py:664
 msgid "Refreshing releases..."
 msgstr "Uppdaterar utgåvor..."
 
-#: ../tails_installer/gui.py:642
+#: ../tails_installer/gui.py:669
 msgid "Releases updated!"
 msgstr "Utgåvor uppdaterade!"
 
-#: ../tails_installer/gui.py:695
+#: ../tails_installer/gui.py:722
 msgid "Installation complete!"
 msgstr "Installationen slutförd!"
 
-#: ../tails_installer/gui.py:711
+#: ../tails_installer/gui.py:738
 msgid "Cancel"
 msgstr "Avbryt"
 
-#: ../tails_installer/gui.py:747
+#: ../tails_installer/gui.py:774
 msgid "Unable to mount device"
 msgstr "Kunde inte montera enheten"
 
-#: ../tails_installer/gui.py:754 ../tails_installer/gui.py:787
+#: ../tails_installer/gui.py:781 ../tails_installer/gui.py:814
 msgid "Confirm the target USB stick"
 msgstr "Bekräfta mål-USB-minne"
 
-#: ../tails_installer/gui.py:755
+#: ../tails_installer/gui.py:782
 #, python-format
 msgid ""
 "%(size)s %(vendor)s %(model)s device (%(device)s)\n"
@@ -431,62 +444,62 @@ msgid ""
 "All data on this USB stick will be lost."
 msgstr "%(size)s %(vendor)s %(model)s enhet (%(device)s)\n\nAll data på detta USB-minne kommer att gå förlorat."
 
-#: ../tails_installer/gui.py:774
+#: ../tails_installer/gui.py:801
 #, python-format
 msgid "%(parent_size)s %(vendor)s %(model)s device (%(device)s)"
 msgstr "%(parent_size)s %(vendor)s %(model)s enhet (%(device)s)"
 
-#: ../tails_installer/gui.py:782
+#: ../tails_installer/gui.py:809
 msgid ""
 "\n"
 "\n"
 "The persistent storage on this USB stick will be preserved."
 msgstr "\n\nDen beständiga lagringen på detta USB-minne kommer att bevaras."
 
-#: ../tails_installer/gui.py:783
+#: ../tails_installer/gui.py:810
 #, python-format
 msgid "%(description)s%(persistence_message)s"
 msgstr "%(description)s%(persistence_message)s"
 
-#: ../tails_installer/gui.py:826
+#: ../tails_installer/gui.py:853
 msgid "Download complete!"
 msgstr "Hämtning färdig!"
 
-#: ../tails_installer/gui.py:830
+#: ../tails_installer/gui.py:857
 msgid "Download failed: "
 msgstr "Hämtning misslyckades: "
 
-#: ../tails_installer/gui.py:831
+#: ../tails_installer/gui.py:858
 msgid "You can try again to resume your download"
 msgstr "Du kan försöka igen för att återuppta din hämtning"
 
-#: ../tails_installer/gui.py:839
+#: ../tails_installer/gui.py:866
 msgid ""
 "The selected file is unreadable. Please fix its permissions or select "
 "another file."
 msgstr "Den valda filen kan inte läsas. Var god rätta till rättigheterna eller välj en annan fil."
 
-#: ../tails_installer/gui.py:845
+#: ../tails_installer/gui.py:872
 msgid ""
 "Unable to use the selected file.  You may have better luck if you move your "
 "ISO to the root of your drive (ie: C:\\)"
 msgstr "Kunde inte använda den valda filen.  Det kanske fungerar bättre om du flyttar din ISO till roten av din enhet (t.ex: C:\\)"
 
-#: ../tails_installer/gui.py:851
+#: ../tails_installer/gui.py:878
 #, python-format
 msgid "%(filename)s selected"
 msgstr "%(filename)s valda"
 
-#: ../tails_installer/source.py:28
+#: ../tails_installer/source.py:29
 msgid "Unable to find LiveOS on ISO"
 msgstr "Det gick inte att hitta LiveOS på ISO"
 
-#: ../tails_installer/source.py:34
+#: ../tails_installer/source.py:35
 #, python-format
 msgid "Could not guess underlying block device: %s"
 msgstr "Det gick inte att gissa underliggande blockenhet: %s"
 
-#: ../tails_installer/source.py:49
+#: ../tails_installer/source.py:50
 #, python-format
 msgid ""
 "There was a problem executing `%s`.\n"
@@ -494,29 +507,29 @@ msgid ""
 "%s"
 msgstr "Det uppstod ett problem vid körning av `%s`.\n%s\n%s"
 
-#: ../tails_installer/source.py:63
+#: ../tails_installer/source.py:64
 #, python-format
 msgid "'%s' does not exist"
 msgstr "'%s' finns inte"
 
-#: ../tails_installer/source.py:65
+#: ../tails_installer/source.py:66
 #, python-format
 msgid "'%s' is not a directory"
 msgstr "'%s' är inte en katalog"
 
-#: ../tails_installer/source.py:75
+#: ../tails_installer/source.py:76
 #, python-format
 msgid "Skipping '%(filename)s'"
 msgstr "Hoppar över '%(filename)s'"
 
-#: ../tails_installer/utils.py:44
+#: ../tails_installer/utils.py:55
 #, python-format
 msgid ""
 "There was a problem executing `%s`.%s\n"
 "%s"
 msgstr "Det uppstod ett problem vid körning av `%s`.%s\n%s"
 
-#: ../tails_installer/utils.py:124
+#: ../tails_installer/utils.py:135
 msgid "Could not open device for writing."
 msgstr "Kunde inte öppna enheten för skrivning."
 
