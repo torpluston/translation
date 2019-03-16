@@ -1,0 +1,162 @@
+# Material de Difusión Tor 2019-2020
+
+# 1. TOR PARA LA PRIVACIDAD
+
+### La privacidad es un derecho humano
+
+Como muchos de nosotros, Aleisha pasa la mayor parte de su tiempo en línea - conectándose con amigos, publicando en redes sociales, y navegando la web.
+
+Pero últimamente, ha notado que las publicidades relacionadas con sus búsquedas previas la están siguiendo en línea.
+
+Esto lo siente tan invasivo, que está haciendo alguna investigación acerca de publicidades en línea, y descubre que no sólo son los publicitarios quiénes la están rastreando, sino también su ISP, compañías de análisis de datos, plataformas de redes sociales, y más.
+
+Aleisha decide que quiere encontrar y usar software que no recopila sus datos, no la rastrea, y no le dice a otros servicios cualquier cosa privada acerca de ella.
+
+Va a un entrenamiento en privacidad a un espacio de hackeo local y aprende acerca del **Tor Browser**, el único navegador web que le permite navegar anónimamente.
+
+---
+
+# 2. TOR PARA FEMINISTAS
+
+### El futuro es cyberfeminista
+
+Fernanda dirige una colectividad de mujeres enfocada en derechos reproductivos en Brasil, donde el aborto es ilegal.
+
+Fernanda y sus colegas construyen un sitio web con información acerca de acceso al aborto, control de natalidad, y otros recursos para personas buscando información reproductiva.
+
+Si este sitio web fuera vinculado a ellas, podrían ser arrestadas -- o peor.
+
+Para protegerse a sí mismas, Fernanda y sus colegas crearon el sitio web usando **servicios onion** de Tor. Los servicios onion no sólo las protegen de ser descubiertas como las operadoras del servidor, sino que también ayudan a proteger a los visitantes de su sitio web al requerir que usen el Tor Browser.
+
+De hecho, Fernanda usa el **Tor Browser** para todas sus exploraciones en la web, sólo para estar en lo seguro.
+
+También usa una aplicación basada en Tor llamada **OnionShare** para enviar archivos a otras activistas en forma segura y privada.
+
+### Las activistas de derechos reproductivos como Fernanda están luchando por libertades fundamentales, y Tor las ayuda a potenciar su resistencia.
+
+---
+
+# 3. TOR POR LOS DERECHOS HUMANOS
+
+### El agua es vida
+
+Jelani vive en una pequeña villa a través de la cual corre un ancho río.
+
+Este río ha provisto agua a su comunidad desde los días de sus ancestros.
+
+Pero hoy, el río de Jelani está amenazado por poderosas compañías multinacionales perforando en busca de petróleo en la región.
+
+Firmas de seguridad privadas, pagadas por éstas compañías, usan poderosos mecanismos de vigilancia para monitorear las actividades en línea de Jelani y sus vecinos en la villa, quienes se están organizando para proteger su río sagrado.
+
+Jelani usa el **Tor Browser** para evitar que éstas compañías lo vigilen mientras visita sitios web internacionales para protección de los derechos humanos y asistencia legal, y escribe un blog acerca del movimiento de resistencia en su villa.
+
+También usa **OnionShare** y **SecureDrop** para enviar documentos en forma segura a periodistas que están ayudando a exponer estas violaciones a los derechos humanos.
+
+Todo este software usa Tor para ayudar a proteger la privacidad de Jelani.
+
+### Activistas de derechos humanos como como Jelani están peleando por la justicia en sus comunidades, y Tor ayuda a potenciar su resistencia.
+
+---
+
+# 4. TOR PARA ANTI-CENSURA
+
+### Construir puentes, no muros
+
+Jean estaba viajando por primera vez a un país lejos de su familia.
+
+Luego de llegar a un hotel, abrió su laptop.
+
+Estaba tan cansado que cuando el mensaje "La conexión ha expirado" apareció por primera vez en su navegador, pensó que era debido a su propio error.
+
+Pero luego de tratar una y otra vez, se dió cuenta que su proveedor de correo electrónico, un sitio web de noticias, y muchas aplicaciones no estaban disponibles.
+
+Había escuchado que este país censura Internet, y se preguntó si eso es lo que estaba pasando.
+¿Cómo podría contactar a su familia desde atrás de este muro impenetrable?
+Luego de hacer algunas búsquedas web, encontró un foro y leyó acerca de RPVs, servicios privados que te permiten conectar a otra red no censurada.
+
+Jean tardó media hora tratando de descubrir cuál de las RPV baratas era mejor.
+
+Eligió una y por un momento pareció funcionar, pero luego de cinco minutos la conexión se interrumpió y la RPV no volvió a conectar.
+
+Jean siguió leyendo para encontrar otras opciones y aprendió acerca del Tor Browser y cómo puede eludir la censura.
+
+Encontró un espejo de un sitio web oficial para descargar el programa.
+
+Cuando abrió el **Tor Browser**, siguió las solicitudes para usuarios censurados y se conectó a un puente que le permitió  acceder a Internet nuevamente.
+
+Con el Tor Browser, Jean puede navegar libre y privadamente, y contactar a su familia.
+
+### Usuarios censurados a través de todo el mundo confían en el Tor Browser por una manera libre, estable y no censurada de acceder a Internet.
+
+---
+
+# 5. Secciones Compartidas
+
+## ¿Qué es Tor?
+
+Tor es software libre y una red abierta que ayuda a protegerte de rastreo, vigilancia y censura en línea.
+Tor fue creado gratis por El Proyecto Tor, una organización sin fines de lucro basada en EE.UU., definida bajo 501(c)3.
+
+La manera más fácil de usar Tor es el Tor Browser.
+Cuando lo usás, nadie puede ver qué sitios web visitás, o de dónde en el mundo estás viniendo.
+
+Otras aplicaciones, como SecureDrop y OnionShare, usan Tor para proteger a sus usuarios en contra de la vigilancia y la censura.
+
+
+## 6. ¿Cómo funciona Tor?
+
+Amal quiere visitar el sitio web de Bekele en forma privada, de manera que abre el Tor Browser.
+
+El Tor Browser selecciona un circuito aleatorio de tres relevos, los cuales son computadoras alrededor del mundo configuradas para enrutar tráfico sobre la red de Tor.
+
+Luego, el Tor Browser encripta su solicitud del sitio web tres veces y la envía al primer relevo Tor en su circuito.
+
+El primer relevo remueve la primera capa de encriptación, pero no sabe que el destino es el sitio web de Bekele.
+
+El primer relevo sabe solamente la siguiente ubicación en el circuito, que es el segundo relevo.
+
+El segundo relevo remueve otra capa de encriptación y reenvía la solicitud de la página web al tercer relevo.
+
+El tercer relevo remueve la última capa de encriptación y reenvía la solicitud de la página web a su destino, el sitio web de Bekele, pero no sabe que la solicitud vino de Amal.
+
+Bekele no sabe que la solicitud del sitio web vino de Amal, a menos que ella se lo diga.
+
+## 7. ¿Quién usa Tor?
+
+Personas alrededor de todo el mundo usan Tor para proteger su privacidad y acceder a la web libremente.
+
+Tor ayuda a proteger periodistas, defensores de los derechos humanos, víctimas de violencia doméstica, investigadores académicos, y cualquiera que esté experimentando rastreo, censura o vigilancia.
+
+## 6. ¿Por qué confiar en Tor?
+
+Tor está diseñado para privacidad. No sabemos quiénes son nuestros usuarios, y no mantenemos registros de sus actividades.
+
+Los operadores de relevos Tor no pueden revelar la verdadera identidad de los usuarios de Tor.
+
+La continua revisión por pares del código fuente de Tor, tanto de comunidades de fuente abierta como académicas, asegura que no hay puertas traseras, y nuestro contrato social promete que nunca crearemos una.
+
+## 7. Unite a la comunidad Tor
+
+Tor está hecho posible por un diverso conjunto de usuarios, desarrolladores, operadores de relevos y portavoces alrededor del mundo.
+
+Necesitamos tu ayuda para hacer Tor más utilizable y seguro para personas en todos lados.
+
+Podés hacerte voluntario para Tor escribiendo código, ejecutando un relevo, creando documentación, ofreciendo soporte de usuario, o contándole a las personas en tu comunidad acerca de Tor.
+
+La comunidad de Tor está gobernada por un código de conducta, y delineamos nuestro conjunto de promesas a la comunidad en nuestro contrato social.
+
+Aprendé más acerca de Tor visitando nuestro sitio web, nuestra wiki, encontrándonos en IRC, uniéndote a una de nuestras listas de correo, o suscribiéndote a Noticias de Tor en newsletter.torproject.org.
+
+
+## 8. Descargá Tor
+
+Tor para PC de escritorio
+torproject.org/download
+
+TOR EN MÓVILES
+### Android 
+El Tor Browser para Android está disponible en GooglePlay.
+
+### iOS
+Onion Browser, desarrollado por M. Tigas, es el único navegador que recomendamos para iOS.
+
