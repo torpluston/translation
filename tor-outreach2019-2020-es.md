@@ -12,11 +12,11 @@ Esto resulta tan invasivo que investiga sobre anuncios en la red y aprende que n
 
 Aleisha decide que quiere encontrar y usar software que no recopile sus datos, no la rastree y no informe a otros servicios nada privado sobre ella.
 
-Asiste a un curso sobre privacidad en un espacio de hackers local y aprende sobre ** el Tor Browser **, el único navegador web que le permite navegar de forma anónima.
+Asiste a un curso sobre privacidad en un espacio de hackers local y aprende sobre el **Tor Browser **, el único navegador web que le permite navegar de forma anónima.
 
 ---
 
-# 2.TOR PARA LAS FEMINISTAS 
+# 2.TOR PARA LOS Y LAS FEMINISTAS 
 
 ### El futuro es ciberfeminista
 
@@ -26,11 +26,11 @@ Fernanda y sus compañeras crearon un sitio web con información sobre el acceso
 
 Si se vinculara este sitio web a ellas, las podrían arrestar, o peor.
 
-Para protegerse, Fernanda y sus colegas crearon el sitio web utilizando los servicios Tor ** onion **. Los servicios de Onion no solo las protegen de ser descubiertas como operadoras del servidor, sino que también ayudan a proteger a los visitantes de su sitio web al requerir que usen el Tor Browser.
+Para protegerse, Fernanda y sus colegas crearon el sitio web utilizando los **servicios cebolla  de Tor**. Los servicios cebolla no sólo las protegen de ser descubiertas como operadoras del servidor, sino que también ayudan a proteger a los visitantes de su sitio web al requerir que usen el Tor Browser.
 
-De hecho, Fernanda utiliza ** el Tor Browser ** para toda su navegación en la web solo para estar segura.
+De hecho, Fernanda utiliza el **Tor Browser** para toda su navegación en la web solo para estar segura.
 
-Ella también usa una aplicación de Tor llamada ** OnionShare ** para enviar archivos a otras activistas de forma segura y privada.
+Ella también usa una aplicación de Tor llamada **OnionShare** para enviar archivos a otras activistas de forma segura y privada.
 
 ### Las activistas por los derechos reproductivos como Fernanda luchan por libertades fundamentales, y Tor ayuda a fortalecer su resistencia.
 
@@ -44,13 +44,13 @@ Jelani vive en un pequeño pueblo atravesado por un ancho río.
 
 Este río ha proporcionado agua a su comunidad desde los más remotos tiempos.
 
-Pero ahora, el río Jelani se ve amenazado por poderosas compañías multinacionales que perforan buscando petróleo en la región.
+Pero ahora, el río de Jelani se ve amenazado por poderosas compañías multinacionales que perforan buscando petróleo en la región.
 
-Las empresas de seguridad privadas, pagadas por estas compañías, utilizan poderosos mecanismos de vigilancia para monitorear las actividades en línea de Jelani y sus vecinos en la aldea, que se están organizando para proteger su río sagrado.
+Las empresas de seguridad privadas, pagadas por estas compañías, utilizan poderosos mecanismos de vigilancia para monitorear las actividades en línea de Jelani y sus vecinos de la aldea, que se están organizando para proteger su río sagrado.
 
-Jelani usa ** el Tor Browser ** para evitar que estas compañías lo vean mientras visita sitios web de protección de derechos humanos y asistencia legal internacionales y escribe en blogs sobre el movimiento de resistencia en su aldea.
+Jelani usa el **Tor Browser** para evitar que estas compañías lo vean mientras visita sitios web de protección de derechos humanos y asistencia legal internacionales y escribe en blogs sobre el movimiento de resistencia en su aldea.
 
-También usa ** OnionShare ** y ** SecureDrop ** para enviar documentos de manera segura a periodistas que están ayudando a hacer público estas violaciones de derechos humanos.
+También usa **OnionShare** y **SecureDrop** para enviar documentos de manera segura a periodistas que están ayudando a hacer público estas violaciones de derechos humanos.
 
 Tor usa todo este software para ayudar a proteger la privacidad de Jelani.
 
@@ -62,9 +62,9 @@ Tor usa todo este software para ayudar a proteger la privacidad de Jelani.
 
 ### Construye puentes, no muros
 
-Jean viaja, por primera vez, a un país lejos de su familia.
+Jean estaba viajando por primera vez a un país lejos de su familia.
 
-Después de llegar al hotel, abre el portátil 
+Después de llegar al hotel, abrió el portátil.
 
 Estaba tan agotado que la primera vez que apareció en su navegador el mensaje "La conexión se ha agotado", pensó que era un error suyo.
 
@@ -82,7 +82,7 @@ Jean siguió leyendo buscando otras opciones y aprendió sobre el Tor Browser y 
 
 Encontró un mirror oficial para bajarse el programa.
 
-Cuando abrió ** el Tor Browser **, siguió las indicaciones para usuarios censurados y se conectó a un puente que le permitió acceder a Internet nuevamente. 
+Cuando abrió el **Tor Browser**, siguió las indicaciones para usuarios censurados y se conectó a un puente que le permitió acceder a Internet nuevamente. 
 
 Con Tor, Jean puede navegar libre y privadamente y contactar con su familia.
 
@@ -107,17 +107,17 @@ Otras aplicaciones, como SecureDrop y OnionShare, usan Tor para proteger a sus u
 
 Amal quiere visitar la web de Bekele en privado, así que abre el Tor Browser.
 
-El Tor Browser selecciona un circuito aleatorio de tres relés, que son ordenadores de todo el mundo configurados para enrutar el tráfico a través de la red Tor.
+El Tor Browser selecciona un circuito aleatorio de tres relays, que son ordenadores de todo el mundo configurados para enrutar el tráfico a través de la red Tor.
 
-El Tor Browser a continuación encripta la solicitud del sitio web tres veces y la envía al primer relé Tor del circuito.
+El Tor Browser a continuación encripta la solicitud del sitio web tres veces y la envía al primer relay Tor del circuito.
 
-El primer relé elimina la primera capa de encriptación pero no se entera de que el destino es la web Bekele.
+El primer relay elimina la primera capa de encriptación pero no se entera de que el destino es la web Bekele.
 
-El primer relé solo sabe la siguiente ubicación en el circuito, que es el segundo relé.
+El primer repetidor solo sabe la siguiente ubicación en el circuito, que es el segundo repetidor.
 
-El segundo relé elimina otra capa de cifrado y envía la solicitud de página web al tercer relé.
+El segundo repetidor elimina otra capa de cifrado y envía la solicitud de página web al tercer repetidor.
 
-El tercer relé elimina la última capa de cifrado y envía la solicitud de la web a su destino, el sitio web Bekele, pero no sabe que la solicitud proviene de Amal.
+El tercer repetidor elimina la última capa de cifrado y envía la solicitud de la web a su destino, el sitio web Bekele, pero no sabe que la solicitud proviene de Amal.
 
 Bekele no sabe que la solicitud proviene de Amal a menos que se lo diga ella.
 
@@ -141,14 +141,14 @@ Tor es posible gracias a un conjunto diverso de usuarios, desarrolladores, opera
 
 Necesitamos tu ayuda para hacer que Tor sea más sencillo y seguro para las personas de todo el mundo.
 
-Puede ser voluntario de Tor escribiendo código, ejecutando un relée, creando documentación, ofreciendo soporte al usuario o difundiendo entre las personas de tu comunidad qué es Tor.
+Puedes ser voluntario de Tor escribiendo código, manteniendo un repetidor, creando documentación, ofreciendo soporte al usuario o difundiendo entre las personas de tu comunidad qué es Tor.
 
 La comunidad de Tor se rige por un código de conducta, y mostramos nuestro compromiso con la comunidad en nuestro contrato social.
 
 Consigue más información sobre Tor visitando nuestro sitio web, nuestro wiki, encontrándonos en IRC, uniéndote a una de nuestras listas de correo o inscribiéndote en Tor News en newsletter.torproject.org.
 
 
-## 8. Bajar Tor
+## 8. Descargar Tor
 
 Tor para escritorio
 torproject.org/download
@@ -158,5 +158,5 @@ TOR EN EL MÓVIL
 El Tor Browser para Android está disponible en GooglePlay.
 
 ### iOS
-El navegador Onion, desarrollado por M. Tigas, es el único navegador que recomendamos para iOS.
+El Onion Browser, desarrollado por M. Tigas, es el único navegador que recomendamos para iOS.
 
