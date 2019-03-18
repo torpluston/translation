@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-03-11 12:46+CET\n"
+"POT-Creation-Date: 2019-03-18 14:29+CET\n"
 "PO-Revision-Date: 2019-03-09 10:41+0000\n"
 "Last-Translator: Sergey Smirnov <cj75300@gmail.com>, 2019\n"
 "Language-Team: Russian (https://www.transifex.com/otf/teams/1519/ru/)\n"
@@ -51,8 +51,6 @@ msgstr ""
 
 #: https//lektor-staging.torproject.org/contact/
 #: (content/contact/contents+en.lrpage.title)
-#: https//lektor-staging.torproject.org/menu/
-#: (content/menu/contents+en.lrpage.body)
 msgid "Contact"
 msgstr "Контакты"
 
@@ -77,12 +75,10 @@ msgstr ""
 #: https//lektor-staging.torproject.org/contact/
 #: (content/contact/contents+en.lrpage.body)
 msgid ""
-"Need help? Visit our Support Portal for answers to frequently asked "
-"questions about connecting to Tor, circumventing censorship, using onion "
-"services, and more."
+"Need help? Visit our [Support Portal](https://support.torproject.org) for "
+"answers to frequently asked questions about connecting to Tor, circumventing"
+" censorship, using onion services, and more."
 msgstr ""
-"Нужна помощь? Зайдите на наш Портал поддержки. Там вы можете получить ответы"
-" на частые вопросы о подключении к Tor, обходе цензуры, onion-сервисах и др."
 
 #: https//lektor-staging.torproject.org/download/
 #: (content/download/contents+en.lrpage.title)
@@ -147,6 +143,16 @@ msgstr "Вакансии"
 #: (content/menu/contents+en.lrpage.body)
 msgid "Donate"
 msgstr "Пожертвовать"
+
+#: https//lektor-staging.torproject.org/menu/
+#: (content/menu/contents+en.lrpage.body)
+msgid "Reports"
+msgstr "Отчеты"
+
+#: https//lektor-staging.torproject.org/menu/
+#: (content/menu/contents+en.lrpage.body)
+msgid "Sponsors"
+msgstr ""
 
 #: https//lektor-staging.torproject.org/thank-you/
 #: (content/thank-you/contents+en.lrpage.title)
@@ -2202,7 +2208,7 @@ msgid ""
 "hardware to us that they keep hosted on their racks."
 msgstr ""
 
-#: templates/about.html:7 templates/homepage.html:8 templates/layout.html:7
+#: templates/about.html:7 templates/homepage.html:8 templates/layout.html:8
 msgid "Tor Project"
 msgstr "Проект Tor"
 
@@ -2215,7 +2221,7 @@ msgid "Ask questions about using Tor."
 msgstr ""
 
 #: templates/contact.html:10
-msgid "Discuss Tor-related coding, protocols, and ideas are all welcome."
+msgid "Discuss Tor-related coding and protocols. Ideas are welcome."
 msgstr ""
 
 #: templates/contact.html:11
@@ -2340,6 +2346,10 @@ msgstr ""
 msgid "Language"
 msgstr "Язык"
 
+#: templates/download.html:5
+msgid "Get Connected"
+msgstr ""
+
 #: templates/download.html:7
 msgid "Get connected"
 msgstr ""
@@ -2361,10 +2371,14 @@ msgid ""
 msgstr ""
 
 #: templates/download.html:14
+msgid "Support Portal"
+msgstr ""
+
+#: templates/download.html:14
 msgid "Read other FAQ’s at our Support Portal"
 msgstr ""
 
-#: templates/download.html:21
+#: templates/download.html:19 templates/download.html:21
 msgid "Stay safe"
 msgstr ""
 
@@ -2401,7 +2415,7 @@ msgid "Verify Tor Browser signature"
 msgstr ""
 
 #: templates/footer.html:9 templates/footer.html:13
-#: templates/hero-home.html:13 templates/navbar.html:57
+#: templates/hero-home.html:13 templates/navbar.html:58
 msgid "Download Tor Browser"
 msgstr "Скачать Tor Browser"
 
@@ -2473,6 +2487,10 @@ msgid ""
 "Defend yourself against tracking and surveillance. Circumvent censorship."
 msgstr "Защититесь от слежки. Обходите цензуру."
 
+#: templates/home.html:7
+msgid "Block Trackers"
+msgstr ""
+
 #: templates/home.html:11
 msgid "BLOCK TRACKERS"
 msgstr "БЛОКИРУЙТЕ ТРЕКЕРЫ"
@@ -2487,6 +2505,10 @@ msgstr ""
 "рекламщики не могут вас отслеживать. По окончании работы автоматически "
 "сбрасываются и куки-файлы, и история посещений."
 
+#: templates/home.html:24
+msgid "Defend Against Surveillance"
+msgstr ""
+
 #: templates/home.html:28
 msgid "DEFEND AGAINST SURVEILLANCE"
 msgstr "ЗАЩИЩАЙТЕСЬ ОТ СЛЕЖКИ"
@@ -2500,6 +2522,10 @@ msgstr ""
 "Tor Browser не дает посторонним следить, какие сайты вы посещаете. Любители "
 "совать нос не в свои дела увидят лишь то, что вы используете Tor."
 
+#: templates/home.html:41
+msgid "Resist Fingerpriting"
+msgstr ""
+
 #: templates/home.html:45
 msgid "RESIST FINGERPRINTING"
 msgstr "НЕ ПОЗВОЛЯЙТЕ СОСТАВЛЯТЬ НА СЕБЯ ДОСЬЕ"
@@ -2511,6 +2537,10 @@ msgid ""
 msgstr ""
 "Tor старается, чтобы все пользователи выглядели одинаково. Никто не сможет "
 "собирать досье на основе ваших привычек и данных о вашем устройстве."
+
+#: templates/home.html:58
+msgid "Multi-layered Encryption"
+msgstr ""
 
 #: templates/home.html:62
 msgid "MULTI-LAYERED ENCRYPTION"
@@ -2525,11 +2555,15 @@ msgstr ""
 "В сети Tor ваш трафик трижды перенаправляется и шифруется. Сеть Tor состоит "
 "из тысяч узлов — серверов, которые поддерживают волонтеры."
 
-#: templates/home.html:81
+#: templates/home.html:75
+msgid "Browse Freely"
+msgstr ""
+
+#: templates/home.html:79
 msgid "BROWSE FREELY"
 msgstr "СВОБОДНЫЙ ДОСТУП"
 
-#: templates/home.html:82
+#: templates/home.html:80
 msgid ""
 "With Tor Browser, you are free to access sites your home network may have "
 "blocked."
@@ -2559,6 +2593,10 @@ msgstr ""
 msgid "Tor Logo"
 msgstr "Логотип Tor"
 
+#: templates/navbar.html:14
+msgid "Menu"
+msgstr ""
+
 #: templates/people.html:2
 msgid "Board of Directors"
 msgstr ""
@@ -2578,7 +2616,7 @@ msgid ""
 "to sign up for our dev mailing list to see what we’re up to."
 msgstr ""
 
-#: templates/people.html:31
+#: templates/people.html:30
 msgid "Sign up for tor-dev"
 msgstr ""
 
@@ -2633,10 +2671,6 @@ msgstr ""
 #: templates/reports.html:2
 msgid "Founding Documents"
 msgstr ""
-
-#: templates/reports.html:16
-msgid "Reports"
-msgstr "Отчеты"
 
 #: templates/reports.html:22
 msgid "Year"

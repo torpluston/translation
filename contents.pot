@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-03-11 12:46+CET\n"
+"POT-Creation-Date: 2019-03-18 14:29+CET\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: en <LL@li.org>\n"
@@ -44,8 +44,6 @@ msgstr ""
 
 #: https//lektor-staging.torproject.org/contact/
 #: (content/contact/contents+en.lrpage.title)
-#: https//lektor-staging.torproject.org/menu/
-#: (content/menu/contents+en.lrpage.body)
 msgid "Contact"
 msgstr "Contact"
 
@@ -70,13 +68,13 @@ msgstr ""
 #: https//lektor-staging.torproject.org/contact/
 #: (content/contact/contents+en.lrpage.body)
 msgid ""
-"Need help? Visit our Support Portal for answers to frequently asked "
-"questions about connecting to Tor, circumventing censorship, using onion "
-"services, and more."
+"Need help? Visit our [Support Portal](https://support.torproject.org) for "
+"answers to frequently asked questions about connecting to Tor, circumventing"
+" censorship, using onion services, and more."
 msgstr ""
-"Need help? Visit our Support Portal for answers to frequently asked "
-"questions about connecting to Tor, circumventing censorship, using onion "
-"services, and more."
+"Need help? Visit our [Support Portal](https://support.torproject.org) for "
+"answers to frequently asked questions about connecting to Tor, circumventing"
+" censorship, using onion services, and more."
 
 #: https//lektor-staging.torproject.org/download/
 #: (content/download/contents+en.lrpage.title)
@@ -141,6 +139,16 @@ msgstr "Jobs"
 #: (content/menu/contents+en.lrpage.body)
 msgid "Donate"
 msgstr "Donate"
+
+#: https//lektor-staging.torproject.org/menu/
+#: (content/menu/contents+en.lrpage.body)
+msgid "Reports"
+msgstr "Reports"
+
+#: https//lektor-staging.torproject.org/menu/
+#: (content/menu/contents+en.lrpage.body)
+msgid "Sponsors"
+msgstr "Sponsors"
 
 #: https//lektor-staging.torproject.org/thank-you/
 #: (content/thank-you/contents+en.lrpage.title)
@@ -2570,7 +2578,7 @@ msgstr ""
 "defenders, incident response teams, and analysts. Cymru generously donated "
 "hardware to us that they keep hosted on their racks."
 
-#: templates/about.html:7 templates/homepage.html:8 templates/layout.html:7
+#: templates/about.html:7 templates/homepage.html:8 templates/layout.html:8
 msgid "Tor Project"
 msgstr "Tor Project"
 
@@ -2583,8 +2591,8 @@ msgid "Ask questions about using Tor."
 msgstr "Ask questions about using Tor."
 
 #: templates/contact.html:10
-msgid "Discuss Tor-related coding, protocols, and ideas are all welcome."
-msgstr "Discuss Tor-related coding, protocols, and ideas are all welcome."
+msgid "Discuss Tor-related coding and protocols. Ideas are welcome."
+msgstr "Discuss Tor-related coding and protocols. Ideas are welcome."
 
 #: templates/contact.html:11
 msgid ""
@@ -2728,6 +2736,10 @@ msgstr "Are you a iOS user? We encourage you to try %s"
 msgid "Language"
 msgstr "Language"
 
+#: templates/download.html:5
+msgid "Get Connected"
+msgstr "Get Connected"
+
 #: templates/download.html:7
 msgid "Get connected"
 msgstr "Get connected"
@@ -2753,10 +2765,14 @@ msgstr ""
 "an incorrect system clock. Please make sure it’s set correctly."
 
 #: templates/download.html:14
+msgid "Support Portal"
+msgstr "Support Portal"
+
+#: templates/download.html:14
 msgid "Read other FAQ’s at our Support Portal"
 msgstr "Read other FAQ’s at our Support Portal"
 
-#: templates/download.html:21
+#: templates/download.html:19 templates/download.html:21
 msgid "Stay safe"
 msgstr "Stay safe"
 
@@ -2800,7 +2816,7 @@ msgid "Verify Tor Browser signature"
 msgstr "Verify Tor Browser signature"
 
 #: templates/footer.html:9 templates/footer.html:13
-#: templates/hero-home.html:13 templates/navbar.html:57
+#: templates/hero-home.html:13 templates/navbar.html:58
 msgid "Download Tor Browser"
 msgstr "Download Tor Browser"
 
@@ -2879,6 +2895,10 @@ msgid ""
 msgstr ""
 "Defend yourself against tracking and surveillance. Circumvent censorship."
 
+#: templates/home.html:7
+msgid "Block Trackers"
+msgstr "Block Trackers"
+
 #: templates/home.html:11
 msgid "BLOCK TRACKERS"
 msgstr "BLOCK TRACKERS"
@@ -2892,6 +2912,10 @@ msgstr ""
 "Tor Browser isolates each website you visit so third-party trackers and ads "
 "can’t follow you. Any cookies automatically clear when you’re done browsing."
 " So will your browsing history."
+
+#: templates/home.html:24
+msgid "Defend Against Surveillance"
+msgstr "Defend Against Surveillance"
 
 #: templates/home.html:28
 msgid "DEFEND AGAINST SURVEILLANCE"
@@ -2907,6 +2931,10 @@ msgstr ""
 "websites you visit. All anyone monitoring your browsing habits can see is "
 "that you’re using Tor."
 
+#: templates/home.html:41
+msgid "Resist Fingerpriting"
+msgstr "Resist Fingerpriting"
+
 #: templates/home.html:45
 msgid "RESIST FINGERPRINTING"
 msgstr "RESIST FINGERPRINTING"
@@ -2918,6 +2946,10 @@ msgid ""
 msgstr ""
 "Tor aims to make all users look the same making it difficult for you to be "
 "fingerprinted based on your browser and device information."
+
+#: templates/home.html:58
+msgid "Multi-layered Encryption"
+msgstr "Multi-layered Encryption"
 
 #: templates/home.html:62
 msgid "MULTI-LAYERED ENCRYPTION"
@@ -2933,11 +2965,15 @@ msgstr ""
 "network. The network is comprised of thousands of volunteer-run servers "
 "known as Tor relays."
 
-#: templates/home.html:81
+#: templates/home.html:75
+msgid "Browse Freely"
+msgstr "Browse Freely"
+
+#: templates/home.html:79
 msgid "BROWSE FREELY"
 msgstr "BROWSE FREELY"
 
-#: templates/home.html:82
+#: templates/home.html:80
 msgid ""
 "With Tor Browser, you are free to access sites your home network may have "
 "blocked."
@@ -2969,6 +3005,10 @@ msgstr "We invite you to join us on IRC to find how you can get involved."
 msgid "Tor Logo"
 msgstr "Tor Logo"
 
+#: templates/navbar.html:14
+msgid "Menu"
+msgstr "Menu"
+
 #: templates/people.html:2
 msgid "Board of Directors"
 msgstr "Board of Directors"
@@ -2991,7 +3031,7 @@ msgstr ""
 "and studies to improve Tor software. If you’re a developer, we welcome you "
 "to sign up for our dev mailing list to see what we’re up to."
 
-#: templates/people.html:31
+#: templates/people.html:30
 msgid "Sign up for tor-dev"
 msgstr "Sign up for tor-dev"
 
@@ -3046,10 +3086,6 @@ msgstr "Topic"
 #: templates/reports.html:2
 msgid "Founding Documents"
 msgstr "Founding Documents"
-
-#: templates/reports.html:16
-msgid "Reports"
-msgstr "Reports"
 
 #: templates/reports.html:22
 msgid "Year"
