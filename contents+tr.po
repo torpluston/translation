@@ -2816,7 +2816,7 @@ msgid ""
 "Please take a strong stance in favor of digital privacy and internet "
 "freedom, and allow Tor users access to xyz.com. Thank you.\""
 msgstr ""
-"Lütfen sayısal kişisel gizliliği ve İnternet özgürlüğünü desteklediğinizi "
+"Lütfen dijital kişisel gizliliği ve İnternet özgürlüğünü desteklediğinizi "
 "göstermek için Tor kullanıcılarının xyz.com sitesine erişmesine izin verin. "
 "Teşekkürler.\""
 
@@ -2836,9 +2836,8 @@ msgid ""
 "2017-10-29 09:24:08.900 [WARN] Proxy Client: unable to connect "
 "toxx..xxx..xxx.xx:xxxxx  (\"general SOCKS server failure\")"
 msgstr ""
-"2017-10-29 09:24:08.900 [UYARI] Vekil Sunucu İstemcisi: "
-"xx..xxx..xxx.xx:xxxxx ile bağlantı kurulamadı (\"genel SOCKS sunucusu "
-"sorunu\")"
+"2017-10-29 09:24:08.900 [WARN] Proxy Client: unable to connect toxx..xxx..xxx.xx:xxxxx  (\"general SOCKS server failure\")\n"
+"2017-10-29 09:24:08.900 [UYARI] Vekil Sunucu İstemcisi: xx..xxx..xxx.xx:xxxxx ile bağlantı kurulamadı (\"genel SOCKS sunucusu sorunu\")"
 
 #: https//support.torproject.org/censorship/having-trouble-connecting-to-tor/
 #: (content/censorship/censorship-5/contents+en.lrquestion.description)
@@ -2847,9 +2846,8 @@ msgid ""
 "(OR:xxx.xx.x.xx:xxxx): It seems that our clock is behind by 1 days, 0 hours,"
 " 1 minutes, or that theirs is ahead."
 msgstr ""
-"19.11.2017 00:04:48.800 [UYARI] NETINFO hücresi zamanı sapmış olarak alındı "
-"(OR:xxx.xx.x.xx:xxxx): Bizim saatimiz 1 gün, 0 saat, 1 dakika geride ya da "
-"onların saati ileride gibi görünüyor."
+"19.11.2017 00:04:48.800 [WARN] Received NETINFO cell with skewed time (OR:xxx.xx.x.xx:xxxx): It seems that our clock is behind by 1 days, 0 hours, 1 minutes, or that theirs is ahead.\n"
+"19.11.2017 00:04:48.800 [UYARI] NETINFO hücresi zamanı sapmış olarak alındı (OR:xxx.xx.x.xx:xxxx): Bizim saatimiz 1 gün, 0 saat, 1 dakika geride ya da onların saati ileride gibi görünüyor."
 
 #: https//support.torproject.org/censorship/having-trouble-connecting-to-tor/
 #: (content/censorship/censorship-5/contents+en.lrquestion.description)
@@ -2863,7 +2861,7 @@ msgstr ""
 #: https//support.torproject.org/censorship/what-is-a-bridge/
 #: (content/censorship/censorship-7/contents+en.lrquestion.title)
 msgid "What is a bridge?"
-msgstr "Bir köprü nedir?"
+msgstr "Tor köprüsü nedir?"
 
 #: https//support.torproject.org/censorship/what-is-a-bridge/
 #: (content/censorship/censorship-7/contents+en.lrquestion.description)
@@ -2871,8 +2869,8 @@ msgid ""
 "Bridge relays are Tor relays that are not listed in the public Tor "
 "directory."
 msgstr ""
-"Köprü aktarıcıları, herkese açık Tor dizininde listelenmeyen Tor "
-"aktarıcılarıdır."
+"Köprü aktarıcıları, herkesin kullanımına açık olan ve Tor dizininde "
+"listelenmeyen Tor aktarıcılarıdır."
 
 #: https//support.torproject.org/censorship/what-is-a-bridge/
 #: (content/censorship/censorship-7/contents+en.lrquestion.description)
@@ -2880,8 +2878,9 @@ msgid ""
 "That means that ISPs or governments trying to block access to the Tor "
 "network can't simply block all bridges."
 msgstr ""
-"Böylece Tor ağıyla bağlantı kurulmasını istemeyen İnternet hizmeti "
-"sağlayıcısı ya da devlet kuruluşları tüm köprüleri engelleyemez."
+"Böylece Tor ağına bağlanılmasını engellemeye çalışan İnternet hizmeti "
+"sağlayıcıları ya da devlet kuruluşları köprülerin tamamını bulup "
+"engelleyemez."
 
 #: https//support.torproject.org/censorship/what-is-a-bridge/
 #: (content/censorship/censorship-7/contents+en.lrquestion.description)
@@ -2891,15 +2890,16 @@ msgid ""
 "recognize that they are contacting a public Tor relay IP address."
 msgstr ""
 "Baskıcı rejimler ile yönetilen yerlerde bulunan Tor kullanıcıları ve herkese"
-" açık bir Tor aktarıcısının IP adresine bağlandıklarının görülmesini "
-"istemeyen kişiler ek bir güvenlik katmanına sahip olmak için köprüleri "
-"kullanabilir."
+" açık olarak çalışan bir Tor aktarıcısının IP adresine bağlandıklarının "
+"görülmesini istemeyen kişiler ek bir güvenlik katmanına sahip olmak için "
+"köprüleri kullanabilir."
 
 #: https//support.torproject.org/censorship/what-is-a-bridge/
 #: (content/censorship/censorship-7/contents+en.lrquestion.description)
 msgid ""
 "A bridge is just a normal relay with a slightly different configuration."
-msgstr "Bir köprü biraz daha farklı yapılandırılmış normal bir aktarıcıdır."
+msgstr ""
+"Bir köprü aslında biraz farklı yapılandırılmış normal bir aktarıcıdır."
 
 #: https//support.torproject.org/censorship/what-is-a-bridge/
 #: (content/censorship/censorship-7/contents+en.lrquestion.description)
@@ -2937,7 +2937,7 @@ msgid ""
 "additional configurations."
 msgstr ""
 "Bir obfsproxy köprüsünün kullanılabilmesi için ek bir yazılım paketi ile ek "
-"ayarlar gereklidir."
+"ayarların yapılması gereklidir."
 
 #: https//support.torproject.org/censorship/what-is-a-bridge/
 #: (content/censorship/censorship-7/contents+en.lrquestion.description)
