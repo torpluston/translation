@@ -107,17 +107,17 @@ Outros aplicativos tais como SecureDrop ou OnionShare usam o Tor para proteger s
 
 Amal quer privacidade para visitar o site de Bekele e, assim, ela abre o Navegador Tor.
 
-O Navegador Tor seleciona um circuito aleatório de três retransmissores, os quais são computadores espalhados ao redor do mundo configurados para rotear todo o seu tráfego pela rede Tor.
+O Navegador Tor seleciona um circuito aleatório de três relays, os quais são computadores espalhados ao redor do mundo configurados para rotear todo o seu tráfego pela rede Tor.
 
-O Navegador Tor então criptografa sua solicitação ao website desejado três vezes e a envia ao primeiro retransmissor Tor de seu circuito.
+O Navegador Tor então criptografa sua solicitação ao website desejado três vezes e a envia ao primeiro relay Tor de seu circuito.
 
-O primeiro retransmissor remove a primeira camada de criptografia mas não sabe que o website de destino é o de Bekele.
+O primeiro relay remove a primeira camada de criptografia mas não sabe que o website de destino é o de Bekele.
 
-O primeiro retransmissor sabe apenas a próxima localização do circuito, que é o segundo retransmissor.
+O primeiro relay sabe apenas a próxima localização do circuito, que é o segundo relay.
 
-O segundo retransmissor remove outra camada de criptografia e encaminha a solicitação de página web ao terceiro retransmissor.
+O segundo relay remove outra camada de criptografia e encaminha a solicitação de página web ao terceiro relay.
 
-O terceiro retransmissor remove a última camada de criptografia e encaminha a solicitação de página web ao seu destino, isto é, o website de Bekele, mas não sabe que a solicitação veio de Amal.
+O terceiro relay remove a última camada de criptografia e encaminha a solicitação de página web ao seu destino, isto é, o website de Bekele, mas não sabe que a solicitação veio de Amal.
 
 Bekele não saberá que a solicitação a seu website veio de Amal, a menos que ela o informe disso.
 
@@ -131,17 +131,17 @@ Tor ajuda a proteger jornalistas, ativistas de direitos humanos, pesquisadores a
 
 Tor foi desenvolvido com a privacidade como objetivo. Nós não sabemos quem são nossos usuários e não mantemos registros de atividades de usuários.
 
-Os operadores de retransmissores Tor não conseguem revelar a verdadeira identidade dos usuários do Tor.
+Os operadores de relays Tor não conseguem revelar a verdadeira identidade dos usuários do Tor.
 
 A contínua "revisão pelos pares" do código-fonte do Tor por comunidades acadêmicas e de código aberto assegura que não há "portas dos fundos" no Tor, e nosso contrato social promete que jamais criaremos esse tipo de coisa.
 
 ## 7. Junte-se à comunidade Tor
 
-O Tor só é possível pela contribuição de um conjunto diversificado de usuários, desenvolvedores, operadores de retransmissores e defensores ao redor do mundo.
+O Tor só é possível pela contribuição de um conjunto diversificado de usuários, desenvolvedores, operadores de relays e defensores ao redor do mundo.
 
 Nós precisamos de sua ajuda para tornar o Tor mais usável e seguro para as pessoas em todos os lugares.
 
-Você pode voluntariar-se para ajudar o Tor escrevendo código, operando um retransmissor, criando documentação, oferecendo suporte ao usuário ou contando às pessoas em sua comunidade sobre o Tor.
+Você pode voluntariar-se para ajudar o Tor escrevendo código, operando um relay, criando documentação, oferecendo suporte ao usuário ou contando às pessoas em sua comunidade sobre o Tor.
 
 A comunidade Tor é governada por um código de conduta e nós delineamos nosso conjunto de promessas à comunidade em nosso contrato social.
 
