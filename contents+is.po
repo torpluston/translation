@@ -962,6 +962,11 @@ msgid ""
 " be served over two different Tor circuits, so the tracker will not know "
 "that both connections originate from your browser."
 msgstr ""
+"Tor-vafrinn miðar við að þú sjáir allt sem máli skiptir á URL-"
+"staðsetningarstikunni. Jafnvel þó þú tengist tveimur mismunandi vefsvæðum "
+"sem nota sama skráningarhugbúnað, þá þvingar Tor-vafrinn efni þeirra til að "
+"fara um tvær mismunandi Tor-rásir, þannig að skráningarhugbúnaðurinn getur "
+"ekki vitað að báðar tengingarnar koma frá vafranum þínum."
 
 #: https//tb-manual.torproject.org/en-US/managing-identities/
 #: (content/managing-identities/contents+en-US.lrtopic.body)
@@ -971,6 +976,9 @@ msgid ""
 "single website in separate tabs or windows, without any loss of "
 "functionality."
 msgstr ""
+"Aftur á móti eru allar tengingar við hvert einstakt vefsvæði um sömu Tor-"
+"rásina, sem þýðir að þú getur vafrað um mismunandi síður sama vefsvæðis án "
+"þess að virknin skerðist."
 
 #: https//tb-manual.torproject.org/en-US/managing-identities/
 #: (content/managing-identities/contents+en-US.lrtopic.body)
@@ -983,6 +991,8 @@ msgid ""
 "You can see a diagram of the circuit that Tor Browser is using for the "
 "current tab in the site information menu, in the URL bar."
 msgstr ""
+"Þú getur séð skýringamynd af rásinni sem Tor-vafrinn er að nota fyrir "
+"viðkomandi flipa í upplýsingavalmynd vefsvæðisins á staðsetningastikunni."
 
 #: https//tb-manual.torproject.org/en-US/managing-identities/
 #: (content/managing-identities/contents+en-US.lrtopic.body)
@@ -995,6 +1005,15 @@ msgid ""
 "href=\"https://www.torproject.org/docs/faq#EntryGuards\">FAQ</a> and <a "
 "href=\"https://support.torproject.org/tbb/tbb-2/\">Support Portal</a>."
 msgstr ""
+"Í rásinni er varðarhnúturinn (guard) eða inngangshnúturinn sama og fyrsti "
+"hnúturinn og er hann sjálfvirkt handahófskennt valinn af Tor. En hann er "
+"frábrugðinn öðrum hnútum í rásinni. Tl þess að koma í veg fyrir árásir þar "
+"sem útbúin eru persónusnið, er skipt um varðarhnút eftir 2-3 mánuði, ólíkt "
+"hinum hnútunum sem breytast við hvert nýtt lén. Til að sjá ítarlegri "
+"upplýsingar um Varðarhnúta / Guards ættirðu að skoða <a "
+"href=\"https://www.torproject.org/docs/faq#EntryGuards\">Algengar spurningar"
+" -FAQ</a> og <a "
+"href=\"https://support.torproject.org/tbb/tbb-2/\">Aðstoðargátt</a>."
 
 #: https//tb-manual.torproject.org/en-US/managing-identities/
 #: (content/managing-identities/contents+en-US.lrtopic.body)
@@ -1008,6 +1027,10 @@ msgid ""
 "there may be situations in which it makes sense to use Tor with websites "
 "that require usernames, passwords, or other identifying information."
 msgstr ""
+"Þó Tor-vafrinn sé hannaður til að styðja við algert nafnleysi notandans við "
+"vafur á veraldarvefnum, þá geta verið til staðar aðstæður þar sem "
+"skynsamlegt sé að nota Tor með vefsvæðum sem krefjast notkunar notendanafna,"
+" lykilorða eða annarra persónugreinanlegra upplýsinga."
 
 #: https//tb-manual.torproject.org/en-US/managing-identities/
 #: (content/managing-identities/contents+en-US.lrtopic.body)
@@ -1019,6 +1042,12 @@ msgid ""
 "you reveal to the websites you browse. Logging in using Tor Browser is also "
 "useful if the website you are trying to reach is censored on your network."
 msgstr ""
+"Ef þú skráir þig inn á vefsvæði með venjulegum vafra, þá ertu í leiðinni að "
+"gefa upp IP-vistfang þitt og landfræðilega staðsetningu. Hil sama er oft að "
+"segja þegar þú sendir tölvupóst. Þegar þú skráir þig inn á samfélagsmiðla "
+"eða vefpóst með Tor-vafranum geturðu valið hvaða upplýsingar þú gefur upp "
+"til vefsvæðanna sem þú vafrar um. Það að skrá sig inn með Tor-vafranum "
+"nýtist einnig ef viðkomandi vefsvæði er ritskoðað á netkerfinu þínu."
 
 #: https//tb-manual.torproject.org/en-US/managing-identities/
 #: (content/managing-identities/contents+en-US.lrtopic.body)
@@ -1049,6 +1078,13 @@ msgid ""
 "following the site’s recommended procedure for account recovery, or "
 "contacting the operators and explaining the situation."
 msgstr ""
+"* Tor-vafrinn lætur oft líta út eins og að tengingin þín komi úr allt öðrum "
+"heimshluta. Sum vefsvæði, eins og til dæmis hjá bönkum og "
+"tölvupóstþjónustum, gætu túlkað þetta sem merki um misnotkun á aðgangnum "
+"þínum og brugðist við með því að loka honum. Eina leiðin til að leysa þetta "
+"er að fara eftir fyrirmælum viðkomandi þjónustuaðila um hvernig eigi að "
+"endurheimta aðganginn, eða hafa samband við þjónustuaðilann og útskýra "
+"málið."
 
 #: https//tb-manual.torproject.org/en-US/managing-identities/
 #: (content/managing-identities/contents+en-US.lrtopic.body)
@@ -1143,7 +1179,7 @@ msgid ""
 "* An onion services’s location and IP address are hidden, making it "
 "difficult for adversaries to censor it or identify its operators."
 msgstr ""
-"* Staðsetning og IP-vistfang 'onion'-þjónustu eru falin, sem gerir "
+"* Staðsetning og IP-vistfang onion-þjónustu eru falin, sem gerir "
 "andstæðingum erfitt fyrir að ritskoða eða auðkenna rekstraraðila "
 "þjónustunnar."
 
@@ -1154,8 +1190,8 @@ msgid ""
 "so you do not need to worry about <a href=\"/secure-connections\">connecting"
 " over HTTPS</a>."
 msgstr ""
-"* Öll umferð milli Tor-notenda og 'onion'-þjónustna er enda-í-enda dulrituð,"
-" þannig að þú þarft ekki að hafa áhyggjur af því hvort verið sé að <a href"
+"* Öll umferð milli Tor-notenda og onion-þjónustna er enda-í-enda dulrituð, "
+"þannig að þú þarft ekki að hafa áhyggjur af því hvort verið sé að <a href"
 "=\"/secure-connections\">tengjast með HTTPS</a>."
 
 #: https//tb-manual.torproject.org/en-US/onion-services/
@@ -1166,7 +1202,7 @@ msgid ""
 "Tor ensure that it is connecting to the right location and that the "
 "connection is not being tampered with."
 msgstr ""
-"* Vistfang 'onion'-þjónustu er útbúið sjálfvirkt, sem þýðir m.a. að "
+"* Vistfang onion-þjónustu er útbúið sjálfvirkt, sem þýðir m.a. að "
 "rekstraraðilar þurfa ekki að kaupa sér nafn fyrir lén; URL-slóðin .onion "
 "hjálpar einnig Tor að tryggja að verið sé að tengjast við rétta staðsetningu"
 " og að ekki sé verið að eiga eitthvað við tenginguna."
@@ -1183,10 +1219,10 @@ msgid ""
 "service in order to connect to it. An onion address is a string of 16 (and "
 "in V3 format, 56) mostly random letters and numbers, followed by “.onion”."
 msgstr ""
-"Rétt eins og með önnur vefsvæði, þarftu að þekkja vistfang/slóð á "
-"'onion'-þjónustu til að geta tengst henni. 'Onion'-vistfang er strengur af "
-"16 stöfum (og í sniðinu fyrir útgáfu v3 eru það 56), mestmegnis "
-"handahófskenndir bókstafir og tölustafir, fylgt með viðskeytinu '.onion'."
+"Rétt eins og með önnur vefsvæði, þarftu að þekkja vistfang/slóð á onion-"
+"þjónustu til að geta tengst henni. Onion-vistfang er strengur af 16 stöfum "
+"(og í sniðinu fyrir útgáfu v3 eru það 56), mestmegnis handahófskenndir "
+"bókstafir og tölustafir, fylgt með viðskeytinu '.onion'."
 
 #: https//tb-manual.torproject.org/en-US/onion-services/
 #: (content/onion-services/contents+en-US.lrtopic.body)
