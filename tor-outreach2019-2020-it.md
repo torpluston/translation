@@ -8,35 +8,35 @@ Come molti di noi, Aleisha spende molto del suo tempo online--connettendosi con 
 
 Ma più tardi, notò che le pubblicità relative alle sue ricerche precedenti la stavano seguendo in tutta la rete.
 
-This feels so invasive that she does some research on online ads and learns that it's not just advertisers tracking her but also her ISP, analytics companies, social media platforms, and more.
+Fu così invasivo che fece alcune ricerche online circa gli ads e capì che non solo le pubblicità la tracciavano, ma anche il suo ISP, compagnie analitiche, piattaforme social media e altri.
 
-Aleisha decides she wants to find and use software that doesn't collect her data, doesn't track her, and doesn't tell other services anything private about her.
+Aleisha decide di voler cercare e usare un programma che non conservi i suoi dati, non la tracci, e non divulghi ad altri servizi nessuna informazione privata riguardo a lei.
 
-She goes to a privacy training at a local hackerspace and learns about **Tor Browser**, the only web browser that allows her to browse anonymously.
-
----
-
-# 2.TOR FOR FEMINISTS 
-
-### The future is cyberfeminist
-
-Fernanda runs a women's collective focused on reproductive rights in Brazil, where abortion is illegal.
-
-Fernanda and her colleagues built a website with information about abortion access, birth control, and other resources for people seeking reproductive information.
-
-If this website was linked back to them, they could be arrested--or worse. 
-
-To protect themselves, Fernanda and her colleagues created the website using Tor **onion services**. Onion services not only protect them from being discovered as the operators of the server but also help protect visitors to their website by requiring they use Tor Browser. 
-
-In fact, Fernanda uses **Tor Browser** for all of her web browsing just to be on the safe side.
-
-She also uses a Tor-powered app called **OnionShare** to send files to other activists securely and privately. 
-
-### Reproductive rights activists like Fernanda are fighting for fundamental freedoms, and Tor helps power their resistance.
+Frequenta un corso sulla privacy in un hackerpace locale e scopre **Tor Browser**, l'unico browser web che le consente di navigare in modo anonimo.
 
 ---
 
-# 3. TOR FOR HUMAN RIGHTS
+# 2.TOR PER LE FEMMINISTE
+
+### Il futuro è cyberfemminile
+
+Fernanda gestisce un collettivo di donne incentrato verso i diritti riproduttivi in Brasile, dove l'aborto è illegale.
+
+Fernanda e le sue colleghe hanno costruito un sito web con informazioni riguardo l'accesso all'aborto, il controllo delle nascite e altre risorse per le persone che cercano informazioni circa la riproduzione.
+
+Se questo sito fosse stato collegato a loro, avrebbero rischiato l'arresto--o peggio.
+
+per proteggersi, Fernanda e le sue colleghe crearono un sito usando Tor **onion services**. I servizi Onion non solo le protessero dall'essere scoperte come operatrici del server ma aiutarono a proteggere anche i visitatori del loro sito, richiedendo l'uso del Browser Tor.
+
+Infatti, Fernanda usa **Tor Browser** per tutta la sua navigazione in rete solo per essere nel lato sicuro.
+
+Usa anche una app di Tor chiamata **OnionShare** per inviare files algi altri attivisti in modo sicuro e privato.
+
+### Attivisti per i diritti riproduttivi come Fernanda stanno combattendo per le libertà fondamentali e Tor aiuta a rafforzare la loro resistenza.
+
+---
+
+# 3. TOR PER I DIRITTI UMANI
 
 ### Water is life 
 
