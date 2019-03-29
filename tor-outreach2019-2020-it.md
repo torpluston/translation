@@ -16,7 +16,7 @@ Frequenta un corso sulla privacy in un hackerpace locale e scopre **Tor Browser*
 
 ---
 
-# 2.TOR PER LE FEMMINISTE
+# 2. TOR PER LE FEMMINISTE
 
 ### Il futuro è cyberfemminile
 
@@ -38,55 +38,55 @@ Usa anche una app di Tor chiamata **OnionShare** per inviare files algi altri at
 
 # 3. TOR PER I DIRITTI UMANI
 
-### Water is life 
+### L'acqua è vita
 
-Jelani lives in a small village  which a wide river runs through.
+Jelani vive in un piccolo villaggio dove un ampio fiume vi scorre attraverso.
 
-This river has provided water to his community since the days of his ancestors. 
+Questo fiume ha fornito acqua alla sua comunità fin dal tempo dei suoi antenati.
 
-But today, Jelani’s river is threatened by powerful multinational companies drilling for oil in the region.
+Ma oggi, il fiume di Jelani è minacciato da potenti compagnie multinazionali che estraggono petrolio nella regione.
 
-Private security firms, paid for by these companies, use powerful surveillance mechanisms to monitor the online activities of Jelani and his neighbors in the village who are organizing to protect their sacred river. 
+Le ditte di sicurezza private, pagate da queste compagnie, usano potenti meccanismi di sorveglianza per monitorare le attività online di Jelani e dei suoi vicini nel villaggio, che si stanno organizzando per proteggere il loro fiume sacro.
 
-Jelani uses **Tor Browser** to prevent these companies from watching as he visits websites for international human rights protection and legal aid and writes blog posts about the resistance movement in his village.
+Jelani usa **Tor Browser** per evitare che queste compagnie lo vedano visitare siti web per la protezione internazionale dei diritti umani e l'assistenza legale e scrive post sul blog riguardo il movimento di resistenza nel suo villaggio.
 
-He also uses **OnionShare** and **SecureDrop** to securely send documents to journalists who are helping expose these human rights violations.
+Usa anche **OnionShare** e **SecureDrop** per inviare in sicurezza documenti ai giornalisti che aiutano ad esporre queste violazioni dei diritti umani.
 
-All of this software uses Tor to help protect Jelani’s privacy. 
+Tutto questo software utilizza Tor per proteggere la privacy di Jelani.
 
-### Human rights activists like Jelani are fighting for justice in their communities, and Tor helps power their resistance.
+### Attivisti per i diritti umani come Jelani, combattono per la giustizia nelle loro comunità e Tor sostiene la forza della loro resistenza.
 
 ---
 
-# 4. TOR FOR ANTI-CENSORSHIP
+# 4. TOR CONTRO LA CENSURA
 
-### Build bridges not walls
+### Costruire ponti, non muri
 
-Jean was traveling for the first time to a country far from his family.
+Jean viaggiava per la prima volta in un paese lontano dalla sua famiglia.
 
-After arriving at a hotel, he opened his laptop.
+Dopo essere arrivato all'hotel, aprì il suo pc portatile.
 
-He was so exhausted that when the message "Connection has timed out" first appeared on his web browser, he thought it was due to his own error.
+Era così esausto che quando il messaggio "Connection has time out" apparve per la prima volta sul suo browser, pensò che fosse dovuto ad un suo errore.
 
-But after trying again and again, he realized that his email provider, a news website, and many apps were unavailable. 
+Ma dopo aver provato e riprovato, realizzò che il suo provider e-mail, un sito di notizie e molte applicazioni non erano disponibili.
 
-He had heard that this country censors the internet and wondered if that was happening.
-How could he contact his family from behind this impenetrable wall?
-After doing some web searches, he found a forum and read about VPNs, private services that allow you to connect to another uncensored network.
+Aveva sentito dire che questo paese censura Internet e si chiede se ciò stia accadendo.
+Come poteva contattare la sua famiglia da dietro questo muro impenetrabile?
+Dopo aver effettuato alcune ricerche sul Web, ha trovato un forum e ha letto riguardo le VPN, servizi privati ​​che consentono di connettersi ad un'altra rete non censurata.
 
-Jean spent half an hour trying to figure out which cheap VPN was best.
+Jean ha speso mezz'ora provando a capire quale VPN economica fosse la migliore.
 
-He chose one and for a moment it seemed to work, but after five minutes the connection went offline and the VPN would no longer connect. 
+Ne scelse uno e per un momento sembrò funzionare, ma dopo cinque minuti la connessione andò offline e la VPN non si collegava più.
 
-Jean kept reading to find other options and learned about Tor Browser and how it can circumvent censorship.
+Jean continuava a leggere per trovare altre opzioni e apprese l'esistenza del Browser Tor e del come può aggirare la censura. 
 
-He found an official website mirror to download the program.
+Ha trovato un sito web mirror ufficiale per scaricare il programma.
 
-When he opened **Tor Browser**, he followed the prompts for censored users and connected to a bridge which allowed him to access the internet again.
+Quando ha aperto **Tor Browser**, ha seguito le istruzioni per gli utenti censurati e si è connesso a un bridge che gli ha permesso di accedere nuovamente a Internet.
 
-With Tor Browser, Jean can browse freely and privately and contact his family. 
+Con Tor Browser, Jean può navigare liberamente e privatamente, contattando la sua famiglia.
 
-### Censored users all over the world rely on Tor Browser for a free, stable, and uncensored way to access the internet.
+### Gli utenti censurati di tutto il mondo si affidano a Tor Browser per un modo gratuito, stabile e non censurato di accedere a Internet.
 
 ---
 
