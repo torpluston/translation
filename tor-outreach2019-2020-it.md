@@ -1,12 +1,12 @@
-# Tor Outreach Material 2019-2020
+# Materiale 2019-2020 di Tor Outreach
 
-# 1. TOR FOR PRIVACY 
+# 1. TOR PER LA PRIVACY
 
-### Privacy is a human right
+### La privacy è un diritto umano
 
-Like many of us, Aleisha spends most of her time online--connecting with friends, posting on social media, and browsing the web.
+Come molti di noi, Aleisha spende molto del suo tempo online--connettendosi con gli amici, postando sui social media e navigando in rete.
 
-But lately, she's noticed that advertisements related to her previous searches are following her around online.
+Ma più tardi, notò che le pubblicità relative alle sue ricerche precedenti la stavano seguendo in tutta la rete.
 
 This feels so invasive that she does some research on online ads and learns that it's not just advertisers tracking her but also her ISP, analytics companies, social media platforms, and more.
 
