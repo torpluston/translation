@@ -6,9 +6,9 @@
 
 Come molti di noi, Aleisha spende molto del suo tempo online--connettendosi con gli amici, postando sui social media e navigando in rete.
 
-Ma più tardi, notò che le pubblicità relative alle sue ricerche precedenti la stavano seguendo in tutta la rete.
+Ma più tardi, nota che le pubblicità relative alle sue ricerche precedenti la stavano seguendo in tutta la rete.
 
-Fu così invasivo che fece alcune ricerche online circa gli ads e capì che non solo le pubblicità la tracciavano, ma anche il suo ISP, compagnie analitiche, piattaforme social media e altri.
+È così invasivo che inizia a fare alcune ricerche online circa gli ads e capisce che non solo le pubblicità la stavano tracciando, ma anche il suo ISP, compagnie analitiche, piattaforme social media e altri.
 
 Aleisha decide di voler cercare e usare un programma che non conservi i suoi dati, non la tracci, e non divulghi ad altri servizi nessuna informazione privata riguardo a lei.
 
@@ -18,19 +18,19 @@ Frequenta un corso sulla privacy in un hackerpace locale e scopre **Tor Browser*
 
 # 2. TOR PER LE FEMMINISTE
 
-### Il futuro è cyberfemminile
+### Il futuro è cyberfemminista
 
-Fernanda gestisce un collettivo di donne incentrato verso i diritti riproduttivi in Brasile, dove l'aborto è illegale.
+Fernanda gestisce un collettivo di donne incentrato sui diritti riproduttivi in Brasile, dove l'aborto è illegale.
 
 Fernanda e le sue colleghe hanno costruito un sito web con informazioni riguardo l'accesso all'aborto, il controllo delle nascite e altre risorse per le persone che cercano informazioni circa la riproduzione.
 
 Se questo sito fosse stato collegato a loro, avrebbero rischiato l'arresto--o peggio.
 
-per proteggersi, Fernanda e le sue colleghe crearono un sito usando Tor **onion services**. I servizi Onion non solo le protessero dall'essere scoperte come operatrici del server ma aiutarono a proteggere anche i visitatori del loro sito, richiedendo l'uso del Browser Tor.
+Per proteggersi, Fernanda e le sue colleghe crearono un sito usando Tor **onion services**. I servizi Onion non solo le protessero dall'essere scoperte come operatrici del server ma aiutarono a proteggere anche i visitatori del loro sito, richiedendo l'uso del Browser Tor.
 
 Infatti, Fernanda usa **Tor Browser** per tutta la sua navigazione in rete solo per essere nel lato sicuro.
 
-Usa anche una app di Tor chiamata **OnionShare** per inviare files algi altri attivisti in modo sicuro e privato.
+Usa anche una app di Tor chiamata **OnionShare** per inviare files agli altri attivisti in modo sicuro e privato.
 
 ### Attivisti per i diritti riproduttivi come Fernanda stanno combattendo per le libertà fondamentali e Tor aiuta a rafforzare la loro resistenza.
 
@@ -42,7 +42,7 @@ Usa anche una app di Tor chiamata **OnionShare** per inviare files algi altri at
 
 Jelani vive in un piccolo villaggio dove un ampio fiume vi scorre attraverso.
 
-Questo fiume ha fornito acqua alla sua comunità fin dal tempo dei suoi antenati.
+Questo fiume ha fornito acqua alla sua comunità fin dai tempi dei suoi antenati.
 
 Ma oggi, il fiume di Jelani è minacciato da potenti compagnie multinazionali che estraggono petrolio nella regione.
 
@@ -66,7 +66,7 @@ Jean viaggiava per la prima volta in un paese lontano dalla sua famiglia.
 
 Dopo essere arrivato all'hotel, aprì il suo pc portatile.
 
-Era così esausto che quando il messaggio "Connection has time out" apparve per la prima volta sul suo browser, pensò che fosse dovuto ad un suo errore.
+Era così esausto che quando il messaggio "La connessione è scaduta" apparve per la prima volta sul suo browser, pensò che fosse dovuto ad un suo errore.
 
 Ma dopo aver provato e riprovato, realizzò che il suo provider e-mail, un sito di notizie e molte applicazioni non erano disponibili.
 
@@ -74,9 +74,9 @@ Aveva sentito dire che questo paese censura Internet e si chiede se ciò stia ac
 Come poteva contattare la sua famiglia da dietro questo muro impenetrabile?
 Dopo aver effettuato alcune ricerche sul Web, ha trovato un forum e ha letto riguardo le VPN, servizi privati ​​che consentono di connettersi ad un'altra rete non censurata.
 
-Jean ha speso mezz'ora provando a capire quale VPN economica fosse la migliore.
+Jean ha passato mezz'ora provando a capire quale VPN economica fosse la migliore.
 
-Ne scelse uno e per un momento sembrò funzionare, ma dopo cinque minuti la connessione andò offline e la VPN non si collegava più.
+Ne scelse una e per un momento sembrò funzionare, ma dopo cinque minuti la connessione andò offline e la VPN non si collegava più.
 
 Jean continuava a leggere per trovare altre opzioni e apprese l'esistenza del Browser Tor e del come può aggirare la censura. 
 
@@ -107,7 +107,7 @@ Altre applicazioni, come SecureDrop e OnionShare, usano Tor per proteggere i pro
 
 Amal vuole visitare il sito web di Bekele in privato, quindi apre Tor Browser.
 
-Tor Browser seleziona un circuito random formato da tre relays, i quali sono computer in tutto il mondo configurati per indirizzare il traffico nella rete Tor.
+Tor Browser seleziona un circuito random formato da tre relays, i quali sono computer in tutto il mondo configurati per indirizzare il traffico attraverso la rete Tor.
 
 Tor Browser quindi cripta la sua richiesta verso un sito web per tre volte e la invia al primo relay del circuito Tor.
 
@@ -133,30 +133,30 @@ Tor è disegnato per la privacy. Non sappiamo chi sono i nostri utenti e non ten
 
 Gli operatori dei relay Tor non possono rivelare la vera identità degli utenti Tor.
 
-La continua revisione dei nodi del codice sorgente di Tor da parte di comunità accademiche e open source assicura che non ci siano scappatoie in Tor, e il nostro contratto sociale promette che non creeremo mai scorciatoie in Tor.
+La continua revisione dei nodi del codice sorgente di Tor da parte di comunità accademiche e open source assicura che non ci siano sotterfugi in Tor, e il nostro contratto sociale promette che non creeremo mai espedienti in Tor.
 
 ## 7. Unisciti alla comunità di Tor
 
 Tor è reso possibile da un insieme diversificato di utenti, sviluppatori, operatori di relay e avvocati di tutto il mondo.
 
-We need your help to make Tor more usable and secure for people everywhere.
+Abbiamo bisogno del tuo aiuto per rendere Tor più fruibile e sicuro per le persone, ovunque esse siano.
 
-You can volunteer with Tor by writing code, running a relay, creating documentation, offering user support, or telling people in your community about Tor.
+Puoi fare volontariato con Tor scrivendo il codice, gestendo un relay, creando documentazione, offrendo supporto agli utenti o raccontando alla gente della tua comunità circa Tor.
 
-The Tor community is governed by a code of conduct, and we outline our set of promises to the community in our social contract. 
+La comunità di Tor è governata da un codice di condotta e delineiamo il nostro insieme di promesse alla comunità nel nostro contratto sociale.
 
-Learn more about Tor by visiting our website, our wiki, finding us on IRC, joining one of our mailing lists, or signing up for Tor News at newsletter.torproject.org.
+Scopri di più su Tor visitando il nostro sito Web, la nostra wiki, trovandoci su IRC, iscrivendoti a una delle nostre mailing list o iscrivendoti a Tor News a newsletter.torproject.org.
 
 
-## 8. Download Tor
+## 8. Scaricare Tor
 
-Tor for Desktop
+Tor per Desktop
 torproject.org/download
 
-TOR ON MOBILE
-### Android 
-Tor Browser for Android is available from GooglePlay.
+TOR SU MOBILE
+### Android
+Tor Browser per Android è disponibile su GooglePlay.
 
 ### iOS
-Onion Browser, developed by M. Tigas, is the only browser we recommend for iOS.
+Onion Browser, sviluppato da M. Tigas, p l'unico browser che raccomandiamo per iOS.
 
