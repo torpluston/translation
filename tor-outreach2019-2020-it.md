@@ -90,22 +90,22 @@ Con Tor Browser, Jean può navigare liberamente e privatamente, contattando la s
 
 ---
 
-# 5. Shared Sections
+# 5. Sezioni Comuni
 
 ## Cos'è Tor?
 
-Tor is free software and an open network that helps protect you from tracking, surveillance, and censorship online.
-Tor is created for free by a 501(c)3 U.S.-based nonprofit called the Tor Project. 
+Tor è un software gratuito e una rete aperta che ti aiuta a proteggerti dal monitoraggio, dalla sorveglianza e dalla censura online.
+Tor è stato creato gratuitamente da un'organizzazione non profit di 501(c)3 degli Stati Uniti chiamata Tor Project.
 
-The easiest way to use Tor is Tor Browser.
-When you use Tor Browser, no one can see what websites you visit or where in the world you’re coming from. 
+Il modo più semplice per usare Tor è Tor Browser.
+Quando usi Tor Browser, nessuno può vedere quali siti web visiti o da quale parte del mondo provieni.
 
-Other applications, like SecureDrop and OnionShare, use Tor to protect their users against surveillance and censorship.
+Altre applicazioni, come SecureDrop e OnionShare, usano Tor per proteggere i propri utenti contro la sorveglianza e la censura.
 
 
-## 6. How does Tor work?
+## 6. Come funziona Tor?
 
-Amal wants to visit Bekele’s website privately, so she opens Tor Browser.
+Amal vuole visitare il sito web di Bekele in privato, quindi apre Tor Browser.
 
 Tor Browser selects a random circuit of three relays, which are computers all over the world configured to route traffic over the Tor network.
 
