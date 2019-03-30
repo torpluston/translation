@@ -107,37 +107,37 @@ Altre applicazioni, come SecureDrop e OnionShare, usano Tor per proteggere i pro
 
 Amal vuole visitare il sito web di Bekele in privato, quindi apre Tor Browser.
 
-Tor Browser selects a random circuit of three relays, which are computers all over the world configured to route traffic over the Tor network.
+Tor Browser seleziona un circuito random formato da tre relays, i quali sono computer in tutto il mondo configurati per indirizzare il traffico nella rete Tor.
 
-Tor Browser then encrypts her website request three times and sends it to the first Tor relay in her circuit.
+Tor Browser quindi cripta la sua richiesta verso un sito web per tre volte e la invia al primo relay del circuito Tor.
 
-The first relay removes the first encryption layer but doesn't learn that the destination is Bekele’s website.
+Il primo relay rimuove il primo strato di cifratura ma non apprende che la destinazione è il sito di Bekele.
 
-The first relay learns only the next location in the circuit, which is the second relay.
+Il primo relay apprende solo la prossima locazione nel circuito, cioè il secondo relay.
 
-The second relay removes another encryption layer and forwards the web page request to the third relay.
+Il secondo relay rimuove un altro strato di cifratura e inoltra la richiesta verso il sito web al terzo relay.
 
-The third relay removes the last encryption layer and forwards the web page request to its destination, Bekele’s website, but it doesn't know the request comes from Amal.
+Il terzo relay rimuove l'ultimo livello di crittografia e inoltra la richiesta della pagina Web alla sua destinazione, il sito Web di Bekele, ma non sa che la richiesta proviene da Amal.
 
-Bekele doesn't know that the website request came from Amal unless she tells him so.
+Bekele non sa che la richiesta del sito web proviene da Amal a meno che lei non glielo dica.
 
-## 7. Who uses Tor? 
+## 7. Chi usa Tor?
 
-People all over the world use Tor to protect their privacy and access the web freely.
+Persone in tutto il mondo usano Tor per proteggere la loro privacy e accedere liberamente al web.
 
-Tor helps protect journalists, human rights defenders, domestic violence victims, academic researchers, and anyone experiencing tracking, censorship, or surveillance. 
+Tor aiuta a proteggere giornalisti, difensori dei diritti umani, vittime di violenza domestica, ricercatori accademici e chiunque stia subendo monitoraggi, censure o sorveglianze.
 
-## 6. Why trust Tor?
+## 6. Perché fidarsi di Tor?
 
-Tor is designed for privacy. We don’t know who our users are, and we don't keep logs of user activity.
+Tor è disegnato per la privacy. Non sappiamo chi sono i nostri utenti e non teniamo registri delle loro attività.
 
-Tor relay operators cannot reveal the true identity of Tor users.
+Gli operatori dei relay Tor non possono rivelare la vera identità degli utenti Tor.
 
-Continual peer review of Tor's source code by academic and open source communities ensures that there are no backdoors in Tor, and our social contract promises that we will never backdoor Tor. 
+La continua revisione dei nodi del codice sorgente di Tor da parte di comunità accademiche e open source assicura che non ci siano scappatoie in Tor, e il nostro contratto sociale promette che non creeremo mai scorciatoie in Tor.
 
-## 7. Join the Tor community
+## 7. Unisciti alla comunità di Tor
 
-Tor is made possible by a diverse set of users, developers, relay operators, and advocates from around the world.
+Tor è reso possibile da un insieme diversificato di utenti, sviluppatori, operatori di relay e avvocati di tutto il mondo.
 
 We need your help to make Tor more usable and secure for people everywhere.
 
