@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: Tor Project\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-01-14 21:20+0100\n"
-"PO-Revision-Date: 2019-03-29 22:03+0000\n"
+"PO-Revision-Date: 2019-03-31 19:14+0000\n"
 "Last-Translator: Moo\n"
 "Language-Team: Lithuanian (http://www.transifex.com/otf/torproject/language/lt/)\n"
 "MIME-Version: 1.0\n"
@@ -200,7 +200,7 @@ msgstr "Pridėti {packages} į jūsų papildomą programinę įrangą?"
 msgid ""
 "To install it automatically from your persistent storage when starting "
 "Tails."
-msgstr ""
+msgstr "Kad, paleidžiant Tails, ji būtų automatiškai įdiegiama iš ilgalaikio kaupiklio."
 
 #: config/chroot_local-includes/usr/local/sbin/tails-additional-software:293
 msgid "Install Every Time"
@@ -236,13 +236,13 @@ msgstr "Jūsų ilgalaikio kaupiklio sukūrimas nepavyko."
 #: config/chroot_local-includes/usr/local/sbin/tails-additional-software:341
 #, python-brace-format
 msgid "You could install {packages} automatically when starting Tails"
-msgstr ""
+msgstr "Paleisdami Tails, galėtumėte automatiškai įdiegti {packages}"
 
 #: config/chroot_local-includes/usr/local/sbin/tails-additional-software:344
 msgid ""
 "To do so, you need to run Tails from a USB stick installed using <i>Tails "
 "Installer</i>."
-msgstr ""
+msgstr "Norėdami tai padaryti, turite iš USB atmintuko paleisti Tails, įdiegtą naudojant <i>Tails diegimo programą</i>."
 
 #. Translators: Don't translate {packages}, it's a placeholder and will be
 #. replaced.
@@ -310,7 +310,7 @@ msgstr "Dokumentacija"
 msgid ""
 "Remove {package} from your additional software? This will stop installing "
 "the package automatically."
-msgstr ""
+msgstr "Šalinti {package} iš jūsų papildomos programinės įrangos? Paketas daugiau nebebus įdiegiamas automatiškai."
 
 #. Translators: Don't translate {pkg}, it's a placeholder and will be
 #. replaced.
@@ -488,7 +488,7 @@ msgstr "Tor"
 
 #: config/chroot_local-includes/usr/share/gnome-shell/extensions/torstatus@tails.boum.org/extension.js:55
 msgid "Open Onion Circuits"
-msgstr ""
+msgstr "Atverti Onion grandines"
 
 #: config/chroot_local-includes/usr/local/sbin/unsafe-browser:38
 msgid "Do you really want to launch the Unsafe Browser?"
@@ -585,7 +585,7 @@ msgstr "{volume_name} (Tik skaitymui)"
 #: config/chroot_local-includes/usr/local/lib/python3/dist-packages/unlock_veracrypt_volumes/volume.py:115
 #, python-brace-format
 msgid "{partition_name} in {container_path}"
-msgstr ""
+msgstr "{partition_name} ties {container_path}"
 
 #. Translators: Don't translate {volume_name} and {path_to_file_container},
 #. they are placeholders and will be replaced. You should only have to
@@ -601,7 +601,7 @@ msgstr "{volume_name} – {path_to_file_container}"
 #: config/chroot_local-includes/usr/local/lib/python3/dist-packages/unlock_veracrypt_volumes/volume.py:128
 #, python-brace-format
 msgid "{partition_name} on {drive_name}"
-msgstr ""
+msgstr "{partition_name} ties {drive_name}"
 
 #. Translators: Don't translate {volume_name} and {drive_name},
 #. they are placeholders and will be replaced. You should only have to
@@ -631,7 +631,7 @@ msgstr "Nepavyko atrakinti tomo {volume_name}:\n{error_message}"
 
 #: config/chroot_local-includes/usr/local/lib/python3/dist-packages/unlock_veracrypt_volumes/volume_list.py:83
 msgid "No file containers added"
-msgstr ""
+msgstr "Nepridėta jokių failų konteinerių"
 
 #: config/chroot_local-includes/usr/local/lib/python3/dist-packages/unlock_veracrypt_volumes/volume_list.py:98
 msgid "No VeraCrypt devices detected"
@@ -644,7 +644,7 @@ msgstr "Konteineris jau pridėtas"
 #: config/chroot_local-includes/usr/local/lib/python3/dist-packages/unlock_veracrypt_volumes/volume_manager.py:115
 #, python-format
 msgid "The file container %s should already be listed."
-msgstr ""
+msgstr "Failų konteineris %s jau turėtų būti išvardytas."
 
 #: config/chroot_local-includes/usr/local/lib/python3/dist-packages/unlock_veracrypt_volumes/volume_manager.py:131
 msgid "Container opened read-only"
@@ -657,7 +657,7 @@ msgstr "Konteineris atvertas tik skaitymui"
 msgid ""
 "The file container {path} could not be opened with write access. It was opened read-only instead. You will not be able to modify the content of the container.\n"
 "{error_message}"
-msgstr ""
+msgstr "Nepavyko atverti failų konteinerio {path} su rašymo prieiga. Vietoj to, jis buvo atvertas tik skaitymui. Jūs negalėsite modifikuoti konteinerio turinio.\n{error_message}"
 
 #: config/chroot_local-includes/usr/local/lib/python3/dist-packages/unlock_veracrypt_volumes/volume_manager.py:138
 msgid "Error opening file"
@@ -685,7 +685,7 @@ msgstr ""
 
 #: config/chroot_local-includes/usr/local/lib/python3/dist-packages/unlock_veracrypt_volumes/volume_manager.py:209
 msgid "Choose File Container"
-msgstr ""
+msgstr "Pasirinkti failų konteinerį"
 
 #: ../config/chroot_local-includes/etc/skel/Desktop/Report_an_error.desktop.in.h:1
 msgid "Report an error"
@@ -726,7 +726,7 @@ msgstr "Atrakinti VeraCrypt tomus"
 
 #: ../config/chroot_local-includes/usr/share/applications/unlock-veracrypt-volumes.desktop.in.h:2
 msgid "Mount VeraCrypt encrypted file containers and devices"
-msgstr ""
+msgstr "Prijungti VeraCrypt šifruotus failų konteinerius ir įrenginius"
 
 #: ../config/chroot_local-includes/usr/share/applications/org.boum.tails.additional-software-config.desktop.in.h:1
 msgid "Additional Software"
@@ -758,7 +758,7 @@ msgstr ""
 
 #: ../config/chroot_local-includes/usr/share/unlock-veracrypt-volumes/ui/main.ui.in:61
 msgid "File Containers"
-msgstr ""
+msgstr "Failų konteineriai"
 
 #: ../config/chroot_local-includes/usr/share/unlock-veracrypt-volumes/ui/main.ui.in:80
 msgid "_Add"
@@ -766,7 +766,7 @@ msgstr "_Pridėti"
 
 #: ../config/chroot_local-includes/usr/share/unlock-veracrypt-volumes/ui/main.ui.in:86
 msgid "Add a file container"
-msgstr ""
+msgstr "Pridėti failų konteinerį"
 
 #: ../config/chroot_local-includes/usr/share/unlock-veracrypt-volumes/ui/main.ui.in:103
 msgid "Partitions and Drives"
@@ -776,7 +776,7 @@ msgstr "Skaidiniai ir diskai"
 msgid ""
 "This application is not affiliated with or endorsed by the VeraCrypt project"
 " or IDRIX."
-msgstr ""
+msgstr "Ši programa neturi ryšių su VeraCrypt projektu ar IDRIX ir nėra jų remiama."
 
 #: ../config/chroot_local-includes/usr/share/unlock-veracrypt-volumes/ui/volume.ui.in:38
 msgid "Lock this volume"
