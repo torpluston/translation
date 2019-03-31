@@ -1,8 +1,8 @@
 # Tor Outreach Material 2019-2020
 
-# 1. TOR FOR PRIVACY 
+# 1. TOR FIR PRIVATSPHÄR
 
-### Privacy is a human right
+### Privatsphär ass en Mënscherecht
 
 Like many of us, Aleisha spends most of her time online--connecting with friends, posting on social media, and browsing the web.
 
