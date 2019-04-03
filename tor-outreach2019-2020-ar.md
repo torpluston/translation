@@ -1,18 +1,18 @@
 # Tor Outreach Material 2019-2020
 
-# 1. TOR FOR PRIVACY 
+# 1. TOR للخصوصية
 
-### Privacy is a human right
+### الخصوصية هي حق من حقوق الإنسان
 
-Like many of us, Aleisha spends most of her time online--connecting with friends, posting on social media, and browsing the web.
+مثل العديد منا ، تقضي Aleisha معظم وقتها عبر الإنترنت - التواصل مع الأصدقاء ، والنشر على وسائل التواصل الاجتماعي ، وتصفح الإنترنت.
 
-But lately, she's noticed that advertisements related to her previous searches are following her around online.
+لكن في الآونة الأخيرة ، لاحظت أن الإعلانات المتعلقة بعمليات البحث السابقة تتابعها على الإنترنت.
 
-This feels so invasive that she does some research on online ads and learns that it's not just advertisers tracking her but also her ISP, analytics companies, social media platforms, and more.
+شعرت بان الامر هاتك للخصوصية لذلك أجرت بعض الأبحاث عن الإعلانات عبر الإنترنت و اكتشفت أن ليست مجرد المعلنين يتعقبونها ولكن أيضًا موفر خدمة الإنترنت لها وشركات التحليلات ومنصات الوسائط الاجتماعية وغير ذلك الكثير.
 
-Aleisha decides she wants to find and use software that doesn't collect her data, doesn't track her, and doesn't tell other services anything private about her.
+قررت Aleisha أنها تريد العثور على برنامج لا يجمع بياناتها واستخدامها في تعقبها واعلام الخدمات الأخرى بأي شيء خاص عنها.
 
-She goes to a privacy training at a local hackerspace and learns about **Tor Browser**, the only web browser that allows her to browse anonymously.
+قامت بالمشاركة بدورة تدريبية على الخصوصية في hackerspace محلي وتعرفت على ** Tor Browser ** ، متصفح الويب الوحيد الذي يسمح لها بالتصفح دون الكشف عن هويته.
 
 ---
 
@@ -36,15 +36,15 @@ She also uses a Tor-powered app called **OnionShare** to send files to other act
 
 ---
 
-# 3. TOR FOR HUMAN RIGHTS
+# 3. TOR لحقوق الإنسان
 
-### Water is life 
+### الماء هو الحياة
 
-Jelani lives in a small village  which a wide river runs through.
+تعيش Jelani في قرية صغيرة يمر بها نهر عريض.
 
-This river has provided water to his community since the days of his ancestors. 
+لقد وفر هذا النهر المياه لمجتمعه منذ أيام أسلافه.
 
-But today, Jelani’s river is threatened by powerful multinational companies drilling for oil in the region.
+لكن نهر Jelani اليوم مهدد من قبل الشركات المتعددة الجنسيات القوية التي تنقب عن النفط في المنطقة.
 
 Private security firms, paid for by these companies, use powerful surveillance mechanisms to monitor the online activities of Jelani and his neighbors in the village who are organizing to protect their sacred river. 
 
@@ -82,11 +82,11 @@ Jean kept reading to find other options and learned about Tor Browser and how it
 
 He found an official website mirror to download the program.
 
-When he opened **Tor Browser**, he followed the prompts for censored users and connected to a bridge which allowed him to access the internet again.
+عندما فتح ** Tor Browser ** ، اتبع التعليمات الخاصة بالمستخدمين الخاضعين للرقابة ومتصلًا بجسر يسمح له بالوصول إلى الإنترنت مرة أخرى.
 
-With Tor Browser, Jean can browse freely and privately and contact his family. 
+مع Tor Browser ، يستطيع Jean التصفح بحرية وسرية والاتصال بأسرته.
 
-### Censored users all over the world rely on Tor Browser for a free, stable, and uncensored way to access the internet.
+### يعتمد المستخدمون الخاضعون للرقابة في جميع أنحاء العالم على متصفح Tor للحصول على وسيلة مجانية ومستقرة وغير خاضعة للرقابة للوصول إلى الإنترنت.
 
 ---
 
@@ -100,16 +100,16 @@ Tor is created for free by a 501(c)3 U.S.-based nonprofit called the Tor Project
 The easiest way to use Tor is Tor Browser.
 When you use Tor Browser, no one can see what websites you visit or where in the world you’re coming from. 
 
-Other applications, like SecureDrop and OnionShare, use Tor to protect their users against surveillance and censorship.
+التطبيقات الأخرى، مثل SecureDrop وOnionShare، تستخدم تور لحماية مستخدميها ضد المراقبة والرقابة.
 
 
-## 6. How does Tor work?
+## 6. كيف يعمل تور؟
 
-Amal wants to visit Bekele’s website privately, so she opens Tor Browser.
+ترغب Amal في زيارة موقع Bekele الخاص ، لذا فتحت متصفح Tor.
 
 Tor Browser selects a random circuit of three relays, which are computers all over the world configured to route traffic over the Tor network.
 
-Tor Browser then encrypts her website request three times and sends it to the first Tor relay in her circuit.
+تقوم Tor Browser بعد ذلك بتشفير طلب موقع الويب الخاص بها ثلاث مرات وإرساله إلى مرحل Tor الأول في دائرتها.
 
 The first relay removes the first encryption layer but doesn't learn that the destination is Bekele’s website.
 
@@ -119,15 +119,15 @@ The second relay removes another encryption layer and forwards the web page requ
 
 The third relay removes the last encryption layer and forwards the web page request to its destination, Bekele’s website, but it doesn't know the request comes from Amal.
 
-Bekele doesn't know that the website request came from Amal unless she tells him so.
+لا تعرف بيكيلي أن طلب الموقع جاء من أمل ما لم تخبره بذلك.
 
-## 7. Who uses Tor? 
+## 7. من يستخدم Tor؟
 
-People all over the world use Tor to protect their privacy and access the web freely.
+يستخدم الناس في جميع أنحاء العالم Tor لحماية خصوصيتهم والوصول إلى الويب بحرية.
 
 Tor helps protect journalists, human rights defenders, domestic violence victims, academic researchers, and anyone experiencing tracking, censorship, or surveillance. 
 
-## 6. Why trust Tor?
+## 6. لماذا تثق تور؟
 
 Tor is designed for privacy. We don’t know who our users are, and we don't keep logs of user activity.
 
@@ -135,7 +135,7 @@ Tor relay operators cannot reveal the true identity of Tor users.
 
 Continual peer review of Tor's source code by academic and open source communities ensures that there are no backdoors in Tor, and our social contract promises that we will never backdoor Tor. 
 
-## 7. Join the Tor community
+## 7. انضم إلى مجتمع Tor
 
 Tor is made possible by a diverse set of users, developers, relay operators, and advocates from around the world.
 
