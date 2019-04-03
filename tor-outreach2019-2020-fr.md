@@ -12,7 +12,7 @@ Elle trouve cela si envahissant qu’elle fait des recherches sur les publicité
 
 Aleisha décide qu’elle veut trouver et utiliser des logiciels qui ne recueillent pas ses données, ne la suivent pas à la trace et ne révèlent rien de confidentiel à son sujet à d’autres services.
 
-Elle suit dans un laboratoire numérique ouvert local une formation sur la protection de la vie privée et découvre le **navigateur Tor Browser**, le seul navigateur Web qui lui permet de naviguer de façon anonyme.
+Elle suit dans un laboratoire numérique ouvert local une formation sur la protection de la vie privée et découvre le **Navigateur Tor**, le seul navigateur Web qui lui permet de naviguer de façon anonyme.
 
 ---
 
@@ -26,9 +26,9 @@ Fernanda et ses collègues ont créé un site Web qui offre des renseignements s
 
 Si l’on pouvait remonter la trace de ce site Web jusqu’à elles, elles pourraient être arrêtées ou pire encore.
 
-Pour se protéger, Fernanda et ses collègues ont créé le site Web en utilisant les **services onion** de Tor. Non seulement les services onion empêchent qu’elles soient découvertes comme opératrices du serveur, mais ils aident également à protéger les visiteurs de leur site Web en exigeant qu’ils utilisent le navigateur Tor Browser.
+Pour se protéger, Fernanda et ses collègues ont créé le site Web en utilisant les **services onion** de Tor. Non seulement les services onion empêchent qu’elles soient découvertes comme opératrices du serveur, mais ils aident également à protéger les visiteurs de leur site Web en exigeant qu’ils utilisent le Navigateur Tor.
 
-En fait, Fernanda utilise le **navigateur Tor Browser** pour toute sa navigation sur le Web, simplement par mesure de sécurité.
+En fait, Fernanda utilise le **Navigateur Tor** pour toute sa navigation sur le Web, simplement par mesure de sécurité.
 
 Elle utilise également une application propulsée par Tor appelée **OnionShare** pour envoyer des fichiers à d’autres activistes en toute sécurité et en toute confidentialité.
 
@@ -48,7 +48,7 @@ Mais aujourd’hui, la rivière de Jelani est menacée par de puissantes multina
 
 Les entreprises de sécurité privées, financées par ces entreprises, utilisent de puissants mécanismes pour surveiller les activités en ligne de Jelani et de ses voisins dans le village qui s’organisent pour protéger leur rivière sacrée.
 
-Jelani utilise le **navigateur Tor Browser** pour empêcher ces entreprises de le surveiller alors qu’il visite des sites Web sur la protection internationale des droits de la personne et sur l’aide juridique, et rédige des articles de blogue sur le mouvement de résistance dans son village.
+Jelani utilise le **Navigateur Tor** pour empêcher ces entreprises de le surveiller alors qu’il visite des sites Web sur la protection internationale des droits de la personne et sur l’aide juridique, et rédige des articles de blogue sur le mouvement de résistance dans son village.
 
 Il utilise également **OnionShare** et **SecureDrop** pour envoyer en toute sécurité des documents aux journalistes qui contribuent à exposer ces violations des droits de la personne.
 
@@ -78,15 +78,15 @@ Jean passa une demi-heure à essayer de déterminer quel RPV bon marché était 
 
 Il en choisit un et pendant un moment il sembla fonctionner, mais après cinq minutes, la connexion tomba hors ligne et le RPV ne se connectait plus.
 
-Jean continua à lire pour trouver d’autres options et découvrit le navigateur Tor Browser et la façon dont il contourne la censure.
+Jean continua à lire pour trouver d’autres options et découvrit le Navigateur Tor et la façon dont il contourne la censure.
 
 Il trouva un miroir officiel du site Web pour télécharger le programme.
 
-Quand il ouvrit le **navigateur Tor Browser**, il suivit les indications pour les utilisateurs censurés et se connecta à un pont qui lui permit à nouveau d’accéder à Internet.
+Quand il ouvrit le **Navigateur Tor**, il suivit les indications pour les utilisateurs censurés et se connecta à un pont qui lui permit à nouveau d’accéder à Internet.
 
-Avec le navigateur Tor Browser, Jean peut naviguer librement, en toute confidentialité, et contacter sa famille.
+Avec le Navigateur Tor, Jean peut naviguer librement, en toute confidentialité, et contacter sa famille.
 
-### Dans le monde entier, des utilisateurs censurés comptent sur le navigateur Tor Browser pour une façon gratuite, stable et non censurée d’accéder à Internet.
+### Dans le monde entier, des utilisateurs censurés comptent sur le Navigateur Tor pour une façon gratuite, stable et non censurée d’accéder à Internet.
 
 ---
 
@@ -97,19 +97,19 @@ Avec le navigateur Tor Browser, Jean peut naviguer librement, en toute confiden
 Tor est un logiciel gratuit et un réseau ouvert qui aident à vous protéger contre le suivi à trace, la surveillance et la censure en ligne.
 Tor est créé gratuitement par un organisme à but non lucratif 501(c)3 situé aux États-Unis appelée Le Projet Tor.
 
-La façon la plus simple d’utiliser Tor est avec le navigateur Tor Browser.
-Quand vous utilisez le navigateur Tor Browser, personne ne peut savoir quels sites Web vous visitez ni d’où, dans le monde, vous venez. 
+La façon la plus simple d’utiliser Tor est avec le Navigateur Tor.
+Quand vous utilisez le Navigateur Tor, personne ne peut savoir quels sites Web vous visitez ni d’où, dans le monde, vous venez. 
 
 D’autres applications telles que SecureDrop et OnionShare utilisent Tor pour protéger leurs utilisateurs contre la surveillance et la censure.
 
 
 ## 6. Comment Tor fonctionne-t-il ?
 
-Amal veut visiter le site Web de Bekele en toute confidentialité, alors elle ouvre le navigateur Tor Browser.
+Amal veut visiter le site Web de Bekele en toute confidentialité, alors elle ouvre le Navigateur Tor.
 
-Le navigateur Tor Browser sélectionne un circuit aléatoire de trois relais, qui sont des ordinateurs partout dans le monde configurés pour acheminer le trafic sur le réseau Tor.
+Le Navigateur Tor sélectionne un circuit aléatoire de trois relais, qui sont des ordinateurs partout dans le monde configurés pour acheminer le trafic sur le réseau Tor.
 
-Le navigateur Tor Browser chiffre alors la requête de son site Web trois fois et l’envoie au premier relais Tor dans son circuit.
+Le Navigateur Tor chiffre alors la requête de son site Web trois fois et l’envoie au premier relais Tor dans son circuit.
 
 Le premier relais supprime la première couche de chiffrement, mais n’apprend pas que la destination est le site Web de Bekele.
 
@@ -155,7 +155,7 @@ torproject.org/download
 
 TOR SUR APPAREIL MOBILE
 ### Android
-Le navigateur Tor Browser pour Android est proposée sur Google Play.
+Le Navigateur Tor pour Android est proposée sur Google Play.
 
 ### iOS
 Le Navigateur Onion, développé par M. Tigas, est le seul navigateur que nous recommandons pour iOS.
