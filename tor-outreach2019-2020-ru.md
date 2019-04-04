@@ -1,24 +1,24 @@
 # Tor Outreach Material 2019-2020
 
-# 1. TOR ЗА КОНФИДЕНЦИАЛЬНОСТЬ
+# 1. TOR И ПРИВАТНОСТЬ
 
-### Человек имеет право на неприкосновенность частной жизни
+### Приватность — ваше право
 
-Как и многие из нас, Алиша проводит много времени онлайн - общаясь с друзьями, оставляя комментарии в соцсетях и просматривая веб-страницы.
+Аня проводит много времени в интернете. Она общается с друзьями, пишет комментарии в соцсетях, ходит по сайтам.
 
-But lately, she's noticed that advertisements related to her previous searches are following her around online.
+Недавно Аня заметила: стоит что-нибудь поискать в сети, как ей начинают показывать соответствующую рекламу.
 
-This feels so invasive that she does some research on online ads and learns that it's not just advertisers tracking her but also her ISP, analytics companies, social media platforms, and more.
+С какой стати? Аня проследила за некоторыми объявлениями. Выяснилось, что за ней следят не только рекламщики, но и ее собственный провайдер, соцсети, аналитики...
 
-Aleisha decides she wants to find and use software that doesn't collect her data, doesn't track her, and doesn't tell other services anything private about her.
+Ане нужны программы, которые не будут за ней следить, собирать данные и делиться этими личными данными с кем-то еще.
 
-She goes to a privacy training at a local hackerspace and learns about **Tor Browser**, the only web browser that allows her to browse anonymously.
+На одном из тренингов Аня узнала о **Tor Browser.** Это единственный браузер, который позволяет оставаться анонимным в сети.
 
 ---
 
-# 2.TOR FOR FEMINISTS 
+# 2. TOR И ФЕМИНИЗМ
 
-### The future is cyberfeminist
+### Феминизм онлайн и наше будущее
 
 Fernanda runs a women's collective focused on reproductive rights in Brazil, where abortion is illegal.
 

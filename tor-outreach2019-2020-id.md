@@ -16,7 +16,7 @@ She goes to a privacy training at a local hackerspace and learns about **Tor Bro
 
 ---
 
-# 2.TOR FOR FEMINISTS 
+# 2.TOR UNTUK FEMINIS
 
 ### The future is cyberfeminist
 
@@ -36,9 +36,9 @@ She also uses a Tor-powered app called **OnionShare** to send files to other act
 
 ---
 
-# 3. TOR FOR HUMAN RIGHTS
+# 3. TOR UNTUK HAK ASASI MANUSIA
 
-### Water is life 
+### Air adalah kehidupan
 
 Jelani lives in a small village  which a wide river runs through.
 

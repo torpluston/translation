@@ -4,13 +4,13 @@
 
 ### La privacidad es un derecho humano
 
-Como muchos de nosotros, Aleisha pasa la mayor parte de su tiempo en línea - conectándose con amigos, publicando en redes sociales, y navegando la web.
+Como muchos de nosotros, Marissa pasa la mayor parte de su tiempo en línea - conectándose con amigos, publicando en redes sociales, y navegando la web.
 
 Pero últimamente, ha notado que las publicidades relacionadas con sus búsquedas previas la están siguiendo en línea.
 
-Esto lo siente tan invasivo, que está haciendo alguna investigación acerca de publicidades en línea, y descubre que no sólo son los publicitarios quiénes la están rastreando, sino también su ISP, compañías de análisis de datos, plataformas de redes sociales, y más.
+Esto lo siente tan invasivo, que está haciendo alguna investigación acerca de publicidades en línea, y descubre que no sólo son los publicitarios quiénes la están rastreando, sino también su proveedor de Internet, las compañías de análisis de datos, plataformas de redes sociales, y más.
 
-Aleisha decide que quiere encontrar y usar software que no recopila sus datos, no la rastrea, y no le dice a otros servicios cualquier cosa privada acerca de ella.
+Marissa decide que quiere encontrar y usar software que no recopila sus datos, no la rastrea, y no revela cosas privadas acerca de ella a otros servicios.
 
 Va a un entrenamiento en privacidad a un espacio de hackeo local y aprende acerca del **Tor Browser**, el único navegador web que le permite navegar anónimamente.
 
@@ -24,11 +24,11 @@ Fernanda dirige una colectividad de mujeres enfocada en derechos reproductivos e
 
 Fernanda y sus colegas construyen un sitio web con información acerca de acceso al aborto, control de natalidad, y otros recursos para personas buscando información reproductiva.
 
-Si este sitio web fuera vinculado a ellas, podrían ser arrestadas -- o peor.
+Si este sitio web fuera vinculado a ellas, podrían ser arrestadas -- o algo peor.
 
 Para protegerse a sí mismas, Fernanda y sus colegas crearon el sitio web usando **servicios onion** de Tor. Los servicios onion no sólo las protegen de ser descubiertas como las operadoras del servidor, sino que también ayudan a proteger a los visitantes de su sitio web al requerir que usen el Tor Browser.
 
-De hecho, Fernanda usa el **Tor Browser** para todas sus exploraciones en la web, sólo para estar en lo seguro.
+De hecho, Fernanda usa el **Tor Browser** para todas su navegación en la web, para mantenerse segura.
 
 También usa una aplicación basada en Tor llamada **OnionShare** para enviar archivos a otras activistas en forma segura y privada.
 
@@ -40,7 +40,7 @@ También usa una aplicación basada en Tor llamada **OnionShare** para enviar ar
 
 ### El agua es vida
 
-Jelani vive en una pequeña villa a través de la cual corre un ancho río.
+Iván vive en una pequeña villa a través de la cual corre un ancho río.
 
 Este río ha provisto agua a su comunidad desde los días de sus ancestros.
 

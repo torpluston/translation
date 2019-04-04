@@ -16,7 +16,7 @@
 
 ---
 
-# 2.TOR FOR FEMINISTS 
+# ٢.TOR للنسويات
 
 ### The future is cyberfeminist
 
