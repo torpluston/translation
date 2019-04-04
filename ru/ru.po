@@ -26,15 +26,15 @@
 # Yanis Voloshin <y@7i4.ru>, 2017
 # Yulia <ypoyarko@redhat.com>, 2009
 # Uho Lot <yavinav@gmail.com>, 2016
-# Виктор Ерухин <folkraft@rambler.ru>, 2018
+# Виктор Ерухин <folkraft@rambler.ru>, 2018-2019
 # pistenrammler <inactive+pistenrammler@transifex.com>, 2015
 msgid ""
 msgstr ""
 "Project-Id-Version: Tor Project\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-01-02 09:26+0100\n"
-"PO-Revision-Date: 2019-01-07 09:28+0000\n"
-"Last-Translator: Evgeny Aleksandrov <5678lutya@gmail.com>\n"
+"POT-Creation-Date: 2019-02-24 07:24+0100\n"
+"PO-Revision-Date: 2019-04-04 17:48+0000\n"
+"Last-Translator: Виктор Ерухин <folkraft@rambler.ru>\n"
 "Language-Team: Russian (http://www.transifex.com/otf/torproject/language/ru/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -331,14 +331,17 @@ msgid "Tails Installer"
 msgstr "Установщик Tails"
 
 #: ../tails_installer/gui.py:441
-msgid "Tails Installer is deprecated"
-msgstr "Установщик Tails не рекомендуется для дальнейшего использования"
+msgid "Tails Installer is deprecated in Debian"
+msgstr "Установщик Tails устарел в Debian"
 
 #: ../tails_installer/gui.py:443
 msgid ""
-"To install a new Tails, see the <a href='https://tails.boum.org/install/'>installation documentation</a>.\n"
-"To upgrade an existing Tails, see the <a href='https://tails.boum.org/upgrade/'>upgrade documentation</a>."
-msgstr "Чтобы установить новый Tails, смотрите <a href='https://tails.boum.org/install/'>инструкцию по установке</a>.\nЧтобы обновить существующую Tails, смотрите <a href='https://tails.boum.org/upgrade/'>инструкцию по обновлению</a>."
+"To install Tails from scratch, use GNOME Disks instead.\n"
+"<a href='https://tails.boum.org/install/linux/usb-overview'>See the installation instructions</a>\n"
+"\n"
+"To upgrade Tails, do an automatic upgrade from Tails or a manual upgrade from Debian using a second USB stick.\n"
+"<a href='https://tails.boum.org/upgrade/tails-overview'>See the manual upgrade instructions</a>"
+msgstr "Для установки Tails из исходных кодов, используйте GNOME Disks.\n<a href='https://tails.boum.org/install/linux/usb-overview'>Смотрите инструкции по установке</a>\n\nЧтобы обновить Tails, выполните автоматическое обновление с Tails или ручное обновление с Debian с помощью второй флешки USB.\n<a href='https://tails.boum.org/upgrade/tails-overview'>Смотрите инструкции по обновлению вручную</a>"
 
 #: ../tails_installer/gui.py:450 ../data/tails-installer.ui.h:2
 msgid "Clone the current Tails"
@@ -499,16 +502,16 @@ msgstr "Невозможно использовать указанный фай�
 msgid "%(filename)s selected"
 msgstr "Выбрано %(filename)s"
 
-#: ../tails_installer/source.py:28
+#: ../tails_installer/source.py:29
 msgid "Unable to find LiveOS on ISO"
 msgstr "Не удалось найти LiveOS в ISO-файле"
 
-#: ../tails_installer/source.py:34
+#: ../tails_installer/source.py:35
 #, python-format
 msgid "Could not guess underlying block device: %s"
 msgstr "Не удалось определить используемый блочный файл устройства: %s"
 
-#: ../tails_installer/source.py:49
+#: ../tails_installer/source.py:50
 #, python-format
 msgid ""
 "There was a problem executing `%s`.\n"
@@ -516,29 +519,29 @@ msgid ""
 "%s"
 msgstr "Возникла проблема при исполнении `%s`.\n%s\n%s"
 
-#: ../tails_installer/source.py:63
+#: ../tails_installer/source.py:64
 #, python-format
 msgid "'%s' does not exist"
 msgstr "'%s' не существует"
 
-#: ../tails_installer/source.py:65
+#: ../tails_installer/source.py:66
 #, python-format
 msgid "'%s' is not a directory"
 msgstr "'%s' не является папкой"
 
-#: ../tails_installer/source.py:75
+#: ../tails_installer/source.py:76
 #, python-format
 msgid "Skipping '%(filename)s'"
 msgstr "Пропущены '%(filename)s'"
 
-#: ../tails_installer/utils.py:44
+#: ../tails_installer/utils.py:55
 #, python-format
 msgid ""
 "There was a problem executing `%s`.%s\n"
 "%s"
 msgstr "Возникла проблема при исполнении `%s`.%s\n%s"
 
-#: ../tails_installer/utils.py:124
+#: ../tails_installer/utils.py:135
 msgid "Could not open device for writing."
 msgstr "Не могу открыть устройство в режиме записи."
 
