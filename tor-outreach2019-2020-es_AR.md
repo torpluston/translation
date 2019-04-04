@@ -40,21 +40,21 @@ También usa una aplicación basada en Tor llamada **OnionShare** para enviar ar
 
 ### El agua es vida
 
-Iván vive en una pequeña villa a través de la cual corre un ancho río.
+Iván vive en una pequeño pueblo a través de la cual corre un ancho río.
 
 Este río ha provisto agua a su comunidad desde los días de sus ancestros.
 
-Pero hoy, el río de Jelani está amenazado por poderosas compañías multinacionales perforando en busca de petróleo en la región.
+Pero hoy, el río que cruza el pueblo de Iván está amenazado por poderosas compañías multinacionales realizando actividades de minería en la región.
 
-Firmas de seguridad privadas, pagadas por éstas compañías, usan poderosos mecanismos de vigilancia para monitorear las actividades en línea de Jelani y sus vecinos en la villa, quienes se están organizando para proteger su río sagrado.
+Firmas de seguridad privadas, pagadas por éstas compañías, usan poderosos mecanismos de vigilancia para monitorear las actividades en línea de Iván y sus vecinos en el pueblo, quienes se están organizando para proteger el río que les provee de agua y nutre sus campos.
 
-Jelani usa el **Tor Browser** para evitar que éstas compañías lo vigilen mientras visita sitios web internacionales para protección de los derechos humanos y asistencia legal, y escribe un blog acerca del movimiento de resistencia en su villa.
+Iván usa el **Tor Browser** para evitar que éstas compañías lo vigilen mientras visita sitios web internacionales para protección de los derechos humanos y asistencia legal, y escribe un blog acerca del movimiento de resistencia en su pueblo.
 
 También usa **OnionShare** y **SecureDrop** para enviar documentos en forma segura a periodistas que están ayudando a exponer estas violaciones a los derechos humanos.
 
-Todo este software usa Tor para ayudar a proteger la privacidad de Jelani.
+Todo este software usa Tor para ayudar a proteger la privacidad de Iván.
 
-### Activistas de derechos humanos como como Jelani están peleando por la justicia en sus comunidades, y Tor ayuda a potenciar su resistencia.
+### Activistas de derechos humanos como como Iván están peleando por la justicia en sus comunidades, y Tor ayuda a potenciar su resistencia.
 
 ---
 
@@ -62,29 +62,29 @@ Todo este software usa Tor para ayudar a proteger la privacidad de Jelani.
 
 ### Construir puentes, no muros
 
-Jean estaba viajando por primera vez a un país lejos de su familia.
+Patricia estaba viajando por primera vez a un país lejos de su familia.
 
 Luego de llegar a un hotel, abrió su laptop.
 
-Estaba tan cansado que cuando el mensaje "La conexión ha expirado" apareció por primera vez en su navegador, pensó que era debido a su propio error.
+Estaba tan cansada que cuando el mensaje "La conexión ha expirado" apareció por primera vez en su navegador, pensó que era debido a su propio error.
 
 Pero luego de tratar una y otra vez, se dió cuenta que su proveedor de correo electrónico, un sitio web de noticias, y muchas aplicaciones no estaban disponibles.
 
 Había escuchado que este país censura Internet, y se preguntó si eso es lo que estaba pasando.
 ¿Cómo podría contactar a su familia desde atrás de este muro impenetrable?
-Luego de hacer algunas búsquedas web, encontró un foro y leyó acerca de RPVs, servicios privados que te permiten conectar a otra red no censurada.
+Luego de hacer algunas búsquedas web, encontró un foro y leyó acerca de las Redes Privadas Virtuales (VPNs en inglés), servicios privados que te permiten conectar a otra red no censurada.
 
-Jean tardó media hora tratando de descubrir cuál de las RPV baratas era mejor.
+Patricia tardó media hora tratando de descubrir cuál de las VPN baratas era mejor.
 
-Eligió una y por un momento pareció funcionar, pero luego de cinco minutos la conexión se interrumpió y la RPV no volvió a conectar.
+Eligió una y por un momento pareció funcionar, pero luego de cinco minutos la conexión se interrumpió y la VPN no volvió a conectar.
 
-Jean siguió leyendo para encontrar otras opciones y aprendió acerca del Tor Browser y cómo puede eludir la censura.
+Patricia siguió leyendo para encontrar otras opciones y aprendió acerca del Tor Browser y cómo puede eludir la censura.
 
 Encontró un espejo de un sitio web oficial para descargar el programa.
 
-Cuando abrió el **Tor Browser**, siguió las solicitudes para usuarios censurados y se conectó a un puente que le permitió  acceder a Internet nuevamente.
+Cuando abrió el **Tor Browser**, siguió los pasos sugeridos para usuarios censurados y se conectó a un puente que le permitió  acceder a Internet nuevamente.
 
-Con el Tor Browser, Jean puede navegar libre y privadamente, y contactar a su familia.
+Con el Tor Browser, Patricia puede navegar libre y privadamente, y contactar a su familia.
 
 ### Usuarios censurados a través de todo el mundo confían en el Tor Browser por una manera libre, estable y no censurada de acceder a Internet.
 
@@ -105,43 +105,43 @@ Otras aplicaciones, como SecureDrop y OnionShare, usan Tor para proteger a sus u
 
 ## 6. ¿Cómo funciona Tor?
 
-Amal quiere visitar el sitio web de Bekele en forma privada, de manera que abre el Tor Browser.
+Jorge quiere visitar el sitio web de Ana en forma privada, de manera que abre el Tor Browser.
 
-El Tor Browser selecciona un circuito aleatorio de tres relevos, los cuales son computadoras alrededor del mundo configuradas para enrutar tráfico sobre la red de Tor.
+El Tor Browser selecciona un circuito aleatorio de tres repetidores, los cuales son computadoras alrededor del mundo configuradas para transportar tráfico sobre la red de Tor.
 
-Luego, el Tor Browser encripta su solicitud del sitio web tres veces y la envía al primer relevo Tor en su circuito.
+Luego, el Tor Browser encripta su solicitud del sitio web tres veces y la envía al primer repetidor Tor en su circuito.
 
-El primer relevo remueve la primera capa de encriptación, pero no sabe que el destino es el sitio web de Bekele.
+El primer repetidor remueve la primera capa de encriptación, pero no sabe que el destino es el sitio web de Bekele.
 
-El primer relevo sabe solamente la siguiente ubicación en el circuito, que es el segundo relevo.
+El primer repetidor solo sabe cuál es el siguiente repetidor en el circuito.
 
-El segundo relevo remueve otra capa de encriptación y reenvía la solicitud de la página web al tercer relevo.
+El segundo repetidor remueve otra capa de encriptación y reenvía la solicitud de la página web al tercer repetidor.
 
-El tercer relevo remueve la última capa de encriptación y reenvía la solicitud de la página web a su destino, el sitio web de Bekele, pero no sabe que la solicitud vino de Amal.
+El tercer repetidor remueve la última capa de encriptación y reenvía la solicitud a la página web de destino, que es el sitio web de Ana, quien no sabrá que la solicitud vino de Jorge.
 
-Bekele no sabe que la solicitud del sitio web vino de Amal, a menos que ella se lo diga.
+Ana no sabe que la solicitud del sitio web vino de Jorge, a menos que él se lo diga.
 
 ## 7. ¿Quién usa Tor?
 
 Personas alrededor de todo el mundo usan Tor para proteger su privacidad y acceder a la web libremente.
 
-Tor ayuda a proteger periodistas, defensores de los derechos humanos, víctimas de violencia doméstica, investigadores académicos, y cualquiera que esté experimentando rastreo, censura o vigilancia.
+Tor ayuda a proteger periodistas, defensores de los derechos humanos, víctimas de violencia doméstica, investigadores académicos, y cualquiera que esté pueda estar sujeto a rastreo, censura o vigilancia.
 
 ## 6. ¿Por qué confiar en Tor?
 
 Tor está diseñado para privacidad. No sabemos quiénes son nuestros usuarios, y no mantenemos registros de sus actividades.
 
-Los operadores de relevos Tor no pueden revelar la verdadera identidad de los usuarios de Tor.
+Los operadores de repetidores Tor no pueden revelar la verdadera identidad de los usuarios de Tor.
 
-La continua revisión por pares del código fuente de Tor, tanto de comunidades de fuente abierta como académicas, asegura que no hay puertas traseras, y nuestro contrato social promete que nunca crearemos una.
+La continua revisión del código fuente de Tor por parte de pares, tanto de comunidades de fuente abierta como académicas, asegura que no hay puertas traseras, y nuestro contrato social promete que nunca crearemos una.
 
 ## 7. Unite a la comunidad Tor
 
-Tor está hecho posible por un diverso conjunto de usuarios, desarrolladores, operadores de relevos y portavoces alrededor del mundo.
+Tor está hecho posible por un diverso conjunto de usuarios, desarrolladores, operadores de repetidores y portavoces alrededor del mundo.
 
 Necesitamos tu ayuda para hacer Tor más utilizable y seguro para personas en todos lados.
 
-Podés hacerte voluntario para Tor escribiendo código, ejecutando un relevo, creando documentación, ofreciendo soporte de usuario, o contándole a las personas en tu comunidad acerca de Tor.
+Podés hacerte voluntario para Tor escribiendo código, poniendo a disposición un repetidor, creando documentación, ofreciendo soporte de usuario, o contándole a las personas en tu comunidad acerca de Tor.
 
 La comunidad de Tor está gobernada por un código de conducta, y delineamos nuestro conjunto de promesas a la comunidad en nuestro contrato social.
 
