@@ -1,4 +1,4 @@
-# Tor Outreach Material 2019-2020
+# مواد دعائية واعلامية لـ TOR للأعوام 2019-2020
 
 # 1. TOR للخصوصية
 
@@ -18,7 +18,7 @@
 
 # 2. Tor للنسويات
 
-### The future is cyberfeminist
+### المستقبل هو سايبر نسوي
 
 Fernanda runs a women's collective focused on reproductive rights in Brazil, where abortion is illegal.
 
