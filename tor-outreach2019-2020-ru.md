@@ -20,9 +20,9 @@
 
 ### Феминизм онлайн и наше будущее
 
-Fernanda runs a women's collective focused on reproductive rights in Brazil, where abortion is illegal.
+Лиза руководит командой женщин, которые занимаются темой репродуктивных прав.
 
-Fernanda and her colleagues built a website with information about abortion access, birth control, and other resources for people seeking reproductive information.
+Вместе они сделали сайт с данными об абортах, контроле над рождаемостью и прочей информацией по теме.
 
 If this website was linked back to them, they could be arrested--or worse. 
 
@@ -36,15 +36,15 @@ She also uses a Tor-powered app called **OnionShare** to send files to other act
 
 ---
 
-# 3. TOR FOR HUMAN RIGHTS
+# 3. TOR И ПРАВА ЧЕЛОВЕКА
 
-### Water is life 
+### Без воды нет жизни
 
-Jelani lives in a small village  which a wide river runs through.
+Миша живет в деревне на берегу большой реки.
 
-This river has provided water to his community since the days of his ancestors. 
+С незапамятных времен жители деревни брали воду из реки.
 
-But today, Jelani’s river is threatened by powerful multinational companies drilling for oil in the region.
+Но ситуация изменилась. Крупная нефтяная компания решила начать добычу нефти в регионе. 
 
 Private security firms, paid for by these companies, use powerful surveillance mechanisms to monitor the online activities of Jelani and his neighbors in the village who are organizing to protect their sacred river. 
 
@@ -58,9 +58,9 @@ All of this software uses Tor to help protect Jelani’s privacy.
 
 ---
 
-# 4. TOR FOR ANTI-CENSORSHIP
+# 4. TOR И ЦЕНЗУРА
 
-### Build bridges not walls
+### Стройте не стены, а мосты
 
 Jean was traveling for the first time to a country far from his family.
 
@@ -90,7 +90,7 @@ With Tor Browser, Jean can browse freely and privately and contact his family.
 
 ---
 
-# 5. Shared Sections
+# 5. Общие части
 
 ## Что такое Tor?
 
