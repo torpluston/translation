@@ -2,7 +2,7 @@
 
 # 1. TOR FOR PRIVACY 
 
-### Privacy is a human right
+### Privatumas yra žmogaus teisė
 
 Like many of us, Aleisha spends most of her time online--connecting with friends, posting on social media, and browsing the web.
 
@@ -92,7 +92,7 @@ With Tor Browser, Jean can browse freely and privately and contact his family.
 
 # 5. Shared Sections
 
-## What is Tor?
+## Kas yra Tor?
 
 Tor is free software and an open network that helps protect you from tracking, surveillance, and censorship online.
 Tor is created for free by a 501(c)3 U.S.-based nonprofit called the Tor Project. 
