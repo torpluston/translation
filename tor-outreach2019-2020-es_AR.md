@@ -26,9 +26,9 @@ Fernanda y sus colegas construyen un sitio web con información acerca de acceso
 
 Si este sitio web fuera vinculado a ellas, podrían ser arrestadas -- o algo peor.
 
-Para protegerse a sí mismas, Fernanda y sus colegas crearon el sitio web usando **servicios onion** de Tor. Los servicios onion no sólo las protegen de ser descubiertas como las operadoras del servidor, sino que también ayudan a proteger a los visitantes de su sitio web al requerir que usen el Tor Browser.
+Para protegerse a sí mismas, Fernanda y sus colegas crearon el sitio web usando **servicios onion** de Tor. Los servicios onion no sólo las protegen de ser descubiertas como las operadoras del servidor, sino que también ayudan a proteger a los visitantes de su sitio web al requerir que usen el Navegador Tor.
 
-De hecho, Fernanda usa el **Tor Browser** para todas su navegación en la web, para mantenerse segura.
+De hecho, Fernanda usa el **Navegador Tor** para todas su navegación en la web, para mantenerse segura.
 
 También usa una aplicación basada en Tor llamada **OnionShare** para enviar archivos a otras activistas en forma segura y privada.
 
@@ -48,7 +48,7 @@ Pero hoy, el río que cruza el pueblo de Iván está amenazado por poderosas com
 
 Firmas de seguridad privadas, pagadas por éstas compañías, usan poderosos mecanismos de vigilancia para monitorear las actividades en línea de Iván y sus vecinos en el pueblo, quienes se están organizando para proteger el río que les provee de agua y nutre sus campos.
 
-Iván usa el **Tor Browser** para evitar que éstas compañías lo vigilen mientras visita sitios web internacionales para protección de los derechos humanos y asistencia legal, y escribe un blog acerca del movimiento de resistencia en su pueblo.
+Iván usa el **Navegador Tor** para evitar que éstas compañías lo vigilen mientras visita sitios web internacionales para protección de los derechos humanos y asistencia legal, y escribe un blog acerca del movimiento de resistencia en su pueblo.
 
 También usa **OnionShare** y **SecureDrop** para enviar documentos en forma segura a periodistas que están ayudando a exponer estas violaciones a los derechos humanos.
 
@@ -78,15 +78,15 @@ Patricia tardó media hora tratando de descubrir cuál de las VPN baratas era me
 
 Eligió una y por un momento pareció funcionar, pero luego de cinco minutos la conexión se interrumpió y la VPN no volvió a conectar.
 
-Patricia siguió leyendo para encontrar otras opciones y aprendió acerca del Tor Browser y cómo puede eludir la censura.
+Patricia siguió leyendo para encontrar otras opciones y aprendió acerca del Navegador Tor y cómo puede eludir la censura.
 
 Encontró un espejo de un sitio web oficial para descargar el programa.
 
-Cuando abrió el **Tor Browser**, siguió los pasos sugeridos para usuarios censurados y se conectó a un puente que le permitió  acceder a Internet nuevamente.
+Cuando abrió el **Navegador Tor**, siguió los pasos sugeridos para usuarios censurados y se conectó a un puente que le permitió  acceder a Internet nuevamente.
 
-Con el Tor Browser, Patricia puede navegar libre y privadamente, y contactar a su familia.
+Con el Navegador Tor, Patricia puede navegar libre y privadamente, y contactar a su familia.
 
-### Usuarios censurados a través de todo el mundo confían en el Tor Browser por una manera libre, estable y no censurada de acceder a Internet.
+### Usuarios censurados a través de todo el mundo confían en el Navegador Tor por una manera libre, estable y no censurada de acceder a Internet.
 
 ---
 
@@ -97,7 +97,7 @@ Con el Tor Browser, Patricia puede navegar libre y privadamente, y contactar a s
 Tor es software libre y una red abierta que ayuda a protegerte de rastreo, vigilancia y censura en línea.
 Tor fue creado gratis por El Proyecto Tor, una organización sin fines de lucro basada en EE.UU., definida bajo 501(c)3.
 
-La manera más fácil de usar Tor es el Tor Browser.
+La manera más fácil de usar Tor es el Navegador Tor.
 Cuando lo usás, nadie puede ver qué sitios web visitás, o de dónde en el mundo estás viniendo.
 
 Otras aplicaciones, como SecureDrop y OnionShare, usan Tor para proteger a sus usuarios en contra de la vigilancia y la censura.
@@ -105,11 +105,11 @@ Otras aplicaciones, como SecureDrop y OnionShare, usan Tor para proteger a sus u
 
 ## 6. ¿Cómo funciona Tor?
 
-Jorge quiere visitar el sitio web de Ana en forma privada, de manera que abre el Tor Browser.
+Jorge quiere visitar el sitio web de Ana en forma privada, de manera que abre el Navegador Tor.
 
-El Tor Browser selecciona un circuito aleatorio de tres repetidores, los cuales son computadoras alrededor del mundo configuradas para transportar tráfico sobre la red de Tor.
+El Navegador Tor selecciona un circuito aleatorio de tres repetidores, los cuales son computadoras alrededor del mundo configuradas para transportar tráfico sobre la red de Tor.
 
-Luego, el Tor Browser encripta su solicitud del sitio web tres veces y la envía al primer repetidor Tor en su circuito.
+Luego, el Navegador Tor encripta su solicitud del sitio web tres veces y la envía al primer repetidor Tor en su circuito.
 
 El primer repetidor remueve la primera capa de encriptación, pero no sabe que el destino es el sitio web de Bekele.
 
@@ -155,7 +155,7 @@ torproject.org/download
 
 TOR EN MÓVILES
 ### Android 
-El Tor Browser para Android está disponible en GooglePlay.
+El Navegador Tor para Android está disponible en GooglePlay.
 
 ### iOS
 Onion Browser, desarrollado por M. Tigas, es el único navegador que recomendamos para iOS.
