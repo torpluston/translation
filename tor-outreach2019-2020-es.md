@@ -26,9 +26,9 @@ Fernanda y sus compañeras crearon un sitio web con información sobre el acceso
 
 Si se vinculara este sitio web a ellas, las podrían arrestar, o peor.
 
-Para protegerse, Fernanda y sus colegas crearon el sitio web utilizando los **servicios cebolla  de Tor**. Los servicios cebolla no sólo las protegen de ser descubiertas como operadoras del servidor, sino que también ayudan a proteger a los visitantes de su sitio web al requerir que usen el Tor Browser.
+Para protegerse, Fernanda y sus colegas crearon el sitio web utilizando los **servicios cebolla  de Tor**. Los servicios cebolla no sólo las protegen de ser descubiertas como operadoras del servidor, sino que también ayudan a proteger a los visitantes de su sitio web al requerir que usen el Navegador Tor.
 
-De hecho, Fernanda utiliza el **Tor Browser** para toda su navegación en la web solo para estar segura.
+De hecho, Fernanda utiliza el **Navegador Tor** para toda su navegación en la web solo para estar segura.
 
 Ella también usa una aplicación de Tor llamada **OnionShare** para enviar archivos a otras activistas de forma segura y privada.
 
@@ -48,7 +48,7 @@ Pero ahora, el río de Jelani se ve amenazado por poderosas compañías multinac
 
 Las empresas de seguridad privadas, pagadas por estas compañías, utilizan poderosos mecanismos de vigilancia para monitorear las actividades en línea de Jelani y sus vecinos de la aldea, que se están organizando para proteger su río sagrado.
 
-Jelani usa el **Tor Browser** para evitar que estas compañías lo vean mientras visita sitios web de protección de derechos humanos y asistencia legal internacionales y escribe en blogs sobre el movimiento de resistencia en su aldea.
+Jelani usa el **Navegador Tor** para evitar que estas compañías lo vean mientras visita sitios web de protección de derechos humanos y asistencia legal internacionales y escribe en blogs sobre el movimiento de resistencia en su aldea.
 
 También usa **OnionShare** y **SecureDrop** para enviar documentos de manera segura a periodistas que están ayudando a hacer público estas violaciones de derechos humanos.
 
@@ -82,7 +82,7 @@ Jean siguió leyendo buscando otras opciones y aprendió sobre el Tor Browser y 
 
 Encontró un mirror oficial para bajarse el programa.
 
-Cuando abrió el **Tor Browser**, siguió las indicaciones para usuarios censurados y se conectó a un puente que le permitió acceder a Internet nuevamente. 
+Cuando abrió el **Navegador Tor**, siguió las indicaciones para usuarios censurados y se conectó a un puente que le permitió acceder a Internet nuevamente. 
 
 Con Tor, Jean puede navegar libre y privadamente y contactar con su familia.
 
@@ -107,9 +107,9 @@ Otras aplicaciones, como SecureDrop y OnionShare, usan Tor para proteger a sus u
 
 Amal quiere visitar la web de Bekele en privado, así que abre el Tor Browser.
 
-El Tor Browser selecciona un circuito aleatorio de tres relays, que son ordenadores de todo el mundo configurados para enrutar el tráfico a través de la red Tor.
+El Navegador Tor selecciona un circuito aleatorio de tres relays, que son ordenadores de todo el mundo configurados para enrutar el tráfico a través de la red Tor.
 
-El Tor Browser a continuación encripta la solicitud del sitio web tres veces y la envía al primer relay Tor del circuito.
+El Navegador Tor a continuación encripta la solicitud del sitio web tres veces y la envía al primer relay Tor del circuito.
 
 El primer relay elimina la primera capa de encriptación pero no se entera de que el destino es la web Bekele.
 
