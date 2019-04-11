@@ -5,323 +5,327 @@
 # Translators:
 # FooBar <thewired@riseup.net>, 2015
 # Júlia Csalová <jcsalova@gmail.com>, 2015
+# Juraj Cigáň <kusavica@gmail.com>, 2019
+# Marek Čápek <capek.marek@gmail.com>, 2019
 # Michal Slovák <michalslovak2@hotmail.com>, 2013
 # Roman 'Kaktuxista' Benji <romanbeno273@gmail.com>, 2014
 # Roman 'Kaktuxista' Benji <romanbeno273@gmail.com>, 2014
 msgid ""
 msgstr ""
-"Project-Id-Version: The Tor Project\n"
+"Project-Id-Version: Tor Project\n"
 "Report-Msgid-Bugs-To: Tails developers <tails@boum.org>\n"
-"POT-Creation-Date: 2015-02-23 13:07+0100\n"
-"PO-Revision-Date: 2015-03-31 13:51+0000\n"
-"Last-Translator: Júlia Csalová <jcsalova@gmail.com>\n"
-"Language-Team: Slovak (http://www.transifex.com/projects/p/torproject/language/sk/)\n"
+"POT-Creation-Date: 2019-03-17 09:03+0100\n"
+"PO-Revision-Date: 2019-04-11 05:45+0000\n"
+"Last-Translator: Marek Čápek <capek.marek@gmail.com>\n"
+"Language-Team: Slovak (http://www.transifex.com/otf/torproject/language/sk/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: sk\n"
-"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+"Plural-Forms: nplurals=4; plural=(n % 1 == 0 && n == 1 ? 0 : n % 1 == 0 && n >= 2 && n <= 4 ? 1 : n % 1 != 0 ? 2: 3);\n"
 
-#: ../lib/Tails/Persistence/Configuration/Presets.pm:48
-msgid "Personal Data"
-msgstr "Súkromné údaje"
-
-#: ../lib/Tails/Persistence/Configuration/Presets.pm:50
-msgid "Keep files stored in the `Persistent' directory"
-msgstr "Zachovať súbory uložené v priečinku `Persistent'"
-
-#: ../lib/Tails/Persistence/Configuration/Presets.pm:58
-msgid "GnuPG"
-msgstr "GnuPG"
-
-#: ../lib/Tails/Persistence/Configuration/Presets.pm:60
-msgid "GnuPG keyrings and configuration"
-msgstr "GnuPG zväzok kľúčov a konfigurácia"
-
-#: ../lib/Tails/Persistence/Configuration/Presets.pm:68
-msgid "SSH Client"
-msgstr "SSH klient"
-
-#: ../lib/Tails/Persistence/Configuration/Presets.pm:70
-msgid "SSH keys, configuration and known hosts"
-msgstr "SSH kľúče, konfigurácia a známi hostovia"
-
-#: ../lib/Tails/Persistence/Configuration/Presets.pm:78
-msgid "Pidgin"
-msgstr "Pidgin"
-
-#: ../lib/Tails/Persistence/Configuration/Presets.pm:80
-msgid "Pidgin profiles and OTR keyring"
-msgstr "Pidgin profily a OTR zväzok kľúčov"
-
-#: ../lib/Tails/Persistence/Configuration/Presets.pm:88
-msgid "Claws Mail"
-msgstr "Claws Mail"
-
-#: ../lib/Tails/Persistence/Configuration/Presets.pm:90
-msgid "Claws Mail profiles and locally stored email"
-msgstr "Claws Mail profily a lokálne uložený email"
-
-#: ../lib/Tails/Persistence/Configuration/Presets.pm:98
-msgid "GNOME Keyring"
-msgstr "GNOME zväzok kľúčov"
-
-#: ../lib/Tails/Persistence/Configuration/Presets.pm:100
-msgid "Secrets stored by GNOME Keyring"
-msgstr "Tajomstvá ukryté GNOME zväzkom kľúčov"
-
-#: ../lib/Tails/Persistence/Configuration/Presets.pm:108
-msgid "Network Connections"
-msgstr "Sieťové pripojenia"
-
-#: ../lib/Tails/Persistence/Configuration/Presets.pm:110
-msgid "Configuration of network devices and connections"
-msgstr "Nastavenia sieťových zariadení a pripojení"
-
-#: ../lib/Tails/Persistence/Configuration/Presets.pm:118
-msgid "Browser bookmarks"
-msgstr "Záložky prehliadača"
-
-#: ../lib/Tails/Persistence/Configuration/Presets.pm:120
-msgid "Bookmarks saved in the Tor Browser"
-msgstr "Záložky uložené v Tor Browseri"
-
-#: ../lib/Tails/Persistence/Configuration/Presets.pm:128
-msgid "Printers"
-msgstr "Tlačiarne"
-
-#: ../lib/Tails/Persistence/Configuration/Presets.pm:130
-msgid "Printers configuration"
-msgstr "Nastavenie tlačiarní"
-
-#: ../lib/Tails/Persistence/Configuration/Presets.pm:138
-msgid "Bitcoin client"
-msgstr "Bitcoin klient"
-
-#: ../lib/Tails/Persistence/Configuration/Presets.pm:140
-msgid "Electrum's bitcoin wallet and configuration"
-msgstr "Electrum bitcoin peňaženka a nastavenie"
-
-#: ../lib/Tails/Persistence/Configuration/Presets.pm:148
-msgid "APT Packages"
-msgstr "APT balíčky"
-
-#: ../lib/Tails/Persistence/Configuration/Presets.pm:150
-msgid "Packages downloaded by APT"
-msgstr "Balíčky stiahnuté pomocou APT"
-
-#: ../lib/Tails/Persistence/Configuration/Presets.pm:158
-msgid "APT Lists"
-msgstr "APT zoznamy"
-
-#: ../lib/Tails/Persistence/Configuration/Presets.pm:160
-msgid "Lists downloaded by APT"
-msgstr "Zoznamy stiahnuté pomocou APT"
-
-#: ../lib/Tails/Persistence/Configuration/Presets.pm:168
-msgid "Dotfiles"
-msgstr "Dotfiles"
-
-#: ../lib/Tails/Persistence/Configuration/Presets.pm:170
-msgid ""
-"Symlink into $HOME every file or directory found in the `dotfiles' directory"
-msgstr "Symbolicky odkazovať do $HOME každý súbor alebo priečinok nájdený v priečinku `dotfiles'"
-
-#: ../lib/Tails/Persistence/Setup.pm:227
+#: ../lib/Tails/Persistence/Setup.pm:265
 msgid "Setup Tails persistent volume"
 msgstr "Nastaviť Tails perzistentné médium"
 
-#: ../lib/Tails/Persistence/Setup.pm:307 ../lib/Tails/Persistence/Setup.pm:451
+#: ../lib/Tails/Persistence/Setup.pm:343 ../lib/Tails/Persistence/Setup.pm:481
 msgid "Error"
 msgstr "Chyba"
 
-#: ../lib/Tails/Persistence/Setup.pm:338
+#: ../lib/Tails/Persistence/Setup.pm:372
 #, perl-format
 msgid "Device %s already has a persistent volume."
 msgstr "Zariadenie %s už má perzistentné médium."
 
-#: ../lib/Tails/Persistence/Setup.pm:346
+#: ../lib/Tails/Persistence/Setup.pm:380
 #, perl-format
 msgid "Device %s has not enough unallocated space."
 msgstr "Zariadenie %s nemá dostatok neprideleného miesta."
 
-#: ../lib/Tails/Persistence/Setup.pm:354 ../lib/Tails/Persistence/Setup.pm:368
+#: ../lib/Tails/Persistence/Setup.pm:387 ../lib/Tails/Persistence/Setup.pm:401
 #, perl-format
 msgid "Device %s has no persistent volume."
 msgstr "Zariadenie %s nemá žiadne perzistentné médium."
 
-#: ../lib/Tails/Persistence/Setup.pm:360
+#: ../lib/Tails/Persistence/Setup.pm:393
+#, perl-format
 msgid ""
-"Cannot delete the persistent volume while in use. You should restart Tails "
-"without persistence."
-msgstr "Nemožno odstrániť perzistentné médium počas doby jeho používania.  Mali by ste reštartovať Tails bez dátovej trvanlivosti."
+"Cannot delete the persistent volume on %s while in use. You should restart "
+"Tails without persistence."
+msgstr "Nie je možné zmazať trvalý oddiel %s kým sa používa. Mali by ste reštartovať Tails bez trvalého oddielu."
 
-#: ../lib/Tails/Persistence/Setup.pm:379
-msgid "Persistence volume is not unlocked."
-msgstr "Perzistentné médium nie je odomknuté."
+#: ../lib/Tails/Persistence/Setup.pm:407
+#, perl-format
+msgid "Persistence volume on %s is not unlocked."
+msgstr "Trvalý oddiel na %s nie je odomknutý."
 
-#: ../lib/Tails/Persistence/Setup.pm:384
-msgid "Persistence volume is not mounted."
-msgstr "Perzistentné médium nie je pripojené."
+#: ../lib/Tails/Persistence/Setup.pm:412
+#, perl-format
+msgid "Persistence volume on %s is not mounted."
+msgstr "Trvalý oddiel na %s nie je pripojený."
 
-#: ../lib/Tails/Persistence/Setup.pm:389
-msgid "Persistence volume is not readable. Permissions or ownership problems?"
-msgstr "Perzistentné médium nie je čitateľné. Problémy s oprávneniami alebo vlastníctvom?"
+#: ../lib/Tails/Persistence/Setup.pm:417
+#, perl-format
+msgid ""
+"Persistence volume on %s is not readable. Permissions or ownership problems?"
+msgstr "Trvalý oddiel na %s nie je čitateľný. Problém s oprávnením alebo vlasníckymi právami?"
 
-#: ../lib/Tails/Persistence/Setup.pm:394
-msgid "Persistence volume is not writable. Maybe it was mounted read-only?"
-msgstr "Perzistentné médium nie je zapisovateľné. Možno bolo pripojené iba ako read-only?"
+#: ../lib/Tails/Persistence/Setup.pm:422
+#, perl-format
+msgid "Persistence volume on %s is not writable."
+msgstr "Na Trvalý oddiel na %s nie je možné zapisovať. "
 
-#: ../lib/Tails/Persistence/Setup.pm:403
+#: ../lib/Tails/Persistence/Setup.pm:431
 #, perl-format
 msgid "Tails is running from non-USB / non-SDIO device %s."
 msgstr "Tails je spustený z non-USB / non-SDIO zariadenia %s."
 
-#: ../lib/Tails/Persistence/Setup.pm:409
+#: ../lib/Tails/Persistence/Setup.pm:437
 #, perl-format
 msgid "Device %s is optical."
 msgstr "Zariadenie %s je optické."
 
-#: ../lib/Tails/Persistence/Setup.pm:416
+#: ../lib/Tails/Persistence/Setup.pm:444
 #, perl-format
 msgid "Device %s was not created using Tails Installer."
 msgstr "Zariadenie %s nebolo vytvorené pomocou inštalátora Tails."
 
-#: ../lib/Tails/Persistence/Setup.pm:676
+#: ../lib/Tails/Persistence/Setup.pm:688
 msgid "Persistence wizard - Finished"
 msgstr "Sprievodca trvanlivosťou dát - Dokončený"
 
-#: ../lib/Tails/Persistence/Setup.pm:679
+#: ../lib/Tails/Persistence/Setup.pm:691
 msgid ""
 "Any changes you have made will only take effect after restarting Tails.\n"
 "\n"
 "You may now close this application."
 msgstr "Akékoľvek zmeny, ktoré ste urobili, sa prejavia až po reštartovaní Tails.\n\nTeraz môžete zatvoriť túro aplikáciu."
 
-#: ../lib/Tails/Persistence/Step/Bootstrap.pm:54
+#: ../lib/Tails/Persistence/Configuration/Setting.pm:113
+msgid "Custom"
+msgstr "Vlastné"
+
+#: ../lib/Tails/Persistence/Configuration/Presets.pm:55
+msgid "Personal Data"
+msgstr "Súkromné údaje"
+
+#: ../lib/Tails/Persistence/Configuration/Presets.pm:57
+msgid "Keep files stored in the `Persistent' directory"
+msgstr "Zachovať súbory uložené v priečinku `Persistent'"
+
+#: ../lib/Tails/Persistence/Configuration/Presets.pm:70
+msgid "Browser Bookmarks"
+msgstr "Záložky prehliadača"
+
+#: ../lib/Tails/Persistence/Configuration/Presets.pm:72
+msgid "Bookmarks saved in the Tor Browser"
+msgstr "Záložky uložené v Tor Browseri"
+
+#: ../lib/Tails/Persistence/Configuration/Presets.pm:85
+msgid "Network Connections"
+msgstr "Sieťové pripojenia"
+
+#: ../lib/Tails/Persistence/Configuration/Presets.pm:87
+msgid "Configuration of network devices and connections"
+msgstr "Nastavenia sieťových zariadení a pripojení"
+
+#: ../lib/Tails/Persistence/Configuration/Presets.pm:100
+msgid "Additional Software"
+msgstr "Ďalší softvér"
+
+#: ../lib/Tails/Persistence/Configuration/Presets.pm:102
+msgid "Software installed when starting Tails"
+msgstr "Softvér inštalovaný pri spustení Tails"
+
+#: ../lib/Tails/Persistence/Configuration/Presets.pm:120
+msgid "Printers"
+msgstr "Tlačiarne"
+
+#: ../lib/Tails/Persistence/Configuration/Presets.pm:122
+msgid "Printers configuration"
+msgstr "Nastavenie tlačiarní"
+
+#: ../lib/Tails/Persistence/Configuration/Presets.pm:135
+msgid "Thunderbird"
+msgstr "Thunderbird"
+
+#: ../lib/Tails/Persistence/Configuration/Presets.pm:137
+msgid "Thunderbird emails, feeds, and settings"
+msgstr "E-maily a nastavenia z Thunderbirdu"
+
+#: ../lib/Tails/Persistence/Configuration/Presets.pm:150
+msgid "GnuPG"
+msgstr "GnuPG"
+
+#: ../lib/Tails/Persistence/Configuration/Presets.pm:152
+msgid "GnuPG keyrings and configuration"
+msgstr "GnuPG zväzok kľúčov a konfigurácia"
+
+#: ../lib/Tails/Persistence/Configuration/Presets.pm:165
+msgid "Bitcoin Client"
+msgstr "Bitcoin klient"
+
+#: ../lib/Tails/Persistence/Configuration/Presets.pm:167
+msgid "Electrum's bitcoin wallet and configuration"
+msgstr "Electrum bitcoin peňaženka a nastavenie"
+
+#: ../lib/Tails/Persistence/Configuration/Presets.pm:180
+msgid "Pidgin"
+msgstr "Pidgin"
+
+#: ../lib/Tails/Persistence/Configuration/Presets.pm:182
+msgid "Pidgin profiles and OTR keyring"
+msgstr "Pidgin profily a OTR zväzok kľúčov"
+
+#: ../lib/Tails/Persistence/Configuration/Presets.pm:195
+msgid "SSH Client"
+msgstr "SSH klient"
+
+#: ../lib/Tails/Persistence/Configuration/Presets.pm:197
+msgid "SSH keys, configuration and known hosts"
+msgstr "SSH kľúče, konfigurácia a známi hostovia"
+
+#: ../lib/Tails/Persistence/Configuration/Presets.pm:210
+msgid "Dotfiles"
+msgstr "Dotfiles"
+
+#: ../lib/Tails/Persistence/Configuration/Presets.pm:212
+msgid ""
+"Symlink into $HOME every file or directory found in the `dotfiles' directory"
+msgstr "Symbolicky odkazovať do $HOME každý súbor alebo priečinok nájdený v priečinku `dotfiles'"
+
+#: ../lib/Tails/Persistence/Step/Bootstrap.pm:90
 msgid "Persistence wizard - Persistent volume creation"
 msgstr "Sprievodca trvanlivosťou dát - Vytvorenie perzistentného média"
 
-#: ../lib/Tails/Persistence/Step/Bootstrap.pm:57
+#: ../lib/Tails/Persistence/Step/Bootstrap.pm:93
 msgid "Choose a passphrase to protect the persistent volume"
 msgstr "Zvoľte si prístupové heslo za účelom ochrany perzistentného média"
 
 #. TRANSLATORS: size, device vendor, device model
-#: ../lib/Tails/Persistence/Step/Bootstrap.pm:61
+#: ../lib/Tails/Persistence/Step/Bootstrap.pm:97
 #, perl-format
 msgid ""
 "A %s persistent volume will be created on the <b>%s %s</b> device. Data on "
 "this volume will be stored in an encrypted form protected by a passphrase."
 msgstr "Perzistentné médium veľkosti %s bude vytvorené na zariadení <b>%s %s</b>. Dáta na tomto médiu budú uložené v zašifrovanej podobe chránenej prístupovým heslom."
 
-#: ../lib/Tails/Persistence/Step/Bootstrap.pm:66
+#: ../lib/Tails/Persistence/Step/Bootstrap.pm:102
 msgid "Create"
 msgstr "Vytvoriť"
 
-#: ../lib/Tails/Persistence/Step/Bootstrap.pm:110
+#: ../lib/Tails/Persistence/Step/Bootstrap.pm:142
 msgid ""
 "<b>Beware!</b> Using persistence has consequences that must be well "
-"understood. Tails can't help you if you use it wrong! See <a "
-"href='file:///usr/share/doc/tails/website/doc/first_steps/persistence.en.html'>Tails"
-" documentation about persistence</a> to learn more."
-msgstr "<b>Pozor!</b> Využívanie dátovej trvanlivosti so sebou obnáša isté následky, ktorým je nutné dobre porozumieť. Tails vam nepomôže ak ju použijete zle! Pozrite si <a href='file:///usr/share/doc/tails/website/doc/first_steps/persistence.en.html'>Tails dokumentáciou o trvanlivosti dát</a> ak sa chcete dozvedieť viac."
+"understood. Tails can't help you if you use it wrong! See the <i>Encrypted "
+"persistence</i> page of the Tails documentation to learn more."
+msgstr "<b>Pozor!</b> Využívanie dátovej trvanlivosti so sebou obnáša isté následky, ktorým je nutné dobre porozumieť. Tails vam nepomôže ak ju použijete zle! Pozrite si <i>Šifrovanie trvnanlivého oddielu</i> v Tails dokumentácii o trvanlivosti dát ak sa chcete dozvedieť viac."
 
-#: ../lib/Tails/Persistence/Step/Bootstrap.pm:144
+#: ../lib/Tails/Persistence/Step/Bootstrap.pm:170
 msgid "Passphrase:"
 msgstr "Heslo:"
 
-#: ../lib/Tails/Persistence/Step/Bootstrap.pm:154
+#: ../lib/Tails/Persistence/Step/Bootstrap.pm:178
 msgid "Verify Passphrase:"
 msgstr "Potvrďte heslo:"
 
-#: ../lib/Tails/Persistence/Step/Bootstrap.pm:167
-#: ../lib/Tails/Persistence/Step/Bootstrap.pm:231
+#: ../lib/Tails/Persistence/Step/Bootstrap.pm:189
+#: ../lib/Tails/Persistence/Step/Bootstrap.pm:245
 msgid "Passphrase can't be empty"
 msgstr "Heslo nesmie byť prázdne"
 
-#: ../lib/Tails/Persistence/Step/Bootstrap.pm:222
+#: ../lib/Tails/Persistence/Step/Bootstrap.pm:236
 msgid "Passphrases do not match"
 msgstr "Heslá sa nezhodujú"
 
-#: ../lib/Tails/Persistence/Step/Bootstrap.pm:262
-#: ../lib/Tails/Persistence/Step/Configure.pm:129
+#: ../lib/Tails/Persistence/Step/Bootstrap.pm:284
+#: ../lib/Tails/Persistence/Step/Delete.pm:103
+#: ../lib/Tails/Persistence/Step/Configure.pm:181
 msgid "Failed"
 msgstr "Zlyhalo"
 
-#: ../lib/Tails/Persistence/Step/Bootstrap.pm:271
+#: ../lib/Tails/Persistence/Step/Bootstrap.pm:292
 msgid "Mounting Tails persistence partition."
 msgstr "Pripája sa Tails perzistentná partícia."
 
-#: ../lib/Tails/Persistence/Step/Bootstrap.pm:274
+#: ../lib/Tails/Persistence/Step/Bootstrap.pm:295
 msgid "The Tails persistence partition will be mounted."
 msgstr "Tails perzistentná partícia bude pripojená."
 
-#: ../lib/Tails/Persistence/Step/Bootstrap.pm:283
+#: ../lib/Tails/Persistence/Step/Bootstrap.pm:304
 msgid "Correcting permissions of the persistent volume."
 msgstr "Korigujú sa oprávnenia perzistentného média."
 
-#: ../lib/Tails/Persistence/Step/Bootstrap.pm:286
+#: ../lib/Tails/Persistence/Step/Bootstrap.pm:307
 msgid "The permissions of the persistent volume will be corrected."
 msgstr "Oprávnenia perzistentného média budú skorigované."
 
-#: ../lib/Tails/Persistence/Step/Bootstrap.pm:308
+#: ../lib/Tails/Persistence/Step/Bootstrap.pm:315
+msgid "Creating default persistence configuration."
+msgstr "Vytvorenie predvolenej konfigurácie trvalého oddielu..."
+
+#: ../lib/Tails/Persistence/Step/Bootstrap.pm:318
+msgid "The default persistence configuration will be created."
+msgstr "Predvolená konfigurácia trvalého oddielu bude vytvorená..."
+
+#: ../lib/Tails/Persistence/Step/Bootstrap.pm:333
 msgid "Creating..."
 msgstr "Vytváram..."
 
-#: ../lib/Tails/Persistence/Step/Bootstrap.pm:311
+#: ../lib/Tails/Persistence/Step/Bootstrap.pm:336
 msgid "Creating the persistent volume..."
 msgstr "Vytvára sa perzistentné médium..."
 
-#: ../lib/Tails/Persistence/Step/Configure.pm:61
+#: ../lib/Tails/Persistence/Step/Delete.pm:53
+msgid "Persistence wizard - Persistent volume deletion"
+msgstr "Sprievodca trvanlivosťou dát - Odstránenie perzistentného média"
+
+#: ../lib/Tails/Persistence/Step/Delete.pm:56
+msgid "Your persistent data will be deleted."
+msgstr "Vaše perzistentné dáta budú uložené."
+
+#: ../lib/Tails/Persistence/Step/Delete.pm:60
+#, perl-format
+msgid ""
+"The persistent volume %s (%s), on the <b>%s %s</b> device, will be deleted."
+msgstr "Perzistentná partícia %s (%s) na zariadení <b>%s %s</b> bude odstránená."
+
+#: ../lib/Tails/Persistence/Step/Delete.pm:66
+msgid "Delete"
+msgstr "Vymazať"
+
+#: ../lib/Tails/Persistence/Step/Delete.pm:117
+msgid "Deleting..."
+msgstr "Odstraňuje sa..."
+
+#: ../lib/Tails/Persistence/Step/Delete.pm:120
+msgid "Deleting the persistent volume..."
+msgstr "Odstraňuje sa perzistentné médium..."
+
+#: ../lib/Tails/Persistence/Step/Configure.pm:88
 msgid "Persistence wizard - Persistent volume configuration"
 msgstr "Sprievodca trvanlivosťou dát - Konfigurácia perzistentného média"
 
-#: ../lib/Tails/Persistence/Step/Configure.pm:64
+#: ../lib/Tails/Persistence/Step/Configure.pm:91
 msgid "Specify the files that will be saved in the persistent volume"
 msgstr "Zvoľte súbory, ktoré budú uložené v perzistentnom médiu"
 
 #. TRANSLATORS: partition, size, device vendor, device model
-#: ../lib/Tails/Persistence/Step/Configure.pm:68
+#: ../lib/Tails/Persistence/Step/Configure.pm:95
 #, perl-format
 msgid ""
 "The selected files will be stored in the encrypted partition %s (%s), on the"
 " <b>%s %s</b> device."
 msgstr "Vybrané súbory budú uložené v zašifrovanej partícii %s (%s) na zariadení <b>%s %s</b>."
 
-#: ../lib/Tails/Persistence/Step/Configure.pm:74
+#: ../lib/Tails/Persistence/Step/Configure.pm:101
 msgid "Save"
 msgstr "Uložiť"
 
-#: ../lib/Tails/Persistence/Step/Configure.pm:143
+#: ../lib/Tails/Persistence/Step/Configure.pm:195
 msgid "Saving..."
 msgstr "Ukladám..."
 
-#: ../lib/Tails/Persistence/Step/Configure.pm:146
+#: ../lib/Tails/Persistence/Step/Configure.pm:198
 msgid "Saving persistence configuration..."
 msgstr "Ukladá sa konfigurácia trvanlivosti dát..."
-
-#: ../lib/Tails/Persistence/Step/Delete.pm:41
-msgid "Persistence wizard - Persistent volume deletion"
-msgstr "Sprievodca trvanlivosťou dát - Odstránenie perzistentného média"
-
-#: ../lib/Tails/Persistence/Step/Delete.pm:44
-msgid "Your persistent data will be deleted."
-msgstr "Vaše perzistentné dáta budú uložené."
-
-#: ../lib/Tails/Persistence/Step/Delete.pm:48
-#, perl-format
-msgid ""
-"The persistent volume %s (%s), on the <b>%s %s</b> device, will be deleted."
-msgstr "Perzistentná partícia %s (%s) na zariadení <b>%s %s</b> bude odstránená."
-
-#: ../lib/Tails/Persistence/Step/Delete.pm:54
-msgid "Delete"
-msgstr "Vymazať"
-
-#: ../lib/Tails/Persistence/Step/Delete.pm:101
-msgid "Deleting..."
-msgstr "Odstraňuje sa..."
-
-#: ../lib/Tails/Persistence/Step/Delete.pm:104
-msgid "Deleting the persistent volume..."
-msgstr "Odstraňuje sa perzistentné médium..."
