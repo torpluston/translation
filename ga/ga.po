@@ -3,13 +3,14 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
-# Kevin Scannell <kscanne@gmail.com>, 2017-2018
+# Emma Peel, 2019
+# Kevin Scannell <kscanne@gmail.com>, 2017-2019
 msgid ""
 msgstr ""
 "Project-Id-Version: Tor Project\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-10-20 12:34+0200\n"
-"PO-Revision-Date: 2018-11-23 04:53+0000\n"
+"POT-Creation-Date: 2019-04-13 08:42+0200\n"
+"PO-Revision-Date: 2019-04-14 11:08+0000\n"
 "Last-Translator: Kevin Scannell <kscanne@gmail.com>\n"
 "Language-Team: Irish (http://www.transifex.com/otf/torproject/language/ga/)\n"
 "MIME-Version: 1.0\n"
@@ -295,123 +296,136 @@ msgstr "Críochnaíodh an tsuiteáil! (%s)"
 msgid "Tails installation failed!"
 msgstr "Theip ar shuiteáil Tails!"
 
-#: ../tails_installer/gui.py:361
+#: ../tails_installer/gui.py:369
 msgid ""
 "Warning: This tool needs to be run as an Administrator. To do this, right "
 "click on the icon and open the Properties. Under the Compatibility tab, "
 "check the \"Run this program as an administrator\" box."
 msgstr "Rabhadh: Ní mór duit an uirlis seo a úsáid mar Riarthóir. Chun é seo a dhéanamh, deaschliceáil an deilbhín agus oscail na hAiríonna. Faoin chluaisín Comhoiriúnacht, cuir tic leis an mbosca \"Rith an clár seo mar riarthóir\"."
 
-#: ../tails_installer/gui.py:373
+#: ../tails_installer/gui.py:381
 msgid "Tails Installer"
 msgstr "Suiteálaí Tails"
 
-#: ../tails_installer/gui.py:423 ../data/tails-installer.ui.h:2
+#: ../tails_installer/gui.py:441
+msgid "Tails Installer is deprecated in Debian"
+msgstr "Tá Suiteálaí Tails dímholta ar Debian"
+
+#: ../tails_installer/gui.py:443
+msgid ""
+"To install Tails from scratch, use GNOME Disks instead.\n"
+"<a href='https://tails.boum.org/install/linux/usb-overview'>See the installation instructions</a>\n"
+"\n"
+"To upgrade Tails, do an automatic upgrade from Tails or a manual upgrade from Debian using a second USB stick.\n"
+"<a href='https://tails.boum.org/upgrade/tails-overview'>See the manual upgrade instructions</a>"
+msgstr "Chun Tails a shuiteáil as an nua, úsáid Dioscaí GNOME ina áit.\n<a href='https://tails.boum.org/install/linux/usb-overview'>Féach na treoracha suiteála</a>\n\nChun Tails a nuashonrú, déan nuashonrú uathoibríoch laistigh de Tails féin, nó nuashonrú de láimh ó Debian le méaróg USB eile.\n<a href='https://tails.boum.org/upgrade/tails-overview'>Féach na treoracha do nuashonrú de láimh</a>"
+
+#: ../tails_installer/gui.py:450 ../data/tails-installer.ui.h:2
 msgid "Clone the current Tails"
 msgstr "Cóipeáil an leagan reatha de Tails"
 
-#: ../tails_installer/gui.py:430 ../data/tails-installer.ui.h:3
+#: ../tails_installer/gui.py:457 ../data/tails-installer.ui.h:3
 msgid "Use a downloaded Tails ISO image"
 msgstr "Úsáid íomhá ISO Tails íoslódáilte"
 
-#: ../tails_installer/gui.py:467 ../tails_installer/gui.py:788
+#: ../tails_installer/gui.py:494 ../tails_installer/gui.py:815
 msgid "Upgrade"
 msgstr "Nuashonraigh"
 
-#: ../tails_installer/gui.py:469
+#: ../tails_installer/gui.py:496
 msgid "Manual Upgrade Instructions"
 msgstr "Treoracha le nuashonrú de láimh"
 
-#: ../tails_installer/gui.py:471
+#: ../tails_installer/gui.py:498
 msgid "https://tails.boum.org/upgrade/"
 msgstr "https://tails.boum.org/upgrade/"
 
-#: ../tails_installer/gui.py:479 ../tails_installer/gui.py:700
-#: ../tails_installer/gui.py:765 ../data/tails-installer.ui.h:7
+#: ../tails_installer/gui.py:506 ../tails_installer/gui.py:727
+#: ../tails_installer/gui.py:792 ../data/tails-installer.ui.h:7
 msgid "Install"
 msgstr "Suiteáil"
 
-#: ../tails_installer/gui.py:482 ../data/tails-installer.ui.h:1
+#: ../tails_installer/gui.py:509 ../data/tails-installer.ui.h:1
 msgid "Installation Instructions"
 msgstr "Treoracha Suiteála"
 
-#: ../tails_installer/gui.py:484
+#: ../tails_installer/gui.py:511
 msgid "https://tails.boum.org/install/"
 msgstr "https://tails.boum.org/install/"
 
-#: ../tails_installer/gui.py:490
+#: ../tails_installer/gui.py:517
 #, python-format
 msgid "%(size)s %(vendor)s %(model)s device (%(device)s)"
 msgstr "Gléas %(vendor)s %(model)s %(size)s  (%(device)s)"
 
-#: ../tails_installer/gui.py:502
+#: ../tails_installer/gui.py:529
 msgid "No ISO image selected"
 msgstr "Níl aon íomhá ISO roghnaithe"
 
-#: ../tails_installer/gui.py:503
+#: ../tails_installer/gui.py:530
 msgid "Please select a Tails ISO image."
 msgstr "Roghnaigh íomhá ISO Tails."
 
-#: ../tails_installer/gui.py:545
+#: ../tails_installer/gui.py:572
 msgid "No device suitable to install Tails could be found"
 msgstr "Níor aimsíodh aon ghléas feiliúnach le Tails a shuiteáil"
 
-#: ../tails_installer/gui.py:547
+#: ../tails_installer/gui.py:574
 #, python-format
 msgid "Please plug a USB flash drive or SD card of at least %0.1f GB."
 msgstr "Cuir isteach méaróg chuimhne USB nó cárta SD ar a bhfuil ar a laghad %0.1f GB."
 
-#: ../tails_installer/gui.py:581
+#: ../tails_installer/gui.py:608
 #, python-format
 msgid ""
 "The USB stick \"%(pretty_name)s\" is configured as non-removable by its "
-"manufacturer and Tails will fail to start on it. Please try installing on a "
-"different model."
+"manufacturer and Tails will fail to start from it. Please try installing on "
+"a different model."
 msgstr "Chumraigh an déantóir an mhéaróg USB \"%(pretty_name)s\" mar ghléas dobhainte, agus ní thosóidh Tails air. Déan iarracht Tails a shuiteáil ar mhéaróg eile."
 
-#: ../tails_installer/gui.py:591
+#: ../tails_installer/gui.py:618
 #, python-format
 msgid ""
 "The device \"%(pretty_name)s\" is too small to install Tails (at least "
 "%(size)s GB is required)."
 msgstr "Tá an gléas \"%(pretty_name)s\" róbheag le Tails a shuiteáil (ar a laghad %(size)s GB de dhíth)."
 
-#: ../tails_installer/gui.py:604
+#: ../tails_installer/gui.py:631
 #, python-format
 msgid ""
 "To upgrade device \"%(pretty_name)s\" from this Tails, you need to use a downloaded Tails ISO image:\n"
 "https://tails.boum.org/install/download"
 msgstr "Chun Tails a uasghrádú ar an ngléas seo \"%(pretty_name)s\", ní mór duit íomhá ISO Tails a íoslódáil:\nhttps://tails.boum.org/install/download"
 
-#: ../tails_installer/gui.py:625
+#: ../tails_installer/gui.py:652
 msgid "An error happened while installing Tails"
 msgstr "Tharla earráid agus Tails á shuiteáil"
 
-#: ../tails_installer/gui.py:637
+#: ../tails_installer/gui.py:664
 msgid "Refreshing releases..."
 msgstr "Leaganacha á n-athnuachan..."
 
-#: ../tails_installer/gui.py:642
+#: ../tails_installer/gui.py:669
 msgid "Releases updated!"
 msgstr "Nuashonraíodh na leaganacha!"
 
-#: ../tails_installer/gui.py:695
+#: ../tails_installer/gui.py:722
 msgid "Installation complete!"
 msgstr "Críochnaíodh an tsuiteáil!"
 
-#: ../tails_installer/gui.py:711
+#: ../tails_installer/gui.py:738
 msgid "Cancel"
 msgstr "Cealaigh"
 
-#: ../tails_installer/gui.py:747
+#: ../tails_installer/gui.py:774
 msgid "Unable to mount device"
 msgstr "Níorbh fhéidir an gléas a fheistiú"
 
-#: ../tails_installer/gui.py:754 ../tails_installer/gui.py:787
+#: ../tails_installer/gui.py:781 ../tails_installer/gui.py:814
 msgid "Confirm the target USB stick"
 msgstr "Deimhnigh an mhéaróg USB mar sprioc"
 
-#: ../tails_installer/gui.py:755
+#: ../tails_installer/gui.py:782
 #, python-format
 msgid ""
 "%(size)s %(vendor)s %(model)s device (%(device)s)\n"
@@ -419,62 +433,62 @@ msgid ""
 "All data on this USB stick will be lost."
 msgstr "Gléas %(vendor)s %(model)s %(size)s (%(device)s)\n\nCaillfear na sonraí go léir ar an méaróg USB seo."
 
-#: ../tails_installer/gui.py:774
+#: ../tails_installer/gui.py:801
 #, python-format
 msgid "%(parent_size)s %(vendor)s %(model)s device (%(device)s)"
 msgstr "Gléas %(vendor)s %(model)s %(parent_size)s (%(device)s)"
 
-#: ../tails_installer/gui.py:782
+#: ../tails_installer/gui.py:809
 msgid ""
 "\n"
 "\n"
 "The persistent storage on this USB stick will be preserved."
 msgstr "\n\nCaomhnófar an stóras seasmhach ar an méaróg USB seo."
 
-#: ../tails_installer/gui.py:783
+#: ../tails_installer/gui.py:810
 #, python-format
 msgid "%(description)s%(persistence_message)s"
 msgstr "%(description)s%(persistence_message)s"
 
-#: ../tails_installer/gui.py:826
+#: ../tails_installer/gui.py:853
 msgid "Download complete!"
 msgstr "Íoslódáil curtha i gcrích!"
 
-#: ../tails_installer/gui.py:830
+#: ../tails_installer/gui.py:857
 msgid "Download failed: "
 msgstr "Theip ar an íoslódáil:"
 
-#: ../tails_installer/gui.py:831
+#: ../tails_installer/gui.py:858
 msgid "You can try again to resume your download"
 msgstr "Is féidir leat iarracht a dhéanamh an íoslódáil a atosú"
 
-#: ../tails_installer/gui.py:839
+#: ../tails_installer/gui.py:866
 msgid ""
 "The selected file is unreadable. Please fix its permissions or select "
 "another file."
 msgstr "Ní féidir an comhad roghnaithe a léamh. Ceartaigh na ceadanna nó roghnaigh comhad eile."
 
-#: ../tails_installer/gui.py:845
+#: ../tails_installer/gui.py:872
 msgid ""
 "Unable to use the selected file.  You may have better luck if you move your "
 "ISO to the root of your drive (ie: C:\\)"
 msgstr "Níorbh fhéidir an comhad roghnaithe a úsáid. Gheobhaidh tú torthaí níos fearr má bhogann tú an ISO go dtí fréamhchomhadlann an tiomántáin (.i. C:\\)"
 
-#: ../tails_installer/gui.py:851
+#: ../tails_installer/gui.py:878
 #, python-format
 msgid "%(filename)s selected"
 msgstr "%(filename)s roghnaithe"
 
-#: ../tails_installer/source.py:28
+#: ../tails_installer/source.py:29
 msgid "Unable to find LiveOS on ISO"
 msgstr "Níorbh fhéidir LiveOS a aimsiú ar an ISO"
 
-#: ../tails_installer/source.py:34
+#: ../tails_installer/source.py:35
 #, python-format
 msgid "Could not guess underlying block device: %s"
 msgstr "Níorbh fhéidir an bunghléas bloc a dhéanamh amach: %s"
 
-#: ../tails_installer/source.py:49
+#: ../tails_installer/source.py:50
 #, python-format
 msgid ""
 "There was a problem executing `%s`.\n"
@@ -482,29 +496,29 @@ msgid ""
 "%s"
 msgstr "Tharla earráid agus '%s' á rith.\n%s\n%s"
 
-#: ../tails_installer/source.py:63
+#: ../tails_installer/source.py:64
 #, python-format
 msgid "'%s' does not exist"
 msgstr "Níl '%s' ann"
 
-#: ../tails_installer/source.py:65
+#: ../tails_installer/source.py:66
 #, python-format
 msgid "'%s' is not a directory"
 msgstr "Ní comhadlann é '%s'"
 
-#: ../tails_installer/source.py:75
+#: ../tails_installer/source.py:76
 #, python-format
 msgid "Skipping '%(filename)s'"
 msgstr "Ag dul thar '%(filename)s'"
 
-#: ../tails_installer/utils.py:44
+#: ../tails_installer/utils.py:55
 #, python-format
 msgid ""
 "There was a problem executing `%s`.%s\n"
 "%s"
 msgstr "Tharla earráid agus '%s'.%s á rith\n%s"
 
-#: ../tails_installer/utils.py:124
+#: ../tails_installer/utils.py:135
 msgid "Could not open device for writing."
 msgstr "Níorbh fhéidir an gléas a oscailt le scríobh air."
 
