@@ -6,17 +6,18 @@
 # Agustín Wu <losangwuyts@gmail.com>, 2016-2017
 # Hsiu-Ming Chang <cges30901@gmail.com>, 2014
 # danfong <danfong.hsieh@gmail.com>, 2014
+# Hsiu-Ming Chang <cges30901@gmail.com>, 2019
 # 大圈洋蔥, 2016
 # wenganli, 2015
 # x4r <xatierlike@gmail.com>, 2014-2015
 # Zakk <zakk0610@gmail.com>, 2014
 msgid ""
 msgstr ""
-"Project-Id-Version: The Tor Project\n"
+"Project-Id-Version: Tor Project\n"
 "Report-Msgid-Bugs-To: Tails developers <tails@boum.org>\n"
-"POT-Creation-Date: 2017-05-15 13:51+0200\n"
-"PO-Revision-Date: 2018-04-12 18:58+0000\n"
-"Last-Translator: IDRASSI Mounir <mounir.idrassi@idrix.fr>\n"
+"POT-Creation-Date: 2019-03-17 09:03+0100\n"
+"PO-Revision-Date: 2019-04-14 14:23+0000\n"
+"Last-Translator: Hsiu-Ming Chang <cges30901@gmail.com>\n"
 "Language-Team: Chinese (Taiwan) (http://www.transifex.com/otf/torproject/language/zh_TW/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -24,307 +25,308 @@ msgstr ""
 "Language: zh_TW\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
-#: ../lib/Tails/Persistence/Configuration/Presets.pm:48
-msgid "Personal Data"
-msgstr "個人資料"
-
-#: ../lib/Tails/Persistence/Configuration/Presets.pm:50
-msgid "Keep files stored in the `Persistent' directory"
-msgstr "將檔案儲存「Persistent」目錄"
-
-#: ../lib/Tails/Persistence/Configuration/Presets.pm:58
-msgid "GnuPG"
-msgstr "GnuPG"
-
-#: ../lib/Tails/Persistence/Configuration/Presets.pm:60
-msgid "GnuPG keyrings and configuration"
-msgstr "GnuPG 之金鑰鑰匙圈及其設定"
-
-#: ../lib/Tails/Persistence/Configuration/Presets.pm:68
-msgid "SSH Client"
-msgstr "SSH 用戶端"
-
-#: ../lib/Tails/Persistence/Configuration/Presets.pm:70
-msgid "SSH keys, configuration and known hosts"
-msgstr "SSH 金鑰、設定和已知的主機"
-
-#: ../lib/Tails/Persistence/Configuration/Presets.pm:78
-msgid "Pidgin"
-msgstr "Pidgin"
-
-#: ../lib/Tails/Persistence/Configuration/Presets.pm:80
-msgid "Pidgin profiles and OTR keyring"
-msgstr "Pidgin 設定檔和 OTR 鑰匙圈"
-
-#: ../lib/Tails/Persistence/Configuration/Presets.pm:88
-msgid "Thunderbird"
-msgstr "Thunderbird"
-
-#: ../lib/Tails/Persistence/Configuration/Presets.pm:90
-msgid "Thunderbird profiles and locally stored email"
-msgstr "Thunderbird 之相關屬性以及儲存在本地端的電子郵件"
-
-#: ../lib/Tails/Persistence/Configuration/Presets.pm:98
-msgid "GNOME Keyring"
-msgstr "GNOME Keyring"
-
-#: ../lib/Tails/Persistence/Configuration/Presets.pm:100
-msgid "Secrets stored by GNOME Keyring"
-msgstr "透過 GNOME Keyring 秘密儲存"
-
-#: ../lib/Tails/Persistence/Configuration/Presets.pm:108
-msgid "Network Connections"
-msgstr "網路連線"
-
-#: ../lib/Tails/Persistence/Configuration/Presets.pm:110
-msgid "Configuration of network devices and connections"
-msgstr "網路裝置和連線設定"
-
-#: ../lib/Tails/Persistence/Configuration/Presets.pm:118
-msgid "Browser bookmarks"
-msgstr "瀏覽器書籤"
-
-#: ../lib/Tails/Persistence/Configuration/Presets.pm:120
-msgid "Bookmarks saved in the Tor Browser"
-msgstr "儲存在 Tor Browser 裡的書籤"
-
-#: ../lib/Tails/Persistence/Configuration/Presets.pm:128
-msgid "Printers"
-msgstr "印表機"
-
-#: ../lib/Tails/Persistence/Configuration/Presets.pm:130
-msgid "Printers configuration"
-msgstr "印表機設定"
-
-#: ../lib/Tails/Persistence/Configuration/Presets.pm:138
-msgid "Bitcoin client"
-msgstr "比特幣使用者程式"
-
-#: ../lib/Tails/Persistence/Configuration/Presets.pm:140
-msgid "Electrum's bitcoin wallet and configuration"
-msgstr "Electrum 比特幣錢包以及設定"
-
-#: ../lib/Tails/Persistence/Configuration/Presets.pm:148
-msgid "APT Packages"
-msgstr "APT 套件"
-
-#: ../lib/Tails/Persistence/Configuration/Presets.pm:150
-msgid "Packages downloaded by APT"
-msgstr "透過 APT 下載的套件"
-
-#: ../lib/Tails/Persistence/Configuration/Presets.pm:158
-msgid "APT Lists"
-msgstr "APT 清單"
-
-#: ../lib/Tails/Persistence/Configuration/Presets.pm:160
-msgid "Lists downloaded by APT"
-msgstr "透過 APT 下載的清單"
-
-#: ../lib/Tails/Persistence/Configuration/Presets.pm:168
-msgid "Dotfiles"
-msgstr "Dotfiles"
-
-#: ../lib/Tails/Persistence/Configuration/Presets.pm:170
-msgid ""
-"Symlink into $HOME every file or directory found in the `dotfiles' directory"
-msgstr "`dotfiles' 目錄中找到的每個檔案或目錄 Symlink 到 $HOME "
-
-#: ../lib/Tails/Persistence/Setup.pm:230
+#: ../lib/Tails/Persistence/Setup.pm:265
 msgid "Setup Tails persistent volume"
 msgstr "設定 Tails 永久性磁碟區"
 
-#: ../lib/Tails/Persistence/Setup.pm:312 ../lib/Tails/Persistence/Setup.pm:459
+#: ../lib/Tails/Persistence/Setup.pm:343 ../lib/Tails/Persistence/Setup.pm:481
 msgid "Error"
 msgstr "錯誤"
 
-#: ../lib/Tails/Persistence/Setup.pm:344
+#: ../lib/Tails/Persistence/Setup.pm:372
 #, perl-format
 msgid "Device %s already has a persistent volume."
 msgstr "裝置 %s 已有永久性磁碟區。"
 
-#: ../lib/Tails/Persistence/Setup.pm:352
+#: ../lib/Tails/Persistence/Setup.pm:380
 #, perl-format
 msgid "Device %s has not enough unallocated space."
 msgstr "裝置 %s 沒有足夠的未配置空間。"
 
-#: ../lib/Tails/Persistence/Setup.pm:360 ../lib/Tails/Persistence/Setup.pm:374
+#: ../lib/Tails/Persistence/Setup.pm:387 ../lib/Tails/Persistence/Setup.pm:401
 #, perl-format
 msgid "Device %s has no persistent volume."
 msgstr "裝置 %s 沒有永久性磁碟區。"
 
-#: ../lib/Tails/Persistence/Setup.pm:366
+#: ../lib/Tails/Persistence/Setup.pm:393
+#, perl-format
 msgid ""
-"Cannot delete the persistent volume while in use. You should restart Tails "
-"without persistence."
-msgstr "使用中無法刪除永久性磁碟區。您必須重新啟動 Tails 並不使用 永久性磁碟區。"
+"Cannot delete the persistent volume on %s while in use. You should restart "
+"Tails without persistence."
+msgstr "使用時無法刪除在 %s 的永久性磁碟區。您必須重新啟動 Tails 並不使用永久性磁碟區。"
 
-#: ../lib/Tails/Persistence/Setup.pm:385
-msgid "Persistence volume is not unlocked."
-msgstr "永久性磁碟區沒有被解除鎖定。"
+#: ../lib/Tails/Persistence/Setup.pm:407
+#, perl-format
+msgid "Persistence volume on %s is not unlocked."
+msgstr "在 %s 的永久性磁碟區沒有被解除鎖定。"
 
-#: ../lib/Tails/Persistence/Setup.pm:390
-msgid "Persistence volume is not mounted."
-msgstr "永久性磁碟區未掛載。"
+#: ../lib/Tails/Persistence/Setup.pm:412
+#, perl-format
+msgid "Persistence volume on %s is not mounted."
+msgstr "在 %s 的永久性磁碟區未掛載。"
 
-#: ../lib/Tails/Persistence/Setup.pm:395
-msgid "Persistence volume is not readable. Permissions or ownership problems?"
-msgstr "無法讀取永久性磁碟區，擁有權或存取權有問題？"
+#: ../lib/Tails/Persistence/Setup.pm:417
+#, perl-format
+msgid ""
+"Persistence volume on %s is not readable. Permissions or ownership problems?"
+msgstr "無法讀取在 %s 的永久性磁碟區。擁有權或存取權有問題？"
 
-#: ../lib/Tails/Persistence/Setup.pm:400
-msgid "Persistence volume is not writable. Maybe it was mounted read-only?"
-msgstr "永久性磁碟區無法寫入，或許它是掛載成唯讀模式？"
+#: ../lib/Tails/Persistence/Setup.pm:422
+#, perl-format
+msgid "Persistence volume on %s is not writable."
+msgstr "在 %s 的永久性磁碟區無法寫入。"
 
-#: ../lib/Tails/Persistence/Setup.pm:409
+#: ../lib/Tails/Persistence/Setup.pm:431
 #, perl-format
 msgid "Tails is running from non-USB / non-SDIO device %s."
 msgstr "Tails 正從非 USB / 非 SDIO 裝置 %s 執行。"
 
-#: ../lib/Tails/Persistence/Setup.pm:415
+#: ../lib/Tails/Persistence/Setup.pm:437
 #, perl-format
 msgid "Device %s is optical."
 msgstr "裝置 %s 是光學設備。"
 
-#: ../lib/Tails/Persistence/Setup.pm:422
+#: ../lib/Tails/Persistence/Setup.pm:444
 #, perl-format
 msgid "Device %s was not created using Tails Installer."
 msgstr "裝置 %s 並非以 Tails 安裝程式所建立的。"
 
-#: ../lib/Tails/Persistence/Setup.pm:668
+#: ../lib/Tails/Persistence/Setup.pm:688
 msgid "Persistence wizard - Finished"
 msgstr "永久性精靈 - 已完成"
 
-#: ../lib/Tails/Persistence/Setup.pm:671
+#: ../lib/Tails/Persistence/Setup.pm:691
 msgid ""
 "Any changes you have made will only take effect after restarting Tails.\n"
 "\n"
 "You may now close this application."
 msgstr "您所做的任何變更都只會在 Tails 重新啟動後才會生效。\n\n您現在可以關閉此應用程式。"
 
-#: ../lib/Tails/Persistence/Step/Bootstrap.pm:54
+#: ../lib/Tails/Persistence/Configuration/Setting.pm:113
+msgid "Custom"
+msgstr "自定義"
+
+#: ../lib/Tails/Persistence/Configuration/Presets.pm:55
+msgid "Personal Data"
+msgstr "個人資料"
+
+#: ../lib/Tails/Persistence/Configuration/Presets.pm:57
+msgid "Keep files stored in the `Persistent' directory"
+msgstr "將檔案儲存「Persistent」目錄"
+
+#: ../lib/Tails/Persistence/Configuration/Presets.pm:70
+msgid "Browser Bookmarks"
+msgstr "瀏覽器書籤"
+
+#: ../lib/Tails/Persistence/Configuration/Presets.pm:72
+msgid "Bookmarks saved in the Tor Browser"
+msgstr "儲存在 Tor Browser 裡的書籤"
+
+#: ../lib/Tails/Persistence/Configuration/Presets.pm:85
+msgid "Network Connections"
+msgstr "網路連線"
+
+#: ../lib/Tails/Persistence/Configuration/Presets.pm:87
+msgid "Configuration of network devices and connections"
+msgstr "網路裝置和連線設定"
+
+#: ../lib/Tails/Persistence/Configuration/Presets.pm:100
+msgid "Additional Software"
+msgstr "其他軟體"
+
+#: ../lib/Tails/Persistence/Configuration/Presets.pm:102
+msgid "Software installed when starting Tails"
+msgstr "啟動 Tails 時軟體已安裝"
+
+#: ../lib/Tails/Persistence/Configuration/Presets.pm:120
+msgid "Printers"
+msgstr "印表機"
+
+#: ../lib/Tails/Persistence/Configuration/Presets.pm:122
+msgid "Printers configuration"
+msgstr "印表機設定"
+
+#: ../lib/Tails/Persistence/Configuration/Presets.pm:135
+msgid "Thunderbird"
+msgstr "Thunderbird"
+
+#: ../lib/Tails/Persistence/Configuration/Presets.pm:137
+msgid "Thunderbird emails, feeds, and settings"
+msgstr "Thunderbird 電子郵件、推送和設定"
+
+#: ../lib/Tails/Persistence/Configuration/Presets.pm:150
+msgid "GnuPG"
+msgstr "GnuPG"
+
+#: ../lib/Tails/Persistence/Configuration/Presets.pm:152
+msgid "GnuPG keyrings and configuration"
+msgstr "GnuPG 之金鑰鑰匙圈及其設定"
+
+#: ../lib/Tails/Persistence/Configuration/Presets.pm:165
+msgid "Bitcoin Client"
+msgstr "比特幣客戶端"
+
+#: ../lib/Tails/Persistence/Configuration/Presets.pm:167
+msgid "Electrum's bitcoin wallet and configuration"
+msgstr "Electrum 比特幣錢包以及設定"
+
+#: ../lib/Tails/Persistence/Configuration/Presets.pm:180
+msgid "Pidgin"
+msgstr "Pidgin"
+
+#: ../lib/Tails/Persistence/Configuration/Presets.pm:182
+msgid "Pidgin profiles and OTR keyring"
+msgstr "Pidgin 設定檔和 OTR 鑰匙圈"
+
+#: ../lib/Tails/Persistence/Configuration/Presets.pm:195
+msgid "SSH Client"
+msgstr "SSH 用戶端"
+
+#: ../lib/Tails/Persistence/Configuration/Presets.pm:197
+msgid "SSH keys, configuration and known hosts"
+msgstr "SSH 金鑰、設定和已知的主機"
+
+#: ../lib/Tails/Persistence/Configuration/Presets.pm:210
+msgid "Dotfiles"
+msgstr "Dotfiles"
+
+#: ../lib/Tails/Persistence/Configuration/Presets.pm:212
+msgid ""
+"Symlink into $HOME every file or directory found in the `dotfiles' directory"
+msgstr "`dotfiles' 目錄中找到的每個檔案或目錄 Symlink 到 $HOME "
+
+#: ../lib/Tails/Persistence/Step/Bootstrap.pm:90
 msgid "Persistence wizard - Persistent volume creation"
 msgstr "永久性精靈 - 建立永久性磁碟區"
 
-#: ../lib/Tails/Persistence/Step/Bootstrap.pm:57
+#: ../lib/Tails/Persistence/Step/Bootstrap.pm:93
 msgid "Choose a passphrase to protect the persistent volume"
 msgstr "請選擇一個通關密語來保護永久性磁碟區"
 
 #. TRANSLATORS: size, device vendor, device model
-#: ../lib/Tails/Persistence/Step/Bootstrap.pm:61
+#: ../lib/Tails/Persistence/Step/Bootstrap.pm:97
 #, perl-format
 msgid ""
 "A %s persistent volume will be created on the <b>%s %s</b> device. Data on "
 "this volume will be stored in an encrypted form protected by a passphrase."
 msgstr "將會在 <b>%s %s</b> 裝置上建立一個永久性磁碟區 %s ，在此磁碟區上的資料都將會以加密過後的狀態儲存，只有使用通關密語才能將之解密。"
 
-#: ../lib/Tails/Persistence/Step/Bootstrap.pm:66
+#: ../lib/Tails/Persistence/Step/Bootstrap.pm:102
 msgid "Create"
 msgstr "建立"
 
-#: ../lib/Tails/Persistence/Step/Bootstrap.pm:110
+#: ../lib/Tails/Persistence/Step/Bootstrap.pm:142
 msgid ""
 "<b>Beware!</b> Using persistence has consequences that must be well "
-"understood. Tails can't help you if you use it wrong! See <a "
-"href='file:///usr/share/doc/tails/website/doc/first_steps/persistence.en.html'>Tails"
-" documentation about persistence</a> to learn more."
-msgstr "<b>注意！</b>要使用永久性磁碟區的話，請務必先徹底了解其可能的後果，若您操作錯誤的話，Tails 系統也無法幫您補救。請參閱  <a href='file:///usr/share/doc/tails/website/doc/first_steps/persistence.en.html'>與永久性磁區有關的 Tails 文件</a> 來了解更多相關資訊。"
+"understood. Tails can't help you if you use it wrong! See the <i>Encrypted "
+"persistence</i> page of the Tails documentation to learn more."
+msgstr "<b>注意！</b>要使用永久性磁碟區的話，請務必先徹底了解其可能的後果，若您操作錯誤的話，Tails 系統也無法幫您補救。請參閱 Tails 文件的<i>加密之永久性儲存裝置</i>頁面來了解更多相關資訊。"
 
-#: ../lib/Tails/Persistence/Step/Bootstrap.pm:144
+#: ../lib/Tails/Persistence/Step/Bootstrap.pm:170
 msgid "Passphrase:"
 msgstr "通關密語："
 
-#: ../lib/Tails/Persistence/Step/Bootstrap.pm:154
+#: ../lib/Tails/Persistence/Step/Bootstrap.pm:178
 msgid "Verify Passphrase:"
 msgstr "確認通關密語："
 
-#: ../lib/Tails/Persistence/Step/Bootstrap.pm:167
-#: ../lib/Tails/Persistence/Step/Bootstrap.pm:231
+#: ../lib/Tails/Persistence/Step/Bootstrap.pm:189
+#: ../lib/Tails/Persistence/Step/Bootstrap.pm:245
 msgid "Passphrase can't be empty"
 msgstr "通關密語不能為空"
 
-#: ../lib/Tails/Persistence/Step/Bootstrap.pm:222
+#: ../lib/Tails/Persistence/Step/Bootstrap.pm:236
 msgid "Passphrases do not match"
 msgstr "通關密語不相符"
 
-#: ../lib/Tails/Persistence/Step/Bootstrap.pm:274
-#: ../lib/Tails/Persistence/Step/Configure.pm:129
-#: ../lib/Tails/Persistence/Step/Delete.pm:95
+#: ../lib/Tails/Persistence/Step/Bootstrap.pm:284
+#: ../lib/Tails/Persistence/Step/Delete.pm:103
+#: ../lib/Tails/Persistence/Step/Configure.pm:181
 msgid "Failed"
 msgstr "失敗"
 
-#: ../lib/Tails/Persistence/Step/Bootstrap.pm:283
+#: ../lib/Tails/Persistence/Step/Bootstrap.pm:292
 msgid "Mounting Tails persistence partition."
 msgstr "掛載 Tails 永久性分割區。"
 
-#: ../lib/Tails/Persistence/Step/Bootstrap.pm:286
+#: ../lib/Tails/Persistence/Step/Bootstrap.pm:295
 msgid "The Tails persistence partition will be mounted."
 msgstr "Tails 永久性分割區將會被掛載。"
 
-#: ../lib/Tails/Persistence/Step/Bootstrap.pm:295
+#: ../lib/Tails/Persistence/Step/Bootstrap.pm:304
 msgid "Correcting permissions of the persistent volume."
 msgstr "修正永久性磁碟區的存取權限。"
 
-#: ../lib/Tails/Persistence/Step/Bootstrap.pm:298
+#: ../lib/Tails/Persistence/Step/Bootstrap.pm:307
 msgid "The permissions of the persistent volume will be corrected."
 msgstr "永久性磁碟區的存取權限將被修正。"
 
-#: ../lib/Tails/Persistence/Step/Bootstrap.pm:320
+#: ../lib/Tails/Persistence/Step/Bootstrap.pm:315
+msgid "Creating default persistence configuration."
+msgstr "正在建立預設永久性設定。"
+
+#: ../lib/Tails/Persistence/Step/Bootstrap.pm:318
+msgid "The default persistence configuration will be created."
+msgstr "預設永久性設定將會被建立。"
+
+#: ../lib/Tails/Persistence/Step/Bootstrap.pm:333
 msgid "Creating..."
 msgstr "建立中..."
 
-#: ../lib/Tails/Persistence/Step/Bootstrap.pm:323
+#: ../lib/Tails/Persistence/Step/Bootstrap.pm:336
 msgid "Creating the persistent volume..."
 msgstr "正在建立永久性磁碟區..."
 
-#: ../lib/Tails/Persistence/Step/Configure.pm:61
+#: ../lib/Tails/Persistence/Step/Delete.pm:53
+msgid "Persistence wizard - Persistent volume deletion"
+msgstr "永久性精靈 - 刪除永久性磁碟區"
+
+#: ../lib/Tails/Persistence/Step/Delete.pm:56
+msgid "Your persistent data will be deleted."
+msgstr "您的永久性資料將會被刪除。"
+
+#: ../lib/Tails/Persistence/Step/Delete.pm:60
+#, perl-format
+msgid ""
+"The persistent volume %s (%s), on the <b>%s %s</b> device, will be deleted."
+msgstr "永久性磁碟區 %s (%s)，在 <b>%s %s</b> 裝置上，將會被刪除。"
+
+#: ../lib/Tails/Persistence/Step/Delete.pm:66
+msgid "Delete"
+msgstr "刪除"
+
+#: ../lib/Tails/Persistence/Step/Delete.pm:117
+msgid "Deleting..."
+msgstr "刪除中..."
+
+#: ../lib/Tails/Persistence/Step/Delete.pm:120
+msgid "Deleting the persistent volume..."
+msgstr "正在刪除永久性磁碟區..."
+
+#: ../lib/Tails/Persistence/Step/Configure.pm:88
 msgid "Persistence wizard - Persistent volume configuration"
 msgstr "永久性精靈 - 永久性磁碟區設定"
 
-#: ../lib/Tails/Persistence/Step/Configure.pm:64
+#: ../lib/Tails/Persistence/Step/Configure.pm:91
 msgid "Specify the files that will be saved in the persistent volume"
 msgstr "指定將儲存在永久性磁碟區內的檔案"
 
 #. TRANSLATORS: partition, size, device vendor, device model
-#: ../lib/Tails/Persistence/Step/Configure.pm:68
+#: ../lib/Tails/Persistence/Step/Configure.pm:95
 #, perl-format
 msgid ""
 "The selected files will be stored in the encrypted partition %s (%s), on the"
 " <b>%s %s</b> device."
 msgstr "所選擇的檔案將被儲存在<b>%s %s</b> 裝置的加密分割區 %s (%s)中。"
 
-#: ../lib/Tails/Persistence/Step/Configure.pm:74
+#: ../lib/Tails/Persistence/Step/Configure.pm:101
 msgid "Save"
 msgstr "儲存"
 
-#: ../lib/Tails/Persistence/Step/Configure.pm:143
+#: ../lib/Tails/Persistence/Step/Configure.pm:195
 msgid "Saving..."
 msgstr "儲存中..."
 
-#: ../lib/Tails/Persistence/Step/Configure.pm:146
+#: ../lib/Tails/Persistence/Step/Configure.pm:198
 msgid "Saving persistence configuration..."
 msgstr "正在儲存永久性設定..."
-
-#: ../lib/Tails/Persistence/Step/Delete.pm:41
-msgid "Persistence wizard - Persistent volume deletion"
-msgstr "永久性精靈 - 刪除永久性磁碟區"
-
-#: ../lib/Tails/Persistence/Step/Delete.pm:44
-msgid "Your persistent data will be deleted."
-msgstr "您的永久性資料將會被刪除。"
-
-#: ../lib/Tails/Persistence/Step/Delete.pm:48
-#, perl-format
-msgid ""
-"The persistent volume %s (%s), on the <b>%s %s</b> device, will be deleted."
-msgstr "永久性磁碟區 %s (%s)，在 <b>%s %s</b> 裝置上，將會被刪除。"
-
-#: ../lib/Tails/Persistence/Step/Delete.pm:54
-msgid "Delete"
-msgstr "刪除"
-
-#: ../lib/Tails/Persistence/Step/Delete.pm:111
-msgid "Deleting..."
-msgstr "刪除中..."
-
-#: ../lib/Tails/Persistence/Step/Delete.pm:114
-msgid "Deleting the persistent volume..."
-msgstr "正在刪除永久性磁碟區..."
