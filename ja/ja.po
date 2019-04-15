@@ -201,14 +201,15 @@ msgid ""
 "configure a Tor bridge or a local proxy. To work completely offline, you can"
 " disable all networking."
 msgstr ""
+"もしインターネット接続は検閲され、フィルターされる場合、Torブリッジやローカルプロキシを設定できます。完全にオフラインで作業したい場合、ネットワーク機能を無効にできます。"
 
 #: ../data/greeter.ui.h:41
 msgid "Connect directly to the Tor network (default)"
-msgstr ""
+msgstr "Torネットワークに直接接続する (デフォルト)"
 
 #: ../data/greeter.ui.h:42
 msgid "Configure a Tor bridge or local proxy"
-msgstr ""
+msgstr "Torブリッジやローカルプロキシを構成する"
 
 #: ../data/greeter.ui.h:43
 msgid "Disable all networking"
@@ -218,7 +219,7 @@ msgstr "ネットワーク能力を全て無効化"
 msgid ""
 "The default settings are safe in most situations. To add a custom setting, "
 "press the \"+\" button below."
-msgstr ""
+msgstr "デフォルト設定は大抵の場合安全です。カスタム設定を追加するのに、下の\"+\"ボタンを押して下さい。"
 
 #: ../data/greeter.ui.h:45
 msgid "_Administration Password"
@@ -242,11 +243,11 @@ msgstr "ネットワーク接続 (_N)"
 
 #: ../data/greeter.ui.h:50 ../tailsgreeter/gui.py:385
 msgid "Direct (default)"
-msgstr ""
+msgstr "直接（デフォルト）"
 
 #: ../data/greeter.ui.h:51
 msgid "_Windows Camouflage"
-msgstr ""
+msgstr "_Windowsカモフラージュ"
 
 #: ../tailsgreeter/gui.py:391
 msgid "Bridge & Proxy"
@@ -300,6 +301,8 @@ msgid ""
 "live-persist failed with return code {returncode}:\n"
 "{stderr}"
 msgstr ""
+"live-persistが失敗しました。再開コードは {returncode}:\n"
+"{stderr}"
 
 #: ../tailsgreeter/persistence.py:124 ../tailsgreeter/persistence.py:141
 #, python-brace-format
@@ -308,6 +311,9 @@ msgid ""
 "{stdout}\n"
 "{stderr}"
 msgstr ""
+"cryptsetup が失敗しました。再開コードは {returncode}:\n"
+"{stdout}\n"
+"{stderr}"
 
 #: ../tailsgreeter/persistence.py:158
 #, python-brace-format
@@ -316,6 +322,9 @@ msgid ""
 "{stdout}\n"
 "{stderr}"
 msgstr ""
+"live-persistが失敗しました。再開コードは {returncode}:\n"
+"{stdout}\n"
+"{stderr}"
 
 #: ../tailsgreeter/persistence.py:172
 #, python-brace-format
@@ -324,3 +333,6 @@ msgid ""
 "{stdout}\n"
 "{stderr}"
 msgstr ""
+"unmount が失敗しました。再開コードは {returncode}:\n"
+"{stdout}\n"
+"{stderr}"
