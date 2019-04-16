@@ -16,11 +16,11 @@ She goes to a privacy training at a local hackerspace and learns about **Tor Bro
 
 ---
 
-# 2.TOR FOR FEMINISTS 
+# 2.TOR DLA FEMINISTÓW
 
-### The future is cyberfeminist
+### Przyszłość to cyberfeministka
 
-Fernanda runs a women's collective focused on reproductive rights in Brazil, where abortion is illegal.
+Fernanda prowadzi kolektyw kobiecy zajmujący się prawami reprodukcyjnymi w Brazylii, gdzie aborcja jest nielegalna.
 
 Fernanda and her colleagues built a website with information about abortion access, birth control, and other resources for people seeking reproductive information.
 
@@ -36,17 +36,17 @@ She also uses a Tor-powered app called **OnionShare** to send files to other act
 
 ---
 
-# 3. TOR FOR HUMAN RIGHTS
+# 3. TOR DLA PRAWA CZŁOWIEKA
 
-### Water is life 
+### Woda to życie
 
-Jelani lives in a small village  which a wide river runs through.
+Jelani mieszka w małej wiosce, przez którą przepływa szeroka rzeka.
 
-This river has provided water to his community since the days of his ancestors. 
+Ta rzeka dostarczała wodę jego społeczności od czasów jego przodków.
 
-But today, Jelani’s river is threatened by powerful multinational companies drilling for oil in the region.
+Jednak dziś rzeka Jelani jest zagrożona przez potężne międzynarodowe firmy, które poszukują ropy w regionie.
 
-Private security firms, paid for by these companies, use powerful surveillance mechanisms to monitor the online activities of Jelani and his neighbors in the village who are organizing to protect their sacred river. 
+Prywatne firmy ochrony, opłacane przez te firmy, korzystają z potężnych mechanizmów nadzoru, aby monitorować działania online Jelaniego i jego sąsiadów we wsi, którzy organizują się w celu ochrony ich świętej rzeki.
 
 Jelani uses **Tor Browser** to prevent these companies from watching as he visits websites for international human rights protection and legal aid and writes blog posts about the resistance movement in his village.
 
