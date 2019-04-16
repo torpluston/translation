@@ -1,6 +1,6 @@
-# Tor Outreach Material 2019-2020
+# Materiały Informacyjne Tor 2019-2020
 
-# 1. TOR FOR PRIVACY 
+# 1. TOR DLA PRYWATNOŚCI
 
 ### Prawo do prywatności jest prawem człowieka. 
 
@@ -24,7 +24,7 @@ Fernanda prowadzi kolektyw kobiecy zajmujący się prawami reprodukcyjnymi w Bra
 
 Fernanda and her colleagues built a website with information about abortion access, birth control, and other resources for people seeking reproductive information.
 
-If this website was linked back to them, they could be arrested--or worse. 
+Gdyby ta strona internetowa była z nimi powiązana, mogliby zostać aresztowani - lub gorzej.
 
 To protect themselves, Fernanda and her colleagues created the website using Tor **onion services**. Onion services not only protect them from being discovered as the operators of the server but also help protect visitors to their website by requiring they use Tor Browser. 
 
@@ -48,17 +48,17 @@ Jednak dziś rzeka Jelani jest zagrożona przez potężne międzynarodowe firmy,
 
 Prywatne firmy ochrony, opłacane przez te firmy, korzystają z potężnych mechanizmów nadzoru, aby monitorować działania online Jelaniego i jego sąsiadów we wsi, którzy organizują się w celu ochrony ich świętej rzeki.
 
-Jelani uses **Tor Browser** to prevent these companies from watching as he visits websites for international human rights protection and legal aid and writes blog posts about the resistance movement in his village.
+Jelani używa przeglądarki **Tor Browser**, aby uniemożliwić tym firmom oglądanie, gdy odwiedza strony internetowe w celu ochrony międzynarodowej praw człowieka i pomocy prawnej, i pisze blogi o ruchu oporu w jego wiosce.
 
-He also uses **OnionShare** and **SecureDrop** to securely send documents to journalists who are helping expose these human rights violations.
+Używa również **OnionShare** i **SecureDrop** do bezpiecznego wysyłania dokumentów do dziennikarzy, którzy pomagają ujawnić te naruszenia praw człowieka.
 
-All of this software uses Tor to help protect Jelani’s privacy. 
+Całe to oprogramowanie używa Tora, aby chronić prywatność Jelaniego.
 
-### Human rights activists like Jelani are fighting for justice in their communities, and Tor helps power their resistance.
+### Obrońcy praw człowieka, tacy jak Jelani, walczą o sprawiedliwość w swoich społecznościach, a Tor pomaga zasilać ich opór.
 
 ---
 
-# 4. TOR FOR ANTI-CENSORSHIP
+# 4. TOR DLA ANTY-CENZURY
 
 ### Build bridges not walls
 
@@ -121,13 +121,13 @@ The third relay removes the last encryption layer and forwards the web page requ
 
 Bekele doesn't know that the website request came from Amal unless she tells him so.
 
-## 7. Who uses Tor? 
+## 7. Kto używa przeglądarki Tor?
 
 People all over the world use Tor to protect their privacy and access the web freely.
 
 Tor helps protect journalists, human rights defenders, domestic violence victims, academic researchers, and anyone experiencing tracking, censorship, or surveillance. 
 
-## 6. Why trust Tor?
+## 6. Dlaczego warto zaufać przeglądarce Tor?
 
 Tor is designed for privacy. We don’t know who our users are, and we don't keep logs of user activity.
 
@@ -135,7 +135,7 @@ Tor relay operators cannot reveal the true identity of Tor users.
 
 Continual peer review of Tor's source code by academic and open source communities ensures that there are no backdoors in Tor, and our social contract promises that we will never backdoor Tor. 
 
-## 7. Join the Tor community
+## 7. Dołącz do społeczności Tor
 
 Tor is made possible by a diverse set of users, developers, relay operators, and advocates from around the world.
 
@@ -148,15 +148,15 @@ The Tor community is governed by a code of conduct, and we outline our set of pr
 Learn more about Tor by visiting our website, our wiki, finding us on IRC, joining one of our mailing lists, or signing up for Tor News at newsletter.torproject.org.
 
 
-## 8. Download Tor
+## 8. Pobierz przeglądarkę Tor
 
 Tor for Desktop
 torproject.org/download
 
-TOR ON MOBILE
+TOR NA TELEFON
 ### Android 
-Tor Browser for Android is available from GooglePlay.
+Tor Browser dla systemu Android jest dostępny z GooglePlay.
 
 ### iOS
-Onion Browser, developed by M. Tigas, is the only browser we recommend for iOS.
+Onion Browser, opracowana przez M. Tigasa, jest jedyną przeglądarką, którą zalecamy dla systemu iOS.
 
