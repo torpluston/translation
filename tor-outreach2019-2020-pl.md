@@ -6,13 +6,13 @@
 
 Tak jak wielu z nas, Aleisha większość czasu spędzanego online poświęca na kontakty ze znajomymi, postowanie w mediach społecznościowych i przeglądanie sieci.
 
-But lately, she's noticed that advertisements related to her previous searches are following her around online.
+Ale ostatnio zauważyła, że ​​reklamy związane z jej poprzednimi poszukiwaniami śledzą ją w Internecie.
 
-This feels so invasive that she does some research on online ads and learns that it's not just advertisers tracking her but also her ISP, analytics companies, social media platforms, and more.
+Wydaje się to tak inwazyjne, że zajmuje się badaniem reklam internetowych i dowiaduje się, że śledzą ją nie tylko reklamodawcy, ale także jej dostawca usług internetowych, firmy analityczne, platformy mediów społecznościowych i inne.
 
-Aleisha decides she wants to find and use software that doesn't collect her data, doesn't track her, and doesn't tell other services anything private about her.
+Aleisha postanawia znaleźć i korzystać z oprogramowania, które nie zbiera jej danych, nie śledzi jej i nie mówi innym usługom o niej prywatnie.
 
-She goes to a privacy training at a local hackerspace and learns about **Tor Browser**, the only web browser that allows her to browse anonymously.
+Chodzi na szkolenie prywatności w lokalnej hackerspace i uczy się o **Tor Browser**, jedynej przeglądarce internetowej, która pozwala jej przeglądać anonimowo.
 
 ---
 
@@ -22,7 +22,7 @@ She goes to a privacy training at a local hackerspace and learns about **Tor Bro
 
 Fernanda prowadzi kolektyw kobiecy zajmujący się prawami reprodukcyjnymi w Brazylii, gdzie aborcja jest nielegalna.
 
-Fernanda and her colleagues built a website with information about abortion access, birth control, and other resources for people seeking reproductive information.
+Fernanda i jej koledzy zbudowali stronę internetową z informacjami na temat dostępu do aborcji, kontroli urodzeń i innych zasobów dla osób poszukujących informacji reprodukcyjnych.
 
 Gdyby ta strona internetowa była z nimi powiązana, mogliby zostać aresztowani - lub gorzej.
 
@@ -60,23 +60,23 @@ Całe to oprogramowanie używa Tora, aby chronić prywatność Jelaniego.
 
 # 4. TOR DLA ANTY-CENZURY
 
-### Build bridges not walls
+### Buduj mosty, a nie ściany
 
-Jean was traveling for the first time to a country far from his family.
+Jean podróżował po raz pierwszy do kraju z dala od swojej rodziny.
 
-After arriving at a hotel, he opened his laptop.
+Po przybyciu do hotelu otworzył laptop.
 
-He was so exhausted that when the message "Connection has timed out" first appeared on his web browser, he thought it was due to his own error.
+Był tak wyczerpany, że gdy w jego przeglądarce pojawił się komunikat „Upłynął limit czasu połączenia”, pomyślał, że jest to spowodowane jego własnym błędem.
 
-But after trying again and again, he realized that his email provider, a news website, and many apps were unavailable. 
+Ale po kolejnych próbach zdał sobie sprawę, że jego dostawca poczty e-mail, witryna z wiadomościami i wiele aplikacji były niedostępne.
 
-He had heard that this country censors the internet and wondered if that was happening.
-How could he contact his family from behind this impenetrable wall?
-After doing some web searches, he found a forum and read about VPNs, private services that allow you to connect to another uncensored network.
+Słyszał, że ten kraj cenzuruje internet i zastanawiał się, czy tak się dzieje. 
+Jak mógł skontaktować się ze swoją rodziną zza tej nieprzeniknionej ściany? 
+Po przeprowadzeniu kilku wyszukiwań internetowych znalazł forum i przeczytał o VPN, prywatnych usługach, które umożliwiają połączenie z inną nieocenzurowaną siecią.
 
-Jean spent half an hour trying to figure out which cheap VPN was best.
+Jean spędził pół godziny, próbując dowiedzieć się, który tani VPN jest najlepszy.
 
-He chose one and for a moment it seemed to work, but after five minutes the connection went offline and the VPN would no longer connect. 
+Wybrał jedno i przez chwilę wydawało się, że działa, ale po pięciu minutach połączenie zostało wyłączone, a VPN przestał się łączyć.
 
 Jean kept reading to find other options and learned about Tor Browser and how it can circumvent censorship.
 
