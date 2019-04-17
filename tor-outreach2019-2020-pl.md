@@ -28,11 +28,11 @@ Gdyby ta strona internetowa była z nimi powiązana, mogliby zostać aresztowani
 
 To protect themselves, Fernanda and her colleagues created the website using Tor **onion services**. Onion services not only protect them from being discovered as the operators of the server but also help protect visitors to their website by requiring they use Tor Browser. 
 
-In fact, Fernanda uses **Tor Browser** for all of her web browsing just to be on the safe side.
+W rzeczywistości Fernanda używa **Tor Browser**, aby wszystkie jej strony były bezpieczne.
 
-She also uses a Tor-powered app called **OnionShare** to send files to other activists securely and privately. 
+Korzysta również z aplikacji Tor o nazwie **OnionShare**, aby bezpiecznie i prywatnie wysyłać pliki do innych aktywistów.
 
-### Reproductive rights activists like Fernanda are fighting for fundamental freedoms, and Tor helps power their resistance.
+### Działacze na rzecz praw reprodukcyjnych, tacy jak Fernanda, walczą o podstawowe prawa wolności, a Tor pomaga wspierać ich opór.
 
 ---
 
@@ -78,15 +78,15 @@ Jean spędził pół godziny, próbując dowiedzieć się, który tani VPN jest 
 
 Wybrał jedno i przez chwilę wydawało się, że działa, ale po pięciu minutach połączenie zostało wyłączone, a VPN przestał się łączyć.
 
-Jean kept reading to find other options and learned about Tor Browser and how it can circumvent censorship.
+Jean wciąż czytał, aby znaleźć inne opcje i dowiedzieć się o przeglądarce Tor i jak może obejść cenzurę.
 
-He found an official website mirror to download the program.
+Znalazł oficjalne lustro na stronie internetowej, aby pobrać program.
 
-When he opened **Tor Browser**, he followed the prompts for censored users and connected to a bridge which allowed him to access the internet again.
+Kiedy otworzył **Tor Browser**, śledził podpowiedzi dla ocenzurowanych użytkowników i łączył się z mostem, który pozwolił mu ponownie uzyskać dostęp do Internetu.
 
-With Tor Browser, Jean can browse freely and privately and contact his family. 
+Dzięki przeglądarce Tor Browser Jean może swobodnie i prywatnie przeglądać i kontaktować się z rodziną.
 
-### Censored users all over the world rely on Tor Browser for a free, stable, and uncensored way to access the internet.
+### Cenzurowani użytkownicy na całym świecie polegają na przeglądarce Tor Browser za darmowy, stabilny i nieocenzurowany sposób dostępu do Internetu.
 
 ---
 
@@ -145,7 +145,7 @@ You can volunteer with Tor by writing code, running a relay, creating documentat
 
 The Tor community is governed by a code of conduct, and we outline our set of promises to the community in our social contract. 
 
-Learn more about Tor by visiting our website, our wiki, finding us on IRC, joining one of our mailing lists, or signing up for Tor News at newsletter.torproject.org.
+Dowiedz się więcej o Tor, odwiedzając naszą stronę, naszą wiki, znajdując nas na IRC, dołączając do jednej z naszych list mailingowych lub rejestrując się w Tor News na newsletter.torproject.org.
 
 
 ## 8. Pobierz przeglądarkę Tor
