@@ -153,8 +153,8 @@ Learn more about Tor by visiting our website, our wiki, finding us on IRC, joini
 Tor for Desktop
 torproject.org/download
 
-TOR ON MOBILE
-### Android 
+تور على الموبايل
+### أندرويد
 Tor Browser for Android is available from GooglePlay.
 
 ### iOS
