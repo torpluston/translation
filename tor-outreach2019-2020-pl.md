@@ -26,7 +26,7 @@ Fernanda i jej koledzy zbudowali stronę internetową z informacjami na temat do
 
 Gdyby ta strona internetowa była z nimi powiązana, mogliby zostać aresztowani - lub gorzej.
 
-To protect themselves, Fernanda and her colleagues created the website using Tor **onion services**. Onion services not only protect them from being discovered as the operators of the server but also help protect visitors to their website by requiring they use Tor Browser. 
+Aby się chronić, Fernanda i jej koledzy stworzyli stronę przy użyciu usług cebulowych Tor **onion services**. Usługi cebulowe nie tylko chronią je przed wykryciem jako operatorzy serwera, ale także pomagają chronić odwiedzających ich witrynę, wymagając, aby korzystali z przeglądarki Tor Browser.
 
 W rzeczywistości Fernanda używa **Tor Browser**, aby wszystkie jej strony były bezpieczne.
 
@@ -90,7 +90,7 @@ Dzięki przeglądarce Tor Browser Jean może swobodnie i prywatnie przeglądać 
 
 ---
 
-# 5. Shared Sections
+# 5. Ogólne Tematy
 
 ## Czym jest Tor?
 
@@ -100,50 +100,50 @@ Tor jest tworzony za darmo przez organizację non-profit o nazwie 501(c)3 z USA 
 Najłatwiejszym sposobem użycia przeglądarki Tor jest Tor Browser. 
 Kiedy używasz przeglądarki Tor Browser, nikt nie może zobaczyć, które strony odwiedzasz lub skąd pochodzisz.
 
-Other applications, like SecureDrop and OnionShare, use Tor to protect their users against surveillance and censorship.
+Inne aplikacje, takie jak SecureDrop i OnionShare, używają przeglądarki Tor do ochrony swoich użytkowników przed nadzorem i cenzurą.
 
 
-## 6. How does Tor work?
+## 6. Jak działa Tor?
 
-Amal wants to visit Bekele’s website privately, so she opens Tor Browser.
+Amal chce prywatnie odwiedzić stronę Bekele’s, więc otwiera przeglądarkę Tor Browser.
 
-Tor Browser selects a random circuit of three relays, which are computers all over the world configured to route traffic over the Tor network.
+Przeglądarka Tor Browser wybiera losowy obwód trzech przekaźników, które są komputerami na całym świecie skonfigurowanymi do kierowania ruchu przez sieć Tor.
 
-Tor Browser then encrypts her website request three times and sends it to the first Tor relay in her circuit.
+Przeglądarka Tor Browser następnie szyfruje żądanie swojej strony trzy razy i wysyła ją do pierwszego przekaźnika Tor w jej obwodzie.
 
-The first relay removes the first encryption layer but doesn't learn that the destination is Bekele’s website.
+Pierwszy przekaźnik usuwa pierwszą warstwę szyfrowania, ale nie wie, że miejscem docelowym jest strona internetowa Bekele’s.
 
-The first relay learns only the next location in the circuit, which is the second relay.
+Pierwszy przekaźnik uczy się tylko następnej lokalizacji w obwodzie, która jest drugim przekaźnikiem.
 
-The second relay removes another encryption layer and forwards the web page request to the third relay.
+Drugi przekaźnik usuwa kolejną warstwę szyfrowania i przekazuje żądanie strony do trzeciego przekaźnika.
 
-The third relay removes the last encryption layer and forwards the web page request to its destination, Bekele’s website, but it doesn't know the request comes from Amal.
+Trzeci przekaźnik usuwa ostatnią warstwę szyfrowania i przesyła żądanie strony internetowej do jej miejsca docelowego, strony internetowej Bekele’s, ale nie wie, że żądanie pochodzi od Amala.
 
-Bekele doesn't know that the website request came from Amal unless she tells him so.
+Bekele nie wie, że żądanie strony pochodzi od Amala, chyba że tak mu powie.
 
 ## 7. Kto używa przeglądarki Tor?
 
-People all over the world use Tor to protect their privacy and access the web freely.
+Ludzie na całym świecie używają przeglądarki Tor do ochrony prywatności i swobodnego dostępu do sieci.
 
-Tor helps protect journalists, human rights defenders, domestic violence victims, academic researchers, and anyone experiencing tracking, censorship, or surveillance. 
+Tor pomaga chronić dziennikarzy, obrońców praw człowieka, ofiary przemocy domowej, badaczy akademickich i każdego, kto doświadcza śledzenia, cenzury lub nadzoru.
 
 ## 6. Dlaczego warto zaufać przeglądarce Tor?
 
-Tor is designed for privacy. We don’t know who our users are, and we don't keep logs of user activity.
+Tor jest zaprojektowany dla prywatności. Nie wiemy, kim są nasi użytkownicy i nie prowadzimy dzienników aktywności użytkowników.
 
-Tor relay operators cannot reveal the true identity of Tor users.
+Operatorzy przekaźników Tora nie mogą ujawnić prawdziwej tożsamości użytkowników Tora.
 
-Continual peer review of Tor's source code by academic and open source communities ensures that there are no backdoors in Tor, and our social contract promises that we will never backdoor Tor. 
+Ciągła wzajemna weryfikacja kodu źródłowego Tora przez społeczności akademickie i społeczności open source zapewnia, że ​​w Tora nie ma żadnych backdoorów, a nasza umowa społeczna obiecuje, że nigdy nie zrobimy backdoora dla Tora.
 
 ## 7. Dołącz do społeczności Tor
 
-Tor is made possible by a diverse set of users, developers, relay operators, and advocates from around the world.
+Tor jest możliwy dzięki zróżnicowanemu zestawowi użytkowników, programistów, operatorów przekaźników i adwokatów z całego świata.
 
-We need your help to make Tor more usable and secure for people everywhere.
+Potrzebujemy twojej pomocy, aby uczynić Tor bardziej użytecznym i bezpiecznym dla ludzi na całym świecie.
 
-You can volunteer with Tor by writing code, running a relay, creating documentation, offering user support, or telling people in your community about Tor.
+Możesz zgłosić się na ochotnika do Tora, pisząc kod, uruchamiając przekaźnik, tworząc dokumentację, oferując wsparcie dla użytkowników lub informując ludzi w swojej społeczności o Tor.
 
-The Tor community is governed by a code of conduct, and we outline our set of promises to the community in our social contract. 
+Społeczność Tor podlega kodeksowi postępowania i przedstawiamy społeczności nasze obietnice w naszej umowie społecznej.
 
 Dowiedz się więcej o Tor, odwiedzając naszą stronę, naszą wiki, znajdując nas na IRC, dołączając do jednej z naszych list mailingowych lub rejestrując się w Tor News na newsletter.torproject.org.
 
