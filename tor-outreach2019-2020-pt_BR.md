@@ -141,7 +141,7 @@ O Tor só é possível pela contribuição de um conjunto diversificado de usuá
 
 Nós precisamos de sua ajuda para tornar o Tor mais usável e seguro para as pessoas em todos os lugares.
 
-Você pode voluntariar-se para ajudar o Tor escrevendo código, operando um relay, criando documentação, oferecendo suporte ao usuário ou contando às pessoas em sua comunidade sobre o Tor.
+Você pode voluntariar-se para ajudar o Tor escrevendo código, operando um relay, criando documentação, oferecendo suporte aos usuários ou falando sobre o Tor às pessoas da sua comunidade.
 
 A comunidade Tor é governada por um código de conduta e nós delineamos nosso conjunto de promessas à comunidade em nosso contrato social.
 
