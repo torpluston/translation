@@ -94,11 +94,11 @@ Dzięki przeglądarce Tor Browser Jean może swobodnie i prywatnie przeglądać 
 
 ## Czym jest Tor?
 
-Tor is free software and an open network that helps protect you from tracking, surveillance, and censorship online.
-Tor is created for free by a 501(c)3 U.S.-based nonprofit called the Tor Project. 
+Tor jest wolnym oprogramowaniem i otwartą siecią, która pomaga chronić Cię przed śledzeniem, nadzorem i cenzurą w Internecie. 
+Tor jest tworzony za darmo przez organizację non-profit o nazwie 501(c)3 z USA o nazwie Tor Project.
 
-The easiest way to use Tor is Tor Browser.
-When you use Tor Browser, no one can see what websites you visit or where in the world you’re coming from. 
+Najłatwiejszym sposobem użycia przeglądarki Tor jest Tor Browser. 
+Kiedy używasz przeglądarki Tor Browser, nikt nie może zobaczyć, które strony odwiedzasz lub skąd pochodzisz.
 
 Other applications, like SecureDrop and OnionShare, use Tor to protect their users against surveillance and censorship.
 
