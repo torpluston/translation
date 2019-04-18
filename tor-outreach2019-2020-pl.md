@@ -150,7 +150,7 @@ Dowiedz się więcej o Tor, odwiedzając naszą stronę, naszą wiki, znajdując
 
 ## 8. Pobierz przeglądarkę Tor
 
-Tor for Desktop
+Tor Dla Komputerów Stacjonarnych
 torproject.org/download
 
 TOR NA TELEFON
