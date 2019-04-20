@@ -5,34 +5,35 @@
 # Translators:
 # Konstantin Tiler <inactive+tilersever@transifex.com>, 2016
 # LinuxChata, 2014
+# - -, 2019
 # Vira Motorko <ato4ka@i.ua>, 2015
 # Андрій Бандура <andriykopanytsia@gmail.com>, 2014
 msgid ""
 msgstr ""
-"Project-Id-Version: The Tor Project\n"
+"Project-Id-Version: Tor Project\n"
 "Report-Msgid-Bugs-To: Tails developers <tails@boum.org>\n"
-"POT-Creation-Date: 2018-03-01 21:30+0100\n"
-"PO-Revision-Date: 2018-04-12 19:08+0000\n"
-"Last-Translator: Любомир <n.lyubomyr@gmail.com>\n"
+"POT-Creation-Date: 2018-12-09 13:56+0100\n"
+"PO-Revision-Date: 2019-04-20 12:40+0000\n"
+"Last-Translator: - -\n"
 "Language-Team: Ukrainian (http://www.transifex.com/otf/torproject/language/uk/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: uk\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=4; plural=(n % 1 == 0 && n % 10 == 1 && n % 100 != 11 ? 0 : n % 1 == 0 && n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14) ? 1 : n % 1 == 0 && (n % 10 ==0 || (n % 10 >=5 && n % 10 <=9) || (n % 100 >=11 && n % 100 <=14 )) ? 2: 3);\n"
 
-#: ../lib/Tails/IUK/Frontend.pm:148 ../lib/Tails/IUK/Frontend.pm:524
-#: ../lib/Tails/IUK/Frontend.pm:697
+#: ../lib/Tails/IUK/Frontend.pm:147 ../lib/Tails/IUK/Frontend.pm:524
+#: ../lib/Tails/IUK/Frontend.pm:710
 msgid ""
 "For debugging information, execute the following command: sudo tails-"
 "debugging-info"
 msgstr "Щоб отримати інформацію відлагодження, виконайте таку команду: sudo tails-debugging-info"
 
-#: ../lib/Tails/IUK/Frontend.pm:217
+#: ../lib/Tails/IUK/Frontend.pm:218
 msgid "Error while checking for upgrades"
 msgstr "При перевірці оновлень виникла помилка"
 
-#: ../lib/Tails/IUK/Frontend.pm:220
+#: ../lib/Tails/IUK/Frontend.pm:221
 msgid ""
 "<b>Could not determine whether an upgrade is available from our website.</b>\n"
 "\n"
@@ -41,78 +42,77 @@ msgid ""
 "If the problem persists, go to file:///usr/share/doc/tails/website/doc/upgrade/error/check.en.html"
 msgstr "<b>Не вдалося перевірити наявність оновлень на нашому сайті.</b>\n\nПеревірте з'єднання з мережею, та перезапустіть Tails для повторної спроби оновлення.\n\nЯкщо проблема зберігається, дивіться file:///usr/share/doc/tails/website/doc/upgrade/error/check.en.html"
 
-#: ../lib/Tails/IUK/Frontend.pm:235
+#: ../lib/Tails/IUK/Frontend.pm:236
 msgid "no automatic upgrade is available from our website for this version"
 msgstr "для цієї версії програми немає автоматичного оновлення нашого сайту"
 
-#: ../lib/Tails/IUK/Frontend.pm:241
+#: ../lib/Tails/IUK/Frontend.pm:242
 msgid "your device was not created using Tails Installer"
 msgstr "ваш пристрій не був створений за допомогою інсталятора Tails"
 
-#: ../lib/Tails/IUK/Frontend.pm:246
+#: ../lib/Tails/IUK/Frontend.pm:247
 msgid "Tails was started from a DVD or a read-only device"
 msgstr "Tails була запущена з DVD або пристрою, доступного тільки для читання"
 
-#: ../lib/Tails/IUK/Frontend.pm:251
+#: ../lib/Tails/IUK/Frontend.pm:252
 msgid "there is not enough free space on the Tails system partition"
 msgstr "на вашому пристрої недостатньо вільного місця"
 
-#: ../lib/Tails/IUK/Frontend.pm:256
+#: ../lib/Tails/IUK/Frontend.pm:257
 msgid "not enough memory is available on this system"
 msgstr "недостатньо пам'яті"
 
-#: ../lib/Tails/IUK/Frontend.pm:262
+#: ../lib/Tails/IUK/Frontend.pm:263
 #, perl-brace-format
 msgid "No explanation available for reason '%{reason}s'."
 msgstr "Для причини '%{reason}s' немає пояснення."
 
-#: ../lib/Tails/IUK/Frontend.pm:282
+#: ../lib/Tails/IUK/Frontend.pm:283
 msgid "The system is up-to-date"
 msgstr "Усі останні оновлення встановлено"
 
-#: ../lib/Tails/IUK/Frontend.pm:287
+#: ../lib/Tails/IUK/Frontend.pm:288
 msgid "This version of Tails is outdated, and may have security issues."
 msgstr "Ця версія Tails застаріла і може мати проблеми з безпекою."
 
-#: ../lib/Tails/IUK/Frontend.pm:319
+#: ../lib/Tails/IUK/Frontend.pm:320
 #, perl-brace-format
 msgid ""
 "The available incremental upgrade requires %{space_needed}s of free space on"
 " Tails system partition,  but only %{free_space}s is available."
 msgstr "Наявне додаткове оновлення вимагає %{space_needed}s вільного простору на системному розділі Tails, але тільки %{free_space}s доступно."
 
-#: ../lib/Tails/IUK/Frontend.pm:335
+#: ../lib/Tails/IUK/Frontend.pm:336
 #, perl-brace-format
 msgid ""
 "The available incremental upgrade requires %{memory_needed}s of free memory,"
 " but only %{free_memory}s is available."
 msgstr "Наявне додаткове оновлення вимагає %{memory_needed}s вільної пам'яті, але тільки %{free_memory}s доступно."
 
-#: ../lib/Tails/IUK/Frontend.pm:357
+#: ../lib/Tails/IUK/Frontend.pm:358
 msgid ""
 "An incremental upgrade is available, but no full upgrade is.\n"
 "This should not happen. Please report a bug."
 msgstr "Тільки додаткове, а не повне оновлення доступно.\nЦього не повинно було статися. Будь ласка, повідомте про помилку."
 
-#: ../lib/Tails/IUK/Frontend.pm:361
+#: ../lib/Tails/IUK/Frontend.pm:362
 msgid "Error while detecting available upgrades"
 msgstr "При перевірці доступних оновлень виникла помилка"
 
-#: ../lib/Tails/IUK/Frontend.pm:371
+#: ../lib/Tails/IUK/Frontend.pm:372
 #, perl-brace-format
 msgid ""
 "<b>You should upgrade to %{name}s %{version}s.</b>\n"
 "\n"
 "For more information about this new version, go to %{details_url}s\n"
 "\n"
-"It is recommended to close all the open applications during the upgrade.\n"
+"We recommend you close all other applications during the upgrade.\n"
 "Downloading the upgrade might take a long time, from several minutes to a few hours.\n"
-"The networking will be disabled after downloading the upgrade.\n"
 "\n"
 "Download size: %{size}s\n"
 "\n"
 "Do you want to upgrade now?"
-msgstr "<b>Ви повинні встановити оновлення %{name}s %{version}s.</b>\n\nДля отримання додаткової інформації про цю нової версії, дивіться %{details_url}s\n\nПеред оновленням рекомендується закрити всі відкриті програми.\nВстановлення оновлення може зайняти значний час: від кількох хвилин до кількох годин.\nМережа буде вимкнена після завантаження оновлення.\n\nРозмір поновлення: %{size}s\n\nХочете встановити оновлення зараз?"
+msgstr "<b>Вам варто оновитися до %{name}s %{version}s.</b>\n\nБільше інформації про цю нову версію ви можете знайти на %{details_url}s\n\nМи рекомендуємо вам закрити усі інші додатки під час оновлення.\nЗавантаження оновлення може зайняти багато часу - від кількох хвилин до кількох годин.\n\nРозмір завантаження: %{size}s\n\nБажаєте виконати оновлення зараз?"
 
 #: ../lib/Tails/IUK/Frontend.pm:386
 msgid "Upgrade available"
@@ -189,7 +189,24 @@ msgstr "Це не повинно відбуватись. Будь ласка, п
 msgid "Error while choosing a download server"
 msgstr "Помилка при виборі сервера завантаження"
 
-#: ../lib/Tails/IUK/Frontend.pm:608
+#: ../lib/Tails/IUK/Frontend.pm:606
+msgid ""
+"The upgrade was successfully downloaded.\n"
+"\n"
+"The network connection will now be disabled.\n"
+"\n"
+"Please save your work and close all other applications."
+msgstr "Оновлення було успішно завантажене.\n\nЗараз мережеве з'єднання буде вимкнене.\n\nЗбережіть усю вашу роботу та закрийте усі інші додатки."
+
+#: ../lib/Tails/IUK/Frontend.pm:612
+msgid "Upgrade successfully downloaded"
+msgstr "Оновлення успішно завантажене"
+
+#: ../lib/Tails/IUK/Frontend.pm:614
+msgid "Apply upgrade"
+msgstr "Застосувати оновлення"
+
+#: ../lib/Tails/IUK/Frontend.pm:621
 msgid ""
 "<b>Your Tails device was successfully upgraded.</b>\n"
 "\n"
@@ -199,46 +216,46 @@ msgid ""
 "Do you want to restart now?"
 msgstr "<b>Ваш Tails-пристрій було успішно оновлено.</b>\n\nДеякі налаштуваня безпеки були тимчасово відключені.\nВи повинні перезапустити нову версію Tails якомога швидше.\n\nХочете перевантажити зараз?"
 
-#: ../lib/Tails/IUK/Frontend.pm:613
+#: ../lib/Tails/IUK/Frontend.pm:626
 msgid "Restart Tails"
 msgstr "Перезавантажити Tails"
 
-#: ../lib/Tails/IUK/Frontend.pm:614
+#: ../lib/Tails/IUK/Frontend.pm:627
 msgid "Restart now"
 msgstr "Перезавантажити зараз"
 
-#: ../lib/Tails/IUK/Frontend.pm:615
+#: ../lib/Tails/IUK/Frontend.pm:628
 msgid "Restart later"
 msgstr "Перезавантажити пізніше"
 
-#: ../lib/Tails/IUK/Frontend.pm:626
+#: ../lib/Tails/IUK/Frontend.pm:639
 msgid "Error while restarting the system"
 msgstr "При перезавантажені системи виникла помилка"
 
-#: ../lib/Tails/IUK/Frontend.pm:629
+#: ../lib/Tails/IUK/Frontend.pm:642
 msgid "Failed to restart the system"
 msgstr "Не вдалося перезавантажити систему"
 
-#: ../lib/Tails/IUK/Frontend.pm:644
+#: ../lib/Tails/IUK/Frontend.pm:657
 msgid "Error while shutting down the network"
 msgstr "При вимкнені мережі виникла помилка"
 
-#: ../lib/Tails/IUK/Frontend.pm:647
+#: ../lib/Tails/IUK/Frontend.pm:660
 msgid "Failed to shutdown network"
 msgstr "Не вдалося вимкнути мережу"
 
-#: ../lib/Tails/IUK/Frontend.pm:657
+#: ../lib/Tails/IUK/Frontend.pm:670
 msgid "Upgrading the system"
 msgstr "Оновлення системи"
 
-#: ../lib/Tails/IUK/Frontend.pm:659
+#: ../lib/Tails/IUK/Frontend.pm:672
 msgid ""
 "<b>Your Tails device is being upgraded...</b>\n"
 "\n"
 "For security reasons, the networking is now disabled."
 msgstr "<b>Встановлюється оновлення на ваш Tails-пристрій...</b>\n\nЗ метою безпеки мережа вимкнена."
 
-#: ../lib/Tails/IUK/Frontend.pm:692
+#: ../lib/Tails/IUK/Frontend.pm:705
 msgid ""
 "<b>An error occured while installing the upgrade.</b>\\n\\nYour Tails device"
 " needs to be repaired and might be unable to restart.\\n\\nPlease follow the"
@@ -246,6 +263,6 @@ msgid ""
 "file:///usr/share/doc/tails/website/doc/upgrade/error/install.en.html"
 msgstr "<b>У процесі установки оновлення сталася помилка.</b>\\n\\nВаш Tails-пристрій потребує відновлення, і, можливо, не зможе запуститися знову.\\n\\nбудь ласка, дотримуйтесь інструкцій по посиланню file:///usr/share/doc/tails/website/doc/upgrade/error/install.en.html"
 
-#: ../lib/Tails/IUK/Frontend.pm:702
+#: ../lib/Tails/IUK/Frontend.pm:715
 msgid "Error while installing the upgrade"
 msgstr "При встановлені оновлень виникла помилка"
