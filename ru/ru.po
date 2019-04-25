@@ -3,14 +3,27 @@
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
+# Translators:
+# Елисеев Дмитрий <inactive+ddark008@transifex.com>, 2016
+# runasand <inactive+runasand@transifex.com>, 2016
+# Иван Лапенков, 2016
+# Arioko <arikushi777@gmail.com>, 2016
+# Антон Толмачев <a.tolmachev@richart-consalt.ru>, 2016
+# Oleg  Sergeev <djvnsk@ya.ru>, 2016
+# Andrey, 2017
+# Timofey Lisunov <solokot@gmail.com>, 2017
+# Misha Dyachuk <Wikia@scryptmail.com>, 2017
+# Yanis Voloshin <y@7i4.ru>, 2018
+# erinm, 2019
+# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-03-01 20:26+0100\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Yanis Voloshin <y@7i4.ru>, 2018\n"
+"POT-Creation-Date: 2019-04-25 19:21+0200\n"
+"PO-Revision-Date: 2016-11-18 21:29+0000\n"
+"Last-Translator: erinm, 2019\n"
 "Language-Team: Russian (https://www.transifex.com/otf/teams/1519/ru/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -225,7 +238,7 @@ msgstr ""
 msgid "_Administration Password"
 msgstr "_Пароль Администратора"
 
-#: ../data/greeter.ui.h:46
+#: ../data/greeter.ui.h:46 ../tailsgreeter/utils.py:45
 msgid "Off (default)"
 msgstr "Выключить (по умолчанию)"
 
@@ -233,7 +246,7 @@ msgstr "Выключить (по умолчанию)"
 msgid "_MAC Address Spoofing"
 msgstr "_Подмена MAC-адреса"
 
-#: ../data/greeter.ui.h:48
+#: ../data/greeter.ui.h:48 ../tailsgreeter/utils.py:43
 msgid "On (default)"
 msgstr "Включить (по умолчанию)"
 
@@ -291,11 +304,11 @@ msgstr "_Запуск Tails"
 
 #. Translators: please do not translate this string (it is read from
 #. Gtk translation)
-#: ../tailsgreeter/language.py:136
+#: ../tailsgreeter/language.py:137
 msgid "default:LTR"
 msgstr "по умолчанию:LTR"
 
-#: ../tailsgreeter/persistence.py:89
+#: ../tailsgreeter/persistence.py:91
 #, python-brace-format
 msgid ""
 "live-persist failed with return code {returncode}:\n"
@@ -304,7 +317,7 @@ msgstr ""
 "live-persist не сработал, код ошибки {returncode}:\n"
 "{stderr}"
 
-#: ../tailsgreeter/persistence.py:122 ../tailsgreeter/persistence.py:139
+#: ../tailsgreeter/persistence.py:124 ../tailsgreeter/persistence.py:141
 #, python-brace-format
 msgid ""
 "cryptsetup failed with return code {returncode}:\n"
@@ -315,7 +328,7 @@ msgstr ""
 "{stdout}\n"
 "{stderr}"
 
-#: ../tailsgreeter/persistence.py:156
+#: ../tailsgreeter/persistence.py:158
 #, python-brace-format
 msgid ""
 "live-persist failed with return code {returncode}:\n"
@@ -326,7 +339,7 @@ msgstr ""
 "{stdout}\n"
 "{stderr}"
 
-#: ../tailsgreeter/persistence.py:170
+#: ../tailsgreeter/persistence.py:172
 #, python-brace-format
 msgid ""
 "umount failed with return code {returncode}:\n"
@@ -336,3 +349,11 @@ msgstr ""
 "umount не сработал код ошибки {returncode}:\n"
 "{stdout}\n"
 "{stderr}"
+
+#: ../tailsgreeter/utils.py:48
+msgid "On"
+msgstr "Включить"
+
+#: ../tailsgreeter/utils.py:50
+msgid "Off"
+msgstr "Выключить"
