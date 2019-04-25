@@ -1,8 +1,8 @@
 # Tor Outreach Material 2019-2020
 
-# 1. TOR FOR PRIVACY 
+# 1. 为了隐私的Tor
 
-### Privacy is a human right
+### 隐私是一项人权
 
 Like many of us, Aleisha spends most of her time online--connecting with friends, posting on social media, and browsing the web.
 
@@ -135,28 +135,28 @@ Tor relay operators cannot reveal the true identity of Tor users.
 
 Continual peer review of Tor's source code by academic and open source communities ensures that there are no backdoors in Tor, and our social contract promises that we will never backdoor Tor. 
 
-## 7. Join the Tor community
+## 7. 加入Tor社区
 
-Tor is made possible by a diverse set of users, developers, relay operators, and advocates from around the world.
+Tor由来自世界各地的各种用户，开发人员，中继操作者和倡导者组成。
 
-We need your help to make Tor more usable and secure for people everywhere.
+我们需要你的帮助，使Tor对所有人来说都更加实用和安全。
 
-You can volunteer with Tor by writing code, running a relay, creating documentation, offering user support, or telling people in your community about Tor.
+您可以通过编写代码，运行中继，创建文档，提供用户支持或告诉你的社区关于Tor来志愿帮助Tor。
 
-The Tor community is governed by a code of conduct, and we outline our set of promises to the community in our social contract. 
+Tor社区受行为准则的约束，我们在社会性契约中概述了我们对社区的承诺。
 
-Learn more about Tor by visiting our website, our wiki, finding us on IRC, joining one of our mailing lists, or signing up for Tor News at newsletter.torproject.org.
+通过访问我们的网站，我们的维基，在IRC上找到我们，加入一个我们的邮件列表或在newsletter.torproject.org注册Tor新闻了解更多关于Tor。
 
 
-## 8. Download Tor
+## 8. 下载Tor
 
-Tor for Desktop
+Tor 桌面版
 torproject.org/download
 
-TOR ON MOBILE
-### Android 
-Tor Browser for Android is available from GooglePlay.
+移动设备的Tor
+### 安卓
+安卓的Tor Browser可以在GooglePlay中下载。
 
 ### iOS
-Onion Browser, developed by M. Tigas, is the only browser we recommend for iOS.
+Onion Browser，由M. Tigas开发，是我们在iOS推荐的唯一浏览器。
 
