@@ -1,22 +1,22 @@
-# Tor Outreach Material 2019-2020
+# Tor推广材料 2019-2020
 
 # 1. 为了隐私的Tor
 
 ### 隐私是一项人权
 
-Like many of us, Aleisha spends most of her time online--connecting with friends, posting on social media, and browsing the web.
+像我们中的许多人一样，Aleisha将大部分时间花在网上——与朋友联系，在社交媒体上发布以及浏览网页。
 
-But lately, she's noticed that advertisements related to her previous searches are following her around online.
+但是最近，她注意到与之前她搜索相关的广告在网上追踪她。
 
-This feels so invasive that she does some research on online ads and learns that it's not just advertisers tracking her but also her ISP, analytics companies, social media platforms, and more.
+这种感觉非常具有侵略性，所以她对在线广告进行了一些研究，并了解到不仅是广告客户追踪她，还有她的服务商，分析公司，社交媒体平台等等也在追踪她。
 
-Aleisha decides she wants to find and use software that doesn't collect her data, doesn't track her, and doesn't tell other services anything private about her.
+Aleisha决定她要找到并使用不收集她数据，不跟踪她，也不会告诉其他服务任何关于她的私人信息的软件。
 
-She goes to a privacy training at a local hackerspace and learns about **Tor Browser**, the only web browser that allows her to browse anonymously.
+她参加了当地黑客空间的隐私培训，并了解到了**Tor Browser**，这是唯一能让她匿名浏览的网络浏览器。
 
 ---
 
-# 2.TOR FOR FEMINISTS 
+# 2. 为了女权的Tor
 
 ### The future is cyberfeminist
 
@@ -36,7 +36,7 @@ She also uses a Tor-powered app called **OnionShare** to send files to other act
 
 ---
 
-# 3. TOR FOR HUMAN RIGHTS
+# 3. 为了人权的Tor
 
 ### 水是生命之源
 
@@ -58,9 +58,9 @@ All of this software uses Tor to help protect Jelani’s privacy.
 
 ---
 
-# 4. TOR FOR ANTI-CENSORSHIP
+# 4. 为了反审查的Tor
 
-### Build bridges not walls
+### 造桥而非建墙
 
 Jean was traveling for the first time to a country far from his family.
 
@@ -90,17 +90,17 @@ With Tor Browser, Jean can browse freely and privately and contact his family.
 
 ---
 
-# 5. Shared Sections
+# 5. 分享部分
 
 ## 什么是 Tor？
 
-Tor is free software and an open network that helps protect you from tracking, surveillance, and censorship online.
-Tor is created for free by a 501(c)3 U.S.-based nonprofit called the Tor Project. 
+Tor是免费软件和开放式网络，有助于保护您免受在线跟踪，监控和审查。
+Tor由一家名为Tor Project的501(c)3美国非营利组织免费创建。
 
-The easiest way to use Tor is Tor Browser.
-When you use Tor Browser, no one can see what websites you visit or where in the world you’re coming from. 
+使用Tor的最简单方法是Tor Browser。
+当您使用Tor Browser时，没有人能够看到您访问的是哪个网站或您来自世界的哪个位置。
 
-Other applications, like SecureDrop and OnionShare, use Tor to protect their users against surveillance and censorship.
+其他应用程序，如SecureDrop和OnionShare，使用Tor来保护其用户免受监视和审查。
 
 
 ## 6. How does Tor work?
