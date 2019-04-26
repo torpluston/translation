@@ -129,11 +129,11 @@ Tor帮助保护记者，人权斗士，家庭暴力受害者，学术研究人�
 
 ## 6. 为什么信任Tor？
 
-Tor is designed for privacy. We don’t know who our users are, and we don't keep logs of user activity.
+Tor为隐私而设计。我们不知道我们的用户是谁，也不会保存用户活动的记录。
 
-Tor relay operators cannot reveal the true identity of Tor users.
+Tor中继运行者无法揭示Tor用户的真实身份。
 
-Continual peer review of Tor's source code by academic and open source communities ensures that there are no backdoors in Tor, and our social contract promises that we will never backdoor Tor. 
+学术界和开源社区对Tor的源代码进行持续的同行评审，确保Tor没有后门，我们的社会契约也承诺我们永远不会对Tor留有后门。
 
 ## 7. 加入Tor社区
 
