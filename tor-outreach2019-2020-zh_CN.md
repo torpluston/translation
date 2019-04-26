@@ -20,19 +20,19 @@ Aleisha决定她要找到并使用不收集她数据，不跟踪她，也不会�
 
 ### The future is cyberfeminist
 
-Fernanda runs a women's collective focused on reproductive rights in Brazil, where abortion is illegal.
+Fernanda在堕胎非法的巴西设立了一个专注于生殖权利的妇女集体。
 
-Fernanda and her colleagues built a website with information about abortion access, birth control, and other resources for people seeking reproductive information.
+Fernanda和她的同事建立了一个网站，为寻求生殖信息的人提供有关堕胎，生育控制和其他资源。
 
-If this website was linked back to them, they could be arrested--or worse. 
+如果这个网站被联系到她们，她们可能会被逮捕——或者更糟。
 
-To protect themselves, Fernanda and her colleagues created the website using Tor **onion services**. Onion services not only protect them from being discovered as the operators of the server but also help protect visitors to their website by requiring they use Tor Browser. 
+为了保护自己，Fernanda和她的同事使用Tor **洋葱服务** 创建了网站。 洋葱服务不仅可以保护它们不被发现作为服务器的运营者，还可以通过要求使用Tor Browser来帮助保护其网站的访问者。
 
-In fact, Fernanda uses **Tor Browser** for all of her web browsing just to be on the safe side.
+实际上，Fernanda使用**Tor Browser**进行所有网页浏览只是为了处于安全一侧。
 
-She also uses a Tor-powered app called **OnionShare** to send files to other activists securely and privately. 
+她还使用有Tor支持的名为** OnionShare **的应用程序安全私密地向其他社运人士发送文件。
 
-### Reproductive rights activists like Fernanda are fighting for fundamental freedoms, and Tor helps power their resistance.
+### 像Fernanda这样的生殖权社运人士正在为基本的自由而战，而Tor则增强他们的抵抗。
 
 ---
 
@@ -40,13 +40,13 @@ She also uses a Tor-powered app called **OnionShare** to send files to other act
 
 ### 水是生命之源
 
-Jelani lives in a small village  which a wide river runs through.
+Jelani住在一个有大河流过的小村庄。
 
-This river has provided water to his community since the days of his ancestors. 
+从他的祖辈时起，这条河就为他的社区提供水源。
 
-But today, Jelani’s river is threatened by powerful multinational companies drilling for oil in the region.
+但是今天，Jelani的河受到在当地钻探石油的强大跨国公司的威胁。
 
-Private security firms, paid for by these companies, use powerful surveillance mechanisms to monitor the online activities of Jelani and his neighbors in the village who are organizing to protect their sacred river. 
+由这些公司支付的私人保安公司使用强大的监控机制来监控Jelani及其村民的在线活动，他们正在组织保护他们的神圣河流。
 
 Jelani uses **Tor Browser** to prevent these companies from watching as he visits websites for international human rights protection and legal aid and writes blog posts about the resistance movement in his village.
 
