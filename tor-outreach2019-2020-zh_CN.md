@@ -32,7 +32,7 @@ Fernanda和她的同事建立了一个网站，为寻求生殖信息的人提供
 
 她还使用有Tor支持的名为** OnionShare **的应用程序安全私密地向其他社运人士发送文件。
 
-### 像Fernanda这样的生殖权社运人士正在为基本的自由而战，而Tor则增强他们的抵抗。
+### 像Fernanda这样的生殖权社运人士正在为基本的自由而战，而Tor则帮助增强他们的抗争。
 
 ---
 
@@ -48,13 +48,13 @@ Jelani住在一个有大河流过的小村庄。
 
 由这些公司支付的私人保安公司使用强大的监控机制来监控Jelani及其村民的在线活动，他们正在组织保护他们的神圣河流。
 
-Jelani uses **Tor Browser** to prevent these companies from watching as he visits websites for international human rights protection and legal aid and writes blog posts about the resistance movement in his village.
+Jelani使用**Tor Browser**来让他在访问国际人权保护和法律援助网站并撰写关于其村庄抵抗运动的博客文章时免受这些公司的窥探。
 
-He also uses **OnionShare** and **SecureDrop** to securely send documents to journalists who are helping expose these human rights violations.
+他还使用**OnionShare**和**SecureDrop**安全地向正在帮助揭露这些侵犯人权行为的记者发送文件。
 
-All of this software uses Tor to help protect Jelani’s privacy. 
+所有这些软件都使用了Tor来保护Jelani的隐私。
 
-### Human rights activists like Jelani are fighting for justice in their communities, and Tor helps power their resistance.
+### 像Jelani这样的人权社运人士正在为他们的社区争取正义，而Tor则帮助增强他们的抗争。
 
 ---
 
@@ -62,31 +62,31 @@ All of this software uses Tor to help protect Jelani’s privacy.
 
 ### 造桥而非建墙
 
-Jean was traveling for the first time to a country far from his family.
+Jean第一次去了一个原理他的家人的国家。
 
-After arriving at a hotel, he opened his laptop.
+在抵达酒店后，他打开了他的笔记本电脑。
 
-He was so exhausted that when the message "Connection has timed out" first appeared on his web browser, he thought it was due to his own error.
+当他的网络浏览器首次出现“连接超时”的信息时，他感到身心俱疲，他认为这是由于他自己的失误。
 
-But after trying again and again, he realized that his email provider, a news website, and many apps were unavailable. 
+但在不断的尝试后，他意识到他的电子邮件提供商，新闻网站和许多应用程序都无法使用。
 
-He had heard that this country censors the internet and wondered if that was happening.
-How could he contact his family from behind this impenetrable wall?
-After doing some web searches, he found a forum and read about VPNs, private services that allow you to connect to another uncensored network.
+他听说这个国家审查互联网并想知道这是否正在发生。
+他怎么能从这个难以穿透的墙后面联系他的家人？
+在进行了一些网络搜索之后，他找到了一个论坛并读到了有关VPN的信息，这些私有服务允许你连接到另一个没有被审查的网络。
 
-Jean spent half an hour trying to figure out which cheap VPN was best.
+Jean花了半个小时尝试来找出哪个便宜的VPN是最好的。
 
-He chose one and for a moment it seemed to work, but after five minutes the connection went offline and the VPN would no longer connect. 
+他选择了一个似乎工作了一阵的，但五分钟后连接脱机，VPN再也连接不上了。
 
-Jean kept reading to find other options and learned about Tor Browser and how it can circumvent censorship.
+Jean继续阅读以寻找其他选项并了解到了Tor Browser及它如何规避审查。
 
-He found an official website mirror to download the program.
+他找到了一个官网镜像来下载这个程序。
 
-When he opened **Tor Browser**, he followed the prompts for censored users and connected to a bridge which allowed him to access the internet again.
+当他打开**Tor Browser**时，他按照给受到审查用户的提示连接到了一个网桥，这使他能够再次访问互联网。
 
-With Tor Browser, Jean can browse freely and privately and contact his family. 
+使用Tor Browser让Jean能自由私密地浏览并联系他的家人。
 
-### Censored users all over the world rely on Tor Browser for a free, stable, and uncensored way to access the internet.
+### 世界各地的受审查用户依靠Tor Browser来以免费，稳定和未经审查的方式访问互联网。
 
 ---
 
@@ -103,31 +103,31 @@ Tor由一家名为Tor Project的501(c)3美国非营利组织免费创建。
 其他应用程序，如SecureDrop和OnionShare，使用Tor来保护其用户免受监视和审查。
 
 
-## 6. How does Tor work?
+## 6. Tor如何工作？
 
-Amal wants to visit Bekele’s website privately, so she opens Tor Browser.
+Amal想要隐秘地访问Bekele的网站，所以她打开了Tor Browser。
 
-Tor Browser selects a random circuit of three relays, which are computers all over the world configured to route traffic over the Tor network.
+Tor Browser选择了三个中继的随机线路，这些中继是世界各地的计算机，它们被配置为使用Tor网络来路由流量。
 
-Tor Browser then encrypts her website request three times and sends it to the first Tor relay in her circuit.
+Tor Browser接着加密她的网站请求三次并将其发送到她的线路中的第一个Tor中继。
 
-The first relay removes the first encryption layer but doesn't learn that the destination is Bekele’s website.
+第一个中继删除了第一层加密，但不会知道其目的地是Bekele的网站。
 
-The first relay learns only the next location in the circuit, which is the second relay.
+第一个中继只知道它在线路上的下一个目标，也就是第二个中继。
 
-The second relay removes another encryption layer and forwards the web page request to the third relay.
+第二个中继移除了另一层加密，然后将网络请求转发给第三个中继。
 
-The third relay removes the last encryption layer and forwards the web page request to its destination, Bekele’s website, but it doesn't know the request comes from Amal.
+第三个中继移除最后一层加密，然后将网络请求转发到它的目的地，Bekele的网站，但是它也不知道这个请求来自Amal。
 
-Bekele doesn't know that the website request came from Amal unless she tells him so.
+Bekele不知道网络请求是来自Amal的，除非她告诉他。
 
-## 7. Who uses Tor? 
+## 7. 谁使用Tor？
 
-People all over the world use Tor to protect their privacy and access the web freely.
+世界各地的人们使用Tor来保护他们的隐私并自由访问网络。
 
-Tor helps protect journalists, human rights defenders, domestic violence victims, academic researchers, and anyone experiencing tracking, censorship, or surveillance. 
+Tor帮助保护记者，人权斗士，家庭暴力受害者，学术研究人员以及任何经历跟踪，审查或监视的人。
 
-## 6. Why trust Tor?
+## 6. 为什么信任Tor？
 
 Tor is designed for privacy. We don’t know who our users are, and we don't keep logs of user activity.
 
