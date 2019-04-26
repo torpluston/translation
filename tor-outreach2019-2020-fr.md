@@ -94,7 +94,7 @@ Avec le Navigateur Tor, Jean peut naviguer librement, en toute confidentialité
 
 ## Qu’est-ce que Tor ?
 
-Tor est un logiciel gratuit et un réseau ouvert qui aident à vous protéger contre le suivi à trace, la surveillance et la censure en ligne.
+Tor est un logiciel gratuit et un réseau ouvert qui aident à vous protéger contre le pistage, la surveillance et la censure en ligne.
 Tor est créé gratuitement par un organisme à but non lucratif 501(c)3 situé aux États-Unis appelé Le Projet Tor.
 
 La façon la plus simple d’utiliser Tor est avec le Navigateur Tor.
