@@ -131,13 +131,13 @@ Tor gazetecilere, insan hakları savunucularına, yerel şiddet kurbanlarına, a
 
 Tor kişisel gizliliği korumak için tasarlanmıştır. Kullanıcılarımızın kim olduğunu bilmeyiz ve kullanıcıların işlemleri ile ilgili herhangi bir günlük kaydı tutmayız. 
 
-Tor aktarıcı hizmeti sunanlar, aktarıcılarını kullanan Tor kullanıcılarının gerçek kimliklerini öğrenemez.
+Tor aktarıcısı işletenler, aktarıcılarını kullanan Tor kullanıcılarının gerçek kimliklerini öğrenemez.
 
 Tor kaynak kodunun akademik ve açık kaynak toplulukları tarafından sürekli gözden geçirilmesi sayesinde Tor üzerinde herhangi bir arka kapı bulunmaz. Ayrıca topluma Tor üzerinde bir arka kapı bulunmayacağına dair verdiğimiz bir söz var.
 
 ## 7. TOR TOPLULUĞUNA KATILIN
 
-Tor, dünyanın dört bir yanındaki kullanıcılar, geliştiriciler, aktarıcı işletmecileri ve destekçiler sayesinde var oluyor.
+Tor, dünyanın dört bir yanındaki kullanıcılar, geliştiriciler, aktarıcıları işleyenler ve destekçiler sayesinde var oluyor.
 
 İsteyen herkes için Tor uygulamasını daha kullanışlı ve güvenli hale getirmek için desteğiniz gerekiyor.
 
