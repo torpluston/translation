@@ -4,7 +4,7 @@
 
 ### Kişisel gizlilik bir insan hakkıdır
 
-Aleisha çoğumuz gibi zamanının önemli bir kısmında çevrimiçi oluyor. Arkadaşları ile görüşüyor, sosyal ağlarda paylaşım yapıyor ve İnternet sitelerine bakıyor.
+Aleisha çoğumuz gibi zamanının önemli bir kısmında çevrimiçi oluyor. Arkadaşları ile görüşüyor, sosyal ağlarda paylaşım yapıyor ve web sitelerine bakıyor.
 
 Bir süre önce, çevrimiçi olduğu yerlerde daha önce yaptığı aramalar ile ilgili reklamlar görmeye başladığını farketti.
 
