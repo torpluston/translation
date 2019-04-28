@@ -18,7 +18,7 @@ Aleisha决定她要找到并使用不收集她数据，不跟踪她，也不会�
 
 # 2. 为了女权的Tor
 
-### The future is cyberfeminist
+### 未来是网络女权主义
 
 Fernanda在堕胎非法的巴西设立了一个专注于生殖权利的妇女集体。
 
