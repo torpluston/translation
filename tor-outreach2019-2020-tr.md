@@ -141,7 +141,7 @@ Tor, dünyanın dört bir yanındaki kullanıcılar, geliştiriciler, aktarıcı
 
 İsteyen herkes için Tor uygulamasını daha kullanışlı ve güvenli hale getirmek için desteğiniz gerekiyor.
 
-Kod geliştirerek, bir aktarıcı işleterek, belgeler yazarak, kullanıcı desteği sunarak ya da çevrenizdekileri Tor hakkında bilgilendirerek Tor projesine gönüllü destek verebilirsiniz.
+Kod geliştirerek, bir aktarıcı işleterek, belgeler yazarak, kullanıcı desteği sunarak ya da çevrenizdekileri Tor hakkında bilgilendirerek Tor projesine gönüllü katkıda bulunabilirsiniz.
 
 Tor topluluğunun davranış kuralları vardır ve topluluğa verdiğimiz sözleri toplumsal sözleşmemizde özetliyoruz.
 
