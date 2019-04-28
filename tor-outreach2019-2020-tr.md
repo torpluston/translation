@@ -98,7 +98,7 @@ Tor çevrimiçi izlenmenizi engelleyen ve sansürü aşmanızı sağlayan özgü
 Tor Birleşik Devletler 501(c)3 koşulları altında faaliyet gösteren ve kar amacı gütmeyen bir kuruluş olan Tor Projesi tarafından geliştirilmiştir.
 
 Tor kullanmanın en kolay yolu Tor Browser uygulamasıdır.
-Tor Browser uygulamasını kullandığınızda hiç kimse hangi web sitelerini ziyaret ettiğinizi ve dünyanın neresinde olduğunuzu göremez.
+Tor Browser uygulamasını kullandığınızda hiç kimse hangi web sitelerini ziyaret ettiğinizi ve dünyanın neresinde bulunduğunuzu göremez.
 
 SecureDrop ve OnionShare gibi diğer uygulamalar kullanıcılarını izleme ve sansüre karşı korur.
 
