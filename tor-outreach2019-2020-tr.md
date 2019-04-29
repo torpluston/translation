@@ -46,7 +46,7 @@ Bu nehir atalarının zamanından beri köy halkının suyunu sağlıyor.
 
 Ancak bugün Jelani'nin nehri bölgede petrol sondajı yapan çok uluslu güçlü şirketlerin tehdidi altında.
 
-Bu şirketler için çalışan özel güvenlik firmaları, nehirlerini korumak için bir araya gelen Jelani ve komşularından oluşan köy halkının çevrimiçi yaptıklarını izlemek için gelişmiş yöntemler kullanıyor.
+Bu şirketler için çalışan özel güvenlik firmaları, nehirlerini korumak için bir araya gelen Jelani ve komşularından oluşan köy halkının çevrimiçi işlemlerini izlemek için gelişmiş gözetleme yöntemleri kullanıyor.
 
 Jelani uluslararası insan hakları ya da hukuk ile ilgili web sitelerini ziyaret etmek ve köyündeki direniş hakkında yazılar yazmak için **Tor Browser** kullanıyor.
 
@@ -94,13 +94,13 @@ Jean Tor Browser kullanarak kişisel gizliliğinin korunmasını sağlarken İnt
 
 ## Tor nedir?
 
-Tor çevrimiçi izlenmenizi engelleyen ve sansürü aşmanızı sağlayan özgür ve ücretsiz bir açık ağdır.
+Tor çevrimiçi yaptıklarınızın izlenmesini engelleyen ve sansürü aşmanızı sağlayan özgür ve ücretsiz bir açık ağdır.
 Tor Birleşik Devletler 501(c)3 koşulları altında faaliyet gösteren ve kar amacı gütmeyen bir kuruluş olan Tor Projesi tarafından geliştirilmiştir.
 
 Tor kullanmanın en kolay yolu Tor Browser uygulamasıdır.
 Tor Browser uygulamasını kullandığınızda hiç kimse hangi web sitelerini ziyaret ettiğinizi ve dünyanın neresinde bulunduğunuzu göremez.
 
-SecureDrop ve OnionShare gibi diğer uygulamalar kullanıcılarını izleme ve sansüre karşı korur.
+SecureDrop ve OnionShare gibi diğer uygulamalar kullanıcılarını gözetleme ve sansüre karşı korur.
 
 
 ## 6. TOR NASIL ÇALIŞIR?
@@ -125,7 +125,7 @@ Bekele, Amal kendisine söylemedikçe web sitesi ile ilgili isteğin ondan geldi
 
 Tüm dünyadan insanlar kişisel gizliliklerini korumak ve web sitelerine özgürce erişmek için Tor kullanır.
 
-Tor gazetecilere, insan hakları savunucularına, yerel şiddet kurbanlarına, akademik araştırmacılara ve izleme, sansür ya da gözetimle karşılaşan herkese yardımcı olur.
+Tor gazetecilere, insan hakları savunucularına, yerel şiddet kurbanlarına, akademik araştırmacılara ve izleme, sansür ya da gözetleme ile karşılaşan kişilere yardımcı olur.
 
 ## 6. TOR'A NEDEN GÜVENEYİM?
 
