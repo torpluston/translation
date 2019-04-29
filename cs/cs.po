@@ -12,9 +12,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Tor Project\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-06-11 17:17+0200\n"
-"PO-Revision-Date: 2019-04-06 08:04+0000\n"
-"Last-Translator: multiflexi <multi.flexi@seznam.cz>\n"
+"POT-Creation-Date: 2019-04-29 12:08+0200\n"
+"PO-Revision-Date: 2019-04-29 19:07+0000\n"
+"Last-Translator: carolyn <carolyn@anhalt.org>\n"
 "Language-Team: Czech (http://www.transifex.com/otf/torproject/language/cs/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -23,17 +23,17 @@ msgstr ""
 "Plural-Forms: nplurals=4; plural=(n == 1 && n % 1 == 0) ? 0 : (n >= 2 && n <= 4 && n % 1 == 0) ? 1: (n % 1 != 0 ) ? 2 : 3;\n"
 
 #. XXX use a better exception
-#: ../whisperBack/whisperback.py:56
+#: ../whisperBack/whisperback.py:63
 #, python-format
 msgid "Invalid contact email: %s"
 msgstr "Neplatný kontaktní email: %s"
 
-#: ../whisperBack/whisperback.py:74
+#: ../whisperBack/whisperback.py:83
 #, python-format
 msgid "Invalid contact OpenPGP key: %s"
 msgstr "Neplatný kontaktní OpenPGP klíč: %s"
 
-#: ../whisperBack/whisperback.py:76
+#: ../whisperBack/whisperback.py:85
 msgid "Invalid contact OpenPGP public key block"
 msgstr "Neplatný blok veřejného OpenPGP klíče"
 
@@ -44,56 +44,56 @@ msgid ""
 "/etc/whisperback/config.py, ~/.whisperback/config.py, or ./config.py"
 msgstr "%s proměnná nebyla nalezena v žádném z konfiguračních souborů /etc/whisperback/config.py, ~/.whisperback/config.py, ./config.py"
 
-#: ../whisperBack/gui.py:111
+#: ../whisperBack/gui.py:114
 msgid "Name of the affected software"
 msgstr "Název postiženého softwaru"
 
-#: ../whisperBack/gui.py:113
+#: ../whisperBack/gui.py:116
 msgid "Exact steps to reproduce the error"
 msgstr "Přesný popis kroků po kterých dochází k chybě"
 
-#: ../whisperBack/gui.py:115
+#: ../whisperBack/gui.py:118
 msgid "Actual result and description of the error"
 msgstr "Aktuální výsledek a popis chyby"
 
-#: ../whisperBack/gui.py:117
+#: ../whisperBack/gui.py:120
 msgid "Desired result"
 msgstr "Očekávaný výsledek"
 
-#: ../whisperBack/gui.py:130
+#: ../whisperBack/gui.py:133
 msgid "Unable to load a valid configuration."
 msgstr "Nelze nahrát platnou konfiguraci"
 
-#: ../whisperBack/gui.py:166
+#: ../whisperBack/gui.py:170
 msgid "Sending mail..."
 msgstr "Odesílám mail..."
 
-#: ../whisperBack/gui.py:167
+#: ../whisperBack/gui.py:171
 msgid "Sending mail"
 msgstr "Odesílám mail"
 
 #. pylint: disable=C0301
-#: ../whisperBack/gui.py:169
+#: ../whisperBack/gui.py:173
 msgid "This could take a while..."
 msgstr "Může to chvíli trvat..."
 
-#: ../whisperBack/gui.py:185
+#: ../whisperBack/gui.py:189
 msgid "The contact email address doesn't seem valid."
 msgstr "Zdá se, že kontaktní emailová adresa je neplatná."
 
-#: ../whisperBack/gui.py:202
+#: ../whisperBack/gui.py:206
 msgid "Unable to send the mail: SMTP error."
 msgstr "Mail nelze odeslat. Chyba SMTP."
 
-#: ../whisperBack/gui.py:204
+#: ../whisperBack/gui.py:208
 msgid "Unable to connect to the server."
 msgstr "Nelze se připojit k serveru."
 
-#: ../whisperBack/gui.py:206
+#: ../whisperBack/gui.py:210
 msgid "Unable to create or to send the mail."
 msgstr "Mail nelze vytvořit nebo odeslat."
 
-#: ../whisperBack/gui.py:209
+#: ../whisperBack/gui.py:213
 msgid ""
 "\n"
 "\n"
@@ -102,20 +102,20 @@ msgid ""
 "If it does not work, you will be offered to save the bug report."
 msgstr "\n\nHlášení o problému nebylo možné odeslat, pravděpodobně kvůli problémům sítě. Zkuste se, prosím, znovu připojit k síti a znovu kliknout na Odeslat.\n\nPokud to nebude fungovat, bude vám nabídnuta možnost hlášení o problému uložit."
 
-#: ../whisperBack/gui.py:222
+#: ../whisperBack/gui.py:226
 msgid "Your message has been sent."
 msgstr "Vaše zpráva byla úspěšně odeslána."
 
-#: ../whisperBack/gui.py:229
+#: ../whisperBack/gui.py:233
 msgid "An error occured during encryption."
 msgstr "Během šifrování došlo k chybě."
 
-#: ../whisperBack/gui.py:249
+#: ../whisperBack/gui.py:253
 #, python-format
 msgid "Unable to save %s."
 msgstr "Nelze uložit %s."
 
-#: ../whisperBack/gui.py:272
+#: ../whisperBack/gui.py:276
 #, python-format
 msgid ""
 "The bug report could not be sent, likely due to network problems.\n"
@@ -125,27 +125,27 @@ msgid ""
 "Do you want to save the bug report to a file?"
 msgstr "Hlášení o problému nebylo možné odeslat, pravděpodobně kvůli problémům sítě. \n\nLze to obejít tak, že své hlášení o problému uložíte na USB flashdisk a pokusíte s ho poslat na %s z jiného počítače. Mějte na paměti, že vaše hlášení v tomto případě nebude anonymní, pokud se o to nepostaráte smi (jako například že se připojít přez Tor jednoráznově založenému emailovému účtu).\n\nChcete tedy uložit hlášení o problému jako soubor?"
 
-#: ../whisperBack/gui.py:332 ../data/whisperback.ui.h:21
+#: ../whisperBack/gui.py:338 ../data/whisperback.ui.h:21
 msgid "WhisperBack"
 msgstr "WhisperBack"
 
-#: ../whisperBack/gui.py:333 ../data/whisperback.ui.h:2
+#: ../whisperBack/gui.py:339 ../data/whisperback.ui.h:2
 msgid "Send feedback in an encrypted mail."
 msgstr "Poslat odezvu jako šifrovaný mail."
 
-#: ../whisperBack/gui.py:336
+#: ../whisperBack/gui.py:342
 msgid "Copyright © 2009-2018 Tails developers (tails@boum.org)"
 msgstr "Copyright © 2009-2018 Tails developpers (tails@boum.org)"
 
-#: ../whisperBack/gui.py:337
+#: ../whisperBack/gui.py:343
 msgid "Tails developers <tails@boum.org>"
 msgstr "Vývojáři softwaru Tails <tails@boum.org>"
 
-#: ../whisperBack/gui.py:338
+#: ../whisperBack/gui.py:344
 msgid "translator-credits"
 msgstr "translator-credits"
 
-#: ../whisperBack/gui.py:370
+#: ../whisperBack/gui.py:377
 msgid "This doesn't seem to be a valid URL or OpenPGP key."
 msgstr "Tohle není správná URL adresa ani OpenPGP klíč."
 
@@ -221,3 +221,15 @@ msgstr "informace pro debuggování"
 #: ../data/whisperback.ui.h:31
 msgid "Send"
 msgstr "Odeslat"
+
+#: ../data/whisperback.desktop.in.h:1
+msgid "WhisperBack Error Reporting"
+msgstr ""
+
+#: ../data/whisperback.desktop.in.h:2
+msgid "Send feedback via encrypted e-mail"
+msgstr ""
+
+#: ../data/whisperback.desktop.in.h:3
+msgid "feedback;bug;report;tails;error;"
+msgstr ""

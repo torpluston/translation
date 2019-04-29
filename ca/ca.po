@@ -7,14 +7,14 @@
 # Ari Romero <ariadnaaa55555@gmail.com>, 2017
 # escufi <escufi@gmail.com>, 2018
 # laia_, 2016
-# F Xavier Castane <electromigracion@gmail.com>, 2013
+# FXCM, 2013
 msgid ""
 msgstr ""
-"Project-Id-Version: The Tor Project\n"
+"Project-Id-Version: Tor Project\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-06-11 17:17+0200\n"
-"PO-Revision-Date: 2018-08-07 09:00+0000\n"
-"Last-Translator: escufi <escufi@gmail.com>\n"
+"POT-Creation-Date: 2019-04-29 12:08+0200\n"
+"PO-Revision-Date: 2019-04-29 19:07+0000\n"
+"Last-Translator: carolyn <carolyn@anhalt.org>\n"
 "Language-Team: Catalan (http://www.transifex.com/otf/torproject/language/ca/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -23,17 +23,17 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #. XXX use a better exception
-#: ../whisperBack/whisperback.py:56
+#: ../whisperBack/whisperback.py:63
 #, python-format
 msgid "Invalid contact email: %s"
 msgstr "Correu de contacte invàlid: %s"
 
-#: ../whisperBack/whisperback.py:74
+#: ../whisperBack/whisperback.py:83
 #, python-format
 msgid "Invalid contact OpenPGP key: %s"
 msgstr "Clau OpenPGP de contacte invàlida: %s"
 
-#: ../whisperBack/whisperback.py:76
+#: ../whisperBack/whisperback.py:85
 msgid "Invalid contact OpenPGP public key block"
 msgstr "Bloc de clau PGP pública de contacte invàlid."
 
@@ -44,56 +44,56 @@ msgid ""
 "/etc/whisperback/config.py, ~/.whisperback/config.py, or ./config.py"
 msgstr "La variable %s no s'ha trobat en cap dels fitxers de configuració /etc/whisperback/config.py, ~/.whisperback/config.py o ./config.py"
 
-#: ../whisperBack/gui.py:111
+#: ../whisperBack/gui.py:114
 msgid "Name of the affected software"
 msgstr "Nom del software afectat"
 
-#: ../whisperBack/gui.py:113
+#: ../whisperBack/gui.py:116
 msgid "Exact steps to reproduce the error"
 msgstr "Passos exactes per reproduir l' error"
 
-#: ../whisperBack/gui.py:115
+#: ../whisperBack/gui.py:118
 msgid "Actual result and description of the error"
 msgstr "Resultat real i descripció de l'error"
 
-#: ../whisperBack/gui.py:117
+#: ../whisperBack/gui.py:120
 msgid "Desired result"
 msgstr "Resultat desitjat"
 
-#: ../whisperBack/gui.py:130
+#: ../whisperBack/gui.py:133
 msgid "Unable to load a valid configuration."
 msgstr "No es pot carregar una configuració vàlida."
 
-#: ../whisperBack/gui.py:166
+#: ../whisperBack/gui.py:170
 msgid "Sending mail..."
 msgstr "Enviant correu..."
 
-#: ../whisperBack/gui.py:167
+#: ../whisperBack/gui.py:171
 msgid "Sending mail"
 msgstr "Enviant correu"
 
 #. pylint: disable=C0301
-#: ../whisperBack/gui.py:169
+#: ../whisperBack/gui.py:173
 msgid "This could take a while..."
 msgstr "Això por trigar una mica..."
 
-#: ../whisperBack/gui.py:185
+#: ../whisperBack/gui.py:189
 msgid "The contact email address doesn't seem valid."
 msgstr "L'adreça de correu electrònic de contacte no sembla vàlida."
 
-#: ../whisperBack/gui.py:202
+#: ../whisperBack/gui.py:206
 msgid "Unable to send the mail: SMTP error."
 msgstr "No es pot enviar el correu: Error SMTP"
 
-#: ../whisperBack/gui.py:204
+#: ../whisperBack/gui.py:208
 msgid "Unable to connect to the server."
 msgstr "No es pot connectar al servidor."
 
-#: ../whisperBack/gui.py:206
+#: ../whisperBack/gui.py:210
 msgid "Unable to create or to send the mail."
 msgstr "No es pot crear o enviar el correu."
 
-#: ../whisperBack/gui.py:209
+#: ../whisperBack/gui.py:213
 msgid ""
 "\n"
 "\n"
@@ -102,20 +102,20 @@ msgid ""
 "If it does not work, you will be offered to save the bug report."
 msgstr "\n\nEl registre d'error no s'ha enviat per problemes de connexió. Intenteu tornar a connectar-vos a la xarxa i cliqueu envia.\n\nSi això no funciona, podreu desar el registre."
 
-#: ../whisperBack/gui.py:222
+#: ../whisperBack/gui.py:226
 msgid "Your message has been sent."
 msgstr "El missatge s'ha enviat."
 
-#: ../whisperBack/gui.py:229
+#: ../whisperBack/gui.py:233
 msgid "An error occured during encryption."
 msgstr "hi ha hagut un error durant l'encriptació."
 
-#: ../whisperBack/gui.py:249
+#: ../whisperBack/gui.py:253
 #, python-format
 msgid "Unable to save %s."
 msgstr "No es pot desar: %s."
 
-#: ../whisperBack/gui.py:272
+#: ../whisperBack/gui.py:276
 #, python-format
 msgid ""
 "The bug report could not be sent, likely due to network problems.\n"
@@ -125,27 +125,27 @@ msgid ""
 "Do you want to save the bug report to a file?"
 msgstr "No s'ha enviat l'informe d'errors, probablement per problemes de xarxa.\n\nCom a opció, podeu desar-lo coma fitxer en un llapis de memòria i enviar-lo a %s des d'un correu electrònic. Teniu en compte que l'informe no serà anònim si no preneu les vostres pròpies precaucions (fer servir Tor amb un compte de correu electrònic d'un sol ús).\n\nVoleu desar-lo ara en un arxiu?"
 
-#: ../whisperBack/gui.py:332 ../data/whisperback.ui.h:21
+#: ../whisperBack/gui.py:338 ../data/whisperback.ui.h:21
 msgid "WhisperBack"
 msgstr "WhisperBack"
 
-#: ../whisperBack/gui.py:333 ../data/whisperback.ui.h:2
+#: ../whisperBack/gui.py:339 ../data/whisperback.ui.h:2
 msgid "Send feedback in an encrypted mail."
 msgstr "Envieu-nos comentaris en un correu encriptat."
 
-#: ../whisperBack/gui.py:336
+#: ../whisperBack/gui.py:342
 msgid "Copyright © 2009-2018 Tails developers (tails@boum.org)"
 msgstr "Copyright © 2009-2018 Tails developers (tails@boum.org)"
 
-#: ../whisperBack/gui.py:337
+#: ../whisperBack/gui.py:343
 msgid "Tails developers <tails@boum.org>"
 msgstr "Desenvolupadors del Tails <tails@boum.org>"
 
-#: ../whisperBack/gui.py:338
+#: ../whisperBack/gui.py:344
 msgid "translator-credits"
 msgstr "Informació del traductor"
 
-#: ../whisperBack/gui.py:370
+#: ../whisperBack/gui.py:377
 msgid "This doesn't seem to be a valid URL or OpenPGP key."
 msgstr "L'Enllaç o clau OpenPGP no és vàlid."
 
@@ -221,3 +221,15 @@ msgstr "Informació de depuració"
 #: ../data/whisperback.ui.h:31
 msgid "Send"
 msgstr "Envia"
+
+#: ../data/whisperback.desktop.in.h:1
+msgid "WhisperBack Error Reporting"
+msgstr ""
+
+#: ../data/whisperback.desktop.in.h:2
+msgid "Send feedback via encrypted e-mail"
+msgstr ""
+
+#: ../data/whisperback.desktop.in.h:3
+msgid "feedback;bug;report;tails;error;"
+msgstr ""
