@@ -145,7 +145,7 @@ Vous pouvez faire du bénévolat auprès de Tor en écrivant du code, en exploit
 
 La communauté de Tor est régie par un code de conduite et nous énonçons l’ensemble de nos promesses à la communauté dans notre contrat social.
 
-Apprenez-en davantage au sujet de Tor en visitant notre site Web, notre wiki, en nous trouvant sur IRC, en vous joignant à l’une de nos listes de diffusion, ou encore en vous inscrivant aux nouvelles de Tor sur newsletter.torproject.org.
+Apprenez-en davantage au sujet de Tor en visitant notre site Web, notre wiki, en nous trouvant sur IRC, en vous joignant à l’une de nos listes de diffusion, ou encore en vous abonnant aux nouvelles de Tor sur newsletter.torproject.org.
 
 
 ## 8. Télécharger Tor
