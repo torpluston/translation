@@ -84,7 +84,7 @@ Il trouva un miroir officiel du site Web pour télécharger le programme.
 
 Quand il ouvrit le **Navigateur Tor**, il suivit les indications pour les utilisateurs censurés et se connecta à un pont qui lui permit à nouveau d’accéder à Internet.
 
-Avec le Navigateur Tor, Jean peut naviguer librement, en toute confidentialité, et contacter sa famille.
+Avec le Navigateur Tor, Jean peut naviguer en toute liberté, en toute confidentialité, et contacter sa famille.
 
 ### Dans le monde entier, des utilisateurs censurés comptent sur le Navigateur Tor pour une façon gratuite, stable et non censurée d’accéder à Internet.
 
