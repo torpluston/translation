@@ -273,8 +273,8 @@ msgid ""
 "There is no official version of Tor for iOS yet, though we recommend "
 "<mark><a href=\"https://onionbrowser.com/\">Onion Browser</a></mark>."
 msgstr ""
-"Официальной версии Tor для iOS пока нет. Мы советуем использовать <mark><a "
-"href=\"https://onionbrowser.com/\">Onion Browser</a></mark> для iOS."
+"Официальной версии Tor для iOS пока нет; мы советуем использовать <mark><a "
+"href=\"https://onionbrowser.com/\">Onion Browser</a></mark>."
 
 #: https//support.torproject.org/faq/faq-5/
 #: (content/faq/faq-5/contents+en.lrquestion.title)
@@ -292,9 +292,9 @@ msgid ""
 " advanced user who knows how to configure both in a way that doesn't "
 "compromise your privacy."
 msgstr ""
-"В принципе, мы не рекомендуем использовать VPN вместе с Tor. Исключение — "
+"В принципе, мы не рекомендуем использовать VPN вместе с Tor. Исключение – "
 "если вы продвинутый пользователь, который точно знает, как настроить VPN "
-"вместе с Tor так, чтобы не нарушить вашу анонимность."
+"вместе с Tor, чтобы не пострадала анонимность."
 
 #: https//support.torproject.org/faq/faq-5/
 #: (content/faq/faq-5/contents+en.lrquestion.description)
@@ -311,7 +311,7 @@ msgstr ""
 #: https//support.torproject.org/tbb/how-to-verify-signature/
 #: (content/tbb/how-to-verify-signature/contents+en.lrquestion.title)
 msgid "How can I verify Tor Browser's signature?"
-msgstr "Как я могу подтвердить цифровую подпись браузера Tor?"
+msgstr "Как проверить цифровую подпись Tor Browser?"
 
 #: https//support.torproject.org/tbb/how-to-verify-signature/
 #: (content/tbb/how-to-verify-signature/contents+en.lrquestion.description)
@@ -319,8 +319,8 @@ msgid ""
 "Digital signature is a process ensuring that a certain package was generated"
 " by its developers and has not been tampered with."
 msgstr ""
-"Цифровая подпись - это процесс подтверждения того, что конкретный файл "
-"сгенерирован его разработчиками и с тех пор не изменялся."
+"Цифровая подпись подтверждает, что конкретный файл был создан его "
+"разработчиками и с тех пор не изменялся."
 
 #: https//support.torproject.org/tbb/how-to-verify-signature/
 #: (content/tbb/how-to-verify-signature/contents+en.lrquestion.description)
@@ -329,9 +329,9 @@ msgid ""
 "you download is the one we have created and has not been modified by some "
 "attacker."
 msgstr ""
-"Ниже мы объясним, почему это важно, и как подтвердить то, что программа Tor,"
-" которую вы скачали именно та, какой она была создана и что она не была "
-"изменена атакующими."
+"Ниже мы объясним, почему это важно и как подтвердить, что программа Tor, "
+"которую вы скачали, именно та, какой она была создана, и что она не была "
+"изменена злоумышленниками."
 
 #: https//support.torproject.org/tbb/how-to-verify-signature/
 #: (content/tbb/how-to-verify-signature/contents+en.lrquestion.description)
@@ -340,10 +340,9 @@ msgid ""
 "accompanied by a file with the same name as the package and the extension "
 "\".asc\". These .asc files are GPG signatures."
 msgstr ""
-"Каждый файл на нашей [странице "
-"загрузки](https://www.torproject.org/download/) сопровождается файлом с "
-"таким же именем, как и скачиваемый, и с расширением \".asc\". Эти .asc файлы"
-" - это GPG подписи."
+"Каждый файл на [странице загрузки](https://www.torproject.org/download/) "
+"сопровождается файлом с таким же именем, но с расширением \".asc\". Файлы "
+".asc – цифровые подписи."
 
 #: https//support.torproject.org/tbb/how-to-verify-signature/
 #: (content/tbb/how-to-verify-signature/contents+en.lrquestion.description)
@@ -351,8 +350,7 @@ msgid ""
 "They allow you to verify the file you've downloaded is exactly the one that "
 "we intended you to get."
 msgstr ""
-"Они позволяют Вам удостовериться в том, что Вы скачали именно тот файл, "
-"который намеревались."
+"Они позволяют удостовериться, что вы скачали именно тот файл, который нужно."
 
 #: https//support.torproject.org/tbb/how-to-verify-signature/
 #: (content/tbb/how-to-verify-signature/contents+en.lrquestion.description)
@@ -369,6 +367,9 @@ msgid ""
 "For a list of which developer signs which package, see our [signing keys "
 "page](https://www.torproject.org/docs/signing-keys.html.en)."
 msgstr ""
+"Чтобы разобраться, какой разработчик должен подписывать тот или иной "
+"продукт, обратитесь к [этой странице](https://www.torproject.org/docs"
+"/signing-keys.html.en)."
 
 #: https//support.torproject.org/tbb/how-to-verify-signature/
 #: (content/tbb/how-to-verify-signature/contents+en.lrquestion.description)
@@ -376,8 +377,8 @@ msgid ""
 "We now show how you can verify the downloaded file's digital signature on "
 "different operating systems."
 msgstr ""
-"Сейчас мы покажем Вам, как Вы можете подтвердить цифровую подпись скачанного"
-" файла на разных операционных системах."
+"Давайте посмотрим, как проверить цифровую подпись скачанного файла в разных "
+"операционных системах."
 
 #: https//support.torproject.org/tbb/how-to-verify-signature/
 #: (content/tbb/how-to-verify-signature/contents+en.lrquestion.description)
@@ -394,72 +395,77 @@ msgid ""
 "Therefore every time a new file is uploaded a new signature is generated "
 "with a different date."
 msgstr ""
-"С этого момента, каждый раз, когда загружен новый файл, генерируется новая "
-"подпись с отличной датой."
+"Для каждого нового файла, размещенного на сайте, есть отдельная подпись со "
+"своей датой."
 
 #: https//support.torproject.org/tbb/how-to-verify-signature/
 #: (content/tbb/how-to-verify-signature/contents+en.lrquestion.description)
 msgid ""
 "As long as you have verified the signature you should not worry that the "
 "reported date may vary."
-msgstr ""
+msgstr "Если вы уже проверили подпись, на даты можно не обращать внимание."
 
 #: https//support.torproject.org/tbb/how-to-verify-signature/
 #: (content/tbb/how-to-verify-signature/contents+en.lrquestion.description)
 msgid "### Windows"
-msgstr ""
+msgstr "### Windows"
 
 #: https//support.torproject.org/tbb/how-to-verify-signature/
 #: (content/tbb/how-to-verify-signature/contents+en.lrquestion.description)
 msgid ""
 "First of all you need to have GnuPG installed before you can verify "
 "signatures."
-msgstr ""
+msgstr "Вам понадобится шифровальная программа GnuPG."
 
 #: https//support.torproject.org/tbb/how-to-verify-signature/
 #: (content/tbb/how-to-verify-signature/contents+en.lrquestion.description)
 msgid "Download it from https://gpg4win.org/download.html."
-msgstr ""
+msgstr "Ее можно скачать отсюда: https://gpg4win.org/download.html."
 
 #: https//support.torproject.org/tbb/how-to-verify-signature/
 #: (content/tbb/how-to-verify-signature/contents+en.lrquestion.description)
 msgid ""
 "Once it's installed, use GnuPG to import the key that signed your package."
 msgstr ""
+"Используйте установленную программу GnuPG для импорта ключа, которым "
+"подписан продукт."
 
 #: https//support.torproject.org/tbb/how-to-verify-signature/
 #: (content/tbb/how-to-verify-signature/contents+en.lrquestion.description)
 msgid ""
 "In order to verify the signature you will need to type a few commands in "
 "windows command-line, cmd.exe."
-msgstr ""
+msgstr "Придется немного поработать с командной строкой (через cmd.exe)."
 
 #: https//support.torproject.org/tbb/how-to-verify-signature/
 #: (content/tbb/how-to-verify-signature/contents+en.lrquestion.description)
 msgid "The Tor Browser team signs Tor Browser releases."
-msgstr ""
+msgstr "Новые версии Tor Browser подписывает команда Tor Browser."
 
 #: https//support.torproject.org/tbb/how-to-verify-signature/
 #: (content/tbb/how-to-verify-signature/contents+en.lrquestion.description)
 msgid "Import its key (0x4E2C6E8793298290) by starting cmd.exe and typing:"
 msgstr ""
+"Импортируйте ключ нашей команды (0x4E2C6E8793298290). Для этого запустите "
+"cmd.exe и наберите:"
 
 #: https//support.torproject.org/tbb/how-to-verify-signature/
 #: (content/tbb/how-to-verify-signature/contents+en.lrquestion.description)
 msgid ""
 "gpg.exe --keyserver pool.sks-keyservers.net --recv-keys 0x4E2C6E8793298290"
 msgstr ""
+"gpg.exe --keyserver pool.sks-keyservers.net --recv-keys 0x4E2C6E8793298290"
 
 #: https//support.torproject.org/tbb/how-to-verify-signature/
 #: (content/tbb/how-to-verify-signature/contents+en.lrquestion.description)
 msgid ""
 "After importing the key, you can verify that the fingerprint is correct:"
-msgstr ""
+msgstr "Импортировали ключ? Теперь следует проверить отпечаток ключа:"
 
 #: https//support.torproject.org/tbb/how-to-verify-signature/
 #: (content/tbb/how-to-verify-signature/contents+en.lrquestion.description)
 msgid "gpg.exe --fingerprint 0x4E2C6E8793298290"
-msgstr ""
+msgstr "gpg.exe --fingerprint 0x4E2C6E8793298290"
 
 #: https//support.torproject.org/tbb/how-to-verify-signature/
 #: (content/tbb/how-to-verify-signature/contents+en.lrquestion.description)
@@ -469,12 +475,12 @@ msgstr "Вы должны увидеть:"
 #: https//support.torproject.org/tbb/how-to-verify-signature/
 #: (content/tbb/how-to-verify-signature/contents+en.lrquestion.description)
 msgid "pub   rsa4096/0x4E2C6E8793298290 2014-12-15 [C] [expires: 2020-08-24]"
-msgstr ""
+msgstr "pub   rsa4096/0x4E2C6E8793298290 2014-12-15 [C] [expires: 2020-08-24]"
 
 #: https//support.torproject.org/tbb/how-to-verify-signature/
 #: (content/tbb/how-to-verify-signature/contents+en.lrquestion.description)
 msgid "Key fingerprint = EF6E 286D DA85 EA2A 4BA7  DE68 4E2C 6E87 9329 8290"
-msgstr ""
+msgstr "Key fingerprint = EF6E 286D DA85 EA2A 4BA7  DE68 4E2C 6E87 9329 8290"
 
 #: https//support.torproject.org/tbb/how-to-verify-signature/
 #: (content/tbb/how-to-verify-signature/contents+en.lrquestion.description)
@@ -482,16 +488,18 @@ msgid ""
 "uid                   [ unknown] Tor Browser Developers (signing key) "
 "<torbrowser&at;torproject.org>"
 msgstr ""
+"uid                   [ unknown] Tor Browser Developers (signing key) "
+"<torbrowser&at;torproject.org>"
 
 #: https//support.torproject.org/tbb/how-to-verify-signature/
 #: (content/tbb/how-to-verify-signature/contents+en.lrquestion.description)
 msgid "sub   rsa4096/0xEB774491D9FF06E2 2018-05-26 [S] [expires: 2020-09-12]"
-msgstr ""
+msgstr "sub   rsa4096/0xEB774491D9FF06E2 2018-05-26 [S] [expires: 2020-09-12]"
 
 #: https//support.torproject.org/tbb/how-to-verify-signature/
 #: (content/tbb/how-to-verify-signature/contents+en.lrquestion.description)
 msgid "Key fingerprint = 1107 75B5 D101 FB36 BC6C  911B EB77 4491 D9FF 06E2"
-msgstr ""
+msgstr "Key fingerprint = 1107 75B5 D101 FB36 BC6C  911B EB77 4491 D9FF 06E2"
 
 #: https//support.torproject.org/tbb/how-to-verify-signature/
 #: (content/tbb/how-to-verify-signature/contents+en.lrquestion.description)
@@ -499,12 +507,13 @@ msgid ""
 "To verify the signature of the package you downloaded, you will need to "
 "download the \".asc\" file as well."
 msgstr ""
+"Чтобы проверить подпись скачанной программы, нужно скачать и файл .asc."
 
 #: https//support.torproject.org/tbb/how-to-verify-signature/
 #: (content/tbb/how-to-verify-signature/contents+en.lrquestion.description)
 msgid ""
 "Assuming you downloaded the package and its signature to your Desktop, run:"
-msgstr ""
+msgstr "Допустим, вы скачали оба файла на рабочий стол. Дальше:"
 
 #: https//support.torproject.org/tbb/how-to-verify-signature/
 #: (content/tbb/how-to-verify-signature/contents+en.lrquestion.description)
@@ -513,16 +522,19 @@ msgid ""
 ".8_en-US.exe.asc C:\\Users\\Alice\\Desktop\\torbrowser-install-8.0.8_en-"
 "US.exe"
 msgstr ""
+"gpg.exe --verify C:\\Users\\Alice\\Desktop\\torbrowser-install-win64-8.0"
+".8_en-US.exe.asc C:\\Users\\Alice\\Desktop\\torbrowser-install-8.0.8_en-"
+"US.exe"
 
 #: https//support.torproject.org/tbb/how-to-verify-signature/
 #: (content/tbb/how-to-verify-signature/contents+en.lrquestion.description)
 msgid "Please substitute \"Alice\" with your own username."
-msgstr ""
+msgstr "Пожалуйста, замените \"Alice\" на соответствующее имя вашего компьютера."
 
 #: https//support.torproject.org/tbb/how-to-verify-signature/
 #: (content/tbb/how-to-verify-signature/contents+en.lrquestion.description)
 msgid "The output should say \"Good signature\":"
-msgstr ""
+msgstr "Вы должны увидеть \"Good signature\":"
 
 #: https//support.torproject.org/tbb/how-to-verify-signature/
 #: (content/tbb/how-to-verify-signature/contents+en.lrquestion.description)
