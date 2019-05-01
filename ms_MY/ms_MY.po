@@ -1,0 +1,536 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
+# abuyop <abuyop@gmail.com>, 2017-2019
+# Khairulanuar, 2013
+# Mohd Shahril Bin Zainol Abidin <mohd_shahril_96@yahoo.com>, 2013
+msgid ""
+msgstr ""
+"Project-Id-Version: Tor Project\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-04-13 08:42+0200\n"
+"PO-Revision-Date: 2019-05-01 01:27+0000\n"
+"Last-Translator: abuyop <abuyop@gmail.com>\n"
+"Language-Team: Malay (Malaysia) (http://www.transifex.com/otf/torproject/language/ms_MY/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ms_MY\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: ../tails_installer/creator.py:100
+msgid "You must run this application as root"
+msgstr "Anda mesti menjalankan aplikasi ini sebagai root"
+
+#: ../tails_installer/creator.py:146
+msgid "Extracting live image to the target device..."
+msgstr "Mengekstrak imej langsung ke dalam peranti sasaran..."
+
+#: ../tails_installer/creator.py:153
+#, python-format
+msgid "Wrote to device at %(speed)d MB/sec"
+msgstr "Tulis ke peranti dengan kelajuan %(speed)d MB/sec"
+
+#: ../tails_installer/creator.py:296
+#, python-format
+msgid ""
+"There was a problem executing the following command: `%(command)s`.\n"
+"A more detailed error log has been written to '%(filename)s'."
+msgstr "Terdapat ralat ketika melakukan baris perintah berikut: `%(command)s`.\nSatu log ralat terperinci dihasilkan ke dalam '%(filename)s'."
+
+#: ../tails_installer/creator.py:315
+msgid "Verifying SHA1 checksum of LiveCD image..."
+msgstr "Mengesahkan hasil tambah semak SHA1 bagi imej CDLangsung..."
+
+#: ../tails_installer/creator.py:319
+msgid "Verifying SHA256 checksum of LiveCD image..."
+msgstr "Mengesahkan hasil tambah semak SHA256 bagi imej CDLangsung..."
+
+#: ../tails_installer/creator.py:335
+msgid ""
+"Error: The SHA1 of your Live CD is invalid.  You can run this program with "
+"the --noverify argument to bypass this verification check."
+msgstr "Ralat: SHA1 bagi CD Langsung anda tidak sah. Anda boleh menjalankan program ini dengan argumen --noverify untuk melepasi semakan pengesahan."
+
+#: ../tails_installer/creator.py:341
+msgid "Unknown ISO, skipping checksum verification"
+msgstr "ISO tidak diketahui, melangkau pengesahan hasil tambah semak"
+
+#: ../tails_installer/creator.py:353
+#, python-format
+msgid ""
+"Not enough free space on device.\n"
+"%dMB ISO + %dMB overlay > %dMB free space"
+msgstr "Ruang bebas di dalam peranti tidak mencukupi.\n%dMB ISO + %dMB tindihan > %dMB ruang bebas"
+
+#: ../tails_installer/creator.py:360
+#, python-format
+msgid "Creating %sMB persistent overlay"
+msgstr "Mencipta %sMB lapisan berterusan"
+
+#: ../tails_installer/creator.py:421
+#, python-format
+msgid "Unable to copy %(infile)s to %(outfile)s: %(message)s"
+msgstr "Tidak boleh menyalin %(infile)s ke %(outfile)s: %(message)s"
+
+#: ../tails_installer/creator.py:435
+msgid "Removing existing Live OS"
+msgstr "Membuang OS Langsung sedia ada"
+
+#: ../tails_installer/creator.py:444 ../tails_installer/creator.py:457
+#, python-format
+msgid "Unable to chmod %(file)s: %(message)s"
+msgstr "Tidak boleh lakukan chmod %(file)s: %(message)s"
+
+#: ../tails_installer/creator.py:450
+#, python-format
+msgid "Unable to remove file from previous LiveOS: %(message)s"
+msgstr "Tidak dapat membuang fail daripada OSLangsung terdahulu: %(message)s"
+
+#: ../tails_installer/creator.py:464
+#, python-format
+msgid "Unable to remove directory from previous LiveOS: %(message)s"
+msgstr "Tidak dapat membuang direktori daripada OSLangsung terdahulu: %(message)s"
+
+#: ../tails_installer/creator.py:512
+#, python-format
+msgid "Cannot find device %s"
+msgstr "Tidak dapat cari peranti %s"
+
+#: ../tails_installer/creator.py:713
+#, python-format
+msgid "Unable to write on %(device)s, skipping."
+msgstr "Tidak dapat menulis ke %(device)s, melangkau."
+
+#: ../tails_installer/creator.py:743
+#, python-format
+msgid ""
+"Some partitions of the target device %(device)s are mounted. They will be "
+"unmounted before starting the installation process."
+msgstr "Sesetengah sekatan pada peranti sasaran %(device)s telah dilekapkan. Ia akan ditanggalkan sebelum memulakan proses pemasangan."
+
+#: ../tails_installer/creator.py:786 ../tails_installer/creator.py:1010
+msgid "Unknown filesystem.  Your device may need to be reformatted."
+msgstr "Sistem fail tidak diketahui. Peranti anda mungkin harus diformatkan semula."
+
+#: ../tails_installer/creator.py:789 ../tails_installer/creator.py:1013
+#, python-format
+msgid "Unsupported filesystem: %s"
+msgstr "Sistem fail tidak disokong: %s"
+
+#: ../tails_installer/creator.py:807
+#, python-format
+msgid "Unknown GLib exception while trying to mount device: %(message)s"
+msgstr "Pengecualian GLib tidak diketahui ketika cuba melekapkan peranti: %(message)s"
+
+#: ../tails_installer/creator.py:812
+#, python-format
+msgid "Unable to mount device: %(message)s"
+msgstr "Tidak boleh melekapkan peranti: %(message)s"
+
+#: ../tails_installer/creator.py:817
+msgid "No mount points found"
+msgstr "Tiada titik lekap ditemui"
+
+#: ../tails_installer/creator.py:828
+#, python-format
+msgid "Entering unmount_device for '%(device)s'"
+msgstr "Memasukkan unmount_device untuk '%(device)s'"
+
+#: ../tails_installer/creator.py:838
+#, python-format
+msgid "Unmounting mounted filesystems on '%(device)s'"
+msgstr "Menyahlekap sistem fail terlekap pada '%(device)s'"
+
+#: ../tails_installer/creator.py:842
+#, python-format
+msgid "Unmounting '%(udi)s' on '%(device)s'"
+msgstr "Menyahlekap '%(udi)s' pada '%(device)s'"
+
+#: ../tails_installer/creator.py:853
+#, python-format
+msgid "Mount %s exists after unmounting"
+msgstr "Lekapan %s masih wujud selepas proses menyahlekap"
+
+#: ../tails_installer/creator.py:866
+#, python-format
+msgid "Partitioning device %(device)s"
+msgstr "Menyekatkan peranti %(device)s"
+
+#: ../tails_installer/creator.py:995
+#, python-format
+msgid "Unsupported device '%(device)s', please report a bug."
+msgstr "Peranti '%(device)s' tidak disokong, sila laporkan pepijat."
+
+#: ../tails_installer/creator.py:998
+msgid "Trying to continue anyway."
+msgstr "Cuba teruskan jua."
+
+#: ../tails_installer/creator.py:1007 ../tails_installer/creator.py:1405
+msgid "Verifying filesystem..."
+msgstr "Mengesahkan sistem fail..."
+
+#: ../tails_installer/creator.py:1031
+#, python-format
+msgid "Unable to change volume label: %(message)s"
+msgstr "Tidak boleh mengubah label volum: %(message)s"
+
+#: ../tails_installer/creator.py:1037 ../tails_installer/creator.py:1440
+msgid "Installing bootloader..."
+msgstr "Memasang pemuat but..."
+
+#: ../tails_installer/creator.py:1064
+#, python-format
+msgid "Could not find the '%s' COM32 module"
+msgstr "Tidak dapat mencari modul COM32 '%s'"
+
+#: ../tails_installer/creator.py:1072 ../tails_installer/creator.py:1458
+#, python-format
+msgid "Removing %(file)s"
+msgstr "Membuang %(file)s"
+
+#: ../tails_installer/creator.py:1186
+#, python-format
+msgid "%s already bootable"
+msgstr "%s boleh dibutkan"
+
+#: ../tails_installer/creator.py:1206
+msgid "Unable to find partition"
+msgstr "Gagal mencari sekatan"
+
+#: ../tails_installer/creator.py:1229
+#, python-format
+msgid "Formatting %(device)s as FAT32"
+msgstr "Memformat %(device)s sebagai FAT32"
+
+#: ../tails_installer/creator.py:1289
+msgid "Could not find syslinux' gptmbr.bin"
+msgstr "Tidak dapat mencari syslinux' gptmbr.bin"
+
+#: ../tails_installer/creator.py:1302
+#, python-format
+msgid "Reading extracted MBR from %s"
+msgstr "Membaca MBR terekstrak dari %s"
+
+#: ../tails_installer/creator.py:1306
+#, python-format
+msgid "Could not read the extracted MBR from %(path)s"
+msgstr "Tidak dapat baca MBR terekstrak daripada %(path)s"
+
+#: ../tails_installer/creator.py:1319 ../tails_installer/creator.py:1320
+#, python-format
+msgid "Resetting Master Boot Record of %s"
+msgstr "Menetapkan semula Rekod But Master %s"
+
+#: ../tails_installer/creator.py:1325
+msgid "Drive is a loopback, skipping MBR reset"
+msgstr "Peranti ialah gelung balik, melangkau tetap semula MBR"
+
+#: ../tails_installer/creator.py:1329 ../tails_installer/creator.py:1589
+#, python-format
+msgid "Calculating the SHA1 of %s"
+msgstr "Mengira SHA1 bagi %s"
+
+#: ../tails_installer/creator.py:1354
+msgid "Synchronizing data on disk..."
+msgstr "Menyegerakkan data di dalam cakera..."
+
+#: ../tails_installer/creator.py:1397
+msgid "Error probing device"
+msgstr "Ralat menguar peranti"
+
+#: ../tails_installer/creator.py:1399
+msgid "Unable to find any supported device"
+msgstr "Tidak dapat mencari apa-apa peranti yang disokong"
+
+#: ../tails_installer/creator.py:1409
+msgid ""
+"Make sure your USB key is plugged in and formatted with the FAT filesystem"
+msgstr "Pastikan pemacu USB anda dipalam dan telah diformat dengan sistem fail FAT"
+
+#: ../tails_installer/creator.py:1412
+#, python-format
+msgid ""
+"Unsupported filesystem: %s\n"
+"Please backup and format your USB key with the FAT filesystem."
+msgstr "Fail sistem tidak disokong: %s\nSila sandar dan format pemacu USB anda dengan sistem fail FAT."
+
+#: ../tails_installer/creator.py:1481
+msgid ""
+"Unable to get Win32_LogicalDisk; win32com query did not return any results"
+msgstr "Tidak memperolehi Win32_LogicalDisk; pertanyaan win32com tidak mengembalikan apa-apa keputusan"
+
+#: ../tails_installer/creator.py:1536
+msgid "Cannot find"
+msgstr "Tidak dapat cari"
+
+#: ../tails_installer/creator.py:1537
+msgid ""
+"Make sure to extract the entire tails-installer zip file before running this"
+" program."
+msgstr "Pastikan mengekstrak keseluruhan fail zip tails-installer sebelum menjalankan program ini."
+
+#: ../tails_installer/gui.py:69
+#, python-format
+msgid "Unknown release: %s"
+msgstr "Keluaran tidak diketahui : %s"
+
+#: ../tails_installer/gui.py:73
+#, python-format
+msgid "Downloading %s..."
+msgstr "Memuat turun %s..."
+
+#: ../tails_installer/gui.py:213
+msgid ""
+"Error: Cannot set the label or obtain the UUID of your device.  Unable to "
+"continue."
+msgstr "Ralat: Tidak dapat tetapkan label atau memperoleh UUID peranti anda. Gagal diteruskan."
+
+#: ../tails_installer/gui.py:260
+#, python-format
+msgid "Installation complete! (%s)"
+msgstr "Pemasangan selesai! (%s)"
+
+#: ../tails_installer/gui.py:265
+msgid "Tails installation failed!"
+msgstr "Pemasangan Tails gagal!"
+
+#: ../tails_installer/gui.py:369
+msgid ""
+"Warning: This tool needs to be run as an Administrator. To do this, right "
+"click on the icon and open the Properties. Under the Compatibility tab, "
+"check the \"Run this program as an administrator\" box."
+msgstr "Amaran: Alat ini perlu dijalankan dengan kelayakan Pentadbir. Untuk membuatnya, klik kanan pada ikon dan buka Properties. Di bawah tab Compatibility, tandakan pada kotak tanda \"Run this program as an administrator\"."
+
+#: ../tails_installer/gui.py:381
+msgid "Tails Installer"
+msgstr "Pemasang Tails"
+
+#: ../tails_installer/gui.py:441
+msgid "Tails Installer is deprecated in Debian"
+msgstr "Pemasang Tails di dalam Debian telah tamat tempoh"
+
+#: ../tails_installer/gui.py:443
+msgid ""
+"To install Tails from scratch, use GNOME Disks instead.\n"
+"<a href='https://tails.boum.org/install/linux/usb-overview'>See the installation instructions</a>\n"
+"\n"
+"To upgrade Tails, do an automatic upgrade from Tails or a manual upgrade from Debian using a second USB stick.\n"
+"<a href='https://tails.boum.org/upgrade/tails-overview'>See the manual upgrade instructions</a>"
+msgstr "Untuk memasang Tails dari awal, gunakan Cakera GNOME sebagai ganti.\n<a href='https://tails.boum.org/install/linux/usb-overview'>Sila rujuk arahan pemasangan</a>\n\nUntuk menatar Tails, lakukan penataran automatik melalui Tails atau penataran manual melalui Debian menggunakan pemacu pena USB yang kedua.\n<a href='https://tails.boum.org/upgrade/tails-overview'>Sila rujuk arahan penataran manual</a>"
+
+#: ../tails_installer/gui.py:450 ../data/tails-installer.ui.h:2
+msgid "Clone the current Tails"
+msgstr "Klonkan Tails semasa"
+
+#: ../tails_installer/gui.py:457 ../data/tails-installer.ui.h:3
+msgid "Use a downloaded Tails ISO image"
+msgstr "Guna imej ISO Tail yang telah dimuat turun"
+
+#: ../tails_installer/gui.py:494 ../tails_installer/gui.py:815
+msgid "Upgrade"
+msgstr "Tatar"
+
+#: ../tails_installer/gui.py:496
+msgid "Manual Upgrade Instructions"
+msgstr "Arahan Penataran Manual"
+
+#: ../tails_installer/gui.py:498
+msgid "https://tails.boum.org/upgrade/"
+msgstr "https://tails.boum.org/upgrade/"
+
+#: ../tails_installer/gui.py:506 ../tails_installer/gui.py:727
+#: ../tails_installer/gui.py:792 ../data/tails-installer.ui.h:7
+msgid "Install"
+msgstr "Pasang"
+
+#: ../tails_installer/gui.py:509 ../data/tails-installer.ui.h:1
+msgid "Installation Instructions"
+msgstr "Arahan Pemasangan"
+
+#: ../tails_installer/gui.py:511
+msgid "https://tails.boum.org/install/"
+msgstr "https://tails.boum.org/install/"
+
+#: ../tails_installer/gui.py:517
+#, python-format
+msgid "%(size)s %(vendor)s %(model)s device (%(device)s)"
+msgstr "Peranti %(model)s %(vendor)s %(size)s (%(device)s)"
+
+#: ../tails_installer/gui.py:529
+msgid "No ISO image selected"
+msgstr "Tiada imej ISO dipilih"
+
+#: ../tails_installer/gui.py:530
+msgid "Please select a Tails ISO image."
+msgstr "Sila pilih satu imej ISO Tails."
+
+#: ../tails_installer/gui.py:572
+msgid "No device suitable to install Tails could be found"
+msgstr "Tiada peranti yang sesuai ditemui untuk memasang Tails"
+
+#: ../tails_installer/gui.py:574
+#, python-format
+msgid "Please plug a USB flash drive or SD card of at least %0.1f GB."
+msgstr "Sila palamkan pemacu pena USB atau kad SD yang berkapasiti sekurang-kurangnya %0.1f GB."
+
+#: ../tails_installer/gui.py:608
+#, python-format
+msgid ""
+"The USB stick \"%(pretty_name)s\" is configured as non-removable by its "
+"manufacturer and Tails will fail to start from it. Please try installing on "
+"a different model."
+msgstr "Pemacu pena USB \"%(pretty_name)s\" telah dikonfigurkan sebagai tidak-boleh-tanggal oleh pengilangnya dan Tails akan gagal dimulakan melaluinya. Sila pasang pada model pemacu pena yang lain."
+
+#: ../tails_installer/gui.py:618
+#, python-format
+msgid ""
+"The device \"%(pretty_name)s\" is too small to install Tails (at least "
+"%(size)s GB is required)."
+msgstr "Peranti \"%(pretty_name)s\" berkapasiti terlalu kecil untuk memasang Tails (sekurang-kurangnya %(size)s GB diperlukan)"
+
+#: ../tails_installer/gui.py:631
+#, python-format
+msgid ""
+"To upgrade device \"%(pretty_name)s\" from this Tails, you need to use a downloaded Tails ISO image:\n"
+"https://tails.boum.org/install/download"
+msgstr "Untuk menatar peranti \"%(pretty_name)s\" melalui Tails ini, anda perlu guna imej ISO Tails yang telah dimuat turun:\nhttps://tails.boum.org/install/download"
+
+#: ../tails_installer/gui.py:652
+msgid "An error happened while installing Tails"
+msgstr "Satu ralat berlaku ketika memasang Tails"
+
+#: ../tails_installer/gui.py:664
+msgid "Refreshing releases..."
+msgstr "Menyegar semula keluaran..."
+
+#: ../tails_installer/gui.py:669
+msgid "Releases updated!"
+msgstr "Keluaran dikemaskinikan!"
+
+#: ../tails_installer/gui.py:722
+msgid "Installation complete!"
+msgstr "Pemasangan selesai!"
+
+#: ../tails_installer/gui.py:738
+msgid "Cancel"
+msgstr "Batal"
+
+#: ../tails_installer/gui.py:774
+msgid "Unable to mount device"
+msgstr "Tidak dapat lekap peranti"
+
+#: ../tails_installer/gui.py:781 ../tails_installer/gui.py:814
+msgid "Confirm the target USB stick"
+msgstr "Sahkan pena USB sasaran"
+
+#: ../tails_installer/gui.py:782
+#, python-format
+msgid ""
+"%(size)s %(vendor)s %(model)s device (%(device)s)\n"
+"\n"
+"All data on this USB stick will be lost."
+msgstr "Peranti %(model)s %(vendor)s %(size)s (%(device)s)\n\nSemua data dalam pemacu pena USB ini akan dihilang."
+
+#: ../tails_installer/gui.py:801
+#, python-format
+msgid "%(parent_size)s %(vendor)s %(model)s device (%(device)s)"
+msgstr "Peranti %(model)s %(vendor)s %(parent_size)s (%(device)s)"
+
+#: ../tails_installer/gui.py:809
+msgid ""
+"\n"
+"\n"
+"The persistent storage on this USB stick will be preserved."
+msgstr "\n\nStoran berterusan dalam pemacu pena USB ini akan dikekalkan."
+
+#: ../tails_installer/gui.py:810
+#, python-format
+msgid "%(description)s%(persistence_message)s"
+msgstr "%(description)s%(persistence_message)s"
+
+#: ../tails_installer/gui.py:853
+msgid "Download complete!"
+msgstr "Muat turun selesai!"
+
+#: ../tails_installer/gui.py:857
+msgid "Download failed: "
+msgstr "Muat turun gagal:"
+
+#: ../tails_installer/gui.py:858
+msgid "You can try again to resume your download"
+msgstr "Anda boleh cuba lagi untuk teruskan muat turun anda"
+
+#: ../tails_installer/gui.py:866
+msgid ""
+"The selected file is unreadable. Please fix its permissions or select "
+"another file."
+msgstr "Fail terpilih tidak boleh dibaca. Sila betulkan keizinannya atau pilih fail yang lain."
+
+#: ../tails_installer/gui.py:872
+msgid ""
+"Unable to use the selected file.  You may have better luck if you move your "
+"ISO to the root of your drive (ie: C:\\)"
+msgstr "Tidak boleh guna fail terpilih. Anda mungkin bernasib lebih baik jika anda alihkan ISO ke dalam direktori cakera keras anda (iaitu: C:\\)"
+
+#: ../tails_installer/gui.py:878
+#, python-format
+msgid "%(filename)s selected"
+msgstr "%(filename)s dipilih"
+
+#: ../tails_installer/source.py:29
+msgid "Unable to find LiveOS on ISO"
+msgstr "Gagal mencari LiveOS di dalam ISO"
+
+#: ../tails_installer/source.py:35
+#, python-format
+msgid "Could not guess underlying block device: %s"
+msgstr "Tidak dapat meneka peranti blok tersembunyi: %s"
+
+#: ../tails_installer/source.py:50
+#, python-format
+msgid ""
+"There was a problem executing `%s`.\n"
+"%s\n"
+"%s"
+msgstr "Terdapat masalah ketika melakukan `%s`.\n%s\n%s"
+
+#: ../tails_installer/source.py:64
+#, python-format
+msgid "'%s' does not exist"
+msgstr "'%s' tidak wujud"
+
+#: ../tails_installer/source.py:66
+#, python-format
+msgid "'%s' is not a directory"
+msgstr "'%s' bukan sebuah direktori"
+
+#: ../tails_installer/source.py:76
+#, python-format
+msgid "Skipping '%(filename)s'"
+msgstr "Melangkau '%(filename)s'"
+
+#: ../tails_installer/utils.py:55
+#, python-format
+msgid ""
+"There was a problem executing `%s`.%s\n"
+"%s"
+msgstr "Terdapat masalah ketika melakukan `%s`.%s\n%s"
+
+#: ../tails_installer/utils.py:135
+msgid "Could not open device for writing."
+msgstr "Tidak dapat membuka peranti untuk penulisan."
+
+#: ../data/tails-installer.ui.h:4
+msgid "Select a distribution to download:"
+msgstr "Pilih satu distribusi untuk dimuat turun:"
+
+#: ../data/tails-installer.ui.h:5
+msgid "Target USB stick:"
+msgstr "Pena USB sasaran:"
+
+#: ../data/tails-installer.ui.h:6
+msgid "Reinstall (delete all data)"
+msgstr "Pasang semula (padam semua data)"
