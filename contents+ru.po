@@ -3509,13 +3509,13 @@ msgid ""
 "Look for a log entry in /var/log/tor/notices.log such as \"Self-testing "
 "indicates your ORPort is reachable from the outside. Excellent.\""
 msgstr ""
-"Найдите запись в журнале \"/var/log/syslog\" , например \"Само-тестирование "
-"означает, что ORPort доступен извне. Отлично.\""
+"В журнале (/var/log/syslog) найдите запись типа \"Self-testing indicates "
+"your ORPort is reachable from the outside. Excellent\"."
 
 #: https//support.torproject.org/operators/operators-4/
 #: (content/operators/operators-4/contents+en.lrquestion.title)
 msgid "How do I make sure that I'm using the correct packages on Ubuntu?"
-msgstr "Как я могу убедиться, что я использую правильные пакеты на Ubuntu?"
+msgstr "Какие пакеты для Ubuntu – правильные?"
 
 #: https//support.torproject.org/operators/operators-4/
 #: (content/operators/operators-4/contents+en.lrquestion.description)
@@ -3524,13 +3524,14 @@ msgid ""
 "updated. If you use them, you will miss important stability and security "
 "fixes."
 msgstr ""
-"Не используйте пакеты в репозиториях Ubuntu. Они не часто обновляются, и "
-"используя их, вы пропустите важные обновления стабильности и защиты."
+"Не используйте пакеты из репозиториев Ubuntu. Они не всегда обновляются. "
+"Используя их, вы будете пропускать важные обновления, обеспечивающие "
+"стабильность и защиту."
 
 #: https//support.torproject.org/operators/operators-4/
 #: (content/operators/operators-4/contents+en.lrquestion.description)
 msgid "* Determine your Ubuntu version by running the following command:"
-msgstr "* Определите версию вашего Ubuntu, используя следующую команду:"
+msgstr "* Определите версию Ubuntu с помощью такой команды:"
 
 #: https//support.torproject.org/operators/operators-4/
 #: (content/operators/operators-4/contents+en.lrquestion.description)
@@ -3561,7 +3562,7 @@ msgstr "$ deb-src http://deb.torproject.org/torproject.org<version>  main"
 msgid ""
 "* Add the gpg key used to sign the packages by running the following "
 "commands:"
-msgstr "* Добавьте gpg ключ для подписи пакетов, запустив следующую команду:"
+msgstr "* Добавьте GPG-ключ для подписи пакетов:"
 
 #: https//support.torproject.org/operators/operators-4/
 #: (content/operators/operators-4/contents+en.lrquestion.description)
@@ -3582,8 +3583,7 @@ msgstr ""
 #: https//support.torproject.org/operators/operators-4/
 #: (content/operators/operators-4/contents+en.lrquestion.description)
 msgid "* Run the following commands to install tor and check its signatures:"
-msgstr ""
-"* Запустите следующие команды, чтобы установить tor и проверить его подпись:"
+msgstr "* Установите Tor и проверьте подписи:"
 
 #: https//support.torproject.org/operators/operators-4/
 #: (content/operators/operators-4/contents+en.lrquestion.description)
@@ -3598,18 +3598,18 @@ msgstr "$ sudo apt-get install tor deb.torproject.org-keyring"
 #: https//support.torproject.org/operators/operators-6/
 #: (content/operators/operators-6/contents+en.lrquestion.title)
 msgid "How do I run a obfs4 bridge on Debian?"
-msgstr "Как я могу запустить obfs4 мост на OC Debian?"
+msgstr "Как запустить мост obfs4 на Debian?"
 
 #: https//support.torproject.org/operators/operators-6/
 #: (content/operators/operators-6/contents+en.lrquestion.description)
 msgid "* Run \"apt-get install tor obfs4proxy\" (as root)."
-msgstr "* Запустите \"apt-get install tor obfs4proxy\" (как root)."
+msgstr "* Запустите \"apt-get install tor obfs4proxy\" (с рут-правами)."
 
 #: https//support.torproject.org/operators/operators-6/
 #: (content/operators/operators-6/contents+en.lrquestion.description)
 msgid "Install the ntp or openntpd (or similar) package to keep it that way."
 msgstr ""
-"Установите ntp или openntpd (или схожий) пакет для синхронизации времени."
+"Установите ntp или openntpd (или нечто подобное) для синхронизации времени."
 
 #: https//support.torproject.org/operators/operators-6/
 #: (content/operators/operators-6/contents+en.lrquestion.description)
@@ -3637,8 +3637,8 @@ msgid ""
 "* Look for a log entry in /var/log/syslog such as \"Self-testing indicates "
 "your ORPort is reachable from the outside. Excellent.\""
 msgstr ""
-"* Найдите запись в журнале \"/var/log/syslog\" , например \"Само-"
-"тестирование означает, что ORPort доступен извне. Отлично.\""
+"В журнале (/var/log/syslog) найдите запись типа \"Self-testing indicates "
+"your ORPort is reachable from the outside. Excellent\"."
 
 #: https//support.torproject.org/operators/operators-6/
 #: (content/operators/operators-6/contents+en.lrquestion.description)
@@ -3646,6 +3646,8 @@ msgid ""
 "* You should also see the message \"Registered server transport 'obfs4'\" "
 "indicating that obfs4proxy is functional."
 msgstr ""
+"* Если вы видите сообщение \"Registered server transport 'obfs4'\", значит, "
+"obfs4proxy работает."
 
 #: https//support.torproject.org/operators/operators-7/
 #: (content/operators/operators-7/contents+en.lrquestion.title)
@@ -3691,7 +3693,7 @@ msgid ""
 "traffic through it."
 msgstr ""
 "Обеспечьте для своего выходного узла отдельный IP-адрес. Не пропускайте "
-"через узел свой собственный трафик."
+"через узел собственный трафик."
 
 #: https//support.torproject.org/operators/operators-7/
 #: (content/operators/operators-7/contents+en.lrquestion.description)
@@ -3708,8 +3710,8 @@ msgid ""
 "I've heard about websites that are only accessible over Tor. What are these "
 "websites, and how can I access them?"
 msgstr ""
-"Я слышал о сайтах, которые доступны только через Tor. Что это за сайты, и "
-"как можно получить к ним доступ?"
+"Я слышал о сайтах, которые доступны только через Tor. Что это за сайты? Как "
+"получить к ним доступ?"
 
 #: https//support.torproject.org/onionservices/onionservices-1/
 #: (content/onionservices/onionservices-1/contents+en.lrquestion.description)
@@ -3717,8 +3719,8 @@ msgid ""
 "Websites that are only accessible over Tor are called \"onions\" and end in "
 "the TLD .onion."
 msgstr ""
-"Сайты доступные только через Tor называются \"onions\" в заканчиваются на "
-"TLD.onion."
+"Сайты, доступные только через Tor, называются onion-ресурсами. Их адреса "
+"заканчиваются на .onion."
 
 #: https//support.torproject.org/onionservices/onionservices-1/
 #: (content/onionservices/onionservices-1/contents+en.lrquestion.description)
@@ -3726,7 +3728,7 @@ msgid ""
 "For example, the DuckDuckGo onion is <a "
 "href=\"http://3g2upl4pq6kufc4m.onion\">https://3g2upl4pq6kufc4m.onion</a>."
 msgstr ""
-"Например, DuckDuckGo onion это <a "
+"Например, onion-сайт поисковой системы DuckDuckGo – <a "
 "href=\"http://3g2upl4pq6kufc4m.onion\">https://3g2upl4pq6kufc4m.onion</a>."
 
 #: https//support.torproject.org/onionservices/onionservices-1/
