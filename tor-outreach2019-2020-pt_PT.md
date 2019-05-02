@@ -86,77 +86,77 @@ Quando ele abriu o **Tor Browser**, seguiu as instruções para utilizadores cen
 
 Com o Tor Browser, Jean pôde navegar livremente e com privacidade, entrando em contacto com a sua família.
 
-### Censored users all over the world rely on Tor Browser for a free, stable, and uncensored way to access the internet.
+### Os utilizadores censurados à volta do mundo contam com o Tor Browser como um meio estável e livre de censura para aceder à Internet.
 
 ---
 
-# 5. Shared Sections
+# 5. Secções partilhadas
 
-## What is Tor?
+## O que é o Tor?
 
-Tor is free software and an open network that helps protect you from tracking, surveillance, and censorship online.
-Tor is created for free by a 501(c)3 U.S.-based nonprofit called the Tor Project. 
+O Tor é um software livre e uma rede aberta que ajuda a protegê-lo contra rastreamento, vigilância e censura online.
+O Tor é uma criação distribuída gratuitamente por uma organização sem fins lucrativos registada nos Estados Unidos da América na categoria 501(c)3 chamada Tor Project.
 
-The easiest way to use Tor is Tor Browser.
-When you use Tor Browser, no one can see what websites you visit or where in the world you’re coming from. 
+O meio mais fácil de utilizar o Tor é o Tor Browser.
+Quando usa o Tor Browser, ninguém pode ver que sites visita nem em que lugar do mundo está.
 
-Other applications, like SecureDrop and OnionShare, use Tor to protect their users against surveillance and censorship.
-
-
-## 6. How does Tor work?
-
-Amal wants to visit Bekele’s website privately, so she opens Tor Browser.
-
-Tor Browser selects a random circuit of three relays, which are computers all over the world configured to route traffic over the Tor network.
-
-Tor Browser then encrypts her website request three times and sends it to the first Tor relay in her circuit.
-
-The first relay removes the first encryption layer but doesn't learn that the destination is Bekele’s website.
-
-The first relay learns only the next location in the circuit, which is the second relay.
-
-The second relay removes another encryption layer and forwards the web page request to the third relay.
-
-The third relay removes the last encryption layer and forwards the web page request to its destination, Bekele’s website, but it doesn't know the request comes from Amal.
-
-Bekele doesn't know that the website request came from Amal unless she tells him so.
-
-## 7. Who uses Tor? 
-
-People all over the world use Tor to protect their privacy and access the web freely.
-
-Tor helps protect journalists, human rights defenders, domestic violence victims, academic researchers, and anyone experiencing tracking, censorship, or surveillance. 
-
-## 6. Why trust Tor?
-
-Tor is designed for privacy. We don’t know who our users are, and we don't keep logs of user activity.
-
-Tor relay operators cannot reveal the true identity of Tor users.
-
-Continual peer review of Tor's source code by academic and open source communities ensures that there are no backdoors in Tor, and our social contract promises that we will never backdoor Tor. 
-
-## 7. Join the Tor community
-
-Tor is made possible by a diverse set of users, developers, relay operators, and advocates from around the world.
-
-We need your help to make Tor more usable and secure for people everywhere.
-
-You can volunteer with Tor by writing code, running a relay, creating documentation, offering user support, or telling people in your community about Tor.
-
-The Tor community is governed by a code of conduct, and we outline our set of promises to the community in our social contract. 
-
-Learn more about Tor by visiting our website, our wiki, finding us on IRC, joining one of our mailing lists, or signing up for Tor News at newsletter.torproject.org.
+Outras aplicações como o SecureDrop ou o OnionShare usam o Tor para proteger os seus utilizadores da vigilância e censura.
 
 
-## 8. Download Tor
+## 6. Como funciona o Tor?
 
-Tor for Desktop
+Amal quer privacidade para visitar o site de Bekele e, assim, ela abre o Tor Browser.
+
+O Tor Browser seleciona um circuito aleatório de três retransmissores, os quais são computadores espalhados em redor do mundo configurados para rotear todo o seu tráfego pela rede Tor.
+
+O Tor Browser então encripta o seu pedido ao site desejado três vezes e envia esse pedido ao primeiro retransmissor Tor do seu circuito.
+
+O primeiro retransmissor remove a primeira camada de encriptação mas não sabe que o site de destino é o de Bekele.
+
+O primeiro retransmissor sabe apenas a próxima localização do circuito, que é o segundo retransmissor.
+
+O segundo retransmissor remove outra camada de encriptação e encaminha o pedido da página web ao terceiro retransmissor.
+
+O terceiro retransmissor remove a última camada de encriptação e encaminha o pedido da página web ao seu destino, isto é, o site de Bekele, mas não sabe que o pedido é proveniente de Amal.
+
+Bekele não sabe que o pedido ao seu site veio de Amal, a não ser que ela o informe disso.
+
+## 7. Quem usa o Tor?
+
+As pessoas em redor do mundo usam o Tor para proteger a sua privacidade e aceder à Internet livremente.
+
+O Tor ajuda a proteger jornalistas, ativistas de direitos humanos, investigadores académicos, assim como qualquer pessoa que seja alvo de rastreamento, censura ou vigilância.
+
+## 6. Porquê confiar no Tor?
+
+O Tor foi desenvolvido para a privacidade. Nós não sabemos quem são os nossos utilizadores e não mantemos registos de atividades dos utilizadores.
+
+Os operadores de retransmissores Tor não conseguem revelar a verdadeira identidade dos utilizadores do Tor.
+
+A contínua "revisão pelos pares" do código-fonte do Tor por comunidades académicas e de código aberto, assegura que não existem "portas dos fundos" no Tor, e nosso contrato social promete que jamais criaremos esse tipo de coisa.
+
+## 7. Junte-se à comunidade Tor
+
+O Tor só é possível pela contribuição de um conjunto diversificado de utilizadores, programadores, operadores de retransmissores e defensores em todo o mundo.
+
+Precisamos da sua ajuda para tornar o Tor mais utilizável e seguro para as pessoas em todos os lugares.
+
+Pode voluntariar-se para ajudar o Tor escrevendo código, operando um retransmissor, criando documentação, oferecendo ajuda aos utilizadores ou falando sobre o Tor às pessoas da sua comunidade.
+
+A comunidade Tor é governada por um código de conduta e nós delineamos o nosso conjunto de promessas à comunidade no nosso contrato social.
+
+Saiba mais sobre o Tor visitando o nosso site, a nossa wiki, encontrando-nos no IRC, participando numa das nossas listas de e-mail ou assinando o "boletim de notícias do Tor" no endereço newsletter.torproject.org.
+
+
+## 8. Descarregar o Tor
+
+Tor para computador de mesa
 torproject.org/download
 
-TOR ON MOBILE
-### Android 
-Tor Browser for Android is available from GooglePlay.
+TOR PARA DISPOSITIVOS MÓVEIS
+### Android
+O Tor Browser para Android está disponível no GooglePlay.
 
 ### iOS
-Onion Browser, developed by M. Tigas, is the only browser we recommend for iOS.
+O Onion Browser, desenvolvido por M. Tigas, é o único navegador que recomendamos para iOS.
 
