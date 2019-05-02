@@ -3205,7 +3205,8 @@ msgid ""
 "href=\"https://trac.torproject.org/projects/tor/wiki/TorRelayGuide\">Tor "
 "Relay Guide</a></mark>."
 msgstr ""
-"Til að sjá ítarlegar upplýsingar um rekstur endurvarpa, ættirðu að skoða <a "
+"Til að sjá ítarlegar upplýsingar um rekstur endurvarpa, ættirðu að skoða "
+"<mark><a "
 "href=\"https://tractorprojectorg/projects/tor/wiki/TorRelayGuide\">Leiðbeiningar"
 " fyrir Tor-endurvarpa</a></mark>."
 
@@ -3466,6 +3467,9 @@ msgid ""
 " to the directory authorities to let clients know what address, ports, keys,"
 " etc your relay is using."
 msgstr ""
+"Þegar staðfest er að hann sé aðgengilegur, mun hann senda inn \"server "
+"descriptor\" lýsingu til kerfisstýringar til að láta biðlara vita hvaða "
+"vistfang, gáttir, dulritunarlykla, o.s.frv. endurvarpinn sé að nota."
 
 #: https//support.torproject.org/operators/operators-1/
 #: (content/operators/operators-1/contents+en.lrquestion.description)
@@ -3517,6 +3521,8 @@ msgid ""
 "Look for a log entry in your /var/log/syslog such as \"Self-testing "
 "indicates your ORPort is reachable from the outside. Excellent.\""
 msgstr ""
+"Leitaðu í atvikaskránni /var/log/syslog að færslu á borð við \"Self-testing "
+"indicates your ORPort is reachable from the outside. Excellent.\""
 
 #: https//support.torproject.org/operators/operators-2/
 #: (content/operators/operators-2/contents+en.lrquestion.description)
@@ -3527,6 +3533,9 @@ msgid ""
 "descriptor\" to the directory authorities to let clients know what address, "
 "ports, keys, etc your relay is using."
 msgstr ""
+"* Þegar staðfest er að hann sé aðgengilegur, mun hann senda inn \"server "
+"descriptor\" lýsingu til kerfisstýringar til að láta biðlara vita hvaða "
+"vistfang, gáttir, dulritunarlykla, o.s.frv. endurvarpinn sé að nota."
 
 #: https//support.torproject.org/operators/operators-2/
 #: (content/operators/operators-2/contents+en.lrquestion.description)
@@ -3535,6 +3544,9 @@ msgid ""
 "href=\"https://trac.torproject.org/projects/tor/wiki/doc/ReducedExitPolicy\">Reduced"
 " exit policy</a></mark>."
 msgstr ""
+"Íhugaðu hvort þú viljir skipta yfir í <mark><a "
+"href=\"https://trac.torproject.org/projects/tor/wiki/doc/ReducedExitPolicy\">Reduced"
+" exit policy</a></mark>."
 
 #: https//support.torproject.org/operators/operators-3/
 #: (content/operators/operators-3/contents+en.lrquestion.title)
@@ -3569,18 +3581,20 @@ msgstr "* Breyttu /usr/local/etc/tor/torrc þannig að það líti svona út:"
 #: https//support.torproject.org/operators/operators-3/
 #: (content/operators/operators-3/contents+en.lrquestion.description)
 msgid "RunAsDaemon 1"
-msgstr ""
+msgstr "RunAsDaemon 1"
 
 #: https//support.torproject.org/operators/operators-3/
 #: (content/operators/operators-3/contents+en.lrquestion.description)
 msgid "Log notice file /var/log/tor/notices.log"
-msgstr ""
+msgstr "Log notice file /var/log/tor/notices.log"
 
 #: https//support.torproject.org/operators/operators-3/
 #: (content/operators/operators-3/contents+en.lrquestion.description)
 msgid ""
 "* Make sure tor starts on boot by running \"sysrc tor_enable=YES\" (as root)"
 msgstr ""
+"* Gakktu úr skugga um að Tor ræsist með kerfinu með því að keyra \"sysrc "
+"tor_enable=YES\" (sem kerfisstjóri/root)"
 
 #: https//support.torproject.org/operators/operators-3/
 #: (content/operators/operators-3/contents+en.lrquestion.description)
@@ -3593,11 +3607,14 @@ msgid ""
 "Look for a log entry in /var/log/tor/notices.log such as \"Self-testing "
 "indicates your ORPort is reachable from the outside. Excellent.\""
 msgstr ""
+"Leitaðu í atvikaskránni /var/log/tor/notices.log að færslu á borð við "
+"\"Self-testing indicates your ORPort is reachable from the outside. "
+"Excellent.\""
 
 #: https//support.torproject.org/operators/operators-4/
 #: (content/operators/operators-4/contents+en.lrquestion.title)
 msgid "How do I make sure that I'm using the correct packages on Ubuntu?"
-msgstr ""
+msgstr "Hvernig tryggi ég að ég sé að nota rétta pakka á Ubuntu?"
 
 #: https//support.torproject.org/operators/operators-4/
 #: (content/operators/operators-4/contents+en.lrquestion.description)
@@ -3606,11 +3623,15 @@ msgid ""
 "updated. If you use them, you will miss important stability and security "
 "fixes."
 msgstr ""
+"* Ekki nota pakkana í hugbúnaðarsöfnum Ubuntu. Þeir eru ekki uppfærðir nógu "
+"reglulega. Ef þú notar þá muntu missa af mikilvægum lagfæringum varðandi "
+"öryggi og stöðugleika."
 
 #: https//support.torproject.org/operators/operators-4/
 #: (content/operators/operators-4/contents+en.lrquestion.description)
 msgid "* Determine your Ubuntu version by running the following command:"
 msgstr ""
+"* Finndu hvaða útgáfu Ubuntu þú hefur með því að keyra eftirfarandi skipun:"
 
 #: https//support.torproject.org/operators/operators-4/
 #: (content/operators/operators-4/contents+en.lrquestion.description)
@@ -3623,6 +3644,8 @@ msgid ""
 "* As root, add the following lines to /etc/apt/sources.list. Use the version"
 " you found in the previous step for <version>."
 msgstr ""
+"* Sem kerfisstjóri/root, bættu eftirfarandi línum í /etc/apt/sources.list. "
+"Notaðu þá útgáfu sem þú fannst í fyrra þrepi fyrir <version>."
 
 #: https//support.torproject.org/operators/operators-4/
 #: (content/operators/operators-4/contents+en.lrquestion.description)
@@ -3640,6 +3663,8 @@ msgid ""
 "* Add the gpg key used to sign the packages by running the following "
 "commands:"
 msgstr ""
+"* Bættu við gpg-dulritunarlyklinum sem var notaður við að undirrita pakkana "
+"með því að keyra eftirfarandi skipanir:"
 
 #: https//support.torproject.org/operators/operators-4/
 #: (content/operators/operators-4/contents+en.lrquestion.description)
@@ -3716,6 +3741,9 @@ msgid ""
 "* Look for a log entry in /var/log/syslog such as \"Self-testing indicates "
 "your ORPort is reachable from the outside. Excellent.\""
 msgstr ""
+"* Leitaðu í atvikaskránni /var/log/tor/noticeslog að færslu á borð við "
+"\"Self-testing indicates your ORPort is reachable from the outside. "
+"Excellent.\""
 
 #: https//support.torproject.org/operators/operators-6/
 #: (content/operators/operators-6/contents+en.lrquestion.description)
@@ -3723,6 +3751,8 @@ msgid ""
 "* You should also see the message \"Registered server transport 'obfs4'\" "
 "indicating that obfs4proxy is functional."
 msgstr ""
+"* Þú ættir einnig að sjá skilaboðin \"Registered server transport 'obfs4'\" "
+"sem gefa til kynna að obfs4proxy sé að virka."
 
 #: https//support.torproject.org/operators/operators-7/
 #: (content/operators/operators-7/contents+en.lrquestion.title)
@@ -3740,6 +3770,9 @@ msgid ""
 "If law enforcement becomes interested in traffic from your exit relay, it's "
 "possible that officers will seize your computer."
 msgstr ""
+"Ef laganna verðir fá allt í einu áhuga á umferðinni sem kemur frá "
+"útgangsendurvarpanum þínum, er mögulegt að þeir geri tölvurnar þínar "
+"upptækar."
 
 #: https//support.torproject.org/operators/operators-7/
 #: (content/operators/operators-7/contents+en.lrquestion.description)
@@ -3747,6 +3780,8 @@ msgid ""
 "For that reason, it's best not to run your exit relay in your home or using "
 "your home internet connection."
 msgstr ""
+"Af þeirri ástæðu er besta að keyra ekki útgangsendurvarpa á heimilinu sínu "
+"eða í gegnum internettengingu heimilisins."
 
 #: https//support.torproject.org/operators/operators-7/
 #: (content/operators/operators-7/contents+en.lrquestion.description)
@@ -3754,6 +3789,8 @@ msgid ""
 "Instead, consider running your exit relay in a commercial facility that is "
 "supportive of Tor."
 msgstr ""
+"Þú ættir frekar að keyra útgangsendurvarpa frá einhverjum vinnustað þar sem "
+"fólk styður Tor eða sýnir þessum málum skilning."
 
 #: https//support.torproject.org/operators/operators-7/
 #: (content/operators/operators-7/contents+en.lrquestion.description)
@@ -3761,6 +3798,8 @@ msgid ""
 "Have a separate IP address for your exit relay, and don't route your own "
 "traffic through it."
 msgstr ""
+"Veru með aðskilið IP-vistfang fyrir útgangsendurvarpann, og ekki beina þinni"
+" eigin umferð í gegnum hann."
 
 #: https//support.torproject.org/operators/operators-7/
 #: (content/operators/operators-7/contents+en.lrquestion.description)
@@ -3768,6 +3807,8 @@ msgid ""
 "Of course, you should avoid keeping any sensitive or personal information on"
 " the computer hosting your exit relay."
 msgstr ""
+"Augljóslega ættirðu að forðast að geyma neinar viðkvæmar eða persónulegar "
+"upplýsingar á tölvunni sem hýsir útgangsendurvarpann."
 
 #: https//support.torproject.org/onionservices/onionservices-1/
 #: (content/onionservices/onionservices-1/contents+en.lrquestion.title)
@@ -3985,6 +4026,8 @@ msgid ""
 "A web application (web app), is an application which the [client](#client) "
 "runs in a [web browser](#web-browser)."
 msgstr ""
+"Vefforrit (forrit, vef-app, app) er forrit sem [biðlari](#client) keyrir í "
+"[vafra](#web-browser)."
 
 #: https//support.torproject.org/misc/glossary/
 #: (content/misc/glossary/contents+en.lrquestion.description)
@@ -3992,6 +4035,8 @@ msgid ""
 "App can also refer to software that you install on mobile [operating systems"
 "](#operating-system-os)."
 msgstr ""
+"App eða forrit getur einnig staðið fyrir hugbúnað semsettur er upp á "
+"[stýrikerfum](#operating-system-os) snjalltækja."
 
 #: https//support.torproject.org/misc/glossary/
 #: (content/misc/glossary/contents+en.lrquestion.description)
@@ -4013,7 +4058,7 @@ msgstr "## B"
 #: https//support.torproject.org/misc/glossary/
 #: (content/misc/glossary/contents+en.lrquestion.description)
 msgid "### bandwidth authority"
-msgstr ""
+msgstr "### bandbreiddarstýring (bandwidth authority)"
 
 #: https//support.torproject.org/misc/glossary/
 #: (content/misc/glossary/contents+en.lrquestion.description)
@@ -4035,6 +4080,9 @@ msgid ""
 "ordinary relays, however, they are not listed publicly, so an adversary "
 "cannot identify them easily."
 msgstr ""
+"Rétt eins og venjulegir [Tor-endurvarpar](#relay), eru brýr reknar af "
+"sjálfboðaliðum; en ólíkt venjulegum endurvörpum, þá eru þær ekki birtar "
+"opinberlega, þannig að andstæðingar eiga ekki auðvelt um vik að finna þær."
 
 #: https//support.torproject.org/misc/glossary/
 #: (content/misc/glossary/contents+en.lrquestion.description)
@@ -4046,7 +4094,7 @@ msgstr ""
 #: https//support.torproject.org/misc/glossary/
 #: (content/misc/glossary/contents+en.lrquestion.description)
 msgid "### bridge authority"
-msgstr ""
+msgstr "### brúastýring (bridge authority)"
 
 #: https//support.torproject.org/misc/glossary/
 #: (content/misc/glossary/contents+en.lrquestion.description)
@@ -4426,6 +4474,10 @@ msgid ""
 "Twitter) with links to the latest version of [Tor Browser](#tor-browser), "
 "hosted at a variety of locations, such as Dropbox, Google Drive and GitHub."
 msgstr ""
+"GetTor er þjónusta sem bregst sjálfvirkt við skilaboðum (tölvupósti, XMPP, "
+"Twitter) með því að senda tengla á nýjustu útgáfur [Tor-vafrans](#tor-"
+"browser), hýstar á ýmsum mismunandi stöðum, svo sem Dropbox, Google Drive og"
+" GitHub."
 
 #: https//support.torproject.org/misc/glossary/
 #: (content/misc/glossary/contents+en.lrquestion.description)
@@ -4696,6 +4748,9 @@ msgid ""
 " your subsequent browser activity from being linkable to what you were doing"
 " before."
 msgstr ""
+"Nýtt auðkenni er eiginleiki í [Tor-vafranum](#tor-browser) sem nýtist ef þú "
+"vilt koma í veg fyrir að áframhaldandi virkni þín í vafranum verði "
+"tengjanleg við það sem þú hefur verið að gera."
 
 #: https//support.torproject.org/misc/glossary/
 #: (content/misc/glossary/contents+en.lrquestion.description)
@@ -4704,6 +4759,10 @@ msgid ""
 "information such as [cookies](#cookie) and [browsing history](#browsing-"
 "history), and use New [Tor circuits](#circuit) for all connections."
 msgstr ""
+"Ef þetta er valið, verður öllum flipum þínum og gluggum lokað, allar "
+"persónulegar upplýsingar á borð við [vefkökur](#cookie) og [vafurferill"
+"](#browsing-history) verða hreinsaðar, og nýjar [Tor-rásir](#circuit) verða "
+"notaðar fyrir allar tengingar."
 
 #: https//support.torproject.org/misc/glossary/
 #: (content/misc/glossary/contents+en.lrquestion.description)
@@ -4711,6 +4770,9 @@ msgid ""
 "Tor Browser will warn you that all activity and downloads will be stopped, "
 "so take this into account before clicking “New Identity”."
 msgstr ""
+"Tor-vafrinn mun aðvara þig um að öll virkni og niðurhöl verði stöðvuð, þú "
+"ættir að íhuga vel afleiðingarnar af því áður en þú smellir á 'Nýtt "
+"auðkenni'”."
 
 #: https//support.torproject.org/misc/glossary/
 #: (content/misc/glossary/contents+en.lrquestion.description)
@@ -4852,7 +4914,7 @@ msgstr ""
 #: https//support.torproject.org/misc/glossary/
 #: (content/misc/glossary/contents+en.lrquestion.description)
 msgid "### Onion Browser"
-msgstr ""
+msgstr "### Onion Browser vafrinn"
 
 #: https//support.torproject.org/misc/glossary/
 #: (content/misc/glossary/contents+en.lrquestion.description)
@@ -4860,6 +4922,8 @@ msgid ""
 "An iOS app which is open source, uses Tor routing, and is developed by "
 "someone who works closely with the Tor Project."
 msgstr ""
+"Forrit fyrir iOS sem er með opnum grunnkóða, notar beiningu í gegnum Tor, og"
+" er þróað af aðilum sem vinna náið með Tor-verkefninu."
 
 #: https//support.torproject.org/misc/glossary/
 #: (content/misc/glossary/contents+en.lrquestion.description)
@@ -4867,6 +4931,8 @@ msgid ""
 "[Learn more about Onion Browser](https://blog.torproject.org/tor-heart-"
 "onion-browser-and-more-ios-tor)"
 msgstr ""
+"[Lesa meira um Onion Browser vafrann](https://blog.torproject.org/tor-heart-"
+"onion-browser-and-more-ios-tor)"
 
 #: https//support.torproject.org/misc/glossary/
 #: (content/misc/glossary/contents+en.lrquestion.description)
@@ -5226,7 +5292,7 @@ msgstr ""
 #: https//support.torproject.org/misc/glossary/
 #: (content/misc/glossary/contents+en.lrquestion.description)
 msgid "### server"
-msgstr ""
+msgstr "### þjónn, netþjónn, miðlari (server)"
 
 #: https//support.torproject.org/misc/glossary/
 #: (content/misc/glossary/contents+en.lrquestion.description)
@@ -5278,7 +5344,7 @@ msgstr ""
 #: https//support.torproject.org/misc/glossary/
 #: (content/misc/glossary/contents+en.lrquestion.description)
 msgid "### Sybil attack"
-msgstr ""
+msgstr "### Sybil-árás"
 
 #: https//support.torproject.org/misc/glossary/
 #: (content/misc/glossary/contents+en.lrquestion.description)
@@ -5313,7 +5379,7 @@ msgstr ""
 #: https//support.torproject.org/misc/glossary/
 #: (content/misc/glossary/contents+en.lrquestion.description)
 msgid "[Learn more about Tails](https://tails.boum.org/)."
-msgstr ""
+msgstr "[Lesa meira um Tails](https://tails.boum.org/)."
 
 #: https//support.torproject.org/misc/glossary/
 #: (content/misc/glossary/contents+en.lrquestion.description)
@@ -5353,7 +5419,7 @@ msgstr ""
 #: https//support.torproject.org/misc/glossary/
 #: (content/misc/glossary/contents+en.lrquestion.description)
 msgid "### Tor / Tor network/ Core Tor"
-msgstr ""
+msgstr "### Tor / Tor-netkerfi/ Tor-kjarni"
 
 #: https//support.torproject.org/misc/glossary/
 #: (content/misc/glossary/contents+en.lrquestion.description)
@@ -5486,7 +5552,7 @@ msgstr ""
 #: https//support.torproject.org/misc/glossary/
 #: (content/misc/glossary/contents+en.lrquestion.description)
 msgid "### Tor log"
-msgstr ""
+msgstr "### Tor atvikaskrá (log)"
 
 #: https//support.torproject.org/misc/glossary/
 #: (content/misc/glossary/contents+en.lrquestion.description)
@@ -5589,12 +5655,12 @@ msgstr ""
 #: https//support.torproject.org/misc/glossary/
 #: (content/misc/glossary/contents+en.lrquestion.description)
 msgid "### torrc"
-msgstr ""
+msgstr "### torrc"
 
 #: https//support.torproject.org/misc/glossary/
 #: (content/misc/glossary/contents+en.lrquestion.description)
 msgid "The core [Tor](#tor-/-tor-network/-core-tor) configuration file."
-msgstr ""
+msgstr "Aðal-uppsetningarskráin fyrir [Tor](#tor-/-tor-network/-core-tor)."
 
 #: https//support.torproject.org/misc/glossary/
 #: (content/misc/glossary/contents+en.lrquestion.description)
@@ -5643,7 +5709,7 @@ msgstr "### TPI"
 #: https//support.torproject.org/misc/glossary/
 #: (content/misc/glossary/contents+en.lrquestion.description)
 msgid "TPI is an acronym for The Tor Project, Inc."
-msgstr ""
+msgstr "TPI er skammstöfun fyrir The Tor Project, Inc."
 
 #: https//support.torproject.org/misc/glossary/
 #: (content/misc/glossary/contents+en.lrquestion.description)
@@ -6205,10 +6271,10 @@ msgid ""
 "understanding."
 msgstr ""
 "að hafa mannréttindi og frelsi að leiðarljósi og stefna að þeim markmiðum "
-"með gerð og útbreiðslu á tækni til verndar persónuupplýsingum. Sú tækni eigi"
-" að vera öllum frjáls og heimil til notkunar, vera opin til skoðunar, enda "
-"sé eitt markmiðanna að stuðla að bættum almennum og vísindalegum skilningi á"
-" þessum málum."
+"með gerð og útbreiðslu á tækni til verndar persónuupplýsinga. Sú tækni eigi "
+"að vera öllum frjáls og heimil til notkunar, vera opin til skoðunar, enda sé"
+" eitt markmiðanna að stuðla að bættum almennum og vísindalegum skilningi á "
+"þessum málum."
 
 #: templates/footer.html:24
 msgid "Subscribe to our Newsletter"
