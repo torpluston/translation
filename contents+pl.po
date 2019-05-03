@@ -359,8 +359,8 @@ msgid ""
 "For example, torbrowser-install-8.0.8_en-US.exe is accompanied by "
 "torbrowser-install-8.0.8_en-US.exe.asc."
 msgstr ""
-"Na przykład, torbrowser-install-8.0.8_en-US.exe towarzyszy torbrowser-"
-"install-8.0.8_en-US.exe.asc."
+"Na przykład, torbrowser-install-8.0.8_pl.exe towarzyszy torbrowser-"
+"install-8.0.8_pl.exe.asc."
 
 #: https//support.torproject.org/tbb/how-to-verify-signature/
 #: (content/tbb/how-to-verify-signature/contents+en.lrquestion.description)
@@ -511,6 +511,9 @@ msgid ""
 ".8_en-US.exe.asc C:\\Users\\Alice\\Desktop\\torbrowser-install-8.0.8_en-"
 "US.exe"
 msgstr ""
+"gpg.exe --verify C:\\Users\\Alice\\Pulpit\\torbrowser-install-"
+"win64-8.0.8_pl.exe.asc C:\\Users\\Alice\\Pulpit\\torbrowser-"
+"install-8.0.8_pl.exe"
 
 #: https//support.torproject.org/tbb/how-to-verify-signature/
 #: (content/tbb/how-to-verify-signature/contents+en.lrquestion.description)
@@ -661,7 +664,7 @@ msgstr "#### Dla użytkowników Mac OS X:"
 #: https//support.torproject.org/tbb/how-to-verify-signature/
 #: (content/tbb/how-to-verify-signature/contents+en.lrquestion.description)
 msgid "gpg --verify ~/Downloads/TorBrowser-8.0.8-osx64_en-US.dmg{.asc,}"
-msgstr ""
+msgstr "gpg --verify ~/Pobrane/TorBrowser-8.0.8-osx64_pl.dmg{.asc,}"
 
 #: https//support.torproject.org/tbb/how-to-verify-signature/
 #: (content/tbb/how-to-verify-signature/contents+en.lrquestion.description)
@@ -671,7 +674,7 @@ msgstr ""
 #: https//support.torproject.org/tbb/how-to-verify-signature/
 #: (content/tbb/how-to-verify-signature/contents+en.lrquestion.description)
 msgid "gpg --verify tor-browser-linux64-8.0.8_en-US.tar.xz{.asc,}"
-msgstr ""
+msgstr "gpg --verify tor-browser-linux64-8.0.8_pl.tar.xz{.asc,}"
 
 #: https//support.torproject.org/tbb/how-to-verify-signature/
 #: (content/tbb/how-to-verify-signature/contents+en.lrquestion.description)
@@ -1075,6 +1078,7 @@ msgstr ""
 msgid ""
 "You might be on a censored network, and so you should try using bridges."
 msgstr ""
+"Możesz być na ocenzurowanej sieci, więc powinieneś spróbować użyć mostków."
 
 #: https//support.torproject.org/tbb/tbb-19/
 #: (content/tbb/tbb-19/contents+en.lrquestion.description)
@@ -1085,6 +1089,10 @@ msgid ""
 "choosing \"configure\" (then following the prompts) in the Tor Launcher "
 "window that pops up when you open Tor Browser for the first time."
 msgstr ""
+"Niektóre mosty są wbudowane w Przeglądarkę Tor i można z nich skorzystać "
+"wybierając opcję \"konfiguruj\" (a następnie postępując zgodnie z "
+"instrukcjami) w oknie Launchera Tor, które pojawia się po pierwszym otwarciu"
+" Przeglądarki Tor."
 
 #: https//support.torproject.org/tbb/tbb-19/
 #: (content/tbb/tbb-19/contents+en.lrquestion.description)
@@ -1094,6 +1102,8 @@ msgid ""
 "If you need other bridges, you can get them at our [Bridges "
 "website](https://bridges.torproject.org/)."
 msgstr ""
+"Jeśli potrzebujesz innych mostków, możesz je otrzymać na naszej [stronie "
+"internetowej Mostów](https://bridges.torproject.org/)."
 
 #: https//support.torproject.org/tbb/tbb-19/
 #: (content/tbb/tbb-19/contents+en.lrquestion.description)
@@ -1103,6 +1113,8 @@ msgid ""
 "For more information about bridges, see the [Tor Browser manual](https://tb-"
 "manual.torproject.org/bridges)."
 msgstr ""
+"Więcej informacji na temat mostów można znaleźć w podręczniku [Instrukcji "
+"obsługi Przeglądarki Tor](https://tb-manual.torproject.org/bridges)."
 
 #: https//support.torproject.org/tbb/tbb-2/
 #: (content/tbb/tbb-2/contents+en.lrquestion.title)
@@ -1114,12 +1126,14 @@ msgstr ""
 #: https//support.torproject.org/tbb/tbb-2/
 #: (content/tbb/tbb-2/contents+en.lrquestion.description)
 msgid "That is normal Tor behavior."
-msgstr ""
+msgstr "To normalne zachowanie Tora."
 
 #: https//support.torproject.org/tbb/tbb-2/
 #: (content/tbb/tbb-2/contents+en.lrquestion.description)
 msgid "The first relay in your circuit is called an \"entry guard\" or \"guard\"."
 msgstr ""
+"Pierwszy przekaźnik w twoim obwodzie nazywany jest \"strażnikiem wejścia\" "
+"lub \"strażnikiem\"."
 
 #: https//support.torproject.org/tbb/tbb-2/
 #: (content/tbb/tbb-2/contents+en.lrquestion.description)
@@ -1127,6 +1141,9 @@ msgid ""
 "It is a fast and stable relay that remains the first one in your circuit for"
 " 2-3 months in order to protect against a known anonymity-breaking attack."
 msgstr ""
+"Jest to szybki i stabilny przekaźnik, który pozostaje pierwszym w twoim "
+"obwodzie przez 2-3 miesiące w celu ochrony przed znanym atakiem łamiącym "
+"anonimowość."
 
 #: https//support.torproject.org/tbb/tbb-2/
 #: (content/tbb/tbb-2/contents+en.lrquestion.description)
@@ -1134,6 +1151,9 @@ msgid ""
 "The rest of your circuit changes with every new website you visit, and all "
 "together these relays provide the full privacy protections of Tor."
 msgstr ""
+"Reszta obwodu zmienia się wraz z każdą nową stroną internetową, którą "
+"odwiedzasz, a wszystkie te przekaźniki razem zapewniają pełną ochronę "
+"prywatności Tora."
 
 #: https//support.torproject.org/tbb/tbb-2/
 #: (content/tbb/tbb-2/contents+en.lrquestion.description)
@@ -1180,6 +1200,9 @@ msgid ""
 "If this doesn't fix the problem, see the Troubleshooting page on the [Tor "
 "Browser manual](https://tb-manual.torproject.org/en-US/troubleshooting)."
 msgstr ""
+"Jeśli to nie rozwiąże problemu, zobacz stronę Rozwiązywania problemów na "
+"stronie [Instrukcji obsługi przeglądarki Tor](https://tb-"
+"manual.torproject.org/en-US/troubleshooting)."
 
 #: https//support.torproject.org/tbb/tbb-21/
 #: (content/tbb/tbb-21/contents+en.lrquestion.title)
@@ -1420,7 +1443,7 @@ msgid ""
 "\"tor-browser_en-US\" if you are running the English Tor Browser."
 msgstr ""
 "W Linuksie nie ma domyślnej lokalizacji, jednak folder będzie nosił nazwę "
-"\"tor-browser_en-US\" jeśli używasz angielskiej wersji Przeglądarki Tor."
+"\"tor-browser_pl\" jeśli używasz polskiej wersji Przeglądarki Tor."
 
 #: https//support.torproject.org/tbb/tbb-28/
 #: (content/tbb/tbb-28/contents+en.lrquestion.description)
@@ -1907,6 +1930,9 @@ msgid ""
 "US/firefox/organizations/\">Firefox ESR</a></mark>, so errors regarding "
 "Firefox may occur."
 msgstr ""
+"Przeglądarka Tor jest zbudowany przy użyciu <mark><a "
+"href=\"https://www.mozilla.org/en-US/firefox/organizations/\">Firefox "
+"ESR</a></mark>, więc mogą wystąpić błędy dotyczące Firefoksa."
 
 #: https//support.torproject.org/tbb/tbb-42/
 #: (content/tbb/tbb-42/contents+en.lrquestion.description)
