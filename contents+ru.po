@@ -4108,11 +4108,19 @@ msgid ""
 "service)), and never an exit node. You can view your current Tor circuit by "
 "clicking on the onion button in Tor Browser."
 msgstr ""
+"Цепочка. Маршрут в [сети Tor](#tor-/-tor-network/-core-tor), создаваемый "
+"[клиентом](#client). Состоит из произвольно выбранных узлов. Цепочка "
+"начинается с [моста](#bridge) или [входного узла](#guard). Помимо него в "
+"цепочке участвуют [промежуточный узел](#middle-relay) и [выходной "
+"узел](#exit). Большинство [onion.-ресурсов](#onion-services) использует "
+"шесть переходов в цепочке (исключение – [одиночные onion.-ресурсы](#single-"
+"onion-service)) и не имеет выходных узлов. Текущую цепочку Tor можно "
+"увидеть, если в панели Tor Browser нажать на значок луковицы."
 
 #: https//support.torproject.org/misc/glossary/
 #: (content/misc/glossary/contents+en.lrquestion.description)
 msgid "### client"
-msgstr "### Клиентские"
+msgstr "### client"
 
 #: https//support.torproject.org/misc/glossary/
 #: (content/misc/glossary/contents+en.lrquestion.description)
@@ -4121,6 +4129,9 @@ msgid ""
 "network, typically running on behalf of one user, that routes application "
 "connections over a series of [relays](#relay)."
 msgstr ""
+"Клиент. В [сети Tor](#tor-/-tor-network/-core-tor) так называют узел, обычно"
+" под контролем одного пользователя, который перенаправляет трафик через "
+"несколько [узлов](#relay)."
 
 #: https//support.torproject.org/misc/glossary/
 #: (content/misc/glossary/contents+en.lrquestion.description)
@@ -4133,11 +4144,12 @@ msgid ""
 "Compass is a web application to learn about currently running [Tor "
 "relays](#relay) in bulk."
 msgstr ""
+"Веб-приложение, которое позволяет увидеть все текущие [узлы Tor](#relay)."
 
 #: https//support.torproject.org/misc/glossary/
 #: (content/misc/glossary/contents+en.lrquestion.description)
 msgid "### consensus"
-msgstr ""
+msgstr "### consensus"
 
 #: https//support.torproject.org/misc/glossary/
 #: (content/misc/glossary/contents+en.lrquestion.description)
@@ -4147,11 +4159,15 @@ msgid ""
 "[clients](#client) have the same information about the [relays](#relay) that"
 " make up the [Tor network](#tor-/-tor-network/-core-tor)."
 msgstr ""
+"Консенсус. В контексте Tor это документ, который составляется и каждый час "
+"согласованно обновляется [управляющими серверами](#directory-authority). Это"
+" нужно, чтобы все [клиенты](#client) имели одну и ту же информацию об "
+"[узлах](#relay) [сети Tor](#tor-/-tor-network/-core-tor)."
 
 #: https//support.torproject.org/misc/glossary/
 #: (content/misc/glossary/contents+en.lrquestion.description)
 msgid "### cookie"
-msgstr ""
+msgstr "### cookie"
 
 #: https//support.torproject.org/misc/glossary/
 #: (content/misc/glossary/contents+en.lrquestion.description)
@@ -4162,11 +4178,15 @@ msgid ""
 "while the user is browsing. [Tor Browser](#tor-browser) does not store "
 "cookies."
 msgstr ""
+"Куки-файл. [HTTP](#http)-куки (также веб-куки, интернет-куки и др.) – "
+"небольшой фрагмент данных, который веб-сайт формирует и сохраняет на "
+"компьютере пользователя, когда тот использует [браузер](#web-browser). [Tor "
+"Browser](#tor-browser) не сохраняет куки."
 
 #: https//support.torproject.org/misc/glossary/
 #: (content/misc/glossary/contents+en.lrquestion.description)
 msgid "### cross-site scripting (XSS)"
-msgstr ""
+msgstr "### cross-site scripting (XSS)"
 
 #: https//support.torproject.org/misc/glossary/
 #: (content/misc/glossary/contents+en.lrquestion.description)
@@ -4174,11 +4194,13 @@ msgid ""
 "Cross-Site Scripting (XSS) allows an attacker to add malicious functionality"
 " or behavior to a website when they shouldn't have the ability to do so."
 msgstr ""
+"Межсайтовый скриптинг. Уязвимость, которая позволяет злоумышленнику внедрять"
+" вредоносные функции на веб-сайт."
 
 #: https//support.torproject.org/misc/glossary/
 #: (content/misc/glossary/contents+en.lrquestion.description)
 msgid "### cryptographic signature"
-msgstr ""
+msgstr "### cryptographic signature"
 
 #: https//support.torproject.org/misc/glossary/
 #: (content/misc/glossary/contents+en.lrquestion.description)
@@ -4192,6 +4214,15 @@ msgid ""
 " you to get. For more information about how you can verify signatures, "
 "please see https://www.torproject.org/docs/verifying-signatures.html.en."
 msgstr ""
+"Криптографическая (цифровая) подпись. Подтверждает подлинность сообщения или"
+" файла. Такую подпись может создать владелец секретного ключа (см. "
+"[шифрование с открытым ключом](#public-key-cryptography). Проверить подпись "
+"можно соответствующим (парным) открытым ключом. Если вы скачивали программы "
+"с сайта torproject.org, то, возможно, обратили внимание на файлы подписей "
+"(.asc). Это  PGP-подписи. Вы можете их проверить и убедиться, что скачанный "
+"вами файл – тот, что надо. Подробнее о том, как проверять подписи, можно "
+"прочитать здесь: https://www.torproject.org/docs/verifying-"
+"signatures.html.en."
 
 #: https//support.torproject.org/misc/glossary/
 #: (content/misc/glossary/contents+en.lrquestion.description)
@@ -4201,7 +4232,7 @@ msgstr "## D"
 #: https//support.torproject.org/misc/glossary/
 #: (content/misc/glossary/contents+en.lrquestion.description)
 msgid "### Daemon"
-msgstr ""
+msgstr "### Daemon"
 
 #: https//support.torproject.org/misc/glossary/
 #: (content/misc/glossary/contents+en.lrquestion.description)
