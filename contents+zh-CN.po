@@ -3035,7 +3035,7 @@ msgid ""
 "When it confirms that it's reachable, it will upload a \"server descriptor\""
 " to the directory authorities to let clients know what address, ports, keys,"
 " etc your relay is using."
-msgstr "当它确认可以连接的时候，它会发送“服务器描述符”到中继目录来让客户端知道它的地址、端口、密钥和你的节点使用的中继等信息。"
+msgstr "当它确认可以连接的时候，它会发送“服务器描述符”到目录管理器来让客户端知道它的地址、端口、密钥和你的节点使用的中继等信息。"
 
 #: https//support.torproject.org/operators/operators-1/
 #: (content/operators/operators-1/contents+en.lrquestion.description)
@@ -3094,7 +3094,7 @@ msgid ""
 "* When it confirms that it's reachable, it will upload a \"server "
 "descriptor\" to the directory authorities to let clients know what address, "
 "ports, keys, etc your relay is using."
-msgstr "* 当它确认可以连接的时候，它会发送“服务器描述符”到中继目录来让客户端知道它的地址、端口、密钥和你的节点使用的中继等信息。"
+msgstr "* 当它确认可以连接的时候，它会发送“服务器描述符”到目录管理器来让客户端知道它的地址、端口、密钥和你的节点使用的中继等信息。"
 
 #: https//support.torproject.org/operators/operators-2/
 #: (content/operators/operators-2/contents+en.lrquestion.description)
@@ -3689,9 +3689,9 @@ msgid ""
 "clicking on the onion button in Tor Browser."
 msgstr ""
 "由[客户端](#client)构建的[Tor网络](#tor-/-tor-network/-core-"
-"tor)路径，由随机选择的节点组成。路径以[桥](#bridge)或[guard](#guard)开始。大多数电路由三个节点组成——一个guard或桥，一个[中间中继](#middle"
-" relay)和一个[出口](#exit)。大多数[洋葱服务](#onion-services)在一个路径中使用6跳(除了[single onion "
-"services](#single-onion-service))，并且没有出口节点。您可以在Tor 浏览器中点击洋葱按钮查看您的最近Tor路径。"
+"tor)链路，由随机选择的节点组成。链路以[网桥](#bridge)或[guard](#guard)开始。大多数链路由三个节点组成——一个guard或网桥，一个[中间中继](#middle"
+" relay)和一个[出口](#exit)。大多数[洋葱服务](#onion-services)在一个链路中使用6跳(除了[single onion "
+"services](#single-onion-service))，并且没有出口节点。您可以在Tor 浏览器中点击洋葱按钮查看您当前Tor链路。"
 
 #: https//support.torproject.org/misc/glossary/
 #: (content/misc/glossary/contents+en.lrquestion.description)
@@ -3733,7 +3733,7 @@ msgid ""
 "[clients](#client) have the same information about the [relays](#relay) that"
 " make up the [Tor network](#tor-/-tor-network/-core-tor)."
 msgstr ""
-"在Tor中，单个文档会在每小时被[目录管理者](#directory-"
+"在Tor中，单个文档会在每小时被[目录管理器](#directory-"
 "authority)编译和投票一次，以保证每个[客户端](#client)都有构成[Tor 网络](#tor-/-tor-network/-core-"
 "tor)的[中继](#relay)的相同信息。"
 
@@ -3808,7 +3808,7 @@ msgstr "后台进程是相对于在用户的直接控制之下，作为背景运
 #: https//support.torproject.org/misc/glossary/
 #: (content/misc/glossary/contents+en.lrquestion.description)
 msgid "### directory authority"
-msgstr "### 目录管理者"
+msgstr "### 目录管理器"
 
 #: https//support.torproject.org/misc/glossary/
 #: (content/misc/glossary/contents+en.lrquestion.description)
@@ -3816,7 +3816,7 @@ msgid ""
 "A special-purpose [relay](#relay) that maintains a list of currently-running"
 " relays and periodically publishes a [consensus](#consensus) together with "
 "the other directory authorities."
-msgstr ""
+msgstr "一个有特殊用途的[中继](#relay)，它维护当前运行的中继的列表，并定期与其他目录管理器一起发布一个[共识](#consensus)。"
 
 #: https//support.torproject.org/misc/glossary/
 #: (content/misc/glossary/contents+en.lrquestion.description)
@@ -3837,6 +3837,8 @@ msgid ""
 "each [relay](#relay) decrypts one layer before passing the request on to the"
 " next relay."
 msgstr ""
+"将一段数据打乱成只能被目标接收者读取的密码的过程。[Tor](#tor-/-tor-network/-core-tor)在Tor "
+"[链路](#circuit)中使用三层加密;每个[中继](#relay)在将请求传递到下一个中继之前解密一个层。"
 
 #: https//support.torproject.org/misc/glossary/
 #: (content/misc/glossary/contents+en.lrquestion.description)
@@ -4370,18 +4372,20 @@ msgid ""
 " observation network for detecting [censorship](#network-censorship), "
 "surveillance and [traffic](#traffic) manipulation on the internet."
 msgstr ""
+"OONI 表示“Open Observatory of Network Interference网络干预开放观测台”，这是一个全球性为了侦测[审查"
+"](#network-censorship)，监视和[流量](#traffic)操控的观测网络。"
 
 #: https//support.torproject.org/misc/glossary/
 #: (content/misc/glossary/contents+en.lrquestion.description)
 msgid "### Onion Browser"
-msgstr ""
+msgstr "### Onion Browser"
 
 #: https//support.torproject.org/misc/glossary/
 #: (content/misc/glossary/contents+en.lrquestion.description)
 msgid ""
 "An iOS app which is open source, uses Tor routing, and is developed by "
 "someone who works closely with the Tor Project."
-msgstr ""
+msgstr "一个开源，使用Tor路由，并由工作近似于Tor项目的某些人开发的iOS应用。"
 
 #: https//support.torproject.org/misc/glossary/
 #: (content/misc/glossary/contents+en.lrquestion.description)
@@ -4389,6 +4393,8 @@ msgid ""
 "[Learn more about Onion Browser](https://blog.torproject.org/tor-heart-"
 "onion-browser-and-more-ios-tor)"
 msgstr ""
+"[了解更多关于Onion Browser](https://blog.torproject.org/tor-heart-onion-browser-"
+"and-more-ios-tor)"
 
 #: https//support.torproject.org/misc/glossary/
 #: (content/misc/glossary/contents+en.lrquestion.description)
@@ -4402,25 +4408,27 @@ msgid ""
 " services (like websites) that are only accessible through the [Tor "
 "network](#tor-/-tor-network/-core-tor)."
 msgstr ""
+"洋葱服务(以前称为“[隐藏服务](#hidden services)”)是只能通过[Tor 网络](#tor-/-tor-network/-core-"
+"tor) 访问的(类似于网站的)服务。"
 
 #: https//support.torproject.org/misc/glossary/
 #: (content/misc/glossary/contents+en.lrquestion.description)
 msgid ""
 "Onion services offer advantages over ordinary services on the non-private "
 "web, including:"
-msgstr ""
+msgstr "洋葱网提供的服务比非私有网络上的普通服务更有优势，包括:"
 
 #: https//support.torproject.org/misc/glossary/
 #: (content/misc/glossary/contents+en.lrquestion.description)
 msgid "* hidden location and [IP address](#ip-address)"
-msgstr ""
+msgstr "* 隐匿的位置和[IP地址](#ip-address)"
 
 #: https//support.torproject.org/misc/glossary/
 #: (content/misc/glossary/contents+en.lrquestion.description)
 msgid ""
 "* [end-to-end encrypted](#end-to-end-encrypted) [traffic](#traffic) between "
 "Tor users and onion services"
-msgstr ""
+msgstr "* 在Tor用户和洋葱服务之间的[端到端加密](#end-to-end-encrypted) [流量](#traffic) "
 
 #: https//support.torproject.org/misc/glossary/
 #: (content/misc/glossary/contents+en.lrquestion.description)
