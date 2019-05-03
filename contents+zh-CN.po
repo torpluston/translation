@@ -3555,7 +3555,7 @@ msgid ""
 "To determine a relay's throughput, special relays called bandwidth "
 "authorities take periodic measurements of the [relays](#relay) in the "
 "[consensus](#consensus)."
-msgstr ""
+msgstr "为了确定中继的吞吐量，称为带宽管理器的特殊继电器在[共识](#consensus)中周期性测量[中继](#relay)。"
 
 #: https//support.torproject.org/misc/glossary/
 #: (content/misc/glossary/contents+en.lrquestion.description)
@@ -3688,6 +3688,10 @@ msgid ""
 "service)), and never an exit node. You can view your current Tor circuit by "
 "clicking on the onion button in Tor Browser."
 msgstr ""
+"由[客户端](#client)构建的[Tor网络](#tor-/-tor-network/-core-"
+"tor)路径，由随机选择的节点组成。路径以[桥](#bridge)或[guard](#guard)开始。大多数电路由三个节点组成——一个guard或桥，一个[中间中继](#middle"
+" relay)和一个[出口](#exit)。大多数[洋葱服务](#onion-services)在一个路径中使用6跳(除了[single onion "
+"services](#single-onion-service))，并且没有出口节点。您可以在Tor 浏览器中点击洋葱按钮查看您的最近Tor路径。"
 
 #: https//support.torproject.org/misc/glossary/
 #: (content/misc/glossary/contents+en.lrquestion.description)
@@ -3701,6 +3705,8 @@ msgid ""
 "network, typically running on behalf of one user, that routes application "
 "connections over a series of [relays](#relay)."
 msgstr ""
+"在[Tor](#tor-/-tor-network/-core-"
+"tor)中，客户端是Tor网络中的一个节点，通常代表一个用户运行，它通过一系列[中继](#relay)路由应用程序连接。"
 
 #: https//support.torproject.org/misc/glossary/
 #: (content/misc/glossary/contents+en.lrquestion.description)
@@ -3712,12 +3718,12 @@ msgstr "### Compass"
 msgid ""
 "Compass is a web application to learn about currently running [Tor "
 "relays](#relay) in bulk."
-msgstr ""
+msgstr "Compass是一个可用于了解当前批量运行的[Tor中继](#relay)的web应用程序。"
 
 #: https//support.torproject.org/misc/glossary/
 #: (content/misc/glossary/contents+en.lrquestion.description)
 msgid "### consensus"
-msgstr ""
+msgstr "### 共识"
 
 #: https//support.torproject.org/misc/glossary/
 #: (content/misc/glossary/contents+en.lrquestion.description)
@@ -3727,6 +3733,9 @@ msgid ""
 "[clients](#client) have the same information about the [relays](#relay) that"
 " make up the [Tor network](#tor-/-tor-network/-core-tor)."
 msgstr ""
+"在Tor中，单个文档会在每小时被[目录管理者](#directory-"
+"authority)编译和投票一次，以保证每个[客户端](#client)都有构成[Tor 网络](#tor-/-tor-network/-core-"
+"tor)的[中继](#relay)的相同信息。"
 
 #: https//support.torproject.org/misc/glossary/
 #: (content/misc/glossary/contents+en.lrquestion.description)
@@ -3742,18 +3751,21 @@ msgid ""
 "while the user is browsing. [Tor Browser](#tor-browser) does not store "
 "cookies."
 msgstr ""
+"[HTTP](#HTTP) cookie(也称为web cookie、Internet "
+"cookie、浏览器cookie或简称cookie)是用户在浏览网页时，由用户的[web浏览器](#web-"
+"browser)发送到用户的计算机上并存储在计算机上的一小段数据。[Tor浏览器](#tor-browser)不存储cookie。"
 
 #: https//support.torproject.org/misc/glossary/
 #: (content/misc/glossary/contents+en.lrquestion.description)
 msgid "### cross-site scripting (XSS)"
-msgstr ""
+msgstr "### 跨站脚本(XSS)"
 
 #: https//support.torproject.org/misc/glossary/
 #: (content/misc/glossary/contents+en.lrquestion.description)
 msgid ""
 "Cross-Site Scripting (XSS) allows an attacker to add malicious functionality"
 " or behavior to a website when they shouldn't have the ability to do so."
-msgstr ""
+msgstr "跨站脚本(XSS)允许攻击者在不应有向网站添加恶意功能或行为的能力时向网站添加这些功能或行为。"
 
 #: https//support.torproject.org/misc/glossary/
 #: (content/misc/glossary/contents+en.lrquestion.description)
@@ -3772,6 +3784,9 @@ msgid ""
 " you to get. For more information about how you can verify signatures, "
 "please see https://www.torproject.org/docs/verifying-signatures.html.en."
 msgstr ""
+"密码学签名证明消息或文件的真实性。它是由[公钥密码学](#public-key-"
+"cryptography)中密钥对的私有部分的持有者创建的，可以由相应的公钥进行验证。如果你从torproject.org下载软件，你会发现它是一个sig文件(.asc)。这些是PGP签名，因此您可以验证您下载的文件正是我们希望您获得的文件。有关如何验证签名的更多信息，请参见https://www.torproject.org/docs"
+"/verifying-signatures.html.en。"
 
 #: https//support.torproject.org/misc/glossary/
 #: (content/misc/glossary/contents+en.lrquestion.description)
@@ -3781,19 +3796,19 @@ msgstr "## D"
 #: https//support.torproject.org/misc/glossary/
 #: (content/misc/glossary/contents+en.lrquestion.description)
 msgid "### Daemon"
-msgstr ""
+msgstr "### 后台进程"
 
 #: https//support.torproject.org/misc/glossary/
 #: (content/misc/glossary/contents+en.lrquestion.description)
 msgid ""
 "A daemon is a computer program that runs as a background process, rather "
 "than being under the direct control of a user."
-msgstr ""
+msgstr "后台进程是相对于在用户的直接控制之下，作为背景运行的计算机程序。"
 
 #: https//support.torproject.org/misc/glossary/
 #: (content/misc/glossary/contents+en.lrquestion.description)
 msgid "### directory authority"
-msgstr ""
+msgstr "### 目录管理者"
 
 #: https//support.torproject.org/misc/glossary/
 #: (content/misc/glossary/contents+en.lrquestion.description)
