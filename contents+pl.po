@@ -3162,6 +3162,9 @@ msgid ""
 "* Make sure your clock, date, and timezone are set correctly. Install the "
 "ntp or openntpd (or similar) package to keep it that way."
 msgstr ""
+"* Upewnij się, że zegar, data i strefa czasowa są ustawione prawidłowo. "
+"Zainstaluj pakiet ntp lub openntpd (lub podobny), aby utrzymać go w ten "
+"sposób."
 
 #: https//support.torproject.org/operators/operators-1/
 #: (content/operators/operators-1/contents+en.lrquestion.description)
@@ -3170,7 +3173,7 @@ msgstr ""
 #: https//support.torproject.org/operators/operators-6/
 #: (content/operators/operators-6/contents+en.lrquestion.description)
 msgid "* Edit /etc/tor/torrc to look like the following:"
-msgstr ""
+msgstr "* Zedytuj /etc/tor/torrc, aby wyglądał jak poniżej:"
 
 #: https//support.torproject.org/operators/operators-1/
 #: (content/operators/operators-1/contents+en.lrquestion.description)
@@ -3182,6 +3185,8 @@ msgid ""
 "## The IP address or hostname for incoming connections (leave commented and "
 "Tor will guess)"
 msgstr ""
+"## Adres IP lub nazwa hosta dla połączeń przychodzących (pozostaw jako "
+"komentarz i Tor zgadnie)"
 
 #: https//support.torproject.org/operators/operators-1/
 #: (content/operators/operators-1/contents+en.lrquestion.description)
@@ -3190,7 +3195,7 @@ msgstr ""
 #: https//support.torproject.org/operators/operators-6/
 #: (content/operators/operators-6/contents+en.lrquestion.description)
 msgid "#Address noname.example.com"
-msgstr ""
+msgstr "#Address noname.example.com"
 
 #: https//support.torproject.org/operators/operators-1/
 #: (content/operators/operators-1/contents+en.lrquestion.description)
@@ -3201,7 +3206,7 @@ msgstr ""
 #: https//support.torproject.org/operators/operators-6/
 #: (content/operators/operators-6/contents+en.lrquestion.description)
 msgid "## Set the nickname of this relay"
-msgstr ""
+msgstr "## Podaj pseudonim tego przekaźnika"
 
 #: https//support.torproject.org/operators/operators-1/
 #: (content/operators/operators-1/contents+en.lrquestion.description)
@@ -3212,7 +3217,7 @@ msgstr ""
 #: https//support.torproject.org/operators/operators-6/
 #: (content/operators/operators-6/contents+en.lrquestion.description)
 msgid "Nickname ididnteditheconfig"
-msgstr ""
+msgstr "Nickname niezedytowałemconfigu"
 
 #: https//support.torproject.org/operators/operators-1/
 #: (content/operators/operators-1/contents+en.lrquestion.description)
@@ -3223,7 +3228,7 @@ msgstr ""
 #: https//support.torproject.org/operators/operators-6/
 #: (content/operators/operators-6/contents+en.lrquestion.description)
 msgid "## Set your own contact info"
-msgstr ""
+msgstr "## Ustaw własne dane kontaktowe"
 
 #: https//support.torproject.org/operators/operators-1/
 #: (content/operators/operators-1/contents+en.lrquestion.description)
@@ -3243,7 +3248,7 @@ msgstr "ContactInfo 0xFFFFFFFF Random Person <nobody AT example dot com>"
 #: https//support.torproject.org/operators/operators-3/
 #: (content/operators/operators-3/contents+en.lrquestion.description)
 msgid "## If you control multiple relays, include them in the family"
-msgstr ""
+msgstr "## Jeśli sterujesz wieloma przekaźnikami, uwzględnij je w rodzinie"
 
 #: https//support.torproject.org/operators/operators-1/
 #: (content/operators/operators-1/contents+en.lrquestion.description)
@@ -3286,6 +3291,8 @@ msgid ""
 "## Set your bandwidth rate (leave commented and Tor will run without "
 "bandwidth caps)"
 msgstr ""
+"## Ustaw swoją przepustowość (zostaw zakomentowane i Tor będzie działał bez "
+"limitów)."
 
 #: https//support.torproject.org/operators/operators-1/
 #: (content/operators/operators-1/contents+en.lrquestion.description)
@@ -3321,7 +3328,7 @@ msgstr "ExitPolicy reject *:*"
 #: https//support.torproject.org/operators/operators-2/
 #: (content/operators/operators-2/contents+en.lrquestion.description)
 msgid "* Run \"service tor reload\" (as root)"
-msgstr ""
+msgstr "* Uruchom \"service tor reload\" (jako root)"
 
 #: https//support.torproject.org/operators/operators-1/
 #: (content/operators/operators-1/contents+en.lrquestion.description)
@@ -3345,7 +3352,7 @@ msgstr ""
 #: https//support.torproject.org/operators/operators-6/
 #: (content/operators/operators-6/contents+en.lrquestion.description)
 msgid "This step is usually fast, but it may take a few minutes."
-msgstr ""
+msgstr "Ten krok jest zazwyczaj szybki, ale może potrwać kilka minut."
 
 #: https//support.torproject.org/operators/operators-1/
 #: (content/operators/operators-1/contents+en.lrquestion.description)
@@ -3353,6 +3360,8 @@ msgid ""
 "Look for a log entry in /var/log/syslog such as \"Self-testing indicates "
 "your ORPort is reachable from the outside. Excellent.\""
 msgstr ""
+"Poszukaj wpisu w rejestrze /var/log/syslog, takiego jak \"Self-testing "
+"indicates your ORPort is reachable from the outside. Excellent.\"."
 
 #: https//support.torproject.org/operators/operators-1/
 #: (content/operators/operators-1/contents+en.lrquestion.description)
@@ -3366,6 +3375,8 @@ msgid ""
 "If you don't see this message, it means that your relay is not reachable "
 "from the outside."
 msgstr ""
+"Jeśli nie widzisz tej wiadomości, oznacza to, że twój przekaźnik nie jest "
+"osiągalny z zewnątrz."
 
 #: https//support.torproject.org/operators/operators-1/
 #: (content/operators/operators-1/contents+en.lrquestion.description)
@@ -3379,6 +3390,8 @@ msgid ""
 "You should re-check your firewalls, check that the IP and ports you "
 "specified in your torrc are correct, etc."
 msgstr ""
+"Powinieneś ponownie sprawdzić swoje firewalle, sprawdzić, czy adres IP i "
+"porty podane w torrc są poprawne, itp."
 
 #: https//support.torproject.org/operators/operators-1/
 #: (content/operators/operators-1/contents+en.lrquestion.description)
@@ -3387,6 +3400,9 @@ msgid ""
 " to the directory authorities to let clients know what address, ports, keys,"
 " etc your relay is using."
 msgstr ""
+"Kiedy potwierdzi, że jest osiągalny, wyśle \"deskryptor serwera\" do władz "
+"katalogowych, aby powiadomić klientów o adresie, portach, kluczach, itp z "
+"których twój przekaźnik korzysta."
 
 #: https//support.torproject.org/operators/operators-1/
 #: (content/operators/operators-1/contents+en.lrquestion.description)
@@ -3400,6 +3416,10 @@ msgid ""
 "href=\"https://metrics.torproject.org/rs.html#search\">Metrics</a></mark> to"
 " see whether your relay has successfully registered in the network."
 msgstr ""
+"<mark>Po kilku godzinach (aby dać mu wystarczająco dużo czasu na "
+"propagację), możesz zapytać <a "
+"href=\"https://metrics.torproject.org/rs.html#search\">Metryki</a> "
+"pozwalające sprawdzić, czy Twój przekaźnik zarejestrował się w sieci."
 
 #: https//support.torproject.org/operators/operators-1/
 #: (content/operators/operators-1/contents+en.lrquestion.description)
@@ -3408,7 +3428,7 @@ msgstr ""
 #: https//support.torproject.org/operators/operators-3/
 #: (content/operators/operators-3/contents+en.lrquestion.description)
 msgid "If it hasn't, re-check firewalls, IP and ports again."
-msgstr ""
+msgstr "Jeśli tak się nie stało, sprawdź ponownie firewalle, IP i porty."
 
 #: https//support.torproject.org/operators/operators-2/
 #: (content/operators/operators-2/contents+en.lrquestion.title)
@@ -3429,6 +3449,8 @@ msgid ""
 "Look for a log entry in your /var/log/syslog such as \"Self-testing "
 "indicates your ORPort is reachable from the outside. Excellent.\""
 msgstr ""
+"Poszukaj wpisu w twoim rejestrze /var/log/syslog, takiego jak \"Self-testing"
+" indicates your ORPort is reachable from the outside. Excellent.\"."
 
 #: https//support.torproject.org/operators/operators-2/
 #: (content/operators/operators-2/contents+en.lrquestion.description)
@@ -3456,7 +3478,7 @@ msgstr ""
 #: https//support.torproject.org/operators/operators-3/
 #: (content/operators/operators-3/contents+en.lrquestion.description)
 msgid "* Run \"pkg install tor\" (as root)."
-msgstr ""
+msgstr "* Uruchom \"pkg install tor\" (jako root)"
 
 #: https//support.torproject.org/operators/operators-3/
 #: (content/operators/operators-3/contents+en.lrquestion.description)
@@ -3464,11 +3486,13 @@ msgstr ""
 #: (content/operators/operators-6/contents+en.lrquestion.description)
 msgid "* Make sure your clock, date, and timezone are set correctly."
 msgstr ""
+"Upewnij się, że twój zegar systemowy, data i strefa czasowa są ustawione "
+"prawidłowo."
 
 #: https//support.torproject.org/operators/operators-3/
 #: (content/operators/operators-3/contents+en.lrquestion.description)
 msgid "Enabling ntpd is suggested."
-msgstr ""
+msgstr "Sugerowane jest włączenie ntpd."
 
 #: https//support.torproject.org/operators/operators-3/
 #: (content/operators/operators-3/contents+en.lrquestion.description)
