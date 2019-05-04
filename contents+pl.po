@@ -3450,7 +3450,7 @@ msgid ""
 "indicates your ORPort is reachable from the outside. Excellent.\""
 msgstr ""
 "Poszukaj wpisu w twoim rejestrze /var/log/syslog, takiego jak \"Self-testing"
-" indicates your ORPort is reachable from the outside. Excellent.\"."
+" indicates your ORPort is reachable from the outside. Excellent.\""
 
 #: https//support.torproject.org/operators/operators-2/
 #: (content/operators/operators-2/contents+en.lrquestion.description)
@@ -3497,7 +3497,7 @@ msgstr "Sugerowane jest włączenie ntpd."
 #: https//support.torproject.org/operators/operators-3/
 #: (content/operators/operators-3/contents+en.lrquestion.description)
 msgid "* Edit /usr/local/etc/tor/torrc to look like the following:"
-msgstr ""
+msgstr "* Zedytuj /usr/local/etc/tor/torrc, aby wyglądał tak jak poniżej:"
 
 #: https//support.torproject.org/operators/operators-3/
 #: (content/operators/operators-3/contents+en.lrquestion.description)
@@ -3514,11 +3514,13 @@ msgstr "Log notice file /var/log/tor/notices.log"
 msgid ""
 "* Make sure tor starts on boot by running \"sysrc tor_enable=YES\" (as root)"
 msgstr ""
+"* Upewnij się, że tor rozpoczyna się na starcie, uruchamiając \"sysrc "
+"tor_enable=YES\" (jako root)"
 
 #: https//support.torproject.org/operators/operators-3/
 #: (content/operators/operators-3/contents+en.lrquestion.description)
 msgid "* Run \"service tor start\" (as root)"
-msgstr ""
+msgstr "* Uruchom \"service tor start\" (jako root)"
 
 #: https//support.torproject.org/operators/operators-3/
 #: (content/operators/operators-3/contents+en.lrquestion.description)
@@ -3526,6 +3528,8 @@ msgid ""
 "Look for a log entry in /var/log/tor/notices.log such as \"Self-testing "
 "indicates your ORPort is reachable from the outside. Excellent.\""
 msgstr ""
+"Poszukaj wpisu w rejestrze /var/log/tor/notices.log, takiego jak \"Self-"
+"testing indicates your ORPort is reachable from the outside. Excellent.\""
 
 #: https//support.torproject.org/operators/operators-4/
 #: (content/operators/operators-4/contents+en.lrquestion.title)
@@ -3539,11 +3543,14 @@ msgid ""
 "updated. If you use them, you will miss important stability and security "
 "fixes."
 msgstr ""
+"* Nie używaj pakietów w repozytoriach Ubuntu. Nie są one niezawodnie "
+"aktualizowane. Jeśli ich używasz, przegapisz ważne poprawki stabilności i "
+"bezpieczeństwa."
 
 #: https//support.torproject.org/operators/operators-4/
 #: (content/operators/operators-4/contents+en.lrquestion.description)
 msgid "* Determine your Ubuntu version by running the following command:"
-msgstr ""
+msgstr "* Określ swoją wersję Ubuntu, wykonując następujące polecenie:"
 
 #: https//support.torproject.org/operators/operators-4/
 #: (content/operators/operators-4/contents+en.lrquestion.description)
@@ -3556,6 +3563,8 @@ msgid ""
 "* As root, add the following lines to /etc/apt/sources.list. Use the version"
 " you found in the previous step for <version>."
 msgstr ""
+"* Jako root, dodaj następujące linie do /etc/apt/sources.list. Użyj wersje, "
+"którą znalazłeś w poprzednim kroku dla <version>."
 
 #: https//support.torproject.org/operators/operators-4/
 #: (content/operators/operators-4/contents+en.lrquestion.description)
@@ -3573,6 +3582,8 @@ msgid ""
 "* Add the gpg key used to sign the packages by running the following "
 "commands:"
 msgstr ""
+"* Dodaj klucz gpg używany do podpisywania pakietów, wykonując następujące "
+"polecenia:"
 
 #: https//support.torproject.org/operators/operators-4/
 #: (content/operators/operators-4/contents+en.lrquestion.description)
@@ -3580,17 +3591,22 @@ msgid ""
 "$ gpg --keyserver keys.gnupg.net --recv "
 "A3C4F0F979CAA22CDBA8F512EE8CBC9E886DDD89"
 msgstr ""
+"$ gpg --keyserver keys.gnupg.net --recv "
+"A3C4F0F979CAA22CDBA8F512EE8CBC9E886DDD89"
 
 #: https//support.torproject.org/operators/operators-4/
 #: (content/operators/operators-4/contents+en.lrquestion.description)
 msgid ""
 "$ gpg --export A3C4F0F979CAA22CDBA8F512EE8CBC9E886DDD89 | sudo apt-key add -"
 msgstr ""
+"$ gpg --export A3C4F0F979CAA22CDBA8F512EE8CBC9E886DDD89 | sudo apt-key add -"
 
 #: https//support.torproject.org/operators/operators-4/
 #: (content/operators/operators-4/contents+en.lrquestion.description)
 msgid "* Run the following commands to install tor and check its signatures:"
 msgstr ""
+"* Wykonaj następujące komendy, aby zainstalować tor i sprawdzić jego "
+"podpisy:"
 
 #: https//support.torproject.org/operators/operators-4/
 #: (content/operators/operators-4/contents+en.lrquestion.description)
@@ -3610,12 +3626,14 @@ msgstr "Jak mogę uruchomić mostek obfs4 na Debianie?"
 #: https//support.torproject.org/operators/operators-6/
 #: (content/operators/operators-6/contents+en.lrquestion.description)
 msgid "* Run \"apt-get install tor obfs4proxy\" (as root)."
-msgstr ""
+msgstr "* Uruchom \"apt-get install tor obfs4proxy\" (jako root)."
 
 #: https//support.torproject.org/operators/operators-6/
 #: (content/operators/operators-6/contents+en.lrquestion.description)
 msgid "Install the ntp or openntpd (or similar) package to keep it that way."
 msgstr ""
+"Zainstaluj pakiet ntp lub openntpd (lub podobny), aby utrzymać go w ten "
+"sposób."
 
 #: https//support.torproject.org/operators/operators-6/
 #: (content/operators/operators-6/contents+en.lrquestion.description)
@@ -3635,7 +3653,7 @@ msgstr "ExtORPort auto"
 #: https//support.torproject.org/operators/operators-6/
 #: (content/operators/operators-6/contents+en.lrquestion.description)
 msgid "* Run \"service tor reload\" (as root)."
-msgstr ""
+msgstr "* Uruchom \"service tor reload\" (jako root)."
 
 #: https//support.torproject.org/operators/operators-6/
 #: (content/operators/operators-6/contents+en.lrquestion.description)
@@ -3643,6 +3661,8 @@ msgid ""
 "* Look for a log entry in /var/log/syslog such as \"Self-testing indicates "
 "your ORPort is reachable from the outside. Excellent.\""
 msgstr ""
+"* Poszukaj wpisu w rejestrze /var/log/syslog, takiego jak \"Self-testing "
+"indicates your ORPort is reachable from the outside. Excellent.\""
 
 #: https//support.torproject.org/operators/operators-6/
 #: (content/operators/operators-6/contents+en.lrquestion.description)
@@ -3650,6 +3670,8 @@ msgid ""
 "* You should also see the message \"Registered server transport 'obfs4'\" "
 "indicating that obfs4proxy is functional."
 msgstr ""
+"* Powinieneś również zobaczyć komunikat \"Registered server transport "
+"'obfs4'\" wskazujący, że obfs4proxy działa."
 
 #: https//support.torproject.org/operators/operators-7/
 #: (content/operators/operators-7/contents+en.lrquestion.title)
@@ -3667,6 +3689,8 @@ msgid ""
 "If law enforcement becomes interested in traffic from your exit relay, it's "
 "possible that officers will seize your computer."
 msgstr ""
+"Jeśli organy ścigania zainteresują się ruchem z Twojego przekaźnika "
+"wyjściowego, możliwe, że funkcjonariusze przejmą Twój komputer."
 
 #: https//support.torproject.org/operators/operators-7/
 #: (content/operators/operators-7/contents+en.lrquestion.description)
@@ -3674,6 +3698,8 @@ msgid ""
 "For that reason, it's best not to run your exit relay in your home or using "
 "your home internet connection."
 msgstr ""
+"Z tego powodu najlepiej jest nie prowadzić przekaźników wyjściowych w domu "
+"lub nie korzystać z domowego łącza internetowego."
 
 #: https//support.torproject.org/operators/operators-7/
 #: (content/operators/operators-7/contents+en.lrquestion.description)
@@ -3681,6 +3707,8 @@ msgid ""
 "Instead, consider running your exit relay in a commercial facility that is "
 "supportive of Tor."
 msgstr ""
+"Zamiast tego należy rozważyć uruchomienie przekaźnika wyjściowego w obiekcie"
+" komercyjnym, który wspiera Tora."
 
 #: https//support.torproject.org/operators/operators-7/
 #: (content/operators/operators-7/contents+en.lrquestion.description)
@@ -3688,6 +3716,8 @@ msgid ""
 "Have a separate IP address for your exit relay, and don't route your own "
 "traffic through it."
 msgstr ""
+"Posiadaj osobny adres IP dla swojego przekaźnika wyjściowego i nie kieruj "
+"przez niego własnego ruchu."
 
 #: https//support.torproject.org/operators/operators-7/
 #: (content/operators/operators-7/contents+en.lrquestion.description)
@@ -3695,6 +3725,9 @@ msgid ""
 "Of course, you should avoid keeping any sensitive or personal information on"
 " the computer hosting your exit relay."
 msgstr ""
+"Oczywiście, należy unikać przechowywania jakichkolwiek poufnych lub "
+"osobistych informacji na komputerze, na którym znajduje się przekaźnik "
+"wyjściowy."
 
 #: https//support.torproject.org/onionservices/onionservices-1/
 #: (content/onionservices/onionservices-1/contents+en.lrquestion.title)
@@ -3711,6 +3744,8 @@ msgid ""
 "Websites that are only accessible over Tor are called \"onions\" and end in "
 "the TLD .onion."
 msgstr ""
+"Strony internetowe, które są dostępne tylko przez Tor są nazywane "
+"\"cebulami\" i kończą się w TLD .onion."
 
 #: https//support.torproject.org/onionservices/onionservices-1/
 #: (content/onionservices/onionservices-1/contents+en.lrquestion.description)
@@ -3718,11 +3753,13 @@ msgid ""
 "For example, the DuckDuckGo onion is <a "
 "href=\"http://3g2upl4pq6kufc4m.onion\">https://3g2upl4pq6kufc4m.onion</a>."
 msgstr ""
+"Na przykład serwis cebulowy \"DuckDuckGo\" to <a "
+"href=\"http://3g2upl4pq6kufc4m.onion\">https://3g2upl4pq6kufc4m.onion</a>."
 
 #: https//support.torproject.org/onionservices/onionservices-1/
 #: (content/onionservices/onionservices-1/contents+en.lrquestion.description)
 msgid "You can access these websites by using Tor Browser."
-msgstr ""
+msgstr "Dostęp do tych stron można uzyskać za pomocą Przeglądarki Tor."
 
 #: https//support.torproject.org/onionservices/onionservices-1/
 #: (content/onionservices/onionservices-1/contents+en.lrquestion.description)
@@ -3730,6 +3767,9 @@ msgid ""
 "The addresses must be shared with you by the website host, as onions are not"
 " indexed in search engines in the typical way that vanilla websites are."
 msgstr ""
+"Adresy muszą być dzielone z tobą przez gospodarza strony internetowej, jako "
+"że serwisy cebulowe nie są indeksowane w wyszukiwarkach w typowy sposób, w "
+"jaki zwykłe strony internetowe są."
 
 #: https//support.torproject.org/onionservices/onionservices-2/
 #: (content/onionservices/onionservices-2/contents+en.lrquestion.title)
@@ -3742,6 +3782,8 @@ msgid ""
 "Onion services allow people to browse but also to publish anonymously, "
 "including publishing anonymous websites."
 msgstr ""
+"Usługi cebulowe pozwalają na przeglądanie, ale także na anonimową "
+"publikację, w tym publikowanie anonimowych stron internetowych."
 
 #: https//support.torproject.org/onionservices/onionservices-2/
 #: (content/onionservices/onionservices-2/contents+en.lrquestion.description)
