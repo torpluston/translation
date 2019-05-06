@@ -4933,7 +4933,7 @@ msgstr ""
 #: https//support.torproject.org/misc/glossary/
 #: (content/misc/glossary/contents+en.lrquestion.description)
 msgid "### Operating System (OS)"
-msgstr ""
+msgstr "### Operating System (OS)"
 
 #: https//support.torproject.org/misc/glossary/
 #: (content/misc/glossary/contents+en.lrquestion.description)
@@ -5002,7 +5002,7 @@ msgstr ""
 #: https//support.torproject.org/misc/glossary/
 #: (content/misc/glossary/contents+en.lrquestion.description)
 msgid "### private key"
-msgstr ""
+msgstr "### private key"
 
 #: https//support.torproject.org/misc/glossary/
 #: (content/misc/glossary/contents+en.lrquestion.description)
@@ -5010,17 +5010,19 @@ msgid ""
 "The private portion of a [public/private key pair](#public-key-"
 "cryptography)."
 msgstr ""
+"Секретный ключ. Один из [пары криптографических ключей](#public-key-"
+"cryptography)."
 
 #: https//support.torproject.org/misc/glossary/
 #: (content/misc/glossary/contents+en.lrquestion.description)
 msgid ""
 "This is the key that must be kept private, and not disseminated to others."
-msgstr ""
+msgstr "Этот ключ нужно держать при себе и не распространять среди других."
 
 #: https//support.torproject.org/misc/glossary/
 #: (content/misc/glossary/contents+en.lrquestion.description)
 msgid "### proxy"
-msgstr ""
+msgstr "### proxy"
 
 #: https//support.torproject.org/misc/glossary/
 #: (content/misc/glossary/contents+en.lrquestion.description)
@@ -5028,6 +5030,8 @@ msgid ""
 "A proxy is a middle man between a [client](#client) (like a [web browser"
 "](#web-browser)) and a service (like a [web server](#server))."
 msgstr ""
+"Прокси. Посредник между [клиентом](#client) (например, [веб-браузером](#web-"
+"browser)) и сервисом (таким как [веб-сервер](#server))."
 
 #: https//support.torproject.org/misc/glossary/
 #: (content/misc/glossary/contents+en.lrquestion.description)
@@ -5037,32 +5041,37 @@ msgid ""
 "the response back to the client. The service only communicates with and sees"
 " the proxy."
 msgstr ""
+"Вместо прямого подключения к сервису клиент отправляет запрос на прокси. Тот"
+" передает запрос сервису \"по поручению\" клиента, а затем передает клиенту "
+"ответ сервиса. Последний контактирует только с прокси и видит лишь его."
 
 #: https//support.torproject.org/misc/glossary/
 #: (content/misc/glossary/contents+en.lrquestion.description)
 msgid "### public key"
-msgstr ""
+msgstr "### public key"
 
 #: https//support.torproject.org/misc/glossary/
 #: (content/misc/glossary/contents+en.lrquestion.description)
 msgid ""
 "The public portion of a [public/private key pair](#public-key-cryptography)."
 msgstr ""
+"Открытый ключ. Один из [пары криптографических ключей](#public-key-"
+"cryptography)."
 
 #: https//support.torproject.org/misc/glossary/
 #: (content/misc/glossary/contents+en.lrquestion.description)
 msgid "This is the key that can be disseminated to others."
-msgstr ""
+msgstr "Этот ключ можно распространять среди других людей."
 
 #: https//support.torproject.org/misc/glossary/
 #: (content/misc/glossary/contents+en.lrquestion.description)
 msgid "### public key cryptography"
-msgstr ""
+msgstr "### public key cryptography"
 
 #: https//support.torproject.org/misc/glossary/
 #: (content/misc/glossary/contents+en.lrquestion.description)
 msgid "A public-key cryptography system uses pairs of mathematical keys."
-msgstr ""
+msgstr "Шифрование с открытым ключом. Использует пару взаимосвязанных ключей."
 
 #: https//support.torproject.org/misc/glossary/
 #: (content/misc/glossary/contents+en.lrquestion.description)
@@ -5070,6 +5079,9 @@ msgid ""
 "The [public key](#public-key) can be disseminated widely while its belonging"
 " [private key](#private-key) is known only by the owner of the key pair."
 msgstr ""
+"[Открытый ключ](#public-key) можно распространять сколь угодно широко. "
+"Парный ему [секретный ключ](#private-key) находится под исключительным "
+"контролем владельца ключевой пары."
 
 #: https//support.torproject.org/misc/glossary/
 #: (content/misc/glossary/contents+en.lrquestion.description)
@@ -5078,6 +5090,9 @@ msgid ""
 "receiver but only the receiver in possession of the private key is able to "
 "decrypt the message."
 msgstr ""
+"Всякий может [зашифровать](#encryption) сообщение для адресата, используя "
+"его (адресата) открытый ключ. Расшифровать это сообщение может только "
+"адресат с помощью своего секретного ключа."
 
 #: https//support.torproject.org/misc/glossary/
 #: (content/misc/glossary/contents+en.lrquestion.description)
@@ -5086,11 +5101,14 @@ msgid ""
 "](#cryptographic-signature) to proof the identity of the creator of a "
 "message or other files."
 msgstr ""
+"Кроме того, секретный ключ можно использовать для создания [цифровой подписи"
+"](#cryptographic-signature), чтобы подтвердить личность отправителя "
+"сообщения или файла."
 
 #: https//support.torproject.org/misc/glossary/
 #: (content/misc/glossary/contents+en.lrquestion.description)
 msgid "This signature can be verified by the public key."
-msgstr ""
+msgstr "Подпись можно проверить с помощью открытого ключа."
 
 #: https//support.torproject.org/misc/glossary/
 #: (content/misc/glossary/contents+en.lrquestion.description)
@@ -5185,6 +5203,9 @@ msgid ""
 "Slider will disable or partially disable certain [web browser](#web-browser)"
 " features to protect against possible attacks."
 msgstr ""
+"Можно изменять эти значения (стандартные, более безопасные, наиболее "
+"безопасные). При перемещении ползунка вверх будут частично или полностью "
+"отключены некоторые функции [браузера](#web-browser)."
 
 #: https//support.torproject.org/misc/glossary/
 #: (content/misc/glossary/contents+en.lrquestion.description)
