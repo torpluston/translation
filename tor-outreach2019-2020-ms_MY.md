@@ -1,18 +1,18 @@
-# Tor Outreach Material 2019-2020
+# Bahan Jerayawara Tor 2019-2020
 
-# 1. TOR FOR PRIVACY 
+# 1. TOR UNTUK PRIVASI
 
-### Privacy is a human right
+### Privasi atau kesendirian ialah hak kemanusiaan
 
-Like many of us, Aleisha spends most of her time online--connecting with friends, posting on social media, and browsing the web.
+Seperti orang lain, Aleisha menghabiskan masanya di atas-talian--berhubung dengan rakan, mengepos di media sosial, dan melayari sesawang.
 
-But lately, she's noticed that advertisements related to her previous searches are following her around online.
+Tetapi baru-baru ini, beliau mendapati iklan-iklan berkaitan penggelintaran beliau sebelum ini telah mengikutnya semasa berada di atas-talian.
 
-This feels so invasive that she does some research on online ads and learns that it's not just advertisers tracking her but also her ISP, analytics companies, social media platforms, and more.
+Beliau menjadi tidak selesa dan telah mengkaji tentang iklan atas-talian dan didapati bukan sahaja pengiklan menjejaknya tetapi ISP, syarikat-syarikat analitik, platform media sosial, dan banyak lagi.
 
-Aleisha decides she wants to find and use software that doesn't collect her data, doesn't track her, and doesn't tell other services anything private about her.
+Aleisha nekad mencari dan menggunakan perisian yang tidak mengutip data, tidak menjejak beliau, dan tidak memberitahu perkhidmatan lain apa-apa maklumat peribadinya.
 
-She goes to a privacy training at a local hackerspace and learns about **Tor Browser**, the only web browser that allows her to browse anonymously.
+Dia pergi ke latihan berkenaan privasi di hackerspace tempatan dan mendapati **Pelayar Tor** satu-satunya pelayar sesawang yang membolehkan beliau melayari internet secara awanama.
 
 ---
 
@@ -36,11 +36,11 @@ She also uses a Tor-powered app called **OnionShare** to send files to other act
 
 ---
 
-# 3. TOR FOR HUMAN RIGHTS
+# 3. TOR UNTUK HAK KEMANUSIAAN
 
-### Water is life 
+### Air ialah kehidupan
 
-Jelani lives in a small village  which a wide river runs through.
+Jelani tinggal di sebuah kampung yang direntasi sungai yang luas.
 
 This river has provided water to his community since the days of his ancestors. 
 
