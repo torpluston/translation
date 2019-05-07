@@ -2,7 +2,7 @@
 
 # 1. TOR UNTUK PRIVASI
 
-### Privasi atau kesendirian ialah hak kemanusiaan
+### Privasi atau kesendirian ialah hak asasi manusia
 
 Seperti orang lain, Aleisha menghabiskan masanya di atas-talian--berhubung dengan rakan, mengepos di media sosial, dan melayari sesawang.
 
@@ -16,11 +16,11 @@ Dia pergi ke latihan berkenaan privasi di hackerspace tempatan dan mendapati **P
 
 ---
 
-# 2.TOR FOR FEMINISTS 
+# 2. TOR UNTUK FEMINIS
 
-### The future is cyberfeminist
+### Masa hadapan untuk feminis siber
 
-Fernanda runs a women's collective focused on reproductive rights in Brazil, where abortion is illegal.
+Fernanda telah mengumpul maklumat berkenaan hak-hak reproduktif di Brazil, yang melarang pengguguran.
 
 Fernanda and her colleagues built a website with information about abortion access, birth control, and other resources for people seeking reproductive information.
 
@@ -36,35 +36,35 @@ She also uses a Tor-powered app called **OnionShare** to send files to other act
 
 ---
 
-# 3. TOR UNTUK HAK KEMANUSIAAN
+# 3. TOR UNTUK HAK ASASI MANUSIA
 
 ### Air ialah kehidupan
 
 Jelani tinggal di sebuah kampung yang direntasi sungai yang luas.
 
-This river has provided water to his community since the days of his ancestors. 
+Sungai ini menyediakan air kepada komunitinya semenjak ketibaan leluhurnya di sini.
 
-But today, Jelani’s river is threatened by powerful multinational companies drilling for oil in the region.
+Tetapi hari ini, sungai tempat tinggal Jelani telah diancam oleh syarikat multinasional yang mengerudi minyak di kawasannya.
 
 Private security firms, paid for by these companies, use powerful surveillance mechanisms to monitor the online activities of Jelani and his neighbors in the village who are organizing to protect their sacred river. 
 
 Jelani uses **Tor Browser** to prevent these companies from watching as he visits websites for international human rights protection and legal aid and writes blog posts about the resistance movement in his village.
 
-He also uses **OnionShare** and **SecureDrop** to securely send documents to journalists who are helping expose these human rights violations.
+Dia juga menggunakan **OnionShare** dan **SecureDrop** untuk memastikan dokumen dihantar kepada wartawan yang mahu mendedahkan pelanggaran hak asasi manusia secara selamat.
 
-All of this software uses Tor to help protect Jelani’s privacy. 
+Semua perisianini menggunakan Tor dapat membantu kerahsiaan Jelani.
 
-### Human rights activists like Jelani are fighting for justice in their communities, and Tor helps power their resistance.
+### Aktivis hak kemanusiaan seperti Jelani berjuang untuk keadilan komunitinya, dan Tor membantu dengan memperkasakan tentangan mereka.
 
 ---
 
-# 4. TOR FOR ANTI-CENSORSHIP
+# 4. TOR UNTUK ANTI-TAPISAN
 
-### Build bridges not walls
+### Bina titi bukannya dinding
 
-Jean was traveling for the first time to a country far from his family.
+Jean telah melancong ke sebuah negara yang jauh dari keluarganya.
 
-After arriving at a hotel, he opened his laptop.
+Seusai tiba di sebuah hotel, beliau terus membuka komputer ribanya.
 
 He was so exhausted that when the message "Connection has timed out" first appeared on his web browser, he thought it was due to his own error.
 
@@ -80,32 +80,32 @@ He chose one and for a moment it seemed to work, but after five minutes the conn
 
 Jean kept reading to find other options and learned about Tor Browser and how it can circumvent censorship.
 
-He found an official website mirror to download the program.
+Beliau menemui satu cermin laman sesawang rasmi yang dapat memuat turun program tersebut.
 
 When he opened **Tor Browser**, he followed the prompts for censored users and connected to a bridge which allowed him to access the internet again.
 
-With Tor Browser, Jean can browse freely and privately and contact his family. 
+Dengan Pelayar Tor, Jean dapat melayari secara bebas dan persendirian dan seterusnya dapat menghubungi ahli keluarganya.
 
-### Censored users all over the world rely on Tor Browser for a free, stable, and uncensored way to access the internet.
+### Pengguna tertapis di seluruh dunia bergantung kepada Pelayar Tor untuk mencapai laluan Internet tanpa tapisan.
 
 ---
 
-# 5. Shared Sections
+# 5. Seksyen Perkongsian Maklumat
 
 ## Apakah Tor?
 
-Tor is free software and an open network that helps protect you from tracking, surveillance, and censorship online.
-Tor is created for free by a 501(c)3 U.S.-based nonprofit called the Tor Project. 
+Tor ialah perisian bebas dan rangkaian terbuka yang dapat melindungi anda dari penjejakan, pengintipan, dan tapisan di atas talian.
+Tor dicipta secara percuma oleh sebuah organisasi tidak berasaskan keuntungan U.S 501(c)3 yang dikenali sebagai Tor Project.
 
-The easiest way to use Tor is Tor Browser.
-When you use Tor Browser, no one can see what websites you visit or where in the world you’re coming from. 
+Cara termudah menggunakan Tor ialah melalui Pelayar Tor.
+Bila anda menggunakan Pelayar Tor, tiada siapa dapat melihat laman sesawang yang anda lawati atau lokasi anda berada.
 
-Other applications, like SecureDrop and OnionShare, use Tor to protect their users against surveillance and censorship.
+Lain-lain aplikasi, seperti SecureDrop dan OnionShare, menggunakan Tor untuk melindungi pengguna mereka terhadap pengintipan dan tapisan.
 
 
-## 6. How does Tor work?
+## 6. Bagaimanakah Tor berfungsi?
 
-Amal wants to visit Bekele’s website privately, so she opens Tor Browser.
+Amal mahu melayari laman sesawang Bekele secara sulit, jadi beliau membuka Pelayar Tor.
 
 Tor Browser selects a random circuit of three relays, which are computers all over the world configured to route traffic over the Tor network.
 
@@ -121,42 +121,42 @@ The third relay removes the last encryption layer and forwards the web page requ
 
 Bekele doesn't know that the website request came from Amal unless she tells him so.
 
-## 7. Who uses Tor? 
+## 7. Siapa yang menggunakan Tor?
 
-People all over the world use Tor to protect their privacy and access the web freely.
+Individu-individu di seluruh dunia menggunakan Tor untuk melindungi kerahsiaan mereka dan mahu mencapai sesawang dengan bebas.
 
-Tor helps protect journalists, human rights defenders, domestic violence victims, academic researchers, and anyone experiencing tracking, censorship, or surveillance. 
+Tor dapat melindungi para wartawan, pelindung hak-hak kemanusiaan, mangsa keganasan domestik, pengkaji akademik dan sesiapa sahaja yang pernah dijejak, ditapis, atau diintip.
 
-## 6. Why trust Tor?
+## 6. Kenapa perlu mempercayai Tor?
 
-Tor is designed for privacy. We don’t know who our users are, and we don't keep logs of user activity.
+Tor direka khusus untuk privasi. Kami tidak tahu siapa pengguna kami, dan kami juga tidak menyimpan log aktiviti pengguna.
 
-Tor relay operators cannot reveal the true identity of Tor users.
+Para operator geganti Tor tidak pernah mendedahkan identiti sebenar pengguna Tor.
 
-Continual peer review of Tor's source code by academic and open source communities ensures that there are no backdoors in Tor, and our social contract promises that we will never backdoor Tor. 
+Semakan semula kod sumber Tor secara berterusan oleh para akademik dan komuniti sumber terbuka dapat memastikan tiada pintu belakang di dalam Tor, dan kontrak sosial kami berjanji tidak sesekali membuat pintu belakang untuk Tor.
 
-## 7. Join the Tor community
+## 7. Sertai komuniti Tor
 
-Tor is made possible by a diverse set of users, developers, relay operators, and advocates from around the world.
+Tor wujud disebabkan oleh pelbagai set para pengguna, pembangun, operator geganti dan penyokong di seluruh dunia.
 
-We need your help to make Tor more usable and secure for people everywhere.
+Kami memerlukan bantuan anda untuk memastikan Tor boleh digunakan dan selamat untuk sesiapa sahaja di mana-mana.
 
-You can volunteer with Tor by writing code, running a relay, creating documentation, offering user support, or telling people in your community about Tor.
+Anda boleh menjadi sukarela Tor dengan menulis kod, menjalankan sebuah geganti, mencipta dokumentasi, menawarkan sokongan pengguna, atau beritahu orang lain dalam komuniti anda mengenai Tor.
 
-The Tor community is governed by a code of conduct, and we outline our set of promises to the community in our social contract. 
+Komuniti Tor ditabdir berdasarkan tatakelakuan, dan kami telah menggariskan satu set janji kepada komuniti di dalam kontrak sosial kami.
 
-Learn more about Tor by visiting our website, our wiki, finding us on IRC, joining one of our mailing lists, or signing up for Tor News at newsletter.torproject.org.
+Ketahui lebih lanjut berkenaan Tor dengan melawati laman sesawang kami, wiki kami, temui kami di IRC, sertai salah satu dari senarai mel kami, atau melanggan Berita Tor di newsletter.torproject.org.
 
 
-## 8. Download Tor
+## 8. Muat Turun Tor
 
-Tor for Desktop
+Tor untuk Desktop
 torproject.org/download
 
-TOR ON MOBILE
+TOR UNTUK TELEFON BIMBIT
 ### Android 
-Tor Browser for Android is available from GooglePlay.
+Pelayar Tor untuk Android tersedia di dalam GooglePlay.
 
 ### iOS
-Onion Browser, developed by M. Tigas, is the only browser we recommend for iOS.
+Pelayar Onion, dibangunkan oleh M. Tigas, adalah satu-satunya pelayar yang kami sarankan untuk iOS.
 
