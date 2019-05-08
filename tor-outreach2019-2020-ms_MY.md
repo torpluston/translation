@@ -22,17 +22,17 @@ Dia pergi ke latihan berkenaan privasi di hackerspace tempatan dan mendapati **P
 
 Fernanda telah mengumpul maklumat berkenaan hak-hak reproduktif di Brazil, yang melarang pengguguran.
 
-Fernanda and her colleagues built a website with information about abortion access, birth control, and other resources for people seeking reproductive information.
+Fernanda dan rakan-rakannya telah membina sebuah laman sesawang berkenaan pengguguran, kawalan kelahiran, dan lain-lain sumber yang mengenai maklumat reproduktif.
 
-If this website was linked back to them, they could be arrested--or worse. 
+Jika laman sesawang ini dipaut kembali kepada mereka, berkemungkinan mereka boleh ditahan--atau lain-lain perkara buruk boleh berlaku.
 
-To protect themselves, Fernanda and her colleagues created the website using Tor **onion services**. Onion services not only protect them from being discovered as the operators of the server but also help protect visitors to their website by requiring they use Tor Browser. 
+Untuk melindungi diri mereka, Fernanda dan rakan-rakannya telah membina sebuah laman sesawang menggunakan **perkhidmatan onion**. Perkhidmatan onion bukan sahaja melindungi diri mereka daripada diketahui oleh operator pelayan tetapi dapat melindungi para pelawat yang pergi ke laman sesawang tersebut kerana mereka perlu menggunakan Pelayar Tor jua.
 
-In fact, Fernanda uses **Tor Browser** for all of her web browsing just to be on the safe side.
+Selain itu, Fernanda menggunakan **Pelayar Tor** untuk semua aktiviti pelayaran sesawang beliau untuk memastikan keselamatan terjamin.
 
-She also uses a Tor-powered app called **OnionShare** to send files to other activists securely and privately. 
+Dia juga menggunakan apl yang diperkasakan dengan Tor iaitu **OnionShare** yang dapat menghantar fail-fail kepada para aktivis lain secara selamat dan rahsia.
 
-### Reproductive rights activists like Fernanda are fighting for fundamental freedoms, and Tor helps power their resistance.
+### Aktivis hak-hak reproduktif seperti Fernanda dapat berjuang untuk kebebasan asasi, dan Tor membantu memperkasakan penentangan beliau.
 
 ---
 
@@ -46,9 +46,9 @@ Sungai ini menyediakan air kepada komunitinya semenjak ketibaan leluhurnya di si
 
 Tetapi hari ini, sungai tempat tinggal Jelani telah diancam oleh syarikat multinasional yang mengerudi minyak di kawasannya.
 
-Private security firms, paid for by these companies, use powerful surveillance mechanisms to monitor the online activities of Jelani and his neighbors in the village who are organizing to protect their sacred river. 
+Firma-firma sekuriti persendirian, telah diupah oleh syarikat-syarikat ini telah menggunakan mekanisma pengintipan yang hebat untuk memantau apa jua aktiviti atas-talian Jelani dan jiran-jirannya di dalam kampung. Khususnya kepada sesiapa yang merancang untuk melindungi sungai mereka.
 
-Jelani uses **Tor Browser** to prevent these companies from watching as he visits websites for international human rights protection and legal aid and writes blog posts about the resistance movement in his village.
+Jelani menggunakan **Pelayar Tor** untuk menghalang syarikat-syarikat ini memantaunya ketika beliau melawati laman sesawang berkaitan perlindungan hak asasi dan bantuan perundangan antarabangsa serta menulis hantaran-hantaran blog berkenaan gerakan mereka di kampung tersebut.
 
 Dia juga menggunakan **OnionShare** dan **SecureDrop** untuk memastikan dokumen dihantar kepada wartawan yang mahu mendedahkan pelanggaran hak asasi manusia secara selamat.
 
