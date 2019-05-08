@@ -8,7 +8,7 @@ Tal como muitos de nós, Aleisha passa grande parte de seu tempo online -- conec
 
 Mas, recentemente, ela observou que anúncios publicitários relacionados às suas pesquisas anteriores têm-na perseguido por toda parte em sua vida online.
 
-Ele se sente tão invadida que, ao fazer uma pesquisa online sobre anúncios na internet, descobre que não somente os anunciantes a perseguem, mas também o seu provedor de serviços de internet, as empresas de web analytics, as plataformas de mídias sociais, e muito mais.
+Ela se sente tão invadida que, ao fazer uma pesquisa online sobre anúncios na internet, descobre que não somente os anunciantes a perseguem, mas também o seu provedor de serviços de internet, as empresas de web analytics, as plataformas de mídias sociais, e muito mais.
 
 Aleisha então decide que deseja encontrar e usar um software que não colete seus dados, não a persiga e não compartilhe com outros serviços nenhum dado privado a seu respeito.
 
@@ -24,7 +24,7 @@ Fernanda dirige um coletivo de mulheres sobre direitos reprodutivos no Brasil, p
 
 Fernanda e suas colegas criaram um website com informações sobre acesso a aborto, controle de natalidade e outros recursos para pessoas em busca informação reprodutiva.
 
-Se este site estivesse ligado a eles, eles poderiam ser presos - ou pior.
+Se este site estivesse ligado a elas, elas poderiam ser presos - ou pior.
 
 Para proteger-se, Fernanda e suas colegas criaram seu website usando os **Serviços Onion** do Tor não somente para proteger-se de ser descobertas como as operadoras do servidor, mas também para ajudar a proteger os visitantes de seu website ao tornar obrigatório o uso do Navegador Tor.
 
@@ -151,7 +151,7 @@ Saiba mais sobre o Tor visitando nosso website, nossa wiki, encontrando-nos no I
 ## 8. Baixando o Tor
 
 Tor para Desktop
-torproject.org/download
+torproject.org/pt-BR/download/
 
 TOR PARA DISPOSITIVOS MÓVEIS
 ### Android
