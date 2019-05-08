@@ -66,23 +66,23 @@ Jean telah melancong ke sebuah negara yang jauh dari keluarganya.
 
 Seusai tiba di sebuah hotel, beliau terus membuka komputer ribanya.
 
-He was so exhausted that when the message "Connection has timed out" first appeared on his web browser, he thought it was due to his own error.
+Dia menjadi kepenatan bila mesej "Connection has timed out" muncul setiap kali membuka pelayar sesawangnya, beliau anggap disebabkan oleh kesilapannya.
 
-But after trying again and again, he realized that his email provider, a news website, and many apps were unavailable. 
+Tetapi setelah berkali-kali mencuba, beliau dapati penyedia emel, laman sesawang berita, dan banyak lagi aplikasi lain tidak boleh digunakan.
 
-He had heard that this country censors the internet and wondered if that was happening.
-How could he contact his family from behind this impenetrable wall?
-After doing some web searches, he found a forum and read about VPNs, private services that allow you to connect to another uncensored network.
+Beliau diberitahu negara ini telah menapis internet dan jika ia masih berkuat kuasa.
+Bagaimana beliau dapat menghubungi ahli keluarganya di sebalik tembok yang sukar ditembusi?
+Selepas membuat beberapa penggelintaran sesawang, beliau menemui sebuah forum dan mendapat maklumat berkenaan VPN, perkhidmatan persendirian yang membolehkan anda bersambung dengan rangkaian tanpa tapisan.
 
-Jean spent half an hour trying to figure out which cheap VPN was best.
+Jean menghabiskan satu setengah jam memilih VPN murah yang terbaik.
 
-He chose one and for a moment it seemed to work, but after five minutes the connection went offline and the VPN would no longer connect. 
+Beliau telah memilih satu dan buat sementara ia berfungsi dengan baik, tetapi selepas lima minit sambungan terputus dan VPN juga tidak dapat bersambung sepertimana yang dikehendaki.
 
-Jean kept reading to find other options and learned about Tor Browser and how it can circumvent censorship.
+Jean mencari maklumat dan pilihan-pilihan yang ada dan mengetahui Pelayar Tor dan cara menggunakannya untuk menghindari tapisan.
 
 Beliau menemui satu cermin laman sesawang rasmi yang dapat memuat turun program tersebut.
 
-When he opened **Tor Browser**, he followed the prompts for censored users and connected to a bridge which allowed him to access the internet again.
+Bila beliau membuka **Pelayar Tor**, beliau terus ikuti makluman untuk pengguna tertapi dan bersambung dengan titi yang membolehkan beliau mencapai internet semula.
 
 Dengan Pelayar Tor, Jean dapat melayari secara bebas dan persendirian dan seterusnya dapat menghubungi ahli keluarganya.
 
@@ -107,19 +107,19 @@ Lain-lain aplikasi, seperti SecureDrop dan OnionShare, menggunakan Tor untuk mel
 
 Amal mahu melayari laman sesawang Bekele secara sulit, jadi beliau membuka Pelayar Tor.
 
-Tor Browser selects a random circuit of three relays, which are computers all over the world configured to route traffic over the Tor network.
+Pelayar Tor memilih satu litar rawak dari tiga geganti, merupakan komputer-komputer di serata dunia yang telah dikonfigurkan untuk menghala trafik melalui rangkaian Tor.
 
-Tor Browser then encrypts her website request three times and sends it to the first Tor relay in her circuit.
+Pelayar Tor kemudian menyulitkan permintaan laman sesawang beliau sebanyak tiga kali dan menghantarnya ke geganti Tor yang pertama di dalam litarnya.
 
-The first relay removes the first encryption layer but doesn't learn that the destination is Bekele’s website.
+Geganti pertama membuang lapisan penyulitan pertama tetapi tidak mengetahui destinasi tersebut ialah laman sesawang Bekele.
 
-The first relay learns only the next location in the circuit, which is the second relay.
+Geganti pertama hanya mengetahui lokasi berikutnya di dalam litar, yang merupakan geganti kedua.
 
-The second relay removes another encryption layer and forwards the web page request to the third relay.
+Geganti kedua membuang lapisan penyulitan yang lain dan majukan permintaan laman sesawang ke geganti ketiga.
 
-The third relay removes the last encryption layer and forwards the web page request to its destination, Bekele’s website, but it doesn't know the request comes from Amal.
+Geganti ketiga membuang lapisan penyulitan terakhir dan majukan permintaan laman sesawang ke destinasinya, iaitu laman sesawang Bekele, tetapi ia tidak mengetahui permintaan tersebut berasal daripada Amal.
 
-Bekele doesn't know that the website request came from Amal unless she tells him so.
+Bekele tidak tahu permintaan tersebut berasal daripada Amal melainkan beliau memberitahunya sendiri.
 
 ## 7. Siapa yang menggunakan Tor?
 
