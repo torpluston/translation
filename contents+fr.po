@@ -3408,9 +3408,7 @@ msgstr "DirPort 9030"
 msgid ""
 "## Set your bandwidth rate (leave commented and Tor will run without "
 "bandwidth caps)"
-msgstr ""
-"## Définissez le débit de votre bande passante (laissez en commentaire et "
-"Tor s’exécutera sans limite de bande passante)"
+msgstr "## Define these to limit how much relayed traffic you will allow"
 
 #: https//support.torproject.org/operators/operators-1/
 #: (content/operators/operators-1/contents+en.lrquestion.description)
@@ -3483,8 +3481,8 @@ msgid ""
 "Look for a log entry in /var/log/syslog such as \"Self-testing indicates "
 "your ORPort is reachable from the outside. Excellent.\""
 msgstr ""
-"Cherchez une entrée de journal dans /var/log/syslog comme « Self-testing "
-"indicates your ORPort is reachable from the outside. Excellent. »"
+"Cherchez une entrée de journal dans /var/log/syslog telle que « Self-testing"
+" indicates your ORPort is reachable from the outside. Excellent. »"
 
 #: https//support.torproject.org/operators/operators-1/
 #: (content/operators/operators-1/contents+en.lrquestion.description)
@@ -3498,8 +3496,8 @@ msgid ""
 "If you don't see this message, it means that your relay is not reachable "
 "from the outside."
 msgstr ""
-"Si vous me voyez pas ce message, cela signifie que votre relais n’est pas "
-"accessible depuis l’extérieur."
+"Si vous ne voyez pas ce message, cela signifie que votre relais n’est pas "
+"accessible de l’extérieur."
 
 #: https//support.torproject.org/operators/operators-1/
 #: (content/operators/operators-1/contents+en.lrquestion.description)
@@ -3513,8 +3511,8 @@ msgid ""
 "You should re-check your firewalls, check that the IP and ports you "
 "specified in your torrc are correct, etc."
 msgstr ""
-"Vous devriez à nouveau vérifier vos pare-feux, que l’IP et les ports que "
-"vous avez spécifié dans votre torrc sont corrects, etc."
+"Vous devriez revérifier vos pare-feu, vérifier que l’IP et les ports que "
+"vous avez indiqués dans votre torrc sont corrects, etc."
 
 #: https//support.torproject.org/operators/operators-1/
 #: (content/operators/operators-1/contents+en.lrquestion.description)
@@ -3525,7 +3523,7 @@ msgid ""
 msgstr ""
 "Quand il aura confirmé qu’il est accessible, il téléversera un « descripteur"
 " de serveur » vers les autorités d’annuaire pour informer les clients de "
-"l’adresse, des ports, clés, etc. que votre relais utilise."
+"l’adresse, des ports, des clés, etc. que votre relais utilise."
 
 #: https//support.torproject.org/operators/operators-1/
 #: (content/operators/operators-1/contents+en.lrquestion.description)
@@ -3539,10 +3537,10 @@ msgid ""
 "href=\"https://metrics.torproject.org/rs.html#search\">Metrics</a></mark> to"
 " see whether your relay has successfully registered in the network."
 msgstr ""
-"Après quelques heures (le temps que l’information se propage), vous pouvez "
-"envoyer une requête à <mark><a "
+"Après quelques heures (pour laisser suffisamment de temps à la propagation),"
+" vous pouvez interroger <mark><a "
 "href=\"https://metrics.torproject.org/rs.html#search\">Metrics</a></mark> "
-"pour voir si votre relais a été enregistré dans le réseau avec succès."
+"pour voir si votre relais a été référencé dans le réseau avec succès."
 
 #: https//support.torproject.org/operators/operators-1/
 #: (content/operators/operators-1/contents+en.lrquestion.description)
@@ -3551,9 +3549,7 @@ msgstr ""
 #: https//support.torproject.org/operators/operators-3/
 #: (content/operators/operators-3/contents+en.lrquestion.description)
 msgid "If it hasn't, re-check firewalls, IP and ports again."
-msgstr ""
-"Si ce n’est pas le cas, vérifiez à nouveau vos pare-feux, votre IP et vos "
-"ports."
+msgstr "Si ce n’est pas le cas, revérifiez pare-feu, IP et ports."
 
 #: https//support.torproject.org/operators/operators-2/
 #: (content/operators/operators-2/contents+en.lrquestion.title)
@@ -3577,7 +3573,7 @@ msgid ""
 "Look for a log entry in your /var/log/syslog such as \"Self-testing "
 "indicates your ORPort is reachable from the outside. Excellent.\""
 msgstr ""
-"Cherchez une entrée de journal dans votre /var/log/syslog comme « Self-"
+"Cherchez une entrée de journal dans votre /var/log/syslog telle que « Self-"
 "testing indicates your ORPort is reachable from the outside. Excellent. »"
 
 #: https//support.torproject.org/operators/operators-2/
@@ -3591,7 +3587,7 @@ msgid ""
 msgstr ""
 "* Quand il aura confirmé qu’il est accessible, il téléversera un « "
 "descripteur de serveur » vers les autorités d’annuaire pour informer les "
-"clients de l’adresse, des ports, clés, etc. que votre relais utilise."
+"clients de l’adresse, des ports, des clés, etc. que votre relais utilise."
 
 #: https//support.torproject.org/operators/operators-2/
 #: (content/operators/operators-2/contents+en.lrquestion.description)
@@ -3628,7 +3624,7 @@ msgstr ""
 #: https//support.torproject.org/operators/operators-3/
 #: (content/operators/operators-3/contents+en.lrquestion.description)
 msgid "Enabling ntpd is suggested."
-msgstr "Il est recommandé d’activer ntpd."
+msgstr "Il est suggéré d’activer ntpd."
 
 #: https//support.torproject.org/operators/operators-3/
 #: (content/operators/operators-3/contents+en.lrquestion.description)
@@ -3665,8 +3661,9 @@ msgid ""
 "Look for a log entry in /var/log/tor/notices.log such as \"Self-testing "
 "indicates your ORPort is reachable from the outside. Excellent.\""
 msgstr ""
-"Cherchez une entrée de journal dans /var/log/tor/notices.log comme « Self-"
-"testing indicates your ORPort is reachable from the outside. Excellent. »"
+"Cherchez une entrée de journal dans /var/log/tor/notices.log telle que « "
+"Self-testing indicates your ORPort is reachable from the outside. Excellent."
+" »"
 
 #: https//support.torproject.org/operators/operators-4/
 #: (content/operators/operators-4/contents+en.lrquestion.title)
