@@ -158,5 +158,5 @@ TOR SUR APPAREIL MOBILE
 Le Navigateur Tor pour Android est proposée sur Google Play.
 
 ### iOS
-Le Navigateur Onion, développé par M. Tigas, est le seul navigateur que nous recommandons pour iOS.
+Le Navigateur Onion, développé par M. Tigas, est le seul navigateur que nous recommandons pour iOS.
 
