@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-05-13 17:53+CET\n"
+"POT-Creation-Date: 2019-05-14 11:06+CET\n"
 "PO-Revision-Date: 2018-10-02 22:41+0000\n"
 "Last-Translator: AO <ao@localizationlab.org>, 2019\n"
 "Language-Team: French (https://www.transifex.com/otf/teams/1519/fr/)\n"
@@ -3477,12 +3477,14 @@ msgstr ""
 
 #: https//support.torproject.org/operators/operators-1/
 #: (content/operators/operators-1/contents+en.lrquestion.description)
+#: https//support.torproject.org/operators/operators-6/
+#: (content/operators/operators-6/contents+en.lrquestion.description)
 msgid ""
-"Look for a log entry in /var/log/syslog such as \"Self-testing indicates "
+"* Look for a log entry in /var/log/syslog such as \"Self-testing indicates "
 "your ORPort is reachable from the outside. Excellent.\""
 msgstr ""
-"Cherchez une entrée de journal dans /var/log/syslog telle que « Self-testing"
-" indicates your ORPort is reachable from the outside. Excellent. »"
+"* Cherchez une entrée de journal dans /var/log/syslog telle que « Self-"
+"testing indicates your ORPort is reachable from the outside. Excellent. »"
 
 #: https//support.torproject.org/operators/operators-1/
 #: (content/operators/operators-1/contents+en.lrquestion.description)
@@ -3516,31 +3518,29 @@ msgstr ""
 
 #: https//support.torproject.org/operators/operators-1/
 #: (content/operators/operators-1/contents+en.lrquestion.description)
-msgid ""
-"When it confirms that it's reachable, it will upload a \"server descriptor\""
-" to the directory authorities to let clients know what address, ports, keys,"
-" etc your relay is using."
-msgstr ""
-"Quand il aura confirmé qu’il est accessible, il téléversera un « descripteur"
-" de serveur » vers les autorités d’annuaire pour informer les clients de "
-"l’adresse, des ports, des clés, etc. que votre relais utilise."
-
-#: https//support.torproject.org/operators/operators-1/
-#: (content/operators/operators-1/contents+en.lrquestion.description)
 #: https//support.torproject.org/operators/operators-2/
 #: (content/operators/operators-2/contents+en.lrquestion.description)
 #: https//support.torproject.org/operators/operators-3/
 #: (content/operators/operators-3/contents+en.lrquestion.description)
 msgid ""
-"After a few hours (to give it enough time to propagate), you can query "
+"* When it confirms that it's reachable, it will upload a \"server "
+"descriptor\" to the directory authorities to let clients know what address, "
+"ports, keys, etc your relay is using."
+msgstr ""
+"* Quand il aura confirmé qu’il est accessible, il téléversera un « "
+"descripteur de serveur » vers les autorités d’annuaire pour informer les "
+"clients de l’adresse, des ports, des clés, etc. que votre relais utilise."
+
+#: https//support.torproject.org/operators/operators-1/
+#: (content/operators/operators-1/contents+en.lrquestion.description)
+#: https//support.torproject.org/operators/operators-3/
+#: (content/operators/operators-3/contents+en.lrquestion.description)
+msgid ""
+"* After a few hours (to give it enough time to propagate), you can query "
 "<mark><a "
 "href=\"https://metrics.torproject.org/rs.html#search\">Metrics</a></mark> to"
 " see whether your relay has successfully registered in the network."
 msgstr ""
-"Après quelques heures (pour laisser suffisamment de temps à la propagation),"
-" vous pouvez interroger <mark><a "
-"href=\"https://metrics.torproject.org/rs.html#search\">Metrics</a></mark> "
-"pour voir si votre relais a été référencé dans le réseau avec succès."
 
 #: https//support.torproject.org/operators/operators-1/
 #: (content/operators/operators-1/contents+en.lrquestion.description)
@@ -3578,16 +3578,16 @@ msgstr ""
 
 #: https//support.torproject.org/operators/operators-2/
 #: (content/operators/operators-2/contents+en.lrquestion.description)
-#: https//support.torproject.org/operators/operators-3/
-#: (content/operators/operators-3/contents+en.lrquestion.description)
 msgid ""
-"* When it confirms that it's reachable, it will upload a \"server "
-"descriptor\" to the directory authorities to let clients know what address, "
-"ports, keys, etc your relay is using."
+"After a few hours (to give it enough time to propagate), you can query "
+"<mark><a "
+"href=\"https://metrics.torproject.org/rs.html#search\">Metrics</a></mark> to"
+" see whether your relay has successfully registered in the network."
 msgstr ""
-"* Quand il aura confirmé qu’il est accessible, il téléversera un « "
-"descripteur de serveur » vers les autorités d’annuaire pour informer les "
-"clients de l’adresse, des ports, des clés, etc. que votre relais utilise."
+"Après quelques heures (pour laisser suffisamment de temps à la propagation),"
+" vous pouvez interroger <mark><a "
+"href=\"https://metrics.torproject.org/rs.html#search\">Metrics</a></mark> "
+"pour voir si votre relais a été référencé dans le réseau avec succès."
 
 #: https//support.torproject.org/operators/operators-2/
 #: (content/operators/operators-2/contents+en.lrquestion.description)
@@ -3658,12 +3658,9 @@ msgstr "* Exécutez « service tor start » (en tant que superutilisateur)"
 #: https//support.torproject.org/operators/operators-3/
 #: (content/operators/operators-3/contents+en.lrquestion.description)
 msgid ""
-"Look for a log entry in /var/log/tor/notices.log such as \"Self-testing "
+"* Look for a log entry in /var/log/tor/notices.log such as \"Self-testing "
 "indicates your ORPort is reachable from the outside. Excellent.\""
 msgstr ""
-"Cherchez une entrée de journal dans /var/log/tor/notices.log telle que « "
-"Self-testing indicates your ORPort is reachable from the outside. Excellent."
-" »"
 
 #: https//support.torproject.org/operators/operators-4/
 #: (content/operators/operators-4/contents+en.lrquestion.title)
@@ -3696,22 +3693,19 @@ msgstr "$ lsb_release -c"
 #: https//support.torproject.org/operators/operators-4/
 #: (content/operators/operators-4/contents+en.lrquestion.description)
 msgid ""
-"* As root, add the following lines to /etc/apt/sources.list. Use the version"
-" you found in the previous step for <version>."
+"* As root, add the following lines to /etc/apt/sources.list. Replace "
+"'version' with the version you found in the previous step:"
 msgstr ""
-"* En tant que super-utilisateur, ajoutez les lignes suivantes au fichier "
-"/etc/apt/sources.list. Utilisez la version que vous avez trouvé à l’étape "
-"précédente à la place de <version>."
 
 #: https//support.torproject.org/operators/operators-4/
 #: (content/operators/operators-4/contents+en.lrquestion.description)
-msgid "$ deb http://deb.torproject.org/torproject.org <version> main"
-msgstr "$ deb https://deb.torproject.org/torproject.org <version> main"
+msgid "$ deb https://deb.torproject.org/torproject.org version main"
+msgstr ""
 
 #: https//support.torproject.org/operators/operators-4/
 #: (content/operators/operators-4/contents+en.lrquestion.description)
-msgid "$ deb-src http://deb.torproject.org/torproject.org <version> main"
-msgstr "$ deb-src https://deb.torproject.org/torproject.org <version> main"
+msgid "$ deb-src https://deb.torproject.org/torproject.org version main"
+msgstr ""
 
 #: https//support.torproject.org/operators/operators-4/
 #: (content/operators/operators-4/contents+en.lrquestion.description)
@@ -3792,15 +3786,6 @@ msgstr "ExtORPort auto"
 #: (content/operators/operators-6/contents+en.lrquestion.description)
 msgid "* Run \"service tor reload\" (as root)."
 msgstr "* Exécutez « service tor reload » (en tant que superutilisateur)."
-
-#: https//support.torproject.org/operators/operators-6/
-#: (content/operators/operators-6/contents+en.lrquestion.description)
-msgid ""
-"* Look for a log entry in /var/log/syslog such as \"Self-testing indicates "
-"your ORPort is reachable from the outside. Excellent.\""
-msgstr ""
-"* Cherchez une entrée de journal dans /var/log/syslog telle que « Self-"
-"testing indicates your ORPort is reachable from the outside. Excellent. »"
 
 #: https//support.torproject.org/operators/operators-6/
 #: (content/operators/operators-6/contents+en.lrquestion.description)
@@ -4862,18 +4847,16 @@ msgid ""
 "JavaScript is a programming language that websites use to offer interactive "
 "elements such as video, animation, audio, and status timelines. "
 "Unfortunately, JavaScript can also enable attacks on the security of the "
-"[web browser](#web-browser), which might lead to deanonymization. The "
-"[NoScript](#noscript) [extension](#add-on-extension-or-plugin) in [Tor "
+"[web browser](#web-browser), which might lead to deanonymization."
+msgstr ""
+
+#: https//support.torproject.org/misc/glossary/
+#: (content/misc/glossary/contents+en.lrquestion.description)
+msgid ""
+"The [NoScript](#noscript) [extension](#add-on-extension-or-plugin) in [Tor "
 "Browser](#tor-browser) can be used to manage JavaScript on different "
 "websites."
 msgstr ""
-"JavaScript est un langage de programmation que les sites Web utilisent pour "
-"offrir des éléments interactifs tels que des vidéos, des animations, du son "
-"et la chronologie des états. Malheureusement, JavaScript peut aussi "
-"permettre des attaques contre la sécurité du [navigateur Web](#web-browser),"
-" ce qui pourrait compromettre l’anonymisation. L’[extension](#add-on-"
-"extension-or-or-plugin) [NoScript](#noscript) du [Navigateur Tor] peut être "
-"utilisée pour gérer JavaScript sur différents sites Web."
 
 #: https//support.torproject.org/misc/glossary/
 #: (content/misc/glossary/contents+en.lrquestion.description)

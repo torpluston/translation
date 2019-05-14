@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-05-13 17:53+CET\n"
+"POT-Creation-Date: 2019-05-14 11:06+CET\n"
 "PO-Revision-Date: 2018-10-02 22:41+0000\n"
 "Last-Translator: Dianyu Liu <liudianyu5@gmail.com>, 2019\n"
 "Language-Team: Chinese (China) (https://www.transifex.com/otf/teams/1519/zh_CN/)\n"
@@ -2988,11 +2988,13 @@ msgstr "这一步通常很快，不过有时会需要几分钟。"
 
 #: https//support.torproject.org/operators/operators-1/
 #: (content/operators/operators-1/contents+en.lrquestion.description)
+#: https//support.torproject.org/operators/operators-6/
+#: (content/operators/operators-6/contents+en.lrquestion.description)
 msgid ""
-"Look for a log entry in /var/log/syslog such as \"Self-testing indicates "
+"* Look for a log entry in /var/log/syslog such as \"Self-testing indicates "
 "your ORPort is reachable from the outside. Excellent.\""
 msgstr ""
-"查找 /var/log/syslog 中例如 \"Self-testing indicates your ORPort is reachable "
+"* 查找 /var/log/syslog 中例如 \"Self-testing indicates your ORPort is reachable "
 "from the outside. Excellent.\" 这样的日志记录。"
 
 #: https//support.torproject.org/operators/operators-1/
@@ -3023,27 +3025,26 @@ msgstr "你应该复查你的防火墙设置，检查你在你的 torrc 中设�
 
 #: https//support.torproject.org/operators/operators-1/
 #: (content/operators/operators-1/contents+en.lrquestion.description)
-msgid ""
-"When it confirms that it's reachable, it will upload a \"server descriptor\""
-" to the directory authorities to let clients know what address, ports, keys,"
-" etc your relay is using."
-msgstr "当它确认可以连接的时候，它会发送“服务器描述符”到目录管理器来让客户端知道它的地址、端口、密钥和你的节点使用的中继等信息。"
-
-#: https//support.torproject.org/operators/operators-1/
-#: (content/operators/operators-1/contents+en.lrquestion.description)
 #: https//support.torproject.org/operators/operators-2/
 #: (content/operators/operators-2/contents+en.lrquestion.description)
 #: https//support.torproject.org/operators/operators-3/
 #: (content/operators/operators-3/contents+en.lrquestion.description)
 msgid ""
-"After a few hours (to give it enough time to propagate), you can query "
+"* When it confirms that it's reachable, it will upload a \"server "
+"descriptor\" to the directory authorities to let clients know what address, "
+"ports, keys, etc your relay is using."
+msgstr "* 当它确认可以连接的时候，它会发送“服务器描述符”到目录管理器来让客户端知道它的地址、端口、密钥和你的节点使用的中继等信息。"
+
+#: https//support.torproject.org/operators/operators-1/
+#: (content/operators/operators-1/contents+en.lrquestion.description)
+#: https//support.torproject.org/operators/operators-3/
+#: (content/operators/operators-3/contents+en.lrquestion.description)
+msgid ""
+"* After a few hours (to give it enough time to propagate), you can query "
 "<mark><a "
 "href=\"https://metrics.torproject.org/rs.html#search\">Metrics</a></mark> to"
 " see whether your relay has successfully registered in the network."
 msgstr ""
-"在几个小时后（传播需要足够的时间），你可以访问<mark><a "
-"href=\"https://metrics.torproject.org/rs.html#search\">Metrics</a></mark> "
-"来确认你的中继有没有注册到网路中。"
 
 #: https//support.torproject.org/operators/operators-1/
 #: (content/operators/operators-1/contents+en.lrquestion.description)
@@ -3080,13 +3081,15 @@ msgstr ""
 
 #: https//support.torproject.org/operators/operators-2/
 #: (content/operators/operators-2/contents+en.lrquestion.description)
-#: https//support.torproject.org/operators/operators-3/
-#: (content/operators/operators-3/contents+en.lrquestion.description)
 msgid ""
-"* When it confirms that it's reachable, it will upload a \"server "
-"descriptor\" to the directory authorities to let clients know what address, "
-"ports, keys, etc your relay is using."
-msgstr "* 当它确认可以连接的时候，它会发送“服务器描述符”到目录管理器来让客户端知道它的地址、端口、密钥和你的节点使用的中继等信息。"
+"After a few hours (to give it enough time to propagate), you can query "
+"<mark><a "
+"href=\"https://metrics.torproject.org/rs.html#search\">Metrics</a></mark> to"
+" see whether your relay has successfully registered in the network."
+msgstr ""
+"在几个小时后（传播需要足够的时间），你可以访问<mark><a "
+"href=\"https://metrics.torproject.org/rs.html#search\">Metrics</a></mark> "
+"来确认你的中继有没有注册到网路中。"
 
 #: https//support.torproject.org/operators/operators-2/
 #: (content/operators/operators-2/contents+en.lrquestion.description)
@@ -3149,11 +3152,9 @@ msgstr "* 以 root 用户运行 \"service tor start\""
 #: https//support.torproject.org/operators/operators-3/
 #: (content/operators/operators-3/contents+en.lrquestion.description)
 msgid ""
-"Look for a log entry in /var/log/tor/notices.log such as \"Self-testing "
+"* Look for a log entry in /var/log/tor/notices.log such as \"Self-testing "
 "indicates your ORPort is reachable from the outside. Excellent.\""
 msgstr ""
-"在 /var/log/tor/notices.log 中查找例如 \"Self-testing indicates your ORPort is "
-"reachable from the outside. Excellent.\" 这样的日志记录。"
 
 #: https//support.torproject.org/operators/operators-4/
 #: (content/operators/operators-4/contents+en.lrquestion.title)
@@ -3181,21 +3182,19 @@ msgstr "$ lsb_release -c"
 #: https//support.torproject.org/operators/operators-4/
 #: (content/operators/operators-4/contents+en.lrquestion.description)
 msgid ""
-"* As root, add the following lines to /etc/apt/sources.list. Use the version"
-" you found in the previous step for <version>."
-msgstr "* 以 root 用户把下面的行添加到 /etc/apt/sources.list 中。用前一步你获得的版本号代替 <version>。"
-
-#: https//support.torproject.org/operators/operators-4/
-#: (content/operators/operators-4/contents+en.lrquestion.description)
-msgid "$ deb http://deb.torproject.org/torproject.org <version> main"
-msgstr "$ deb http://deb.torproject.org/torproject.org <version> main"
-
-#: https//support.torproject.org/operators/operators-4/
-#: (content/operators/operators-4/contents+en.lrquestion.description)
-msgid "$ deb-src http://deb.torproject.org/torproject.org <version> main"
+"* As root, add the following lines to /etc/apt/sources.list. Replace "
+"'version' with the version you found in the previous step:"
 msgstr ""
-"$ deb-src http://deb.torproject.org/torproject.org project.org <version> "
-"main"
+
+#: https//support.torproject.org/operators/operators-4/
+#: (content/operators/operators-4/contents+en.lrquestion.description)
+msgid "$ deb https://deb.torproject.org/torproject.org version main"
+msgstr ""
+
+#: https//support.torproject.org/operators/operators-4/
+#: (content/operators/operators-4/contents+en.lrquestion.description)
+msgid "$ deb-src https://deb.torproject.org/torproject.org version main"
+msgstr ""
 
 #: https//support.torproject.org/operators/operators-4/
 #: (content/operators/operators-4/contents+en.lrquestion.description)
@@ -3269,15 +3268,6 @@ msgstr "ExtORPort auto"
 #: (content/operators/operators-6/contents+en.lrquestion.description)
 msgid "* Run \"service tor reload\" (as root)."
 msgstr "* 以 root 用户运行 \"service tor reload\""
-
-#: https//support.torproject.org/operators/operators-6/
-#: (content/operators/operators-6/contents+en.lrquestion.description)
-msgid ""
-"* Look for a log entry in /var/log/syslog such as \"Self-testing indicates "
-"your ORPort is reachable from the outside. Excellent.\""
-msgstr ""
-"* 查找 /var/log/syslog 中例如 \"Self-testing indicates your ORPort is reachable "
-"from the outside. Excellent.\" 这样的日志记录。"
 
 #: https//support.torproject.org/operators/operators-6/
 #: (content/operators/operators-6/contents+en.lrquestion.description)
@@ -4155,8 +4145,13 @@ msgid ""
 "JavaScript is a programming language that websites use to offer interactive "
 "elements such as video, animation, audio, and status timelines. "
 "Unfortunately, JavaScript can also enable attacks on the security of the "
-"[web browser](#web-browser), which might lead to deanonymization. The "
-"[NoScript](#noscript) [extension](#add-on-extension-or-plugin) in [Tor "
+"[web browser](#web-browser), which might lead to deanonymization."
+msgstr ""
+
+#: https//support.torproject.org/misc/glossary/
+#: (content/misc/glossary/contents+en.lrquestion.description)
+msgid ""
+"The [NoScript](#noscript) [extension](#add-on-extension-or-plugin) in [Tor "
 "Browser](#tor-browser) can be used to manage JavaScript on different "
 "websites."
 msgstr ""
