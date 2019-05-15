@@ -26,11 +26,11 @@ Fernanda et ses collègues ont créé un site Web qui offre des renseignements s
 
 Si l’on pouvait remonter la trace de ce site Web jusqu’à elles, elles pourraient être arrêtées ou pire encore.
 
-Pour se protéger, Fernanda et ses collègues ont créé le site Web en utilisant les **services onion** de Tor. Non seulement les services onion empêchent qu’elles soient découvertes comme opératrices du serveur, mais ils aident également à protéger les visiteurs de leur site Web en exigeant qu’ils utilisent le Navigateur Tor.
+Pour se protéger, Fernanda et ses collègues ont créé le site Web en utilisant les **services onion** de Tor. Non seulement les services onion empêchent qu’elles soient découvertes comme opératrices du serveur, mais ils aident aussi à protéger les visiteurs de leur site Web en exigeant qu’ils utilisent le Navigateur Tor.
 
 En fait, Fernanda utilise le **Navigateur Tor** pour toute sa navigation sur le Web, simplement par mesure de sécurité.
 
-Elle utilise également une application propulsée par Tor appelée **OnionShare** pour envoyer des fichiers à d’autres activistes en toute sécurité et en toute confidentialité.
+Elle utilise aussi une application propulsée par Tor appelée **OnionShare** pour envoyer des fichiers à d’autres activistes en toute sécurité et en toute confidentialité.
 
 ### Les défenseures des droits liés à la procréation, comme Fernanda, luttent pour les libertés fondamentales et Tor aide à propulser leur résistance.
 
@@ -50,7 +50,7 @@ Les entreprises de sécurité privées, financées par ces entreprises, utilisen
 
 Jelani utilise le **Navigateur Tor** pour empêcher ces entreprises de le surveiller alors qu’il visite des sites Web sur la protection internationale des droits de la personne et sur l’aide juridique, et rédige des articles de blogue sur le mouvement de résistance dans son village.
 
-Il utilise également **OnionShare** et **SecureDrop** pour envoyer en toute sécurité des documents aux journalistes qui contribuent à exposer ces violations des droits de la personne.
+Il utilise aussi **OnionShare** et **SecureDrop** pour envoyer en toute sécurité des documents aux journalistes qui contribuent à exposer ces violations des droits de la personne.
 
 Tous ces logiciels utilisent Tor pour protéger la vie privée et les renseignements personnels de Jelani.
 
@@ -66,7 +66,7 @@ Jean voyageait pour la première fois dans un pays loin de sa famille.
 
 Une fois arrivé à l’hôtel, il a ouvert son ordinateur portable.
 
-Il était tellement épuisé que lorsque le message « La connexion est expirée » est apparu pour la première fois sur son navigateur Web, il a pensé qu’il avait fait une erreur.
+Il était tellement épuisé que lorsque le message « La connexion est arrivée au bout de son délai » est apparu pour la première fois sur son navigateur Web, il pensa qu’il avait fait une erreur.
 
 Mais après avoir essayé encore et encore, il s’est rendu compte qu’il ne pouvait plus accéder à son fournisseur de services de courriel ni à un site Web de nouvelles ni à beaucoup d’applis.
 
