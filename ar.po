@@ -30,8 +30,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Tor Project\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-05-18 08:53+0200\n"
-"PO-Revision-Date: 2019-05-18 12:16+0000\n"
+"POT-Creation-Date: 2019-05-18 19:31+0200\n"
+"PO-Revision-Date: 2019-05-19 13:21+0000\n"
 "Last-Translator: carolyn <carolyn@anhalt.org>\n"
 "Language-Team: Arabic (http://www.transifex.com/otf/torproject/language/ar/)\n"
 "MIME-Version: 1.0\n"
@@ -663,6 +663,11 @@ msgstr "لم يتم اضافة اي مستوعب ملفات"
 msgid "No VeraCrypt devices detected"
 msgstr "لم يتم اكتشاف اي اجهزة VeraCrypt"
 
+#: config/chroot_local-includes/usr/local/lib/python3/dist-packages/unlock_veracrypt_volumes/volume_manager.py:40
+#: ../config/chroot_local-includes/usr/share/applications/unlock-veracrypt-volumes.desktop.in.h:1
+msgid "Unlock VeraCrypt Volumes"
+msgstr "فك قفل أحجام VeraCrypt"
+
 #: config/chroot_local-includes/usr/local/lib/python3/dist-packages/unlock_veracrypt_volumes/volume_manager.py:114
 msgid "Container already added"
 msgstr "المستوعب مضاف بالفعل"
@@ -746,10 +751,6 @@ msgstr "تصفح الانترنت دون اخفاء هويتك"
 msgid "Unsafe Web Browser"
 msgstr "متصفح غير آمن"
 
-#: ../config/chroot_local-includes/usr/share/applications/unlock-veracrypt-volumes.desktop.in.h:1
-msgid "Unlock VeraCrypt Volumes"
-msgstr "فك قفل أحجام VeraCrypt"
-
 #: ../config/chroot_local-includes/usr/share/applications/unlock-veracrypt-volumes.desktop.in.h:2
 msgid "Mount VeraCrypt encrypted file containers and devices"
 msgstr "ركب مستوعبات الملفات و الأجهزة المشفرة الخاصة ب VeraCrypt"
@@ -782,33 +783,41 @@ msgid ""
 " ($(command_line))"
 msgstr "التوثيق مطلوب لازالة حزمة من برامجك الاضافية ($(سطر_الأوامر))"
 
-#: ../config/chroot_local-includes/usr/share/unlock-veracrypt-volumes/ui/main.ui.in:61
+#: ../config/chroot_local-includes/usr/share/tails/unlock-veracrypt-volumes/main.ui.in:61
 msgid "File Containers"
 msgstr "مستوعبات الملفات"
 
-#: ../config/chroot_local-includes/usr/share/unlock-veracrypt-volumes/ui/main.ui.in:80
+#: ../config/chroot_local-includes/usr/share/tails/unlock-veracrypt-volumes/main.ui.in:80
 msgid "_Add"
 msgstr "إضافة"
 
-#: ../config/chroot_local-includes/usr/share/unlock-veracrypt-volumes/ui/main.ui.in:86
+#: ../config/chroot_local-includes/usr/share/tails/unlock-veracrypt-volumes/main.ui.in:86
 msgid "Add a file container"
 msgstr "اضافة مستوعب ملفات"
 
-#: ../config/chroot_local-includes/usr/share/unlock-veracrypt-volumes/ui/main.ui.in:103
+#: ../config/chroot_local-includes/usr/share/tails/unlock-veracrypt-volumes/main.ui.in:103
 msgid "Partitions and Drives"
 msgstr "أقسام و محركات"
 
-#: ../config/chroot_local-includes/usr/share/unlock-veracrypt-volumes/ui/main.ui.in:121
+#: ../config/chroot_local-includes/usr/share/tails/unlock-veracrypt-volumes/main.ui.in:121
 msgid ""
 "This application is not affiliated with or endorsed by the VeraCrypt project"
 " or IDRIX."
 msgstr "هذا البرنامج لا ينتمي و ليس مؤيدا من قبل مشروع VeraCrypt أو IDRIX"
 
-#: ../config/chroot_local-includes/usr/share/unlock-veracrypt-volumes/ui/volume.ui.in:38
+#: ../config/chroot_local-includes/usr/share/tails/unlock-veracrypt-volumes/volume.ui.in:29
+msgid "_Open"
+msgstr ""
+
+#: ../config/chroot_local-includes/usr/share/tails/unlock-veracrypt-volumes/volume.ui.in:38
 msgid "Lock this volume"
 msgstr "قفل هذا الحجم"
 
-#: ../config/chroot_local-includes/usr/share/unlock-veracrypt-volumes/ui/volume.ui.in:61
+#: ../config/chroot_local-includes/usr/share/tails/unlock-veracrypt-volumes/volume.ui.in:52
+msgid "_Unlock"
+msgstr ""
+
+#: ../config/chroot_local-includes/usr/share/tails/unlock-veracrypt-volumes/volume.ui.in:61
 msgid "Detach this volume"
 msgstr "فصل هذا الحجم"
 
