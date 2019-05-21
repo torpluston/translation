@@ -2,7 +2,7 @@
 
 # 1. TOR FOR PRIVACY 
 
-### Privacy is a human right
+### Personvern er en menneskerettighet
 
 Like many of us, Aleisha spends most of her time online--connecting with friends, posting on social media, and browsing the web.
 
@@ -38,7 +38,7 @@ She also uses a Tor-powered app called **OnionShare** to send files to other act
 
 # 3. TOR FOR HUMAN RIGHTS
 
-### Water is life 
+### Vann er livet
 
 Jelani lives in a small village  which a wide river runs through.
 
