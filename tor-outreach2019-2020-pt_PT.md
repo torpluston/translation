@@ -80,7 +80,7 @@ Ele escolheu uma que, por um momento, pareceu funcionar mas, após cinco minutos
 
 Jean prosseguiu a sua leitura à procura de outras opções e descobriu o Tor Browser, e suas funcionalidades para contornar a censura.
 
-Ele descobriu um site-espelho oficial para descarregar o programa.
+Ele descobriu um site da Web espelho oficial para transferir o programa.
 
 Quando ele abriu o **Tor Browser**, seguiu as instruções para utilizadores censurados e conectou-se a uma ponte que possibilitou novamente o seu acesso à Internet.
 
@@ -148,9 +148,9 @@ A comunidade Tor é governada por um código de conduta e nós delineamos o noss
 Saiba mais sobre o Tor visitando o nosso site, a nossa wiki, encontrando-nos no IRC, participando numa das nossas listas de e-mail ou assinando o "boletim de notícias do Tor" no endereço newsletter.torproject.org.
 
 
-## 8. Descarregar o Tor
+## 8. Transferir o Tor
 
-Tor para computador de mesa
+Tor para PC
 torproject.org/download
 
 TOR PARA DISPOSITIVOS MÓVEIS
