@@ -6,21 +6,21 @@
 
 Seperti kebanyakan kita, Aleisha menghabiskan sebagian besar waktunya berhubungan secara daring dengan teman-teman, berbagi di media sosial, dan menjelajahi web.
 
-But lately, she's noticed that advertisements related to her previous searches are following her around online.
+Namun akhir-akhir ini, ia memperhatikan bahwa iklan-iklan yang terkait pencarian yang ia lakukan sebelumnya mengikutinya dalam jaringan.
 
-This feels so invasive that she does some research on online ads and learns that it's not just advertisers tracking her but also her ISP, analytics companies, social media platforms, and more.
+Ini terasa sangat invasif sampai ia melakukan beberapa riset pada iklan daring dan mempelajari bahwa bukan hanya para pengiklan yang melacaknya namun juga PJI (Penyedia Jasa Internet), perusahaan analitik, platform media sosial, dan sebagainya.
 
-Aleisha decides she wants to find and use software that doesn't collect her data, doesn't track her, and doesn't tell other services anything private about her.
+Aleisha memutuskan ia ingin mencari dan menggunakan perangkat lunak yang tidak mengumpulkan datanya, tidak melacaknya, dan tidak memberitahukan layanan lain tentang segala hal yang privat tentangnya.
 
-She goes to a privacy training at a local hackerspace and learns about **Tor Browser**, the only web browser that allows her to browse anonymously.
+Ia pergi ke sebuah pelatihan privasi di sebuah ruangretas (hackerspace) lokal dan belajar tentang **Tor Browser**, satu-satunya peramban web yang memungkinkannya untuk meramban secara anonim.
 
 ---
 
 # 2.TOR UNTUK FEMINIS
 
-### The future is cyberfeminist
+### Masa depan adalah feminis siber
 
-Fernanda runs a women's collective focused on reproductive rights in Brazil, where abortion is illegal.
+Fernanda menjalankan sebuah kolektif perempuan yang fokus pada hak-hak reproduksi di Brazil, di mana aborsi adalah ilegal.
 
 Fernanda and her colleagues built a website with information about abortion access, birth control, and other resources for people seeking reproductive information.
 
