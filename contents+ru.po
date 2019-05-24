@@ -14,7 +14,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-05-15 18:55+CET\n"
+"POT-Creation-Date: 2019-05-24 08:29+CET\n"
 "PO-Revision-Date: 2018-10-02 22:41+0000\n"
 "Last-Translator: Emma Peel, 2019\n"
 "Language-Team: Russian (https://www.transifex.com/otf/teams/1519/ru/)\n"
@@ -740,14 +740,9 @@ msgstr ""
 #: (content/tbb/tbb-1/contents+en.lrquestion.description)
 msgid ""
 "If you started having issues with your Tor Browser after an update, check "
-"out <mark><a "
-"href=\"https://blog.torproject.org\">blog.torproject.org</a></mark> for the "
-"most recent stable Tor Browser post to see if your issue is listed."
+"out <a href=\"https://blog.torproject.org\">blog.torproject.org</a> for a "
+"post on the most recent stable Tor Browser to see if your issue is listed."
 msgstr ""
-"Если после обновления Tor Browser возникли проблемы, зайдите на <mark><a "
-"href=\"https://blog.torproject.org\">blog.torproject.org</a></mark>, найдите"
-" самую свежую публикацию о стабильной версии Tor Browser и проверьте, "
-"упомянута ли обнаруженная проблема."
 
 #: https//support.torproject.org/tbb/tbb-1/
 #: (content/tbb/tbb-1/contents+en.lrquestion.description)
@@ -875,12 +870,9 @@ msgstr ""
 #: (content/tbb/tbb-11/contents+en.lrquestion.description)
 msgid ""
 "The default setting in the Windows installer also creates a shortcut for you"
-" on your Desktop, though be aware that you may have accidentally unticked "
+" on your Desktop, though be aware that you may have accidentally deselected "
 "the option to create a shortcut."
 msgstr ""
-"По умолчанию при установке в Windows на рабочий стол добавляется ярлык "
-"программы. (Впрочем, при установке вы могли случайно снять галочку для "
-"создания ярлыка)."
 
 #: https//support.torproject.org/tbb/tbb-11/
 #: (content/tbb/tbb-11/contents+en.lrquestion.description)
@@ -1775,8 +1767,8 @@ msgstr ""
 
 #: https//support.torproject.org/tbb/tbb-35/
 #: (content/tbb/tbb-35/contents+en.lrquestion.title)
-msgid "Can you get rid of all the captchas?"
-msgstr "Надоели капчи на сайтах. Можно от них избавиться?"
+msgid "Can you get rid of all the CAPTCHAs?"
+msgstr ""
 
 #: https//support.torproject.org/tbb/tbb-35/
 #: (content/tbb/tbb-35/contents+en.lrquestion.description)
@@ -3342,8 +3334,6 @@ msgstr "Если такой записи нет, ваш узел недосту�
 #: (content/operators/operators-2/contents+en.lrquestion.description)
 #: https//support.torproject.org/operators/operators-3/
 #: (content/operators/operators-3/contents+en.lrquestion.description)
-#: https//support.torproject.org/operators/operators-6/
-#: (content/operators/operators-6/contents+en.lrquestion.description)
 msgid ""
 "You should re-check your firewalls, check that the IP and ports you "
 "specified in your torrc are correct, etc."
@@ -3606,6 +3596,13 @@ msgstr "* Используйте команду \"service tor reload\" (с ру�
 #: https//support.torproject.org/operators/operators-6/
 #: (content/operators/operators-6/contents+en.lrquestion.description)
 msgid ""
+"You should re-check your firewalls, check that the IP and ports you "
+"specified in your torrc file are correct, etc."
+msgstr ""
+
+#: https//support.torproject.org/operators/operators-6/
+#: (content/operators/operators-6/contents+en.lrquestion.description)
+msgid ""
 "* You should also see the message \"Registered server transport 'obfs4'\" "
 "indicating that obfs4proxy is functional."
 msgstr ""
@@ -3745,11 +3742,9 @@ msgstr ""
 #: https//support.torproject.org/onionservices/onionservices-2/
 #: (content/onionservices/onionservices-2/contents+en.lrquestion.description)
 msgid ""
-"These services use the special-use tld .onion (instead of "
-".com,.net,.org,etc..) and are only accessible through the Tor network."
+"These services use the special-use top level domain (TLD) .onion (instead of"
+" .com, .net, .org, etc..) and are only accessible through the Tor network."
 msgstr ""
-"Эти ресурсы используют специальный домен .onion (вместо .com, .net, .org и "
-"так далее). Доступ к ним возможен только через Tor Browser."
 
 #: https//support.torproject.org/onionservices/onionservices-2/
 #: (content/onionservices/onionservices-2/contents+en.lrquestion.description)
@@ -3770,11 +3765,9 @@ msgstr "<img class=\"\" src=\"/static/images/onion-website.png\" alt=\"Onion ico
 #: https//support.torproject.org/onionservices/onionservices-2/
 #: (content/onionservices/onionservices-2/contents+en.lrquestion.description)
 msgid ""
-"And if you're accessing a website with https and onion service, it will show"
+"And if you're accessing a website with HTTPS and onion service, it will show"
 " an icon of a green onion and a padlock."
 msgstr ""
-"Если вы открываете .onion-сайт по https, то увидите значки луковицы и "
-"замочка."
 
 #: https//support.torproject.org/onionservices/onionservices-2/
 #: (content/onionservices/onionservices-2/contents+en.lrquestion.description)
@@ -4170,20 +4163,12 @@ msgid ""
 "is created by the holder of the private portion of a [public key "
 "cryptography](#public-key-cryptography) key pair and can be verified by the "
 "corresponding public key. If you download software from torproject.org, you "
-"will find it as sig files (.asc). These are PGP signatures, so you can "
-"verify that the file you have downloaded is exactly the one that we intended"
-" you to get. For more information about how you can verify signatures, "
-"please see https://www.torproject.org/docs/verifying-signatures.html.en."
+"will find it as signature files (.asc). These are PGP signatures, so you can"
+" verify that the file you have downloaded is exactly the one that we "
+"intended you to get. For more information about how you can verify "
+"signatures, please see [here](https://support.torproject.org/tbb/how-to-"
+"verify-signature/)."
 msgstr ""
-"Криптографическая (цифровая) подпись. Подтверждает подлинность сообщения или"
-" файла. Такую подпись может создать владелец секретного ключа (см. "
-"[шифрование с открытым ключом](#public-key-cryptography). Проверить подпись "
-"можно соответствующим (парным) открытым ключом. Если вы скачивали программы "
-"с сайта torproject.org, то, возможно, обратили внимание на файлы подписей "
-"(.asc). Это  PGP-подписи. Вы можете их проверить и убедиться, что скачанный "
-"вами файл – тот, что надо. Подробнее о том, как проверять подписи, можно "
-"прочитать здесь: https://www.torproject.org/docs/verifying-"
-"signatures.html.en."
 
 #: https//support.torproject.org/misc/glossary/
 #: (content/misc/glossary/contents+en.lrquestion.description)
@@ -4746,7 +4731,7 @@ msgstr "##### Новая цепочка Tor для этого cайта"
 msgid ""
 "This option is useful if the [exit](#exit) you are using is unable to "
 "connect to the website you require, or is not loading it properly. Selecting"
-" it will cause the currently-active tab or window to be reloaded over a new "
+" it will cause the currently active tab or window to be reloaded over a new "
 "[Tor circuit](#circuit). Other open tabs and windows from the same website "
 "will use the new circuit as well once they are reloaded. This option does "
 "not clear any private information or unlink your activity, nor does it "
@@ -4998,15 +4983,10 @@ msgstr "### Orfox"
 msgid ""
 "Orfox is free [app](#app) from The Guardian Project built from the same "
 "source code as [Tor Browser](#tor-browser) which is built upon "
-"[Firefox](#firefox)), but with a few minor modifications to the privacy "
+"[Firefox](#firefox), but with a few minor modifications to the privacy "
 "enhancing features to make them compatible with Firefox for Android and the "
 "Android [operating system](#operating-system-os)."
 msgstr ""
-"Orfox – бесплатное [приложение](#app) от The Guardian Project. Основано на "
-"том же коде, что и [Tor Browser](#tor-browser), то есть, на "
-"[Firefox](#firefox)), но с некоторыми незначительными изменениями для "
-"обеспечения большей приватности и совместимости с Firefox для Android и, "
-"собственно, [операционной системой](#operating-system-os) Android."
 
 #: https//support.torproject.org/misc/glossary/
 #: (content/misc/glossary/contents+en.lrquestion.description)
@@ -5212,37 +5192,6 @@ msgstr ""
 
 #: https//support.torproject.org/misc/glossary/
 #: (content/misc/glossary/contents+en.lrquestion.description)
-msgid "### Security Slider"
-msgstr "### Уровень безопасности"
-
-#: https//support.torproject.org/misc/glossary/
-#: (content/misc/glossary/contents+en.lrquestion.description)
-msgid ""
-"[Tor Browser](#tor-browser) includes a “Security Slider” that lets you "
-"increase your security by disabling certain web features that can be used to"
-" attack your security and anonymity. It is located in Torbutton’s “Privacy "
-"and Security Settings” menu."
-msgstr ""
-"В [Tor Browser](#tor-browser) есть \"ползунок безопасности\", с помощью "
-"которого можно повысить уровень защиты, отключая определенные функции на "
-"веб-страницах. Речь идет о том, что злоумышленники могут использовать во "
-"вред вашей безопасности и анонимности. Этот ползунок можно увидеть, если "
-"щелкнуть по значку луковицы в панели браузера и выбрать \"Настройки "
-"безопасности\"."
-
-#: https//support.torproject.org/misc/glossary/
-#: (content/misc/glossary/contents+en.lrquestion.description)
-msgid ""
-"Increasing the level (Low, Medium-Low, Medium-High, High) of the Security "
-"Slider will disable or partially disable certain [web browser](#web-browser)"
-" features to protect against possible attacks."
-msgstr ""
-"Можно изменять эти значения (стандартные, более безопасные, наиболее "
-"безопасные). При перемещении ползунка вверх будут частично или полностью "
-"отключены некоторые функции [браузера](#web-browser)."
-
-#: https//support.torproject.org/misc/glossary/
-#: (content/misc/glossary/contents+en.lrquestion.description)
 msgid "### self-authenticating address"
 msgstr ""
 
@@ -5310,7 +5259,7 @@ msgstr "### Stem"
 #: https//support.torproject.org/misc/glossary/
 #: (content/misc/glossary/contents+en.lrquestion.description)
 msgid ""
-"Stem is a Python(programming language) controller library for core "
+"Stem is a Python (programming language) controller library for core "
 "[Tor](#tor-/-tor-network/-core-tor). If you want to control core Tor with "
 "python, this is for you."
 msgstr ""
@@ -6019,12 +5968,9 @@ msgstr ""
 #: https//support.torproject.org/misc/misc-3/
 #: (content/misc/misc-3/contents+en.lrquestion.description)
 msgid ""
-"We feel that talking openly about our funders and funding model is the best "
-"way to maintain trust with our community."
+"We feel that talking openly about our sponsors and funding model is the best"
+" way to maintain trust with our community."
 msgstr ""
-"Думаем, что лучший способ установить доверительные отношения с нашим "
-"сообществом — открыто говорить о наших спонсорах и о нашей финансовой "
-"модели."
 
 #: https//support.torproject.org/misc/misc-3/
 #: (content/misc/misc-3/contents+en.lrquestion.description)

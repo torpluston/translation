@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-05-15 18:55+CET\n"
+"POT-Creation-Date: 2019-05-24 08:29+CET\n"
 "PO-Revision-Date: 2018-10-02 22:41+0000\n"
 "Last-Translator: eduard pintilie <eduard.pintilie@gmail.com>, 2019\n"
 "Language-Team: Romanian (https://www.transifex.com/otf/teams/1519/ro/)\n"
@@ -769,14 +769,9 @@ msgstr ""
 #: (content/tbb/tbb-1/contents+en.lrquestion.description)
 msgid ""
 "If you started having issues with your Tor Browser after an update, check "
-"out <mark><a "
-"href=\"https://blog.torproject.org\">blog.torproject.org</a></mark> for the "
-"most recent stable Tor Browser post to see if your issue is listed."
+"out <a href=\"https://blog.torproject.org\">blog.torproject.org</a> for a "
+"post on the most recent stable Tor Browser to see if your issue is listed."
 msgstr ""
-"Dacă după o actualizare aveți probleme cu browserul Tor, consultați <mark><a"
-" href=\"https://blog.torproject.org\">blog.torproject.org</a></mark> pentru "
-"cea mai recentă postare stabilă a browserului Tor pentru a vedea dacă "
-"problema dvs. este listată."
 
 #: https//support.torproject.org/tbb/tbb-1/
 #: (content/tbb/tbb-1/contents+en.lrquestion.description)
@@ -908,12 +903,9 @@ msgstr ""
 #: (content/tbb/tbb-11/contents+en.lrquestion.description)
 msgid ""
 "The default setting in the Windows installer also creates a shortcut for you"
-" on your Desktop, though be aware that you may have accidentally unticked "
+" on your Desktop, though be aware that you may have accidentally deselected "
 "the option to create a shortcut."
 msgstr ""
-"Setarea implicită din programul de instalare Windows creează, de asemenea, o"
-" comandă rapidă pentru dvs. pe desktop, deși este posibil ca opțiunea de a "
-"crea o comandă rapidă să fi fost dezactivată."
 
 #: https//support.torproject.org/tbb/tbb-11/
 #: (content/tbb/tbb-11/contents+en.lrquestion.description)
@@ -1677,7 +1669,7 @@ msgstr ""
 
 #: https//support.torproject.org/tbb/tbb-35/
 #: (content/tbb/tbb-35/contents+en.lrquestion.title)
-msgid "Can you get rid of all the captchas?"
+msgid "Can you get rid of all the CAPTCHAs?"
 msgstr ""
 
 #: https//support.torproject.org/tbb/tbb-35/
@@ -3028,8 +3020,6 @@ msgstr ""
 #: (content/operators/operators-2/contents+en.lrquestion.description)
 #: https//support.torproject.org/operators/operators-3/
 #: (content/operators/operators-3/contents+en.lrquestion.description)
-#: https//support.torproject.org/operators/operators-6/
-#: (content/operators/operators-6/contents+en.lrquestion.description)
 msgid ""
 "You should re-check your firewalls, check that the IP and ports you "
 "specified in your torrc are correct, etc."
@@ -3267,6 +3257,13 @@ msgstr "* Execută \"service tor reload\" (ca root)."
 #: https//support.torproject.org/operators/operators-6/
 #: (content/operators/operators-6/contents+en.lrquestion.description)
 msgid ""
+"You should re-check your firewalls, check that the IP and ports you "
+"specified in your torrc file are correct, etc."
+msgstr ""
+
+#: https//support.torproject.org/operators/operators-6/
+#: (content/operators/operators-6/contents+en.lrquestion.description)
+msgid ""
 "* You should also see the message \"Registered server transport 'obfs4'\" "
 "indicating that obfs4proxy is functional."
 msgstr ""
@@ -3376,8 +3373,8 @@ msgstr ""
 #: https//support.torproject.org/onionservices/onionservices-2/
 #: (content/onionservices/onionservices-2/contents+en.lrquestion.description)
 msgid ""
-"These services use the special-use tld .onion (instead of "
-".com,.net,.org,etc..) and are only accessible through the Tor network."
+"These services use the special-use top level domain (TLD) .onion (instead of"
+" .com, .net, .org, etc..) and are only accessible through the Tor network."
 msgstr ""
 
 #: https//support.torproject.org/onionservices/onionservices-2/
@@ -3396,7 +3393,7 @@ msgstr ""
 #: https//support.torproject.org/onionservices/onionservices-2/
 #: (content/onionservices/onionservices-2/contents+en.lrquestion.description)
 msgid ""
-"And if you're accessing a website with https and onion service, it will show"
+"And if you're accessing a website with HTTPS and onion service, it will show"
 " an icon of a green onion and a padlock."
 msgstr ""
 
@@ -3733,10 +3730,11 @@ msgid ""
 "is created by the holder of the private portion of a [public key "
 "cryptography](#public-key-cryptography) key pair and can be verified by the "
 "corresponding public key. If you download software from torproject.org, you "
-"will find it as sig files (.asc). These are PGP signatures, so you can "
-"verify that the file you have downloaded is exactly the one that we intended"
-" you to get. For more information about how you can verify signatures, "
-"please see https://www.torproject.org/docs/verifying-signatures.html.en."
+"will find it as signature files (.asc). These are PGP signatures, so you can"
+" verify that the file you have downloaded is exactly the one that we "
+"intended you to get. For more information about how you can verify "
+"signatures, please see [here](https://support.torproject.org/tbb/how-to-"
+"verify-signature/)."
 msgstr ""
 
 #: https//support.torproject.org/misc/glossary/
@@ -4220,7 +4218,7 @@ msgstr ""
 msgid ""
 "This option is useful if the [exit](#exit) you are using is unable to "
 "connect to the website you require, or is not loading it properly. Selecting"
-" it will cause the currently-active tab or window to be reloaded over a new "
+" it will cause the currently active tab or window to be reloaded over a new "
 "[Tor circuit](#circuit). Other open tabs and windows from the same website "
 "will use the new circuit as well once they are reloaded. This option does "
 "not clear any private information or unlink your activity, nor does it "
@@ -4461,7 +4459,7 @@ msgstr ""
 msgid ""
 "Orfox is free [app](#app) from The Guardian Project built from the same "
 "source code as [Tor Browser](#tor-browser) which is built upon "
-"[Firefox](#firefox)), but with a few minor modifications to the privacy "
+"[Firefox](#firefox), but with a few minor modifications to the privacy "
 "enhancing features to make them compatible with Firefox for Android and the "
 "Android [operating system](#operating-system-os)."
 msgstr ""
@@ -4650,28 +4648,6 @@ msgstr ""
 
 #: https//support.torproject.org/misc/glossary/
 #: (content/misc/glossary/contents+en.lrquestion.description)
-msgid "### Security Slider"
-msgstr ""
-
-#: https//support.torproject.org/misc/glossary/
-#: (content/misc/glossary/contents+en.lrquestion.description)
-msgid ""
-"[Tor Browser](#tor-browser) includes a “Security Slider” that lets you "
-"increase your security by disabling certain web features that can be used to"
-" attack your security and anonymity. It is located in Torbutton’s “Privacy "
-"and Security Settings” menu."
-msgstr ""
-
-#: https//support.torproject.org/misc/glossary/
-#: (content/misc/glossary/contents+en.lrquestion.description)
-msgid ""
-"Increasing the level (Low, Medium-Low, Medium-High, High) of the Security "
-"Slider will disable or partially disable certain [web browser](#web-browser)"
-" features to protect against possible attacks."
-msgstr ""
-
-#: https//support.torproject.org/misc/glossary/
-#: (content/misc/glossary/contents+en.lrquestion.description)
 msgid "### self-authenticating address"
 msgstr ""
 
@@ -4734,7 +4710,7 @@ msgstr ""
 #: https//support.torproject.org/misc/glossary/
 #: (content/misc/glossary/contents+en.lrquestion.description)
 msgid ""
-"Stem is a Python(programming language) controller library for core "
+"Stem is a Python (programming language) controller library for core "
 "[Tor](#tor-/-tor-network/-core-tor). If you want to control core Tor with "
 "python, this is for you."
 msgstr ""
@@ -5401,8 +5377,8 @@ msgstr ""
 #: https//support.torproject.org/misc/misc-3/
 #: (content/misc/misc-3/contents+en.lrquestion.description)
 msgid ""
-"We feel that talking openly about our funders and funding model is the best "
-"way to maintain trust with our community."
+"We feel that talking openly about our sponsors and funding model is the best"
+" way to maintain trust with our community."
 msgstr ""
 
 #: https//support.torproject.org/misc/misc-3/
