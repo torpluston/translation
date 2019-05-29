@@ -68,7 +68,7 @@ Une fois arrivé à l’hôtel, il a ouvert son ordinateur portable.
 
 Il était tellement épuisé que lorsque le message « La connexion est arrivée au bout de son délai » est apparu pour la première fois sur son navigateur Web, il pensa qu’il avait fait une erreur.
 
-Mais après avoir essayé encore et encore, il s’est rendu compte qu’il ne pouvait plus accéder à son fournisseur de services de courriel ni à un site Web de nouvelles ni à beaucoup d’applis.
+Mais après avoir essayé encore et encore, il s’est rendu compte qu’il ne pouvait plus accéder à son service de courriel ni à un site Web de nouvelles ni à beaucoup d’applis.
 
 Il avait entendu dire que ce pays censure Internet et se demanda si c’était le cas.
 Comment pouvait-il contacter sa famille derrière ce mur impénétrable ?
