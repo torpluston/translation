@@ -29,7 +29,7 @@ to turn it on?">-->
 "提交并检查由非标准根 CA 所签名的证书">
 
 <!ENTITY ssl-observatory.prefs.alt_roots_tooltip 
-"启用此选项是安全（而且有益的），除非所用的是高侵入性的公司网络，或者使用卡巴斯基防病毒软件通过本地 TLS 代理与私有根证书认证方检测互联网浏览行为。对于这样的网络，由于生成的数字证书是唯一的，启用该选项可能将公开通过该代理访问的 https:// 网域名称，因此默认关闭该功能。">
+"启用此选项是安全（且有益的），除非所用的是高侵入性的公司网络，或者使用卡巴斯基防病毒软件通过本地 TLS 代理与私有根证书认证方检测互联网浏览行为。对于这样的网络，由于生成的数字证书是唯一的，启用该选项可能将公开通过该代理访问的 https:// 域名，因此默认关闭该功能。">
 
 <!ENTITY ssl-observatory.prefs.anonymous "通过 Tor 网络进行数字证书的检查，以保护匿名性">
 <!ENTITY ssl-observatory.prefs.anonymous_unavailable 
@@ -38,10 +38,10 @@ to turn it on?">-->
 "此选项需要已经安装并运行 Tor">
 
 <!ENTITY ssl-observatory.prefs.asn 
-"遇到新的数字证书时，通知 Observatory 当前使用的互联网服务提供商 (ISP)">
+"遇到新的数字证书时，告诉 Observatory 你当前使用的互联网服务提供商（ISP）">
 
 <!ENTITY ssl-observatory.prefs.asn_tooltip
-"这将抓取网络的“自治系统号码”(Autonomous System number)。这将有助于找出对 HTTPS 发动攻击的源头，并判断在攻击相对常见的地区网络上，如伊朗和叙利亚，我们是否具有观测数据。">
+"这将抓取网络的“自治系统（AS）编号”。这将有助于找出对 HTTPS 发动攻击的源头，并判断在攻击相对常见的网络地域上，如伊朗和叙利亚，我们是否具有观测数据。">
 
 <!ENTITY ssl-observatory.prefs.show_cert_warning
 "当观测站检测到已吊销证书而该证书未被浏览器捕获时，显示警告。">
