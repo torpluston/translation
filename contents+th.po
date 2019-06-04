@@ -2,13 +2,13 @@
 # erinm, 2019
 # Ben CM <nebben10814@gmail.com>, 2019
 # Emma Peel, 2019
-# Pimsiri Petchnamrob <p.petchnamrob@gmail.com>, 2019
 # Krittiya Chankasem <ordinaryjane@gmail.com>, 2019
 # sirawat daengchon <sirawat.gang@gmail.com>, 2019
-# Kunanyaporn Jirasamatakij <kunanyaporn@gmail.com>, 2019
-# Chumapron Waaddao <chumaporn.t@gmail.com>, 2019
 # Wipanee Chamnanphaison <wchamnanphaison@internews.org>, 2019
 # Mumean Muna <muhammadmumin.m@amnesty.or.th>, 2019
+# Chumapron Waaddao <chumaporn.t@gmail.com>, 2019
+# Kunanyaporn Jirasamatakij <kunanyaporn@gmail.com>, 2019
+# Pimsiri Petchnamrob <p.petchnamrob@gmail.com>, 2019
 # 
 msgid ""
 msgstr ""
@@ -16,7 +16,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-06-03 14:04+CET\n"
 "PO-Revision-Date: 2018-11-14 12:31+0000\n"
-"Last-Translator: Mumean Muna <muhammadmumin.m@amnesty.or.th>, 2019\n"
+"Last-Translator: Pimsiri Petchnamrob <p.petchnamrob@gmail.com>, 2019\n"
 "Language-Team: Thai (https://www.transifex.com/otf/teams/1519/th/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -628,7 +628,7 @@ msgid ""
 " compared to using ordinary Tor relays."
 msgstr ""
 "คลิก“ ตกลง” เพื่อบันทึกการตั้งค่าของคุณ "
-"การใช้บริดจ์อาจทำให้การเชื่อมต่อช้าลงเมื่อเทียบกับการใช้  Tor relays ทั่วไป"
+"การใช้สะพานอาจทำให้การเชื่อมต่อช้าลงเมื่อเทียบกับการใช้ Tor รีเลย์ทั่วไป"
 
 #: https//tb-manual.torproject.org/bridges/
 #: (content/bridges/contents+en.lrtopic.body)
@@ -636,11 +636,13 @@ msgid ""
 "If the connection fails, the bridges you received may be down. Please use "
 "one of the above methods to obtain more bridge addresses, and try again."
 msgstr ""
+"หากการเชื่อมต่อล้มเหลว สะพานที่คุณได้รับอาจไม่ทำงาน "
+"โปรดใช้วิธีใดวิธีหนึ่งข้างต้นเพื่อรับที่อยู่สะพานมากขึ้นแล้วลองอีกครั้ง"
 
 #: https//tb-manual.torproject.org/transports/
 #: (content/transports/contents+en.lrtopic.title)
 msgid "PLUGGABLE TRANSPORTS"
-msgstr ""
+msgstr "การโอนถ่ายข้อมูลโดยไม่ปิดการเชื่อมต่อ"
 
 #: https//tb-manual.torproject.org/transports/
 #: (content/transports/contents+en.lrtopic.description)
@@ -648,6 +650,8 @@ msgid ""
 "Pluggable transports are tools that Tor can use to disguise the traffic it "
 "sends out."
 msgstr ""
+"การโอนถ่ายข้อมูลโดยไม่ปิดการเชื่อมต่อเป็นเครื่องมือที่ Tor "
+"ที่สามารถใช้เพื่อปกปิดการรับส่งข้อมูล"
 
 #: https//tb-manual.torproject.org/transports/
 #: (content/transports/contents+en.lrtopic.body)
@@ -657,11 +661,15 @@ msgid ""
 "Provider or other authority is actively blocking connections to the Tor "
 "network."
 msgstr ""
+"การขนส่งที่เสียบกับช่องต่อได้เป็นเครื่องมือที่ Tor "
+"สามารถใช้เพื่อปกปิดการรับส่งข้อมูล "
+"สิ่งนี้มีประโยชน์ในสถานการณ์ที่ผู้ให้บริการอินเทอร์เน็ตหรือหน่วยงานอื่น ๆ "
+"กำลังบล็อกการเชื่อมต่อกับเครือข่าย Tor"
 
 #: https//tb-manual.torproject.org/transports/
 #: (content/transports/contents+en.lrtopic.body)
 msgid "##### TYPES OF PLUGGABLE TRANSPORT"
-msgstr ""
+msgstr "##### ประเภทของการโอนถ่ายข้อมูลโดยไม่ปิดการเชื่อมต่อ"
 
 #: https//tb-manual.torproject.org/transports/
 #: (content/transports/contents+en.lrtopic.body)
@@ -669,6 +677,8 @@ msgid ""
 "Currently there are five pluggable transports available, but more are being "
 "developed."
 msgstr ""
+"ในขณะนี้มีการโอนถ่ายข้อมูลแบบไม่ต้องปิดการเชื่อมต่ออยู่ห้าแบบ "
+"แต่กำลังมีการพัฒนาเพิ่มขึ้น"
 
 #: https//tb-manual.torproject.org/transports/
 #: (content/transports/contents+en.lrtopic.body)
@@ -707,21 +717,24 @@ msgid ""
 "any other protocol. While still included by default, it is reccomended to "
 "use obfs4 instead, as it has several security improvements over obfs3."
 msgstr ""
+"obfs3 ทำให้การจราจรดูเป็นแบบสุ่ม ซึ่งทำให้ดูไม่เหมือน Tor หรือโพรโทคอลอื่นๆ "
+"และถึงแม้ว่า obfs3 จะเป็นค่าตั้งต้น แต่การใช้ obfs4 เป็นที่แนะนำมากกว่า "
+"เนื่องจาก obfs4 มีการพัฒนาด้านความปลอดภัยเหนือกว่า obfs3"
 
 #: https//tb-manual.torproject.org/transports/
 #: (content/transports/contents+en.lrtopic.body)
 msgid "</tr>"
-msgstr ""
+msgstr "</tr>"
 
 #: https//tb-manual.torproject.org/transports/
 #: (content/transports/contents+en.lrtopic.body)
 msgid "<tr class=\"even\">"
-msgstr ""
+msgstr "<tr class=\"even\">"
 
 #: https//tb-manual.torproject.org/transports/
 #: (content/transports/contents+en.lrtopic.body)
 msgid "obfs4"
-msgstr ""
+msgstr "obfs4"
 
 #: https//tb-manual.torproject.org/transports/
 #: (content/transports/contents+en.lrtopic.body)
@@ -730,6 +743,9 @@ msgid ""
 "from finding bridges by Internet scanning. obfs4 bridges are less likely to "
 "be blocked than obfs3 bridges."
 msgstr ""
+"obfs4 ทำให้การจราจรของ Tor ดูเหมือน obfs3 แบบสุ่ม "
+"และป้องกันการเซ็นเซอร์ที่จะมองหาการเชื่อมต่อจากการสแกนอินเทอร์เน็ต obfs4 "
+"มีโอกาสถูกบล็อกน้อยกว่าการเชื่อมต่อแบบ obfs3"
 
 #: https//tb-manual.torproject.org/transports/
 #: (content/transports/contents+en.lrtopic.body)
@@ -758,8 +774,9 @@ msgid ""
 "Web Services; meek-azure makes it look like you are using a Microsoft web "
 "site; and meek-google makes it look like you are using Google search."
 msgstr ""
-"meek ทำให้ดูเหมือนว่าคุณกำลังใช้เว็บไซต์ใหญ่แทนที่จะใช้ทอร์ Meek-amazon "
-"ทำให้ดูเหมือนว่าคุณกำลังใช้เว็บไซต์อะเมซอน Meek-azure "
+"การโอนถ่ายข้อมูลด้วย meek "
+"ทำให้ดูเหมือนว่าคุณกำลังใช้เว็บไซต์ใหญ่แทนที่จะใช้ทอร์ Meek-amazon "
+"ทำให้ดูเหมือนว่าคุณกำลังใช้บริการของเว็บไซต์อะเมซอน Meek-azure "
 "ทำให้ดูเหมือนว่าคุณกำลังใช้ไมโครซอฟต์เว็บไซต์ และ meek-google "
 "ทำให้ดูเหมือนว่าคุณกำลังใช้ Google search"
 
@@ -774,23 +791,25 @@ msgid ""
 "Snowflake is an improvement upon Flashproxy. It sends your traffic through "
 "WebRTC, a peer-to-peer protocol with built-in NAT punching."
 msgstr ""
+"Snowflake  เป็นการพัฒนาบน Flashproxy มันส่งปริมาณข้อมูลของคุณผ่าน WebRTC "
+"ซึ่งเป็น ข้อตกลงในการทำการสื่อสาร แบบเพียร์ทูเพียร์ที่มีการเจาะ NAT ในตัว"
 
 #: https//tb-manual.torproject.org/transports/
 #: (content/transports/contents+en.lrtopic.body)
 msgid "</tbody>"
-msgstr ""
+msgstr "</tbody>"
 
 #: https//tb-manual.torproject.org/transports/
 #: (content/transports/contents+en.lrtopic.body)
 msgid "</table>"
-msgstr ""
+msgstr "</table>"
 
 #: https//tb-manual.torproject.org/transports/
 #: (content/transports/contents+en.lrtopic.body)
 #: https//tb-manual.torproject.org/circumvention/
 #: (content/circumvention/contents+en.lrtopic.body)
 msgid "##### USING PLUGGABLE TRANSPORTS"
-msgstr ""
+msgstr "##### การใช้การโอนถ่ายข้อมูลแบบไม่ต้องปิดการเชื่อมต่อ"
 
 #: https//tb-manual.torproject.org/transports/
 #: (content/transports/contents+en.lrtopic.body)
@@ -798,11 +817,14 @@ msgid ""
 "To use a pluggable transport, first click the onion icon to the left of the "
 "URL bar, or click 'Configure' when starting Tor Browser for the first time."
 msgstr ""
+"เพื่อใช้การโอนถ่ายข้อมูลโดยไม่ปิดการเชื่อมต่อ คลิกครั้งแรกที่ไอคอน onion "
+"ที่ด้านซ้ายของแถบ URL หรือคลิก 'ตั้งค่า' เมื่อเริ่มต้น Tor Browser "
+"เป็นครั้งแรก"
 
 #: https//tb-manual.torproject.org/transports/
 #: (content/transports/contents+en.lrtopic.body)
 msgid "Next, select 'Tor Network Settings' from the drop-down menu."
-msgstr ""
+msgstr "ขั้นตอนต่อไป เลือก 'ตั้งค่าเครือข่าย Tor' จากเมนูที่มีให้เลือก"
 
 #: https//tb-manual.torproject.org/transports/
 #: (content/transports/contents+en.lrtopic.body)
@@ -810,6 +832,8 @@ msgid ""
 "In the window that appears, check 'Tor is censored in my country,' then "
 "click 'Select a built-in bridge.'"
 msgstr ""
+"เมื่อหน้าต่างปรากฏขึ้น ให้เลือก 'Tor ถูกห้ามใช้ในประเทศของฉัน' และคลิก "
+"'เลือกสะพานที่มีการติดตั้งภายในตัว'"
 
 #: https//tb-manual.torproject.org/transports/
 #: (content/transports/contents+en.lrtopic.body)
@@ -817,6 +841,8 @@ msgid ""
 "From the drop-down menu, select whichever pluggable transport you'd like to "
 "use."
 msgstr ""
+"จากเมนูที่มีให้เลือก "
+"เลือกการถ่ายโอนข้อมูลโดยไม่ปิดการเชื่อมต่อที่คุณต้องการใช้ "
 
 #: https//tb-manual.torproject.org/transports/
 #: (content/transports/contents+en.lrtopic.body)
@@ -824,6 +850,8 @@ msgid ""
 "<img class=\"col-md-6\" "
 "src=\"../../static/images/pluggable_transport_network_settings.png\">"
 msgstr ""
+"<img class=\"col-md-6\" "
+"src=\"../../static/images/pluggable_transport_network_settings.png\">"
 
 #: https//tb-manual.torproject.org/transports/
 #: (content/transports/contents+en.lrtopic.body)
@@ -831,6 +859,8 @@ msgid ""
 "Once you've selected the pluggable transport you'd like to use, click 'OK' "
 "to save your settings."
 msgstr ""
+"และเมื่อคุณเลือก pluggable transport ที่คุณต้องการใช้แล้ว คลิก OK "
+"เพื่อบันทึกการตั้งค่าของคุณ"
 
 #: https//tb-manual.torproject.org/circumvention/
 #: (content/circumvention/contents+en.lrtopic.title)
@@ -840,7 +870,7 @@ msgstr "การหลีกเลี่ยง"
 #: https//tb-manual.torproject.org/circumvention/
 #: (content/circumvention/contents+en.lrtopic.description)
 msgid "What to do if the Tor network is blocked"
-msgstr ""
+msgstr "จะทำอย่างไรหากเครือข่าย Tor ถูกบล็อก"
 
 #: https//tb-manual.torproject.org/circumvention/
 #: (content/circumvention/contents+en.lrtopic.body)
@@ -885,17 +915,17 @@ msgstr ""
 #: https//tb-manual.torproject.org/circumvention/
 #: (content/circumvention/contents+en.lrtopic.body)
 msgid "<img class=\"col-md-6\" src=\"../../static/images/bridges.png\">"
-msgstr ""
+msgstr "<img class=\"col-md-6\" src=\"../../static/images/bridges.png\">"
 
 #: https//tb-manual.torproject.org/circumvention/
 #: (content/circumvention/contents+en.lrtopic.body)
 msgid "Click 'OK' to save your settings."
-msgstr ""
+msgstr "คลิก OK เพื่อบันทึกการตั้งค่าของคุณ"
 
 #: https//tb-manual.torproject.org/circumvention/
 #: (content/circumvention/contents+en.lrtopic.body)
 msgid "##### WHICH TRANSPORT SHOULD I USE?"
-msgstr ""
+msgstr "#####การโอนถ่ายข้อมูลที่ควรใช้"
 
 #: https//tb-manual.torproject.org/circumvention/
 #: (content/circumvention/contents+en.lrtopic.body)
@@ -925,12 +955,12 @@ msgstr ""
 #: https//tb-manual.torproject.org/managing-identities/
 #: (content/managing-identities/contents+en.lrtopic.title)
 msgid "MANAGING IDENTITIES"
-msgstr ""
+msgstr "จัดการตัวตน"
 
 #: https//tb-manual.torproject.org/managing-identities/
 #: (content/managing-identities/contents+en.lrtopic.description)
 msgid "Learn how to control personally-identifying information in Tor Browser"
-msgstr ""
+msgstr "เรียนรู้วิธีควบคุมข้อมูลระบุส่วนตัวใน Tor Browser "
 
 #: https//tb-manual.torproject.org/managing-identities/
 #: (content/managing-identities/contents+en.lrtopic.body)
@@ -955,7 +985,7 @@ msgstr ""
 #: https//tb-manual.torproject.org/managing-identities/
 #: (content/managing-identities/contents+en.lrtopic.body)
 msgid "##### THE URL BAR"
-msgstr ""
+msgstr "#### แถบ URL"
 
 #: https//tb-manual.torproject.org/managing-identities/
 #: (content/managing-identities/contents+en.lrtopic.body)
@@ -975,11 +1005,14 @@ msgid ""
 "single website in separate tabs or windows, without any loss of "
 "functionality."
 msgstr ""
+"ในทางกลับกัน การเชื่อมต่อทั้งหมดไปยังที่อยู่เว็บไซต์เดียวจะทำผ่านวงจร Tor "
+"เดียวกัน ซึ่งหมายความว่าคุณสามารถเรียกดูหน้าต่างๆ ของเว็บไซต์เดียวในแท็บ "
+"หรือหน้าต่างแยกต่างหากโดยไม่สูญเสียฟังก์ชันการทำงานใด ๆ"
 
 #: https//tb-manual.torproject.org/managing-identities/
 #: (content/managing-identities/contents+en.lrtopic.body)
 msgid "<img class=\"col-md-6\" src=\"../../static/images/circuit_full.png\">"
-msgstr ""
+msgstr "<img class=\"col-md-6\" src=\"../../static/images/circuit_full.png\">"
 
 #: https//tb-manual.torproject.org/managing-identities/
 #: (content/managing-identities/contents+en.lrtopic.body)
@@ -987,6 +1020,8 @@ msgid ""
 "You can see a diagram of the circuit that Tor Browser is using for the "
 "current tab in the site information menu, in the URL bar."
 msgstr ""
+"คุณสามารถดูไดอะแกรมของวงจรที่ Tor บราว์เซอร์ "
+"ใช้สำหรับแท็บปัจจุบันในเมนูข้อมูลไซต์ ในแถบ URL"
 
 #: https//tb-manual.torproject.org/managing-identities/
 #: (content/managing-identities/contents+en.lrtopic.body)
@@ -999,11 +1034,16 @@ msgid ""
 "href=\"https://www.torproject.org/docs/faq#EntryGuards\">FAQ</a> and <a "
 "href=\"https://support.torproject.org/tbb/tbb-2/\">Support Portal</a>."
 msgstr ""
+"ในวงจร Guard หรือโหนดรายการเป็นโหนดแรก และจะถูกเลือกโดยอัตโนมัติและสุ่มโดย "
+"Tor แต่มันแตกต่างจากโหนดอื่น ๆ ในวงจร เพื่อหลีกเลี่ยงการโจมตีโปรไฟล์ โหนด "
+"Guard จะเปลี่ยนหลังจากผ่านไป 2-3 เดือนเท่านั้นซึ่งแตกต่างจากโหนดอื่น ๆ "
+"ที่เปลี่ยนไปด้วยทุกโดเมนใหม่ สำหรับข้อมูลเพิ่มเติมเกี่ยวกับ Guards ให้ดูที่ "
+"FAQ และพอร์ทัลการสนับสนุน"
 
 #: https//tb-manual.torproject.org/managing-identities/
 #: (content/managing-identities/contents+en.lrtopic.body)
 msgid "##### LOGGING IN OVER TOR"
-msgstr ""
+msgstr "####ลงชื่อเข้าใช้บน TOR"
 
 #: https//tb-manual.torproject.org/managing-identities/
 #: (content/managing-identities/contents+en.lrtopic.body)
@@ -1012,6 +1052,10 @@ msgid ""
 "there may be situations in which it makes sense to use Tor with websites "
 "that require usernames, passwords, or other identifying information."
 msgstr ""
+"แม้ว่า Tor เบราว์เซอร์ "
+"ได้รับการออกแบบมาเพื่อเปิดใช้งานการไม่เปิดเผยตัวตนของผู้ใช้ทั้งหมดบนเว็บ "
+"แต่อาจมีสถานการณ์ที่เหมาะสมที่จะใช้ Tor "
+"กับเว็บไซต์ที่ต้องการชื่อผู้ใช้รหัสผ่านหรือข้อมูลการระบุตัวตนอื่น ๆ"
 
 #: https//tb-manual.torproject.org/managing-identities/
 #: (content/managing-identities/contents+en.lrtopic.body)
@@ -1023,13 +1067,19 @@ msgid ""
 "you reveal to the websites you browse. Logging in using Tor Browser is also "
 "useful if the website you are trying to reach is censored on your network."
 msgstr ""
+"หากคุณเข้าสู่เว็บไซต์โดยใช้เบราว์เซอร์ปกติ คุณจะต้องเปิดเผยที่อยู่ IP "
+"และที่ตั้งทางภูมิศาสตร์ด้วย สิ่งนี้มักจะเป็นจริงเมื่อคุณส่งอีเมล "
+"การเข้าสู่ระบบเครือข่ายสังคม หรือบัญชีอีเมลของคุณโดยใช้ Tor เบราว์เซอร์ "
+"ช่วยให้คุณสามารถเลือกข้อมูลที่คุณเปิดเผยให้กับเว็บไซต์ที่คุณเรียกดูได้อย่างแม่นยำ"
+" การเข้าสู่ระบบโดยใช้ Tor เบราว์เซอร์ "
+"มีประโยชน์เช่นกันหากเว็บไซต์ที่คุณพยายามเข้าถึงนั้นถูกเซ็นเซอร์ในเครือข่ายของคุณ"
 
 #: https//tb-manual.torproject.org/managing-identities/
 #: (content/managing-identities/contents+en.lrtopic.body)
 msgid ""
 "When you log in to a website over Tor, there are several points you should "
 "bear in mind:"
-msgstr ""
+msgstr "เมื่อคุณเข้าสู่เว็บไซต์ผ่าน Tor มีหลายประเด็นที่คุณควรคำนึงถึง:"
 
 #: https//tb-manual.torproject.org/managing-identities/
 #: (content/managing-identities/contents+en.lrtopic.body)
@@ -1037,6 +1087,8 @@ msgid ""
 "* See the  <a href=\"/secure-connections\">Secure Connections</a> page for "
 "important information on how to secure your connection when logging in."
 msgstr ""
+"ดูหน้า </a>การเชื่อมต่อ </a> "
+"ที่ปลอดภัยสำหรับข้อมูลสำคัญเกี่ยวกับวิธีการรักษาความปลอดภัยการเชื่อมต่อของคุณเมื่อเข้าสู่ระบบ"
 
 #: https//tb-manual.torproject.org/managing-identities/
 #: (content/managing-identities/contents+en.lrtopic.body)
@@ -1062,7 +1114,7 @@ msgstr "การเปลี่ยนบัญชีและวงจร"
 #: https//tb-manual.torproject.org/managing-identities/
 #: (content/managing-identities/contents+en.lrtopic.body)
 msgid "<img class=\"col-md-6\" src=\"../../static/images/new_identity.png\">"
-msgstr ""
+msgstr "<img class=\"col-md-6\" src=\"../../static/images/new_identity.png\">"
 
 #: https//tb-manual.torproject.org/managing-identities/
 #: (content/managing-identities/contents+en.lrtopic.body)
@@ -1159,7 +1211,7 @@ msgid ""
 "* An onion services’s location and IP address are hidden, making it "
 "difficult for adversaries to censor it or identify its operators."
 msgstr ""
-"สถานที่ตั้งของบริการ Onion และที่อยู่ IP จะถูกซ่อนไว้ "
+"* สถานที่ตั้งของบริการ onion และที่อยู่ IP จะถูกซ่อนไว้ "
 "เป็นการยากที่ผู้ไม่หวังดีจะสามารถเซ็นเซอร์หรือระบุผู้ดำเนินการได้"
 
 #: https//tb-manual.torproject.org/onion-services/
@@ -1169,9 +1221,9 @@ msgid ""
 "so you do not need to worry about <a href=\"/secure-connections\">connecting"
 " over HTTPS</a>."
 msgstr ""
-"*การปริมาณการใช้งานทั้งหมดระหว่างผู้ใช้ Tor และบริการ onion "
-"เป็นการเข้ารหัสแบบครบวงจรดังนั้นคุณไม่จำเป็นต้องกังวลเกี่ยวกับการเชื่อมต่อผ่าน"
-" HTTPS"
+"*การปริมาณการใช้งานทั้งหมดระหว่างผู้ใช้ Tor และบริการ onion "
+"เป็นการเข้ารหัสแบบครบวงจรดังนั้นคุณไม่จำเป็นต้องกังวลเกี่ยวกับ <a href"
+"=\"/secure-connections\">การเชื่อมต่อผ่าน HTTPS</a>"
 
 #: https//tb-manual.torproject.org/onion-services/
 #: (content/onion-services/contents+en.lrtopic.body)
@@ -1252,7 +1304,8 @@ msgid ""
 "Service</a>"
 msgstr ""
 "คุณสามารถมั่นใจได้ว่าคุณสามารถเข้าถึงบริการ  onion อื่นได้ โดยการเชื่อต่อยัง"
-" การบริการ onion ของ DuckDuckGo "
+" <a href=\"http://3g2upl4pq6kufc4m.onion/\">การบริการ onion ของ "
+"DuckDuckGo</a>"
 
 #: https//tb-manual.torproject.org/secure-connections/
 #: (content/secure-connections/contents+en.lrtopic.title)
@@ -1583,7 +1636,7 @@ msgstr ""
 #: https//tb-manual.torproject.org/security-settings/
 #: (content/security-settings/contents+en.lrtopic.title)
 msgid "SECURITY SETTINGS"
-msgstr ""
+msgstr "การตั้งค่าความปลอดภัย"
 
 #: https//tb-manual.torproject.org/security-settings/
 #: (content/security-settings/contents+en.lrtopic.body)
@@ -1738,7 +1791,7 @@ msgid ""
 "flaws that compromise your privacy and anonymity."
 msgstr ""
 "คุณจำเป็นต้องอัปเดท Tor Browserเสมอ หากคุณใช้ซอฟท์แวร์ที่หมดอายุแล้ว "
-"คุณมีความเสี่ยงต่อช่องโหว่ทางความปลอดภัยที่ร้ายแรง "
+"คุณมีความเสี่ยงต่อช่องโหว่ทางความปลอดภัยร้ายแรง "
 "ซึ่งเป็นภัยต่อความเป็นส่วนตัวและความนิรนามของคุณ "
 
 #: https//tb-manual.torproject.org/updating/
@@ -1840,12 +1893,12 @@ msgstr "โปรแกรมเสริม ส่วนขยาย และ 
 #: https//tb-manual.torproject.org/plugins/
 #: (content/plugins/contents+en.lrtopic.description)
 msgid "How Tor Browser handles add-ons, plugins and JavaScript"
-msgstr ""
+msgstr "Tor Browser จัดการส่วนเสริม โปรแกรมเสริม และ JavaScript อย่างไร"
 
 #: https//tb-manual.torproject.org/plugins/
 #: (content/plugins/contents+en.lrtopic.body)
 msgid "##### FLASH PLAYER"
-msgstr ""
+msgstr "##### FLASH PLAYER "
 
 #: https//tb-manual.torproject.org/plugins/
 #: (content/plugins/contents+en.lrtopic.body)
@@ -1857,6 +1910,13 @@ msgid ""
 "operators, or to an outside observer. For this reason, Flash is disabled by "
 "default in Tor Browser, and enabling it is not recommended."
 msgstr ""
+"เว็บไซต์วิดีโอ เช่น Vimeo ใช้โปรแกรมเสริมของ Flash Player "
+"ในการแสดงเนื้อหาวิดีโอ ขออภัย ซอฟต์แวร์นี้ปฏิบัติการอย่างเป็นอิสระจาก Tor "
+"Browser และไม่สามารถทำตามคำสั่งการตั้งค่าพร็อกซีของ Tor Browser ได้โดยง่าย "
+"ดังนั้นมันอาจเปิดเผยที่ตั้งแท้จริงและที่อยู่ IP "
+"ของคุณต่อผู้ปฏิบัติการเว็บไซต์ หรือผู้ฝ้าดูจากภายนอก ด้วยเหตุนี้ Flash "
+"จึงถูกปิดใช้งานโดยค่าเริ่มต้นบน Tor Browser และไม่แน่ะนำให้เปิดใช้งาน Flash"
+"    "
 
 #: https//tb-manual.torproject.org/plugins/
 #: (content/plugins/contents+en.lrtopic.body)
@@ -1869,7 +1929,7 @@ msgstr ""
 #: https//tb-manual.torproject.org/plugins/
 #: (content/plugins/contents+en.lrtopic.body)
 msgid "##### JAVASCRIPT"
-msgstr ""
+msgstr "##### JAVASCRIPT"
 
 #: https//tb-manual.torproject.org/plugins/
 #: (content/plugins/contents+en.lrtopic.body)
@@ -1892,7 +1952,7 @@ msgstr ""
 #: https//tb-manual.torproject.org/plugins/
 #: (content/plugins/contents+en.lrtopic.body)
 msgid "<img class=\"col-md-6\" src=\"../../static/images/noscript_menu.png\">"
-msgstr ""
+msgstr "<img class=\"col-md-6\" src=\"../../static/images/noscript_menu.png\">"
 
 #: https//tb-manual.torproject.org/plugins/
 #: (content/plugins/contents+en.lrtopic.body)
@@ -1908,7 +1968,7 @@ msgstr ""
 #: https//tb-manual.torproject.org/plugins/
 #: (content/plugins/contents+en.lrtopic.body)
 msgid "##### BROWSER ADD-ONS"
-msgstr ""
+msgstr "#####เพิ่มเบราว์เซอร์"
 
 #: https//tb-manual.torproject.org/plugins/
 #: (content/plugins/contents+en.lrtopic.body)
@@ -1916,6 +1976,9 @@ msgid ""
 "Tor Browser is based on Firefox, and any browser add-ons or themes that are "
 "compatible with Firefox can also be installed in Tor Browser."
 msgstr ""
+"Tor Browser ทำงานบนพื้นฐานของFirefox "
+"และหากส่วนเสริมเบราว์เซอร์หรือธีมแบบใดก็ตามที่เข้ากันได้กับ Firefox "
+"สามารถติดตั้งใน Tor Browser ได้เช่นกัน"
 
 #: https//tb-manual.torproject.org/plugins/
 #: (content/plugins/contents+en.lrtopic.body)
@@ -1926,16 +1989,21 @@ msgid ""
 " privacy and security. It is strongly discouraged to install additional add-"
 "ons, and the Tor Project will not offer support for these configurations."
 msgstr ""
+"อย่างไรก็ตาม มีเฉพาะส่วนเสริมที่ทดสอบกับ Tor Browser ในการตั้งค่าเริ่มต้น "
+"การติดตั้งส่วนเสริมเบราว์เซอร์อาจทำลายฟังก์ชั่นใน Tor Browser "
+"หรือสร้างปัญหาร้ายแรงที่ส่งผลต่อความเป็นส่วนตัวและความปลอดภัยของคุณ "
+"เราไม่แนะนำให้ติดตั้งส่วนเสริมเพิ่มเติม และ Tor Project "
+"จะไม่ให้บริการสนับสนุนการกำหนดค่าดังกล่าว"
 
 #: https//tb-manual.torproject.org/troubleshooting/
 #: (content/troubleshooting/contents+en.lrtopic.title)
 msgid "TROUBLESHOOTING"
-msgstr ""
+msgstr "การแก้ไขปัญหา"
 
 #: https//tb-manual.torproject.org/troubleshooting/
 #: (content/troubleshooting/contents+en.lrtopic.description)
 msgid "What to do if Tor Browser doesn’t work"
-msgstr ""
+msgstr "คุณจะทำอย่างไรถ้า Tor บราวเซอร์ไม่ทำงาน"
 
 #: https//tb-manual.torproject.org/troubleshooting/
 #: (content/troubleshooting/contents+en.lrtopic.body)
@@ -1944,6 +2012,9 @@ msgid ""
 " running the program, and clicking the “Connect” button if you are using it "
 "for the first time."
 msgstr ""
+"คุณควรสามารถเริ่มต้นเรียกดูเว็บโดยใช้ Tor Browser "
+"ได้รวดเร็วหลังเปิดการทำงานโปรแกรม "
+"และคลิกปุ่มเชื่อมต่อหากคุณใช้งานมันเป็นครั้งแรก"
 
 #: https//tb-manual.torproject.org/troubleshooting/
 #: (content/troubleshooting/contents+en.lrtopic.body)
@@ -2004,7 +2075,7 @@ msgstr ""
 #: https//tb-manual.torproject.org/troubleshooting/
 #: (content/troubleshooting/contents+en.lrtopic.body)
 msgid "##### IS YOUR CONNECTION CENSORED?"
-msgstr "#####การเชื่อต่อของคุณได้รับการรับรองหรือไม่"
+msgstr "#####การเชื่อมต่อของคุณได้รับการรับรองหรือไม่"
 
 #: https//tb-manual.torproject.org/troubleshooting/
 #: (content/troubleshooting/contents+en.lrtopic.body)
@@ -2058,12 +2129,12 @@ msgstr ""
 #: https//tb-manual.torproject.org/known-issues/
 #: (content/known-issues/contents+en.lrtopic.body)
 msgid "* Webroot SecureAnywhere"
-msgstr ""
+msgstr "* Webroot SecureAnywhere"
 
 #: https//tb-manual.torproject.org/known-issues/
 #: (content/known-issues/contents+en.lrtopic.body)
 msgid "* Kaspersky Internet Security 2012"
-msgstr ""
+msgstr "* Kaspersky Internet Security 2012"
 
 #: https//tb-manual.torproject.org/known-issues/
 #: (content/known-issues/contents+en.lrtopic.body)
@@ -2073,7 +2144,7 @@ msgstr "โปรแกรมป้องกันไวรัส Sophos สำ�
 #: https//tb-manual.torproject.org/known-issues/
 #: (content/known-issues/contents+en.lrtopic.body)
 msgid "* Microsoft Security Essentials"
-msgstr ""
+msgstr "* Microsoft Security Essentials"
 
 #: https//tb-manual.torproject.org/known-issues/
 #: (content/known-issues/contents+en.lrtopic.body)
