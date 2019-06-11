@@ -1,8 +1,8 @@
 # Tor Outreach Material 2019-2020
 
-# 1. TOR FOR PRIVACY 
+# 1. TOR PER A LA PRIVADESA
 
-### Privacy is a human right
+### La privadesa és un dret humà
 
 Like many of us, Aleisha spends most of her time online--connecting with friends, posting on social media, and browsing the web.
 
@@ -16,9 +16,9 @@ She goes to a privacy training at a local hackerspace and learns about **Tor Bro
 
 ---
 
-# 2.TOR FOR FEMINISTS 
+# 2. TOR PER AL FEMINISME
 
-### The future is cyberfeminist
+### El futur és ciberfeminista
 
 Fernanda runs a women's collective focused on reproductive rights in Brazil, where abortion is illegal.
 
