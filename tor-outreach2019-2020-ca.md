@@ -4,13 +4,13 @@
 
 ### La privadesa és un dret humà
 
-Like many of us, Aleisha spends most of her time online--connecting with friends, posting on social media, and browsing the web.
+Com molts de nosaltres, l'Aleisha gasta la major part del seu temps connectant en línia amb els amics, escrivint a les xarxes socials i navegant per la web.
 
-But lately, she's noticed that advertisements related to her previous searches are following her around online.
+Però darrerament ha notat que els anuncis relacionats amb les cerques que ha fet anteriorment la segueixen arreu.
 
-This feels so invasive that she does some research on online ads and learns that it's not just advertisers tracking her but also her ISP, analytics companies, social media platforms, and more.
+Això ho troba tan invasiu que fa una mica de recerca sobre la publicitat en línia i aprèn que no és només que els anunciants la segueixin, sinó que també ho fan el seu proveïdor de serveis a Internet, les companyies d'anàlisi, plataformes de mitjans de comunicació, xarxes socials i altres entitats.
 
-Aleisha decides she wants to find and use software that doesn't collect her data, doesn't track her, and doesn't tell other services anything private about her.
+L'Aleisha decideix que vol trobar i usar algun programari que no reculli dades sobre ella, que no la segueixi i que no cedeixi a altres servies cap informació privada sobre ella.
 
 She goes to a privacy training at a local hackerspace and learns about **Tor Browser**, the only web browser that allows her to browse anonymously.
 
@@ -20,17 +20,17 @@ She goes to a privacy training at a local hackerspace and learns about **Tor Bro
 
 ### El futur és ciberfeminista
 
-Fernanda runs a women's collective focused on reproductive rights in Brazil, where abortion is illegal.
+La Fernanda participa en un col·lectiu de dones sobre drets reproductius al Brasil, on l'avortament és il·legal.
 
-Fernanda and her colleagues built a website with information about abortion access, birth control, and other resources for people seeking reproductive information.
+La Fernanda i les seves col·legues han muntat un lloc web amb informació sobre accés a l'avortament, control de natalitat i altres recursos per a persones que cerquen informació sobre planificació familiar.
 
-If this website was linked back to them, they could be arrested--or worse. 
+Si aquest lloc web es vincula amb elles, podrien arrestar-les, o  pitjor.
 
 To protect themselves, Fernanda and her colleagues created the website using Tor **onion services**. Onion services not only protect them from being discovered as the operators of the server but also help protect visitors to their website by requiring they use Tor Browser. 
 
-In fact, Fernanda uses **Tor Browser** for all of her web browsing just to be on the safe side.
+De fet, la Fernanda usa el **navegador Tor** per a qualsevol navegació web que fa, només per a estar segura.
 
-She also uses a Tor-powered app called **OnionShare** to send files to other activists securely and privately. 
+També usa una aplicació basada en Tor anomenada **OnionShare** per a enviar fitxers a altres activistes de forma segura i privada.
 
 ### Reproductive rights activists like Fernanda are fighting for fundamental freedoms, and Tor helps power their resistance.
 
@@ -40,11 +40,11 @@ She also uses a Tor-powered app called **OnionShare** to send files to other act
 
 ### L'aigua és vida
 
-Jelani lives in a small village  which a wide river runs through.
+El Jelani viu en un petit poble, travessat per un ample riu.
 
-This river has provided water to his community since the days of his ancestors. 
+Aquest riu ha proporcionat l'aigua a la gent del poble des de fa moltes generacions.
 
-But today, Jelani’s river is threatened by powerful multinational companies drilling for oil in the region.
+Però actualment el riu del Jelani està amençat per grans empreses multinacionals que perforen buscant petroli a la regió.
 
 Private security firms, paid for by these companies, use powerful surveillance mechanisms to monitor the online activities of Jelani and his neighbors in the village who are organizing to protect their sacred river. 
 
@@ -60,7 +60,7 @@ All of this software uses Tor to help protect Jelani’s privacy.
 
 # 4. TOR PER A L'ANTICENSURA
 
-### Build bridges not walls
+### Construïu ponts i no murs
 
 Jean was traveling for the first time to a country far from his family.
 
@@ -94,24 +94,24 @@ With Tor Browser, Jean can browse freely and privately and contact his family.
 
 ## Què és Tor?
 
-Tor is free software and an open network that helps protect you from tracking, surveillance, and censorship online.
-Tor is created for free by a 501(c)3 U.S.-based nonprofit called the Tor Project. 
+Tor és programari lliure i gratuït i una xarxa oberta que us ajuda a protegir-vos del seguiment, vigilància i censura en línia.
+Tor es va crear gratuïtament per una entitat sense afany de lucre 501(c)3 dels EUA anomenada «Tor Project».
 
-The easiest way to use Tor is Tor Browser.
-When you use Tor Browser, no one can see what websites you visit or where in the world you’re coming from. 
+La forma més fàcil d'usar Tor és amb el navegador Tor.
+Si useu el navegador Tor, ningú no pot veure quins llocs web visiteu o des de quina part del món us connecteu.
 
-Other applications, like SecureDrop and OnionShare, use Tor to protect their users against surveillance and censorship.
+Altres aplicacions, com SecureDrop i OnionShare, usen Tor per a protegir els usuaris contra la vigilància i la censura.
 
 
 ## 6. Com funciona Tor?
 
-Amal wants to visit Bekele’s website privately, so she opens Tor Browser.
+L'Amal vol visitar el lloc web del Bekele de forma privada, per  tant obre el navegador Tor.
 
 Tor Browser selects a random circuit of three relays, which are computers all over the world configured to route traffic over the Tor network.
 
 Tor Browser then encrypts her website request three times and sends it to the first Tor relay in her circuit.
 
-The first relay removes the first encryption layer but doesn't learn that the destination is Bekele’s website.
+El primer repetidor suprimeix la primera capa de xifratge però no aprèn que la destinació és el lloc web del Bekele.
 
 The first relay learns only the next location in the circuit, which is the second relay.
 
@@ -119,7 +119,7 @@ The second relay removes another encryption layer and forwards the web page requ
 
 The third relay removes the last encryption layer and forwards the web page request to its destination, Bekele’s website, but it doesn't know the request comes from Amal.
 
-Bekele doesn't know that the website request came from Amal unless she tells him so.
+El Bekele no sap que la petició del lloc web prové de l'Amal, llevat que ella li ho digui.
 
 ## 7. Qui usa Tor?
 
@@ -155,8 +155,8 @@ torproject.org/download
 
 TOR AL MÒBIL
 ### Android
-Tor Browser for Android is available from GooglePlay.
+El navegador Tor per a l'Android és disponible des de GooglePlay.
 
 ### iOS
-Onion Browser, developed by M. Tigas, is the only browser we recommend for iOS.
+El navegador Onion, desenvolupat per M. Tigas, és l'únic navegador que recomanem per a iOS.
 
