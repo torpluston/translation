@@ -76,15 +76,15 @@ Després de cerca per la web, troba un fòrum i llegeix sobre xarxes privades vi
 
 El Jean perd hora i mitja intentant imaginar quin dels VPN barats és millor.
 
-En tria un i per un moment sembla que funciona, però després de 5 minuts, la connexió fall i la VPN ja no connecta més.
+En va triar un i per un moment va semblar que funciona, però després de 5 minuts, la connexió va fallar i la VPN ja no connectava més.
 
 Jean kept reading to find other options and learned about Tor Browser and how it can circumvent censorship.
 
-He found an official website mirror to download the program.
+Va trobar un mirall del lloc web oficial d'on baixar el programa.
 
 When he opened **Tor Browser**, he followed the prompts for censored users and connected to a bridge which allowed him to access the internet again.
 
-With Tor Browser, Jean can browse freely and privately and contact his family. 
+Amb el navegador Tor, el Jean pot navegar lliurement i privada i contactar amb la seva família.
 
 ### Censored users all over the world rely on Tor Browser for a free, stable, and uncensored way to access the internet.
 
@@ -109,13 +109,13 @@ L'Amal vol visitar el lloc web del Bekele de forma privada, per  tant obre el na
 
 Tor Browser selects a random circuit of three relays, which are computers all over the world configured to route traffic over the Tor network.
 
-Tor Browser then encrypts her website request three times and sends it to the first Tor relay in her circuit.
+El navegador Tor xifra la petició del lloc web tres vegades i ho envia al primer repetidor Tor del circuit.
 
 El primer repetidor suprimeix la primera capa de xifratge però no aprèn que la destinació és el lloc web del Bekele.
 
-The first relay learns only the next location in the circuit, which is the second relay.
+El primer repetidor només sap la ubicació següent en el circuit, que és el segon repetidor.
 
-The second relay removes another encryption layer and forwards the web page request to the third relay.
+El segon repetidor suprimeix una altra cap de xifratge i reenvia la petició de la pàgina web al tercer repetidor.
 
 The third relay removes the last encryption layer and forwards the web page request to its destination, Bekele’s website, but it doesn't know the request comes from Amal.
 
@@ -131,7 +131,7 @@ Tor helps protect journalists, human rights defenders, domestic violence victims
 
 Tor is designed for privacy. We don’t know who our users are, and we don't keep logs of user activity.
 
-Tor relay operators cannot reveal the true identity of Tor users.
+Els operadors de repetidors Tor no poden revelar la identitat real dels usuaris Tor.
 
 Continual peer review of Tor's source code by academic and open source communities ensures that there are no backdoors in Tor, and our social contract promises that we will never backdoor Tor. 
 
@@ -139,7 +139,7 @@ Continual peer review of Tor's source code by academic and open source communiti
 
 Tor is made possible by a diverse set of users, developers, relay operators, and advocates from around the world.
 
-We need your help to make Tor more usable and secure for people everywhere.
+Ens cal la vostra ajuda per a fer Tor més usable i segur per a tothom.
 
 You can volunteer with Tor by writing code, running a relay, creating documentation, offering user support, or telling people in your community about Tor.
 
