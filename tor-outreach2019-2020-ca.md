@@ -32,7 +32,7 @@ De fet, la Fernanda usa el **navegador Tor** per a qualsevol navegació web que 
 
 També usa una aplicació basada en Tor anomenada **OnionShare** per a enviar fitxers a altres activistes de forma segura i privada.
 
-### Reproductive rights activists like Fernanda are fighting for fundamental freedoms, and Tor helps power their resistance.
+### Els activistes sobre els drets de reproducció com la Fernanda lluiten per les llibertats individuals i Tor els ajuda en la seva resistència.
 
 ---
 
@@ -50,7 +50,7 @@ Private security firms, paid for by these companies, use powerful surveillance m
 
 Jelani uses **Tor Browser** to prevent these companies from watching as he visits websites for international human rights protection and legal aid and writes blog posts about the resistance movement in his village.
 
-He also uses **OnionShare** and **SecureDrop** to securely send documents to journalists who are helping expose these human rights violations.
+També usa **OnionShare** i **SecureDrop** per a enviar de forma segura documents a periodistes que ajuden a denunciar aquestes violacions de drets humans.
 
 All of this software uses Tor to help protect Jelani’s privacy. 
 
@@ -62,21 +62,21 @@ All of this software uses Tor to help protect Jelani’s privacy.
 
 ### Construïu ponts i no murs
 
-Jean was traveling for the first time to a country far from his family.
+El Jean era de viatge a l'estranger, per primera vegada lluny de la família.
 
-After arriving at a hotel, he opened his laptop.
+Després d'arribar a un hotel, va obrir el portàtil
 
 He was so exhausted that when the message "Connection has timed out" first appeared on his web browser, he thought it was due to his own error.
 
-But after trying again and again, he realized that his email provider, a news website, and many apps were unavailable. 
+Després d'intentar-ho una vegada i una altra, va adonar-se que el seu proveïdor de correu, un lloc de notícies, i moltes altres aplicacions, no són disponibles.
 
-He had heard that this country censors the internet and wondered if that was happening.
-How could he contact his family from behind this impenetrable wall?
-After doing some web searches, he found a forum and read about VPNs, private services that allow you to connect to another uncensored network.
+Ha sentit que aquest país censura Internet i es pregunta si això és el que està passant.
+Com pot contactar amb la seva família des d'aquest mur impenetrable?
+Després de cerca per la web, troba un fòrum i llegeix sobre xarxes privades virtuals, serveis privats que us permeten connectar a altres xarxes no censurades.
 
-Jean spent half an hour trying to figure out which cheap VPN was best.
+El Jean perd hora i mitja intentant imaginar quin dels VPN barats és millor.
 
-He chose one and for a moment it seemed to work, but after five minutes the connection went offline and the VPN would no longer connect. 
+En tria un i per un moment sembla que funciona, però després de 5 minuts, la connexió fall i la VPN ja no connecta més.
 
 Jean kept reading to find other options and learned about Tor Browser and how it can circumvent censorship.
 
