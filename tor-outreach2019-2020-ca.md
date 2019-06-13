@@ -125,11 +125,11 @@ El Bekele no sap que la petició del lloc web prové de l'Amal, llevat que ella 
 
 People all over the world use Tor to protect their privacy and access the web freely.
 
-Tor helps protect journalists, human rights defenders, domestic violence victims, academic researchers, and anyone experiencing tracking, censorship, or surveillance. 
+Tor ajuda a protegir els periodistes, defensors dels drets humans, víctimes de violència domèstica, investigadors acadèmics i qualsevol persona que experimenti seguiment, censura i vigilància.
 
 ## 6. Per què confiar en Tor?
 
-Tor is designed for privacy. We don’t know who our users are, and we don't keep logs of user activity.
+Tor és dissenyat per la privadesa. No sabem qui són els nostres usuaris i no conservem registres de la seva activitat.
 
 Els operadors de repetidors Tor no poden revelar la identitat real dels usuaris Tor.
 
