@@ -46,59 +46,59 @@ Sungai ini telah menyediakan air untuk komunitasnya sejak zaman nenek moyangnya.
 
 Namun hari ini, sungai Jelani terancam oleh perusahaan multinasional kuat yang melakukan pengeboran minyak di wilayah tersebut.
 
-Private security firms, paid for by these companies, use powerful surveillance mechanisms to monitor the online activities of Jelani and his neighbors in the village who are organizing to protect their sacred river. 
+Firma keamanan privat yang dibayar oleh perusahaan ini, menggunakan mekanisme pengawasan yang kuat untuk memantau aktivitas daring Jelani dan tetangganya di desa yang melakukan pengorganisiran untuk melindungi sungai sakral mereka.
 
-Jelani uses **Tor Browser** to prevent these companies from watching as he visits websites for international human rights protection and legal aid and writes blog posts about the resistance movement in his village.
+Jelani menggunakan **Tor Browser** untuk mencegah perusahaan ini mengamati dia saat mengunjungi situs web untuk perlindungan hak asasi internasional dan bantuan hukum dan menulis blog tentang gerakan perlawanan di desanya.
 
-He also uses **OnionShare** and **SecureDrop** to securely send documents to journalists who are helping expose these human rights violations.
+Dia juga menggunakan **OnionShare** dan **SecureDrop** untuk mengirimkan dokument secara aman kepada jurnalis-jurnalis yang membantu mengekspos pelanggaran hak asasi manusia ini.
 
-All of this software uses Tor to help protect Jelani’s privacy. 
+Semua perangkat lunak ini menggunakan Tor untuk membantu melindungi privasi Jelani.
 
-### Human rights activists like Jelani are fighting for justice in their communities, and Tor helps power their resistance.
-
----
-
-# 4. TOR FOR ANTI-CENSORSHIP
-
-### Build bridges not walls
-
-Jean was traveling for the first time to a country far from his family.
-
-After arriving at a hotel, he opened his laptop.
-
-He was so exhausted that when the message "Connection has timed out" first appeared on his web browser, he thought it was due to his own error.
-
-But after trying again and again, he realized that his email provider, a news website, and many apps were unavailable. 
-
-He had heard that this country censors the internet and wondered if that was happening.
-How could he contact his family from behind this impenetrable wall?
-After doing some web searches, he found a forum and read about VPNs, private services that allow you to connect to another uncensored network.
-
-Jean spent half an hour trying to figure out which cheap VPN was best.
-
-He chose one and for a moment it seemed to work, but after five minutes the connection went offline and the VPN would no longer connect. 
-
-Jean kept reading to find other options and learned about Tor Browser and how it can circumvent censorship.
-
-He found an official website mirror to download the program.
-
-When he opened **Tor Browser**, he followed the prompts for censored users and connected to a bridge which allowed him to access the internet again.
-
-With Tor Browser, Jean can browse freely and privately and contact his family. 
-
-### Censored users all over the world rely on Tor Browser for a free, stable, and uncensored way to access the internet.
+### Aktivis hak asasi manusia seperti Jelani berjuang untuk keadilan di komunitas mereka, dan Tor membantu menggerakan perlawanan mereka.
 
 ---
 
-# 5. Shared Sections
+# 4. TOR UNTUK ANTI SENSOR
+
+### Bangun jembatan bukan tembok
+
+Jean bepergian untuk pertama kalinya ke sebuah negara yang jauh dari keluarganya.
+
+Setelah tiba di hotel, dia membuka laptopnya.
+
+Dia sangat lelah saat pesan "Koneksi habis" pertama kali muncul pada peramban webnya, dia pikir itu berasal dari kesalahannya sendiri.
+
+Namun saat mencoba lagi dan lagi, dia menyadari bahwa penyedia surel, situs web berita, dan banyak aplikasi yang tidak tersedia.
+
+Dia telah mendengar bahwa negara ini menyensor internet dan bertanya-tanya apakah itu yang terjadi.
+Bagaimana dia dapat menghubungi keluarganya dari balik tembok yang tidak bisa ditembus?
+Setelah dia melakukan beberapa kali pencarian web, dia menemukan sebuah forum dan membaca tentang VPN, layanan privat yang memungkinkan Anda untuk terhubung ke sebuah jaringan lain tanpa sensor.
+
+Jean menghabiskan waktu setengah jam mencoba untuk mencari tahu manakah VPN murah yang terbaik.
+
+Dia memilih satu dan tampak bekerja untuk sesaat, namun setelah lima menit sambungannya putus dan VPN tersebut tidak mau terhubung lagi.
+
+Jean terus membaca untuk mencari opsi lain dan mempelajari tentang Tor Browser dan bagaimana itu bisa mengelakkan sensor.
+
+Dia menemukan situs bayangan resmi untuk mengunduh progamnya.
+
+Saat dia membuka **Tor Browser**, dia mengikuti anjuran untuk pengguna yang disensor dan terhubung ke sebuah bridge yang memungkinkan dia mengakses internet lagi.
+
+Dengan Tor Browser, Jean dapat meramban secara bebas dan privat dan menghubungi keluarganya.
+
+### Pengguna yang disensor di seluruh dunia mengandalkan Tor Browser untuk cara yang bebas, stabil, dan tanpa sensor dalam mengakses internet.
+
+---
+
+# 5. Bagian Bersama
 
 ## Apa itu Tor?
 
-Tor is free software and an open network that helps protect you from tracking, surveillance, and censorship online.
-Tor is created for free by a 501(c)3 U.S.-based nonprofit called the Tor Project. 
+Tor adalah perangkat lunak gratis dan sebuah jaringan terbuka yang membantu melindungi Anda dari pelacakan, pengawasan, dan penyensoran daring.
+Tor dibuat secara gratis oleh sebuah organisasi nirlaba 501(c)3 berbasis di Amerika Serikat bernama Tor Project.
 
-The easiest way to use Tor is Tor Browser.
-When you use Tor Browser, no one can see what websites you visit or where in the world you’re coming from. 
+Cara paling mudah menggunakan Tor adalah Tor Browser.
+Saat Anda menggunakan Tor Browser, tidak ada seorangpun yang dapat melihat situs web apa yang Anda kunjungi atau dari mana Anda berasal.
 
 Other applications, like SecureDrop and OnionShare, use Tor to protect their users against surveillance and censorship.
 
