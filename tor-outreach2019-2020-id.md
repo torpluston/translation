@@ -30,9 +30,9 @@ Untuk melindungi diri mereka, Fernanda dan koleganya membuat situs web tersebut 
 
 Faktanya, Fernanda menggunakan **Tor Browser** untuk segala aktivitas penjelajahan webnya untuk berada di sisi yang aman.
 
-She also uses a Tor-powered app called **OnionShare** to send files to other activists securely and privately. 
+Dia juga menggunakan aplikasi yang menggunakan jaringan Tor yang disebut **OnionShare** untuk mengirimkan berkas kepada aktifis lainnya secara aman dan privat.
 
-### Reproductive rights activists like Fernanda are fighting for fundamental freedoms, and Tor helps power their resistance.
+### Aktivis hak reproduksi seperti Fernanda berjuang untuk kebebasan dasar, dan Tor membantu menggerakan perlawanan mereka.
 
 ---
 
@@ -40,11 +40,11 @@ She also uses a Tor-powered app called **OnionShare** to send files to other act
 
 ### Air adalah kehidupan
 
-Jelani lives in a small village  which a wide river runs through.
+Jelani tinggal di sebuah desa kecil yang dilewati sungai besar.
 
-This river has provided water to his community since the days of his ancestors. 
+Sungai ini telah menyediakan air untuk komunitasnya sejak zaman nenek moyangnya.
 
-But today, Jelani’s river is threatened by powerful multinational companies drilling for oil in the region.
+Namun hari ini, sungai Jelani terancam oleh perusahaan multinasional kuat yang melakukan pengeboran minyak di wilayah tersebut.
 
 Private security firms, paid for by these companies, use powerful surveillance mechanisms to monitor the online activities of Jelani and his neighbors in the village who are organizing to protect their sacred river. 
 
