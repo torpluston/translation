@@ -100,44 +100,44 @@ Tor dibuat secara gratis oleh sebuah organisasi nirlaba 501(c)3 berbasis di Amer
 Cara paling mudah menggunakan Tor adalah Tor Browser.
 Saat Anda menggunakan Tor Browser, tidak ada seorangpun yang dapat melihat situs web apa yang Anda kunjungi atau dari mana Anda berasal.
 
-Other applications, like SecureDrop and OnionShare, use Tor to protect their users against surveillance and censorship.
+Aplikasi lainnya, seperti SecureDrop dan OnionShare, menggunakan Tor untuk melindungi pengguna mereka dari pengawasan dan sensor.
 
 
-## 6. How does Tor work?
+## 6. Bagaimana Tor bekerja?
 
-Amal wants to visit Bekele’s website privately, so she opens Tor Browser.
+Amal ingin mengunjungi situs web Bekele secara privat, lalu dia membuka Tor Browser.
 
-Tor Browser selects a random circuit of three relays, which are computers all over the world configured to route traffic over the Tor network.
+Tor Browser memilih sirkuit acak dari tiga relai, yang terdiri dari komputer-komputer di seluruh dunia yang dikonfigurasikan untuk mengarahkan lalu lintas melalui jaringan Tor.
 
-Tor Browser then encrypts her website request three times and sends it to the first Tor relay in her circuit.
+Tor Browser lalu mengenkripsi permintaan situs webnya sebanyak tiga kali dan mengirimkannya ke relai Tor pertama pada sirkuit.
 
-The first relay removes the first encryption layer but doesn't learn that the destination is Bekele’s website.
+Relai pertama menghapus lapisan enkripsi pertama namun tidak mengetahui bahwa tujuannya adalah ke situs web Bekele.
 
-The first relay learns only the next location in the circuit, which is the second relay.
+Relai pertama hanya mengetahui lokasi berikutnya dalam sirkuit tersebut, yaitu relai kedua.
 
-The second relay removes another encryption layer and forwards the web page request to the third relay.
+Relai kedua menghapus lapisan enkripsi lainnya dan meneruskan permintaan halaman web kepada relai ketiga.
 
-The third relay removes the last encryption layer and forwards the web page request to its destination, Bekele’s website, but it doesn't know the request comes from Amal.
+Relai ketiga menghapus lapisan enkripsi terakhir dan meneruskan permintaan halaman web kepada tujuannya, situs web Bekele, namun tidak mengetahui permintaan tersebut berasal dari Amal.
 
-Bekele doesn't know that the website request came from Amal unless she tells him so.
+Bekele tidak mengetahui bahwa permintaan situs web tersebut berasal dari Amal kecuali dia memberitahukannya.
 
-## 7. Who uses Tor? 
+## 7. Siapa yang menggunakan Tor?
 
-People all over the world use Tor to protect their privacy and access the web freely.
+Orang di seluruh dunia menggunakan Tor untuk melindungi privasi mereka dan mengakses web secara bebas.
 
-Tor helps protect journalists, human rights defenders, domestic violence victims, academic researchers, and anyone experiencing tracking, censorship, or surveillance. 
+Tor membantu melindungi jurnalis, aktivis hak asasi manusia, korban kekerasan domestik, peneliti akademis, dan siapa saja yang mengalami pelacakan, sensor, atau pengawasan.
 
-## 6. Why trust Tor?
+## 6. Mengapa memercayai Tor?
 
-Tor is designed for privacy. We don’t know who our users are, and we don't keep logs of user activity.
+Tor didesain untuk privasi. Kami tidak mengetahui siapa saja pengguna kami, dan kami tidak menyimpan catatan dari aktivitas pengguna.
 
-Tor relay operators cannot reveal the true identity of Tor users.
+Operator relai Tor tidak dapat menyingkap identitas sesungguhnya dari pengguna Tor.
 
-Continual peer review of Tor's source code by academic and open source communities ensures that there are no backdoors in Tor, and our social contract promises that we will never backdoor Tor. 
+Peninjauan bersama terus menerus atas kode sumber Tor oleh akademisi dan komunitas sumber terbuka (open source) memastikan tidak ada pintu belakang (backdoor) pada Tor, dan kontrak sosial kami berjanji bahwa kami tidak akan membuat backdoor pada Tor.
 
-## 7. Join the Tor community
+## 7. Bergabung dengan komunitas Tor
 
-Tor is made possible by a diverse set of users, developers, relay operators, and advocates from around the world.
+Tor dimungkinkan oleh beragam pengguna, pengembang, operator relai, dan advokat dari seluruh dunia.
 
 We need your help to make Tor more usable and secure for people everywhere.
 
