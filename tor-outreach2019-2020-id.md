@@ -22,13 +22,13 @@ Ia pergi ke sebuah pelatihan privasi di sebuah ruangretas (hackerspace) lokal da
 
 Fernanda menjalankan sebuah kolektif perempuan yang fokus pada hak-hak reproduksi di Brazil, di mana aborsi adalah ilegal.
 
-Fernanda and her colleagues built a website with information about abortion access, birth control, and other resources for people seeking reproductive information.
+Fernanda dan koleganya membangun sebuah situs web yang memberikan informasi mengenai akses terhadap aborsi, alat kontrasepsi dan sumber-sumber lainnya untuk orang yang sedang mencari informasi tentang reproduksi.
 
-If this website was linked back to them, they could be arrested--or worse. 
+Bila situs web ini terhubung kembali ke mereka, mereka bisa ditahan--atau lebih buruk lagi.
 
-To protect themselves, Fernanda and her colleagues created the website using Tor **onion services**. Onion services not only protect them from being discovered as the operators of the server but also help protect visitors to their website by requiring they use Tor Browser. 
+Untuk melindungi diri mereka, Fernanda dan koleganya membuat situs web tersebut menggunakan **layanan onion** Tor. Layanan onion tidak hanya melindungi dari terungkapnya mereka sebagai operator dari peladen situs web tersebut tapi juga membantu melindungi pengunjung situs web mereka dengan mensyaratkan penggunaan Tor Browser.
 
-In fact, Fernanda uses **Tor Browser** for all of her web browsing just to be on the safe side.
+Faktanya, Fernanda menggunakan **Tor Browser** untuk segala aktivitas penjelajahan webnya untuk berada di sisi yang aman.
 
 She also uses a Tor-powered app called **OnionShare** to send files to other activists securely and privately. 
 
