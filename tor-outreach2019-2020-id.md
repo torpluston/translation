@@ -139,24 +139,24 @@ Peninjauan bersama terus menerus atas kode sumber Tor oleh akademisi dan komunit
 
 Tor dimungkinkan oleh beragam pengguna, pengembang, operator relai, dan advokat dari seluruh dunia.
 
-We need your help to make Tor more usable and secure for people everywhere.
+Kami membutuhkan bantuan Anda untuk membuat Tor lebih dapat digunakan dan aman untuk orang di mana pun.
 
-You can volunteer with Tor by writing code, running a relay, creating documentation, offering user support, or telling people in your community about Tor.
+Anda dapat menjadi sukarelawan bersama Tor dengan cara menulis kode, menjalankan relai, membuat dokumentasi, menawarkan bantuan pengguna, atau memberitahukan orang di komunitas Anda mengenai Tor.
 
-The Tor community is governed by a code of conduct, and we outline our set of promises to the community in our social contract. 
+Komunitas Tor diatur oleh sebuah kode etik, dan kami menggarisbawahi janji-janji kami kepada komunitas dalam kontrak sosial kami.
 
-Learn more about Tor by visiting our website, our wiki, finding us on IRC, joining one of our mailing lists, or signing up for Tor News at newsletter.torproject.org.
+Pelajari lebih lanjut mengenai Tor dengan mengunjungi situs web kami, wiki kami, temukan kami pada IRC, bergabung ke salah satu milis kami, atau mendaftar untuk Berita Tor di newsletter.torproject.org.
 
 
-## 8. Download Tor
+## 8. Unduh Tor
 
-Tor for Desktop
+Tor untuk Komputer
 torproject.org/download
 
-TOR ON MOBILE
-### Android 
-Tor Browser for Android is available from GooglePlay.
+TOR UNTUK PONSEL
+### Android
+Tor Browser untuk Android telah tersedia di GooglePlay.
 
 ### iOS
-Onion Browser, developed by M. Tigas, is the only browser we recommend for iOS.
+Onion Browser, dikembangkan oleh M. Tigas, adalah satu-satunya peramban yang kami rekomendasikan untuk iOS.
 
