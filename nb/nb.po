@@ -5,18 +5,21 @@
 # Translators:
 # Allan Nordhøy <epost@anotheragency.no>, 2014
 # Allan Nordhøy <epost@anotheragency.no>, 2015-2018
+# a356f726dcd9c475642ac26af10009cc, 2019
+# Emma Peel, 2019
+# Espen Krogsrud Brekken <espbre@gmail.com>, 2019
 # John Henningsen <henningsen.teknikk@gmail.com>, 2015
 # 81149148127a5edca7d06dcbfba79969, 2013-2014
 # trash <nicolaip@outlook.com>, 2013
-# Tom Larsen <lavahd@protonmail.ch>, 2019
+# 4ea9f8151a43bd83aa50e2a598f30349, 2019
 # 9d7045af8ca83a89b1b4bf48a2c67786, 2018
 msgid ""
 msgstr ""
 "Project-Id-Version: Tor Project\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-01-02 09:26+0100\n"
-"PO-Revision-Date: 2019-01-23 17:03+0000\n"
-"Last-Translator: Tom Larsen <lavahd@protonmail.ch>\n"
+"POT-Creation-Date: 2019-04-13 08:42+0200\n"
+"PO-Revision-Date: 2019-06-21 11:23+0000\n"
+"Last-Translator: Espen Krogsrud Brekken <espbre@gmail.com>\n"
 "Language-Team: Norwegian Bokmål (http://www.transifex.com/otf/torproject/language/nb/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -313,14 +316,17 @@ msgid "Tails Installer"
 msgstr "Tails-installasjonskandidat"
 
 #: ../tails_installer/gui.py:441
-msgid "Tails Installer is deprecated"
-msgstr "Tails Installer er foreldet"
+msgid "Tails Installer is deprecated in Debian"
+msgstr "Tails Installer er utdatert i Debian"
 
 #: ../tails_installer/gui.py:443
 msgid ""
-"To install a new Tails, see the <a href='https://tails.boum.org/install/'>installation documentation</a>.\n"
-"To upgrade an existing Tails, see the <a href='https://tails.boum.org/upgrade/'>upgrade documentation</a>."
-msgstr "For å installere en ny Tails, se <a href='https://tails.boum.org/install/'>installasjonsdokumentasjonen</a>.\nFor å oppgradere eksisterende Tails, se <a href='https://tails.boum.org/upgrade/'>oppgraderingsdokumentasjonen</a>."
+"To install Tails from scratch, use GNOME Disks instead.\n"
+"<a href='https://tails.boum.org/install/linux/usb-overview'>See the installation instructions</a>\n"
+"\n"
+"To upgrade Tails, do an automatic upgrade from Tails or a manual upgrade from Debian using a second USB stick.\n"
+"<a href='https://tails.boum.org/upgrade/tails-overview'>See the manual upgrade instructions</a>"
+msgstr "For å installere Tails fra bunnen av, bruk GNOME disker i stedet.\n<a href='https://tails.boum.org/install/linux/usb-overview'>Se installasjonsveiledningen</a>\n\nFor å oppgradere Tails: utfør en automatisk oppgradering fra Tails eller en manuell oppgradering fra Debian ved hjelp av en USB-minnepinne nummer to.\n<a href='https://tails.boum.org/upgrade/tails-overview'>Se veiledningen for manuell installasjon</a>"
 
 #: ../tails_installer/gui.py:450 ../data/tails-installer.ui.h:2
 msgid "Clone the current Tails"
@@ -381,8 +387,8 @@ msgstr "Plugg inn en USB-minnepinne eller SD-kort på minst %0.1f GB."
 #, python-format
 msgid ""
 "The USB stick \"%(pretty_name)s\" is configured as non-removable by its "
-"manufacturer and Tails will fail to start on it. Please try installing on a "
-"different model."
+"manufacturer and Tails will fail to start from it. Please try installing on "
+"a different model."
 msgstr "USB-minnepinnen \"%(pretty_name)s\" er satt opp som ikke-fjernbar av fabrikken og Tails klarer ikke å starte fra den. Prøv å installere på en annen modell."
 
 #: ../tails_installer/gui.py:618
@@ -481,16 +487,16 @@ msgstr "Kunne ikke bruke den angitte filen. Du kan være heldigere hvis du flytt
 msgid "%(filename)s selected"
 msgstr "%(filename)s valgt"
 
-#: ../tails_installer/source.py:28
+#: ../tails_installer/source.py:29
 msgid "Unable to find LiveOS on ISO"
 msgstr "Klarte ikke å finne LiveOS på ISO"
 
-#: ../tails_installer/source.py:34
+#: ../tails_installer/source.py:35
 #, python-format
 msgid "Could not guess underlying block device: %s"
 msgstr "Kan ikke gjette seg til underliggende blokk-enhet: %s"
 
-#: ../tails_installer/source.py:49
+#: ../tails_installer/source.py:50
 #, python-format
 msgid ""
 "There was a problem executing `%s`.\n"
@@ -498,29 +504,29 @@ msgid ""
 "%s"
 msgstr "Problem under kjøring av '%s'.\n%s\n%s"
 
-#: ../tails_installer/source.py:63
+#: ../tails_installer/source.py:64
 #, python-format
 msgid "'%s' does not exist"
 msgstr "'%s' finnes ikke"
 
-#: ../tails_installer/source.py:65
+#: ../tails_installer/source.py:66
 #, python-format
 msgid "'%s' is not a directory"
 msgstr "'%s' er ikke ei mappe"
 
-#: ../tails_installer/source.py:75
+#: ../tails_installer/source.py:76
 #, python-format
 msgid "Skipping '%(filename)s'"
 msgstr "Hopper over '%(filename)s'"
 
-#: ../tails_installer/utils.py:44
+#: ../tails_installer/utils.py:55
 #, python-format
 msgid ""
 "There was a problem executing `%s`.%s\n"
 "%s"
 msgstr "Problem under kjøring av '%s'.%s\n%s"
 
-#: ../tails_installer/utils.py:124
+#: ../tails_installer/utils.py:135
 msgid "Could not open device for writing."
 msgstr "Kunne ikke åpne enhet for skriving."
 
