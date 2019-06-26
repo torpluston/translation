@@ -150,7 +150,7 @@ Learn more about Tor by visiting our website, our wiki, finding us on IRC, joini
 
 ## 8. Download Tor
 
-Tor for Desktop
+Tor mahaigainean
 torproject.org/download
 
 TOR ON MOBILE
