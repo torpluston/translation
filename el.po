@@ -28,8 +28,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Tor Project\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-05-18 19:31+0200\n"
-"PO-Revision-Date: 2019-05-19 13:21+0000\n"
+"POT-Creation-Date: 2019-06-30 18:53+0200\n"
+"PO-Revision-Date: 2019-07-01 01:04+0000\n"
 "Last-Translator: carolyn <carolyn@anhalt.org>\n"
 "Language-Team: Greek (http://www.transifex.com/otf/torproject/language/el/)\n"
 "MIME-Version: 1.0\n"
@@ -443,11 +443,11 @@ msgstr "Κλείδωμα οθόνης"
 msgid "Set up a password to unlock the screen."
 msgstr "Όρισε κωδικό για το κλείδωμα της οθόνης."
 
-#: config/chroot_local-includes/usr/local/bin/tails-screen-locker:136
+#: config/chroot_local-includes/usr/local/bin/tails-screen-locker:149
 msgid "Password"
 msgstr "Κωδικός ασφαλείας"
 
-#: config/chroot_local-includes/usr/local/bin/tails-screen-locker:142
+#: config/chroot_local-includes/usr/local/bin/tails-screen-locker:150
 msgid "Confirm"
 msgstr "Επιβεβαίωση"
 
@@ -652,6 +652,19 @@ msgid ""
 "Couldn't unlock volume {volume_name}:\n"
 "{error_message}"
 msgstr "Αδυναμία φεκλειδώματος όγκου δεδομένων {volume_name}:\n{error_message}"
+
+#. Translators: Don't translate {volume_name} or {error_message},
+#. they are placeholder and will be replaced.
+#: config/chroot_local-includes/usr/local/lib/python3/dist-packages/unlock_veracrypt_volumes/volume.py:330
+#, python-brace-format
+msgid ""
+"Couldn't lock volume {volume_name}:\n"
+"{error_message}"
+msgstr ""
+
+#: config/chroot_local-includes/usr/local/lib/python3/dist-packages/unlock_veracrypt_volumes/volume.py:332
+msgid "Error locking volume"
+msgstr ""
 
 #: config/chroot_local-includes/usr/local/lib/python3/dist-packages/unlock_veracrypt_volumes/volume_list.py:83
 msgid "No file containers added"

@@ -8,7 +8,7 @@
 # Filip Hruska <fhr@fhrnet.eu>, 2014
 # Pivoj, 2015
 # Jiří Vírava <appukonrad@gmail.com>, 2013-2014
-# trendspotter <j.podhorecky@volny.cz>, 2019
+# Jiří Podhorecký <j.podhorecky@volny.cz>, 2019
 # Plarome, 2019
 # Michal Vašíček <michalvasicek@icloud.com>, 2017
 # multiflexi <multi.flexi@seznam.cz>, 2019
@@ -20,8 +20,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Tor Project\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-05-18 19:31+0200\n"
-"PO-Revision-Date: 2019-05-19 13:21+0000\n"
+"POT-Creation-Date: 2019-06-30 18:53+0200\n"
+"PO-Revision-Date: 2019-07-01 01:04+0000\n"
 "Last-Translator: carolyn <carolyn@anhalt.org>\n"
 "Language-Team: Czech (http://www.transifex.com/otf/torproject/language/cs/)\n"
 "MIME-Version: 1.0\n"
@@ -435,11 +435,11 @@ msgstr "Zámek obrazovky"
 msgid "Set up a password to unlock the screen."
 msgstr "Nastavte heslo pro odemčení obrazovky."
 
-#: config/chroot_local-includes/usr/local/bin/tails-screen-locker:136
+#: config/chroot_local-includes/usr/local/bin/tails-screen-locker:149
 msgid "Password"
 msgstr "Heslo"
 
-#: config/chroot_local-includes/usr/local/bin/tails-screen-locker:142
+#: config/chroot_local-includes/usr/local/bin/tails-screen-locker:150
 msgid "Confirm"
 msgstr "Potvrdit"
 
@@ -643,6 +643,19 @@ msgstr ""
 msgid ""
 "Couldn't unlock volume {volume_name}:\n"
 "{error_message}"
+msgstr ""
+
+#. Translators: Don't translate {volume_name} or {error_message},
+#. they are placeholder and will be replaced.
+#: config/chroot_local-includes/usr/local/lib/python3/dist-packages/unlock_veracrypt_volumes/volume.py:330
+#, python-brace-format
+msgid ""
+"Couldn't lock volume {volume_name}:\n"
+"{error_message}"
+msgstr ""
+
+#: config/chroot_local-includes/usr/local/lib/python3/dist-packages/unlock_veracrypt_volumes/volume.py:332
+msgid "Error locking volume"
 msgstr ""
 
 #: config/chroot_local-includes/usr/local/lib/python3/dist-packages/unlock_veracrypt_volumes/volume_list.py:83
