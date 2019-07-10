@@ -1,8 +1,8 @@
 # Tor Outreach Material 2019-2020
 
-# 1. TOR FOR PRIVACY 
+# 1. TOR ZA PRIVATNOST
 
-### Privacy is a human right
+### Privatnost je ljudsko pravo
 
 Like many of us, Aleisha spends most of her time online--connecting with friends, posting on social media, and browsing the web.
 
@@ -16,7 +16,7 @@ She goes to a privacy training at a local hackerspace and learns about **Tor Bro
 
 ---
 
-# 2.TOR FOR FEMINISTS 
+# 2. TOR ZA FEMINISTE
 
 ### The future is cyberfeminist
 
@@ -36,9 +36,9 @@ She also uses a Tor-powered app called **OnionShare** to send files to other act
 
 ---
 
-# 3. TOR FOR HUMAN RIGHTS
+# 3. TOR ZA LJUDSKA PRAVA
 
-### Water is life 
+### Voda je život
 
 Jelani lives in a small village  which a wide river runs through.
 
@@ -58,7 +58,7 @@ All of this software uses Tor to help protect Jelani’s privacy.
 
 ---
 
-# 4. TOR FOR ANTI-CENSORSHIP
+# 4. TOR PROTIV CENZURE
 
 ### Build bridges not walls
 
@@ -92,7 +92,7 @@ With Tor Browser, Jean can browse freely and privately and contact his family.
 
 # 5. Shared Sections
 
-## Šta je TOR?
+## Šta je Tor?
 
 Tor is free software and an open network that helps protect you from tracking, surveillance, and censorship online.
 Tor is created for free by a 501(c)3 U.S.-based nonprofit called the Tor Project. 
@@ -103,7 +103,7 @@ When you use Tor Browser, no one can see what websites you visit or where in the
 Other applications, like SecureDrop and OnionShare, use Tor to protect their users against surveillance and censorship.
 
 
-## 6. How does Tor work?
+## 6. Kako Tor funkcioniše?
 
 Amal wants to visit Bekele’s website privately, so she opens Tor Browser.
 
@@ -153,10 +153,10 @@ Learn more about Tor by visiting our website, our wiki, finding us on IRC, joini
 Tor for Desktop
 torproject.org/download
 
-TOR ON MOBILE
-### Android 
-Tor Browser for Android is available from GooglePlay.
+TOR NA MOBILNOM
+### Android
+Tor pregledač za Android je dostupan na GooglePlay.
 
 ### iOS
-Onion Browser, developed by M. Tigas, is the only browser we recommend for iOS.
+Onion Browser, razvijen od strane M. Tigas, je jedini pregledač koji preporučujemo za korisnike iOS.
 
