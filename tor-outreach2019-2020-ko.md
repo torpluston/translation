@@ -1,8 +1,8 @@
 # Tor Outreach Material 2019-2020
 
-# 1. TOR FOR PRIVACY 
+# 1.프라이버시를 위한 Tor
 
-### Privacy is a human right
+### 프라이버시는 인권입니다
 
 Like many of us, Aleisha spends most of her time online--connecting with friends, posting on social media, and browsing the web.
 
@@ -154,7 +154,7 @@ Tor for Desktop
 torproject.org/download
 
 TOR ON MOBILE
-### Android 
+### 안드로이드
 Tor Browser for Android is available from GooglePlay.
 
 ### iOS
