@@ -4,11 +4,11 @@
 
 ### 프라이버시는 인권입니다
 
-Like many of us, Aleisha spends most of her time online--connecting with friends, posting on social media, and browsing the web.
+지영이는 많은 사람들처럼 친구들과 연락하고, 소셜 미디어에 글을 올리고, 웹을 검색하면서 대부분의 시간을 온라인에서 보낸다
 
-But lately, she's noticed that advertisements related to her previous searches are following her around online.
+하지만 최근, 그녀는 이전에 검색한 것과 관련된 광고들이 온라인에서 나를 따라다니고 있다는 것을 알아챘다.
 
-This feels so invasive that she does some research on online ads and learns that it's not just advertisers tracking her but also her ISP, analytics companies, social media platforms, and more.
+이것은 너무 사생활 침해라 느껴 그녀는 온라인 광고에 대한 연구를 하여 광고주들만이 추적하는 것이 아니라 ISP, 분석회사 , 소셜 미디어 플랫폼 등 이추적한다는 것을 알게되었다 
 
 Aleisha decides she wants to find and use software that doesn't collect her data, doesn't track her, and doesn't tell other services anything private about her.
 
@@ -16,7 +16,7 @@ She goes to a privacy training at a local hackerspace and learns about **Tor Bro
 
 ---
 
-# 2.TOR FOR FEMINISTS 
+# 2.페미니스트를 위한 토르
 
 ### The future is cyberfeminist
 
