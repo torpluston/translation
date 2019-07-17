@@ -10,9 +10,9 @@
 
 이것은 너무 사생활 침해라 느껴 그녀는 온라인 광고에 대한 연구를 하여 광고주들만이 추적하는 것이 아니라 ISP, 분석회사 , 소셜 미디어 플랫폼 등 이추적한다는 것을 알게되었다 
 
-Aleisha decides she wants to find and use software that doesn't collect her data, doesn't track her, and doesn't tell other services anything private about her.
+지영은 자신의 데이터를 수집하지 않고, 추적하지 않으며, 다른 서비스에게  사적인 정보를 건내주지 않는 소프트웨어를 찾아서 사용하기로 결정한다.
 
-She goes to a privacy training at a local hackerspace and learns about **Tor Browser**, the only web browser that allows her to browse anonymously.
+그녀는 지역 해커스페이스에서 개인 정보 보호 교육을 받고 익명으로 인터넷을 할 수 있는 유일한 웹 브라우저인 **토르 브라우저**에 대해 배운다.
 
 ---
 
@@ -36,11 +36,11 @@ She also uses a Tor-powered app called **OnionShare** to send files to other act
 
 ---
 
-# 3. TOR FOR HUMAN RIGHTS
+# 3.인권을 위한 토르
 
 ### Water is life 
 
-Jelani lives in a small village  which a wide river runs through.
+영수는 넓은 강이 흐르는 작은 마을에 산다.
 
 This river has provided water to his community since the days of his ancestors. 
 
