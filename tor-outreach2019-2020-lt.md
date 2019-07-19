@@ -1,6 +1,6 @@
-# Tor Outreach Material 2019-2020
+# Tor informavimo medžiaga 2019-2020
 
-# 1. TOR FOR PRIVACY 
+# 1. TOR PRIVATUMUI
 
 ### Privatumas yra žmogaus teisė
 
@@ -16,7 +16,7 @@ She goes to a privacy training at a local hackerspace and learns about **Tor Bro
 
 ---
 
-# 2.TOR FOR FEMINISTS 
+# 2. TOR FEMINISTĖMS
 
 ### The future is cyberfeminist
 
@@ -36,9 +36,9 @@ She also uses a Tor-powered app called **OnionShare** to send files to other act
 
 ---
 
-# 3. TOR FOR HUMAN RIGHTS
+# 3. TOR ŽMOGAUS TEISĖMS
 
-### Water is life 
+### Vanduo yra gyvybė
 
 Jelani lives in a small village  which a wide river runs through.
 
@@ -58,7 +58,7 @@ All of this software uses Tor to help protect Jelani’s privacy.
 
 ---
 
-# 4. TOR FOR ANTI-CENSORSHIP
+# 4. TOR PRIEŠ CENZŪRĄ
 
 ### Build bridges not walls
 
