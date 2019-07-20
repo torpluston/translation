@@ -32,7 +32,7 @@ Tiesą sakant, Fernanda naudoja **Tor Naršyklę**, bet kokiam interneto naršym
 
 Ji taip pat naudoja Tor palaikančią aplikaciją vadinamą **OnionShare**, kuri leidžia failus, kitiems aktyvistams, siųsti saugiai ir privačiai.
 
-### Reproductive rights activists like Fernanda are fighting for fundamental freedoms, and Tor helps power their resistance.
+### Reprodukcijos teisės aktyvistai kaip Fernanda kovoja dėl fundamentalių laisvių, o Tor suteikia galią, jiems tai daryti.
 
 ---
 
@@ -40,9 +40,9 @@ Ji taip pat naudoja Tor palaikančią aplikaciją vadinamą **OnionShare**, kuri
 
 ### Vanduo yra gyvybė
 
-Jelani lives in a small village  which a wide river runs through.
+Jelani gyvename mažame kaimelyje, per kurį teka plati upė.
 
-This river has provided water to his community since the days of his ancestors. 
+Ši upė teikė vandenį jo bendruomenei nuo protėvių laikų.
 
 But today, Jelani’s river is threatened by powerful multinational companies drilling for oil in the region.
 
@@ -60,7 +60,7 @@ All of this software uses Tor to help protect Jelani’s privacy.
 
 # 4. TOR PRIEŠ CENZŪRĄ
 
-### Build bridges not walls
+### Statykime tiltus, ne sienas
 
 Jean was traveling for the first time to a country far from his family.
 
@@ -90,7 +90,7 @@ With Tor Browser, Jean can browse freely and privately and contact his family.
 
 ---
 
-# 5. Shared Sections
+# 5. Bendri skyriai
 
 ## Kas yra Tor?
 
