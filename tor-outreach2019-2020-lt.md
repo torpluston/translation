@@ -44,7 +44,7 @@ Jelani gyvename mažame kaimelyje, per kurį teka plati upė.
 
 Ši upė teikė vandenį jo bendruomenei nuo protėvių laikų.
 
-But today, Jelani’s river is threatened by powerful multinational companies drilling for oil in the region.
+Bet šiandien, Jelani upei iškilo pavojus, dėl internacionalinių kompanijų naftos gręžinių regione.
 
 Private security firms, paid for by these companies, use powerful surveillance mechanisms to monitor the online activities of Jelani and his neighbors in the village who are organizing to protect their sacred river. 
 
@@ -103,7 +103,7 @@ When you use Tor Browser, no one can see what websites you visit or where in the
 Other applications, like SecureDrop and OnionShare, use Tor to protect their users against surveillance and censorship.
 
 
-## 6. How does Tor work?
+## 6. Kaip Tor veikia?
 
 Amal wants to visit Bekele’s website privately, so she opens Tor Browser.
 
@@ -121,7 +121,7 @@ The third relay removes the last encryption layer and forwards the web page requ
 
 Bekele doesn't know that the website request came from Amal unless she tells him so.
 
-## 7. Who uses Tor? 
+## 7. Kas naudoja Tor?
 
 People all over the world use Tor to protect their privacy and access the web freely.
 
@@ -135,7 +135,7 @@ Tor relay operators cannot reveal the true identity of Tor users.
 
 Continual peer review of Tor's source code by academic and open source communities ensures that there are no backdoors in Tor, and our social contract promises that we will never backdoor Tor. 
 
-## 7. Join the Tor community
+## 7. Prisijunkite prie Tor bendruomenės
 
 Tor is made possible by a diverse set of users, developers, relay operators, and advocates from around the world.
 
@@ -148,15 +148,15 @@ The Tor community is governed by a code of conduct, and we outline our set of pr
 Learn more about Tor by visiting our website, our wiki, finding us on IRC, joining one of our mailing lists, or signing up for Tor News at newsletter.torproject.org.
 
 
-## 8. Download Tor
+## 8. Parsisiųsti Tor
 
-Tor for Desktop
+Tor Darbalaukiui
 torproject.org/download
 
-TOR ON MOBILE
+TOR MOBILIĄJAM
 ### Android 
-Tor Browser for Android is available from GooglePlay.
+Tor Naršyklė Androidui yra prieinama GooglePlay.
 
 ### iOS
-Onion Browser, developed by M. Tigas, is the only browser we recommend for iOS.
+Onion Naršyklė, sukurta M. Tigas yra vienintelė naršyklė kurią siūlome iOS.
 
