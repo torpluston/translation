@@ -4,33 +4,33 @@
 
 ### Privatumas yra žmogaus teisė
 
-Like many of us, Aleisha spends most of her time online--connecting with friends, posting on social media, and browsing the web.
+Kaip daugelis mūsų, Aleisha didžiumą laiko praleidžia internete - bendraudama su draugais, rašydama socialiniuose tinkluose ir naršydama tinkle.
 
-But lately, she's noticed that advertisements related to her previous searches are following her around online.
+Tačiau neseniai ji pastebėjo, kad reklamos susiję su jos paieškos rezultatais, sekioja ją internete.
 
-This feels so invasive that she does some research on online ads and learns that it's not just advertisers tracking her but also her ISP, analytics companies, social media platforms, and more.
+Tai taip invaziška, kad ji patyrinėja internetines reklamas ir sužino, kad ne tik reklamos agentūros ją seka, bet ir interneto tiekėjas, analitikos kompanijos, socialinių tinklų platformos ir dar daugiau.
 
-Aleisha decides she wants to find and use software that doesn't collect her data, doesn't track her, and doesn't tell other services anything private about her.
+Aleisha nusprendžia, kad ji nori rasti ir naudoti tokią programinę įrangą, kuri nerenka jos duomenų, jos neseka ir neperduoda kitiems privačios informacijos apie ją.
 
-She goes to a privacy training at a local hackerspace and learns about **Tor Browser**, the only web browser that allows her to browse anonymously.
+Ji lanko privatumo mokymus, vietinėje programišių sueigoje ir sužino apie **Tor Naršyklę**, vienintelę naršyklę leidžiančią anonimiškai naršyti.
 
 ---
 
 # 2. TOR FEMINISTĖMS
 
-### The future is cyberfeminist
+### Ateitis yra kiberfeministinė
 
-Fernanda runs a women's collective focused on reproductive rights in Brazil, where abortion is illegal.
+Fernanda vadovauja moterų kolektyvui, kuris kuris daug dėmesio skiria reprodukcinėms moterų teisėms Brazilijoje, kur abortai yra nelegalūs.
 
-Fernanda and her colleagues built a website with information about abortion access, birth control, and other resources for people seeking reproductive information.
+Fernanda ir jos kolegės sukūrė tinklalapį su informacija apie abortą, kontracepciją ir kitais resursais reikalingais žmonėms ieškantiems tokios informacijos.
 
-If this website was linked back to them, they could be arrested--or worse. 
+Jei šis tinklalapis būtų susietas su jomis, joms gali gręžti areštas arba dar baisiau.
 
-To protect themselves, Fernanda and her colleagues created the website using Tor **onion services**. Onion services not only protect them from being discovered as the operators of the server but also help protect visitors to their website by requiring they use Tor Browser. 
+Kad apsaugotų save, Fernanda su kolegėmis tinklalapį sukūrė naudodamos Tor **onion paslaugas**. Onion paslaugos ne tik apsaugo jas, nuo serverio operatoriaus, bet kartu apsaugo ir lankytojus, nes svetainės pasiekimui reikalinga Tor Naršyklė.
 
-In fact, Fernanda uses **Tor Browser** for all of her web browsing just to be on the safe side.
+Tiesą sakant, Fernanda naudoja **Tor Naršyklę**, bet kokiam interneto naršymui, kad būtų dar saugesnė.
 
-She also uses a Tor-powered app called **OnionShare** to send files to other activists securely and privately. 
+Ji taip pat naudoja Tor palaikančią aplikaciją vadinamą **OnionShare**, kuri leidžia failus, kitiems aktyvistams, siųsti saugiai ir privačiai.
 
 ### Reproductive rights activists like Fernanda are fighting for fundamental freedoms, and Tor helps power their resistance.
 
