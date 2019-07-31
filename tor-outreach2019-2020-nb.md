@@ -1,6 +1,6 @@
 # Tor Outreach Material 2019-2020
 
-# 1. TOR FOR PRIVACY 
+# 1. TOR FOR PRIVATLIV
 
 ### Personvern er en menneskerettighet
 
