@@ -124,7 +124,7 @@ Bekele veit ekki að beiðnin um vefsíðuna kemur frá Amal nema ef hún segir 
 
 Fólk út um víða veröld notar Tor til að verja persónuupplýsingar sínar og til að geta skoðað vefinn án hafta.
 
-Tor aðstoðar við að vernda blaðamenn, verjendur mannréttinda, fórnarlömb heimilisofbeldis, akademíska vísindamenn og alla þá sem gætu orðið fyrir eftirliti, skráningu og ritskoðun. 
+Tor aðstoðar við að vernda blaðamenn, baráttufólk fyrir mannréttindum, fórnarlömb heimilisofbeldis, akademíska vísindamenn og alla þá sem gætu orðið fyrir eftirliti, skráningu og ritskoðun. 
 
 ## 6. Af hverju treysta Tor?
 
