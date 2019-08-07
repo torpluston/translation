@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-07-31 14:11+CET\n"
+"POT-Creation-Date: 2019-08-07 17:41+CET\n"
 "PO-Revision-Date: 2018-10-02 22:41+0000\n"
 "Last-Translator: Waldemar Stoczkowski, 2019\n"
 "Language-Team: Polish (https://www.transifex.com/otf/teams/1519/pl/)\n"
@@ -338,12 +338,8 @@ msgstr ""
 msgid ""
 "Each file on our [download page](https://www.torproject.org/download/) is "
 "accompanied by a file with the same name as the package and the extension "
-"\".asc\". These .asc files are GPG signatures."
+"\".asc\". These .asc files are OpenPGP signatures."
 msgstr ""
-"Każdemu plikowi na naszej [stronie do "
-"pobierania](https://www.torproject.org/download/) towarzyszy plik o tej "
-"samej nazwie co paczka i rozszerzeniu \".asc\". Te pliki .asc są podpisami "
-"GPG."
 
 #: https//support.torproject.org/tbb/how-to-verify-signature/
 #: (content/tbb/how-to-verify-signature/contents+en.lrquestion.description)
@@ -357,11 +353,9 @@ msgstr ""
 #: https//support.torproject.org/tbb/how-to-verify-signature/
 #: (content/tbb/how-to-verify-signature/contents+en.lrquestion.description)
 msgid ""
-"For example, torbrowser-install-8.0.8_en-US.exe is accompanied by "
-"torbrowser-install-8.0.8_en-US.exe.asc."
+"For example, `torbrowser-install-win64-8.5.4_en-US.exe` is accompanied by "
+"`torbrowser-install-win64-8.5.4_en-US.exe.asc`."
 msgstr ""
-"Na przykład, torbrowser-install-8.0.8_pl.exe towarzyszy torbrowser-"
-"install-8.0.8_pl.exe.asc."
 
 #: https//support.torproject.org/tbb/how-to-verify-signature/
 #: (content/tbb/how-to-verify-signature/contents+en.lrquestion.description)
@@ -400,8 +394,8 @@ msgstr ""
 
 #: https//support.torproject.org/tbb/how-to-verify-signature/
 #: (content/tbb/how-to-verify-signature/contents+en.lrquestion.description)
-msgid "### Windows"
-msgstr "### Windows"
+msgid "### Installing GnuPG"
+msgstr ""
 
 #: https//support.torproject.org/tbb/how-to-verify-signature/
 #: (content/tbb/how-to-verify-signature/contents+en.lrquestion.description)
@@ -414,277 +408,22 @@ msgstr ""
 
 #: https//support.torproject.org/tbb/how-to-verify-signature/
 #: (content/tbb/how-to-verify-signature/contents+en.lrquestion.description)
-msgid "Download it from https://gpg4win.org/download.html."
-msgstr "Pobierz to z https://gpg4win.org/download.html."
+msgid "#### For Windows users:"
+msgstr ""
 
 #: https//support.torproject.org/tbb/how-to-verify-signature/
 #: (content/tbb/how-to-verify-signature/contents+en.lrquestion.description)
 msgid ""
-"Once it's installed, use GnuPG to import the key that signed your package."
+"If you run Windows, [download Gpg4win](https://gpg4win.org/download.html) "
+"and run its installer."
 msgstr ""
-"Po zainstalowaniu, użyj GnuPG do zaimportowania klucza, który podpisał twoją"
-" paczkę."
 
 #: https//support.torproject.org/tbb/how-to-verify-signature/
 #: (content/tbb/how-to-verify-signature/contents+en.lrquestion.description)
 msgid ""
 "In order to verify the signature you will need to type a few commands in "
-"windows command-line, cmd.exe."
+"windows command-line, `cmd.exe`."
 msgstr ""
-"Aby zweryfikować podpis musisz wpisać kilka poleceń w wierszu poleceń "
-"cmd.exe."
-
-#: https//support.torproject.org/tbb/how-to-verify-signature/
-#: (content/tbb/how-to-verify-signature/contents+en.lrquestion.description)
-msgid "The Tor Browser team signs Tor Browser releases."
-msgstr "Zespół Tor Browser podpisuje wydania Tor Browser."
-
-#: https//support.torproject.org/tbb/how-to-verify-signature/
-#: (content/tbb/how-to-verify-signature/contents+en.lrquestion.description)
-msgid "Import its key (0x4E2C6E8793298290) by starting cmd.exe and typing:"
-msgstr ""
-"Zaimportuj klucz (0x4E2C6E8793298290) poprzez uruchomienie cmd.exe i "
-"wpisanie tekstu:"
-
-#: https//support.torproject.org/tbb/how-to-verify-signature/
-#: (content/tbb/how-to-verify-signature/contents+en.lrquestion.description)
-msgid ""
-"gpg.exe --auto-key-locate nodefault,wkd --locate-keys "
-"torbrowser@torproject.org"
-msgstr ""
-"gpg.exe --auto-key-locate nodefault,wkd --locate-keys "
-"torbrowser@torproject.org"
-
-#: https//support.torproject.org/tbb/how-to-verify-signature/
-#: (content/tbb/how-to-verify-signature/contents+en.lrquestion.description)
-msgid ""
-"After importing the key, you can verify that the fingerprint is correct:"
-msgstr ""
-"Po zaimportowaniu klucza możesz zweryfikować czy odciski palców są poprawne:"
-
-#: https//support.torproject.org/tbb/how-to-verify-signature/
-#: (content/tbb/how-to-verify-signature/contents+en.lrquestion.description)
-msgid "gpg.exe --fingerprint 0x4E2C6E8793298290"
-msgstr "gpg.exe --fingerprint 0x4E2C6E8793298290"
-
-#: https//support.torproject.org/tbb/how-to-verify-signature/
-#: (content/tbb/how-to-verify-signature/contents+en.lrquestion.description)
-msgid "You should see:"
-msgstr "You should see:"
-
-#: https//support.torproject.org/tbb/how-to-verify-signature/
-#: (content/tbb/how-to-verify-signature/contents+en.lrquestion.description)
-msgid "pub   rsa4096/0x4E2C6E8793298290 2014-12-15 [C] [expires: 2020-08-24]"
-msgstr "pub   rsa4096/0x4E2C6E8793298290 2014-12-15 [C] [expires: 2020-08-24]"
-
-#: https//support.torproject.org/tbb/how-to-verify-signature/
-#: (content/tbb/how-to-verify-signature/contents+en.lrquestion.description)
-msgid "Key fingerprint = EF6E 286D DA85 EA2A 4BA7  DE68 4E2C 6E87 9329 8290"
-msgstr "Key fingerprint = EF6E 286D DA85 EA2A 4BA7  DE68 4E2C 6E87 9329 8290"
-
-#: https//support.torproject.org/tbb/how-to-verify-signature/
-#: (content/tbb/how-to-verify-signature/contents+en.lrquestion.description)
-msgid ""
-"uid                   [ unknown] Tor Browser Developers (signing key) "
-"<torbrowser&at;torproject.org>"
-msgstr ""
-"uid                   [ unknown] Tor Browser Developers (signing key) "
-"<torbrowser&at;torproject.org>"
-
-#: https//support.torproject.org/tbb/how-to-verify-signature/
-#: (content/tbb/how-to-verify-signature/contents+en.lrquestion.description)
-msgid "sub   rsa4096/0xEB774491D9FF06E2 2018-05-26 [S] [expires: 2020-09-12]"
-msgstr "sub   rsa4096/0xEB774491D9FF06E2 2018-05-26 [S] [expires: 2020-09-12]"
-
-#: https//support.torproject.org/tbb/how-to-verify-signature/
-#: (content/tbb/how-to-verify-signature/contents+en.lrquestion.description)
-msgid "Key fingerprint = 1107 75B5 D101 FB36 BC6C  911B EB77 4491 D9FF 06E2"
-msgstr "Key fingerprint = 1107 75B5 D101 FB36 BC6C  911B EB77 4491 D9FF 06E2"
-
-#: https//support.torproject.org/tbb/how-to-verify-signature/
-#: (content/tbb/how-to-verify-signature/contents+en.lrquestion.description)
-msgid ""
-"To verify the signature of the package you downloaded, you will need to "
-"download the \".asc\" file as well."
-msgstr ""
-"Żeby zweryfikować podpis paczki, którą pobrałeś, potrzebujesz pobrać również"
-" plik \".asc\"."
-
-#: https//support.torproject.org/tbb/how-to-verify-signature/
-#: (content/tbb/how-to-verify-signature/contents+en.lrquestion.description)
-msgid ""
-"Assuming you downloaded the package and its signature to your Desktop, run:"
-msgstr "Zakładając, że pobrałeś paczkę i jego sygnaturę na Pulpicie, uruchom:"
-
-#: https//support.torproject.org/tbb/how-to-verify-signature/
-#: (content/tbb/how-to-verify-signature/contents+en.lrquestion.description)
-msgid ""
-"gpg.exe --verify C:\\Users\\Alice\\Desktop\\torbrowser-install-win64-8.0"
-".8_en-US.exe.asc C:\\Users\\Alice\\Desktop\\torbrowser-install-8.0.8_en-"
-"US.exe"
-msgstr ""
-"gpg.exe --verify C:\\Users\\Alice\\Pulpit\\torbrowser-install-"
-"win64-8.0.8_pl.exe.asc C:\\Users\\Alice\\Pulpit\\torbrowser-"
-"install-8.0.8_pl.exe"
-
-#: https//support.torproject.org/tbb/how-to-verify-signature/
-#: (content/tbb/how-to-verify-signature/contents+en.lrquestion.description)
-msgid "Please substitute \"Alice\" with your own username."
-msgstr "Zastąp „Alice” własną nazwą użytkownika."
-
-#: https//support.torproject.org/tbb/how-to-verify-signature/
-#: (content/tbb/how-to-verify-signature/contents+en.lrquestion.description)
-msgid "The output should say \"Good signature\":"
-msgstr "Na wyjściu powinno pokazać się \"poprawny podpis\"."
-
-#: https//support.torproject.org/tbb/how-to-verify-signature/
-#: (content/tbb/how-to-verify-signature/contents+en.lrquestion.description)
-msgid "gpg: Signature made Tue 12 Feb 2019 08:27:41 AM EST"
-msgstr "gpg: Signature made Tue 12 Feb 2019 08:27:41 AM EST"
-
-#: https//support.torproject.org/tbb/how-to-verify-signature/
-#: (content/tbb/how-to-verify-signature/contents+en.lrquestion.description)
-msgid "gpg:                using RSA key EB774491D9FF06E2"
-msgstr "gpg:                using RSA key EB774491D9FF06E2"
-
-#: https//support.torproject.org/tbb/how-to-verify-signature/
-#: (content/tbb/how-to-verify-signature/contents+en.lrquestion.description)
-msgid ""
-"gpg: Good signature from \"Tor Browser Developers (signing key) "
-"<torbrowser@torproject.org>\" [unknown]"
-msgstr ""
-"gpg: Good signature from \"Tor Browser Developers (signing key) "
-"<torbrowser@torproject.org>\" [unknown]"
-
-#: https//support.torproject.org/tbb/how-to-verify-signature/
-#: (content/tbb/how-to-verify-signature/contents+en.lrquestion.description)
-msgid "gpg: WARNING: This key is not certified with a trusted signature!"
-msgstr "gpg: WARNING: This key is not certified with a trusted signature!"
-
-#: https//support.torproject.org/tbb/how-to-verify-signature/
-#: (content/tbb/how-to-verify-signature/contents+en.lrquestion.description)
-msgid ""
-"gpg:          There is no indication that the signature belongs to the "
-"owner."
-msgstr ""
-"gpg:          There is no indication that the signature belongs to the "
-"owner."
-
-#: https//support.torproject.org/tbb/how-to-verify-signature/
-#: (content/tbb/how-to-verify-signature/contents+en.lrquestion.description)
-msgid ""
-"Primary key fingerprint: EF6E 286D DA85 EA2A 4BA7  DE68 4E2C 6E87 9329 8290"
-msgstr ""
-"Primary key fingerprint: EF6E 286D DA85 EA2A 4BA7  DE68 4E2C 6E87 9329 8290"
-
-#: https//support.torproject.org/tbb/how-to-verify-signature/
-#: (content/tbb/how-to-verify-signature/contents+en.lrquestion.description)
-msgid "Subkey fingerprint: 1107 75B5 D101 FB36 BC6C  911B EB77 4491 D9FF 06E2"
-msgstr ""
-"Subkey fingerprint: 1107 75B5 D101 FB36 BC6C  911B EB77 4491 D9FF 06E2"
-
-#: https//support.torproject.org/tbb/how-to-verify-signature/
-#: (content/tbb/how-to-verify-signature/contents+en.lrquestion.description)
-msgid "Currently valid subkey fingerprints are:"
-msgstr "Obecnie obowiązujące odciski palców podklucza to:"
-
-#: https//support.torproject.org/tbb/how-to-verify-signature/
-#: (content/tbb/how-to-verify-signature/contents+en.lrquestion.description)
-msgid "1107 75B5 D101 FB36 BC6C  911B EB77 4491 D9FF 06E2"
-msgstr "1107 75B5 D101 FB36 BC6C  911B EB77 4491 D9FF 06E2"
-
-#: https//support.torproject.org/tbb/how-to-verify-signature/
-#: (content/tbb/how-to-verify-signature/contents+en.lrquestion.description)
-msgid ""
-"Notice that there is a warning because you haven't assigned a trust index to"
-" this person."
-msgstr ""
-"Zauważ, że istnieje ostrzeżenie, ponieważ nie przypisałeś tej osobie indeksu"
-" zaufania."
-
-#: https//support.torproject.org/tbb/how-to-verify-signature/
-#: (content/tbb/how-to-verify-signature/contents+en.lrquestion.description)
-msgid ""
-"This means that GnuPG verified that the key made that signature, but it's up"
-" to you to decide if that key really belongs to the developer."
-msgstr ""
-"Oznacza to, że GnuPG zweryfikował, że klucz złożył tę sygnaturę, ale to od "
-"Ciebie zależy zdecydować, czy klucz ten rzeczywiście należy do programisty."
-
-#: https//support.torproject.org/tbb/how-to-verify-signature/
-#: (content/tbb/how-to-verify-signature/contents+en.lrquestion.description)
-msgid ""
-"The best method is to meet the developer in person and exchange key "
-"fingerprints."
-msgstr ""
-"Najlepszą metodą jest osobiste spotkanie się z deweloperem i wymienić odcisk"
-" palca klucza."
-
-#: https//support.torproject.org/tbb/how-to-verify-signature/
-#: (content/tbb/how-to-verify-signature/contents+en.lrquestion.description)
-msgid "### macOS and Linux"
-msgstr "### macOS i Linux"
-
-#: https//support.torproject.org/tbb/how-to-verify-signature/
-#: (content/tbb/how-to-verify-signature/contents+en.lrquestion.description)
-msgid "You need to have GnuPG installed before you can verify signatures."
-msgstr ""
-"Musisz mieć zainstalowany GnuPG, zanim będziesz mógł zweryfikować podpisy."
-
-#: https//support.torproject.org/tbb/how-to-verify-signature/
-#: (content/tbb/how-to-verify-signature/contents+en.lrquestion.description)
-msgid ""
-"If you are using macOS, you can install it from https://www.gpgtools.org/."
-msgstr ""
-"Jeśli korzystasz z macOS, możesz zainstalować go z "
-"https://www.gpgtools.org/."
-
-#: https//support.torproject.org/tbb/how-to-verify-signature/
-#: (content/tbb/how-to-verify-signature/contents+en.lrquestion.description)
-msgid ""
-"If you are using Linux, then you probably already have GnuPG in your system,"
-" as most Linux distributions come with it preinstalled."
-msgstr ""
-"Jeśli używasz Linuksa, to prawdopodobnie masz już GnuPG w swoim systemie, "
-"ponieważ większość dystrybucji Linuksa jest dostarczana z nim "
-"preinstalowanym."
-
-#: https//support.torproject.org/tbb/how-to-verify-signature/
-#: (content/tbb/how-to-verify-signature/contents+en.lrquestion.description)
-msgid ""
-"The next step is to use GnuPG to import the key that signed your package."
-msgstr ""
-"Następnym krokiem jest użycie GnuPG do zaimportowania klucza, który podpisał"
-" twój pakiet."
-
-#: https//support.torproject.org/tbb/how-to-verify-signature/
-#: (content/tbb/how-to-verify-signature/contents+en.lrquestion.description)
-msgid ""
-"Import its key (0x4E2C6E8793298290) by starting the terminal (under "
-"\"Applications\" in macOS) and typing:"
-msgstr ""
-"Zaimportuj jego klucz (0x4E2C6E8793298290), uruchamiając terminal (w "
-"obszarze „Aplikacje” w systemie macOS) i wpisując:"
-
-#: https//support.torproject.org/tbb/how-to-verify-signature/
-#: (content/tbb/how-to-verify-signature/contents+en.lrquestion.description)
-msgid ""
-"gpg --auto-key-locate nodefault,wkd --locate-keys torbrowser@torproject.org"
-msgstr ""
-"gpg --auto-key-locate nodefault,wkd --locate-keys torbrowser@torproject.org"
-
-#: https//support.torproject.org/tbb/how-to-verify-signature/
-#: (content/tbb/how-to-verify-signature/contents+en.lrquestion.description)
-msgid "gpg --fingerprint 0x4E2C6E8793298290"
-msgstr "gpg --fingerprint 0x4E2C6E8793298290"
-
-#: https//support.torproject.org/tbb/how-to-verify-signature/
-#: (content/tbb/how-to-verify-signature/contents+en.lrquestion.description)
-msgid ""
-"Assuming you downloaded the package and its signature to your Downloads "
-"folder, run:"
-msgstr ""
-"Zakładając, że pobrałeś paczkę i jego podpis do folderu Pobrane, uruchom:"
 
 #: https//support.torproject.org/tbb/how-to-verify-signature/
 #: (content/tbb/how-to-verify-signature/contents+en.lrquestion.description)
@@ -693,51 +432,194 @@ msgstr "#### Dla użytkowników macOS:"
 
 #: https//support.torproject.org/tbb/how-to-verify-signature/
 #: (content/tbb/how-to-verify-signature/contents+en.lrquestion.description)
-msgid "gpg --verify ~/Downloads/TorBrowser-8.0.8-osx64_en-US.dmg{.asc,}"
-msgstr "gpg --verify ~/Pobrane/TorBrowser-8.0.8-osx64_pl.dmg{.asc,}"
-
-#: https//support.torproject.org/tbb/how-to-verify-signature/
-#: (content/tbb/how-to-verify-signature/contents+en.lrquestion.description)
-msgid "#### For Linux users (change 64 to 32 if you have the 32-bit package):"
+msgid ""
+"If you are using macOS, you can [install "
+"GPGTools](https://www.gpgtools.org)."
 msgstr ""
-"#### Dla użytkowników Linuksa (zmień 64 na 32 jeśli masz pakiet 32-bitowy):"
-
-#: https//support.torproject.org/tbb/how-to-verify-signature/
-#: (content/tbb/how-to-verify-signature/contents+en.lrquestion.description)
-msgid "gpg --verify tor-browser-linux64-8.0.8_en-US.tar.xz{.asc,}"
-msgstr "gpg --verify tor-browser-linux64-8.0.8_pl.tar.xz{.asc,}"
-
-#: https//support.torproject.org/tbb/how-to-verify-signature/
-#: (content/tbb/how-to-verify-signature/contents+en.lrquestion.description)
-msgid "gpg: Signature made Wed 15 Nov 2017 05:52:38 PM CET"
-msgstr "gpg: Signature made Wed 15 Nov 2017 05:52:38 PM CET"
-
-#: https//support.torproject.org/tbb/how-to-verify-signature/
-#: (content/tbb/how-to-verify-signature/contents+en.lrquestion.description)
-msgid "gpg:                using RSA key 0xD1483FA6C3C07136"
-msgstr "gpg:                using RSA key 0xD1483FA6C3C07136"
 
 #: https//support.torproject.org/tbb/how-to-verify-signature/
 #: (content/tbb/how-to-verify-signature/contents+en.lrquestion.description)
 msgid ""
-"gpg: Good signature from \"Tor Browser Developers (signing key) "
-"<torbrowser&at;torproject.org>\" [unknown]"
+"In order to verify the signature you will need to type a few commands in the"
+" Terminal (under \"Applications\")."
 msgstr ""
-"gpg: Good signature from \"Tor Browser Developers (signing key) "
-"<torbrowser&at;torproject.org>\" [unknown]"
 
 #: https//support.torproject.org/tbb/how-to-verify-signature/
 #: (content/tbb/how-to-verify-signature/contents+en.lrquestion.description)
-msgid "Subkey fingerprint: A430 0A6B C93C 0877 A445  1486 D148 3FA6 C3C0 7136"
+msgid "#### For GNU/Linux users:"
 msgstr ""
-"Subkey fingerprint: A430 0A6B C93C 0877 A445  1486 D148 3FA6 C3C0 7136"
 
 #: https//support.torproject.org/tbb/how-to-verify-signature/
 #: (content/tbb/how-to-verify-signature/contents+en.lrquestion.description)
-msgid "See https://www.gnupg.org/documentation/ to learn more about GnuPG."
+msgid ""
+"If you are using GNU/Linux, then you probably already have GnuPG in your "
+"system, as most GNU/Linux distributions come with it preinstalled."
 msgstr ""
-"Więcej informacji na temat GnuPG możesz znaleźć na stronie "
-"https://www.gnupg.org/documentation/"
+
+#: https//support.torproject.org/tbb/how-to-verify-signature/
+#: (content/tbb/how-to-verify-signature/contents+en.lrquestion.description)
+msgid ""
+"In order to verify the signature you will need to type a few commands in a "
+"terminal window.  How to do this will vary depending on your distribution."
+msgstr ""
+
+#: https//support.torproject.org/tbb/how-to-verify-signature/
+#: (content/tbb/how-to-verify-signature/contents+en.lrquestion.description)
+msgid "### Fetching the Tor Developers key"
+msgstr ""
+
+#: https//support.torproject.org/tbb/how-to-verify-signature/
+#: (content/tbb/how-to-verify-signature/contents+en.lrquestion.description)
+msgid "The Tor Browser team signs Tor Browser releases."
+msgstr "Zespół Tor Browser podpisuje wydania Tor Browser."
+
+#: https//support.torproject.org/tbb/how-to-verify-signature/
+#: (content/tbb/how-to-verify-signature/contents+en.lrquestion.description)
+msgid ""
+"Import the Tor Browser Developers signing key "
+"(0xEF6E286DDA85EA2A4BA7DE684E2C6E8793298290):"
+msgstr ""
+
+#: https//support.torproject.org/tbb/how-to-verify-signature/
+#: (content/tbb/how-to-verify-signature/contents+en.lrquestion.description)
+msgid ""
+"gpg --auto-key-locate nodefault,wkd --locate-keys torbrowser@torproject.org"
+msgstr ""
+"gpg --auto-key-locate nodefault,wkd --locate-keys torbrowser@torproject.org"
+
+#: https//support.torproject.org/tbb/how-to-verify-signature/
+#: (content/tbb/how-to-verify-signature/contents+en.lrquestion.description)
+msgid "This should show you something like:"
+msgstr ""
+
+#: https//support.torproject.org/tbb/how-to-verify-signature/
+#: (content/tbb/how-to-verify-signature/contents+en.lrquestion.description)
+msgid ""
+"gpg: key 4E2C6E8793298290: public key \"Tor Browser Developers (signing key)"
+" <torbrowser@torproject.org>\" imported"
+msgstr ""
+
+#: https//support.torproject.org/tbb/how-to-verify-signature/
+#: (content/tbb/how-to-verify-signature/contents+en.lrquestion.description)
+msgid "gpg: Total number processed: 1"
+msgstr ""
+
+#: https//support.torproject.org/tbb/how-to-verify-signature/
+#: (content/tbb/how-to-verify-signature/contents+en.lrquestion.description)
+msgid "gpg:               imported: 1"
+msgstr ""
+
+#: https//support.torproject.org/tbb/how-to-verify-signature/
+#: (content/tbb/how-to-verify-signature/contents+en.lrquestion.description)
+msgid "pub   rsa4096 2014-12-15 [C] [expires: 2020-08-24]"
+msgstr ""
+
+#: https//support.torproject.org/tbb/how-to-verify-signature/
+#: (content/tbb/how-to-verify-signature/contents+en.lrquestion.description)
+msgid "EF6E286DDA85EA2A4BA7DE684E2C6E8793298290"
+msgstr ""
+
+#: https//support.torproject.org/tbb/how-to-verify-signature/
+#: (content/tbb/how-to-verify-signature/contents+en.lrquestion.description)
+msgid ""
+"uid           [ unknown] Tor Browser Developers (signing key) "
+"<torbrowser@torproject.org>"
+msgstr ""
+
+#: https//support.torproject.org/tbb/how-to-verify-signature/
+#: (content/tbb/how-to-verify-signature/contents+en.lrquestion.description)
+msgid "sub   rsa4096 2018-05-26 [S] [expires: 2020-09-12]"
+msgstr ""
+
+#: https//support.torproject.org/tbb/how-to-verify-signature/
+#: (content/tbb/how-to-verify-signature/contents+en.lrquestion.description)
+msgid ""
+"After importing the key, you can save it to a file (identifying it by "
+"fingerprint here):"
+msgstr ""
+
+#: https//support.torproject.org/tbb/how-to-verify-signature/
+#: (content/tbb/how-to-verify-signature/contents+en.lrquestion.description)
+msgid ""
+"gpg --output ./tor.keyring --export "
+"0xEF6E286DDA85EA2A4BA7DE684E2C6E8793298290"
+msgstr ""
+
+#: https//support.torproject.org/tbb/how-to-verify-signature/
+#: (content/tbb/how-to-verify-signature/contents+en.lrquestion.description)
+msgid "### Verifying the signature"
+msgstr ""
+
+#: https//support.torproject.org/tbb/how-to-verify-signature/
+#: (content/tbb/how-to-verify-signature/contents+en.lrquestion.description)
+msgid ""
+"To verify the signature of the package you downloaded, you will need to "
+"download the corresponding \".asc\" signature file as well as the installer "
+"file itself, and verify it with a command that asks GnuPG to verify the file"
+" that you downloaded."
+msgstr ""
+
+#: https//support.torproject.org/tbb/how-to-verify-signature/
+#: (content/tbb/how-to-verify-signature/contents+en.lrquestion.description)
+msgid ""
+"The examples below assume that you downloaded these two files to your "
+"\"Downloads\" folder."
+msgstr ""
+
+#: https//support.torproject.org/tbb/how-to-verify-signature/
+#: (content/tbb/how-to-verify-signature/contents+en.lrquestion.description)
+msgid "The result of the command should produce something like this:"
+msgstr ""
+
+#: https//support.torproject.org/tbb/how-to-verify-signature/
+#: (content/tbb/how-to-verify-signature/contents+en.lrquestion.description)
+msgid "gpgv: Signature made 07/08/19 04:03:49 Pacific Daylight Time"
+msgstr ""
+
+#: https//support.torproject.org/tbb/how-to-verify-signature/
+#: (content/tbb/how-to-verify-signature/contents+en.lrquestion.description)
+msgid "gpgv:                using RSA key EB774491D9FF06E2"
+msgstr ""
+
+#: https//support.torproject.org/tbb/how-to-verify-signature/
+#: (content/tbb/how-to-verify-signature/contents+en.lrquestion.description)
+msgid ""
+"gpgv: Good signature from \"Tor Browser Developers (signing key) "
+"<torbrowser@torproject.org>\""
+msgstr ""
+
+#: https//support.torproject.org/tbb/how-to-verify-signature/
+#: (content/tbb/how-to-verify-signature/contents+en.lrquestion.description)
+msgid ""
+"gpgv --keyring .\tor.keyring Downloads\torbrowser-install-win64-8.5.4_en-"
+"US.exe.asc Downloads\torbrowser-win64-install-8.5.4_en-US.exe"
+msgstr ""
+
+#: https//support.torproject.org/tbb/how-to-verify-signature/
+#: (content/tbb/how-to-verify-signature/contents+en.lrquestion.description)
+msgid ""
+"gpgv --keyring ./tor.keyring ~/Downloads/TorBrowser-8.5.4-osx64_en-"
+"US.dmg{.asc,}"
+msgstr ""
+
+#: https//support.torproject.org/tbb/how-to-verify-signature/
+#: (content/tbb/how-to-verify-signature/contents+en.lrquestion.description)
+msgid ""
+"#### For GNU/Linux users (change 64 to 32 if you have the 32-bit package):"
+msgstr ""
+
+#: https//support.torproject.org/tbb/how-to-verify-signature/
+#: (content/tbb/how-to-verify-signature/contents+en.lrquestion.description)
+msgid ""
+"gpgv --keyring ./tor.keyring tor-browser-linux64-8.5.4_en-US.tar.xz{.asc,}"
+msgstr ""
+
+#: https//support.torproject.org/tbb/how-to-verify-signature/
+#: (content/tbb/how-to-verify-signature/contents+en.lrquestion.description)
+msgid ""
+"You may also want to [learn more about "
+"GnuPG](https://www.gnupg.org/documentation/)."
+msgstr ""
 
 #: https//support.torproject.org/tbb/tbb-1/
 #: (content/tbb/tbb-1/contents+en.lrquestion.title)
