@@ -2,27 +2,59 @@
 <!ENTITY https-everywhere.about.ext_name "HTTPS Навсякъде">
 <!ENTITY https-everywhere.about.ext_description "Шифрирайте мрежата! Използвайте автоматична HTTPS защита на много страници.">
 <!ENTITY https-everywhere.about.version "Версия">
+<!ENTITY https-everywhere.about.rulesets_version "Версия набори от правила за">
 <!ENTITY https-everywhere.about.add_new_rule "Добавяне на Ново Правило">
 
 <!ENTITY https-everywhere.menu.donate_eff_imperative "Дари за EFF">
 <!ENTITY https-everywhere.menu.observatory "Настройки на SSL Observatory">
-<!ENTITY https-everywhere.menu.globalEnable "Включи HTTPS Everywhere">
-<!ENTITY https-everywhere.menu.blockUnencryptedRequests "Блокиране на всички некриптирани заявки">
+<!ENTITY https-everywhere.menu.globalDisable "HTTPS Навсякъде е ИЗКЛЮЧЕН">
+<!ENTITY https-everywhere.menu.globalEnable "HTTPS Навсякъде е ВКЛЮЧЕН">
+<!ENTITY https-everywhere.menu.encryptAllSitesEligibleOn "Криптирай всички сайтове, които позволяват, е ВКЛЮЧЕНО">
+<!ENTITY https-everywhere.menu.encryptAllSitesEligibleOff "Криптирай всички сайтове, които позволяват, е ИЗКЛЮЧЕНО">
+<!ENTITY https-everywhere.menu.httpNoWhereExplainedBlocked "Некриптираните заявки в момента са блокирани">
+<!ENTITY https-everywhere.menu.httpNoWhereExplainedAllowed "Некриптираните заявки в момента са разрешени">
+<!ENTITY https-everywhere.menu.seeMore "Виж повече">
+<!ENTITY https-everywhere.menu.seeLess "Виж по-малко">
+<!ENTITY https-everywhere.menu.httpNoWhereMore "Този режим блокира некриптирано съдържание и заявки">
 <!ENTITY https-everywhere.menu.showCounter "Показване на брояч">
 <!ENTITY https-everywhere.menu.viewAllRules "Прегледай всички правила">
 
+<!ENTITY https-everywhere.options.settings "Настройки">
 <!ENTITY https-everywhere.options.generalSettings "Общи настройки">
-<!ENTITY https-everywhere.options.importSettings "Внасяне на настройки">
-<!ENTITY https-everywhere.options.import "Внасяне">
-<!ENTITY https-everywhere.options.imported "Настройките са внесени.">
+<!ENTITY https-everywhere.options.advancedSettings "Разширени настройки">
+<!ENTITY https-everywhere.options.updateChannels "Обнови канали">
+<!ENTITY https-everywhere.options.enableMixedRulesets "Позволи набори от правила със смесено съдържание">
+<!ENTITY https-everywhere.options.showDevtoolsTab "Покажи раздела с инструменти за разработчици">
+<!ENTITY https-everywhere.options.autoUpdateRulesets "Автоматично обновяване на набори от правила">
+<!ENTITY https-everywhere.options.userRulesListed "HTTPS Навсякъде Потребителски Правила">
+<!ENTITY https-everywhere.options.disabledUrlsListed "HTTPS Навсякъде Изключени Сайтове">
+<!ENTITY https-everywhere.options.updateChannelsWarning "Внимание: Добавянето на канали за обновление може да позволи на хакери да проникнат във Вашия браузър. Редактирайте тази секция, само ако знаете, какво правите!">
+<!ENTITY https-everywhere.options.addUpdateChannel "Добави Канал за Обновление">
+<!ENTITY https-everywhere.options.enterUpdateChannelName "Въведете име на канал за обновление">
+<!ENTITY https-everywhere.options.delete "Изтрий">
+<!ENTITY https-everywhere.options.update "Обновяване">
+<!ENTITY https-everywhere.options.storedRulesetsVersion "Версия на съхранените набори от правила:">
+<!ENTITY https-everywhere.options.updatesLastChecked "Последно проверени обновления:">
+<!ENTITY https-everywhere.options.updatesLastCheckedNever "никога">
+<!ENTITY https-everywhere.options.debuggingRulesets "Дебъгване на набори от правила (за напреднали)">
 
 <!ENTITY https-everywhere.prefs.export_settings "Изнасяне на настройки">
 <!ENTITY https-everywhere.prefs.reset_defaults "Възстановяване на стандартните">
+<!ENTITY https-everywhere.prefs.reset_defaults_message "Това ще върне всеки набор от правила към състояние по подразбиране. Продължавам?">
 
+<!ENTITY https-everywhere.cancel.he_blocking_explainer "HTTPS Навсякъде забеляза, че навигирате към страница, която няма HTTPS, и се опита да Ви препрати вместо това към неината HTTPS версия. HTTPS версията не е налична. Най-вероятно този сайт не поддържа HTTPS, но също е възможно хакер да блокира HTTPS версията. Ако искате да видите некриптираната версия на тази страница, може да го направите като изключите 'Криптирай всички сайтове, които позволяват' (EASE) опцията във Вашето HTTPS разширение. Имайте предвид, че изключването на тази опция може да направи браузърът Ви уязвим към мрежово базирани даунгрейд атаки на сайтовете, които посещавате.">
+<!ENTITY https-everywhere.cancel.he_blocking_network "мрежово базирани даунгрейд атаки">
+<!ENTITY https-everywhere.cancel.open_page "Отворете незащитена страница">
+
+<!ENTITY https-everywhere.chrome.settings_for_this_site_header "Настройки за този сайт">
+<!ENTITY https-everywhere.chrome.settings_for_this_site_subheader "Променете Вашите настройки за криптирани връзки">
+<!ENTITY https-everywhere.chrome.settings_for_this_site_explained "Докато браузвате различни сайтове, можете да променяте настройките индивидуално за всеки сайт">
 <!ENTITY https-everywhere.chrome.stable_rules "Устойчиви правила">
 <!ENTITY https-everywhere.chrome.stable_rules_description "Принудително криптиране при свързването към тези сайтове:">
 <!ENTITY https-everywhere.chrome.experimental_rules "Експериментални правила">
 <!ENTITY https-everywhere.chrome.experimental_rules_description "Може да предизвика предупреждения или прекъсване. Изключено по подразбиране.">
+<!ENTITY https-everywhere.chrome.disable_on_this_site "Изключете HTTPS Навсякъде за този сайт">
+<!ENTITY https-everywhere.chrome.enable_on_this_site "Изключете HTTPS Навсякъде за този сайт">
 <!ENTITY https-everywhere.chrome.add_rule "Добави правило за този сайт">
 <!ENTITY https-everywhere.chrome.add_new_rule "Добави ново правило за този сайт">
 <!ENTITY https-everywhere.chrome.always_https_for_host "Винаги използвай https за този хост">
