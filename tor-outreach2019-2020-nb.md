@@ -4,19 +4,19 @@
 
 ### Personvern er en menneskerettighet
 
-Like many of us, Aleisha spends most of her time online--connecting with friends, posting on social media, and browsing the web.
+Som mange av oss, bruker Aleisha mesteparten av tiden sin på nettet - å få kontakt med venner, legge ut på sosiale medier, og surfe på nettet.
 
-But lately, she's noticed that advertisements related to her previous searches are following her around online.
+I det siste, har hun lagt merke til at annonser relatert til hennes tidligere søk følger henne rundt på nettet.
 
-This feels so invasive that she does some research on online ads and learns that it's not just advertisers tracking her but also her ISP, analytics companies, social media platforms, and more.
+Dette føles så inngripende at hun forsker på annonser på nettet og lærer at det ikke bare er annonsører som sporer etter henne, men også Internett-leverandøren hennes, analyseselskaper, plattformer for sosiale medier og mer.
 
-Aleisha decides she wants to find and use software that doesn't collect her data, doesn't track her, and doesn't tell other services anything private about her.
+Aleisha bestemmer seg for at hun vil finne og bruke programvare som ikke samler inn dataene hennes, ikke sporer henne og ikke forteller andre tjenester noe privat om henne.
 
-She goes to a privacy training at a local hackerspace and learns about **Tor Browser**, the only web browser that allows her to browse anonymously.
+Hun går på en privatlivstrening på et lokalt hackerspace og lærer om ** Tor Nettleser **, den eneste nettleseren som lar henne surfe anonymt.
 
 ---
 
-# 2.TOR FOR FEMINISTS 
+# 2.TOR FOR FEMINISTER
 
 ### The future is cyberfeminist
 
