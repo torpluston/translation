@@ -20,9 +20,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Tor Project\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-06-30 18:55+0200\n"
-"PO-Revision-Date: 2019-08-07 12:58+0000\n"
-"Last-Translator: erinm\n"
+"POT-Creation-Date: 2019-08-12 11:57+0200\n"
+"PO-Revision-Date: 2019-08-12 13:45+0000\n"
+"Last-Translator: carolyn <carolyn@anhalt.org>\n"
 "Language-Team: Czech (http://www.transifex.com/otf/torproject/language/cs/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -55,6 +55,11 @@ msgid ""
 "</p>\n"
 msgstr "<h1>Pomožte nám opravit tuto chybu!</h1>\n<p>Přečtěte si <a href=\"%s\">naše instrukce k reportování chyb</a>.</p>\n<p><strong>Nevkládejte žádné osobní údaje, které nejsou nezbytně nutné!</strong></p>\n<h2>Jak je to s vaší emailovou adresou</h2>\n<p>\nTím že uvedete váš email, nám umožníte, abychom Vás kontaktovali v případě, že bude nutné upřesnit potíže. To je obvykle nutné u většinu ohlášených chyb a pokud by nebylo možné Vás kontaktovat, bylo by vaše hlášení chyby k ničemu. Na druhé straně musíte počítat s tím, že váš poskytovatel připojení nebo provozovatel emailu může emailovou komunikaci odposlechnout a zjistit tak, že používáte Tails.\n</p>\n"
 
+#: config/chroot_local-includes/usr/share/tails/additional-software/configuration-window.ui:8
+#: ../config/chroot_local-includes/usr/share/applications/org.boum.tails.additional-software-config.desktop.in.h:1
+msgid "Additional Software"
+msgstr "Dodatečný software"
+
 #: config/chroot_local-includes/usr/share/tails/additional-software/configuration-window.ui:51
 msgid ""
 "You can install additional software automatically from your persistent "
@@ -68,7 +73,7 @@ msgid ""
 msgstr ""
 
 #: config/chroot_local-includes/usr/share/tails/additional-software/configuration-window.ui:135
-#: config/chroot_local-includes/usr/local/bin/tails-additional-software-config:173
+#: config/chroot_local-includes/usr/local/bin/tails-additional-software-config:171
 msgid ""
 "To add more, install some software using <a "
 "href=\"synaptic.desktop\">Synaptic Package Manager</a> or <a "
@@ -103,6 +108,26 @@ msgstr "_Spustit"
 #: config/chroot_local-includes/usr/local/sbin/unsafe-browser:42
 msgid "_Exit"
 msgstr "_Odejít"
+
+#: config/chroot_local-includes/usr/local/bin/keepassxc:15
+#, sh-format
+msgid ""
+"<b><big>Do you want to rename your <i>KeePassXC</i> database?</big></b>\n"
+"\n"
+"You have a <i>KeePassXC</i> database in your <i>Persistent</i> folder:\n"
+"\n"
+"<i>${filename}</i>\n"
+"\n"
+"Renaming it to <i>keepassx.kdbx</i> would allow <i>KeePassXC</i> to open it automatically in the future."
+msgstr ""
+
+#: config/chroot_local-includes/usr/local/bin/keepassxc:23
+msgid "Rename"
+msgstr ""
+
+#: config/chroot_local-includes/usr/local/bin/keepassxc:24
+msgid "Keep current name"
+msgstr ""
 
 #: config/chroot_local-includes/usr/local/bin/replace-su-with-sudo:21
 msgid "su is disabled. Please use sudo instead."
@@ -151,89 +176,89 @@ msgstr "nedostupné"
 
 #. Translators: Don't translate {details}, it's a placeholder and will
 #. be replaced.
-#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:150
+#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:148
 #, python-brace-format
 msgid ""
 "{details} Please check your list of additional software or read the system "
 "log to understand the problem."
 msgstr ""
 
-#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:155
+#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:153
 msgid ""
 "Please check your list of additional software or read the system log to "
 "understand the problem."
 msgstr "Zkontrolujte seznam dalšího software nebo si přečtěte systémový protokol, abyste pochopili problém."
 
-#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:159
+#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:157
 msgid "Show Log"
 msgstr "Ukaz zaznam"
 
-#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:159
+#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:157
 msgid "Configure"
 msgstr "Konfigurovat"
 
 #. Translators: Don't translate {beginning} or {last}, they are
 #. placeholders and will be replaced.
-#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:225
+#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:223
 #, python-brace-format
 msgid "{beginning} and {last}"
 msgstr "{beginning} a {last}"
 
-#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:226
+#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:224
 msgid ", "
 msgstr ", "
 
 #. Translators: Don't translate {packages}, it's a placeholder and will
 #. be replaced.
-#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:292
-#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:322
+#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:290
+#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:320
 #, python-brace-format
 msgid "Add {packages} to your additional software?"
 msgstr ""
 
-#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:294
+#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:292
 msgid ""
 "To install it automatically from your persistent storage when starting "
 "Tails."
 msgstr ""
 
-#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:296
+#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:294
 msgid "Install Every Time"
 msgstr "Instalovat pokaždé"
 
-#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:297
-#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:328
+#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:295
+#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:326
 msgid "Install Only Once"
 msgstr "Instalovat pouze jednou"
 
-#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:303
-#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:333
-#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:374
+#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:301
+#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:331
+#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:372
 msgid "The configuration of your additional software failed."
 msgstr ""
 
-#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:324
+#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:322
 msgid ""
 "To install it automatically when starting Tails, you can create a persistent"
 " storage and activate the <b>Additional Software</b> feature."
 msgstr ""
 
-#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:327
+#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:325
 msgid "Create Persistent Storage"
 msgstr "Vytvořit trvalé úložiště"
 
-#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:335
+#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:333
 msgid "Creating your persistent storage failed."
 msgstr ""
 
 #. Translators: Don't translate {packages}, it's a placeholder and
 #. will be replaced.
-#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:344
+#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:342
 #, python-brace-format
 msgid "You could install {packages} automatically when starting Tails"
 msgstr ""
 
-#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:347
+#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:345
 msgid ""
 "To do so, you need to run Tails from a USB stick installed using <i>Tails "
 "Installer</i>."
@@ -241,67 +266,67 @@ msgstr ""
 
 #. Translators: Don't translate {packages}, it's a placeholder and will be
 #. replaced.
-#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:362
+#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:360
 #, python-brace-format
 msgid "Remove {packages} from your additional software?"
 msgstr ""
 
 #. Translators: Don't translate {packages}, it's a placeholder
 #. and will be replaced.
-#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:366
+#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:364
 #, python-brace-format
 msgid "This will stop installing {packages} automatically."
 msgstr ""
 
-#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:368
-#: config/chroot_local-includes/usr/local/bin/tails-additional-software-config:156
+#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:366
+#: config/chroot_local-includes/usr/local/bin/tails-additional-software-config:154
 msgid "Remove"
 msgstr "Odstranit"
 
-#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:369
+#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:367
 #: config/chroot_local-includes/usr/local/bin/tails-screen-locker:119
 #: config/chroot_local-includes/usr/local/bin/tor-browser:46
 msgid "Cancel"
 msgstr "Zrušit"
 
-#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:547
+#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:545
 msgid "Installing your additional software from persistent storage..."
 msgstr ""
 
-#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:549
+#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:547
 msgid "This can take several minutes."
 msgstr "Toto může trvat pár minut."
 
-#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:562
+#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:560
 msgid "The installation of your additional software failed"
 msgstr ""
 
-#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:577
+#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:575
 msgid "Additional software installed successfully"
 msgstr "Dodatečný software byl úspěšně nainstalován"
 
-#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:597
+#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:595
 msgid "The check for upgrades of your additional software failed"
 msgstr ""
 
-#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:599
-#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:607
+#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:597
+#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:605
 msgid ""
 "Please check your network connection, restart Tails, or read the system log "
 "to understand the problem."
 msgstr "Zkontrolujte prosím síťové připojení, restartujte Tails nebo přečtěte si systémový protokol, abyste pochopili problém."
 
-#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:606
+#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:604
 msgid "The upgrade of your additional software failed"
 msgstr ""
 
-#: config/chroot_local-includes/usr/local/lib/tails-additional-software-notify:39
+#: config/chroot_local-includes/usr/local/lib/tails-additional-software-notify:37
 msgid "Documentation"
 msgstr "Dokumentace"
 
 #. Translators: Don't translate {package}, it's a placeholder and will be
 #. replaced.
-#: config/chroot_local-includes/usr/local/bin/tails-additional-software-config:96
+#: config/chroot_local-includes/usr/local/bin/tails-additional-software-config:94
 #, python-brace-format
 msgid ""
 "Remove {package} from your additional software? This will stop installing "
@@ -310,30 +335,30 @@ msgstr "Odstranit {package} z vašeho dodatečného software? Tím se přestane 
 
 #. Translators: Don't translate {pkg}, it's a placeholder and will be
 #. replaced.
-#: config/chroot_local-includes/usr/local/bin/tails-additional-software-config:107
+#: config/chroot_local-includes/usr/local/bin/tails-additional-software-config:105
 #, python-brace-format
 msgid "Failed to remove {pkg}"
 msgstr "Selhalo odstaňování {pkg}"
 
-#: config/chroot_local-includes/usr/local/bin/tails-additional-software-config:124
+#: config/chroot_local-includes/usr/local/bin/tails-additional-software-config:122
 msgid "Failed to read additional software configuration"
 msgstr ""
 
 #. Translators: Don't translate {package}, it's a placeholder and will be
 #. replaced.
-#: config/chroot_local-includes/usr/local/bin/tails-additional-software-config:154
+#: config/chroot_local-includes/usr/local/bin/tails-additional-software-config:152
 #, python-brace-format
 msgid "Stop installing {package} automatically"
 msgstr ""
 
-#: config/chroot_local-includes/usr/local/bin/tails-additional-software-config:180
+#: config/chroot_local-includes/usr/local/bin/tails-additional-software-config:178
 msgid ""
 "To do so, install some software using <a href=\"synaptic.desktop\">Synaptic "
 "Package Manager</a> or <a href=\"org.gnome.Terminal.desktop\">APT on the "
 "command line</a>."
 msgstr ""
 
-#: config/chroot_local-includes/usr/local/bin/tails-additional-software-config:189
+#: config/chroot_local-includes/usr/local/bin/tails-additional-software-config:187
 msgid ""
 "To do so, unlock your persistent storage when starting Tails and install "
 "some software using <a href=\"synaptic.desktop\">Synaptic Package "
@@ -341,20 +366,20 @@ msgid ""
 "line</a>."
 msgstr ""
 
-#: config/chroot_local-includes/usr/local/bin/tails-additional-software-config:199
+#: config/chroot_local-includes/usr/local/bin/tails-additional-software-config:197
 msgid ""
 "To do so, create a persistent storage and install some software using <a "
 "href=\"synaptic.desktop\">Synaptic Package Manager</a> or <a "
 "href=\"org.gnome.Terminal.desktop\">APT on the command line</a>."
 msgstr ""
 
-#: config/chroot_local-includes/usr/local/bin/tails-additional-software-config:207
+#: config/chroot_local-includes/usr/local/bin/tails-additional-software-config:205
 msgid ""
 "To do so, install Tails on a USB stick using <a href=\"tails-"
 "installer.desktop\">Tails Installer</a> and create a persistent storage."
 msgstr ""
 
-#: config/chroot_local-includes/usr/local/bin/tails-additional-software-config:254
+#: config/chroot_local-includes/usr/local/bin/tails-additional-software-config:252
 msgid "[package not available]"
 msgstr "[soubor není dostupný]"
 
@@ -371,6 +396,26 @@ msgstr "Tor potřebuje přesné hodiny aby pracoval správně, zejména kvůli S
 #: config/chroot_local-includes/usr/local/lib/tails-htp-notify-user:87
 msgid "Failed to synchronize the clock!"
 msgstr "Synchronizace hodin se nezdařila!"
+
+#: config/chroot_local-includes/usr/local/bin/tails-screen-locker:110
+msgid "Lock Screen"
+msgstr "Zamknout obrazovku"
+
+#: config/chroot_local-includes/usr/local/bin/tails-screen-locker:125
+msgid "Screen Locker"
+msgstr "Zámek obrazovky"
+
+#: config/chroot_local-includes/usr/local/bin/tails-screen-locker:131
+msgid "Set up a password to unlock the screen."
+msgstr "Nastavte heslo pro odemčení obrazovky."
+
+#: config/chroot_local-includes/usr/local/bin/tails-screen-locker:149
+msgid "Password"
+msgstr "Heslo"
+
+#: config/chroot_local-includes/usr/local/bin/tails-screen-locker:150
+msgid "Confirm"
+msgstr "Potvrdit"
 
 #: config/chroot_local-includes/usr/local/bin/tails-security-check:124
 msgid "This version of Tails has known security issues:"
@@ -402,26 +447,6 @@ msgid ""
 "MAC spoofing failed for network card ${nic_name} (${nic}). The error recovery also failed so all networking is disabled.\n"
 "You might prefer to restart Tails and disable MAC spoofing."
 msgstr "MAC spoofing pro síťovou kartu ${nic_name} (${nic}) selhal. Opravení chyby také selhalo a veškerý síťový provoz byl deaktivován.\nMěli byste restartovat Tails a vypnout MAC spoofing."
-
-#: config/chroot_local-includes/usr/local/bin/tails-screen-locker:110
-msgid "Lock Screen"
-msgstr "Zamknout obrazovku"
-
-#: config/chroot_local-includes/usr/local/bin/tails-screen-locker:125
-msgid "Screen Locker"
-msgstr "Zámek obrazovky"
-
-#: config/chroot_local-includes/usr/local/bin/tails-screen-locker:131
-msgid "Set up a password to unlock the screen."
-msgstr "Nastavte heslo pro odemčení obrazovky."
-
-#: config/chroot_local-includes/usr/local/bin/tails-screen-locker:149
-msgid "Password"
-msgstr "Heslo"
-
-#: config/chroot_local-includes/usr/local/bin/tails-screen-locker:150
-msgid "Confirm"
-msgstr "Potvrdit"
 
 #: config/chroot_local-includes/usr/local/bin/tails-upgrade-frontend-wrapper:35
 msgid ""
@@ -485,68 +510,6 @@ msgstr "Tor Stav"
 #: config/chroot_local-includes/usr/share/gnome-shell/extensions/torstatus@tails.boum.org/extension.js:50
 msgid "Open Onion Circuits"
 msgstr ""
-
-#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:38
-msgid "Do you really want to launch the Unsafe Browser?"
-msgstr "Opravdu chcete spustit Nebezpečný prohlížeč?"
-
-#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:40
-msgid ""
-"Network activity within the Unsafe Browser is <b>not anonymous</b>.\\nOnly "
-"use the Unsafe Browser if necessary, for example\\nif you have to login or "
-"register to activate your Internet connection."
-msgstr "Síťová aktivita v Nebezpečném prohlížeči <b>není anonymní</b>.\\nPoužívejte Nebezpečný prohlížeč pouze v případě nutnosti,\\nnapříklad pokud se potřebujete přihlásit nebo zaregistrovat, abyste aktivovali vaše připojení k internetu."
-
-#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:51
-msgid "Starting the Unsafe Browser..."
-msgstr "Spoštění nebezpečného prohlížeče..."
-
-#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:52
-msgid "This may take a while, so please be patient."
-msgstr "Může to nějakou dobu trvat, takže buďte trpěliví."
-
-#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:57
-msgid "Shutting down the Unsafe Browser..."
-msgstr "Ukončování nebezpečného prohlížeče..."
-
-#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:58
-msgid ""
-"This may take a while, and you may not restart the Unsafe Browser until it "
-"is properly shut down."
-msgstr "Tohle může chvíli trvat a nemusíte spustit Nebezpečný Prohlížeč dokud nebude spárvně vypnut."
-
-#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:70
-msgid "Failed to restart Tor."
-msgstr "Znovuspuštění TORu nebylo úspěšné"
-
-#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:84
-#: ../config/chroot_local-includes/usr/share/applications/unsafe-browser.desktop.in.h:1
-msgid "Unsafe Browser"
-msgstr "Nebezpečný prohlížeč"
-
-#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:91
-msgid ""
-"Another Unsafe Browser is currently running, or being cleaned up. Please "
-"retry in a while."
-msgstr "Další Nebezpečný Prohlížeč je nyní spuštěn nebo se čistí. Prosíme vraťte se později."
-
-#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:99
-msgid "Failed to setup chroot."
-msgstr "Nepodařilo se nastavit \"chroot\""
-
-#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:104
-msgid "Failed to configure browser."
-msgstr "Nepodařilo se nakonfigurovat prohlížeč."
-
-#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:110
-msgid ""
-"No DNS server was obtained through DHCP or manually configured in "
-"NetworkManager."
-msgstr "Nebyl získán prostřednictvím DHCP nebo ručně nastaven v Síťovém správci žádný DNS server."
-
-#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:121
-msgid "Failed to run browser."
-msgstr "Nepodařilo se spustit prohlížeč."
 
 #. Translators: Don't translate {volume_label} or {volume_size},
 #. they are placeholders and will be replaced.
@@ -625,17 +588,21 @@ msgid ""
 "{error_message}"
 msgstr ""
 
+#: config/chroot_local-includes/usr/local/lib/python3/dist-packages/unlock_veracrypt_volumes/volume.py:330
+msgid "One or more applications are keeping the volume busy."
+msgstr ""
+
 #. Translators: Don't translate {volume_name} or {error_message},
 #. they are placeholder and will be replaced.
-#: config/chroot_local-includes/usr/local/lib/python3/dist-packages/unlock_veracrypt_volumes/volume.py:330
+#: config/chroot_local-includes/usr/local/lib/python3/dist-packages/unlock_veracrypt_volumes/volume.py:336
 #, python-brace-format
 msgid ""
 "Couldn't lock volume {volume_name}:\n"
 "{error_message}"
 msgstr ""
 
-#: config/chroot_local-includes/usr/local/lib/python3/dist-packages/unlock_veracrypt_volumes/volume.py:332
-msgid "Error locking volume"
+#: config/chroot_local-includes/usr/local/lib/python3/dist-packages/unlock_veracrypt_volumes/volume.py:338
+msgid "Locking the volume failed"
 msgstr ""
 
 #: config/chroot_local-includes/usr/local/lib/python3/dist-packages/unlock_veracrypt_volumes/volume_list.py:83
@@ -701,6 +668,68 @@ msgstr ""
 msgid "Choose File Container"
 msgstr "Vybrat souborový kontejner"
 
+#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:38
+msgid "Do you really want to launch the Unsafe Browser?"
+msgstr "Opravdu chcete spustit Nebezpečný prohlížeč?"
+
+#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:40
+msgid ""
+"Network activity within the Unsafe Browser is <b>not anonymous</b>.\\nOnly "
+"use the Unsafe Browser if necessary, for example\\nif you have to login or "
+"register to activate your Internet connection."
+msgstr "Síťová aktivita v Nebezpečném prohlížeči <b>není anonymní</b>.\\nPoužívejte Nebezpečný prohlížeč pouze v případě nutnosti,\\nnapříklad pokud se potřebujete přihlásit nebo zaregistrovat, abyste aktivovali vaše připojení k internetu."
+
+#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:51
+msgid "Starting the Unsafe Browser..."
+msgstr "Spoštění nebezpečného prohlížeče..."
+
+#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:52
+msgid "This may take a while, so please be patient."
+msgstr "Může to nějakou dobu trvat, takže buďte trpěliví."
+
+#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:57
+msgid "Shutting down the Unsafe Browser..."
+msgstr "Ukončování nebezpečného prohlížeče..."
+
+#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:58
+msgid ""
+"This may take a while, and you may not restart the Unsafe Browser until it "
+"is properly shut down."
+msgstr "Tohle může chvíli trvat a nemusíte spustit Nebezpečný Prohlížeč dokud nebude spárvně vypnut."
+
+#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:70
+msgid "Failed to restart Tor."
+msgstr "Znovuspuštění TORu nebylo úspěšné"
+
+#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:84
+#: ../config/chroot_local-includes/usr/share/applications/unsafe-browser.desktop.in.h:1
+msgid "Unsafe Browser"
+msgstr "Nebezpečný prohlížeč"
+
+#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:91
+msgid ""
+"Another Unsafe Browser is currently running, or being cleaned up. Please "
+"retry in a while."
+msgstr "Další Nebezpečný Prohlížeč je nyní spuštěn nebo se čistí. Prosíme vraťte se později."
+
+#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:99
+msgid "Failed to setup chroot."
+msgstr "Nepodařilo se nastavit \"chroot\""
+
+#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:104
+msgid "Failed to configure browser."
+msgstr "Nepodařilo se nakonfigurovat prohlížeč."
+
+#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:110
+msgid ""
+"No DNS server was obtained through DHCP or manually configured in "
+"NetworkManager."
+msgstr "Nebyl získán prostřednictvím DHCP nebo ručně nastaven v Síťovém správci žádný DNS server."
+
+#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:121
+msgid "Failed to run browser."
+msgstr "Nepodařilo se spustit prohlížeč."
+
 #: ../config/chroot_local-includes/etc/skel/Desktop/Report_an_error.desktop.in.h:1
 msgid "Report an error"
 msgstr "Nahlásit chybu"
@@ -745,10 +774,6 @@ msgstr "Nebezpečný webový prohlížeč"
 #: ../config/chroot_local-includes/usr/share/applications/unlock-veracrypt-volumes.desktop.in.h:2
 msgid "Mount VeraCrypt encrypted file containers and devices"
 msgstr "Připojit zašifrované souborové kontejnery a zařízení Veracrypt"
-
-#: ../config/chroot_local-includes/usr/share/applications/org.boum.tails.additional-software-config.desktop.in.h:1
-msgid "Additional Software"
-msgstr "Dodatečný software"
 
 #: ../config/chroot_local-includes/usr/share/applications/org.boum.tails.additional-software-config.desktop.in.h:2
 msgid ""
