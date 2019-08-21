@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Snowflake</title>
+<link rel="stylesheet" href="index_files/index.asc">
+</head>
+<body>
+    <div id="header"><a href="https://www.torproject.org/">
+        <img src="index_files/tor-logo2x.png" alt="Tor" height="50px"></a></div>
+    <div id="content">
+      <h1>SNOWFLAKE</h1>
+
+      <p class="diagram"><img src="index_files/snowflake-schematic.png" alt="Diagram"></p>
+
+      <p>Το Snowflake είναι ένα σύστημα για την καταπολέμηση της λογοκρισίας στο διαδίκτυο. Άνθρωποι που
+      έχουν υποστεί λογοκρισία μπορούν να αποκτήσουν πρόσβαση στο διαδίκτυοχρησιμοποιώντας το Snowflake . Η σύνδεσή τους περνά μέσα από Snowflake proxies, τα οποία τρέχουν από εθελοντές. Για περισσότερες
+      πληροφορίες σχετικά με το πως λειτουργεί το Snowflake δείτε το 
+      <a href="https://trac.torproject.org/projects/tor/wiki/doc/Snowflake/">wiki τεκμηρίωσης</a>.</p>
+
+      <div class="clear">
+
+        <div class="browser"><div class="padding">
+          <h3>Περιηγητής</h3>
+
+          <p>Εάν η πρόσβασή σας στο διαδίκτυο έχει υποστεί λογοκρισία, Θα πρέπει να κάνετε λήψη του
+          <a href="https://www.torproject.org/download/">Περιηγητή Tor</a>.</p>
+
+          <p class="screenshot"><img src="index_files/screenshot.png" alt="Tor Browser screenshot"></p>
+        </div></div>
+
+        <div class="extension"><div class="padding">
+          <h3>Επέκταση</h3>
+
+          <p>Αν η πρόσβασή σας στο διαδίκτυο <strong>δεν</strong> έχει υποστεί λογοκρισία, μπορείτε να
+          εγκαταστήσετε την επέκταση Snowflake για να βοηθήσετε τους χρήστες με λογοκρινόμενη σύνδεση στο διαδίκτυο. 
+Δεν χρειάζεται να ανησυχείτε για τους ιστοτόπους που θα επισκέπτονται αυτοί οι χρήστες μέσω του proxy σας. 
+Η ορατή διεύθυνση περιήγησης IP τους θα αντιστοιχεί στον κόμβο εξόδου του Tor τους, και όχι στη δική σας.</p>
+
+          <p class="addon"><a href="https://addons.mozilla.org/en-US/firefox/addon/torproject-snowflake/">
+              <img src="index_files/firefox150.jpg" alt="Install in Firefox" height="100px"><br><span>Εγκατάσταση στο Firefox</span>
+            </a>
+            <a href="https://chrome.google.com/webstore/detail/snowflake/mafpmfcccpbjnhfhjnllmmalhifmlcie">
+              <img src="index_files/chrome150.jpg" alt="Install in Chrome" height="100px"><br><span>Εγκατάσταση στο Chrome</span>
+            </a>
+            <span class="clear"></span></p>
+        </div></div>
+
+      </div>
+
+      <h3>ΑΝΑΦΟΡΑ ΣΦΑΛΜΑΤΩΝ</h3>
+      
+      <p>Αν αντιμετωπίζετε προβλήματα με το Snowflake ως client ή proxy,
+      παρακαλούμε να υποβάλλετε μιας αναφοράς σφάλματος. Για να το κάνετε αυτό, θα πρέπει,</p>
+      
+      <ol>
+<li>Είτε να <a href="https://trac.torproject.org/projects/tor/register">δημιουργήσετε ένα λογαριασμό </a> ή να <a href="https://trac.torproject.org/projects/tor/login">συνδεθείτε</a>
+        χρησιμοποιώντας τον κοινόχρηστο λογαριασμό <b>cypherpunks</b> με κωδικό πρόσβασης <b>writecode</b>.</li>
+        <li>
+<a href="https://trac.torproject.org/projects/tor/newticket?component=Circumvention%2FSnowflake">Να καταθέσετε ένα αίτημα υποστήριξης</a>
+        χρησιμοποιώντας τον ανιχνευτή σφαλμάτων μας.</li>
+      </ol>
+<p>Προσπαθήστε να είστε όσο το δυνατόν πιο περιγραφικοί με το αίτημά σας και,
+      αν είναι δυνατόν, να συμπεριλάβετε μηνύματα καταγραφής που θα μας βοηθήσουν να αναπαράγουμε το σφάλμα.
+      Καλό θα ήταν να να προσθέσετε τις λέξεις-κλειδιά <em>snowflake-webextension</em> ή <em>snowflake-client</em>
+      για να μας πείτε ποιο τμήμα του συστήματος Snowflake αντιμετωπίζει προβλήματα.</p>
+
+      <h3>ΕΝΣΩΜΑΤΩΣΗ</h3>
+
+      <p>Πλέον μπορείτε να ενσωματώσετε το έμβλημα του Snowflake σε οποιαδήποτε ιστοσελίδα:</p>
+
+      <textarea readonly>&lt;iframe src="https://snowflake.torproject.org/embed.html" width="320px" height="200px" frameborder="0" scrolling="no"&gt;&lt;/iframe&gt;</textarea><p>Που μοιάζει με αυτό:</p>
+
+      <iframe src="index_files/embed.html" scrolling="no" width="320px" height="200px" frameborder="0"></iframe>
+
+    </div>
+  
+
+</body>
+</html>

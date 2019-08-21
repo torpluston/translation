@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Snowflake</title>
+<link rel="stylesheet" href="index_files/index.asc">
+</head>
+<body>
+    <div id="header"><a href="https://www.torproject.org/">
+        <img src="index_files/tor-logo2x.png" alt="Tor" height="50px"></a></div>
+    <div id="content">
+      <h1>SNOWFLAKE</h1>
+
+      <p class="diagram"><img src="index_files/snowflake-schematic.png" alt="Diagram"></p>
+
+      <p>Snowflake es un sistema para burlar la censura de internet. Personas que están
+      censuradas pueden usar Snowflake para acceder a internet. Su conxión va a través 
+      de los proxies Snowflake, que hacen funcionar voluntarios. Para una información más
+      detallada de cómo funciona Snowflake mira en la
+      <a href="https://trac.torproject.org/projects/tor/wiki/doc/Snowflake/">wiki de documentación</a>.</p>
+
+      <div class="clear">
+
+        <div class="browser"><div class="padding">
+          <h3>Navegador</h3>
+
+          <p>Si tu acceso a internet está censurado deberías bajarte
+          <a href="https://www.torproject.org/download/">el Navegador Tor</a>.</p>
+
+          <p class="screenshot"><img src="index_files/screenshot.png" alt="Tor Browser screenshot"></p>
+        </div></div>
+
+        <div class="extension"><div class="padding">
+          <h3>Extensión</h3>
+
+          <p>Si tu acceso a internet <strong>no</strong> está censurado, deberías
+          pensar en instalar la extensión Snowflake para ayudar a los usuarios de redes
+          censuradas. No tienes que preocuparte por  los sitios web a los que
+          acceden por tu proxy. Su dirección IP de navegación visible
+          coincide con su nodo de salida Tor, no con el tuyo..</p>
+
+          <p class="addon"><a href="https://addons.mozilla.org/en-US/firefox/addon/torproject-snowflake/">
+              <img src="index_files/firefox150.jpg" alt="Install in Firefox" height="100px"><br><span>Instalar en Firefox</span>
+            </a>
+            <a href="https://chrome.google.com/webstore/detail/snowflake/mafpmfcccpbjnhfhjnllmmalhifmlcie">
+              <img src="index_files/chrome150.jpg" alt="Install in Chrome" height="100px"><br><span>Instalar en Chrome</span>
+            </a>
+            <span class="clear"></span></p>
+        </div></div>
+
+      </div>
+
+      <h3>INFORMAR DE FALLOS</h3>
+      
+      <p>Si hay algún problema con Snowflake como cliente o proxy,
+      por favor presenta un informe de error. Para hacerlo, tendrás que,,</p>
+      
+      <ol>
+<li>Bien <a href="https://trac.torproject.org/projects/tor/register">crea una
+        cuenta</a> o <a href="https://trac.torproject.org/projects/tor/login">logea </a>
+        usando la cuenta de <b>cypherpunks</b> compartida con contraseña <b>código de escritura</b>.</li>
+        <li>
+<a href="https://trac.torproject.org/projects/tor/newticket?component=Circumvention%2FSnowflake">archiva una nota</a>
+        usando nuestro rastreador de errores.</li>
+      </ol>
+<p>Intenta ser los más descriptivo posible en la nota y si es
+      posible incluye el mensaje de registro que nos ayudará a reproducir  el bug.
+      Añade las palabras claves <em>snowflake-webextension</em> o <em>snowflake-client</em>
+      para que podamos saber qué parte del sistema Snowflake está teniendo
+      problemas.</p>
+
+      <h3>EMPOTRADO</h3>
+
+      <p>Ahora es posible insertar el distintivo Snowflake en cualquier sitio web:</p>
+
+      <textarea readonly>&lt;iframe src="https://snowflake.torproject.org/embed.html" width="320px" height="200px" frameborder="0" scrolling="no"&gt;&lt;/iframe&gt;</textarea><p>Que se ve así:</p>
+
+      <iframe src="index_files/embed.html" scrolling="no" width="320px" height="200px" frameborder="0"></iframe>
+
+    </div>
+  
+
+</body>
+</html>
