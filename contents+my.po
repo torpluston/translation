@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-08-07 17:41+CET\n"
+"POT-Creation-Date: 2019-08-21 12:22+CET\n"
 "PO-Revision-Date: 2018-10-02 22:41+0000\n"
 "Last-Translator: erinm, 2019\n"
 "Language-Team: Burmese (https://www.transifex.com/otf/teams/1519/my/)\n"
@@ -230,15 +230,11 @@ msgstr ""
 
 #: https//support.torproject.org/faq/faq-5/
 #: (content/faq/faq-5/contents+en.lrquestion.title)
-#: https//support.torproject.org/misc/misc-13/
-#: (content/misc/misc-13/contents+en.lrquestion.title)
 msgid "Can I use a VPN with Tor?"
 msgstr ""
 
 #: https//support.torproject.org/faq/faq-5/
 #: (content/faq/faq-5/contents+en.lrquestion.description)
-#: https//support.torproject.org/misc/misc-13/
-#: (content/misc/misc-13/contents+en.lrquestion.description)
 msgid ""
 "Generally speaking, we don't recommend using a VPN with Tor unless you're an"
 " advanced user who knows how to configure both in a way that doesn't "
@@ -247,8 +243,6 @@ msgstr ""
 
 #: https//support.torproject.org/faq/faq-5/
 #: (content/faq/faq-5/contents+en.lrquestion.description)
-#: https//support.torproject.org/misc/misc-13/
-#: (content/misc/misc-13/contents+en.lrquestion.description)
 msgid ""
 "You can find more detailed information about Tor + VPN at <mark><a "
 "href=\"https://trac.torproject.org/projects/tor/wiki/doc/TorPlusVPN\">our "
@@ -522,7 +516,7 @@ msgstr ""
 #: (content/tbb/how-to-verify-signature/contents+en.lrquestion.description)
 msgid ""
 "gpgv --keyring .\tor.keyring Downloads\torbrowser-install-win64-8.5.4_en-"
-"US.exe.asc Downloads\torbrowser-win64-install-8.5.4_en-US.exe"
+"US.exe.asc Downloads\torbrowser-install-win64-8.5.4_en-US.exe"
 msgstr ""
 
 #: https//support.torproject.org/tbb/how-to-verify-signature/
@@ -4949,7 +4943,7 @@ msgstr ""
 #: https//support.torproject.org/misc/misc-12/
 #: (content/misc/misc-12/contents+en.lrquestion.description)
 msgid ""
-"For sharing files through Tor, <mark><a "
+"For sharing files over Tor, <mark><a "
 "href=\"https://onionshare.org/\">OnionShare</a></mark> is a good option."
 msgstr ""
 
@@ -5178,60 +5172,82 @@ msgid ""
 "into Tor Browser itself."
 msgstr ""
 
-#: templates/footer.html:5
+#: lego/templates/footer.html:9 lego/templates/footer.html:18
+#: lego/templates/navbar.html:71 templates/footer.html:9
+#: templates/footer.html:18 templates/navbar.html:71
+msgid "Download Tor Browser"
+msgstr ""
+
+#: lego/templates/footer.html:10 templates/footer.html:10
+msgid ""
+"Download Tor Browser to experience real private browsing without tracking, "
+"surveillance, or censorship."
+msgstr ""
+
+#: lego/templates/footer.html:27 templates/footer.html:27
 msgid "Our mission:"
 msgstr ""
 
-#: templates/footer.html:5
+#: lego/templates/footer.html:28 templates/footer.html:28
 msgid ""
-"to advance human rights and freedoms by creating and deploying free and open"
+"To advance human rights and freedoms by creating and deploying free and open"
 " source anonymity and privacy technologies, supporting their unrestricted "
 "availability and use, and furthering their scientific and popular "
 "understanding."
 msgstr ""
 
-#: templates/footer.html:24
-msgid "SUBSCRIBE TO OUR NEWSLETTER"
+#: lego/templates/footer.html:49 lego/templates/navbar.html:15
+#: templates/footer.html:49 templates/navbar.html:15
+msgid "Donate Now"
 msgstr ""
 
-#: templates/footer.html:25
+#: lego/templates/footer.html:54 templates/footer.html:54
+msgid "Subscribe to our Newsletter"
+msgstr ""
+
+#: lego/templates/footer.html:55 templates/footer.html:55
 msgid "Get monthly updates and opportunities from the Tor Project:"
 msgstr ""
 
-#: templates/footer.html:26
-msgid "SIGN UP"
+#: lego/templates/footer.html:56 templates/footer.html:56
+msgid "Sign up"
 msgstr ""
 
-#: templates/footer.html:32
+#: lego/templates/footer.html:75 templates/footer.html:75
+#, python-format
 msgid ""
 "Trademark, copyright notices, and rules for use by third parties can be "
-"found in our "
+"found in our %(link_to_faq)s"
 msgstr ""
+
+#: lego/templates/navbar.html:18 templates/navbar.html:18
+msgid "Menu"
+msgstr ""
+
+#: lego/templates/search.html:5 templates/search.html:5
+msgid "Search"
+msgstr "ရှာရန်"
 
 #: templates/layout.html:8
 msgid "Tor Project | Support"
 msgstr ""
 
-#: templates/navbar.html:4
-msgid "Tor Logo"
-msgstr ""
-
-#: templates/navbar.html:6
-msgid "DONATE NOW"
-msgstr ""
-
-#: templates/navbar.html:41
-msgid "Download Tor Browser"
-msgstr ""
-
-#: templates/search.html:5
-msgid "Search"
-msgstr "ရှာရန်"
-
 #: templates/sidenav.html:4 templates/sidenav.html:35
 msgid "Topics"
 msgstr ""
 
-#: templates/macros/question.html:11
+#: templates/macros/question.html:12
+msgid "Contributors to this page:"
+msgstr ""
+
+#: templates/macros/question.html:14
+msgid "Edit this page"
+msgstr ""
+
+#: templates/macros/question.html:15
+msgid "Suggest Feedback"
+msgstr ""
+
+#: templates/macros/question.html:16
 msgid "Permalink"
 msgstr ""

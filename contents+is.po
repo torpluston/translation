@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-08-07 17:41+CET\n"
+"POT-Creation-Date: 2019-08-21 12:22+CET\n"
 "PO-Revision-Date: 2018-10-02 22:41+0000\n"
 "Last-Translator: Sveinn í Felli <sv1@fellsnet.is>, 2019\n"
 "Language-Team: Icelandic (https://www.transifex.com/otf/teams/1519/is/)\n"
@@ -272,15 +272,11 @@ msgstr ""
 
 #: https//support.torproject.org/faq/faq-5/
 #: (content/faq/faq-5/contents+en.lrquestion.title)
-#: https//support.torproject.org/misc/misc-13/
-#: (content/misc/misc-13/contents+en.lrquestion.title)
 msgid "Can I use a VPN with Tor?"
 msgstr "Get ég notað VPN með Tor?"
 
 #: https//support.torproject.org/faq/faq-5/
 #: (content/faq/faq-5/contents+en.lrquestion.description)
-#: https//support.torproject.org/misc/misc-13/
-#: (content/misc/misc-13/contents+en.lrquestion.description)
 msgid ""
 "Generally speaking, we don't recommend using a VPN with Tor unless you're an"
 " advanced user who knows how to configure both in a way that doesn't "
@@ -292,8 +288,6 @@ msgstr ""
 
 #: https//support.torproject.org/faq/faq-5/
 #: (content/faq/faq-5/contents+en.lrquestion.description)
-#: https//support.torproject.org/misc/misc-13/
-#: (content/misc/misc-13/contents+en.lrquestion.description)
 msgid ""
 "You can find more detailed information about Tor + VPN at <mark><a "
 "href=\"https://trac.torproject.org/projects/tor/wiki/doc/TorPlusVPN\">our "
@@ -592,7 +586,7 @@ msgstr ""
 #: (content/tbb/how-to-verify-signature/contents+en.lrquestion.description)
 msgid ""
 "gpgv --keyring .\tor.keyring Downloads\torbrowser-install-win64-8.5.4_en-"
-"US.exe.asc Downloads\torbrowser-win64-install-8.5.4_en-US.exe"
+"US.exe.asc Downloads\torbrowser-install-win64-8.5.4_en-US.exe"
 msgstr ""
 
 #: https//support.torproject.org/tbb/how-to-verify-signature/
@@ -6063,11 +6057,9 @@ msgstr ""
 #: https//support.torproject.org/misc/misc-12/
 #: (content/misc/misc-12/contents+en.lrquestion.description)
 msgid ""
-"For sharing files through Tor, <mark><a "
+"For sharing files over Tor, <mark><a "
 "href=\"https://onionshare.org/\">OnionShare</a></mark> is a good option."
 msgstr ""
-"Til að deila skrám í gegnum Tor, þá er <mark><a "
-"href=\"https://onionshare.org/\">OnionShare</a></mark> góður kostur."
 
 #: https//support.torproject.org/misc/misc-14/
 #: (content/misc/misc-14/contents+en.lrquestion.title)
@@ -6361,69 +6353,93 @@ msgstr ""
 "Stór hlut þeirra eiginleika sem Vidalia bauð eru núna orðnir innbyggðir í "
 "sjálfan Tor-vafrann"
 
-#: templates/footer.html:5
+#: lego/templates/footer.html:9 lego/templates/footer.html:18
+#: lego/templates/navbar.html:71 templates/footer.html:9
+#: templates/footer.html:18 templates/navbar.html:71
+msgid "Download Tor Browser"
+msgstr "Sæktu Tor-vafrann"
+
+#: lego/templates/footer.html:10 templates/footer.html:10
+msgid ""
+"Download Tor Browser to experience real private browsing without tracking, "
+"surveillance, or censorship."
+msgstr ""
+"Sæktu Tor-vafrann til að upplifa raunverulegt einkavafur án eftirlits, "
+"skráningar á hegðun þinni eða ritskoðun."
+
+#: lego/templates/footer.html:27 templates/footer.html:27
 msgid "Our mission:"
 msgstr "Markmið okkar:"
 
-#: templates/footer.html:5
+#: lego/templates/footer.html:28 templates/footer.html:28
 msgid ""
-"to advance human rights and freedoms by creating and deploying free and open"
+"To advance human rights and freedoms by creating and deploying free and open"
 " source anonymity and privacy technologies, supporting their unrestricted "
 "availability and use, and furthering their scientific and popular "
 "understanding."
 msgstr ""
-"að hafa mannréttindi og frelsi að leiðarljósi og stefna að þeim markmiðum "
-"með gerð og útbreiðslu á tækni til verndar persónuupplýsinga. Sú tækni eigi "
-"að vera öllum frjáls og heimil til notkunar, vera opin til skoðunar, enda sé"
-" eitt markmiðanna að stuðla að bættum almennum og vísindalegum skilningi á "
-"þessum málum."
+"Að hafa mannréttindi og frelsi að leiðarljósi og stefna að þeim markmiðum "
+"með gerð og útbreiðslu á tækni til verndar persónuupplýsingum. Sú tækni eigi"
+" að vera öllum frjáls og heimil til notkunar, vera opin til skoðunar, enda "
+"sé eitt markmiðanna að stuðla að bættum almennum og vísindalegum skilningi á"
+" þessum málum."
 
-#: templates/footer.html:24
-msgid "SUBSCRIBE TO OUR NEWSLETTER"
-msgstr "GERSTU ÁSKRIFANDI AÐ FRÉTTABRÉFINU OKKAR"
+#: lego/templates/footer.html:49 lego/templates/navbar.html:15
+#: templates/footer.html:49 templates/navbar.html:15
+msgid "Donate Now"
+msgstr "Styrkja núna"
 
-#: templates/footer.html:25
+#: lego/templates/footer.html:54 templates/footer.html:54
+msgid "Subscribe to our Newsletter"
+msgstr "Gerstu áskrifandi að fréttabréfinu okkar"
+
+#: lego/templates/footer.html:55 templates/footer.html:55
 msgid "Get monthly updates and opportunities from the Tor Project:"
 msgstr ""
 "Fáðu mánaðarlegar tilkynningar um uppfærslur og ýmsa möguleika frá Tor-"
 "verkefninu:"
 
-#: templates/footer.html:26
-msgid "SIGN UP"
-msgstr "NÝSKRÁ"
+#: lego/templates/footer.html:56 templates/footer.html:56
+msgid "Sign up"
+msgstr "Skráðu þig"
 
-#: templates/footer.html:32
+#: lego/templates/footer.html:75 templates/footer.html:75
+#, python-format
 msgid ""
 "Trademark, copyright notices, and rules for use by third parties can be "
-"found in our "
+"found in our %(link_to_faq)s"
 msgstr ""
 "Athugasemdir varðandi vörumerki, höfundarrétt, og reglur fyrir notkun "
-"utanaðkomandi aðila er hægt að skoða í"
+"utanaðkomandi aðila er hægt að skoða í %(link_to_faq)s"
+
+#: lego/templates/navbar.html:18 templates/navbar.html:18
+msgid "Menu"
+msgstr "Valmynd"
+
+#: lego/templates/search.html:5 templates/search.html:5
+msgid "Search"
+msgstr "Leita"
 
 #: templates/layout.html:8
 msgid "Tor Project | Support"
 msgstr "Tor-verkefnið | Aðstoð"
 
-#: templates/navbar.html:4
-msgid "Tor Logo"
-msgstr "Táknmerki Tor"
-
-#: templates/navbar.html:6
-msgid "DONATE NOW"
-msgstr "STYRKJA NÚNA"
-
-#: templates/navbar.html:41
-msgid "Download Tor Browser"
-msgstr "Sæktu Tor-vafrann"
-
-#: templates/search.html:5
-msgid "Search"
-msgstr "Leita"
-
 #: templates/sidenav.html:4 templates/sidenav.html:35
 msgid "Topics"
 msgstr "Umfjöllunarefni"
 
-#: templates/macros/question.html:11
+#: templates/macros/question.html:12
+msgid "Contributors to this page:"
+msgstr ""
+
+#: templates/macros/question.html:14
+msgid "Edit this page"
+msgstr ""
+
+#: templates/macros/question.html:15
+msgid "Suggest Feedback"
+msgstr ""
+
+#: templates/macros/question.html:16
 msgid "Permalink"
 msgstr "Varanlegur tengill"
