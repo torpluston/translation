@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-08-15 17:04+CET\n"
+"POT-Creation-Date: 2019-08-25 10:23+CET\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: en <LL@li.org>\n"
@@ -3588,11 +3588,11 @@ msgstr "### Reporting an error with a translation"
 #: (content/localization/translation-problem/contents+en.lrpage.body)
 msgid ""
 "* If you are already a [Tor translator](becoming-tor-translator), you can "
-"simply find the string and fix it "
+"simply find the string and fix it in "
 "[transifex](https://www.transifex.com/otf/torproject/)."
 msgstr ""
 "* If you are already a [Tor translator](becoming-tor-translator), you can "
-"simply find the string and fix it "
+"simply find the string and fix it in "
 "[transifex](https://www.transifex.com/otf/torproject/)."
 
 #: https//community.torproject.org/localization/translation-problem/
@@ -10565,6 +10565,17 @@ msgstr "Log notice file /var/log/tor/notices.log"
 
 #: https//community.torproject.org/relay/setup/bridge/freebsd/
 #: (content/relay-operations/technical-setup/bridge/freebsd/contents+en.lrpage.body)
+msgid ""
+"* Are you using FreeBSD's firewall with a \"default deny\" policy? If so, "
+"make sure that your obfs4proxy can talk to your Tor process over the "
+"loopback interface.  Don't forget to whitelist Tor's `ExtORPort`."
+msgstr ""
+"* Are you using FreeBSD's firewall with a \"default deny\" policy? If so, "
+"make sure that your obfs4proxy can talk to your Tor process over the "
+"loopback interface.  Don't forget to whitelist Tor's `ExtORPort`."
+
+#: https//community.torproject.org/relay/setup/bridge/freebsd/
+#: (content/relay-operations/technical-setup/bridge/freebsd/contents+en.lrpage.body)
 msgid "### 3. Ensure that the `random_id` sysctl setting is enabled:"
 msgstr "### 3. Ensure that the `random_id` sysctl setting is enabled:"
 
@@ -11351,8 +11362,8 @@ msgid "Your customer, [User]"
 msgstr "Your customer, [User]"
 
 #: lego/templates/footer.html:9 lego/templates/footer.html:18
-#: lego/templates/navbar.html:66 templates/footer.html:9
-#: templates/footer.html:18 templates/navbar.html:57
+#: lego/templates/navbar.html:71 templates/footer.html:9
+#: templates/footer.html:18 templates/navbar.html:71
 msgid "Download Tor Browser"
 msgstr "Download Tor Browser"
 
@@ -11380,8 +11391,8 @@ msgstr ""
 "availability and use, and furthering their scientific and popular "
 "understanding."
 
-#: lego/templates/footer.html:49 lego/templates/navbar.html:12
-#: templates/footer.html:49 templates/navbar.html:12
+#: lego/templates/footer.html:49 lego/templates/navbar.html:15
+#: templates/footer.html:49 templates/navbar.html:15
 msgid "Donate Now"
 msgstr "Donate Now"
 
@@ -11406,7 +11417,7 @@ msgstr ""
 "Trademark, copyright notices, and rules for use by third parties can be "
 "found in our %(link_to_faq)s"
 
-#: lego/templates/navbar.html:15
+#: lego/templates/navbar.html:18 templates/navbar.html:18
 msgid "Menu"
 msgstr "Menu"
 
@@ -11435,10 +11446,6 @@ msgstr ""
 #: templates/localization.html:32
 msgid "Translators mailing list"
 msgstr "Translators mailing list"
-
-#: templates/navbar.html:10
-msgid "Tor Logo"
-msgstr "Tor Logo"
 
 #: templates/onion-services.html:10
 msgid "Learn more about onion services here"
@@ -11531,6 +11538,18 @@ msgstr ""
 #: templates/training.html:32
 msgid "Community mailing list"
 msgstr "Community mailing list"
+
+#: templates/two-columns-page.html:19
+msgid "Contributors to this page:"
+msgstr "Contributors to this page:"
+
+#: templates/two-columns-page.html:21
+msgid "Back to previous page: "
+msgstr "Back to previous page: "
+
+#: templates/two-columns-page.html:21
+msgid "Edit this page"
+msgstr "Edit this page"
 
 #: templates/user-research.html:10
 msgid "Want to know more? Take a look at our process"
