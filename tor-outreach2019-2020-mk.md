@@ -38,7 +38,7 @@ She also uses a Tor-powered app called **OnionShare** to send files to other act
 
 # 3. TOR ЗА ЧОВЕКОВИ ПРАВА
 
-### Water is life 
+### Водата е живот
 
 Jelani lives in a small village  which a wide river runs through.
 
@@ -58,9 +58,9 @@ All of this software uses Tor to help protect Jelani’s privacy.
 
 ---
 
-# 4. TOR FOR ANTI-CENSORSHIP
+# 4. TOR ЗА ПРОТИВ ЦЕНЗУРАТА
 
-### Build bridges not walls
+### Градете мостови не ѕидови
 
 Jean was traveling for the first time to a country far from his family.
 
@@ -92,7 +92,7 @@ With Tor Browser, Jean can browse freely and privately and contact his family.
 
 # 5. Shared Sections
 
-## What is Tor?
+## Што е Tor?
 
 Tor is free software and an open network that helps protect you from tracking, surveillance, and censorship online.
 Tor is created for free by a 501(c)3 U.S.-based nonprofit called the Tor Project. 
@@ -103,7 +103,7 @@ When you use Tor Browser, no one can see what websites you visit or where in the
 Other applications, like SecureDrop and OnionShare, use Tor to protect their users against surveillance and censorship.
 
 
-## 6. How does Tor work?
+## 6. Како Tor работи?
 
 Amal wants to visit Bekele’s website privately, so she opens Tor Browser.
 
@@ -121,13 +121,13 @@ The third relay removes the last encryption layer and forwards the web page requ
 
 Bekele doesn't know that the website request came from Amal unless she tells him so.
 
-## 7. Who uses Tor? 
+## 7. Кој користи Tor? 
 
-People all over the world use Tor to protect their privacy and access the web freely.
+Луѓе низ целиот свет го користат Tor за да ја заштитат нивната приватност и да пристапат кон вебот слободно
 
 Tor helps protect journalists, human rights defenders, domestic violence victims, academic researchers, and anyone experiencing tracking, censorship, or surveillance. 
 
-## 6. Why trust Tor?
+## 6. Зошто да му веруваш на Tor?
 
 Tor is designed for privacy. We don’t know who our users are, and we don't keep logs of user activity.
 
@@ -135,7 +135,7 @@ Tor relay operators cannot reveal the true identity of Tor users.
 
 Continual peer review of Tor's source code by academic and open source communities ensures that there are no backdoors in Tor, and our social contract promises that we will never backdoor Tor. 
 
-## 7. Join the Tor community
+## 7. Приклучи се на Tor заедницата
 
 Tor is made possible by a diverse set of users, developers, relay operators, and advocates from around the world.
 
@@ -148,9 +148,9 @@ The Tor community is governed by a code of conduct, and we outline our set of pr
 Learn more about Tor by visiting our website, our wiki, finding us on IRC, joining one of our mailing lists, or signing up for Tor News at newsletter.torproject.org.
 
 
-## 8. Download Tor
+## 8. Преземи Tor
 
-Tor for Desktop
+Tor за Десктоп
 torproject.org/download
 
 TOR ON MOBILE
