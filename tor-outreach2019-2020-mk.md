@@ -1,8 +1,8 @@
 # Tor Outreach Material 2019-2020
 
-# 1. TOR FOR PRIVACY 
+# 1. TOR ЗА ПРИВАТНОСТ
 
-### Privacy is a human right
+### Приватноста е човеково право
 
 Like many of us, Aleisha spends most of her time online--connecting with friends, posting on social media, and browsing the web.
 
@@ -16,7 +16,7 @@ She goes to a privacy training at a local hackerspace and learns about **Tor Bro
 
 ---
 
-# 2.TOR FOR FEMINISTS 
+# 2.TOR ЗА ФЕМИНИСТИ
 
 ### The future is cyberfeminist
 
@@ -36,7 +36,7 @@ She also uses a Tor-powered app called **OnionShare** to send files to other act
 
 ---
 
-# 3. TOR FOR HUMAN RIGHTS
+# 3. TOR ЗА ЧОВЕКОВИ ПРАВА
 
 ### Water is life 
 
