@@ -122,13 +122,13 @@ The third relay removes the last encryption layer and forwards the web page requ
 
 Bekele doesn't know that the website request came from Amal unless she tells him so.
 
-## 7. Who uses Tor? 
+## 7. چه کسانی از تور استفاده می کنند؟ 
 
 People all over the world use Tor to protect their privacy and access the web freely.
 
 Tor helps protect journalists, human rights defenders, domestic violence victims, academic researchers, and anyone experiencing tracking, censorship, or surveillance. 
 
-## 6. Why trust Tor?
+## 6. چرا به تور اعتماد کنیم؟ 
 
 Tor is designed for privacy. We don’t know who our users are, and we don't keep logs of user activity.
 
@@ -154,10 +154,10 @@ Learn more about Tor by visiting our website, our wiki, finding us on IRC, joini
 Tor for Desktop
 torproject.org/download
 
-TOR ON MOBILE
-### Android 
+تور برای موبایل
+### سیستم عامل اندروید
 Tor Browser for Android is available from GooglePlay.
 
-### iOS
+### سیستم عامل iOS
 Onion Browser, developed by M. Tigas, is the only browser we recommend for iOS.
 
