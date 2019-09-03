@@ -156,8 +156,8 @@ torproject.org/download
 
 تور برای موبایل
 ### سیستم عامل اندروید
-Tor Browser for Android is available from GooglePlay.
+نسخه اندروید مرورگر تور را می توان از فروشگاه پلیِ گوگل، دانلود و نصب کرد. 
 
 ### سیستم عامل iOS
-Onion Browser, developed by M. Tigas, is the only browser we recommend for iOS.
+برای سیستم عامل iOS، تنها مرورگری که ما پیشنهاد می کنیم، مرورگر پیازی می باشد  که توسط M. Tigas توسعه داده شده است.
 
