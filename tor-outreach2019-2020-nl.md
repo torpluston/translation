@@ -154,7 +154,7 @@ Tor for Desktop
 torproject.org/download
 
 TOR ON MOBILE
-### Android 
+### Android
 Tor Browser for Android is available from GooglePlay.
 
 ### iOS
