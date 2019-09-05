@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-08-27 14:16+CET\n"
+"POT-Creation-Date: 2019-09-05 17:40+CET\n"
 "PO-Revision-Date: 2018-11-14 12:31+0000\n"
 "Last-Translator: erinm, 2019\n"
 "Language-Team: Bulgarian (https://www.transifex.com/otf/teams/1519/bg/)\n"
@@ -183,8 +183,8 @@ msgstr ""
 #: (content/about/contents+en.lrtopic.body)
 msgid ""
 "By default, Tor Browser does not keep any browsing history. Cookies are only"
-" valid for a single session (until Tor Browser is exited or a <a href"
-"=\"/managing-identities/#new-identity\">New Identity</a> is requested)."
+" valid for a single session (until Tor Browser is exited or a [New Identity"
+"](/managing-identities/#new-identity) is requested)."
 msgstr ""
 
 #: https//tb-manual.torproject.org/about/
@@ -386,9 +386,8 @@ msgid ""
 "In most cases, choosing \"Connect\" will allow you to connect to the Tor "
 "network without any further configuration. Once clicked, a status bar will "
 "appear, showing Tor’s connection progress. If you are on a relatively fast "
-"connection, but this bar seems to get stuck at a certain point, see the <a "
-"href=\"/troubleshooting\">Troubleshooting</a> page for help solving the "
-"problem."
+"connection, but this bar seems to get stuck at a certain point, see the "
+"[Troubleshooting](/troubleshooting) page for help solving the problem."
 msgstr ""
 
 #: https//tb-manual.torproject.org/running-tor-browser/
@@ -421,8 +420,8 @@ msgid ""
 " your connection. If you do not believe this is the case, select “No”. If "
 "you know your connection is censored, or you have tried and failed to "
 "connect to the Tor network and no other solutions have worked, select “Yes”."
-" You will then be taken to the <a href=\"/circumvention\">Circumvention</a> "
-"screen to configure a pluggable transport."
+" You will then be taken to the [Circumvention](/circumvention) screen to "
+"configure a pluggable transport."
 msgstr ""
 
 #: https//tb-manual.torproject.org/running-tor-browser/
@@ -465,12 +464,11 @@ msgstr ""
 #: https//tb-manual.torproject.org/bridges/
 #: (content/bridges/contents+en.lrtopic.body)
 msgid ""
-"Most <a href=\"/transports\">Pluggable Transports</a>, such as obfs3 and "
-"obfs4, rely on the use of “bridge” relays. Like ordinary Tor relays, bridges"
-" are run by volunteers; unlike ordinary relays, however, they are not listed"
-" publicly, so an adversary cannot identify them easily. Using bridges in "
-"combination with pluggable transports helps to disguise the fact that you "
-"are using Tor."
+"Most [Pluggable Transports](/transports), such as obfs3 and obfs4, rely on "
+"the use of “bridge” relays. Like ordinary Tor relays, bridges are run by "
+"volunteers; unlike ordinary relays, however, they are not listed publicly, "
+"so an adversary cannot identify them easily. Using bridges in combination "
+"with pluggable transports helps to disguise the fact that you are using Tor."
 msgstr ""
 
 #: https//tb-manual.torproject.org/bridges/
@@ -621,36 +619,13 @@ msgstr ""
 
 #: https//tb-manual.torproject.org/transports/
 #: (content/transports/contents+en.lrtopic.body)
-msgid "obfs3"
-msgstr "obfs3"
+msgid "obfs4"
+msgstr "obfs4"
 
 #: https//tb-manual.torproject.org/transports/
 #: (content/transports/contents+en.lrtopic.body)
 msgid "</td>"
 msgstr ""
-
-#: https//tb-manual.torproject.org/transports/
-#: (content/transports/contents+en.lrtopic.body)
-msgid ""
-"obfs3 makes Tor traffic look random, so that it does not look like Tor or "
-"any other protocol. While still included by default, it is reccomended to "
-"use obfs4 instead, as it has several security improvements over obfs3."
-msgstr ""
-
-#: https//tb-manual.torproject.org/transports/
-#: (content/transports/contents+en.lrtopic.body)
-msgid "</tr>"
-msgstr ""
-
-#: https//tb-manual.torproject.org/transports/
-#: (content/transports/contents+en.lrtopic.body)
-msgid "<tr class=\"even\">"
-msgstr ""
-
-#: https//tb-manual.torproject.org/transports/
-#: (content/transports/contents+en.lrtopic.body)
-msgid "obfs4"
-msgstr "obfs4"
 
 #: https//tb-manual.torproject.org/transports/
 #: (content/transports/contents+en.lrtopic.body)
@@ -662,6 +637,16 @@ msgstr ""
 "obfs4 кара Tor трафикът да изглежда произволен като при obfs3 и също така "
 "спира цензуриращите от намирането на мостове, когато сканират интернетът. "
 "obfs4 мостовете са по-малко вероятно да бъдат блокирани от obfs3 мостовете."
+
+#: https//tb-manual.torproject.org/transports/
+#: (content/transports/contents+en.lrtopic.body)
+msgid "</tr>"
+msgstr ""
+
+#: https//tb-manual.torproject.org/transports/
+#: (content/transports/contents+en.lrtopic.body)
+msgid "<tr class=\"even\">"
+msgstr ""
 
 #: https//tb-manual.torproject.org/transports/
 #: (content/transports/contents+en.lrtopic.body)
@@ -776,9 +761,8 @@ msgid ""
 "Direct access to the Tor network may sometimes be blocked by your Internet "
 "Service Provider or by a government. Tor Browser includes some circumvention"
 " tools for getting around these blocks. These tools are called “pluggable "
-"transports”. See the <a href=\"/en-US/transports\">Pluggable Transports</a> "
-"page for more information on the types of transport that are currently "
-"available."
+"transports”. See the [Pluggable Transports](/en-US/transports) page for more"
+" information on the types of transport that are currently available."
 msgstr ""
 
 #: https//tb-manual.torproject.org/circumvention/
@@ -829,25 +813,23 @@ msgstr ""
 #: (content/circumvention/contents+en.lrtopic.body)
 msgid ""
 "Each of the transports listed in Tor Launcher’s menu works in a different "
-"way (for more details, see the <a href=\"/en-US/transports\">Pluggable "
-"Transports</a> page), and their effectiveness depends on your individual "
-"circumstances."
+"way (for more details, see the [Pluggable Transports](/en-US/transports) "
+"page), and their effectiveness depends on your individual circumstances."
 msgstr ""
 
 #: https//tb-manual.torproject.org/circumvention/
 #: (content/circumvention/contents+en.lrtopic.body)
 msgid ""
 "If you are trying to circumvent a blocked connection for the first time, you"
-" should try the different transports: obfs3, obfs4, fte, and meek-azure."
+" should try the different transports: obfs4, fte, and meek-azure."
 msgstr ""
 
 #: https//tb-manual.torproject.org/circumvention/
 #: (content/circumvention/contents+en.lrtopic.body)
 msgid ""
 "If you try all of these options, and none of them gets you online, you will "
-"need to enter bridge addresses manually. Read the <a href=\"/en-"
-"US/bridges/\">Bridges</a> section to learn what bridges are and how to "
-"obtain them."
+"need to enter bridge addresses manually. Read the [Bridges](/en-US/bridges/)"
+" section to learn what bridges are and how to obtain them."
 msgstr ""
 
 #: https//tb-manual.torproject.org/managing-identities/
@@ -944,9 +926,9 @@ msgid ""
 "automatically and randomly selected by Tor. But it is different from the "
 "other nodes in the circuit. In order to avoid profiling attacks, the Guard "
 "node changes only after 2-3 months, unlike the other nodes, which change "
-"with every new domain. For more information about Guards, consult the <a "
-"href=\"https://www.torproject.org/docs/faq#EntryGuards\">FAQ</a> and <a "
-"href=\"https://support.torproject.org/tbb/tbb-2/\">Support Portal</a>."
+"with every new domain. For more information about Guards, consult the "
+"[FAQ](https://www.torproject.org/docs/faq#EntryGuards) and [Support "
+"Portal](https://support.torproject.org/tbb/tbb-2/)."
 msgstr ""
 
 #: https//tb-manual.torproject.org/managing-identities/
@@ -996,11 +978,9 @@ msgstr ""
 #: https//tb-manual.torproject.org/managing-identities/
 #: (content/managing-identities/contents+en.lrtopic.body)
 msgid ""
-"* See the  <a href=\"/secure-connections\">Secure Connections</a> page for "
-"important information on how to secure your connection when logging in."
+"* See the [Secure Connections](/secure-connections) page for important "
+"information on how to secure your connection when logging in."
 msgstr ""
-"Разгледайте страницата <a href=\"/bg/secure-connections\">Сигурни връзки</a>"
-" за важна информация относно как да подсигурите връзката си при вписване."
 
 #: https//tb-manual.torproject.org/managing-identities/
 #: (content/managing-identities/contents+en.lrtopic.body)
@@ -1061,13 +1041,13 @@ msgstr ""
 #: https//tb-manual.torproject.org/managing-identities/
 #: (content/managing-identities/contents+en.lrtopic.body)
 msgid ""
-"This option is useful if the <a href=\"/about/#how-tor-works\">exit "
-"relay</a> you are using is unable to connect to the website you require, or "
-"is not loading it properly. Selecting it will cause the currently-active tab"
-" or window to be reloaded over a new Tor circuit. Other open tabs and "
-"windows from the same website will use the new circuit as well once they are"
-" reloaded. This option does not clear any private information or unlink your"
-" activity, nor does it affect your current connections to other websites."
+"This option is useful if the [exit relay](/about/#how-tor-works) you are "
+"using is unable to connect to the website you require, or is not loading it "
+"properly. Selecting it will cause the currently-active tab or window to be "
+"reloaded over a new Tor circuit. Other open tabs and windows from the same "
+"website will use the new circuit as well once they are reloaded. This option"
+" does not clear any private information or unlink your activity, nor does it"
+" affect your current connections to other websites."
 msgstr ""
 
 #: https//tb-manual.torproject.org/managing-identities/
@@ -1116,12 +1096,9 @@ msgstr ""
 #: (content/onion-services/contents+en.lrtopic.body)
 msgid ""
 "* All traffic between Tor users and onion services is end-to-end encrypted, "
-"so you do not need to worry about <a href=\"/secure-connections\">connecting"
-" over HTTPS</a>."
+"so you do not need to worry about [connecting over HTTPS](/secure-"
+"connections)."
 msgstr ""
-"Целият трафик между Tor потребителя и onion услугите са криптирани от край "
-"до край, така че не е нужно да се притеснявате дали  <a href=\"/bg/secure-"
-"connections\">връзката минава през HTTPS</a>."
 
 #: https//tb-manual.torproject.org/onion-services/
 #: (content/onion-services/contents+en.lrtopic.body)
@@ -1183,8 +1160,7 @@ msgstr ""
 #: (content/onion-services/contents+en.lrtopic.body)
 msgid ""
 "You can also ensure that you're able to access other onion services by "
-"connecting to <a href=\"http://3g2upl4pq6kufc4m.onion/\">DuckDuckGo's Onion "
-"Service</a>"
+"connecting to [DuckDuckGo's Onion Service](http://3g2upl4pq6kufc4m.onion/)"
 msgstr ""
 
 #: https//tb-manual.torproject.org/secure-connections/
@@ -1269,19 +1245,11 @@ msgstr ""
 
 #: https//tb-manual.torproject.org/secure-connections/
 #: (content/secure-connections/contents+en.lrtopic.body)
-#: https//tb-manual.torproject.org/security-slider/
-#: (content/security-slider/contents+en.lrtopic.body)
-#: https//tb-manual.torproject.org/security-settings/
-#: (content/security-settings/contents+en.lrtopic.body)
 msgid "<dl>"
 msgstr ""
 
 #: https//tb-manual.torproject.org/secure-connections/
 #: (content/secure-connections/contents+en.lrtopic.body)
-#: https//tb-manual.torproject.org/security-slider/
-#: (content/security-slider/contents+en.lrtopic.body)
-#: https//tb-manual.torproject.org/security-settings/
-#: (content/security-settings/contents+en.lrtopic.body)
 msgid "<dt>"
 msgstr ""
 
@@ -1292,19 +1260,11 @@ msgstr "Site.com"
 
 #: https//tb-manual.torproject.org/secure-connections/
 #: (content/secure-connections/contents+en.lrtopic.body)
-#: https//tb-manual.torproject.org/security-slider/
-#: (content/security-slider/contents+en.lrtopic.body)
-#: https//tb-manual.torproject.org/security-settings/
-#: (content/security-settings/contents+en.lrtopic.body)
 msgid "</dt>"
 msgstr ""
 
 #: https//tb-manual.torproject.org/secure-connections/
 #: (content/secure-connections/contents+en.lrtopic.body)
-#: https//tb-manual.torproject.org/security-slider/
-#: (content/security-slider/contents+en.lrtopic.body)
-#: https//tb-manual.torproject.org/security-settings/
-#: (content/security-settings/contents+en.lrtopic.body)
 msgid "<dd>"
 msgstr ""
 
@@ -1315,10 +1275,6 @@ msgstr "Сайтът, който посещавате."
 
 #: https//tb-manual.torproject.org/secure-connections/
 #: (content/secure-connections/contents+en.lrtopic.body)
-#: https//tb-manual.torproject.org/security-slider/
-#: (content/security-slider/contents+en.lrtopic.body)
-#: https//tb-manual.torproject.org/security-settings/
-#: (content/security-settings/contents+en.lrtopic.body)
 msgid "</dd>"
 msgstr ""
 
@@ -1368,10 +1324,6 @@ msgstr "Дали се използва Tor браузърът."
 
 #: https//tb-manual.torproject.org/secure-connections/
 #: (content/secure-connections/contents+en.lrtopic.body)
-#: https//tb-manual.torproject.org/security-slider/
-#: (content/security-slider/contents+en.lrtopic.body)
-#: https//tb-manual.torproject.org/security-settings/
-#: (content/security-settings/contents+en.lrtopic.body)
 msgid "</dl>"
 msgstr ""
 
@@ -1442,66 +1394,50 @@ msgstr ""
 #: (content/security-slider/contents+en.lrtopic.body)
 #: https//tb-manual.torproject.org/security-settings/
 #: (content/security-settings/contents+en.lrtopic.body)
-msgid "Safest"
-msgstr "Най-сигурно"
+msgid "###### Safest"
+msgstr ""
 
 #: https//tb-manual.torproject.org/security-slider/
 #: (content/security-slider/contents+en.lrtopic.body)
 msgid ""
-"At this level, HTML5 video and audio media become click-to-play via "
+"* At this level, HTML5 video and audio media become click-to-play via "
 "NoScript; all JavaScript performance optimizations are disabled; some "
 "mathematical equations may not display properly; some font rendering "
 "features are disabled; some types of image are disabled; Javascript is "
 "disabled by default on all sites; most video and audio formats are disabled;"
 " and some fonts and icons may not display correctly."
 msgstr ""
-"На това ниво, HTML5 видео и аудио стават активни само при кликане върху тях "
-"чрез NoScript; всички JavaScript оптимизации са деактивирани; някои "
-"математически уравнения може да не се показват правилно; някои функции по "
-"показване на шрифтове са деактивирани; някои видове изображения са "
-"деактивирани; JavaScript е деактивиран по подразбиране на всички сайтове; "
-"повечето видео и аудио формати са деактивирани; и някои шрифтове и икони "
-"може да не се показват правилно."
 
 #: https//tb-manual.torproject.org/security-slider/
 #: (content/security-slider/contents+en.lrtopic.body)
 #: https//tb-manual.torproject.org/security-settings/
 #: (content/security-settings/contents+en.lrtopic.body)
-msgid "Safer"
-msgstr "По-сигурно"
+msgid "###### Safer"
+msgstr ""
 
 #: https//tb-manual.torproject.org/security-slider/
 #: (content/security-slider/contents+en.lrtopic.body)
 msgid ""
-"At this level, HTML5 video and audio media become click-to-play via "
+"* At this level, HTML5 video and audio media become click-to-play via "
 "NoScript; all JavaScript performance optimizations are disabled; some "
 "mathematical equations may not display properly; some font rendering "
 "features are disabled; some types of image are disabled; and JavaScript is "
-"disabled by default on all non-<a href=\"/secure-connections\">HTTPS</a> "
-"sites."
+"disabled by default on all non-[HTTPS](/secure-connections) sites."
 msgstr ""
-"На това ниво, HTML5 видео и аудио стават активни само при кликане върху тях "
-"чрез NoScript; всички JavaScript оптимизации  са деактивирани; някои "
-"математически уравнения може да не се показват правилно; някои функции по "
-"показване на шрифтове са деактивирани; някои видове изображения са "
-"деактивирани; JavaScript е деактивиран по подразбиране на всички не-<a "
-"href=\"/bg/secure-connections\">HTTPS</a> сайтове."
 
 #: https//tb-manual.torproject.org/security-slider/
 #: (content/security-slider/contents+en.lrtopic.body)
 #: https//tb-manual.torproject.org/security-settings/
 #: (content/security-settings/contents+en.lrtopic.body)
-msgid "Standard"
-msgstr "Стандартно"
+msgid "###### Standard"
+msgstr ""
 
 #: https//tb-manual.torproject.org/security-slider/
 #: (content/security-slider/contents+en.lrtopic.body)
 msgid ""
-"At this level, all browser features are enabled. This is the most usable "
+"* At this level, all browser features are enabled. This is the most usable "
 "option."
 msgstr ""
-"На това ниво, всички функции на браузъра са активирани. Това е опцията, "
-"която дава най-голяма функционалност."
 
 #: https//tb-manual.torproject.org/security-settings/
 #: (content/security-settings/contents+en.lrtopic.title)
@@ -1592,32 +1528,29 @@ msgstr ""
 
 #: https//tb-manual.torproject.org/security-settings/
 #: (content/security-settings/contents+en.lrtopic.body)
-msgid "At this level, all Tor Browser and website features are enabled."
-msgstr ""
-
-#: https//tb-manual.torproject.org/security-settings/
-#: (content/security-settings/contents+en.lrtopic.body)
-msgid "This level disables website features that are often dangerous."
-msgstr ""
-
-#: https//tb-manual.torproject.org/security-settings/
-#: (content/security-settings/contents+en.lrtopic.body)
-msgid "This may cause some sites to lose functionality."
+msgid "* At this level, all Tor Browser and website features are enabled."
 msgstr ""
 
 #: https//tb-manual.torproject.org/security-settings/
 #: (content/security-settings/contents+en.lrtopic.body)
 msgid ""
-"JavaScript is disabled on all non-<a href=\"/secure-connections\">HTTPS</a> "
-"sites; some fonts and math symbols are disabled; audio and video (HTML5 "
-"media) are click-to-play."
+"* This level disables website features that are often dangerous. This may "
+"cause some sites to lose functionality."
 msgstr ""
 
 #: https//tb-manual.torproject.org/security-settings/
 #: (content/security-settings/contents+en.lrtopic.body)
 msgid ""
-"This level only allows website features required for static sites and basic "
-"services."
+"* JavaScript is disabled on all non-[HTTPS](/security-settings) sites; some "
+"fonts and math symbols are disabled; audio and video (HTML5 media) are "
+"click-to-play."
+msgstr ""
+
+#: https//tb-manual.torproject.org/security-settings/
+#: (content/security-settings/contents+en.lrtopic.body)
+msgid ""
+"* This level only allows website features required for static sites and "
+"basic services."
 msgstr ""
 
 #: https//tb-manual.torproject.org/security-settings/
@@ -1628,7 +1561,7 @@ msgstr ""
 #: https//tb-manual.torproject.org/security-settings/
 #: (content/security-settings/contents+en.lrtopic.body)
 msgid ""
-"Javascript is disabled by default on all sites; some fonts,icons, math "
+"* Javascript is disabled by default on all sites; some fonts, icons, math "
 "symbols, and images are disabled; audio and video (HTML5 media) are click-"
 "to-play."
 msgstr ""
@@ -1732,8 +1665,7 @@ msgstr ""
 #: (content/updating/contents+en.lrtopic.body)
 msgid ""
 "Remove Tor Browser from your system by deleting the folder that contains it "
-"(see the <a href='uninstalling'>Uninstalling</a> section for more "
-"information)."
+"(see the [Uninstalling](/uninstalling) section for more information)."
 msgstr ""
 
 #: https//tb-manual.torproject.org/updating/
@@ -1822,11 +1754,11 @@ msgstr ""
 #: (content/plugins/contents+en.lrtopic.body)
 msgid ""
 "Users who require a high degree of security in their web browsing should set"
-" Tor Browser’s <a href=\"/security-slider\">Security Slider</a> to “Safer” "
-"(which disables JavaScript for non-HTTPS websites) or “Safest” (which does "
-"so for all websites). However, disabling JavaScript will prevent many "
-"websites from displaying correctly, so Tor Browser’s default setting is to "
-"allow all websites to run scripts in \"Standard\" mode."
+" Tor Browser’s [Security Slider](/security-slider) to “Safer” (which "
+"disables JavaScript for non-HTTPS websites) or “Safest” (which does so for "
+"all websites). However, disabling JavaScript will prevent many websites from"
+" displaying correctly, so Tor Browser’s default setting is to allow all "
+"websites to run scripts in \"Standard\" mode."
 msgstr ""
 
 #: https//tb-manual.torproject.org/plugins/
@@ -1938,8 +1870,8 @@ msgstr ""
 #: (content/troubleshooting/contents+en.lrtopic.body)
 msgid ""
 "If you still can’t connect, your Internet Service Provider might be "
-"censoring connections to the Tor network. Read the <a "
-"href=\"/circumvention\">Circumvention</a> section for possible solutions."
+"censoring connections to the Tor network. Read the "
+"[Circumvention](/circumvention) section for possible solutions."
 msgstr ""
 
 #: https//tb-manual.torproject.org/troubleshooting/
@@ -1951,9 +1883,8 @@ msgstr ""
 #: (content/troubleshooting/contents+en.lrtopic.body)
 msgid ""
 "Tor Browser is under constant development, and some issues are known about "
-"but not yet fixed. Please check the <a href=\"/known-issues\">Known "
-"Issues</a> page to see if the problem you are experiencing is already listed"
-" there."
+"but not yet fixed. Please check the [Known Issues](/known-issues) page to "
+"see if the problem you are experiencing is already listed there."
 msgstr ""
 
 #: https//tb-manual.torproject.org/known-issues/
@@ -2037,8 +1968,8 @@ msgstr ""
 #: https//tb-manual.torproject.org/known-issues/
 #: (content/known-issues/contents+en.lrtopic.body)
 msgid ""
-"* BitTorrent in specific is <mark><a href=\"https://blog.torproject.org"
-"/bittorrent-over-tor-isnt-good-idea\">not anonymous over Tor</a></mark>."
+"* BitTorrent in specific is [not anonymous over "
+"Tor](https://blog.torproject.org/bittorrent-over-tor-isnt-good-idea)."
 msgstr ""
 
 #: https//tb-manual.torproject.org/uninstalling/
@@ -2053,46 +1984,118 @@ msgstr "Как да премахнете Tor браузъра от компют�
 
 #: https//tb-manual.torproject.org/uninstalling/
 #: (content/uninstalling/contents+en.lrtopic.body)
-msgid ""
-"Tor Browser does not affect any of the existing software or settings on your"
-" computer. Uninstalling Tor Browser will not affect your system’s software "
-"or settings."
-msgstr ""
-"Tor браузърът не променя съществуващ софтуер или настройки на компютъра Ви. "
-"Премахването на Tor браузърът няма да засегне системния софтуер или "
-"настройки."
-
-#: https//tb-manual.torproject.org/uninstalling/
-#: (content/uninstalling/contents+en.lrtopic.body)
 msgid "Removing Tor Browser from your system is simple:"
 msgstr ""
 
 #: https//tb-manual.torproject.org/uninstalling/
 #: (content/uninstalling/contents+en.lrtopic.body)
-msgid ""
-"1. Locate your Tor Browser folder. The default location on Windows is the "
-"Desktop; on macOS it is the Applications folder. On Linux, there is no "
-"default location, however the folder will be named \"tor-browser_en-US\" if "
-"you are running the English Tor Browser."
-msgstr ""
-
-#: https//tb-manual.torproject.org/uninstalling/
-#: (content/uninstalling/contents+en.lrtopic.body)
-msgid "2. Delete the Tor Browser folder."
-msgstr ""
-
-#: https//tb-manual.torproject.org/uninstalling/
-#: (content/uninstalling/contents+en.lrtopic.body)
-msgid "3. Empty your Trash"
+msgid "On Windows:"
 msgstr ""
 
 #: https//tb-manual.torproject.org/uninstalling/
 #: (content/uninstalling/contents+en.lrtopic.body)
 msgid ""
-"Note that your operating system’s standard “Uninstall” utility is not used."
+"* Locate your Tor Browser folder or application. The default location is the"
+" Desktop."
 msgstr ""
-"Забележете, че стандартната функция \"Премахване\" на операционата система "
-"не се използва."
+
+#: https//tb-manual.torproject.org/uninstalling/
+#: (content/uninstalling/contents+en.lrtopic.body)
+msgid "* Delete the Tor Browser folder or application."
+msgstr ""
+
+#: https//tb-manual.torproject.org/uninstalling/
+#: (content/uninstalling/contents+en.lrtopic.body)
+msgid "* Empty your Trash."
+msgstr ""
+
+#: https//tb-manual.torproject.org/uninstalling/
+#: (content/uninstalling/contents+en.lrtopic.body)
+msgid "On macOS:"
+msgstr ""
+
+#: https//tb-manual.torproject.org/uninstalling/
+#: (content/uninstalling/contents+en.lrtopic.body)
+msgid ""
+"* Locate your Tor Browser application. The default location is the "
+"Applications folder."
+msgstr ""
+
+#: https//tb-manual.torproject.org/uninstalling/
+#: (content/uninstalling/contents+en.lrtopic.body)
+msgid "* Move the Tor Browser application to Trash."
+msgstr ""
+
+#: https//tb-manual.torproject.org/uninstalling/
+#: (content/uninstalling/contents+en.lrtopic.body)
+msgid "* Go to your `~/Library/Application Support/` folder."
+msgstr ""
+
+#: https//tb-manual.torproject.org/uninstalling/
+#: (content/uninstalling/contents+en.lrtopic.body)
+msgid ""
+"* Note the Library folder is hidden on newer versions of macOS. To navigate "
+"to this folder in Finder, select \"Go to Folder...\" in the \"Go\" menu."
+msgstr ""
+
+#: https//tb-manual.torproject.org/uninstalling/
+#: (content/uninstalling/contents+en.lrtopic.body)
+msgid ""
+"<img class=\"\" src=\"/static/images/macos-go-to-folder-menu.png\" alt=\"Go "
+"to folder menu option.\">"
+msgstr ""
+
+#: https//tb-manual.torproject.org/uninstalling/
+#: (content/uninstalling/contents+en.lrtopic.body)
+msgid ""
+"*  Then type \"~/Library/Application Support/\" in the window and click Go."
+msgstr ""
+
+#: https//tb-manual.torproject.org/uninstalling/
+#: (content/uninstalling/contents+en.lrtopic.body)
+msgid ""
+"<img class=\"\" src=\"/static/images/macos-go-to-folder-window.png\" "
+"alt=\"Go to folder window.\">"
+msgstr ""
+
+#: https//tb-manual.torproject.org/uninstalling/
+#: (content/uninstalling/contents+en.lrtopic.body)
+msgid "* Locate the TorBrowser-Data folder and move it to Trash."
+msgstr ""
+
+#: https//tb-manual.torproject.org/uninstalling/
+#: (content/uninstalling/contents+en.lrtopic.body)
+msgid ""
+"Note that if you did not install Tor Browser in the default location (the "
+"Applications folder), then the TorBrowser-Data folder is not located in the "
+"`~/Library/Application Support/` folder, but in the same folder where you "
+"installed Tor Browser."
+msgstr ""
+
+#: https//tb-manual.torproject.org/uninstalling/
+#: (content/uninstalling/contents+en.lrtopic.body)
+msgid "On Linux:"
+msgstr ""
+
+#: https//tb-manual.torproject.org/uninstalling/
+#: (content/uninstalling/contents+en.lrtopic.body)
+msgid ""
+"* Locate your Tor Browser folder. On Linux, there is no default location, "
+"however the folder will be named \"tor-browser_en-US\" if you are running "
+"the English Tor Browser."
+msgstr ""
+
+#: https//tb-manual.torproject.org/uninstalling/
+#: (content/uninstalling/contents+en.lrtopic.body)
+msgid "* Delete the Tor Browser folder."
+msgstr ""
+
+#: https//tb-manual.torproject.org/uninstalling/
+#: (content/uninstalling/contents+en.lrtopic.body)
+msgid ""
+"Note that your operating system’s standard \"Uninstall\" utility is not "
+"used."
+msgstr ""
 
 #: lego/templates/footer.html:9 lego/templates/footer.html:18
 #: lego/templates/navbar.html:71 templates/footer.html:9
