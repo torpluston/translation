@@ -8,6 +8,7 @@
 # Davide Sant <spuuu@outlook.it>, 2019
 # Gabriele <gabboxl0@gmail.com>, 2019
 # erinm, 2019
+# fabio carletti <fabiocarlettiryuw@gmail.com>, 2019
 # 
 msgid ""
 msgstr ""
@@ -15,7 +16,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-09-05 17:40+CET\n"
 "PO-Revision-Date: 2018-11-14 12:31+0000\n"
-"Last-Translator: erinm, 2019\n"
+"Last-Translator: fabio carletti <fabiocarlettiryuw@gmail.com>, 2019\n"
 "Language-Team: Italian (https://www.transifex.com/otf/teams/1519/it/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -200,6 +201,9 @@ msgid ""
 " valid for a single session (until Tor Browser is exited or a [New Identity"
 "](/managing-identities/#new-identity) is requested)."
 msgstr ""
+"Di base il browser di Tor non tiene traccia della navigazione. I file "
+"temporanei sono validi solo per la sessione corrente. (fino all'uscita del "
+"browser o a [nuova identità]( produci nuova identità)è richiesto)"
 
 #: https//tb-manual.torproject.org/about/
 #: (content/about/contents+en.lrtopic.body)
@@ -431,6 +435,12 @@ msgid ""
 "connection, but this bar seems to get stuck at a certain point, see the "
 "[Troubleshooting](/troubleshooting) page for help solving the problem."
 msgstr ""
+"In molti case, scegliere \"Connesso\" ti permetterà di sapere se sei "
+"connesso alla rete Tor o se hai bisogno di ulteriori configurazioni. Una "
+"volta clikkato nella barra di stato apparirà la connessione di tor in "
+"progressione. Se avete una connessione veloce, ma se ad un certo punto si "
+"blocca, vedere [RisoluzioneProblemi](/risoluzione dei problemi) pagina per "
+"aiutarvi a risolvere i problemi."
 
 #: https//tb-manual.torproject.org/running-tor-browser/
 #: (content/running-tor-browser/contents+en.lrtopic.body)
@@ -465,6 +475,11 @@ msgid ""
 " You will then be taken to the [Circumvention](/circumvention) screen to "
 "configure a pluggable transport."
 msgstr ""
+"Ia prima schermata chiede se l'accesso alla rete Tor è bloccata o censurata "
+"nella tua connessione. Se non è questo il tuo caso scegli \"No\". Se te già "
+"sai che è censurata, o hai avuto connessione fallita alla rete Tor scegli "
+"\"SI\". Tu prenderai la [Elusione](/[Elusione])schermata per configurare un "
+"diverso trasporto di connessione."
 
 #: https//tb-manual.torproject.org/running-tor-browser/
 #: (content/running-tor-browser/contents+en.lrtopic.body)
@@ -495,7 +510,7 @@ msgstr "<img class=\"col-md-6\" src=\"../../static/images/proxy.png\">"
 #: https//tb-manual.torproject.org/bridges/
 #: (content/bridges/contents+en.lrtopic.title)
 msgid "BRIDGES"
-msgstr ""
+msgstr "ponti"
 
 #: https//tb-manual.torproject.org/bridges/
 #: (content/bridges/contents+en.lrtopic.description)
@@ -624,7 +639,7 @@ msgstr ""
 #: https//tb-manual.torproject.org/transports/
 #: (content/transports/contents+en.lrtopic.title)
 msgid "PLUGGABLE TRANSPORTS"
-msgstr ""
+msgstr "Trasporti inseribili"
 
 #: https//tb-manual.torproject.org/transports/
 #: (content/transports/contents+en.lrtopic.description)
@@ -651,7 +666,7 @@ msgstr ""
 #: https//tb-manual.torproject.org/transports/
 #: (content/transports/contents+en.lrtopic.body)
 msgid "##### TYPES OF PLUGGABLE TRANSPORT"
-msgstr ""
+msgstr "#####Tipi di trasporto disponibili"
 
 #: https//tb-manual.torproject.org/transports/
 #: (content/transports/contents+en.lrtopic.body)
@@ -775,7 +790,7 @@ msgstr "</table>"
 #: https//tb-manual.torproject.org/circumvention/
 #: (content/circumvention/contents+en.lrtopic.body)
 msgid "##### USING PLUGGABLE TRANSPORTS"
-msgstr ""
+msgstr "##### Usare trasporti disponibili"
 
 #: https//tb-manual.torproject.org/transports/
 #: (content/transports/contents+en.lrtopic.body)
@@ -830,7 +845,7 @@ msgstr ""
 #: https//tb-manual.torproject.org/circumvention/
 #: (content/circumvention/contents+en.lrtopic.title)
 msgid "CIRCUMVENTION"
-msgstr ""
+msgstr "elusione"
 
 #: https//tb-manual.torproject.org/circumvention/
 #: (content/circumvention/contents+en.lrtopic.description)
@@ -846,6 +861,11 @@ msgid ""
 "transports”. See the [Pluggable Transports](/en-US/transports) page for more"
 " information on the types of transport that are currently available."
 msgstr ""
+"Accesso diretto alla rete Tor potrebbe essere bloccato al vostro service "
+"provider o da un governo. Tor Browser include strumenti per eludere questi "
+"blocchi. Questi strumenti sono chiamati \"trasporti disponibili\". Vedere la"
+" pagina [Disponibili Transporti](/en-US/transporti) per maggiori "
+"informazioni sui tipi di trasporti disponibili."
 
 #: https//tb-manual.torproject.org/circumvention/
 #: (content/circumvention/contents+en.lrtopic.body)
@@ -899,7 +919,7 @@ msgstr "Clicca 'OK' per salvare le impostazioni."
 #: https//tb-manual.torproject.org/circumvention/
 #: (content/circumvention/contents+en.lrtopic.body)
 msgid "##### WHICH TRANSPORT SHOULD I USE?"
-msgstr ""
+msgstr "##### Quale tipo di trasporto vorresti usare?"
 
 #: https//tb-manual.torproject.org/circumvention/
 #: (content/circumvention/contents+en.lrtopic.body)
@@ -915,6 +935,8 @@ msgid ""
 "If you are trying to circumvent a blocked connection for the first time, you"
 " should try the different transports: obfs4, fte, and meek-azure."
 msgstr ""
+"Se tu stai provando a circoscrivere una connessione bloccata per la prima "
+"volta, potresti provare differenti trasporti: obfs4, fte e meek-azure."
 
 #: https//tb-manual.torproject.org/circumvention/
 #: (content/circumvention/contents+en.lrtopic.body)
@@ -923,11 +945,13 @@ msgid ""
 "need to enter bridge addresses manually. Read the [Bridges](/en-US/bridges/)"
 " section to learn what bridges are and how to obtain them."
 msgstr ""
+"Se vorrai provare tutte queste soluzioni, e nessuna di queste ti ha permesso di connetterti, potresti provare un entrata diretta manuale. Leggi il\n"
+"[pontediretto](/en-US/pontediretto/) sezione per imparare cosa sono i ponti diretti e come ottenerli."
 
 #: https//tb-manual.torproject.org/managing-identities/
 #: (content/managing-identities/contents+en.lrtopic.title)
 msgid "MANAGING IDENTITIES"
-msgstr ""
+msgstr "manipolare le identità"
 
 #: https//tb-manual.torproject.org/managing-identities/
 #: (content/managing-identities/contents+en.lrtopic.description)
@@ -971,7 +995,7 @@ msgstr ""
 #: https//tb-manual.torproject.org/managing-identities/
 #: (content/managing-identities/contents+en.lrtopic.body)
 msgid "##### THE URL BAR"
-msgstr ""
+msgstr "##### la barra degli URL"
 
 #: https//tb-manual.torproject.org/managing-identities/
 #: (content/managing-identities/contents+en.lrtopic.body)
@@ -1119,7 +1143,7 @@ msgstr ""
 #: https//tb-manual.torproject.org/managing-identities/
 #: (content/managing-identities/contents+en.lrtopic.body)
 msgid "###### NEW IDENTITY"
-msgstr ""
+msgstr "###### Nuova identità"
 
 #: https//tb-manual.torproject.org/managing-identities/
 #: (content/managing-identities/contents+en.lrtopic.body)
@@ -1143,7 +1167,7 @@ msgstr ""
 #: https//tb-manual.torproject.org/managing-identities/
 #: (content/managing-identities/contents+en.lrtopic.body)
 msgid "###### NEW TOR CIRCUIT FOR THIS SITE"
-msgstr ""
+msgstr "###### Nuovo circuito tor per questo sito"
 
 #: https//tb-manual.torproject.org/managing-identities/
 #: (content/managing-identities/contents+en.lrtopic.body)
