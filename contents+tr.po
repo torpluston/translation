@@ -1058,6 +1058,14 @@ msgid ""
 "[FAQ](https://www.torproject.org/docs/faq#EntryGuards) and [Support "
 "Portal](https://support.torproject.org/tbb/tbb-2/)."
 msgstr ""
+"Devrede, Koruyucu ya da giriş durağı ilk duraktır ve Tor tarafından otomatik"
+" ve rastgele olarak seçilir. Ancak, devredeki diğer duraklardan farklıdır. "
+"Koruyucu durak, her yeni etki alanı ile değiştirilen diğer duraklardan "
+"farklı olarak, profil oluşturma saldırılarını önlemek için yalnız 2-3 ayda "
+"bir değiştirilir. Koruyucular hakkında ayrıntılı bilgi almak için, "
+"[SSS](https://www.torproject.org/docs/faq#EntryGuards) ve [Destek "
+"Sitesi](https://support.torproject.org/tbb/tbb-2/) bölümlerine "
+"bakabilirsiniz."
 
 #: https//tb-manual.torproject.org/managing-identities/
 #: (content/managing-identities/contents+en.lrtopic.body)
@@ -1108,6 +1116,9 @@ msgid ""
 "* See the [Secure Connections](/secure-connections) page for important "
 "information on how to secure your connection when logging in."
 msgstr ""
+"* Oturum açarken bağlantınızın güvenliğini sağlamak hakkında önemli "
+"bilgileri görmek için [Güvenli Bağlantılar](/secure-connections) bölümüne "
+"bakabilirsiniz."
 
 #: https//tb-manual.torproject.org/managing-identities/
 #: (content/managing-identities/contents+en.lrtopic.body)
@@ -1184,6 +1195,14 @@ msgid ""
 " does not clear any private information or unlink your activity, nor does it"
 " affect your current connections to other websites."
 msgstr ""
+"Bu seçenek, kullandığınız [çıkış aktarıcısı](/about/#how-tor-works) "
+"istediğiniz web sitesine bağlanamıyorsa ya da site düzgün yüklenmiyorsa işe "
+"yarar. Seçildiğinde, etkin sekme ya da pencerenin yeni bir Tor devresi "
+"üzerinden yeniden yüklenmesini sağlar. Aynı web sitesinden açılmış diğer "
+"sekme ve pencereler de yeniden yüklendiklerinde bu yeni devreyi kullanır. Bu"
+" seçeneğin kullanılması, herhangi bir kişisel bilgiyi temizlemez, "
+"işlemlerinizi kesintiye uğratmaz ya da açık olan diğer web sitesi "
+"bağlantılarınızı etkilemez."
 
 #: https//tb-manual.torproject.org/managing-identities/
 #: (content/managing-identities/contents+en.lrtopic.body)
@@ -1239,6 +1258,9 @@ msgid ""
 "so you do not need to worry about [connecting over HTTPS](/secure-"
 "connections)."
 msgstr ""
+"* Tor kullanıcıları ile Onion hizmetleri arasındaki tüm trafik uçtan uca "
+"şifrelenir. Bu nedenle [HTTPS kullanarak bağlanmayı](/secure-connections) "
+"dert etmeniz gerekmez."
 
 #: https//tb-manual.torproject.org/onion-services/
 #: (content/onion-services/contents+en.lrtopic.body)
@@ -1317,6 +1339,8 @@ msgid ""
 "You can also ensure that you're able to access other onion services by "
 "connecting to [DuckDuckGo's Onion Service](http://3g2upl4pq6kufc4m.onion/)"
 msgstr ""
+"Ayrıca [DuckDuckGo Onion Hizmetine](http://3g2upl4pq6kufc4m.onion) "
+"bağlanarak diğer Onion hizmetlerine erişebileceğinizden emin olabilirsiniz."
 
 #: https//tb-manual.torproject.org/secure-connections/
 #: (content/secure-connections/contents+en.lrtopic.title)
@@ -1564,7 +1588,7 @@ msgstr ""
 #: https//tb-manual.torproject.org/security-settings/
 #: (content/security-settings/contents+en.lrtopic.body)
 msgid "###### Safest"
-msgstr ""
+msgstr "###### En Güvenli"
 
 #: https//tb-manual.torproject.org/security-slider/
 #: (content/security-slider/contents+en.lrtopic.body)
@@ -1576,13 +1600,20 @@ msgid ""
 "disabled by default on all sites; most video and audio formats are disabled;"
 " and some fonts and icons may not display correctly."
 msgstr ""
+"* Bu güvenlik düzeyinde, HTML5 görüntü ve ses ortamları NoScript üzerinden "
+"tıkla-oynat ile kullanılabilir. Tüm JavaScript başarım iyileştirmeleri devre"
+" dışı bırakılır. Bazı matematik denklemleri düzgün şekilde "
+"görüntülenmeyebilir. Bazı yazı türü görüntüleme özellikleri devre dışı "
+"bırakılır. Bazı görsel türleri devre dışı bırakılır. JavaScript varsayılan "
+"olarak tüm sitelerde devre dışıdır. Çoğu görüntü ve ses biçimi devre dışı "
+"bırakılır. Bazı yazı türleri ve simgeler doğru görüntülenmeyebilir."
 
 #: https//tb-manual.torproject.org/security-slider/
 #: (content/security-slider/contents+en.lrtopic.body)
 #: https//tb-manual.torproject.org/security-settings/
 #: (content/security-settings/contents+en.lrtopic.body)
 msgid "###### Safer"
-msgstr ""
+msgstr "###### Daha Güvenli"
 
 #: https//tb-manual.torproject.org/security-slider/
 #: (content/security-slider/contents+en.lrtopic.body)
@@ -1593,13 +1624,20 @@ msgid ""
 "features are disabled; some types of image are disabled; and JavaScript is "
 "disabled by default on all non-[HTTPS](/secure-connections) sites."
 msgstr ""
+"* Bu güvenlik düzeyinde, HTML5 görüntü ve ses ortamları NoScript üzerinden "
+"tıkla-oynat ile kullanılabilir. Tüm JavaScript başarım iyileştirmeleri devre"
+" dışı bırakılır. Bazı matematik denklemleri düzgün şekilde "
+"görüntülenmeyebilir. Bazı yazı türü görüntüleme özellikleri devre dışı "
+"bırakılır. Bazı görsel türleri devre dışı bırakılır. JavaScript, varsayılan "
+"olarak [HTTPS](secure-connections) kullanmayan tüm sitelerde devre dışı "
+"bırakılır."
 
 #: https//tb-manual.torproject.org/security-slider/
 #: (content/security-slider/contents+en.lrtopic.body)
 #: https//tb-manual.torproject.org/security-settings/
 #: (content/security-settings/contents+en.lrtopic.body)
 msgid "###### Standard"
-msgstr ""
+msgstr "###### Standart"
 
 #: https//tb-manual.torproject.org/security-slider/
 #: (content/security-slider/contents+en.lrtopic.body)
@@ -1607,6 +1645,8 @@ msgid ""
 "* At this level, all browser features are enabled. This is the most usable "
 "option."
 msgstr ""
+"* Bu güvenlik düzeyinde, tüm tarayıcı özellikleri etkin olur. En kullanışlı "
+"seçenek budur."
 
 #: https//tb-manual.torproject.org/security-settings/
 #: (content/security-settings/contents+en.lrtopic.title)
@@ -1722,6 +1762,8 @@ msgstr ""
 #: (content/security-settings/contents+en.lrtopic.body)
 msgid "* At this level, all Tor Browser and website features are enabled."
 msgstr ""
+"* Bu güvenlik düzeyinde tüm Tor Browser ve web sitesi özellikleri "
+"kullanılabilir."
 
 #: https//tb-manual.torproject.org/security-settings/
 #: (content/security-settings/contents+en.lrtopic.body)
@@ -1729,6 +1771,8 @@ msgid ""
 "* This level disables website features that are often dangerous. This may "
 "cause some sites to lose functionality."
 msgstr ""
+"* Sıklıkla tehlikeli olan web sitesi özellikleri devre dışı bırakılır ve "
+"bazı sitelerin işlevlerinde kayıplar olabilir. "
 
 #: https//tb-manual.torproject.org/security-settings/
 #: (content/security-settings/contents+en.lrtopic.body)
@@ -1737,6 +1781,9 @@ msgid ""
 "fonts and math symbols are disabled; audio and video (HTML5 media) are "
 "click-to-play."
 msgstr ""
+"* [HTTPS](/secure-connections) kullanmayan sitelerde JavaScript devre dışı "
+"bırakılır. Bazı yazı tipleri ve matematik simgeleri devre dışı bırakılır. "
+"Ses ve görüntü  (HTML5 ortamları) tıklanıp oynatılabilir."
 
 #: https//tb-manual.torproject.org/security-settings/
 #: (content/security-settings/contents+en.lrtopic.body)
@@ -1744,6 +1791,8 @@ msgid ""
 "* This level only allows website features required for static sites and "
 "basic services."
 msgstr ""
+"* Bu güvenlik düzeyinde yalnız durağan siteler ve temel hizmetler için "
+"gerekli web sitesi özelliklerine izin verilir."
 
 #: https//tb-manual.torproject.org/security-settings/
 #: (content/security-settings/contents+en.lrtopic.body)
@@ -1757,6 +1806,9 @@ msgid ""
 "symbols, and images are disabled; audio and video (HTML5 media) are click-"
 "to-play."
 msgstr ""
+"* JavaScript varsayılan olarak tüm sitelerde devre dışı bırakılır. Bazı yazı"
+" tipleri ve matematik simgeleri devre dışı bırakılır. Ses ve görüntü  (HTML5"
+" ortamları) tıklanıp oynatılabilir."
 
 #: https//tb-manual.torproject.org/updating/
 #: (content/updating/contents+en.lrtopic.title)
@@ -1861,6 +1913,9 @@ msgid ""
 "Remove Tor Browser from your system by deleting the folder that contains it "
 "(see the [Uninstalling](/uninstalling) section for more information)."
 msgstr ""
+"Tor Browser uygulamasının bulunduğu klasörü silerek sisteminizden kaldırın "
+"(ayrıntılı bilgi almak için [Kaldırma](/uninstalling) bölümüne "
+"bakabilirsiniz)."
 
 #: https//tb-manual.torproject.org/updating/
 #: (content/updating/contents+en.lrtopic.body)
