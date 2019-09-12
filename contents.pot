@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-08-25 10:23+CET\n"
+"POT-Creation-Date: 2019-09-12 21:28+CET\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: en <LL@li.org>\n"
@@ -587,10 +587,10 @@ msgstr "The minimum requirements for a relay are 10 Mbit/s (Mbps)."
 #: (content/relay-operations/relays-requirements/contents+en.lrpage.body)
 msgid ""
 "If you have less than 10 Mbit/s but at least 1 Mbit/s we recommend you run a"
-" [bridge with obfs4 support](relay/bridge)."
+" [bridge with obfs4 support](relay/setup/bridge)."
 msgstr ""
 "If you have less than 10 Mbit/s but at least 1 Mbit/s we recommend you run a"
-" [bridge with obfs4 support](relay/bridge)."
+" [bridge with obfs4 support](relay/setup/bridge)."
 
 #: https//community.torproject.org/relay/relays-requirements/
 #: (content/relay-operations/relays-requirements/contents+en.lrpage.body)
@@ -632,20 +632,20 @@ msgstr "More (>2 TB/month) is better and recommended."
 #: https//community.torproject.org/relay/relays-requirements/
 #: (content/relay-operations/relays-requirements/contents+en.lrpage.body)
 msgid ""
-"**Ideally a relay runs on an unmetered plan** or includes 20 TB/month or "
+"**Ideally a relay runs on an unmetered plan** or includes 2 TB/month or "
 "more."
 msgstr ""
-"**Ideally a relay runs on an unmetered plan** or includes 20 TB/month or "
+"**Ideally a relay runs on an unmetered plan** or includes 2 TB/month or "
 "more."
 
 #: https//community.torproject.org/relay/relays-requirements/
 #: (content/relay-operations/relays-requirements/contents+en.lrpage.body)
 msgid ""
 "If you have a metered plan you might want to configure tor to only use a "
-"given amount of [bandwidth or monthly traffic](FIXME)."
+"given amount of [bandwidth or monthly traffic](/relay/setup/post-install/)."
 msgstr ""
 "If you have a metered plan you might want to configure tor to only use a "
-"given amount of [bandwidth or monthly traffic](FIXME)."
+"given amount of [bandwidth or monthly traffic](/relay/setup/post-install/)."
 
 #: https//community.torproject.org/relay/relays-requirements/
 #: (content/relay-operations/relays-requirements/contents+en.lrpage.body)
@@ -1058,10 +1058,10 @@ msgstr ""
 #: (content/relay-operations/types-of-relays/contents+en.lrpage.body)
 msgid ""
 "If you are considering running an exit relay, please read the [section on "
-"legal considerations](community-resources) for exit relay operators."
+"legal considerations](/relay/community-resources) for exit relay operators."
 msgstr ""
 "If you are considering running an exit relay, please read the [section on "
-"legal considerations](community-resources) for exit relay operators."
+"legal considerations](/relay/community-resources) for exit relay operators."
 
 #: https//community.torproject.org/relay/types-of-relays/
 #: (content/relay-operations/types-of-relays/contents+en.lrpage.body)
@@ -1214,13 +1214,15 @@ msgstr ""
 #: https//community.torproject.org/relay/community-resources/
 #: (content/relay-operations/community-resources/contents+en.lrpage.body)
 msgid ""
-"The [EFF Tor Legal FAQ](/eff-tor-legal-faq) answers many common questions "
-"about relay operation and the law. We also like [Noisebridge's "
+"The [EFF Tor Legal FAQ](/relay/community-resources/eff-tor-legal-faq) "
+"answers many common questions about relay operation and the law. We also "
+"like [Noisebridge's "
 "wiki](https://www.noisebridge.net/wiki/Noisebridge_Tor/FBI) for additional "
 "legal resources."
 msgstr ""
-"The [EFF Tor Legal FAQ](/eff-tor-legal-faq) answers many common questions "
-"about relay operation and the law. We also like [Noisebridge's "
+"The [EFF Tor Legal FAQ](/relay/community-resources/eff-tor-legal-faq) "
+"answers many common questions about relay operation and the law. We also "
+"like [Noisebridge's "
 "wiki](https://www.noisebridge.net/wiki/Noisebridge_Tor/FBI) for additional "
 "legal resources."
 
@@ -1692,11 +1694,11 @@ msgstr ""
 msgid ""
 "For more information on hosting providers and their policies on allowing Tor"
 " relays, please see this list maintained by the Tor community: "
-"[GoodBadISPs](FIXME)."
+"[GoodBadISPs](/relay/community-resources/good-bad-isps)."
 msgstr ""
 "For more information on hosting providers and their policies on allowing Tor"
 " relays, please see this list maintained by the Tor community: "
-"[GoodBadISPs](FIXME)."
+"[GoodBadISPs](/relay/community-resources/good-bad-isps)."
 
 #: https//community.torproject.org/relay/technical-considerations/
 #: (content/relay-operations/technical-considerations/contents+en.lrpage.body)
@@ -1953,45 +1955,39 @@ msgstr ""
 "you use the network time protocol (NTP) for time synchronization and ensure "
 "your timezone is set correctly."
 
-#: https//community.torproject.org/relay/technical-considerations/
-#: (content/relay-operations/technical-considerations/contents+en.lrpage.body)
-msgid "## Automatic Software Updates"
-msgstr "## Automatic Software Updates"
+#: https//community.torproject.org/relay/getting-help/
+#: (content/relay-operations/getting-help/contents+en.lrpage.title)
+msgid "Getting help"
+msgstr "Getting help"
 
-#: https//community.torproject.org/relay/technical-considerations/
-#: (content/relay-operations/technical-considerations/contents+en.lrpage.body)
+#: https//community.torproject.org/relay/getting-help/
+#: (content/relay-operations/getting-help/contents+en.lrpage.subtitle)
+msgid "How to get help if you run into issues"
+msgstr "How to get help if you run into issues"
+
+#: https//community.torproject.org/relay/getting-help/
+#: (content/relay-operations/getting-help/contents+en.lrpage.body)
 msgid ""
-"One of the most important things to keeps your relay secure is to "
-"immediately install security updates. We recommend setting updates to "
-"install automatically."
+"If you run into problems while setting up your relay, you can ask your "
+"questions on the public [tor-relays mailing "
+"list](https://lists.torproject.org/cgi-bin/mailman/listinfo/tor-relays).  "
+"The list is a great resource for asking (and answering) questions, and for "
+"getting to know other relay operators. Make sure to check out the archives!"
 msgstr ""
-"One of the most important things to keeps your relay secure is to "
-"immediately install security updates. We recommend setting updates to "
-"install automatically."
+"If you run into problems while setting up your relay, you can ask your "
+"questions on the public [tor-relays mailing "
+"list](https://lists.torproject.org/cgi-bin/mailman/listinfo/tor-relays).  "
+"The list is a great resource for asking (and answering) questions, and for "
+"getting to know other relay operators. Make sure to check out the archives!"
 
-#: https//community.torproject.org/relay/technical-considerations/
-#: (content/relay-operations/technical-considerations/contents+en.lrpage.body)
+#: https//community.torproject.org/relay/getting-help/
+#: (content/relay-operations/getting-help/contents+en.lrpage.body)
 msgid ""
-"Here's how to enable automatic software updates for different operating "
-"systems:"
+"You can also get help by joining the IRC channel #tor-relays in the network "
+"[irc.oftc.net](https://www.oftc.net)."
 msgstr ""
-"Here's how to enable automatic software updates for different operating "
-"systems:"
-
-#: https//community.torproject.org/relay/technical-considerations/
-#: (content/relay-operations/technical-considerations/contents+en.lrpage.body)
-msgid "* [RPM-based distributions](FIXME) (RHEL, CentOS, Fedora, openSUSE)"
-msgstr "* [RPM-based distributions](FIXME) (RHEL, CentOS, Fedora, openSUSE)"
-
-#: https//community.torproject.org/relay/technical-considerations/
-#: (content/relay-operations/technical-considerations/contents+en.lrpage.body)
-msgid "* [Debian/Ubuntu](FIXME)"
-msgstr "* [Debian/Ubuntu](FIXME)"
-
-#: https//community.torproject.org/relay/technical-considerations/
-#: (content/relay-operations/technical-considerations/contents+en.lrpage.body)
-msgid "* [FreeBSD/HardenedBSD](FIXME)"
-msgstr "* [FreeBSD/HardenedBSD](FIXME)"
+"You can also get help by joining the IRC channel #tor-relays in the network "
+"[irc.oftc.net](https://www.oftc.net)."
 
 #: https//community.torproject.org/training/code-of-conduct/
 #: (content/training/code-of-conduct/contents+en.lrpage.title)
@@ -2010,8 +2006,8 @@ msgstr "Code of Conduct"
 
 #: https//community.torproject.org/training/code-of-conduct/
 #: (content/training/code-of-conduct/contents+en.lrpage.body)
-msgid "##Code of Conduct for Trainers"
-msgstr "##Code of Conduct for Trainers"
+msgid "## Code of Conduct for Trainers"
+msgstr "## Code of Conduct for Trainers"
 
 #: https//community.torproject.org/training/code-of-conduct/
 #: (content/training/code-of-conduct/contents+en.lrpage.body)
@@ -3599,14 +3595,12 @@ msgstr ""
 #: (content/localization/translation-problem/contents+en.lrpage.body)
 msgid ""
 "* If you don't know how to find the string to fix, you can [open a ticket on"
-" our "
-"Bugtracker](https://trac.torproject.org/projects/tor/wiki/doc/community/HowToReportBugFeedback),"
-" under the **Community/Translations** component."
+" our Bugtracker](https://support.torproject.org/misc/bug-or-feedback/), "
+"under the **Community/Translations** component."
 msgstr ""
 "* If you don't know how to find the string to fix, you can [open a ticket on"
-" our "
-"Bugtracker](https://trac.torproject.org/projects/tor/wiki/doc/community/HowToReportBugFeedback),"
-" under the **Community/Translations** component."
+" our Bugtracker](https://support.torproject.org/misc/bug-or-feedback/), "
+"under the **Community/Translations** component."
 
 #: https//community.torproject.org/localization/translation-problem/
 #: (content/localization/translation-problem/contents+en.lrpage.body)
@@ -3733,6 +3727,8 @@ msgstr ""
 #: (content/relay-operations/technical-setup/bridge/docker/contents+en.lrpage.body)
 #: https//community.torproject.org/relay/setup/bridge/centos-rhel-opensuse/
 #: (content/relay-operations/technical-setup/bridge/centos-rhel-opensuse/contents+en.lrpage.body)
+#: https//community.torproject.org/relay/setup/bridge/fedora/
+#: (content/relay-operations/technical-setup/bridge/fedora/contents+en.lrpage.body)
 #: https//community.torproject.org/relay/setup/bridge/freebsd/
 #: (content/relay-operations/technical-setup/bridge/freebsd/contents+en.lrpage.body)
 #: https//community.torproject.org/relay/setup/bridge/openbsd/
@@ -3747,6 +3743,12 @@ msgstr ""
 #: (content/relay-operations/technical-setup/guard/freebsd/contents+en.lrpage.body)
 #: https//community.torproject.org/relay/community-resources/eff-tor-legal-faq/tor-dmca-response/
 #: (content/relay-operations/community-resources/eff-tor-legal-faq/tor-dmca-response/contents+en.lrpage.body)
+#: https//community.torproject.org/relay/setup/guard/centosrhel/updates/
+#: (content/relay-operations/technical-setup/guard/centosrhel/updates/contents+en.lrpage.body)
+#: https//community.torproject.org/relay/setup/guard/debianubuntu/updates/
+#: (content/relay-operations/technical-setup/guard/debianubuntu/updates/contents+en.lrpage.body)
+#: https//community.torproject.org/relay/setup/guard/freebsd/updates/
+#: (content/relay-operations/technical-setup/guard/freebsd/updates/contents+en.lrpage.body)
 msgid "```"
 msgstr "```"
 
@@ -6066,10 +6068,10 @@ msgstr "## Other Template Sets"
 #: https//community.torproject.org/relay/community-resources/tor-abuse-templates/
 #: (content/relay-operations/community-resources/tor-abuse-templates/contents+en.lrpage.body)
 msgid ""
-"* [DMCA Response template for Tor node maintainer to ISP](community-"
+"* [DMCA Response template for Tor node maintainer to ISP](/relay/community-"
 "resources/eff-tor-legal-faq/) as written by the [EFF](http://www.eff.org)."
 msgstr ""
-"* [DMCA Response template for Tor node maintainer to ISP](community-"
+"* [DMCA Response template for Tor node maintainer to ISP](/relay/community-"
 "resources/eff-tor-legal-faq/) as written by the [EFF](http://www.eff.org)."
 
 #: https//community.torproject.org/relay/community-resources/tor-abuse-templates/
@@ -6470,11 +6472,11 @@ msgstr ""
 #: https//community.torproject.org/relay/community-resources/tor-exit-guidelines/
 #: (content/relay-operations/community-resources/tor-exit-guidelines/contents+en.lrpage.body)
 msgid ""
-"Also read [How do I make my University / ISP / etc happy with my exit node"
-"?](tor-relay-universities)"
+"Also read [How do I make my University / ISP / etc happy with my exit "
+"node?](/relay/community-resources/tor-relay-universities/)"
 msgstr ""
-"Also read [How do I make my University / ISP / etc happy with my exit node"
-"?](tor-relay-universities)"
+"Also read [How do I make my University / ISP / etc happy with my exit "
+"node?](/relay/community-resources/tor-relay-universities/)"
 
 #: https//community.torproject.org/relay/community-resources/tor-exit-guidelines/
 #: (content/relay-operations/community-resources/tor-exit-guidelines/contents+en.lrpage.body)
@@ -6660,17 +6662,15 @@ msgstr ""
 msgid ""
 "It's way better for them to hear about Tor from you, in a relaxed "
 "environment, than to hear about it from a stranger over the phone. Make them"
-" aware of [EFF's Legal FAQ for Tor "
-"Operators](https://2019.www.torproject.org/eff/tor-legal-faq). EFF has also "
-"offered to talk to other lawyers to explain the legal aspects of Tor; "
-"contact us at support@torservers.net and we'll make the connections for you."
+" aware of [EFF's Legal FAQ for Tor Operators](/relay/community-resources"
+"/eff-tor-legal-faq). EFF has also offered to talk to other lawyers to "
+"explain the legal aspects of Tor."
 msgstr ""
 "It's way better for them to hear about Tor from you, in a relaxed "
 "environment, than to hear about it from a stranger over the phone. Make them"
-" aware of [EFF's Legal FAQ for Tor "
-"Operators](https://2019.www.torproject.org/eff/tor-legal-faq). EFF has also "
-"offered to talk to other lawyers to explain the legal aspects of Tor; "
-"contact us at support@torservers.net and we'll make the connections for you."
+" aware of [EFF's Legal FAQ for Tor Operators](/relay/community-resources"
+"/eff-tor-legal-faq). EFF has also offered to talk to other lawyers to "
+"explain the legal aspects of Tor."
 
 #: https//community.torproject.org/relay/community-resources/tor-exit-guidelines/
 #: (content/relay-operations/community-resources/tor-exit-guidelines/contents+en.lrpage.body)
@@ -6899,11 +6899,13 @@ msgstr ""
 #: https//community.torproject.org/relay/community-resources/tor-exit-guidelines/
 #: (content/relay-operations/community-resources/tor-exit-guidelines/contents+en.lrpage.body)
 msgid ""
-"If you have questions about the process, please write an email to "
-"support@torservers.net and we will try to explain the process to you."
+"If you have questions about the process, please write an email to [tor-"
+"relays mailing list](https://lists.torproject.org/cgi-bin/mailman/listinfo"
+"/tor-relays) and we will try to explain the process to you."
 msgstr ""
-"If you have questions about the process, please write an email to "
-"support@torservers.net and we will try to explain the process to you."
+"If you have questions about the process, please write an email to [tor-"
+"relays mailing list](https://lists.torproject.org/cgi-bin/mailman/listinfo"
+"/tor-relays) and we will try to explain the process to you."
 
 #: https//community.torproject.org/relay/community-resources/tor-exit-guidelines/
 #: (content/relay-operations/community-resources/tor-exit-guidelines/contents+en.lrpage.body)
@@ -6929,35 +6931,37 @@ msgstr "### Consider using the Reduced Exit Policy."
 #: https//community.torproject.org/relay/community-resources/tor-exit-guidelines/
 #: (content/relay-operations/community-resources/tor-exit-guidelines/contents+en.lrpage.body)
 msgid ""
-"The [Reduced Exit Policy](FIXME) is an alternative to the default exit "
-"policy. It allows many Internet services while still blocking the majority "
-"of TCP ports."
+"The [Reduced Exit "
+"Policy](https://trac.torproject.org/projects/tor/wiki/doc/ReducedExitPolicy)"
+" is an alternative to the default exit policy. It allows many Internet "
+"services while still blocking the majority of TCP ports."
 msgstr ""
-"The [Reduced Exit Policy](FIXME) is an alternative to the default exit "
-"policy. It allows many Internet services while still blocking the majority "
-"of TCP ports."
+"The [Reduced Exit "
+"Policy](https://trac.torproject.org/projects/tor/wiki/doc/ReducedExitPolicy)"
+" is an alternative to the default exit policy. It allows many Internet "
+"services while still blocking the majority of TCP ports."
 
 #: https//community.torproject.org/relay/community-resources/tor-exit-guidelines/
 #: (content/relay-operations/community-resources/tor-exit-guidelines/contents+en.lrpage.body)
 msgid ""
 "This drastically reduces the odds that a Bittorrent user will select your "
 "node and thus reduces or even eliminates the number of [DMCA "
-"complaints](https://2019.www.torproject.org/eff/tor-dmca-response) you will "
-"receive."
+"complaints](/relay/community-resources/eff-tor-legal-faq/tor-dmca-response/)"
+" you will receive."
 msgstr ""
 "This drastically reduces the odds that a Bittorrent user will select your "
 "node and thus reduces or even eliminates the number of [DMCA "
-"complaints](https://2019.www.torproject.org/eff/tor-dmca-response) you will "
-"receive."
+"complaints](/relay/community-resources/eff-tor-legal-faq/tor-dmca-response/)"
+" you will receive."
 
 #: https//community.torproject.org/relay/community-resources/tor-exit-guidelines/
 #: (content/relay-operations/community-resources/tor-exit-guidelines/contents+en.lrpage.body)
 msgid ""
 "If you have your own experience of abuse handling, just share it on our "
-"public mailing list or write us an email to tor-assistants@torproject.org."
+"public mailing list or write us an email to frontdesk@torproject.org."
 msgstr ""
 "If you have your own experience of abuse handling, just share it on our "
-"public mailing list or write us an email to tor-assistants@torproject.org."
+"public mailing list or write us an email to frontdesk@torproject.org."
 
 #: https//community.torproject.org/relay/community-resources/tor-exit-guidelines/
 #: (content/relay-operations/community-resources/tor-exit-guidelines/contents+en.lrpage.body)
@@ -7143,28 +7147,26 @@ msgstr ""
 #: https//community.torproject.org/relay/community-resources/tor-relay-universities/
 #: (content/relay-operations/community-resources/tor-relay-universities/contents+en.lrpage.body)
 msgid ""
-"In the US, these appear to be mainly the "
-"[DMCA](https://2019.www.torproject.org/eff/tor-legal-faq.html#DMCA) and "
-"[CDA](https://2019.www.torproject.org/eff/tor-legal-faq.html#Lawsuits),  and"
-" the good news is that many lawyers believe that Tor exit node operators are"
-" in the same boat as the ISPs themselves."
+"In the US, these appear to be mainly the [DMCA](/relay/community-resources"
+"/eff-tor-legal-faq/) and [CDA](/relay/community-resources/eff-tor-legal-"
+"faq/),  and the good news is that many lawyers believe that Tor exit node "
+"operators are in the same boat as the ISPs themselves."
 msgstr ""
-"In the US, these appear to be mainly the "
-"[DMCA](https://2019.www.torproject.org/eff/tor-legal-faq.html#DMCA) and "
-"[CDA](https://2019.www.torproject.org/eff/tor-legal-faq.html#Lawsuits),  and"
-" the good news is that many lawyers believe that Tor exit node operators are"
-" in the same boat as the ISPs themselves."
+"In the US, these appear to be mainly the [DMCA](/relay/community-resources"
+"/eff-tor-legal-faq/) and [CDA](/relay/community-resources/eff-tor-legal-"
+"faq/),  and the good news is that many lawyers believe that Tor exit node "
+"operators are in the same boat as the ISPs themselves."
 
 #: https//community.torproject.org/relay/community-resources/tor-relay-universities/
 #: (content/relay-operations/community-resources/tor-relay-universities/contents+en.lrpage.body)
 msgid ""
 "Become familiar with [the EFF's template letter regarding DMCA notices for "
-"Tor](https://2019.www.torproject.org/eff/tor-dmca-response.html), which is "
-"quite clear about not putting liability on service providers."
+"Tor](/relay/community-resources/eff-tor-legal-faq/tor-dmca-response/), which"
+" is quite clear about not putting liability on service providers."
 msgstr ""
 "Become familiar with [the EFF's template letter regarding DMCA notices for "
-"Tor](https://2019.www.torproject.org/eff/tor-dmca-response.html), which is "
-"quite clear about not putting liability on service providers."
+"Tor](/relay/community-resources/eff-tor-legal-faq/tor-dmca-response/), which"
+" is quite clear about not putting liability on service providers."
 
 #: https//community.torproject.org/relay/community-resources/tor-relay-universities/
 #: (content/relay-operations/community-resources/tor-relay-universities/contents+en.lrpage.body)
@@ -7205,18 +7207,22 @@ msgstr "* Third, learn about Tor's design."
 msgid ""
 "Read the [design overview](https://2019.www.torproject.org/overview.html), "
 "the [design paper](https://www.torproject.org/svn/trunk/doc/design-paper"
-"/tor-design.html), and the [FAQ](FIXME)."
+"/tor-design.html), and the "
+"[FAQ](https://2019.www.torproject.org/docs/faq.html.en)."
 msgstr ""
 "Read the [design overview](https://2019.www.torproject.org/overview.html), "
 "the [design paper](https://www.torproject.org/svn/trunk/doc/design-paper"
-"/tor-design.html), and the [FAQ](FIXME)."
+"/tor-design.html), and the "
+"[FAQ](https://2019.www.torproject.org/docs/faq.html.en)."
 
 #: https//community.torproject.org/relay/community-resources/tor-relay-universities/
 #: (content/relay-operations/community-resources/tor-relay-universities/contents+en.lrpage.body)
 msgid ""
-"Hang out on IRC (irc.oftc.net - #tor-relays) for a while and learn more."
+"Hang out on IRC ([irc.oftc.net](https://www.oftc.net) - #tor-relays) for a "
+"while and learn more."
 msgstr ""
-"Hang out on IRC (irc.oftc.net - #tor-relays) for a while and learn more."
+"Hang out on IRC ([irc.oftc.net](https://www.oftc.net) - #tor-relays) for a "
+"while and learn more."
 
 #: https//community.torproject.org/relay/community-resources/tor-relay-universities/
 #: (content/relay-operations/community-resources/tor-relay-universities/contents+en.lrpage.body)
@@ -7371,15 +7377,15 @@ msgstr ""
 msgid ""
 "Remember that lawyers don't like being told how to interpret laws by a non-"
 "lawyer, but they are often pleased to hear that other lawyers have done a "
-"lot of the research and leg-work (this is where [the EFF's legal "
-"FAQ](https://2019.www.torproject.org/eff/tor-legal-faq) comes in, along with"
-" your law school contacts if you found any)."
+"lot of the research and leg-work (this is where [the EFF's legal FAQ](/relay"
+"/community-resources/eff-tor-legal-faq/) comes in, along with your law "
+"school contacts if you found any)."
 msgstr ""
 "Remember that lawyers don't like being told how to interpret laws by a non-"
 "lawyer, but they are often pleased to hear that other lawyers have done a "
-"lot of the research and leg-work (this is where [the EFF's legal "
-"FAQ](https://2019.www.torproject.org/eff/tor-legal-faq) comes in, along with"
-" your law school contacts if you found any)."
+"lot of the research and leg-work (this is where [the EFF's legal FAQ](/relay"
+"/community-resources/eff-tor-legal-faq/) comes in, along with your law "
+"school contacts if you found any)."
 
 #: https//community.torproject.org/relay/community-resources/tor-relay-universities/
 #: (content/relay-operations/community-resources/tor-relay-universities/contents+en.lrpage.body)
@@ -7530,16 +7536,13 @@ msgstr ""
 msgid ""
 "In some cases, you should talk to the network security people before you "
 "talk to the lawyers; in some cases, there will be yet other groups that will"
-" be critical to educate and bring into the discussion."
+" be critical to educate and bring into the discussion. You'll have to make "
+"it up as you go."
 msgstr ""
 "In some cases, you should talk to the network security people before you "
 "talk to the lawyers; in some cases, there will be yet other groups that will"
-" be critical to educate and bring into the discussion."
-
-#: https//community.torproject.org/relay/community-resources/tor-relay-universities/
-#: (content/relay-operations/community-resources/tor-relay-universities/contents+en.lrpage.body)
-msgid "You'll have to make it up as you go."
-msgstr "You'll have to make it up as you go."
+" be critical to educate and bring into the discussion. You'll have to make "
+"it up as you go."
 
 #: https//community.torproject.org/relay/community-resources/tor-relay-universities/
 #: (content/relay-operations/community-resources/tor-relay-universities/contents+en.lrpage.body)
@@ -7563,65 +7566,33 @@ msgstr ""
 #: (content/relay-operations/community-resources/tor-relay-universities/contents+en.lrpage.body)
 msgid ""
 "Be helpful and take the opportunity to explain to them about Tor and why "
-"it's useful to the world."
+"it's useful to the world. (If they contact you directly for logs, you should"
+" send them to your university's lawyers -- acting on it yourself is [almost "
+"always a poor idea](/relay/community-resources/eff-tor-legal-faq/)."
 msgstr ""
 "Be helpful and take the opportunity to explain to them about Tor and why "
-"it's useful to the world."
-
-#: https//community.torproject.org/relay/community-resources/tor-relay-universities/
-#: (content/relay-operations/community-resources/tor-relay-universities/contents+en.lrpage.body)
-msgid "(If they contact you directly for logs, you should send them to"
-msgstr "(If they contact you directly for logs, you should send them to"
-
-#: https//community.torproject.org/relay/community-resources/tor-relay-universities/
-#: (content/relay-operations/community-resources/tor-relay-universities/contents+en.lrpage.body)
-msgid ""
-"your university's lawyers -- acting on it yourself is [almost always a poor "
-"idea](https://2019.www.torproject.org/eff/tor-legal-"
-"faq.html#RequestForLogs)."
-msgstr ""
-"your university's lawyers -- acting on it yourself is [almost always a poor "
-"idea](https://2019.www.torproject.org/eff/tor-legal-"
-"faq.html#RequestForLogs)."
+"it's useful to the world. (If they contact you directly for logs, you should"
+" send them to your university's lawyers -- acting on it yourself is [almost "
+"always a poor idea](/relay/community-resources/eff-tor-legal-faq/)."
 
 #: https//community.torproject.org/relay/community-resources/tor-relay-universities/
 #: (content/relay-operations/community-resources/tor-relay-universities/contents+en.lrpage.body)
 msgid ""
 "If there are too many complaints coming in, there are several approaches you"
-" can take to reduce them."
+" can take to reduce them. First, you should follow the tips in the [Tor "
+"relay documentation](https://community.torproject.org/relay), such as "
+"picking a descriptive hostname or getting your own IP address. If that "
+"doesn't work, you can scale back the advertised speed of your relay, by "
+"using the `MaxAdvertisedBandwidth` to attract less traffic from the Tor "
+"network. Lastly, you can scale back your exit policy."
 msgstr ""
 "If there are too many complaints coming in, there are several approaches you"
-" can take to reduce them."
-
-#: https//community.torproject.org/relay/community-resources/tor-relay-universities/
-#: (content/relay-operations/community-resources/tor-relay-universities/contents+en.lrpage.body)
-msgid ""
-"First, you should follow the tips in the [Tor relay "
-"documentation](https://community.torproject.org/relay-operations), such"
-msgstr ""
-"First, you should follow the tips in the [Tor relay "
-"documentation](https://community.torproject.org/relay-operations), such"
-
-#: https//community.torproject.org/relay/community-resources/tor-relay-universities/
-#: (content/relay-operations/community-resources/tor-relay-universities/contents+en.lrpage.body)
-msgid "as picking a descriptive hostname or getting your own IP address."
-msgstr "as picking a descriptive hostname or getting your own IP address."
-
-#: https//community.torproject.org/relay/community-resources/tor-relay-universities/
-#: (content/relay-operations/community-resources/tor-relay-universities/contents+en.lrpage.body)
-msgid ""
-"If that doesn't work, you can scale back the advertised speed of your relay,"
-" by using the Max``Advertised``Bandwidth to attract less traffic from the "
-"Tor network."
-msgstr ""
-"If that doesn't work, you can scale back the advertised speed of your relay,"
-" by using the Max``Advertised``Bandwidth to attract less traffic from the "
-"Tor network."
-
-#: https//community.torproject.org/relay/community-resources/tor-relay-universities/
-#: (content/relay-operations/community-resources/tor-relay-universities/contents+en.lrpage.body)
-msgid "Lastly, you can scale back your exit policy."
-msgstr "Lastly, you can scale back your exit policy."
+" can take to reduce them. First, you should follow the tips in the [Tor "
+"relay documentation](https://community.torproject.org/relay), such as "
+"picking a descriptive hostname or getting your own IP address. If that "
+"doesn't work, you can scale back the advertised speed of your relay, by "
+"using the `MaxAdvertisedBandwidth` to attract less traffic from the Tor "
+"network. Lastly, you can scale back your exit policy."
 
 #: https//community.torproject.org/relay/community-resources/tor-relay-universities/
 #: (content/relay-operations/community-resources/tor-relay-universities/contents+en.lrpage.body)
@@ -7672,6 +7643,11 @@ msgstr ""
 
 #: https//community.torproject.org/relay/community-resources/tor-relay-universities/
 #: (content/relay-operations/community-resources/tor-relay-universities/contents+en.lrpage.body)
+msgid "## Mailing list"
+msgstr "## Mailing list"
+
+#: https//community.torproject.org/relay/community-resources/tor-relay-universities/
+#: (content/relay-operations/community-resources/tor-relay-universities/contents+en.lrpage.body)
 msgid ""
 "Subscribe to [Tor Relays Universities](https://lists.torproject.org/cgi-"
 "bin/mailman/listinfo/tor-relays-universities) mailing list (and other "
@@ -7680,75 +7656,6 @@ msgstr ""
 "Subscribe to [Tor Relays Universities](https://lists.torproject.org/cgi-"
 "bin/mailman/listinfo/tor-relays-universities) mailing list (and other "
 "education institutions too)."
-
-#: https//community.torproject.org/relay/community-resources/swags/
-#: (content/relay-operations/community-resources/swags/contents+en.lrpage.title)
-msgid "Swags"
-msgstr "Swags"
-
-#: https//community.torproject.org/relay/community-resources/swags/
-#: (content/relay-operations/community-resources/swags/contents+en.lrpage.subtitle)
-msgid ""
-"If you're operating a fast relay or you've done something else cool,  you're"
-" eligible to receive our swags"
-msgstr ""
-"If you're operating a fast relay or you've done something else cool,  you're"
-" eligible to receive our swags"
-
-#: https//community.torproject.org/relay/community-resources/swags/
-#: (content/relay-operations/community-resources/swags/contents+en.lrpage.body)
-msgid ""
-"You can get one of these fine Tor T-shirts for contributing to the Tor "
-"project. There are two primary ways of contributing:"
-msgstr ""
-"You can get one of these fine Tor T-shirts for contributing to the Tor "
-"project. There are two primary ways of contributing:"
-
-#: https//community.torproject.org/relay/community-resources/swags/
-#: (content/relay-operations/community-resources/swags/contents+en.lrpage.body)
-msgid ""
-"*  Operate a fast Tor relay that's been running for the past two months: you"
-" are eligible if you allow exits to port 80 and you average 250 KBytes/s "
-"traffic, or if you're not an exit but you average 500 KBytes/s traffic."
-msgstr ""
-"*  Operate a fast Tor relay that's been running for the past two months: you"
-" are eligible if you allow exits to port 80 and you average 250 KBytes/s "
-"traffic, or if you're not an exit but you average 500 KBytes/s traffic."
-
-#: https//community.torproject.org/relay/community-resources/swags/
-#: (content/relay-operations/community-resources/swags/contents+en.lrpage.body)
-msgid ""
-"* Help out in other ways. Maintain a translation. Run Tor trainings. Write a"
-" good support program and get a lot of people to use it. Do research on Tor "
-"and anonymity, solve some of our bugs, or establish yourself as a Tor "
-"advocate."
-msgstr ""
-"* Help out in other ways. Maintain a translation. Run Tor trainings. Write a"
-" good support program and get a lot of people to use it. Do research on Tor "
-"and anonymity, solve some of our bugs, or establish yourself as a Tor "
-"advocate."
-
-#: https//community.torproject.org/relay/community-resources/swags/
-#: (content/relay-operations/community-resources/swags/contents+en.lrpage.body)
-msgid ""
-"If you're operating a fast relay or you've done something else cool, email "
-"us at tshirt@torproject.org with the details. (We want to make sure our "
-"shirts help outreach happen all around the world, so please understand if we"
-" can't send you 5 shirts for your 5 excellent relays.)"
-msgstr ""
-"If you're operating a fast relay or you've done something else cool, email "
-"us at tshirt@torproject.org with the details. (We want to make sure our "
-"shirts help outreach happen all around the world, so please understand if we"
-" can't send you 5 shirts for your 5 excellent relays.)"
-
-#: https//community.torproject.org/relay/community-resources/swags/
-#: (content/relay-operations/community-resources/swags/contents+en.lrpage.body)
-msgid ""
-"There are a variety of colors, shapes, and sizes available in the great "
-"roots design that Leiah Jansen made for us, as well as some older designs."
-msgstr ""
-"There are a variety of colors, shapes, and sizes available in the great "
-"roots design that Leiah Jansen made for us, as well as some older designs."
 
 #: https//community.torproject.org/relay/community-resources/good-bad-isps/
 #: (content/relay-operations/community-resources/good-bad-isps/contents+en.lrpage.title)
@@ -7792,14 +7699,14 @@ msgid ""
 "Since non-exits do not attract complaints, it should be fine to run them "
 "without contacting the hoster first. Make sure you understand their policies"
 " regarding bandwidth, especially on \"unlimited\" (fair use) contracts. For "
-"exit relays, you should read the fine [Tor Exit Guidelines](tor-exit-"
-"guidelines) first."
+"exit relays, you should read the fine [Tor Exit Guidelines](/relay"
+"/community-resources/tor-exit-guidelines) first."
 msgstr ""
 "Since non-exits do not attract complaints, it should be fine to run them "
 "without contacting the hoster first. Make sure you understand their policies"
 " regarding bandwidth, especially on \"unlimited\" (fair use) contracts. For "
-"exit relays, you should read the fine [Tor Exit Guidelines](tor-exit-"
-"guidelines) first."
+"exit relays, you should read the fine [Tor Exit Guidelines](/relay"
+"/community-resources/tor-exit-guidelines) first."
 
 #: https//community.torproject.org/relay/community-resources/good-bad-isps/
 #: (content/relay-operations/community-resources/good-bad-isps/contents+en.lrpage.body)
@@ -9187,6 +9094,75 @@ msgstr ""
 "| [MonkeyBrains](https://monkeybrains.net) | AS32329 | Yes | Yes | Yes | "
 "Only offers colocation, no cheap VPS option. | 1/14/19 |"
 
+#: https//community.torproject.org/relay/community-resources/swag/
+#: (content/relay-operations/community-resources/swag/contents+en.lrpage.title)
+msgid "Swag"
+msgstr "Swag"
+
+#: https//community.torproject.org/relay/community-resources/swag/
+#: (content/relay-operations/community-resources/swag/contents+en.lrpage.subtitle)
+msgid ""
+"If you're operating a fast relay or you've done something else cool, you're "
+"eligible to receive our swag"
+msgstr ""
+"If you're operating a fast relay or you've done something else cool, you're "
+"eligible to receive our swag"
+
+#: https//community.torproject.org/relay/community-resources/swag/
+#: (content/relay-operations/community-resources/swag/contents+en.lrpage.body)
+msgid ""
+"You can get one of these fine Tor T-shirts for contributing to the Tor "
+"project. There are two primary ways of contributing:"
+msgstr ""
+"You can get one of these fine Tor T-shirts for contributing to the Tor "
+"project. There are two primary ways of contributing:"
+
+#: https//community.torproject.org/relay/community-resources/swag/
+#: (content/relay-operations/community-resources/swag/contents+en.lrpage.body)
+msgid ""
+"*  Operate a fast Tor relay that's been running for the past two months: you"
+" are eligible if you allow exits to port 80 and you average 250 KBytes/s "
+"traffic, or if you're not an exit but you average 500 KBytes/s traffic."
+msgstr ""
+"*  Operate a fast Tor relay that's been running for the past two months: you"
+" are eligible if you allow exits to port 80 and you average 250 KBytes/s "
+"traffic, or if you're not an exit but you average 500 KBytes/s traffic."
+
+#: https//community.torproject.org/relay/community-resources/swag/
+#: (content/relay-operations/community-resources/swag/contents+en.lrpage.body)
+msgid ""
+"* Help out in other ways. Maintain a translation. Run Tor trainings. Write a"
+" good support program and get a lot of people to use it. Do research on Tor "
+"and anonymity, solve some of our bugs, or establish yourself as a Tor "
+"advocate."
+msgstr ""
+"* Help out in other ways. Maintain a translation. Run Tor trainings. Write a"
+" good support program and get a lot of people to use it. Do research on Tor "
+"and anonymity, solve some of our bugs, or establish yourself as a Tor "
+"advocate."
+
+#: https//community.torproject.org/relay/community-resources/swag/
+#: (content/relay-operations/community-resources/swag/contents+en.lrpage.body)
+msgid ""
+"If you're operating a fast relay or you've done something else cool, email "
+"us at tshirt at torproject.org with the details. (We want to make sure our "
+"shirts help outreach happen all around the world, so please understand if we"
+" can't send you 5 shirts for your 5 excellent relays.)"
+msgstr ""
+"If you're operating a fast relay or you've done something else cool, email "
+"us at tshirt at torproject.org with the details. (We want to make sure our "
+"shirts help outreach happen all around the world, so please understand if we"
+" can't send you 5 shirts for your 5 excellent relays.)"
+
+#: https//community.torproject.org/relay/community-resources/swag/
+#: (content/relay-operations/community-resources/swag/contents+en.lrpage.body)
+msgid ""
+"There are a variety of colors, shapes, and sizes available in the great "
+"roots design that Leiah Jansen made for us, as well as some older designs."
+msgstr ""
+"There are a variety of colors, shapes, and sizes available in the great "
+"roots design that Leiah Jansen made for us, as well as some older designs."
+
 #: https//community.torproject.org/relay/community-resources/eff-tor-legal-faq/
 #: (content/relay-operations/community-resources/eff-tor-legal-faq/contents+en.lrpage.title)
 msgid "The Legal FAQ for Tor Relay Operators"
@@ -9236,11 +9212,11 @@ msgstr ""
 #: https//community.torproject.org/relay/community-resources/eff-tor-legal-faq/
 #: (content/relay-operations/community-resources/eff-tor-legal-faq/contents+en.lrpage.body)
 msgid ""
-"Got a DMCA notice? Check out our [sample response letter](/tor-dmca-"
-"response)!"
+"Got a DMCA notice? Check out our [sample response letter](/relay/community-"
+"resources/eff-tor-legal/faq/tor-dmca-response)!"
 msgstr ""
-"Got a DMCA notice? Check out our [sample response letter](/tor-dmca-"
-"response)!"
+"Got a DMCA notice? Check out our [sample response letter](/relay/community-"
+"resources/eff-tor-legal/faq/tor-dmca-response)!"
 
 #: https//community.torproject.org/relay/community-resources/eff-tor-legal-faq/
 #: (content/relay-operations/community-resources/eff-tor-legal-faq/contents+en.lrpage.body)
@@ -9877,16 +9853,28 @@ msgstr "### 2. Install obfs4proxy"
 #: (content/relay-operations/technical-setup/bridge/debian-ubuntu/contents+en.lrpage.body)
 msgid ""
 "On [Debian](https://packages.debian.org/search?keywords=obfs4proxy), the "
-"`obfs4proxy` package is available in unstable, testing, and stable. On "
-"[Ubuntu](https://packages.ubuntu.com/search?keywords=obfs4proxy), bionic, "
-"cosmic, disco, and eoan have the package. If you're running any of them, "
-"`sudo apt-get install obfs4proxy` should work."
+"`obfs4proxy` package is available in unstable, testing, and stable."
 msgstr ""
 "On [Debian](https://packages.debian.org/search?keywords=obfs4proxy), the "
-"`obfs4proxy` package is available in unstable, testing, and stable. On "
-"[Ubuntu](https://packages.ubuntu.com/search?keywords=obfs4proxy), bionic, "
-"cosmic, disco, and eoan have the package. If you're running any of them, "
-"`sudo apt-get install obfs4proxy` should work."
+"`obfs4proxy` package is available in unstable, testing, and stable."
+
+#: https//community.torproject.org/relay/setup/bridge/debian-ubuntu/
+#: (content/relay-operations/technical-setup/bridge/debian-ubuntu/contents+en.lrpage.body)
+msgid ""
+"On [Ubuntu](https://packages.ubuntu.com/search?keywords=obfs4proxy), bionic,"
+" cosmic, disco, and eoan have the package."
+msgstr ""
+"On [Ubuntu](https://packages.ubuntu.com/search?keywords=obfs4proxy), bionic,"
+" cosmic, disco, and eoan have the package."
+
+#: https//community.torproject.org/relay/setup/bridge/debian-ubuntu/
+#: (content/relay-operations/technical-setup/bridge/debian-ubuntu/contents+en.lrpage.body)
+msgid ""
+"If you're running any of them, `sudo apt-get install obfs4proxy` should "
+"work."
+msgstr ""
+"If you're running any of them, `sudo apt-get install obfs4proxy` should "
+"work."
 
 #: https//community.torproject.org/relay/setup/bridge/debian-ubuntu/
 #: (content/relay-operations/technical-setup/bridge/debian-ubuntu/contents+en.lrpage.body)
@@ -9901,6 +9889,8 @@ msgstr ""
 #: (content/relay-operations/technical-setup/bridge/debian-ubuntu/contents+en.lrpage.body)
 #: https//community.torproject.org/relay/setup/bridge/centos-rhel-opensuse/
 #: (content/relay-operations/technical-setup/bridge/centos-rhel-opensuse/contents+en.lrpage.body)
+#: https//community.torproject.org/relay/setup/bridge/fedora/
+#: (content/relay-operations/technical-setup/bridge/fedora/contents+en.lrpage.body)
 msgid ""
 "### 3. Edit your Tor config file, usually located at `/etc/tor/torrc` and "
 "replace its content with:"
@@ -9912,17 +9902,8 @@ msgstr ""
 #: (content/relay-operations/technical-setup/bridge/debian-ubuntu/contents+en.lrpage.body)
 #: https//community.torproject.org/relay/setup/bridge/centos-rhel-opensuse/
 #: (content/relay-operations/technical-setup/bridge/centos-rhel-opensuse/contents+en.lrpage.body)
-#: https//community.torproject.org/relay/setup/bridge/freebsd/
-#: (content/relay-operations/technical-setup/bridge/freebsd/contents+en.lrpage.body)
-#: https//community.torproject.org/relay/setup/bridge/openbsd/
-#: (content/relay-operations/technical-setup/bridge/openbsd/contents+en.lrpage.body)
-msgid "RunAsDaemon 1"
-msgstr "RunAsDaemon 1"
-
-#: https//community.torproject.org/relay/setup/bridge/debian-ubuntu/
-#: (content/relay-operations/technical-setup/bridge/debian-ubuntu/contents+en.lrpage.body)
-#: https//community.torproject.org/relay/setup/bridge/centos-rhel-opensuse/
-#: (content/relay-operations/technical-setup/bridge/centos-rhel-opensuse/contents+en.lrpage.body)
+#: https//community.torproject.org/relay/setup/bridge/fedora/
+#: (content/relay-operations/technical-setup/bridge/fedora/contents+en.lrpage.body)
 #: https//community.torproject.org/relay/setup/bridge/freebsd/
 #: (content/relay-operations/technical-setup/bridge/freebsd/contents+en.lrpage.body)
 #: https//community.torproject.org/relay/setup/bridge/openbsd/
@@ -9934,21 +9915,25 @@ msgstr "BridgeRelay 1"
 #: (content/relay-operations/technical-setup/bridge/debian-ubuntu/contents+en.lrpage.body)
 #: https//community.torproject.org/relay/setup/bridge/centos-rhel-opensuse/
 #: (content/relay-operations/technical-setup/bridge/centos-rhel-opensuse/contents+en.lrpage.body)
+#: https//community.torproject.org/relay/setup/bridge/fedora/
+#: (content/relay-operations/technical-setup/bridge/fedora/contents+en.lrpage.body)
 #: https//community.torproject.org/relay/setup/bridge/freebsd/
 #: (content/relay-operations/technical-setup/bridge/freebsd/contents+en.lrpage.body)
 #: https//community.torproject.org/relay/setup/bridge/openbsd/
 #: (content/relay-operations/technical-setup/bridge/openbsd/contents+en.lrpage.body)
 msgid ""
-"# Replace \"TODO\" with a Tor port of your choice.  This port must be "
+"# Replace \"TODO1\" with a Tor port of your choice.  This port must be "
 "externally"
 msgstr ""
-"# Replace \"TODO\" with a Tor port of your choice.  This port must be "
+"# Replace \"TODO1\" with a Tor port of your choice.  This port must be "
 "externally"
 
 #: https//community.torproject.org/relay/setup/bridge/debian-ubuntu/
 #: (content/relay-operations/technical-setup/bridge/debian-ubuntu/contents+en.lrpage.body)
 #: https//community.torproject.org/relay/setup/bridge/centos-rhel-opensuse/
 #: (content/relay-operations/technical-setup/bridge/centos-rhel-opensuse/contents+en.lrpage.body)
+#: https//community.torproject.org/relay/setup/bridge/fedora/
+#: (content/relay-operations/technical-setup/bridge/fedora/contents+en.lrpage.body)
 #: https//community.torproject.org/relay/setup/bridge/freebsd/
 #: (content/relay-operations/technical-setup/bridge/freebsd/contents+en.lrpage.body)
 #: https//community.torproject.org/relay/setup/bridge/openbsd/
@@ -9962,6 +9947,8 @@ msgstr ""
 #: (content/relay-operations/technical-setup/bridge/debian-ubuntu/contents+en.lrpage.body)
 #: https//community.torproject.org/relay/setup/bridge/centos-rhel-opensuse/
 #: (content/relay-operations/technical-setup/bridge/centos-rhel-opensuse/contents+en.lrpage.body)
+#: https//community.torproject.org/relay/setup/bridge/fedora/
+#: (content/relay-operations/technical-setup/bridge/fedora/contents+en.lrpage.body)
 #: https//community.torproject.org/relay/setup/bridge/freebsd/
 #: (content/relay-operations/technical-setup/bridge/freebsd/contents+en.lrpage.body)
 #: https//community.torproject.org/relay/setup/bridge/openbsd/
@@ -9973,19 +9960,17 @@ msgstr "# censors may be scanning the Internet for this port."
 #: (content/relay-operations/technical-setup/bridge/debian-ubuntu/contents+en.lrpage.body)
 #: https//community.torproject.org/relay/setup/bridge/centos-rhel-opensuse/
 #: (content/relay-operations/technical-setup/bridge/centos-rhel-opensuse/contents+en.lrpage.body)
+#: https//community.torproject.org/relay/setup/bridge/fedora/
+#: (content/relay-operations/technical-setup/bridge/fedora/contents+en.lrpage.body)
 #: https//community.torproject.org/relay/setup/bridge/freebsd/
 #: (content/relay-operations/technical-setup/bridge/freebsd/contents+en.lrpage.body)
 #: https//community.torproject.org/relay/setup/bridge/openbsd/
 #: (content/relay-operations/technical-setup/bridge/openbsd/contents+en.lrpage.body)
-msgid "ORPort TODO"
-msgstr "ORPort TODO"
+msgid "ORPort TODO1"
+msgstr "ORPort TODO1"
 
 #: https//community.torproject.org/relay/setup/bridge/debian-ubuntu/
 #: (content/relay-operations/technical-setup/bridge/debian-ubuntu/contents+en.lrpage.body)
-#: https//community.torproject.org/relay/setup/bridge/centos-rhel-opensuse/
-#: (content/relay-operations/technical-setup/bridge/centos-rhel-opensuse/contents+en.lrpage.body)
-#: https//community.torproject.org/relay/setup/bridge/freebsd/
-#: (content/relay-operations/technical-setup/bridge/freebsd/contents+en.lrpage.body)
 #: https//community.torproject.org/relay/setup/bridge/openbsd/
 #: (content/relay-operations/technical-setup/bridge/openbsd/contents+en.lrpage.body)
 msgid "ServerTransportPlugin obfs4 exec /usr/bin/obfs4proxy"
@@ -9995,32 +9980,51 @@ msgstr "ServerTransportPlugin obfs4 exec /usr/bin/obfs4proxy"
 #: (content/relay-operations/technical-setup/bridge/debian-ubuntu/contents+en.lrpage.body)
 #: https//community.torproject.org/relay/setup/bridge/centos-rhel-opensuse/
 #: (content/relay-operations/technical-setup/bridge/centos-rhel-opensuse/contents+en.lrpage.body)
+#: https//community.torproject.org/relay/setup/bridge/fedora/
+#: (content/relay-operations/technical-setup/bridge/fedora/contents+en.lrpage.body)
 #: https//community.torproject.org/relay/setup/bridge/freebsd/
 #: (content/relay-operations/technical-setup/bridge/freebsd/contents+en.lrpage.body)
 #: https//community.torproject.org/relay/setup/bridge/openbsd/
 #: (content/relay-operations/technical-setup/bridge/openbsd/contents+en.lrpage.body)
-msgid "# Replace \"TODO\" with an obfs4 port of your choice.  This port must be"
-msgstr "# Replace \"TODO\" with an obfs4 port of your choice.  This port must be"
+msgid "# Replace \"TODO2\" with an obfs4 port of your choice.  This port must be"
+msgstr "# Replace \"TODO2\" with an obfs4 port of your choice.  This port must be"
 
 #: https//community.torproject.org/relay/setup/bridge/debian-ubuntu/
 #: (content/relay-operations/technical-setup/bridge/debian-ubuntu/contents+en.lrpage.body)
 #: https//community.torproject.org/relay/setup/bridge/centos-rhel-opensuse/
 #: (content/relay-operations/technical-setup/bridge/centos-rhel-opensuse/contents+en.lrpage.body)
+#: https//community.torproject.org/relay/setup/bridge/fedora/
+#: (content/relay-operations/technical-setup/bridge/fedora/contents+en.lrpage.body)
 #: https//community.torproject.org/relay/setup/bridge/freebsd/
 #: (content/relay-operations/technical-setup/bridge/freebsd/contents+en.lrpage.body)
 #: https//community.torproject.org/relay/setup/bridge/openbsd/
 #: (content/relay-operations/technical-setup/bridge/openbsd/contents+en.lrpage.body)
 msgid ""
-"# externally reachable.  Avoid port 9001 because it's commonly associated "
-"with"
+"# externally reachable and must be different from the one specified for "
+"ORPort."
 msgstr ""
-"# externally reachable.  Avoid port 9001 because it's commonly associated "
-"with"
+"# externally reachable and must be different from the one specified for "
+"ORPort."
 
 #: https//community.torproject.org/relay/setup/bridge/debian-ubuntu/
 #: (content/relay-operations/technical-setup/bridge/debian-ubuntu/contents+en.lrpage.body)
 #: https//community.torproject.org/relay/setup/bridge/centos-rhel-opensuse/
 #: (content/relay-operations/technical-setup/bridge/centos-rhel-opensuse/contents+en.lrpage.body)
+#: https//community.torproject.org/relay/setup/bridge/fedora/
+#: (content/relay-operations/technical-setup/bridge/fedora/contents+en.lrpage.body)
+#: https//community.torproject.org/relay/setup/bridge/freebsd/
+#: (content/relay-operations/technical-setup/bridge/freebsd/contents+en.lrpage.body)
+#: https//community.torproject.org/relay/setup/bridge/openbsd/
+#: (content/relay-operations/technical-setup/bridge/openbsd/contents+en.lrpage.body)
+msgid "# Avoid port 9001 because it's commonly associated with"
+msgstr "# Avoid port 9001 because it's commonly associated with"
+
+#: https//community.torproject.org/relay/setup/bridge/debian-ubuntu/
+#: (content/relay-operations/technical-setup/bridge/debian-ubuntu/contents+en.lrpage.body)
+#: https//community.torproject.org/relay/setup/bridge/centos-rhel-opensuse/
+#: (content/relay-operations/technical-setup/bridge/centos-rhel-opensuse/contents+en.lrpage.body)
+#: https//community.torproject.org/relay/setup/bridge/fedora/
+#: (content/relay-operations/technical-setup/bridge/fedora/contents+en.lrpage.body)
 #: https//community.torproject.org/relay/setup/bridge/freebsd/
 #: (content/relay-operations/technical-setup/bridge/freebsd/contents+en.lrpage.body)
 #: https//community.torproject.org/relay/setup/bridge/openbsd/
@@ -10032,17 +10036,21 @@ msgstr "# Tor and censors may be scanning the Internet for this port."
 #: (content/relay-operations/technical-setup/bridge/debian-ubuntu/contents+en.lrpage.body)
 #: https//community.torproject.org/relay/setup/bridge/centos-rhel-opensuse/
 #: (content/relay-operations/technical-setup/bridge/centos-rhel-opensuse/contents+en.lrpage.body)
+#: https//community.torproject.org/relay/setup/bridge/fedora/
+#: (content/relay-operations/technical-setup/bridge/fedora/contents+en.lrpage.body)
 #: https//community.torproject.org/relay/setup/bridge/freebsd/
 #: (content/relay-operations/technical-setup/bridge/freebsd/contents+en.lrpage.body)
 #: https//community.torproject.org/relay/setup/bridge/openbsd/
 #: (content/relay-operations/technical-setup/bridge/openbsd/contents+en.lrpage.body)
-msgid "ServerTransportListenAddr obfs4 0.0.0.0:TODO"
-msgstr "ServerTransportListenAddr obfs4 0.0.0.0:TODO"
+msgid "ServerTransportListenAddr obfs4 0.0.0.0:TODO2"
+msgstr "ServerTransportListenAddr obfs4 0.0.0.0:TODO2"
 
 #: https//community.torproject.org/relay/setup/bridge/debian-ubuntu/
 #: (content/relay-operations/technical-setup/bridge/debian-ubuntu/contents+en.lrpage.body)
 #: https//community.torproject.org/relay/setup/bridge/centos-rhel-opensuse/
 #: (content/relay-operations/technical-setup/bridge/centos-rhel-opensuse/contents+en.lrpage.body)
+#: https//community.torproject.org/relay/setup/bridge/fedora/
+#: (content/relay-operations/technical-setup/bridge/fedora/contents+en.lrpage.body)
 #: https//community.torproject.org/relay/setup/bridge/freebsd/
 #: (content/relay-operations/technical-setup/bridge/freebsd/contents+en.lrpage.body)
 #: https//community.torproject.org/relay/setup/bridge/openbsd/
@@ -10056,30 +10064,19 @@ msgstr ""
 
 #: https//community.torproject.org/relay/setup/bridge/debian-ubuntu/
 #: (content/relay-operations/technical-setup/bridge/debian-ubuntu/contents+en.lrpage.body)
-#: https//community.torproject.org/relay/setup/bridge/centos-rhel-opensuse/
-#: (content/relay-operations/technical-setup/bridge/centos-rhel-opensuse/contents+en.lrpage.body)
-#: https//community.torproject.org/relay/setup/bridge/freebsd/
-#: (content/relay-operations/technical-setup/bridge/freebsd/contents+en.lrpage.body)
-#: https//community.torproject.org/relay/setup/bridge/openbsd/
-#: (content/relay-operations/technical-setup/bridge/openbsd/contents+en.lrpage.body)
-msgid "# \"Ext\" means \"extended\", not \"external\".  Don't try to set a specific port"
-msgstr "# \"Ext\" means \"extended\", not \"external\".  Don't try to set a specific port"
+msgid ""
+"# \"Ext\" means \"extended\", not \"external\".  Don't try to set a specific"
+" port number, nor listen on 0.0.0.0."
+msgstr ""
+"# \"Ext\" means \"extended\", not \"external\".  Don't try to set a specific"
+" port number, nor listen on 0.0.0.0."
 
 #: https//community.torproject.org/relay/setup/bridge/debian-ubuntu/
 #: (content/relay-operations/technical-setup/bridge/debian-ubuntu/contents+en.lrpage.body)
 #: https//community.torproject.org/relay/setup/bridge/centos-rhel-opensuse/
 #: (content/relay-operations/technical-setup/bridge/centos-rhel-opensuse/contents+en.lrpage.body)
-#: https//community.torproject.org/relay/setup/bridge/freebsd/
-#: (content/relay-operations/technical-setup/bridge/freebsd/contents+en.lrpage.body)
-#: https//community.torproject.org/relay/setup/bridge/openbsd/
-#: (content/relay-operations/technical-setup/bridge/openbsd/contents+en.lrpage.body)
-msgid "# number, nor listen on 0.0.0.0."
-msgstr "# number, nor listen on 0.0.0.0."
-
-#: https//community.torproject.org/relay/setup/bridge/debian-ubuntu/
-#: (content/relay-operations/technical-setup/bridge/debian-ubuntu/contents+en.lrpage.body)
-#: https//community.torproject.org/relay/setup/bridge/centos-rhel-opensuse/
-#: (content/relay-operations/technical-setup/bridge/centos-rhel-opensuse/contents+en.lrpage.body)
+#: https//community.torproject.org/relay/setup/bridge/fedora/
+#: (content/relay-operations/technical-setup/bridge/fedora/contents+en.lrpage.body)
 #: https//community.torproject.org/relay/setup/bridge/freebsd/
 #: (content/relay-operations/technical-setup/bridge/freebsd/contents+en.lrpage.body)
 #: https//community.torproject.org/relay/setup/bridge/openbsd/
@@ -10089,36 +10086,24 @@ msgstr "ExtORPort auto"
 
 #: https//community.torproject.org/relay/setup/bridge/debian-ubuntu/
 #: (content/relay-operations/technical-setup/bridge/debian-ubuntu/contents+en.lrpage.body)
-#: https//community.torproject.org/relay/setup/bridge/centos-rhel-opensuse/
-#: (content/relay-operations/technical-setup/bridge/centos-rhel-opensuse/contents+en.lrpage.body)
-#: https//community.torproject.org/relay/setup/bridge/freebsd/
-#: (content/relay-operations/technical-setup/bridge/freebsd/contents+en.lrpage.body)
-#: https//community.torproject.org/relay/setup/bridge/openbsd/
-#: (content/relay-operations/technical-setup/bridge/openbsd/contents+en.lrpage.body)
 msgid ""
 "# Replace \"<address@email.com>\" with your email address so we can contact "
-"you if"
+"you if there are problems with your bridge."
 msgstr ""
 "# Replace \"<address@email.com>\" with your email address so we can contact "
-"you if"
+"you if there are problems with your bridge."
+
+#: https//community.torproject.org/relay/setup/bridge/debian-ubuntu/
+#: (content/relay-operations/technical-setup/bridge/debian-ubuntu/contents+en.lrpage.body)
+msgid "# This is optional but encouraged."
+msgstr "# This is optional but encouraged."
 
 #: https//community.torproject.org/relay/setup/bridge/debian-ubuntu/
 #: (content/relay-operations/technical-setup/bridge/debian-ubuntu/contents+en.lrpage.body)
 #: https//community.torproject.org/relay/setup/bridge/centos-rhel-opensuse/
 #: (content/relay-operations/technical-setup/bridge/centos-rhel-opensuse/contents+en.lrpage.body)
-#: https//community.torproject.org/relay/setup/bridge/freebsd/
-#: (content/relay-operations/technical-setup/bridge/freebsd/contents+en.lrpage.body)
-#: https//community.torproject.org/relay/setup/bridge/openbsd/
-#: (content/relay-operations/technical-setup/bridge/openbsd/contents+en.lrpage.body)
-msgid ""
-"# there are problems with your bridge.  This is optional but encouraged."
-msgstr ""
-"# there are problems with your bridge.  This is optional but encouraged."
-
-#: https//community.torproject.org/relay/setup/bridge/debian-ubuntu/
-#: (content/relay-operations/technical-setup/bridge/debian-ubuntu/contents+en.lrpage.body)
-#: https//community.torproject.org/relay/setup/bridge/centos-rhel-opensuse/
-#: (content/relay-operations/technical-setup/bridge/centos-rhel-opensuse/contents+en.lrpage.body)
+#: https//community.torproject.org/relay/setup/bridge/fedora/
+#: (content/relay-operations/technical-setup/bridge/fedora/contents+en.lrpage.body)
 #: https//community.torproject.org/relay/setup/bridge/freebsd/
 #: (content/relay-operations/technical-setup/bridge/freebsd/contents+en.lrpage.body)
 #: https//community.torproject.org/relay/setup/bridge/openbsd/
@@ -10130,6 +10115,8 @@ msgstr "ContactInfo <address@email.com>"
 #: (content/relay-operations/technical-setup/bridge/debian-ubuntu/contents+en.lrpage.body)
 #: https//community.torproject.org/relay/setup/bridge/centos-rhel-opensuse/
 #: (content/relay-operations/technical-setup/bridge/centos-rhel-opensuse/contents+en.lrpage.body)
+#: https//community.torproject.org/relay/setup/bridge/fedora/
+#: (content/relay-operations/technical-setup/bridge/fedora/contents+en.lrpage.body)
 #: https//community.torproject.org/relay/setup/bridge/freebsd/
 #: (content/relay-operations/technical-setup/bridge/freebsd/contents+en.lrpage.body)
 #: https//community.torproject.org/relay/setup/bridge/openbsd/
@@ -10141,6 +10128,8 @@ msgstr "# Pick a nickname that you like for your bridge.  This is optional."
 #: (content/relay-operations/technical-setup/bridge/debian-ubuntu/contents+en.lrpage.body)
 #: https//community.torproject.org/relay/setup/bridge/centos-rhel-opensuse/
 #: (content/relay-operations/technical-setup/bridge/centos-rhel-opensuse/contents+en.lrpage.body)
+#: https//community.torproject.org/relay/setup/bridge/fedora/
+#: (content/relay-operations/technical-setup/bridge/fedora/contents+en.lrpage.body)
 #: https//community.torproject.org/relay/setup/bridge/freebsd/
 #: (content/relay-operations/technical-setup/bridge/freebsd/contents+en.lrpage.body)
 #: https//community.torproject.org/relay/setup/bridge/openbsd/
@@ -10152,6 +10141,8 @@ msgstr "Nickname PickANickname"
 #: (content/relay-operations/technical-setup/bridge/debian-ubuntu/contents+en.lrpage.body)
 #: https//community.torproject.org/relay/setup/bridge/centos-rhel-opensuse/
 #: (content/relay-operations/technical-setup/bridge/centos-rhel-opensuse/contents+en.lrpage.body)
+#: https//community.torproject.org/relay/setup/bridge/fedora/
+#: (content/relay-operations/technical-setup/bridge/fedora/contents+en.lrpage.body)
 #: https//community.torproject.org/relay/setup/bridge/freebsd/
 #: (content/relay-operations/technical-setup/bridge/freebsd/contents+en.lrpage.body)
 #: https//community.torproject.org/relay/setup/bridge/openbsd/
@@ -10181,13 +10172,34 @@ msgstr "`sudo setcap cap_net_bind_service=+ep /usr/bin/obfs4proxy`"
 
 #: https//community.torproject.org/relay/setup/bridge/debian-ubuntu/
 #: (content/relay-operations/technical-setup/bridge/debian-ubuntu/contents+en.lrpage.body)
+msgid "* Note that both Tor's OR port and its obfs4 port must be reachable."
+msgstr "* Note that both Tor's OR port and its obfs4 port must be reachable."
+
+#: https//community.torproject.org/relay/setup/bridge/debian-ubuntu/
+#: (content/relay-operations/technical-setup/bridge/debian-ubuntu/contents+en.lrpage.body)
 msgid ""
-"* Under Debian, you will also need to set `NoNewPrivileges=no` in "
+"If your bridge is behind a firewall or NAT, make sure to open both ports."
+msgstr ""
+"If your bridge is behind a firewall or NAT, make sure to open both ports."
+
+#: https//community.torproject.org/relay/setup/bridge/debian-ubuntu/
+#: (content/relay-operations/technical-setup/bridge/debian-ubuntu/contents+en.lrpage.body)
+msgid ""
+"You can use [our reachability test](https://bridges.torproject.org/scan/) to"
+" see if your obfs4 port is reachable from the Internet."
+msgstr ""
+"You can use [our reachability test](https://bridges.torproject.org/scan/) to"
+" see if your obfs4 port is reachable from the Internet."
+
+#: https//community.torproject.org/relay/setup/bridge/debian-ubuntu/
+#: (content/relay-operations/technical-setup/bridge/debian-ubuntu/contents+en.lrpage.body)
+msgid ""
+"Under Debian, you will also need to set `NoNewPrivileges=no` in "
 "`/lib/systemd/system/tor@default.service` and "
 "`/lib/systemd/system/tor@.service` and then run `systemctl daemon-reload`. "
 "(see [bug #18356](https://trac.torproject.org/projects/tor/ticket/18356))"
 msgstr ""
-"* Under Debian, you will also need to set `NoNewPrivileges=no` in "
+"Under Debian, you will also need to set `NoNewPrivileges=no` in "
 "`/lib/systemd/system/tor@default.service` and "
 "`/lib/systemd/system/tor@.service` and then run `systemctl daemon-reload`. "
 "(see [bug #18356](https://trac.torproject.org/projects/tor/ticket/18356))"
@@ -10196,25 +10208,8 @@ msgstr ""
 #: (content/relay-operations/technical-setup/bridge/debian-ubuntu/contents+en.lrpage.body)
 #: https//community.torproject.org/relay/setup/bridge/centos-rhel-opensuse/
 #: (content/relay-operations/technical-setup/bridge/centos-rhel-opensuse/contents+en.lrpage.body)
-#: https//community.torproject.org/relay/setup/bridge/freebsd/
-#: (content/relay-operations/technical-setup/bridge/freebsd/contents+en.lrpage.body)
-#: https//community.torproject.org/relay/setup/bridge/openbsd/
-#: (content/relay-operations/technical-setup/bridge/openbsd/contents+en.lrpage.body)
-msgid ""
-"* Note that both Tor's OR port and its obfs4 port must be reachable. If your"
-" bridge is behind a firewall or NAT, make sure to open both ports. You can "
-"use [our reachability test](https://bridges.torproject.org/scan/) to see if "
-"your obfs4 port is reachable from the Internet."
-msgstr ""
-"* Note that both Tor's OR port and its obfs4 port must be reachable. If your"
-" bridge is behind a firewall or NAT, make sure to open both ports. You can "
-"use [our reachability test](https://bridges.torproject.org/scan/) to see if "
-"your obfs4 port is reachable from the Internet."
-
-#: https//community.torproject.org/relay/setup/bridge/debian-ubuntu/
-#: (content/relay-operations/technical-setup/bridge/debian-ubuntu/contents+en.lrpage.body)
-#: https//community.torproject.org/relay/setup/bridge/centos-rhel-opensuse/
-#: (content/relay-operations/technical-setup/bridge/centos-rhel-opensuse/contents+en.lrpage.body)
+#: https//community.torproject.org/relay/setup/bridge/fedora/
+#: (content/relay-operations/technical-setup/bridge/fedora/contents+en.lrpage.body)
 msgid "### 4. Restart tor"
 msgstr "### 4. Restart tor"
 
@@ -10245,6 +10240,8 @@ msgstr ""
 #: (content/relay-operations/technical-setup/bridge/debian-ubuntu/contents+en.lrpage.body)
 #: https//community.torproject.org/relay/setup/bridge/centos-rhel-opensuse/
 #: (content/relay-operations/technical-setup/bridge/centos-rhel-opensuse/contents+en.lrpage.body)
+#: https//community.torproject.org/relay/setup/bridge/fedora/
+#: (content/relay-operations/technical-setup/bridge/fedora/contents+en.lrpage.body)
 #: https//community.torproject.org/relay/setup/bridge/freebsd/
 #: (content/relay-operations/technical-setup/bridge/freebsd/contents+en.lrpage.body)
 #: https//community.torproject.org/relay/setup/bridge/openbsd/
@@ -10260,6 +10257,8 @@ msgstr ""
 #: (content/relay-operations/technical-setup/bridge/debian-ubuntu/contents+en.lrpage.body)
 #: https//community.torproject.org/relay/setup/bridge/centos-rhel-opensuse/
 #: (content/relay-operations/technical-setup/bridge/centos-rhel-opensuse/contents+en.lrpage.body)
+#: https//community.torproject.org/relay/setup/bridge/fedora/
+#: (content/relay-operations/technical-setup/bridge/fedora/contents+en.lrpage.body)
 #: https//community.torproject.org/relay/setup/bridge/freebsd/
 #: (content/relay-operations/technical-setup/bridge/freebsd/contents+en.lrpage.body)
 #: https//community.torproject.org/relay/setup/bridge/openbsd/
@@ -10275,6 +10274,8 @@ msgstr ""
 #: (content/relay-operations/technical-setup/bridge/debian-ubuntu/contents+en.lrpage.body)
 #: https//community.torproject.org/relay/setup/bridge/centos-rhel-opensuse/
 #: (content/relay-operations/technical-setup/bridge/centos-rhel-opensuse/contents+en.lrpage.body)
+#: https//community.torproject.org/relay/setup/bridge/fedora/
+#: (content/relay-operations/technical-setup/bridge/fedora/contents+en.lrpage.body)
 #: https//community.torproject.org/relay/setup/bridge/freebsd/
 #: (content/relay-operations/technical-setup/bridge/freebsd/contents+en.lrpage.body)
 #: https//community.torproject.org/relay/setup/bridge/openbsd/
@@ -10286,6 +10287,8 @@ msgstr "[notice] Registered server transport 'obfs4' at '[::]:46396'"
 #: (content/relay-operations/technical-setup/bridge/debian-ubuntu/contents+en.lrpage.body)
 #: https//community.torproject.org/relay/setup/bridge/centos-rhel-opensuse/
 #: (content/relay-operations/technical-setup/bridge/centos-rhel-opensuse/contents+en.lrpage.body)
+#: https//community.torproject.org/relay/setup/bridge/fedora/
+#: (content/relay-operations/technical-setup/bridge/fedora/contents+en.lrpage.body)
 #: https//community.torproject.org/relay/setup/bridge/freebsd/
 #: (content/relay-operations/technical-setup/bridge/freebsd/contents+en.lrpage.body)
 #: https//community.torproject.org/relay/setup/bridge/openbsd/
@@ -10301,6 +10304,8 @@ msgstr ""
 #: (content/relay-operations/technical-setup/bridge/debian-ubuntu/contents+en.lrpage.body)
 #: https//community.torproject.org/relay/setup/bridge/centos-rhel-opensuse/
 #: (content/relay-operations/technical-setup/bridge/centos-rhel-opensuse/contents+en.lrpage.body)
+#: https//community.torproject.org/relay/setup/bridge/fedora/
+#: (content/relay-operations/technical-setup/bridge/fedora/contents+en.lrpage.body)
 #: https//community.torproject.org/relay/setup/bridge/freebsd/
 #: (content/relay-operations/technical-setup/bridge/freebsd/contents+en.lrpage.body)
 #: https//community.torproject.org/relay/setup/bridge/openbsd/
@@ -10312,6 +10317,8 @@ msgstr "[notice] Bootstrapped 100%: Done"
 #: (content/relay-operations/technical-setup/bridge/debian-ubuntu/contents+en.lrpage.body)
 #: https//community.torproject.org/relay/setup/bridge/centos-rhel-opensuse/
 #: (content/relay-operations/technical-setup/bridge/centos-rhel-opensuse/contents+en.lrpage.body)
+#: https//community.torproject.org/relay/setup/bridge/fedora/
+#: (content/relay-operations/technical-setup/bridge/fedora/contents+en.lrpage.body)
 #: https//community.torproject.org/relay/setup/bridge/freebsd/
 #: (content/relay-operations/technical-setup/bridge/freebsd/contents+en.lrpage.body)
 #: https//community.torproject.org/relay/setup/bridge/openbsd/
@@ -10327,6 +10334,8 @@ msgstr ""
 #: (content/relay-operations/technical-setup/bridge/debian-ubuntu/contents+en.lrpage.body)
 #: https//community.torproject.org/relay/setup/bridge/centos-rhel-opensuse/
 #: (content/relay-operations/technical-setup/bridge/centos-rhel-opensuse/contents+en.lrpage.body)
+#: https//community.torproject.org/relay/setup/bridge/fedora/
+#: (content/relay-operations/technical-setup/bridge/fedora/contents+en.lrpage.body)
 #: https//community.torproject.org/relay/setup/bridge/freebsd/
 #: (content/relay-operations/technical-setup/bridge/freebsd/contents+en.lrpage.body)
 #: https//community.torproject.org/relay/setup/bridge/openbsd/
@@ -10337,6 +10346,71 @@ msgid ""
 msgstr ""
 "[notice] Self-testing indicates your ORPort is reachable from the outside. "
 "Excellent. Publishing server descriptor."
+
+#: https//community.torproject.org/relay/setup/bridge/debian-ubuntu/
+#: (content/relay-operations/technical-setup/bridge/debian-ubuntu/contents+en.lrpage.body)
+#: https//community.torproject.org/relay/setup/bridge/centos-rhel-opensuse/
+#: (content/relay-operations/technical-setup/bridge/centos-rhel-opensuse/contents+en.lrpage.body)
+#: https//community.torproject.org/relay/setup/bridge/fedora/
+#: (content/relay-operations/technical-setup/bridge/fedora/contents+en.lrpage.body)
+msgid "### 6. Final notes"
+msgstr "### 6. Final notes"
+
+#: https//community.torproject.org/relay/setup/bridge/debian-ubuntu/
+#: (content/relay-operations/technical-setup/bridge/debian-ubuntu/contents+en.lrpage.body)
+#: https//community.torproject.org/relay/setup/bridge/centos-rhel-opensuse/
+#: (content/relay-operations/technical-setup/bridge/centos-rhel-opensuse/contents+en.lrpage.body)
+#: https//community.torproject.org/relay/setup/bridge/fedora/
+#: (content/relay-operations/technical-setup/bridge/fedora/contents+en.lrpage.body)
+#: https//community.torproject.org/relay/setup/bridge/freebsd/
+#: (content/relay-operations/technical-setup/bridge/freebsd/contents+en.lrpage.body)
+#: https//community.torproject.org/relay/setup/bridge/openbsd/
+#: (content/relay-operations/technical-setup/bridge/openbsd/contents+en.lrpage.body)
+msgid ""
+"If you are having troubles setting up your bridge, have a look at [our help"
+msgstr ""
+"If you are having troubles setting up your bridge, have a look at [our help"
+
+#: https//community.torproject.org/relay/setup/bridge/debian-ubuntu/
+#: (content/relay-operations/technical-setup/bridge/debian-ubuntu/contents+en.lrpage.body)
+#: https//community.torproject.org/relay/setup/bridge/centos-rhel-opensuse/
+#: (content/relay-operations/technical-setup/bridge/centos-rhel-opensuse/contents+en.lrpage.body)
+#: https//community.torproject.org/relay/setup/bridge/fedora/
+#: (content/relay-operations/technical-setup/bridge/fedora/contents+en.lrpage.body)
+#: https//community.torproject.org/relay/setup/bridge/freebsd/
+#: (content/relay-operations/technical-setup/bridge/freebsd/contents+en.lrpage.body)
+#: https//community.torproject.org/relay/setup/bridge/openbsd/
+#: (content/relay-operations/technical-setup/bridge/openbsd/contents+en.lrpage.body)
+msgid "section](https://community.torproject.org/relay/getting-help/). If"
+msgstr "section](https://community.torproject.org/relay/getting-help/). If"
+
+#: https//community.torproject.org/relay/setup/bridge/debian-ubuntu/
+#: (content/relay-operations/technical-setup/bridge/debian-ubuntu/contents+en.lrpage.body)
+#: https//community.torproject.org/relay/setup/bridge/centos-rhel-opensuse/
+#: (content/relay-operations/technical-setup/bridge/centos-rhel-opensuse/contents+en.lrpage.body)
+#: https//community.torproject.org/relay/setup/bridge/fedora/
+#: (content/relay-operations/technical-setup/bridge/fedora/contents+en.lrpage.body)
+#: https//community.torproject.org/relay/setup/bridge/freebsd/
+#: (content/relay-operations/technical-setup/bridge/freebsd/contents+en.lrpage.body)
+#: https//community.torproject.org/relay/setup/bridge/openbsd/
+#: (content/relay-operations/technical-setup/bridge/openbsd/contents+en.lrpage.body)
+msgid "your bridge is now running, check out the [post-install"
+msgstr "your bridge is now running, check out the [post-install"
+
+#: https//community.torproject.org/relay/setup/bridge/debian-ubuntu/
+#: (content/relay-operations/technical-setup/bridge/debian-ubuntu/contents+en.lrpage.body)
+#: https//community.torproject.org/relay/setup/bridge/centos-rhel-opensuse/
+#: (content/relay-operations/technical-setup/bridge/centos-rhel-opensuse/contents+en.lrpage.body)
+#: https//community.torproject.org/relay/setup/bridge/fedora/
+#: (content/relay-operations/technical-setup/bridge/fedora/contents+en.lrpage.body)
+#: https//community.torproject.org/relay/setup/bridge/freebsd/
+#: (content/relay-operations/technical-setup/bridge/freebsd/contents+en.lrpage.body)
+#: https//community.torproject.org/relay/setup/bridge/openbsd/
+#: (content/relay-operations/technical-setup/bridge/openbsd/contents+en.lrpage.body)
+msgid ""
+"notes](https://community.torproject.org/relay/setup/bridge/post-install/)."
+msgstr ""
+"notes](https://community.torproject.org/relay/setup/bridge/post-install/)."
 
 #: https//community.torproject.org/relay/setup/bridge/docker/
 #: (content/relay-operations/technical-setup/bridge/docker/contents+en.lrpage.title)
@@ -10396,6 +10470,32 @@ msgstr ""
 "That's it! Your container should now be bootstrapping your new obfs4 Tor "
 "bridge."
 
+#: https//community.torproject.org/relay/setup/bridge/docker/
+#: (content/relay-operations/technical-setup/bridge/docker/contents+en.lrpage.body)
+msgid "Make sure to check out the [post-install"
+msgstr "Make sure to check out the [post-install"
+
+#: https//community.torproject.org/relay/setup/bridge/docker/
+#: (content/relay-operations/technical-setup/bridge/docker/contents+en.lrpage.body)
+msgid ""
+"notes](https://community.torproject.org/relay/setup/bridge/post-install/).  "
+"If"
+msgstr ""
+"notes](https://community.torproject.org/relay/setup/bridge/post-install/).  "
+"If"
+
+#: https//community.torproject.org/relay/setup/bridge/docker/
+#: (content/relay-operations/technical-setup/bridge/docker/contents+en.lrpage.body)
+msgid ""
+"you are having troubles setting up your bridge, have a look at [our help"
+msgstr ""
+"you are having troubles setting up your bridge, have a look at [our help"
+
+#: https//community.torproject.org/relay/setup/bridge/docker/
+#: (content/relay-operations/technical-setup/bridge/docker/contents+en.lrpage.body)
+msgid "section](https://community.torproject.org/relay/getting-help/)."
+msgstr "section](https://community.torproject.org/relay/getting-help/)."
+
 #: https//community.torproject.org/relay/setup/bridge/centos-rhel-opensuse/
 #: (content/relay-operations/technical-setup/bridge/centos-rhel-opensuse/contents+en.lrpage.title)
 msgid "CentOS / RHEL / OpenSUSE"
@@ -10408,13 +10508,15 @@ msgstr "How to deploy an obfs4 bridge on CentOS / RHEL / OpenSUSE"
 
 #: https//community.torproject.org/relay/setup/bridge/centos-rhel-opensuse/
 #: (content/relay-operations/technical-setup/bridge/centos-rhel-opensuse/contents+en.lrpage.body)
+#: https//community.torproject.org/relay/setup/bridge/fedora/
+#: (content/relay-operations/technical-setup/bridge/fedora/contents+en.lrpage.body)
 msgid "### 1. Install tor and dependencies"
 msgstr "### 1. Install tor and dependencies"
 
 #: https//community.torproject.org/relay/setup/bridge/centos-rhel-opensuse/
 #: (content/relay-operations/technical-setup/bridge/centos-rhel-opensuse/contents+en.lrpage.body)
-msgid "* Redhat / RHEL:"
-msgstr "* Redhat / RHEL:"
+msgid "* CentOS / RHEL:"
+msgstr "* CentOS / RHEL:"
 
 #: https//community.torproject.org/relay/setup/bridge/centos-rhel-opensuse/
 #: (content/relay-operations/technical-setup/bridge/centos-rhel-opensuse/contents+en.lrpage.body)
@@ -10423,8 +10525,8 @@ msgstr "yum install epel-release"
 
 #: https//community.torproject.org/relay/setup/bridge/centos-rhel-opensuse/
 #: (content/relay-operations/technical-setup/bridge/centos-rhel-opensuse/contents+en.lrpage.body)
-msgid "yum install git golang tor"
-msgstr "yum install git golang tor"
+msgid "yum install git golang tor policycoreutils-python-utils"
+msgstr "yum install git golang tor policycoreutils-python-utils"
 
 #: https//community.torproject.org/relay/setup/bridge/centos-rhel-opensuse/
 #: (content/relay-operations/technical-setup/bridge/centos-rhel-opensuse/contents+en.lrpage.body)
@@ -10438,6 +10540,8 @@ msgstr "zypper install tor go git"
 
 #: https//community.torproject.org/relay/setup/bridge/centos-rhel-opensuse/
 #: (content/relay-operations/technical-setup/bridge/centos-rhel-opensuse/contents+en.lrpage.body)
+#: https//community.torproject.org/relay/setup/bridge/fedora/
+#: (content/relay-operations/technical-setup/bridge/fedora/contents+en.lrpage.body)
 msgid "### 2. Build obfs4proxy and move it into place."
 msgstr "### 2. Build obfs4proxy and move it into place."
 
@@ -10452,21 +10556,22 @@ msgstr ""
 
 #: https//community.torproject.org/relay/setup/bridge/centos-rhel-opensuse/
 #: (content/relay-operations/technical-setup/bridge/centos-rhel-opensuse/contents+en.lrpage.body)
-msgid "* CentOS / RHEL:"
-msgstr "* CentOS / RHEL:"
-
-#: https//community.torproject.org/relay/setup/bridge/centos-rhel-opensuse/
-#: (content/relay-operations/technical-setup/bridge/centos-rhel-opensuse/contents+en.lrpage.body)
+#: https//community.torproject.org/relay/setup/bridge/fedora/
+#: (content/relay-operations/technical-setup/bridge/fedora/contents+en.lrpage.body)
 msgid "export GOPATH=`mktemp -d`"
 msgstr "export GOPATH=`mktemp -d`"
 
 #: https//community.torproject.org/relay/setup/bridge/centos-rhel-opensuse/
 #: (content/relay-operations/technical-setup/bridge/centos-rhel-opensuse/contents+en.lrpage.body)
+#: https//community.torproject.org/relay/setup/bridge/fedora/
+#: (content/relay-operations/technical-setup/bridge/fedora/contents+en.lrpage.body)
 msgid "go get gitlab.com/yawning/obfs4.git/obfs4proxy"
 msgstr "go get gitlab.com/yawning/obfs4.git/obfs4proxy"
 
 #: https//community.torproject.org/relay/setup/bridge/centos-rhel-opensuse/
 #: (content/relay-operations/technical-setup/bridge/centos-rhel-opensuse/contents+en.lrpage.body)
+#: https//community.torproject.org/relay/setup/bridge/fedora/
+#: (content/relay-operations/technical-setup/bridge/fedora/contents+en.lrpage.body)
 msgid "sudo cp $GOPATH/bin/obfs4proxy /usr/local/bin/"
 msgstr "sudo cp $GOPATH/bin/obfs4proxy /usr/local/bin/"
 
@@ -10477,11 +10582,129 @@ msgstr "chcon --reference=/usr/bin/tor /usr/local/bin/obfs4proxy"
 
 #: https//community.torproject.org/relay/setup/bridge/centos-rhel-opensuse/
 #: (content/relay-operations/technical-setup/bridge/centos-rhel-opensuse/contents+en.lrpage.body)
+msgid "* CentOS / RHEL / OpenSUSE:"
+msgstr "* CentOS / RHEL / OpenSUSE:"
+
+#: https//community.torproject.org/relay/setup/bridge/centos-rhel-opensuse/
+#: (content/relay-operations/technical-setup/bridge/centos-rhel-opensuse/contents+en.lrpage.body)
+#: https//community.torproject.org/relay/setup/bridge/fedora/
+#: (content/relay-operations/technical-setup/bridge/fedora/contents+en.lrpage.body)
+#: https//community.torproject.org/relay/setup/bridge/freebsd/
+#: (content/relay-operations/technical-setup/bridge/freebsd/contents+en.lrpage.body)
+#: https//community.torproject.org/relay/setup/bridge/openbsd/
+#: (content/relay-operations/technical-setup/bridge/openbsd/contents+en.lrpage.body)
+msgid "RunAsDaemon 1"
+msgstr "RunAsDaemon 1"
+
+#: https//community.torproject.org/relay/setup/bridge/centos-rhel-opensuse/
+#: (content/relay-operations/technical-setup/bridge/centos-rhel-opensuse/contents+en.lrpage.body)
+#: https//community.torproject.org/relay/setup/bridge/fedora/
+#: (content/relay-operations/technical-setup/bridge/fedora/contents+en.lrpage.body)
+#: https//community.torproject.org/relay/setup/bridge/freebsd/
+#: (content/relay-operations/technical-setup/bridge/freebsd/contents+en.lrpage.body)
+msgid "ServerTransportPlugin obfs4 exec /usr/local/bin/obfs4proxy"
+msgstr "ServerTransportPlugin obfs4 exec /usr/local/bin/obfs4proxy"
+
+#: https//community.torproject.org/relay/setup/bridge/centos-rhel-opensuse/
+#: (content/relay-operations/technical-setup/bridge/centos-rhel-opensuse/contents+en.lrpage.body)
+#: https//community.torproject.org/relay/setup/bridge/fedora/
+#: (content/relay-operations/technical-setup/bridge/fedora/contents+en.lrpage.body)
+#: https//community.torproject.org/relay/setup/bridge/freebsd/
+#: (content/relay-operations/technical-setup/bridge/freebsd/contents+en.lrpage.body)
+#: https//community.torproject.org/relay/setup/bridge/openbsd/
+#: (content/relay-operations/technical-setup/bridge/openbsd/contents+en.lrpage.body)
+msgid "# \"Ext\" means \"extended\", not \"external\".  Don't try to set a specific port"
+msgstr "# \"Ext\" means \"extended\", not \"external\".  Don't try to set a specific port"
+
+#: https//community.torproject.org/relay/setup/bridge/centos-rhel-opensuse/
+#: (content/relay-operations/technical-setup/bridge/centos-rhel-opensuse/contents+en.lrpage.body)
+#: https//community.torproject.org/relay/setup/bridge/fedora/
+#: (content/relay-operations/technical-setup/bridge/fedora/contents+en.lrpage.body)
+#: https//community.torproject.org/relay/setup/bridge/freebsd/
+#: (content/relay-operations/technical-setup/bridge/freebsd/contents+en.lrpage.body)
+#: https//community.torproject.org/relay/setup/bridge/openbsd/
+#: (content/relay-operations/technical-setup/bridge/openbsd/contents+en.lrpage.body)
+msgid "# number, nor listen on 0.0.0.0."
+msgstr "# number, nor listen on 0.0.0.0."
+
+#: https//community.torproject.org/relay/setup/bridge/centos-rhel-opensuse/
+#: (content/relay-operations/technical-setup/bridge/centos-rhel-opensuse/contents+en.lrpage.body)
+#: https//community.torproject.org/relay/setup/bridge/fedora/
+#: (content/relay-operations/technical-setup/bridge/fedora/contents+en.lrpage.body)
+#: https//community.torproject.org/relay/setup/bridge/freebsd/
+#: (content/relay-operations/technical-setup/bridge/freebsd/contents+en.lrpage.body)
+#: https//community.torproject.org/relay/setup/bridge/openbsd/
+#: (content/relay-operations/technical-setup/bridge/openbsd/contents+en.lrpage.body)
+msgid ""
+"# Replace \"<address@email.com>\" with your email address so we can contact "
+"you if"
+msgstr ""
+"# Replace \"<address@email.com>\" with your email address so we can contact "
+"you if"
+
+#: https//community.torproject.org/relay/setup/bridge/centos-rhel-opensuse/
+#: (content/relay-operations/technical-setup/bridge/centos-rhel-opensuse/contents+en.lrpage.body)
+#: https//community.torproject.org/relay/setup/bridge/fedora/
+#: (content/relay-operations/technical-setup/bridge/fedora/contents+en.lrpage.body)
+#: https//community.torproject.org/relay/setup/bridge/freebsd/
+#: (content/relay-operations/technical-setup/bridge/freebsd/contents+en.lrpage.body)
+#: https//community.torproject.org/relay/setup/bridge/openbsd/
+#: (content/relay-operations/technical-setup/bridge/openbsd/contents+en.lrpage.body)
+msgid ""
+"# there are problems with your bridge.  This is optional but encouraged."
+msgstr ""
+"# there are problems with your bridge.  This is optional but encouraged."
+
+#: https//community.torproject.org/relay/setup/bridge/centos-rhel-opensuse/
+#: (content/relay-operations/technical-setup/bridge/centos-rhel-opensuse/contents+en.lrpage.body)
+#: https//community.torproject.org/relay/setup/bridge/fedora/
+#: (content/relay-operations/technical-setup/bridge/fedora/contents+en.lrpage.body)
+#: https//community.torproject.org/relay/setup/bridge/freebsd/
+#: (content/relay-operations/technical-setup/bridge/freebsd/contents+en.lrpage.body)
+#: https//community.torproject.org/relay/setup/bridge/openbsd/
+#: (content/relay-operations/technical-setup/bridge/openbsd/contents+en.lrpage.body)
+msgid ""
+"* Note that both Tor's OR port and its obfs4 port must be reachable. If your"
+" bridge is behind a firewall or NAT, make sure to open both ports. You can "
+"use [our reachability test](https://bridges.torproject.org/scan/) to see if "
+"your obfs4 port is reachable from the Internet."
+msgstr ""
+"* Note that both Tor's OR port and its obfs4 port must be reachable. If your"
+" bridge is behind a firewall or NAT, make sure to open both ports. You can "
+"use [our reachability test](https://bridges.torproject.org/scan/) to see if "
+"your obfs4 port is reachable from the Internet."
+
+#: https//community.torproject.org/relay/setup/bridge/centos-rhel-opensuse/
+#: (content/relay-operations/technical-setup/bridge/centos-rhel-opensuse/contents+en.lrpage.body)
+#: https//community.torproject.org/relay/setup/bridge/fedora/
+#: (content/relay-operations/technical-setup/bridge/fedora/contents+en.lrpage.body)
+msgid ""
+"sudo semanage port -a -t tor_port_t -p tcp [OR port set earlier, in TODO1]"
+msgstr ""
+"sudo semanage port -a -t tor_port_t -p tcp [OR port set earlier, in TODO1]"
+
+#: https//community.torproject.org/relay/setup/bridge/centos-rhel-opensuse/
+#: (content/relay-operations/technical-setup/bridge/centos-rhel-opensuse/contents+en.lrpage.body)
+#: https//community.torproject.org/relay/setup/bridge/fedora/
+#: (content/relay-operations/technical-setup/bridge/fedora/contents+en.lrpage.body)
+msgid ""
+"sudo semanage port -a -t tor_port_t -p tcp [obfs4 port set earlier, in "
+"TODO2]"
+msgstr ""
+"sudo semanage port -a -t tor_port_t -p tcp [obfs4 port set earlier, in "
+"TODO2]"
+
+#: https//community.torproject.org/relay/setup/bridge/centos-rhel-opensuse/
+#: (content/relay-operations/technical-setup/bridge/centos-rhel-opensuse/contents+en.lrpage.body)
+#: https//community.torproject.org/relay/setup/bridge/fedora/
+#: (content/relay-operations/technical-setup/bridge/fedora/contents+en.lrpage.body)
 msgid "### 5. Monitor your logs (usually in your syslog)"
 msgstr "### 5. Monitor your logs (usually in your syslog)"
 
 #: https//community.torproject.org/relay/setup/bridge/centos-rhel-opensuse/
 #: (content/relay-operations/technical-setup/bridge/centos-rhel-opensuse/contents+en.lrpage.body)
+#: https//community.torproject.org/relay/setup/bridge/fedora/
+#: (content/relay-operations/technical-setup/bridge/fedora/contents+en.lrpage.body)
 msgid ""
 "To confirm your bridge is running with no issues, you should see something "
 "like this:"
@@ -10489,39 +10712,37 @@ msgstr ""
 "To confirm your bridge is running with no issues, you should see something "
 "like this:"
 
-#: https//community.torproject.org/relay/setup/bridge/getting-help/
-#: (content/relay-operations/technical-setup/bridge/getting-help/contents+en.lrpage.title)
-msgid "Getting help"
-msgstr "Getting help"
+#: https//community.torproject.org/relay/setup/bridge/fedora/
+#: (content/relay-operations/technical-setup/bridge/fedora/contents+en.lrpage.title)
+#: https//community.torproject.org/relay/setup/guard/fedora/
+#: (content/relay-operations/technical-setup/guard/fedora/contents+en.lrpage.title)
+msgid "Fedora"
+msgstr "Fedora"
 
-#: https//community.torproject.org/relay/setup/bridge/getting-help/
-#: (content/relay-operations/technical-setup/bridge/getting-help/contents+en.lrpage.subtitle)
-msgid "How to get help if you run into issues"
-msgstr "How to get help if you run into issues"
+#: https//community.torproject.org/relay/setup/bridge/fedora/
+#: (content/relay-operations/technical-setup/bridge/fedora/contents+en.lrpage.subtitle)
+msgid "How to deploy an obfs4 bridge on Fedora"
+msgstr "How to deploy an obfs4 bridge on Fedora"
 
-#: https//community.torproject.org/relay/setup/bridge/getting-help/
-#: (content/relay-operations/technical-setup/bridge/getting-help/contents+en.lrpage.body)
-msgid ""
-"If you run into problems while setting up your relay, you can ask your "
-"questions on the public [tor-relays mailing "
-"list](https://lists.torproject.org/cgi-bin/mailman/listinfo/tor-relays).  "
-"The list is a great resource for asking (and answering) questions, and for "
-"getting to know other relay operators. Make sure to check out the archives!"
-msgstr ""
-"If you run into problems while setting up your relay, you can ask your "
-"questions on the public [tor-relays mailing "
-"list](https://lists.torproject.org/cgi-bin/mailman/listinfo/tor-relays).  "
-"The list is a great resource for asking (and answering) questions, and for "
-"getting to know other relay operators. Make sure to check out the archives!"
+#: https//community.torproject.org/relay/setup/bridge/fedora/
+#: (content/relay-operations/technical-setup/bridge/fedora/contents+en.lrpage.body)
+msgid "dnf install git golang tor policycoreutils-python-utils"
+msgstr "dnf install git golang tor policycoreutils-python-utils"
 
-#: https//community.torproject.org/relay/setup/bridge/getting-help/
-#: (content/relay-operations/technical-setup/bridge/getting-help/contents+en.lrpage.body)
-msgid ""
-"You can also get help by joining the IRC channel #tor-relays in the network "
-"[irc.oftc.net](https://www.oftc.net)."
-msgstr ""
-"You can also get help by joining the IRC channel #tor-relays in the network "
-"[irc.oftc.net](https://www.oftc.net)."
+#: https//community.torproject.org/relay/setup/bridge/fedora/
+#: (content/relay-operations/technical-setup/bridge/fedora/contents+en.lrpage.body)
+msgid "And tell selinux to allow Tor to use obfs4proxy:"
+msgstr "And tell selinux to allow Tor to use obfs4proxy:"
+
+#: https//community.torproject.org/relay/setup/bridge/fedora/
+#: (content/relay-operations/technical-setup/bridge/fedora/contents+en.lrpage.body)
+msgid "/sbin/restorecon -v /usr/local/bin/obfs4proxy"
+msgstr "/sbin/restorecon -v /usr/local/bin/obfs4proxy"
+
+#: https//community.torproject.org/relay/setup/bridge/fedora/
+#: (content/relay-operations/technical-setup/bridge/fedora/contents+en.lrpage.body)
+msgid "systemctl restart tor"
+msgstr "systemctl restart tor"
 
 #: https//community.torproject.org/relay/setup/bridge/freebsd/
 #: (content/relay-operations/technical-setup/bridge/freebsd/contents+en.lrpage.title)
@@ -10709,6 +10930,11 @@ msgstr "enabled: yes"
 msgid "}"
 msgstr "}"
 
+#: https//community.torproject.org/relay/setup/bridge/freebsd/
+#: (content/relay-operations/technical-setup/bridge/freebsd/contents+en.lrpage.body)
+msgid "### 7. Final notes"
+msgstr "### 7. Final notes"
+
 #: https//community.torproject.org/relay/setup/bridge/openbsd/
 #: (content/relay-operations/technical-setup/bridge/openbsd/contents+en.lrpage.title)
 msgid "OpenBSD"
@@ -10768,6 +10994,11 @@ msgstr ""
 "To confirm your bridge is running with no issues, you should see something "
 "like this  (`/var/log/tor/notices.log`):"
 
+#: https//community.torproject.org/relay/setup/bridge/openbsd/
+#: (content/relay-operations/technical-setup/bridge/openbsd/contents+en.lrpage.body)
+msgid "### 5. Final notes"
+msgstr "### 5. Final notes"
+
 #: https//community.torproject.org/relay/setup/guard/centosrhel/
 #: (content/relay-operations/technical-setup/guard/centosrhel/contents+en.lrpage.title)
 msgid "CentOS/RHEL"
@@ -10775,13 +11006,43 @@ msgstr "CentOS/RHEL"
 
 #: https//community.torproject.org/relay/setup/guard/centosrhel/
 #: (content/relay-operations/technical-setup/guard/centosrhel/contents+en.lrpage.subtitle)
-msgid "How to deploy a middle/Guard node on CentOS/RHEL"
-msgstr "How to deploy a middle/Guard node on CentOS/RHEL"
+msgid "How to deploy a middle/Guard relay on CentOS/RHEL"
+msgstr "How to deploy a middle/Guard relay on CentOS/RHEL"
 
 #: https//community.torproject.org/relay/setup/guard/centosrhel/
 #: (content/relay-operations/technical-setup/guard/centosrhel/contents+en.lrpage.body)
-msgid "# 1. Enable the EPEL repository"
-msgstr "# 1. Enable the EPEL repository"
+#: https//community.torproject.org/relay/setup/guard/fedora/
+#: (content/relay-operations/technical-setup/guard/fedora/contents+en.lrpage.body)
+#: https//community.torproject.org/relay/setup/guard/debianubuntu/
+#: (content/relay-operations/technical-setup/guard/debianubuntu/contents+en.lrpage.body)
+#: https//community.torproject.org/relay/setup/guard/freebsd/
+#: (content/relay-operations/technical-setup/guard/freebsd/contents+en.lrpage.body)
+msgid "# 1. Enable Automatic Software Updates"
+msgstr "# 1. Enable Automatic Software Updates"
+
+#: https//community.torproject.org/relay/setup/guard/centosrhel/
+#: (content/relay-operations/technical-setup/guard/centosrhel/contents+en.lrpage.body)
+#: https//community.torproject.org/relay/setup/guard/fedora/
+#: (content/relay-operations/technical-setup/guard/fedora/contents+en.lrpage.body)
+#: https//community.torproject.org/relay/setup/guard/debianubuntu/
+#: (content/relay-operations/technical-setup/guard/debianubuntu/contents+en.lrpage.body)
+#: https//community.torproject.org/relay/setup/guard/freebsd/
+#: (content/relay-operations/technical-setup/guard/freebsd/contents+en.lrpage.body)
+msgid ""
+"One of the most imported things to keeps your relay secure is to install "
+"security updates timely and ideally automatically so you can not forget "
+"about it. Follow the instructions to enable [automatic software "
+"updates](updates) for your operating system."
+msgstr ""
+"One of the most imported things to keeps your relay secure is to install "
+"security updates timely and ideally automatically so you can not forget "
+"about it. Follow the instructions to enable [automatic software "
+"updates](updates) for your operating system."
+
+#: https//community.torproject.org/relay/setup/guard/centosrhel/
+#: (content/relay-operations/technical-setup/guard/centosrhel/contents+en.lrpage.body)
+msgid "# 2. Enable the EPEL repository"
+msgstr "# 2. Enable the EPEL repository"
 
 #: https//community.torproject.org/relay/setup/guard/centosrhel/
 #: (content/relay-operations/technical-setup/guard/centosrhel/contents+en.lrpage.body)
@@ -10799,8 +11060,8 @@ msgstr "`yum install epel-release`"
 
 #: https//community.torproject.org/relay/setup/guard/centosrhel/
 #: (content/relay-operations/technical-setup/guard/centosrhel/contents+en.lrpage.body)
-msgid "# 2. Install the tor package and verify the EPEL signing key"
-msgstr "# 2. Install the tor package and verify the EPEL signing key"
+msgid "# 3. Install the tor package and verify the EPEL signing key"
+msgstr "# 3. Install the tor package and verify the EPEL signing key"
 
 #: https//community.torproject.org/relay/setup/guard/centosrhel/
 #: (content/relay-operations/technical-setup/guard/centosrhel/contents+en.lrpage.body)
@@ -10822,8 +11083,8 @@ msgstr ""
 
 #: https//community.torproject.org/relay/setup/guard/centosrhel/
 #: (content/relay-operations/technical-setup/guard/centosrhel/contents+en.lrpage.body)
-msgid "# 3. Put the tor configuration file `/etc/tor/torrc` in place"
-msgstr "# 3. Put the tor configuration file `/etc/tor/torrc` in place"
+msgid "# 4. Put the tor configuration file `/etc/tor/torrc` in place"
+msgstr "# 4. Put the tor configuration file `/etc/tor/torrc` in place"
 
 #: https//community.torproject.org/relay/setup/guard/centosrhel/
 #: (content/relay-operations/technical-setup/guard/centosrhel/contents+en.lrpage.body)
@@ -10902,8 +11163,8 @@ msgstr "ContactInfo tor-operator@your-emailaddress-domain"
 
 #: https//community.torproject.org/relay/setup/guard/centosrhel/
 #: (content/relay-operations/technical-setup/guard/centosrhel/contents+en.lrpage.body)
-msgid "# 4. Enable and start your Tor relay"
-msgstr "# 4. Enable and start your Tor relay"
+msgid "# 5. Enable and start your Tor relay"
+msgstr "# 5. Enable and start your Tor relay"
 
 #: https//community.torproject.org/relay/setup/guard/centosrhel/
 #: (content/relay-operations/technical-setup/guard/centosrhel/contents+en.lrpage.body)
@@ -10934,20 +11195,41 @@ msgstr "CentOS 6 / RHEL 6:"
 msgid "service tor enable"
 msgstr "service tor enable"
 
+#: https//community.torproject.org/relay/setup/guard/centosrhel/
+#: (content/relay-operations/technical-setup/guard/centosrhel/contents+en.lrpage.body)
+#: https//community.torproject.org/relay/setup/guard/debianubuntu/
+#: (content/relay-operations/technical-setup/guard/debianubuntu/contents+en.lrpage.body)
+#: https//community.torproject.org/relay/setup/guard/freebsd/
+#: (content/relay-operations/technical-setup/guard/freebsd/contents+en.lrpage.body)
+msgid "# 6. Final notes"
+msgstr "# 6. Final notes"
+
+#: https//community.torproject.org/relay/setup/guard/centosrhel/
+#: (content/relay-operations/technical-setup/guard/centosrhel/contents+en.lrpage.body)
 #: https//community.torproject.org/relay/setup/guard/fedora/
-#: (content/relay-operations/technical-setup/guard/fedora/contents+en.lrpage.title)
-msgid "Fedora"
-msgstr "Fedora"
+#: (content/relay-operations/technical-setup/guard/fedora/contents+en.lrpage.body)
+#: https//community.torproject.org/relay/setup/guard/debianubuntu/
+#: (content/relay-operations/technical-setup/guard/debianubuntu/contents+en.lrpage.body)
+#: https//community.torproject.org/relay/setup/guard/freebsd/
+#: (content/relay-operations/technical-setup/guard/freebsd/contents+en.lrpage.body)
+msgid ""
+"If you are having troubles setting up your relay, have a look at our [help "
+"section](/relay/getting-help/). If your relay is now running, check out the "
+"[post-install](/relay/setup/post-install/) notes."
+msgstr ""
+"If you are having troubles setting up your relay, have a look at our [help "
+"section](/relay/getting-help/). If your relay is now running, check out the "
+"[post-install](/relay/setup/post-install/) notes."
 
 #: https//community.torproject.org/relay/setup/guard/fedora/
 #: (content/relay-operations/technical-setup/guard/fedora/contents+en.lrpage.subtitle)
-msgid "How to deploy a middle/Guard node on Fedora"
-msgstr "How to deploy a middle/Guard node on Fedora"
+msgid "How to deploy a middle/Guard relay on Fedora"
+msgstr "How to deploy a middle/Guard relay on Fedora"
 
 #: https//community.torproject.org/relay/setup/guard/fedora/
 #: (content/relay-operations/technical-setup/guard/fedora/contents+en.lrpage.body)
-msgid "# 1.  Install the tor package:"
-msgstr "# 1.  Install the tor package:"
+msgid "# 2.  Install the tor package"
+msgstr "# 2.  Install the tor package"
 
 #: https//community.torproject.org/relay/setup/guard/fedora/
 #: (content/relay-operations/technical-setup/guard/fedora/contents+en.lrpage.body)
@@ -10956,13 +11238,18 @@ msgstr "`dnf install tor`"
 
 #: https//community.torproject.org/relay/setup/guard/fedora/
 #: (content/relay-operations/technical-setup/guard/fedora/contents+en.lrpage.body)
-msgid "# 2. Put the tor configuration file `/etc/tor/torrc` in place:"
-msgstr "# 2. Put the tor configuration file `/etc/tor/torrc` in place:"
+msgid "# 3. Put the tor configuration file `/etc/tor/torrc` in place"
+msgstr "# 3. Put the tor configuration file `/etc/tor/torrc` in place"
 
 #: https//community.torproject.org/relay/setup/guard/fedora/
 #: (content/relay-operations/technical-setup/guard/fedora/contents+en.lrpage.body)
-msgid "# 3. Start the tor daemon and make sure it starts at boot:"
-msgstr "# 3. Start the tor daemon and make sure it starts at boot:"
+msgid "# 4. Start the tor daemon and make sure it starts at boot"
+msgstr "# 4. Start the tor daemon and make sure it starts at boot"
+
+#: https//community.torproject.org/relay/setup/guard/fedora/
+#: (content/relay-operations/technical-setup/guard/fedora/contents+en.lrpage.body)
+msgid "# 5. Final notes"
+msgstr "# 5. Final notes"
 
 #: https//community.torproject.org/relay/setup/guard/debianubuntu/
 #: (content/relay-operations/technical-setup/guard/debianubuntu/contents+en.lrpage.title)
@@ -10971,13 +11258,13 @@ msgstr "Debian/Ubuntu"
 
 #: https//community.torproject.org/relay/setup/guard/debianubuntu/
 #: (content/relay-operations/technical-setup/guard/debianubuntu/contents+en.lrpage.subtitle)
-msgid "How to deploy a middle/Guard node on Debian/Ubuntu"
-msgstr "How to deploy a middle/Guard node on Debian/Ubuntu"
+msgid "How to deploy a middle/Guard relay on Debian/Ubuntu"
+msgstr "How to deploy a middle/Guard relay on Debian/Ubuntu"
 
 #: https//community.torproject.org/relay/setup/guard/debianubuntu/
 #: (content/relay-operations/technical-setup/guard/debianubuntu/contents+en.lrpage.body)
-msgid "# 1. Configure Tor Package Repository"
-msgstr "# 1. Configure Tor Package Repository"
+msgid "# 2. Configure Tor Package Repository"
+msgstr "# 2. Configure Tor Package Repository"
 
 #: https//community.torproject.org/relay/setup/guard/debianubuntu/
 #: (content/relay-operations/technical-setup/guard/debianubuntu/contents+en.lrpage.body)
@@ -10990,8 +11277,8 @@ msgstr ""
 
 #: https//community.torproject.org/relay/setup/guard/debianubuntu/
 #: (content/relay-operations/technical-setup/guard/debianubuntu/contents+en.lrpage.body)
-msgid "# 2. Package Installation"
-msgstr "# 2. Package Installation"
+msgid "# 3. Package Installation"
+msgstr "# 3. Package Installation"
 
 #: https//community.torproject.org/relay/setup/guard/debianubuntu/
 #: (content/relay-operations/technical-setup/guard/debianubuntu/contents+en.lrpage.body)
@@ -11005,8 +11292,8 @@ msgstr "`apt update && apt install tor`"
 
 #: https//community.torproject.org/relay/setup/guard/debianubuntu/
 #: (content/relay-operations/technical-setup/guard/debianubuntu/contents+en.lrpage.body)
-msgid "# 3. Configuration File"
-msgstr "# 3. Configuration File"
+msgid "# 4. Configuration File"
+msgstr "# 4. Configuration File"
 
 #: https//community.torproject.org/relay/setup/guard/debianubuntu/
 #: (content/relay-operations/technical-setup/guard/debianubuntu/contents+en.lrpage.body)
@@ -11025,8 +11312,8 @@ msgstr "ControlSocket 0"
 
 #: https//community.torproject.org/relay/setup/guard/debianubuntu/
 #: (content/relay-operations/technical-setup/guard/debianubuntu/contents+en.lrpage.body)
-msgid "# 4. Restart the Service"
-msgstr "# 4. Restart the Service"
+msgid "# 5. Restart the Service"
+msgstr "# 5. Restart the Service"
 
 #: https//community.torproject.org/relay/setup/guard/debianubuntu/
 #: (content/relay-operations/technical-setup/guard/debianubuntu/contents+en.lrpage.body)
@@ -11040,13 +11327,13 @@ msgstr "`systemctl restart tor@default`"
 
 #: https//community.torproject.org/relay/setup/guard/freebsd/
 #: (content/relay-operations/technical-setup/guard/freebsd/contents+en.lrpage.subtitle)
-msgid "How to deploy a middle/Guard node on FreeBSD"
-msgstr "How to deploy a middle/Guard node on FreeBSD"
+msgid "How to deploy a middle/Guard relay on FreeBSD"
+msgstr "How to deploy a middle/Guard relay on FreeBSD"
 
 #: https//community.torproject.org/relay/setup/guard/freebsd/
 #: (content/relay-operations/technical-setup/guard/freebsd/contents+en.lrpage.body)
-msgid "## 1. Install the tor package"
-msgstr "## 1. Install the tor package"
+msgid "# 2. Install the tor package"
+msgstr "# 2. Install the tor package"
 
 #: https//community.torproject.org/relay/setup/guard/freebsd/
 #: (content/relay-operations/technical-setup/guard/freebsd/contents+en.lrpage.body)
@@ -11065,8 +11352,8 @@ msgstr "`pkg install tor-devel ca_root_nss`"
 
 #: https//community.torproject.org/relay/setup/guard/freebsd/
 #: (content/relay-operations/technical-setup/guard/freebsd/contents+en.lrpage.body)
-msgid "## 2. Put the configuration file `/usr/local/etc/tor/torrc` in place"
-msgstr "## 2. Put the configuration file `/usr/local/etc/tor/torrc` in place"
+msgid "# 3. Put the configuration file `/usr/local/etc/tor/torrc` in place"
+msgstr "# 3. Put the configuration file `/usr/local/etc/tor/torrc` in place"
 
 #: https//community.torproject.org/relay/setup/guard/freebsd/
 #: (content/relay-operations/technical-setup/guard/freebsd/contents+en.lrpage.body)
@@ -11075,13 +11362,13 @@ msgstr "Log notice syslog"
 
 #: https//community.torproject.org/relay/setup/guard/freebsd/
 #: (content/relay-operations/technical-setup/guard/freebsd/contents+en.lrpage.body)
-msgid "## 3. Ensure that the `random_id` sysctl setting is enabled:"
-msgstr "## 3. Ensure that the `random_id` sysctl setting is enabled:"
+msgid "# 4. Ensure that the `random_id` sysctl setting is enabled:"
+msgstr "# 4. Ensure that the `random_id` sysctl setting is enabled:"
 
 #: https//community.torproject.org/relay/setup/guard/freebsd/
 #: (content/relay-operations/technical-setup/guard/freebsd/contents+en.lrpage.body)
-msgid "## 4. Start the tor daemon and make sure it starts at boot:"
-msgstr "## 4. Start the tor daemon and make sure it starts at boot:"
+msgid "# 5. Start the tor daemon and make sure it starts at boot:"
+msgstr "# 5. Start the tor daemon and make sure it starts at boot:"
 
 #: https//community.torproject.org/relay/setup/guard/freebsd/
 #: (content/relay-operations/technical-setup/guard/freebsd/contents+en.lrpage.body)
@@ -11140,10 +11427,11 @@ msgid ""
 "provider. If your Internet host forwards a DMCA copyright complaint to you, "
 "you can use this template to write a response, though you will need to "
 "customize it to your situation. Please also ensure all the statements are "
-"true for you. (The Tor Project has an [abuse collection of templates](/tor-"
-"abuse-templates/) to help you respond to other types of abuse complaints, "
-"too.) Before sending any response to your ISP, you may want to seek the "
-"advice of an attorney licensed to practice in your jurisdiction."
+"true for you. (The Tor Project has an [abuse collection of templates](/relay"
+"/community-resources/tor-abuse-templates/) to help you respond to other "
+"types of abuse complaints, too.) Before sending any response to your ISP, "
+"you may want to seek the advice of an attorney licensed to practice in your "
+"jurisdiction."
 msgstr ""
 "Note to Tor relay operators: In this litigious era, anyone providing routing"
 " services may face copyright complaints for transmitted content. "
@@ -11152,10 +11440,11 @@ msgstr ""
 "provider. If your Internet host forwards a DMCA copyright complaint to you, "
 "you can use this template to write a response, though you will need to "
 "customize it to your situation. Please also ensure all the statements are "
-"true for you. (The Tor Project has an [abuse collection of templates](/tor-"
-"abuse-templates/) to help you respond to other types of abuse complaints, "
-"too.) Before sending any response to your ISP, you may want to seek the "
-"advice of an attorney licensed to practice in your jurisdiction."
+"true for you. (The Tor Project has an [abuse collection of templates](/relay"
+"/community-resources/tor-abuse-templates/) to help you respond to other "
+"types of abuse complaints, too.) Before sending any response to your ISP, "
+"you may want to seek the advice of an attorney licensed to practice in your "
+"jurisdiction."
 
 #: https//community.torproject.org/relay/community-resources/eff-tor-legal-faq/tor-dmca-response/
 #: (content/relay-operations/community-resources/eff-tor-legal-faq/tor-dmca-response/contents+en.lrpage.body)
@@ -11199,12 +11488,14 @@ msgstr ""
 #: (content/relay-operations/community-resources/eff-tor-legal-faq/tor-dmca-response/contents+en.lrpage.body)
 msgid ""
 "Also, if you received this document from anywhere other than the EFF web "
-"site or [tor-dmca-response](/tor-dmca-response), it may be out of date. "
-"Follow the link to get the latest version."
+"site or [tor-dmca-response](/relay/community-resources/eff-tor-legal-faq"
+"/tor-dmca-response), it may be out of date. Follow the link to get the "
+"latest version."
 msgstr ""
 "Also, if you received this document from anywhere other than the EFF web "
-"site or [tor-dmca-response](/tor-dmca-response), it may be out of date. "
-"Follow the link to get the latest version."
+"site or [tor-dmca-response](/relay/community-resources/eff-tor-legal-faq"
+"/tor-dmca-response), it may be out of date. Follow the link to get the "
+"latest version."
 
 #: https//community.torproject.org/relay/community-resources/eff-tor-legal-faq/tor-dmca-response/
 #: (content/relay-operations/community-resources/eff-tor-legal-faq/tor-dmca-response/contents+en.lrpage.body)
@@ -11361,9 +11652,326 @@ msgstr "Very truly yours,"
 msgid "Your customer, [User]"
 msgstr "Your customer, [User]"
 
+#: https//community.torproject.org/relay/setup/guard/centosrhel/updates/
+#: (content/relay-operations/technical-setup/guard/centosrhel/updates/contents+en.lrpage.title)
+msgid "RPM Distributions"
+msgstr "RPM Distributions"
+
+#: https//community.torproject.org/relay/setup/guard/centosrhel/updates/
+#: (content/relay-operations/technical-setup/guard/centosrhel/updates/contents+en.lrpage.body)
+msgid "# CentOS and RHEL"
+msgstr "# CentOS and RHEL"
+
+#: https//community.torproject.org/relay/setup/guard/centosrhel/updates/
+#: (content/relay-operations/technical-setup/guard/centosrhel/updates/contents+en.lrpage.body)
+msgid "For CentOS and RHEL the yum-cron package is the preferred approach:"
+msgstr "For CentOS and RHEL the yum-cron package is the preferred approach:"
+
+#: https//community.torproject.org/relay/setup/guard/centosrhel/updates/
+#: (content/relay-operations/technical-setup/guard/centosrhel/updates/contents+en.lrpage.body)
+msgid "yum install yum-cron"
+msgstr "yum install yum-cron"
+
+#: https//community.torproject.org/relay/setup/guard/centosrhel/updates/
+#: (content/relay-operations/technical-setup/guard/centosrhel/updates/contents+en.lrpage.body)
+msgid "In /etc/yum/yum-cron.conf set:"
+msgstr "In /etc/yum/yum-cron.conf set:"
+
+#: https//community.torproject.org/relay/setup/guard/centosrhel/updates/
+#: (content/relay-operations/technical-setup/guard/centosrhel/updates/contents+en.lrpage.body)
+msgid "download_updates = yes"
+msgstr "download_updates = yes"
+
+#: https//community.torproject.org/relay/setup/guard/centosrhel/updates/
+#: (content/relay-operations/technical-setup/guard/centosrhel/updates/contents+en.lrpage.body)
+msgid "apply_updates = yes"
+msgstr "apply_updates = yes"
+
+#: https//community.torproject.org/relay/setup/guard/centosrhel/updates/
+#: (content/relay-operations/technical-setup/guard/centosrhel/updates/contents+en.lrpage.body)
+msgid "Enable and start automatic updates via:"
+msgstr "Enable and start automatic updates via:"
+
+#: https//community.torproject.org/relay/setup/guard/centosrhel/updates/
+#: (content/relay-operations/technical-setup/guard/centosrhel/updates/contents+en.lrpage.body)
+msgid "systemctl start yum-cron.service"
+msgstr "systemctl start yum-cron.service"
+
+#: https//community.torproject.org/relay/setup/guard/centosrhel/updates/
+#: (content/relay-operations/technical-setup/guard/centosrhel/updates/contents+en.lrpage.body)
+msgid "# openSUSE"
+msgstr "# openSUSE"
+
+#: https//community.torproject.org/relay/setup/guard/centosrhel/updates/
+#: (content/relay-operations/technical-setup/guard/centosrhel/updates/contents+en.lrpage.body)
+msgid "First, you need to install the automatic update package"
+msgstr "First, you need to install the automatic update package"
+
+#: https//community.torproject.org/relay/setup/guard/centosrhel/updates/
+#: (content/relay-operations/technical-setup/guard/centosrhel/updates/contents+en.lrpage.body)
+msgid "zypper install  yast2-online-update-configuration"
+msgstr "zypper install  yast2-online-update-configuration"
+
+#: https//community.torproject.org/relay/setup/guard/centosrhel/updates/
+#: (content/relay-operations/technical-setup/guard/centosrhel/updates/contents+en.lrpage.body)
+msgid "Then start the configuration tool (ncurses based) with:"
+msgstr "Then start the configuration tool (ncurses based) with:"
+
+#: https//community.torproject.org/relay/setup/guard/centosrhel/updates/
+#: (content/relay-operations/technical-setup/guard/centosrhel/updates/contents+en.lrpage.body)
+msgid "yast2 online_update_configuration"
+msgstr "yast2 online_update_configuration"
+
+#: https//community.torproject.org/relay/setup/guard/centosrhel/updates/
+#: (content/relay-operations/technical-setup/guard/centosrhel/updates/contents+en.lrpage.body)
+msgid "Enable the following settings:"
+msgstr "Enable the following settings:"
+
+#: https//community.torproject.org/relay/setup/guard/centosrhel/updates/
+#: (content/relay-operations/technical-setup/guard/centosrhel/updates/contents+en.lrpage.body)
+msgid "Automatic Online Update"
+msgstr "Automatic Online Update"
+
+#: https//community.torproject.org/relay/setup/guard/centosrhel/updates/
+#: (content/relay-operations/technical-setup/guard/centosrhel/updates/contents+en.lrpage.body)
+msgid "Interval: Daily"
+msgstr "Interval: Daily"
+
+#: https//community.torproject.org/relay/setup/guard/centosrhel/updates/
+#: (content/relay-operations/technical-setup/guard/centosrhel/updates/contents+en.lrpage.body)
+msgid "Skip Interactive Patches"
+msgstr "Skip Interactive Patches"
+
+#: https//community.torproject.org/relay/setup/guard/centosrhel/updates/
+#: (content/relay-operations/technical-setup/guard/centosrhel/updates/contents+en.lrpage.body)
+msgid "Agree with Licenses"
+msgstr "Agree with Licenses"
+
+#: https//community.torproject.org/relay/setup/guard/centosrhel/updates/
+#: (content/relay-operations/technical-setup/guard/centosrhel/updates/contents+en.lrpage.body)
+msgid "Use delta rpms"
+msgstr "Use delta rpms"
+
+#: https//community.torproject.org/relay/setup/guard/centosrhel/updates/
+#: (content/relay-operations/technical-setup/guard/centosrhel/updates/contents+en.lrpage.body)
+msgid "Confirm your configuration with OK."
+msgstr "Confirm your configuration with OK."
+
+#: https//community.torproject.org/relay/setup/guard/centosrhel/updates/
+#: (content/relay-operations/technical-setup/guard/centosrhel/updates/contents+en.lrpage.body)
+msgid ""
+"The official openSUSE documentation can be found "
+"[here](https://doc.opensuse.org/documentation/leap/startup/html/book.opensuse.startup/cha.onlineupdate.you.html#sec.onlineupdate.you.automatically)."
+msgstr ""
+"The official openSUSE documentation can be found "
+"[here](https://doc.opensuse.org/documentation/leap/startup/html/book.opensuse.startup/cha.onlineupdate.you.html#sec.onlineupdate.you.automatically)."
+
+#: https//community.torproject.org/relay/setup/guard/debianubuntu/updates/
+#: (content/relay-operations/technical-setup/guard/debianubuntu/updates/contents+en.lrpage.title)
+msgid "Debian and Ubuntu"
+msgstr "Debian and Ubuntu"
+
+#: https//community.torproject.org/relay/setup/guard/debianubuntu/updates/
+#: (content/relay-operations/technical-setup/guard/debianubuntu/updates/contents+en.lrpage.body)
+msgid "# 1. Install the required packages"
+msgstr "# 1. Install the required packages"
+
+#: https//community.torproject.org/relay/setup/guard/debianubuntu/updates/
+#: (content/relay-operations/technical-setup/guard/debianubuntu/updates/contents+en.lrpage.body)
+msgid "apt-get install unattended-upgrades apt-listchanges"
+msgstr "apt-get install unattended-upgrades apt-listchanges"
+
+#: https//community.torproject.org/relay/setup/guard/debianubuntu/updates/
+#: (content/relay-operations/technical-setup/guard/debianubuntu/updates/contents+en.lrpage.body)
+msgid "# 2.  Edit the configuration file"
+msgstr "# 2.  Edit the configuration file"
+
+#: https//community.torproject.org/relay/setup/guard/debianubuntu/updates/
+#: (content/relay-operations/technical-setup/guard/debianubuntu/updates/contents+en.lrpage.body)
+msgid ""
+"Put the lines below into the configuration file /etc/apt/apt.conf.d"
+"/50unattended-upgrades, everything that was originally inside the generated "
+"file can be removed before you add the lines below."
+msgstr ""
+"Put the lines below into the configuration file /etc/apt/apt.conf.d"
+"/50unattended-upgrades, everything that was originally inside the generated "
+"file can be removed before you add the lines below."
+
+#: https//community.torproject.org/relay/setup/guard/debianubuntu/updates/
+#: (content/relay-operations/technical-setup/guard/debianubuntu/updates/contents+en.lrpage.body)
+msgid "Unattended-Upgrade::Origins-Pattern {"
+msgstr "Unattended-Upgrade::Origins-Pattern {"
+
+#: https//community.torproject.org/relay/setup/guard/debianubuntu/updates/
+#: (content/relay-operations/technical-setup/guard/debianubuntu/updates/contents+en.lrpage.body)
+msgid "\"origin=Debian,codename=${distro_codename},label=Debian-Security\";"
+msgstr "\"origin=Debian,codename=${distro_codename},label=Debian-Security\";"
+
+#: https//community.torproject.org/relay/setup/guard/debianubuntu/updates/
+#: (content/relay-operations/technical-setup/guard/debianubuntu/updates/contents+en.lrpage.body)
+msgid "\"origin=TorProject\";"
+msgstr "\"origin=TorProject\";"
+
+#: https//community.torproject.org/relay/setup/guard/debianubuntu/updates/
+#: (content/relay-operations/technical-setup/guard/debianubuntu/updates/contents+en.lrpage.body)
+msgid "};"
+msgstr "};"
+
+#: https//community.torproject.org/relay/setup/guard/debianubuntu/updates/
+#: (content/relay-operations/technical-setup/guard/debianubuntu/updates/contents+en.lrpage.body)
+msgid "Unattended-Upgrade::Package-Blacklist {"
+msgstr "Unattended-Upgrade::Package-Blacklist {"
+
+#: https//community.torproject.org/relay/setup/guard/debianubuntu/updates/
+#: (content/relay-operations/technical-setup/guard/debianubuntu/updates/contents+en.lrpage.body)
+msgid "#3. Automatically reboot"
+msgstr "#3. Automatically reboot"
+
+#: https//community.torproject.org/relay/setup/guard/debianubuntu/updates/
+#: (content/relay-operations/technical-setup/guard/debianubuntu/updates/contents+en.lrpage.body)
+msgid ""
+"If you want to automatically reboot add the following at the the end of the "
+"file `/etc/apt/apt.conf.d/50unattended-upgrades`:"
+msgstr ""
+"If you want to automatically reboot add the following at the the end of the "
+"file `/etc/apt/apt.conf.d/50unattended-upgrades`:"
+
+#: https//community.torproject.org/relay/setup/guard/debianubuntu/updates/
+#: (content/relay-operations/technical-setup/guard/debianubuntu/updates/contents+en.lrpage.body)
+msgid "Unattended-Upgrade::Automatic-Reboot \"true\";"
+msgstr "Unattended-Upgrade::Automatic-Reboot \"true\";"
+
+#: https//community.torproject.org/relay/setup/guard/debianubuntu/updates/
+#: (content/relay-operations/technical-setup/guard/debianubuntu/updates/contents+en.lrpage.body)
+msgid ""
+"Create the file /etc/apt/apt.conf.d/20auto-upgrades with the following "
+"content"
+msgstr ""
+"Create the file /etc/apt/apt.conf.d/20auto-upgrades with the following "
+"content"
+
+#: https//community.torproject.org/relay/setup/guard/debianubuntu/updates/
+#: (content/relay-operations/technical-setup/guard/debianubuntu/updates/contents+en.lrpage.body)
+msgid "APT::Periodic::Update-Package-Lists \"1\";"
+msgstr "APT::Periodic::Update-Package-Lists \"1\";"
+
+#: https//community.torproject.org/relay/setup/guard/debianubuntu/updates/
+#: (content/relay-operations/technical-setup/guard/debianubuntu/updates/contents+en.lrpage.body)
+msgid "APT::Periodic::AutocleanInterval \"5\";"
+msgstr "APT::Periodic::AutocleanInterval \"5\";"
+
+#: https//community.torproject.org/relay/setup/guard/debianubuntu/updates/
+#: (content/relay-operations/technical-setup/guard/debianubuntu/updates/contents+en.lrpage.body)
+msgid "APT::Periodic::Unattended-Upgrade \"1\";"
+msgstr "APT::Periodic::Unattended-Upgrade \"1\";"
+
+#: https//community.torproject.org/relay/setup/guard/debianubuntu/updates/
+#: (content/relay-operations/technical-setup/guard/debianubuntu/updates/contents+en.lrpage.body)
+msgid "APT::Periodic::Verbose \"1\";"
+msgstr "APT::Periodic::Verbose \"1\";"
+
+#: https//community.torproject.org/relay/setup/guard/debianubuntu/updates/
+#: (content/relay-operations/technical-setup/guard/debianubuntu/updates/contents+en.lrpage.body)
+msgid "# 4. Test"
+msgstr "# 4. Test"
+
+#: https//community.torproject.org/relay/setup/guard/debianubuntu/updates/
+#: (content/relay-operations/technical-setup/guard/debianubuntu/updates/contents+en.lrpage.body)
+msgid ""
+"You can test your unattended-upgrades setup with the following command:"
+msgstr ""
+"You can test your unattended-upgrades setup with the following command:"
+
+#: https//community.torproject.org/relay/setup/guard/debianubuntu/updates/
+#: (content/relay-operations/technical-setup/guard/debianubuntu/updates/contents+en.lrpage.body)
+msgid "sudo unattended-upgrade -d"
+msgstr "sudo unattended-upgrade -d"
+
+#: https//community.torproject.org/relay/setup/guard/freebsd/updates/
+#: (content/relay-operations/technical-setup/guard/freebsd/updates/contents+en.lrpage.title)
+msgid "*BSD"
+msgstr "*BSD"
+
+#: https//community.torproject.org/relay/setup/guard/freebsd/updates/
+#: (content/relay-operations/technical-setup/guard/freebsd/updates/contents+en.lrpage.body)
+msgid "# DragonFlyBSD / FreeBSD / HardenedBSD"
+msgstr "# DragonFlyBSD / FreeBSD / HardenedBSD"
+
+#: https//community.torproject.org/relay/setup/guard/freebsd/updates/
+#: (content/relay-operations/technical-setup/guard/freebsd/updates/contents+en.lrpage.body)
+msgid ""
+"**NOTE:** _all steps documented on this page are considering that your "
+"machine/server/system only provides Tor relay services. please be aware that"
+" other services running might stop/restart during the upgrade._"
+msgstr ""
+"**NOTE:** _all steps documented on this page are considering that your "
+"machine/server/system only provides Tor relay services. please be aware that"
+" other services running might stop/restart during the upgrade._"
+
+#: https//community.torproject.org/relay/setup/guard/freebsd/updates/
+#: (content/relay-operations/technical-setup/guard/freebsd/updates/contents+en.lrpage.body)
+msgid "#1. Create the script to perform the updates."
+msgstr "#1. Create the script to perform the updates."
+
+#: https//community.torproject.org/relay/setup/guard/freebsd/updates/
+#: (content/relay-operations/technical-setup/guard/freebsd/updates/contents+en.lrpage.body)
+msgid "Let's use `/root/pkg_upgrade.sh`"
+msgstr "Let's use `/root/pkg_upgrade.sh`"
+
+#: https//community.torproject.org/relay/setup/guard/freebsd/updates/
+#: (content/relay-operations/technical-setup/guard/freebsd/updates/contents+en.lrpage.body)
+msgid "#!/usr/bin/env sh"
+msgstr "#!/usr/bin/env sh"
+
+#: https//community.torproject.org/relay/setup/guard/freebsd/updates/
+#: (content/relay-operations/technical-setup/guard/freebsd/updates/contents+en.lrpage.body)
+msgid "PATH=\"/bin:/usr/bin:/sbin:/usr/sbin\""
+msgstr "PATH=\"/bin:/usr/bin:/sbin:/usr/sbin\""
+
+#: https//community.torproject.org/relay/setup/guard/freebsd/updates/
+#: (content/relay-operations/technical-setup/guard/freebsd/updates/contents+en.lrpage.body)
+msgid "RAND=$(jot -r 1 300)"
+msgstr "RAND=$(jot -r 1 300)"
+
+#: https//community.torproject.org/relay/setup/guard/freebsd/updates/
+#: (content/relay-operations/technical-setup/guard/freebsd/updates/contents+en.lrpage.body)
+msgid "sleep ${RAND}"
+msgstr "sleep ${RAND}"
+
+#: https//community.torproject.org/relay/setup/guard/freebsd/updates/
+#: (content/relay-operations/technical-setup/guard/freebsd/updates/contents+en.lrpage.body)
+msgid ""
+"env AUTOCLEAN=YES ASSUME_ALWAYS_YES=YES HANDLE_RC_SCRIPTS=YES pkg upgrade"
+msgstr ""
+"env AUTOCLEAN=YES ASSUME_ALWAYS_YES=YES HANDLE_RC_SCRIPTS=YES pkg upgrade"
+
+#: https//community.torproject.org/relay/setup/guard/freebsd/updates/
+#: (content/relay-operations/technical-setup/guard/freebsd/updates/contents+en.lrpage.body)
+msgid "#2. Schedule the job to run."
+msgstr "#2. Schedule the job to run."
+
+#: https//community.torproject.org/relay/setup/guard/freebsd/updates/
+#: (content/relay-operations/technical-setup/guard/freebsd/updates/contents+en.lrpage.body)
+msgid ""
+"# echo \"0 0 * * * root /bin/sh /root/pkg_upgrade.sh >/dev/null\" >> "
+"/etc/crontab"
+msgstr ""
+"# echo \"0 0 * * * root /bin/sh /root/pkg_upgrade.sh >/dev/null\" >> "
+"/etc/crontab"
+
+#: https//community.torproject.org/relay/setup/guard/freebsd/updates/
+#: (content/relay-operations/technical-setup/guard/freebsd/updates/contents+en.lrpage.body)
+msgid "#3. Restart cron's service."
+msgstr "#3. Restart cron's service."
+
+#: https//community.torproject.org/relay/setup/guard/freebsd/updates/
+#: (content/relay-operations/technical-setup/guard/freebsd/updates/contents+en.lrpage.body)
+msgid "# service cron restart"
+msgstr "# service cron restart"
+
 #: lego/templates/footer.html:9 lego/templates/footer.html:18
-#: lego/templates/navbar.html:71 templates/footer.html:9
-#: templates/footer.html:18 templates/navbar.html:71
+#: lego/templates/navbar.html:73 templates/footer.html:9
+#: templates/footer.html:18 templates/navbar.html:73
 msgid "Download Tor Browser"
 msgstr "Download Tor Browser"
 
@@ -11391,8 +11999,8 @@ msgstr ""
 "availability and use, and furthering their scientific and popular "
 "understanding."
 
-#: lego/templates/footer.html:49 lego/templates/navbar.html:15
-#: templates/footer.html:49 templates/navbar.html:15
+#: lego/templates/footer.html:49 lego/templates/navbar.html:16
+#: templates/footer.html:49 templates/navbar.html:16
 msgid "Donate Now"
 msgstr "Donate Now"
 
@@ -11417,7 +12025,7 @@ msgstr ""
 "Trademark, copyright notices, and rules for use by third parties can be "
 "found in our %(link_to_faq)s"
 
-#: lego/templates/navbar.html:18 templates/navbar.html:18
+#: lego/templates/navbar.html:20 templates/navbar.html:20
 msgid "Menu"
 msgstr "Menu"
 
@@ -11425,7 +12033,7 @@ msgstr "Menu"
 msgid "Search"
 msgstr "Search"
 
-#: templates/homepage.html:4 templates/meta.html:6
+#: templates/homepage.html:4 templates/meta.html:7
 msgid "Tor Project"
 msgstr "Tor Project"
 
@@ -11446,6 +12054,12 @@ msgstr ""
 #: templates/localization.html:32
 msgid "Translators mailing list"
 msgstr "Translators mailing list"
+
+#: templates/meta.html:3
+msgid ""
+"Defend yourself against tracking and surveillance. Circumvent censorship."
+msgstr ""
+"Defend yourself against tracking and surveillance. Circumvent censorship."
 
 #: templates/onion-services.html:10
 msgid "Learn more about onion services here"
@@ -11510,10 +12124,10 @@ msgstr "Connect with other Relay Operators"
 #: templates/relay-operations.html:24
 msgid ""
 "The best resource of all is the active community of relay operators on tor-"
-"relays@lists.torproject.org and on IRC in #tor-relays. "
+"relays mailing list and on IRC #tor-relays in irc.oftc.net. "
 msgstr ""
 "The best resource of all is the active community of relay operators on tor-"
-"relays@lists.torproject.org and on IRC in #tor-relays. "
+"relays mailing list and on IRC #tor-relays in irc.oftc.net. "
 
 #: templates/relay-operations.html:26
 msgid "Relay Operators mailing list"
@@ -11539,15 +12153,15 @@ msgstr ""
 msgid "Community mailing list"
 msgstr "Community mailing list"
 
-#: templates/two-columns-page.html:19
+#: templates/two-columns-page.html:25
 msgid "Contributors to this page:"
 msgstr "Contributors to this page:"
 
-#: templates/two-columns-page.html:21
+#: templates/two-columns-page.html:27
 msgid "Back to previous page: "
 msgstr "Back to previous page: "
 
-#: templates/two-columns-page.html:21
+#: templates/two-columns-page.html:27
 msgid "Edit this page"
 msgstr "Edit this page"
 
