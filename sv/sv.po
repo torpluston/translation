@@ -17,9 +17,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Tor Project\n"
 "Report-Msgid-Bugs-To: Tails developers <tails@boum.org>\n"
-"POT-Creation-Date: 2019-03-17 09:03+0100\n"
-"PO-Revision-Date: 2019-02-11 11:05+0000\n"
-"Last-Translator: Jonas Franzén\n"
+"POT-Creation-Date: 2019-09-14 14:38+0200\n"
+"PO-Revision-Date: 2019-09-14 13:26+0000\n"
+"Last-Translator: carolyn <carolyn@anhalt.org>\n"
 "Language-Team: Swedish (http://www.transifex.com/otf/torproject/language/sv/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -55,28 +55,28 @@ msgstr "Enhet %s innehåller ingen partition för bestående lagring."
 msgid ""
 "Cannot delete the persistent volume on %s while in use. You should restart "
 "Tails without persistence."
-msgstr ""
+msgstr "Det går inte att ta bort den bestående volymen på %s när den används. Du bör starta om Tails utan bestånd."
 
 #: ../lib/Tails/Persistence/Setup.pm:407
 #, perl-format
 msgid "Persistence volume on %s is not unlocked."
-msgstr ""
+msgstr "Bestående volym på %s är inte upplåst."
 
 #: ../lib/Tails/Persistence/Setup.pm:412
 #, perl-format
 msgid "Persistence volume on %s is not mounted."
-msgstr ""
+msgstr "Bestående volym på %s är inte monterad."
 
 #: ../lib/Tails/Persistence/Setup.pm:417
 #, perl-format
 msgid ""
 "Persistence volume on %s is not readable. Permissions or ownership problems?"
-msgstr ""
+msgstr "Bestående volym på %s är inte läsbar. Behörighets eller äganderättsproblem?"
 
 #: ../lib/Tails/Persistence/Setup.pm:422
 #, perl-format
 msgid "Persistence volume on %s is not writable."
-msgstr ""
+msgstr "Bestående volym på %s är inte skrivbar."
 
 #: ../lib/Tails/Persistence/Setup.pm:431
 #, perl-format
@@ -90,12 +90,12 @@ msgstr "Enheten %s är optisk."
 
 #: ../lib/Tails/Persistence/Setup.pm:444
 #, perl-format
-msgid "Device %s was not created using Tails Installer."
+msgid "Device %s was not created using a USB image or Tails Installer."
 msgstr ""
 
 #: ../lib/Tails/Persistence/Setup.pm:688
 msgid "Persistence wizard - Finished"
-msgstr ""
+msgstr "Guiden avslutad"
 
 #: ../lib/Tails/Persistence/Setup.pm:691
 msgid ""
@@ -106,7 +106,7 @@ msgstr "Ändringar kommer inte att gälla förrän du har startat om Tails.\n\nD
 
 #: ../lib/Tails/Persistence/Configuration/Setting.pm:113
 msgid "Custom"
-msgstr ""
+msgstr "Anpassad"
 
 #: ../lib/Tails/Persistence/Configuration/Presets.pm:55
 msgid "Personal Data"
@@ -118,7 +118,7 @@ msgstr "Behåll filer lagrade i katalogen `Persistent'"
 
 #: ../lib/Tails/Persistence/Configuration/Presets.pm:70
 msgid "Browser Bookmarks"
-msgstr ""
+msgstr "Webbläsarens bokmärken"
 
 #: ../lib/Tails/Persistence/Configuration/Presets.pm:72
 msgid "Bookmarks saved in the Tor Browser"
@@ -134,11 +134,11 @@ msgstr "Konfiguration av nätverksenheter och anslutningar"
 
 #: ../lib/Tails/Persistence/Configuration/Presets.pm:100
 msgid "Additional Software"
-msgstr ""
+msgstr "Ytterligare programvara"
 
 #: ../lib/Tails/Persistence/Configuration/Presets.pm:102
 msgid "Software installed when starting Tails"
-msgstr ""
+msgstr "Programvara installerad när du startar Tails"
 
 #: ../lib/Tails/Persistence/Configuration/Presets.pm:120
 msgid "Printers"
@@ -154,7 +154,7 @@ msgstr "Thunderbird"
 
 #: ../lib/Tails/Persistence/Configuration/Presets.pm:137
 msgid "Thunderbird emails, feeds, and settings"
-msgstr ""
+msgstr "Thunderbird e-post, flöden och inställningar"
 
 #: ../lib/Tails/Persistence/Configuration/Presets.pm:150
 msgid "GnuPG"
@@ -166,7 +166,7 @@ msgstr "GnuPG nyckelringar och konfiguration"
 
 #: ../lib/Tails/Persistence/Configuration/Presets.pm:165
 msgid "Bitcoin Client"
-msgstr ""
+msgstr "Bitcoin-klient"
 
 #: ../lib/Tails/Persistence/Configuration/Presets.pm:167
 msgid "Electrum's bitcoin wallet and configuration"
@@ -199,7 +199,7 @@ msgstr "Länka in i $HOME varje fil och katalog som finns i `dotfiles' katalogen
 
 #: ../lib/Tails/Persistence/Step/Bootstrap.pm:90
 msgid "Persistence wizard - Persistent volume creation"
-msgstr ""
+msgstr "Guiden för skapande av bestående lagring"
 
 #: ../lib/Tails/Persistence/Step/Bootstrap.pm:93
 msgid "Choose a passphrase to protect the persistent volume"
@@ -211,7 +211,7 @@ msgstr "Välj ett lösenord att skydda den bestående lagringen med"
 msgid ""
 "A %s persistent volume will be created on the <b>%s %s</b> device. Data on "
 "this volume will be stored in an encrypted form protected by a passphrase."
-msgstr ""
+msgstr "En %s partition för bestående lagring kommer att skapas på enheten <b>%s %s</b>. Data på den här partitionen kommer att lagras krypterad skyddad med ett lösenord."
 
 #: ../lib/Tails/Persistence/Step/Bootstrap.pm:102
 msgid "Create"
@@ -222,7 +222,7 @@ msgid ""
 "<b>Beware!</b> Using persistence has consequences that must be well "
 "understood. Tails can't help you if you use it wrong! See the <i>Encrypted "
 "persistence</i> page of the Tails documentation to learn more."
-msgstr ""
+msgstr "<b>Akta dig!</b> Att använda uthållighet har konsekvenser som måste förstås väl. Tails kan inte hjälpa dig om du använder det fel! Läs mer på sidan <i>Krypterad bestående</i> i Tails-dokumentationen."
 
 #: ../lib/Tails/Persistence/Step/Bootstrap.pm:170
 msgid "Passphrase:"
@@ -230,7 +230,7 @@ msgstr "Lösenord:"
 
 #: ../lib/Tails/Persistence/Step/Bootstrap.pm:178
 msgid "Verify Passphrase:"
-msgstr ""
+msgstr "Upprepa lösenord:"
 
 #: ../lib/Tails/Persistence/Step/Bootstrap.pm:189
 #: ../lib/Tails/Persistence/Step/Bootstrap.pm:245
@@ -257,19 +257,19 @@ msgstr "Tails partition med bestående lagring kommer att monteras."
 
 #: ../lib/Tails/Persistence/Step/Bootstrap.pm:304
 msgid "Correcting permissions of the persistent volume."
-msgstr ""
+msgstr "Rättar till behörigheterna på den bestående lagringen."
 
 #: ../lib/Tails/Persistence/Step/Bootstrap.pm:307
 msgid "The permissions of the persistent volume will be corrected."
-msgstr ""
+msgstr "Behörigheterna på den bestående lagringen kommer att rättas till."
 
 #: ../lib/Tails/Persistence/Step/Bootstrap.pm:315
 msgid "Creating default persistence configuration."
-msgstr ""
+msgstr "Skapa standard bestående konfiguration."
 
 #: ../lib/Tails/Persistence/Step/Bootstrap.pm:318
 msgid "The default persistence configuration will be created."
-msgstr ""
+msgstr "Standardkonfigurationen för bestående skapas."
 
 #: ../lib/Tails/Persistence/Step/Bootstrap.pm:333
 msgid "Creating..."
@@ -281,17 +281,17 @@ msgstr "Skapar partition för bestående lagring..."
 
 #: ../lib/Tails/Persistence/Step/Delete.pm:53
 msgid "Persistence wizard - Persistent volume deletion"
-msgstr ""
+msgstr "Guiden för borttagning av bestående lagring"
 
 #: ../lib/Tails/Persistence/Step/Delete.pm:56
 msgid "Your persistent data will be deleted."
-msgstr ""
+msgstr "Datan i den bestående lagringen kommer att tas bort."
 
 #: ../lib/Tails/Persistence/Step/Delete.pm:60
 #, perl-format
 msgid ""
 "The persistent volume %s (%s), on the <b>%s %s</b> device, will be deleted."
-msgstr ""
+msgstr "Partitionen %s (%s) med bestående lagring, på enheten <b>%s %s</b>, kommer att tas bort."
 
 #: ../lib/Tails/Persistence/Step/Delete.pm:66
 msgid "Delete"
