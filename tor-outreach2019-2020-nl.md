@@ -2,7 +2,7 @@
 
 # 1. TOR FOR PRIVACY 
 
-### Privacy is a human right
+### Privacy is een mensenrecht
 
 Like many of us, Aleisha spends most of her time online--connecting with friends, posting on social media, and browsing the web.
 
@@ -14,7 +14,7 @@ Aleisha decides she wants to find and use software that doesn't collect her data
 
 She goes to a privacy training at a local hackerspace and learns about **Tor Browser**, the only web browser that allows her to browse anonymously.
 
-tagged
+---
 
 # 2.TOR FOR FEMINISTS 
 
@@ -34,7 +34,7 @@ She also uses a Tor-powered app called **OnionShare** to send files to other act
 
 ### Reproductive rights activists like Fernanda are fighting for fundamental freedoms, and Tor helps power their resistance.
 
-tagged
+---
 
 # 3. TOR FOR HUMAN RIGHTS
 
@@ -56,7 +56,7 @@ All of this software uses Tor to help protect Jelani’s privacy.
 
 ### Human rights activists like Jelani are fighting for justice in their communities, and Tor helps power their resistance.
 
-tagged
+---
 
 # 4. TOR FOR ANTI-CENSORSHIP
 
@@ -88,7 +88,7 @@ With Tor Browser, Jean can browse freely and privately and contact his family.
 
 ### Censored users all over the world rely on Tor Browser for a free, stable, and uncensored way to access the internet.
 
-tagged
+---
 
 # 5. Shared Sections
 
