@@ -14,7 +14,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-08-14 08:34+CET\n"
+"POT-Creation-Date: 2019-09-17 15:46+CET\n"
 "PO-Revision-Date: 2019-03-09 10:41+0000\n"
 "Last-Translator: Curtis Baltimore <curtisbaltimore@protonmail.com>, 2019\n"
 "Language-Team: German (https://www.transifex.com/otf/teams/1519/de/)\n"
@@ -105,6 +105,8 @@ msgstr "Sponsoren"
 #: https//www.torproject.org/about/ (content/about/contents+en.lrpage.section)
 #: https//www.torproject.org/about/cy-pres/
 #: (content/about/cy-pres/contents+en.lrpage.section)
+#: https//www.torproject.org/about/trademark/
+#: (content/about/trademark/contents+en.lrtrademark.section)
 #: https//www.torproject.org/about/history/
 #: (content/about/history/contents+en.lrpage.section)
 #: https//www.torproject.org/about/people/
@@ -207,14 +209,9 @@ msgstr ""
 msgid ""
 "Please only download an alpha if you are okay with some things not working "
 "properly, want to help us find and [report "
-"bugs](https://trac.torproject.org/projects/tor/wiki/doc/community/HowToReportBugFeedback),"
-" and are not putting yourself at risk."
+"bugs](https://support.torproject.org/misc/bug-or-feedback/), and are not "
+"putting yourself at risk."
 msgstr ""
-"Bitte lade ein Alpha nur herunter, wenn du damit einverstanden bist, dass "
-"einige Dinge nicht richtig funktionieren, uns helfen möchtest, Fehler zu "
-"finden und [zu "
-"melden](https://trac.torproject.org/projects/tor/wiki/doc/community/HowToReportBugFeedback),"
-" und du dich damit nicht gefährdest."
 
 #: https//www.torproject.org/download/languages/
 #: (content/download/languages/contents+en.lrpage.title)
@@ -762,10 +759,15 @@ msgstr ""
 "href=\"https://www.torproject.org/dist/torbrowser/8.5a10/\">Verteilerverzeichnis"
 " </a> verfügbar."
 
+#: https//www.torproject.org/about/trademark/trademark-faq/
+#: (content/about/trademark/trademark-faq/contents+en.lrtopic.title)
+msgid "Tor Trademark Frequently Asked Questions"
+msgstr ""
+
 #: lego/templates/footer.html:9 lego/templates/footer.html:18
-#: lego/templates/navbar.html:66 templates/footer.html:9
+#: lego/templates/navbar.html:73 templates/footer.html:9
 #: templates/footer.html:18 templates/hero-home.html:13
-#: templates/navbar.html:66
+#: templates/navbar.html:73
 msgid "Download Tor Browser"
 msgstr "Tor Browser herunterladen"
 
@@ -815,7 +817,7 @@ msgstr ""
 "Markenrechts-, Copyright-Mitteilungen und Regeln für Drittparteien finden "
 "sich in unserer %(link_to_faq)s"
 
-#: lego/templates/navbar.html:15 templates/navbar.html:15
+#: lego/templates/navbar.html:20 templates/navbar.html:20
 msgid "Menu"
 msgstr "Menü"
 
@@ -837,12 +839,8 @@ msgstr ""
 "Diskutiere Tor-bezogene Kodierungen und Protokolle. Ideen sind willkommen."
 
 #: templates/contact.html:11
-msgid ""
-"Discuss organization and community related topics: meetups, outreach, "
-"translation, or website improvements."
+msgid "Get in touch with other translators"
 msgstr ""
-"Diskutiere organisations- und community-bezogene Themen: Meetups, "
-"Öffentlichkeitsarbeit, Übersetzung oder Verbesserungen der Webseite."
 
 #: templates/contact.html:12
 msgid "Watch or join publicly logged team meetings."
@@ -850,30 +848,43 @@ msgstr ""
 "Schaue dir öffentlich aufgezeichnete Team-Meetings an oder nimm daran teil."
 
 #: templates/contact.html:13
+msgid ""
+"Discuss organization and community related topics: meetups and outreach."
+msgstr ""
+
+#: templates/contact.html:14
 msgid "Discuss running a Tor relay."
 msgstr "Diskutiere den Betrieb eines Tor-Relay."
 
-#: templates/contact.html:14
+#: templates/contact.html:15
 msgid "Talk with Tor's global south community."
 msgstr "Sprich mit Tors Community des globalen Südens."
 
-#: templates/contact.html:20
+#: templates/contact.html:16
+msgid "Talk with us about improvements on our websites."
+msgstr ""
+
+#: templates/contact.html:17
+msgid "Discuss UX related ideas."
+msgstr ""
+
+#: templates/contact.html:23
 msgid "Find us on Social Media"
 msgstr "Finde uns auf Social Media"
 
-#: templates/contact.html:34
+#: templates/contact.html:37
 msgid "Volunteer with Tor"
 msgstr "Freiwillige Arbeit mit Tor"
 
-#: templates/contact.html:38
+#: templates/contact.html:41
 msgid "Get Involved"
 msgstr "Mitmachen"
 
-#: templates/contact.html:44
+#: templates/contact.html:47
 msgid "Join an email list"
 msgstr "Einer E-Mail-Liste beitreten"
 
-#: templates/contact.html:47
+#: templates/contact.html:50
 msgid ""
 "Our teams collaborate in open channels, including email lists, you are "
 "welcome to join. If you have a question for a specific team not answered on "
@@ -886,11 +897,11 @@ msgstr ""
 " kannst du die entsprechende Liste anfragen. Du kannst dich gerne anmelden "
 "und auch nur zusehen :)"
 
-#: templates/contact.html:60
+#: templates/contact.html:63
 msgid "Report a bug or give feedback."
 msgstr "Melde einen Fehler oder gib Feedback."
 
-#: templates/contact.html:61
+#: templates/contact.html:64
 msgid ""
 "Tor relies on the support of users and volunteers around the world to help "
 "us improve our software and resources, so your feedback is extremely "
@@ -901,11 +912,11 @@ msgstr ""
 "verbessern, so ist dein Feedback für uns (und alle Tor-Benutzer) äußerst "
 "wertvoll."
 
-#: templates/contact.html:67
+#: templates/contact.html:70
 msgid "Tell us about a bad relay."
 msgstr "Melde uns ein schlechtes Relay."
 
-#: templates/contact.html:68
+#: templates/contact.html:71
 msgid ""
 "If you find a relay that you think is malicious, misconfigured, or otherwise"
 " broken, please check out our wiki page and blog post on how to report it."
@@ -914,11 +925,11 @@ msgstr ""
 "konfiguriert oder anderweitig beschädigt ist, schaue dir bitte unsere Wiki-"
 "Seite an, wie es zu melden ist."
 
-#: templates/contact.html:76
+#: templates/contact.html:79
 msgid "Report a security issue."
 msgstr "Melde ein Sicherheitsproblem."
 
-#: templates/contact.html:77
+#: templates/contact.html:80
 msgid ""
 "If you've found a security issue in one of our projects or in our "
 "infrastructure, please email tor-security@lists.torproject.org. If you want "
@@ -933,11 +944,11 @@ msgstr ""
 "tor-security-sendkey@lists.torproject.org kontaktierst, oder von pool.sks-"
 "keyservers.net. Hier ist der Fingerabdruck:"
 
-#: templates/contact.html:97
+#: templates/contact.html:100
 msgid "Email us"
 msgstr "Sende uns eine E-Mail"
 
-#: templates/contact.html:98
+#: templates/contact.html:101
 msgid ""
 "For questions and comments about Tor the non-profit organization: trademark "
 "questions, affiliation and coordination, contract inquiries, etc, please "
@@ -949,7 +960,7 @@ msgstr ""
 "bitte eine E-Mail an frontdesk@rt.torproject.org. Bei spenderbezogenen "
 "Fragen Kontakt bitte an giving@torproject.org"
 
-#: templates/contact.html:104
+#: templates/contact.html:107
 msgid "Send us Mail"
 msgstr "Sende uns eine E-Mail"
 
@@ -970,9 +981,8 @@ msgid "Go to Google Play"
 msgstr "Gehe zu Google Play"
 
 #: templates/download-android.html:26
-#, python-format
-msgid "Go to F-droid %s"
-msgstr "Gehe zu F-droid %s"
+msgid "Go to F-Droid"
+msgstr ""
 
 #: templates/download-android.html:36
 msgid "Are you an iOS user? We encourage you to try Onion Browser."
@@ -1101,8 +1111,8 @@ msgid "Download in another language or platform"
 msgstr "Herunterladen in einer anderen Sprache oder Plattform"
 
 #: templates/hero-download.html:46
-msgid "Advanced Install Options"
-msgstr "Erweiterte Installations-Optionen"
+msgid "Download the latest alpha build"
+msgstr ""
 
 #: templates/hero-download.html:50
 msgid "Read the latest release announcements"
@@ -1244,7 +1254,7 @@ msgstr ""
 msgid "The Tor Project | Privacy & Freedom Online"
 msgstr "Das Tor Project | Privatsphäre & Freiheit Online"
 
-#: templates/meta.html:16
+#: templates/meta.html:17
 msgid "Tor Project"
 msgstr "Tor-Projekt"
 
@@ -1406,13 +1416,29 @@ msgstr ""
 msgid "Use your skills to volunteer."
 msgstr "Nutze deine Fähigkeiten um freiwillig mitzuhelfen."
 
-#: templates/macros/downloads.html:61
+#: templates/macros/downloads.html:68
 msgid "Tor Browser manual"
 msgstr "Tor Browser-Handbuch"
 
 #: templates/macros/jobs.html:11
 msgid "Read more."
 msgstr "Mehr dazu erfährst du hier."
+
+#: templates/macros/question.html:12
+msgid "Contributors to this page:"
+msgstr "Mitwirkende an dieser Seite:"
+
+#: templates/macros/question.html:14
+msgid "Edit this page"
+msgstr "Bearbeite diese Seite"
+
+#: templates/macros/question.html:15
+msgid "Suggest Feedback"
+msgstr "Feedback vorschlagen"
+
+#: templates/macros/question.html:16
+msgid "Permalink"
+msgstr "Permalink"
 
 #: templates/macros/reports.html:5 templates/macros/reports.html:19
 msgid "View PDF"
