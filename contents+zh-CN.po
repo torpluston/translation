@@ -8,15 +8,15 @@
 # MD Rights <psychi2009@gmail.com>, 2019
 # Dianyu Liu <liudianyu5@gmail.com>, 2019
 # erinm, 2019
-# Emma Peel, 2019
 # ff98sha, 2019
+# Emma Peel, 2019
 # PCloud <heige.pcloud@outlook.com>, 2019
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-08-14 08:34+CET\n"
+"POT-Creation-Date: 2019-09-17 15:46+CET\n"
 "PO-Revision-Date: 2019-03-09 10:41+0000\n"
 "Last-Translator: PCloud <heige.pcloud@outlook.com>, 2019\n"
 "Language-Team: Chinese (China) (https://www.transifex.com/otf/teams/1519/zh_CN/)\n"
@@ -100,6 +100,8 @@ msgstr "赞助方"
 #: https//www.torproject.org/about/ (content/about/contents+en.lrpage.section)
 #: https//www.torproject.org/about/cy-pres/
 #: (content/about/cy-pres/contents+en.lrpage.section)
+#: https//www.torproject.org/about/trademark/
+#: (content/about/trademark/contents+en.lrtrademark.section)
 #: https//www.torproject.org/about/history/
 #: (content/about/history/contents+en.lrpage.section)
 #: https//www.torproject.org/about/people/
@@ -194,11 +196,9 @@ msgstr "在我们发布我们软件的稳定版本前，我们会发布一个 al
 msgid ""
 "Please only download an alpha if you are okay with some things not working "
 "properly, want to help us find and [report "
-"bugs](https://trac.torproject.org/projects/tor/wiki/doc/community/HowToReportBugFeedback),"
-" and are not putting yourself at risk."
+"bugs](https://support.torproject.org/misc/bug-or-feedback/), and are not "
+"putting yourself at risk."
 msgstr ""
-"如果你能适应一些不能正常工作的东西，且不会使自己处于危险之中的话，请只下载 alpha "
-"版本，帮助我们找到并[报告错误](https://trac.torproject.org/projects/tor/wiki/doc/community/HowToReportBugFeedback)。"
 
 #: https//www.torproject.org/download/languages/
 #: (content/download/languages/contents+en.lrpage.title)
@@ -651,10 +651,15 @@ msgstr ""
 "alpha\">Tor Browser Project</a> 官网和我们的<a "
 "href=\"https://www.torproject.org/dist/torbrowser/8.5a10/\">分发目录</a>中发布。"
 
+#: https//www.torproject.org/about/trademark/trademark-faq/
+#: (content/about/trademark/trademark-faq/contents+en.lrtopic.title)
+msgid "Tor Trademark Frequently Asked Questions"
+msgstr ""
+
 #: lego/templates/footer.html:9 lego/templates/footer.html:18
-#: lego/templates/navbar.html:66 templates/footer.html:9
+#: lego/templates/navbar.html:73 templates/footer.html:9
 #: templates/footer.html:18 templates/hero-home.html:13
-#: templates/navbar.html:66
+#: templates/navbar.html:73
 msgid "Download Tor Browser"
 msgstr "下载 Tor 浏览器"
 
@@ -696,7 +701,7 @@ msgid ""
 "found in our %(link_to_faq)s"
 msgstr "商标保护、版权保护以及第三方使用规则可以在 %(link_to_faq)s 找到"
 
-#: lego/templates/navbar.html:15 templates/navbar.html:15
+#: lego/templates/navbar.html:20 templates/navbar.html:20
 msgid "Menu"
 msgstr "菜单"
 
@@ -717,40 +722,51 @@ msgid "Discuss Tor-related coding and protocols. Ideas are welcome."
 msgstr "讨论 Tor 相关的代码和协议。 欢迎提出看法。"
 
 #: templates/contact.html:11
-msgid ""
-"Discuss organization and community related topics: meetups, outreach, "
-"translation, or website improvements."
-msgstr "讨论组织和社区相关主题：聚会，推广，翻译或网站改进。"
+msgid "Get in touch with other translators"
+msgstr ""
 
 #: templates/contact.html:12
 msgid "Watch or join publicly logged team meetings."
 msgstr "公开地观看或加入记录的团队会议。"
 
 #: templates/contact.html:13
+msgid ""
+"Discuss organization and community related topics: meetups and outreach."
+msgstr ""
+
+#: templates/contact.html:14
 msgid "Discuss running a Tor relay."
 msgstr "讨论运行一个 Tor 中继节点。"
 
-#: templates/contact.html:14
+#: templates/contact.html:15
 msgid "Talk with Tor's global south community."
 msgstr "与 Tor 的全球南方社区交谈。"
 
-#: templates/contact.html:20
+#: templates/contact.html:16
+msgid "Talk with us about improvements on our websites."
+msgstr ""
+
+#: templates/contact.html:17
+msgid "Discuss UX related ideas."
+msgstr ""
+
+#: templates/contact.html:23
 msgid "Find us on Social Media"
 msgstr "在社交媒体上找到我们"
 
-#: templates/contact.html:34
+#: templates/contact.html:37
 msgid "Volunteer with Tor"
 msgstr "Tor 志愿者"
 
-#: templates/contact.html:38
+#: templates/contact.html:41
 msgid "Get Involved"
 msgstr "入门指南"
 
-#: templates/contact.html:44
+#: templates/contact.html:47
 msgid "Join an email list"
 msgstr "加入邮件列表"
 
-#: templates/contact.html:47
+#: templates/contact.html:50
 msgid ""
 "Our teams collaborate in open channels, including email lists, you are "
 "welcome to join. If you have a question for a specific team not answered on "
@@ -760,32 +776,32 @@ msgstr ""
 "我们的团队在开放渠道，包括电子邮件列表中进行协作，欢迎你的加入。 如果你对我们的特定团队有疑问，且在我们的支持门户网站上未回答，您可以询问相应的列表。 "
 "欢迎您订阅并观看:)"
 
-#: templates/contact.html:60
+#: templates/contact.html:63
 msgid "Report a bug or give feedback."
 msgstr "报告缺陷或提交反馈"
 
-#: templates/contact.html:61
+#: templates/contact.html:64
 msgid ""
 "Tor relies on the support of users and volunteers around the world to help "
 "us improve our software and resources, so your feedback is extremely "
 "valuable to us (and to all Tor users)."
 msgstr "Tor 依靠全球用户和志愿者的支持来帮助我们改进我们的软件和资源，因此您的反馈对我们（以及所有 Tor 用户）都非常有价值。"
 
-#: templates/contact.html:67
+#: templates/contact.html:70
 msgid "Tell us about a bad relay."
 msgstr "告知我们关于损坏的中继。"
 
-#: templates/contact.html:68
+#: templates/contact.html:71
 msgid ""
 "If you find a relay that you think is malicious, misconfigured, or otherwise"
 " broken, please check out our wiki page and blog post on how to report it."
 msgstr "如果你发现了一个你认为是恶意的，配置错误的或者其他损坏的中继，请查看我们的维基页面和博客文章来了解如何报告它。"
 
-#: templates/contact.html:76
+#: templates/contact.html:79
 msgid "Report a security issue."
 msgstr "报告安全问题。"
 
-#: templates/contact.html:77
+#: templates/contact.html:80
 msgid ""
 "If you've found a security issue in one of our projects or in our "
 "infrastructure, please email tor-security@lists.torproject.org. If you want "
@@ -797,11 +813,11 @@ msgstr ""
 "如果你需要加密你的邮件，你可以通过联系 tor-security-sendkey@lists.torproject.org 或从 pool.sks-"
 "keyservers.net 获取列表的 GPG 公钥。 这里是指纹："
 
-#: templates/contact.html:97
+#: templates/contact.html:100
 msgid "Email us"
 msgstr "给我们发邮件"
 
-#: templates/contact.html:98
+#: templates/contact.html:101
 msgid ""
 "For questions and comments about Tor the non-profit organization: trademark "
 "questions, affiliation and coordination, contract inquiries, etc, please "
@@ -811,7 +827,7 @@ msgstr ""
 "对于有关 Tor 非营利组织的问题和意见：商标问题，从属和合作，合同咨询等，请发送电子邮件至 frontdesk@rt.torproject.org。 "
 "对于捐助相关问题，请联系 giving@torproject.org"
 
-#: templates/contact.html:104
+#: templates/contact.html:107
 msgid "Send us Mail"
 msgstr "给我们发邮件"
 
@@ -832,9 +848,8 @@ msgid "Go to Google Play"
 msgstr "前往 Google Play"
 
 #: templates/download-android.html:26
-#, python-format
-msgid "Go to F-droid %s"
-msgstr "前往 F-droid %s"
+msgid "Go to F-Droid"
+msgstr ""
 
 #: templates/download-android.html:36
 msgid "Are you an iOS user? We encourage you to try Onion Browser."
@@ -946,8 +961,8 @@ msgid "Download in another language or platform"
 msgstr "下载其他语言或平台的版本"
 
 #: templates/hero-download.html:46
-msgid "Advanced Install Options"
-msgstr "高级安装选项"
+msgid "Download the latest alpha build"
+msgstr ""
 
 #: templates/hero-download.html:50
 msgid "Read the latest release announcements"
@@ -1068,7 +1083,7 @@ msgstr "我们邀请你在 IRC 中加入我们，来看看你能如何帮助。"
 msgid "The Tor Project | Privacy & Freedom Online"
 msgstr "Tor Project | 隐私和线上自由"
 
-#: templates/meta.html:16
+#: templates/meta.html:17
 msgid "Tor Project"
 msgstr "Tor Project"
 
@@ -1216,13 +1231,29 @@ msgstr "运行一个中继，来使网络更快和更去中心化。"
 msgid "Use your skills to volunteer."
 msgstr "成为志愿者使用你的技能"
 
-#: templates/macros/downloads.html:61
+#: templates/macros/downloads.html:68
 msgid "Tor Browser manual"
 msgstr "Tor 浏览器用户手册"
 
 #: templates/macros/jobs.html:11
 msgid "Read more."
 msgstr "了解更多。"
+
+#: templates/macros/question.html:12
+msgid "Contributors to this page:"
+msgstr ""
+
+#: templates/macros/question.html:14
+msgid "Edit this page"
+msgstr ""
+
+#: templates/macros/question.html:15
+msgid "Suggest Feedback"
+msgstr ""
+
+#: templates/macros/question.html:16
+msgid "Permalink"
+msgstr ""
 
 #: templates/macros/reports.html:5 templates/macros/reports.html:19
 msgid "View PDF"
