@@ -952,6 +952,9 @@ msgid ""
 "need to enter bridge addresses manually. Read the [Bridges](/en-US/bridges/)"
 " section to learn what bridges are and how to obtain them."
 msgstr ""
+"اگر شما با هیچ کدام از این موارد نتوانستید به اینترنت متصل شوید، نیاز است تا"
+" به صورت دستی، آدرس یک ایستگاه پل را وارد کنید. برای آشنایی با پل ها و اینکه"
+" چگونه باید آن ها را بدست آورید، بخش [پل ها](/en-US/bridges/) را بخوانید."
 
 #: https//tb-manual.torproject.org/managing-identities/
 #: (content/managing-identities/contents+en.lrtopic.title)
@@ -1057,6 +1060,8 @@ msgid ""
 "[FAQ](https://www.torproject.org/docs/faq#EntryGuards) and [Support "
 "Portal](https://support.torproject.org/tbb/tbb-2/)."
 msgstr ""
+"در داخل یک چرخه تور، گره نگهبان یا گره ورودی، همیشه به عنوان نخستین گره در چرخه می باشد و به صورت تصادفی و خودکار توسط تور انتخاب می شود و نسبت به سایر گره های داخل چرخه، متفاوت است. به منظور پیشگیری از حملات پروفایل که نوعی حمله مخرب از سوی مهاجم می باشند، بر خلاف سایر گره ها که هر بار که به دامنه اینترنتی جدیدی وصل می شوید، آدرس آن ها تغییر می کند، گره نگهبان فقط پس از 2-3 ماه تغییر خواهد کرد.\n"
+"برای آگاهی بیشتردرباره گره‌های نگهبان، به [پرسش های پرتکرار کاربران](https://www.torproject.org/docs/faq#EntryGuards) و [پرتال پشتیبانی](https://support.torproject.org/tbb/tbb-2/) سر بزنید. "
 
 #: https//tb-manual.torproject.org/managing-identities/
 #: (content/managing-identities/contents+en.lrtopic.body)
@@ -1102,6 +1107,9 @@ msgid ""
 "* See the [Secure Connections](/secure-connections) page for important "
 "information on how to secure your connection when logging in."
 msgstr ""
+"* برای دریافت اطلاعات مهم در خصوص ایمن سازی ارتباط در هنگام ورود به وب سایت "
+"ها - لاگین کردن -  به صفحه‌ی [ارتباطات امن](/secure-connections) مراجعه "
+"کنید."
 
 #: https//tb-manual.torproject.org/managing-identities/
 #: (content/managing-identities/contents+en.lrtopic.body)
@@ -1179,6 +1187,14 @@ msgid ""
 " does not clear any private information or unlink your activity, nor does it"
 " affect your current connections to other websites."
 msgstr ""
+"این گزینه برای زمانی مفید خواهد بود که [گره پایانی تور](/about/#how-tor-"
+"works) نتواند شما را به وب سایت موردنظرتان وصل کند و یا وب سایت، به درستی "
+"بارگیری و نمایش داده نشود. با انتخاب این گزینه، سربرگ یا پنجره فعلی مرورگر "
+"تور بر روی چرخه جدید، از نو بارگیری خواهد شد. سایر سربرگ ها یا پنجره های "
+"مربوط \"به همان وب سایت\" نیز دوباره بارگیری شده و بر روی چرخه جدید قرار می "
+"گیرند. این گزینه، هیچ کدام از اطلاعات خصوصی شما را پاک نمی کند، پیوند بین "
+"فعالیت های وبگردی را از بین نمی برد و بر روی ارتباط شما به دیگر وب سایت ها، "
+"هیچ تاثیری نخواهد داشت."
 
 #: https//tb-manual.torproject.org/managing-identities/
 #: (content/managing-identities/contents+en.lrtopic.body)
@@ -1235,6 +1251,9 @@ msgid ""
 "so you do not need to worry about [connecting over HTTPS](/secure-"
 "connections)."
 msgstr ""
+"* تمام ترافیک بین کاربران تور و سرویس های پیازی بر اساس رمزگذاری انتها به "
+"انتها انجام می شود و بنابراین، نیازی به نگرانی در مورد [ارتباط بر روی HTTPS"
+"](/secure-connections) نمی باشد."
 
 #: https//tb-manual.torproject.org/onion-services/
 #: (content/onion-services/contents+en.lrtopic.body)
@@ -1307,6 +1326,9 @@ msgid ""
 "You can also ensure that you're able to access other onion services by "
 "connecting to [DuckDuckGo's Onion Service](http://3g2upl4pq6kufc4m.onion/)"
 msgstr ""
+"برای اطمینان از اینکه شما می توانید به سایر سرویس های پیازی نیز دسترسی داشته"
+" باشید، به [سرویس پیازی DuckDuckGo](http://3g2upl4pq6kufc4m.onion/) که یک "
+"موتور جستجوی ایمن می باشد، بروید."
 
 #: https//tb-manual.torproject.org/secure-connections/
 #: (content/secure-connections/contents+en.lrtopic.title)
@@ -1558,7 +1580,7 @@ msgstr ""
 #: https//tb-manual.torproject.org/security-settings/
 #: (content/security-settings/contents+en.lrtopic.body)
 msgid "###### Safest"
-msgstr ""
+msgstr "###### ایمن ترین"
 
 #: https//tb-manual.torproject.org/security-slider/
 #: (content/security-slider/contents+en.lrtopic.body)
@@ -1570,13 +1592,21 @@ msgid ""
 "disabled by default on all sites; most video and audio formats are disabled;"
 " and some fonts and icons may not display correctly."
 msgstr ""
+"* در این سطح، برای اجرای ویدیوهای HTML5 و رسانه های صوتی، باید با استفاده از"
+" افزونه NoScript که به صورت پیش فرض در مرورگر تور نصب شده است، آن ها را به "
+"صورت دستی اجرا کرد؛ همه بهینه سازی های عملکردهای جاوا اسکریپت غیرفعال شده "
+"اند؛ ممکن است برخی از معادلات ریاضی به درستی نمایش داده نشوند؛ برخی از ویژگی"
+" های شناسایی و نمایش فونت نیز غیرفعال شده اند؛ بعضی از انواع تصاویر غیرفعال "
+"شده اند؛ به صورت پیش فرض، جاوا اسکریپت در همه سایت ها غیرفعال شده است؛ بیشتر"
+" فرمت های ویدیویی و صوتی نیز غیرفعال شده اند؛ و ممکن است برخی فونت ها و "
+"آیکون ها به درستی نمایش داده نشوند."
 
 #: https//tb-manual.torproject.org/security-slider/
 #: (content/security-slider/contents+en.lrtopic.body)
 #: https//tb-manual.torproject.org/security-settings/
 #: (content/security-settings/contents+en.lrtopic.body)
 msgid "###### Safer"
-msgstr ""
+msgstr "###### ایمن تر"
 
 #: https//tb-manual.torproject.org/security-slider/
 #: (content/security-slider/contents+en.lrtopic.body)
@@ -1587,13 +1617,20 @@ msgid ""
 "features are disabled; some types of image are disabled; and JavaScript is "
 "disabled by default on all non-[HTTPS](/secure-connections) sites."
 msgstr ""
+"در این سطح، برای اجرای ویدیوهای HTML5 و رسانه های صوتی، باید با استفاده از "
+"افزونه NoScript که به صورت پیش فرض در مرورگر تور نصب شده است، آن ها را به "
+"صورت دستی اجرا کرد؛ همه بهینه سازی های عملکردهای جاوا اسکریپت غیرفعال شده "
+"اند؛ ممکن است برخی از معادلات ریاضی به درستی نمایش داده نشوند؛ برخی از ویژگی"
+" های شناسایی و نمایش فونت نیز غیرفعال شده اند؛ بعضی از انواع تصاویر غیرفعال "
+"شده اند؛ و به صورت پیش فرض، جاوا اسکریپت در همه سایت هایی که از پروتکل "
+"[HTTPS](/secure-connections) استفاده نمی کنند، غیرفعال شده است."
 
 #: https//tb-manual.torproject.org/security-slider/
 #: (content/security-slider/contents+en.lrtopic.body)
 #: https//tb-manual.torproject.org/security-settings/
 #: (content/security-settings/contents+en.lrtopic.body)
 msgid "###### Standard"
-msgstr ""
+msgstr "###### استاندارد"
 
 #: https//tb-manual.torproject.org/security-slider/
 #: (content/security-slider/contents+en.lrtopic.body)
@@ -1601,6 +1638,8 @@ msgid ""
 "* At this level, all browser features are enabled. This is the most usable "
 "option."
 msgstr ""
+"* در این مرحله همه ی قابلیت های مرورگر فعال شدند. این پر استفاده ترین گزینه "
+"است."
 
 #: https//tb-manual.torproject.org/security-settings/
 #: (content/security-settings/contents+en.lrtopic.title)
@@ -1715,7 +1754,7 @@ msgstr ""
 #: https//tb-manual.torproject.org/security-settings/
 #: (content/security-settings/contents+en.lrtopic.body)
 msgid "* At this level, all Tor Browser and website features are enabled."
-msgstr ""
+msgstr "* در این سطح، تمام ویژگی های مرورگر تور و وب سایت ها، فعال می باشند."
 
 #: https//tb-manual.torproject.org/security-settings/
 #: (content/security-settings/contents+en.lrtopic.body)
@@ -1723,6 +1762,8 @@ msgid ""
 "* This level disables website features that are often dangerous. This may "
 "cause some sites to lose functionality."
 msgstr ""
+"* در این سطح، آن دسته از ویژگی‌های وبسایت ها که اغلب خطرناک هستند، غیرفعال "
+"می شوند. این کار ممکن است موجب اختلال در عملکرد برخی سایت ها شود."
 
 #: https//tb-manual.torproject.org/security-settings/
 #: (content/security-settings/contents+en.lrtopic.body)
@@ -1731,6 +1772,10 @@ msgid ""
 "fonts and math symbols are disabled; audio and video (HTML5 media) are "
 "click-to-play."
 msgstr ""
+"جاوا اسکریپت در تمام وب سایت هایی که از پروتکل [HTTPS](/security-settings) "
+"استفاده نمی کنند، غیرفعال می باشد؛ برخی فونت ها و نشانه های ریاضی غیرفعال "
+"شده اند؛ و برای اجرای رسانه های ویدیویی و صوتی(HTML5) باید به صورت دستی آن "
+"ها را اجرا کنید."
 
 #: https//tb-manual.torproject.org/security-settings/
 #: (content/security-settings/contents+en.lrtopic.body)
@@ -1738,6 +1783,8 @@ msgid ""
 "* This level only allows website features required for static sites and "
 "basic services."
 msgstr ""
+"* در این سطح، فقط ویژگی هایی از وب سایت فعال هستند که برای سایت های ایستا و "
+"سرویس های پایه موردنیاز می باشند."
 
 #: https//tb-manual.torproject.org/security-settings/
 #: (content/security-settings/contents+en.lrtopic.body)
@@ -1751,6 +1798,9 @@ msgid ""
 "symbols, and images are disabled; audio and video (HTML5 media) are click-"
 "to-play."
 msgstr ""
+"* به صورت پیش فرض، جاوا اسکریپت در تمام سایت ها غیر فعال می باشد؛ برخی از "
+"آیکون ها، فونت ها، نشانه های ریاضی و تصاویر نیز غیر فعال هستند؛ و برای اجرای"
+" رسانه های ویدیویی و صوتی(HTML5) باید به صورت دستی آن ها را اجرا کنید."
 
 #: https//tb-manual.torproject.org/updating/
 #: (content/updating/contents+en.lrtopic.title)
@@ -1853,6 +1903,8 @@ msgid ""
 "Remove Tor Browser from your system by deleting the folder that contains it "
 "(see the [Uninstalling](/uninstalling) section for more information)."
 msgstr ""
+"برای حذف مرورگر تور از سیستم خود، پوشه‌ی آن را حذف کنید (برای اطلاعات بیشتر "
+"بخش [حذف کردن](/uninstalling) را ببینید)."
 
 #: https//tb-manual.torproject.org/updating/
 #: (content/updating/contents+en.lrtopic.body)
@@ -1955,6 +2007,13 @@ msgid ""
 " displaying correctly, so Tor Browser’s default setting is to allow all "
 "websites to run scripts in \"Standard\" mode."
 msgstr ""
+"کاربرانی که نیازمند امنیت بالا در هنگام وبگردی هستند، می بایست [سطح امنیتی"
+"](/security-slider) مرورگر تور را بر روی \"ایمن تر\"(که جاوا اسکریپت را برای"
+" وب سایت هایی که از پروتکل HTTPS استفاده نمی کنند، غیرفعال خواهد کرد) و یا "
+"\"ایمن ترین\"(که جاوا اسکریپت را برای همه وب سایت ها غیرفعال خواهد کرد) "
+"تنظیم کنند. با این حال، غیرفعال شدن جاوا اسکریپت موجب می شود تا بسیاری از "
+"سایت ها به درستی نمایش داده نشوند، به همین دلیل، مرورگر تور به صورت پیش فرض "
+"اجازه اجرای جاوا اسکریپت در حالت \"استاندارد\" را می دهد."
 
 #: https//tb-manual.torproject.org/plugins/
 #: (content/plugins/contents+en.lrtopic.body)
@@ -2075,6 +2134,9 @@ msgid ""
 "censoring connections to the Tor network. Read the "
 "[Circumvention](/circumvention) section for possible solutions."
 msgstr ""
+"اگر همچنان نمی توانید متصل شوید, احتمال دارد سرویس دهنده شبکه شما, اتصالات "
+"به شبکه تور را مسدود می کند. برای مشاهده راه حل های امکان پذیر، بخش [دور زدن"
+" سانسور](/circumvention) را ببینید."
 
 #: https//tb-manual.torproject.org/troubleshooting/
 #: (content/troubleshooting/contents+en.lrtopic.body)
@@ -2088,6 +2150,10 @@ msgid ""
 "but not yet fixed. Please check the [Known Issues](/known-issues) page to "
 "see if the problem you are experiencing is already listed there."
 msgstr ""
+"مرورگر تور به صورت مداوم در حال توسعه می باشد و برخی از مشکلات آن شناسایی "
+"شده اند اما هنوز برطرف نشده اند. لطفاً صفحه [مشکلات شناخته شده](/known-"
+"issues) را بررسی کنید تا ببینید مشکلی که شما در حال تجربه  آن هستید، در آن "
+"جا وجود دارد یا نه."
 
 #: https//tb-manual.torproject.org/known-issues/
 #: (content/known-issues/contents+en.lrtopic.title)
