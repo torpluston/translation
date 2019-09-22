@@ -1,6 +1,6 @@
 # Tor Toenadering-materiaal 2019-2020
 
-# 1. TOR FOR PRIVACY 
+# 1. TOR VOOR PRIVACY 
 
 ### Privacy is een mensenrecht
 
@@ -16,9 +16,9 @@ She goes to a privacy training at a local hackerspace and learns about **Tor Bro
 
 ---
 
-# 2.TOR FOR FEMINISTS 
+# 2.TOR VOOR FEMINISTEN 
 
-### The future is cyberfeminist
+### De toekomst is cyberfeminisme
 
 Fernanda runs a women's collective focused on reproductive rights in Brazil, where abortion is illegal.
 
@@ -36,9 +36,9 @@ She also uses a Tor-powered app called **OnionShare** to send files to other act
 
 ---
 
-# 3. TOR FOR HUMAN RIGHTS
+# 3. TOR VOOR HUMAN MENSENRECHTEN
 
-### Water is life 
+### Zonder water geen leven
 
 Jelani lives in a small village  which a wide river runs through.
 
@@ -58,9 +58,9 @@ All of this software uses Tor to help protect Jelani’s privacy.
 
 ---
 
-# 4. TOR FOR ANTI-CENSORSHIP
+# 4. TOR TEGEN CENSUUR
 
-### Build bridges not walls
+### Bruggen bouwen in plaats van muren
 
 Jean was traveling for the first time to a country far from his family.
 
@@ -90,7 +90,7 @@ With Tor Browser, Jean can browse freely and privately and contact his family.
 
 ---
 
-# 5. Shared Sections
+# 5. Gedeelde secties
 
 ## Wat is Tor?
 
@@ -103,7 +103,7 @@ When you use Tor Browser, no one can see what websites you visit or where in the
 Other applications, like SecureDrop and OnionShare, use Tor to protect their users against surveillance and censorship.
 
 
-## 6. How does Tor work?
+## 6. Hoe werkt Tor?
 
 Amal wants to visit Bekele’s website privately, so she opens Tor Browser.
 
@@ -121,13 +121,13 @@ The third relay removes the last encryption layer and forwards the web page requ
 
 Bekele doesn't know that the website request came from Amal unless she tells him so.
 
-## 7. Who uses Tor? 
+## 7. Wie gebruikt Tor? 
 
 People all over the world use Tor to protect their privacy and access the web freely.
 
 Tor helps protect journalists, human rights defenders, domestic violence victims, academic researchers, and anyone experiencing tracking, censorship, or surveillance. 
 
-## 6. Why trust Tor?
+## 6. Wie vertrouwd Tor?
 
 Tor is designed for privacy. We don’t know who our users are, and we don't keep logs of user activity.
 
@@ -135,7 +135,7 @@ Tor relay operators cannot reveal the true identity of Tor users.
 
 Continual peer review of Tor's source code by academic and open source communities ensures that there are no backdoors in Tor, and our social contract promises that we will never backdoor Tor. 
 
-## 7. Join the Tor community
+## 7. Wordt lid van de Tor-gemeenschap
 
 Tor is made possible by a diverse set of users, developers, relay operators, and advocates from around the world.
 
