@@ -1559,7 +1559,7 @@ msgid ""
 "* Javascript is disabled by default on all sites; some fonts, icons, math "
 "symbols, and images are disabled; audio and video (HTML5 media) are click-"
 "to-play."
-msgstr ""
+msgstr "* Javascript在所有网站上被默认关闭；一些字体，图标，数学符号和图片被禁用；音频和视频（HTML5 媒体）都是点击即可播放的。"
 
 #: https//tb-manual.torproject.org/updating/
 #: (content/updating/contents+en.lrtopic.title)
@@ -1648,7 +1648,7 @@ msgstr "在您被提示应更新 Tor 浏览器时，结束浏览并关闭程序�
 msgid ""
 "Remove Tor Browser from your system by deleting the folder that contains it "
 "(see the [Uninstalling](/uninstalling) section for more information)."
-msgstr ""
+msgstr "从您的系统中删除Tor 浏览器只需要删除包含它的文件夹（查看[卸载](/uninstalling)部分来获取更多信息)。"
 
 #: https//tb-manual.torproject.org/updating/
 #: (content/updating/contents+en.lrtopic.body)
@@ -1738,6 +1738,9 @@ msgid ""
 " displaying correctly, so Tor Browser’s default setting is to allow all "
 "websites to run scripts in \"Standard\" mode."
 msgstr ""
+"需要高度安全的网页浏览的用户应该将他们的Tor 浏览器的[安全滑块](/security-"
+"slider)设为“更安全\"（将禁用非HTTPS网站上的Javascript模块）或者”最安全“（将禁用所有网站上的Javascript模块）。然而，禁用Javascript将阻止网页正常显示，所以Tor"
+" 浏览器的默认设置允许网站在”标准“模式下运行脚本。"
 
 #: https//tb-manual.torproject.org/plugins/
 #: (content/plugins/contents+en.lrtopic.body)
@@ -1840,6 +1843,7 @@ msgid ""
 "censoring connections to the Tor network. Read the "
 "[Circumvention](/circumvention) section for possible solutions."
 msgstr ""
+"如果您仍然无法连接，您的互联网服务提供商可能正在监控针对Tor网络的连接。阅读[规避](/circumvention)部分来寻找部分解决方案。"
 
 #: https//tb-manual.torproject.org/troubleshooting/
 #: (content/troubleshooting/contents+en.lrtopic.body)
@@ -1853,6 +1857,7 @@ msgid ""
 "but not yet fixed. Please check the [Known Issues](/known-issues) page to "
 "see if the problem you are experiencing is already listed there."
 msgstr ""
+"Tor 浏览器正在持续地发展，一些已知的问题并没有被完全修复。请查找[已知问题](/known-issues)页面来查看您遭遇的一些问题是否已经列出。"
 
 #: https//tb-manual.torproject.org/known-issues/
 #: (content/known-issues/contents+en.lrtopic.title)
@@ -1940,6 +1945,8 @@ msgid ""
 "* BitTorrent in specific is [not anonymous over "
 "Tor](https://blog.torproject.org/bittorrent-over-tor-isnt-good-idea)."
 msgstr ""
+"* 特别地，BitTorrent[在Tor中是非匿名的](https://blog.torproject.org/bittorrent-over-"
+"tor-isnt-good-idea)。"
 
 #: https//tb-manual.torproject.org/uninstalling/
 #: (content/uninstalling/contents+en.lrtopic.title)
@@ -1959,14 +1966,14 @@ msgstr "在您的系统上删除 Tor 浏览器非常简单："
 #: https//tb-manual.torproject.org/uninstalling/
 #: (content/uninstalling/contents+en.lrtopic.body)
 msgid "On Windows:"
-msgstr ""
+msgstr "在Windows中："
 
 #: https//tb-manual.torproject.org/uninstalling/
 #: (content/uninstalling/contents+en.lrtopic.body)
 msgid ""
 "* Locate your Tor Browser folder or application. The default location is the"
 " Desktop."
-msgstr ""
+msgstr "* 找到您的Tor 浏览器文件夹或应用。 默认位置位于桌面。"
 
 #: https//tb-manual.torproject.org/uninstalling/
 #: (content/uninstalling/contents+en.lrtopic.body)
@@ -1988,24 +1995,24 @@ msgstr "运行于macOS："
 msgid ""
 "* Locate your Tor Browser application. The default location is the "
 "Applications folder."
-msgstr ""
+msgstr "* 找到您的Tor 浏览器应用。默认位置在应用文件夹。"
 
 #: https//tb-manual.torproject.org/uninstalling/
 #: (content/uninstalling/contents+en.lrtopic.body)
 msgid "* Move the Tor Browser application to Trash."
-msgstr ""
+msgstr "* 将Tor 浏览器应用删除。"
 
 #: https//tb-manual.torproject.org/uninstalling/
 #: (content/uninstalling/contents+en.lrtopic.body)
 msgid "* Go to your `~/Library/Application Support/` folder."
-msgstr ""
+msgstr "* 前往您的 `~/Library/Application Support/`文件夹。"
 
 #: https//tb-manual.torproject.org/uninstalling/
 #: (content/uninstalling/contents+en.lrtopic.body)
 msgid ""
 "* Note the Library folder is hidden on newer versions of macOS. To navigate "
 "to this folder in Finder, select \"Go to Folder...\" in the \"Go\" menu."
-msgstr ""
+msgstr "* 注意库文件夹在新版的macOS中是被隐藏的。在访达中访问这个文件夹，需要选择”前往“菜单中的”前往文件夹...“。"
 
 #: https//tb-manual.torproject.org/uninstalling/
 #: (content/uninstalling/contents+en.lrtopic.body)
@@ -2034,7 +2041,7 @@ msgstr ""
 #: https//tb-manual.torproject.org/uninstalling/
 #: (content/uninstalling/contents+en.lrtopic.body)
 msgid "* Locate the TorBrowser-Data folder and move it to Trash."
-msgstr ""
+msgstr "* 找到TorBrowser-Data并删除它。"
 
 #: https//tb-manual.torproject.org/uninstalling/
 #: (content/uninstalling/contents+en.lrtopic.body)
@@ -2044,11 +2051,13 @@ msgid ""
 "`~/Library/Application Support/` folder, but in the same folder where you "
 "installed Tor Browser."
 msgstr ""
+"注意如果您没有将Tor 浏览器安装在默认位置（应用文件夹），那么TorBrowser-Data "
+"文件夹就不会位于`~/Library/Application Support/`文件夹，但是会在您安装Tor 浏览器文件夹下的相同位置。"
 
 #: https//tb-manual.torproject.org/uninstalling/
 #: (content/uninstalling/contents+en.lrtopic.body)
 msgid "On Linux:"
-msgstr ""
+msgstr "在Linux中："
 
 #: https//tb-manual.torproject.org/uninstalling/
 #: (content/uninstalling/contents+en.lrtopic.body)
@@ -2057,18 +2066,20 @@ msgid ""
 "however the folder will be named \"tor-browser_en-US\" if you are running "
 "the English Tor Browser."
 msgstr ""
+"* 找到您的Tor 浏览器文件夹。在Linux上，没有默认位置，但是如果您正在运行英文版的Tor 浏览器，这个文件夹将会被命名为”tor-"
+"browser_en-US“。"
 
 #: https//tb-manual.torproject.org/uninstalling/
 #: (content/uninstalling/contents+en.lrtopic.body)
 msgid "* Delete the Tor Browser folder."
-msgstr ""
+msgstr "* 删除Tor Browser文件夹。"
 
 #: https//tb-manual.torproject.org/uninstalling/
 #: (content/uninstalling/contents+en.lrtopic.body)
 msgid ""
 "Note that your operating system’s standard \"Uninstall\" utility is not "
 "used."
-msgstr ""
+msgstr "注意您的操作系统的标准“卸载”功能是没用的。"
 
 #: lego/templates/footer.html:9 lego/templates/footer.html:18
 #: lego/templates/navbar.html:71 templates/footer.html:9
