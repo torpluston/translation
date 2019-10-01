@@ -121,7 +121,7 @@ The third relay removes the last encryption layer and forwards the web page requ
 
 Bekele doesn't know that the website request came from Amal unless she tells him so.
 
-## 7. Who uses Tor? 
+## 7. Кто пользуется Tor? 
 
 People all over the world use Tor to protect their privacy and access the web freely.
 
@@ -148,15 +148,15 @@ The Tor community is governed by a code of conduct, and we outline our set of pr
 Learn more about Tor by visiting our website, our wiki, finding us on IRC, joining one of our mailing lists, or signing up for Tor News at newsletter.torproject.org.
 
 
-## 8. Download Tor
+## 8. Скачивание Tor
 
-Tor for Desktop
+Tor для ПК
 torproject.org/download
 
-TOR ON MOBILE
-### Android 
-Tor Browser for Android is available from GooglePlay.
+TOR ДЛЯ МОБИЛЬНЫХ УСТРОЙСТВ
+### Android
+Tor Browser для Android есть в GooglePlay.
 
 ### iOS
-Onion Browser, developed by M. Tigas, is the only browser we recommend for iOS.
+Onion Browser, разработанный М. Тигасом, — единственный браузер, который мы рекомендуем для iOS.
 
