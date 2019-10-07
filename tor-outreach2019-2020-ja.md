@@ -8,11 +8,11 @@
 
 しかし最近、彼女は以前の検索に関連する広告が彼女をオンラインで追跡していることに気付きました。
 
-This feels so invasive that she does some research on online ads and learns that it's not just advertisers tracking her but also her ISP, analytics companies, social media platforms, and more.
+これは非常に侵襲的であるため、彼女はオンライン広告の調査を行い、彼女を追跡している広告主だけでなく、ISP、分析会社、ソーシャルメディアプラットフォームなどでもあることを知ります。
 
-Aleisha decides she wants to find and use software that doesn't collect her data, doesn't track her, and doesn't tell other services anything private about her.
+Aleishaは、自分のデータを収集せず、追跡もせず、他のサービスに彼女についてプライベートなことを伝えないソフトウェアを見つけて使用したいと考えています。
 
-She goes to a privacy training at a local hackerspace and learns about **Tor Browser**, the only web browser that allows her to browse anonymously.
+彼女は近くののハッカースペースでプライバシートレーニングに参加し、匿名で使用できる唯一のWebブラウザ、** Tor Browser **について学びます。
 
 ---
 
