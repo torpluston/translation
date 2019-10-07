@@ -1,19 +1,17 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
+<html lang="fa">
 <head>
-<meta http-equiv="content-type" content="text/html; charset=UTF-8">
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>دانه‌برف</title>
-<link rel="stylesheet" href="index_files/index.asc">
+<link rel="icon" href="assets/favicon.ico">
+<link rel="stylesheet" href="index.css">
 </head>
 <body>
-    <div id="header"><a href="https://www.torproject.org/">
-        <img src="index_files/tor-logo2x.png" alt="Tor" height="50px"></a></div>
-    <div id="content">
-      <h1>دانه‌برف</h1>
+    <header id="header"><a href="https://www.torproject.org/">
+        <img src="tor-logo@2x.png" alt="Tor" height="50"></a></header><section id="content"><h1>دانه‌برف</h1>
 
-      <p class="diagram"><img src="index_files/snowflake-schematic.png" alt="Diagram"></p>
+      <p class="diagram"><img src="https://trac.torproject.org/projects/tor/raw-attachment/wiki/doc/Snowflake/snowflake-schematic.png" alt="Diagram"></p>
 
       <p>دانه‌برف یک سیستم برای شکستن سانسور اینترنت است.
 افراد با اینترنت سانسور شده می‌توانند از دانه‌برف برای دسترسی
@@ -21,18 +19,14 @@
 عبور می‌کند که توسط داوطلبان اجرا می‌شود. برای اطلاعات دقیق‌تر
 درباره نحوه کار دانه‌برف <a href="https://trac.torproject.org/projects/tor/wiki/doc/Snowflake/">مستندات ویکی</a> ما را ببینید.  </p>
 
-      <div class="clear">
+      <div class="sidebyside">
 
-        <div class="browser"><div class="padding">
-          <h3>مرورگر</h3>
+        <section id="browser" class="browser"><h2>مرورگر</h2>
 
           <p>اگر دسترسی به اینترنت سانسور شده است، <a href="https://www.torproject.org/download/">مرورگر تور</a> را دانلود کنید.</p>
 
-          <p class="screenshot"><img src="index_files/screenshot.png" alt="Tor Browser screenshot"></p>
-        </div></div>
-
-        <div class="extension"><div class="padding">
-          <h3>افزونه</h3>
+          <p class="screenshot"><img src="screenshot.png" alt="Tor Browser screenshot"></p>
+        </section><section id="extension" class="extension"><h2>افزونه</h2>
 
           <p>اگر دسترسی اینترنت شما سانسور <strong>نشده</strong>، شما می‌توانید
 نصب افزونه دانه برف را برای کمک به کاربران در
@@ -41,44 +35,39 @@
 مطابق گره خروج تور خودشان خواهد بود، نه شما.</p>
 
           <p class="addon"><a href="https://addons.mozilla.org/en-US/firefox/addon/torproject-snowflake/">
-              <img src="index_files/firefox150.jpg" alt="Install in Firefox" height="100px"><br><span>در فایرفاکس نصب کنید</span>
+              <img src="firefox150.jpg" alt="Install in Firefox" height="100"><br><span>Install in Firefox</span>
             </a>
             <a href="https://chrome.google.com/webstore/detail/snowflake/mafpmfcccpbjnhfhjnllmmalhifmlcie">
-              <img src="index_files/chrome150.jpg" alt="Install in Chrome" height="100px"><br><span>در کروم نصب کنید</span>
-            </a>
-            <span class="clear"></span></p>
-        </div></div>
+              <img src="chrome150.jpg" alt="Install in Chrome" height="100"><br><span>Install in Chrome</span>
+            </a></p>
+        </section>
+</div>
 
-      </div>
+      <section id="bugs"><h2>گزارش اشکالات</h2>
 
-      <h3>گزارش اشکالات</h3>
-      
-      <p>اگر به عنوان کاربر و یا پروکسی دانه برف به مشکلی برخورد کردید،
-لطفا اشکال را به ما گزارش کنید. به این منظور شما باید</p>
-      
-      <ol>
-<li>یا <a href="https://trac.torproject.org/projects/tor/register">یک حساب
-بسازید</a> و یا با استفاده از حساب <b>cypherpunks</b> اشتراکی با گذرواژه <b>writecode</b>
-<a href="https://trac.torproject.org/projects/tor/login">وارد شوید</a>.</li>
-        <li>با استفاده از ردیاب اشکال ما
-<a href="https://trac.torproject.org/projects/tor/newticket?component=Circumvention%2FSnowflake">گزارش ارسال کنید</a>.</li>
-      </ol>
-<p>لطفا تا حد ممکن مشکل را در تیکت توضیح دهید و در صورتی که
-ممکن است، گزارش شما شامل پیام‌های ثبت کردن وقایع باشد تا به ما کمک کنید اشکال را بهتر بررسی کنیم.
-لطفا از کلیدواژه‌های <em>snowflake-webextension</em> یا <em>snowflake-client</em> استفاده کنید
-تا متوجه شویم که مشکل در کدام بخش از سیستم دانه برف
-به وجود آمده است.</p>
+        <p>If you encounter problems with Snowflake as a client or a proxy,
+        please consider filing a bug.  To do so, you will have to,</p>
 
-      <h3>نشاندن</h3>
+        <ol>
+<li>Either <a href="https://trac.torproject.org/projects/tor/register">create an
+          account</a> or <a href="https://trac.torproject.org/projects/tor/login">log in</a>
+          using the shared <b>cypherpunks</b> account with password <b>writecode</b>.</li>
+          <li>
+<a href="https://trac.torproject.org/projects/tor/newticket?component=Circumvention%2FSnowflake">File a ticket</a>
+          using our bug tracker.</li>
+        </ol>
+<p>Please try to be as descriptive as possible with your ticket and if
+        possible include log messages that will help us reproduce the bug.
+        Consider adding keywords <em>snowflake-webextension</em> or <em>snowflake-client</em>
+        to let us know how which part of the Snowflake system is experiencing
+        problems.</p>
+      </section><section id="embed"><h2>نشاندن</h2>
 
-      <p>اکنون تعبیه ی نشان برف‌دانه، در هر وب‌سایت ای امکان‌پذیر است.</p>
+        <p>اکنون تعبیه ی نشان برف‌دانه، در هر وب‌سایت ای امکان‌پذیر است.</p>
 
-      <textarea readonly>&lt;iframe src="https://snowflake.torproject.org/embed.html" width="320px" height="200px" frameborder="0" scrolling="no"&gt;&lt;/iframe&gt;</textarea><p>که مانند این است:</p>
+        <textarea readonly>&lt;iframe src="https://snowflake.torproject.org/embed.html" width="320" height="240" frameborder="0" scrolling="no"&gt;&lt;/iframe&gt;</textarea><p>که مانند این است:</p>
 
-      <iframe src="index_files/embed.html" scrolling="no" width="320px" height="200px" frameborder="0"></iframe>
-
-    </div>
-  
-
+        <iframe src="embed.html" width="320" height="240" frameborder="0" scrolling="no"></iframe>
+      </section></section>
 </body>
 </html>

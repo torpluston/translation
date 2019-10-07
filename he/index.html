@@ -1,81 +1,70 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
+<html lang="he">
 <head>
-<meta http-equiv="content-type" content="text/html; charset=UTF-8">
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Snowflake</title>
-<link rel="stylesheet" href="index_files/index.asc">
+<link rel="icon" href="assets/favicon.ico">
+<link rel="stylesheet" href="index.css">
 </head>
 <body>
-    <div id="header"><a href="https://www.torproject.org/">
-        <img src="index_files/tor-logo2x.png" alt="Tor" height="50px"></a></div>
-    <div id="content">
-      <h1>SNOWFLAKE</h1>
+    <header id="header"><a href="https://www.torproject.org/">
+        <img src="tor-logo@2x.png" alt="Tor" height="50"></a></header><section id="content"><h1>SNOWFLAKE</h1>
 
-      <p class="diagram"><img src="index_files/snowflake-schematic.png" alt="Diagram"></p>
+      <p class="diagram"><img src="https://trac.torproject.org/projects/tor/raw-attachment/wiki/doc/Snowflake/snowflake-schematic.png" alt="Diagram"></p>
 
       <p>Snowflake הוא מערכת להבסת צנזורת אינטרנט. אנשים שהם
       מצונזרים יכולים להשתמש ב־Snowflake כדי להשיג גישה אל האינטרנט. החיבור עובר דרך יפויי כוח Snowflake, שהם מופעלים על ידי מתנדבים. לעוד מידע מפורט על איך Snowflake עובד ראה את
       <a href="https://trac.torproject.org/projects/tor/wiki/doc/Snowflake/">תיעוד וויקי</a> שלנו.</p>
 
-      <div class="clear">
+      <div class="sidebyside">
 
-        <div class="browser"><div class="padding">
-          <h3>דפדפן</h3>
+        <section id="browser" class="browser"><h2>דפדפן</h2>
 
           <p>אם הגישת לאינטרנט שלך מצונזרת, אתה צריך להוריד את
           <a href="https://www.torproject.org/download/">דפדפן Tor</a>.</p>
 
-          <p class="screenshot"><img src="index_files/screenshot.png" alt="Tor Browser screenshot"></p>
-        </div></div>
-
-        <div class="extension"><div class="padding">
-          <h3>הרחבה</h3>
+          <p class="screenshot"><img src="screenshot.png" alt="Tor Browser screenshot"></p>
+        </section><section id="extension" class="extension"><h2>הרחבה</h2>
 
           <p>אם הגישה לאינטרנט שלך <strong>אינה</strong> מצונזרת
           אתה צריך לשקול להתקין את ההרחבה Snowflake כדי לעזור למשתמשים ברשתות מצונזרות. אין צורך לדאוג לגבי אילו אתרים אנשים משיגים גישה דרך ייפוי הכוח שלך. כתובת IP הגלויה לגלישה שלהם
           תתאים אל צומת יציאת Tor שלהם, לא שלך.</p>
 
           <p class="addon"><a href="https://addons.mozilla.org/en-US/firefox/addon/torproject-snowflake/">
-              <img src="index_files/firefox150.jpg" alt="Install in Firefox" height="100px"><br><span>התקן ב־Firefox</span>
+              <img src="firefox150.jpg" alt="Install in Firefox" height="100"><br><span>Install in Firefox</span>
             </a>
             <a href="https://chrome.google.com/webstore/detail/snowflake/mafpmfcccpbjnhfhjnllmmalhifmlcie">
-              <img src="index_files/chrome150.jpg" alt="Install in Chrome" height="100px"><br><span>התקן ב־Chrome</span>
-            </a>
-            <span class="clear"></span></p>
-        </div></div>
+              <img src="chrome150.jpg" alt="Install in Chrome" height="100"><br><span>Install in Chrome</span>
+            </a></p>
+        </section>
+</div>
 
-      </div>
+      <section id="bugs"><h2>דיווח על תקלים</h2>
 
-      <h3>דיווח על תקלים</h3>
-      
-      <p>אם אתה נתקל בבעיות עם Snowflake כלקוח או כייפוי כוח,
-      אנא שקול הגשת תקל. כדי לעשות זאת, תצטרך,</p>
-      
-      <ol>
-<li>או <a href="https://trac.torproject.org/projects/tor/register">ליצור
-        חשבון</a> או <a href="https://trac.torproject.org/projects/tor/login">להיכנס</a>
-        על ידי שימוש בחשבון <b>cypherpunks</b> המשותף עם הסיסמה של <b>writecode</b>.</li>
-        <li>
-<a href="https://trac.torproject.org/projects/tor/newticket?component=Circumvention%2FSnowflake">הגש כרטיס</a>
-        ע"י שימוש בגשש התקלים שלנו.</li>
-      </ol>
-<p>אנא נסה להיות מפורט ככל האפשר עם הכרטיס שלך ואם
-      אפשרי כלול הודעות יומן שיעזרו לנו להפיק מחדש את התקל.
-      שקול להוסיף מילות מפתח <em>snowflake-webextension</em> או <em>snowflake-client</em>
-      כדי ליידע אותנו כיצד איזה חלק של המערכת Snowflake חווה בעיות.</p>
+        <p>If you encounter problems with Snowflake as a client or a proxy,
+        please consider filing a bug.  To do so, you will have to,</p>
 
-      <h3>שיבוץ</h3>
+        <ol>
+<li>Either <a href="https://trac.torproject.org/projects/tor/register">create an
+          account</a> or <a href="https://trac.torproject.org/projects/tor/login">log in</a>
+          using the shared <b>cypherpunks</b> account with password <b>writecode</b>.</li>
+          <li>
+<a href="https://trac.torproject.org/projects/tor/newticket?component=Circumvention%2FSnowflake">File a ticket</a>
+          using our bug tracker.</li>
+        </ol>
+<p>Please try to be as descriptive as possible with your ticket and if
+        possible include log messages that will help us reproduce the bug.
+        Consider adding keywords <em>snowflake-webextension</em> or <em>snowflake-client</em>
+        to let us know how which part of the Snowflake system is experiencing
+        problems.</p>
+      </section><section id="embed"><h2>שיבוץ</h2>
 
-      <p>כעת זה אפשרי לשבץ את תג Snowflake בכל אתר שהוא:</p>
+        <p>כעת זה אפשרי לשבץ את תג Snowflake בכל אתר שהוא:</p>
 
-      <textarea readonly>&lt;iframe src="https://snowflake.torproject.org/embed.html" width="320px" height="200px" frameborder="0" scrolling="no"&gt;&lt;/iframe&gt;</textarea><p>שנראה כך:</p>
+        <textarea readonly>&lt;iframe src="https://snowflake.torproject.org/embed.html" width="320" height="240" frameborder="0" scrolling="no"&gt;&lt;/iframe&gt;</textarea><p>שנראה כך:</p>
 
-      <iframe src="index_files/embed.html" scrolling="no" width="320px" height="200px" frameborder="0"></iframe>
-
-    </div>
-  
-
+        <iframe src="embed.html" width="320" height="240" frameborder="0" scrolling="no"></iframe>
+      </section></section>
 </body>
 </html>

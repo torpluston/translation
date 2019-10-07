@@ -1,77 +1,67 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
+<html lang="zh_TW">
 <head>
-<meta http-equiv="content-type" content="text/html; charset=UTF-8">
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Snowflake</title>
-<link rel="stylesheet" href="index_files/index.asc">
+<link rel="icon" href="assets/favicon.ico">
+<link rel="stylesheet" href="index.css">
 </head>
 <body>
-    <div id="header"><a href="https://www.torproject.org/">
-        <img src="index_files/tor-logo2x.png" alt="Tor" height="50px"></a></div>
-    <div id="content">
-      <h1>SNOWFLAKE</h1>
+    <header id="header"><a href="https://www.torproject.org/">
+        <img src="tor-logo@2x.png" alt="Tor" height="50"></a></header><section id="content"><h1>SNOWFLAKE</h1>
 
-      <p class="diagram"><img src="index_files/snowflake-schematic.png" alt="Diagram"></p>
+      <p class="diagram"><img src="https://trac.torproject.org/projects/tor/raw-attachment/wiki/doc/Snowflake/snowflake-schematic.png" alt="Diagram"></p>
 
       <p>Snowflake 是用來反制網路審查過濾機制的系統。若使用者的網路有受到審查過濾的話，可以藉由此方式來上網，它會讓使用者的網路連線轉跳過好幾個由志願者架設營運的 Snowflake 代理伺服器。若想了解 Snowflake 的運作原理，請參考：
       <a href="https://trac.torproject.org/projects/tor/wiki/doc/Snowflake/">documentation wiki</a>.</p>
 
-      <div class="clear">
+      <div class="sidebyside">
 
-        <div class="browser"><div class="padding">
-          <h3>瀏覧器</h3>
+        <section id="browser" class="browser"><h2>瀏覧器</h2>
 
           <p>如果您的網路存取受到審查，您應該下載
           <a href="https://www.torproject.org/download/">洋蔥路由瀏覽器</a>.</p>
 
-          <p class="screenshot"><img src="index_files/screenshot.png" alt="Tor Browser screenshot"></p>
-        </div></div>
-
-        <div class="extension"><div class="padding">
-          <h3>擴充套件</h3>
+          <p class="screenshot"><img src="screenshot.png" alt="Tor Browser screenshot"></p>
+        </section><section id="extension" class="extension"><h2>擴充套件</h2>
 
           <p>如果您的網路<strong>沒有</strong>受到審查過濾的話，您或許可以考慮安裝 Snowflake 擴充套件，以幫助身處在受到審查過濾網路中的使用者。您不必擔心透過您的伺服器上網的使用者是連上什麼網站，因為真正目的網站所紀錄到的IP位址並不是您的伺服器位址，而是洋蔥路由的出口節點位址。</p>
 
           <p class="addon"><a href="https://addons.mozilla.org/en-US/firefox/addon/torproject-snowflake/">
-              <img src="index_files/firefox150.jpg" alt="Install in Firefox" height="100px"><br><span>在火狐狸瀏覽器安裝</span>
+              <img src="firefox150.jpg" alt="Install in Firefox" height="100"><br><span>Install in Firefox</span>
             </a>
             <a href="https://chrome.google.com/webstore/detail/snowflake/mafpmfcccpbjnhfhjnllmmalhifmlcie">
-              <img src="index_files/chrome150.jpg" alt="Install in Chrome" height="100px"><br><span>在 Chrome 瀏覽器安裝</span>
-            </a>
-            <span class="clear"></span></p>
-        </div></div>
+              <img src="chrome150.jpg" alt="Install in Chrome" height="100"><br><span>Install in Chrome</span>
+            </a></p>
+        </section>
+</div>
 
-      </div>
+      <section id="bugs"><h2>回報錯誤</h2>
 
-      <h3>回報錯誤</h3>
-      
-      <p>如果您在此使用 Snowflake 客戶端或代理伺服器過程中，遇到任何問題的話，惠請協助回報該錯誤給我們。而若要回報錯誤的話，您必須要</p>
-      
-      <ol>
-<li>到<a href="https://trac.torproject.org/projects/tor/register">創建一個帳號</a>或<a href="https://trac.torproject.org/projects/tor/login">登入</a>
-        可使用共享的<b>cypherpunks</b>帳號及其密碼：<b>writecode</b>.</li>
-        <li>
+        <p>If you encounter problems with Snowflake as a client or a proxy,
+        please consider filing a bug.  To do so, you will have to,</p>
+
+        <ol>
+<li>Either <a href="https://trac.torproject.org/projects/tor/register">create an
+          account</a> or <a href="https://trac.torproject.org/projects/tor/login">log in</a>
+          using the shared <b>cypherpunks</b> account with password <b>writecode</b>.</li>
+          <li>
 <a href="https://trac.torproject.org/projects/tor/newticket?component=Circumvention%2FSnowflake">File a ticket</a>
-        using our bug tracker.</li>
-      </ol>
+          using our bug tracker.</li>
+        </ol>
 <p>Please try to be as descriptive as possible with your ticket and if
-      possible include log messages that will help us reproduce the bug.
-      Consider adding keywords <em>snowflake-webextension</em> or <em>snowflake-client</em>
-      to let us know how which part of the Snowflake system is experiencing
-      problems.</p>
+        possible include log messages that will help us reproduce the bug.
+        Consider adding keywords <em>snowflake-webextension</em> or <em>snowflake-client</em>
+        to let us know how which part of the Snowflake system is experiencing
+        problems.</p>
+      </section><section id="embed"><h2>嵌入</h2>
 
-      <h3>嵌入</h3>
+        <p>現在可以嵌入 Snowflake 徽章到任何網站：</p>
 
-      <p>現在可以嵌入 Snowflake 徽章到任何網站：</p>
+        <textarea readonly>&lt;iframe src="https://snowflake.torproject.org/embed.html" width="320" height="240" frameborder="0" scrolling="no"&gt;&lt;/iframe&gt;</textarea><p>看起來像這樣：</p>
 
-      <textarea readonly>&lt;iframe src="https://snowflake.torproject.org/embed.html" width="320px" height="200px" frameborder="0" scrolling="no"&gt;&lt;/iframe&gt;</textarea><p>看起來像這樣：</p>
-
-      <iframe src="index_files/embed.html" scrolling="no" width="320px" height="200px" frameborder="0"></iframe>
-
-    </div>
-  
-
+        <iframe src="embed.html" width="320" height="240" frameborder="0" scrolling="no"></iframe>
+      </section></section>
 </body>
 </html>

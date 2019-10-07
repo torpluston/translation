@@ -1,19 +1,17 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
+<html lang="ja">
 <head>
-<meta http-equiv="content-type" content="text/html; charset=UTF-8">
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Snowflake</title>
-<link rel="stylesheet" href="index_files/index.asc">
+<link rel="icon" href="assets/favicon.ico">
+<link rel="stylesheet" href="index.css">
 </head>
 <body>
-    <div id="header"><a href="https://www.torproject.org/">
-        <img src="index_files/tor-logo2x.png" alt="Tor" height="50px"></a></div>
-    <div id="content">
-      <h1>SNOWFLAKE</h1>
+    <header id="header"><a href="https://www.torproject.org/">
+        <img src="tor-logo@2x.png" alt="Tor" height="50"></a></header><section id="content"><h1>SNOWFLAKE</h1>
 
-      <p class="diagram"><img src="index_files/snowflake-schematic.png" alt="Diagram"></p>
+      <p class="diagram"><img src="https://trac.torproject.org/projects/tor/raw-attachment/wiki/doc/Snowflake/snowflake-schematic.png" alt="Diagram"></p>
 
       <p>スノーフレークは、インターネット検閲を無効にするシステムです。検問されている人も
       Snowflakeを使用することによってインターネットにアクセスすることができます。 これらの通信は
@@ -21,19 +19,15 @@
       仕組みは私たちの
       <a href="https://trac.torproject.org/projects/tor/wiki/doc/Snowflake/">documentation wiki</a>を参照してください。</p>
 
-      <div class="clear">
+      <div class="sidebyside">
 
-        <div class="browser"><div class="padding">
-          <h3>ブラウザ</h3>
+        <section id="browser" class="browser"><h2>ブラウザ</h2>
 
           <p>インターネットへのアクセスが検閲されている場合、
 <a href="https://www.torproject.org/download/">Tor Browser</a>をダウンロードする必要があります。</p>
 
-          <p class="screenshot"><img src="index_files/screenshot.png" alt="Tor Browser screenshot"></p>
-        </div></div>
-
-        <div class="extension"><div class="padding">
-          <h3>拡張</h3>
+          <p class="screenshot"><img src="screenshot.png" alt="Tor Browser screenshot"></p>
+        </section><section id="extension" class="extension"><h2>拡張</h2>
 
           <p>インターネットアクセスが検閲されて<strong>いない</strong>場合は、
           Snowflakeの拡張機能のインストールして、ネットワークを検閲されているユーザーを支援してください。
@@ -42,45 +36,39 @@
           あなたのものではなく、Tor出口ノードです。</p>
 
           <p class="addon"><a href="https://addons.mozilla.org/en-US/firefox/addon/torproject-snowflake/">
-              <img src="index_files/firefox150.jpg" alt="Install in Firefox" height="100px"><br><span>Firefoxにインストール</span>
+              <img src="firefox150.jpg" alt="Install in Firefox" height="100"><br><span>Install in Firefox</span>
             </a>
             <a href="https://chrome.google.com/webstore/detail/snowflake/mafpmfcccpbjnhfhjnllmmalhifmlcie">
-              <img src="index_files/chrome150.jpg" alt="Install in Chrome" height="100px"><br><span>Chromeにインストール</span>
-            </a>
-            <span class="clear"></span></p>
-        </div></div>
+              <img src="chrome150.jpg" alt="Install in Chrome" height="100"><br><span>Install in Chrome</span>
+            </a></p>
+        </section>
+</div>
 
-      </div>
+      <section id="bugs"><h2>バグを報告</h2>
 
-      <h3>バグを報告</h3>
-      
-      <p>クライアントまたはプロキシとしてSnowflakeで問題が発生した場合、
-バグの報告を検討してください。 そうするためには、次のことをする必要があります。</p>
-      
-      <ol>
-<li>
-<a href="https://trac.torproject.org/projects/tor/register">アカウントを
-        </a>作成または<a href="https://trac.torproject.org/projects/tor/login">ログイン</a>
-        ログインには共有<b>cypherpunks</b>とパスワード<b>writecode</b>を使用します。</li>
-        <li>
-<a href="https://trac.torproject.org/projects/tor/newticket?component=Circumvention%2FSnowflake">チケットをファイルする</a>
-バグトラッカーを使用する。</li>
-      </ol>
-<p>チケットをできるだけわかりやすく説明し、
-      可能であればバグの再現に役立つログメッセージも追加してください。
-      Snowflakeシステムのどの部分で問題が発生しているかを調べるために、
-キーワード<em>snowflake-ウェブ拡張</em>または<em>snowflake-クライアント</em>を追加することも検討してください。</p>
+        <p>If you encounter problems with Snowflake as a client or a proxy,
+        please consider filing a bug.  To do so, you will have to,</p>
 
-      <h3>埋め込む</h3>
+        <ol>
+<li>Either <a href="https://trac.torproject.org/projects/tor/register">create an
+          account</a> or <a href="https://trac.torproject.org/projects/tor/login">log in</a>
+          using the shared <b>cypherpunks</b> account with password <b>writecode</b>.</li>
+          <li>
+<a href="https://trac.torproject.org/projects/tor/newticket?component=Circumvention%2FSnowflake">File a ticket</a>
+          using our bug tracker.</li>
+        </ol>
+<p>Please try to be as descriptive as possible with your ticket and if
+        possible include log messages that will help us reproduce the bug.
+        Consider adding keywords <em>snowflake-webextension</em> or <em>snowflake-client</em>
+        to let us know how which part of the Snowflake system is experiencing
+        problems.</p>
+      </section><section id="embed"><h2>埋め込む</h2>
 
-      <p>Snowflakeバッジを任意のWebサイトに埋め込むことができるようになりました。</p>
+        <p>Snowflakeバッジを任意のWebサイトに埋め込むことができるようになりました。</p>
 
-      <textarea readonly>&lt;iframe src="https://snowflake.torproject.org/embed.html" width="320px" height="200px" frameborder="0" scrolling="no"&gt;&lt;/iframe&gt;</textarea><p>これは次のようになります：</p>
+        <textarea readonly>&lt;iframe src="https://snowflake.torproject.org/embed.html" width="320" height="240" frameborder="0" scrolling="no"&gt;&lt;/iframe&gt;</textarea><p>これは次のようになります：</p>
 
-      <iframe src="index_files/embed.html" scrolling="no" width="320px" height="200px" frameborder="0"></iframe>
-
-    </div>
-  
-
+        <iframe src="embed.html" width="320" height="240" frameborder="0" scrolling="no"></iframe>
+      </section></section>
 </body>
 </html>

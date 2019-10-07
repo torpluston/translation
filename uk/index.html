@@ -1,19 +1,17 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
+<html lang="uk">
 <head>
-<meta http-equiv="content-type" content="text/html; charset=UTF-8">
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Snowflake</title>
-<link rel="stylesheet" href="index_files/index.asc">
+<link rel="icon" href="assets/favicon.ico">
+<link rel="stylesheet" href="index.css">
 </head>
 <body>
-    <div id="header"><a href="https://www.torproject.org/">
-        <img src="index_files/tor-logo2x.png" alt="Tor" height="50px"></a></div>
-    <div id="content">
-      <h1>SNOWFLAKE</h1>
+    <header id="header"><a href="https://www.torproject.org/">
+        <img src="tor-logo@2x.png" alt="Tor" height="50"></a></header><section id="content"><h1>SNOWFLAKE</h1>
 
-      <p class="diagram"><img src="index_files/snowflake-schematic.png" alt="Diagram"></p>
+      <p class="diagram"><img src="https://trac.torproject.org/projects/tor/raw-attachment/wiki/doc/Snowflake/snowflake-schematic.png" alt="Diagram"></p>
 
       <p>Snowflake є системою, призначеною для подолання цензури в інтернеті. Люди, яких
       піддано цензурі, можуть використовувати Snowflake для доступу до інтернету.
@@ -21,19 +19,15 @@
       детальну інформацію про те, як працює Snowflake, дивіться у нашій
       <a href="https://trac.torproject.org/projects/tor/wiki/doc/Snowflake/">вікі-документації</a>.</p>
 
-      <div class="clear">
+      <div class="sidebyside">
 
-        <div class="browser"><div class="padding">
-          <h3>Браузер</h3>
+        <section id="browser" class="browser"><h2>Браузер</h2>
 
           <p>Якщо ваш доступ до інтернету піддано цензурі, вам варто завантажити
           <a href="https://www.torproject.org/download/">Браузер Tor</a>.</p>
 
-          <p class="screenshot"><img src="index_files/screenshot.png" alt="Tor Browser screenshot"></p>
-        </div></div>
-
-        <div class="extension"><div class="padding">
-          <h3>Розширення</h3>
+          <p class="screenshot"><img src="screenshot.png" alt="Tor Browser screenshot"></p>
+        </section><section id="extension" class="extension"><h2>Розширення</h2>
 
           <p>Якщо ваш доступ до інтернету <strong>не</strong> піддано цензурі, вам варто
           розглянути можливість встановлення розширення Snowflake,
@@ -43,45 +37,39 @@
           вузла Tor, а не з вашою.</p>
 
           <p class="addon"><a href="https://addons.mozilla.org/en-US/firefox/addon/torproject-snowflake/">
-              <img src="index_files/firefox150.jpg" alt="Install in Firefox" height="100px"><br><span>Встановити у Firefox</span>
+              <img src="firefox150.jpg" alt="Install in Firefox" height="100"><br><span>Install in Firefox</span>
             </a>
             <a href="https://chrome.google.com/webstore/detail/snowflake/mafpmfcccpbjnhfhjnllmmalhifmlcie">
-              <img src="index_files/chrome150.jpg" alt="Install in Chrome" height="100px"><br><span>Встановити у Chrome</span>
-            </a>
-            <span class="clear"></span></p>
-        </div></div>
+              <img src="chrome150.jpg" alt="Install in Chrome" height="100"><br><span>Install in Chrome</span>
+            </a></p>
+        </section>
+</div>
 
-      </div>
+      <section id="bugs"><h2>ЗВІТУВАННЯ ПРО ПОМИЛКИ</h2>
 
-      <h3>ЗВІТУВАННЯ ПРО ПОМИЛКИ</h3>
-      
-      <p>Якщо ви виявите проблеми зі Snowflake в якості клієнта чи проксі-сервера,
-      будь ласка, надішліть нам звіт. Для цього вам потрібно буде</p>
-      
-      <ol>
-<li>Або <a href="https://trac.torproject.org/projects/tor/register">створити
-        обліковий запис</a>, або <a href="https://trac.torproject.org/projects/tor/login">увійти в систему</a>,
-        використовуючи спільний обліковий запис <b>cypherpunks</b> і пароль <b>writecode</b>.</li>
-        <li>
-<a href="https://trac.torproject.org/projects/tor/newticket?component=Circumvention%2FSnowflake">Відкрити запит</a>
-        на нашому баг-трекері.</li>
-      </ol>
-<p>Будь ласка, спробуйте бути максимально інформативними у вашому запиті
-      і, якщо можете, додайте журнал повідомлень, що допоможе нам
-      відтворити проблему. Радимо додати ключові слова <em>snowflake-webextension</em>
-      або <em>snowflake-client</em>, щоб ми знали, у якій саме частині системи Snowflake
-      виникають проблеми.</p>
+        <p>If you encounter problems with Snowflake as a client or a proxy,
+        please consider filing a bug.  To do so, you will have to,</p>
 
-      <h3>ВБУДУВАТИ</h3>
+        <ol>
+<li>Either <a href="https://trac.torproject.org/projects/tor/register">create an
+          account</a> or <a href="https://trac.torproject.org/projects/tor/login">log in</a>
+          using the shared <b>cypherpunks</b> account with password <b>writecode</b>.</li>
+          <li>
+<a href="https://trac.torproject.org/projects/tor/newticket?component=Circumvention%2FSnowflake">File a ticket</a>
+          using our bug tracker.</li>
+        </ol>
+<p>Please try to be as descriptive as possible with your ticket and if
+        possible include log messages that will help us reproduce the bug.
+        Consider adding keywords <em>snowflake-webextension</em> or <em>snowflake-client</em>
+        to let us know how which part of the Snowflake system is experiencing
+        problems.</p>
+      </section><section id="embed"><h2>ВБУДУВАТИ</h2>
 
-      <p>Відтепер є можливість вбудувати значок Snowflake у будь-який веб-сайт:</p>
+        <p>Відтепер є можливість вбудувати значок Snowflake у будь-який веб-сайт:</p>
 
-      <textarea readonly>&lt;iframe src="https://snowflake.torproject.org/embed.html" width="320px" height="200px" frameborder="0" scrolling="no"&gt;&lt;/iframe&gt;</textarea><p>Він матиме такий вигляд:</p>
+        <textarea readonly>&lt;iframe src="https://snowflake.torproject.org/embed.html" width="320" height="240" frameborder="0" scrolling="no"&gt;&lt;/iframe&gt;</textarea><p>Він матиме такий вигляд:</p>
 
-      <iframe src="index_files/embed.html" scrolling="no" width="320px" height="200px" frameborder="0"></iframe>
-
-    </div>
-  
-
+        <iframe src="embed.html" width="320" height="240" frameborder="0" scrolling="no"></iframe>
+      </section></section>
 </body>
 </html>

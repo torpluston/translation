@@ -1,19 +1,17 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
+<html lang="ca">
 <head>
-<meta http-equiv="content-type" content="text/html; charset=UTF-8">
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Snowflake</title>
-<link rel="stylesheet" href="index_files/index.asc">
+<link rel="icon" href="assets/favicon.ico">
+<link rel="stylesheet" href="index.css">
 </head>
 <body>
-    <div id="header"><a href="https://www.torproject.org/">
-        <img src="index_files/tor-logo2x.png" alt="Tor" height="50px"></a></div>
-    <div id="content">
-      <h1>SNOWFLAKE</h1>
+    <header id="header"><a href="https://www.torproject.org/">
+        <img src="tor-logo@2x.png" alt="Tor" height="50"></a></header><section id="content"><h1>SNOWFLAKE</h1>
 
-      <p class="diagram"><img src="index_files/snowflake-schematic.png" alt="Diagram"></p>
+      <p class="diagram"><img src="https://trac.torproject.org/projects/tor/raw-attachment/wiki/doc/Snowflake/snowflake-schematic.png" alt="Diagram"></p>
 
       <p>Snowflake és un sistema per defensar-se contra la censura a Internet. La gent a qui s'aplica aquesta censura
       pot utilitzar Snowflake per accedir a Internet. La connexió funciona
@@ -21,19 +19,15 @@
       quant al funcionament del Snowflake, veieu la
       <a href="https://trac.torproject.org/projects/tor/wiki/doc/Snowflake/">documentació al wiki</a>.</p>
 
-      <div class="clear">
+      <div class="sidebyside">
 
-        <div class="browser"><div class="padding">
-          <h3>Navegador</h3>
+        <section id="browser" class="browser"><h2>Navegador</h2>
 
           <p>Si s'està aplicant cap censura al vostre accés a Internet, baixeu el
           <a href="https://www.torproject.org/download/">Navegador Tor</a>.</p>
 
-          <p class="screenshot"><img src="index_files/screenshot.png" alt="Tor Browser screenshot"></p>
-        </div></div>
-
-        <div class="extension"><div class="padding">
-          <h3>Complement</h3>
+          <p class="screenshot"><img src="screenshot.png" alt="Tor Browser screenshot"></p>
+        </section><section id="extension" class="extension"><h2>Complement</h2>
 
           <p>Si el vostre accés a Internet <strong>no</strong> està censurat, considereu
           instal·lar el complement Snowflake per ajudar a usuaris amb censura
@@ -42,46 +36,39 @@
           coincidirà amb el node de sortida del Tor, no la vostra IP.</p>
 
           <p class="addon"><a href="https://addons.mozilla.org/en-US/firefox/addon/torproject-snowflake/">
-              <img src="index_files/firefox150.jpg" alt="Install in Firefox" height="100px"><br><span>Instal·la al Firefox</span>
+              <img src="firefox150.jpg" alt="Install in Firefox" height="100"><br><span>Install in Firefox</span>
             </a>
             <a href="https://chrome.google.com/webstore/detail/snowflake/mafpmfcccpbjnhfhjnllmmalhifmlcie">
-              <img src="index_files/chrome150.jpg" alt="Install in Chrome" height="100px"><br><span>Instal·la al Chrome</span>
-            </a>
-            <span class="clear"></span></p>
-        </div></div>
+              <img src="chrome150.jpg" alt="Install in Chrome" height="100"><br><span>Install in Chrome</span>
+            </a></p>
+        </section>
+</div>
 
-      </div>
+      <section id="bugs"><h2>INFORME DE PROBLEMES</h2>
 
-      <h3>INFORME DE PROBLEMES</h3>
-      
-      <p>Si trobeu cap problema utilitzant el Snowflake com a client o com a 
-       servidor intermediari, notifiqueu l'error.  Simplement,</p>
-      
-      <ol>
-<li>
-<a href="https://trac.torproject.org/projects/tor/register">Creeu un 
-        compte</a> o <a href="https://trac.torproject.org/projects/tor/login">Inicieu la sessió</a>
-        al compte compartit <b>cypherpunks</b> amb el <b>codi </b>facilitat.</li>
-        <li>
-<a href="https://trac.torproject.org/projects/tor/newticket?component=Circumvention%2FSnowflake">Empleneu un tiquet</a>
-        mitjançant el nostre sistema.</li>
-      </ol>
-<p>Sigueu el més descriptiu possible en emplenar (en anglès) el tiquet i,
-      si és possible, afegiu informes de registre que siguin d'ajuda a reproduir el problema.
-      Considereu afegir les paraules clau <em>snowflake-webextension</em> o <em>snowflake-client</em>
-      segons calgui per ajudar-nos a saber on esteu experimentant 
-      el problema.</p>
+        <p>If you encounter problems with Snowflake as a client or a proxy,
+        please consider filing a bug.  To do so, you will have to,</p>
 
-      <h3>DIFUSIÓ</h3>
+        <ol>
+<li>Either <a href="https://trac.torproject.org/projects/tor/register">create an
+          account</a> or <a href="https://trac.torproject.org/projects/tor/login">log in</a>
+          using the shared <b>cypherpunks</b> account with password <b>writecode</b>.</li>
+          <li>
+<a href="https://trac.torproject.org/projects/tor/newticket?component=Circumvention%2FSnowflake">File a ticket</a>
+          using our bug tracker.</li>
+        </ol>
+<p>Please try to be as descriptive as possible with your ticket and if
+        possible include log messages that will help us reproduce the bug.
+        Consider adding keywords <em>snowflake-webextension</em> or <em>snowflake-client</em>
+        to let us know how which part of the Snowflake system is experiencing
+        problems.</p>
+      </section><section id="embed"><h2>DIFUSIÓ</h2>
 
-      <p>Podeu afegir la insígnia del Snowflake a qualsevol web:</p>
+        <p>Podeu afegir la insígnia del Snowflake a qualsevol web:</p>
 
-      <textarea readonly>&lt;iframe src="https://snowflake.torproject.org/embed.html" width="320px" height="200px" frameborder="0" scrolling="no"&gt;&lt;/iframe&gt;</textarea><p>I es veurà d'aquesta manera:</p>
+        <textarea readonly>&lt;iframe src="https://snowflake.torproject.org/embed.html" width="320" height="240" frameborder="0" scrolling="no"&gt;&lt;/iframe&gt;</textarea><p>I es veurà d'aquesta manera:</p>
 
-      <iframe src="index_files/embed.html" scrolling="no" width="320px" height="200px" frameborder="0"></iframe>
-
-    </div>
-  
-
+        <iframe src="embed.html" width="320" height="240" frameborder="0" scrolling="no"></iframe>
+      </section></section>
 </body>
 </html>

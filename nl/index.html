@@ -1,38 +1,32 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
+<html lang="nl">
 <head>
-<meta http-equiv="content-type" content="text/html; charset=UTF-8">
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Snowflake</title>
-<link rel="stylesheet" href="index_files/index.asc">
+<link rel="icon" href="assets/favicon.ico">
+<link rel="stylesheet" href="index.css">
 </head>
 <body>
-    <div id="header"><a href="https://www.torproject.org/">
-        <img src="index_files/tor-logo2x.png" alt="Tor" height="50px"></a></div>
-    <div id="content">
-      <h1>SNOWFLAKE</h1>
+    <header id="header"><a href="https://www.torproject.org/">
+        <img src="tor-logo@2x.png" alt="Tor" height="50"></a></header><section id="content"><h1>SNOWFLAKE</h1>
 
-      <p class="diagram"><img src="index_files/snowflake-schematic.png" alt="Diagram"></p>
+      <p class="diagram"><img src="https://trac.torproject.org/projects/tor/raw-attachment/wiki/doc/Snowflake/snowflake-schematic.png" alt="Diagram"></p>
 
       <p>Snowflake is een systeem om internetcensuur te verslaan. Gecensureerde personen
       kunnen Snowflake gebruiken om toegang te krijgen tot het internet. Hun verbinding loopt
       via Snowflake-proxy’s, die door vrijwilligers worden beheerd. Bekijk onze <a href="https://trac.torproject.org/projects/tor/wiki/doc/Snowflake/">documentatie-wiki</a> voor meer gedetailleerde informatie over de werking
       van Snowflake.</p>
 
-      <div class="clear">
+      <div class="sidebyside">
 
-        <div class="browser"><div class="padding">
-          <h3>Browser</h3>
+        <section id="browser" class="browser"><h2>Browser</h2>
 
           <p>Als uw internettoegang is gecensureerd, zou u
           <a href="https://www.torproject.org/download/">Tor Browser</a> moeten downloaden.</p>
 
-          <p class="screenshot"><img src="index_files/screenshot.png" alt="Tor Browser-schermafbeelding"></p>
-        </div></div>
-
-        <div class="extension"><div class="padding">
-          <h3>Extensie</h3>
+          <p class="screenshot"><img src="screenshot.png" alt="Tor Browser screenshot"></p>
+        </section><section id="extension" class="extension"><h2>Extensie</h2>
 
           <p>If your internet access is <strong>not</strong> censored, you should
           consider installing the Snowflake extension to help users in censored
@@ -40,46 +34,40 @@
           accessing through your proxy. Their visible browsing IP address will
           match their Tor exit node, not yours.</p>
 
-          <p class="addon"><a href="https://addons.mozilla.org/nl/firefox/addon/torproject-snowflake/">
-              <img src="index_files/firefox150.jpg" alt="Installeren in Firefox" height="100px"><br><span>Installeren in Firefox</span>
+          <p class="addon"><a href="https://addons.mozilla.org/en-US/firefox/addon/torproject-snowflake/">
+              <img src="firefox150.jpg" alt="Install in Firefox" height="100"><br><span>Install in Firefox</span>
             </a>
             <a href="https://chrome.google.com/webstore/detail/snowflake/mafpmfcccpbjnhfhjnllmmalhifmlcie">
-              <img src="index_files/chrome150.jpg" alt="Installeren in Chrome" height="100px"><br><span>Installeren in Chrome</span>
-            </a>
-            <span class="clear"></span></p>
-        </div></div>
+              <img src="chrome150.jpg" alt="Install in Chrome" height="100"><br><span>Install in Chrome</span>
+            </a></p>
+        </section>
+</div>
 
-      </div>
+      <section id="bugs"><h2>BUGS MELDEN</h2>
 
-      <h3>BUGS MELDEN</h3>
-      
-      <p>Als u problemen tegenkomt met Snowflake als een client of een proxy,
-      overweeg dan een bug te melden. Om dit te doen, dient u:</p>
-      
-      <ol>
-<li>Een <a href="https://trac.torproject.org/projects/tor/register">account aan
-te maken</a> of u <a href="https://trac.torproject.org/projects/tor/login">aan te melden</a>
-        via de gedeelde <b>cypherpunks</b>-account met wachtwoord <b>writecode</b>.</li>
-        <li>
-<a href="https://trac.torproject.org/projects/tor/newticket?component=Circumvention%2FSnowflake">Een ticket aan te maken</a>
-        via onze bugtracker.</li>
-      </ol>
+        <p>If you encounter problems with Snowflake as a client or a proxy,
+        please consider filing a bug.  To do so, you will have to,</p>
+
+        <ol>
+<li>Either <a href="https://trac.torproject.org/projects/tor/register">create an
+          account</a> or <a href="https://trac.torproject.org/projects/tor/login">log in</a>
+          using the shared <b>cypherpunks</b> account with password <b>writecode</b>.</li>
+          <li>
+<a href="https://trac.torproject.org/projects/tor/newticket?component=Circumvention%2FSnowflake">File a ticket</a>
+          using our bug tracker.</li>
+        </ol>
 <p>Please try to be as descriptive as possible with your ticket and if
-      possible include log messages that will help us reproduce the bug.
-      Consider adding keywords <em>snowflake-webextension</em> or <em>snowflake-client</em>
-      to let us know how which part of the Snowflake system is experiencing
-      problems.</p>
+        possible include log messages that will help us reproduce the bug.
+        Consider adding keywords <em>snowflake-webextension</em> or <em>snowflake-client</em>
+        to let us know how which part of the Snowflake system is experiencing
+        problems.</p>
+      </section><section id="embed"><h2>INBEDDEN</h2>
 
-      <h3>INBEDDEN</h3>
+        <p>Het is nu mogelijk om de Snowflake-badge op websites in te bedden:</p>
 
-      <p>Het is nu mogelijk om de Snowflake-badge op websites in te bedden:</p>
+        <textarea readonly>&lt;iframe src="https://snowflake.torproject.org/embed.html" width="320" height="240" frameborder="0" scrolling="no"&gt;&lt;/iframe&gt;</textarea><p>Die ziet er zo uit:</p>
 
-      <textarea readonly>&lt;iframe src="https://snowflake.torproject.org/embed.html" width="320px" height="200px" frameborder="0" scrolling="no"&gt;&lt;/iframe&gt;</textarea><p>Die ziet er zo uit:</p>
-
-      <iframe src="index_files/embed.html" scrolling="no" width="320px" height="200px" frameborder="0"></iframe>
-
-    </div>
-  
-
+        <iframe src="embed.html" width="320" height="240" frameborder="0" scrolling="no"></iframe>
+      </section></section>
 </body>
 </html>
