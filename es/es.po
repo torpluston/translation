@@ -13,9 +13,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Tor Project\n"
 "Report-Msgid-Bugs-To: Tails developers <tails@boum.org>\n"
-"POT-Creation-Date: 2019-09-14 14:38+0200\n"
-"PO-Revision-Date: 2019-09-14 16:52+0000\n"
-"Last-Translator: eulalio barbero espinosa <eulaliob@gmail.com>\n"
+"POT-Creation-Date: 2019-10-07 08:43+0200\n"
+"PO-Revision-Date: 2019-10-07 13:48+0000\n"
+"Last-Translator: erinm\n"
 "Language-Team: Spanish (http://www.transifex.com/otf/torproject/language/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -193,85 +193,89 @@ msgid ""
 "Symlink into $HOME every file or directory found in the `dotfiles' directory"
 msgstr "Crear enlaces simbólicos ('symlink') en $HOME para todos los ficheros o carpetas en la carpeta 'dotfiles' (formato de '.ficheros' de configuración)"
 
-#: ../lib/Tails/Persistence/Step/Bootstrap.pm:90
+#: ../lib/Tails/Persistence/Step/Bootstrap.pm:96
 msgid "Persistence wizard - Persistent volume creation"
 msgstr "Asistente de persistencia - Creación de volumen persistente"
 
-#: ../lib/Tails/Persistence/Step/Bootstrap.pm:93
+#: ../lib/Tails/Persistence/Step/Bootstrap.pm:99
 msgid "Choose a passphrase to protect the persistent volume"
 msgstr "Elija una frase clave para proteger el volumen persistente"
 
 #. TRANSLATORS: size, device vendor, device model
-#: ../lib/Tails/Persistence/Step/Bootstrap.pm:97
+#: ../lib/Tails/Persistence/Step/Bootstrap.pm:103
 #, perl-format
 msgid ""
 "A %s persistent volume will be created on the <b>%s %s</b> device. Data on "
 "this volume will be stored in an encrypted form protected by a passphrase."
 msgstr "Se creará un volumen persistente %s en el dispositivo <b>%s %s</b>. Los datos en este volumen se guardarán cifrados protegidos con frase clave."
 
-#: ../lib/Tails/Persistence/Step/Bootstrap.pm:102
+#: ../lib/Tails/Persistence/Step/Bootstrap.pm:108
 msgid "Create"
 msgstr "Crear"
 
-#: ../lib/Tails/Persistence/Step/Bootstrap.pm:142
+#: ../lib/Tails/Persistence/Step/Bootstrap.pm:151
 msgid ""
 "<b>Beware!</b> Using persistence has consequences that must be well "
 "understood. Tails can't help you if you use it wrong! See the <i>Encrypted "
 "persistence</i> page of the Tails documentation to learn more."
 msgstr "<b>¡Cuidado!</b> El uso de volumen persistente tiene consecuencias que han de ser bien entendidas. ¡Si los usas mal Tails no te puede ayudar! Para saber más, mira la página<i>persistencia cifrada</i> de la documentación de Tails."
 
-#: ../lib/Tails/Persistence/Step/Bootstrap.pm:170
+#: ../lib/Tails/Persistence/Step/Bootstrap.pm:179
 msgid "Passphrase:"
 msgstr "Frase clave: "
 
-#: ../lib/Tails/Persistence/Step/Bootstrap.pm:178
+#: ../lib/Tails/Persistence/Step/Bootstrap.pm:187
 msgid "Verify Passphrase:"
 msgstr "Verificar frase clave: "
 
-#: ../lib/Tails/Persistence/Step/Bootstrap.pm:189
-#: ../lib/Tails/Persistence/Step/Bootstrap.pm:245
+#: ../lib/Tails/Persistence/Step/Bootstrap.pm:198
+#: ../lib/Tails/Persistence/Step/Bootstrap.pm:266
 msgid "Passphrase can't be empty"
 msgstr "La frase clave no puede estar vacía"
 
-#: ../lib/Tails/Persistence/Step/Bootstrap.pm:236
+#: ../lib/Tails/Persistence/Step/Bootstrap.pm:233
+msgid "Show Passphrase"
+msgstr "Mostrar frase-contraseña"
+
+#: ../lib/Tails/Persistence/Step/Bootstrap.pm:257
 msgid "Passphrases do not match"
 msgstr "Las frases clave no concuerdan"
 
-#: ../lib/Tails/Persistence/Step/Bootstrap.pm:284
+#: ../lib/Tails/Persistence/Step/Bootstrap.pm:312
 #: ../lib/Tails/Persistence/Step/Delete.pm:103
 #: ../lib/Tails/Persistence/Step/Configure.pm:181
 msgid "Failed"
 msgstr "Error"
 
-#: ../lib/Tails/Persistence/Step/Bootstrap.pm:292
+#: ../lib/Tails/Persistence/Step/Bootstrap.pm:320
 msgid "Mounting Tails persistence partition."
 msgstr "Montando la partición persistente de Tails."
 
-#: ../lib/Tails/Persistence/Step/Bootstrap.pm:295
+#: ../lib/Tails/Persistence/Step/Bootstrap.pm:323
 msgid "The Tails persistence partition will be mounted."
 msgstr "La partición persistente de Tails será montada."
 
-#: ../lib/Tails/Persistence/Step/Bootstrap.pm:304
+#: ../lib/Tails/Persistence/Step/Bootstrap.pm:332
 msgid "Correcting permissions of the persistent volume."
 msgstr "Corrigiendo permisos del volumen persistente."
 
-#: ../lib/Tails/Persistence/Step/Bootstrap.pm:307
+#: ../lib/Tails/Persistence/Step/Bootstrap.pm:335
 msgid "The permissions of the persistent volume will be corrected."
 msgstr "Los permisos del volumen persistente serán corregidos."
 
-#: ../lib/Tails/Persistence/Step/Bootstrap.pm:315
+#: ../lib/Tails/Persistence/Step/Bootstrap.pm:343
 msgid "Creating default persistence configuration."
 msgstr "Creando la configuración persistente por defecto."
 
-#: ../lib/Tails/Persistence/Step/Bootstrap.pm:318
+#: ../lib/Tails/Persistence/Step/Bootstrap.pm:346
 msgid "The default persistence configuration will be created."
 msgstr "Se va a crear la configuración permanente por defecto."
 
-#: ../lib/Tails/Persistence/Step/Bootstrap.pm:333
+#: ../lib/Tails/Persistence/Step/Bootstrap.pm:361
 msgid "Creating..."
 msgstr "Creando... "
 
-#: ../lib/Tails/Persistence/Step/Bootstrap.pm:336
+#: ../lib/Tails/Persistence/Step/Bootstrap.pm:364
 msgid "Creating the persistent volume..."
 msgstr "Creando el volumen persistente... "
 

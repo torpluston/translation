@@ -9,7 +9,7 @@
 # Антон Толмачев <a.tolmachev@richart-consalt.ru>, 2015
 # hypa <bbbalda@mail.ru>, 2012
 # Den Arefyev <>, 2012
-# Hi M1a <cloudtwelve@waifu.club>, 2019
+# kookieonarope <cloudtwelve@waifu.club>, 2019
 # joshua ridney, 2015
 # jujjer <jujjer@gmail.com>, 2013
 # Oul Gocke <beandonlybe@yandex.ru>, 2013-2014
@@ -22,9 +22,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Tor Project\n"
 "Report-Msgid-Bugs-To: Tails developers <tails@boum.org>\n"
-"POT-Creation-Date: 2019-09-14 14:38+0200\n"
-"PO-Revision-Date: 2019-10-01 08:12+0000\n"
-"Last-Translator: Hi M1a <cloudtwelve@waifu.club>\n"
+"POT-Creation-Date: 2019-10-07 08:43+0200\n"
+"PO-Revision-Date: 2019-10-07 13:48+0000\n"
+"Last-Translator: erinm\n"
 "Language-Team: Russian (http://www.transifex.com/otf/torproject/language/ru/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -202,85 +202,89 @@ msgid ""
 "Symlink into $HOME every file or directory found in the `dotfiles' directory"
 msgstr "Символьные ссылки на каждый файл или папку $HOME найдены в папке `dotfiles'"
 
-#: ../lib/Tails/Persistence/Step/Bootstrap.pm:90
+#: ../lib/Tails/Persistence/Step/Bootstrap.pm:96
 msgid "Persistence wizard - Persistent volume creation"
 msgstr "Мастер постоянного хранилища - Создание постоянного хранилища"
 
-#: ../lib/Tails/Persistence/Step/Bootstrap.pm:93
+#: ../lib/Tails/Persistence/Step/Bootstrap.pm:99
 msgid "Choose a passphrase to protect the persistent volume"
 msgstr "Выберите пароль для защиты постоянного хранилища"
 
 #. TRANSLATORS: size, device vendor, device model
-#: ../lib/Tails/Persistence/Step/Bootstrap.pm:97
+#: ../lib/Tails/Persistence/Step/Bootstrap.pm:103
 #, perl-format
 msgid ""
 "A %s persistent volume will be created on the <b>%s %s</b> device. Data on "
 "this volume will be stored in an encrypted form protected by a passphrase."
 msgstr "Постоянное хранилище %s будет создано на устройстве <b>%s %s</b>. Данные в этом хранилище будут храниться в зашифрованном виде под защитой пароля."
 
-#: ../lib/Tails/Persistence/Step/Bootstrap.pm:102
+#: ../lib/Tails/Persistence/Step/Bootstrap.pm:108
 msgid "Create"
 msgstr "Создать"
 
-#: ../lib/Tails/Persistence/Step/Bootstrap.pm:142
+#: ../lib/Tails/Persistence/Step/Bootstrap.pm:151
 msgid ""
 "<b>Beware!</b> Using persistence has consequences that must be well "
 "understood. Tails can't help you if you use it wrong! See the <i>Encrypted "
 "persistence</i> page of the Tails documentation to learn more."
 msgstr "<b>Осторожно!</b> Использование постоянного хранилища имеет последствия, которые должны быть хорошо поняты. Tails не может помочь вам, если вы используете это неправильно! Дополнительную информацию см. на странице <i>«Постоянное шифрование»</i> документации Tails."
 
-#: ../lib/Tails/Persistence/Step/Bootstrap.pm:170
+#: ../lib/Tails/Persistence/Step/Bootstrap.pm:179
 msgid "Passphrase:"
 msgstr "Ключевая фраза:"
 
-#: ../lib/Tails/Persistence/Step/Bootstrap.pm:178
+#: ../lib/Tails/Persistence/Step/Bootstrap.pm:187
 msgid "Verify Passphrase:"
 msgstr "Проверить пароль:"
 
-#: ../lib/Tails/Persistence/Step/Bootstrap.pm:189
-#: ../lib/Tails/Persistence/Step/Bootstrap.pm:245
+#: ../lib/Tails/Persistence/Step/Bootstrap.pm:198
+#: ../lib/Tails/Persistence/Step/Bootstrap.pm:266
 msgid "Passphrase can't be empty"
 msgstr "Ключевая фраза не может быть пустой"
 
-#: ../lib/Tails/Persistence/Step/Bootstrap.pm:236
+#: ../lib/Tails/Persistence/Step/Bootstrap.pm:233
+msgid "Show Passphrase"
+msgstr "Показать ключевую фразу:"
+
+#: ../lib/Tails/Persistence/Step/Bootstrap.pm:257
 msgid "Passphrases do not match"
 msgstr "Парольные фразы не совпадают"
 
-#: ../lib/Tails/Persistence/Step/Bootstrap.pm:284
+#: ../lib/Tails/Persistence/Step/Bootstrap.pm:312
 #: ../lib/Tails/Persistence/Step/Delete.pm:103
 #: ../lib/Tails/Persistence/Step/Configure.pm:181
 msgid "Failed"
 msgstr "Ошибка"
 
-#: ../lib/Tails/Persistence/Step/Bootstrap.pm:292
+#: ../lib/Tails/Persistence/Step/Bootstrap.pm:320
 msgid "Mounting Tails persistence partition."
 msgstr "Монтирование постояного хранилища Tails."
 
-#: ../lib/Tails/Persistence/Step/Bootstrap.pm:295
+#: ../lib/Tails/Persistence/Step/Bootstrap.pm:323
 msgid "The Tails persistence partition will be mounted."
 msgstr "Постоянное хранилище Tails будет смонтировано."
 
-#: ../lib/Tails/Persistence/Step/Bootstrap.pm:304
+#: ../lib/Tails/Persistence/Step/Bootstrap.pm:332
 msgid "Correcting permissions of the persistent volume."
 msgstr "Исправление прав доступа к постоянному хранилищу."
 
-#: ../lib/Tails/Persistence/Step/Bootstrap.pm:307
+#: ../lib/Tails/Persistence/Step/Bootstrap.pm:335
 msgid "The permissions of the persistent volume will be corrected."
 msgstr "Прав доступа к постоянному хранилищу будут исправлены."
 
-#: ../lib/Tails/Persistence/Step/Bootstrap.pm:315
+#: ../lib/Tails/Persistence/Step/Bootstrap.pm:343
 msgid "Creating default persistence configuration."
 msgstr "Создание конфигурации хранилища по умолчанию."
 
-#: ../lib/Tails/Persistence/Step/Bootstrap.pm:318
+#: ../lib/Tails/Persistence/Step/Bootstrap.pm:346
 msgid "The default persistence configuration will be created."
 msgstr "Будет создана конфигурация хранилища по умолчанию."
 
-#: ../lib/Tails/Persistence/Step/Bootstrap.pm:333
+#: ../lib/Tails/Persistence/Step/Bootstrap.pm:361
 msgid "Creating..."
 msgstr "Создание ..."
 
-#: ../lib/Tails/Persistence/Step/Bootstrap.pm:336
+#: ../lib/Tails/Persistence/Step/Bootstrap.pm:364
 msgid "Creating the persistent volume..."
 msgstr "Создание постоянного хранилища..."
 

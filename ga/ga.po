@@ -8,9 +8,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Tor Project\n"
 "Report-Msgid-Bugs-To: Tails developers <tails@boum.org>\n"
-"POT-Creation-Date: 2019-09-14 14:38+0200\n"
-"PO-Revision-Date: 2019-09-14 13:26+0000\n"
-"Last-Translator: carolyn <carolyn@anhalt.org>\n"
+"POT-Creation-Date: 2019-10-07 08:43+0200\n"
+"PO-Revision-Date: 2019-10-07 13:48+0000\n"
+"Last-Translator: erinm\n"
 "Language-Team: Irish (http://www.transifex.com/otf/torproject/language/ga/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -188,85 +188,89 @@ msgid ""
 "Symlink into $HOME every file or directory found in the `dotfiles' directory"
 msgstr "Déan nasc siombalach in $HOME le gach comhad nó comhadlann sa chomhadlann `dotfiles'"
 
-#: ../lib/Tails/Persistence/Step/Bootstrap.pm:90
+#: ../lib/Tails/Persistence/Step/Bootstrap.pm:96
 msgid "Persistence wizard - Persistent volume creation"
 msgstr "Treoraí na seasmhachta - Imleabhar seasmhach a chruthú"
 
-#: ../lib/Tails/Persistence/Step/Bootstrap.pm:93
+#: ../lib/Tails/Persistence/Step/Bootstrap.pm:99
 msgid "Choose a passphrase to protect the persistent volume"
 msgstr "Roghnaigh frása faire chun an t-imleabhar seasmhach a chosaint"
 
 #. TRANSLATORS: size, device vendor, device model
-#: ../lib/Tails/Persistence/Step/Bootstrap.pm:97
+#: ../lib/Tails/Persistence/Step/Bootstrap.pm:103
 #, perl-format
 msgid ""
 "A %s persistent volume will be created on the <b>%s %s</b> device. Data on "
 "this volume will be stored in an encrypted form protected by a passphrase."
 msgstr "Cruthófar imleabhar seasmhach %s ar an ngléas <b>%s %s</b>. Sábhálfar sonraí ar an imleabhar seo i bhformáid chriptithe, cosanta ag frása faire."
 
-#: ../lib/Tails/Persistence/Step/Bootstrap.pm:102
+#: ../lib/Tails/Persistence/Step/Bootstrap.pm:108
 msgid "Create"
 msgstr "Cruthaigh"
 
-#: ../lib/Tails/Persistence/Step/Bootstrap.pm:142
+#: ../lib/Tails/Persistence/Step/Bootstrap.pm:151
 msgid ""
 "<b>Beware!</b> Using persistence has consequences that must be well "
 "understood. Tails can't help you if you use it wrong! See the <i>Encrypted "
 "persistence</i> page of the Tails documentation to learn more."
 msgstr "<b>Fainic!</b> Tá sé tábhachtach na torthaí a thagann ar úsáid na seasmhachta a thuiscint go maith. Ní féidir le Tails cabhrú leat mura n-úsáideann tú mar is ceart é! Féach an leathanach <i>Seasmhacht chriptithe</i> sa doiciméadú Tails chun tuilleadh eolais a fháil."
 
-#: ../lib/Tails/Persistence/Step/Bootstrap.pm:170
+#: ../lib/Tails/Persistence/Step/Bootstrap.pm:179
 msgid "Passphrase:"
 msgstr "Frása faire:"
 
-#: ../lib/Tails/Persistence/Step/Bootstrap.pm:178
+#: ../lib/Tails/Persistence/Step/Bootstrap.pm:187
 msgid "Verify Passphrase:"
 msgstr "Deimhnigh an Frása Faire:"
 
-#: ../lib/Tails/Persistence/Step/Bootstrap.pm:189
-#: ../lib/Tails/Persistence/Step/Bootstrap.pm:245
+#: ../lib/Tails/Persistence/Step/Bootstrap.pm:198
+#: ../lib/Tails/Persistence/Step/Bootstrap.pm:266
 msgid "Passphrase can't be empty"
 msgstr "Ní cheadaítear frása faire folamh"
 
-#: ../lib/Tails/Persistence/Step/Bootstrap.pm:236
+#: ../lib/Tails/Persistence/Step/Bootstrap.pm:233
+msgid "Show Passphrase"
+msgstr "Taispeáin an Frása Faire"
+
+#: ../lib/Tails/Persistence/Step/Bootstrap.pm:257
 msgid "Passphrases do not match"
 msgstr "Ní ionann na frásaí faire"
 
-#: ../lib/Tails/Persistence/Step/Bootstrap.pm:284
+#: ../lib/Tails/Persistence/Step/Bootstrap.pm:312
 #: ../lib/Tails/Persistence/Step/Delete.pm:103
 #: ../lib/Tails/Persistence/Step/Configure.pm:181
 msgid "Failed"
 msgstr "Teipthe"
 
-#: ../lib/Tails/Persistence/Step/Bootstrap.pm:292
+#: ../lib/Tails/Persistence/Step/Bootstrap.pm:320
 msgid "Mounting Tails persistence partition."
 msgstr "An deighilt seasmhachta Tails á feistiú."
 
-#: ../lib/Tails/Persistence/Step/Bootstrap.pm:295
+#: ../lib/Tails/Persistence/Step/Bootstrap.pm:323
 msgid "The Tails persistence partition will be mounted."
 msgstr "Feisteofar an deighilt seasmhachta Tails."
 
-#: ../lib/Tails/Persistence/Step/Bootstrap.pm:304
+#: ../lib/Tails/Persistence/Step/Bootstrap.pm:332
 msgid "Correcting permissions of the persistent volume."
 msgstr "Ceadanna an imleabhair sheasmhaigh á gceartú."
 
-#: ../lib/Tails/Persistence/Step/Bootstrap.pm:307
+#: ../lib/Tails/Persistence/Step/Bootstrap.pm:335
 msgid "The permissions of the persistent volume will be corrected."
 msgstr "Ceartófar na ceadanna ar an imleabhar seasmhach."
 
-#: ../lib/Tails/Persistence/Step/Bootstrap.pm:315
+#: ../lib/Tails/Persistence/Step/Bootstrap.pm:343
 msgid "Creating default persistence configuration."
 msgstr "Cumraíocht réamhshocraithe seasmhachta á chruthú..."
 
-#: ../lib/Tails/Persistence/Step/Bootstrap.pm:318
+#: ../lib/Tails/Persistence/Step/Bootstrap.pm:346
 msgid "The default persistence configuration will be created."
 msgstr "Cruthófar an chumraíocht réamhshocraithe seasmhachta."
 
-#: ../lib/Tails/Persistence/Step/Bootstrap.pm:333
+#: ../lib/Tails/Persistence/Step/Bootstrap.pm:361
 msgid "Creating..."
 msgstr "Á chruthú..."
 
-#: ../lib/Tails/Persistence/Step/Bootstrap.pm:336
+#: ../lib/Tails/Persistence/Step/Bootstrap.pm:364
 msgid "Creating the persistent volume..."
 msgstr "An t-imleabhar seasmhach á chruthú..."
 

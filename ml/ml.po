@@ -9,9 +9,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Tor Project\n"
 "Report-Msgid-Bugs-To: Tails developers <tails@boum.org>\n"
-"POT-Creation-Date: 2019-09-14 14:38+0200\n"
-"PO-Revision-Date: 2019-10-01 14:53+0000\n"
-"Last-Translator: ameer pb <ameerpbekm@gmail.com>\n"
+"POT-Creation-Date: 2019-10-07 08:43+0200\n"
+"PO-Revision-Date: 2019-10-07 13:48+0000\n"
+"Last-Translator: carolyn <carolyn@anhalt.org>\n"
 "Language-Team: Malayalam (http://www.transifex.com/otf/torproject/language/ml/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -189,85 +189,89 @@ msgid ""
 "Symlink into $HOME every file or directory found in the `dotfiles' directory"
 msgstr "ഡോട്ട് ഫയൽസ് ഡയറക്ടറിയിൽ $ഹോം  കാണുന്ന എല്ലാ ഫയലുകളിലേക്കും ഡയറക്ടറികളിലേക്കും സിംലിങ്ക് ചെയ്യുക "
 
-#: ../lib/Tails/Persistence/Step/Bootstrap.pm:90
+#: ../lib/Tails/Persistence/Step/Bootstrap.pm:96
 msgid "Persistence wizard - Persistent volume creation"
 msgstr "പെർസിസ്റ്റന്റ് വിസാർഡ് - പെർസിസ്റ്റന്റ്  വോളിയം നിർമ്മാണം "
 
-#: ../lib/Tails/Persistence/Step/Bootstrap.pm:93
+#: ../lib/Tails/Persistence/Step/Bootstrap.pm:99
 msgid "Choose a passphrase to protect the persistent volume"
 msgstr "പെർസിസ്റ്റന്റ് വോളിയം സംരക്ഷിതമാക്കാൻ ഒരു രഹസ്യ വാചകം തിരഞ്ഞെടുക്കുക "
 
 #. TRANSLATORS: size, device vendor, device model
-#: ../lib/Tails/Persistence/Step/Bootstrap.pm:97
+#: ../lib/Tails/Persistence/Step/Bootstrap.pm:103
 #, perl-format
 msgid ""
 "A %s persistent volume will be created on the <b>%s %s</b> device. Data on "
 "this volume will be stored in an encrypted form protected by a passphrase."
 msgstr "ഒരു %sപെർസിസ്റ്റന്റ് വോളിയം ഡിവൈസിൽ <b>%s%s</b>നിര്മിക്കപെടും . ഇതിൽ ഉള്ള ഡാറ്റകൾ ഒരു രഹസ്യ വാചകം ഉപയോഗിച്ച് എൻക്രിപ്ട് ചെയ്തു സുരക്ഷിതമാക്കി സൂക്ഷിക്കപ്പെടും "
 
-#: ../lib/Tails/Persistence/Step/Bootstrap.pm:102
+#: ../lib/Tails/Persistence/Step/Bootstrap.pm:108
 msgid "Create"
 msgstr "ഉണ്ടാക്കുക "
 
-#: ../lib/Tails/Persistence/Step/Bootstrap.pm:142
+#: ../lib/Tails/Persistence/Step/Bootstrap.pm:151
 msgid ""
 "<b>Beware!</b> Using persistence has consequences that must be well "
 "understood. Tails can't help you if you use it wrong! See the <i>Encrypted "
 "persistence</i> page of the Tails documentation to learn more."
 msgstr "<b>സൂക്ഷിക്കുക!</b> പെർസിസ്റ്റൻസ് ഉപയോഗിക്കുമ്പോൾ ഉള്ള അനന്തരഫലങ്ങൾ സ്വയം മനസ്സിലാക്കാക്കിയിരിക്കണം . നിങ്ങൾ തെറ്റായ രീതിയിൽ ഉപയോഗിച്ചാൽ ടൈൽസിനു സഹായിക്കാനകില്ല ! കൂടുതൽ അറിയാനായി ടൈൽസിന്റെ <i>എൻക്രിപ്റ്റഡ് പെർസിസ്റ്റൻസ് </i>ഡോക്യൂമെന്റഷന് കാണുക ."
 
-#: ../lib/Tails/Persistence/Step/Bootstrap.pm:170
+#: ../lib/Tails/Persistence/Step/Bootstrap.pm:179
 msgid "Passphrase:"
 msgstr "താങ്കളുടെ രഹസ്യ വാചകം :"
 
-#: ../lib/Tails/Persistence/Step/Bootstrap.pm:178
+#: ../lib/Tails/Persistence/Step/Bootstrap.pm:187
 msgid "Verify Passphrase:"
 msgstr "രഹസ്യ വാചകം  നിര്‍ണ്ണയിക്കുക: "
 
-#: ../lib/Tails/Persistence/Step/Bootstrap.pm:189
-#: ../lib/Tails/Persistence/Step/Bootstrap.pm:245
+#: ../lib/Tails/Persistence/Step/Bootstrap.pm:198
+#: ../lib/Tails/Persistence/Step/Bootstrap.pm:266
 msgid "Passphrase can't be empty"
 msgstr "രഹസ്യ വാചകം ശൂന്യമായിരിക്കാൻ സാധ്യമല്ല "
 
-#: ../lib/Tails/Persistence/Step/Bootstrap.pm:236
+#: ../lib/Tails/Persistence/Step/Bootstrap.pm:233
+msgid "Show Passphrase"
+msgstr ""
+
+#: ../lib/Tails/Persistence/Step/Bootstrap.pm:257
 msgid "Passphrases do not match"
 msgstr "രഹസ്യ വാചകം  തമ്മിൽ ചേരുന്നില്ല "
 
-#: ../lib/Tails/Persistence/Step/Bootstrap.pm:284
+#: ../lib/Tails/Persistence/Step/Bootstrap.pm:312
 #: ../lib/Tails/Persistence/Step/Delete.pm:103
 #: ../lib/Tails/Persistence/Step/Configure.pm:181
 msgid "Failed"
 msgstr "പരാജയപ്പെട്ടു"
 
-#: ../lib/Tails/Persistence/Step/Bootstrap.pm:292
+#: ../lib/Tails/Persistence/Step/Bootstrap.pm:320
 msgid "Mounting Tails persistence partition."
 msgstr "ടൈൽ പെർസിസ്റ്റന്റ് പാർട്ടീഷൻ മൗണ്ട്  ചെയ്യുന്നു ."
 
-#: ../lib/Tails/Persistence/Step/Bootstrap.pm:295
+#: ../lib/Tails/Persistence/Step/Bootstrap.pm:323
 msgid "The Tails persistence partition will be mounted."
 msgstr "ടൈൽ പെർസിസ്റ്റന്റ് പാർട്ടീഷൻ മൗണ്ട്  ചെയ്യുന്നതായിരിക്കും."
 
-#: ../lib/Tails/Persistence/Step/Bootstrap.pm:304
+#: ../lib/Tails/Persistence/Step/Bootstrap.pm:332
 msgid "Correcting permissions of the persistent volume."
 msgstr "പെർസിസ്റ്റന്റ് വോളിയത്തിന്റെ അനുവദനീയത ശെരിയാക്കുന്നു ."
 
-#: ../lib/Tails/Persistence/Step/Bootstrap.pm:307
+#: ../lib/Tails/Persistence/Step/Bootstrap.pm:335
 msgid "The permissions of the persistent volume will be corrected."
 msgstr "പെർസിസ്റ്റന്റ് വോളിയത്തിന്റെ അനുവദനീയത ശെരിയാക്കുന്നതായിരിക്കും ."
 
-#: ../lib/Tails/Persistence/Step/Bootstrap.pm:315
+#: ../lib/Tails/Persistence/Step/Bootstrap.pm:343
 msgid "Creating default persistence configuration."
 msgstr "സാധാരണയുള്ള പെർസിസ്റ്റന്റ് സജ്ജീകരണങ്ങൾ നിർമിക്കുന്നു ."
 
-#: ../lib/Tails/Persistence/Step/Bootstrap.pm:318
+#: ../lib/Tails/Persistence/Step/Bootstrap.pm:346
 msgid "The default persistence configuration will be created."
 msgstr "സാധാരണയുള്ള പെർസിസ്റ്റന്റ് സജ്ജീകരണങ്ങൾ നിർമിക്കുന്നതായിരിക്കും ."
 
-#: ../lib/Tails/Persistence/Step/Bootstrap.pm:333
+#: ../lib/Tails/Persistence/Step/Bootstrap.pm:361
 msgid "Creating..."
 msgstr "നിര്‍മ്മിക്കുന്നു..."
 
-#: ../lib/Tails/Persistence/Step/Bootstrap.pm:336
+#: ../lib/Tails/Persistence/Step/Bootstrap.pm:364
 msgid "Creating the persistent volume..."
 msgstr "പെർസിസ്റ്റന്റ് വോളിയo നിര്‍മ്മിക്കുന്നു..."
 
