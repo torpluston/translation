@@ -1,12 +1,12 @@
-# Tor Outreach Material 2019-2020
+# Tor Outreach資料2019-2020
 
-# 1. TOR FOR PRIVACY 
+# 1.プライバシーのためのTor
 
-### Privacy is a human right
+### プライバシーは人権です
 
-Like many of us, Aleisha spends most of her time online--connecting with friends, posting on social media, and browsing the web.
+私たちの多くと同様に、Aleishaはほとんどの時間をオンラインで過ごしています。友人と連絡、ソーシャルメディアへの投稿、Webの閲覧です。
 
-But lately, she's noticed that advertisements related to her previous searches are following her around online.
+しかし最近、彼女は以前の検索に関連する広告が彼女をオンラインで追跡していることに気付きました。
 
 This feels so invasive that she does some research on online ads and learns that it's not just advertisers tracking her but also her ISP, analytics companies, social media platforms, and more.
 
@@ -143,20 +143,20 @@ We need your help to make Tor more usable and secure for people everywhere.
 
 You can volunteer with Tor by writing code, running a relay, creating documentation, offering user support, or telling people in your community about Tor.
 
-The Tor community is governed by a code of conduct, and we outline our set of promises to the community in our social contract. 
+Torコミュニティは行動規範によって管理されており、社会契約でコミュニティに対する一連の約束をまとめています。
 
-Learn more about Tor by visiting our website, our wiki, finding us on IRC, joining one of our mailing lists, or signing up for Tor News at newsletter.torproject.org.
+Torの詳細については、私たちのWebサイト、またはWikiをご覧になるか、IRCで検索、メーリングリストへの参加、またはnewsletter.torproject.orgでのTorニュースへのサインアップしてください。
 
 
-## 8. Download Tor
+## 8. Torをダウンロード
 
-Tor for Desktop
+デスクトップ用Tor
 torproject.org/download
 
-TOR ON MOBILE
+モバイル上のTor
 ### Android 
-Tor Browser for Android is available from GooglePlay.
+Android用Torブラウザは、GooglePlayから入手できます。
 
 ### iOS
-Onion Browser, developed by M. Tigas, is the only browser we recommend for iOS.
+M. Tigasが開発したOnion Browserは、iOSに推奨される唯一のブラウザーです。
 
