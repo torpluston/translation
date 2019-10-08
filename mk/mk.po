@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: Tor Project\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-09-14 14:48+0200\n"
-"PO-Revision-Date: 2019-10-08 23:15+0000\n"
+"PO-Revision-Date: 2019-10-08 23:37+0000\n"
 "Last-Translator: Zarko Gjurov <zarkogjurov@gmail.com>\n"
 "Language-Team: Macedonian (http://www.transifex.com/otf/torproject/language/mk/)\n"
 "MIME-Version: 1.0\n"
@@ -63,12 +63,12 @@ msgstr "Непознат ISO, се прескокнува верификациј
 msgid ""
 "Not enough free space on device.\n"
 "%dMB ISO + %dMB overlay > %dMB free space"
-msgstr "Немате доволно простор на уредот. \n%dМБ ISO + %dMБ пренесување на кодот во RAM > %dМБ слободен простор"
+msgstr "Немате доволно простор на уредот. \n%dМБ ISO + %dMБ пренесување во RAM меморија> %dМБ слободен простор"
 
 #: ../tails_installer/creator.py:360
 #, python-format
 msgid "Creating %sMB persistent overlay"
-msgstr "Се креира %s МБ простор на екстерниот уред."
+msgstr "Создавање %s МБ постојан простор"
 
 #: ../tails_installer/creator.py:421
 #, python-format
@@ -77,7 +77,7 @@ msgstr "Не може да се копира %(infile)s во %(outfile)s : %(mes
 
 #: ../tails_installer/creator.py:435
 msgid "Removing existing Live OS"
-msgstr "Се отстранува постоечката, екстерно поставена компјутерска инсталација."
+msgstr "Се отстранува постоечкиот Жив Оперативен систем"
 
 #: ../tails_installer/creator.py:444 ../tails_installer/creator.py:457
 #, python-format
@@ -87,12 +87,12 @@ msgstr "Не е можно да се примени командата за пр
 #: ../tails_installer/creator.py:450
 #, python-format
 msgid "Unable to remove file from previous LiveOS: %(message)s"
-msgstr "Не е можно да се отстрани фајлот од претходно екстерно поставената компјутерска инсталација.: %(message)s"
+msgstr "Не е можно да се отстрани датотеката од претходниот Жив Оперативен систем: %(message)s"
 
 #: ../tails_installer/creator.py:464
 #, python-format
 msgid "Unable to remove directory from previous LiveOS: %(message)s"
-msgstr "Не е можно да се отстрани дирекцијата од претходно екстерно поставената компјутерска инсталација: %(message)s"
+msgstr "Не е можно да се отстрани директориумот од претходниот Жив Оперативен систем: %(message)s"
 
 #: ../tails_installer/creator.py:512
 #, python-format
@@ -102,37 +102,37 @@ msgstr "Уредот не е пронајден %s"
 #: ../tails_installer/creator.py:713
 #, python-format
 msgid "Unable to write on %(device)s, skipping."
-msgstr "Не може да се впише на %(device)s, се прескокнува."
+msgstr "Не може да се запише на %(device)s, се прескокнува."
 
 #: ../tails_installer/creator.py:743
 #, python-format
 msgid ""
 "Some partitions of the target device %(device)s are mounted. They will be "
 "unmounted before starting the installation process."
-msgstr "Некои партиции на посакуваниот уред %(device)s се достапни на фајл системот. Пристапот до нив ќе биде отстранет пред да започне инсталацијата."
+msgstr "Некои партиции на целниот уред %(device)s се монтирани. Тие ќе бидат демонтирани бред почетокот на инсталацијата."
 
 #: ../tails_installer/creator.py:786 ../tails_installer/creator.py:1010
 msgid "Unknown filesystem.  Your device may need to be reformatted."
-msgstr "Непознат фајл систем. Вашиот уред можеби ќе треба да се форматира."
+msgstr "Непозната системска датотека. Вашиот уред можеби ќе треба да се пре-форматира."
 
 #: ../tails_installer/creator.py:789 ../tails_installer/creator.py:1013
 #, python-format
 msgid "Unsupported filesystem: %s"
-msgstr "Неподдржан фајл систем: %s"
+msgstr "Неподдржана системска датотека: %s"
 
 #: ../tails_installer/creator.py:807
 #, python-format
 msgid "Unknown GLib exception while trying to mount device: %(message)s"
-msgstr "Непознат GLib исклучок во обидот да се пристапи до уредот: %(message)s"
+msgstr "Непознат GLib исклучок во обидот да се пристапи до монтирачкиот уред: %(message)s"
 
 #: ../tails_installer/creator.py:812
 #, python-format
 msgid "Unable to mount device: %(message)s"
-msgstr "Не е можно да се пристапи до уредот: %(message)s"
+msgstr "Не може да се монтира уредот: %(message)s"
 
 #: ../tails_installer/creator.py:817
 msgid "No mount points found"
-msgstr "Не се пронајдени пристапни точки."
+msgstr "Не се пронајдени точки за монтирање"
 
 #: ../tails_installer/creator.py:828
 #, python-format
@@ -142,17 +142,17 @@ msgstr "Внесување unmount_device за '%(device)s'"
 #: ../tails_installer/creator.py:838
 #, python-format
 msgid "Unmounting mounted filesystems on '%(device)s'"
-msgstr "Отстранување на пристапот до присутниот фајл систем на '%(device)s'"
+msgstr "Демонтирање на монтираната системска датотека на '%(device)s'"
 
 #: ../tails_installer/creator.py:842
 #, python-format
 msgid "Unmounting '%(udi)s' on '%(device)s'"
-msgstr "Отстранување пристап до '%(udi)s' на '%(device)s'"
+msgstr "Демонтирање на '%(udi)s' на '%(device)s'"
 
 #: ../tails_installer/creator.py:853
 #, python-format
 msgid "Mount %s exists after unmounting"
-msgstr "Mount %s постои после unmounting"
+msgstr "Монтирањето на %s постои после демонтирањето"
 
 #: ../tails_installer/creator.py:866
 #, python-format
@@ -166,7 +166,7 @@ msgstr "Неподдржан уред '%(device)s', ве молиме прија
 
 #: ../tails_installer/creator.py:998
 msgid "Trying to continue anyway."
-msgstr "Се обидува да продолжи."
+msgstr "Сепак се обидува да продолжи."
 
 #: ../tails_installer/creator.py:1007 ../tails_installer/creator.py:1405
 msgid "Verifying filesystem..."
@@ -175,11 +175,11 @@ msgstr "Верификација на системската датотека...
 #: ../tails_installer/creator.py:1031
 #, python-format
 msgid "Unable to change volume label: %(message)s"
-msgstr ""
+msgstr "Не може да биде променета ознаката на просторот: %(message)s"
 
 #: ../tails_installer/creator.py:1037 ../tails_installer/creator.py:1440
 msgid "Installing bootloader..."
-msgstr ""
+msgstr "Инсталирање на бутирачки вчитувач..."
 
 #: ../tails_installer/creator.py:1064
 #, python-format
@@ -194,11 +194,11 @@ msgstr "Отстранување %(file)s"
 #: ../tails_installer/creator.py:1186
 #, python-format
 msgid "%s already bootable"
-msgstr "%s веќе е бутабилен"
+msgstr "%s е веќе бутабилен"
 
 #: ../tails_installer/creator.py:1206
 msgid "Unable to find partition"
-msgstr "Патицијата не можеше да биде пронајдена"
+msgstr "Партицијата не можеше да биде пронајдена"
 
 #: ../tails_installer/creator.py:1229
 #, python-format
@@ -222,7 +222,7 @@ msgstr "Отпакуваниот MBR од %(path)sне можеше да бид�
 #: ../tails_installer/creator.py:1319 ../tails_installer/creator.py:1320
 #, python-format
 msgid "Resetting Master Boot Record of %s"
-msgstr ""
+msgstr "Повторно поставување на Главниот Бутирачки Запис од %s"
 
 #: ../tails_installer/creator.py:1325
 msgid "Drive is a loopback, skipping MBR reset"
