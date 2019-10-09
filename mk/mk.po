@@ -1,0 +1,536 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
+# l l <potpit449@gmail.com>, 2018
+# Matej Plavevski <matej.plavevski+github@gmail.com>, 2019
+# Zarko Gjurov <zarkogjurov@gmail.com>, 2019
+msgid ""
+msgstr ""
+"Project-Id-Version: Tor Project\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-09-14 14:48+0200\n"
+"PO-Revision-Date: 2019-10-08 23:59+0000\n"
+"Last-Translator: Zarko Gjurov <zarkogjurov@gmail.com>\n"
+"Language-Team: Macedonian (http://www.transifex.com/otf/torproject/language/mk/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: mk\n"
+"Plural-Forms: nplurals=2; plural=(n % 10 == 1 && n % 100 != 11) ? 0 : 1;\n"
+
+#: ../tails_installer/creator.py:100
+msgid "You must run this application as root"
+msgstr "Мора да ја стартувате апликацијата како администратор"
+
+#: ../tails_installer/creator.py:146
+msgid "Extracting live image to the target device..."
+msgstr "Отпакување на жива слика на целниот уред..."
+
+#: ../tails_installer/creator.py:153
+#, python-format
+msgid "Wrote to device at %(speed)d MB/sec"
+msgstr "Напишано на уредот со %(speed)d МБ/сек"
+
+#: ../tails_installer/creator.py:296
+#, python-format
+msgid ""
+"There was a problem executing the following command: `%(command)s`.\n"
+"A more detailed error log has been written to '%(filename)s'."
+msgstr "Се случи проблем при извршување на следната команда: `%(command)s`.\nПодетално објаснување има во '%(filename)s'."
+
+#: ../tails_installer/creator.py:315
+msgid "Verifying SHA1 checksum of LiveCD image..."
+msgstr "Верификување на SHA1 контролна сума за проверка на грешки во слика на ЖивДиск..."
+
+#: ../tails_installer/creator.py:319
+msgid "Verifying SHA256 checksum of LiveCD image..."
+msgstr "Верификување на SHA256 контролната сума за проверка на грешки во слика на ЖивДиск..."
+
+#: ../tails_installer/creator.py:335
+msgid ""
+"Error: The SHA1 of your Live CD is invalid.  You can run this program with "
+"the --noverify argument to bypass this verification check."
+msgstr "Грешка: SHA1 контролната сума на вашиот ЖивДиск е невалидна. Може да ја вклучите оваа програма со --noverify аргументот за да ја прескокнете оваа верификација."
+
+#: ../tails_installer/creator.py:341
+msgid "Unknown ISO, skipping checksum verification"
+msgstr "Непознат ISO, се прескокнува верификацијата со контролна сума"
+
+#: ../tails_installer/creator.py:353
+#, python-format
+msgid ""
+"Not enough free space on device.\n"
+"%dMB ISO + %dMB overlay > %dMB free space"
+msgstr "Немате доволно простор на уредот. \n%dМБ ISO + %dMБ пренесување во RAM меморија> %dМБ слободен простор"
+
+#: ../tails_installer/creator.py:360
+#, python-format
+msgid "Creating %sMB persistent overlay"
+msgstr "Создавање %s МБ постојан простор"
+
+#: ../tails_installer/creator.py:421
+#, python-format
+msgid "Unable to copy %(infile)s to %(outfile)s: %(message)s"
+msgstr "Не може да се копира %(infile)s во %(outfile)s : %(message)s"
+
+#: ../tails_installer/creator.py:435
+msgid "Removing existing Live OS"
+msgstr "Се отстранува постоечкиот Жив Оперативен систем"
+
+#: ../tails_installer/creator.py:444 ../tails_installer/creator.py:457
+#, python-format
+msgid "Unable to chmod %(file)s: %(message)s"
+msgstr "Не е можно да се примени командата за промена на дозволa за пристап %(file)s : %(message)s"
+
+#: ../tails_installer/creator.py:450
+#, python-format
+msgid "Unable to remove file from previous LiveOS: %(message)s"
+msgstr "Не е можно да се отстрани датотеката од претходниот Жив Оперативен систем: %(message)s"
+
+#: ../tails_installer/creator.py:464
+#, python-format
+msgid "Unable to remove directory from previous LiveOS: %(message)s"
+msgstr "Не е можно да се отстрани директориумот од претходниот Жив Оперативен систем: %(message)s"
+
+#: ../tails_installer/creator.py:512
+#, python-format
+msgid "Cannot find device %s"
+msgstr "Уредот не е пронајден %s"
+
+#: ../tails_installer/creator.py:713
+#, python-format
+msgid "Unable to write on %(device)s, skipping."
+msgstr "Не може да се запише на %(device)s, се прескокнува."
+
+#: ../tails_installer/creator.py:743
+#, python-format
+msgid ""
+"Some partitions of the target device %(device)s are mounted. They will be "
+"unmounted before starting the installation process."
+msgstr "Некои партиции на целниот уред %(device)s се монтирани. Тие ќе бидат демонтирани бред почетокот на инсталацијата."
+
+#: ../tails_installer/creator.py:786 ../tails_installer/creator.py:1010
+msgid "Unknown filesystem.  Your device may need to be reformatted."
+msgstr "Непозната системска датотека. Вашиот уред можеби ќе треба да се пре-форматира."
+
+#: ../tails_installer/creator.py:789 ../tails_installer/creator.py:1013
+#, python-format
+msgid "Unsupported filesystem: %s"
+msgstr "Неподдржана системска датотека: %s"
+
+#: ../tails_installer/creator.py:807
+#, python-format
+msgid "Unknown GLib exception while trying to mount device: %(message)s"
+msgstr "Непознат GLib исклучок во обидот да се пристапи до монтирачкиот уред: %(message)s"
+
+#: ../tails_installer/creator.py:812
+#, python-format
+msgid "Unable to mount device: %(message)s"
+msgstr "Не може да се монтира уредот: %(message)s"
+
+#: ../tails_installer/creator.py:817
+msgid "No mount points found"
+msgstr "Не се пронајдени точки за монтирање"
+
+#: ../tails_installer/creator.py:828
+#, python-format
+msgid "Entering unmount_device for '%(device)s'"
+msgstr "Внесување unmount_device за '%(device)s'"
+
+#: ../tails_installer/creator.py:838
+#, python-format
+msgid "Unmounting mounted filesystems on '%(device)s'"
+msgstr "Демонтирање на монтираната системска датотека на '%(device)s'"
+
+#: ../tails_installer/creator.py:842
+#, python-format
+msgid "Unmounting '%(udi)s' on '%(device)s'"
+msgstr "Демонтирање на '%(udi)s' на '%(device)s'"
+
+#: ../tails_installer/creator.py:853
+#, python-format
+msgid "Mount %s exists after unmounting"
+msgstr "Монтирањето на %s постои после демонтирањето"
+
+#: ../tails_installer/creator.py:866
+#, python-format
+msgid "Partitioning device %(device)s"
+msgstr "Партиционирање на уредот %(device)s"
+
+#: ../tails_installer/creator.py:995
+#, python-format
+msgid "Unsupported device '%(device)s', please report a bug."
+msgstr "Неподдржан уред '%(device)s', ве молиме пријавете грешка."
+
+#: ../tails_installer/creator.py:998
+msgid "Trying to continue anyway."
+msgstr "Сепак се обидува да продолжи."
+
+#: ../tails_installer/creator.py:1007 ../tails_installer/creator.py:1405
+msgid "Verifying filesystem..."
+msgstr "Верификација на системската датотека..."
+
+#: ../tails_installer/creator.py:1031
+#, python-format
+msgid "Unable to change volume label: %(message)s"
+msgstr "Не може да биде променета ознаката на просторот: %(message)s"
+
+#: ../tails_installer/creator.py:1037 ../tails_installer/creator.py:1440
+msgid "Installing bootloader..."
+msgstr "Инсталирање на бутирачки вчитувач..."
+
+#: ../tails_installer/creator.py:1064
+#, python-format
+msgid "Could not find the '%s' COM32 module"
+msgstr "'%s'COM32 модулот не можеше да биде пронајден"
+
+#: ../tails_installer/creator.py:1072 ../tails_installer/creator.py:1458
+#, python-format
+msgid "Removing %(file)s"
+msgstr "Отстранување %(file)s"
+
+#: ../tails_installer/creator.py:1186
+#, python-format
+msgid "%s already bootable"
+msgstr "%s е веќе бутабилен"
+
+#: ../tails_installer/creator.py:1206
+msgid "Unable to find partition"
+msgstr "Партицијата не можеше да биде пронајдена"
+
+#: ../tails_installer/creator.py:1229
+#, python-format
+msgid "Formatting %(device)s as FAT32"
+msgstr "Форматирање на %(device)sкако FAT32"
+
+#: ../tails_installer/creator.py:1289
+msgid "Could not find syslinux' gptmbr.bin"
+msgstr "syslinux' gptmbr.bin не можеше да биде пронајден"
+
+#: ../tails_installer/creator.py:1302
+#, python-format
+msgid "Reading extracted MBR from %s"
+msgstr "Вчитување на отпакуваниот MBR од %s"
+
+#: ../tails_installer/creator.py:1306
+#, python-format
+msgid "Could not read the extracted MBR from %(path)s"
+msgstr "Отпакуваниот MBR од %(path)sне можеше да биде вчитан"
+
+#: ../tails_installer/creator.py:1319 ../tails_installer/creator.py:1320
+#, python-format
+msgid "Resetting Master Boot Record of %s"
+msgstr "Повторно поставување на MBR - Главниот Бутирачки Запис од %s"
+
+#: ../tails_installer/creator.py:1325
+msgid "Drive is a loopback, skipping MBR reset"
+msgstr "Уредот е повратна врска, прескокнување MBR ресетирањето"
+
+#: ../tails_installer/creator.py:1329 ../tails_installer/creator.py:1589
+#, python-format
+msgid "Calculating the SHA1 of %s"
+msgstr "Пресметување на SHA1 од %s"
+
+#: ../tails_installer/creator.py:1354
+msgid "Synchronizing data on disk..."
+msgstr "Синхронизирање на податоците на дискот..."
+
+#: ../tails_installer/creator.py:1397
+msgid "Error probing device"
+msgstr "Грешка при испитувањето на уредот"
+
+#: ../tails_installer/creator.py:1399
+msgid "Unable to find any supported device"
+msgstr "Не можеше да биде пронајден ниту еден поддржан уред"
+
+#: ../tails_installer/creator.py:1409
+msgid ""
+"Make sure your USB key is plugged in and formatted with the FAT filesystem"
+msgstr "Осигурајте се дека вашиот USB клуч е приклучен и форматиран со FAT системска датотека"
+
+#: ../tails_installer/creator.py:1412
+#, python-format
+msgid ""
+"Unsupported filesystem: %s\n"
+"Please backup and format your USB key with the FAT filesystem."
+msgstr "Неподдржана системска датотека: %s\nВе молиме направете резервна копија и форматирајте го вашиот USB клуч со FAT системска датотека."
+
+#: ../tails_installer/creator.py:1481
+msgid ""
+"Unable to get Win32_LogicalDisk; win32com query did not return any results"
+msgstr "Win32_LogicalDisk не можеше да биде пронајден: win32com барањето не врати никакви резултати"
+
+#: ../tails_installer/creator.py:1536
+msgid "Cannot find"
+msgstr "Не може да биде пронајдено"
+
+#: ../tails_installer/creator.py:1537
+msgid ""
+"Make sure to extract the entire tails-installer zip file before running this"
+" program."
+msgstr "Осигурете дека сте ја отпакувале целата tails-installer zip датотека пред да ја стартувате оваа програма."
+
+#: ../tails_installer/gui.py:69
+#, python-format
+msgid "Unknown release: %s"
+msgstr "Непознато издание: %s"
+
+#: ../tails_installer/gui.py:73
+#, python-format
+msgid "Downloading %s..."
+msgstr "Преземање на %s..."
+
+#: ../tails_installer/gui.py:213
+msgid ""
+"Error: Cannot set the label or obtain the UUID of your device.  Unable to "
+"continue."
+msgstr "Грешка: Не можеше да се постави ознака или да се добие UUID за твојот уред. Не може да продолжи."
+
+#: ../tails_installer/gui.py:260
+#, python-format
+msgid "Installation complete! (%s)"
+msgstr "Инсталацијата заврши! (%s)"
+
+#: ../tails_installer/gui.py:265
+msgid "Tails installation failed!"
+msgstr "Инсталацијата на Tails не успеа!"
+
+#: ../tails_installer/gui.py:369
+msgid ""
+"Warning: This tool needs to be run as an Administrator. To do this, right "
+"click on the icon and open the Properties. Under the Compatibility tab, "
+"check the \"Run this program as an administrator\" box."
+msgstr "Предупредување: Оваа алатка треба да биде стартувана како Администратор. За да го направите ова, десен клик на иконата и отворете Својства. Под табот Компатибилност, проверете го \"Стартувај ја оваа програма како администратор\" полето."
+
+#: ../tails_installer/gui.py:381
+msgid "Tails Installer"
+msgstr "Tails Installer"
+
+#: ../tails_installer/gui.py:441
+msgid "Tails Installer is deprecated in Debian"
+msgstr "Tails Installer е застарен во Debian"
+
+#: ../tails_installer/gui.py:443
+msgid ""
+"To install Tails from scratch, use GNOME Disks instead.\n"
+"<a href='https://tails.boum.org/install/linux/usb-overview'>See the installation instructions</a>\n"
+"\n"
+"To upgrade Tails, do an automatic upgrade from Tails or a manual upgrade from Debian using a second USB stick.\n"
+"<a href='https://tails.boum.org/upgrade/tails-overview'>See the manual upgrade instructions</a>"
+msgstr "За да го инсталирате Tails од почеток, користете GNOME дискови.\n<a href='https://tails.boum.org/install/linux/usb-overview'>Видете ги инструкциите за инсталација</a>\n\nЗа да го надградите Tails, направете автоматска надградба од Tails или рачна надградаба од Debian со користење на втор USB стик.\n<a href='https://tails.boum.org/upgrade/tails-overview'>Видете ги инструкциите за рачна надградба</a>"
+
+#: ../tails_installer/gui.py:450 ../data/tails-installer.ui.h:2
+msgid "Clone the current Tails"
+msgstr "Клонирај го моменталниот Tails"
+
+#: ../tails_installer/gui.py:457 ../data/tails-installer.ui.h:3
+msgid "Use a downloaded Tails ISO image"
+msgstr "Користи преземена Tails ISO слика"
+
+#: ../tails_installer/gui.py:494 ../tails_installer/gui.py:815
+msgid "Upgrade"
+msgstr "Надградба"
+
+#: ../tails_installer/gui.py:496
+msgid "Manual Upgrade Instructions"
+msgstr "Инструкции за рачна надградба"
+
+#: ../tails_installer/gui.py:498
+msgid "https://tails.boum.org/upgrade/"
+msgstr "https://tails.boum.org/upgrade/"
+
+#: ../tails_installer/gui.py:506 ../tails_installer/gui.py:727
+#: ../tails_installer/gui.py:792 ../data/tails-installer.ui.h:7
+msgid "Install"
+msgstr "Инсталирај"
+
+#: ../tails_installer/gui.py:509 ../data/tails-installer.ui.h:1
+msgid "Installation Instructions"
+msgstr "Инструкции за инсталација"
+
+#: ../tails_installer/gui.py:511
+msgid "https://tails.boum.org/install/"
+msgstr "https://tails.boum.org/install/"
+
+#: ../tails_installer/gui.py:517
+#, python-format
+msgid "%(size)s %(vendor)s %(model)s device (%(device)s)"
+msgstr "%(size)s %(vendor)s %(model)s уред (%(device)s)"
+
+#: ../tails_installer/gui.py:529
+msgid "No ISO image selected"
+msgstr "Нема селектирано ISO слика"
+
+#: ../tails_installer/gui.py:530
+msgid "Please select a Tails ISO image."
+msgstr "Ве молиме изберете Tails ISO слика."
+
+#: ../tails_installer/gui.py:572
+msgid "No device suitable to install Tails could be found"
+msgstr "Не можеше да биде пронајден соодветен уред за да биде инсталиран Tails"
+
+#: ../tails_installer/gui.py:574
+#, python-format
+msgid "Please plug a USB flash drive or SD card of at least %0.1f GB."
+msgstr "Ве молиме вклучете USB флеш уред или SD картичка од најмалку %0.1f ГБ."
+
+#: ../tails_installer/gui.py:608
+#, python-format
+msgid ""
+"The USB stick \"%(pretty_name)s\" is configured as non-removable by its "
+"manufacturer and Tails will fail to start from it. Please try installing on "
+"a different model."
+msgstr "USB стикот \"%(pretty_name)s\" е конфигуриран како не-отстранувачки од неговиот производител и Tails нема да може да се стартува од него, Ве молиме обидете се со инсталирање на друг модел."
+
+#: ../tails_installer/gui.py:618
+#, python-format
+msgid ""
+"The device \"%(pretty_name)s\" is too small to install Tails (at least "
+"%(size)s GB is required)."
+msgstr "Уредот \"%(pretty_name)s\" е премногу мал за да се инсталира Tails (потребно е најмалку %(size)s ГБ)"
+
+#: ../tails_installer/gui.py:631
+#, python-format
+msgid ""
+"To upgrade device \"%(pretty_name)s\" from this Tails, you need to use a downloaded Tails ISO image:\n"
+"https://tails.boum.org/install/download"
+msgstr "За да го надградите уредот \"%(pretty_name)s\" од овој Tails, треба да користите преземена Tails ISO слика:\nhttps://tails.boum.org/install/download"
+
+#: ../tails_installer/gui.py:652
+msgid "An error happened while installing Tails"
+msgstr "Се случи грешка за време на инсталацијата на Tails"
+
+#: ../tails_installer/gui.py:664
+msgid "Refreshing releases..."
+msgstr "Освежување на изданијата..."
+
+#: ../tails_installer/gui.py:669
+msgid "Releases updated!"
+msgstr "Изданијата се ажурирани!"
+
+#: ../tails_installer/gui.py:722
+msgid "Installation complete!"
+msgstr "Инсталацијата заврши!"
+
+#: ../tails_installer/gui.py:738
+msgid "Cancel"
+msgstr "Откажи"
+
+#: ../tails_installer/gui.py:774
+msgid "Unable to mount device"
+msgstr "Уредот не можеше да биде монтиран"
+
+#: ../tails_installer/gui.py:781 ../tails_installer/gui.py:814
+msgid "Confirm the target USB stick"
+msgstr "Потврди го избраниот USB стик"
+
+#: ../tails_installer/gui.py:782
+#, python-format
+msgid ""
+"%(size)s %(vendor)s %(model)s device (%(device)s)\n"
+"\n"
+"All data on this USB stick will be lost."
+msgstr "%(size)s%(vendor)s%(model)s уред (%(device)s)\n\nСите податоци на овој USB стик ќе бидат изгубени."
+
+#: ../tails_installer/gui.py:801
+#, python-format
+msgid "%(parent_size)s %(vendor)s %(model)s device (%(device)s)"
+msgstr "%(parent_size)s %(vendor)s %(model)s уред (%(device)s)"
+
+#: ../tails_installer/gui.py:809
+msgid ""
+"\n"
+"\n"
+"The persistent storage on this USB stick will be preserved."
+msgstr "\n\nПостојаниот склад на овој USB стик ќе биде зачуван."
+
+#: ../tails_installer/gui.py:810
+#, python-format
+msgid "%(description)s%(persistence_message)s"
+msgstr "%(description)s%(persistence_message)s"
+
+#: ../tails_installer/gui.py:853
+msgid "Download complete!"
+msgstr "Преземањето заврши!"
+
+#: ../tails_installer/gui.py:857
+msgid "Download failed: "
+msgstr "Преземањето не успеа:"
+
+#: ../tails_installer/gui.py:858
+msgid "You can try again to resume your download"
+msgstr "Можеш да се обидеш повторно да го продолжиш твоето преземање"
+
+#: ../tails_installer/gui.py:866
+msgid ""
+"The selected file is unreadable. Please fix its permissions or select "
+"another file."
+msgstr "Избраната датотека не може да биде прочитана. Ве молиме поправете ги нејзините дозволи или изберете друга датотека."
+
+#: ../tails_installer/gui.py:872
+msgid ""
+"Unable to use the selected file.  You may have better luck if you move your "
+"ISO to the root of your drive (ie: C:\\)"
+msgstr "Избраната датотека не можеше да се користи. Може ќе имаш подобра среќа ако го преместиш твоето ISO во root на твојот диск (на пр: C:\\)"
+
+#: ../tails_installer/gui.py:878
+#, python-format
+msgid "%(filename)s selected"
+msgstr "%(filename)s одбран/о/и"
+
+#: ../tails_installer/source.py:29
+msgid "Unable to find LiveOS on ISO"
+msgstr "Не беше пронајден Жив Оперативен систем на ISO сликата"
+
+#: ../tails_installer/source.py:35
+#, python-format
+msgid "Could not guess underlying block device: %s"
+msgstr "Не може да се претпостави подслојниот блокирачки уред: %s"
+
+#: ../tails_installer/source.py:50
+#, python-format
+msgid ""
+"There was a problem executing `%s`.\n"
+"%s\n"
+"%s"
+msgstr "Имаше проблем со извршувањето на `%s`.\n%s\n%s"
+
+#: ../tails_installer/source.py:64
+#, python-format
+msgid "'%s' does not exist"
+msgstr "'%s' не постои"
+
+#: ../tails_installer/source.py:66
+#, python-format
+msgid "'%s' is not a directory"
+msgstr "'%s' не е директориум"
+
+#: ../tails_installer/source.py:76
+#, python-format
+msgid "Skipping '%(filename)s'"
+msgstr "Прескокнување на '%(filename)s'"
+
+#: ../tails_installer/utils.py:55
+#, python-format
+msgid ""
+"There was a problem executing `%s`.%s\n"
+"%s"
+msgstr "Имаше проблем со извршувањето на `%s`.%s\n%s"
+
+#: ../tails_installer/utils.py:135
+msgid "Could not open device for writing."
+msgstr "Уредот не можеше да биде отворен за впишување."
+
+#: ../data/tails-installer.ui.h:4
+msgid "Select a distribution to download:"
+msgstr "Избери дистрибуција за преземање:"
+
+#: ../data/tails-installer.ui.h:5
+msgid "Target USB stick:"
+msgstr "Избери USB стик:"
+
+#: ../data/tails-installer.ui.h:6
+msgid "Reinstall (delete all data)"
+msgstr "Преинсталирај (избриши ги сите податоци)"
