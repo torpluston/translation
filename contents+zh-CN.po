@@ -4,9 +4,9 @@
 # 耀石 徐 <xuyaoshix@gmail.com>, 2019
 # Emma Peel, 2019
 # ヨイツの賢狼ホロ, 2019
-# ff98sha, 2019
 # Cloud P <heige.pcloud@outlook.com>, 2019
 # MD Rights <psychi2009@gmail.com>, 2019
+# ff98sha, 2019
 # 
 msgid ""
 msgstr ""
@@ -14,7 +14,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-09-05 17:40+CET\n"
 "PO-Revision-Date: 2018-11-14 12:31+0000\n"
-"Last-Translator: MD Rights <psychi2009@gmail.com>, 2019\n"
+"Last-Translator: ff98sha, 2019\n"
 "Language-Team: Chinese (China) (https://www.transifex.com/otf/teams/1519/zh_CN/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -187,6 +187,8 @@ msgid ""
 " valid for a single session (until Tor Browser is exited or a [New Identity"
 "](/managing-identities/#new-identity) is requested)."
 msgstr ""
+"默认情况下，Tor 浏览器不保留任何浏览历史。Cookies 只在单一会话标签内有效（直到 Tor 浏览器退出或请求了一个[新的身份](/zh-CN"
+"/managing-identities/#new-identity)为止）。"
 
 #: https//tb-manual.torproject.org/about/
 #: (content/about/contents+en.lrtopic.body)
@@ -393,6 +395,9 @@ msgid ""
 "connection, but this bar seems to get stuck at a certain point, see the "
 "[Troubleshooting](/troubleshooting) page for help solving the problem."
 msgstr ""
+"在大多数情况下，点击“连接”且无需任何设置就能让你连上 Tor 网络。点击之后，出现一个状态栏，显示 Tor "
+"的连接进度。如果你处于相对快的网络环境，但这个状态栏像是卡在了某处的话，请移步[疑难解决](/zh-"
+"CN/troubleshooting)页面寻求解决问题的方法。"
 
 #: https//tb-manual.torproject.org/running-tor-browser/
 #: (content/running-tor-browser/contents+en.lrtopic.body)
@@ -424,6 +429,9 @@ msgid ""
 " You will then be taken to the [Circumvention](/circumvention) screen to "
 "configure a pluggable transport."
 msgstr ""
+"第一个页面询问 Tor 网络在当前环境里是否被封锁或审查。如果你觉得并没有这样，选择“不是”。如果你知道你的 Tor "
+"连接是会被审查的，或者你已经尝试直连 Tor 并且失败了且其他办法都不管用，那么选择“是”。接下来将转入[绕过审查](/zh-"
+"CN/circumvention)页面以配置一个可插拔传输。"
 
 #: https//tb-manual.torproject.org/running-tor-browser/
 #: (content/running-tor-browser/contents+en.lrtopic.body)
@@ -467,6 +475,9 @@ msgid ""
 "so an adversary cannot identify them easily. Using bridges in combination "
 "with pluggable transports helps to disguise the fact that you are using Tor."
 msgstr ""
+"大多数[可插拔传输](/zh-CN/transports)，如 obfs3 和 obfs4，依靠的是“网桥”中继节点的使用。跟普通 Tor "
+"中继一样，网桥也是由志愿者运行；但跟普通中继不一样的是，它们不会公开列出，所以对手无法轻松地标识出它们。与可插拔传输结合起来使用的网桥能帮助掩盖你使用 "
+"Tor 的事实。"
 
 #: https//tb-manual.torproject.org/bridges/
 #: (content/bridges/contents+en.lrtopic.body)
@@ -760,6 +771,9 @@ msgid ""
 "transports”. See the [Pluggable Transports](/en-US/transports) page for more"
 " information on the types of transport that are currently available."
 msgstr ""
+"有时你的网络服务商或政府会阻断对 Tor 网络的直接访问。Tor 浏览器内置了 "
+"一些抗审查工具来绕过这些封锁。这些工具名叫“可插拔传输”。请参见[可插拔传输](/zh-"
+"CN/transports)页面来获取关于当前有哪些可用的传输类型的更多信息。"
 
 #: https//tb-manual.torproject.org/circumvention/
 #: (content/circumvention/contents+en.lrtopic.body)
@@ -812,13 +826,15 @@ msgid ""
 "way (for more details, see the [Pluggable Transports](/en-US/transports) "
 "page), and their effectiveness depends on your individual circumstances."
 msgstr ""
+"Tor 启动器的菜单里列出的每种传输都以不同的方式在工作（参见[可插拔传输](/zh-"
+"CN/transports)以了解更多），且它们的有效性取决于你当前的网络环境。"
 
 #: https//tb-manual.torproject.org/circumvention/
 #: (content/circumvention/contents+en.lrtopic.body)
 msgid ""
 "If you are trying to circumvent a blocked connection for the first time, you"
 " should try the different transports: obfs4, fte, and meek-azure."
-msgstr ""
+msgstr "如果你是尝试第一次绕过一个被阻断的连接，你应该尝试一下这些不同的传输：obfs4、fte，和 meek-azure。"
 
 #: https//tb-manual.torproject.org/circumvention/
 #: (content/circumvention/contents+en.lrtopic.body)
@@ -827,6 +843,7 @@ msgid ""
 "need to enter bridge addresses manually. Read the [Bridges](/en-US/bridges/)"
 " section to learn what bridges are and how to obtain them."
 msgstr ""
+"如果你尝试了所有的选项都不能让你连接上去，那你需要手动输入网桥地址。请阅读[网桥](/zh-CN/bridges)部分，学习认识网桥和如何获取它们。"
 
 #: https//tb-manual.torproject.org/managing-identities/
 #: (content/managing-identities/contents+en.lrtopic.title)
@@ -913,6 +930,9 @@ msgid ""
 "[FAQ](https://www.torproject.org/docs/faq#EntryGuards) and [Support "
 "Portal](https://support.torproject.org/tbb/tbb-2/)."
 msgstr ""
+"在一个 Tor 回路中，“守卫”或入口节点是第一个节点，它是被 Tor 自动且随机选择的。但它跟回路中的其他 "
+"节点不一样。为了避免用户建档攻击，守卫节点每 2-3 "
+"个月才更换一次，不像其他节点，每访问一个新域名都是一个新的节点。关于守卫节点的更多信息，请查看[常见问题](https://www.torproject.org/docs/faq#EntryGuards)和[支援站](https://support.torproject.org/tbb/tbb-2/)。"
 
 #: https//tb-manual.torproject.org/managing-identities/
 #: (content/managing-identities/contents+en.lrtopic.body)
@@ -952,7 +972,7 @@ msgstr "当您通过 Tor 登录一个网站时，有几点应该牢记："
 msgid ""
 "* See the [Secure Connections](/secure-connections) page for important "
 "information on how to secure your connection when logging in."
-msgstr ""
+msgstr "参见[加固连接](/zh-CN/secure-connections)页面以获取更多关于登录时加固你的连接的资讯。"
 
 #: https//tb-manual.torproject.org/managing-identities/
 #: (content/managing-identities/contents+en.lrtopic.body)
@@ -1019,6 +1039,9 @@ msgid ""
 " does not clear any private information or unlink your activity, nor does it"
 " affect your current connections to other websites."
 msgstr ""
+"这个选项在你使用的[出口节点](/zh-CN/about/#how-tor-"
+"works)无法让你连上或载入你要去的网站的时候会比较有用。选择了这个选项后当前活跃的标签页或窗口会用新的 Tor "
+"回路重新载入。其他同一网站的标签页和窗口也会在重新载入时使用新的回路。这个选项不会清除任何私人信息或断开你的在线活动，也不会影响你当前对别的网站的连接。"
 
 #: https//tb-manual.torproject.org/managing-identities/
 #: (content/managing-identities/contents+en.lrtopic.body)
@@ -1065,6 +1088,8 @@ msgid ""
 "so you do not need to worry about [connecting over HTTPS](/secure-"
 "connections)."
 msgstr ""
+"* Tor 用户与洋葱服务之间所有的流量都是端到端加密的，所以你不必担心 [HTTPS 连接方面的问题](/zh-CN/secure-"
+"connections)。"
 
 #: https//tb-manual.torproject.org/onion-services/
 #: (content/onion-services/contents+en.lrtopic.body)
@@ -1132,6 +1157,7 @@ msgid ""
 "You can also ensure that you're able to access other onion services by "
 "connecting to [DuckDuckGo's Onion Service](http://3g2upl4pq6kufc4m.onion/)"
 msgstr ""
+"你可以通过连接 [DuckDuckGo 的洋葱服务](http://3g2upl4pq6kufc4m.onion/)来确保你能够访问其他洋葱服务。"
 
 #: https//tb-manual.torproject.org/secure-connections/
 #: (content/secure-connections/contents+en.lrtopic.title)
@@ -1354,7 +1380,7 @@ msgstr "增加安全级别将禁用或部分禁用某些浏览器功能以防止
 #: https//tb-manual.torproject.org/security-settings/
 #: (content/security-settings/contents+en.lrtopic.body)
 msgid "###### Safest"
-msgstr ""
+msgstr "###### 最安全"
 
 #: https//tb-manual.torproject.org/security-slider/
 #: (content/security-slider/contents+en.lrtopic.body)
@@ -1366,13 +1392,16 @@ msgid ""
 "disabled by default on all sites; most video and audio formats are disabled;"
 " and some fonts and icons may not display correctly."
 msgstr ""
+"* 在这个级别，HTML5 视频和音频介质可通过 NoScript 一键播放；所有 JavaScript "
+"性能优化都被禁用；有些数学公式可能不能正确显示；一些字体渲染特性被禁用；一些类型的图像被禁用；JavaScript "
+"默认对所有网站禁用；大多数视频和音频格式被禁用；还有一些字体和图标可能无法正确显示。"
 
 #: https//tb-manual.torproject.org/security-slider/
 #: (content/security-slider/contents+en.lrtopic.body)
 #: https//tb-manual.torproject.org/security-settings/
 #: (content/security-settings/contents+en.lrtopic.body)
 msgid "###### Safer"
-msgstr ""
+msgstr "###### 较为安全"
 
 #: https//tb-manual.torproject.org/security-slider/
 #: (content/security-slider/contents+en.lrtopic.body)
@@ -1383,20 +1412,23 @@ msgid ""
 "features are disabled; some types of image are disabled; and JavaScript is "
 "disabled by default on all non-[HTTPS](/secure-connections) sites."
 msgstr ""
+"* 在这个级别，HTML5 视频和音频介质可以通过 NoScript 一键播放；所有 JavaScript "
+"性能优化都被禁用；有些数学公式可能无法正确显示；一些字体渲染特性被禁用；一些类型的图像被禁用；还有 JavaScript 默认对所有[非 HTTPS"
+"](/zh-CN/secure-connections)的网站禁用。"
 
 #: https//tb-manual.torproject.org/security-slider/
 #: (content/security-slider/contents+en.lrtopic.body)
 #: https//tb-manual.torproject.org/security-settings/
 #: (content/security-settings/contents+en.lrtopic.body)
 msgid "###### Standard"
-msgstr ""
+msgstr "###### 标准"
 
 #: https//tb-manual.torproject.org/security-slider/
 #: (content/security-slider/contents+en.lrtopic.body)
 msgid ""
 "* At this level, all browser features are enabled. This is the most usable "
 "option."
-msgstr ""
+msgstr "* 在这个级别，浏览器所有功能都被启用。这是最好用的选项。"
 
 #: https//tb-manual.torproject.org/security-settings/
 #: (content/security-settings/contents+en.lrtopic.title)
@@ -1492,14 +1524,14 @@ msgstr ""
 #: https//tb-manual.torproject.org/security-settings/
 #: (content/security-settings/contents+en.lrtopic.body)
 msgid "* At this level, all Tor Browser and website features are enabled."
-msgstr ""
+msgstr "* 在这个级别，所有 Tor 浏览器和网站特性都被启用。"
 
 #: https//tb-manual.torproject.org/security-settings/
 #: (content/security-settings/contents+en.lrtopic.body)
 msgid ""
 "* This level disables website features that are often dangerous. This may "
 "cause some sites to lose functionality."
-msgstr ""
+msgstr "* 这个级别会禁用比较危险的网站特性。这可能导致一些网站的功能缺失。"
 
 #: https//tb-manual.torproject.org/security-settings/
 #: (content/security-settings/contents+en.lrtopic.body)
@@ -1508,13 +1540,15 @@ msgid ""
 "fonts and math symbols are disabled; audio and video (HTML5 media) are "
 "click-to-play."
 msgstr ""
+"* 所有[非 HTTPS](/zh-CN/security-settings) 的网站上的 JavaScript "
+"都会被禁用；一些字体和数学符号会被禁用；音频和视频（HTML5 媒体）点击即可播放。"
 
 #: https//tb-manual.torproject.org/security-settings/
 #: (content/security-settings/contents+en.lrtopic.body)
 msgid ""
 "* This level only allows website features required for static sites and "
 "basic services."
-msgstr ""
+msgstr "* 这个级别只允许那些静态页面和基础服务才需要的功能启用。"
 
 #: https//tb-manual.torproject.org/security-settings/
 #: (content/security-settings/contents+en.lrtopic.body)
@@ -1527,7 +1561,7 @@ msgid ""
 "* Javascript is disabled by default on all sites; some fonts, icons, math "
 "symbols, and images are disabled; audio and video (HTML5 media) are click-"
 "to-play."
-msgstr ""
+msgstr "* Javascript 在所有网站上被默认关闭；一些字体，图标，数学符号和图片被禁用；音频和视频（HTML5 媒体）都是点击即可播放的。"
 
 #: https//tb-manual.torproject.org/updating/
 #: (content/updating/contents+en.lrtopic.title)
@@ -1616,7 +1650,7 @@ msgstr "在您被提示应更新 Tor 浏览器时，结束浏览并关闭程序�
 msgid ""
 "Remove Tor Browser from your system by deleting the folder that contains it "
 "(see the [Uninstalling](/uninstalling) section for more information)."
-msgstr ""
+msgstr "从您的系统中删除 Tor 浏览器只需要删除包含它的文件夹（查看[卸载](/zh-CN/uninstalling)部分来获取更多信息)。"
 
 #: https//tb-manual.torproject.org/updating/
 #: (content/updating/contents+en.lrtopic.body)
@@ -1706,6 +1740,9 @@ msgid ""
 " displaying correctly, so Tor Browser’s default setting is to allow all "
 "websites to run scripts in \"Standard\" mode."
 msgstr ""
+"需要高度安全的网页浏览的用户应该将他们的 Tor 浏览器的[安全滑块](/zh-CN/security-slider)设为“更安全\"（将禁用非 "
+"HTTPS 网站上的 Javascript 模块）或者”最安全“（将禁用所有网站上的 Javascript 模块）。然而，禁用 Javascript "
+"将阻止网页正常显示，所以 Tor 浏览器的默认设置允许网站在”标准“模式下运行脚本。"
 
 #: https//tb-manual.torproject.org/plugins/
 #: (content/plugins/contents+en.lrtopic.body)
@@ -1808,6 +1845,8 @@ msgid ""
 "censoring connections to the Tor network. Read the "
 "[Circumvention](/circumvention) section for possible solutions."
 msgstr ""
+"如果您仍然无法连接，您的互联网服务提供商可能正在监控针对 Tor 网络的连接。阅读[规避](/zh-"
+"CN/circumvention)部分来寻找部分解决方案。"
 
 #: https//tb-manual.torproject.org/troubleshooting/
 #: (content/troubleshooting/contents+en.lrtopic.body)
@@ -1821,6 +1860,8 @@ msgid ""
 "but not yet fixed. Please check the [Known Issues](/known-issues) page to "
 "see if the problem you are experiencing is already listed there."
 msgstr ""
+"Tor 浏览器正在持续地发展，一些已知的问题并没有被完全修复。请查找[已知问题](/zh-CN/known-"
+"issues)页面来查看您遭遇的一些问题是否已经列出。"
 
 #: https//tb-manual.torproject.org/known-issues/
 #: (content/known-issues/contents+en.lrtopic.title)
@@ -1908,6 +1949,8 @@ msgid ""
 "* BitTorrent in specific is [not anonymous over "
 "Tor](https://blog.torproject.org/bittorrent-over-tor-isnt-good-idea)."
 msgstr ""
+"* 特别地，BitTorrent [在 Tor 中是无法匿名的](https://blog.torproject.org/bittorrent-"
+"over-tor-isnt-good-idea)。"
 
 #: https//tb-manual.torproject.org/uninstalling/
 #: (content/uninstalling/contents+en.lrtopic.title)
@@ -1927,7 +1970,7 @@ msgstr "在您的系统上删除 Tor 浏览器非常简单："
 #: https//tb-manual.torproject.org/uninstalling/
 #: (content/uninstalling/contents+en.lrtopic.body)
 msgid "On Windows:"
-msgstr ""
+msgstr "在 Windows 中："
 
 #: https//tb-manual.torproject.org/uninstalling/
 #: (content/uninstalling/contents+en.lrtopic.body)
@@ -1949,7 +1992,7 @@ msgstr "* 清空回收站。"
 #: https//tb-manual.torproject.org/uninstalling/
 #: (content/uninstalling/contents+en.lrtopic.body)
 msgid "On macOS:"
-msgstr ""
+msgstr "在 macOS 中："
 
 #: https//tb-manual.torproject.org/uninstalling/
 #: (content/uninstalling/contents+en.lrtopic.body)
@@ -1961,7 +2004,7 @@ msgstr "* 找到您的Tor 浏览器应用。默认位置在应用文件夹。"
 #: https//tb-manual.torproject.org/uninstalling/
 #: (content/uninstalling/contents+en.lrtopic.body)
 msgid "* Move the Tor Browser application to Trash."
-msgstr ""
+msgstr "* 将 Tor 浏览器应用移除到回收站。"
 
 #: https//tb-manual.torproject.org/uninstalling/
 #: (content/uninstalling/contents+en.lrtopic.body)
@@ -1973,7 +2016,7 @@ msgstr "* 前往您的 `~/Library/Application Support/`文件夹。"
 msgid ""
 "* Note the Library folder is hidden on newer versions of macOS. To navigate "
 "to this folder in Finder, select \"Go to Folder...\" in the \"Go\" menu."
-msgstr ""
+msgstr "* 注意 Library 文件夹在新版的 macOS 中是被隐藏的。在访达中访问这个文件夹，需要选择”前往“菜单中的”前往文件夹...“。"
 
 #: https//tb-manual.torproject.org/uninstalling/
 #: (content/uninstalling/contents+en.lrtopic.body)
@@ -2002,7 +2045,7 @@ msgstr ""
 #: https//tb-manual.torproject.org/uninstalling/
 #: (content/uninstalling/contents+en.lrtopic.body)
 msgid "* Locate the TorBrowser-Data folder and move it to Trash."
-msgstr ""
+msgstr "* 找到 TorBrowser-Data 文件夹并把它移到回收站。"
 
 #: https//tb-manual.torproject.org/uninstalling/
 #: (content/uninstalling/contents+en.lrtopic.body)
@@ -2033,7 +2076,7 @@ msgstr ""
 #: https//tb-manual.torproject.org/uninstalling/
 #: (content/uninstalling/contents+en.lrtopic.body)
 msgid "* Delete the Tor Browser folder."
-msgstr ""
+msgstr "* 删除 Tor 浏览器文件夹。"
 
 #: https//tb-manual.torproject.org/uninstalling/
 #: (content/uninstalling/contents+en.lrtopic.body)
