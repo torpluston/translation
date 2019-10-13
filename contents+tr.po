@@ -2990,6 +2990,17 @@ msgid ""
 "doing CONNECT requests to get to Tor relays. (It's fine if they're the same "
 "proxy.) Tor also recognizes the torrc options Socks4Proxy and Socks5Proxy."
 msgstr ""
+"Vekil sunucu IP adresi, kapı numarası ve kimlik doğrulama bilgilerini [Tor "
+"Browser Ağ Ayarları](https://tb-manual.torproject.org/running-tor-browser/) "
+"bölümünde belirtebilirsiniz. Tor ağını başka bir şekilde kullanıyorsanız, "
+"[belgeler bölümündeki](https://2019.www.torproject.org/docs/tor-"
+"manual.html.en) HTTPProxy ve HTTPSProxy yapılandırma ayarlarına bakın ve "
+"torrc dosyasını uygun şekilde düzenleyin. Tor dizinini almak için "
+"yapacağınız GET istekleri için bir HTTP vekil sunucu, Tor aktarıcılarını "
+"almak için yapacağınız CONNECT istekleri için bir HTTPS vekil sunucu "
+"kullanmanız gerekir (ikisi de aynı vekil sunucu olabilir). Ayrıca torrc "
+"dosyasında Socks4Proxy ve Socks5Proxy yapılandırma ayarları da "
+"kullanılabilir."
 
 #: https//support.torproject.org/tbb/tbb-47/
 #: (content/tbb/tbb-47/contents+en.lrquestion.description)
@@ -2999,6 +3010,12 @@ msgid ""
 "but if you need NTLM authentication, you may find [this post in the "
 "archives](http://archives.seul.org/or/talk/Jun-2005/msg00223.html) useful."
 msgstr ""
+"Vekil sunucunuz için kimlik doğrulaması gerekiyorsa HTTPProxyAuthenticator "
+"ve HTTPSProxyAuthenticator ayarlarının ne olduğuna da bakın. Şu anda yalnız "
+"temel kimlik doğrulama yöntemini destekliyoruz. Bununla birlikte NTLM kimlik"
+" doğrulama yöntemini kullanmanız gerekiyorsa [bu arşiv "
+"yazısı](http://archives.seul.org/or/talk/Jun-2005/msg00223.html) işinize "
+"yarayabilir."
 
 #: https//support.torproject.org/tbb/tbb-47/
 #: (content/tbb/tbb-47/contents+en.lrquestion.description)
@@ -3008,6 +3025,11 @@ msgid ""
 "[Firewalled](https://2019.www.torproject.org/docs/faq.html.en#FirewallPorts)"
 " clients for how to restrict what ports your Tor will try to access."
 msgstr ""
+"Vekil sunucularınız yalnız belirli kapı numaralarına bağlanmanıza izin "
+"veriyorsa  [Güvenlik duvarı arkasında "
+"kullanım](https://2019.www.torproject.org/docs/faq.html.en#FirewallPorts) "
+"bölümünden istemciler için Tor tarafından erişim için kullanılacak kapı "
+"numaralarını nasıl kısıtlayabileceğinizi öğrenebilirsiniz."
 
 #: https//support.torproject.org/tbb/tbb-5/
 #: (content/tbb/tbb-5/contents+en.lrquestion.title)
@@ -3255,13 +3277,15 @@ msgstr ""
 #: https//support.torproject.org/tbb/tbb-editing-torrc/
 #: (content/tbb/tbb-editing-torrc/contents+en.lrquestion.title)
 msgid "I'm supposed to \"edit my torrc\". What does that mean?"
-msgstr ""
+msgstr "\"torrc dosyamı düzenlemem\" bekleniyor. Bu ne demek?"
 
 #: https//support.torproject.org/tbb/tbb-editing-torrc/
 #: (content/tbb/tbb-editing-torrc/contents+en.lrquestion.description)
 msgid ""
 "WARNING: Do NOT follow random advice instructing you to edit your `torrc`!"
 msgstr ""
+"UYARI: Do`torrc` dosyanızı düzenlemenizi söyleyen rastgele önerileri "
+"izlemeyin!"
 
 #: https//support.torproject.org/tbb/tbb-editing-torrc/
 #: (content/tbb/tbb-editing-torrc/contents+en.lrquestion.description)
