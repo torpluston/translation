@@ -92,6 +92,8 @@ msgstr ""
 #: ../data/greeter.ui.h:17 ../tailsgreeter/gui.py:532
 msgid "Cannot unlock encrypted storage with this passphrase."
 msgstr ""
+"ഈ പാസ്‌ഫ്രെയ്‌സ് ഉപയോഗിച്ച് എൻക്രിപ്റ്റുചെയ്‌ത സംഭരണം അൺലോക്കുചെയ്യാൻ "
+"കഴിയില്ല."
 
 #: ../data/greeter.ui.h:18
 msgid ""
@@ -124,15 +126,15 @@ msgstr ""
 
 #: ../data/greeter.ui.h:25
 msgid "_Language"
-msgstr ""
+msgstr "_ ഭാഷ"
 
 #: ../data/greeter.ui.h:26
 msgid "_Keyboard Layout"
-msgstr ""
+msgstr "_കീബോർഡ് ലേഔട്ട്"
 
 #: ../data/greeter.ui.h:27
 msgid "_Formats"
-msgstr ""
+msgstr "_ ഫോർമാറ്റുകൾ"
 
 #: ../data/greeter.ui.h:28
 msgid "_Time Zone"
@@ -159,7 +161,7 @@ msgstr ""
 #: ../data/greeter.ui.h:34 ../tailsgreeter/gui.py:478
 #: ../tailsgreeter/gui.py:528
 msgid "Unlock"
-msgstr ""
+msgstr "അൺലോക്കുചെയ്യുക"
 
 #: ../data/greeter.ui.h:35
 msgid "Relock Persistent Storage"
@@ -212,27 +214,27 @@ msgstr ""
 
 #: ../data/greeter.ui.h:46
 msgid "_Administration Password"
-msgstr ""
+msgstr "_അഡ്‌മിനിസ്‌ട്രേഷൻ പാസ്‌വേഡ്"
 
 #: ../data/greeter.ui.h:47 ../tailsgreeter/utils.py:45
 msgid "Off (default)"
-msgstr ""
+msgstr "ഓഫ് (സ്ഥിരസ്ഥിതി)"
 
 #: ../data/greeter.ui.h:48
 msgid "_MAC Address Spoofing"
-msgstr ""
+msgstr "_മാക്  വിലാസം സ്പൂഫിംഗ്"
 
 #: ../data/greeter.ui.h:49 ../tailsgreeter/utils.py:43
 msgid "On (default)"
-msgstr ""
+msgstr "ഓണാണ് (സ്ഥിരസ്ഥിതി)"
 
 #: ../data/greeter.ui.h:50
 msgid "_Network Connection"
-msgstr ""
+msgstr "_നെറ്റ്വർക്ക് കണക്ഷൻ"
 
 #: ../data/greeter.ui.h:51 ../tailsgreeter/gui.py:385
 msgid "Direct (default)"
-msgstr ""
+msgstr "നേരിട്ടുള്ള (സ്ഥിരസ്ഥിതി)"
 
 #: ../data/greeter.ui.h:52
 msgid "_Windows Camouflage"
@@ -240,23 +242,23 @@ msgstr ""
 
 #: ../tailsgreeter/gui.py:391
 msgid "Bridge & Proxy"
-msgstr ""
+msgstr "ബ്രിഡ്ജും പ്രോക്സിയും"
 
 #: ../tailsgreeter/gui.py:397
 msgid "Offline"
-msgstr ""
+msgstr "ഓഫ്‌ലൈൻ"
 
 #: ../tailsgreeter/gui.py:481
 msgid "Failed to relock persistent storage."
-msgstr ""
+msgstr "സ്ഥിരമായ സംഭരണം വീണ്ടും ലോക്കുചെയ്യുന്നതിൽ പരാജയപ്പെട്ടു."
 
 #: ../tailsgreeter/gui.py:499
 msgid "Unlocking…"
-msgstr ""
+msgstr "അൺലോക്കുചെയ്യുന്നു…"
 
 #: ../tailsgreeter/gui.py:594
 msgid "Additional Settings"
-msgstr ""
+msgstr "അധിക ക്രമീകരണങ്ങൾ"
 
 #: ../tailsgreeter/gui.py:602
 msgid "Cancel"
@@ -276,7 +278,7 @@ msgstr "Shutdown"
 
 #: ../tailsgreeter/gui.py:735
 msgid "_Start Tails"
-msgstr ""
+msgstr "_സ്റ്റാർട്ട് ടെയിൽസ്"
 
 #. Translators: please do not translate this string (it is read from
 #. Gtk translation)
@@ -290,6 +292,8 @@ msgid ""
 "live-persist failed with return code {returncode}:\n"
 "{stderr}"
 msgstr ""
+"റിട്ടേൺ കോഡ് {റിട്ടേൺ കോഡ് } ഉപയോഗിച്ച് തത്സമയം നിലനിൽക്കുന്നത് പരാജയപ്പെട്ടു:\n"
+"{stderr}"
 
 #: ../tailsgreeter/persistence.py:124 ../tailsgreeter/persistence.py:141
 #, python-brace-format
@@ -298,6 +302,9 @@ msgid ""
 "{stdout}\n"
 "{stderr}"
 msgstr ""
+"റിട്ടേൺ കോഡ് {റിട്ടേൺ കോഡ് } ഉപയോഗിച്ച് ക്രിപ്റ്റ്സെറ്റപ്പ് പരാജയപ്പെട്ടു:\n"
+"{stdout}\n"
+"{stderr} "
 
 #: ../tailsgreeter/persistence.py:158
 #, python-brace-format
@@ -306,6 +313,9 @@ msgid ""
 "{stdout}\n"
 "{stderr}"
 msgstr ""
+"റിട്ടേൺ കോഡ് {റിട്ടേൺ കോഡ് } ഉപയോഗിച്ച് തത്സമയം നിലനിൽക്കുന്നത് പരാജയപ്പെട്ടു:\n"
+"{stdout}\n"
+"{stderr}"
 
 #: ../tailsgreeter/persistence.py:172
 #, python-brace-format
@@ -314,11 +324,14 @@ msgid ""
 "{stdout}\n"
 "{stderr}"
 msgstr ""
+"റിട്ടേൺ കോഡ് {റിട്ടേൺ കോഡ് } ഉപയോഗിച്ച് യൂ മൌണ്ട്  പരാജയപ്പെട്ടു:\n"
+"{stdout}\n"
+"{stderr}"
 
 #: ../tailsgreeter/utils.py:48
 msgid "On"
-msgstr ""
+msgstr "ഓൺ "
 
 #: ../tailsgreeter/utils.py:50
 msgid "Off"
-msgstr ""
+msgstr "ഓഫ്"
