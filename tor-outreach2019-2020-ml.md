@@ -1,162 +1,157 @@
-# Tor Outreach Material 2019-2020
+# ടോർ ഔട്ട്‌റീച്ച് മെറ്റീരിയൽ 2019-2020
 
-# 1. TOR FOR PRIVACY 
+# 1. സ്വകാര്യതയ്ക്കായി
 
-### Privacy is a human right
+### സ്വകാര്യത ഒരു മനുഷ്യാവകാശമാണ്
 
-Like many of us, Aleisha spends most of her time online--connecting with friends, posting on social media, and browsing the web.
+നമ്മിൽ പലരേയും പോലെ, അലീഷയും അവളുടെ കൂടുതൽ സമയവും ഓൺലൈനിൽ ചെലവഴിക്കുന്നു - സുഹൃത്തുക്കളുമായി കണക്റ്റുചെയ്യൽ, സോഷ്യൽ മീഡിയയിൽ പോസ്റ്റുചെയ്യൽ, വെബ് ബ്രൗസുചെയ്യൽ.
 
-But lately, she's noticed that advertisements related to her previous searches are following her around online.
+എന്നാൽ അടുത്തിടെ, അവളുടെ മുമ്പത്തെ തിരയലുകളുമായി ബന്ധപ്പെട്ട പരസ്യങ്ങൾ അവളെ ഓൺ‌ലൈനിൽ പിന്തുടരുന്നത് ശ്രദ്ധയിൽ പെട്ടു.
 
-This feels so invasive that she does some research on online ads and learns that it's not just advertisers tracking her but also her ISP, analytics companies, social media platforms, and more.
+ഇത് വളരെ ആക്രമണാത്മകമായി അനുഭവപ്പെടുന്നു, മാത്രമല്ല അവൾ ഓൺലൈൻ പരസ്യങ്ങളെക്കുറിച്ച് കുറച്ച് ഗവേഷണം നടത്തുകയും പരസ്യദാതാക്കൾ അവളെ ട്രാക്കുചെയ്യുന്നത് മാത്രമല്ല അവളുടെ ISP, അനലിറ്റിക്സ് കമ്പനികൾ, സോഷ്യൽ മീഡിയ പ്ലാറ്റ്‌ഫോമുകൾ എന്നിവയും അതിലേറെയും അറിയുകയും ചെയ്യുന്നു.
 
-Aleisha decides she wants to find and use software that doesn't collect her data, doesn't track her, and doesn't tell other services anything private about her.
+തന്റെ ഡാറ്റ ശേഖരിക്കാത്ത, അവളെ ട്രാക്കുചെയ്യാത്ത, മറ്റ് സേവനങ്ങളെക്കുറിച്ച് അവളെക്കുറിച്ച് സ്വകാര്യമായി ഒന്നും പറയാത്ത സോഫ്റ്റ്വെയർ കണ്ടെത്താനും ഉപയോഗിക്കാനും താൻ ആഗ്രഹിക്കുന്നുവെന്ന് അലിഷ തീരുമാനിക്കുന്നു.
 
-She goes to a privacy training at a local hackerspace and learns about **Tor Browser**, the only web browser that allows her to browse anonymously.
-
----
-
-# 2.TOR FOR FEMINISTS 
-
-### The future is cyberfeminist
-
-Fernanda runs a women's collective focused on reproductive rights in Brazil, where abortion is illegal.
-
-Fernanda and her colleagues built a website with information about abortion access, birth control, and other resources for people seeking reproductive information.
-
-If this website was linked back to them, they could be arrested--or worse. 
-
-To protect themselves, Fernanda and her colleagues created the website using Tor **onion services**. Onion services not only protect them from being discovered as the operators of the server but also help protect visitors to their website by requiring they use Tor Browser. 
-
-In fact, Fernanda uses **Tor Browser** for all of her web browsing just to be on the safe side.
-
-She also uses a Tor-powered app called **OnionShare** to send files to other activists securely and privately. 
-
-### Reproductive rights activists like Fernanda are fighting for fundamental freedoms, and Tor helps power their resistance.
+അവൾ ഒരു പ്രാദേശിക ഹാക്കർസ്‌പെയ്‌സിലെ ഒരു സ്വകാര്യതാ പരിശീലനത്തിന് പോയി, അജ്ഞാതമായി ബ്രൗസുചെയ്യാൻ അനുവദിക്കുന്ന ഒരേയൊരു വെബ് ബ്രൗസറായ ** ടോർ ബ്രൗസറിനെക്കുറിച്ച് ** മനസിലാക്കുന്നു.
 
 ---
 
-# 3. TOR FOR HUMAN RIGHTS
+# 2. ഫെമിനിസ്റ്റുകൾക്കായി
 
-### Water is life 
+### ഭാവി സൈബർ ഫെമിനിസ്റ്റാണ്
 
-Jelani lives in a small village  which a wide river runs through.
+ഗർഭച്ഛിദ്രം നിയമവിരുദ്ധമായ ബ്രസീലിൽ പ്രത്യുൽപാദന അവകാശങ്ങൾ കേന്ദ്രീകരിച്ചുള്ള വനിതാ കൂട്ടായ്‌മയാണ് ഫെർണാണ്ട നടത്തുന്നത്.
 
-This river has provided water to his community since the days of his ancestors. 
+പ്രത്യുൽപാദന വിവരങ്ങൾ തേടുന്ന ആളുകൾക്കായി അലസിപ്പിക്കൽ പ്രവേശനം, ജനന നിയന്ത്രണം, മറ്റ് വിഭവങ്ങൾ എന്നിവയെക്കുറിച്ചുള്ള വിവരങ്ങൾ ഉൾക്കൊള്ളുന്ന ഒരു വെബ്സൈറ്റ് ഫെർണാണ്ടയും അവളുടെ സഹപ്രവർത്തകരും നിർമ്മിച്ചു.
 
-But today, Jelani’s river is threatened by powerful multinational companies drilling for oil in the region.
+ഈ വെബ്‌സൈറ്റ് അവരുമായി വീണ്ടും ലിങ്കുചെയ്‌തിട്ടുണ്ടെങ്കിൽ, അവരെ അറസ്റ്റുചെയ്യാം - അല്ലെങ്കിൽ മോശമാണ്.
 
-Private security firms, paid for by these companies, use powerful surveillance mechanisms to monitor the online activities of Jelani and his neighbors in the village who are organizing to protect their sacred river. 
+സ്വയം പരിരക്ഷിക്കുന്നതിന്, ഫെർണാണ്ടയും അവളുടെ സഹപ്രവർത്തകരും ടോർ ** ഒണിയൻ സേവനങ്ങൾ ** ഉപയോഗിച്ച് വെബ്സൈറ്റ് സൃഷ്ടിച്ചു. ഒണിയൻ സേവനങ്ങൾ സെർവറിന്റെ ഓപ്പറേറ്റർമാരായി കണ്ടെത്തുന്നതിൽ നിന്ന് അവരെ സംരക്ഷിക്കുക മാത്രമല്ല, ടോർ ബ്രൗസർ ഉപയോഗിക്കണമെന്ന് ആവശ്യപ്പെടുന്നതിലൂടെ അവരുടെ വെബ്‌സൈറ്റിലേക്കുള്ള സന്ദർശകരെ സംരക്ഷിക്കാനും സഹായിക്കുന്നു.
 
-Jelani uses **Tor Browser** to prevent these companies from watching as he visits websites for international human rights protection and legal aid and writes blog posts about the resistance movement in his village.
+വാസ്തവത്തിൽ, ഫെർണാണ്ട തന്റെ എല്ലാ വെബ് ബ്രൗസിംഗിനും സുരക്ഷിതമായ ഭാഗത്ത് തുടരാൻ ** ടോർ ബ്രൗസർ ** ഉപയോഗിക്കുന്നു.
 
-He also uses **OnionShare** and **SecureDrop** to securely send documents to journalists who are helping expose these human rights violations.
+മറ്റ് ആക്ടിവിസ്റ്റുകൾക്ക് സുരക്ഷിതമായും സ്വകാര്യമായും ഫയലുകൾ അയയ്‌ക്കാൻ ** ജൂനിയർ ഷെയർ ** എന്ന ടോർ-പവർ ആപ്ലിക്കേഷനും അവർ ഉപയോഗിക്കുന്നു.
 
-All of this software uses Tor to help protect Jelani’s privacy. 
-
-### Human rights activists like Jelani are fighting for justice in their communities, and Tor helps power their resistance.
+### ഫെർണാണ്ടയെപ്പോലുള്ള പ്രത്യുത്പാദന അവകാശ പ്രവർത്തകർ മൗലിക സ്വാതന്ത്ര്യത്തിനായി പോരാടുകയാണ്, ടോർ അവരുടെ പ്രതിരോധത്തെ ശക്തിപ്പെടുത്താൻ സഹായിക്കുന്നു.
 
 ---
 
-# 4. TOR FOR ANTI-CENSORSHIP
+# 3. മനുഷ്യാവകാശങ്ങൾക്കായി
 
-### Build bridges not walls
+### വെള്ളം ജീവൻ
 
-Jean was traveling for the first time to a country far from his family.
+വിശാലമായ നദിയിലൂടെ ഒഴുകുന്ന ഒരു ചെറിയ ഗ്രാമത്തിലാണ് ജെലാനി താമസിക്കുന്നത്.
 
-After arriving at a hotel, he opened his laptop.
+തന്റെ പൂർവ്വികരുടെ കാലം മുതൽ ഈ നദി തന്റെ സമൂഹത്തിന് വെള്ളം നൽകി.
 
-He was so exhausted that when the message "Connection has timed out" first appeared on his web browser, he thought it was due to his own error.
+എന്നാൽ ഇന്ന്, ജെലാനിയുടെ നദിയെ ഈ മേഖലയിലെ എണ്ണയ്ക്കായി ശക്തമായ ബഹുരാഷ്ട്ര കമ്പനികൾ തുരത്തുന്നു.
 
-But after trying again and again, he realized that his email provider, a news website, and many apps were unavailable. 
+ഈ കമ്പനികൾ പണമടച്ച സ്വകാര്യ സുരക്ഷാ സ്ഥാപനങ്ങൾ, അവരുടെ പുണ്യനദിയെ സംരക്ഷിക്കാൻ സംഘടിപ്പിക്കുന്ന ഗ്രാമത്തിലെ ജെലാനിയുടെയും അയൽവാസികളുടെയും ഓൺലൈൻ പ്രവർത്തനങ്ങൾ നിരീക്ഷിക്കുന്നതിന് ശക്തമായ നിരീക്ഷണ സംവിധാനങ്ങൾ ഉപയോഗിക്കുന്നു.
 
-He had heard that this country censors the internet and wondered if that was happening.
-How could he contact his family from behind this impenetrable wall?
-After doing some web searches, he found a forum and read about VPNs, private services that allow you to connect to another uncensored network.
+അന്താരാഷ്ട്ര മനുഷ്യാവകാശ സംരക്ഷണത്തിനും നിയമ സഹായത്തിനുമായി വെബ്‌സൈറ്റുകൾ സന്ദർശിക്കുകയും തന്റെ ഗ്രാമത്തിലെ ചെറുത്തുനിൽപ്പ് പ്രസ്ഥാനത്തെക്കുറിച്ച് ബ്ലോഗ് പോസ്റ്റുകൾ എഴുതുകയും ചെയ്യുമ്പോൾ ഈ കമ്പനികൾ കാണാതിരിക്കാൻ ജെലാനി ** ടോർ ബ്രൗസർ ** ഉപയോഗിക്കുന്നു.
 
-Jean spent half an hour trying to figure out which cheap VPN was best.
+ഈ മനുഷ്യാവകാശ ലംഘനങ്ങൾ തുറന്നുകാട്ടാൻ സഹായിക്കുന്ന മാധ്യമപ്രവർത്തകർക്ക് സുരക്ഷിതമായി രേഖകൾ അയയ്‌ക്കാൻ അദ്ദേഹം ** ജൂനിയർ ഷെയർ **, ** സെക്യുർ ഡ്രോപ്പ് ** എന്നിവ ഉപയോഗിക്കുന്നു.
 
-He chose one and for a moment it seemed to work, but after five minutes the connection went offline and the VPN would no longer connect. 
+ജെലാനിയുടെ സ്വകാര്യത പരിരക്ഷിക്കാൻ സഹായിക്കുന്നതിന് ഈ സോഫ്റ്റ്വെയറുകളെല്ലാം ടോർ ഉപയോഗിക്കുന്നു.
 
-Jean kept reading to find other options and learned about Tor Browser and how it can circumvent censorship.
-
-He found an official website mirror to download the program.
-
-When he opened **Tor Browser**, he followed the prompts for censored users and connected to a bridge which allowed him to access the internet again.
-
-With Tor Browser, Jean can browse freely and privately and contact his family. 
-
-### Censored users all over the world rely on Tor Browser for a free, stable, and uncensored way to access the internet.
+### ജെലാനിയെപ്പോലുള്ള മനുഷ്യാവകാശ പ്രവർത്തകർ അവരുടെ സമുദായങ്ങളിൽ നീതിക്കായി പോരാടുകയാണ്, ടോർ അവരുടെ പ്രതിരോധത്തെ ശക്തിപ്പെടുത്താൻ സഹായിക്കുന്നു.
 
 ---
 
-# 5. Shared Sections
+# 4. ആന്റി സെൻസർഷിപ്പിനായി
 
-## What is Tor?
+### മതിലുകളല്ല പാലങ്ങൾ നിർമ്മിക്കുക
 
-Tor is free software and an open network that helps protect you from tracking, surveillance, and censorship online.
-Tor is created for free by a 501(c)3 U.S.-based nonprofit called the Tor Project. 
+കുടുംബത്തിൽ നിന്ന് വളരെ ദൂരെയുള്ള ഒരു രാജ്യത്തേക്ക് ആദ്യമായി യാത്ര ചെയ്യുകയായിരുന്നു ജീൻ.
 
-The easiest way to use Tor is Tor Browser.
-When you use Tor Browser, no one can see what websites you visit or where in the world you’re coming from. 
+ഒരു ഹോട്ടലിൽ എത്തിയ ശേഷം ലാപ്‌ടോപ്പ് തുറന്നു.
 
-Other applications, like SecureDrop and OnionShare, use Tor to protect their users against surveillance and censorship.
+അവൻ വളരെയധികം ക്ഷീണിതനായി, "കണക്ഷൻ കാലഹരണപ്പെട്ടു" എന്ന സന്ദേശം ആദ്യമായി തന്റെ വെബ് ബ്രൗസറിൽ പ്രത്യക്ഷപ്പെട്ടപ്പോൾ, അത് സ്വന്തം പിശക് മൂലമാണെന്ന് അദ്ദേഹം കരുതി.
 
+എന്നാൽ വീണ്ടും വീണ്ടും ശ്രമിച്ചതിന് ശേഷം, തന്റെ ഇമെയിൽ ദാതാവ്, ഒരു വാർത്താ വെബ്സൈറ്റ്, നിരവധി ആപ്ലിക്കേഷനുകൾ ലഭ്യമല്ലെന്ന് അദ്ദേഹം മനസ്സിലാക്കി.
 
-## 6. How does Tor work?
+ഈ രാജ്യം ഇൻറർനെറ്റ് സെൻസർ ചെയ്യുന്നുവെന്നും അത് സംഭവിക്കുന്നുണ്ടോ എന്ന് അദ്ദേഹം ചിന്തിച്ചിട്ടുണ്ടെന്നും അദ്ദേഹം കേട്ടിട്ടുണ്ട്. ഈ അഭേദ്യമായ മതിലിന് പിന്നിൽ നിന്ന് എങ്ങനെ അയാളുടെ കുടുംബവുമായി ബന്ധപ്പെടാൻ കഴിയും? വെബ് ചില വെബ് തിരയലുകൾ നടത്തിയ ശേഷം, അദ്ദേഹം ഒരു ഫോറം കണ്ടെത്തി നിങ്ങളെ അനുവദിക്കുന്ന സ്വകാര്യ സേവനങ്ങളായ വിപിഎൻമാരെക്കുറിച്ച് വായിച്ചു. സെൻസർ ചെയ്യാത്ത മറ്റൊരു നെറ്റ്‌വർക്കിലേക്ക് കണക്റ്റുചെയ്യാൻ.
 
-Amal wants to visit Bekele’s website privately, so she opens Tor Browser.
+വിലകുറഞ്ഞ വിപിഎൻ ഏതാണ് മികച്ചതെന്ന് മനസിലാക്കാൻ ജീൻ അര മണിക്കൂർ ചെലവഴിച്ചു.
 
-Tor Browser selects a random circuit of three relays, which are computers all over the world configured to route traffic over the Tor network.
+അവൻ ഒരെണ്ണം തിരഞ്ഞെടുത്തു, ഒരു നിമിഷം അത് പ്രവർത്തിക്കുമെന്ന് തോന്നി, പക്ഷേ അഞ്ച് മിനിറ്റിനുശേഷം കണക്ഷൻ ഓഫ്‌ലൈനായി, വിപിഎൻ ഇനി കണക്റ്റുചെയ്യില്ല.
 
-Tor Browser then encrypts her website request three times and sends it to the first Tor relay in her circuit.
+മറ്റ് ഓപ്ഷനുകൾ കണ്ടെത്തുന്നതിനായി ജീൻ വായന തുടർന്നു, ടോർ ബ്രൗസറിനെക്കുറിച്ചും സെൻസർഷിപ്പിനെ എങ്ങനെ മറികടക്കാമെന്നും പഠിച്ചു.
 
-The first relay removes the first encryption layer but doesn't learn that the destination is Bekele’s website.
+പ്രോഗ്രാം ഡൗൺലോഡ് ചെയ്യാൻ ഒരു ഔദ്യോഗിക വെബ്സൈറ്റ് മിറർ കണ്ടെത്തി.
 
-The first relay learns only the next location in the circuit, which is the second relay.
+** ടോർ ബ്രൗസർ ** തുറന്നപ്പോൾ, സെൻസർ ചെയ്ത ഉപയോക്താക്കൾക്കുള്ള നിർദ്ദേശങ്ങൾ പാലിക്കുകയും ഒരു ബ്രിഡ്ജിലേക്ക് കണക്റ്റുചെയ്യുകയും ചെയ്തു, ഇത് ഇന്റർനെറ്റ് വീണ്ടും ആക്‌സസ്സുചെയ്യാൻ അനുവദിച്ചു.
 
-The second relay removes another encryption layer and forwards the web page request to the third relay.
+ടോർ ബ്രൗസർ ഉപയോഗിച്ച് ജീന് സ്വതന്ത്രമായും സ്വകാര്യമായും ബ്രൗസ് ചെയ്യാനും കുടുംബവുമായി ബന്ധപ്പെടാനും കഴിയും.
 
-The third relay removes the last encryption layer and forwards the web page request to its destination, Bekele’s website, but it doesn't know the request comes from Amal.
+### ലോകമെമ്പാടുമുള്ള സെൻസർ ചെയ്‌ത ഉപയോക്താക്കൾ ഇന്റർനെറ്റ് ആക്‌സസ്സുചെയ്യുന്നതിന് സ, ജന്യവും സുസ്ഥിരവും സെൻസർ ചെയ്യാത്തതുമായ മാർഗ്ഗത്തിനായി ടോർ ബ്രൗസറിനെ ആശ്രയിക്കുന്നു.
 
-Bekele doesn't know that the website request came from Amal unless she tells him so.
+---
 
-## 7. Who uses Tor? 
+# 5. പങ്കിട്ട വിഭാഗങ്ങൾ
 
-People all over the world use Tor to protect their privacy and access the web freely.
+## എന്താണ് ടോർ?
 
-Tor helps protect journalists, human rights defenders, domestic violence victims, academic researchers, and anyone experiencing tracking, censorship, or surveillance. 
+ഓൺ‌ലൈൻ ട്രാക്കിംഗ്, നിരീക്ഷണം, സെൻസർഷിപ്പ് എന്നിവയിൽ നിന്ന് നിങ്ങളെ പരിരക്ഷിക്കാൻ സഹായിക്കുന്ന ഒരു ഓപ്പൺ നെറ്റ്‌വർക്കാണ് ടോർ. ടോർ പ്രോജക്റ്റ് എന്നറിയപ്പെടുന്ന 501 (സി) 3 യുഎസ് അധിഷ്ഠിത ലാഭരഹിത സ്ഥാപനമാണ് ടോർ സൗജന്യമായി സൃഷ്ടിച്ചിരിക്കുന്നത്.
 
-## 6. Why trust Tor?
+ടോർ ഉപയോഗിക്കുന്നതിനുള്ള ഏറ്റവും എളുപ്പ മാർഗം ടോർ ബ്രൗസർ ആണ്. ടോർ ബ്രൗസർ ഉപയോഗിക്കുമ്പോൾ, നിങ്ങൾ ഏത് വെബ്‌സൈറ്റുകളാണ് സന്ദർശിക്കുന്നതെന്നോ ലോകത്ത് എവിടെ നിന്നാണ് വരുന്നതെന്നും ആർക്കും കാണാൻ കഴിയില്ല.
 
-Tor is designed for privacy. We don’t know who our users are, and we don't keep logs of user activity.
-
-Tor relay operators cannot reveal the true identity of Tor users.
-
-Continual peer review of Tor's source code by academic and open source communities ensures that there are no backdoors in Tor, and our social contract promises that we will never backdoor Tor. 
-
-## 7. Join the Tor community
-
-Tor is made possible by a diverse set of users, developers, relay operators, and advocates from around the world.
-
-We need your help to make Tor more usable and secure for people everywhere.
-
-You can volunteer with Tor by writing code, running a relay, creating documentation, offering user support, or telling people in your community about Tor.
-
-The Tor community is governed by a code of conduct, and we outline our set of promises to the community in our social contract. 
-
-Learn more about Tor by visiting our website, our wiki, finding us on IRC, joining one of our mailing lists, or signing up for Tor News at newsletter.torproject.org.
+സെക്യുർ ഡ്രോപ്പ്, ജൂനിയർ ഷെയർ എന്നിവ പോലുള്ള മറ്റ് ആപ്ലിക്കേഷനുകൾ നിരീക്ഷണത്തിനും സെൻസർഷിപ്പിനുമെതിരെ ഉപയോക്താക്കളെ പരിരക്ഷിക്കുന്നതിന് ടോർ ഉപയോഗിക്കുന്നു.
 
 
-## 8. Download Tor
+## 6. ടോർ എങ്ങനെ പ്രവർത്തിക്കും?
 
-Tor for Desktop
-torproject.org/download
+അമൽ ബെക്കലെയുടെ വെബ്‌സൈറ്റ് സ്വകാര്യമായി സന്ദർശിക്കാൻ ആഗ്രഹിക്കുന്നു, അതിനാൽ അവൾ ടോർ ബ്രൗസർ തുറക്കുന്നു.
 
-TOR ON MOBILE
-### Android 
-Tor Browser for Android is available from GooglePlay.
+ടോർ ബ്രൗസർ മൂന്ന് റിലേകളുടെ റാൻഡം സർക്യൂട്ട് തിരഞ്ഞെടുക്കുന്നു, അവ ടോർ നെറ്റ്‌വർക്കിലൂടെ ട്രാഫിക് റൂട്ട് ചെയ്യുന്നതിന് ലോകമെമ്പാടുമുള്ള കമ്പ്യൂട്ടറുകളാണ്.
+
+ടോർ ബ്രൗസർ അവളുടെ വെബ്‌സൈറ്റ് അഭ്യർത്ഥന മൂന്ന് തവണ എൻ‌ക്രിപ്റ്റ് ചെയ്യുകയും അവളുടെ സർക്യൂട്ടിലെ ആദ്യത്തെ ടോർ റിലേയിലേക്ക് അയയ്ക്കുകയും ചെയ്യുന്നു.
+
+ആദ്യ റിലേ ആദ്യത്തെ എൻ‌ക്രിപ്ഷൻ ലെയർ നീക്കംചെയ്യുന്നു, പക്ഷേ ലക്ഷ്യസ്ഥാനം ബെക്കെലിന്റെ വെബ്‌സൈറ്റാണെന്ന് മനസിലാക്കുന്നില്ല.
+
+ആദ്യ റിലേ സർക്യൂട്ടിലെ അടുത്ത സ്ഥാനം മാത്രമേ പഠിക്കുന്നുള്ളൂ, ഇത് രണ്ടാമത്തെ റിലേയാണ്.
+
+രണ്ടാമത്തെ റിലേ മറ്റൊരു എൻ‌ക്രിപ്ഷൻ ലെയർ നീക്കംചെയ്യുകയും വെബ് പേജ് അഭ്യർത്ഥന മൂന്നാം റിലേയിലേക്ക് കൈമാറുകയും ചെയ്യുന്നു.
+
+മൂന്നാമത്തെ റിലേ അവസാന എൻ‌ക്രിപ്ഷൻ ലെയർ നീക്കംചെയ്യുകയും വെബ് പേജ് അഭ്യർത്ഥനയെ ലക്ഷ്യസ്ഥാനമായ ബെക്കെലിന്റെ വെബ്‌സൈറ്റിലേക്ക് കൈമാറുകയും ചെയ്യുന്നു, പക്ഷേ അഭ്യർത്ഥന അമലിൽ നിന്ന് വരുന്നതായി അറിയില്ല.
+
+വെബ്‌സൈറ്റ് അഭ്യർത്ഥന അമലിൽ നിന്ന് വന്നില്ലെന്ന് ബെക്കലിന് അറിയില്ല.
+
+## 7. ആരാണ് ടോർ ഉപയോഗിക്കുന്നത്?
+
+ലോകമെമ്പാടുമുള്ള ആളുകൾ അവരുടെ സ്വകാര്യത പരിരക്ഷിക്കുന്നതിനും വെബിൽ സൗജന്യമായി പ്രവേശിക്കുന്നതിനും ടോർ ഉപയോഗിക്കുന്നു.
+
+മാധ്യമപ്രവർത്തകർ, മനുഷ്യാവകാശ സംരക്ഷകർ, ഗാർഹിക പീഡന ഇരകൾ, അക്കാദമിക് ഗവേഷകർ, ട്രാക്കിംഗ്, സെൻസർഷിപ്പ് അല്ലെങ്കിൽ നിരീക്ഷണം എന്നിവ അനുഭവിക്കുന്ന ആരെയും സംരക്ഷിക്കാൻ ടോർ സഹായിക്കുന്നു.
+
+## 6. ടോറിനെ വിശ്വസിക്കുന്നത് എന്തുകൊണ്ട്?
+
+ടോർ സ്വകാര്യതയ്‌ക്കായി രൂപകൽപ്പന ചെയ്‌തിരിക്കുന്നു. ഞങ്ങളുടെ ഉപയോക്താക്കൾ ആരാണെന്ന് ഞങ്ങൾക്ക് അറിയില്ല, മാത്രമല്ല ഉപയോക്തൃ പ്രവർത്തനത്തിന്റെ ലോഗുകൾ ഞങ്ങൾ സൂക്ഷിക്കുകയുമില്ല.
+
+ടോർ ഉപയോക്താക്കളുടെ യഥാർത്ഥ ഐഡന്റിറ്റി വെളിപ്പെടുത്താൻ ടോർ റിലേ ഓപ്പറേറ്റർമാർക്ക് കഴിയില്ല.
+
+ടോറിന്റെ സോഴ്‌സ് കോഡിനെ അക്കാദമിക്, ഓപ്പൺ സോഴ്‌സ് കമ്മ്യൂണിറ്റികൾ നിരന്തരം അവലോകനം ചെയ്യുന്നത് ടോറിൽ ബാക്ക്‌ഡോർ ഇല്ലെന്ന് ഉറപ്പാക്കുന്നു, ഒപ്പം ടോറിനെ ഞങ്ങൾ ഒരിക്കലും ബാക്ക്ഡോർ ചെയ്യില്ലെന്ന് ഞങ്ങളുടെ സാമൂഹിക കരാർ വാഗ്ദാനം ചെയ്യുന്നു.
+
+## 7. ടോർ കമ്മ്യൂണിറ്റിയിൽ ചേരുക
+
+ലോകമെമ്പാടുമുള്ള വ്യത്യസ്‌ത ഉപയോക്താക്കൾ, ഡവലപ്പർമാർ, റിലേ ഓപ്പറേറ്റർമാർ, അഭിഭാഷകർ എന്നിവരാണ് ടോർ സാധ്യമാക്കുന്നത്.
+
+ടോർ കൂടുതൽ ഉപയോഗയോഗ്യവും എല്ലായിടത്തുമുള്ള ആളുകൾക്ക് സുരക്ഷിതവുമാക്കാൻ ഞങ്ങൾക്ക് നിങ്ങളുടെ സഹായം ആവശ്യമാണ്.
+
+കോഡ് എഴുതുക, റിലേ പ്രവർത്തിപ്പിക്കുക, ഡോക്യുമെന്റേഷൻ സൃഷ്ടിക്കുക, ഉപയോക്തൃ പിന്തുണ വാഗ്ദാനം ചെയ്യുക അല്ലെങ്കിൽ ടോറിനെക്കുറിച്ച് നിങ്ങളുടെ കമ്മ്യൂണിറ്റിയിലെ ആളുകളോട് പറയുക എന്നിവയിലൂടെ നിങ്ങൾക്ക് ടോറിനൊപ്പം സന്നദ്ധപ്രവർത്തനം നടത്താം.
+
+ടോർ കമ്മ്യൂണിറ്റിയെ നിയന്ത്രിക്കുന്നത് ഒരു പെരുമാറ്റച്ചട്ടമാണ്, മാത്രമല്ല ഞങ്ങളുടെ സാമൂഹിക കരാറിൽ ഞങ്ങൾ സമൂഹത്തിന് നൽകിയ വാഗ്ദാനങ്ങളുടെ രൂപരേഖയും നൽകുന്നു.
+
+ഞങ്ങളുടെ വെബ്‌സൈറ്റ്, ഞങ്ങളുടെ വിക്കി സന്ദർശിക്കുക, ഐആർ‌സിയിൽ ഞങ്ങളെ കണ്ടെത്തുക, ഞങ്ങളുടെ മെയിലിംഗ് ലിസ്റ്റുകളിലൊന്നിൽ ചേരുക അല്ലെങ്കിൽ ടോർ ന്യൂസിനായി ന്യൂസ്‌ലെറ്റർ.ടോർപ്രോജക്റ്റ്.ഓർഗിൽ സൈൻ അപ്പ് ചെയ്യുക എന്നിവയിലൂടെ ടോറിനെക്കുറിച്ച് കൂടുതലറിയുക.
+
+
+## 8. ടോർ ഡൗൺലോഡ് ചെയ്യുക
+
+ഡൗൺ‌ലോഡിനായുള്ള ടോർ Desktoptorproject.org / 
+
+മൊബൈലിൽ ടോർ
+### ആൻഡ്രോയിഡ് 
+ആൻഡ്രോയിഡ്- നായുള്ള ടോർ ബ്രൗസർ ഗൂഗിൾ പ്ലേയ് - ൽ നിന്ന് ലഭ്യമാണ്.
 
 ### iOS
-Onion Browser, developed by M. Tigas, is the only browser we recommend for iOS.
+എം. ടിഗാസ് വികസിപ്പിച്ച ഉള്ളി ബ്രൗസർ, iOS- നായി ഞങ്ങൾ ശുപാർശ ചെയ്യുന്ന ഒരേയൊരു ബ്രൗസറാണ്.
 
