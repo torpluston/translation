@@ -8074,11 +8074,14 @@ msgid ""
 "You can toggle back and forth between channels by clicking on the different "
 "channel names at the top left of the IRC window."
 msgstr ""
+"IRC penceresinin sol üst köşesinden farklı kanal adlarına tıklayarak "
+"kanallar arasında geçiş yapabilirsiniz."
 
 #: https//support.torproject.org/apt/apt-1/
 #: (content/apt/apt-1/contents+en.lrquestion.title)
 msgid "Why and how I can enable Tor Package Repository in Debian?"
 msgstr ""
+"Debian üzerinde Tor Paketi Deposunu neden ve nasıl etkinleştirmeliyim?"
 
 #: https//support.torproject.org/apt/apt-1/
 #: (content/apt/apt-1/contents+en.lrquestion.description)
@@ -8088,6 +8091,11 @@ msgid ""
 "version of Tor that this might not always give you the latest stable Tor "
 "version, it's recommended to install `tor` from our repository."
 msgstr ""
+"Tor Projesi kendi [Debian paketi deposunu](https://deb.torproject.org) "
+"sağlamaktadır. Debian, Uzun Dönem Desteklenen Tor sürümünü sunduğundan, "
+"kullandığınız sürüm her zaman en son kararlı Tor sürümü olmayabilir. Bu "
+"nedenle `tor` uygufrom our repository.lamasını bizim depomuzdan kurmanız "
+"önerilir."
 
 #: https//support.torproject.org/apt/apt-1/
 #: (content/apt/apt-1/contents+en.lrquestion.description)
@@ -8095,11 +8103,13 @@ msgid ""
 "Here's how you can enable Tor Package Repository in Debian based "
 "distributions:"
 msgstr ""
+"Debian temelli dağıtımlarda Tor Paketi Deposunu şu şekilde "
+"etkinleştirebilirsiniz: "
 
 #: https//support.torproject.org/apt/apt-1/
 #: (content/apt/apt-1/contents+en.lrquestion.description)
 msgid "#### 1. Install `apt-transport-https`"
-msgstr ""
+msgstr "#### 1. `apt-transport-https` uygulamasını kurun"
 
 #: https//support.torproject.org/apt/apt-1/
 #: (content/apt/apt-1/contents+en.lrquestion.description)
@@ -8108,11 +8118,14 @@ msgid ""
 "metadata and packages available in sources accessible over https (Hypertext "
 "Transfer Protocol Secure)."
 msgstr ""
+"libapt-pkg kitaplığını kullanan tüm paket yöneticilerinin üst verilere ve "
+"https (Hypertext Transfer Protocol Secure) üzerindeki kaynaklarda bulunan "
+"paketlere erişmesini sağlar."
 
 #: https//support.torproject.org/apt/apt-1/
 #: (content/apt/apt-1/contents+en.lrquestion.description)
 msgid "# apt install apt-transport-https"
-msgstr ""
+msgstr "# apt install apt-transport-https"
 
 #: https//support.torproject.org/apt/apt-1/
 #: (content/apt/apt-1/contents+en.lrquestion.description)
@@ -8120,21 +8133,23 @@ msgid ""
 "#### 2. Add the following entries to `/etc/apt/sources.list` or a new file "
 "in `/etc/apt/sources.list.d/`"
 msgstr ""
+"#### 2. `/etc/apt/sources.list` dosyasına ya da yeni "
+"`/etc/apt/sources.list.d/` dosyasına şu kayıtları ekleyin"
 
 #: https//support.torproject.org/apt/apt-1/
 #: (content/apt/apt-1/contents+en.lrquestion.description)
 msgid "deb https://deb.torproject.org/torproject.org <DISTRIBUTION> main"
-msgstr ""
+msgstr "deb https://deb.torproject.org/torproject.org <DISTRIBUTION> main"
 
 #: https//support.torproject.org/apt/apt-1/
 #: (content/apt/apt-1/contents+en.lrquestion.description)
 msgid "deb-src https://deb.torproject.org/torproject.org <DISTRIBUTION> main"
-msgstr ""
+msgstr "deb-src https://deb.torproject.org/torproject.org <DISTRIBUTION> main"
 
 #: https//support.torproject.org/apt/apt-1/
 #: (content/apt/apt-1/contents+en.lrquestion.description)
 msgid "If you want to try experimental packages:"
-msgstr ""
+msgstr "Geliştirme aşamasındaki paketleri denemek isterseniz:"
 
 #: https//support.torproject.org/apt/apt-1/
 #: (content/apt/apt-1/contents+en.lrquestion.description)
@@ -8142,6 +8157,8 @@ msgid ""
 "deb https://deb.torproject.org/torproject.org tor-"
 "experimental-0.3.4.x-<DISTRIBUTION> main"
 msgstr ""
+"deb https://deb.torproject.org/torproject.org tor-"
+"experimental-0.3.4.x-<DISTRIBUTION> main"
 
 #: https//support.torproject.org/apt/apt-1/
 #: (content/apt/apt-1/contents+en.lrquestion.description)
@@ -8149,11 +8166,13 @@ msgid ""
 "deb-src https://deb.torproject.org/torproject.org tor-"
 "experimental-0.3.4.x-<DISTRIBUTION> main"
 msgstr ""
+"deb-src https://deb.torproject.org/torproject.org tor-"
+"experimental-0.3.4.x-<DISTRIBUTION> main"
 
 #: https//support.torproject.org/apt/apt-1/
 #: (content/apt/apt-1/contents+en.lrquestion.description)
 msgid "Or nightly builds:"
-msgstr ""
+msgstr "Gecelik yapımları denemek isterseniz:"
 
 #: https//support.torproject.org/apt/apt-1/
 #: (content/apt/apt-1/contents+en.lrquestion.description)
@@ -8161,6 +8180,8 @@ msgid ""
 "deb https://deb.torproject.org/torproject.org tor-nightly-"
 "master-<DISTRIBUTION> main"
 msgstr ""
+"deb https://deb.torproject.org/torproject.org tor-nightly-"
+"master-<DISTRIBUTION> main"
 
 #: https//support.torproject.org/apt/apt-1/
 #: (content/apt/apt-1/contents+en.lrquestion.description)
@@ -8168,6 +8189,8 @@ msgid ""
 "deb-src https://deb.torproject.org/torproject.org tor-nightly-"
 "master-<DISTRIBUTION> main"
 msgstr ""
+"deb-src https://deb.torproject.org/torproject.org tor-nightly-"
+"master-<DISTRIBUTION> main"
 
 #: https//support.torproject.org/apt/apt-1/
 #: (content/apt/apt-1/contents+en.lrquestion.description)
@@ -8177,6 +8200,9 @@ msgid ""
 "Replace `<DISTRIBUTION>` with your Operating System codename. Run "
 "`lsb_release -c` or `cat /etc/debian_version` to discover."
 msgstr ""
+"`<DISTRIBUTION>` yerine işletim sisteminizin kod adını yazın. Kod adını "
+"öğrenmek için `lsb_release -c` or `cat /etc/debian_version` komutunu "
+"kullanabilirsiniz."
 
 #: https//support.torproject.org/apt/apt-1/
 #: (content/apt/apt-1/contents+en.lrquestion.description)
@@ -8184,6 +8210,8 @@ msgid ""
 "#### 3. Then add the gpg key used to sign the packages by running the "
 "following commands at your command prompt"
 msgstr ""
+"#### 3. Ardından, komut satırından aşağıdaki komutları yürüterek paketleri "
+"imzalamak için kullanılan gpg anahtarını ekleyin."
 
 #: https//support.torproject.org/apt/apt-1/
 #: (content/apt/apt-1/contents+en.lrquestion.description)
@@ -8192,12 +8220,16 @@ msgid ""
 "https://deb.torproject.org/torproject.org/A3C4F0F979CAA22CDBA8F512EE8CBC9E886DDD89.asc"
 " | gpg --import"
 msgstr ""
+"# curl "
+"https://deb.torproject.org/torproject.org/A3C4F0F979CAA22CDBA8F512EE8CBC9E886DDD89.asc"
+" | gpg --import"
 
 #: https//support.torproject.org/apt/apt-1/
 #: (content/apt/apt-1/contents+en.lrquestion.description)
 msgid ""
 "# gpg --export A3C4F0F979CAA22CDBA8F512EE8CBC9E886DDD89 | apt-key add -"
 msgstr ""
+"# gpg --export A3C4F0F979CAA22CDBA8F512EE8CBC9E886DDD89 | apt-key add -"
 
 #: https//support.torproject.org/apt/apt-1/
 #: (content/apt/apt-1/contents+en.lrquestion.description)
