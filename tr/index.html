@@ -1,74 +1,83 @@
 <!doctype html>
-<html lang="tr">
+<html>
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Snowflake</title>
-<link rel="icon" href="assets/favicon.ico">
-<link rel="stylesheet" href="index.css">
+<link rel="icon" href="./assets/favicon.ico">
+<link rel="stylesheet" href="./bootstrap.css">
+<link rel="stylesheet" href="./index.css">
 </head>
-<body>
-    <header id="header"><a href="https://www.torproject.org/">
-        <img src="tor-logo@2x.png" alt="Tor" height="50"></a></header><section id="content"><h1>SNOWFLAKE</h1>
+<body class="no-gutters">
+    <header id="header"><nav class="navbar no-background navbar-dark bg-dark p-4"><a class="navbar-brand" href="https://www.torproject.org/">
+          <img src="./tor-logo@2x.png" alt="Tor" height="50"></a><div class="btn-group dropdown pull-right">
+<button id="language-switcher" type="button" class="btn btn-dark bg-dark dropdown-toggle btn-block" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          </button><div id="supported-languages" class="dropdown-menu">
+          </div>
+        </div>
+      </nav></header><div>
+      <section id="content"><h1>SNOWFLAKE</h1>
 
-      <p class="diagram"><img src="https://trac.torproject.org/projects/tor/raw-attachment/wiki/doc/Snowflake/snowflake-schematic.png" alt="Diagram"></p>
+        <p class="diagram"><img src="https://trac.torproject.org/projects/tor/raw-attachment/wiki/doc/Snowflake/snowflake-schematic.png" alt="Diagram"></p>
 
-      <p>Snowflake İnternet sansürünü aşmaya yönelik bir sistemdir. Sansüre uğrayan
-      kişiler, Snowflake kullanarak İnternete erişebilir. Bağlantı, gönüllüler tarafından
-      işletilen Snowflake vekil sunucuları üzerinden kurulur. Snowflake hakkında
-      information about how Snowflake works see our
-      <a href="https://trac.torproject.org/projects/tor/wiki/doc/Snowflake/">viki</a> sayfamıza bakabilirsiniz.</p>
+        <p data-msgid="__MSG_websiteIntro__">Snowflake İnternet sansürünü aşmaya yönelik bir sistemdir. 
+        Sansüre uğrayan kişiler, Snowflake kullanarak İnternete erişebilir.
+        Bağlantı, gönüllüler tarafından işletilen Snowflake vekil sunucuları ile sağlanır. 
+        Snowflake hakkında ayrıntılı bilgi almak için 
+        <a href="https://trac.torproject.org/projects/tor/wiki/doc/Snowflake/" data-msgid="__MSG_docWiki__">Viki</a> sayfamıza bakabilirsiniz.</p>
 
-      <div class="sidebyside">
+        <div class="sidebyside">
 
-        <section id="browser" class="browser"><h2>Tarayıcı</h2>
+          <section id="browser" class="browser"><h2 data-msgid="__MSG_browser__">Tarayıcı</h2>
 
-          <p>İnternet erişiminiz sansürleniyorsa
+            <p data-msgid="__MSG_censoredUsers__">İnternet erişiminiz sansürleniyorsa
           <a href="https://www.torproject.org/download/">Tor Browser</a> uygulamasını indirmelisiniz.</p>
 
-          <p class="screenshot"><img src="screenshot.png" alt="Tor Browser screenshot"></p>
-        </section><section id="extension" class="extension"><h2>Eklenti</h2>
+            <p class="screenshot"><img src="./screenshot.png" alt="Tor Browser ekran görüntüsü"></p>
+          </section><section id="extension" class="extension"><h2 data-msgid="__MSG_extension__">Eklenti</h2>
 
-          <p>İnternet erişiminiz <strong>sansürlenmiyorsa</strong>, sansürlenen ağlardaki 
+            <p data-msgid="__MSG_installExtension__">İnternet erişiminiz <strong>sansürlenmiyorsa</strong>, sansürlenen ağlardaki 
           kullanıcılara yardımcı olmak için Snowflake eklentisini kurabilirsiniz.
           Diğer kullanıcıların vekil sunucunuz üzerinden eriştiği sayfalar hakkında
           endişelenmeniz gerekmez. Bu kullanıcıların görülebilecek IP adresleri
           sizin değil Tor çıkış durağının adresi olur.</p>
 
-          <p class="addon"><a href="https://addons.mozilla.org/en-US/firefox/addon/torproject-snowflake/">
-              <img src="firefox150.jpg" alt="Install in Firefox" height="100"><br><span>Firefox üzerine kur</span>
+            <p class="addon"><a href="https://addons.mozilla.org/en-US/firefox/addon/torproject-snowflake/">
+              <img src="./firefox150.jpg" alt="Firefox üzerine kurulum" height="100"><br><span data-msgid="MSG_installFirefox__">Firefox üzerine kurulum</span>
             </a>
             <a href="https://chrome.google.com/webstore/detail/snowflake/mafpmfcccpbjnhfhjnllmmalhifmlcie">
-              <img src="chrome150.jpg" alt="Install in Chrome" height="100"><br><span>Chrome üzerine kur</span>
+              <img src="./chrome150.jpg" alt="Chrome üzerine kurulum" height="100"><br><span data-msgid="__MSG_installChrome__">Chrome üzerine kurulum</span>
             </a></p>
-        </section>
+          </section>
 </div>
 
-      <section id="bugs"><h2>HATA BİLDİRİMİ</h2>
+        <section id="bugs"><h2 data-msgid="__MSG_reportingBugs__">Hata Bildirimi</h2>
 
-        <p>Bir istemci ya da vekil sunucu olarak Snowflake kullanırken sorun
-      yaşarsanız, hata bildirimi gönderebilirsiniz. Bunun için,</p>
+          <p data-msgid="__MSG_fileBug__">Bir istemci ya da vekil sunucu olarak Snowflake kullanırken sorun
+      yaşarsanız, hata bildiriminde bulunmanız iyi olur. Bunun için,</p>
 
-        <ol>
-<li> <a href="https://trac.torproject.org/projects/tor/register">bir hesap
+          <ol>
+<li data-msgid="__MSG_sharedAccount__"> <a href="https://trac.torproject.org/projects/tor/register">bir hesap
         açabilir</a> ya da <a href="https://trac.torproject.org/projects/tor/login">oturum açmak</a> için
         paylaşılan <b>cypherpunks</b> hesabı ve <b>writecode</b> parolasını kullanabilirsiniz.</li>
-          <li>
+            <li data-msgid="__MSG_bugTracker__">
 <a href="https://trac.torproject.org/projects/tor/newticket?component=Circumvention%2FSnowflake">Kayıt açmak için</a>
         hata izleyicimizi kullanabilirsiniz.</li>
-        </ol>
-<p>Lütfen bildirim kaydında olabildiğince açıklayıcı olun ve yapabiliyorsanız
+          </ol>
+<p data-msgid="__MSG_descriptive__">Lütfen bildirim kaydında olabildiğince açıklayıcı olun ve yapabiliyorsanız
       hatayı yeniden oluşturmamıza yardımcı olabilecek günlük iletilerini ekleyin.
       Sorunun Snowflake sisteminin hangi parçasında yaşandığını bildirmek için
       <em>snowflake-webextension</em> ya da <em>snowflake-client</em> anahtar
       sözcüklerini ekleyebilirsiniz.</p>
-      </section><section id="embed"><h2>YERLEŞTİRME</h2>
+        </section><section id="embed"><h2 data-msgid="__MSG_embed__">Ekleme</h2>
 
-        <p>Artık Snowflake amblemini herhangi bir web sitesine ekleyebilirsiniz.</p>
+          <p data-msgid="__MSG_possible__">Artık Snowflake logosunu istediğiniz web sitesine ekleyebilirsiniz.</p>
 
-        <textarea readonly>&lt;iframe src="https://snowflake.torproject.org/embed.html" width="320px" height="200px" frameborder="0" scrolling="no"&gt;&lt;/iframe&gt;</textarea><p>Şu şekilde görüntülenir:</p>
+          <textarea readonly>&lt;iframe src="https://snowflake.torproject.org/embed.html" width="320px" height="200px" frameborder="0" scrolling="no"&gt;&lt;/iframe&gt;</textarea><p data-msgid="__MSG_looksLike__">Şu şekilde görüntülenir:</p>
 
-        <iframe src="embed.html" width="320" height="240" frameborder="0" scrolling="no"></iframe>
-      </section></section>
+          <iframe src="https://snowflake.torproject.org/embed.html" width="320" height="240" frameborder="0" scrolling="no"></iframe>
+        </section></section>
+</div>
+    <script src="index.js"></script>
 </body>
 </html>
