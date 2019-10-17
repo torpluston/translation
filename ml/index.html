@@ -1,71 +1,83 @@
 <!doctype html>
-<html lang="ml">
+<html>
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>സ്‌നോഫ്ളൈക് </title>
-<link rel="icon" href="assets/favicon.ico">
-<link rel="stylesheet" href="index.css">
+<link rel="icon" href="./assets/favicon.ico">
+<link rel="stylesheet" href="./bootstrap.css">
+<link rel="stylesheet" href="./index.css">
 </head>
-<body>
-    <header id="header"><a href="https://www.torproject.org/">
-<img src="tor-logo@2x.png" alt="Tor" height="50"></a></header><section id="content"><h1>സ്‌നോഫ്ളൈക് </h1>
+<body class="no-gutters">
+    <header id="header"><nav class="navbar no-background navbar-dark bg-dark p-4"><a class="navbar-brand" href="https://www.torproject.org/">
+          <img src="./tor-logo@2x.png" alt="Tor" height="50"></a><div class="btn-group dropdown pull-right">
+<button id="language-switcher" type="button" class="btn btn-dark bg-dark dropdown-toggle btn-block" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          </button><div id="supported-languages" class="dropdown-menu">
+          </div>
+        </div>
+      </nav></header><div>
+      <section id="content"><h1>സ്‌നോഫ്ളൈക് </h1>
 
-      <p class="diagram"><img src="https://trac.torproject.org/projects/tor/raw-attachment/wiki/doc/Snowflake/snowflake-schematic.png" alt="Diagram"></p>
+        <p class="diagram"><img src="https://trac.torproject.org/projects/tor/raw-attachment/wiki/doc/Snowflake/snowflake-schematic.png" alt="Diagram"></p>
 
-      <p>സ്‌നോഫ്ളൈക് എന്നത് ഒരു ഇന്റർനെറ്റ് സെന്സര്ഷിപ് പ്രേധിരോധിക്കുന്ന സിസ്റ്റമാണ് . സെന്സര്ഷിപ് ഉള്ള സ്ഥലങ്ങളിലെ ആളുകൾക്ക് സ്‌നോഫ്ളൈക് ഉപയോഗിച്ച് ഇന്റർനെറ്റ് ഉപയോഗിക്കാവുന്നതാണ് . അവരുടെ ബന്ധങ്ങൾ സ്‌നോഫ്ളൈക്  അപരന്മാർ വഴി ആയിരിക്കും 
-പോകുന്നത് , അത് പ്രേവര്തിപ്പിക്കുന്നതു സ്വമേധയാ പ്രവർതുക്കുന്ന ആളുകൾ മുഗാന്ദരമാണ് .കൂടുതൽ വിശദമായ വിവരങ്ങൾക്കും എങ്ങനെയാണ് സനൗഫ്ളൈക് പ്രേവര്തിക്കുന്നതെന്നും അറിയാൻ <a href="https://trac.torproject.org/projects/tor/wiki/doc/Snowflake/">വിക്കി ഖണ്ഡം </a>കാണുക </p>
+        <p data-msgid="__MSG_websiteIntro__">Snowflake is a system to defeat internet censorship. People who are
+        censored can use Snowflake to access the internet. Their connection goes
+        through Snowflake proxies, which are run by volunteers. For more detailed
+        information about how Snowflake works see our
+        <a href="https://trac.torproject.org/projects/tor/wiki/doc/Snowflake/" data-msgid="__MSG_docWiki__">documentation wiki</a>.</p>
 
-      <div class="sidebyside">
+        <div class="sidebyside">
 
-        <section id="browser" class="browser"><h2>ബ്രൌസർ </h2>
+          <section id="browser" class="browser"><h2 data-msgid="__MSG_browser__">ബ്രൌസർ </h2>
 
-          <p>നിങ്ങളുടെ ഇന്റർനെറ്റ് ഉപയോഗം സെൻസർ ചെയ്തിട്ടുണ്ടെങ്കിൽ നിങ്ങൾ തീർച്ചയായും <a href="https://www.torproject.org/download/">ടോർ ബ്രൌസർ </a>ഡൌൺലോഡ് ചെയ്യുക </p>
+            <p data-msgid="__MSG_censoredUsers__">If your internet access is censored, you should download 
+            <a href="https://www.torproject.org/download/">Tor Browser</a>.</p>
 
-          <p class="screenshot"><img src="screenshot.png" alt="Tor Browser screenshot"></p>
-        </section><section id="extension" class="extension"><h2>വ്യാപിപ്പിക്കാൻ </h2>
+            <p class="screenshot"><img src="./screenshot.png" alt="Tor Browser screenshot"></p>
+          </section><section id="extension" class="extension"><h2 data-msgid="__MSG_extension__">വ്യാപിപ്പിക്കാൻ </h2>
 
-          <p>നിങ്ങളുടെ ഇന്റർനെറ്റ് ഉപയോഗം<strong> സെൻസർ ചെയ്തിട്ടില്ലെങ്കിൽ </strong>നിങ്ങൾ തീർച്ചയായും
- സനൗ ഫ്ളൈക് എക്സ്റ്റൻഷൻ ഇൻസ്റ്റാൾ ചെയ്തു മറ്റുള്ള സെൻസർ ചെയ്തുപോയിട്ടുള്ള
-ഉപഭോക്താക്കളെ സഹായിക്കണം. മറ്റുള്ള ഉപഭോക്താക്കൾ 
-ഏതൊക്കെ തരത്തിൽ ഉള്ള വെബ്സൈറ്റ് ആണ് നിങ്ങളുടെ പ്രോക്സി വഴി ഉപയോഗിക്കുന്നത് എന്നതിനെ പറ്റി നിങ്ങൾ വ്യാകുലപ്പെടേണ്ടതില്ല . അവരുടെ കാണുന്ന ഐ പി എപ്പഴും 
-അവരുടെ ടോർ എക്സിറ് നോട് ആയിരിയ്ക്കും, നിങ്ങളുടെ ആയിരിക്കില്ല .</p>
+            <p data-msgid="__MSG_installExtension__">If your internet access is <strong>not</strong> censored, you should
+            consider installing the Snowflake extension to help users in censored
+            networks. There is no need to worry about which websites people are
+            accessing through your proxy. Their visible browsing IP address will
+            match their Tor exit node, not yours.</p>
 
-          <p class="addon"><a href="https://addons.mozilla.org/en-US/firefox/addon/torproject-snowflake/">
-<img src="firefox150.jpg" alt="Install in Firefox" height="100"><br><span>ഫയർഫോക്സിൽ ഇൻസ്റ്റാൾ ചെയ്യുക</span>
-</a>
-<a href="https://chrome.google.com/webstore/detail/snowflake/mafpmfcccpbjnhfhjnllmmalhifmlcie">
-<img src="chrome150.jpg" alt="Install in Chrome" height="100"><br><span>ക്രോമിൽ ഇൻസ്റ്റാൾ ചെയ്യുക</span>
-</a></p>
-        </section>
+            <p class="addon"><a href="https://addons.mozilla.org/en-US/firefox/addon/torproject-snowflake/">
+              <img src="./firefox150.jpg" alt="Install in Firefox" height="100"><br><span data-msgid="MSG_installFirefox__">Install in Firefox</span>
+            </a>
+            <a href="https://chrome.google.com/webstore/detail/snowflake/mafpmfcccpbjnhfhjnllmmalhifmlcie">
+              <img src="./chrome150.jpg" alt="Install in Chrome" height="100"><br><span data-msgid="__MSG_installChrome__">Install in Chrome</span>
+            </a></p>
+          </section>
 </div>
 
-      <section id="bugs"><h2>ബഗ്‌സ് അറിയിക്കുന്നു </h2>
+        <section id="bugs"><h2 data-msgid="__MSG_reportingBugs__">ബഗുകൾ റിപ്പോർട്ടുചെയ്യുന്നു</h2>
 
-        <p>ഒരു ക്ലയന്റ് അല്ലെങ്കിൽ പ്രോക്സി എന്ന നിലയിൽ സ്നോഫ്ലേക്കുമായി നിങ്ങൾക്ക് പ്രശ്നങ്ങൾ നേരിടുകയാണെങ്കിൽ,
-ഒരു ബഗ് ഫയൽ ചെയ്യുന്നത് പരിഗണിക്കുക. അങ്ങനെ ചെയ്യുന്നതിന്, നിങ്ങൾ ചെയ്യേണ്ടിവരും,</p>
+          <p data-msgid="__MSG_fileBug__">If you encounter problems with Snowflake as a client or a proxy,
+          please consider filing a bug.  To do so, you will have to,</p>
 
-        <ol>
-<li>ഒന്നുകിൽ <a href="https://trac.torproject.org/projects/tor/register">ഒരു അക്കൗണ്ട് 
-സൃഷ്ടിക്കുക  </a>അല്ലെങ്കിൽ <a href="https://trac.torproject.org/projects/tor/login">ലോഗിൻ ചെയ്യുക</a>
-പാസ്‌വേഡ് <b>റൈറ്റ്‌കോഡിനൊപ്പം</b> പങ്കിട്ട <b>സൈഫർ‌പങ്ക്സ് </b>അക്കൗണ്ട്ഉ പയോഗിക്കുന്നു</li>
-          <li>
-<a href="https://trac.torproject.org/projects/tor/newticket?component=Circumvention%2FSnowflake">ഒരു ടിക്കറ്റ് ഫയൽ ചെയ്യുക</a>
- ഞങ്ങളുടെ ബഗ് ട്രാക്കർ ഉപയോഗിക്കുന്നു.</li>
-        </ol>
-<p>നിങ്ങളുടെ ടിക്കറ്റിനൊപ്പം എങ്കിലും കഴിയുന്നത്ര വിവരണാത്മകമായിരിക്കാൻ ശ്രമിക്കുക
- ബഗ് പുനർനിർമ്മിക്കാൻ ഞങ്ങളെ സഹായിക്കുന്ന ലോഗ് സന്ദേശങ്ങൾ ഉൾപ്പെടുത്താം.
- <em>സ്നോഫ്ലേക്ക്-വെബ്‌സ്റ്റെൻഷൻ</em> അല്ലെങ്കിൽ <em>സ്നോഫ്ലേക്ക്-ക്ലയന്റ് </em>
-കീവേഡുകൾ ചേർക്കുന്നത് പരിഗണിക്കുക
-  സ്നോഫ്ലേക്ക് സിസ്റ്റത്തിന്റെ ഏത് ഭാഗമാണ് പ്രശ്നങ്ങൾ അനുഭവിക്കുന്നതെന്ന് 
-ഞങ്ങളെ അറിയിക്കുന്നതിന് .</p>
-      </section><section id="embed"><h2>എംബെഡ് </h2>
+          <ol>
+<li data-msgid="__MSG_sharedAccount__">Either <a href="https://trac.torproject.org/projects/tor/register">create an
+                account</a> or <a href="https://trac.torproject.org/projects/tor/login">log in</a>
+              using the shared <b>cypherpunks</b> account with password <b>writecode</b>.</li>
+            <li data-msgid="__MSG_bugTracker__">
+<a href="https://trac.torproject.org/projects/tor/newticket?component=Circumvention%2FSnowflake">File a ticket</a>
+              using our bug tracker.</li>
+          </ol>
+<p data-msgid="__MSG_descriptive__">Please try to be as descriptive as possible with your ticket and if
+          possible include log messages that will help us reproduce the bug.
+          Consider adding keywords <em>snowflake-webextension</em> or <em>snowflake-client</em>
+          to let us know how which part of the Snowflake system is experiencing
+          problems.</p>
+        </section><section id="embed"><h2 data-msgid="__MSG_embed__">ഉൾച്ചേർക്കുക</h2>
 
-        <p>ഇപ്പോൾ സനൗ ഫ്‌ളൈക് ന്റെ തിലകം ഏതു വെബ്സൈറ്റ് ലും എംബെഡ് ചെയ്യാൻ സാദ്ധ്യമാണ് :</p>
+          <p data-msgid="__MSG_possible__">ഇപ്പോൾ സനൗ ഫ്‌ളൈക് ന്റെ തിലകം ഏതു വെബ്സൈറ്റ് ലും എംബെഡ് ചെയ്യാൻ സാദ്ധ്യമാണ് :</p>
 
-        <textarea readonly>&lt;iframe src="https://snowflake.torproject.org/embed.html" width="320" height="240" frameborder="0" scrolling="no"&gt;&lt;/iframe&gt;</textarea><p>അത് ഇങ്ങനെ കാണാൻ സാധിക്കും :</p>
+          <textarea readonly>&lt;iframe src="https://snowflake.torproject.org/embed.html" width="320" height="240" frameborder="0" scrolling="no"&gt;&lt;/iframe&gt;</textarea><p data-msgid="__MSG_looksLike__">അത് ഇങ്ങനെ കാണാൻ സാധിക്കും :</p>
 
-        <iframe src="embed.html" width="320" height="240" frameborder="0" scrolling="no"></iframe>
-      </section></section>
+          <iframe src="https://snowflake.torproject.org/embed.html" width="320" height="240" frameborder="0" scrolling="no"></iframe>
+        </section></section>
+</div>
+    <script src="index.js"></script>
 </body>
 </html>
