@@ -1,74 +1,79 @@
 <!doctype html>
-<html lang="ja">
+<html>
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Snowflake</title>
-<link rel="icon" href="assets/favicon.ico">
-<link rel="stylesheet" href="index.css">
+<link rel="icon" href="./assets/favicon.ico">
+<link rel="stylesheet" href="./bootstrap.css">
+<link rel="stylesheet" href="./index.css">
 </head>
-<body>
-    <header id="header"><a href="https://www.torproject.org/">
-        <img src="tor-logo@2x.png" alt="Tor" height="50"></a></header><section id="content"><h1>SNOWFLAKE</h1>
+<body class="no-gutters">
+    <header id="header"><nav class="navbar no-background navbar-dark bg-dark p-4"><a class="navbar-brand" href="https://www.torproject.org/">
+          <img src="./tor-logo@2x.png" alt="Tor" height="50"></a><div class="btn-group dropdown pull-right">
+<button id="language-switcher" type="button" class="btn btn-dark bg-dark dropdown-toggle btn-block" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          </button><div id="supported-languages" class="dropdown-menu">
+          </div>
+        </div>
+      </nav></header><div>
+      <section id="content"><h1>SNOWFLAKE</h1>
 
-      <p class="diagram"><img src="https://trac.torproject.org/projects/tor/raw-attachment/wiki/doc/Snowflake/snowflake-schematic.png" alt="Diagram"></p>
+        <p class="diagram"><img src="https://trac.torproject.org/projects/tor/raw-attachment/wiki/doc/Snowflake/snowflake-schematic.png" alt="Diagram"></p>
 
-      <p>スノーフレークは、インターネット検閲を無効にするシステムです。検問されている人も
-      Snowflakeを使用することによってインターネットにアクセスすることができます。 これらの通信は
-      ボランティアが運営するSnowflakeプロキシを経由します。より詳細な
-      仕組みは私たちの
-      <a href="https://trac.torproject.org/projects/tor/wiki/doc/Snowflake/">documentation wiki</a>を参照してください。</p>
+        <p data-msgid="__MSG_websiteIntro__">Snowflakeは、インターネット検閲を無効化するシステムです。 検閲された人は、Snowflakeを使用することによってインターネットにアクセスすることができます。 これらを使用した通信は、ボランティアが運営するスSnowflakeプロキシを経由します。 Snowflakeの動作の詳細については、<a href="https://trac.torproject.org/projects/tor/wiki/doc/Snowflake/" data-msgid="__MSG_docWiki__">Wikiのドキュメント</a>を参照してください。</p>
 
-      <div class="sidebyside">
+        <div class="sidebyside">
 
-        <section id="browser" class="browser"><h2>ブラウザ</h2>
+          <section id="browser" class="browser"><h2 data-msgid="__MSG_browser__">ブラウザ</h2>
 
-          <p>インターネットへのアクセスが検閲されている場合、
-<a href="https://www.torproject.org/download/">Tor Browser</a>をダウンロードする必要があります。</p>
+            <p data-msgid="__MSG_censoredUsers__">もしインターネットアクセスが検閲されているのなら、あなたも<a href="https://www.torproject.org/download/">Tor Browser</a>を使用する必要があります。</p>
 
-          <p class="screenshot"><img src="screenshot.png" alt="Tor Browser screenshot"></p>
-        </section><section id="extension" class="extension"><h2>拡張</h2>
+            <p class="screenshot"><img src="./screenshot.png" alt="Tor Browser screenshot"></p>
+          </section><section id="extension" class="extension"><h2 data-msgid="__MSG_extension__">拡張</h2>
 
-          <p>インターネットアクセスが検閲されて<strong>いない</strong>場合は、
-          Snowflakeの拡張機能のインストールして、ネットワークを検閲されているユーザーを支援してください。
-          あなたのプロキシを介してユーザーが
-          どんなWebサイトにアクセスしているのか心配する必要はありません。 ユーザーに表示されるブラウジングIPアドレスは
-          あなたのものではなく、Tor出口ノードです。</p>
+            <p data-msgid="__MSG_installExtension__">もしあなたのインターネットアクセスが検閲されて<strong>いない</strong>なら、
+Snowflake拡張機能のインストールして、ネットワークを検閲されているユーザーを救いましょう。
+あなたのプロキシを経由して、彼らがどんなサイトにアクセスしているのか心配する必要はありません。
+彼らに表示されるブラウジングIPアドレスは
+Torの出口ノードで、あなたのIPアドレスでありません。</p>
 
-          <p class="addon"><a href="https://addons.mozilla.org/en-US/firefox/addon/torproject-snowflake/">
-              <img src="firefox150.jpg" alt="Install in Firefox" height="100"><br><span>Install in Firefox</span>
+            <p class="addon"><a href="https://addons.mozilla.org/en-US/firefox/addon/torproject-snowflake/">
+              <img src="./firefox150.jpg" alt="Install in Firefox" height="100"><br><span data-msgid="MSG_installFirefox__">Firefoxにインストールする</span>
             </a>
             <a href="https://chrome.google.com/webstore/detail/snowflake/mafpmfcccpbjnhfhjnllmmalhifmlcie">
-              <img src="chrome150.jpg" alt="Install in Chrome" height="100"><br><span>Install in Chrome</span>
+              <img src="./chrome150.jpg" alt="Install in Chrome" height="100"><br><span data-msgid="__MSG_installChrome__">Chromeにインストールする</span>
             </a></p>
-        </section>
+          </section>
 </div>
 
-      <section id="bugs"><h2>バグを報告</h2>
+        <section id="bugs"><h2 data-msgid="__MSG_reportingBugs__">バグを報告しています</h2>
 
-        <p>If you encounter problems with Snowflake as a client or a proxy,
-        please consider filing a bug.  To do so, you will have to,</p>
+          <p data-msgid="__MSG_fileBug__">クライアントまたはプロキシとしてSnowflakeで問題が発生した場合は、
+          バグの提出をしてください。 そのためには、次のことが必要です。</p>
 
-        <ol>
-<li>Either <a href="https://trac.torproject.org/projects/tor/register">create an
-          account</a> or <a href="https://trac.torproject.org/projects/tor/login">log in</a>
-          using the shared <b>cypherpunks</b> account with password <b>writecode</b>.</li>
-          <li>
+          <ol>
+<li data-msgid="__MSG_sharedAccount__">
+<a href="https://trac.torproject.org/projects/tor/register">アカウントを作成</a>するか、
+                パスワード<b>Writecode</b>で
+              共有<b>Cypherpunks</b>アカウントを使用して<a href="https://trac.torproject.org/projects/tor/login">ログイン</a>します。</li>
+            <li data-msgid="__MSG_bugTracker__">
 <a href="https://trac.torproject.org/projects/tor/newticket?component=Circumvention%2FSnowflake">File a ticket</a>
-          using our bug tracker.</li>
-        </ol>
-<p>Please try to be as descriptive as possible with your ticket and if
-        possible include log messages that will help us reproduce the bug.
-        Consider adding keywords <em>snowflake-webextension</em> or <em>snowflake-client</em>
-        to let us know how which part of the Snowflake system is experiencing
-        problems.</p>
-      </section><section id="embed"><h2>埋め込む</h2>
+              using our bug tracker.</li>
+          </ol>
+<p data-msgid="__MSG_descriptive__">Please try to be as descriptive as possible with your ticket and if
+          possible include log messages that will help us reproduce the bug.
+          Consider adding keywords <em>snowflake-webextension</em> or <em>snowflake-client</em>
+          to let us know how which part of the Snowflake system is experiencing
+          problems.</p>
+        </section><section id="embed"><h2 data-msgid="__MSG_embed__">Embed</h2>
 
-        <p>Snowflakeバッジを任意のWebサイトに埋め込むことができるようになりました。</p>
+          <p data-msgid="__MSG_possible__">Snowflakeバッジを任意のWebサイトに埋め込むことができるようになりました。</p>
 
-        <textarea readonly>&lt;iframe src="https://snowflake.torproject.org/embed.html" width="320" height="240" frameborder="0" scrolling="no"&gt;&lt;/iframe&gt;</textarea><p>これは次のようになります：</p>
+          <textarea readonly>&lt;iframe src="https://snowflake.torproject.org/embed.html" width="320" height="240" frameborder="0" scrolling="no"&gt;&lt;/iframe&gt;</textarea><p data-msgid="__MSG_looksLike__">これは次のようになります：</p>
 
-        <iframe src="embed.html" width="320" height="240" frameborder="0" scrolling="no"></iframe>
-      </section></section>
+          <iframe src="https://snowflake.torproject.org/embed.html" width="320" height="240" frameborder="0" scrolling="no"></iframe>
+        </section></section>
+</div>
+    <script src="index.js"></script>
 </body>
 </html>
