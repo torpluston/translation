@@ -1,61 +1,83 @@
 <!doctype html>
-<html lang="zh_CN">
+<html>
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Snowflake</title>
-<link rel="icon" href="assets/favicon.ico">
-<link rel="stylesheet" href="index.css">
+<link rel="icon" href="./assets/favicon.ico">
+<link rel="stylesheet" href="./bootstrap.css">
+<link rel="stylesheet" href="./index.css">
 </head>
-<body>
-    <header id="header"><a href="https://www.torproject.org/">
-        <img src="tor-logo@2x.png" alt="Tor" height="50"></a></header><section id="content"><h1>Snowflake</h1>
+<body class="no-gutters">
+    <header id="header"><nav class="navbar no-background navbar-dark bg-dark p-4"><a class="navbar-brand" href="https://www.torproject.org/">
+          <img src="./tor-logo@2x.png" alt="Tor" height="50"></a><div class="btn-group dropdown pull-right">
+<button id="language-switcher" type="button" class="btn btn-dark bg-dark dropdown-toggle btn-block" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          </button><div id="supported-languages" class="dropdown-menu">
+          </div>
+        </div>
+      </nav></header><div>
+      <section id="content"><h1>Snowflake</h1>
 
-      <p class="diagram"><img src="https://trac.torproject.org/projects/tor/raw-attachment/wiki/doc/Snowflake/snowflake-schematic.png" alt="Diagram"></p>
+        <p class="diagram"><img src="https://trac.torproject.org/projects/tor/raw-attachment/wiki/doc/Snowflake/snowflake-schematic.png" alt="Diagram"></p>
 
-      <p>Snowflake 是一个用来对抗互联网审查的系统。被审查的人们可以使用 Snowflake 来访问互联网。他们的连接将通过由志愿者们所运行的 Snowflake 代理来访问网络。了解更多关于 Snowflake 如何运行的资讯，请参阅<a href="https://trac.torproject.org/projects/tor/wiki/doc/Snowflake/">文档 wiki</a>。</p>
+        <p data-msgid="__MSG_websiteIntro__">Snowflake is a system to defeat internet censorship. People who are
+        censored can use Snowflake to access the internet. Their connection goes
+        through Snowflake proxies, which are run by volunteers. For more detailed
+        information about how Snowflake works see our
+        <a href="https://trac.torproject.org/projects/tor/wiki/doc/Snowflake/" data-msgid="__MSG_docWiki__">documentation wiki</a>.</p>
 
-      <div class="sidebyside">
+        <div class="sidebyside">
 
-        <section id="browser" class="browser"><h2>浏览器</h2>
+          <section id="browser" class="browser"><h2 data-msgid="__MSG_browser__">浏览器</h2>
 
-          <p>如果您的互联网访问是受到审查的，您应该下载 <a href="https://www.torproject.org/download/">Tor 浏览器</a>。</p>
+            <p data-msgid="__MSG_censoredUsers__">If your internet access is censored, you should download 
+            <a href="https://www.torproject.org/download/">Tor Browser</a>.</p>
 
-          <p class="screenshot"><img src="screenshot.png" alt="Tor Browser screenshot"></p>
-        </section><section id="extension" class="extension"><h2>拓展</h2>
+            <p class="screenshot"><img src="./screenshot.png" alt="Tor Browser screenshot"></p>
+          </section><section id="extension" class="extension"><h2 data-msgid="__MSG_extension__">拓展</h2>
 
-          <p>如果您的互联网访问并<strong>不</strong>受到审查，你可以考虑安装 Snowflake 拓展来帮助那些身陷审查网络中的用户。无需担心人们通过您的代理访问哪些网站。他们可见的 IP 地址是他们的 Tor 出口节点的 IP 地址，而不是您的。</p>
+            <p data-msgid="__MSG_installExtension__">If your internet access is <strong>not</strong> censored, you should
+            consider installing the Snowflake extension to help users in censored
+            networks. There is no need to worry about which websites people are
+            accessing through your proxy. Their visible browsing IP address will
+            match their Tor exit node, not yours.</p>
 
-          <p class="addon"><a href="https://addons.mozilla.org/en-US/firefox/addon/torproject-snowflake/">
-              <img src="firefox150.jpg" alt="Install in Firefox" height="100"><br><span>在 Firefox 中安装</span>
+            <p class="addon"><a href="https://addons.mozilla.org/en-US/firefox/addon/torproject-snowflake/">
+              <img src="./firefox150.jpg" alt="Install in Firefox" height="100"><br><span data-msgid="MSG_installFirefox__">Install in Firefox</span>
             </a>
             <a href="https://chrome.google.com/webstore/detail/snowflake/mafpmfcccpbjnhfhjnllmmalhifmlcie">
-              <img src="chrome150.jpg" alt="Install in Chrome" height="100"><br><span>在 Chrome 中安装</span>
+              <img src="./chrome150.jpg" alt="Install in Chrome" height="100"><br><span data-msgid="__MSG_installChrome__">Install in Chrome</span>
             </a></p>
-        </section>
+          </section>
 </div>
 
-      <section id="bugs"><h2>报告漏洞</h2>
+        <section id="bugs"><h2 data-msgid="__MSG_reportingBugs__">报告缺陷</h2>
 
-        <p>如果您在使用 Snowflake 的客户端或者代理时，
-       请考虑提交漏洞。为此，您将需要，</p>
+          <p data-msgid="__MSG_fileBug__">If you encounter problems with Snowflake as a client or a proxy,
+          please consider filing a bug.  To do so, you will have to,</p>
 
-        <ol>
-<li> <a href="https://trac.torproject.org/projects/tor/register">创建一个
-          账户</a> 或 <a href="https://trac.torproject.org/projects/tor/login">登录</a>
-          使用共享的<b>cypherpunks</b> 账户并使用密码 <b>writecode</b>。</li>
-          <li>
-<a href="https://trac.torproject.org/projects/tor/newticket?component=Circumvention%2FSnowflake">填写工单</a>
-          使用我们的漏洞追踪器。</li>
-        </ol>
-<p>请尽量描述您的情况，如果可能，请同时报告您的日志文件，这将帮助我们重现漏洞。考虑添加关键词 <em>snowflake-webextension</em> 或者 <em>snowflake-client</em> 来让我们知道您在 Snowflake 系统的哪个部分中遇到了问题。</p>
-      </section><section id="embed"><h2>嵌入</h2>
+          <ol>
+<li data-msgid="__MSG_sharedAccount__">Either <a href="https://trac.torproject.org/projects/tor/register">create an
+                account</a> or <a href="https://trac.torproject.org/projects/tor/login">log in</a>
+              using the shared <b>cypherpunks</b> account with password <b>writecode</b>.</li>
+            <li data-msgid="__MSG_bugTracker__">
+<a href="https://trac.torproject.org/projects/tor/newticket?component=Circumvention%2FSnowflake">File a ticket</a>
+              using our bug tracker.</li>
+          </ol>
+<p data-msgid="__MSG_descriptive__">Please try to be as descriptive as possible with your ticket and if
+          possible include log messages that will help us reproduce the bug.
+          Consider adding keywords <em>snowflake-webextension</em> or <em>snowflake-client</em>
+          to let us know how which part of the Snowflake system is experiencing
+          problems.</p>
+        </section><section id="embed"><h2 data-msgid="__MSG_embed__">嵌入式插件</h2>
 
-        <p>现在可以在任何网站上嵌入 Snowflake 徽章：</p>
+          <p data-msgid="__MSG_possible__">现在可以在任何网站上嵌入 Snowflake 徽章：</p>
 
-        <textarea readonly>&lt;iframe src="https://snowflake.torproject.org/embed.html" width="320" height="240" frameborder="0" scrolling="no"&gt;&lt;/iframe&gt;</textarea><p>看起来是这样的：</p>
+          <textarea readonly>&lt;iframe src="https://snowflake.torproject.org/embed.html" width="320" height="240" frameborder="0" scrolling="no"&gt;&lt;/iframe&gt;</textarea><p data-msgid="__MSG_looksLike__">看起来是这样的：</p>
 
-        <iframe src="embed.html" width="320" height="240" frameborder="0" scrolling="no"></iframe>
-      </section></section>
+          <iframe src="https://snowflake.torproject.org/embed.html" width="320" height="240" frameborder="0" scrolling="no"></iframe>
+        </section></section>
+</div>
+    <script src="index.js"></script>
 </body>
 </html>
