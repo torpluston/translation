@@ -5,8 +5,8 @@
 # Lars Schimmer <echelon@i2pmail.org>, 2019
 # Cat C <cat.cozzi@gmx.de>, 2019
 # c8faa9c4b9d81319c5c2fd62ae3a9956, 2019
-# erinm, 2019
 # Marcel Haring <getting@autistici.org>, 2019
+# erinm, 2019
 # Emma Peel, 2019
 # Curtis Baltimore <curtisbaltimore@protonmail.com>, 2019
 # 
@@ -14,7 +14,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-10-02 19:24+CET\n"
+"POT-Creation-Date: 2019-10-18 16:11+CET\n"
 "PO-Revision-Date: 2019-03-09 10:41+0000\n"
 "Last-Translator: Curtis Baltimore <curtisbaltimore@protonmail.com>, 2019\n"
 "Language-Team: German (https://www.transifex.com/otf/teams/1519/de/)\n"
@@ -818,6 +818,100 @@ msgstr "Menü"
 msgid "Search"
 msgstr "Suchen"
 
+#: lego/templates/secure-connections.html:1
+msgid ""
+"The following visualization shows what information is visible to "
+"eavesdroppers with and without Tor Browser and HTTPS encryption:"
+msgstr ""
+"Die folgende Visualisierung zeigt, welche Informationen Lauscher einsehen "
+"können mit oder ohne Tor Browser und HTTPS Verschlüsselung:"
+
+#: lego/templates/secure-connections.html:4
+msgid ""
+"Click the “Tor” button to see what data is visible to observers when you're "
+"using Tor. The button will turn green to indicate that Tor is on."
+msgstr ""
+"Klicke den Button \"Tor\", um zu sehen, welche Daten Beobachter einsehen "
+"können, wenn du Tor benutzt. Der Button wird grün, wenn Tor an ist."
+
+#: lego/templates/secure-connections.html:5
+msgid ""
+"Click the “HTTPS” button to see what data is visible to observers when "
+"you're using HTTPS. The button will turn green to indicate that HTTPS is on."
+msgstr ""
+"Klicke den \"HTTPS\" Button, um zu sehen, welche Daten für Beobachter "
+"sichtbar sind, wenn du HTTPS benutzt. Der Button wird grün, wenn HTTPS an "
+"ist."
+
+#: lego/templates/secure-connections.html:6
+msgid ""
+"When both buttons are green, you see the data that is visible to observers "
+"when you are using both tools."
+msgstr ""
+"Wenn beide Buttons grün sind, kannst du die Daten sehen, die Beobachter "
+"einsehen können, wenn du beide Tools benutzt."
+
+#: lego/templates/secure-connections.html:7
+msgid ""
+"When both buttons are grey, you see the data that is visible to observers "
+"when you don't use either tool."
+msgstr ""
+"Wenn beide Buttons grau hinterlegt sind, kannst du die Daten sehen, die "
+"Beobachtern sichtbar sind, wenn du kein Werkzeug benutzt."
+
+#: lego/templates/secure-connections.html:11
+msgid "HTTPS"
+msgstr "HTTPS"
+
+#: lego/templates/secure-connections.html:15
+#: lego/templates/secure-connections.html:65
+msgid "Tor"
+msgstr "Tor"
+
+#: lego/templates/secure-connections.html:32
+msgid "POTENTIALLY VISIBLE DATA"
+msgstr ""
+
+#: lego/templates/secure-connections.html:37
+msgid "Site.com"
+msgstr "seite.de"
+
+#: lego/templates/secure-connections.html:40
+msgid "The site being visited."
+msgstr "Die besuchte Seite."
+
+#: lego/templates/secure-connections.html:44
+msgid "user / pw"
+msgstr "user / pw"
+
+#: lego/templates/secure-connections.html:47
+msgid "Username and password used for authentication."
+msgstr "Für die Authentifizierung verwendeter Benutzername und Passwort."
+
+#: lego/templates/secure-connections.html:51
+msgid "data"
+msgstr "data"
+
+#: lego/templates/secure-connections.html:54
+msgid "Data being transmitted."
+msgstr "Übertragene Daten."
+
+#: lego/templates/secure-connections.html:58
+msgid "location"
+msgstr "location"
+
+#: lego/templates/secure-connections.html:61
+msgid ""
+"Network location of the computer used to visit the website (the public IP "
+"address)."
+msgstr ""
+"Netzwerkadresse des Computers, die benutzt wird, um die Webseite zu besuchen"
+" (die öffentliche IP-Adresse)."
+
+#: lego/templates/secure-connections.html:68
+msgid "Whether or not Tor is being used."
+msgstr "Ob Tor verwendet wird oder nicht."
+
 #: templates/contact.html:8
 msgid "Chat with us on"
 msgstr "Chatte mit uns auf"
@@ -927,17 +1021,20 @@ msgstr "Melde ein Sicherheitsproblem."
 #: templates/contact.html:80
 msgid ""
 "If you've found a security issue in one of our projects or in our "
-"infrastructure, please email tor-security@lists.torproject.org. If you want "
-"to encrypt your mail, you can get the GPG public key for the list by "
-"contacting tor-security-sendkey@lists.torproject.org or from pool.sks-"
-"keyservers.net. Here is the fingerprint:"
+"infrastructure, please email tor-security@lists.torproject.org. If you've "
+"found a security bug in Tor or Tor Browser, feel free to submit it for our"
 msgstr ""
-"Wenn du ein Sicherheitsproblem in einem unserer Projekte oder in unserer "
-"Infrastruktur gefunden hast, schicke bitte eine E-Mail an tor-"
-"security@lists.torproject.org. Wenn du deine Mail verschlüsseln möchtest, "
-"kannst du den öffentlichen GPG-Schlüssel für die Liste erhalten, indem du "
-"tor-security-sendkey@lists.torproject.org kontaktierst, oder von pool.sks-"
-"keyservers.net. Hier ist der Fingerabdruck:"
+
+#: templates/contact.html:80
+msgid "bug bounty program."
+msgstr ""
+
+#: templates/contact.html:80
+msgid ""
+"If you want to encrypt your mail, you can get the GPG public key for the "
+"list by contacting tor-security-sendkey@lists.torproject.org or from pool"
+".sks-keyservers.net. Here is the fingerprint:"
+msgstr ""
 
 #: templates/contact.html:100
 msgid "Email us"
@@ -947,13 +1044,9 @@ msgstr "Sende uns eine E-Mail"
 msgid ""
 "For questions and comments about Tor the non-profit organization: trademark "
 "questions, affiliation and coordination, contract inquiries, etc, please "
-"email frontdesk@rt.torproject.org. For donor-related questions, contact "
+"email frontdesk@torproject.org. For donor-related questions, contact "
 "giving@torproject.org"
 msgstr ""
-"Für Fragen und Kommentare über Tor, der gemeinnützigen Organisation: "
-"Markenfragen, Zugehörigkeit und Koordination, Vertragsanfragen usw., sende "
-"bitte eine E-Mail an frontdesk@rt.torproject.org. Bei spenderbezogenen "
-"Fragen Kontakt bitte an giving@torproject.org"
 
 #: templates/contact.html:107
 msgid "Send us Mail"
@@ -968,18 +1061,19 @@ msgid "Protect yourself against tracking, surveillance, and censorship."
 msgstr "Schütze dich vor Verfolgung, Überwachung und Zensur."
 
 #: templates/download-android.html:20 templates/download-android.html:22
+#: templates/download-android.html:24
 msgid "Download .apk"
 msgstr "Download .apk"
 
-#: templates/download-android.html:24
+#: templates/download-android.html:26
 msgid "Go to Google Play"
 msgstr "Gehe zu Google Play"
 
-#: templates/download-android.html:26
+#: templates/download-android.html:28
 msgid "Go to F-Droid"
 msgstr "Gehe zu F-droid"
 
-#: templates/download-android.html:36
+#: templates/download-android.html:38
 msgid "Are you an iOS user? We encourage you to try Onion Browser."
 msgstr ""
 "Bist du ein iOS-Benutzer? Wir empfehlen dir, es auszuprobieren Onion "
@@ -1249,7 +1343,7 @@ msgstr ""
 msgid "The Tor Project | Privacy & Freedom Online"
 msgstr "Das Tor Project | Privatsphäre & Freiheit Online"
 
-#: templates/meta.html:17
+#: templates/meta.html:21
 msgid "Tor Project"
 msgstr "Tor-Projekt"
 

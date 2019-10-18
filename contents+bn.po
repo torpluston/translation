@@ -1,16 +1,16 @@
 # Translators:
 # Al Shahrior Hasan Sagor <shahrior3814@gmail.com>, 2019
 # lisa hayat, 2019
-# erinm, 2019
 # Tabiha Tanha <tabihatanha@yandex.com>, 2019
 # code smite <codesmite@gmail.com>, 2019
+# erinm, 2019
 # Emma Peel, 2019
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-10-02 19:24+CET\n"
+"POT-Creation-Date: 2019-10-18 16:11+CET\n"
 "PO-Revision-Date: 2019-03-09 10:41+0000\n"
 "Last-Translator: Emma Peel, 2019\n"
 "Language-Team: Bengali (https://www.transifex.com/otf/teams/1519/bn/)\n"
@@ -662,6 +662,99 @@ msgstr ""
 msgid "Search"
 msgstr "খুজুন"
 
+#: lego/templates/secure-connections.html:1
+msgid ""
+"The following visualization shows what information is visible to "
+"eavesdroppers with and without Tor Browser and HTTPS encryption:"
+msgstr ""
+"নীচের ভিজ্যুয়ালাইজেশানটি দেখায় যে টর ব্রাউজার এবং HTTPS এনক্রিপশনের সাথে "
+"এবং ছাড়া ছাড়া কী eavesdroppers দেখতে হয়:"
+
+#: lego/templates/secure-connections.html:4
+msgid ""
+"Click the “Tor” button to see what data is visible to observers when you're "
+"using Tor. The button will turn green to indicate that Tor is on."
+msgstr ""
+"আপনি Tor ব্যবহার করছেন যখন পর্যবেক্ষক দৃশ্যমান কি দেখতে \"টর\" বোতাম ক্লিক "
+"করুন। যে টরটি চালু আছে তা নির্দেশ করার জন্য বোতামটি সবুজ হয়ে যাবে।"
+
+#: lego/templates/secure-connections.html:5
+msgid ""
+"Click the “HTTPS” button to see what data is visible to observers when "
+"you're using HTTPS. The button will turn green to indicate that HTTPS is on."
+msgstr ""
+"আপনি যখন HTTPS ব্যবহার করছেন তখন পর্যবেক্ষকদের কাছে যে ডেটা দৃশ্যমান তা "
+"দেখতে \"HTTPS\" বোতামটি ক্লিক করুন। যে HTTPS চালু আছে তা নির্দেশ করার জন্য "
+"বোতামটি সবুজ হয়ে যাবে।"
+
+#: lego/templates/secure-connections.html:6
+msgid ""
+"When both buttons are green, you see the data that is visible to observers "
+"when you are using both tools."
+msgstr ""
+"যখন উভয় বোতামগুলি সবুজ হয়, তখন আপনি দেখতে পান যে আপনি উভয় সরঞ্জামগুলি "
+"ব্যবহার করছেন তখন আপনি দেখতে পাবেন এমন ডেটা দেখুন।"
+
+#: lego/templates/secure-connections.html:7
+msgid ""
+"When both buttons are grey, you see the data that is visible to observers "
+"when you don't use either tool."
+msgstr ""
+"যখন উভয় বোতামগুলি সবুজ হয়, তখন আপনি দেখতে পান যে আপনি উভয় সরঞ্জামগুলি "
+"ব্যবহার করছেন তখন আপনি দেখতে পাবেন এমন ডেটা দেখুন।"
+
+#: lego/templates/secure-connections.html:11
+msgid "HTTPS"
+msgstr "HTTPS"
+
+#: lego/templates/secure-connections.html:15
+#: lego/templates/secure-connections.html:65
+msgid "Tor"
+msgstr "Tor"
+
+#: lego/templates/secure-connections.html:32
+msgid "POTENTIALLY VISIBLE DATA"
+msgstr ""
+
+#: lego/templates/secure-connections.html:37
+msgid "Site.com"
+msgstr "Site.com"
+
+#: lego/templates/secure-connections.html:40
+msgid "The site being visited."
+msgstr "সাইট পরিদর্শন করা হচ্ছে।"
+
+#: lego/templates/secure-connections.html:44
+msgid "user / pw"
+msgstr "user / pw"
+
+#: lego/templates/secure-connections.html:47
+msgid "Username and password used for authentication."
+msgstr "ব্যবহারকারীর নাম এবং পাসওয়ার্ড প্রমাণীকরণের জন্য ব্যবহৃত।"
+
+#: lego/templates/secure-connections.html:51
+msgid "data"
+msgstr "ডাটা"
+
+#: lego/templates/secure-connections.html:54
+msgid "Data being transmitted."
+msgstr "তথ্য প্রেরণ করা হচ্ছে।"
+
+#: lego/templates/secure-connections.html:58
+msgid "location"
+msgstr "অবস্থান"
+
+#: lego/templates/secure-connections.html:61
+msgid ""
+"Network location of the computer used to visit the website (the public IP "
+"address)."
+msgstr ""
+"ওয়েবসাইটের জন্য ব্যবহৃত কম্পিউটারের নেটওয়ার্ক স্থান (পাবলিক আইপি ঠিকানা)।"
+
+#: lego/templates/secure-connections.html:68
+msgid "Whether or not Tor is being used."
+msgstr "টর্চ ব্যবহার করা হচ্ছে কিনা বা না।"
+
 #: templates/contact.html:8
 msgid "Chat with us on"
 msgstr ""
@@ -755,10 +848,19 @@ msgstr ""
 #: templates/contact.html:80
 msgid ""
 "If you've found a security issue in one of our projects or in our "
-"infrastructure, please email tor-security@lists.torproject.org. If you want "
-"to encrypt your mail, you can get the GPG public key for the list by "
-"contacting tor-security-sendkey@lists.torproject.org or from pool.sks-"
-"keyservers.net. Here is the fingerprint:"
+"infrastructure, please email tor-security@lists.torproject.org. If you've "
+"found a security bug in Tor or Tor Browser, feel free to submit it for our"
+msgstr ""
+
+#: templates/contact.html:80
+msgid "bug bounty program."
+msgstr ""
+
+#: templates/contact.html:80
+msgid ""
+"If you want to encrypt your mail, you can get the GPG public key for the "
+"list by contacting tor-security-sendkey@lists.torproject.org or from pool"
+".sks-keyservers.net. Here is the fingerprint:"
 msgstr ""
 
 #: templates/contact.html:100
@@ -769,7 +871,7 @@ msgstr ""
 msgid ""
 "For questions and comments about Tor the non-profit organization: trademark "
 "questions, affiliation and coordination, contract inquiries, etc, please "
-"email frontdesk@rt.torproject.org. For donor-related questions, contact "
+"email frontdesk@torproject.org. For donor-related questions, contact "
 "giving@torproject.org"
 msgstr ""
 
@@ -786,18 +888,19 @@ msgid "Protect yourself against tracking, surveillance, and censorship."
 msgstr ""
 
 #: templates/download-android.html:20 templates/download-android.html:22
+#: templates/download-android.html:24
 msgid "Download .apk"
 msgstr ""
 
-#: templates/download-android.html:24
+#: templates/download-android.html:26
 msgid "Go to Google Play"
 msgstr ""
 
-#: templates/download-android.html:26
+#: templates/download-android.html:28
 msgid "Go to F-Droid"
 msgstr ""
 
-#: templates/download-android.html:36
+#: templates/download-android.html:38
 msgid "Are you an iOS user? We encourage you to try Onion Browser."
 msgstr ""
 
@@ -1026,7 +1129,7 @@ msgstr ""
 msgid "The Tor Project | Privacy & Freedom Online"
 msgstr ""
 
-#: templates/meta.html:17
+#: templates/meta.html:21
 msgid "Tor Project"
 msgstr "টর প্রকল্প"
 
