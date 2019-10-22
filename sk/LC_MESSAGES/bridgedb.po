@@ -14,9 +14,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Tor Project\n"
 "Report-Msgid-Bugs-To: 'https://trac.torproject.org/projects/tor/newticket?component=BridgeDB&keywords=bridgedb-reported,msgid&cc=isis,sysrqb&owner=isis'\n"
-"POT-Creation-Date: 2019-10-03 15:04-0700\n"
-"PO-Revision-Date: 2019-10-13 09:52+0000\n"
-"Last-Translator: Matúš <mato699@gmail.com>\n"
+"POT-Creation-Date: 2019-10-19 14:51-0700\n"
+"PO-Revision-Date: 2019-10-22 01:44+0000\n"
+"Last-Translator: erinm\n"
 "Language-Team: Slovak (http://www.transifex.com/otf/torproject/language/sk/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -40,8 +40,8 @@ msgstr ""
 #. recompiled). `collection_size` sets the number of compiled templates which
 #. are cached before the least recently used ones are removed. See:
 #. http://docs.makotemplates.org/en/latest/usage.html#using-templatelookup
-#. : Localisations which BridgeDB supports which should be rendered right-to-
-#. left.
+#. : A list of supported language tuples. Use getSortedLangList() to read this
+#. variable.
 #. We use our metrics singleton to keep track of BridgeDB metrics such as
 #. "number of failed HTTPS bridge requests."
 #. TRANSLATORS: Please DO NOT translate the following words and/or phrases in
@@ -55,19 +55,23 @@ msgstr ""
 #. "fteproxy"
 #. "Tor"
 #. "Tor Browser"
-#: bridgedb/distributors/https/server.py:135
+#: bridgedb/distributors/https/server.py:138
 msgid "Sorry! Something went wrong with your request."
 msgstr "Prepáčte! Pri spracovaní vašej požiadavky sa vyskytla chyba."
 
-#: bridgedb/distributors/https/templates/base.html:79
+#: bridgedb/distributors/https/templates/base.html:42
+msgid "Language"
+msgstr "Jazyk"
+
+#: bridgedb/distributors/https/templates/base.html:92
 msgid "Report a Bug"
 msgstr "Nahlásiť chybu"
 
-#: bridgedb/distributors/https/templates/base.html:82
+#: bridgedb/distributors/https/templates/base.html:95
 msgid "Source Code"
 msgstr "Zdrojový kód"
 
-#: bridgedb/distributors/https/templates/base.html:85
+#: bridgedb/distributors/https/templates/base.html:98
 msgid "Changelog"
 msgstr "Posledné zmeny"
 
@@ -106,7 +110,8 @@ msgstr "Tento QR kód obsahuje vaše prehostenia. Možete ho zoskenovať číta�
 msgid "There currently aren't any bridges available..."
 msgstr "Práve niesú dostupné žiadne premostenia..."
 
-#: bridgedb/distributors/https/templates/bridges.html:132
+#: bridgedb/distributors/https/templates/bridges.html:133
+#: bridgedb/distributors/https/templates/bridges.html:137
 #, python-format
 msgid ""
 " Perhaps you should try %s going back %s and choosing a different bridge "
@@ -128,17 +133,19 @@ msgstr "Stiahnuť %s Tor Browser %s"
 msgid "Step %s2%s"
 msgstr "Krok %s2%s"
 
-#: bridgedb/distributors/https/templates/index.html:27
+#: bridgedb/distributors/https/templates/index.html:28
+#: bridgedb/distributors/https/templates/index.html:30
 #, python-format
 msgid "Get %s bridges %s"
 msgstr "Získajte %s premostenia %s"
 
-#: bridgedb/distributors/https/templates/index.html:36
+#: bridgedb/distributors/https/templates/index.html:40
 #, python-format
 msgid "Step %s3%s"
 msgstr "Krok %s3%s"
 
-#: bridgedb/distributors/https/templates/index.html:38
+#: bridgedb/distributors/https/templates/index.html:43
+#: bridgedb/distributors/https/templates/index.html:47
 #, python-format
 msgid "Now %s add the bridges to Tor Browser %s"
 msgstr "Teraz %s pridajte premostenia do Tor Browsera %s"
@@ -147,27 +154,27 @@ msgstr "Teraz %s pridajte premostenia do Tor Browsera %s"
 #. beginning of words are present in your final translation. Thanks!
 #. (These are used to insert HTML5 underlining tags, to mark accesskeys
 #. for disabled users.)
-#: bridgedb/distributors/https/templates/options.html:38
+#: bridgedb/distributors/https/templates/options.html:42
 #, python-format
 msgid "%sJ%sust give me bridges!"
 msgstr "%sL%sen mi zobrazte premostenia!"
 
-#: bridgedb/distributors/https/templates/options.html:51
+#: bridgedb/distributors/https/templates/options.html:55
 msgid "Advanced Options"
 msgstr "Pokročilé možnosti"
 
-#: bridgedb/distributors/https/templates/options.html:86
+#: bridgedb/distributors/https/templates/options.html:93
 msgid "No"
 msgstr "Nie"
 
-#: bridgedb/distributors/https/templates/options.html:87
+#: bridgedb/distributors/https/templates/options.html:94
 msgid "none"
 msgstr "žiadne"
 
 #. TRANSLATORS: Please make sure the '%s' surrounding single letters at the
 #. beginning of words are present in your final translation. Thanks!
 #. TRANSLATORS: Translate "Yes!" as in "Yes! I do need IPv6 addresses."
-#: bridgedb/distributors/https/templates/options.html:124
+#: bridgedb/distributors/https/templates/options.html:131
 #, python-format
 msgid "%sY%ses!"
 msgstr "%sÁ%sno!"
@@ -175,7 +182,7 @@ msgstr "%sÁ%sno!"
 #. TRANSLATORS: Please make sure the '%s' surrounding single letters at the
 #. beginning of words are present in your final translation. Thanks!
 #. TRANSLATORS: Please do NOT translate the word "bridge"!
-#: bridgedb/distributors/https/templates/options.html:147
+#: bridgedb/distributors/https/templates/options.html:154
 #, python-format
 msgid "%sG%set Bridges"
 msgstr "%sN%sastaviť Bridges"
@@ -219,7 +226,7 @@ msgstr "Hej, %s!"
 msgid "Hello, friend!"
 msgstr "Ahoj, priateľ!"
 
-#: bridgedb/distributors/https/templates/base.html:87 bridgedb/strings.py:58
+#: bridgedb/distributors/https/templates/base.html:100 bridgedb/strings.py:58
 msgid "Public Keys"
 msgstr "Verejné kľúče"
 
@@ -294,47 +301,50 @@ msgstr "Ďalší spôsob ako získať premostenie je poslať e-mail na %s.\nPros
 msgid "My bridges don't work! I need help!"
 msgstr "Moje premostenia nefungujú! Potrebujem pomoc!"
 
-#. TRANSLATORS: Please DO NOT translate "Tor".
-#: bridgedb/strings.py:117
+#. TRANSLATORS: Please DO NOT translate "Tor Browser".
+#. TRANSLATORS: The two '%s' are substituted with "Tor Browser Manual" and
+#. "Support Portal", respectively.
+#: bridgedb/strings.py:119
 #, python-format
-msgid "If your Tor cannot connect, please take a look at the %s and our %s."
-msgstr "Ak sa Tor nemôžete pripojiť,  skúste sa pozrieť na %s a na našu %s. "
+msgid ""
+"If your Tor Browser cannot connect, please take a look at the %s and our %s."
+msgstr ""
 
-#: bridgedb/strings.py:121
+#: bridgedb/strings.py:123
 msgid "Here are your bridge lines:"
 msgstr "Tu sú vaše premostenia:"
 
-#: bridgedb/strings.py:122
+#: bridgedb/strings.py:124
 msgid "Get Bridges!"
 msgstr "Získať premostenia!"
 
-#: bridgedb/strings.py:126
+#: bridgedb/strings.py:128
 msgid "Please select options for bridge type:"
 msgstr "Prosím vyberte si možnosti na typ premostenia:"
 
-#: bridgedb/strings.py:127
+#: bridgedb/strings.py:129
 msgid "Do you need IPv6 addresses?"
 msgstr "Potrebujete IPv6 adresy?"
 
-#: bridgedb/strings.py:128
+#: bridgedb/strings.py:130
 #, python-format
 msgid "Do you need a %s?"
 msgstr "Potrebujete %s?"
 
-#: bridgedb/strings.py:132
+#: bridgedb/strings.py:134
 msgid "Your browser is not displaying images properly."
 msgstr "Váš prehliadač nezobrazuje obrázky správne."
 
-#: bridgedb/strings.py:133
+#: bridgedb/strings.py:135
 msgid "Enter the characters from the image above..."
 msgstr "Vložte znaky z obrázku vyššie..."
 
-#: bridgedb/strings.py:137
+#: bridgedb/strings.py:139
 msgid "How to start using your bridges"
 msgstr "Ako začať používať vaše premostenia"
 
 #. TRANSLATORS: Please DO NOT translate "Tor Browser".
-#: bridgedb/strings.py:139
+#: bridgedb/strings.py:141
 #, python-format
 msgid ""
 "To enter bridges into Tor Browser, first go to the %s Tor Browser download\n"
@@ -343,21 +353,21 @@ msgid ""
 msgstr "Na zadanie premostení do Tor Browsera, najprv choďte na download stránku %s %s Tor Browsera a riaďte sa inštrukiacmi na stiahnutie a zapnutie Tor Browsera."
 
 #. TRANSLATORS: Please DO NOT translate "Tor".
-#: bridgedb/strings.py:144
+#: bridgedb/strings.py:146
 msgid ""
 "When the 'Tor Network Settings' dialogue pops up, click 'Configure' and follow\n"
 "the wizard until it asks:"
 msgstr "Keď vyskočia 'Tor Sieťové Nastavenia', kliknite na 'Konfigurovať' a pokračujte ďalej kým sa váš insťalátor nespýta:"
 
 #. TRANSLATORS: Please DO NOT translate "Tor".
-#: bridgedb/strings.py:148
+#: bridgedb/strings.py:150
 msgid ""
 "Does your Internet Service Provider (ISP) block or otherwise censor connections\n"
 "to the Tor network?"
 msgstr "Blokuje alebo nejak cenzuruje váš Poskytovateľ Internetu (ISP) pripojenia k Sieti Tor?"
 
 #. TRANSLATORS: Please DO NOT translate "Tor".
-#: bridgedb/strings.py:152
+#: bridgedb/strings.py:154
 msgid ""
 "Select 'Yes' and then click 'Next'. To configure your new bridges, copy and\n"
 "paste the bridge lines into the text input box. Finally, click 'Connect', and\n"
@@ -365,28 +375,28 @@ msgid ""
 "button in the 'Tor Network Settings' wizard for further assistance."
 msgstr "Označte 'Áno' a potom kliknite na 'Ďalej'.  Na konfiguráciu nových premostení, skopírujte premostenia do políčka na text. Potom kliknite na 'Pripojiť' a už by to malo fungovať. Ak máte nejaké problemy, kliknite na tlačidlo 'Pomoc' v 'Tor sieťových nastaveniach' pre viac informacií. "
 
-#: bridgedb/strings.py:160
+#: bridgedb/strings.py:162
 msgid "Displays this message."
 msgstr "Zobrazí túto správu."
 
 #. TRANSLATORS: Please try to make it clear that "vanilla" here refers to the
 #. same non-Pluggable Transport bridges described above as being
 #. "plain-ol'-vanilla" bridges.
-#: bridgedb/strings.py:164
+#: bridgedb/strings.py:166
 msgid "Request vanilla bridges."
 msgstr "Požiadať o pôvodné premostenia."
 
-#: bridgedb/strings.py:165
+#: bridgedb/strings.py:167
 msgid "Request IPv6 bridges."
 msgstr "Požiadať o IPv6 premostenia."
 
 #. TRANSLATORS: Please DO NOT translate the word the word "TYPE".
-#: bridgedb/strings.py:167
+#: bridgedb/strings.py:169
 msgid "Request a Pluggable Transport by TYPE."
 msgstr "Požiadať o Pluggable Transport podla typu."
 
 #. TRANSLATORS: Please DO NOT translate "BridgeDB".
 #. TRANSLATORS: Please DO NOT translate "GnuPG".
-#: bridgedb/strings.py:170
+#: bridgedb/strings.py:172
 msgid "Get a copy of BridgeDB's public GnuPG key."
 msgstr "Stiahnite si kópiu verejného klúča GNUPG  pre BridgeDB."
