@@ -3,16 +3,19 @@
 # ian chou <ertiach@hotmail.com>, 2019
 # Hsiu-Ming Chang <cges30901@gmail.com>, 2019
 # Bryce Tsao <tsaodingtw@gmail.com>, 2019
-# erinm, 2019
 # 孟邦 王, 2019
+# erinm, 2019
+# Po-Chun Huang <aphroteus@gmail.com>, 2019
+# Mingye Wang <arthur200126@gmail.com>, 2019
+# IDRASSI Mounir <mounir.idrassi@idrix.fr>, 2019
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-10-22 18:47+CET\n"
+"POT-Creation-Date: 2019-10-29 09:00+CET\n"
 "PO-Revision-Date: 2019-03-09 10:41+0000\n"
-"Last-Translator: 孟邦 王, 2019\n"
+"Last-Translator: IDRASSI Mounir <mounir.idrassi@idrix.fr>, 2019\n"
 "Language-Team: Chinese (Taiwan) (https://www.transifex.com/otf/teams/1519/zh_TW/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -498,23 +501,19 @@ msgstr ""
 msgid ""
 "With Tor Browser having made Tor more accessible to everyday internet users "
 "and activists, Tor was an instrumental tool during the [Arab "
-"Spring](https://www.theguardian.com/us-news/the-nsa-files) beginning in late"
-" 2010. It not only protected people's identity online but also allowed them "
-"to access critical resources, social media, and websites which were blocked."
+"Spring](https://en.wikipedia.org/wiki/Arab_Spring) beginning in late 2010. "
+"It not only protected people's identity online but also allowed them to "
+"access critical resources, social media, and websites which were blocked."
 msgstr ""
-"Tor 瀏覽器讓日常網際網路使用者和活動家更容易使用 Tor，因此 Tor 在[阿拉伯之春](https://www.theguardian.com"
-"/us-news/the-nsa-files)期間成為一種工具。2010 "
-"年。它不僅保護了人們的線上身份，還使他們能夠造訪被封鎖的關鍵資源，社交媒體和網站。"
 
 #: https//www.torproject.org/about/history/
 #: (content/about/history/contents+en.lrpage.body)
 msgid ""
 "The need for tools safeguarding against mass surveillance became a "
 "mainstream concern thanks to the [Snowden revelations in "
-"2013](https://www.theguardian.com/us-news/the-nsa-files)."
+"2013](https://www.theguardian.com/world/interactive/2013/nov/01/snowden-nsa-"
+"files-surveillance-revelations-decoded#section/1)."
 msgstr ""
-"由於[2013 年斯諾登（Snowden）的揭露](https://www.theguardian.com/us-news/the-nsa-"
-"files)，對防止大規模監視工具的需求已成為主流關注之問題。"
 
 #: https//www.torproject.org/about/history/
 #: (content/about/history/contents+en.lrpage.body)
@@ -646,10 +645,19 @@ msgstr ""
 msgid "Tor Trademark Frequently Asked Questions"
 msgstr "Tor 商標常見問題"
 
+#: lego/templates/banner.html:2 lego/templates/banner.html:4
+#: templates/banner.html:2 templates/banner.html:4
+msgid "Close banner"
+msgstr ""
+
+#: lego/templates/banner.html:20 templates/banner.html:20
+msgid "DONATE NOW"
+msgstr ""
+
 #: lego/templates/footer.html:9 lego/templates/footer.html:18
-#: lego/templates/navbar.html:73 templates/footer.html:9
+#: lego/templates/navbar.html:74 templates/footer.html:9
 #: templates/footer.html:18 templates/hero-home.html:13
-#: templates/navbar.html:73
+#: templates/navbar.html:74
 msgid "Download Tor Browser"
 msgstr "下載 Tor 瀏覽器"
 
@@ -690,7 +698,7 @@ msgid ""
 "found in our %(link_to_faq)s"
 msgstr "註冊商標，版權聲明，以及第三方使用規則可在 %(link_to_faq)s 找到"
 
-#: lego/templates/navbar.html:20 templates/navbar.html:20
+#: lego/templates/navbar.html:21 templates/navbar.html:21
 msgid "Menu"
 msgstr "目錄"
 
@@ -876,11 +884,9 @@ msgstr "報告安全問題。"
 msgid ""
 "If you've found a security issue in one of our projects or in our "
 "infrastructure, please email tor-security@lists.torproject.org. If you've "
-"found a security bug in Tor or Tor Browser, feel free to submit it for our"
-msgstr ""
-
-#: templates/contact.html:80
-msgid "bug bounty program."
+"found a security bug in Tor or Tor Browser, feel free to submit it for our "
+"<a href=\"https://hackerone.com/torproject\" target=\"_blank\"> bug bounty "
+"program.</a>"
 msgstr ""
 
 #: templates/contact.html:80
@@ -914,20 +920,26 @@ msgstr "獲取用於 Android 的洋蔥路由瀏覽器。"
 msgid "Protect yourself against tracking, surveillance, and censorship."
 msgstr "保護你自己免於追蹤、監視和審查。"
 
-#: templates/download-android.html:20 templates/download-android.html:22
-#: templates/download-android.html:24
+#: templates/download-android.html:20 templates/download-android.html:23
+#: templates/download-android.html:26 templates/download-android.html:29
 msgid "Download .apk"
 msgstr "下載 .apk"
 
-#: templates/download-android.html:26
+#: templates/download-android.html:21 templates/download-android.html:24
+#: templates/download-android.html:27 templates/download-android.html:30
+#: templates/download-tor.html:25 templates/download-tor.html:30
+msgid "sig"
+msgstr "sig"
+
+#: templates/download-android.html:32
 msgid "Go to Google Play"
 msgstr "前往 Google Play"
 
-#: templates/download-android.html:28
+#: templates/download-android.html:34
 msgid "Go to F-Droid"
 msgstr "前往 F-Droid"
 
-#: templates/download-android.html:38
+#: templates/download-android.html:44
 msgid "Are you an iOS user? We encourage you to try Onion Browser."
 msgstr "您是 iOS 使用者嗎？我們鼓勵您使用 Tor 瀏覽器"
 
@@ -935,15 +947,51 @@ msgstr "您是 iOS 使用者嗎？我們鼓勵您使用 Tor 瀏覽器"
 msgid "Language"
 msgstr "語言"
 
-#: templates/download-tor.html:25 templates/download-tor.html:30
-msgid "sig"
-msgstr "sig"
+#: templates/download-languages.html:12 templates/download-options.html:12
+msgid "Windows"
+msgstr "Windows"
 
-#: templates/download.html:5
-msgid "Get Connected"
-msgstr "開始連接"
+#: templates/download-languages.html:13
+msgid "macOS"
+msgstr ""
 
-#: templates/download.html:7
+#: templates/download-languages.html:14 templates/download-options.html:14
+msgid "GNU/Linux"
+msgstr ""
+
+#: templates/download-options.html:13
+msgid "MacOS"
+msgstr "MacOS"
+
+#: templates/download-options.html:43
+msgid "Tor Browser for Android Alpha"
+msgstr ""
+
+#: templates/download-options.html:49
+msgid "Google Play"
+msgstr "Google Play"
+
+#: templates/download-tor.html:8
+msgid "Tor Source"
+msgstr ""
+
+#: templates/download-tor.html:12
+msgid "Version"
+msgstr "版本"
+
+#: templates/download-tor.html:37
+msgid "Windows Expert Bundle"
+msgstr ""
+
+#: templates/download-tor.html:42
+msgid "Windows 10, 8, 7, Vista, XP, 2000, 2003 Server, ME, and Windows 98SE"
+msgstr ""
+
+#: templates/download-tor.html:43
+msgid "Contains just Tor and nothing else."
+msgstr ""
+
+#: templates/download.html:5 templates/download.html:7
 msgid "Get connected"
 msgstr "開始連接"
 
@@ -1163,7 +1211,7 @@ msgstr "誠摯邀請您在 IRC 上加入我們，找尋最適合您參與工作�
 msgid "The Tor Project | Privacy & Freedom Online"
 msgstr "Tor 計畫｜線上隱私與自由"
 
-#: templates/meta.html:21
+#: templates/meta.html:20
 msgid "Tor Project"
 msgstr "Tor 計畫"
 

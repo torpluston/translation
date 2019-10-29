@@ -1,21 +1,21 @@
 # Translators:
 # bact' <arthit@gmail.com>, 2019
 # Martus Translations <translations@martus.org>, 2019
-# Ben CM <nebben10814@gmail.com>, 2019
 # Mumean Muna <muhammadmumin.m@amnesty.or.th>, 2019
 # Chumapron Waaddao <chumaporn.t@gmail.com>, 2019
 # DN DN <deen6@protonmail.com>, 2019
 # erinm, 2019
-# Kunanyaporn Jirasamatakij <kunanyaporn@gmail.com>, 2019
 # Krittiya Chankasem <ordinaryjane@gmail.com>, 2019
+# Kunanyaporn Jirasamatakij <kunanyaporn@gmail.com>, 2019
+# Ben CM <nebben10814@gmail.com>, 2019
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-10-22 18:47+CET\n"
+"POT-Creation-Date: 2019-10-29 09:00+CET\n"
 "PO-Revision-Date: 2019-03-09 10:41+0000\n"
-"Last-Translator: Krittiya Chankasem <ordinaryjane@gmail.com>, 2019\n"
+"Last-Translator: Ben CM <nebben10814@gmail.com>, 2019\n"
 "Language-Team: Thai (https://www.transifex.com/otf/teams/1519/th/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -525,9 +525,9 @@ msgstr ""
 msgid ""
 "With Tor Browser having made Tor more accessible to everyday internet users "
 "and activists, Tor was an instrumental tool during the [Arab "
-"Spring](https://www.theguardian.com/us-news/the-nsa-files) beginning in late"
-" 2010. It not only protected people's identity online but also allowed them "
-"to access critical resources, social media, and websites which were blocked."
+"Spring](https://en.wikipedia.org/wiki/Arab_Spring) beginning in late 2010. "
+"It not only protected people's identity online but also allowed them to "
+"access critical resources, social media, and websites which were blocked."
 msgstr ""
 
 #: https//www.torproject.org/about/history/
@@ -535,11 +535,9 @@ msgstr ""
 msgid ""
 "The need for tools safeguarding against mass surveillance became a "
 "mainstream concern thanks to the [Snowden revelations in "
-"2013](https://www.theguardian.com/us-news/the-nsa-files)."
+"2013](https://www.theguardian.com/world/interactive/2013/nov/01/snowden-nsa-"
+"files-surveillance-revelations-decoded#section/1)."
 msgstr ""
-"ความต้องการเครื่องมือต่อต้านการสอดแนมจำนวนมาก "
-"ความกังวลนี้หลักๆมาจากการเปิดเผยของ [Snowden ในปี 2003] "
-"(https://www.theguardian.com/us-news/the-nsa-files)"
 
 #: https//www.torproject.org/about/history/
 #: (content/about/history/contents+en.lrpage.body)
@@ -672,10 +670,19 @@ msgstr ""
 msgid "Tor Trademark Frequently Asked Questions"
 msgstr ""
 
+#: lego/templates/banner.html:2 lego/templates/banner.html:4
+#: templates/banner.html:2 templates/banner.html:4
+msgid "Close banner"
+msgstr ""
+
+#: lego/templates/banner.html:20 templates/banner.html:20
+msgid "DONATE NOW"
+msgstr "บริจาคตอนนี้"
+
 #: lego/templates/footer.html:9 lego/templates/footer.html:18
-#: lego/templates/navbar.html:73 templates/footer.html:9
+#: lego/templates/navbar.html:74 templates/footer.html:9
 #: templates/footer.html:18 templates/hero-home.html:13
-#: templates/navbar.html:73
+#: templates/navbar.html:74
 msgid "Download Tor Browser"
 msgstr "ดาวน์โหลดเบราว์เซอร์ Tor"
 
@@ -726,7 +733,7 @@ msgstr ""
 "ประกาศลิขสิทธิ์และกฎระเบียบสำหรับการใช้งานโดยบุคคลที่สามสามารถดูได้ใน "
 "%(link_to_faq)s"
 
-#: lego/templates/navbar.html:20 templates/navbar.html:20
+#: lego/templates/navbar.html:21 templates/navbar.html:21
 msgid "Menu"
 msgstr "เมนู"
 
@@ -912,11 +919,9 @@ msgstr "รายงานปัญหาความปลอดภัย"
 msgid ""
 "If you've found a security issue in one of our projects or in our "
 "infrastructure, please email tor-security@lists.torproject.org. If you've "
-"found a security bug in Tor or Tor Browser, feel free to submit it for our"
-msgstr ""
-
-#: templates/contact.html:80
-msgid "bug bounty program."
+"found a security bug in Tor or Tor Browser, feel free to submit it for our "
+"<a href=\"https://hackerone.com/torproject\" target=\"_blank\"> bug bounty "
+"program.</a>"
 msgstr ""
 
 #: templates/contact.html:80
@@ -950,20 +955,26 @@ msgstr "รับ Tor Browser สำหรับ Android."
 msgid "Protect yourself against tracking, surveillance, and censorship."
 msgstr "ป้องกันตัวเองจากการติดตาม ถูกสอดส่อง และการถูกปิดกั้น"
 
-#: templates/download-android.html:20 templates/download-android.html:22
-#: templates/download-android.html:24
+#: templates/download-android.html:20 templates/download-android.html:23
+#: templates/download-android.html:26 templates/download-android.html:29
 msgid "Download .apk"
 msgstr "ดาวน์โหลด .apk"
 
-#: templates/download-android.html:26
+#: templates/download-android.html:21 templates/download-android.html:24
+#: templates/download-android.html:27 templates/download-android.html:30
+#: templates/download-tor.html:25 templates/download-tor.html:30
+msgid "sig"
+msgstr "ลายเซ็น"
+
+#: templates/download-android.html:32
 msgid "Go to Google Play"
 msgstr "ไปยัง Google Play"
 
-#: templates/download-android.html:28
+#: templates/download-android.html:34
 msgid "Go to F-Droid"
 msgstr ""
 
-#: templates/download-android.html:38
+#: templates/download-android.html:44
 msgid "Are you an iOS user? We encourage you to try Onion Browser."
 msgstr "คุณเป็นผู้ใช้ iOS? เราสนับสนุนให้คุณลองใช้ Onion Browser."
 
@@ -971,15 +982,51 @@ msgstr "คุณเป็นผู้ใช้ iOS? เราสนับสน
 msgid "Language"
 msgstr "ภาษา"
 
-#: templates/download-tor.html:25 templates/download-tor.html:30
-msgid "sig"
-msgstr "ลายเซ็น"
+#: templates/download-languages.html:12 templates/download-options.html:12
+msgid "Windows"
+msgstr ""
 
-#: templates/download.html:5
-msgid "Get Connected"
-msgstr "ได้รับการเชื่อมต่อแล้ว"
+#: templates/download-languages.html:13
+msgid "macOS"
+msgstr ""
 
-#: templates/download.html:7
+#: templates/download-languages.html:14 templates/download-options.html:14
+msgid "GNU/Linux"
+msgstr ""
+
+#: templates/download-options.html:13
+msgid "MacOS"
+msgstr ""
+
+#: templates/download-options.html:43
+msgid "Tor Browser for Android Alpha"
+msgstr ""
+
+#: templates/download-options.html:49
+msgid "Google Play"
+msgstr ""
+
+#: templates/download-tor.html:8
+msgid "Tor Source"
+msgstr ""
+
+#: templates/download-tor.html:12
+msgid "Version"
+msgstr "รุ่น"
+
+#: templates/download-tor.html:37
+msgid "Windows Expert Bundle"
+msgstr ""
+
+#: templates/download-tor.html:42
+msgid "Windows 10, 8, 7, Vista, XP, 2000, 2003 Server, ME, and Windows 98SE"
+msgstr ""
+
+#: templates/download-tor.html:43
+msgid "Contains just Tor and nothing else."
+msgstr ""
+
+#: templates/download.html:5 templates/download.html:7
 msgid "Get connected"
 msgstr "ได้รับการเชื่อมต่อแล้ว"
 
@@ -1207,7 +1254,7 @@ msgstr ""
 msgid "The Tor Project | Privacy & Freedom Online"
 msgstr "โปรเจ็ค Tor | ความเป็นส่วนตัว และ อิสระในการออนไลน์"
 
-#: templates/meta.html:21
+#: templates/meta.html:20
 msgid "Tor Project"
 msgstr "โครงการ Tor"
 

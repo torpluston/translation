@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-10-22 18:47+CET\n"
+"POT-Creation-Date: 2019-10-29 09:00+CET\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: en <LL@li.org>\n"
@@ -568,26 +568,28 @@ msgstr ""
 msgid ""
 "With Tor Browser having made Tor more accessible to everyday internet users "
 "and activists, Tor was an instrumental tool during the [Arab "
-"Spring](https://www.theguardian.com/us-news/the-nsa-files) beginning in late"
-" 2010. It not only protected people's identity online but also allowed them "
-"to access critical resources, social media, and websites which were blocked."
+"Spring](https://en.wikipedia.org/wiki/Arab_Spring) beginning in late 2010. "
+"It not only protected people's identity online but also allowed them to "
+"access critical resources, social media, and websites which were blocked."
 msgstr ""
 "With Tor Browser having made Tor more accessible to everyday internet users "
 "and activists, Tor was an instrumental tool during the [Arab "
-"Spring](https://www.theguardian.com/us-news/the-nsa-files) beginning in late"
-" 2010. It not only protected people's identity online but also allowed them "
-"to access critical resources, social media, and websites which were blocked."
+"Spring](https://en.wikipedia.org/wiki/Arab_Spring) beginning in late 2010. "
+"It not only protected people's identity online but also allowed them to "
+"access critical resources, social media, and websites which were blocked."
 
 #: https//www.torproject.org/about/history/
 #: (content/about/history/contents+en.lrpage.body)
 msgid ""
 "The need for tools safeguarding against mass surveillance became a "
 "mainstream concern thanks to the [Snowden revelations in "
-"2013](https://www.theguardian.com/us-news/the-nsa-files)."
+"2013](https://www.theguardian.com/world/interactive/2013/nov/01/snowden-nsa-"
+"files-surveillance-revelations-decoded#section/1)."
 msgstr ""
 "The need for tools safeguarding against mass surveillance became a "
 "mainstream concern thanks to the [Snowden revelations in "
-"2013](https://www.theguardian.com/us-news/the-nsa-files)."
+"2013](https://www.theguardian.com/world/interactive/2013/nov/01/snowden-nsa-"
+"files-surveillance-revelations-decoded#section/1)."
 
 #: https//www.torproject.org/about/history/
 #: (content/about/history/contents+en.lrpage.body)
@@ -742,10 +744,19 @@ msgstr ""
 msgid "Tor Trademark Frequently Asked Questions"
 msgstr "Tor Trademark Frequently Asked Questions"
 
+#: lego/templates/banner.html:2 lego/templates/banner.html:4
+#: templates/banner.html:2 templates/banner.html:4
+msgid "Close banner"
+msgstr "Close banner"
+
+#: lego/templates/banner.html:20 templates/banner.html:20
+msgid "DONATE NOW"
+msgstr "DONATE NOW"
+
 #: lego/templates/footer.html:9 lego/templates/footer.html:18
-#: lego/templates/navbar.html:73 templates/footer.html:9
+#: lego/templates/navbar.html:74 templates/footer.html:9
 #: templates/footer.html:18 templates/hero-home.html:13
-#: templates/navbar.html:73
+#: templates/navbar.html:74
 msgid "Download Tor Browser"
 msgstr "Download Tor Browser"
 
@@ -794,7 +805,7 @@ msgstr ""
 "Trademark, copyright notices, and rules for use by third parties can be "
 "found in our %(link_to_faq)s"
 
-#: lego/templates/navbar.html:20 templates/navbar.html:20
+#: lego/templates/navbar.html:21 templates/navbar.html:21
 msgid "Menu"
 msgstr "Menu"
 
@@ -999,15 +1010,15 @@ msgstr "Report a security issue."
 msgid ""
 "If you've found a security issue in one of our projects or in our "
 "infrastructure, please email tor-security@lists.torproject.org. If you've "
-"found a security bug in Tor or Tor Browser, feel free to submit it for our"
+"found a security bug in Tor or Tor Browser, feel free to submit it for our "
+"<a href=\"https://hackerone.com/torproject\" target=\"_blank\"> bug bounty "
+"program.</a>"
 msgstr ""
 "If you've found a security issue in one of our projects or in our "
 "infrastructure, please email tor-security@lists.torproject.org. If you've "
-"found a security bug in Tor or Tor Browser, feel free to submit it for our"
-
-#: templates/contact.html:80
-msgid "bug bounty program."
-msgstr "bug bounty program."
+"found a security bug in Tor or Tor Browser, feel free to submit it for our "
+"<a href=\"https://hackerone.com/torproject\" target=\"_blank\"> bug bounty "
+"program.</a>"
 
 #: templates/contact.html:80
 msgid ""
@@ -1047,20 +1058,26 @@ msgstr "Get Tor Browser for Android."
 msgid "Protect yourself against tracking, surveillance, and censorship."
 msgstr "Protect yourself against tracking, surveillance, and censorship."
 
-#: templates/download-android.html:20 templates/download-android.html:22
-#: templates/download-android.html:24
+#: templates/download-android.html:20 templates/download-android.html:23
+#: templates/download-android.html:26 templates/download-android.html:29
 msgid "Download .apk"
 msgstr "Download .apk"
 
-#: templates/download-android.html:26
+#: templates/download-android.html:21 templates/download-android.html:24
+#: templates/download-android.html:27 templates/download-android.html:30
+#: templates/download-tor.html:25 templates/download-tor.html:30
+msgid "sig"
+msgstr "sig"
+
+#: templates/download-android.html:32
 msgid "Go to Google Play"
 msgstr "Go to Google Play"
 
-#: templates/download-android.html:28
+#: templates/download-android.html:34
 msgid "Go to F-Droid"
 msgstr "Go to F-Droid"
 
-#: templates/download-android.html:38
+#: templates/download-android.html:44
 msgid "Are you an iOS user? We encourage you to try Onion Browser."
 msgstr "Are you an iOS user? We encourage you to try Onion Browser."
 
@@ -1068,15 +1085,51 @@ msgstr "Are you an iOS user? We encourage you to try Onion Browser."
 msgid "Language"
 msgstr "Language"
 
-#: templates/download-tor.html:25 templates/download-tor.html:30
-msgid "sig"
-msgstr "sig"
+#: templates/download-languages.html:12 templates/download-options.html:12
+msgid "Windows"
+msgstr "Windows"
 
-#: templates/download.html:5
-msgid "Get Connected"
-msgstr "Get Connected"
+#: templates/download-languages.html:13
+msgid "macOS"
+msgstr "macOS"
 
-#: templates/download.html:7
+#: templates/download-languages.html:14 templates/download-options.html:14
+msgid "GNU/Linux"
+msgstr "GNU/Linux"
+
+#: templates/download-options.html:13
+msgid "MacOS"
+msgstr "MacOS"
+
+#: templates/download-options.html:43
+msgid "Tor Browser for Android Alpha"
+msgstr "Tor Browser for Android Alpha"
+
+#: templates/download-options.html:49
+msgid "Google Play"
+msgstr "Google Play"
+
+#: templates/download-tor.html:8
+msgid "Tor Source"
+msgstr "Tor Source"
+
+#: templates/download-tor.html:12
+msgid "Version"
+msgstr "Version"
+
+#: templates/download-tor.html:37
+msgid "Windows Expert Bundle"
+msgstr "Windows Expert Bundle"
+
+#: templates/download-tor.html:42
+msgid "Windows 10, 8, 7, Vista, XP, 2000, 2003 Server, ME, and Windows 98SE"
+msgstr "Windows 10, 8, 7, Vista, XP, 2000, 2003 Server, ME, and Windows 98SE"
+
+#: templates/download-tor.html:43
+msgid "Contains just Tor and nothing else."
+msgstr "Contains just Tor and nothing else."
+
+#: templates/download.html:5 templates/download.html:7
 msgid "Get connected"
 msgstr "Get connected"
 
@@ -1320,7 +1373,7 @@ msgstr "We invite you to join us on IRC to find how you can get involved."
 msgid "The Tor Project | Privacy & Freedom Online"
 msgstr "The Tor Project | Privacy & Freedom Online"
 
-#: templates/meta.html:21
+#: templates/meta.html:20
 msgid "Tor Project"
 msgstr "Tor Project"
 
