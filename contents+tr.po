@@ -4610,7 +4610,8 @@ msgid ""
 msgstr ""
 "**BandwidthBurst** bant genişliği sıçraması isteklerin yerine getirilmesi "
 "amacıyla kısa süreler için BandwidthRate değerinin, uzun dönemde "
-"BandwidthRate ortalama değerinde kalacak şekilde aşılabileceği değer."
+"BandwidthRate ortalama değerinde kalacak şekilde aşılabileceği bir depo "
+"oluşturur."
 
 #: https//support.torproject.org/operators/bandwidth-shaping/
 #: (content/operators/bandwidth-shaping/contents+en.lrquestion.description)
@@ -4630,6 +4631,10 @@ msgid ""
 "second; but if you choose a higher BandwidthBurst (like 5 MBytes), it will "
 "allow more bytes through until the pool is empty."
 msgstr ""
+"Örneğin \"BandwidthBurst 500 KBytes\" seçip BandwidthRate ayarını da "
+"yaparsanız, hiç bir zaman saniyede 500 kilobayt üzerine çıkamazsınız. Ancak "
+"daha yüksek bir bant genişliği sıçraması değeri seçerseniz (5 MB gibi) depo "
+"boşalana kadar daha yüksek bant genişliği kullanabilirsiniz."
 
 #: https//support.torproject.org/operators/bandwidth-shaping/
 #: (content/operators/bandwidth-shaping/contents+en.lrquestion.description)
@@ -4638,6 +4643,9 @@ msgid ""
 "cable modem, you should set BandwidthRate to less than your smaller "
 "bandwidth (Usually that's the upload bandwidth)."
 msgstr ""
+"Bağlantınız bir kablo ya da ADSL modemdeki gibi asimetrik ise (yükleme hızı "
+"indirme hızından düşük ise) BandwidthRate değerini küçük olan bant genişliği"
+" değerine göre ayarlayın (genellikle yükleme hızı daha küçüktür)."
 
 #: https//support.torproject.org/operators/bandwidth-shaping/
 #: (content/operators/bandwidth-shaping/contents+en.lrquestion.description)
@@ -4646,11 +4654,16 @@ msgid ""
 "usage - you may need to experiment with which values make your connection "
 "comfortable."
 msgstr ""
+"Yoksa en yüksek bant genişliği kullanımı süresince pek çok veri paketiniz "
+"kaybolur. Size uygun değerleri bulmak için bir kaç deneme yapmanız "
+"gerekebilir."
 
 #: https//support.torproject.org/operators/bandwidth-shaping/
 #: (content/operators/bandwidth-shaping/contents+en.lrquestion.description)
 msgid "Then set BandwidthBurst to the same as BandwidthRate."
 msgstr ""
+"Ardından BandwidthBurst değerini BandwidthRate değeri ile aynı olacak "
+"şekilde ayarlayın."
 
 #: https//support.torproject.org/operators/bandwidth-shaping/
 #: (content/operators/bandwidth-shaping/contents+en.lrquestion.description)
@@ -4659,6 +4672,9 @@ msgid ""
 "prioritize Tor traffic below other traffic on their machine, so that their "
 "own personal traffic is not impacted by Tor load."
 msgstr ""
+"Linux temelli Tor duraklarında kullanılabilecek başka bir seçenek vardır. "
+"Tor trafiğinin bilgisayardan geçen diğer trafiğe göre önceliği "
+"ayarlanabilir. Böylece işletmecinin kişisel trafiği Tor yükünden etkilenmez."
 
 #: https//support.torproject.org/operators/bandwidth-shaping/
 #: (content/operators/bandwidth-shaping/contents+en.lrquestion.description)
