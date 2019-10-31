@@ -4797,6 +4797,9 @@ msgid ""
 "the connection originated at your computer or was relayed from somebody "
 "else."
 msgstr ""
+"Sizden bir bağlantı geldiğini görebilirler ancak bağlantının sizin "
+"bilgisayarınızdan mı geldiğini yoksa başka birinden mi aktarıldığını "
+"bilemezler."
 
 #: https//support.torproject.org/operators/better-anonymity/
 #: (content/operators/better-anonymity/contents+en.lrquestion.description)
@@ -4805,6 +4808,9 @@ msgid ""
 " all of your incoming and outgoing traffic, then it's easy for them to learn"
 " which connections were relayed and which started at you."
 msgstr ""
+"Bu uygulama bazı durumlarda işe yaramıyormuş gibi görünebilir. Bir saldırgan"
+" tüm giren ve çıkan trafiğinizi izleyebiliyorsa, hangi bağlantıların sizden "
+"kaynaklandığını hangilerinin aktarıldığını kolayca öğrenebilir."
 
 #: https//support.torproject.org/operators/better-anonymity/
 #: (content/operators/better-anonymity/contents+en.lrquestion.description)
@@ -4813,11 +4819,14 @@ msgid ""
 "watching them too, but you're no better off than if you were an ordinary "
 "client.)"
 msgstr ""
+"(Bu durumda bile, hedeflerinizi de izlemedikleri sürece bağlantılarınızın "
+"hedeflerini bilemezler. Ancak sıradan bir istemci uygulaması kullanıyor "
+"olsaydınız da durum bundan daha iyi olmayacaktı)."
 
 #: https//support.torproject.org/operators/better-anonymity/
 #: (content/operators/better-anonymity/contents+en.lrquestion.description)
 msgid "There are also some downsides to running a Tor relay."
-msgstr ""
+msgstr "Bir Tor aktarıcısı işletmenin bazı olumsuz yönleri de vardır."
 
 #: https//support.torproject.org/operators/better-anonymity/
 #: (content/operators/better-anonymity/contents+en.lrquestion.description)
@@ -4826,6 +4835,9 @@ msgid ""
 " one might signal to an attacker that you place a high value on your "
 "anonymity."
 msgstr ""
+"Birincisi, yalnız bir kaç yüz aktarıcımız olduğundan, bir aktarıcı "
+"çalıştırdığınızda bir saldırgana anonimliğe önem verdiğinizi göstermiş "
+"olursunuz."
 
 #: https//support.torproject.org/operators/better-anonymity/
 #: (content/operators/better-anonymity/contents+en.lrquestion.description)
@@ -4837,32 +4849,42 @@ msgid ""
 "relaying traffic through your Tor relay and noticing changes in traffic "
 "timing."
 msgstr ""
+"İkincisi, bir aktarıcı çalıştırdığınız bilgisini kullanarak, tam "
+"anlaşılmamış ya da denenmemiş edilmemiş bazı gizli saldırılar var. -- "
+"örneğin, bir saldırgan ağınızı izleyemiyor bile olsa, Tor aktarıcınız "
+"üzerinden bir trafik geçirerek ve trafik zamanlamasındaki değişikliklere "
+"bakarak trafik gönderip göndermediğinizi \"gözlemleyebilir\"."
 
 #: https//support.torproject.org/operators/better-anonymity/
 #: (content/operators/better-anonymity/contents+en.lrquestion.description)
 msgid ""
 "It is an open research question whether the benefits outweigh the risks."
 msgstr ""
+"Yararların risklerden ağır basıp basmadığı yanıtlanmamış bir araştırma "
+"sorusudur."
 
 #: https//support.torproject.org/operators/better-anonymity/
 #: (content/operators/better-anonymity/contents+en.lrquestion.description)
 msgid "A lot of that depends on the attacks you are most worried about."
-msgstr ""
+msgstr "Endişelendiğiniz saldırılara bağlı pek çok faktör vardır."
 
 #: https//support.torproject.org/operators/better-anonymity/
 #: (content/operators/better-anonymity/contents+en.lrquestion.description)
 msgid "For most users, we think it's a smart move."
-msgstr ""
+msgstr "Çoğu kullanıcı için bunun akıllıca olacağını düşünüyoruz."
 
 #: https//support.torproject.org/operators/dynamic-ip/
 #: (content/operators/dynamic-ip/contents+en.lrquestion.title)
 msgid "Can I run a Tor relay using a dynamic IP address?"
 msgstr ""
+"Sabit olmayan bir IP adresi üzerinde bir Tor aktarıcısı işletebilir miyim?"
 
 #: https//support.torproject.org/operators/dynamic-ip/
 #: (content/operators/dynamic-ip/contents+en.lrquestion.description)
 msgid "Tor can handle relays with dynamic IP addresses just fine."
 msgstr ""
+"Tor sabit olmayan IP adresi kullanan aktarıcılarla ilgili bir sorun yaşamaz."
+" "
 
 #: https//support.torproject.org/operators/dynamic-ip/
 #: (content/operators/dynamic-ip/contents+en.lrquestion.description)
@@ -4871,16 +4893,20 @@ msgid ""
 "[torrc](https://support.torproject.org/tbb/tbb-editing-torrc/) blank, and "
 "Tor will guess."
 msgstr ""
+"[torrc](https://support.torproject.org/tbb/tbb-editing-torrc/) dosyanızdaki "
+"\"Address\" satırını boş bırakırsanız Tor gerisini halleder."
 
 #: https//support.torproject.org/operators/exit-policies/
 #: (content/operators/exit-policies/contents+en.lrquestion.title)
 msgid "I'd run a relay, but I don't want to deal with abuse issues."
 msgstr ""
+"Bir aktarıcı işletirdim ama kötüye kullanma sorunları ile uğraşmak "
+"istemiyorum."
 
 #: https//support.torproject.org/operators/exit-policies/
 #: (content/operators/exit-policies/contents+en.lrquestion.description)
 msgid "Great. That's exactly why we implemented exit policies."
-msgstr ""
+msgstr "Harika. İşte tam da bu yüzden çıkış ilkeleri belirledik."
 
 #: https//support.torproject.org/operators/exit-policies/
 #: (content/operators/exit-policies/contents+en.lrquestion.description)
@@ -4888,6 +4914,8 @@ msgid ""
 "Each Tor relay has an exit policy that specifies what sort of outbound "
 "connections are allowed or refused from that relay."
 msgstr ""
+"Her Tor aktarıcısında hangi çıkış bağlantısına izin verildiğini ya da "
+"reddedildiğini belirleyen bir çıkış ilkesi bulunur."
 
 #: https//support.torproject.org/operators/exit-policies/
 #: (content/operators/exit-policies/contents+en.lrquestion.description)
@@ -4896,6 +4924,9 @@ msgid ""
 "clients will automatically avoid picking exit relays that would refuse to "
 "exit to their intended destination."
 msgstr ""
+"Çıkış ilkeleri dizindeki Tor istemcileri arasında yayılır. Böylece "
+"istemcilerin ulaşmak istedikleri hedefleri reddeden aktarıcılara "
+"bağlanmaları otomatik olarak engellenir."
 
 #: https//support.torproject.org/operators/exit-policies/
 #: (content/operators/exit-policies/contents+en.lrquestion.description)
@@ -4903,6 +4934,9 @@ msgid ""
 "This way each relay can decide the services, hosts, and networks it wants to"
 " allow connections to, based on abuse potential and its own situation."
 msgstr ""
+"Böylece her aktarıcı işletmecisi kötüye kullanma olasılığına ve kendi "
+"isteğine göre bağlantı izni vermek istediği hizmetleri, sunucuları ve ağları"
+" belirleyebilir."
 
 #: https//support.torproject.org/operators/exit-policies/
 #: (content/operators/exit-policies/contents+en.lrquestion.description)
