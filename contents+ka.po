@@ -3024,6 +3024,8 @@ msgid ""
 "It is probably a false positive, but it might not be since it is possible "
 "for someone to hijack your Google cookie."
 msgstr ""
+"მართალია, შესაძლოა ცრუ აღმოჩენა იყოს, მაგრამ არც ისაა გამორიცხული, რომ "
+"ვინმემ თქვენი Google-ის ფუნთუშები მიიტაცა."
 
 #: https//support.torproject.org/tbb/tbb-45/
 #: (content/tbb/tbb-45/contents+en.lrquestion.description)
@@ -3031,6 +3033,8 @@ msgid ""
 "Cookie hijacking is possible by either physical access to your computer or "
 "by watching your network traffic."
 msgstr ""
+"ფუნთუშების მიტაცება შესაძლებელია როგორც ფიზიკური წვდომით კომპიუტერთან, ასევე"
+" თქვენს ქსელში მიმოცვლილი მონაცემების მეთვალყურეობით."
 
 #: https//support.torproject.org/tbb/tbb-45/
 #: (content/tbb/tbb-45/contents+en.lrquestion.description)
@@ -3038,6 +3042,9 @@ msgid ""
 "In theory, only physical access should compromise your system because Gmail "
 "and similar services should only send the cookie over an SSL link."
 msgstr ""
+"თეორიულად, მხოლოდ ფიზიკური წვდომითაა შესაძლებელი თქვენი სისტემის ხელყოფა, "
+"ვინაიდან Gmail და მსგავსი მომსახურებები, ფუნთუშებს მხოლოდ SSL-კავშირით "
+"აგზავნის."
 
 #: https//support.torproject.org/tbb/tbb-45/
 #: (content/tbb/tbb-45/contents+en.lrquestion.description)
@@ -3045,6 +3052,8 @@ msgid ""
 "In practice, alas, it's [way more complex than that](http://fscked.org/blog"
 "/fully-automated-active-https-cookie-hijacking)."
 msgstr ""
+"პრაქტიკულად კი ვაი, რომ [უფრო რთულადაა საქმე](http://fscked.org/blog/fully-"
+"automated-active-https-cookie-hijacking)."
 
 #: https//support.torproject.org/tbb/tbb-45/
 #: (content/tbb/tbb-45/contents+en.lrquestion.description)
@@ -3057,6 +3066,13 @@ msgid ""
 "account, or looking at the timestamps for recent logins and wondering if you"
 " actually logged in at those times."
 msgstr ""
+"და თუ ვინმემ მოიპარა თქვენი google-ის ფუნთუშა, შესაძლოა ანგარიშზე შევიდა "
+"უჩვეულო ადგილიდან (თუმცა დანამდვილებით მაინც ვერ იტყვი). მოკლედ, ამ "
+"ყველაფრის შეჯამება ისაა, რომ Tor-ბრაუზერით სარგებლობისას, Google-ის "
+"უსაფრთხოების ზომები, არასასურველია თქვენთვის, ვინაიდან მრავალ ცრუ განგაშს "
+"წარმოშობს. ჯობია სხვა მეთოდებს მიმართოთ, მაგალითად გადახედოთ რამე არეული ხომ"
+" არაა თქვენს ანგარიშზე, ან აღრიცხული შესვლის დროები, ემთხვევა თუ არა თქვენს "
+"შესვლებს."
 
 #: https//support.torproject.org/tbb/tbb-45/
 #: (content/tbb/tbb-45/contents+en.lrquestion.description)
@@ -3065,11 +3081,14 @@ msgid ""
 "Verification](https://support.google.com/accounts/answer/185839) on their "
 "accounts to add an extra layer of security."
 msgstr ""
+"ბოლო დროს, Gmail-ის მომხმარებლებს შეუძლიათ ჩართონ [2-საფეხურიანი "
+"დამოწმება](https://support.google.com/accounts/answer/185839) ანგარიშებზე "
+"შესვლისას, დამატებითი უსაფრთხოების მიზნით."
 
 #: https//support.torproject.org/tbb/tbb-46/
 #: (content/tbb/tbb-46/contents+en.lrquestion.title)
 msgid "How do I install Tor Browser?"
-msgstr ""
+msgstr "როგორ დავაყენო Tor-ბრაუზერი?"
 
 #: https//support.torproject.org/tbb/tbb-46/
 #: (content/tbb/tbb-46/contents+en.lrquestion.description)
@@ -3077,11 +3096,13 @@ msgid ""
 "Please see the [Installation](https://tb-"
 "manual.torproject.org/installation/) section in the Tor Browser Manual."
 msgstr ""
+"გთხოვთ, იხილოთ [დაყენების განყოფილება](https://tb-"
+"manual.torproject.org/installation/) Tor-ბრაუზერის სახელმძღვანელოში."
 
 #: https//support.torproject.org/tbb/tbb-47/
 #: (content/tbb/tbb-47/contents+en.lrquestion.title)
 msgid "My internet connection requires an HTTP or SOCKS Proxy"
-msgstr ""
+msgstr "ჩემი ინტერნეტ-კავშირი საჭიროებს HTTP ან SOCKS-პროქსის"
 
 #: https//support.torproject.org/tbb/tbb-47/
 #: (content/tbb/tbb-47/contents+en.lrquestion.description)
@@ -3096,6 +3117,16 @@ msgid ""
 "doing CONNECT requests to get to Tor relays. (It's fine if they're the same "
 "proxy.) Tor also recognizes the torrc options Socks4Proxy and Socks5Proxy."
 msgstr ""
+"შეგიძლიათ გამართოთ პროქსის IP-მისამართი, პორტი და შესვლის მონაცემები [Tor-"
+"ბრაუზერის ქსელის პარამეტრებიდან](https://tb-manual.torproject.org/running-"
+"tor-browser/). თუ სხვა გზით იყენებთ Tor-ს, გადახედეთ HTTPProxy და HTTPSProxy"
+" კონფიგურაციის პარამეტრებს "
+"[სახელმძღვანელოში](https://2019.www.torproject.org/docs/tor-manual.html.en),"
+" შემდეგ კი ჩაასწორეთ თქვენი torrc ფაილი შესაბამისად. დაგჭირდებათ HTTP-პროქსი"
+" GET-მოთხოვნებისთვის, Tor-სიასთან დასაკავშირებლად და ასევე HTTPS-პროქსი, "
+"CONNECT-მოთხოვნებისთვის, Tor-გადამცემების მისაღებად. (დასაშვებია, თუ ორივე "
+"ერთი პროქსი იქნება). Tor აგრეთვე ამოიცნობს torrc პარამეტრებს Socks4Proxy-სა "
+"და Socks5Proxy-ს."
 
 #: https//support.torproject.org/tbb/tbb-47/
 #: (content/tbb/tbb-47/contents+en.lrquestion.description)
