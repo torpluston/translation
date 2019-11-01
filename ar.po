@@ -18,9 +18,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Tor Project\n"
 "Report-Msgid-Bugs-To: Tails developers <tails@boum.org>\n"
-"POT-Creation-Date: 2018-12-09 13:56+0100\n"
-"PO-Revision-Date: 2018-12-26 21:29+0000\n"
-"Last-Translator: Isho Antar <isho.antar1@gmail.com>\n"
+"POT-Creation-Date: 2019-10-21 09:17+0200\n"
+"PO-Revision-Date: 2019-11-01 01:54+0000\n"
+"Last-Translator: carolyn <carolyn@anhalt.org>\n"
 "Language-Team: Arabic (http://www.transifex.com/otf/torproject/language/ar/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -33,7 +33,7 @@ msgstr ""
 msgid ""
 "For debugging information, execute the following command: sudo tails-"
 "debugging-info"
-msgstr ""
+msgstr "لتصحيح المعلومات, نفّذ الأمر الآتي: sudo tails-debugging-info"
 
 #: ../lib/Tails/IUK/Frontend.pm:218
 msgid "Error while checking for upgrades"
@@ -46,32 +46,32 @@ msgid ""
 "Check your network connection, and restart Tails to try upgrading again.\n"
 "\n"
 "If the problem persists, go to file:///usr/share/doc/tails/website/doc/upgrade/error/check.en.html"
-msgstr ""
+msgstr "لم نتمكن من تحديد ترقيه متاحه من موقعنا.\n\nتأكد من الأتصال ثم أعد تشغيل تايلز لمحاوله الترقيه من جديد.\n\nإذا استمرت المشكله, أذهب إلى file:///usr/share/doc/tails/website/doc/upgrade/error/check.en.html"
 
 #: ../lib/Tails/IUK/Frontend.pm:236
 msgid "no automatic upgrade is available from our website for this version"
-msgstr ""
+msgstr "التحديث التلقائي غير متوفر في موقعنا لهذه النسخة"
 
 #: ../lib/Tails/IUK/Frontend.pm:242
 msgid "your device was not created using Tails Installer"
-msgstr ""
+msgstr "لم يتم إنشاء جهازك باستخدام مثبت Tails"
 
 #: ../lib/Tails/IUK/Frontend.pm:247
 msgid "Tails was started from a DVD or a read-only device"
-msgstr ""
+msgstr "تم تشغيل Tails انطلاقا من قرص DVD أو من جهاز قابل للقراءة فقط"
 
 #: ../lib/Tails/IUK/Frontend.pm:252
 msgid "there is not enough free space on the Tails system partition"
-msgstr ""
+msgstr "لا يوجد مكان فارغ كافٍ في تقسيم نظام Tails"
 
 #: ../lib/Tails/IUK/Frontend.pm:257
 msgid "not enough memory is available on this system"
-msgstr ""
+msgstr "ذاكرة غير كافية في هذا النظام"
 
 #: ../lib/Tails/IUK/Frontend.pm:263
 #, perl-brace-format
 msgid "No explanation available for reason '%{reason}s'."
-msgstr ""
+msgstr "لا يوجد تفسير لهذا الأمر '%{reason}s'."
 
 #: ../lib/Tails/IUK/Frontend.pm:283
 msgid "The system is up-to-date"
@@ -118,7 +118,7 @@ msgid ""
 "Download size: %{size}s\n"
 "\n"
 "Do you want to upgrade now?"
-msgstr ""
+msgstr "<b>يجب عليك التحديث الى %{name}s{version}% s.</b>\n\nلمزيد من المعلومات عن هذا الاصدار الجديد, قم بزيارة %{details_url}s\n\nينصح باغلاق جميع التطبيقات المفتوحة خلال عملية الترقية.\nقد يستغرق تنزيل الترقية وقتا طويلا, من عدة دقائق الى بضعة ساعات.\n\nحجم التنزيل: %{size}s\n\nهل ترغب بالترقية الأن؟"
 
 #: ../lib/Tails/IUK/Frontend.pm:386
 msgid "Upgrade available"
@@ -141,7 +141,7 @@ msgid ""
 "\n"
 "It is not possible to automatically upgrade your device to this new version: %{explanation}s.\n"
 "\n"
-"To learn how to do a manual upgrade, go to https://tails.boum.org/doc/first_steps/upgrade/#manual"
+"To learn how to do a manual upgrade, go to https://tails.boum.org/doc/upgrade/#manual"
 msgstr ""
 
 #: ../lib/Tails/IUK/Frontend.pm:412
@@ -155,7 +155,7 @@ msgstr "حاري تنزيل التحديث"
 #: ../lib/Tails/IUK/Frontend.pm:472
 #, perl-brace-format
 msgid "Downloading the upgrade to %{name}s %{version}s..."
-msgstr ""
+msgstr "جارٍ تنزيل الترقيه لِ %{name}s %{version}s..."
 
 #: ../lib/Tails/IUK/Frontend.pm:513
 msgid ""
@@ -163,7 +163,7 @@ msgid ""
 "connection, and restart Tails to try upgrading again.\\n\\nIf the problem "
 "persists, go to "
 "file:///usr/share/doc/tails/website/doc/upgrade/error/download.en.html"
-msgstr ""
+msgstr "<b>لم يتم تنزيل الترقيه.</b>\\n\\nتأكد من الأتصال و أعد تشغيل تايلز للمحاوله مرة أخرى\\n\\nإذا استمرت المشكلة, إذهب إلى file:///usr/share/doc/tails/website/doc/upgrade/error/download.en.html"
 
 #: ../lib/Tails/IUK/Frontend.pm:529 ../lib/Tails/IUK/Frontend.pm:548
 msgid "Error while downloading the upgrade"
@@ -174,7 +174,7 @@ msgstr "حدث خطأ اثناء تنزيل التحديث"
 msgid ""
 "Output file '%{output_file}s' does not exist, but tails-iuk-get-target-file "
 "did not complain. Please report a bug."
-msgstr ""
+msgstr "الملف '%{output_file}s' غير موجود, ولكن tails-iuk-get-target-file لم يعترض. يرجى التبليغ عن الخطأ البرمجي."
 
 #: ../lib/Tails/IUK/Frontend.pm:560
 msgid "Error while creating temporary downloading directory"
@@ -189,11 +189,11 @@ msgid ""
 "<b>Could not choose a download server.</b>\n"
 "\n"
 "This should not happen. Please report a bug."
-msgstr ""
+msgstr "<b>لم نتمكن من إختيار خادم التنزيل.</b>\n\nهذا لا ينبغي أن يحدث. الرجاء الإبلاغ عن خطأ."
 
 #: ../lib/Tails/IUK/Frontend.pm:591
 msgid "Error while choosing a download server"
-msgstr ""
+msgstr "خطأ أثناء اختيار خادم تحميل"
 
 #: ../lib/Tails/IUK/Frontend.pm:606
 msgid ""
@@ -202,15 +202,15 @@ msgid ""
 "The network connection will now be disabled.\n"
 "\n"
 "Please save your work and close all other applications."
-msgstr ""
+msgstr "تم تحميل الترقية بنجاح.\nسيتم الأن تعطيل الاتصال بالشبكة.\nالرجاء حفظ ما تقوم به و اغلاق باقي التطبيقات."
 
 #: ../lib/Tails/IUK/Frontend.pm:612
 msgid "Upgrade successfully downloaded"
-msgstr ""
+msgstr "تم تحميل الترقية بنجاح"
 
 #: ../lib/Tails/IUK/Frontend.pm:614
 msgid "Apply upgrade"
-msgstr ""
+msgstr "تطبيق الترقية"
 
 #: ../lib/Tails/IUK/Frontend.pm:621
 msgid ""
@@ -220,7 +220,7 @@ msgid ""
 "You should restart Tails on the new version as soon as possible.\n"
 "\n"
 "Do you want to restart now?"
-msgstr ""
+msgstr "<b>تم تحديث جهاز التايلز لديك بنجاح.</b>\n\nتم اغلاق بعض الخواص الأمنية مؤقتاً.\nيجب عليك إعادة التشغيل بأقرب وقت ممكن.\n\nهل تريد إعادة التشغيل الآن؟"
 
 #: ../lib/Tails/IUK/Frontend.pm:626
 msgid "Restart Tails"
@@ -259,7 +259,7 @@ msgid ""
 "<b>Your Tails device is being upgraded...</b>\n"
 "\n"
 "For security reasons, the networking is now disabled."
-msgstr ""
+msgstr "<b>يتم تحديث جهاز التايلز لديك...</b>\n\nلبعض الأسباب الأمنية، تم تعطيل الاتصال بالشبكة."
 
 #: ../lib/Tails/IUK/Frontend.pm:705
 msgid ""
@@ -267,7 +267,7 @@ msgid ""
 " needs to be repaired and might be unable to restart.\\n\\nPlease follow the"
 " instructions at "
 "file:///usr/share/doc/tails/website/doc/upgrade/error/install.en.html"
-msgstr ""
+msgstr "<b>حصل خطأ أثناء التحديث.</b>\\n\\nجهاز التايلز لديك يحتاج إلى إصلاح وقد لا يتمكن من إعادة التشغيل.\\n\\nاتبع التعليمات على file:///usr/share/doc/tails/website/doc/upgrade/error/install.en.html"
 
 #: ../lib/Tails/IUK/Frontend.pm:715
 msgid "Error while installing the upgrade"
