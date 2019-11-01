@@ -4970,7 +4970,7 @@ msgstr ""
 #: https//support.torproject.org/operators/exit-policies/
 #: (content/operators/exit-policies/contents+en.lrquestion.description)
 msgid "You can change your exit policy by editing your torrc file."
-msgstr ""
+msgstr "Çıkış ilkesini torrc dosyasını düzenleyerek değiştirebilirsiniz."
 
 #: https//support.torproject.org/operators/exit-policies/
 #: (content/operators/exit-policies/contents+en.lrquestion.description)
@@ -4978,6 +4978,8 @@ msgid ""
 "If you want to avoid most if not all abuse potential, set it to \"reject "
 "*:*\"."
 msgstr ""
+"Kötüye kullanma olasılıklarının tümünden olmasa da önemli bölümünden "
+"kaçınmak için \"reject *:*\" olarak ayarlayın."
 
 #: https//support.torproject.org/operators/exit-policies/
 #: (content/operators/exit-policies/contents+en.lrquestion.description)
@@ -4986,6 +4988,9 @@ msgid ""
 "the Tor network, but not for connections to external websites or other "
 "services."
 msgstr ""
+"Bu ayar, aktarıcınızın iletilen trafiği Tor ağına iletmesi için "
+"kullanılacağı ancak Tor ağı dışındaki web sitelerine ve diğer hizmetlere "
+"erişilemeyeceği anlamına gelir."
 
 #: https//support.torproject.org/operators/exit-policies/
 #: (content/operators/exit-policies/contents+en.lrquestion.description)
@@ -4993,6 +4998,9 @@ msgid ""
 "If you do allow any exit connections, make sure name resolution works (that "
 "is, your computer can resolve Internet addresses correctly)."
 msgstr ""
+"Herhangi bir çıkış bağlantısına izin verirseniz, ad çözümleme hizmetinin "
+"çalıştığından (bilgisayarınızın İnternet adreslerini doğru olarak "
+"çözümlediğinden) emin olun."
 
 #: https//support.torproject.org/operators/exit-policies/
 #: (content/operators/exit-policies/contents+en.lrquestion.description)
@@ -5001,6 +5009,9 @@ msgid ""
 "are behind a restrictive firewall or content filter), please explicitly "
 "reject them in your exit policy  otherwise Tor users will be impacted too."
 msgstr ""
+"Bilgisayarın erişemediği herhangi bir kaynak varsa (kısıtlayıcı bir güvenlik"
+" duvarı ya da içerik süzgecinin arkasında ise), lütfen bunları çıkış "
+"ilkesinde açıkça reddedin yoksa Tor kullanıcıları olumsuz etkilenir."
 
 #: https//support.torproject.org/operators/facing-legal-trouble/
 #: (content/operators/facing-legal-trouble/contents+en.lrquestion.title)
@@ -5008,6 +5019,8 @@ msgid ""
 "I'm facing legal trouble. How do I prove that my server was a Tor relay at a"
 " given time?"
 msgstr ""
+"Yasal süreçlerle karşılaşıyorum. Sunucumun belilri bir zamanda Tor "
+"aktarıcısı olarak çalıştığını nasıl ispatlayabilirim?"
 
 #: https//support.torproject.org/operators/facing-legal-trouble/
 #: (content/operators/facing-legal-trouble/contents+en.lrquestion.description)
@@ -5015,6 +5028,9 @@ msgid ""
 "[Exonerator](https://exonerator.torproject.org/) is a web service that can "
 "check if an IP address was a relay at a given time."
 msgstr ""
+"[Exonerator](https://exonerator.torproject.org/) web hizmeti ile bir IP "
+"adresinin belirtilen zamanda bir aktarıcı olup olmadığını "
+"denetleyebilirsiniz."
 
 #: https//support.torproject.org/operators/facing-legal-trouble/
 #: (content/operators/facing-legal-trouble/contents+en.lrquestion.description)
@@ -5022,11 +5038,15 @@ msgid ""
 "We can also [provide a signed letter](https://www.torproject.org/contact/) "
 "if needed."
 msgstr ""
+"Ayrıca gerekirse [yazılı bir mektup "
+"gönderebiliriz](https://www.torproject.org/contact/)."
 
 #: https//support.torproject.org/operators/hibernation/
 #: (content/operators/hibernation/contents+en.lrquestion.title)
 msgid "Why can I not browse anymore after limiting bandwidth on my Tor relay?"
 msgstr ""
+"Tor aktarıcım üzerinde bant genişliğini sınırladıktan sonra neden İnternet "
+"üzerinde gezinemiyorum?"
 
 #: https//support.torproject.org/operators/hibernation/
 #: (content/operators/hibernation/contents+en.lrquestion.description)
@@ -5037,6 +5057,11 @@ msgid ""
 "[BandwidthRate](https://2019.www.torproject.org/docs/faq.html.en#BandwidthShaping)"
 " apply to both client and relay functions of the Tor process."
 msgstr ""
+"[AccountingMax](https://2019.www.torproject.org/docs/faq.html.en#LimitTotalBandwidth)"
+" ve "
+"[BandwidthRate](https://2019.www.torproject.org/docs/faq.html.en#BandwidthShaping)"
+" seçeneklerine atanmış parametreler tüm istemciler ve Tor işleminin aktarıcı"
+" işlevleri  için uygulanır."
 
 #: https//support.torproject.org/operators/hibernation/
 #: (content/operators/hibernation/contents+en.lrquestion.description)
@@ -5044,6 +5069,8 @@ msgid ""
 "Thus you may find that you are unable to browse as soon as your Tor goes "
 "into hibernation, signaled by this entry in the log:"
 msgstr ""
+"Bu nedenle Tor uygulamanız uykuya daldığında gezinemeyebilirsiniz. Bu durumu"
+" günlük içindeki şu kayıtlardan anlayabilirsiniz:"
 
 #: https//support.torproject.org/operators/hibernation/
 #: (content/operators/hibernation/contents+en.lrquestion.description)
@@ -5063,12 +5090,12 @@ msgstr "```"
 #: https//support.torproject.org/operators/hibernation/
 #: (content/operators/hibernation/contents+en.lrquestion.description)
 msgid "Bandwidth soft limit reached; commencing hibernation. No new"
-msgstr ""
+msgstr "Bandwidth soft limit reached; commencing hibernation. No new"
 
 #: https//support.torproject.org/operators/hibernation/
 #: (content/operators/hibernation/contents+en.lrquestion.description)
 msgid "connections will be accepted"
-msgstr ""
+msgstr "connections will be accepted"
 
 #: https//support.torproject.org/operators/hibernation/
 #: (content/operators/hibernation/contents+en.lrquestion.description)
@@ -5076,6 +5103,8 @@ msgid ""
 "The solution is to run two Tor processes - one relay and one client, each "
 "with its own config."
 msgstr ""
+"Bu sorunu aşmak için, biri aktarıcı biri de istemci için olmak üzere her "
+"biri kendi yapılandırmasına sahip iki ayrı Tor işlemi çalıştırabilirsiniz. "
 
 #: https//support.torproject.org/operators/hibernation/
 #: (content/operators/hibernation/contents+en.lrquestion.description)
@@ -5083,11 +5112,14 @@ msgid ""
 "One way to do this (if you are starting from a working relay setup) is as "
 "follows:"
 msgstr ""
+"Bunu yapmanın yollarından biri (çalışan bir aktarıcı kurulumu ile "
+"başlıyorsanız) şu şekildedir:"
 
 #: https//support.torproject.org/operators/hibernation/
 #: (content/operators/hibernation/contents+en.lrquestion.description)
 msgid "* In the relay Tor torrc file, simply set the SocksPort to 0."
 msgstr ""
+"* Aktarıcı Tor torrc dosyasında SocksPort değerini 0 olarak ayarlayın."
 
 #: https//support.torproject.org/operators/hibernation/
 #: (content/operators/hibernation/contents+en.lrquestion.description)
@@ -5095,11 +5127,15 @@ msgid ""
 "* Create a new client torrc file from the torrc.sample and ensure it uses a "
 "different log file from the relay."
 msgstr ""
+"* torrc.sample dosyasını kullanarak yeni bir istemci torrc dosyası oluşturun"
+" ve aktarıcı yapılandırma dosyasından farklı bir dosya olarak "
+"kullanılacağından emin olun."
 
 #: https//support.torproject.org/operators/hibernation/
 #: (content/operators/hibernation/contents+en.lrquestion.description)
 msgid "One naming convention may be torrc.client and torrc.relay."
 msgstr ""
+"Bunun için dosya adlandırması torrc.client ve torrc.relay şeklinde olabilir."
 
 #: https//support.torproject.org/operators/hibernation/
 #: (content/operators/hibernation/contents+en.lrquestion.description)
@@ -5107,6 +5143,8 @@ msgid ""
 "* Modify the Tor client and relay startup scripts to include `-f "
 "/path/to/correct/torrc`."
 msgstr ""
+"* Tor istemci ve aktarıcısının başlatma betiklerine torrc dosyasının yolu "
+"ile birlikte `-f /klasor/yolu/kullanilacak/torrc` şeklide ekleyin."
 
 #: https//support.torproject.org/operators/hibernation/
 #: (content/operators/hibernation/contents+en.lrquestion.description)
@@ -5114,11 +5152,14 @@ msgid ""
 "* In Linux/BSD/Mac OS X, changing the startup scripts to `Tor.client` and "
 "`Tor.relay` may make separation of configs easier."
 msgstr ""
+"* Linux/BSD/Mac OS X üzerinde başlatma betiklerinin `Tor.client` ve "
+"`Tor.relay` ayrılması yapılandırmaların daha kolay ayırt edilmesini "
+"sağlayabilir."
 
 #: https//support.torproject.org/operators/ipv6-relay/
 #: (content/operators/ipv6-relay/contents+en.lrquestion.title)
 msgid "Can I use IPv6 on my relay?"
-msgstr ""
+msgstr "Aktarıcım üzerinde IPv6 kullanabilir miyim?"
 
 #: https//support.torproject.org/operators/ipv6-relay/
 #: (content/operators/ipv6-relay/contents+en.lrquestion.description)
@@ -5130,6 +5171,13 @@ msgid ""
 " in their [torrc](https://support.torproject.org/tbb/tbb-editing-torrc/) "
 "configuration files when IPv6 connectivity is available."
 msgstr ""
+"Tor [IPv6 desteği "
+"sınırlıdır](https://trac.torproject.org/projects/tor/wiki/org/roadmaps/Tor/IPv6Features)."
+" IPv6 bağlantısı kullanabilen her aktarıcı işletmecisinin "
+"[torrc](https://support.torproject.org/tbb/tbb-editing-torrc/) yapılandırma "
+"dosyasını güncelleyerek [IPv6 özelliğini "
+"etkinleştirmesini](https://trac.torproject.org/projects/tor/wiki/TorRelayGuide#IPv6)"
+" teşvik eidyoruz."
 
 #: https//support.torproject.org/operators/ipv6-relay/
 #: (content/operators/ipv6-relay/contents+en.lrquestion.description)
@@ -5137,6 +5185,9 @@ msgid ""
 "For the time being Tor will require IPv4 addresses on relays, you can not "
 "run a Tor relay on a host with IPv6 addresses only."
 msgstr ""
+"Tor aktarıcıları için IPv4 adreslerinin kullanılması zorunlu olduğundan, "
+"yalnız IPv6 adresleri kullanan bir bilgisayar üzerinde bir Tor aktarıcısı "
+"işletemezsiniz."
 
 #: https//support.torproject.org/operators/limit-total-bandwidth/
 #: (content/operators/limit-total-bandwidth/contents+en.lrquestion.title)
