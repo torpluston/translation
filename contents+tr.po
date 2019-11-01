@@ -5193,6 +5193,8 @@ msgstr ""
 #: (content/operators/limit-total-bandwidth/contents+en.lrquestion.title)
 msgid "How can I limit the total amount of bandwidth used by my Tor relay?"
 msgstr ""
+"Tor aktarıcım tarafından kullanılacak bant genişliğini nasıl "
+"sınırlayabilirim?"
 
 #: https//support.torproject.org/operators/limit-total-bandwidth/
 #: (content/operators/limit-total-bandwidth/contents+en.lrquestion.description)
@@ -5200,11 +5202,14 @@ msgid ""
 "The accounting options in the torrc file allow you to specify the maximum "
 "amount of bytes your relay uses for a time period."
 msgstr ""
+"torrc dosyasında Accounting hesaplama seçeneğini kullanarak belirli bir "
+"zaman aralığında aktarıcınız üzerinden geçebilecek en fazla bayt miktarını "
+"belirleyebilirsiniz."
 
 #: https//support.torproject.org/operators/limit-total-bandwidth/
 #: (content/operators/limit-total-bandwidth/contents+en.lrquestion.description)
 msgid "AccountingStart day week month [day] HH:MM"
-msgstr ""
+msgstr "AccountingStart day week month [gün] SS:DD"
 
 #: https//support.torproject.org/operators/limit-total-bandwidth/
 #: (content/operators/limit-total-bandwidth/contents+en.lrquestion.description)
@@ -5213,16 +5218,19 @@ msgid ""
 "total amount of bytes served for a week (that resets every Wednesday at "
 "10:00am), you would use:"
 msgstr ""
+"Bu ayar hesaplamanın ne zaman sıfırlanacağını belirler. Örneğin bir hafta "
+"boyunca sunulacak bayt değerini belirmek için (her Çarşamba sabah saat 10:00"
+" da sıfırlanacak) şu şekilde yazabilirsiniz:"
 
 #: https//support.torproject.org/operators/limit-total-bandwidth/
 #: (content/operators/limit-total-bandwidth/contents+en.lrquestion.description)
 msgid "AccountingStart week 3 10:00"
-msgstr ""
+msgstr "AccountingStart week 3 10:00"
 
 #: https//support.torproject.org/operators/limit-total-bandwidth/
 #: (content/operators/limit-total-bandwidth/contents+en.lrquestion.description)
 msgid "AccountingMax 500 GBytes"
-msgstr ""
+msgstr "AccountingMax 500 GBytes"
 
 #: https//support.torproject.org/operators/limit-total-bandwidth/
 #: (content/operators/limit-total-bandwidth/contents+en.lrquestion.description)
@@ -5231,6 +5239,8 @@ msgid ""
 "accounting period, and the maximum amount of data your relay will receive "
 "during an account period."
 msgstr ""
+"Bu ayar, aktarıcınızın bir hesaplama döneminde gönderebileceği ve "
+"alabileceği en fazla trafik miktarını belirler."
 
 #: https//support.torproject.org/operators/limit-total-bandwidth/
 #: (content/operators/limit-total-bandwidth/contents+en.lrquestion.description)
@@ -5238,6 +5248,8 @@ msgid ""
 "When the accounting period resets (from AccountingStart), then the counters "
 "for AccountingMax are reset to 0."
 msgstr ""
+"Hesaplama dönemi sıfırlandığında (AccountingStart ayarı ile) AccountingMax "
+"sayaçları da sıfırlanır."
 
 #: https//support.torproject.org/operators/limit-total-bandwidth/
 #: (content/operators/limit-total-bandwidth/contents+en.lrquestion.description)
@@ -5245,16 +5257,18 @@ msgid ""
 "Example: Let's say you want to allow 50 GB of traffic every day in each "
 "direction and the accounting should reset at noon each day:"
 msgstr ""
+"Örnek: Her gün, her yöne 50 GB trafiğe izin vermek ve hesaplamanın her gün "
+"öğlen sıfırlanmasını istiyorsunuz diyelim:"
 
 #: https//support.torproject.org/operators/limit-total-bandwidth/
 #: (content/operators/limit-total-bandwidth/contents+en.lrquestion.description)
 msgid "AccountingStart day 12:00"
-msgstr ""
+msgstr "AccountingStart day 12:00"
 
 #: https//support.torproject.org/operators/limit-total-bandwidth/
 #: (content/operators/limit-total-bandwidth/contents+en.lrquestion.description)
 msgid "AccountingMax 50 GBytes"
-msgstr ""
+msgstr "AccountingMax 50 GBytes"
 
 #: https//support.torproject.org/operators/limit-total-bandwidth/
 #: (content/operators/limit-total-bandwidth/contents+en.lrquestion.description)
@@ -5262,6 +5276,8 @@ msgid ""
 "Note that your relay won't wake up exactly at the beginning of each "
 "accounting period."
 msgstr ""
+"Aktarıcınızın tam olarak her hesaplama döneminin başlangıcında "
+"uyanmayacağını unutmayın."
 
 #: https//support.torproject.org/operators/limit-total-bandwidth/
 #: (content/operators/limit-total-bandwidth/contents+en.lrquestion.description)
@@ -5269,6 +5285,8 @@ msgid ""
 "It will keep track of how quickly it used its quota in the last period, and "
 "choose a random point in the new interval to wake up."
 msgstr ""
+"Aktarıcı, önceki dönemde kotasını ne hızla kullandığına bakar ve buna göre "
+"yeni dönemde uyanmak için rastgele bir an seçer."
 
 #: https//support.torproject.org/operators/limit-total-bandwidth/
 #: (content/operators/limit-total-bandwidth/contents+en.lrquestion.description)
@@ -5276,6 +5294,8 @@ msgid ""
 "This way we avoid having hundreds of relays working at the beginning of each"
 " month but none still up by the end."
 msgstr ""
+"Böylece yüzlerce aktarıcının her ay başında çalışmaya başlayıp ayın sonu "
+"gelmeden kapanmasının önüne geçilir."
 
 #: https//support.torproject.org/operators/limit-total-bandwidth/
 #: (content/operators/limit-total-bandwidth/contents+en.lrquestion.description)
@@ -5284,6 +5304,9 @@ msgid ""
 "connection speed, we recommend you use daily accounting, so you don't end up"
 " using your entire monthly quota in the first day."
 msgstr ""
+"Bağlantı hızınızın yalnız küçük bir bölümünü aktarıcı için ayırmak "
+"istiyorsanız günlük hesaplama yöntemini seçmeniz önerilir. Böylece aylık "
+"ayırdığınız kotanın ilk günden bitmesi engellenebilir."
 
 #: https//support.torproject.org/operators/limit-total-bandwidth/
 #: (content/operators/limit-total-bandwidth/contents+en.lrquestion.description)
@@ -5292,6 +5315,10 @@ msgid ""
 " to spread your usefulness over more of the day: if you want to offer X GB "
 "in each direction, you could set your RelayBandwidthRate to 20*X KBytes."
 msgstr ""
+"Aylık kotanızı 30 ile bölmeniz yeterlidir. Ayrıca gün boyunca kullanım "
+"sağlayabilmek için hız sınırlaması koymayı da düşünün. Her yöne X GB sunmak "
+"istiyorsanız, RelayBandwidthRate değerini 20* X KBytes olarak "
+"ayarlamalısınız."
 
 #: https//support.torproject.org/operators/limit-total-bandwidth/
 #: (content/operators/limit-total-bandwidth/contents+en.lrquestion.description)
@@ -5300,22 +5327,27 @@ msgid ""
 "RelayBandwidthRate to 1000 KBytes: this way your relay will always be useful"
 " for at least half of each day."
 msgstr ""
+"Örneğin her yöne 50 GB sunmak istiyosanız, RelayBandwidthRate değerini 1000 "
+"KBytes olarak ayarlamalısınız. Böylece aktarıcınız günün en az yarısı "
+"boyunca kullanılabilir."
 
 #: https//support.torproject.org/operators/limit-total-bandwidth/
 #: (content/operators/limit-total-bandwidth/contents+en.lrquestion.description)
 msgid "AccountingStart day 0:00"
-msgstr ""
+msgstr "AccountingStart day 0:00"
 
 #: https//support.torproject.org/operators/limit-total-bandwidth/
 #: (content/operators/limit-total-bandwidth/contents+en.lrquestion.description)
 msgid "RelayBandwidthRate 1000 KBytes"
-msgstr ""
+msgstr "RelayBandwidthRate 1000 KBytes"
 
 #: https//support.torproject.org/operators/limit-total-bandwidth/
 #: (content/operators/limit-total-bandwidth/contents+en.lrquestion.description)
 msgid ""
 "RelayBandwidthBurst 5000 KBytes # allow higher bursts but maintain average"
 msgstr ""
+"RelayBandwidthBurst 5000 KBytes # daha yüksek sıçramalara izin verir ancak "
+"ortalama değeri korur"
 
 #: https//support.torproject.org/operators/multiple-relays/
 #: (content/operators/multiple-relays/contents+en.lrquestion.title)
