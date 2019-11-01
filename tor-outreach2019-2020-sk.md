@@ -1,4 +1,4 @@
-# Tor Outreach Material 2019-2020
+# Tor Outreach materiál 2019-2020
 
 # 1. Tor na ochranu osobných údajov
 
@@ -103,7 +103,7 @@ When you use Tor Browser, no one can see what websites you visit or where in the
 Other applications, like SecureDrop and OnionShare, use Tor to protect their users against surveillance and censorship.
 
 
-## 6. How does Tor work?
+## 6. Ako Tor funguje?
 
 Amal wants to visit Bekele’s website privately, so she opens Tor Browser.
 
@@ -121,7 +121,7 @@ The third relay removes the last encryption layer and forwards the web page requ
 
 Bekele doesn't know that the website request came from Amal unless she tells him so.
 
-## 7. Who uses Tor? 
+## 7. Kto používa Tor?
 
 People all over the world use Tor to protect their privacy and access the web freely.
 
@@ -154,7 +154,7 @@ Tor for Desktop
 torproject.org/download
 
 TOR ON MOBILE
-### Android 
+### Android
 Tor Browser for Android is available from GooglePlay.
 
 ### iOS
