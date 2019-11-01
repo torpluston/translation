@@ -1,8 +1,8 @@
 # Tor Outreach Material 2019-2020
 
-# 1. TOR FOR PRIVACY 
+# 1. Tor na ochranu osobných údajov
 
-### Privacy is a human right
+### Ochrana osobných údajov je ľudské právo
 
 Like many of us, Aleisha spends most of her time online--connecting with friends, posting on social media, and browsing the web.
 
@@ -36,9 +36,9 @@ She also uses a Tor-powered app called **OnionShare** to send files to other act
 
 ---
 
-# 3. TOR FOR HUMAN RIGHTS
+# 3. Tor pre ľudské práva
 
-### Water is life 
+### Voda je život
 
 Jelani lives in a small village  which a wide river runs through.
 
