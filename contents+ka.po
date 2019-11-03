@@ -4992,11 +4992,15 @@ msgid ""
 "We can also [provide a signed letter](https://www.torproject.org/contact/) "
 "if needed."
 msgstr ""
+"ჩვენ ასევე შეგვიძლია [მოგაწოდოთ წერილი "
+"ხელმოწერით](https://www.torproject.org/contact/) საჭიროების შემთხვევაში."
 
 #: https//support.torproject.org/operators/hibernation/
 #: (content/operators/hibernation/contents+en.lrquestion.title)
 msgid "Why can I not browse anymore after limiting bandwidth on my Tor relay?"
 msgstr ""
+"რატომ ვეღარ ვნახულობ ვებგვერდებს,  Tor-ის ჩემს გადამცემზე, გამტარუნარიანობის"
+" შეზღუდვის შემდეგ?"
 
 #: https//support.torproject.org/operators/hibernation/
 #: (content/operators/hibernation/contents+en.lrquestion.description)
@@ -5007,6 +5011,11 @@ msgid ""
 "[BandwidthRate](https://2019.www.torproject.org/docs/faq.html.en#BandwidthShaping)"
 " apply to both client and relay functions of the Tor process."
 msgstr ""
+"პარამეტრები, რომლებსაც საზღვრავს "
+"[AccountingMax](https://2019.www.torproject.org/docs/faq.html.en#LimitTotalBandwidth)"
+" და "
+"[BandwidthRate](https://2019.www.torproject.org/docs/faq.html.en#BandwidthShaping)"
+" მოქმედებს ორივეზე, კლიენტსა და გადამცემზე, Tor-ში მუშაობისას."
 
 #: https//support.torproject.org/operators/hibernation/
 #: (content/operators/hibernation/contents+en.lrquestion.description)
@@ -5014,6 +5023,9 @@ msgid ""
 "Thus you may find that you are unable to browse as soon as your Tor goes "
 "into hibernation, signaled by this entry in the log:"
 msgstr ""
+"სწორედ ამიტომ, შესაძლოა აღმოაჩინოთ, რომ გვერდების მონახულება არ შეგიძლიათ იმ"
+" დროს, როცა თქვენი Tor გადადის ენერგოდაზოგვის რეჟიმში, რაც აღინიშნება "
+"ჩანაწერში შემდეგნაირად:"
 
 #: https//support.torproject.org/operators/hibernation/
 #: (content/operators/hibernation/contents+en.lrquestion.description)
@@ -5028,17 +5040,19 @@ msgstr ""
 #: https//support.torproject.org/apt/apt-over-tor/
 #: (content/apt/apt-3/contents+en.lrquestion.description)
 msgid "```"
-msgstr ""
+msgstr "```"
 
 #: https//support.torproject.org/operators/hibernation/
 #: (content/operators/hibernation/contents+en.lrquestion.description)
 msgid "Bandwidth soft limit reached; commencing hibernation. No new"
 msgstr ""
+"გამტარუნარიანობის პროგრამული ზღვარი მიღწეულია; ძალაში შედის ენერგოდაზოგვის "
+"რეჟიმი. ახალი"
 
 #: https//support.torproject.org/operators/hibernation/
 #: (content/operators/hibernation/contents+en.lrquestion.description)
 msgid "connections will be accepted"
-msgstr ""
+msgstr "კავშირები აღარ მიიღება"
 
 #: https//support.torproject.org/operators/hibernation/
 #: (content/operators/hibernation/contents+en.lrquestion.description)
@@ -5046,18 +5060,20 @@ msgid ""
 "The solution is to run two Tor processes - one relay and one client, each "
 "with its own config."
 msgstr ""
+"გამოსავალია, ორი Tor-პროცესის გაშვება – ერთი გადამცემისთვის და მეორე "
+"კლიენტისთვის, თითოეული თავისი პარამეტრებით."
 
 #: https//support.torproject.org/operators/hibernation/
 #: (content/operators/hibernation/contents+en.lrquestion.description)
 msgid ""
 "One way to do this (if you are starting from a working relay setup) is as "
 "follows:"
-msgstr ""
+msgstr "ერთი გზაა ამისთვის (თუ იწყებთ უკვე მუშა გადამცემიდან) შემდეგია:"
 
 #: https//support.torproject.org/operators/hibernation/
 #: (content/operators/hibernation/contents+en.lrquestion.description)
 msgid "* In the relay Tor torrc file, simply set the SocksPort to 0."
-msgstr ""
+msgstr "* გადამცემის Tor torrc ფაილში, უბრალოდ SocksPort მიუთითეთ 0."
 
 #: https//support.torproject.org/operators/hibernation/
 #: (content/operators/hibernation/contents+en.lrquestion.description)
@@ -5065,11 +5081,14 @@ msgid ""
 "* Create a new client torrc file from the torrc.sample and ensure it uses a "
 "different log file from the relay."
 msgstr ""
+"* შექმენით კლიენტის ახალი torrc ფაილი ნიმუშიდან torrc.sample და დარწმუნდით, "
+"რომ იყენებს განსხვავებულ აღრიცხვის ფაილს გადამცემიდან."
 
 #: https//support.torproject.org/operators/hibernation/
 #: (content/operators/hibernation/contents+en.lrquestion.description)
 msgid "One naming convention may be torrc.client and torrc.relay."
 msgstr ""
+"სახელთა ერთ-ერთი შეთანხმება შეიძლება იყოს torrc.client და torrc.relay."
 
 #: https//support.torproject.org/operators/hibernation/
 #: (content/operators/hibernation/contents+en.lrquestion.description)
