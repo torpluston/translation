@@ -5444,16 +5444,23 @@ msgid ""
 "Understanding and Improving Entry Guard Selection in "
 "Tor](http://freehaven.net/anonbib/#wpes12-cogs)."
 msgstr ""
+"Ayrıntılı bilgi almak için [şu günlük "
+"yazısına](https://blog.torproject.org/blog/lifecycle-of-a-new-relay) ya da "
+"[Changing of the Guards: A Framework for Understanding and Improving Entry "
+"Guard Selection in Tor](http://freehaven.net/anonbib/#wpes12-cogs) "
+"makalesine bakabilirsiniz."
 
 #: https//support.torproject.org/operators/offline-ed25519/
 #: (content/operators/offline-ed25519/contents+en.lrquestion.title)
 msgid "How do offline ed25519 identity keys work? What do I need to know?"
 msgstr ""
+"Çevrimdışı ed25519 kimlik doğrulama anahtarları nasıl çalışır? Neleri bilmem"
+" gerekir?"
 
 #: https//support.torproject.org/operators/offline-ed25519/
 #: (content/operators/offline-ed25519/contents+en.lrquestion.description)
 msgid "In simple words, it works like this:"
-msgstr ""
+msgstr "Basit olarak çalışması şöyle anlatılabilir:"
 
 #: https//support.torproject.org/operators/offline-ed25519/
 #: (content/operators/offline-ed25519/contents+en.lrquestion.description)
@@ -5461,6 +5468,8 @@ msgid ""
 "* There is a master ed25519 identity secret key file named "
 "\"ed25519_master_id_secret_key\"."
 msgstr ""
+"* \"ed25519_master_id_secret_key\" olarak adlandırılmış bir ana ed25519 "
+"kimlik doğrulama anahtarı vardır."
 
 #: https//support.torproject.org/operators/offline-ed25519/
 #: (content/operators/offline-ed25519/contents+en.lrquestion.description)
@@ -5468,6 +5477,9 @@ msgid ""
 "This is the most important one, so make sure you keep a backup in a secure "
 "place - the file is sensitive and should be protected."
 msgstr ""
+"Bu en önemlisidir. O yüzden güvenli bir yere yedeğini aldığınızdan emin "
+"olun. Bu dosyanın başkalarının eline geçmemesi önemlidir ve korunması "
+"gerekir."
 
 #: https//support.torproject.org/operators/offline-ed25519/
 #: (content/operators/offline-ed25519/contents+en.lrquestion.description)
@@ -5475,6 +5487,8 @@ msgid ""
 "Tor could encrypt it for you if you generate it manually and enter a "
 "password when asked."
 msgstr ""
+"Anahtarı el ile üretip, sorulduğunda bir parola yazarsanız Tor bu dosyayı "
+"sizin için şifreleyebilir."
 
 #: https//support.torproject.org/operators/offline-ed25519/
 #: (content/operators/offline-ed25519/contents+en.lrquestion.description)
@@ -5482,6 +5496,8 @@ msgid ""
 "* A medium term signing key named \"ed25519_signing_secret_key\" is "
 "generated for Tor to use."
 msgstr ""
+"* Tor tarafından kullanılması için \"ed25519_signing_secret_key\" orta "
+"vadeli imzalama anahtarı üretilir."
 
 #: https//support.torproject.org/operators/offline-ed25519/
 #: (content/operators/offline-ed25519/contents+en.lrquestion.description)
@@ -5490,6 +5506,9 @@ msgid ""
 "signed by the master identity secret key and confirms that the medium term "
 "signing key is valid for a certain period of time."
 msgstr ""
+"Ayrıca ana kimlik doğrulama anahtarı tarafından imzalanmış "
+"\"ed25519_signing_cert\" adında bir sertifika üretilir ve orta vadeli "
+"imzalama anahtarının belirli bir süre için geçerli olması sağlanır."
 
 #: https//support.torproject.org/operators/offline-ed25519/
 #: (content/operators/offline-ed25519/contents+en.lrquestion.description)
@@ -5497,6 +5516,9 @@ msgid ""
 "The default validity is 30 days, but this can be customized by setting "
 "\"SigningKeyLifetime N days|weeks|months\" in torrc."
 msgstr ""
+"Varsayılan geçerlilik süresi 30 gündür. Bu süre torrc dosyasındaki "
+"\"SigningKeyLifetime N days|weeks|months\" ayarı kullanılarak "
+"değiştirilebilir."
 
 #: https//support.torproject.org/operators/offline-ed25519/
 #: (content/operators/offline-ed25519/contents+en.lrquestion.description)
@@ -5504,6 +5526,8 @@ msgid ""
 "* There is also a master public key named \"ed25519_master_id_public_key, "
 "which is the actual identity of the relay advertised in the network."
 msgstr ""
+"* Ayrıca aktarıcının ağa yayınlanan gerçek kimliği olan "
+"\"ed25519_master_id_public_key\" adında herkese açık bir ana anahtar vardır."
 
 #: https//support.torproject.org/operators/offline-ed25519/
 #: (content/operators/offline-ed25519/contents+en.lrquestion.description)
@@ -5511,6 +5535,8 @@ msgid ""
 "This one is not sensitive and can be easily computed from "
 "\"ed5519_master_id_secret_key\"."
 msgstr ""
+"Bu anahtarın başkalarının eline geçmesi önemli değildir ve "
+"\"ed5519_master_id_secret_key\" anahtarından kolayca hesaplanabilir."
 
 #: https//support.torproject.org/operators/offline-ed25519/
 #: (content/operators/offline-ed25519/contents+en.lrquestion.description)
@@ -5519,6 +5545,10 @@ msgid ""
 "long as they are valid, so the master identity secret key can be kept "
 "outside DataDirectory/keys, on a storage media or a different computer."
 msgstr ""
+"Geçerli oldukları sürece, Tor tarafından yalnız orta vadeli imzalama "
+"anahtarına ve sertifikaya erişilmesi gereklidir. Bu nedenle ana kimlik "
+"doğrulama gizli anahtarı DataDirectory/keys klasörü dışına alınarak başka "
+"bir bilgisayarın depolama alanında ya da bilgisayarda tutulabilir."
 
 #: https//support.torproject.org/operators/offline-ed25519/
 #: (content/operators/offline-ed25519/contents+en.lrquestion.description)
@@ -5527,11 +5557,15 @@ msgid ""
 "before they expire otherwise the Tor process on the relay will exit upon "
 "expiration."
 msgstr ""
+"Orta vadeli imzalama anahtarını ve sertifikayı süresi dolmadan önce el ile "
+"yenilemeniz gerekir. Yoksa süre dolduktan sonra aktarıcı üzerindeki Tor "
+"işleminden çıkılır."
 
 #: https//support.torproject.org/operators/offline-ed25519/
 #: (content/operators/offline-ed25519/contents+en.lrquestion.description)
 msgid "This feature is optional, you don't need to use it unless you want to."
 msgstr ""
+"Bu özellik isteğe bağlıdır. Kullanmak istemiyorsanız kullanmayabilirsiniz."
 
 #: https//support.torproject.org/operators/offline-ed25519/
 #: (content/operators/offline-ed25519/contents+en.lrquestion.description)
@@ -5541,6 +5575,11 @@ msgid ""
 "leave the master identity secret key in DataDirectory/keys, just make a "
 "backup in case you'll need to reinstall it."
 msgstr ""
+"Orta vadeli imzalama anahtarı yenileme işlemini düzenli olarak el ile yapmak"
+" yerine aktarıcınızın dokunulmadan daha uzun süre çalışmasını istiyorsanız, "
+"ana kimlik doğrulama gizli anahtarını DataDirectory/keys klasöründe "
+"bırakabilirsiniz. Yalnız yeniden kurabilmek için anahtarın bir yedeğini "
+"almayı unutmayın."
 
 #: https//support.torproject.org/operators/offline-ed25519/
 #: (content/operators/offline-ed25519/contents+en.lrquestion.description)
@@ -5549,6 +5588,9 @@ msgid ""
 "guide](https://trac.torproject.org/projects/tor/wiki/doc/TorRelaySecurity/OfflineKeys)"
 " on the topic."
 msgstr ""
+"Bu özelliği kullanmak isterseniz, bu konudaki [ayrıntılı "
+"rehber](https://trac.torproject.org/projects/tor/wiki/doc/TorRelaySecurity/OfflineKeys)"
+" bölümüne bakabilirsiniz."
 
 #: https//support.torproject.org/operators/operators-1/
 #: (content/operators/operators-1/contents+en.lrquestion.title)
@@ -5738,7 +5780,7 @@ msgstr ""
 #: https//support.torproject.org/operators/outgoing-firewall/
 #: (content/operators/outgoing-firewall/contents+en.lrquestion.title)
 msgid "How should I configure the outgoing filters on my relay?"
-msgstr ""
+msgstr "Aktarıcım üzerindeki çıkış süzgeçlerini nasıl yapılandırmalıyım?"
 
 #: https//support.torproject.org/operators/outgoing-firewall/
 #: (content/operators/outgoing-firewall/contents+en.lrquestion.description)
@@ -5746,6 +5788,8 @@ msgid ""
 "All outgoing connections must be allowed, so that each relay can communicate"
 " with every other relay."
 msgstr ""
+"Tüm çıkış bağlantılarına izin verilmelidir. Böylece her aktarıcı diğer "
+"aktarıcıların tümü ile iletişim kurabilir."
 
 #: https//support.torproject.org/operators/outgoing-firewall/
 #: (content/operators/outgoing-firewall/contents+en.lrquestion.description)
@@ -5754,12 +5798,16 @@ msgid ""
 " common carrier regulations that prevent internet service providers from "
 "being held liable for third-party content that passes through their network."
 msgstr ""
+"Birçok yargı alanında, Tor aktarıcı işletmecileri, internet servis "
+"sağlayıcılarının ağlarından geçen üçüncü taraf içeriğinden sorumlu "
+"tutulmalarını önleyen ortak taşıyıcı düzenlemeleri ile yasal olarak "
+"korunmaktadır."
 
 #: https//support.torproject.org/operators/outgoing-firewall/
 #: (content/operators/outgoing-firewall/contents+en.lrquestion.description)
 msgid ""
 "Exit relays that filter some traffic would likely forfeit those protections."
-msgstr ""
+msgstr "Bazı trafikleri süzen çıkış aktarıcıları bu kapsam dışında kalabilir."
 
 #: https//support.torproject.org/operators/outgoing-firewall/
 #: (content/operators/outgoing-firewall/contents+en.lrquestion.description)
@@ -6138,6 +6186,8 @@ msgid ""
 "* If you are looking to run a relay with minimal effort, fast guard relays "
 "are also very useful"
 msgstr ""
+"* En az çaba ile bir aktarıcı işletmek istiyorsanız, hızlı koruma "
+"aktarıcıları da çok kullanışlıdır"
 
 #: https//support.torproject.org/operators/what-type-of-relays-are-most-needed/
 #: (content/operators/what-type-of-relays-are-most-needed/contents+en.lrquestion.description)
