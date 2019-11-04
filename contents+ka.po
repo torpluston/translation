@@ -5411,7 +5411,7 @@ msgid ""
 "* There is a master ed25519 identity secret key file named "
 "\"ed25519_master_id_secret_key\"."
 msgstr ""
-"* არსებობს მთავარი ed25519 დამოწმების საიდუმლო გასაღები ფაილი დასახელებით "
+"* არის მთავარი ed25519 დამოწმების საიდუმლო გასაღები ფაილი დასახელებით "
 "„ed25519_master_id_secret_key“."
 
 #: https//support.torproject.org/operators/offline-ed25519/
@@ -5458,6 +5458,8 @@ msgid ""
 "The default validity is 30 days, but this can be customized by setting "
 "\"SigningKeyLifetime N days|weeks|months\" in torrc."
 msgstr ""
+"ნაგულისხმევი ვადაა 30 დღე, მაგრამ შეიძლება შეცვლა პარამეტრით "
+"„SigningKeyLifetime N days|weeks|months“ torrc ფაილში."
 
 #: https//support.torproject.org/operators/offline-ed25519/
 #: (content/operators/offline-ed25519/contents+en.lrquestion.description)
@@ -5465,6 +5467,9 @@ msgid ""
 "* There is also a master public key named \"ed25519_master_id_public_key, "
 "which is the actual identity of the relay advertised in the network."
 msgstr ""
+"* აგრეთვე არის მთავარი საჯარო გასაღები დასახელებით "
+"„ed25519_master_id_public_key“, რომელიც ადასტურებს ნამდვილობას, ქსელში "
+"განთავსებული გადამცემის."
 
 #: https//support.torproject.org/operators/offline-ed25519/
 #: (content/operators/offline-ed25519/contents+en.lrquestion.description)
@@ -5472,6 +5477,8 @@ msgid ""
 "This one is not sensitive and can be easily computed from "
 "\"ed5519_master_id_secret_key\"."
 msgstr ""
+"ეს არც ისე მნიშვნელოვანია და ადვილად შეიძლება გამოითვალოს გასაღებიდან "
+"„ed5519_master_id_secret_key“."
 
 #: https//support.torproject.org/operators/offline-ed25519/
 #: (content/operators/offline-ed25519/contents+en.lrquestion.description)
@@ -5480,6 +5487,10 @@ msgid ""
 "long as they are valid, so the master identity secret key can be kept "
 "outside DataDirectory/keys, on a storage media or a different computer."
 msgstr ""
+"Tor მხოლოდ საჭიროებს წვდომას საშუალოვადიან შესვლის გასაღებსა და "
+"სერტიფიკატთან, სანამ ისინი მოქმედია, ასე რომ მთავარი დამოწმების საიდუმლო "
+"გასაღები შეიძლება დარჩეს DataDirectory/keys-ის მიღმა, დამმახსოვრებელ "
+"მოწყობილობაზე ან სხვა კომპიუტერზე."
 
 #: https//support.torproject.org/operators/offline-ed25519/
 #: (content/operators/offline-ed25519/contents+en.lrquestion.description)
@@ -5488,11 +5499,16 @@ msgid ""
 "before they expire otherwise the Tor process on the relay will exit upon "
 "expiration."
 msgstr ""
+"თქვენ ხელით უნდა განაახლოთ საშუალოვადიანი შესვლის გასაღები და სერტიფიკატი "
+"ვადის ამოწურვამდე, წინააღმდეგ შემთხვევაში Tor-პროცესი გადამცემზე გაითიშება "
+"ვადის გასვლისთანავე."
 
 #: https//support.torproject.org/operators/offline-ed25519/
 #: (content/operators/offline-ed25519/contents+en.lrquestion.description)
 msgid "This feature is optional, you don't need to use it unless you want to."
 msgstr ""
+"ეს შესაძლებლობა არასავალდებულოა, საჭირო არაა მისი გამოყენება, თუ სურვილი არ "
+"აქვთ."
 
 #: https//support.torproject.org/operators/offline-ed25519/
 #: (content/operators/offline-ed25519/contents+en.lrquestion.description)
@@ -5502,6 +5518,10 @@ msgid ""
 "leave the master identity secret key in DataDirectory/keys, just make a "
 "backup in case you'll need to reinstall it."
 msgstr ""
+"თუ გსურთ გადამცემი გაშვებული იყოს ხელშეუხებლად მეტი ხნით, საშუალოვადიანი "
+"შესვლის გასაღების ჩვეულებისამებრ ხელით განახლების გარეშე, მაშინ აჯობებს "
+"მთავარი დამოწმების საიდუმლო გასაღები დატოვოთ DataDirectory/keys-ში, უბრალოდ "
+"დაამარქაფოთ იმ შემთხვევისთვის, ხელახლა დაყენება რომ დაგჭირდეთ."
 
 #: https//support.torproject.org/operators/offline-ed25519/
 #: (content/operators/offline-ed25519/contents+en.lrquestion.description)
@@ -5510,6 +5530,9 @@ msgid ""
 "guide](https://trac.torproject.org/projects/tor/wiki/doc/TorRelaySecurity/OfflineKeys)"
 " on the topic."
 msgstr ""
+"თუ გსურთ ამ შესაძლებლობის გამოყენება, შეგიძლიათ იხილოთ უფრო  [დაწვრილებითი "
+"გზამკვლევი](https://trac.torproject.org/projects/tor/wiki/doc/TorRelaySecurity/OfflineKeys)"
+" ამ საკითხზე."
 
 #: https//support.torproject.org/operators/operators-1/
 #: (content/operators/operators-1/contents+en.lrquestion.title)
@@ -5526,6 +5549,8 @@ msgid ""
 "For the most in-depth resource on running a relay, see the [Relay Setup "
 "Guide](https://community.torproject.org/relay/setup)."
 msgstr ""
+"სიღრმისეული მასალა გადამცემის გაშვებაზე, შეგიძლიათ იხილოთ [გადამცემის "
+"გამართვის სახელმძღვანელოში](https://community.torproject.org/relay/setup)."
 
 #: https//support.torproject.org/operators/operators-2/
 #: (content/operators/operators-2/contents+en.lrquestion.title)
@@ -5708,17 +5733,21 @@ msgid ""
 " common carrier regulations that prevent internet service providers from "
 "being held liable for third-party content that passes through their network."
 msgstr ""
+"სამართლებრივად, ხშირ შემთხვევაში, Tor-ის გადამცემის ზედამხედველები დაცულნი "
+"არიან იმავე კანონებით, რაც იცავს ინტერნეტის მომწოდებლებს პასუხისმგებლობის "
+"აღებისგან, მათ ქსელში გატარებულ მონაცემებზე."
 
 #: https//support.torproject.org/operators/outgoing-firewall/
 #: (content/operators/outgoing-firewall/contents+en.lrquestion.description)
 msgid ""
 "Exit relays that filter some traffic would likely forfeit those protections."
 msgstr ""
+"გამსვლელი კვანძები, რომლებიც ფილტრავს მონაცემებს, ჩვეულებრივ გამონაკლისია."
 
 #: https//support.torproject.org/operators/outgoing-firewall/
 #: (content/operators/outgoing-firewall/contents+en.lrquestion.description)
 msgid "Tor promotes free network access without interference."
-msgstr ""
+msgstr "Tor მხარს უჭერს ქსელთან თავისუფალ წვდომას, ჩარევების გარეშე."
 
 #: https//support.torproject.org/operators/outgoing-firewall/
 #: (content/operators/outgoing-firewall/contents+en.lrquestion.description)
@@ -5726,6 +5755,8 @@ msgid ""
 "Exit relays must not filter the traffic that passes through them to the "
 "internet."
 msgstr ""
+"გამსვლელი კვანძები არ უნდა ფილტრავდნენ მონაცემებს, რომლებიც მათი გავლით "
+"გადის ინტერნეტში."
 
 #: https//support.torproject.org/operators/outgoing-firewall/
 #: (content/operators/outgoing-firewall/contents+en.lrquestion.description)
@@ -5734,6 +5765,9 @@ msgid ""
 "[BadExit](https://community.torproject.org/relay/community-resources/bad-"
 "relays/) flag once detected."
 msgstr ""
+"ფილტრის მქონე გამსვლელი კვანძები აღმოჩენისთანავე მიიღებს "
+"[BadExit](https://community.torproject.org/relay/community-resources/bad-"
+"relays/)-ნიშანს."
 
 #: https//support.torproject.org/operators/packaged-tor/
 #: (content/operators/packaged-tor/contents+en.lrquestion.title)
