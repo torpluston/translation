@@ -5772,7 +5772,7 @@ msgstr ""
 #: https//support.torproject.org/operators/packaged-tor/
 #: (content/operators/packaged-tor/contents+en.lrquestion.title)
 msgid "Should I install Tor from my package manager, or build from source?"
-msgstr "უნდა დავაყენო Tor კრებულების საცავიდან თუ ჯობია წყაროდან ავაწყო?"
+msgstr "უნდა დავაყენო Tor კრებულების სამართვიდან თუ ჯობია წყაროდან ავაწყო?"
 
 #: https//support.torproject.org/operators/packaged-tor/
 #: (content/operators/packaged-tor/contents+en.lrquestion.description)
@@ -5781,6 +5781,9 @@ msgid ""
 "to installing Tor from the [Tor Project's "
 "repository](https://support.torproject.org/apt/tor-deb-repo/)."
 msgstr ""
+"თუ გაქვთ Debian ან Ubuntu განსაკუთრებით, რამდენიმე უპირატესობას მიიღებთ Tor-"
+"ის პირდაპირ [Tor-პროექტის საცავიდან](https://support.torproject.org/apt/tor-"
+"deb-repo/) დაყენებით."
 
 #: https//support.torproject.org/operators/packaged-tor/
 #: (content/operators/packaged-tor/contents+en.lrquestion.description)
@@ -5788,6 +5791,8 @@ msgid ""
 "* Your `ulimit -n` gets set to 32768  high enough for Tor to keep open all "
 "the connections it needs."
 msgstr ""
+"* თქვენი `ulimit -n` მითითებული იქნება 32768  საკმარისზე მეტი Tor-ისთვის, "
+"რომ ყველა საჭირო კავშირი ღიად ჰქონდეს შენარჩუნებული."
 
 #: https//support.torproject.org/operators/packaged-tor/
 #: (content/operators/packaged-tor/contents+en.lrquestion.description)
@@ -5795,11 +5800,13 @@ msgid ""
 "* A user profile is created just for Tor, so Tor doesn't need to run as "
 "root."
 msgstr ""
+"* მომხმარებლის პროფილი შეიქმნება მხოლოდ Tor-ისთვის, ასე რომ Tor-ს არ "
+"დასჭირდება ძირეული უფლებით გაშვება."
 
 #: https//support.torproject.org/operators/packaged-tor/
 #: (content/operators/packaged-tor/contents+en.lrquestion.description)
 msgid "* An init script is included so that Tor runs at boot."
-msgstr ""
+msgstr "* გამშვები სკრიპტი ჩამატებულია, შედეგად Tor გაეშვება ჩატვირთვისას."
 
 #: https//support.torproject.org/operators/packaged-tor/
 #: (content/operators/packaged-tor/contents+en.lrquestion.description)
@@ -5807,21 +5814,25 @@ msgid ""
 "* Tor runs with `--verify-config`, so that most problems with your config "
 "file get caught."
 msgstr ""
+"* Tor ეშვება პარამეტრით `--verify-config`, ამიტომ ხარვეზების უმეტესობა "
+"კონფიგურაციაში ადვილად გამოვლინდება."
 
 #: https//support.torproject.org/operators/packaged-tor/
 #: (content/operators/packaged-tor/contents+en.lrquestion.description)
 msgid "* Tor can bind to low level ports, then drop privileges."
 msgstr ""
+"* Tor-ს შეუძლია ქვედა დონის პორტებთან დაკავშირება, შემდეგ კი აღმატებული "
+"უფლებების მოცილება."
 
 #: https//support.torproject.org/operators/relay-flexible/
 #: (content/operators/relay-flexible/contents+en.lrquestion.title)
 msgid "How stable does my relay need to be?"
-msgstr ""
+msgstr "რამდენად მდგრადი უნდა იყოს ჩემი გადამცემი?"
 
 #: https//support.torproject.org/operators/relay-flexible/
 #: (content/operators/relay-flexible/contents+en.lrquestion.description)
 msgid "We aim to make setting up a Tor relay easy and convenient:"
-msgstr ""
+msgstr "ჩვენი მიზანია, Tor-გადამცემის გამართვა იყოს ადვილი და მოსახერხებელი."
 
 #: https//support.torproject.org/operators/relay-flexible/
 #: (content/operators/relay-flexible/contents+en.lrquestion.description)
@@ -5872,6 +5883,9 @@ msgid ""
 "capacity, so high-bandwidth relays will attract more users than low-"
 "bandwidth ones. Therefore, having low-bandwidth relays is useful too."
 msgstr ""
+"* თქვენი გადამცემი აკეთებს გამტარუნარიანობის შესაძლებლობების შეფასებას, "
+"შედეგად მაღალი გამტარუნარიანობის გადამცემები მეტ მომხმარებელს იზიდავს ვიდრე "
+"დაბალი. თუმცაღა, დაბალი გამტარუნარიანობის გადამცემებიც დიდად გამოსადეგია."
 
 #: https//support.torproject.org/operators/relay-memory/
 #: (content/operators/relay-memory/contents+en.lrquestion.title)
@@ -5893,6 +5907,8 @@ msgid ""
 "* If you're on Linux, you may be encountering memory fragmentation bugs in "
 "glibc's malloc implementation."
 msgstr ""
+"* თუ გაქვთ Linux, შესაძლოა გადააწყდეთ მეხსიერების დანაწევრების ხარვეზებს, "
+"როცა გამოიყენება glibc-ის malloc."
 
 #: https//support.torproject.org/operators/relay-memory/
 #: (content/operators/relay-memory/contents+en.lrquestion.description)
@@ -5900,6 +5916,8 @@ msgid ""
 "That is, when Tor releases memory back to the system, the pieces of memory "
 "are fragmented so they're hard to reuse."
 msgstr ""
+"ეს ნიშნავს, რომ როცა Tor მეხსიერებას აბრუნებს სისტემისთვის, იგი მეტად "
+"დანაწევრებულია და შესაბამისად, რთულად გამოსაყენებელი ხდება."
 
 #: https//support.torproject.org/operators/relay-memory/
 #: (content/operators/relay-memory/contents+en.lrquestion.description)
@@ -5907,6 +5925,9 @@ msgid ""
 "The Tor tarball ships with OpenBSD's malloc implementation, which doesn't "
 "have as many fragmentation bugs (but the tradeoff is higher CPU load)."
 msgstr ""
+"Tor tarball აღჭურვილია OpenBSD-ის malloc-შესაძლებლობით, რომელსაც ნაკლები "
+"ხარვეზები აქვს დანაწევრებასთან დაკავშირებით (მაგრამ სამაგიეროდ, პროცესორი "
+"იტვირთება მეტად)."
 
 #: https//support.torproject.org/operators/relay-memory/
 #: (content/operators/relay-memory/contents+en.lrquestion.description)
@@ -5914,6 +5935,8 @@ msgid ""
 "You can tell Tor to use this malloc implementation instead: `./configure "
 "--enable-openbsd-malloc`."
 msgstr ""
+"შეგიძლიათ მიუთითოთ Tor-ს სანაცვლოდ გამოიყენოს აღნიშნული malloc-შესაძლებლობა:"
+" `./configure --enable-openbsd-malloc`."
 
 #: https//support.torproject.org/operators/relay-memory/
 #: (content/operators/relay-memory/contents+en.lrquestion.description)
@@ -5922,6 +5945,9 @@ msgid ""
 "open, you are probably losing a lot of memory to OpenSSL's internal buffers "
 "(38KB+ per socket)."
 msgstr ""
+"* თუ გაშვებული გაქვთ სწრაფი გადამცემი, რაც ნიშნავს რომ ბევრი TLS-კავშირებია "
+"ღია, შესაძლოა დიდი მოცულობის მეხსიერებას იკარგება OpenSSL-ის შიდა "
+"ბუფერისთვის (38KB+ თითოეული შეერთებისთვის)."
 
 #: https//support.torproject.org/operators/relay-memory/
 #: (content/operators/relay-memory/contents+en.lrquestion.description)
