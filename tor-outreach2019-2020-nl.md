@@ -36,7 +36,7 @@ She also uses a Tor-powered app called **OnionShare** to send files to other act
 
 ---
 
-# 3. TOR VOOR HUMAN MENSENRECHTEN
+# 3. TOR VOOR MENSENRECHTEN
 
 ### Zonder water geen leven
 
@@ -127,7 +127,7 @@ People all over the world use Tor to protect their privacy and access the web fr
 
 Tor helps protect journalists, human rights defenders, domestic violence victims, academic researchers, and anyone experiencing tracking, censorship, or surveillance. 
 
-## 6. Wie vertrouwd Tor?
+## 6. Waarom Tor vertrouwen?
 
 Tor is designed for privacy. We don’t know who our users are, and we don't keep logs of user activity.
 
@@ -135,7 +135,7 @@ Tor relay operators cannot reveal the true identity of Tor users.
 
 Continual peer review of Tor's source code by academic and open source communities ensures that there are no backdoors in Tor, and our social contract promises that we will never backdoor Tor. 
 
-## 7. Wordt lid van de Tor-gemeenschap
+## 7. Word lid van de Tor-gemeenschap
 
 Tor is made possible by a diverse set of users, developers, relay operators, and advocates from around the world.
 
