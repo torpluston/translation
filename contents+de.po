@@ -8,16 +8,16 @@
 # erinm, 2019
 # Steve Dougherty, 2019
 # IDRASSI Mounir <mounir.idrassi@idrix.fr>, 2019
-# Curtis Baltimore <curtisbaltimore@protonmail.com>, 2019
 # Emma Peel, 2019
+# Curtis Baltimore <curtisbaltimore@protonmail.com>, 2019
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-10-29 10:45+CET\n"
+"POT-Creation-Date: 2019-11-06 14:56+CET\n"
 "PO-Revision-Date: 2019-03-09 10:41+0000\n"
-"Last-Translator: Emma Peel, 2019\n"
+"Last-Translator: Curtis Baltimore <curtisbaltimore@protonmail.com>, 2019\n"
 "Language-Team: German (https://www.transifex.com/otf/teams/1519/de/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -56,18 +56,6 @@ msgstr ""
 "Wir fördern die Menschenrechte und schützen deine Privatsphäre online durch "
 "kostenlose Software und offene Netzwerke. [Lerne unser Team "
 "kennen](about/people)."
-
-#: https//www.torproject.org/ (content/contents+en.lrpage.body)
-msgid "Tracking, surveillance, and censorship are widespread online."
-msgstr "Verfolgung, Überwachung und Zensur sind online weit verbreitet."
-
-#: https//www.torproject.org/ (content/contents+en.lrpage.body)
-msgid "Take back the internet with Tor. Donate now."
-msgstr ""
-
-#: https//www.torproject.org/ (content/contents+en.lrpage.body)
-msgid "Give today, and Mozilla will match your donation."
-msgstr "Gib noch heute, und Mozilla wird deiner Spende entsprechen."
 
 #: https//www.torproject.org/contact/
 #: (content/contact/contents+en.lrpage.title)
@@ -239,14 +227,10 @@ msgstr "Tor-Browser in deiner Sprache herunterladen"
 #: (content/download/languages/contents+en.lrpage.body)
 msgid ""
 "We want everyone to be able to enjoy Tor Browser in their own language. Tor "
-"Browser is now available in 30 different languages, and we are working to "
+"Browser is now available in 32 different languages, and we are working to "
 "add more. Want to help us translate? [See "
 "here](https://community.torproject.org/localization/)"
 msgstr ""
-"Wir möchten, dass jeder Tor-Browser in seiner eigenen Sprache nutzen kann. "
-"Tor-Browser ist jetzt in 30 verschiedenen Sprachen verfügbar, und wir "
-"arbeiten daran, weitere hinzuzufügen. Möchtest du uns bei der Übersetzung "
-"helfen? [Siehe hier](https://community.torproject.org/localization/)"
 
 #: https//www.torproject.org/download/tor/
 #: (content/download/tor/contents+en.lrpage.title)
@@ -787,6 +771,10 @@ msgstr "Am häufigsten gestellte Fragen zu Tor Markenzeichen"
 msgid "Close banner"
 msgstr ""
 
+#: lego/templates/banner.html:10 templates/banner.html:10
+msgid "Tracking, surveillance, and censorship are widespread online."
+msgstr "Verfolgung, Überwachung und Zensur sind online weit verbreitet."
+
 #: lego/templates/banner.html:14 templates/banner.html:14
 msgid "TAKE BACK THE INTERNET WITH TOR"
 msgstr ""
@@ -794,6 +782,10 @@ msgstr ""
 #: lego/templates/banner.html:18 templates/banner.html:18
 msgid "DONATE NOW"
 msgstr "SPENDE JETZT"
+
+#: lego/templates/banner.html:19 templates/banner.html:19
+msgid "Give today, and Mozilla will match your donation."
+msgstr "Gib noch heute, und Mozilla wird deiner Spende entsprechen."
 
 #: lego/templates/footer.html:9 lego/templates/footer.html:18
 #: lego/templates/navbar.html:74 templates/footer.html:9
@@ -1060,9 +1052,11 @@ msgstr "Melde ein Sicherheitsproblem."
 msgid ""
 "If you've found a security issue in one of our projects or in our "
 "infrastructure, please email tor-security@lists.torproject.org. If you've "
-"found a security bug in Tor or Tor Browser, feel free to submit it for our "
-"<a href=\"https://hackerone.com/torproject\" target=\"_blank\"> bug bounty "
-"program.</a>"
+"found a security bug in Tor or Tor Browser, feel free to submit it for our"
+msgstr ""
+
+#: templates/contact.html:80
+msgid "bug bounty program."
 msgstr ""
 
 #: templates/contact.html:80
@@ -1100,12 +1094,6 @@ msgstr "Schütze dich vor Verfolgung, Überwachung und Zensur."
 #: templates/download-android.html:26 templates/download-android.html:29
 msgid "Download .apk"
 msgstr "Download .apk"
-
-#: templates/download-android.html:21 templates/download-android.html:24
-#: templates/download-android.html:27 templates/download-android.html:30
-#: templates/download-tor.html:25 templates/download-tor.html:30
-msgid "sig"
-msgstr "sig"
 
 #: templates/download-android.html:32
 msgid "Go to Google Play"
@@ -1157,6 +1145,10 @@ msgstr ""
 msgid "Version"
 msgstr "Version"
 
+#: templates/download-tor.html:25 templates/download-tor.html:30
+msgid "sig"
+msgstr "sig"
+
 #: templates/download-tor.html:37
 msgid "Windows Expert Bundle"
 msgstr ""
@@ -1169,7 +1161,11 @@ msgstr ""
 msgid "Contains just Tor and nothing else."
 msgstr ""
 
-#: templates/download.html:5 templates/download.html:7
+#: templates/download.html:5
+msgid "Get Connected"
+msgstr "Verbinde dich"
+
+#: templates/download.html:7
 msgid "Get connected"
 msgstr "Verbinde dich"
 

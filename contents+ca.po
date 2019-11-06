@@ -1,8 +1,8 @@
 # Translators:
 # Jaime Muñoz Martín <jmmartin_5@outlook.com>, 2019
+# jmontane, 2019
 # Benny Beat <bennybeat@gmail.com>, 2019
 # Marc Ripoll <markripesp@gmail.com>, 2019
-# jmontane, 2019
 # Assumpta, 2019
 # erinm, 2019
 # Emma Peel, 2019
@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-10-29 10:45+CET\n"
+"POT-Creation-Date: 2019-11-06 14:56+CET\n"
 "PO-Revision-Date: 2019-03-09 10:41+0000\n"
 "Last-Translator: Ecron <ecron_89@hotmail.com>, 2019\n"
 "Language-Team: Catalan (https://www.transifex.com/otf/teams/1519/ca/)\n"
@@ -51,19 +51,6 @@ msgstr ""
 "Promovem els drets humans i defensem la vostra privadesa en línia mitjançant"
 " el programari lliure i les xarxes obertes. [Coneixeu el nostre "
 "equip](about/people)."
-
-#: https//www.torproject.org/ (content/contents+en.lrpage.body)
-msgid "Tracking, surveillance, and censorship are widespread online."
-msgstr ""
-"El seguiment, la vigilància i la censura en línia estan a l'ordre del dia."
-
-#: https//www.torproject.org/ (content/contents+en.lrpage.body)
-msgid "Take back the internet with Tor. Donate now."
-msgstr "Recupereu Internet gràcies al Tor. Feu-hi un donatiu ara."
-
-#: https//www.torproject.org/ (content/contents+en.lrpage.body)
-msgid "Give today, and Mozilla will match your donation."
-msgstr "Dóna avui, i Mozilla donarà el mateix import."
 
 #: https//www.torproject.org/contact/
 #: (content/contact/contents+en.lrpage.title)
@@ -233,14 +220,10 @@ msgstr "Baixeu el Navegador Tor en la vostra llengua"
 #: (content/download/languages/contents+en.lrpage.body)
 msgid ""
 "We want everyone to be able to enjoy Tor Browser in their own language. Tor "
-"Browser is now available in 30 different languages, and we are working to "
+"Browser is now available in 32 different languages, and we are working to "
 "add more. Want to help us translate? [See "
 "here](https://community.torproject.org/localization/)"
 msgstr ""
-"Volem que tothom pugui gaudir del Navegador Tor en la seva pròpia llengua. "
-"Ara està disponible en 30 llengües diferents, i estem treballant per "
-"afegir-n'hi més. Ens voleu ajudar a traduir-lo? [Mireu "
-"aquí](https://community.torproject.org/localization/)"
 
 #: https//www.torproject.org/download/tor/
 #: (content/download/tor/contents+en.lrpage.title)
@@ -768,6 +751,11 @@ msgstr "Preguntes Més Freqüents sobre la marca Tor"
 msgid "Close banner"
 msgstr "Tanca el bàner"
 
+#: lego/templates/banner.html:10 templates/banner.html:10
+msgid "Tracking, surveillance, and censorship are widespread online."
+msgstr ""
+"El seguiment, la vigilància i la censura en línia estan a l'ordre del dia."
+
 #: lego/templates/banner.html:14 templates/banner.html:14
 msgid "TAKE BACK THE INTERNET WITH TOR"
 msgstr "RECUPEREU LA INTERNET AMB EL TOR"
@@ -775,6 +763,10 @@ msgstr "RECUPEREU LA INTERNET AMB EL TOR"
 #: lego/templates/banner.html:18 templates/banner.html:18
 msgid "DONATE NOW"
 msgstr "FES UNA DONACIÓ"
+
+#: lego/templates/banner.html:19 templates/banner.html:19
+msgid "Give today, and Mozilla will match your donation."
+msgstr "Dóna avui, i Mozilla donarà el mateix import."
 
 #: lego/templates/footer.html:9 lego/templates/footer.html:18
 #: lego/templates/navbar.html:74 templates/footer.html:9
@@ -1038,16 +1030,16 @@ msgstr "Informeu d'un problema de seguretat."
 msgid ""
 "If you've found a security issue in one of our projects or in our "
 "infrastructure, please email tor-security@lists.torproject.org. If you've "
-"found a security bug in Tor or Tor Browser, feel free to submit it for our "
-"<a href=\"https://hackerone.com/torproject\" target=\"_blank\"> bug bounty "
-"program.</a>"
+"found a security bug in Tor or Tor Browser, feel free to submit it for our"
 msgstr ""
 "Si heu trobat un problema de seguretat en un dels nostres projectes o en la "
 "nostra infraestructura, envieu-nos un correu a tor-"
 "security@lists.torproject.org. Si heu trobat un error de seguretat en el Tor"
-" o el Navegador Tor, us encoratgem a enviar-lo al nostre <a "
-"href=\"https://hackerone.com/torproject\" target=\"_blank\">programa de "
-"recompensa d'errors.</a>"
+" o el Navegador Tor, us encoratgem a enviar-lo al nostre"
+
+#: templates/contact.html:80
+msgid "bug bounty program."
+msgstr "programa de recompensa d'errors."
 
 #: templates/contact.html:80
 msgid ""
@@ -1092,12 +1084,6 @@ msgstr "Protegiu-vos del seguiment, la vigilància i la censura."
 #: templates/download-android.html:26 templates/download-android.html:29
 msgid "Download .apk"
 msgstr "Baixa l'APK"
-
-#: templates/download-android.html:21 templates/download-android.html:24
-#: templates/download-android.html:27 templates/download-android.html:30
-#: templates/download-tor.html:25 templates/download-tor.html:30
-msgid "sig"
-msgstr "sig"
 
 #: templates/download-android.html:32
 msgid "Go to Google Play"
@@ -1147,6 +1133,10 @@ msgstr "Codi font del Tor"
 msgid "Version"
 msgstr "Versió"
 
+#: templates/download-tor.html:25 templates/download-tor.html:30
+msgid "sig"
+msgstr "sig"
+
 #: templates/download-tor.html:37
 msgid "Windows Expert Bundle"
 msgstr "Windows Expert Bundle"
@@ -1159,7 +1149,11 @@ msgstr "Windows 10, 8, 7, Vista, XP, 2000, 2003 Server, ME, i Windows 98SE"
 msgid "Contains just Tor and nothing else."
 msgstr "Conté només el Tor, res més."
 
-#: templates/download.html:5 templates/download.html:7
+#: templates/download.html:5
+msgid "Get Connected"
+msgstr "Connecteu-vos-hi"
+
+#: templates/download.html:7
 msgid "Get connected"
 msgstr "Connecteu-vos-hi"
 
