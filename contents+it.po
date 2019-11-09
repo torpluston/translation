@@ -5067,11 +5067,13 @@ msgid ""
 "* Create a new client torrc file from the torrc.sample and ensure it uses a "
 "different log file from the relay."
 msgstr ""
+"* Crea un nuovo file torrc del client da torrc.sample e assicurati che "
+"utilizzi un file di registro diverso dal relè."
 
 #: https//support.torproject.org/operators/hibernation/
 #: (content/operators/hibernation/contents+en.lrquestion.description)
 msgid "One naming convention may be torrc.client and torrc.relay."
-msgstr ""
+msgstr "Una convenzione potrebbe essere torrc.client and torrc.relay."
 
 #: https//support.torproject.org/operators/hibernation/
 #: (content/operators/hibernation/contents+en.lrquestion.description)
@@ -5079,6 +5081,8 @@ msgid ""
 "* Modify the Tor client and relay startup scripts to include `-f "
 "/path/to/correct/torrc`."
 msgstr ""
+"* Modifica il client Tor e lo scipt di avvio del relè per includere "
+"`-f/path/to/correct/torrc`."
 
 #: https//support.torproject.org/operators/hibernation/
 #: (content/operators/hibernation/contents+en.lrquestion.description)
@@ -5086,11 +5090,13 @@ msgid ""
 "* In Linux/BSD/Mac OS X, changing the startup scripts to `Tor.client` and "
 "`Tor.relay` may make separation of configs easier."
 msgstr ""
+"* In Linux/BSD/Mac OS X, modificare gli script di avvio a `Tor.client` e` "
+"Tor.relay` può facilitare la separazione delle configurazioni."
 
 #: https//support.torproject.org/operators/ipv6-relay/
 #: (content/operators/ipv6-relay/contents+en.lrquestion.title)
 msgid "Can I use IPv6 on my relay?"
-msgstr ""
+msgstr "Posso usare IPv6 sul mio relè?"
 
 #: https//support.torproject.org/operators/ipv6-relay/
 #: (content/operators/ipv6-relay/contents+en.lrquestion.description)
@@ -5102,6 +5108,12 @@ msgid ""
 " in their [torrc](https://support.torproject.org/tbb/tbb-editing-torrc/) "
 "configuration files when IPv6 connectivity is available."
 msgstr ""
+"Tor [ha un supporto parziale per "
+"IPv6](https://trac.torproject.org/projects/tor/wiki/org/roadmaps/Tor/IPv6Features)"
+" e incoraggiamo ogni operatore relè ad [abilitare le funzionalità "
+"IPv6](https://trac.torproject.org/projects/tor/wiki/TorRelayGuide#IPv6) nel "
+"loro file di configurazione [torrc](https://support.torproject.org/tbb/tbb-"
+"editing-torrc/) quando la connessione IPv6 è disponibile."
 
 #: https//support.torproject.org/operators/ipv6-relay/
 #: (content/operators/ipv6-relay/contents+en.lrquestion.description)
@@ -5109,11 +5121,15 @@ msgid ""
 "For the time being Tor will require IPv4 addresses on relays, you can not "
 "run a Tor relay on a host with IPv6 addresses only."
 msgstr ""
+"Per il momento Tor richiederà indirizzi IPv4 sui relè, non è possibile "
+"eseguire un relè Tor su un host con solo indirizzi IPv6."
 
 #: https//support.torproject.org/operators/limit-total-bandwidth/
 #: (content/operators/limit-total-bandwidth/contents+en.lrquestion.title)
 msgid "How can I limit the total amount of bandwidth used by my Tor relay?"
 msgstr ""
+"Come posso limitare la quantità totale di larghezza di banda utilizzata dal "
+"mio relè Tor?"
 
 #: https//support.torproject.org/operators/limit-total-bandwidth/
 #: (content/operators/limit-total-bandwidth/contents+en.lrquestion.description)
@@ -5121,11 +5137,13 @@ msgid ""
 "The accounting options in the torrc file allow you to specify the maximum "
 "amount of bytes your relay uses for a time period."
 msgstr ""
+"Le opzioni di contabilità nel file torrc consentono di specificare la "
+"quantità massima di byte utilizzata dal tuo relè per un periodo di tempo."
 
 #: https//support.torproject.org/operators/limit-total-bandwidth/
 #: (content/operators/limit-total-bandwidth/contents+en.lrquestion.description)
 msgid "AccountingStart day week month [day] HH:MM"
-msgstr ""
+msgstr "AccountingStart day week month [day] HH:MM"
 
 #: https//support.torproject.org/operators/limit-total-bandwidth/
 #: (content/operators/limit-total-bandwidth/contents+en.lrquestion.description)
@@ -5134,16 +5152,19 @@ msgid ""
 "total amount of bytes served for a week (that resets every Wednesday at "
 "10:00am), you would use:"
 msgstr ""
+"Questo specifica quando resettare il conteggio. Ad esempio, per impostare un"
+" numero totale di byte serviti in una settimana (che si resetta ogni "
+"mercoledì alle 10:00), utilizza:"
 
 #: https//support.torproject.org/operators/limit-total-bandwidth/
 #: (content/operators/limit-total-bandwidth/contents+en.lrquestion.description)
 msgid "AccountingStart week 3 10:00"
-msgstr ""
+msgstr "AccountingStart week 3 10:00"
 
 #: https//support.torproject.org/operators/limit-total-bandwidth/
 #: (content/operators/limit-total-bandwidth/contents+en.lrquestion.description)
 msgid "AccountingMax 500 GBytes"
-msgstr ""
+msgstr "AccountingMax 500 GBytes"
 
 #: https//support.torproject.org/operators/limit-total-bandwidth/
 #: (content/operators/limit-total-bandwidth/contents+en.lrquestion.description)
@@ -5152,6 +5173,9 @@ msgid ""
 "accounting period, and the maximum amount of data your relay will receive "
 "during an account period."
 msgstr ""
+"Questo specifica la quantità massima di dati che il relè invierà durante un "
+"periodo di conteggio e la quantità massima di dati che il relè riceverà "
+"durante un periodo di conteggio."
 
 #: https//support.torproject.org/operators/limit-total-bandwidth/
 #: (content/operators/limit-total-bandwidth/contents+en.lrquestion.description)
@@ -5159,6 +5183,8 @@ msgid ""
 "When the accounting period resets (from AccountingStart), then the counters "
 "for AccountingMax are reset to 0."
 msgstr ""
+"Quando il periodo contabile si resetta (da AccountingStart), i contatori di "
+"AccountingMax vengono reimpostati a 0."
 
 #: https//support.torproject.org/operators/limit-total-bandwidth/
 #: (content/operators/limit-total-bandwidth/contents+en.lrquestion.description)
@@ -5166,16 +5192,18 @@ msgid ""
 "Example: Let's say you want to allow 50 GB of traffic every day in each "
 "direction and the accounting should reset at noon each day:"
 msgstr ""
+"Esempio: Supponiamo tu voglia consentire 50 GB di traffico ogni giorno in "
+"ogni direzione e il conteggio deve resettarsi a mezzogiorno ogni giorno:"
 
 #: https//support.torproject.org/operators/limit-total-bandwidth/
 #: (content/operators/limit-total-bandwidth/contents+en.lrquestion.description)
 msgid "AccountingStart day 12:00"
-msgstr ""
+msgstr "AccountingStart day 12:00"
 
 #: https//support.torproject.org/operators/limit-total-bandwidth/
 #: (content/operators/limit-total-bandwidth/contents+en.lrquestion.description)
 msgid "AccountingMax 50 GBytes"
-msgstr ""
+msgstr "AccountingMax 50 GBytes"
 
 #: https//support.torproject.org/operators/limit-total-bandwidth/
 #: (content/operators/limit-total-bandwidth/contents+en.lrquestion.description)
@@ -5183,6 +5211,8 @@ msgid ""
 "Note that your relay won't wake up exactly at the beginning of each "
 "accounting period."
 msgstr ""
+"Si noti che il tuo relè non si attiva esattamente all'inizio di ogni periodo"
+" di conteggio."
 
 #: https//support.torproject.org/operators/limit-total-bandwidth/
 #: (content/operators/limit-total-bandwidth/contents+en.lrquestion.description)
@@ -5190,6 +5220,8 @@ msgid ""
 "It will keep track of how quickly it used its quota in the last period, and "
 "choose a random point in the new interval to wake up."
 msgstr ""
+"Terrà traccia di quanto velocemente ha usato la sua quota nell'ultimo "
+"periodo e sceglierà un punto casuale nel nuovo intervallo per attivarsi."
 
 #: https//support.torproject.org/operators/limit-total-bandwidth/
 #: (content/operators/limit-total-bandwidth/contents+en.lrquestion.description)
@@ -5197,6 +5229,8 @@ msgid ""
 "This way we avoid having hundreds of relays working at the beginning of each"
 " month but none still up by the end."
 msgstr ""
+"In questo modo evitiamo che centinaia di relè funzionino all'inizio di ogni "
+"mese, ma che nessuno sia ancora attivo alla fine."
 
 #: https//support.torproject.org/operators/limit-total-bandwidth/
 #: (content/operators/limit-total-bandwidth/contents+en.lrquestion.description)
@@ -5205,6 +5239,9 @@ msgid ""
 "connection speed, we recommend you use daily accounting, so you don't end up"
 " using your entire monthly quota in the first day."
 msgstr ""
+"Se hai solo una piccola quantità di banda da donare rispetto alla velocità "
+"della tua connessione, ti consigliamo di utilizzare il conteggio "
+"giornalierio, in modo da non finire l'intera quota mensile nel primo giorno."
 
 #: https//support.torproject.org/operators/limit-total-bandwidth/
 #: (content/operators/limit-total-bandwidth/contents+en.lrquestion.description)
@@ -5221,27 +5258,32 @@ msgid ""
 "RelayBandwidthRate to 1000 KBytes: this way your relay will always be useful"
 " for at least half of each day."
 msgstr ""
+"Ad esempio, se hai 50 GB da offrire in ogni direzione, puoi impostare "
+"RelayBandwidthRate a 1000 KBytes: in questo modo il tuo relè sarà sempre "
+"utile per almeno la metà di ogni giorno."
 
 #: https//support.torproject.org/operators/limit-total-bandwidth/
 #: (content/operators/limit-total-bandwidth/contents+en.lrquestion.description)
 msgid "AccountingStart day 0:00"
-msgstr ""
+msgstr "AccountingStart day 0:00"
 
 #: https//support.torproject.org/operators/limit-total-bandwidth/
 #: (content/operators/limit-total-bandwidth/contents+en.lrquestion.description)
 msgid "RelayBandwidthRate 1000 KBytes"
-msgstr ""
+msgstr "RelayBandwidthRate 1000 KBytes"
 
 #: https//support.torproject.org/operators/limit-total-bandwidth/
 #: (content/operators/limit-total-bandwidth/contents+en.lrquestion.description)
 msgid ""
 "RelayBandwidthBurst 5000 KBytes # allow higher bursts but maintain average"
 msgstr ""
+"RelayBandwidthBurst 5000 KBytes # consente burst più elevati ma mantiene la "
+"media "
 
 #: https//support.torproject.org/operators/multiple-relays/
 #: (content/operators/multiple-relays/contents+en.lrquestion.title)
 msgid "I want to run more than one Tor relay."
-msgstr ""
+msgstr "Voglio eseguire più di un relè Tor."
 
 #: https//support.torproject.org/operators/multiple-relays/
 #: (content/operators/multiple-relays/contents+en.lrquestion.description)
@@ -5249,6 +5291,8 @@ msgid ""
 "Great. If you want to run several relays to donate more to the network, "
 "we're happy with that."
 msgstr ""
+"Ottimo, se vuoi eseguire relè diversi per donare di più alla rete, ne siamo "
+"felici."
 
 #: https//support.torproject.org/operators/multiple-relays/
 #: (content/operators/multiple-relays/contents+en.lrquestion.description)
@@ -5256,6 +5300,8 @@ msgid ""
 "But please don't run more than a few dozen on the same network, since part "
 "of the goal of the Tor network is dispersal and diversity."
 msgstr ""
+"Per favore però non eseguirne più di qualche dozzina sulla stessa rete, "
+"poiché parte dell'obiettivo della rete Tor è la dispersione e la diversità."
 
 #: https//support.torproject.org/operators/multiple-relays/
 #: (content/operators/multiple-relays/contents+en.lrquestion.description)
@@ -5264,6 +5310,9 @@ msgid ""
 "config option in the torrc of each relay, listing all the relays (comma-"
 "separated) that are under your control:"
 msgstr ""
+"Se decidi di eseguire più di un relè, per favore imposta l'opzione di "
+"configurazione \"MyFamily\" nel torrc di ciascun relè, elencando tutti i "
+"relè (separati da virgola) che sono sotto il tuo controllo:"
 
 #: https//support.torproject.org/operators/multiple-relays/
 #: (content/operators/multiple-relays/contents+en.lrquestion.description)
