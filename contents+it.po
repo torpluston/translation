@@ -4762,11 +4762,13 @@ msgid ""
 "watching them too, but you're no better off than if you were an ordinary "
 "client.)"
 msgstr ""
+"(In questo caso non conoscono comunque le tue destinazioni a meno che non le"
+" stiano osservando, ma non sei messo meglio rispetto a un normale client.)"
 
 #: https//support.torproject.org/operators/better-anonymity/
 #: (content/operators/better-anonymity/contents+en.lrquestion.description)
 msgid "There are also some downsides to running a Tor relay."
-msgstr ""
+msgstr "Ci sono anche alcuni aspetti negativi nell'eseguire un relè Tor."
 
 #: https//support.torproject.org/operators/better-anonymity/
 #: (content/operators/better-anonymity/contents+en.lrquestion.description)
@@ -4775,6 +4777,9 @@ msgid ""
 " one might signal to an attacker that you place a high value on your "
 "anonymity."
 msgstr ""
+"In primo luogo, essendoci solo poche centinaia di relè, il fatto che tu ne "
+"stia eseguendo uno potrebbe segnalare a un utente malintenzionato che "
+"attribuisci un valore elevato al tuo anonimato."
 
 #: https//support.torproject.org/operators/better-anonymity/
 #: (content/operators/better-anonymity/contents+en.lrquestion.description)
@@ -4786,32 +4791,39 @@ msgid ""
 "relaying traffic through your Tor relay and noticing changes in traffic "
 "timing."
 msgstr ""
+"In secondo luogo, ci sono alcuni attacchi più esoterici che non sono così "
+"ben compresi o ben testati che si basano sulla nozione che stai eseguendo un"
+" relè -- ad esempio, un utente malintenzionato potrebbe essere in grado di "
+"\"osservare\" se stai inviando traffico anche se non è in grado di osservare"
+" la tua rete, inoltrando il traffico attraverso il tuo relè Tor e notando "
+"cambiamenti nei tempi del traffico."
 
 #: https//support.torproject.org/operators/better-anonymity/
 #: (content/operators/better-anonymity/contents+en.lrquestion.description)
 msgid ""
 "It is an open research question whether the benefits outweigh the risks."
-msgstr ""
+msgstr "E' una questione irrisolta se i benefici superano i rischi. "
 
 #: https//support.torproject.org/operators/better-anonymity/
 #: (content/operators/better-anonymity/contents+en.lrquestion.description)
 msgid "A lot of that depends on the attacks you are most worried about."
-msgstr ""
+msgstr "Molto dipende dagli attacchi di cui sei più preoccupato."
 
 #: https//support.torproject.org/operators/better-anonymity/
 #: (content/operators/better-anonymity/contents+en.lrquestion.description)
 msgid "For most users, we think it's a smart move."
 msgstr ""
+"Per la maggior parte degli utenti, pensiamo che sia una mossa intelligente."
 
 #: https//support.torproject.org/operators/dynamic-ip/
 #: (content/operators/dynamic-ip/contents+en.lrquestion.title)
 msgid "Can I run a Tor relay using a dynamic IP address?"
-msgstr ""
+msgstr "Posso eseguire un relè Tor utilizzando un indirizzo IP dinamico?"
 
 #: https//support.torproject.org/operators/dynamic-ip/
 #: (content/operators/dynamic-ip/contents+en.lrquestion.description)
 msgid "Tor can handle relays with dynamic IP addresses just fine."
-msgstr ""
+msgstr "Tor può gestire relè con indirizzi IP dinamici senza problemi."
 
 #: https//support.torproject.org/operators/dynamic-ip/
 #: (content/operators/dynamic-ip/contents+en.lrquestion.description)
@@ -4820,16 +4832,21 @@ msgid ""
 "[torrc](https://support.torproject.org/tbb/tbb-editing-torrc/) blank, and "
 "Tor will guess."
 msgstr ""
+"Lascia semplicemente vuota la linea \"Indirizzo\" nel tuo "
+"[torrc](https://support.torproject.org/tbb/tbb-editing-torrc/), e Tor lo "
+"capirà."
 
 #: https//support.torproject.org/operators/exit-policies/
 #: (content/operators/exit-policies/contents+en.lrquestion.title)
 msgid "I'd run a relay, but I don't want to deal with abuse issues."
-msgstr ""
+msgstr "Eseguirei un relè, ma non voglio affrontare problemi di abuso. "
 
 #: https//support.torproject.org/operators/exit-policies/
 #: (content/operators/exit-policies/contents+en.lrquestion.description)
 msgid "Great. That's exactly why we implemented exit policies."
 msgstr ""
+"Ottimo. Questo è esattamente il motivo per cui abbiamo implementato le "
+"politiche di uscita. "
 
 #: https//support.torproject.org/operators/exit-policies/
 #: (content/operators/exit-policies/contents+en.lrquestion.description)
@@ -4837,6 +4854,8 @@ msgid ""
 "Each Tor relay has an exit policy that specifies what sort of outbound "
 "connections are allowed or refused from that relay."
 msgstr ""
+"Ogni relè Tor ha una politica di uscita che specifica quale tipo di "
+"connessioni in uscita sono consentite o rifiutate da quel relè."
 
 #: https//support.torproject.org/operators/exit-policies/
 #: (content/operators/exit-policies/contents+en.lrquestion.description)
@@ -4845,6 +4864,9 @@ msgid ""
 "clients will automatically avoid picking exit relays that would refuse to "
 "exit to their intended destination."
 msgstr ""
+"Le politiche di uscita vengono propagate ai client Tor tramite la directory,"
+" quindi i client eviteranno automaticamente di selezionare i relè di uscita "
+"che si rifiuterebbero di uscire alla destinazione prevista."
 
 #: https//support.torproject.org/operators/exit-policies/
 #: (content/operators/exit-policies/contents+en.lrquestion.description)
@@ -4852,6 +4874,9 @@ msgid ""
 "This way each relay can decide the services, hosts, and networks it wants to"
 " allow connections to, based on abuse potential and its own situation."
 msgstr ""
+"In questo modo ogni relè può decidere i servizi, gli host e le reti a cui "
+"vuole consentire le connessioni, in base al potenziale di abuso e alla "
+"propria situazione."
 
 #: https//support.torproject.org/operators/exit-policies/
 #: (content/operators/exit-policies/contents+en.lrquestion.description)
@@ -4862,6 +4887,12 @@ msgid ""
 "read Mike Perry's [tips for running an exit node with minimal "
 "harassment](https://blog.torproject.org/blog/tips-running-exit-node)."
 msgstr ""
+"Consulta il [Supporto sui problemi che potresti "
+"riscontrare](https://2019.www.torproject.org/docs/faq-"
+"abuse.html.en#TypicalAbuses) se usi la politica predefinita, e poi leggi i "
+"[suggerimenti per l'esecuzione di un nodo di uscita con problemi "
+"minimi](https://blog.torproject.org/blog/tips-running-exit-node) di Mike "
+"Perry."
 
 #: https//support.torproject.org/operators/exit-policies/
 #: (content/operators/exit-policies/contents+en.lrquestion.description)
@@ -4871,11 +4902,15 @@ msgid ""
 "since the Tor network can't handle the load (e.g. default file-sharing "
 "ports)."
 msgstr ""
+"La politica di uscita predefinita consente l'accesso a molti servizi "
+"popolari (ad es. Navigazione web), ma ne limita alcuni a causa del "
+"potenziale abuso (ad es. Posta) e altri poiché la rete Tor non è in grado di"
+" gestirne il carico (ad es. Porte predefinite per la condivisione di file)."
 
 #: https//support.torproject.org/operators/exit-policies/
 #: (content/operators/exit-policies/contents+en.lrquestion.description)
 msgid "You can change your exit policy by editing your torrc file."
-msgstr ""
+msgstr "Puoi cambiare la tua politica di uscita modificando il file torrc."
 
 #: https//support.torproject.org/operators/exit-policies/
 #: (content/operators/exit-policies/contents+en.lrquestion.description)
@@ -4883,6 +4918,8 @@ msgid ""
 "If you want to avoid most if not all abuse potential, set it to \"reject "
 "*:*\"."
 msgstr ""
+"Se vuoi evitare la maggior parte, se non tutti, i potenziali abusi, "
+"impostalo su \"reject *:*\"."
 
 #: https//support.torproject.org/operators/exit-policies/
 #: (content/operators/exit-policies/contents+en.lrquestion.description)
@@ -4891,6 +4928,9 @@ msgid ""
 "the Tor network, but not for connections to external websites or other "
 "services."
 msgstr ""
+"Questa impostazione indica che il tuo relè verrà utilizzato per inoltrare il"
+" traffico all'interno della rete Tor, ma non per le connessioni a siti Web "
+"esterni o altri servizi."
 
 #: https//support.torproject.org/operators/exit-policies/
 #: (content/operators/exit-policies/contents+en.lrquestion.description)
@@ -4898,6 +4938,9 @@ msgid ""
 "If you do allow any exit connections, make sure name resolution works (that "
 "is, your computer can resolve Internet addresses correctly)."
 msgstr ""
+"Se si autorizzano le connessioni in uscita, assicurarsi che la risoluzione "
+"dei nomi funzioni (ovvero, che il computer sia in grado di risolvere "
+"correttamente gli indirizzi Internet)."
 
 #: https//support.torproject.org/operators/exit-policies/
 #: (content/operators/exit-policies/contents+en.lrquestion.description)
@@ -4906,6 +4949,10 @@ msgid ""
 "are behind a restrictive firewall or content filter), please explicitly "
 "reject them in your exit policy  otherwise Tor users will be impacted too."
 msgstr ""
+"Se ci sono risorse che il tuo computer non è in grado di raggiungere (ad "
+"esempio, sei dietro un firewall restrittivo o un filtro di contenuti), ti "
+"preghiamo di respingerle esplicitamente nella tua politica di uscita, "
+"altrimenti gli utenti di Tor saranno influenzati."
 
 #: https//support.torproject.org/operators/facing-legal-trouble/
 #: (content/operators/facing-legal-trouble/contents+en.lrquestion.title)
@@ -4913,6 +4960,8 @@ msgid ""
 "I'm facing legal trouble. How do I prove that my server was a Tor relay at a"
 " given time?"
 msgstr ""
+"Sto affrontando problemi legali. Come posso dimostrare che il mio server era"
+" un relè Tor in un determinato momento?"
 
 #: https//support.torproject.org/operators/facing-legal-trouble/
 #: (content/operators/facing-legal-trouble/contents+en.lrquestion.description)
@@ -4920,6 +4969,8 @@ msgid ""
 "[Exonerator](https://exonerator.torproject.org/) is a web service that can "
 "check if an IP address was a relay at a given time."
 msgstr ""
+"[Exonerator](https://exonerator.torproject.org/) è un servizio web che "
+"controlla se un indirizzo IP era un relè in un determinato momento."
 
 #: https//support.torproject.org/operators/facing-legal-trouble/
 #: (content/operators/facing-legal-trouble/contents+en.lrquestion.description)
@@ -4927,11 +4978,15 @@ msgid ""
 "We can also [provide a signed letter](https://www.torproject.org/contact/) "
 "if needed."
 msgstr ""
+"Possiamo anche [fornire una lettera "
+"firmata](https://www.torproject.org/contact/) se necessario."
 
 #: https//support.torproject.org/operators/hibernation/
 #: (content/operators/hibernation/contents+en.lrquestion.title)
 msgid "Why can I not browse anymore after limiting bandwidth on my Tor relay?"
 msgstr ""
+"Perché non riesco più a navigare dopo aver limitato la larghezza di banda "
+"sul mio relè Tor?"
 
 #: https//support.torproject.org/operators/hibernation/
 #: (content/operators/hibernation/contents+en.lrquestion.description)
@@ -4942,6 +4997,11 @@ msgid ""
 "[BandwidthRate](https://2019.www.torproject.org/docs/faq.html.en#BandwidthShaping)"
 " apply to both client and relay functions of the Tor process."
 msgstr ""
+"I parametri assegnati in "
+"[AccountingMax](https://2019.www.torproject.org/docs/faq.html.en#LimitTotalBandwidth)"
+" e "
+"[BandwidthRate](https://2019.www.torproject.org/docs/faq.html.en#BandwidthShaping)"
+" si applicano sia alle funzioni del client che del relè del processo Tor."
 
 #: https//support.torproject.org/operators/hibernation/
 #: (content/operators/hibernation/contents+en.lrquestion.description)
@@ -4949,6 +5009,8 @@ msgid ""
 "Thus you may find that you are unable to browse as soon as your Tor goes "
 "into hibernation, signaled by this entry in the log:"
 msgstr ""
+"Perciò potresti scoprire di non essere in grado di navigare non appena Tor "
+"entra in ibernazione, segnalato da questa voce nel registro:"
 
 #: https//support.torproject.org/operators/hibernation/
 #: (content/operators/hibernation/contents+en.lrquestion.description)
@@ -4963,17 +5025,17 @@ msgstr ""
 #: https//support.torproject.org/apt/apt-over-tor/
 #: (content/apt/apt-3/contents+en.lrquestion.description)
 msgid "```"
-msgstr ""
+msgstr "```"
 
 #: https//support.torproject.org/operators/hibernation/
 #: (content/operators/hibernation/contents+en.lrquestion.description)
 msgid "Bandwidth soft limit reached; commencing hibernation. No new"
-msgstr ""
+msgstr "Bandwidth soft limit reached; commencing hibernation. No new"
 
 #: https//support.torproject.org/operators/hibernation/
 #: (content/operators/hibernation/contents+en.lrquestion.description)
 msgid "connections will be accepted"
-msgstr ""
+msgstr "connections will be accepted"
 
 #: https//support.torproject.org/operators/hibernation/
 #: (content/operators/hibernation/contents+en.lrquestion.description)
@@ -4981,6 +5043,8 @@ msgid ""
 "The solution is to run two Tor processes - one relay and one client, each "
 "with its own config."
 msgstr ""
+"La soluzione è eseguire due processi Tor: un relè e un client, ognuno con la"
+" propria configurazione."
 
 #: https//support.torproject.org/operators/hibernation/
 #: (content/operators/hibernation/contents+en.lrquestion.description)
@@ -4988,11 +5052,14 @@ msgid ""
 "One way to do this (if you are starting from a working relay setup) is as "
 "follows:"
 msgstr ""
+"Un modo per fare ciò (se si parte da una configurazione di relè funzionante)"
+" è il seguente:"
 
 #: https//support.torproject.org/operators/hibernation/
 #: (content/operators/hibernation/contents+en.lrquestion.description)
 msgid "* In the relay Tor torrc file, simply set the SocksPort to 0."
 msgstr ""
+"* Nel file torrc del relè Tor, imposta semplicemente la SocksPort a 0."
 
 #: https//support.torproject.org/operators/hibernation/
 #: (content/operators/hibernation/contents+en.lrquestion.description)
