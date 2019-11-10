@@ -953,8 +953,8 @@ msgstr ""
 msgid ""
 "Does Tor remove personal information from the data my application sends?"
 msgstr ""
-"Tor kullandığım uygulamanın gönderdiği veriler içinden kişisel bilgilerimi "
-"siler mı?"
+"Tor uygulaması diğer uygulamaların gönderdiği veriler içinden kişisel "
+"bilgilerimi siler mı?"
 
 #: https//support.torproject.org/about/no-data-scrubbing/
 #: (content/about/no-data-scrubbing/contents+en.lrquestion.description)
@@ -1841,7 +1841,7 @@ msgstr ""
 #: https//support.torproject.org/tbb/tbb-15/
 #: (content/tbb/tbb-15/contents+en.lrquestion.title)
 msgid "Can I download Tor Browser for Chrome OS?"
-msgstr "Chrome OS için Tor Browser indirebilir miyim?"
+msgstr "Chrome OS için Tor Browser uygulamasını indirebilir miyim?"
 
 #: https//support.torproject.org/tbb/tbb-15/
 #: (content/tbb/tbb-15/contents+en.lrquestion.description)
@@ -3370,8 +3370,8 @@ msgid ""
 "What is the difference between using Tor Browser and 'Incognito mode' or "
 "private tabs?"
 msgstr ""
-"Tor Browser kullanmak ile 'Gizli Pencere' (Chrome, Incognito) ya da Gizli "
-"Gezinti Firefox, Private) kullanmak arasındaki fark nedir?"
+"Tor Browser kullanmak ile 'Gizli Pencere' (Chrome, Incognito Mode) ya da "
+"'Gizli Gezinti' (Firefox, Private Tabs) kullanmak arasındaki fark nedir?"
 
 #: https//support.torproject.org/tbb/tbb-and-incognito-mode/
 #: (content/tbb/tbb-and-incognito-mode/contents+en.lrquestion.description)
@@ -3424,7 +3424,7 @@ msgid ""
 "Browsing](https://support.mozilla.org/en-US/kb/common-myths-about-private-"
 "browsing)."
 msgstr ""
-"Gizli pencere ya da Gizli gezinti özelliklerindeki sınırlamalar hakkında "
+"Gizli Pencere ya da Gizli Gezinti özelliklerindeki sınırlamalar hakkında "
 "ayrıntılı bilgi almak için, Common Myths about Private "
 "Browsing](https://support.mozilla.org/en-US/kb/common-myths-about-private-"
 "browsing) Mozilla makalesine bakabilirsiniz."
@@ -6042,8 +6042,8 @@ msgid ""
 "* If you still can't handle the memory load, consider reducing the amount of"
 " bandwidth your relay advertises."
 msgstr ""
-"* Hala bellek kullanımı konusunda ilerleme sağlayamıyorsanız, aktarıcınızın "
-"sunduğu bant genişliğini azaltmayı düşünün."
+"* Buna rağmen bellek kullanımını kontrol altına alamıyorsanız, aktarıcınızın"
+" sunduğu bant genişliğini azaltmayı düşünün."
 
 #: https//support.torproject.org/operators/relay-memory/
 #: (content/operators/relay-memory/contents+en.lrquestion.description)
@@ -6159,8 +6159,8 @@ msgstr ""
 #: (content/operators/upgrade-or-move/contents+en.lrquestion.title)
 msgid "I want to upgrade/move my relay. How do I keep the same key?"
 msgstr ""
-"Aktarıcımı yükseltmek ya da taşımak istiyorum. Aynı anahtarı kullanmasını "
-"nasıl sağlayabilirim?"
+"Aktarıcımda sürüm yükseltmek ya da başka bilgisayara taşımak istiyorum. Aynı"
+" anahtarın kullanılmasını nasıl sağlayabilirim?"
 
 #: https//support.torproject.org/operators/upgrade-or-move/
 #: (content/operators/upgrade-or-move/contents+en.lrquestion.description)
@@ -6193,6 +6193,9 @@ msgid ""
 "torrc and the same DataDirectory, then the upgrade should just work and your"
 " relay will keep using the same key."
 msgstr ""
+"Özetle Tor aktarıcınızın sürümünü yükseltirken aynı torrc dosyasını aynı "
+"Data klasöründe tutarsanız sürüm yükseltme işleminden sonra aktarıcınız aynı"
+" anahtarı kullanmayı sürdürür."
 
 #: https//support.torproject.org/operators/upgrade-or-move/
 #: (content/operators/upgrade-or-move/contents+en.lrquestion.description)
@@ -6200,6 +6203,9 @@ msgid ""
 "If you need to pick a new DataDirectory, be sure to copy your old "
 "keys/ed25519_master_id_secret_key and keys/secret_id_key over."
 msgstr ""
+"Yeni bir Data klasörü kullanmanız gerekiyorsa, eski "
+"keys/ed25519_master_id_secret_key ve keys/secret_id_key dosyalarını bu "
+"klasöre kopyaladığınızdan emin olun."
 
 #: https//support.torproject.org/operators/upgrade-or-move/
 #: (content/operators/upgrade-or-move/contents+en.lrquestion.description)
@@ -6207,6 +6213,8 @@ msgid ""
 "Note: As of Tor 0.2.7 we are using new generation identities for relays "
 "based on ed25519 elliptic curve cryptography."
 msgstr ""
+"Not: Tor 0.2.7 sürümünden sonra aktarıcılar için ed25519 eliptik eğri "
+"şifrelemesi ile çalışan yeni nesil kimlikler kullanılıyor."
 
 #: https//support.torproject.org/operators/upgrade-or-move/
 #: (content/operators/upgrade-or-move/contents+en.lrquestion.description)
@@ -6214,6 +6222,8 @@ msgid ""
 "Eventually they will replace the old RSA identities, but that will happen in"
 " time, to ensure compatibility with older versions."
 msgstr ""
+"Bunlar eski RSA kimliklerinin yerini aldı. Ancak eski sürümler ile "
+"uyumluluğu kaybetmemek için zaman içinde tamamen değiştirilecek."
 
 #: https//support.torproject.org/operators/upgrade-or-move/
 #: (content/operators/upgrade-or-move/contents+en.lrquestion.description)
@@ -6222,6 +6232,9 @@ msgid ""
 "file: keys/ed25519_master_id_secret_key) and a RSA identity (identity key "
 "file: keys/secret_id_key)."
 msgstr ""
+"O zamana kadar tüm aktarıcılarda bir ed25519 kimliği (kimlik anahtarı "
+"dosyası: keys/ed25519_master_id_secret_key) ve bir RSA kimliği (kimlik "
+"anahtarı dosyası: keys/secret_id_key) bulunacak."
 
 #: https//support.torproject.org/operators/upgrade-or-move/
 #: (content/operators/upgrade-or-move/contents+en.lrquestion.description)
@@ -6229,11 +6242,14 @@ msgid ""
 "You need to copy / backup both of them in order to restore your relay, "
 "change your DataDirectory or migrate the relay on a new computer."
 msgstr ""
+"Data klasörünü değiştirdiğinizde ya da aktarıcınızı yeni bir bilgisayara "
+"taşıdığınızda, aktarıcınızı geri yükleyebilmek için iki anahtar dosyasını da"
+" kopyalamanız ya da yedeklemeniz gerekir. "
 
 #: https//support.torproject.org/operators/what-is-the-bad-exit-flag/
 #: (content/operators/what-is-the-bad-exit-flag/contents+en.lrquestion.title)
 msgid "What is the BadExit flag?"
-msgstr ""
+msgstr "Kötü Çıkış (BadExit) işareti nedir?"
 
 #: https//support.torproject.org/operators/what-is-the-bad-exit-flag/
 #: (content/operators/what-is-the-bad-exit-flag/contents+en.lrquestion.description)
@@ -6242,6 +6258,10 @@ msgid ""
 "This tells Tor to avoid exiting through that relay. In effect, relays with "
 "this flag become non-exits."
 msgstr ""
+"Bir çıkış aktarıcısı hatalı yapılandırıldığında ya da kötü niyetli "
+"davranışlar sergilediğinde Kötü Çıkış (BadExit) olarak işaretlenir. Böylece "
+"Tor ağının bu aktarıcıdan çıkış yapması engellenir. Bu şekilde işaretlenmiş "
+"aktarıcılar yokmuş gibi davranılır."
 
 #: https//support.torproject.org/operators/what-is-the-bad-exit-flag/
 #: (content/operators/what-is-the-bad-exit-flag/contents+en.lrquestion.description)
@@ -6252,11 +6272,16 @@ msgid ""
 "team](https://community.torproject.org/relay/community-resources/bad-"
 "relays/) so we can sort out the issue."
 msgstr ""
+"Aktarıcınız kötü çıkış olarak işaretlenmiş ise, aktarıcınızda trafik "
+"yöneltmesi sırasında bir sorun ya da şüpheli bir işlem algılanmış ve sizinle"
+" iletişim kurulamamış demektir. Lütfen sorunu çözebilmemiz için [kötü "
+"aktarıcılar ekibi](https://community.torproject.org/relay/community-"
+"resources/bad-relays/) ile görüşün."
 
 #: https//support.torproject.org/operators/what-type-of-relays-are-most-needed/
 #: (content/operators/what-type-of-relays-are-most-needed/contents+en.lrquestion.title)
 msgid "What type of relays are most needed?"
-msgstr ""
+msgstr "En fazla ihtiyaç duyulan aktarıcı türüne hangisidir?"
 
 #: https//support.torproject.org/operators/what-type-of-relays-are-most-needed/
 #: (content/operators/what-type-of-relays-are-most-needed/contents+en.lrquestion.description)
