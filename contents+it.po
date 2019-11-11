@@ -6035,6 +6035,8 @@ msgid ""
 "This probably accounts for most of the difference between your \"write\" "
 "byte count and your \"read\" byte count."
 msgstr ""
+"Questo probabilmente spiega la maggior parte della differenza tra il "
+"conteggio dei byte \"write\" e il conteggio dei byte \"read\"."
 
 #: https//support.torproject.org/operators/relay-write-more-bytes/
 #: (content/operators/relay-write-more-bytes/contents+en.lrquestion.description)
@@ -6044,11 +6046,15 @@ msgid ""
 "or ssh connection) and wrap it up into an entire 512 byte cell for transport"
 " through the Tor network."
 msgstr ""
+"Un'altra eccezione minore si presenta quando si opera come nodo di uscita e "
+"si leggono alcuni byte da una connessione di uscita (ad esempio una "
+"connessione di messaggistica istantanea o ssh) e la si avvolge in un'intera "
+"cella da 512 byte per il trasporto attraverso la rete Tor."
 
 #: https//support.torproject.org/operators/should-i-run-a-relay/
 #: (content/operators/should-i-run-a-relay/contents+en.lrquestion.title)
 msgid "How do I decide if I should run a relay?"
-msgstr ""
+msgstr "Come faccio a decidere se dovrei eseguire un relè?"
 
 #: https//support.torproject.org/operators/should-i-run-a-relay/
 #: (content/operators/should-i-run-a-relay/contents+en.lrquestion.description)
@@ -6058,6 +6064,11 @@ msgid ""
 " please consider [running a Tor "
 "relay](https://trac.torproject.org/projects/tor/wiki/TorRelayGuide)."
 msgstr ""
+"Siamo alla ricerca di persone con connessioni Internet ragionevolmente "
+"affidabili, con banda disponibile di almeno 10 Mbit/s (Mbps) in ogni "
+"direzione. Se questa descrizione ti rappresenta, ti preghiamo di prendere in"
+" considerazione [l'esecuzione di un relè "
+"Tor](https://trac.torproject.org/projects/tor/wiki/TorRelayGuide)."
 
 #: https//support.torproject.org/operators/should-i-run-a-relay/
 #: (content/operators/should-i-run-a-relay/contents+en.lrquestion.description)
@@ -6067,11 +6078,16 @@ msgid ""
 "support](https://community.torproject.org/relay/setup/brige). In that case "
 "you should have at least 1 MBit/s of available bandwidth."
 msgstr ""
+"Anche se non disponi di almeno 10 Mbit/s di banda, puoi comunque aiutare la "
+"rete Tor eseguendo un [Tor bridge con supporto "
+"obfs4](https://community.torproject.org/relay/setup/brige). In questo caso "
+"dovresti disporre di almeno 1MBit/s di banda. "
 
 #: https//support.torproject.org/operators/upgrade-or-move/
 #: (content/operators/upgrade-or-move/contents+en.lrquestion.title)
 msgid "I want to upgrade/move my relay. How do I keep the same key?"
 msgstr ""
+"Voglio aggiornare/spostare il mio relè. Come mantengo la stessa chiave?"
 
 #: https//support.torproject.org/operators/upgrade-or-move/
 #: (content/operators/upgrade-or-move/contents+en.lrquestion.description)
@@ -6081,6 +6097,10 @@ msgid ""
 "\"keys/ed25519_master_id_secret_key\" and \"keys/secret_id_key\" in your "
 "DataDirectory)."
 msgstr ""
+"Quando aggiorni il tuo relè Tor o lo sposti su un altro computer, la parte "
+"importante è mantenere le stesse chiavi di identità (memorizzate in "
+"\"keys/ed25519_master_id_secret_key\" e \"keys/secret_id_key\" nella tua "
+"DataDirectory)."
 
 #: https//support.torproject.org/operators/upgrade-or-move/
 #: (content/operators/upgrade-or-move/contents+en.lrquestion.description)
@@ -6089,6 +6109,9 @@ msgid ""
 "future is the recommended way to ensure the reputation of the relay won't be"
 " wasted."
 msgstr ""
+"Conservare delle copie delle chiavi di identità in modo da poter "
+"ripristinare un relè in futuro è il modo raccomandato per garantire che la "
+"reputazione del relè non venga sprecata."
 
 #: https//support.torproject.org/operators/upgrade-or-move/
 #: (content/operators/upgrade-or-move/contents+en.lrquestion.description)
@@ -6097,6 +6120,9 @@ msgid ""
 "torrc and the same DataDirectory, then the upgrade should just work and your"
 " relay will keep using the same key."
 msgstr ""
+"Ciò significa che se stai aggiornando il tuo relè Tor e mantieni lo stesso "
+"torrc e la stessa DataDirectory, l'aggiornamento dovrebbe funzionare e il "
+"tuo relè continuerà a usare la stessa chiave."
 
 #: https//support.torproject.org/operators/upgrade-or-move/
 #: (content/operators/upgrade-or-move/contents+en.lrquestion.description)
@@ -6104,6 +6130,8 @@ msgid ""
 "If you need to pick a new DataDirectory, be sure to copy your old "
 "keys/ed25519_master_id_secret_key and keys/secret_id_key over."
 msgstr ""
+"Se devi scegliere una nuova DataDirectory, assicurati di copiare le tue "
+"vecchie keys/ed25519_master_id_secret_key e le keys/secret_id_key."
 
 #: https//support.torproject.org/operators/upgrade-or-move/
 #: (content/operators/upgrade-or-move/contents+en.lrquestion.description)
@@ -6111,6 +6139,8 @@ msgid ""
 "Note: As of Tor 0.2.7 we are using new generation identities for relays "
 "based on ed25519 elliptic curve cryptography."
 msgstr ""
+"Nota: a partire da Tor 0.2.7 stiamo usando identità di nuova generazione per"
+" relè basati sulla crittografia a curva ellittica ed25519."
 
 #: https//support.torproject.org/operators/upgrade-or-move/
 #: (content/operators/upgrade-or-move/contents+en.lrquestion.description)
@@ -6118,6 +6148,8 @@ msgid ""
 "Eventually they will replace the old RSA identities, but that will happen in"
 " time, to ensure compatibility with older versions."
 msgstr ""
+"Alla fine sostituiranno le vecchie identità RSA, ma ciò avverrà nel tempo, "
+"per garantire la compatibilità con le versioni precedenti."
 
 #: https//support.torproject.org/operators/upgrade-or-move/
 #: (content/operators/upgrade-or-move/contents+en.lrquestion.description)
@@ -6126,6 +6158,9 @@ msgid ""
 "file: keys/ed25519_master_id_secret_key) and a RSA identity (identity key "
 "file: keys/secret_id_key)."
 msgstr ""
+"Fino ad allora, ogni relè avrà sia un'identità ed25519 (file chiave di "
+"identità: keys/ed25519_master_id_secret_key) sia un'identità RSA (file "
+"chiave di identità: keys/secret_id_key)."
 
 #: https//support.torproject.org/operators/upgrade-or-move/
 #: (content/operators/upgrade-or-move/contents+en.lrquestion.description)
@@ -6133,11 +6168,13 @@ msgid ""
 "You need to copy / backup both of them in order to restore your relay, "
 "change your DataDirectory or migrate the relay on a new computer."
 msgstr ""
+"È necessario copiare entrambi per poter ripristinare il tuo relè, modificare"
+" la DataDirectory o migrare il relè su un nuovo computer."
 
 #: https//support.torproject.org/operators/what-is-the-bad-exit-flag/
 #: (content/operators/what-is-the-bad-exit-flag/contents+en.lrquestion.title)
 msgid "What is the BadExit flag?"
-msgstr ""
+msgstr "Cos'è il flag BadExit?"
 
 #: https//support.torproject.org/operators/what-is-the-bad-exit-flag/
 #: (content/operators/what-is-the-bad-exit-flag/contents+en.lrquestion.description)
@@ -6146,6 +6183,9 @@ msgid ""
 "This tells Tor to avoid exiting through that relay. In effect, relays with "
 "this flag become non-exits."
 msgstr ""
+"Quando un'uscita è configurata in modo errato o dannoso, viene assegnato il "
+"flag BadExit. Questo dice a Tor di evitare di uscire attraverso quel relè. "
+"In effetti, i relè con questo flag diventano non-uscite."
 
 #: https//support.torproject.org/operators/what-is-the-bad-exit-flag/
 #: (content/operators/what-is-the-bad-exit-flag/contents+en.lrquestion.description)
@@ -6156,11 +6196,16 @@ msgid ""
 "team](https://community.torproject.org/relay/community-resources/bad-"
 "relays/) so we can sort out the issue."
 msgstr ""
+"Se hai ricevuto questo flag, abbiamo scoperto un problema o un'attività "
+"sospetta durante il routing del traffico attraverso la tua uscita e non "
+"siamo riusciti a contattarti. Ti preghiamo di contattare il [team di relé "
+"difettosi](https://community.torproject.org/relay/community-resources/bad-"
+"relays/) così che possiamo risolvere il problema."
 
 #: https//support.torproject.org/operators/what-type-of-relays-are-most-needed/
 #: (content/operators/what-type-of-relays-are-most-needed/contents+en.lrquestion.title)
 msgid "What type of relays are most needed?"
-msgstr ""
+msgstr "Quale tipo di relè è più necessario?"
 
 #: https//support.torproject.org/operators/what-type-of-relays-are-most-needed/
 #: (content/operators/what-type-of-relays-are-most-needed/contents+en.lrquestion.description)
@@ -6169,6 +6214,9 @@ msgid ""
 "highest legal exposure and risk (and **you should NOT run them from your "
 "home**)."
 msgstr ""
+"* Il relè di uscita è il tipo di relè più necessario ma presenta anche il "
+"rischio e l'esposizione legale più elevati (e **NON dovresti eseguirli da "
+"casa**)."
 
 #: https//support.torproject.org/operators/what-type-of-relays-are-most-needed/
 #: (content/operators/what-type-of-relays-are-most-needed/contents+en.lrquestion.description)
@@ -6176,6 +6224,8 @@ msgid ""
 "* If you are looking to run a relay with minimal effort, fast guard relays "
 "are also very useful"
 msgstr ""
+"* Se si desidera utilizzare un relè con il minimo sforzo, anche i guard relè"
+" veloci sono molto utili"
 
 #: https//support.torproject.org/operators/what-type-of-relays-are-most-needed/
 #: (content/operators/what-type-of-relays-are-most-needed/contents+en.lrquestion.description)
@@ -6186,6 +6236,7 @@ msgstr ""
 #: (content/operators/why-i-get-portscanned-more-often/contents+en.lrquestion.title)
 msgid "Why do I get portscanned more often when I run a Tor relay?"
 msgstr ""
+"Perché ricevo la scansione delle porte più spesso quando eseguo un relè Tor?"
 
 #: https//support.torproject.org/operators/why-i-get-portscanned-more-often/
 #: (content/operators/why-i-get-portscanned-more-often/contents+en.lrquestion.description)
@@ -6198,6 +6249,15 @@ msgid ""
 "from you might attract the attention of other users on the IRC server, "
 "website, etc. who want to know more about the host they're relaying through."
 msgstr ""
+"Se consenti connessioni di uscita, alcuni servizi a cui le persone si "
+"connettono dal tuo relay si riconnetteranno per raccogliere ulteriori "
+"informazioni su di te. Ad esempio, alcuni server IRC si ricollegano alla tua"
+" porta identd per registrare quale utente ha effettuato la connessione. "
+"(Questo non funziona davvero per loro, perché Tor non conosce queste "
+"informazioni, ma ci provano comunque.) Inoltre, gli utenti che escono da te "
+"potrebbero attirare l'attenzione di altri utenti sul server IRC, sul sito "
+"Web, ecc. che vogliono sapere di più sull'host attraverso cui stanno "
+"trasmettendo."
 
 #: https//support.torproject.org/operators/why-i-get-portscanned-more-often/
 #: (content/operators/why-i-get-portscanned-more-often/contents+en.lrquestion.description)
