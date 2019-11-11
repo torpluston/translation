@@ -5500,6 +5500,11 @@ msgid ""
 "leave the master identity secret key in DataDirectory/keys, just make a "
 "backup in case you'll need to reinstall it."
 msgstr ""
+"Se vuoi che il tuo relè funzioni senza attenzioni per un lungo periodo senza"
+" dover eseguire manualmente su base regolare il rinnovo della chiave per "
+"firmare a medio termine, il meglio è lasciare la chiave di identità segreta "
+"principale in DataDirectory/keys, fai solo un backup nel caso in cui sia "
+"necessario reinstallarlo."
 
 #: https//support.torproject.org/operators/offline-ed25519/
 #: (content/operators/offline-ed25519/contents+en.lrquestion.description)
@@ -5508,6 +5513,9 @@ msgid ""
 "guide](https://trac.torproject.org/projects/tor/wiki/doc/TorRelaySecurity/OfflineKeys)"
 " on the topic."
 msgstr ""
+"Se vuoi utilizzare questa funzione, puoi consultare la nostra [guida più "
+"dettagliata](https://trac.torproject.org/projects/tor/wiki/doc/TorRelaySecurity/OfflineKeys)"
+" sull'argomento."
 
 #: https//support.torproject.org/operators/operators-1/
 #: (content/operators/operators-1/contents+en.lrquestion.title)
@@ -5524,6 +5532,9 @@ msgid ""
 "For the most in-depth resource on running a relay, see the [Relay Setup "
 "Guide](https://community.torproject.org/relay/setup)."
 msgstr ""
+"Per la risorsa più approfondita sull'esecuzione di un relè, consultare la "
+"[Guida alla configurazione del "
+"relè](https://community.torproject.org/relay/setup)."
 
 #: https//support.torproject.org/operators/operators-2/
 #: (content/operators/operators-2/contents+en.lrquestion.title)
@@ -5621,7 +5632,7 @@ msgstr "$ sudo apt-get install tor deb.torproject.org-keyring"
 #: https//support.torproject.org/operators/operators-6/
 #: (content/operators/operators-6/contents+en.lrquestion.title)
 msgid "How do I run an obfs4 bridge?"
-msgstr ""
+msgstr "Come posso eseguire un bridge obfs4?"
 
 #: https//support.torproject.org/operators/operators-6/
 #: (content/operators/operators-6/contents+en.lrquestion.description)
@@ -5630,6 +5641,9 @@ msgid ""
 "guide](https://community.torproject.org/relay/setup/bridge/) to learn how to"
 " set up an obfs4 bridge."
 msgstr ""
+"Consulta la nostra [guida configurazione "
+"obfs4](https://community.torproject.org/relay/setup/bridge/) per scoprire "
+"come impostare un bridge obfs4."
 
 #: https//support.torproject.org/operators/operators-7/
 #: (content/operators/operators-7/contents+en.lrquestion.title)
@@ -5689,7 +5703,7 @@ msgstr ""
 #: https//support.torproject.org/operators/outgoing-firewall/
 #: (content/operators/outgoing-firewall/contents+en.lrquestion.title)
 msgid "How should I configure the outgoing filters on my relay?"
-msgstr ""
+msgstr "Come dovrei configurare i filtri in uscita sul mio relè?"
 
 #: https//support.torproject.org/operators/outgoing-firewall/
 #: (content/operators/outgoing-firewall/contents+en.lrquestion.description)
@@ -5697,6 +5711,8 @@ msgid ""
 "All outgoing connections must be allowed, so that each relay can communicate"
 " with every other relay."
 msgstr ""
+"Tutte le connessioni in uscita devono essere consentite, così che ciascun "
+"relè possa comunicare con ogni altro relè."
 
 #: https//support.torproject.org/operators/outgoing-firewall/
 #: (content/operators/outgoing-firewall/contents+en.lrquestion.description)
@@ -5705,17 +5721,23 @@ msgid ""
 " common carrier regulations that prevent internet service providers from "
 "being held liable for third-party content that passes through their network."
 msgstr ""
+"In molte giurisdizioni, gli operatori di relè Tor sono legalmente protetti "
+"dalle stesse normative comuni che impediscono ai fornitori di servizi "
+"Internet di essere ritenuti responsabili per i contenuti di terzi che "
+"passano attraverso la loro rete."
 
 #: https//support.torproject.org/operators/outgoing-firewall/
 #: (content/operators/outgoing-firewall/contents+en.lrquestion.description)
 msgid ""
 "Exit relays that filter some traffic would likely forfeit those protections."
 msgstr ""
+"I relè di uscita che filtrano parte del traffico perderebbero probabilmente "
+"quelle protezioni."
 
 #: https//support.torproject.org/operators/outgoing-firewall/
 #: (content/operators/outgoing-firewall/contents+en.lrquestion.description)
 msgid "Tor promotes free network access without interference."
-msgstr ""
+msgstr "Tor promuove libero accesso alla rete senza interferenze."
 
 #: https//support.torproject.org/operators/outgoing-firewall/
 #: (content/operators/outgoing-firewall/contents+en.lrquestion.description)
@@ -5723,6 +5745,8 @@ msgid ""
 "Exit relays must not filter the traffic that passes through them to the "
 "internet."
 msgstr ""
+"I relè di uscita non devono filtrare il traffico Internet che passa "
+"attraverso di loro."
 
 #: https//support.torproject.org/operators/outgoing-firewall/
 #: (content/operators/outgoing-firewall/contents+en.lrquestion.description)
@@ -5731,11 +5755,15 @@ msgid ""
 "[BadExit](https://community.torproject.org/relay/community-resources/bad-"
 "relays/) flag once detected."
 msgstr ""
+"I relè di uscita che filtrano il traffico riceveranno il flag "
+"[BadExit](https://community.torproject.org/relay/community-resources/bad-"
+"relays/) una volta scoperti."
 
 #: https//support.torproject.org/operators/packaged-tor/
 #: (content/operators/packaged-tor/contents+en.lrquestion.title)
 msgid "Should I install Tor from my package manager, or build from source?"
 msgstr ""
+"Devo installare Tor dal mio gestore di pacchetti o compilarlo dal sorgente?"
 
 #: https//support.torproject.org/operators/packaged-tor/
 #: (content/operators/packaged-tor/contents+en.lrquestion.description)
@@ -5744,6 +5772,9 @@ msgid ""
 "to installing Tor from the [Tor Project's "
 "repository](https://support.torproject.org/apt/tor-deb-repo/)."
 msgstr ""
+"Se stai utilizzando Debian, o Ubuntu in particolare, ci sono una serie di "
+"vantaggi nell'installare Tor dalla [repository del Tor "
+"Project](https://support.torproject.org/apt/tor-deb-repo/)."
 
 #: https//support.torproject.org/operators/packaged-tor/
 #: (content/operators/packaged-tor/contents+en.lrquestion.description)
@@ -5751,6 +5782,8 @@ msgid ""
 "* Your `ulimit -n` gets set to 32768  high enough for Tor to keep open all "
 "the connections it needs."
 msgstr ""
+"* Il tuo `ulimit -n` viene impostato a 32768, abbastanza alto da consentire "
+"a Tor di tenere aperte tutte le connessioni di cui ha bisogno."
 
 #: https//support.torproject.org/operators/packaged-tor/
 #: (content/operators/packaged-tor/contents+en.lrquestion.description)
@@ -5758,11 +5791,15 @@ msgid ""
 "* A user profile is created just for Tor, so Tor doesn't need to run as "
 "root."
 msgstr ""
+"* Un profilo utente viene creato solo per Tor, quindi Tor non deve essere "
+"eseguito come root."
 
 #: https//support.torproject.org/operators/packaged-tor/
 #: (content/operators/packaged-tor/contents+en.lrquestion.description)
 msgid "* An init script is included so that Tor runs at boot."
 msgstr ""
+"* Uno script init è incluso in modo che Tor sia lanciato all'avvio del "
+"computer."
 
 #: https//support.torproject.org/operators/packaged-tor/
 #: (content/operators/packaged-tor/contents+en.lrquestion.description)
@@ -5770,31 +5807,37 @@ msgid ""
 "* Tor runs with `--verify-config`, so that most problems with your config "
 "file get caught."
 msgstr ""
+"Tor funziona con `--verify-config`, in modo che la maggior parte dei "
+"problemi con il tuo file di configurazione venga scoperta."
 
 #: https//support.torproject.org/operators/packaged-tor/
 #: (content/operators/packaged-tor/contents+en.lrquestion.description)
 msgid "* Tor can bind to low level ports, then drop privileges."
 msgstr ""
+"* Tor può legarsi a porte di basso livello, e poi perdere i privilegi."
 
 #: https//support.torproject.org/operators/relay-flexible/
 #: (content/operators/relay-flexible/contents+en.lrquestion.title)
 msgid "How stable does my relay need to be?"
-msgstr ""
+msgstr "Quanto deve essere stabile il mio relè?"
 
 #: https//support.torproject.org/operators/relay-flexible/
 #: (content/operators/relay-flexible/contents+en.lrquestion.description)
 msgid "We aim to make setting up a Tor relay easy and convenient:"
 msgstr ""
+"Il nostro obiettivo è rendere la configurazione di un relè Tor semplice e "
+"conveniente:"
 
 #: https//support.torproject.org/operators/relay-flexible/
 #: (content/operators/relay-flexible/contents+en.lrquestion.description)
 msgid "* It's fine if the relay goes offline sometimes."
-msgstr ""
+msgstr "* Non è un problema se a volte il relè si disconnette."
 
 #: https//support.torproject.org/operators/relay-flexible/
 #: (content/operators/relay-flexible/contents+en.lrquestion.description)
 msgid "The directories notice this quickly and stop advertising the relay."
 msgstr ""
+"Le directory lo notano rapidamente e smettono di pubblicizzare il relè."
 
 #: https//support.torproject.org/operators/relay-flexible/
 #: (content/operators/relay-flexible/contents+en.lrquestion.description)
@@ -5802,6 +5845,8 @@ msgid ""
 "Just try to make sure it's not too often, since connections using the relay "
 "when it disconnects will break."
 msgstr ""
+"Cerca solo di fare in modo che non accada troppo spesso, poiché le "
+"connessioni che utilizzano il relè si interromperanno quando si disconnette."
 
 #: https//support.torproject.org/operators/relay-flexible/
 #: (content/operators/relay-flexible/contents+en.lrquestion.description)
