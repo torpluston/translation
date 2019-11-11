@@ -5344,11 +5344,16 @@ msgid ""
 "or of their network, even if they're not all in the same geographic "
 "location."
 msgstr ""
+"Dovresti impostare MyFamily se hai il controllo amministrativo dei computer "
+"o della loro rete, anche se non sono tutti nella stessa posizione "
+"geografica."
 
 #: https//support.torproject.org/operators/my-relay-got-guard-flag-traffic-dropped/
 #: (content/operators/my-relay-got-guard-flag-traffic-dropped/contents+en.lrquestion.title)
 msgid "My relay recently got the Guard flag and traffic dropped by half."
 msgstr ""
+"Il mio relè ha recentemente ottenuto lo stato di Guard e il traffico si è "
+"dimezzato. "
 
 #: https//support.torproject.org/operators/my-relay-got-guard-flag-traffic-dropped/
 #: (content/operators/my-relay-got-guard-flag-traffic-dropped/contents+en.lrquestion.description)
@@ -5366,16 +5371,21 @@ msgid ""
 "Understanding and Improving Entry Guard Selection in "
 "Tor](http://freehaven.net/anonbib/#wpes12-cogs)."
 msgstr ""
+"Scopri ulteriori dettagli in questo [blog "
+"post](https://blog.torproject.org/blog/lifecycle-of-a-new-relay) o in "
+"[Changing of the Guards: A Framework for Understanding and Improving Entry "
+"Guard Selection in Tor](http://freehaven.net/anonbib/#wpes12-cogs)."
 
 #: https//support.torproject.org/operators/offline-ed25519/
 #: (content/operators/offline-ed25519/contents+en.lrquestion.title)
 msgid "How do offline ed25519 identity keys work? What do I need to know?"
 msgstr ""
+"Come funzionano le chiavi di identità ed25519 offline? Cosa devo sapere?"
 
 #: https//support.torproject.org/operators/offline-ed25519/
 #: (content/operators/offline-ed25519/contents+en.lrquestion.description)
 msgid "In simple words, it works like this:"
-msgstr ""
+msgstr "In parole semplici, funziona così:"
 
 #: https//support.torproject.org/operators/offline-ed25519/
 #: (content/operators/offline-ed25519/contents+en.lrquestion.description)
@@ -5383,6 +5393,8 @@ msgid ""
 "* There is a master ed25519 identity secret key file named "
 "\"ed25519_master_id_secret_key\"."
 msgstr ""
+"* C'è un file principale della chiave di identità segreta ed25519 denominato"
+" \"ed25519_master_id_secret_key\"."
 
 #: https//support.torproject.org/operators/offline-ed25519/
 #: (content/operators/offline-ed25519/contents+en.lrquestion.description)
@@ -5390,6 +5402,8 @@ msgid ""
 "This is the most important one, so make sure you keep a backup in a secure "
 "place - the file is sensitive and should be protected."
 msgstr ""
+"Questo è il file più importante, quindi assicurati di conservarne una copia "
+"in un luogo sicuro: il file è sensibile e deve essere protetto."
 
 #: https//support.torproject.org/operators/offline-ed25519/
 #: (content/operators/offline-ed25519/contents+en.lrquestion.description)
@@ -5397,6 +5411,8 @@ msgid ""
 "Tor could encrypt it for you if you generate it manually and enter a "
 "password when asked."
 msgstr ""
+"Tor può cifrarlo per te se lo generi manualmente e inserisci una password "
+"quando richiesto."
 
 #: https//support.torproject.org/operators/offline-ed25519/
 #: (content/operators/offline-ed25519/contents+en.lrquestion.description)
@@ -5404,6 +5420,8 @@ msgid ""
 "* A medium term signing key named \"ed25519_signing_secret_key\" is "
 "generated for Tor to use."
 msgstr ""
+"* Una chiave per firmare a medio termine denominata "
+"\"ed25519_signing_secret_key\" viene generata per essere utilizzata da Tor."
 
 #: https//support.torproject.org/operators/offline-ed25519/
 #: (content/operators/offline-ed25519/contents+en.lrquestion.description)
@@ -5412,6 +5430,10 @@ msgid ""
 "signed by the master identity secret key and confirms that the medium term "
 "signing key is valid for a certain period of time."
 msgstr ""
+"Inoltre, viene generato un certificato denominato \"ed25519_signing_cert\" "
+"che è firmato dalla chiave di identità segreta principale e conferma che la "
+"chiave per firmare a medio termine è valida per un determinato periodo di "
+"tempo."
 
 #: https//support.torproject.org/operators/offline-ed25519/
 #: (content/operators/offline-ed25519/contents+en.lrquestion.description)
@@ -5419,6 +5441,8 @@ msgid ""
 "The default validity is 30 days, but this can be customized by setting "
 "\"SigningKeyLifetime N days|weeks|months\" in torrc."
 msgstr ""
+"La validità predefinita è di 30 giorni, ma può essere personalizzata "
+"impostando \"SigningKeyLifetime N giorni|settimane|mesi\" nel torrc."
 
 #: https//support.torproject.org/operators/offline-ed25519/
 #: (content/operators/offline-ed25519/contents+en.lrquestion.description)
@@ -5426,6 +5450,9 @@ msgid ""
 "* There is also a master public key named \"ed25519_master_id_public_key, "
 "which is the actual identity of the relay advertised in the network."
 msgstr ""
+"* Esiste anche una chiave pubblica principale denominata "
+"\"ed25519_master_id_public_key\", che è l'identità effettiva del relè "
+"pubblicizzata nella rete."
 
 #: https//support.torproject.org/operators/offline-ed25519/
 #: (content/operators/offline-ed25519/contents+en.lrquestion.description)
@@ -5433,6 +5460,8 @@ msgid ""
 "This one is not sensitive and can be easily computed from "
 "\"ed5519_master_id_secret_key\"."
 msgstr ""
+"Questa non è sensibile e può essere facilmente calcolata da "
+"\"ed5519_master_id_secret_key\"."
 
 #: https//support.torproject.org/operators/offline-ed25519/
 #: (content/operators/offline-ed25519/contents+en.lrquestion.description)
@@ -5441,6 +5470,10 @@ msgid ""
 "long as they are valid, so the master identity secret key can be kept "
 "outside DataDirectory/keys, on a storage media or a different computer."
 msgstr ""
+"Tor avrà bisogno solo dell'accesso alla chiave per firmare e al certificato "
+"a medio termine fintanto che sono validi, quindi la chiave di identità "
+"segreta principale può essere mantenuta al di fuori di DataDirectory/keys, "
+"su un supporto di archiviazione o su un altro computer."
 
 #: https//support.torproject.org/operators/offline-ed25519/
 #: (content/operators/offline-ed25519/contents+en.lrquestion.description)
@@ -5449,11 +5482,15 @@ msgid ""
 "before they expire otherwise the Tor process on the relay will exit upon "
 "expiration."
 msgstr ""
+"Dovrai rinnovare manualmente la chiave per firmare e il certificato a medio "
+"termine prima che scadano, altrimenti il processo Tor sul relè terminerà "
+"alla scadenza."
 
 #: https//support.torproject.org/operators/offline-ed25519/
 #: (content/operators/offline-ed25519/contents+en.lrquestion.description)
 msgid "This feature is optional, you don't need to use it unless you want to."
 msgstr ""
+"Questa funzione è facoltativa, non hai bisogno di utilizzarla se non vuoi."
 
 #: https//support.torproject.org/operators/offline-ed25519/
 #: (content/operators/offline-ed25519/contents+en.lrquestion.description)
