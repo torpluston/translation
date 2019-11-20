@@ -1,6 +1,6 @@
 # Tor Outreach Material 2019-2020
 
-# 1. TOR ЗА ПРИВАТНОСТ
+# 1..TOR ЗА ПРИВАТНОСТ
 
 ### Приватноста е човеково право
 
@@ -16,7 +16,7 @@ She goes to a privacy training at a local hackerspace and learns about **Tor Bro
 
 ---
 
-# 2.TOR ЗА ФЕМИНИСТИ
+# 2. TOR ЗА ФЕМИНИСТИ
 
 ### The future is cyberfeminist
 
@@ -58,7 +58,7 @@ All of this software uses Tor to help protect Jelani’s privacy.
 
 ---
 
-# 4. TOR ЗА ПРОТИВ ЦЕНЗУРАТА
+# 4. TOR ЗА АНТИ-ЦЕНЗУРА
 
 ### Градете мостови не ѕидови
 
@@ -103,7 +103,7 @@ When you use Tor Browser, no one can see what websites you visit or where in the
 Other applications, like SecureDrop and OnionShare, use Tor to protect their users against surveillance and censorship.
 
 
-## 6. Како Tor работи?
+## 6. Како работи Tor?
 
 Amal wants to visit Bekele’s website privately, so she opens Tor Browser.
 
@@ -121,9 +121,9 @@ The third relay removes the last encryption layer and forwards the web page requ
 
 Bekele doesn't know that the website request came from Amal unless she tells him so.
 
-## 7. Кој користи Tor? 
+## 7. Кој го користи Tor? 
 
-Луѓе низ целиот свет го користат Tor за да ја заштитат нивната приватност и да пристапат кон вебот слободно
+Луѓето низ целиот свет го користат Tor за да ја заштитат својата приватност и да пристапуваат на Интернет слободно . 
 
 Tor helps protect journalists, human rights defenders, domestic violence victims, academic researchers, and anyone experiencing tracking, censorship, or surveillance. 
 
@@ -135,7 +135,7 @@ Tor relay operators cannot reveal the true identity of Tor users.
 
 Continual peer review of Tor's source code by academic and open source communities ensures that there are no backdoors in Tor, and our social contract promises that we will never backdoor Tor. 
 
-## 7. Приклучи се на Tor заедницата
+## 7. Приклучи и се на Tor заедницата
 
 Tor is made possible by a diverse set of users, developers, relay operators, and advocates from around the world.
 
@@ -148,13 +148,13 @@ The Tor community is governed by a code of conduct, and we outline our set of pr
 Learn more about Tor by visiting our website, our wiki, finding us on IRC, joining one of our mailing lists, or signing up for Tor News at newsletter.torproject.org.
 
 
-## 8. Преземи Tor
+## 8. Преземи го Tor
 
 Tor за Десктоп
 torproject.org/download
 
 TOR ON MOBILE
-### Android 
+### Android
 Tor Browser for Android is available from GooglePlay.
 
 ### iOS
