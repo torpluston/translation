@@ -52,7 +52,7 @@ Jelani uses **Tor Browser** to prevent these companies from watching as he visit
 
 He also uses **OnionShare** and **SecureDrop** to securely send documents to journalists who are helping expose these human rights violations.
 
-All of this software uses Tor to help protect Jelani’s privacy. 
+Все это программное обеспечение использует Tor для защиты конфиденциальности Jelani.
 
 ### Human rights activists like Jelani are fighting for justice in their communities, and Tor helps power their resistance.
 
@@ -62,9 +62,9 @@ All of this software uses Tor to help protect Jelani’s privacy.
 
 ### Стройте не стены, а мосты
 
-Jean was traveling for the first time to a country far from his family.
+Впервые Жан отправился в страну, далеко от своей семьи.
 
-After arriving at a hotel, he opened his laptop.
+Придя в отель, он открыл свой ноутбук.
 
 He was so exhausted that when the message "Connection has timed out" first appeared on his web browser, he thought it was due to his own error.
 
@@ -74,17 +74,17 @@ He had heard that this country censors the internet and wondered if that was hap
 How could he contact his family from behind this impenetrable wall?
 After doing some web searches, he found a forum and read about VPNs, private services that allow you to connect to another uncensored network.
 
-Jean spent half an hour trying to figure out which cheap VPN was best.
+Жан потратил полчаса, пытаясь выяснить, какой дешевый VPN лучше.
 
 He chose one and for a moment it seemed to work, but after five minutes the connection went offline and the VPN would no longer connect. 
 
 Jean kept reading to find other options and learned about Tor Browser and how it can circumvent censorship.
 
-He found an official website mirror to download the program.
+Он нашел официальный сайт зеркала для скачивания программы.
 
 When he opened **Tor Browser**, he followed the prompts for censored users and connected to a bridge which allowed him to access the internet again.
 
-With Tor Browser, Jean can browse freely and privately and contact his family. 
+С Tor Browser, Жан может просматривать в частном порядке и связаться со своей семьей.
 
 ### Censored users all over the world rely on Tor Browser for a free, stable, and uncensored way to access the internet.
 
@@ -103,7 +103,7 @@ When you use Tor Browser, no one can see what websites you visit or where in the
 Other applications, like SecureDrop and OnionShare, use Tor to protect their users against surveillance and censorship.
 
 
-## 6. How does Tor work?
+## 6. Как работает Tor?
 
 Amal wants to visit Bekele’s website privately, so she opens Tor Browser.
 
