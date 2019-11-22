@@ -24,7 +24,7 @@
 
 Вместе они сделали сайт с данными об абортах, контроле над рождаемостью и прочей информацией по теме.
 
-If this website was linked back to them, they could be arrested--or worse. 
+Если этот сайт был связан с ними, они могут быть арестованы - или еще хуже.
 
 To protect themselves, Fernanda and her colleagues created the website using Tor **onion services**. Onion services not only protect them from being discovered as the operators of the server but also help protect visitors to their website by requiring they use Tor Browser. 
 
@@ -113,7 +113,7 @@ Tor Browser then encrypts her website request three times and sends it to the fi
 
 The first relay removes the first encryption layer but doesn't learn that the destination is Bekele’s website.
 
-The first relay learns only the next location in the circuit, which is the second relay.
+Первое реле запоминает только следующее место в цепи, которое является вторым реле.
 
 The second relay removes another encryption layer and forwards the web page request to the third relay.
 
@@ -123,25 +123,25 @@ Bekele doesn't know that the website request came from Amal unless she tells him
 
 ## 7. Кто пользуется Tor? 
 
-People all over the world use Tor to protect their privacy and access the web freely.
+Люди во всем мире используют Tor для защиты своей частной жизни и свободно пользуются Интернетом.
 
 Tor helps protect journalists, human rights defenders, domestic violence victims, academic researchers, and anyone experiencing tracking, censorship, or surveillance. 
 
-## 6. Why trust Tor?
+## 6. Зачем доверять Tor?
 
-Tor is designed for privacy. We don’t know who our users are, and we don't keep logs of user activity.
+Tor предназначен для приватности. Мы не знаем, кто наши пользователи, и мы не ведем журналы активности пользователей.
 
-Tor relay operators cannot reveal the true identity of Tor users.
+Операторы ретрансляции Tor не могут раскрыть истинную личность пользователей Tor.
 
-Continual peer review of Tor's source code by academic and open source communities ensures that there are no backdoors in Tor, and our social contract promises that we will never backdoor Tor. 
+Постоянный экспертный анализ исходного кода Tor со стороны академических сообществ и сообществ с открытым исходным кодом гарантирует, что у Tor нет никаких бэкдоров, а наш социальный контракт обещает, что мы никогда не заразим Tor.
 
-## 7. Join the Tor community
+## 7. Присоединяйтесь к сообществу Tor
 
-Tor is made possible by a diverse set of users, developers, relay operators, and advocates from around the world.
+Tor становится возможным благодаря широкому кругу пользователей, разработчиков, операторов ретрансляции и защитников со всего мира.
 
-We need your help to make Tor more usable and secure for people everywhere.
+Нам нужна ваша помощь, чтобы сделать Tor более удобным и безопасным для людей во всем мире.
 
-You can volunteer with Tor by writing code, running a relay, creating documentation, offering user support, or telling people in your community about Tor.
+Вы можете стать волонтером для Tor, написав код, запустив ретранслятор, создав документацию, предложив поддержку пользователей или рассказав людям в своем сообществе о Tor.
 
 The Tor community is governed by a code of conduct, and we outline our set of promises to the community in our social contract. 
 
