@@ -16,15 +16,15 @@
 
 ---
 
-# 2.TOR FOR FEMINISTS 
+# 2.ফেমিনিস্টদের জন্য টোর
 
-### The future is cyberfeminist
+### ভবিষ্যত হচ্ছে সাইবারফ্যানিস্ট
 
 ফেরন্দা ব্রাজিলে প্রজনন অধিকারের উপর নারীদের সম্মিলিত মনোযোগ প্রদান করে, যেখানে গর্ভপাত অবৈধ 
 
 ফেরন্দা এবং তার সহকর্মীরা একটি ওয়েবসাইট তৈরি করেছেন, যার মধ্যে রয়েছে গর্ভপাত সুবিধা, জন্ম নিয়ন্ত্রণ এবং মানুষের প্রজনন সংক্রান্ত চাওয়া তথ্য।
 
-If this website was linked back to them, they could be arrested--or worse. 
+এই ওয়েবসাইটটি যদি তাদের সাথে আবার যুক্ত করা হত, তবে তারা গ্রেপ্তার হতে পারে - বা আরও খারাপ।
 
 নিজেদের রক্ষা করার জন্য, ফেরনন্দ  এবং তার সহকর্মীরা টর **onion services** ব্যবহার করে ওয়েবসাইটটি তৈরি করেছে । Onion Services শুধুমাত্র তাদের সার্ভার অপারেটর হিসাবে আবিষ্কৃত হওয়া থেকে রক্ষা করা হয় না, কিন্তু তারা টর ব্রাউজার ব্যবহার করে তাদের ওয়েবসাইটে দর্শকদের রক্ষা করতে সহায়তা করে.
 
@@ -38,7 +38,7 @@ If this website was linked back to them, they could be arrested--or worse.
 
 # 3. মানবাধিকারের জন্য টর
 
-### Water is life 
+### জলই জীবন
 
 জেলানি একটি ছোট্ট গ্রামে বসবাস করে যার মধ্যো দিয়ে বিস্তৃত নদী চলে।
 
@@ -46,11 +46,11 @@ If this website was linked back to them, they could be arrested--or worse.
 
 কিন্তু বর্তমানে, জেলানীর নদী অঞ্চলে তেলের জন্য শক্তিশালী বহুজাতিক কোম্পানিগুলো ড্রিলিং-এর মাধ্যমে হুমকির মুখে পড়েছে ।
 
-Private security firms, paid for by these companies, use powerful surveillance mechanisms to monitor the online activities of Jelani and his neighbors in the village who are organizing to protect their sacred river. 
+জেলানী এবং তার প্রতিবেশী গ্রামগুলির যারা তাদের পবিত্র নদী রক্ষার জন্য সংগঠিত হচ্ছে তাদের অনলাইন কার্যক্রম পর্যবেক্ষণ করার জন্য এই সংস্থাগুলির অর্থ প্রদান করা ব্যক্তিগত সুরক্ষা সংস্থাগুলি শক্তিশালী নজরদারি ব্যবস্থা ব্যবহার করে।
 
 Jelani uses **Tor Browser** to prevent these companies from watching as he visits websites for international human rights protection and legal aid and writes blog posts about the resistance movement in his village.
 
-He also uses **OnionShare** and **SecureDrop** to securely send documents to journalists who are helping expose these human rights violations.
+এই সাংবাদিকদের যারা সুরক্ষিতভাবে এই মানবাধিকার লঙ্ঘন প্রকাশ করতে সহায়তা করছেন তাদের কাছে ডকুমেন্টগুলি সুরক্ষিতভাবে প্রেরণের জন্য তিনি **OnionShare** এবং **SecureDrop** ব্যবহার করেন।
 
 এই সমস্ত সফ্টওয়্যার টর ব্যবহার করে জেলানির গোপনীয়তা রক্ষায় সাহায্য করার জন্য ।
 
@@ -84,7 +84,7 @@ After doing some web searches, he found a forum and read about VPNs, private ser
 
 When he opened **Tor Browser**, he followed the prompts for censored users and connected to a bridge which allowed him to access the internet again.
 
-With Tor Browser, Jean can browse freely and privately and contact his family. 
+Tor Browser এর সাহায্যে জিন স্বচ্ছন্দে এবং ব্যক্তিগতভাবে ব্রাউজ করতে এবং তার পরিবারের সাথে যোগাযোগ করতে পারবে।
 
 ### Censored users all over the world rely on Tor Browser for a free, stable, and uncensored way to access the internet.
 
@@ -103,7 +103,7 @@ With Tor Browser, Jean can browse freely and privately and contact his family.
 Other applications, like SecureDrop and OnionShare, use Tor to protect their users against surveillance and censorship.
 
 
-## 6. How does Tor work?
+## 6. টর কীভাবে কাজ করে?
 
 Amal wants to visit Bekele’s website privately, so she opens Tor Browser.
 
@@ -121,13 +121,13 @@ The third relay removes the last encryption layer and forwards the web page requ
 
 Bekele doesn't know that the website request came from Amal unless she tells him so.
 
-## 7. Who uses Tor? 
+## 7. টর কে ব্যবহার করে?
 
 People all over the world use Tor to protect their privacy and access the web freely.
 
 Tor helps protect journalists, human rights defenders, domestic violence victims, academic researchers, and anyone experiencing tracking, censorship, or surveillance. 
 
-## 6. Why trust Tor?
+## 6. টর কেন বিশ্বাস করবেন?
 
 Tor is designed for privacy. We don’t know who our users are, and we don't keep logs of user activity.
 
@@ -135,7 +135,7 @@ Tor relay operators cannot reveal the true identity of Tor users.
 
 Continual peer review of Tor's source code by academic and open source communities ensures that there are no backdoors in Tor, and our social contract promises that we will never backdoor Tor. 
 
-## 7. Join the Tor community
+## 7. টর সম্প্রদায়টিতে যোগদান করুন
 
 Tor is made possible by a diverse set of users, developers, relay operators, and advocates from around the world.
 
@@ -148,15 +148,15 @@ The Tor community is governed by a code of conduct, and we outline our set of pr
 Learn more about Tor by visiting our website, our wiki, finding us on IRC, joining one of our mailing lists, or signing up for Tor News at newsletter.torproject.org.
 
 
-## 8. Download Tor
+## 8. টর ডাউনলোড করুন
 
-Tor for Desktop
+টর্প ডেস্কটপ জন্য
 torproject.org/download
 
-TOR ON MOBILE
-### Android 
-Tor Browser for Android is available from GooglePlay.
+মোবাইল এ টর
+### অ্যান্ড্রয়েড
+অ্যান্ড্রয়েডের জন্য Tor Browser গুগল প্লে থেকে পাওয়া যায়।
 
 ### iOS
-Onion Browser, developed by M. Tigas, is the only browser we recommend for iOS.
+M. Tigas দ্বারা বিকশিত Onion Browser হ'ল আমরা কেবলমাত্র iOS এর জন্য প্রস্তাবিত ব্রাউজার।
 
