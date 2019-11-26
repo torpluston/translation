@@ -4645,16 +4645,22 @@ msgid ""
 "serve a certain amount of bandwidth per time period (such as 100 GB per "
 "month). These are covered in the hibernation entry below."
 msgstr ""
+"În plus, există opțiuni de hibernare în care puteți spune lui Tor să "
+"servească doar o anumită cantitate de lățime de bandă pe o perioadă de timp "
+"(cum ar fi 100 GB pe lună). Acestea sunt incluse în intrarea de hibernare de"
+" mai jos."
 
 #: https//support.torproject.org/operators/bandwidth-shaping/
 #: (content/operators/bandwidth-shaping/contents+en.lrquestion.description)
 msgid "Note that BandwidthRate and BandwidthBurst are in **Bytes**, not Bits."
 msgstr ""
+"Rețineți că BandwidthRate și BandwidthBurst sunt exprimate în **Bytes**, nu "
+"Bits."
 
 #: https//support.torproject.org/operators/behind-nat/
 #: (content/operators/behind-nat/contents+en.lrquestion.title)
 msgid "I'm behind a NAT/Firewall."
-msgstr ""
+msgstr "Sunt în spatele unui NAT / Firewall."
 
 #: https//support.torproject.org/operators/behind-nat/
 #: (content/operators/behind-nat/contents+en.lrquestion.description)
@@ -4662,6 +4668,8 @@ msgid ""
 "See [portforward.com](https://portforward.com/) for directions on how to "
 "port forward with your NAT/router device."
 msgstr ""
+"Vedeți [portforward.com] (https://portforward.com/) pentru indicații despre "
+"cum să faceți un port înainte cu dispozitivul NAT / router."
 
 #: https//support.torproject.org/operators/behind-nat/
 #: (content/operators/behind-nat/contents+en.lrquestion.description)
@@ -4669,6 +4677,8 @@ msgid ""
 "If your relay is running on a internal net, you need to setup port "
 "forwarding."
 msgstr ""
+"Dacă releul dvs. rulează pe o rețea internă, trebuie să configurați "
+"redirecționarea porturilor."
 
 #: https//support.torproject.org/operators/behind-nat/
 #: (content/operators/behind-nat/contents+en.lrquestion.description)
@@ -4676,6 +4686,9 @@ msgid ""
 "Forwarding TCP connections is system dependent but the firewalled-clients "
 "FAQ entry offers some examples on how to do this."
 msgstr ""
+"Redirecționarea conexiunilor TCP depinde de sistem, dar câteva articole de "
+"pe întrebări frecvente pentru clienți care sunt în spatele unui firewall "
+"oferă câteva exemple despre cum se face acest lucru."
 
 #: https//support.torproject.org/operators/behind-nat/
 #: (content/operators/behind-nat/contents+en.lrquestion.description)
@@ -4683,12 +4696,15 @@ msgid ""
 "Also, here's an example of how you would do this on GNU/Linux if you're "
 "using iptables:"
 msgstr ""
+"De asemenea, iată un exemplu despre cum puteți face acest lucru pe GNU / "
+"Linux dacă folosiți iptables:"
 
 #: https//support.torproject.org/operators/behind-nat/
 #: (content/operators/behind-nat/contents+en.lrquestion.description)
 msgid ""
 "/sbin/iptables -A INPUT -i eth0 -p tcp --destination-port 9001 -j ACCEPT"
 msgstr ""
+"/sbin/iptables -A INPUT -i eth0 -p tcp --destination-port 9001 -j ACCEPT"
 
 #: https//support.torproject.org/operators/behind-nat/
 #: (content/operators/behind-nat/contents+en.lrquestion.description)
@@ -4696,6 +4712,8 @@ msgid ""
 "You may have to change \"eth0\" if you have a different external interface "
 "(the one connected to the Internet)."
 msgstr ""
+"Este posibil să fiți nevoit să schimbați „eth0” dacă aveți o altă interfață "
+"externă (cea conectată la Internet)."
 
 #: https//support.torproject.org/operators/behind-nat/
 #: (content/operators/behind-nat/contents+en.lrquestion.description)
@@ -4703,22 +4721,26 @@ msgid ""
 "Chances are you have only one (except the loopback) so it shouldn't be too "
 "hard to figure out."
 msgstr ""
+"Este posibil să aveți una singură (cu excepția returnării buclei), deci nu "
+"ar trebui să fie prea greu să vă dați seama."
 
 #: https//support.torproject.org/operators/better-anonymity/
 #: (content/operators/better-anonymity/contents+en.lrquestion.title)
 msgid "Do I get better anonymity if I run a relay?"
-msgstr ""
+msgstr "Am un anonimat mai bun dacă rulez un releu?"
 
 #: https//support.torproject.org/operators/better-anonymity/
 #: (content/operators/better-anonymity/contents+en.lrquestion.description)
 msgid "Yes, you do get better anonymity against some attacks."
-msgstr ""
+msgstr "Da, obțineți un anonimat mai bun împotriva unor atacuri."
 
 #: https//support.torproject.org/operators/better-anonymity/
 #: (content/operators/better-anonymity/contents+en.lrquestion.description)
 msgid ""
 "The simplest example is an attacker who owns a small number of Tor relays."
 msgstr ""
+"Cel mai simplu exemplu este un atacator care deține un număr mic de relee "
+"Tor."
 
 #: https//support.torproject.org/operators/better-anonymity/
 #: (content/operators/better-anonymity/contents+en.lrquestion.description)
@@ -4727,6 +4749,8 @@ msgid ""
 "the connection originated at your computer or was relayed from somebody "
 "else."
 msgstr ""
+"Vor vedea o conexiune de la dvs., dar nu vor putea ști dacă conexiunea este "
+"stabilită de pe computer sau a fost transmisă de la altcineva."
 
 #: https//support.torproject.org/operators/better-anonymity/
 #: (content/operators/better-anonymity/contents+en.lrquestion.description)
@@ -4735,6 +4759,9 @@ msgid ""
 " all of your incoming and outgoing traffic, then it's easy for them to learn"
 " which connections were relayed and which started at you."
 msgstr ""
+"Există câteva cazuri în care pare să nu ajute: dacă un atacator vă poate "
+"urmări întregul trafic de intrare și ieșire, atunci este ușor să afle ce "
+"conexiuni au fost transmise și care au pornit de la dvs."
 
 #: https//support.torproject.org/operators/better-anonymity/
 #: (content/operators/better-anonymity/contents+en.lrquestion.description)
@@ -4743,11 +4770,13 @@ msgid ""
 "watching them too, but you're no better off than if you were an ordinary "
 "client.)"
 msgstr ""
+"(În acest caz, încă nu știu destinațiile dvs. decât dacă le urmăresc și ei, "
+"dar este la fel ca atunci când sunteți un client obișnuit.)"
 
 #: https//support.torproject.org/operators/better-anonymity/
 #: (content/operators/better-anonymity/contents+en.lrquestion.description)
 msgid "There are also some downsides to running a Tor relay."
-msgstr ""
+msgstr "Există, de asemenea, unele dezavantaje la rularea unui releu Tor."
 
 #: https//support.torproject.org/operators/better-anonymity/
 #: (content/operators/better-anonymity/contents+en.lrquestion.description)
@@ -4756,6 +4785,9 @@ msgid ""
 " one might signal to an attacker that you place a high value on your "
 "anonymity."
 msgstr ""
+"În primul rând, în timp ce avem doar câteva sute de relee, faptul că "
+"executați unul poate semnala unui atacator că puneți un accent ridicat pe "
+"anonimat."
 
 #: https//support.torproject.org/operators/better-anonymity/
 #: (content/operators/better-anonymity/contents+en.lrquestion.description)
@@ -4767,32 +4799,40 @@ msgid ""
 "relaying traffic through your Tor relay and noticing changes in traffic "
 "timing."
 msgstr ""
+"În al doilea rând, există unele atacuri mai ezoterice care nu sunt la fel de"
+" bine înțelese sau bine testate, care implică utilizarea cunoștințelor că "
+"rulează un releu - de exemplu, un atacator poate fi capabil să „observe” "
+"dacă „ trimiteți trafic chiar dacă nu vă pot urmări de fapt rețeaua, "
+"transmitând traficul prin releul Tor și observând modificările din "
+"calendarul traficului."
 
 #: https//support.torproject.org/operators/better-anonymity/
 #: (content/operators/better-anonymity/contents+en.lrquestion.description)
 msgid ""
 "It is an open research question whether the benefits outweigh the risks."
 msgstr ""
+"Este o întrebare deschisă de cercetare dacă beneficiile depășesc riscurile."
 
 #: https//support.torproject.org/operators/better-anonymity/
 #: (content/operators/better-anonymity/contents+en.lrquestion.description)
 msgid "A lot of that depends on the attacks you are most worried about."
-msgstr ""
+msgstr "Multe dintre acestea depind de atacurile care vă îngrijorează."
 
 #: https//support.torproject.org/operators/better-anonymity/
 #: (content/operators/better-anonymity/contents+en.lrquestion.description)
 msgid "For most users, we think it's a smart move."
 msgstr ""
+"Pentru majoritatea utilizatorilor, considerăm că este o mișcare inteligentă."
 
 #: https//support.torproject.org/operators/dynamic-ip/
 #: (content/operators/dynamic-ip/contents+en.lrquestion.title)
 msgid "Can I run a Tor relay using a dynamic IP address?"
-msgstr ""
+msgstr "Pot rula un releu Tor folosind o adresă IP dinamică?"
 
 #: https//support.torproject.org/operators/dynamic-ip/
 #: (content/operators/dynamic-ip/contents+en.lrquestion.description)
 msgid "Tor can handle relays with dynamic IP addresses just fine."
-msgstr ""
+msgstr "Tor poate gestiona releele cu adrese IP dinamice."
 
 #: https//support.torproject.org/operators/dynamic-ip/
 #: (content/operators/dynamic-ip/contents+en.lrquestion.description)
@@ -4801,16 +4841,18 @@ msgid ""
 "[torrc](https://support.torproject.org/tbb/tbb-editing-torrc/) blank, and "
 "Tor will guess."
 msgstr ""
+"Lăsați goală linia „Adresă” din [torrc] (https://support.torproject.org/tbb"
+"/tbb-editing-torrc/), iar Tor o va ghici."
 
 #: https//support.torproject.org/operators/exit-policies/
 #: (content/operators/exit-policies/contents+en.lrquestion.title)
 msgid "I'd run a relay, but I don't want to deal with abuse issues."
-msgstr ""
+msgstr "Aș rula un releu, dar nu vreau să mă ocup de probleme de abuz."
 
 #: https//support.torproject.org/operators/exit-policies/
 #: (content/operators/exit-policies/contents+en.lrquestion.description)
 msgid "Great. That's exactly why we implemented exit policies."
-msgstr ""
+msgstr "Grozav. Tocmai de aceea am implementat politicile de ieșire."
 
 #: https//support.torproject.org/operators/exit-policies/
 #: (content/operators/exit-policies/contents+en.lrquestion.description)
@@ -4818,6 +4860,8 @@ msgid ""
 "Each Tor relay has an exit policy that specifies what sort of outbound "
 "connections are allowed or refused from that relay."
 msgstr ""
+"Fiecare releu Tor are o politică de ieșire care specifică ce fel de "
+"conexiuni de ieșire sunt permise sau refuzate din acel releu."
 
 #: https//support.torproject.org/operators/exit-policies/
 #: (content/operators/exit-policies/contents+en.lrquestion.description)
@@ -4826,6 +4870,9 @@ msgid ""
 "clients will automatically avoid picking exit relays that would refuse to "
 "exit to their intended destination."
 msgstr ""
+"Politicile de ieșire sunt propagate către clienții Tor prin director, astfel"
+" încât clienții vor evita automat să aleagă relee de ieșire care ar refuza "
+"să iasă la destinația dorită."
 
 #: https//support.torproject.org/operators/exit-policies/
 #: (content/operators/exit-policies/contents+en.lrquestion.description)
@@ -4833,6 +4880,9 @@ msgid ""
 "This way each relay can decide the services, hosts, and networks it wants to"
 " allow connections to, based on abuse potential and its own situation."
 msgstr ""
+"Astfel fiecare releu poate decide serviciile, gazdele și rețelele pe care "
+"dorește să le permită conexiunile, pe baza potențialului de abuz și a "
+"propriei situații."
 
 #: https//support.torproject.org/operators/exit-policies/
 #: (content/operators/exit-policies/contents+en.lrquestion.description)
@@ -4843,6 +4893,12 @@ msgid ""
 "read Mike Perry's [tips for running an exit node with minimal "
 "harassment](https://blog.torproject.org/blog/tips-running-exit-node)."
 msgstr ""
+"Citiți [înregistrarea de asistență pentru problemele pe care le puteți "
+"întâmpina] (https://2019.www.torproject.org/docs/faq-"
+"abuse.html.en#TypicalAbuses) dacă utilizați politica de ieșire implicită, "
+"apoi citiți [sfaturile pentru a rula un nod de ieșire cu hărțuire minimă] "
+"(https://blog.torproject.org/blog/tips-running-exit-node) ale lui Mike "
+"Perry."
 
 #: https//support.torproject.org/operators/exit-policies/
 #: (content/operators/exit-policies/contents+en.lrquestion.description)
@@ -4852,11 +4908,16 @@ msgid ""
 "since the Tor network can't handle the load (e.g. default file-sharing "
 "ports)."
 msgstr ""
+"Politica implicită de ieșire permite accesul la numeroase servicii populare "
+"(de exemplu, navigare web), dar restricționează unele din cauza "
+"potențialului de abuz (de exemplu, e-mail) și altele, deoarece rețeaua Tor "
+"nu poate suporta încărcarea (de exemplu, porturi implicite pentru partajarea"
+" fișierelor)."
 
 #: https//support.torproject.org/operators/exit-policies/
 #: (content/operators/exit-policies/contents+en.lrquestion.description)
 msgid "You can change your exit policy by editing your torrc file."
-msgstr ""
+msgstr "Puteți modifica politica de ieșire prin editarea fișierului torrc."
 
 #: https//support.torproject.org/operators/exit-policies/
 #: (content/operators/exit-policies/contents+en.lrquestion.description)
@@ -4864,6 +4925,8 @@ msgid ""
 "If you want to avoid most if not all abuse potential, set it to \"reject "
 "*:*\"."
 msgstr ""
+"Dacă doriți să le evitați pe cele mai multe, dacă nu pe toate abuzurile "
+"potențiale, setați-l la \"reject *:*\"."
 
 #: https//support.torproject.org/operators/exit-policies/
 #: (content/operators/exit-policies/contents+en.lrquestion.description)
@@ -4872,6 +4935,9 @@ msgid ""
 "the Tor network, but not for connections to external websites or other "
 "services."
 msgstr ""
+"Această setare înseamnă că releul dvs. va fi utilizat pentru redarea "
+"traficului în rețeaua Tor, dar nu pentru conexiuni la site-uri web externe "
+"sau alte servicii."
 
 #: https//support.torproject.org/operators/exit-policies/
 #: (content/operators/exit-policies/contents+en.lrquestion.description)
@@ -4879,6 +4945,9 @@ msgid ""
 "If you do allow any exit connections, make sure name resolution works (that "
 "is, your computer can resolve Internet addresses correctly)."
 msgstr ""
+"Dacă permiteți conexiuni de ieșire, asigurați-vă că rezoluția pentru nume "
+"funcționează (adică computerul dvs. poate rezolva corect adresele de "
+"internet)."
 
 #: https//support.torproject.org/operators/exit-policies/
 #: (content/operators/exit-policies/contents+en.lrquestion.description)
@@ -4887,6 +4956,10 @@ msgid ""
 "are behind a restrictive firewall or content filter), please explicitly "
 "reject them in your exit policy  otherwise Tor users will be impacted too."
 msgstr ""
+"Dacă există resurse la care computerul dvs. nu poate ajunge (de exemplu, vă "
+"aflați în spatele unui firewall sau a unui filtru de conținut restrictiv), "
+"vă rugăm să le respingeți în politica dvs. de ieșire, altfel utilizatorii "
+"Tor vor fi afectați și ei."
 
 #: https//support.torproject.org/operators/facing-legal-trouble/
 #: (content/operators/facing-legal-trouble/contents+en.lrquestion.title)
@@ -4894,6 +4967,8 @@ msgid ""
 "I'm facing legal trouble. How do I prove that my server was a Tor relay at a"
 " given time?"
 msgstr ""
+"Mă confrunt cu probleme legale. Cum dovedesc că serverul meu a fost un releu"
+" Tor la un moment dat?"
 
 #: https//support.torproject.org/operators/facing-legal-trouble/
 #: (content/operators/facing-legal-trouble/contents+en.lrquestion.description)
@@ -4901,6 +4976,8 @@ msgid ""
 "[Exonerator](https://exonerator.torproject.org/) is a web service that can "
 "check if an IP address was a relay at a given time."
 msgstr ""
+"[Exonerator] (https://exonerator.torproject.org/) este un serviciu web care "
+"poate verifica dacă o adresă IP a fost releu la un moment dat."
 
 #: https//support.torproject.org/operators/facing-legal-trouble/
 #: (content/operators/facing-legal-trouble/contents+en.lrquestion.description)
@@ -4908,11 +4985,14 @@ msgid ""
 "We can also [provide a signed letter](https://www.torproject.org/contact/) "
 "if needed."
 msgstr ""
+"De asemenea, putem [furniza o scrisoare semnată] "
+"(https://www.torproject.org/contact/) dacă este nevoie."
 
 #: https//support.torproject.org/operators/hibernation/
 #: (content/operators/hibernation/contents+en.lrquestion.title)
 msgid "Why can I not browse anymore after limiting bandwidth on my Tor relay?"
 msgstr ""
+"De ce nu mai pot naviga din releul meu Tor după limitarea lățimii de bandă ?"
 
 #: https//support.torproject.org/operators/hibernation/
 #: (content/operators/hibernation/contents+en.lrquestion.description)
