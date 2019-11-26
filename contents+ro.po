@@ -5003,6 +5003,11 @@ msgid ""
 "[BandwidthRate](https://2019.www.torproject.org/docs/faq.html.en#BandwidthShaping)"
 " apply to both client and relay functions of the Tor process."
 msgstr ""
+"Parametrii alocați în [AccountingMax] "
+"(https://2019.www.torproject.org/docs/faq.html.en#LimitTotalBandwidth) și în"
+" [BandwidthRate] (https://2019.www.torproject.org/docs/ faq.html.ro # "
+"BandwidthShaping) se aplică atât funcțiilor client cât și funcțiilor "
+"releului procesului Tor."
 
 #: https//support.torproject.org/operators/hibernation/
 #: (content/operators/hibernation/contents+en.lrquestion.description)
@@ -5010,6 +5015,8 @@ msgid ""
 "Thus you may find that you are unable to browse as soon as your Tor goes "
 "into hibernation, signaled by this entry in the log:"
 msgstr ""
+"Astfel, este posibil să descoperiți că nu puteți naviga imediat ce Tor trece"
+" în hibernare, lucru semnalat de această intrare din jurnal:"
 
 #: https//support.torproject.org/operators/hibernation/
 #: (content/operators/hibernation/contents+en.lrquestion.description)
@@ -5024,17 +5031,17 @@ msgstr ""
 #: https//support.torproject.org/apt/apt-over-tor/
 #: (content/apt/apt-3/contents+en.lrquestion.description)
 msgid "```"
-msgstr ""
+msgstr "```"
 
 #: https//support.torproject.org/operators/hibernation/
 #: (content/operators/hibernation/contents+en.lrquestion.description)
 msgid "Bandwidth soft limit reached; commencing hibernation. No new"
-msgstr ""
+msgstr "Bandwidth soft limit reached; commencing hibernation. No new"
 
 #: https//support.torproject.org/operators/hibernation/
 #: (content/operators/hibernation/contents+en.lrquestion.description)
 msgid "connections will be accepted"
-msgstr ""
+msgstr "connections will be accepted"
 
 #: https//support.torproject.org/operators/hibernation/
 #: (content/operators/hibernation/contents+en.lrquestion.description)
@@ -5042,6 +5049,8 @@ msgid ""
 "The solution is to run two Tor processes - one relay and one client, each "
 "with its own config."
 msgstr ""
+"Soluția este de a rula două procese Tor - un releu și un client, fiecare "
+"având propria configurație."
 
 #: https//support.torproject.org/operators/hibernation/
 #: (content/operators/hibernation/contents+en.lrquestion.description)
@@ -5049,11 +5058,14 @@ msgid ""
 "One way to do this (if you are starting from a working relay setup) is as "
 "follows:"
 msgstr ""
+"O modalitate de a face acest lucru (dacă începeți de la o configurare a "
+"releului de lucru) este următoarea:"
 
 #: https//support.torproject.org/operators/hibernation/
 #: (content/operators/hibernation/contents+en.lrquestion.description)
 msgid "* In the relay Tor torrc file, simply set the SocksPort to 0."
 msgstr ""
+"* În fișierul de releu Tor torcc, setați pur și simplu SocksPort la 0."
 
 #: https//support.torproject.org/operators/hibernation/
 #: (content/operators/hibernation/contents+en.lrquestion.description)
@@ -5061,11 +5073,13 @@ msgid ""
 "* Create a new client torrc file from the torrc.sample and ensure it uses a "
 "different log file from the relay."
 msgstr ""
+"* Creați un nou fișier torrc client din torrc.sample și asigurați-vă că "
+"folosește un fișier jurnal diferit de releu."
 
 #: https//support.torproject.org/operators/hibernation/
 #: (content/operators/hibernation/contents+en.lrquestion.description)
 msgid "One naming convention may be torrc.client and torrc.relay."
-msgstr ""
+msgstr "O convenție de denumire poate fi torrc.client și torrc.relay."
 
 #: https//support.torproject.org/operators/hibernation/
 #: (content/operators/hibernation/contents+en.lrquestion.description)
@@ -5073,6 +5087,8 @@ msgid ""
 "* Modify the Tor client and relay startup scripts to include `-f "
 "/path/to/correct/torrc`."
 msgstr ""
+"* Modificați scripturile de pornire client Tor și releu pentru a include `-f"
+" /path/to/correct/torrc`."
 
 #: https//support.torproject.org/operators/hibernation/
 #: (content/operators/hibernation/contents+en.lrquestion.description)
@@ -5080,11 +5096,13 @@ msgid ""
 "* In Linux/BSD/Mac OS X, changing the startup scripts to `Tor.client` and "
 "`Tor.relay` may make separation of configs easier."
 msgstr ""
+"* În Linux/BSD/Mac OS X, schimbarea scripturilor de pornire în `Tor.client` "
+"și` Tor.relay` poate face mai ușoară separarea configurațiilor."
 
 #: https//support.torproject.org/operators/ipv6-relay/
 #: (content/operators/ipv6-relay/contents+en.lrquestion.title)
 msgid "Can I use IPv6 on my relay?"
-msgstr ""
+msgstr "Pot folosi IPv6 pe releul meu?"
 
 #: https//support.torproject.org/operators/ipv6-relay/
 #: (content/operators/ipv6-relay/contents+en.lrquestion.description)
@@ -5096,6 +5114,12 @@ msgid ""
 " in their [torrc](https://support.torproject.org/tbb/tbb-editing-torrc/) "
 "configuration files when IPv6 connectivity is available."
 msgstr ""
+"Tor [are suport parțial pentru IPv6] "
+"(https://trac.torproject.org/projects/tor/wiki/org/roadmaps/Tor/IPv6Features)"
+" și încurajăm fiecare operator de releu să [activeze funcționalitatea IPv6] "
+"(https://trac.torproject.org/projects/tor/wiki/TorRelayGuide#IPv6) în "
+"fișierele lor [torrc] (https://support.torproject.org/tbb/tbb-editing-"
+"torrc/) când conectivitatea IPv6 este disponibilă."
 
 #: https//support.torproject.org/operators/ipv6-relay/
 #: (content/operators/ipv6-relay/contents+en.lrquestion.description)
@@ -5103,11 +5127,15 @@ msgid ""
 "For the time being Tor will require IPv4 addresses on relays, you can not "
 "run a Tor relay on a host with IPv6 addresses only."
 msgstr ""
+"Deocamdată Tor va avea nevoie de adrese IPv4 pe relee, nu puteți rula un "
+"releu Tor pe o gazdă doar cu adrese IPv6."
 
 #: https//support.torproject.org/operators/limit-total-bandwidth/
 #: (content/operators/limit-total-bandwidth/contents+en.lrquestion.title)
 msgid "How can I limit the total amount of bandwidth used by my Tor relay?"
 msgstr ""
+"Cum pot limita cantitatea totală de lățime de bandă folosită de releul meu "
+"Tor?"
 
 #: https//support.torproject.org/operators/limit-total-bandwidth/
 #: (content/operators/limit-total-bandwidth/contents+en.lrquestion.description)
@@ -5115,11 +5143,14 @@ msgid ""
 "The accounting options in the torrc file allow you to specify the maximum "
 "amount of bytes your relay uses for a time period."
 msgstr ""
+"Opțiunile de contorizare din fișierul torr vă permit să specificați "
+"cantitatea maximă de octeți pe care o folosește releul dvs. pentru o "
+"perioadă de timp."
 
 #: https//support.torproject.org/operators/limit-total-bandwidth/
 #: (content/operators/limit-total-bandwidth/contents+en.lrquestion.description)
 msgid "AccountingStart day week month [day] HH:MM"
-msgstr ""
+msgstr "AccountingStart day week month [day] HH:MM"
 
 #: https//support.torproject.org/operators/limit-total-bandwidth/
 #: (content/operators/limit-total-bandwidth/contents+en.lrquestion.description)
@@ -5128,16 +5159,20 @@ msgid ""
 "total amount of bytes served for a week (that resets every Wednesday at "
 "10:00am), you would use:"
 msgstr ""
+"Aceasta specifică momentul în care contorizarea trebuie resetată. De "
+"exemplu, pentru a configura o cantitate totală de octeți servită timp de o "
+"săptămână (care se resetează în fiecare miercuri la 10:00), ar trebui să "
+"utilizați:"
 
 #: https//support.torproject.org/operators/limit-total-bandwidth/
 #: (content/operators/limit-total-bandwidth/contents+en.lrquestion.description)
 msgid "AccountingStart week 3 10:00"
-msgstr ""
+msgstr "AccountingStart week 3 10:00"
 
 #: https//support.torproject.org/operators/limit-total-bandwidth/
 #: (content/operators/limit-total-bandwidth/contents+en.lrquestion.description)
 msgid "AccountingMax 500 GBytes"
-msgstr ""
+msgstr "AccountingMax 500 GBytes"
 
 #: https//support.torproject.org/operators/limit-total-bandwidth/
 #: (content/operators/limit-total-bandwidth/contents+en.lrquestion.description)
@@ -5146,6 +5181,10 @@ msgid ""
 "accounting period, and the maximum amount of data your relay will receive "
 "during an account period."
 msgstr ""
+"Aceasta specifică cantitatea maximă de informații pe care o va transmite "
+"releul dvs. într-o perioadă de contorizare și cantitatea maximă de "
+"informații pe care o va primi releul dvs. în timpul unei perioade "
+"contorizate."
 
 #: https//support.torproject.org/operators/limit-total-bandwidth/
 #: (content/operators/limit-total-bandwidth/contents+en.lrquestion.description)
@@ -5153,6 +5192,8 @@ msgid ""
 "When the accounting period resets (from AccountingStart), then the counters "
 "for AccountingMax are reset to 0."
 msgstr ""
+"Când perioada de contorizare se resetează (de la AccountingStart), "
+"contoarele pentru AccountingMax sunt resetate la 0."
 
 #: https//support.torproject.org/operators/limit-total-bandwidth/
 #: (content/operators/limit-total-bandwidth/contents+en.lrquestion.description)
@@ -5160,16 +5201,19 @@ msgid ""
 "Example: Let's say you want to allow 50 GB of traffic every day in each "
 "direction and the accounting should reset at noon each day:"
 msgstr ""
+"Exemplu: Să spunem că doriți să permiteți 50 GB trafic în fiecare zi în "
+"fiecare direcție, iar contorizarea ar trebui să se reseteze la prânz în "
+"fiecare zi:"
 
 #: https//support.torproject.org/operators/limit-total-bandwidth/
 #: (content/operators/limit-total-bandwidth/contents+en.lrquestion.description)
 msgid "AccountingStart day 12:00"
-msgstr ""
+msgstr "AccountingStart day 12:00"
 
 #: https//support.torproject.org/operators/limit-total-bandwidth/
 #: (content/operators/limit-total-bandwidth/contents+en.lrquestion.description)
 msgid "AccountingMax 50 GBytes"
-msgstr ""
+msgstr "AccountingMax 50 GBytes"
 
 #: https//support.torproject.org/operators/limit-total-bandwidth/
 #: (content/operators/limit-total-bandwidth/contents+en.lrquestion.description)
@@ -5177,6 +5221,8 @@ msgid ""
 "Note that your relay won't wake up exactly at the beginning of each "
 "accounting period."
 msgstr ""
+"Rețineți că releul dvs. nu va porni exact la începutul fiecărei perioade "
+"contorizate."
 
 #: https//support.torproject.org/operators/limit-total-bandwidth/
 #: (content/operators/limit-total-bandwidth/contents+en.lrquestion.description)
@@ -5184,6 +5230,8 @@ msgid ""
 "It will keep track of how quickly it used its quota in the last period, and "
 "choose a random point in the new interval to wake up."
 msgstr ""
+"Acesta va ține evidența cât de rapid și-a folosit cota în ultima perioadă și"
+" va alege un punct aleatoriu în noul interval pentru a porni."
 
 #: https//support.torproject.org/operators/limit-total-bandwidth/
 #: (content/operators/limit-total-bandwidth/contents+en.lrquestion.description)
@@ -5191,6 +5239,8 @@ msgid ""
 "This way we avoid having hundreds of relays working at the beginning of each"
 " month but none still up by the end."
 msgstr ""
+"În acest fel, evităm să avem sute de relee care funcționează la începutul "
+"fiecărei luni, dar nici unul la sfârșitul lunii."
 
 #: https//support.torproject.org/operators/limit-total-bandwidth/
 #: (content/operators/limit-total-bandwidth/contents+en.lrquestion.description)
@@ -5199,6 +5249,9 @@ msgid ""
 "connection speed, we recommend you use daily accounting, so you don't end up"
 " using your entire monthly quota in the first day."
 msgstr ""
+"Dacă aveți doar o cantitate mică de lățime de bandă de donat în comparație "
+"cu viteza de conectare, vă recomandăm să utilizați contorizarea zilnică, "
+"astfel încât să nu terminați să utilizați întreaga cotă lunară în prima zi."
 
 #: https//support.torproject.org/operators/limit-total-bandwidth/
 #: (content/operators/limit-total-bandwidth/contents+en.lrquestion.description)
@@ -5207,6 +5260,10 @@ msgid ""
 " to spread your usefulness over more of the day: if you want to offer X GB "
 "in each direction, you could set your RelayBandwidthRate to 20*X KBytes."
 msgstr ""
+"Împărțiți doar valoarea pentru o lună la 30. S-ar putea să luați în "
+"considerare și limitarea ratei pentru a distribui utilitatea pe mai multe "
+"zile: dacă doriți să oferiți X GB pe fiecare direcție, puteți să vă setați "
+"RelayBandwidthRate la 20 * X KBytes."
 
 #: https//support.torproject.org/operators/limit-total-bandwidth/
 #: (content/operators/limit-total-bandwidth/contents+en.lrquestion.description)
@@ -5215,27 +5272,31 @@ msgid ""
 "RelayBandwidthRate to 1000 KBytes: this way your relay will always be useful"
 " for at least half of each day."
 msgstr ""
+"De exemplu, dacă aveți 50 GB de oferit în fiecare mod, puteți să vă setați "
+"RelayBandwidthRate la 1000 KBytes: în acest fel, releul dvs. va fi "
+"întotdeauna util pentru cel puțin jumătate din fiecare zi."
 
 #: https//support.torproject.org/operators/limit-total-bandwidth/
 #: (content/operators/limit-total-bandwidth/contents+en.lrquestion.description)
 msgid "AccountingStart day 0:00"
-msgstr ""
+msgstr "AccountingStart day 0:00"
 
 #: https//support.torproject.org/operators/limit-total-bandwidth/
 #: (content/operators/limit-total-bandwidth/contents+en.lrquestion.description)
 msgid "RelayBandwidthRate 1000 KBytes"
-msgstr ""
+msgstr "RelayBandwidthRate 1000 KBytes"
 
 #: https//support.torproject.org/operators/limit-total-bandwidth/
 #: (content/operators/limit-total-bandwidth/contents+en.lrquestion.description)
 msgid ""
 "RelayBandwidthBurst 5000 KBytes # allow higher bursts but maintain average"
 msgstr ""
+"RelayBandwidthBurst 5000 KBytes # permite salturi mai mari, dar mențin media"
 
 #: https//support.torproject.org/operators/multiple-relays/
 #: (content/operators/multiple-relays/contents+en.lrquestion.title)
 msgid "I want to run more than one Tor relay."
-msgstr ""
+msgstr "Vreau să rulez mai mult decât un releu Tor."
 
 #: https//support.torproject.org/operators/multiple-relays/
 #: (content/operators/multiple-relays/contents+en.lrquestion.description)
@@ -5243,6 +5304,8 @@ msgid ""
 "Great. If you want to run several relays to donate more to the network, "
 "we're happy with that."
 msgstr ""
+"Grozav. Dacă doriți să rulați mai multe relee pentru a dona mai mult "
+"rețelei, suntem foarte mulțumiți."
 
 #: https//support.torproject.org/operators/multiple-relays/
 #: (content/operators/multiple-relays/contents+en.lrquestion.description)
@@ -5250,6 +5313,8 @@ msgid ""
 "But please don't run more than a few dozen on the same network, since part "
 "of the goal of the Tor network is dispersal and diversity."
 msgstr ""
+"Dar vă rugăm să nu rulați mai mult de câteva zeci pe aceeași rețea, deoarece"
+" o parte din obiectivul rețelei Tor este dispersia și diversitatea."
 
 #: https//support.torproject.org/operators/multiple-relays/
 #: (content/operators/multiple-relays/contents+en.lrquestion.description)
@@ -5258,11 +5323,14 @@ msgid ""
 "config option in the torrc of each relay, listing all the relays (comma-"
 "separated) that are under your control:"
 msgstr ""
+"Dacă decideți să rulați mai multe relee, vă rugăm să setați opțiunea de "
+"configurare „MyFamily” în torrc pentru fiecare releu, cu listarea tuturor "
+"releelor (separate prin virgulă) care sunt sub controlul dvs.:"
 
 #: https//support.torproject.org/operators/multiple-relays/
 #: (content/operators/multiple-relays/contents+en.lrquestion.description)
 msgid "MyFamily $fingerprint1,$fingerprint2,$fingerprint3"
-msgstr ""
+msgstr "MyFamily $fingerprint1,$fingerprint2,$fingerprint3"
 
 #: https//support.torproject.org/operators/multiple-relays/
 #: (content/operators/multiple-relays/contents+en.lrquestion.description)
@@ -5270,6 +5338,8 @@ msgid ""
 "where each fingerprint is the 40 character identity fingerprint (without "
 "spaces)."
 msgstr ""
+"unde fiecare fingerprint este o amprentă de identificare de 40 de caractere "
+"(fără spații)."
 
 #: https//support.torproject.org/operators/multiple-relays/
 #: (content/operators/multiple-relays/contents+en.lrquestion.description)
@@ -5277,6 +5347,8 @@ msgid ""
 "That way, Tor clients will know to avoid using more than one of your relays "
 "in a single circuit."
 msgstr ""
+"În acest fel, clienții Tor vor ști să evite utilizarea mai multor relee "
+"într-un singur circuit."
 
 #: https//support.torproject.org/operators/multiple-relays/
 #: (content/operators/multiple-relays/contents+en.lrquestion.description)
@@ -5285,11 +5357,16 @@ msgid ""
 "or of their network, even if they're not all in the same geographic "
 "location."
 msgstr ""
+"Ar trebui să setați MyFamily dacă aveți control administrativ asupra "
+"computerelor sau a rețelei lor, chiar dacă nu toate sunt în aceeași locație "
+"geografică."
 
 #: https//support.torproject.org/operators/my-relay-got-guard-flag-traffic-dropped/
 #: (content/operators/my-relay-got-guard-flag-traffic-dropped/contents+en.lrquestion.title)
 msgid "My relay recently got the Guard flag and traffic dropped by half."
 msgstr ""
+"Releul meu a primit recent un marcaj Guard - paznic, iar traficul a scăzut "
+"la jumătate."
 
 #: https//support.torproject.org/operators/my-relay-got-guard-flag-traffic-dropped/
 #: (content/operators/my-relay-got-guard-flag-traffic-dropped/contents+en.lrquestion.description)
@@ -5298,6 +5375,9 @@ msgid ""
 "not many clients have rotated their existing guards out to use it as a guard"
 " yet."
 msgstr ""
+"Deoarece releul acum este paznic, clienții îl folosesc mai puțin în alte "
+"poziții, dar puțini clienți și-au schimbat paznicii existenți pentru a-l "
+"folosi ca gardian."
 
 #: https//support.torproject.org/operators/my-relay-got-guard-flag-traffic-dropped/
 #: (content/operators/my-relay-got-guard-flag-traffic-dropped/contents+en.lrquestion.description)
