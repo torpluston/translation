@@ -7116,6 +7116,9 @@ msgid ""
 "A browser history is a record of requests made while using a [web browser"
 "](#web-browser), and includes information like websites visited and when."
 msgstr ""
+"Istoricul browserului este o înregistrare a cererilor efectuate în timpul "
+"utilizării unui [browser web] (#web-browser) și include informații precum "
+"site-urile vizitate și când au fost vizitate."
 
 #: https//support.torproject.org/misc/glossary/
 #: (content/misc/glossary/contents+en.lrquestion.description)
@@ -7123,16 +7126,18 @@ msgid ""
 "[Tor Browser](#tor-browser) deletes your browsing history after you close "
 "your [session](#session)."
 msgstr ""
+"[Tor Browser] (#tor-browser) șterge istoricul de navigare după ce închideți "
+"[sesiunea] (#session)."
 
 #: https//support.torproject.org/misc/glossary/
 #: (content/misc/glossary/contents+en.lrquestion.description)
 msgid "## C"
-msgstr ""
+msgstr "## C"
 
 #: https//support.torproject.org/misc/glossary/
 #: (content/misc/glossary/contents+en.lrquestion.description)
 msgid "### CAPTCHA"
-msgstr ""
+msgstr "### CAPTCHA"
 
 #: https//support.torproject.org/misc/glossary/
 #: (content/misc/glossary/contents+en.lrquestion.description)
@@ -7140,6 +7145,8 @@ msgid ""
 "Captchas are a challenge-response test used in computing to determine "
 "whether the user is human or not."
 msgstr ""
+"Captcha sunt un test de răspuns la o provocare, utilizate în tehnica de "
+"calcul pentru a determina dacă utilizatorul este uman sau nu."
 
 #: https//support.torproject.org/misc/glossary/
 #: (content/misc/glossary/contents+en.lrquestion.description)
@@ -7149,11 +7156,15 @@ msgid ""
 "hard time determining whether or not those requests are coming from humans "
 "or bots."
 msgstr ""
+"Utilizatorii [Tor] (#tor-/-tor-network/-core-tor) sunt des serviți cu "
+"captcha, deoarece [releele](#relay) Tor fac atât de multe solicitări, încât "
+"uneori site-urile web cu greu pot stabili dacă aceste solicitări provin sau "
+"nu de la oameni sau roboți."
 
 #: https//support.torproject.org/misc/glossary/
 #: (content/misc/glossary/contents+en.lrquestion.description)
 msgid "### checksum"
-msgstr ""
+msgstr "### sume de control"
 
 #: https//support.torproject.org/misc/glossary/
 #: (content/misc/glossary/contents+en.lrquestion.description)
@@ -7162,11 +7173,14 @@ msgid ""
 "software without errors, the given checksum and the checksum of your "
 "downloaded file will be identical."
 msgstr ""
+"Sumele de control - checksum sunt valori [hash] (#hash) ale fișierelor. Dacă"
+" ați descărcat software-ul fără erori, suma de control dată și suma de "
+"control a fișierului descărcat vor fi identice."
 
 #: https//support.torproject.org/misc/glossary/
 #: (content/misc/glossary/contents+en.lrquestion.description)
 msgid "### circuit"
-msgstr ""
+msgstr "### circuit"
 
 #: https//support.torproject.org/misc/glossary/
 #: (content/misc/glossary/contents+en.lrquestion.description)
@@ -7180,11 +7194,20 @@ msgid ""
 "service)), and never an exit node. You can view your current Tor circuit by "
 "clicking on the onion button in Tor Browser."
 msgstr ""
+"Este o cale prin [rețeaua Tor] (#tor-/-tor-network/-core-tor) construită de "
+"[clienți] (#client) constând din noduri selectate aleatoriu. Circuitul "
+"începe fie cu un [pod] (#bridge), fie cu un [gardian] (#guard). Cele mai "
+"multe circuite constau din trei noduri - un gardian sau un pod, un [releu "
+"mijlociu] (#middle-relay) și o [ieșire] (#exit). Majoritatea [serviciilor "
+"onion] (#onion-services) folosesc șase salturi într-un circuit (cu excepția "
+"[serviciilor onion unice] (#single-onion-service)) și niciodată un nod de "
+"ieșire. Puteți vizualiza circuitul Tor actual, făcând clic pe butonul ca o "
+"ceapă din Tor Browser."
 
 #: https//support.torproject.org/misc/glossary/
 #: (content/misc/glossary/contents+en.lrquestion.description)
 msgid "### client"
-msgstr ""
+msgstr "### client"
 
 #: https//support.torproject.org/misc/glossary/
 #: (content/misc/glossary/contents+en.lrquestion.description)
@@ -7193,11 +7216,14 @@ msgid ""
 "network, typically running on behalf of one user, that routes application "
 "connections over a series of [relays](#relay)."
 msgstr ""
+"În [Tor] (#tor-/-tor-network/-core-tor), un client este un nod în rețeaua "
+"Tor, care rulează de obicei în numele unui utilizator, care rutează "
+"conexiunile aplicației pe o serie de [relee] (#relay)."
 
 #: https//support.torproject.org/misc/glossary/
 #: (content/misc/glossary/contents+en.lrquestion.description)
 msgid "### Compass"
-msgstr ""
+msgstr "### Compass"
 
 #: https//support.torproject.org/misc/glossary/
 #: (content/misc/glossary/contents+en.lrquestion.description)
@@ -7205,11 +7231,13 @@ msgid ""
 "Compass is a web application to learn about currently running [Tor "
 "relays](#relay) in bulk."
 msgstr ""
+"Compass este o aplicație web pentru a afla mai multe despre rularea curentă "
+"a [releelor Tor] (#relay)."
 
 #: https//support.torproject.org/misc/glossary/
 #: (content/misc/glossary/contents+en.lrquestion.description)
 msgid "### consensus"
-msgstr ""
+msgstr "### consens"
 
 #: https//support.torproject.org/misc/glossary/
 #: (content/misc/glossary/contents+en.lrquestion.description)
@@ -7219,11 +7247,15 @@ msgid ""
 "[clients](#client) have the same information about the [relays](#relay) that"
 " make up the [Tor network](#tor-/-tor-network/-core-tor)."
 msgstr ""
+"În termeni Tor, un singur document compilat și votat de [autoritățile "
+"directorului] (#directory-authority) o dată pe oră, care se asigură că toți "
+"[clienții] (#client) au aceleași informații despre [relee] (#relay) care "
+"alcătuiesc [rețeaua Tor] (#tor-/-tor-network/-core-tor)."
 
 #: https//support.torproject.org/misc/glossary/
 #: (content/misc/glossary/contents+en.lrquestion.description)
 msgid "### cookie"
-msgstr ""
+msgstr "### cookie"
 
 #: https//support.torproject.org/misc/glossary/
 #: (content/misc/glossary/contents+en.lrquestion.description)
@@ -7234,11 +7266,16 @@ msgid ""
 "while the user is browsing. [Tor Browser](#tor-browser) does not store "
 "cookies."
 msgstr ""
+"Un cookie [HTTP] (#http) (numit și cookie web, cookie pentru Internet, "
+"cookie pentru browser sau pur și simplu cookie) este o mică informație "
+"trimisă de pe un site web și stocată pe computerul utilizatorului de către "
+"[browserul web] al utilizatorului (#web-browser) în timp ce utilizatorul "
+"navighează. [Tor Browser] (#Tor-browser) nu stochează cookie-uri."
 
 #: https//support.torproject.org/misc/glossary/
 #: (content/misc/glossary/contents+en.lrquestion.description)
 msgid "### cross-site scripting (XSS)"
-msgstr ""
+msgstr "### cross-site scripting (XSS)"
 
 #: https//support.torproject.org/misc/glossary/
 #: (content/misc/glossary/contents+en.lrquestion.description)
@@ -7246,11 +7283,14 @@ msgid ""
 "Cross-Site Scripting (XSS) allows an attacker to add malicious functionality"
 " or behavior to a website when they shouldn't have the ability to do so."
 msgstr ""
+"Cross-Site Scripting (XSS) permite unui atacator să adauge funcționalitate "
+"sau comportament rău intenționat pe un site web atunci când nu ar trebui să "
+"aibă abilitatea de a face acest lucru."
 
 #: https//support.torproject.org/misc/glossary/
 #: (content/misc/glossary/contents+en.lrquestion.description)
 msgid "### cryptographic signature"
-msgstr ""
+msgstr "### semnătura criptografică"
 
 #: https//support.torproject.org/misc/glossary/
 #: (content/misc/glossary/contents+en.lrquestion.description)
@@ -7265,16 +7305,25 @@ msgid ""
 "signatures, please see [here](https://support.torproject.org/tbb/how-to-"
 "verify-signature/)."
 msgstr ""
+"O semnătură criptografică dovedește autenticitatea unui mesaj sau a unui "
+"fișier. Acesta este creat de deținătorul porțiunii private a unei perechi de"
+" chei [cheie publică-criptografie] (#public-key-cryptography) și poate fi "
+"verificat prin cheia publică corespunzătoare. Dacă descărcați software de pe"
+" torproject.org, îl veți găsi ca fișiere de semnătură (.asc). Acestea sunt "
+"semnături PGP, astfel încât să puteți verifica dacă fișierul pe care l-ați "
+"descărcat este exact cel pe care v-am propus să îl primiți. Pentru mai multe"
+" informații despre cum puteți verifica semnăturile, citiți [aici] "
+"(https://support.torproject.org/tbb/how-to-verify-signature/)."
 
 #: https//support.torproject.org/misc/glossary/
 #: (content/misc/glossary/contents+en.lrquestion.description)
 msgid "## D"
-msgstr ""
+msgstr "## D"
 
 #: https//support.torproject.org/misc/glossary/
 #: (content/misc/glossary/contents+en.lrquestion.description)
 msgid "### daemon"
-msgstr ""
+msgstr "### daemon"
 
 #: https//support.torproject.org/misc/glossary/
 #: (content/misc/glossary/contents+en.lrquestion.description)
@@ -7282,11 +7331,13 @@ msgid ""
 "A daemon is a computer program that runs as a background process, rather "
 "than being under the direct control of a user."
 msgstr ""
+"Un daemon este un program de calculator care rulează ca un proces de fundal,"
+" în loc să fie sub controlul direct al unui utilizator."
 
 #: https//support.torproject.org/misc/glossary/
 #: (content/misc/glossary/contents+en.lrquestion.description)
 msgid "### directory authority"
-msgstr ""
+msgstr "### autoritatea directorului"
 
 #: https//support.torproject.org/misc/glossary/
 #: (content/misc/glossary/contents+en.lrquestion.description)
@@ -7295,16 +7346,19 @@ msgid ""
 " relays and periodically publishes a [consensus](#consensus) together with "
 "the other directory authorities."
 msgstr ""
+"Un [releu] (#relay) cu scop special care menține o listă de relee care "
+"rulează în prezent și publică periodic un [consens] (#consensus) împreună cu"
+" celelalte autorități de director."
 
 #: https//support.torproject.org/misc/glossary/
 #: (content/misc/glossary/contents+en.lrquestion.description)
 msgid "## E"
-msgstr ""
+msgstr "## E"
 
 #: https//support.torproject.org/misc/glossary/
 #: (content/misc/glossary/contents+en.lrquestion.description)
 msgid "### encryption"
-msgstr ""
+msgstr "### criptare"
 
 #: https//support.torproject.org/misc/glossary/
 #: (content/misc/glossary/contents+en.lrquestion.description)
@@ -7315,11 +7369,16 @@ msgid ""
 "each [relay](#relay) decrypts one layer before passing the request on to the"
 " next relay."
 msgstr ""
+"Procesul de preluare a unei informații și de transformare într-un cod secret"
+" care poate fi citit doar de destinatarul intenționat. [Tor] (#tor-/-tor-"
+"network/-core-tor) folosește trei straturi de criptare în [circuitul] "
+"(#circuit) Tor; fiecare [releu] (#relay) decriptează un strat înainte de a "
+"trece cererea la următorul releu."
 
 #: https//support.torproject.org/misc/glossary/
 #: (content/misc/glossary/contents+en.lrquestion.description)
 msgid "### end-to-end encrypted"
-msgstr ""
+msgstr "### end-to-end encrypted"
 
 #: https//support.torproject.org/misc/glossary/
 #: (content/misc/glossary/contents+en.lrquestion.description)
@@ -7327,11 +7386,13 @@ msgid ""
 "Transmitted data which is [encrypted](#encryption) from origin to "
 "destination is called end-to-end encrypted."
 msgstr ""
+"Datele transmise care sunt [criptate] (#encryption) de la origine până la "
+"destinație se numesc  end-to-end encrypted."
 
 #: https//support.torproject.org/misc/glossary/
 #: (content/misc/glossary/contents+en.lrquestion.description)
 msgid "### exit"
-msgstr ""
+msgstr "### exit"
 
 #: https//support.torproject.org/misc/glossary/
 #: (content/misc/glossary/contents+en.lrquestion.description)
@@ -7341,6 +7402,10 @@ msgid ""
 "connecting to (website, chat service, email provider, etc..) will see the "
 "[IP address](#ip-address) of the exit."
 msgstr ""
+"Ultimul [releu] (#relay) din [circuitul Tor] (#circuit) care trimite "
+"[trafic] (#traffic) pe Internetul public. Serviciul la care vă conectați "
+"(site-ul web, serviciul de chat, furnizorul de email, etc.) va vedea [adresa"
+" IP] (#ip-address) a ieșirii."
 
 #: https//support.torproject.org/misc/glossary/
 #: (content/misc/glossary/contents+en.lrquestion.description)
