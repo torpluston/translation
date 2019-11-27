@@ -28,7 +28,7 @@ Si l’on pouvait remonter la trace de ce site Web jusqu’à elles, elles pourr
 
 Pour se protéger, Fernanda et ses collègues ont créé le site Web en utilisant les **services onion** de Tor. Non seulement les services onion empêchent qu’elles soient découvertes comme opératrices du serveur, mais ils aident aussi à protéger les visiteurs de leur site Web en exigeant qu’ils utilisent le Navigateur Tor.
 
-En fait, Fernanda utilise le **Navigateur Tor** pour toute sa navigation sur le Web, simplement par mesure de sécurité.
+En fait, Fernanda utilise le **Navigateur Tor** pour toute sa navigation sur la Toile, simplement par mesure de sécurité.
 
 Elle utilise aussi une application propulsée par Tor appelée **OnionShare** pour envoyer des fichiers à d’autres activistes en toute sécurité et en toute confidentialité.
 
