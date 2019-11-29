@@ -26,17 +26,17 @@ Fernanda y sus compañeras crearon un sitio web con información sobre el acceso
 
 Si se vinculara este sitio web a ellas, las podrían arrestar, o peor.
 
-Para protegerse, Fernanda y sus colegas crearon el sitio web utilizando los **servicios cebolla  de Tor**. Los servicios cebolla no sólo las protegen de ser descubiertas como operadoras del servidor, sino que también ayudan a proteger a los visitantes de su sitio web al requerir que usen el Navegador Tor.
+To protect themselves, Fernanda and her colleagues created the website using Tor **onion services**. Onion services not only protect them from being discovered as the operators of the server but also help protect visitors to their website by requiring they use Tor Browser. 
 
-De hecho, Fernanda utiliza el **Navegador Tor** para toda su navegación en la web solo para estar segura.
+In fact, Fernanda uses **Tor Browser** for all of her web browsing just to be on the safe side.
 
-Ella también usa una aplicación de Tor llamada **OnionShare** para enviar archivos a otras activistas de forma segura y privada.
+She also uses a Tor-powered app called **OnionShare** to send files to other activists securely and privately. 
 
 ### Las activistas por los derechos reproductivos como Fernanda luchan por libertades fundamentales, y Tor ayuda a fortalecer su resistencia.
 
 ---
 
-# 3. TOR POR LOS DERECHOS HUMANOS
+# 3. TOR FOR HUMAN RIGHTS
 
 ### El agua es vida
 
@@ -44,15 +44,15 @@ Jelani vive en un pequeño pueblo atravesado por un ancho río.
 
 Este río ha proporcionado agua a su comunidad desde los más remotos tiempos.
 
-Pero ahora, el río de Jelani se ve amenazado por poderosas compañías multinacionales que perforan buscando petróleo en la región.
+But today, Jelani’s river is threatened by powerful multinational companies drilling for oil in the region.
 
-Las empresas de seguridad privadas, pagadas por estas compañías, utilizan poderosos mecanismos de vigilancia para monitorear las actividades en línea de Jelani y sus vecinos de la aldea, que se están organizando para proteger su río sagrado.
+Private security firms, paid for by these companies, use powerful surveillance mechanisms to monitor the online activities of Jelani and his neighbors in the village who are organizing to protect their sacred river. 
 
-Jelani usa el **Navegador Tor** para evitar que estas compañías lo vean mientras visita sitios web de protección de derechos humanos y asistencia legal internacionales y escribe en blogs sobre el movimiento de resistencia en su aldea.
+Jelani uses **Tor Browser** to prevent these companies from watching as he visits websites for international human rights protection and legal aid and writes blog posts about the resistance movement in his village.
 
 También usa **OnionShare** y **SecureDrop** para enviar documentos de manera segura a periodistas que están ayudando a hacer público estas violaciones de derechos humanos.
 
-Tor usa todo este software para ayudar a proteger la privacidad de Jelani.
+All of this software uses Tor to help protect Jelani’s privacy. 
 
 ### Los activistas por los derechos humanos como Jelani luchan por la justicia en sus comunidades, y Tor ayuda a fortalecer su resistencia.
 
@@ -70,9 +70,9 @@ Estaba tan agotado que la primera vez que apareció en su navegador el mensaje "
 
 Tras intentarlo una y otra vez, se dio cuenta de que su proveedor de correo electrónico, un sitio web de noticias y muchas aplicaciones no estaban disponibles.
 
-Había oído que en este país se censuraba a internet y se preguntaba si era eso lo que sucedía.
-¿Cómo podría ponerse en contacto con su familia con ese muro impenetrable?
-Después de hacer algunas búsquedas en la red, encontró un foro y leyó sobre VPN, servicios privados que te permiten conectarte a otra red sin censura.
+He had heard that this country censors the internet and wondered if that was happening.
+How could he contact his family from behind this impenetrable wall?
+After doing some web searches, he found a forum and read about VPNs, private services that allow you to connect to another uncensored network.
 
 Jean se pasó media hora tratando de averiguar qué VPN barata sería mejor.
 
@@ -82,7 +82,7 @@ Jean siguió leyendo buscando otras opciones y aprendió sobre el Tor Browser y 
 
 Encontró un mirror oficial para bajarse el programa.
 
-Cuando abrió el **Navegador Tor**, siguió las indicaciones para usuarios censurados y se conectó a un puente que le permitió acceder a Internet nuevamente. 
+When he opened **Tor Browser**, he followed the prompts for censored users and connected to a bridge which allowed him to access the internet again.
 
 Con Tor, Jean puede navegar libre y privadamente y contactar con su familia.
 
@@ -94,8 +94,8 @@ Con Tor, Jean puede navegar libre y privadamente y contactar con su familia.
 
 ## ¿Qué es Tor?
 
-Tor es software libre y una red abierta que te ayuda a protegerte contra el seguimiento, la vigilancia y la censura en línea.
-Tor es creada de forma libre por una organización sin ánimo de lucro 501 (c) 3 con sede en los Estados Unidos llamada el Proyecto Tor.
+Tor is free software and an open network that helps protect you from tracking, surveillance, and censorship online.
+Tor is created for free by a 501(c)3 U.S.-based nonprofit called the Tor Project. 
 
 La forma más fácil de usar Tor es el Tor Browser.
 Cuando usas el Tor Browser, nadie puede ver qué sitios web visitas o de qué parte del mundo vienes
@@ -107,21 +107,21 @@ Otras aplicaciones, como SecureDrop y OnionShare, usan Tor para proteger a sus u
 
 Amal quiere visitar la web de Bekele en privado, así que abre el Tor Browser.
 
-El Navegador Tor selecciona un circuito aleatorio de tres relays, que son ordenadores de todo el mundo configurados para enrutar el tráfico a través de la red Tor.
+Tor Browser selects a random circuit of three relays, which are computers all over the world configured to route traffic over the Tor network.
 
-El Navegador Tor a continuación encripta la solicitud del sitio web tres veces y la envía al primer relay Tor del circuito.
+Tor Browser then encrypts her website request three times and sends it to the first Tor relay in her circuit.
 
-El primer relay elimina la primera capa de encriptación pero no se entera de que el destino es la web Bekele.
+The first relay removes the first encryption layer but doesn't learn that the destination is Bekele’s website.
 
-El primer repetidor solo sabe la siguiente ubicación en el circuito, que es el segundo repetidor.
+The first relay learns only the next location in the circuit, which is the second relay.
 
-El segundo repetidor elimina otra capa de cifrado y envía la solicitud de página web al tercer repetidor.
+The second relay removes another encryption layer and forwards the web page request to the third relay.
 
-El tercer repetidor elimina la última capa de cifrado y envía la solicitud de la web a su destino, el sitio web Bekele, pero no sabe que la solicitud proviene de Amal.
+The third relay removes the last encryption layer and forwards the web page request to its destination, Bekele’s website, but it doesn't know the request comes from Amal.
 
 Bekele no sabe que la solicitud proviene de Amal a menos que se lo diga ella.
 
-## 7. ¿Quién usa Tor? 
+## 7. Who uses Tor? 
 
 Personas de todo el mundo usan Tor para proteger su privacidad y acceder a la web libremente.
 
@@ -141,22 +141,22 @@ Tor es posible gracias a un conjunto diverso de usuarios, desarrolladores, opera
 
 Necesitamos tu ayuda para hacer que Tor sea más sencillo y seguro para las personas de todo el mundo.
 
-Puedes ser voluntario de Tor escribiendo código, manteniendo un repetidor, creando documentación, ofreciendo soporte al usuario o difundiendo entre las personas de tu comunidad qué es Tor.
+You can volunteer with Tor by writing code, running a relay, creating documentation, offering user support, or telling people in your community about Tor.
 
 La comunidad de Tor se rige por un código de conducta, y mostramos nuestro compromiso con la comunidad en nuestro contrato social.
 
-Consigue más información sobre Tor visitando nuestro sitio web, nuestro wiki, encontrándonos en IRC, uniéndote a una de nuestras listas de correo o inscribiéndote en Tor News en newsletter.torproject.org.
+Learn more about Tor by visiting our website, our wiki, finding us on IRC, joining one of our mailing lists, or signing up for Tor News at newsletter.torproject.org.
 
 
 ## 8. Descargar Tor
 
 Tor para escritorio
-torproject.org/download
+torproject.org/es/download
 
 TOR EN EL MÓVIL
 ### Android 
 El Tor Browser para Android está disponible en GooglePlay.
 
 ### iOS
-El Onion Browser, desarrollado por M. Tigas, es el único navegador que recomendamos para iOS.
+Onion Browser, developed by M. Tigas, is the only browser we recommend for iOS.
 

@@ -151,7 +151,7 @@ Web sitemizi ve wiki sayfalarımızı ziyaret ederek, IRC üzerinde bizi bularak
 ## 8. TOR UYGULAMASINI İNDİRİN
 
 Masaüstü için Tor
-torproject.org/download
+torproject.org/tr/download
 
 MOBİL AYGIT ÜZERİNDE TOR
 ### Android 
