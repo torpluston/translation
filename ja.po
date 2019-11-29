@@ -10,7 +10,7 @@
 # Emma Peel, 2019
 # sunpower92 <fumihito92@gmail.com>, 2014
 # タカハシ <indexial@outlook.jp>, 2013-2014
-# h345u37g3 h345u37g3 <h345u37g3@cock.li>, 2019
+# h345u37g3 h345u37g3, 2019
 # タカハシ <indexial@outlook.jp>, 2015
 # Ippei Shinozaki <shino.ip.1231@gmail.com>, 2019
 # Katabame Ayame <katabamia@gmail.com>, 2017
@@ -27,9 +27,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Tor Project\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-10-05 16:50+0200\n"
-"PO-Revision-Date: 2019-10-06 12:16+0000\n"
-"Last-Translator: h345u37g3 h345u37g3 <h345u37g3@cock.li>\n"
+"POT-Creation-Date: 2019-11-28 17:02+0100\n"
+"PO-Revision-Date: 2019-11-29 02:19+0000\n"
+"Last-Translator: erinm\n"
 "Language-Team: Japanese (http://www.transifex.com/otf/torproject/language/ja/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -37,11 +37,11 @@ msgstr ""
 "Language: ja\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
-#: config/chroot_local-includes/etc/NetworkManager/dispatcher.d/60-tor-ready.sh:39
+#: config/chroot_local-includes/etc/NetworkManager/dispatcher.d/60-tor-ready.sh:42
 msgid "Tor is ready"
 msgstr "Torの準備が完了しました"
 
-#: config/chroot_local-includes/etc/NetworkManager/dispatcher.d/60-tor-ready.sh:40
+#: config/chroot_local-includes/etc/NetworkManager/dispatcher.d/60-tor-ready.sh:43
 msgid "You can now access the Internet."
 msgstr "インターネットにアクセスできます。"
 
@@ -106,12 +106,12 @@ msgid "Do you want to start Electrum anyway?"
 msgstr "それでも Electrum を起動しますか？"
 
 #: config/chroot_local-includes/usr/local/bin/electrum:68
-#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:41
+#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:38
 msgid "_Launch"
 msgstr "起動 (_L)"
 
 #: config/chroot_local-includes/usr/local/bin/electrum:69
-#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:42
+#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:39
 msgid "_Exit"
 msgstr "終了 (_E)"
 
@@ -120,9 +120,9 @@ msgid "Additional Settings"
 msgstr "追加設定"
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tailsgreeter/ui/add_settings_dialog.py:40
-#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:367
+#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:366
 #: config/chroot_local-includes/usr/local/bin/tails-screen-locker:119
-#: config/chroot_local-includes/usr/local/bin/tor-browser:46
+#: config/chroot_local-includes/usr/local/bin/tor-browser:49
 msgid "Cancel"
 msgstr "キャンセル"
 
@@ -174,11 +174,11 @@ msgstr "オフ"
 msgid "Off (default)"
 msgstr "オフ（デフォルト）"
 
-#: config/chroot_local-includes/usr/lib/python3/dist-packages/tailsgreeter/ui/main_window.py:172
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tailsgreeter/ui/main_window.py:171
 msgid "Shutdown"
 msgstr "停止"
 
-#: config/chroot_local-includes/usr/lib/python3/dist-packages/tailsgreeter/ui/main_window.py:177
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tailsgreeter/ui/main_window.py:176
 msgid "_Start Tails"
 msgstr "Tails を起動 (_S)"
 
@@ -214,21 +214,16 @@ msgid ""
 "{stderr}"
 msgstr "unmount が失敗しました。再開コードは {returncode}:\n{stdout}\n{stderr}"
 
-#: config/chroot_local-includes/usr/lib/python3/dist-packages/tailsgreeter/ui/persistent_storage.py:60
-#: config/chroot_local-includes/usr/lib/python3/dist-packages/tailsgreeter/ui/persistent_storage.py:107
-#: ../config/chroot_local-includes/usr/share/tails/greeter/main.ui.in:425
-msgid "Unlock"
-msgstr "ロック解除"
-
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tailsgreeter/ui/persistent_storage.py:63
-msgid "Failed to relock persistent storage."
-msgstr "永続的ストレージの再ロックに失敗しました。"
-
-#: config/chroot_local-includes/usr/lib/python3/dist-packages/tailsgreeter/ui/persistent_storage.py:79
 msgid "Unlocking…"
 msgstr "アンロック..."
 
-#: config/chroot_local-includes/usr/lib/python3/dist-packages/tailsgreeter/ui/persistent_storage.py:111
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tailsgreeter/ui/persistent_storage.py:92
+#: ../config/chroot_local-includes/usr/share/tails/greeter/main.ui.in:395
+msgid "Unlock"
+msgstr "ロック解除"
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tailsgreeter/ui/persistent_storage.py:97
 #: ../config/chroot_local-includes/usr/share/tails/greeter/main.ui.in:40
 msgid "Cannot unlock encrypted storage with this passphrase."
 msgstr "このパスフレーズで、暗号化されたストレージをアンロックできません。"
@@ -369,7 +364,7 @@ msgstr "1回だけインストールする"
 
 #: config/chroot_local-includes/usr/local/sbin/tails-additional-software:301
 #: config/chroot_local-includes/usr/local/sbin/tails-additional-software:331
-#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:372
+#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:371
 msgid "The configuration of your additional software failed."
 msgstr "追加ソフトウェアの設定に失敗しました。"
 
@@ -395,58 +390,56 @@ msgid "You could install {packages} automatically when starting Tails"
 msgstr "Tailsを起動する時に {packages} を自動的にインストールできます。"
 
 #: config/chroot_local-includes/usr/local/sbin/tails-additional-software:345
-msgid ""
-"To do so, you need to run Tails from a USB stick installed using <i>Tails "
-"Installer</i>."
-msgstr "そうするには、<i>Tailsインストーラー</i>で作ったUSBメモリーからTailsを実行する必要があります。"
+msgid "To do so, you need to run Tails from a USB stick."
+msgstr ""
 
 #. Translators: Don't translate {packages}, it's a placeholder and will be
 #. replaced.
-#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:360
+#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:359
 #, python-brace-format
 msgid "Remove {packages} from your additional software?"
 msgstr " 追加したソフトウェアから {packages} を外しますか？"
 
 #. Translators: Don't translate {packages}, it's a placeholder
 #. and will be replaced.
-#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:364
+#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:363
 #, python-brace-format
 msgid "This will stop installing {packages} automatically."
 msgstr "これは {packages} の自動的インストールを停止します。"
 
-#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:366
+#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:365
 #: config/chroot_local-includes/usr/local/bin/tails-additional-software-config:154
 msgid "Remove"
 msgstr "解除"
 
-#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:545
+#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:544
 msgid "Installing your additional software from persistent storage..."
 msgstr "固定記憶域から追加ソフトウェアをインストール中..."
 
-#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:547
+#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:546
 msgid "This can take several minutes."
 msgstr "これは数分かかります"
 
-#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:560
+#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:559
 msgid "The installation of your additional software failed"
 msgstr "追加ソフトウェアのインストールに失敗しました"
 
-#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:575
+#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:574
 msgid "Additional software installed successfully"
 msgstr "追加ソフトウェアが正常にインストールされました。"
 
-#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:595
+#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:594
 msgid "The check for upgrades of your additional software failed"
 msgstr "追加ソフトウェア更新のチェックは失敗しました。"
 
-#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:597
-#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:605
+#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:596
+#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:604
 msgid ""
 "Please check your network connection, restart Tails, or read the system log "
 "to understand the problem."
 msgstr "ネットワーク接続をチェックして、Tailsを再起動して、あるいはシステムログを参照してより問題を理解して下さい。 "
 
-#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:604
+#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:603
 msgid "The upgrade of your additional software failed"
 msgstr "追加ソフトウェアの更新は失敗しました。"
 
@@ -505,11 +498,10 @@ msgstr "そうするには、Tailsを起動する時に固定記憶域を作成�
 
 #: config/chroot_local-includes/usr/local/bin/tails-additional-software-config:205
 msgid ""
-"To do so, install Tails on a USB stick using <a href=\"tails-"
-"installer.desktop\">Tails Installer</a> and create a persistent storage."
-msgstr "そうするには、<a href=\"tails-installer.desktop\">Tailsインストーラー</a>でUSBメモリーにTailsをインストールして固定記憶域を作成して下さい。"
+"To do so, install Tails on a USB stick and create a persistent storage."
+msgstr ""
 
-#: config/chroot_local-includes/usr/local/bin/tails-additional-software-config:252
+#: config/chroot_local-includes/usr/local/bin/tails-additional-software-config:251
 msgid "[package not available]"
 msgstr "[パッケージがありません]"
 
@@ -593,12 +585,12 @@ msgid ""
 msgstr "<b>アップグレードの確認に十分なメモリが利用できません。</b>\n\nこのシステムが Tails の動作する要件を満たしているか確認してください。\nfile:///usr/share/doc/tails/website/doc/about/requirements.en.html をご覧ください。\n\nTails を再起動してから、もう一度アップグレードを確認してください。\n\nまたは、手動でアップグレードを行ってください。\nhttps://tails.boum.org/doc/first_steps/upgrade#manual をご覧ください。"
 
 #: config/chroot_local-includes/usr/local/bin/tails-upgrade-frontend-wrapper:72
-#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:27
+#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:24
 msgid "error:"
 msgstr "エラー:"
 
 #: config/chroot_local-includes/usr/local/bin/tails-upgrade-frontend-wrapper:73
-#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:28
+#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:25
 msgid "Error"
 msgstr "エラー"
 
@@ -622,15 +614,15 @@ msgstr "ホストオペレーティングシステムと仮想化ソフトウェ
 msgid "Learn more"
 msgstr "詳細を見る"
 
-#: config/chroot_local-includes/usr/local/bin/tor-browser:43
+#: config/chroot_local-includes/usr/local/bin/tor-browser:46
 msgid "Tor is not ready"
 msgstr "Tor は準備出来ていません"
 
-#: config/chroot_local-includes/usr/local/bin/tor-browser:44
+#: config/chroot_local-includes/usr/local/bin/tor-browser:47
 msgid "Tor is not ready. Start Tor Browser anyway?"
 msgstr "Tor は準備出来ていません。とにかく Tor Browser を起動しますか？"
 
-#: config/chroot_local-includes/usr/local/bin/tor-browser:45
+#: config/chroot_local-includes/usr/local/bin/tor-browser:48
 msgid "Start Tor Browser"
 msgstr "Tor Browser を起動"
 
@@ -799,65 +791,65 @@ msgstr "ファイルコンテナ%sを追加できませんでした：ループ�
 msgid "Choose File Container"
 msgstr "ファイルコンテナを選択"
 
-#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:38
+#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:35
 msgid "Do you really want to launch the Unsafe Browser?"
 msgstr "本当に安全ではないブラウザを起動しますか？"
 
-#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:40
+#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:37
 msgid ""
 "Network activity within the Unsafe Browser is <b>not anonymous</b>.\\nOnly "
 "use the Unsafe Browser if necessary, for example\\nif you have to login or "
 "register to activate your Internet connection."
 msgstr "安全でないブラウザ内でのネットワークの活動状況は、<b>匿名ではありません</b>。\\n必要な場合のみ、例えば、\\nインターネット接続を有効化するためにログインまたは登録しなければならないような場合のみ、安全でないブラウザを使用してください。"
 
-#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:51
+#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:48
 msgid "Starting the Unsafe Browser..."
 msgstr "安全でないブラウザを起動中..."
 
-#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:52
+#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:49
 msgid "This may take a while, so please be patient."
 msgstr "しばらくかかる場合がありますので、お待ちください。"
 
-#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:57
+#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:54
 msgid "Shutting down the Unsafe Browser..."
 msgstr "安全でないブラウザをシャットダウン中..."
 
-#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:58
+#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:55
 msgid ""
 "This may take a while, and you may not restart the Unsafe Browser until it "
 "is properly shut down."
 msgstr "暫く時間がかかる恐れがあり、適切にシャットダウンされるまで、安全でないブラウザを再起動できません。"
 
-#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:70
+#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:67
 msgid "Failed to restart Tor."
 msgstr "Torを再起動できませんでした。"
 
-#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:84
+#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:81
 #: ../config/chroot_local-includes/usr/share/applications/unsafe-browser.desktop.in.h:1
 msgid "Unsafe Browser"
 msgstr "安全でないブラウザ"
 
-#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:91
+#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:88
 msgid ""
 "Another Unsafe Browser is currently running, or being cleaned up. Please "
 "retry in a while."
 msgstr "別の安全でないブラウザが起動中か、クリーンアップされています。少ししてからもう一度お試しください。"
 
-#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:99
+#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:96
 msgid "Failed to setup chroot."
 msgstr "chrootのセットアップに失敗しました。"
 
-#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:104
+#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:103
 msgid "Failed to configure browser."
 msgstr "ブラウザーの設定に失敗しました。"
 
-#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:110
+#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:109
 msgid ""
 "No DNS server was obtained through DHCP or manually configured in "
 "NetworkManager."
 msgstr "DNSサーバーは、DHCP経由で取得されるか、またはNetworkManagerで手動で構成されませんでした。"
 
-#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:121
+#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:120
 msgid "Failed to run browser."
 msgstr "ブラウザーを起動できませんでした。"
 
@@ -876,7 +868,7 @@ msgstr "ルートターミナル"
 
 #: ../config/chroot_local-includes/usr/share/applications/root-terminal.desktop.in.h:2
 msgid "Opens a terminal as the root user, using gksu to ask for the password"
-msgstr ""
+msgstr "rootユーザーとして端末を開き、gksuを使用してパスワードを要求する"
 
 #: ../config/chroot_local-includes/usr/share/applications/tails-documentation.desktop.in.h:2
 msgid "Learn how to use Tails"
@@ -932,7 +924,7 @@ msgstr "追加ソフトウェアからパッケージを外すには認証が必
 
 #: ../config/chroot_local-includes/usr/share/tails/greeter/additional_settings.ui.in:18
 #: ../config/chroot_local-includes/usr/share/tails/greeter/additional_settings.ui.in:56
-#: ../config/chroot_local-includes/usr/share/tails/greeter/main.ui.in:669
+#: ../config/chroot_local-includes/usr/share/tails/greeter/main.ui.in:626
 msgid "Administration Password"
 msgstr "管理パスワード"
 
@@ -956,7 +948,7 @@ msgid "Disable"
 msgstr "無効する"
 
 #: ../config/chroot_local-includes/usr/share/tails/greeter/additional_settings.ui.in:154
-#: ../config/chroot_local-includes/usr/share/tails/greeter/main.ui.in:673
+#: ../config/chroot_local-includes/usr/share/tails/greeter/main.ui.in:630
 msgid "MAC Address Spoofing"
 msgstr "MAC アドレススプーフィング"
 
@@ -977,7 +969,7 @@ msgid "Don't spoof MAC addresses"
 msgstr "MACアドレスを詐称しない"
 
 #: ../config/chroot_local-includes/usr/share/tails/greeter/additional_settings.ui.in:311
-#: ../config/chroot_local-includes/usr/share/tails/greeter/main.ui.in:677
+#: ../config/chroot_local-includes/usr/share/tails/greeter/main.ui.in:634
 msgid "Network Configuration"
 msgstr "ネットワーク設定"
 
@@ -1022,33 +1014,29 @@ msgstr "デフォルト設定"
 msgid "Encrypted _Persistent Storage"
 msgstr "暗号化された永続的ストレージ (_P)"
 
-#: ../config/chroot_local-includes/usr/share/tails/greeter/main.ui.in:382
-msgid "Configure Persistent Storage"
-msgstr "永続的ストレージの構成"
+#: ../config/chroot_local-includes/usr/share/tails/greeter/main.ui.in:326
+msgid "Show Passphrase"
+msgstr "パスフレーズの表示"
 
 #. The label for this placeholder text is not very big, so keep this string
 #. short.
-#: ../config/chroot_local-includes/usr/share/tails/greeter/main.ui.in:410
+#: ../config/chroot_local-includes/usr/share/tails/greeter/main.ui.in:380
 msgid "Enter your passphrase to unlock the persistent storage"
 msgstr "永続的ストレージのロックを解除するためのパスフレーズを入力してください"
 
-#: ../config/chroot_local-includes/usr/share/tails/greeter/main.ui.in:456
-msgid "Relock Persistent Storage"
-msgstr "永続的ストレージの再ロック"
-
-#: ../config/chroot_local-includes/usr/share/tails/greeter/main.ui.in:471
+#: ../config/chroot_local-includes/usr/share/tails/greeter/main.ui.in:428
 msgid "Your persistent storage is unlocked. Restart Tails to lock it again."
 msgstr "永続的ストレージのロックが解除されました。もう一度ロックするには、 Tails を再起動してください。"
 
-#: ../config/chroot_local-includes/usr/share/tails/greeter/main.ui.in:509
+#: ../config/chroot_local-includes/usr/share/tails/greeter/main.ui.in:466
 msgid "_Additional Settings"
 msgstr "追加設定 (_A)"
 
-#: ../config/chroot_local-includes/usr/share/tails/greeter/main.ui.in:592
+#: ../config/chroot_local-includes/usr/share/tails/greeter/main.ui.in:549
 msgid "Add an additional setting"
 msgstr "追加設定を追加"
 
-#: ../config/chroot_local-includes/usr/share/tails/greeter/main.ui.in:641
+#: ../config/chroot_local-includes/usr/share/tails/greeter/main.ui.in:598
 msgid ""
 "The default settings are safe in most situations. To add a custom setting, "
 "press the \"+\" button below."

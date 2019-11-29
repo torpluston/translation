@@ -15,9 +15,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Tor Project\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-10-05 16:50+0200\n"
-"PO-Revision-Date: 2019-11-26 08:39+0000\n"
-"Last-Translator: Emma Peel\n"
+"POT-Creation-Date: 2019-11-28 17:02+0100\n"
+"PO-Revision-Date: 2019-11-29 02:19+0000\n"
+"Last-Translator: erinm\n"
 "Language-Team: Korean (http://www.transifex.com/otf/torproject/language/ko/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -25,11 +25,11 @@ msgstr ""
 "Language: ko\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
-#: config/chroot_local-includes/etc/NetworkManager/dispatcher.d/60-tor-ready.sh:39
+#: config/chroot_local-includes/etc/NetworkManager/dispatcher.d/60-tor-ready.sh:42
 msgid "Tor is ready"
 msgstr "Tor가 준비되었습니다."
 
-#: config/chroot_local-includes/etc/NetworkManager/dispatcher.d/60-tor-ready.sh:40
+#: config/chroot_local-includes/etc/NetworkManager/dispatcher.d/60-tor-ready.sh:43
 msgid "You can now access the Internet."
 msgstr "이제 인터넷에 접속하실수 있습니다."
 
@@ -94,12 +94,12 @@ msgid "Do you want to start Electrum anyway?"
 msgstr "그래도 Electrum을 실행하시겠습니까?"
 
 #: config/chroot_local-includes/usr/local/bin/electrum:68
-#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:41
+#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:38
 msgid "_Launch"
 msgstr "_Launch"
 
 #: config/chroot_local-includes/usr/local/bin/electrum:69
-#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:42
+#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:39
 msgid "_Exit"
 msgstr "_Exit"
 
@@ -108,9 +108,9 @@ msgid "Additional Settings"
 msgstr "추가 설정"
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tailsgreeter/ui/add_settings_dialog.py:40
-#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:367
+#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:366
 #: config/chroot_local-includes/usr/local/bin/tails-screen-locker:119
-#: config/chroot_local-includes/usr/local/bin/tor-browser:46
+#: config/chroot_local-includes/usr/local/bin/tor-browser:49
 msgid "Cancel"
 msgstr "취소"
 
@@ -162,11 +162,11 @@ msgstr "끄기"
 msgid "Off (default)"
 msgstr "꺼짐 (기본값)"
 
-#: config/chroot_local-includes/usr/lib/python3/dist-packages/tailsgreeter/ui/main_window.py:172
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tailsgreeter/ui/main_window.py:171
 msgid "Shutdown"
 msgstr "종료"
 
-#: config/chroot_local-includes/usr/lib/python3/dist-packages/tailsgreeter/ui/main_window.py:177
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tailsgreeter/ui/main_window.py:176
 msgid "_Start Tails"
 msgstr "_Tails 시작"
 
@@ -202,21 +202,16 @@ msgid ""
 "{stderr}"
 msgstr "umount failed with return code {returncode}:\n{stdout}\n{stderr}"
 
-#: config/chroot_local-includes/usr/lib/python3/dist-packages/tailsgreeter/ui/persistent_storage.py:60
-#: config/chroot_local-includes/usr/lib/python3/dist-packages/tailsgreeter/ui/persistent_storage.py:107
-#: ../config/chroot_local-includes/usr/share/tails/greeter/main.ui.in:425
-msgid "Unlock"
-msgstr "잠금 해제"
-
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tailsgreeter/ui/persistent_storage.py:63
-msgid "Failed to relock persistent storage."
-msgstr "퍼시스턴트 저장소 재잠금 실패"
-
-#: config/chroot_local-includes/usr/lib/python3/dist-packages/tailsgreeter/ui/persistent_storage.py:79
 msgid "Unlocking…"
 msgstr "잠금 해제중..."
 
-#: config/chroot_local-includes/usr/lib/python3/dist-packages/tailsgreeter/ui/persistent_storage.py:111
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tailsgreeter/ui/persistent_storage.py:92
+#: ../config/chroot_local-includes/usr/share/tails/greeter/main.ui.in:395
+msgid "Unlock"
+msgstr "잠금 해제"
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tailsgreeter/ui/persistent_storage.py:97
 #: ../config/chroot_local-includes/usr/share/tails/greeter/main.ui.in:40
 msgid "Cannot unlock encrypted storage with this passphrase."
 msgstr "이 비밀번호로 암호화 저장소를 열 수 없습니다."
@@ -357,7 +352,7 @@ msgstr "한번 설치하기"
 
 #: config/chroot_local-includes/usr/local/sbin/tails-additional-software:301
 #: config/chroot_local-includes/usr/local/sbin/tails-additional-software:331
-#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:372
+#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:371
 msgid "The configuration of your additional software failed."
 msgstr "추가 소프트웨어 생성이 실패했습니다."
 
@@ -383,58 +378,56 @@ msgid "You could install {packages} automatically when starting Tails"
 msgstr "자동으로 Tails를 시작할때 {package} 설치하실수 있습니다."
 
 #: config/chroot_local-includes/usr/local/sbin/tails-additional-software:345
-msgid ""
-"To do so, you need to run Tails from a USB stick installed using <i>Tails "
-"Installer</i>."
-msgstr "하실래면, usb 스틱과 <i>Tails Installer</i> 을 이용해서 Tails 을 써야합니다."
+msgid "To do so, you need to run Tails from a USB stick."
+msgstr ""
 
 #. Translators: Don't translate {packages}, it's a placeholder and will be
 #. replaced.
-#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:360
+#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:359
 #, python-brace-format
 msgid "Remove {packages} from your additional software?"
 msgstr "추가 소프트웨어에서 {packages} 제거하겠습니까?"
 
 #. Translators: Don't translate {packages}, it's a placeholder
 #. and will be replaced.
-#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:364
+#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:363
 #, python-brace-format
 msgid "This will stop installing {packages} automatically."
 msgstr "이건 {packages} 설치를 중단할겁니다."
 
-#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:366
+#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:365
 #: config/chroot_local-includes/usr/local/bin/tails-additional-software-config:154
 msgid "Remove"
 msgstr "제거"
 
-#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:545
+#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:544
 msgid "Installing your additional software from persistent storage..."
 msgstr "퍼시스턴트 저장소에서 추가 소프트웨어를 설치하는중..."
 
-#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:547
+#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:546
 msgid "This can take several minutes."
 msgstr "몇분이 소요될수도 있습니다."
 
-#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:560
+#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:559
 msgid "The installation of your additional software failed"
 msgstr "추가 소프트웨어의 설치가 실패했습니다."
 
-#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:575
+#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:574
 msgid "Additional software installed successfully"
 msgstr "추가 소프트웨어가 성공적으로 설치되었습니다."
 
-#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:595
+#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:594
 msgid "The check for upgrades of your additional software failed"
 msgstr "추가 소프트웨어 업그래이드 확인이 실패했습니다."
 
-#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:597
-#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:605
+#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:596
+#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:604
 msgid ""
 "Please check your network connection, restart Tails, or read the system log "
 "to understand the problem."
 msgstr "문제를 이해하실려면 네트워크 연결을 확인하시고, Tails을 제시작하시고, 시스템로그를 읽어보세요."
 
-#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:604
+#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:603
 msgid "The upgrade of your additional software failed"
 msgstr "추가 소프트웨어의 업그래이드가 실패했습니다."
 
@@ -493,11 +486,10 @@ msgstr ""
 
 #: config/chroot_local-includes/usr/local/bin/tails-additional-software-config:205
 msgid ""
-"To do so, install Tails on a USB stick using <a href=\"tails-"
-"installer.desktop\">Tails Installer</a> and create a persistent storage."
-msgstr "하실려면, <a href=\"tails-installer.desktop\">Tails installer</a>(설치)를 이용해 usb 스틱에 tails을 설치하시고 퍼시스턴트 저장소를 만드세요."
+"To do so, install Tails on a USB stick and create a persistent storage."
+msgstr ""
 
-#: config/chroot_local-includes/usr/local/bin/tails-additional-software-config:252
+#: config/chroot_local-includes/usr/local/bin/tails-additional-software-config:251
 msgid "[package not available]"
 msgstr "[페키지가 없습니다.]"
 
@@ -581,12 +573,12 @@ msgid ""
 msgstr "<b>업그레이드 확인에 충분한 메모리를 사용할 수 없습니다.</b>\n\n이 시스템이 Tails의 작동 요구 사항을 충족하는지 확인하십시오.\nfile:///usr/share/doc/tails/website/doc/about/requirements.en.html를 참조하십시오.\n\nTails를 다시 시작하고 다시 업그레이드를 확인하십시오.\n\n또는 수동으로 업그레이드해야합니다.\nhttps://tails.boum.org/doc/first_steps/upgrade#manual 을 참조하십시오."
 
 #: config/chroot_local-includes/usr/local/bin/tails-upgrade-frontend-wrapper:72
-#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:27
+#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:24
 msgid "error:"
 msgstr "오류:"
 
 #: config/chroot_local-includes/usr/local/bin/tails-upgrade-frontend-wrapper:73
-#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:28
+#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:25
 msgid "Error"
 msgstr "오류"
 
@@ -610,15 +602,15 @@ msgstr "호스트 운영 체제와 가상 머신 모두 Tails에서 사용자가
 msgid "Learn more"
 msgstr "더 알아보기"
 
-#: config/chroot_local-includes/usr/local/bin/tor-browser:43
+#: config/chroot_local-includes/usr/local/bin/tor-browser:46
 msgid "Tor is not ready"
 msgstr "Tor 준비 안 됨"
 
-#: config/chroot_local-includes/usr/local/bin/tor-browser:44
+#: config/chroot_local-includes/usr/local/bin/tor-browser:47
 msgid "Tor is not ready. Start Tor Browser anyway?"
 msgstr "Tor는 준비 안 됐는데, 그래도 Tor 브라우저를 실행할까요?"
 
-#: config/chroot_local-includes/usr/local/bin/tor-browser:45
+#: config/chroot_local-includes/usr/local/bin/tor-browser:48
 msgid "Start Tor Browser"
 msgstr "Tor 브라우저 시작"
 
@@ -787,65 +779,65 @@ msgstr ""
 msgid "Choose File Container"
 msgstr "파일 컨테이너를 고르세요."
 
-#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:38
+#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:35
 msgid "Do you really want to launch the Unsafe Browser?"
 msgstr "정말 안전하지 않은 브라우저를 시작 하시겠습니까?"
 
-#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:40
+#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:37
 msgid ""
 "Network activity within the Unsafe Browser is <b>not anonymous</b>.\\nOnly "
 "use the Unsafe Browser if necessary, for example\\nif you have to login or "
 "register to activate your Internet connection."
 msgstr "안전하지 않은 브라우져로 하는 네트워크 연결은 <b>익명을 보장할 수 없습니다<b>. \\n정말 필요한 경우에만 사용하세요. 예를 들어 \\n 인터넷 연결을 위해 로그인하거나 등록할 필요가 있는 경우에만 사용하세요"
 
-#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:51
+#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:48
 msgid "Starting the Unsafe Browser..."
 msgstr "안전하지 않은 브라우저를 실행 중 ..."
 
-#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:52
+#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:49
 msgid "This may take a while, so please be patient."
 msgstr "잠시 시간이 걸릴 수 있으므로 기다려주세요."
 
-#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:57
+#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:54
 msgid "Shutting down the Unsafe Browser..."
 msgstr "안전하지 않은 브라우저를 종료 중 ..."
 
-#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:58
+#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:55
 msgid ""
 "This may take a while, and you may not restart the Unsafe Browser until it "
 "is properly shut down."
 msgstr "시간이 좀 걸릴 우려가 있습니다. 적절하게 종료 될 때까지 안전하지 않은 브라우저를 다시 시작할 수 없습니다."
 
-#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:70
+#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:67
 msgid "Failed to restart Tor."
 msgstr "Tor 재시작 실패"
 
-#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:84
+#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:81
 #: ../config/chroot_local-includes/usr/share/applications/unsafe-browser.desktop.in.h:1
 msgid "Unsafe Browser"
 msgstr "안전하지 않은 브라우저"
 
-#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:91
+#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:88
 msgid ""
 "Another Unsafe Browser is currently running, or being cleaned up. Please "
 "retry in a while."
 msgstr "다른 안전하지 않은 웹 브라우저가 실행 중이거나 정리되어 있습니다. 잠시 후 다시 시도해주세요."
 
-#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:99
+#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:96
 msgid "Failed to setup chroot."
 msgstr "chroot 설치에 실패했습니다."
 
-#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:104
+#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:103
 msgid "Failed to configure browser."
 msgstr "브라우저를 구성할 수 없습니다."
 
-#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:110
+#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:109
 msgid ""
 "No DNS server was obtained through DHCP or manually configured in "
 "NetworkManager."
 msgstr "DNS 서버는 DHCP를 통해 검색하거나 NetworkManager에서 수동으로 구성되지 않았습니다."
 
-#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:121
+#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:120
 msgid "Failed to run browser."
 msgstr "브라우저를 실행시키지 못 했습니다."
 
@@ -920,7 +912,7 @@ msgstr "추가 소프트웨어에서($(command_line)) 페키지를 제거하실�
 
 #: ../config/chroot_local-includes/usr/share/tails/greeter/additional_settings.ui.in:18
 #: ../config/chroot_local-includes/usr/share/tails/greeter/additional_settings.ui.in:56
-#: ../config/chroot_local-includes/usr/share/tails/greeter/main.ui.in:669
+#: ../config/chroot_local-includes/usr/share/tails/greeter/main.ui.in:626
 msgid "Administration Password"
 msgstr "관리 비밀번호"
 
@@ -944,7 +936,7 @@ msgid "Disable"
 msgstr "비활성화"
 
 #: ../config/chroot_local-includes/usr/share/tails/greeter/additional_settings.ui.in:154
-#: ../config/chroot_local-includes/usr/share/tails/greeter/main.ui.in:673
+#: ../config/chroot_local-includes/usr/share/tails/greeter/main.ui.in:630
 msgid "MAC Address Spoofing"
 msgstr "MAC 주소 스푸핑"
 
@@ -965,7 +957,7 @@ msgid "Don't spoof MAC addresses"
 msgstr "MAC 주소 속이지 않기"
 
 #: ../config/chroot_local-includes/usr/share/tails/greeter/additional_settings.ui.in:311
-#: ../config/chroot_local-includes/usr/share/tails/greeter/main.ui.in:677
+#: ../config/chroot_local-includes/usr/share/tails/greeter/main.ui.in:634
 msgid "Network Configuration"
 msgstr "네트워크 설정"
 
@@ -1010,33 +1002,29 @@ msgstr "기본 설정"
 msgid "Encrypted _Persistent Storage"
 msgstr "암호화된 _영구 저장소"
 
-#: ../config/chroot_local-includes/usr/share/tails/greeter/main.ui.in:382
-msgid "Configure Persistent Storage"
-msgstr "퍼시스턴트 저장소 설정"
+#: ../config/chroot_local-includes/usr/share/tails/greeter/main.ui.in:326
+msgid "Show Passphrase"
+msgstr "비밀번호 보기"
 
 #. The label for this placeholder text is not very big, so keep this string
 #. short.
-#: ../config/chroot_local-includes/usr/share/tails/greeter/main.ui.in:410
+#: ../config/chroot_local-includes/usr/share/tails/greeter/main.ui.in:380
 msgid "Enter your passphrase to unlock the persistent storage"
 msgstr "비밀번호를 입력하여 퍼시스턴트 저장소를 여세요"
 
-#: ../config/chroot_local-includes/usr/share/tails/greeter/main.ui.in:456
-msgid "Relock Persistent Storage"
-msgstr "퍼시스턴트 저장소 다시 잠금"
-
-#: ../config/chroot_local-includes/usr/share/tails/greeter/main.ui.in:471
+#: ../config/chroot_local-includes/usr/share/tails/greeter/main.ui.in:428
 msgid "Your persistent storage is unlocked. Restart Tails to lock it again."
 msgstr "퍼시스턴트 저장소가 열렸습니다. 다시 잠그려면 Tails를 재시작하세요."
 
-#: ../config/chroot_local-includes/usr/share/tails/greeter/main.ui.in:509
+#: ../config/chroot_local-includes/usr/share/tails/greeter/main.ui.in:466
 msgid "_Additional Settings"
 msgstr "_추가 설정"
 
-#: ../config/chroot_local-includes/usr/share/tails/greeter/main.ui.in:592
+#: ../config/chroot_local-includes/usr/share/tails/greeter/main.ui.in:549
 msgid "Add an additional setting"
 msgstr "추가 설정 추가"
 
-#: ../config/chroot_local-includes/usr/share/tails/greeter/main.ui.in:641
+#: ../config/chroot_local-includes/usr/share/tails/greeter/main.ui.in:598
 msgid ""
 "The default settings are safe in most situations. To add a custom setting, "
 "press the \"+\" button below."

@@ -21,9 +21,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Tor Project\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-10-05 16:50+0200\n"
-"PO-Revision-Date: 2019-11-22 03:49+0000\n"
-"Last-Translator: Joshua Chang <j.cs.chang@gmail.com>\n"
+"POT-Creation-Date: 2019-11-28 17:02+0100\n"
+"PO-Revision-Date: 2019-11-29 02:19+0000\n"
+"Last-Translator: erinm\n"
 "Language-Team: Chinese (Taiwan) (http://www.transifex.com/otf/torproject/language/zh_TW/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -31,11 +31,11 @@ msgstr ""
 "Language: zh_TW\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
-#: config/chroot_local-includes/etc/NetworkManager/dispatcher.d/60-tor-ready.sh:39
+#: config/chroot_local-includes/etc/NetworkManager/dispatcher.d/60-tor-ready.sh:42
 msgid "Tor is ready"
 msgstr "洋蔥路由已就緒"
 
-#: config/chroot_local-includes/etc/NetworkManager/dispatcher.d/60-tor-ready.sh:40
+#: config/chroot_local-includes/etc/NetworkManager/dispatcher.d/60-tor-ready.sh:43
 msgid "You can now access the Internet."
 msgstr "您現在可以存取網路。"
 
@@ -100,12 +100,12 @@ msgid "Do you want to start Electrum anyway?"
 msgstr "您想要啟用 Electrum 嗎？"
 
 #: config/chroot_local-includes/usr/local/bin/electrum:68
-#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:41
+#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:38
 msgid "_Launch"
 msgstr "_啟動器"
 
 #: config/chroot_local-includes/usr/local/bin/electrum:69
-#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:42
+#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:39
 msgid "_Exit"
 msgstr "_離開"
 
@@ -114,9 +114,9 @@ msgid "Additional Settings"
 msgstr "額外的設定"
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tailsgreeter/ui/add_settings_dialog.py:40
-#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:367
+#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:366
 #: config/chroot_local-includes/usr/local/bin/tails-screen-locker:119
-#: config/chroot_local-includes/usr/local/bin/tor-browser:46
+#: config/chroot_local-includes/usr/local/bin/tor-browser:49
 msgid "Cancel"
 msgstr "取消"
 
@@ -168,11 +168,11 @@ msgstr "關閉"
 msgid "Off (default)"
 msgstr "關閉(預設)"
 
-#: config/chroot_local-includes/usr/lib/python3/dist-packages/tailsgreeter/ui/main_window.py:172
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tailsgreeter/ui/main_window.py:171
 msgid "Shutdown"
 msgstr "關閉"
 
-#: config/chroot_local-includes/usr/lib/python3/dist-packages/tailsgreeter/ui/main_window.py:177
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tailsgreeter/ui/main_window.py:176
 msgid "_Start Tails"
 msgstr "啟動 Tails"
 
@@ -208,21 +208,16 @@ msgid ""
 "{stderr}"
 msgstr "卸載失敗，錯誤代碼： {returncode}:\n{stdout}\n{stderr}"
 
-#: config/chroot_local-includes/usr/lib/python3/dist-packages/tailsgreeter/ui/persistent_storage.py:60
-#: config/chroot_local-includes/usr/lib/python3/dist-packages/tailsgreeter/ui/persistent_storage.py:107
-#: ../config/chroot_local-includes/usr/share/tails/greeter/main.ui.in:425
-msgid "Unlock"
-msgstr "解鎖"
-
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tailsgreeter/ui/persistent_storage.py:63
-msgid "Failed to relock persistent storage."
-msgstr "永久性儲存裝置重新鎖定失敗。"
-
-#: config/chroot_local-includes/usr/lib/python3/dist-packages/tailsgreeter/ui/persistent_storage.py:79
 msgid "Unlocking…"
 msgstr "解鎖中...."
 
-#: config/chroot_local-includes/usr/lib/python3/dist-packages/tailsgreeter/ui/persistent_storage.py:111
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tailsgreeter/ui/persistent_storage.py:92
+#: ../config/chroot_local-includes/usr/share/tails/greeter/main.ui.in:395
+msgid "Unlock"
+msgstr "解鎖"
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tailsgreeter/ui/persistent_storage.py:97
 #: ../config/chroot_local-includes/usr/share/tails/greeter/main.ui.in:40
 msgid "Cannot unlock encrypted storage with this passphrase."
 msgstr "此通關密語無法解鎖加密的儲存裝置。"
@@ -363,7 +358,7 @@ msgstr "只安裝一次"
 
 #: config/chroot_local-includes/usr/local/sbin/tails-additional-software:301
 #: config/chroot_local-includes/usr/local/sbin/tails-additional-software:331
-#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:372
+#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:371
 msgid "The configuration of your additional software failed."
 msgstr "設定其他軟體失敗。"
 
@@ -389,58 +384,56 @@ msgid "You could install {packages} automatically when starting Tails"
 msgstr "你可以在 Tails 啟動時自動安裝 {packages}"
 
 #: config/chroot_local-includes/usr/local/sbin/tails-additional-software:345
-msgid ""
-"To do so, you need to run Tails from a USB stick installed using <i>Tails "
-"Installer</i>."
-msgstr "要實現以上操作，您需要使用從 <i>Tails 安裝程式</i>安裝的 USB 執行 Tails。"
+msgid "To do so, you need to run Tails from a USB stick."
+msgstr ""
 
 #. Translators: Don't translate {packages}, it's a placeholder and will be
 #. replaced.
-#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:360
+#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:359
 #, python-brace-format
 msgid "Remove {packages} from your additional software?"
 msgstr "將 {packages} 從您的其他軟體中移除嗎？"
 
 #. Translators: Don't translate {packages}, it's a placeholder
 #. and will be replaced.
-#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:364
+#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:363
 #, python-brace-format
 msgid "This will stop installing {packages} automatically."
 msgstr "這會停止自動安裝 {packages} 。"
 
-#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:366
+#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:365
 #: config/chroot_local-includes/usr/local/bin/tails-additional-software-config:154
 msgid "Remove"
 msgstr "移除"
 
-#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:545
+#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:544
 msgid "Installing your additional software from persistent storage..."
 msgstr "從永久性儲存裝置安裝您的其他軟體..."
 
-#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:547
+#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:546
 msgid "This can take several minutes."
 msgstr "這可能會花幾分鐘。"
 
-#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:560
+#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:559
 msgid "The installation of your additional software failed"
 msgstr "安裝您的其他軟體失敗"
 
-#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:575
+#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:574
 msgid "Additional software installed successfully"
 msgstr "其他軟體安裝成功"
 
-#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:595
+#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:594
 msgid "The check for upgrades of your additional software failed"
 msgstr "檢查其他軟體的升級失敗"
 
-#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:597
-#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:605
+#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:596
+#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:604
 msgid ""
 "Please check your network connection, restart Tails, or read the system log "
 "to understand the problem."
 msgstr "請檢查您的網路連線，重新啟動 Tails，或閱讀系統記錄來了解問題的詳細資訊。"
 
-#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:604
+#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:603
 msgid "The upgrade of your additional software failed"
 msgstr "升級您的其他軟體失敗"
 
@@ -499,11 +492,10 @@ msgstr "要實現以上操作，請建立一個永久性儲存裝置，並使用
 
 #: config/chroot_local-includes/usr/local/bin/tails-additional-software-config:205
 msgid ""
-"To do so, install Tails on a USB stick using <a href=\"tails-"
-"installer.desktop\">Tails Installer</a> and create a persistent storage."
-msgstr "要實現以上操作，請使用 <a href=\"tails-installer.desktop\">Tails 安裝程式</a>在隨身碟上安裝 Tails ，並建立一個永久性儲存裝置。"
+"To do so, install Tails on a USB stick and create a persistent storage."
+msgstr ""
 
-#: config/chroot_local-includes/usr/local/bin/tails-additional-software-config:252
+#: config/chroot_local-includes/usr/local/bin/tails-additional-software-config:251
 msgid "[package not available]"
 msgstr "[套件不可用]"
 
@@ -587,12 +579,12 @@ msgid ""
 msgstr "「<b>檢查升級時沒有足夠的記憶體可用。</b>\n\n請確保該系統能滿足執行 Tails 的要求。\n請參閱 file:///usr/share/doc/tails/website/doc/about/requirements.en.html\n\n請試著將 Tails 重新啟動後再次檢查升級。\n\n或手動執行升級。\n請參閱 https://tails.boum.org/doc/first_steps/upgrade#manual」"
 
 #: config/chroot_local-includes/usr/local/bin/tails-upgrade-frontend-wrapper:72
-#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:27
+#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:24
 msgid "error:"
 msgstr "錯誤:"
 
 #: config/chroot_local-includes/usr/local/bin/tails-upgrade-frontend-wrapper:73
-#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:28
+#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:25
 msgid "Error"
 msgstr "錯誤"
 
@@ -616,15 +608,15 @@ msgstr "主機作業系統和虛擬化軟體都能夠監控您在 Tails 中做�
 msgid "Learn more"
 msgstr "繼續閱讀"
 
-#: config/chroot_local-includes/usr/local/bin/tor-browser:43
+#: config/chroot_local-includes/usr/local/bin/tor-browser:46
 msgid "Tor is not ready"
 msgstr "洋蔥路由尚未就緒"
 
-#: config/chroot_local-includes/usr/local/bin/tor-browser:44
+#: config/chroot_local-includes/usr/local/bin/tor-browser:47
 msgid "Tor is not ready. Start Tor Browser anyway?"
 msgstr "洋蔥路由尚未就緒，您確定仍要啟動洋蔥路由瀏覽器嗎？"
 
-#: config/chroot_local-includes/usr/local/bin/tor-browser:45
+#: config/chroot_local-includes/usr/local/bin/tor-browser:48
 msgid "Start Tor Browser"
 msgstr "啟動洋蔥路由瀏覽器"
 
@@ -793,65 +785,65 @@ msgstr "無法加入檔案容器 %s：等待 loop 設定時逾時。\n請試著�
 msgid "Choose File Container"
 msgstr "選擇檔案容器"
 
-#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:38
+#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:35
 msgid "Do you really want to launch the Unsafe Browser?"
 msgstr "您真的要啟動不安全的瀏覽器嗎？"
 
-#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:40
+#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:37
 msgid ""
 "Network activity within the Unsafe Browser is <b>not anonymous</b>.\\nOnly "
 "use the Unsafe Browser if necessary, for example\\nif you have to login or "
 "register to activate your Internet connection."
 msgstr "在不安全的瀏覽器中的網路活動是<b>無法匿名</b>。\\n如有必要，請僅使用不安全的瀏覽器在一些您必須登入或註冊來啟動您的網際網路連線。"
 
-#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:51
+#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:48
 msgid "Starting the Unsafe Browser..."
 msgstr "正在啟動不安全的瀏覽器..."
 
-#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:52
+#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:49
 msgid "This may take a while, so please be patient."
 msgstr "這可能需要一段時間，所以請耐心等候。"
 
-#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:57
+#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:54
 msgid "Shutting down the Unsafe Browser..."
 msgstr "正在關閉不安全的瀏覽器..."
 
-#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:58
+#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:55
 msgid ""
 "This may take a while, and you may not restart the Unsafe Browser until it "
 "is properly shut down."
 msgstr "這可能需要一段時間，您可能無法將不安全的瀏覽器重新啟動，直到它正確地關閉。"
 
-#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:70
+#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:67
 msgid "Failed to restart Tor."
 msgstr "無法重新啟動洋蔥路由。"
 
-#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:84
+#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:81
 #: ../config/chroot_local-includes/usr/share/applications/unsafe-browser.desktop.in.h:1
 msgid "Unsafe Browser"
 msgstr "不安全的瀏覽器"
 
-#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:91
+#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:88
 msgid ""
 "Another Unsafe Browser is currently running, or being cleaned up. Please "
 "retry in a while."
 msgstr "目前正在執行另一個不安全的瀏覽器，或被清理。請在一段時間後重試。"
 
-#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:99
+#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:96
 msgid "Failed to setup chroot."
 msgstr "無法設定 chroot。"
 
-#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:104
+#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:103
 msgid "Failed to configure browser."
 msgstr "無法設定瀏覽器"
 
-#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:110
+#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:109
 msgid ""
 "No DNS server was obtained through DHCP or manually configured in "
 "NetworkManager."
 msgstr "沒有 DNS 伺服器是透過 DHCP 獲得，或在 NetworkManager 中手動設定。"
 
-#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:121
+#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:120
 msgid "Failed to run browser."
 msgstr "無法開啟瀏覽器"
 
@@ -926,7 +918,7 @@ msgstr "需要驗證來從其他軟體中移除套件 ($(command_line))"
 
 #: ../config/chroot_local-includes/usr/share/tails/greeter/additional_settings.ui.in:18
 #: ../config/chroot_local-includes/usr/share/tails/greeter/additional_settings.ui.in:56
-#: ../config/chroot_local-includes/usr/share/tails/greeter/main.ui.in:669
+#: ../config/chroot_local-includes/usr/share/tails/greeter/main.ui.in:626
 msgid "Administration Password"
 msgstr "管理員密碼"
 
@@ -950,7 +942,7 @@ msgid "Disable"
 msgstr "關閉"
 
 #: ../config/chroot_local-includes/usr/share/tails/greeter/additional_settings.ui.in:154
-#: ../config/chroot_local-includes/usr/share/tails/greeter/main.ui.in:673
+#: ../config/chroot_local-includes/usr/share/tails/greeter/main.ui.in:630
 msgid "MAC Address Spoofing"
 msgstr "網路卡實體位址偽裝"
 
@@ -971,7 +963,7 @@ msgid "Don't spoof MAC addresses"
 msgstr "不要偽裝網路卡實體位址"
 
 #: ../config/chroot_local-includes/usr/share/tails/greeter/additional_settings.ui.in:311
-#: ../config/chroot_local-includes/usr/share/tails/greeter/main.ui.in:677
+#: ../config/chroot_local-includes/usr/share/tails/greeter/main.ui.in:634
 msgid "Network Configuration"
 msgstr "網路設定"
 
@@ -1016,33 +1008,29 @@ msgstr "預設值"
 msgid "Encrypted _Persistent Storage"
 msgstr "加密的永久性儲存裝置"
 
-#: ../config/chroot_local-includes/usr/share/tails/greeter/main.ui.in:382
-msgid "Configure Persistent Storage"
-msgstr "設定永久性儲存裝置"
+#: ../config/chroot_local-includes/usr/share/tails/greeter/main.ui.in:326
+msgid "Show Passphrase"
+msgstr "顯示通關密語"
 
 #. The label for this placeholder text is not very big, so keep this string
 #. short.
-#: ../config/chroot_local-includes/usr/share/tails/greeter/main.ui.in:410
+#: ../config/chroot_local-includes/usr/share/tails/greeter/main.ui.in:380
 msgid "Enter your passphrase to unlock the persistent storage"
 msgstr "請輸入通關密語以便解鎖此永久性儲存裝置"
 
-#: ../config/chroot_local-includes/usr/share/tails/greeter/main.ui.in:456
-msgid "Relock Persistent Storage"
-msgstr "重新鎖定永久性儲存裝置"
-
-#: ../config/chroot_local-includes/usr/share/tails/greeter/main.ui.in:471
+#: ../config/chroot_local-includes/usr/share/tails/greeter/main.ui.in:428
 msgid "Your persistent storage is unlocked. Restart Tails to lock it again."
 msgstr "您的永久性儲存裝置已被解鎖，請重新啟動 Tails 系統以便將它再次鎖定。"
 
-#: ../config/chroot_local-includes/usr/share/tails/greeter/main.ui.in:509
+#: ../config/chroot_local-includes/usr/share/tails/greeter/main.ui.in:466
 msgid "_Additional Settings"
 msgstr "額外的設定"
 
-#: ../config/chroot_local-includes/usr/share/tails/greeter/main.ui.in:592
+#: ../config/chroot_local-includes/usr/share/tails/greeter/main.ui.in:549
 msgid "Add an additional setting"
 msgstr "添加一個額外設定"
 
-#: ../config/chroot_local-includes/usr/share/tails/greeter/main.ui.in:641
+#: ../config/chroot_local-includes/usr/share/tails/greeter/main.ui.in:598
 msgid ""
 "The default settings are safe in most situations. To add a custom setting, "
 "press the \"+\" button below."

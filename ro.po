@@ -25,9 +25,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Tor Project\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-10-05 16:50+0200\n"
-"PO-Revision-Date: 2019-10-09 15:56+0000\n"
-"Last-Translator: eduard pintilie <eduard.pintilie@gmail.com>\n"
+"POT-Creation-Date: 2019-11-28 17:02+0100\n"
+"PO-Revision-Date: 2019-11-29 02:19+0000\n"
+"Last-Translator: erinm\n"
 "Language-Team: Romanian (http://www.transifex.com/otf/torproject/language/ro/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -35,11 +35,11 @@ msgstr ""
 "Language: ro\n"
 "Plural-Forms: nplurals=3; plural=(n==1?0:(((n%100>19)||((n%100==0)&&(n!=0)))?2:1));\n"
 
-#: config/chroot_local-includes/etc/NetworkManager/dispatcher.d/60-tor-ready.sh:39
+#: config/chroot_local-includes/etc/NetworkManager/dispatcher.d/60-tor-ready.sh:42
 msgid "Tor is ready"
 msgstr "Tor este pregătit"
 
-#: config/chroot_local-includes/etc/NetworkManager/dispatcher.d/60-tor-ready.sh:40
+#: config/chroot_local-includes/etc/NetworkManager/dispatcher.d/60-tor-ready.sh:43
 msgid "You can now access the Internet."
 msgstr "Acum puteți accesa Internetul."
 
@@ -104,12 +104,12 @@ msgid "Do you want to start Electrum anyway?"
 msgstr "Vrei să inițializezi Electrum oricum?"
 
 #: config/chroot_local-includes/usr/local/bin/electrum:68
-#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:41
+#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:38
 msgid "_Launch"
 msgstr "_Lansare"
 
 #: config/chroot_local-includes/usr/local/bin/electrum:69
-#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:42
+#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:39
 msgid "_Exit"
 msgstr "_Iesire"
 
@@ -118,9 +118,9 @@ msgid "Additional Settings"
 msgstr "Setări adiționale"
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tailsgreeter/ui/add_settings_dialog.py:40
-#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:367
+#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:366
 #: config/chroot_local-includes/usr/local/bin/tails-screen-locker:119
-#: config/chroot_local-includes/usr/local/bin/tor-browser:46
+#: config/chroot_local-includes/usr/local/bin/tor-browser:49
 msgid "Cancel"
 msgstr "Anulare"
 
@@ -172,11 +172,11 @@ msgstr "Dezactivat"
 msgid "Off (default)"
 msgstr "Dezactivat (implicit)"
 
-#: config/chroot_local-includes/usr/lib/python3/dist-packages/tailsgreeter/ui/main_window.py:172
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tailsgreeter/ui/main_window.py:171
 msgid "Shutdown"
 msgstr "Inchide"
 
-#: config/chroot_local-includes/usr/lib/python3/dist-packages/tailsgreeter/ui/main_window.py:177
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tailsgreeter/ui/main_window.py:176
 msgid "_Start Tails"
 msgstr "_Pornește Tails"
 
@@ -212,21 +212,16 @@ msgid ""
 "{stderr}"
 msgstr "umount a eșuat returnând eroarea {returncode}:\n{stdout}\n{stderr}"
 
-#: config/chroot_local-includes/usr/lib/python3/dist-packages/tailsgreeter/ui/persistent_storage.py:60
-#: config/chroot_local-includes/usr/lib/python3/dist-packages/tailsgreeter/ui/persistent_storage.py:107
-#: ../config/chroot_local-includes/usr/share/tails/greeter/main.ui.in:425
-msgid "Unlock"
-msgstr "Deblocaţi"
-
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tailsgreeter/ui/persistent_storage.py:63
-msgid "Failed to relock persistent storage."
-msgstr "Reblocarea mediului de stocare persistent a eșuat. "
-
-#: config/chroot_local-includes/usr/lib/python3/dist-packages/tailsgreeter/ui/persistent_storage.py:79
 msgid "Unlocking…"
 msgstr "Se deblochează..."
 
-#: config/chroot_local-includes/usr/lib/python3/dist-packages/tailsgreeter/ui/persistent_storage.py:111
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tailsgreeter/ui/persistent_storage.py:92
+#: ../config/chroot_local-includes/usr/share/tails/greeter/main.ui.in:395
+msgid "Unlock"
+msgstr "Deblocaţi"
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tailsgreeter/ui/persistent_storage.py:97
 #: ../config/chroot_local-includes/usr/share/tails/greeter/main.ui.in:40
 msgid "Cannot unlock encrypted storage with this passphrase."
 msgstr "Deblocare imposibilă a dispozitivului de stocare criptat cu această parolă."
@@ -367,7 +362,7 @@ msgstr "Instalează doar o dată"
 
 #: config/chroot_local-includes/usr/local/sbin/tails-additional-software:301
 #: config/chroot_local-includes/usr/local/sbin/tails-additional-software:331
-#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:372
+#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:371
 msgid "The configuration of your additional software failed."
 msgstr "Configurarea aplicațiilor dumneavoastră adiționale a eșuat."
 
@@ -393,58 +388,56 @@ msgid "You could install {packages} automatically when starting Tails"
 msgstr "Puteți instala {packages} automat la pornirea Tails"
 
 #: config/chroot_local-includes/usr/local/sbin/tails-additional-software:345
-msgid ""
-"To do so, you need to run Tails from a USB stick installed using <i>Tails "
-"Installer</i>."
-msgstr "Pentru a face acest lucru, trebuie să rulezi Tails de pe un stick USB instalat cu <i>Programul de instalare Tails</i>."
+msgid "To do so, you need to run Tails from a USB stick."
+msgstr ""
 
 #. Translators: Don't translate {packages}, it's a placeholder and will be
 #. replaced.
-#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:360
+#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:359
 #, python-brace-format
 msgid "Remove {packages} from your additional software?"
 msgstr "Ștergeți {packages} din aplicațiile dumneavoastră adiționale?"
 
 #. Translators: Don't translate {packages}, it's a placeholder
 #. and will be replaced.
-#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:364
+#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:363
 #, python-brace-format
 msgid "This will stop installing {packages} automatically."
 msgstr "Acest lucru va opri instalarea {packages} în mod automat."
 
-#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:366
+#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:365
 #: config/chroot_local-includes/usr/local/bin/tails-additional-software-config:154
 msgid "Remove"
 msgstr "Eliminare"
 
-#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:545
+#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:544
 msgid "Installing your additional software from persistent storage..."
 msgstr "Se instalează aplicațiile dumneavoastră adiționale din stocarea persistentă..."
 
-#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:547
+#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:546
 msgid "This can take several minutes."
 msgstr "Acest lucru ar putea dura câteva minute."
 
-#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:560
+#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:559
 msgid "The installation of your additional software failed"
 msgstr "Instalarea aplicațiilor dumneavoastră adiționale a eșuat"
 
-#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:575
+#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:574
 msgid "Additional software installed successfully"
 msgstr "Aplicațiile adiționale au fost instalate cu succes"
 
-#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:595
+#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:594
 msgid "The check for upgrades of your additional software failed"
 msgstr "Verificarea pentru actualizări a aplicațiilor dumneavoastră adiționale a eșuat"
 
-#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:597
-#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:605
+#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:596
+#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:604
 msgid ""
 "Please check your network connection, restart Tails, or read the system log "
 "to understand the problem."
 msgstr "Vă rugăm verificați conexiunea la rețea, reporniți Tails sau citiți jurnalul sistemului pentru a întelege problema."
 
-#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:604
+#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:603
 msgid "The upgrade of your additional software failed"
 msgstr "Actualizarea aplicațiilor dumneavoastră adiționale a eșuat"
 
@@ -503,11 +496,10 @@ msgstr "Pentru a face acest lucru, creați niște stocare persistentă și insta
 
 #: config/chroot_local-includes/usr/local/bin/tails-additional-software-config:205
 msgid ""
-"To do so, install Tails on a USB stick using <a href=\"tails-"
-"installer.desktop\">Tails Installer</a> and create a persistent storage."
-msgstr "Pentru a face acest lucru, instalați Tails pe un stick USB folosind <a href=\"tails-installer.desktop\">Programul de Instalare Tails</a> si creați niște stocare persistentă."
+"To do so, install Tails on a USB stick and create a persistent storage."
+msgstr ""
 
-#: config/chroot_local-includes/usr/local/bin/tails-additional-software-config:252
+#: config/chroot_local-includes/usr/local/bin/tails-additional-software-config:251
 msgid "[package not available]"
 msgstr "[pachet indisponibil]"
 
@@ -591,12 +583,12 @@ msgid ""
 msgstr "\"<b>Memorie insuficientă pentru verificarea actualizărilor.</b>\n\nAsigurați-vă că sistemul satisface cerințele minime pentru a rula Tails.\nAflați mai multe la file:///usr/share/doc/tails/website/doc/about/requirements.en.html\n\nPuteți încerca să reporniți Tails pentru a verifica din nou actualizările.\n\nPuteți de asemenea să actualizați sistemul manual.\nAflați cum la https://tails.boum.org/doc/first_steps/upgrade#manual\""
 
 #: config/chroot_local-includes/usr/local/bin/tails-upgrade-frontend-wrapper:72
-#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:27
+#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:24
 msgid "error:"
 msgstr "eroare:"
 
 #: config/chroot_local-includes/usr/local/bin/tails-upgrade-frontend-wrapper:73
-#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:28
+#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:25
 msgid "Error"
 msgstr "Eroare"
 
@@ -620,15 +612,15 @@ msgstr "Atât sistemul de operare gazdă cât și software-ul de virtualizare su
 msgid "Learn more"
 msgstr "Află mai multe"
 
-#: config/chroot_local-includes/usr/local/bin/tor-browser:43
+#: config/chroot_local-includes/usr/local/bin/tor-browser:46
 msgid "Tor is not ready"
 msgstr "Tor nu este pregatit"
 
-#: config/chroot_local-includes/usr/local/bin/tor-browser:44
+#: config/chroot_local-includes/usr/local/bin/tor-browser:47
 msgid "Tor is not ready. Start Tor Browser anyway?"
 msgstr "Tor nu este pregătit. Se pornește navigatorul Tor Browser oricum?"
 
-#: config/chroot_local-includes/usr/local/bin/tor-browser:45
+#: config/chroot_local-includes/usr/local/bin/tor-browser:48
 msgid "Start Tor Browser"
 msgstr "Porniți Tor Browser"
 
@@ -797,65 +789,65 @@ msgstr "Adăugarea containerului a eșuat%s: setarea inițială a componentei lo
 msgid "Choose File Container"
 msgstr "Alegere Container de Fișiere"
 
-#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:38
+#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:35
 msgid "Do you really want to launch the Unsafe Browser?"
 msgstr "Doriți să lansați Unsafe Browser ? "
 
-#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:40
+#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:37
 msgid ""
 "Network activity within the Unsafe Browser is <b>not anonymous</b>.\\nOnly "
 "use the Unsafe Browser if necessary, for example\\nif you have to login or "
 "register to activate your Internet connection."
 msgstr "Activitatea de rețea în Unsafe Browser <b>nu este anonimă</b>.\\n Folosiți Unsafe Browser numai dacă este necesar, de exemplu\\nif trebuie să vă autentificați sau înregistrați pentru activarea conexiunii dvs. la Internet."
 
-#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:51
+#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:48
 msgid "Starting the Unsafe Browser..."
 msgstr "Se pornește navigatorul neprotejat Unsafe Browser"
 
-#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:52
+#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:49
 msgid "This may take a while, so please be patient."
 msgstr "Ar putea dura ceva timp, vă rugăm să aveți putină rabdare. "
 
-#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:57
+#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:54
 msgid "Shutting down the Unsafe Browser..."
 msgstr "Navigatorul neprotejat Unsafe Browser se închide..."
 
-#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:58
+#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:55
 msgid ""
 "This may take a while, and you may not restart the Unsafe Browser until it "
 "is properly shut down."
 msgstr "Acest lucru poate dura ceva timp, nu reporniți navigatorul neprotejat Unsafe Browser până ce nu este închis corespunzător."
 
-#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:70
+#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:67
 msgid "Failed to restart Tor."
 msgstr "Tor nu s-a putut reporni. "
 
-#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:84
+#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:81
 #: ../config/chroot_local-includes/usr/share/applications/unsafe-browser.desktop.in.h:1
 msgid "Unsafe Browser"
 msgstr "Navigatorul neprotejat Unsafe Browser"
 
-#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:91
+#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:88
 msgid ""
 "Another Unsafe Browser is currently running, or being cleaned up. Please "
 "retry in a while."
 msgstr "Un alt navigator Unsafe Browser este pornit sau în curs de închidere. Reîncercați în câteva minute."
 
-#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:99
+#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:96
 msgid "Failed to setup chroot."
 msgstr "A eșuat configurarea chroot."
 
-#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:104
+#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:103
 msgid "Failed to configure browser."
 msgstr "A eșuat configurarea navigatorului."
 
-#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:110
+#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:109
 msgid ""
 "No DNS server was obtained through DHCP or manually configured in "
 "NetworkManager."
 msgstr "Nu s-a obținut nici un server DNS prin DHCP sau prin configurarea manuală cu administratorul de rețea NetworkManager."
 
-#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:121
+#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:120
 msgid "Failed to run browser."
 msgstr "A eșuat rularea navigatorului."
 
@@ -930,7 +922,7 @@ msgstr "Aveți nevoie de autentificare pentru a elimina un pachet din aplicații
 
 #: ../config/chroot_local-includes/usr/share/tails/greeter/additional_settings.ui.in:18
 #: ../config/chroot_local-includes/usr/share/tails/greeter/additional_settings.ui.in:56
-#: ../config/chroot_local-includes/usr/share/tails/greeter/main.ui.in:669
+#: ../config/chroot_local-includes/usr/share/tails/greeter/main.ui.in:626
 msgid "Administration Password"
 msgstr "Parolă administrare"
 
@@ -954,7 +946,7 @@ msgid "Disable"
 msgstr "Dezactivaţi"
 
 #: ../config/chroot_local-includes/usr/share/tails/greeter/additional_settings.ui.in:154
-#: ../config/chroot_local-includes/usr/share/tails/greeter/main.ui.in:673
+#: ../config/chroot_local-includes/usr/share/tails/greeter/main.ui.in:630
 msgid "MAC Address Spoofing"
 msgstr "Falsificare adresă MAC"
 
@@ -975,7 +967,7 @@ msgid "Don't spoof MAC addresses"
 msgstr "Nu falsifica adresele MAC"
 
 #: ../config/chroot_local-includes/usr/share/tails/greeter/additional_settings.ui.in:311
-#: ../config/chroot_local-includes/usr/share/tails/greeter/main.ui.in:677
+#: ../config/chroot_local-includes/usr/share/tails/greeter/main.ui.in:634
 msgid "Network Configuration"
 msgstr "Configurare rețea"
 
@@ -1020,33 +1012,29 @@ msgstr "Setări implicite"
 msgid "Encrypted _Persistent Storage"
 msgstr "_Mediu Stocare Persistentă Criptat"
 
-#: ../config/chroot_local-includes/usr/share/tails/greeter/main.ui.in:382
-msgid "Configure Persistent Storage"
-msgstr "Configuraţi stocarea persistentă"
+#: ../config/chroot_local-includes/usr/share/tails/greeter/main.ui.in:326
+msgid "Show Passphrase"
+msgstr "Arată parola"
 
 #. The label for this placeholder text is not very big, so keep this string
 #. short.
-#: ../config/chroot_local-includes/usr/share/tails/greeter/main.ui.in:410
+#: ../config/chroot_local-includes/usr/share/tails/greeter/main.ui.in:380
 msgid "Enter your passphrase to unlock the persistent storage"
 msgstr "Introduceţi parola pentru deblocarea stocării persistente"
 
-#: ../config/chroot_local-includes/usr/share/tails/greeter/main.ui.in:456
-msgid "Relock Persistent Storage"
-msgstr "Blocaţi din nou Stocarea Persistentă"
-
-#: ../config/chroot_local-includes/usr/share/tails/greeter/main.ui.in:471
+#: ../config/chroot_local-includes/usr/share/tails/greeter/main.ui.in:428
 msgid "Your persistent storage is unlocked. Restart Tails to lock it again."
 msgstr "Mediul de stocare persistent este deblocat. Reporniţi Tails pentru a-l bloca din nou."
 
-#: ../config/chroot_local-includes/usr/share/tails/greeter/main.ui.in:509
+#: ../config/chroot_local-includes/usr/share/tails/greeter/main.ui.in:466
 msgid "_Additional Settings"
 msgstr "_Setări Adiționale"
 
-#: ../config/chroot_local-includes/usr/share/tails/greeter/main.ui.in:592
+#: ../config/chroot_local-includes/usr/share/tails/greeter/main.ui.in:549
 msgid "Add an additional setting"
 msgstr "Adaugaţi o setare adițională"
 
-#: ../config/chroot_local-includes/usr/share/tails/greeter/main.ui.in:641
+#: ../config/chroot_local-includes/usr/share/tails/greeter/main.ui.in:598
 msgid ""
 "The default settings are safe in most situations. To add a custom setting, "
 "press the \"+\" button below."

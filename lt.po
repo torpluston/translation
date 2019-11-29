@@ -10,9 +10,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Tor Project\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-10-05 16:50+0200\n"
-"PO-Revision-Date: 2019-10-06 02:05+0000\n"
-"Last-Translator: carolyn <carolyn@anhalt.org>\n"
+"POT-Creation-Date: 2019-11-28 17:02+0100\n"
+"PO-Revision-Date: 2019-11-29 02:19+0000\n"
+"Last-Translator: erinm\n"
 "Language-Team: Lithuanian (http://www.transifex.com/otf/torproject/language/lt/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -20,11 +20,11 @@ msgstr ""
 "Language: lt\n"
 "Plural-Forms: nplurals=4; plural=(n % 10 == 1 && (n % 100 > 19 || n % 100 < 11) ? 0 : (n % 10 >= 2 && n % 10 <=9) && (n % 100 > 19 || n % 100 < 11) ? 1 : n % 1 != 0 ? 2: 3);\n"
 
-#: config/chroot_local-includes/etc/NetworkManager/dispatcher.d/60-tor-ready.sh:39
+#: config/chroot_local-includes/etc/NetworkManager/dispatcher.d/60-tor-ready.sh:42
 msgid "Tor is ready"
 msgstr "Tor yra paruošta"
 
-#: config/chroot_local-includes/etc/NetworkManager/dispatcher.d/60-tor-ready.sh:40
+#: config/chroot_local-includes/etc/NetworkManager/dispatcher.d/60-tor-ready.sh:43
 msgid "You can now access the Internet."
 msgstr "Dabar, turite prieigą prie Interneto."
 
@@ -89,12 +89,12 @@ msgid "Do you want to start Electrum anyway?"
 msgstr "Ar vis tiek norite paleisti Electrum?"
 
 #: config/chroot_local-includes/usr/local/bin/electrum:68
-#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:41
+#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:38
 msgid "_Launch"
 msgstr "Pa_leisti"
 
 #: config/chroot_local-includes/usr/local/bin/electrum:69
-#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:42
+#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:39
 msgid "_Exit"
 msgstr "Iš_eiti"
 
@@ -103,9 +103,9 @@ msgid "Additional Settings"
 msgstr "Papildomi nustatymai"
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tailsgreeter/ui/add_settings_dialog.py:40
-#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:367
+#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:366
 #: config/chroot_local-includes/usr/local/bin/tails-screen-locker:119
-#: config/chroot_local-includes/usr/local/bin/tor-browser:46
+#: config/chroot_local-includes/usr/local/bin/tor-browser:49
 msgid "Cancel"
 msgstr "Atsisakyti"
 
@@ -157,11 +157,11 @@ msgstr "Išjungta"
 msgid "Off (default)"
 msgstr "Išjungta (numatytasis)"
 
-#: config/chroot_local-includes/usr/lib/python3/dist-packages/tailsgreeter/ui/main_window.py:172
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tailsgreeter/ui/main_window.py:171
 msgid "Shutdown"
 msgstr "Išjungti"
 
-#: config/chroot_local-includes/usr/lib/python3/dist-packages/tailsgreeter/ui/main_window.py:177
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tailsgreeter/ui/main_window.py:176
 msgid "_Start Tails"
 msgstr "Palei_sti Tails"
 
@@ -197,21 +197,16 @@ msgid ""
 "{stderr}"
 msgstr "umount patyrė nesėkmę su grįžties kodu {returncode}:\n{stdout}\n{stderr}"
 
-#: config/chroot_local-includes/usr/lib/python3/dist-packages/tailsgreeter/ui/persistent_storage.py:60
-#: config/chroot_local-includes/usr/lib/python3/dist-packages/tailsgreeter/ui/persistent_storage.py:107
-#: ../config/chroot_local-includes/usr/share/tails/greeter/main.ui.in:425
-msgid "Unlock"
-msgstr "Atrakinti"
-
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tailsgreeter/ui/persistent_storage.py:63
-msgid "Failed to relock persistent storage."
-msgstr "Nepavyko iš naujo užrakinti ilgalaikį kaupiklį."
-
-#: config/chroot_local-includes/usr/lib/python3/dist-packages/tailsgreeter/ui/persistent_storage.py:79
 msgid "Unlocking…"
 msgstr "Atrakinama…"
 
-#: config/chroot_local-includes/usr/lib/python3/dist-packages/tailsgreeter/ui/persistent_storage.py:111
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tailsgreeter/ui/persistent_storage.py:92
+#: ../config/chroot_local-includes/usr/share/tails/greeter/main.ui.in:395
+msgid "Unlock"
+msgstr "Atrakinti"
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tailsgreeter/ui/persistent_storage.py:97
 #: ../config/chroot_local-includes/usr/share/tails/greeter/main.ui.in:40
 msgid "Cannot unlock encrypted storage with this passphrase."
 msgstr "Nepavyksta su šia slaptafraze atrakinti ilgalaikio kaupiklio."
@@ -352,7 +347,7 @@ msgstr "Įdiegti tik vieną kartą"
 
 #: config/chroot_local-includes/usr/local/sbin/tails-additional-software:301
 #: config/chroot_local-includes/usr/local/sbin/tails-additional-software:331
-#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:372
+#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:371
 msgid "The configuration of your additional software failed."
 msgstr "Jūsų papildomos programinės įrangos konfigūracija patyrė nesėkmę."
 
@@ -378,58 +373,56 @@ msgid "You could install {packages} automatically when starting Tails"
 msgstr "Paleisdami Tails, galėtumėte automatiškai įdiegti {packages}"
 
 #: config/chroot_local-includes/usr/local/sbin/tails-additional-software:345
-msgid ""
-"To do so, you need to run Tails from a USB stick installed using <i>Tails "
-"Installer</i>."
-msgstr "Norėdami tai padaryti, turite iš USB atmintuko paleisti Tails, įdiegtą naudojant <i>Tails diegimo programą</i>."
+msgid "To do so, you need to run Tails from a USB stick."
+msgstr ""
 
 #. Translators: Don't translate {packages}, it's a placeholder and will be
 #. replaced.
-#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:360
+#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:359
 #, python-brace-format
 msgid "Remove {packages} from your additional software?"
 msgstr "Šalinti {packages} iš jūsų papildomos programinės įrangos?"
 
 #. Translators: Don't translate {packages}, it's a placeholder
 #. and will be replaced.
-#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:364
+#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:363
 #, python-brace-format
 msgid "This will stop installing {packages} automatically."
 msgstr "Tai sustabdys automatinį {packages} diegimą."
 
-#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:366
+#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:365
 #: config/chroot_local-includes/usr/local/bin/tails-additional-software-config:154
 msgid "Remove"
 msgstr "Šalinti"
 
-#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:545
+#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:544
 msgid "Installing your additional software from persistent storage..."
 msgstr "Įdiegiama papildoma programinė įranga iš jūsų ilgalaikio kaupiklio..."
 
-#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:547
+#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:546
 msgid "This can take several minutes."
 msgstr "Tai gali užimti kelias minutes."
 
-#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:560
+#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:559
 msgid "The installation of your additional software failed"
 msgstr "Jūsų papildomos programinės įrangos diegimas patyrė nesėkmę."
 
-#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:575
+#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:574
 msgid "Additional software installed successfully"
 msgstr "Papildoma programinė įranga sėkmingai įdiegta"
 
-#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:595
+#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:594
 msgid "The check for upgrades of your additional software failed"
 msgstr "Nepavyko patikrinti jūsų papildomai programinei įrangai skirtų naujinimų"
 
-#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:597
-#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:605
+#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:596
+#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:604
 msgid ""
 "Please check your network connection, restart Tails, or read the system log "
 "to understand the problem."
 msgstr "Norėdami išsiaiškinti problemą, patikrinkite savo tinklo ryšį, paleiskite Tails iš naujo arba skaitykite sistemos žurnalą."
 
-#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:604
+#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:603
 msgid "The upgrade of your additional software failed"
 msgstr "Jūsų papildomos programinės įrangos naujinimas patyrė nesėkmę"
 
@@ -488,11 +481,10 @@ msgstr "Norėdami tai atlikti, sukurkite ilgalaikį kaupiklį ir įdiekite progr
 
 #: config/chroot_local-includes/usr/local/bin/tails-additional-software-config:205
 msgid ""
-"To do so, install Tails on a USB stick using <a href=\"tails-"
-"installer.desktop\">Tails Installer</a> and create a persistent storage."
-msgstr "Norėdami tai atlikti, įdiekite Tails USB atminuke, naudodami <a href=\"tails-installer.desktop\">Tails diegimo programą</a> ir sukurkite ilgalaikį kaupiklį."
+"To do so, install Tails on a USB stick and create a persistent storage."
+msgstr ""
 
-#: config/chroot_local-includes/usr/local/bin/tails-additional-software-config:252
+#: config/chroot_local-includes/usr/local/bin/tails-additional-software-config:251
 msgid "[package not available]"
 msgstr "[paketas neprieinamas]"
 
@@ -576,12 +568,12 @@ msgid ""
 msgstr "\"<b>Naujinimų tikrinimui nepakanka prieinamos atminties.</b>\n\nĮsitikinkite, kad ši sistema tenkina Tails paleidimo reikalavimus.\nŽiūrėkite file:///usr/share/doc/tails/website/doc/about/requirements.en.html\n\nNorėdami dar kartą tikrinti naujinimus, pabandykite paleisti Tails iš naujo.\n\nArba atlikite naujinimą rankiniu būdu.\nŽiūrėkite https://tails.boum.org/doc/first_steps/upgrade#manual\""
 
 #: config/chroot_local-includes/usr/local/bin/tails-upgrade-frontend-wrapper:72
-#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:27
+#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:24
 msgid "error:"
 msgstr "klaida:"
 
 #: config/chroot_local-includes/usr/local/bin/tails-upgrade-frontend-wrapper:73
-#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:28
+#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:25
 msgid "Error"
 msgstr "Klaida"
 
@@ -605,15 +597,15 @@ msgstr "Tiek pagrindinio kompiuterio operacinė sistema, tiek virtualizacijos pr
 msgid "Learn more"
 msgstr "Sužinoti daugiau"
 
-#: config/chroot_local-includes/usr/local/bin/tor-browser:43
+#: config/chroot_local-includes/usr/local/bin/tor-browser:46
 msgid "Tor is not ready"
 msgstr "Tor neparuoštas"
 
-#: config/chroot_local-includes/usr/local/bin/tor-browser:44
+#: config/chroot_local-includes/usr/local/bin/tor-browser:47
 msgid "Tor is not ready. Start Tor Browser anyway?"
 msgstr "Tor neparuoštas. Vis tiek paleisti Tor Browser?"
 
-#: config/chroot_local-includes/usr/local/bin/tor-browser:45
+#: config/chroot_local-includes/usr/local/bin/tor-browser:48
 msgid "Start Tor Browser"
 msgstr "Paleisti Tor Browser"
 
@@ -782,65 +774,65 @@ msgstr "Nepavyko pridėti failų konteinerio %s: Laukiant ciklinės sąrankos, p
 msgid "Choose File Container"
 msgstr "Pasirinkti failų konteinerį"
 
-#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:38
+#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:35
 msgid "Do you really want to launch the Unsafe Browser?"
 msgstr "Ar tikrai norite paleisti nesaugią naršyklę?"
 
-#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:40
+#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:37
 msgid ""
 "Network activity within the Unsafe Browser is <b>not anonymous</b>.\\nOnly "
 "use the Unsafe Browser if necessary, for example\\nif you have to login or "
 "register to activate your Internet connection."
 msgstr "Tinklo veikla nesaugioje naršyklėje <b>nėra anoniminė</b>.\\nNaudokite Nesaugią naršyklę tik tuomet, jeigu to reikia, pavyzdžiui,\\njeigu jums reikia prisijungti ar prisiregistruoti, kad aktyvuotumėte savo interneto ryšį."
 
-#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:51
+#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:48
 msgid "Starting the Unsafe Browser..."
 msgstr "Paleidžiama nesaugi naršyklė..."
 
-#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:52
+#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:49
 msgid "This may take a while, so please be patient."
 msgstr "Tai gali šiek tiek užtrukti, prašome būti kantriais."
 
-#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:57
+#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:54
 msgid "Shutting down the Unsafe Browser..."
 msgstr "Nesaugi naršyklė išjungiama..."
 
-#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:58
+#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:55
 msgid ""
 "This may take a while, and you may not restart the Unsafe Browser until it "
 "is properly shut down."
 msgstr "Tai gali šiek tiek užtrukti. Jūs neturite iš naujo paleisti nesaugios naršyklės tol, kol ji nebus tinkamai išjungta."
 
-#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:70
+#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:67
 msgid "Failed to restart Tor."
 msgstr "Nepavyko iš naujo paleisti Tor."
 
-#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:84
+#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:81
 #: ../config/chroot_local-includes/usr/share/applications/unsafe-browser.desktop.in.h:1
 msgid "Unsafe Browser"
 msgstr "Nesaugi naršyklė"
 
-#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:91
+#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:88
 msgid ""
 "Another Unsafe Browser is currently running, or being cleaned up. Please "
 "retry in a while."
 msgstr "Šiuo metu veikia ar yra išvaloma kita nesaugi naršyklė. Šiek tiek palaukite ir bandykite dar kartą."
 
-#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:99
+#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:96
 msgid "Failed to setup chroot."
 msgstr "Nepavyko nustatyti chroot."
 
-#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:104
+#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:103
 msgid "Failed to configure browser."
 msgstr "Nepavyko sukonfigūruoti naršyklės."
 
-#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:110
+#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:109
 msgid ""
 "No DNS server was obtained through DHCP or manually configured in "
 "NetworkManager."
 msgstr "Joks DNS serveris nebuvo gautas per DHCP ar sukonfigūruotas rankiniu būdu programoje NetworkManager."
 
-#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:121
+#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:120
 msgid "Failed to run browser."
 msgstr "Nepavyko vykdyti naršyklės."
 
@@ -915,7 +907,7 @@ msgstr "Reikalingas tapatybės nustatymas, norint pašalinti paketą iš jūsų 
 
 #: ../config/chroot_local-includes/usr/share/tails/greeter/additional_settings.ui.in:18
 #: ../config/chroot_local-includes/usr/share/tails/greeter/additional_settings.ui.in:56
-#: ../config/chroot_local-includes/usr/share/tails/greeter/main.ui.in:669
+#: ../config/chroot_local-includes/usr/share/tails/greeter/main.ui.in:626
 msgid "Administration Password"
 msgstr "Administravimo slaptažodis"
 
@@ -939,7 +931,7 @@ msgid "Disable"
 msgstr "Išjungti"
 
 #: ../config/chroot_local-includes/usr/share/tails/greeter/additional_settings.ui.in:154
-#: ../config/chroot_local-includes/usr/share/tails/greeter/main.ui.in:673
+#: ../config/chroot_local-includes/usr/share/tails/greeter/main.ui.in:630
 msgid "MAC Address Spoofing"
 msgstr "MAC adresų klastojimas"
 
@@ -960,7 +952,7 @@ msgid "Don't spoof MAC addresses"
 msgstr "Neklastoti MAC adresus"
 
 #: ../config/chroot_local-includes/usr/share/tails/greeter/additional_settings.ui.in:311
-#: ../config/chroot_local-includes/usr/share/tails/greeter/main.ui.in:677
+#: ../config/chroot_local-includes/usr/share/tails/greeter/main.ui.in:634
 msgid "Network Configuration"
 msgstr "Tinklo konfigūravimas"
 
@@ -1005,33 +997,29 @@ msgstr "Numatytieji nustatymai"
 msgid "Encrypted _Persistent Storage"
 msgstr "Šifruotas ilgalaikis kau_piklis"
 
-#: ../config/chroot_local-includes/usr/share/tails/greeter/main.ui.in:382
-msgid "Configure Persistent Storage"
-msgstr "Konfigūruoti ilgalaikį kaupiklį"
+#: ../config/chroot_local-includes/usr/share/tails/greeter/main.ui.in:326
+msgid "Show Passphrase"
+msgstr "Rodyti slaptafrazę"
 
 #. The label for this placeholder text is not very big, so keep this string
 #. short.
-#: ../config/chroot_local-includes/usr/share/tails/greeter/main.ui.in:410
+#: ../config/chroot_local-includes/usr/share/tails/greeter/main.ui.in:380
 msgid "Enter your passphrase to unlock the persistent storage"
 msgstr "Įveskite savo slaptafrazę, kad atrakintumėte ilgalaikį kaupiklį"
 
-#: ../config/chroot_local-includes/usr/share/tails/greeter/main.ui.in:456
-msgid "Relock Persistent Storage"
-msgstr "Iš naujo užrakinti ilgalaikį kaupiklį"
-
-#: ../config/chroot_local-includes/usr/share/tails/greeter/main.ui.in:471
+#: ../config/chroot_local-includes/usr/share/tails/greeter/main.ui.in:428
 msgid "Your persistent storage is unlocked. Restart Tails to lock it again."
 msgstr "Jūsų ilgalaikis kaupiklis yra atrakintas. Paleiskite Tails iš naujo, norėdami jį vėl užrakinti. "
 
-#: ../config/chroot_local-includes/usr/share/tails/greeter/main.ui.in:509
+#: ../config/chroot_local-includes/usr/share/tails/greeter/main.ui.in:466
 msgid "_Additional Settings"
 msgstr "P_apildomi nustatymai"
 
-#: ../config/chroot_local-includes/usr/share/tails/greeter/main.ui.in:592
+#: ../config/chroot_local-includes/usr/share/tails/greeter/main.ui.in:549
 msgid "Add an additional setting"
 msgstr "Pridėti papildomą nustatymą"
 
-#: ../config/chroot_local-includes/usr/share/tails/greeter/main.ui.in:641
+#: ../config/chroot_local-includes/usr/share/tails/greeter/main.ui.in:598
 msgid ""
 "The default settings are safe in most situations. To add a custom setting, "
 "press the \"+\" button below."

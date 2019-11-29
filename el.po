@@ -28,9 +28,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Tor Project\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-10-05 16:50+0200\n"
-"PO-Revision-Date: 2019-10-06 02:05+0000\n"
-"Last-Translator: carolyn <carolyn@anhalt.org>\n"
+"POT-Creation-Date: 2019-11-28 17:02+0100\n"
+"PO-Revision-Date: 2019-11-29 02:19+0000\n"
+"Last-Translator: erinm\n"
 "Language-Team: Greek (http://www.transifex.com/otf/torproject/language/el/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -38,11 +38,11 @@ msgstr ""
 "Language: el\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: config/chroot_local-includes/etc/NetworkManager/dispatcher.d/60-tor-ready.sh:39
+#: config/chroot_local-includes/etc/NetworkManager/dispatcher.d/60-tor-ready.sh:42
 msgid "Tor is ready"
 msgstr "Το Tor είναι έτοιμο"
 
-#: config/chroot_local-includes/etc/NetworkManager/dispatcher.d/60-tor-ready.sh:40
+#: config/chroot_local-includes/etc/NetworkManager/dispatcher.d/60-tor-ready.sh:43
 msgid "You can now access the Internet."
 msgstr "Τώρα έχετε πρόσβαση στο Διαδίκτυο."
 
@@ -107,12 +107,12 @@ msgid "Do you want to start Electrum anyway?"
 msgstr "Θέλετε να εκκινήσετε το Electrum ούτως ή άλλως;"
 
 #: config/chroot_local-includes/usr/local/bin/electrum:68
-#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:41
+#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:38
 msgid "_Launch"
 msgstr "_Εκκίνηση"
 
 #: config/chroot_local-includes/usr/local/bin/electrum:69
-#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:42
+#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:39
 msgid "_Exit"
 msgstr "_Έξοδος"
 
@@ -121,9 +121,9 @@ msgid "Additional Settings"
 msgstr "Πρόσθετες Ρυθμίσεις"
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tailsgreeter/ui/add_settings_dialog.py:40
-#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:367
+#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:366
 #: config/chroot_local-includes/usr/local/bin/tails-screen-locker:119
-#: config/chroot_local-includes/usr/local/bin/tor-browser:46
+#: config/chroot_local-includes/usr/local/bin/tor-browser:49
 msgid "Cancel"
 msgstr "Άκυρο"
 
@@ -175,11 +175,11 @@ msgstr "Κλειστό"
 msgid "Off (default)"
 msgstr "Κλειστό (προεπιλογή)"
 
-#: config/chroot_local-includes/usr/lib/python3/dist-packages/tailsgreeter/ui/main_window.py:172
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tailsgreeter/ui/main_window.py:171
 msgid "Shutdown"
 msgstr "Κλείσιμο"
 
-#: config/chroot_local-includes/usr/lib/python3/dist-packages/tailsgreeter/ui/main_window.py:177
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tailsgreeter/ui/main_window.py:176
 msgid "_Start Tails"
 msgstr "_Έναρξη Tails"
 
@@ -215,21 +215,16 @@ msgid ""
 "{stderr}"
 msgstr "το umount απέτυχε με τον κωδικό επιστροφής {returncode}:\n{stdout}\n{stderr}"
 
-#: config/chroot_local-includes/usr/lib/python3/dist-packages/tailsgreeter/ui/persistent_storage.py:60
-#: config/chroot_local-includes/usr/lib/python3/dist-packages/tailsgreeter/ui/persistent_storage.py:107
-#: ../config/chroot_local-includes/usr/share/tails/greeter/main.ui.in:425
-msgid "Unlock"
-msgstr "Ξεκλείδωμα"
-
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tailsgreeter/ui/persistent_storage.py:63
-msgid "Failed to relock persistent storage."
-msgstr "Αποτυχία επανακλειδώματος του μόνιμου χώρου αποθήκευσης."
-
-#: config/chroot_local-includes/usr/lib/python3/dist-packages/tailsgreeter/ui/persistent_storage.py:79
 msgid "Unlocking…"
 msgstr "Ξεκλειδώνεται..."
 
-#: config/chroot_local-includes/usr/lib/python3/dist-packages/tailsgreeter/ui/persistent_storage.py:111
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tailsgreeter/ui/persistent_storage.py:92
+#: ../config/chroot_local-includes/usr/share/tails/greeter/main.ui.in:395
+msgid "Unlock"
+msgstr "Ξεκλείδωμα"
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tailsgreeter/ui/persistent_storage.py:97
 #: ../config/chroot_local-includes/usr/share/tails/greeter/main.ui.in:40
 msgid "Cannot unlock encrypted storage with this passphrase."
 msgstr "Δεν μπορούμε να ξεκλειδώσουμε τον κρυπτογραφημένο αποθηκευτικό χώρο με αυτήν τη φράση κλειδί."
@@ -370,7 +365,7 @@ msgstr "Εγκατάσταση μόνο μία φορά"
 
 #: config/chroot_local-includes/usr/local/sbin/tails-additional-software:301
 #: config/chroot_local-includes/usr/local/sbin/tails-additional-software:331
-#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:372
+#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:371
 msgid "The configuration of your additional software failed."
 msgstr "Η διαμόρφωση για το επιπρόσθετο λογισμικό απέτυχε."
 
@@ -396,58 +391,56 @@ msgid "You could install {packages} automatically when starting Tails"
 msgstr "Θα μπορούσατε να εγκαταστήσετε {packages} αυτόματα ξεκινώντας τα Tails."
 
 #: config/chroot_local-includes/usr/local/sbin/tails-additional-software:345
-msgid ""
-"To do so, you need to run Tails from a USB stick installed using <i>Tails "
-"Installer</i>."
-msgstr "Για να το κάνετε, χρειάζεται να τρέξετε τα Tails από USB στικ εγκατεστημένα, χρησιμοποιώντας τον <i> Εγκαταστάτη Tails </i>."
+msgid "To do so, you need to run Tails from a USB stick."
+msgstr ""
 
 #. Translators: Don't translate {packages}, it's a placeholder and will be
 #. replaced.
-#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:360
+#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:359
 #, python-brace-format
 msgid "Remove {packages} from your additional software?"
 msgstr "Να αφαιρεθούν τα {packages} από το επιπρόθετο λογισμικό σας;"
 
 #. Translators: Don't translate {packages}, it's a placeholder
 #. and will be replaced.
-#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:364
+#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:363
 #, python-brace-format
 msgid "This will stop installing {packages} automatically."
 msgstr "Αυτό θα σταματήσει την εγκατάσταση των {packages} αυτόματα."
 
-#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:366
+#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:365
 #: config/chroot_local-includes/usr/local/bin/tails-additional-software-config:154
 msgid "Remove"
 msgstr "Απομάκρυνση"
 
-#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:545
+#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:544
 msgid "Installing your additional software from persistent storage..."
 msgstr "Εγκαθιστάται το πρόσθετό σας λογισμικό από το μόνιμο αποθηκευτικό χώρο..."
 
-#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:547
+#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:546
 msgid "This can take several minutes."
 msgstr "Αυτό μπορεί να πάρει μερικά λεπτά."
 
-#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:560
+#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:559
 msgid "The installation of your additional software failed"
 msgstr "Η εγκατάσταση του πρόσθετου λογισμικού απέτυχε."
 
-#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:575
+#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:574
 msgid "Additional software installed successfully"
 msgstr "Το πρόσθετο λογισμικό εγκαταστάθηκε επιτυχώς."
 
-#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:595
+#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:594
 msgid "The check for upgrades of your additional software failed"
 msgstr "Ο έλεγχος για αναβαθμίσεις για τα πρόσθετα λογισμικά σας απέτυχε."
 
-#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:597
-#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:605
+#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:596
+#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:604
 msgid ""
 "Please check your network connection, restart Tails, or read the system log "
 "to understand the problem."
 msgstr "Ελέγξτε την σύνδεσή σας στο διαδίκτυο, επανεκκινήστε τα Tails ή διαβάστε το ιστορικό συστήματος για να κατανοήσετε το πρόβλημα."
 
-#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:604
+#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:603
 msgid "The upgrade of your additional software failed"
 msgstr "Η αναβάθμιση του πρόσθετού σας λογισμικού απέτυχε."
 
@@ -506,11 +499,10 @@ msgstr "Για να το κάνετε αυτό, δημιουργήστε μόν�
 
 #: config/chroot_local-includes/usr/local/bin/tails-additional-software-config:205
 msgid ""
-"To do so, install Tails on a USB stick using <a href=\"tails-"
-"installer.desktop\">Tails Installer</a> and create a persistent storage."
-msgstr "Για να το κάνετε αυτό, εγκαταστήστε τα Tails σε ένα USB στικ χρησιμοποιώντας τον <a href=\"tails-installer.desktop\">Εγκαταστάτη Tails</a> και δημιουργήστε ένα μόνιμο αποθηκευτικό χώρο."
+"To do so, install Tails on a USB stick and create a persistent storage."
+msgstr ""
 
-#: config/chroot_local-includes/usr/local/bin/tails-additional-software-config:252
+#: config/chroot_local-includes/usr/local/bin/tails-additional-software-config:251
 msgid "[package not available]"
 msgstr "[πακέτο μη διαθέσιμο]"
 
@@ -594,12 +586,12 @@ msgid ""
 msgstr "\"<b>Δεν υπάρχει αρκετή διαθέσιμη μνήμη για τον έλεγχο για αναβαθμίσεις.</b>\n\nΣιγουρέψτε ότι το σύστημα ικανοποιεί τις απαιτήσεις για το τρέξιμο των Tails.\nΔείτε το file:///usr/share/doc/tails/website/doc/about/requirements.en.html\n\nΠροσπαθήστε να επανεκκινήσετε τα Tails για να ελέγξετε ξανά για αναβαθμίσεις.\n\nΉ κάντε μία χειροκίνητη αναβάθμιση.\nΔείτε https://tails.boum.org/doc/first_steps/upgrade#manual\""
 
 #: config/chroot_local-includes/usr/local/bin/tails-upgrade-frontend-wrapper:72
-#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:27
+#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:24
 msgid "error:"
 msgstr "σφάλμα:"
 
 #: config/chroot_local-includes/usr/local/bin/tails-upgrade-frontend-wrapper:73
-#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:28
+#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:25
 msgid "Error"
 msgstr "Σφάλμα"
 
@@ -623,15 +615,15 @@ msgstr "Τόσο το λογισμικό εικονικοποίησης (virtual
 msgid "Learn more"
 msgstr "Μάθετε περισσότερα"
 
-#: config/chroot_local-includes/usr/local/bin/tor-browser:43
+#: config/chroot_local-includes/usr/local/bin/tor-browser:46
 msgid "Tor is not ready"
 msgstr "Το Tor δεν είναι έτοιμο"
 
-#: config/chroot_local-includes/usr/local/bin/tor-browser:44
+#: config/chroot_local-includes/usr/local/bin/tor-browser:47
 msgid "Tor is not ready. Start Tor Browser anyway?"
 msgstr "Το Tor δεν είναι έτοιμο. Εκκίνηση του Tor Browser όπως και να 'χει;"
 
-#: config/chroot_local-includes/usr/local/bin/tor-browser:45
+#: config/chroot_local-includes/usr/local/bin/tor-browser:48
 msgid "Start Tor Browser"
 msgstr "Εκκίνηση του Tor Browser"
 
@@ -800,65 +792,65 @@ msgstr ""
 msgid "Choose File Container"
 msgstr "Επιλέξτε φορέα αρχείων"
 
-#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:38
+#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:35
 msgid "Do you really want to launch the Unsafe Browser?"
 msgstr "Θέλετε πραγματικά να ξεκινήσετε τον μη ασφαλή Browser;"
 
-#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:40
+#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:37
 msgid ""
 "Network activity within the Unsafe Browser is <b>not anonymous</b>.\\nOnly "
 "use the Unsafe Browser if necessary, for example\\nif you have to login or "
 "register to activate your Internet connection."
 msgstr "Η δραστηριότητα μέσα από Unsafe Browser  <b>δεν είναι ανώνυμη</b>.\\n Χρησιμοποιήστε Unsafe Browser μόνο όταν είναι αναγκαίο, για παράδειγμα\\n ή αν χρειάζεται να συνδεθείτε ή να δημιουργήσετε λογαριασμό για την ενεργοποίηση της σύνδεσης στο διαδίκτυο."
 
-#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:51
+#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:48
 msgid "Starting the Unsafe Browser..."
 msgstr "Εκκίνηση του μη ασφαλή Browser..."
 
-#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:52
+#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:49
 msgid "This may take a while, so please be patient."
 msgstr "Αυτό μπορεί να πάρει λίγο χρόνο, παρακαλούμε κάντε υπομονή."
 
-#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:57
+#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:54
 msgid "Shutting down the Unsafe Browser..."
 msgstr "Κλείσιμο του μη ασφαλή Browser..."
 
-#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:58
+#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:55
 msgid ""
 "This may take a while, and you may not restart the Unsafe Browser until it "
 "is properly shut down."
 msgstr "Αυτό μπορεί να πάρει λίγη ώρα, και δεν πρέπει να επανεκκινήσετε τον μη ασφαλή Browser μέχρι να κλείσει μόνος του σωστά."
 
-#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:70
+#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:67
 msgid "Failed to restart Tor."
 msgstr "Αποτυχία επανεκκίνησης του Tor."
 
-#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:84
+#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:81
 #: ../config/chroot_local-includes/usr/share/applications/unsafe-browser.desktop.in.h:1
 msgid "Unsafe Browser"
 msgstr "Μη ασφαλής Browser"
 
-#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:91
+#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:88
 msgid ""
 "Another Unsafe Browser is currently running, or being cleaned up. Please "
 "retry in a while."
 msgstr "Ένας άλλος Μη-Ασφαλής Browser εκτελείται αυτή τη στιγμή, ή του γίνεται εκκαθάριση. Παρακαλώ δοκιμάστε ξανά σε λίγο."
 
-#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:99
+#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:96
 msgid "Failed to setup chroot."
 msgstr "Αποτυχία ρύθμισης chroot."
 
-#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:104
+#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:103
 msgid "Failed to configure browser."
 msgstr "Αποτυχία ρύθμισης του browser."
 
-#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:110
+#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:109
 msgid ""
 "No DNS server was obtained through DHCP or manually configured in "
 "NetworkManager."
 msgstr "Δεν αποκτήθηκε DNS server μέσω DHCP ή μέσω χειροκίνητης ρύθμισης στο NetworkManager."
 
-#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:121
+#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:120
 msgid "Failed to run browser."
 msgstr "Αποτυχία εκτέλεησης του browser."
 
@@ -933,7 +925,7 @@ msgstr "Απαιτείται ταυτοποίηση για την απομάκρ
 
 #: ../config/chroot_local-includes/usr/share/tails/greeter/additional_settings.ui.in:18
 #: ../config/chroot_local-includes/usr/share/tails/greeter/additional_settings.ui.in:56
-#: ../config/chroot_local-includes/usr/share/tails/greeter/main.ui.in:669
+#: ../config/chroot_local-includes/usr/share/tails/greeter/main.ui.in:626
 msgid "Administration Password"
 msgstr "Κωδικός διαχειριστή"
 
@@ -957,7 +949,7 @@ msgid "Disable"
 msgstr "Απενεργοοίηση"
 
 #: ../config/chroot_local-includes/usr/share/tails/greeter/additional_settings.ui.in:154
-#: ../config/chroot_local-includes/usr/share/tails/greeter/main.ui.in:673
+#: ../config/chroot_local-includes/usr/share/tails/greeter/main.ui.in:630
 msgid "MAC Address Spoofing"
 msgstr "Αλλοίωση διεύθυνσης MAC"
 
@@ -978,7 +970,7 @@ msgid "Don't spoof MAC addresses"
 msgstr "Να μην αλλοιώνονται οι διευθύνσεις MAC"
 
 #: ../config/chroot_local-includes/usr/share/tails/greeter/additional_settings.ui.in:311
-#: ../config/chroot_local-includes/usr/share/tails/greeter/main.ui.in:677
+#: ../config/chroot_local-includes/usr/share/tails/greeter/main.ui.in:634
 msgid "Network Configuration"
 msgstr "Ρύθμιση δικτύου"
 
@@ -1023,33 +1015,29 @@ msgstr "Προεπιλεγμένες ρυθμίσεις"
 msgid "Encrypted _Persistent Storage"
 msgstr "Κρυπτογραφημένος _Μόνιμος Χώρος Αποθήκευσης"
 
-#: ../config/chroot_local-includes/usr/share/tails/greeter/main.ui.in:382
-msgid "Configure Persistent Storage"
-msgstr "Ρύθμιση Persistent Storage"
+#: ../config/chroot_local-includes/usr/share/tails/greeter/main.ui.in:326
+msgid "Show Passphrase"
+msgstr "Εμφάνιση συνθηματικού"
 
 #. The label for this placeholder text is not very big, so keep this string
 #. short.
-#: ../config/chroot_local-includes/usr/share/tails/greeter/main.ui.in:410
+#: ../config/chroot_local-includes/usr/share/tails/greeter/main.ui.in:380
 msgid "Enter your passphrase to unlock the persistent storage"
 msgstr "Εισάγετε το συνθηματικό για να ξεκλειδώσετε το μόνιμο χώρο αποθήκευσης"
 
-#: ../config/chroot_local-includes/usr/share/tails/greeter/main.ui.in:456
-msgid "Relock Persistent Storage"
-msgstr "Επανακλείδωμα του μόνιμου χώρου αποθήκευσης"
-
-#: ../config/chroot_local-includes/usr/share/tails/greeter/main.ui.in:471
+#: ../config/chroot_local-includes/usr/share/tails/greeter/main.ui.in:428
 msgid "Your persistent storage is unlocked. Restart Tails to lock it again."
 msgstr "Ο μόνιμος χώρος αποθήκευσής σας είναι ξεκλειδωμένος. Επανεκκινήστε το Tails για να το ξανακλειδώσετε."
 
-#: ../config/chroot_local-includes/usr/share/tails/greeter/main.ui.in:509
+#: ../config/chroot_local-includes/usr/share/tails/greeter/main.ui.in:466
 msgid "_Additional Settings"
 msgstr "_Πρόσθετες Ρυθμίσεις"
 
-#: ../config/chroot_local-includes/usr/share/tails/greeter/main.ui.in:592
+#: ../config/chroot_local-includes/usr/share/tails/greeter/main.ui.in:549
 msgid "Add an additional setting"
 msgstr "Προσθήκη πρόσθετης ρύθμισης "
 
-#: ../config/chroot_local-includes/usr/share/tails/greeter/main.ui.in:641
+#: ../config/chroot_local-includes/usr/share/tails/greeter/main.ui.in:598
 msgid ""
 "The default settings are safe in most situations. To add a custom setting, "
 "press the \"+\" button below."
