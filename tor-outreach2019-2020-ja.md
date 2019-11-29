@@ -151,7 +151,7 @@ Torの詳細については、私たちのWebサイト、またはWikiをご覧�
 ## 8. Torをダウンロード
 
 デスクトップ用Tor
-torproject.org/download
+torproject.org/ja/download
 
 モバイル上のTor
 ### Android 
