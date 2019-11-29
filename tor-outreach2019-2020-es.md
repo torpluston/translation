@@ -151,7 +151,7 @@ Consigue más información sobre Tor visitando nuestro sitio web, nuestro wiki, 
 ## 8. Descargar Tor
 
 Tor para escritorio
-torproject.org/download
+torproject.org/es/download
 
 TOR EN EL MÓVIL
 ### Android 
