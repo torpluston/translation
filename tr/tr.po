@@ -15,8 +15,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Tor Project\n"
 "Report-Msgid-Bugs-To: Tails developers <tails@boum.org>\n"
-"POT-Creation-Date: 2019-10-07 08:43+0200\n"
-"PO-Revision-Date: 2019-10-08 18:09+0000\n"
+"POT-Creation-Date: 2019-10-21 09:06+0200\n"
+"PO-Revision-Date: 2019-11-29 05:14+0000\n"
 "Last-Translator: Kaya Zeren <kayazeren@gmail.com>\n"
 "Language-Team: Turkish (http://www.transifex.com/otf/torproject/language/tr/)\n"
 "MIME-Version: 1.0\n"
@@ -27,7 +27,7 @@ msgstr ""
 
 #: ../lib/Tails/Persistence/Setup.pm:265
 msgid "Setup Tails persistent volume"
-msgstr "Tails kalıcı birimini kur"
+msgstr "Tails kalıcı depolaması kur"
 
 #: ../lib/Tails/Persistence/Setup.pm:343 ../lib/Tails/Persistence/Setup.pm:481
 msgid "Error"
@@ -36,7 +36,7 @@ msgstr "Hata"
 #: ../lib/Tails/Persistence/Setup.pm:372
 #, perl-format
 msgid "Device %s already has a persistent volume."
-msgstr "%s aygıtında zaten kalıcı bir birim var."
+msgstr "%s aygıtında zaten bir kalıcı depolama var."
 
 #: ../lib/Tails/Persistence/Setup.pm:380
 #, perl-format
@@ -46,7 +46,7 @@ msgstr "%s aygıtında yeteri kadar boş alan yok."
 #: ../lib/Tails/Persistence/Setup.pm:387 ../lib/Tails/Persistence/Setup.pm:401
 #, perl-format
 msgid "Device %s has no persistent volume."
-msgstr "%s aygıtında kalıcı bir birim yok."
+msgstr "%s aygıtında bir kalıcı depolama yok."
 
 #: ../lib/Tails/Persistence/Setup.pm:393
 #, perl-format
@@ -79,7 +79,7 @@ msgstr "%s üzerindeki kalıcılık birimi yazılabilir değil."
 #: ../lib/Tails/Persistence/Setup.pm:431
 #, perl-format
 msgid "Tails is running from non-USB / non-SDIO device %s."
-msgstr "Tails, USB ya da SDIO özelliği olmayan %s aygıtından çalışıyor."
+msgstr "Tails, USB ya da SDIO olmayan %s aygıtından çalışıyor."
 
 #: ../lib/Tails/Persistence/Setup.pm:437
 #, perl-format
@@ -197,11 +197,11 @@ msgstr "`dotfiles' klasöründe bulunan tüm dosya ve klasörler için $HOME üz
 
 #: ../lib/Tails/Persistence/Step/Bootstrap.pm:96
 msgid "Persistence wizard - Persistent volume creation"
-msgstr "Kalıcılık yardımcısı - Kalıcı birim oluşturma"
+msgstr "Kalıcılık yardımcısı - Kalıcı depolama oluşturma"
 
 #: ../lib/Tails/Persistence/Step/Bootstrap.pm:99
 msgid "Choose a passphrase to protect the persistent volume"
-msgstr "Kalıcı birimi korumak için bir parola seçin"
+msgstr "Kalıcı depolamayı korumak için bir parola seçin"
 
 #. TRANSLATORS: size, device vendor, device model
 #: ../lib/Tails/Persistence/Step/Bootstrap.pm:103
@@ -209,7 +209,7 @@ msgstr "Kalıcı birimi korumak için bir parola seçin"
 msgid ""
 "A %s persistent volume will be created on the <b>%s %s</b> device. Data on "
 "this volume will be stored in an encrypted form protected by a passphrase."
-msgstr "<b>%s %s</b> aygıtında kalıcı bir %s bölümü oluşturulacak. Bu bölüm üzerindeki veriler parola ile şifrelenmiş olarak depolanacak."
+msgstr "<b>%s %s</b> aygıtında kalıcı bir %s depolaması oluşturulacak. Buradaki veriler parola ile şifrelenmiş olarak depolanacak."
 
 #: ../lib/Tails/Persistence/Step/Bootstrap.pm:108
 msgid "Create"
@@ -259,11 +259,11 @@ msgstr "Tails kalıcı bölümü takılacak"
 
 #: ../lib/Tails/Persistence/Step/Bootstrap.pm:332
 msgid "Correcting permissions of the persistent volume."
-msgstr "Kalıcı birimin izinleri düzeltiliyor."
+msgstr "Kalıcı depolama izinleri düzeltiliyor."
 
 #: ../lib/Tails/Persistence/Step/Bootstrap.pm:335
 msgid "The permissions of the persistent volume will be corrected."
-msgstr "Kalıcı birimin izinleri düzeltilecek."
+msgstr "Kalıcı depolama izinleri düzeltilecek."
 
 #: ../lib/Tails/Persistence/Step/Bootstrap.pm:343
 msgid "Creating default persistence configuration."
@@ -279,21 +279,21 @@ msgstr "Oluşturuluyor..."
 
 #: ../lib/Tails/Persistence/Step/Bootstrap.pm:364
 msgid "Creating the persistent volume..."
-msgstr "Kalıcı birim oluşturuluyor..."
+msgstr "Kalıcı depolama oluşturuluyor..."
 
 #: ../lib/Tails/Persistence/Step/Delete.pm:53
 msgid "Persistence wizard - Persistent volume deletion"
-msgstr "Kalıcılık yardımcısı - Kalıcı birimi silme"
+msgstr "Kalıcılık yardımcısı - Kalıcı depolamayı silme"
 
 #: ../lib/Tails/Persistence/Step/Delete.pm:56
 msgid "Your persistent data will be deleted."
-msgstr "Kalıcı verileriniz silinecek."
+msgstr "Kalıcı depolama verileriniz silinecek."
 
 #: ../lib/Tails/Persistence/Step/Delete.pm:60
 #, perl-format
 msgid ""
 "The persistent volume %s (%s), on the <b>%s %s</b> device, will be deleted."
-msgstr "<b>%s %s</b> aygıtındaki, %s (%s) kalıcı birim silinecek."
+msgstr "<b>%s %s</b> aygıtındaki, %s (%s) kalıcı depolama silinecek."
 
 #: ../lib/Tails/Persistence/Step/Delete.pm:66
 msgid "Delete"
@@ -305,15 +305,15 @@ msgstr "Siliniyor..."
 
 #: ../lib/Tails/Persistence/Step/Delete.pm:120
 msgid "Deleting the persistent volume..."
-msgstr "Kalıcı birim siliniyor..."
+msgstr "Kalıcı depolama siliniyor..."
 
 #: ../lib/Tails/Persistence/Step/Configure.pm:88
 msgid "Persistence wizard - Persistent volume configuration"
-msgstr "Kalıcılık yardımcısı - Kalıcı birim ayarı"
+msgstr "Kalıcılık yardımcısı - Kalıcı depolama yapılandırması"
 
 #: ../lib/Tails/Persistence/Step/Configure.pm:91
 msgid "Specify the files that will be saved in the persistent volume"
-msgstr "Kalıcı birime kaydedilecek dosyaları belirtin"
+msgstr "Kalıcı depolamaya kaydedilecek dosyaları belirtin"
 
 #. TRANSLATORS: partition, size, device vendor, device model
 #: ../lib/Tails/Persistence/Step/Configure.pm:95
