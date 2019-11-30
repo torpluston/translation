@@ -12,8 +12,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Tor Project\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-04-13 08:42+0200\n"
-"PO-Revision-Date: 2019-04-13 16:17+0000\n"
+"POT-Creation-Date: 2019-10-21 09:03+0200\n"
+"PO-Revision-Date: 2019-11-30 14:05+0000\n"
 "Last-Translator: Moo\n"
 "Language-Team: Lithuanian (http://www.transifex.com/otf/torproject/language/lt/)\n"
 "MIME-Version: 1.0\n"
@@ -24,11 +24,11 @@ msgstr ""
 
 #: ../tails_installer/creator.py:100
 msgid "You must run this application as root"
-msgstr ""
+msgstr "Jūs turite paleisti šią programą kaip administratorius"
 
 #: ../tails_installer/creator.py:146
 msgid "Extracting live image to the target device..."
-msgstr ""
+msgstr "Išskleidžiamas paleidimo atvaizdis į paskirties įrenginį..."
 
 #: ../tails_installer/creator.py:153
 #, python-format
@@ -40,37 +40,37 @@ msgstr "Įrašyta į įrenginį %(speed)d MB/sek. greičiu"
 msgid ""
 "There was a problem executing the following command: `%(command)s`.\n"
 "A more detailed error log has been written to '%(filename)s'."
-msgstr ""
+msgstr "Atsirado problemų, vykdant šią komandą: \"%(command)s\".\nIšsamesnis klaidos žurnalas buvo įrašytas į \"%(filename)s\"."
 
 #: ../tails_installer/creator.py:315
 msgid "Verifying SHA1 checksum of LiveCD image..."
-msgstr ""
+msgstr "Tikrinama paleidimo CD atvaizdžio SHA1 kontrolinė suma..."
 
 #: ../tails_installer/creator.py:319
 msgid "Verifying SHA256 checksum of LiveCD image..."
-msgstr ""
+msgstr "Tikrinama paleidimo CD atvaizdžio SHA256 kontrolinė suma..."
 
 #: ../tails_installer/creator.py:335
 msgid ""
 "Error: The SHA1 of your Live CD is invalid.  You can run this program with "
 "the --noverify argument to bypass this verification check."
-msgstr ""
+msgstr "Klaida: Jūsų paleidimo CD atvaizdžio SHA1 kontrolinė suma yra neteisinga.  Norėdami apeiti šį patikrinimą, galite paleisti šią programą su --noverify argumentu."
 
 #: ../tails_installer/creator.py:341
 msgid "Unknown ISO, skipping checksum verification"
-msgstr ""
+msgstr "Nežinomas ISO, kontrolinės sumos patikrinimas praleidžiamas"
 
 #: ../tails_installer/creator.py:353
 #, python-format
 msgid ""
 "Not enough free space on device.\n"
 "%dMB ISO + %dMB overlay > %dMB free space"
-msgstr ""
+msgstr "Įrenginyje nepakanka laisvos vietos.\n%dMB ISO + %dMB perdanga > %dMB laisvos vietos"
 
 #: ../tails_installer/creator.py:360
 #, python-format
 msgid "Creating %sMB persistent overlay"
-msgstr ""
+msgstr "Kuriama %sMB ilgalaikė perdanga"
 
 #: ../tails_installer/creator.py:421
 #, python-format
@@ -79,22 +79,22 @@ msgstr "Nepavyko nukopijuoti %(infile)s į %(outfile)s: %(message)s"
 
 #: ../tails_installer/creator.py:435
 msgid "Removing existing Live OS"
-msgstr ""
+msgstr "Šalinama esama paleidimo OS"
 
 #: ../tails_installer/creator.py:444 ../tails_installer/creator.py:457
 #, python-format
 msgid "Unable to chmod %(file)s: %(message)s"
-msgstr ""
+msgstr "Nepavyko atlikti chmod %(file)s: %(message)s"
 
 #: ../tails_installer/creator.py:450
 #, python-format
 msgid "Unable to remove file from previous LiveOS: %(message)s"
-msgstr ""
+msgstr "Nepavyko pašalinti failo iš ankstesnės paleidimo OS: %(message)s"
 
 #: ../tails_installer/creator.py:464
 #, python-format
 msgid "Unable to remove directory from previous LiveOS: %(message)s"
-msgstr ""
+msgstr "Nepavyko pašalinti katalogo iš ankstesnės paleidimo OS: %(message)s"
 
 #: ../tails_installer/creator.py:512
 #, python-format
@@ -104,18 +104,18 @@ msgstr "Nepavyksta rasti įrenginio %s"
 #: ../tails_installer/creator.py:713
 #, python-format
 msgid "Unable to write on %(device)s, skipping."
-msgstr ""
+msgstr "Nepavyko rašyti į %(device)s, praleidžiama."
 
 #: ../tails_installer/creator.py:743
 #, python-format
 msgid ""
 "Some partitions of the target device %(device)s are mounted. They will be "
 "unmounted before starting the installation process."
-msgstr ""
+msgstr "Kai kurie skaidiniai paskirties įrenginyje %(device)s yra prijungti. Prieš pradedant diegimo procesą, jie bus atjungti."
 
 #: ../tails_installer/creator.py:786 ../tails_installer/creator.py:1010
 msgid "Unknown filesystem.  Your device may need to be reformatted."
-msgstr ""
+msgstr "Nežinoma failų sistema. Gali būti, kad jūsų įrenginys turi būti iš naujo formatuotas."
 
 #: ../tails_installer/creator.py:789 ../tails_installer/creator.py:1013
 #, python-format
@@ -139,22 +139,22 @@ msgstr "Nerasta jokių prijungimo taškų"
 #: ../tails_installer/creator.py:828
 #, python-format
 msgid "Entering unmount_device for '%(device)s'"
-msgstr ""
+msgstr "Įžengiama į unmount_device, skirtą '%(device)s'"
 
 #: ../tails_installer/creator.py:838
 #, python-format
 msgid "Unmounting mounted filesystems on '%(device)s'"
-msgstr ""
+msgstr "Atjungiamos failų sistemos ties \"%(device)s\""
 
 #: ../tails_installer/creator.py:842
 #, python-format
 msgid "Unmounting '%(udi)s' on '%(device)s'"
-msgstr ""
+msgstr "Atjungiama \"%(udi)s\" ties \"%(device)s\""
 
 #: ../tails_installer/creator.py:853
 #, python-format
 msgid "Mount %s exists after unmounting"
-msgstr ""
+msgstr "Prijungimas %s po atjungimo vis dar yra"
 
 #: ../tails_installer/creator.py:866
 #, python-format
@@ -164,24 +164,24 @@ msgstr "Skaidomas įrenginys %(device)s"
 #: ../tails_installer/creator.py:995
 #, python-format
 msgid "Unsupported device '%(device)s', please report a bug."
-msgstr ""
+msgstr "Nepalaikomas įrenginys \"%(device)s\", prašome pranešti apie klaidą."
 
 #: ../tails_installer/creator.py:998
 msgid "Trying to continue anyway."
-msgstr ""
+msgstr "Bandoma vis tiek tęsti."
 
 #: ../tails_installer/creator.py:1007 ../tails_installer/creator.py:1405
 msgid "Verifying filesystem..."
-msgstr ""
+msgstr "Tikrinama failų sistema..."
 
 #: ../tails_installer/creator.py:1031
 #, python-format
 msgid "Unable to change volume label: %(message)s"
-msgstr ""
+msgstr "Nepavyko pakeisti tomo etiketės: %(message)s"
 
 #: ../tails_installer/creator.py:1037 ../tails_installer/creator.py:1440
 msgid "Installing bootloader..."
-msgstr ""
+msgstr "Diegiama paleidyklė..."
 
 #: ../tails_installer/creator.py:1064
 #, python-format
@@ -191,12 +191,12 @@ msgstr "Nepavyko rasti \"%s\" COM32 modulio"
 #: ../tails_installer/creator.py:1072 ../tails_installer/creator.py:1458
 #, python-format
 msgid "Removing %(file)s"
-msgstr ""
+msgstr "Šalinama %(file)s"
 
 #: ../tails_installer/creator.py:1186
 #, python-format
 msgid "%s already bootable"
-msgstr ""
+msgstr "%s jau ir taip paleidžiamas"
 
 #: ../tails_installer/creator.py:1206
 msgid "Unable to find partition"
@@ -205,11 +205,11 @@ msgstr "Nepavyko rasti skaidinio"
 #: ../tails_installer/creator.py:1229
 #, python-format
 msgid "Formatting %(device)s as FAT32"
-msgstr ""
+msgstr "Formatuojama %(device)s kaip FAT32"
 
 #: ../tails_installer/creator.py:1289
 msgid "Could not find syslinux' gptmbr.bin"
-msgstr ""
+msgstr "Nepavyko rasti syslinux gptmbr.bin"
 
 #: ../tails_installer/creator.py:1302
 #, python-format
@@ -233,31 +233,31 @@ msgstr "Diskas yra kilpinis sujunginys, praleidžiamas paleidimo įrašo (MBR) a
 #: ../tails_installer/creator.py:1329 ../tails_installer/creator.py:1589
 #, python-format
 msgid "Calculating the SHA1 of %s"
-msgstr ""
+msgstr "Apskaičiuojama %s SHA1 suma"
 
 #: ../tails_installer/creator.py:1354
 msgid "Synchronizing data on disk..."
-msgstr ""
+msgstr "Sinchronizuojami duomenys diske..."
 
 #: ../tails_installer/creator.py:1397
 msgid "Error probing device"
-msgstr ""
+msgstr "Klaida ištiriant įrenginį"
 
 #: ../tails_installer/creator.py:1399
 msgid "Unable to find any supported device"
-msgstr ""
+msgstr "Nepavyko rasti jokio palaikomo įrenginio"
 
 #: ../tails_installer/creator.py:1409
 msgid ""
 "Make sure your USB key is plugged in and formatted with the FAT filesystem"
-msgstr ""
+msgstr "Įsitikinkite, kad jūsų USB atmintukas yra prijungtas ir suformatuotas naudojant FAT failų sistemą"
 
 #: ../tails_installer/creator.py:1412
 #, python-format
 msgid ""
 "Unsupported filesystem: %s\n"
 "Please backup and format your USB key with the FAT filesystem."
-msgstr ""
+msgstr "Nepalaikoma failų sistema: %s\nPrašome padaryti savo USB atmintuko atsarginę kopiją ir formatuoti jį naudojant FAT failų sistema."
 
 #: ../tails_installer/creator.py:1481
 msgid ""
@@ -266,34 +266,34 @@ msgstr "Nepavyko gauti Win32_LogicalDisk; win32com užklausa negrąžino jokių 
 
 #: ../tails_installer/creator.py:1536
 msgid "Cannot find"
-msgstr ""
+msgstr "Nepavyko rasti"
 
 #: ../tails_installer/creator.py:1537
 msgid ""
 "Make sure to extract the entire tails-installer zip file before running this"
 " program."
-msgstr ""
+msgstr "Prieš paleisdami šią programą, įsitikinkite, kad išskleidėte visą tails-installer zip failą."
 
 #: ../tails_installer/gui.py:69
 #, python-format
 msgid "Unknown release: %s"
-msgstr ""
+msgstr "Nežinoma laida: %s"
 
 #: ../tails_installer/gui.py:73
 #, python-format
 msgid "Downloading %s..."
-msgstr ""
+msgstr "Atsiunčiama %s..."
 
 #: ../tails_installer/gui.py:213
 msgid ""
 "Error: Cannot set the label or obtain the UUID of your device.  Unable to "
 "continue."
-msgstr ""
+msgstr "Klaida: Nepavyksta nustatyti etiketės ar gauti jūsų įrenginio UUID.  Nepavyko tęsti."
 
 #: ../tails_installer/gui.py:260
 #, python-format
 msgid "Installation complete! (%s)"
-msgstr ""
+msgstr "Diegimas baigtas! (%s)"
 
 #: ../tails_installer/gui.py:265
 msgid "Tails installation failed!"
@@ -304,7 +304,7 @@ msgid ""
 "Warning: This tool needs to be run as an Administrator. To do this, right "
 "click on the icon and open the Properties. Under the Compatibility tab, "
 "check the \"Run this program as an administrator\" box."
-msgstr ""
+msgstr "Įspėjimas: Šį įrankį reikia paleisti administratoriaus teisėmis. Norėdami tai atlikti, spustelėkite dešiniuoju pelės mygtuku ant piktogramos ir atverkite Savybes. Suderinamumo kortelėje, pažymėkite langelį \"Paleisti šią programą kaip administratorius\"."
 
 #: ../tails_installer/gui.py:381
 msgid "Tails Installer"
@@ -312,7 +312,7 @@ msgstr "Tails diegimo programa"
 
 #: ../tails_installer/gui.py:441
 msgid "Tails Installer is deprecated in Debian"
-msgstr ""
+msgstr "Tails diegimo programa Debian sistemoje yra pasenusi"
 
 #: ../tails_installer/gui.py:443
 msgid ""
@@ -321,11 +321,11 @@ msgid ""
 "\n"
 "To upgrade Tails, do an automatic upgrade from Tails or a manual upgrade from Debian using a second USB stick.\n"
 "<a href='https://tails.boum.org/upgrade/tails-overview'>See the manual upgrade instructions</a>"
-msgstr ""
+msgstr "Norėdami įdiegti Tails nuo nulio, vietoj to, naudokite GNOME Diskus.\n<a href='https://tails.boum.org/install/linux/usb-overview'>Žiūrėkite įdiegimo instrukcijas</a>\n\nNorėdami naujinti Tails, atlikite automatinį naujinimą iš Tails ar rankinį naujinimą iš Debian, naudodami antrąjį USB atmintuką.\n<a href='https://tails.boum.org/upgrade/tails-overview'>Žiūrėkite naujinimo rankiniu būdu instrukcijas</a>"
 
 #: ../tails_installer/gui.py:450 ../data/tails-installer.ui.h:2
 msgid "Clone the current Tails"
-msgstr ""
+msgstr "Kopijuoti esamą Tails"
 
 #: ../tails_installer/gui.py:457 ../data/tails-installer.ui.h:3
 msgid "Use a downloaded Tails ISO image"
@@ -337,11 +337,11 @@ msgstr "Naujinti"
 
 #: ../tails_installer/gui.py:496
 msgid "Manual Upgrade Instructions"
-msgstr ""
+msgstr "Rankinio naujinimo instrukcijos"
 
 #: ../tails_installer/gui.py:498
 msgid "https://tails.boum.org/upgrade/"
-msgstr ""
+msgstr "https://tails.boum.org/upgrade/"
 
 #: ../tails_installer/gui.py:506 ../tails_installer/gui.py:727
 #: ../tails_installer/gui.py:792 ../data/tails-installer.ui.h:7
@@ -350,7 +350,7 @@ msgstr "Įdiegti"
 
 #: ../tails_installer/gui.py:509 ../data/tails-installer.ui.h:1
 msgid "Installation Instructions"
-msgstr ""
+msgstr "Diegimo instrukcijos"
 
 #: ../tails_installer/gui.py:511
 msgid "https://tails.boum.org/install/"
@@ -376,7 +376,7 @@ msgstr "Nepavyko rasti jokio Tails diegimui tinkamo įrenginio"
 #: ../tails_installer/gui.py:574
 #, python-format
 msgid "Please plug a USB flash drive or SD card of at least %0.1f GB."
-msgstr ""
+msgstr "Įkiškite bent %0.1f GB USB atmintuką ar SD kortelę."
 
 #: ../tails_installer/gui.py:608
 #, python-format
@@ -384,14 +384,14 @@ msgid ""
 "The USB stick \"%(pretty_name)s\" is configured as non-removable by its "
 "manufacturer and Tails will fail to start from it. Please try installing on "
 "a different model."
-msgstr ""
+msgstr "USB atmintuko \"%(pretty_name)s\" gamintojas jį sukonfigūravo kaip nekeičiamąjį, todėl Tails iš jo nepasileis. Pabandykite įdiegti kitame modelyje."
 
 #: ../tails_installer/gui.py:618
 #, python-format
 msgid ""
 "The device \"%(pretty_name)s\" is too small to install Tails (at least "
 "%(size)s GB is required)."
-msgstr ""
+msgstr "Įrenginys \"%(pretty_name)s\" yra pernelyg mažas, kad būtų įdiegta Tails (reikalingas bent %(size)s GB įrenginys)."
 
 #: ../tails_installer/gui.py:631
 #, python-format
@@ -402,15 +402,15 @@ msgstr "Norėdami naujinti įrenginį \"%(pretty_name)s\" iš šios Tails, turit
 
 #: ../tails_installer/gui.py:652
 msgid "An error happened while installing Tails"
-msgstr ""
+msgstr "Diegiant Tails, įvyko klaida"
 
 #: ../tails_installer/gui.py:664
 msgid "Refreshing releases..."
-msgstr ""
+msgstr "Iš naujo įkeliamos laidos..."
 
 #: ../tails_installer/gui.py:669
 msgid "Releases updated!"
-msgstr ""
+msgstr "Laidos atnaujintos!"
 
 #: ../tails_installer/gui.py:722
 msgid "Installation complete!"
@@ -446,7 +446,7 @@ msgid ""
 "\n"
 "\n"
 "The persistent storage on this USB stick will be preserved."
-msgstr ""
+msgstr "\n\nŠiame USB atmintuke esantis ilgalaikis kaupiklis bus išsaugotas."
 
 #: ../tails_installer/gui.py:810
 #, python-format
@@ -480,16 +480,16 @@ msgstr "Nepavyko naudoti pasirinkto failo.  Jums gali labiau pasisekti, jei perk
 #: ../tails_installer/gui.py:878
 #, python-format
 msgid "%(filename)s selected"
-msgstr ""
+msgstr "Pasirinktas %(filename)s"
 
 #: ../tails_installer/source.py:29
 msgid "Unable to find LiveOS on ISO"
-msgstr ""
+msgstr "Nepavyko ISO atvaizdyje rasti paleidimo OS"
 
 #: ../tails_installer/source.py:35
 #, python-format
 msgid "Could not guess underlying block device: %s"
-msgstr ""
+msgstr "Nepavyko parinkti esamą blokinį įrenginį: %s"
 
 #: ../tails_installer/source.py:50
 #, python-format
@@ -497,7 +497,7 @@ msgid ""
 "There was a problem executing `%s`.\n"
 "%s\n"
 "%s"
-msgstr ""
+msgstr "Atsirado problema, vykdant `%s`.\n%s\n%s"
 
 #: ../tails_installer/source.py:64
 #, python-format
@@ -519,7 +519,7 @@ msgstr "Praleidžiama \"%(filename)s\""
 msgid ""
 "There was a problem executing `%s`.%s\n"
 "%s"
-msgstr ""
+msgstr "Atsirado problema, vykdant `%s`.%s\n%s"
 
 #: ../tails_installer/utils.py:135
 msgid "Could not open device for writing."
@@ -527,11 +527,11 @@ msgstr "Nepavyko atverti įrenginio rašymui."
 
 #: ../data/tails-installer.ui.h:4
 msgid "Select a distribution to download:"
-msgstr ""
+msgstr "Pasirinkite norimą atsisiųsti platinimą:"
 
 #: ../data/tails-installer.ui.h:5
 msgid "Target USB stick:"
-msgstr ""
+msgstr "Paskirties USB atmintukas:"
 
 #: ../data/tails-installer.ui.h:6
 msgid "Reinstall (delete all data)"
