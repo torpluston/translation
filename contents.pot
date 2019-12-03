@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-11-14 09:48+CET\n"
+"POT-Creation-Date: 2019-12-03 01:33+CET\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: en <LL@li.org>\n"
@@ -11619,6 +11619,8 @@ msgstr "/etc/rc.d/tor start"
 
 #: https//community.torproject.org/relay/setup/bridge/netbsd/
 #: (content/relay-operations/technical-setup/bridge/netbsd/contents+en.lrpage.body)
+#: https//community.torproject.org/relay/setup/bridge/docker/
+#: (content/relay-operations/technical-setup/bridge/docker/contents+en.lrpage.body)
 msgid "### 4. Monitor your logs"
 msgstr "### 4. Monitor your logs"
 
@@ -12040,12 +12042,12 @@ msgstr ""
 #: https//community.torproject.org/relay/setup/bridge/debian-ubuntu/
 #: (content/relay-operations/technical-setup/bridge/debian-ubuntu/contents+en.lrpage.body)
 msgid ""
-"Under Debian, you will also need to set `NoNewPrivileges=no` in "
+"You will also need to set `NoNewPrivileges=no` in "
 "`/lib/systemd/system/tor@default.service` and "
 "`/lib/systemd/system/tor@.service` and then run `systemctl daemon-reload`. "
 "(see [bug #18356](https://trac.torproject.org/projects/tor/ticket/18356))"
 msgstr ""
-"Under Debian, you will also need to set `NoNewPrivileges=no` in "
+"You will also need to set `NoNewPrivileges=no` in "
 "`/lib/systemd/system/tor@default.service` and "
 "`/lib/systemd/system/tor@.service` and then run `systemctl daemon-reload`. "
 "(see [bug #18356](https://trac.torproject.org/projects/tor/ticket/18356))"
@@ -12486,17 +12488,18 @@ msgstr "How to deploy an obfs4 bridge using a docker container"
 
 #: https//community.torproject.org/relay/setup/bridge/docker/
 #: (content/relay-operations/technical-setup/bridge/docker/contents+en.lrpage.body)
-msgid ""
-"We are maintaining a docker container that runs an obfs4 bridge.  This guide"
-msgstr ""
-"We are maintaining a docker container that runs an obfs4 bridge.  This guide"
+msgid "### 1. Pull the image"
+msgstr "### 1. Pull the image"
 
 #: https//community.torproject.org/relay/setup/bridge/docker/
 #: (content/relay-operations/technical-setup/bridge/docker/contents+en.lrpage.body)
-msgid ""
-"walks you through setting up this container.  First, download the container:"
-msgstr ""
-"walks you through setting up this container.  First, download the container:"
+msgid "We are maintaining a docker image that runs an obfs4 bridge."
+msgstr "We are maintaining a docker image that runs an obfs4 bridge."
+
+#: https//community.torproject.org/relay/setup/bridge/docker/
+#: (content/relay-operations/technical-setup/bridge/docker/contents+en.lrpage.body)
+msgid "First, download the image:"
+msgstr "First, download the image:"
 
 #: https//community.torproject.org/relay/setup/bridge/docker/
 #: (content/relay-operations/technical-setup/bridge/docker/contents+en.lrpage.body)
@@ -12505,100 +12508,196 @@ msgstr "docker pull phwinter/obfs4-bridge:latest"
 
 #: https//community.torproject.org/relay/setup/bridge/docker/
 #: (content/relay-operations/technical-setup/bridge/docker/contents+en.lrpage.body)
-msgid ""
-"Now, it's time to run the container.  You can choose between two options:"
-msgstr ""
-"Now, it's time to run the container.  You can choose between two options:"
+msgid "### 2. Deploy a container"
+msgstr "### 2. Deploy a container"
+
+#: https//community.torproject.org/relay/setup/bridge/docker/
+#: (content/relay-operations/technical-setup/bridge/docker/contents+en.lrpage.body)
+msgid "We provide a Makefile that helps you deploy the container."
+msgstr "We provide a Makefile that helps you deploy the container."
 
 #: https//community.torproject.org/relay/setup/bridge/docker/
 #: (content/relay-operations/technical-setup/bridge/docker/contents+en.lrpage.body)
 msgid ""
-"1. We maintain a script that determines a free OR and obfs4 port for you, "
-"and"
+"First, [download the Makefile](https://dip.torproject.org/torproject/anti-"
+"censorship/docker-obfs4-bridge/raw/master/Makefile), and then write your "
+"bridge configuration to a new file, bridge.sh."
 msgstr ""
-"1. We maintain a script that determines a free OR and obfs4 port for you, "
-"and"
+"First, [download the Makefile](https://dip.torproject.org/torproject/anti-"
+"censorship/docker-obfs4-bridge/raw/master/Makefile), and then write your "
+"bridge configuration to a new file, bridge.sh."
 
 #: https//community.torproject.org/relay/setup/bridge/docker/
 #: (content/relay-operations/technical-setup/bridge/docker/contents+en.lrpage.body)
-msgid "then runs the docker container."
-msgstr "then runs the docker container."
+msgid "Here's a template:"
+msgstr "Here's a template:"
+
+#: https//community.torproject.org/relay/setup/bridge/docker/
+#: (content/relay-operations/technical-setup/bridge/docker/contents+en.lrpage.body)
+msgid "# Your bridge's Tor port."
+msgstr "# Your bridge's Tor port."
+
+#: https//community.torproject.org/relay/setup/bridge/docker/
+#: (content/relay-operations/technical-setup/bridge/docker/contents+en.lrpage.body)
+msgid "export OR_PORT=X"
+msgstr "export OR_PORT=X"
+
+#: https//community.torproject.org/relay/setup/bridge/docker/
+#: (content/relay-operations/technical-setup/bridge/docker/contents+en.lrpage.body)
+msgid "# Your bridge's obfs4 port."
+msgstr "# Your bridge's obfs4 port."
+
+#: https//community.torproject.org/relay/setup/bridge/docker/
+#: (content/relay-operations/technical-setup/bridge/docker/contents+en.lrpage.body)
+msgid "export PT_PORT=Y"
+msgstr "export PT_PORT=Y"
+
+#: https//community.torproject.org/relay/setup/bridge/docker/
+#: (content/relay-operations/technical-setup/bridge/docker/contents+en.lrpage.body)
+msgid "# Your email address."
+msgstr "# Your email address."
+
+#: https//community.torproject.org/relay/setup/bridge/docker/
+#: (content/relay-operations/technical-setup/bridge/docker/contents+en.lrpage.body)
+msgid "export EMAIL=Z"
+msgstr "export EMAIL=Z"
 
 #: https//community.torproject.org/relay/setup/bridge/docker/
 #: (content/relay-operations/technical-setup/bridge/docker/contents+en.lrpage.body)
 msgid ""
-"[Download the script here](https://dip.torproject.org/torproject/anti-"
-"censorship/docker-obfs4-bridge/raw/master/deploy-container.sh)."
+"Replace `X` with your desired OR port, `Y` with your obfs4 port (make sure "
+"that **both** ports are forwarded in your firewall), and `Z` with your email"
+" address, which allows us to get in touch with you if there are problems "
+"with your bridge."
 msgstr ""
-"[Download the script here](https://dip.torproject.org/torproject/anti-"
-"censorship/docker-obfs4-bridge/raw/master/deploy-container.sh)."
-
-#: https//community.torproject.org/relay/setup/bridge/docker/
-#: (content/relay-operations/technical-setup/bridge/docker/contents+en.lrpage.body)
-msgid "When running this script, provide your email address as argument:"
-msgstr "When running this script, provide your email address as argument:"
-
-#: https//community.torproject.org/relay/setup/bridge/docker/
-#: (content/relay-operations/technical-setup/bridge/docker/contents+en.lrpage.body)
-msgid "bash deploy-container.sh address@email.com"
-msgstr "bash deploy-container.sh address@email.com"
+"Replace `X` with your desired OR port, `Y` with your obfs4 port (make sure "
+"that **both** ports are forwarded in your firewall), and `Z` with your email"
+" address, which allows us to get in touch with you if there are problems "
+"with your bridge."
 
 #: https//community.torproject.org/relay/setup/bridge/docker/
 #: (content/relay-operations/technical-setup/bridge/docker/contents+en.lrpage.body)
 msgid ""
-"The script will tell you what ports it chose, and your container ID.  Make"
+"With your bridge configuration in place, you can now deploy the container:"
 msgstr ""
-"The script will tell you what ports it chose, and your container ID.  Make"
+"With your bridge configuration in place, you can now deploy the container:"
 
 #: https//community.torproject.org/relay/setup/bridge/docker/
 #: (content/relay-operations/technical-setup/bridge/docker/contents+en.lrpage.body)
-msgid "sure that **both** ports are forwarded in your firewall."
-msgstr "sure that **both** ports are forwarded in your firewall."
+msgid "source bridge.sh && make deploy"
+msgstr "source bridge.sh && make deploy"
+
+#: https//community.torproject.org/relay/setup/bridge/docker/
+#: (content/relay-operations/technical-setup/bridge/docker/contents+en.lrpage.body)
+msgid "You should now see output similar to the following:"
+msgstr "You should now see output similar to the following:"
+
+#: https//community.torproject.org/relay/setup/bridge/docker/
+#: (content/relay-operations/technical-setup/bridge/docker/contents+en.lrpage.body)
+msgid "201fbd2b4d28e6f226978f27547edd79272871c5949bf8aab3872c983156a108"
+msgstr "201fbd2b4d28e6f226978f27547edd79272871c5949bf8aab3872c983156a108"
+
+#: https//community.torproject.org/relay/setup/bridge/docker/
+#: (content/relay-operations/technical-setup/bridge/docker/contents+en.lrpage.body)
+msgid "Make sure that port X and Y are forwarded in your firewall."
+msgstr "Make sure that port X and Y are forwarded in your firewall."
 
 #: https//community.torproject.org/relay/setup/bridge/docker/
 #: (content/relay-operations/technical-setup/bridge/docker/contents+en.lrpage.body)
 msgid ""
-"2. If you would rather provide your own ports, run the following command and"
+"That's it! Your container (identified by the first line of output) is now "
+"bootstrapping your new obfs4 bridge."
 msgstr ""
-"2. If you would rather provide your own ports, run the following command and"
-
-#: https//community.torproject.org/relay/setup/bridge/docker/
-#: (content/relay-operations/technical-setup/bridge/docker/contents+en.lrpage.body)
-msgid "replace `XXX` with your OR port, `YYY` with your obfs4 port, and"
-msgstr "replace `XXX` with your OR port, `YYY` with your obfs4 port, and"
-
-#: https//community.torproject.org/relay/setup/bridge/docker/
-#: (content/relay-operations/technical-setup/bridge/docker/contents+en.lrpage.body)
-msgid "`admin@example.com` with your email address."
-msgstr "`admin@example.com` with your email address."
+"That's it! Your container (identified by the first line of output) is now "
+"bootstrapping your new obfs4 bridge."
 
 #: https//community.torproject.org/relay/setup/bridge/docker/
 #: (content/relay-operations/technical-setup/bridge/docker/contents+en.lrpage.body)
 msgid ""
-"OR_PORT=XXX PT_PORT=YYY EMAIL=admin@example.com; docker run -d -e "
-"OR_PORT=$OR_PORT -e PT_PORT=$PT_PORT -e EMAIL=$EMAIL -p $OR_PORT:$OR_PORT -p"
-" $PT_PORT:$PT_PORT phwinter/obfs4-bridge:latest"
+"If you want to run multiple bridges on your machine, you need to create more"
+" bridge configuration files with different sets of ports, and run `make "
+"deploy` again, like so:"
 msgstr ""
-"OR_PORT=XXX PT_PORT=YYY EMAIL=admin@example.com; docker run -d -e "
-"OR_PORT=$OR_PORT -e PT_PORT=$PT_PORT -e EMAIL=$EMAIL -p $OR_PORT:$OR_PORT -p"
-" $PT_PORT:$PT_PORT phwinter/obfs4-bridge:latest"
+"If you want to run multiple bridges on your machine, you need to create more"
+" bridge configuration files with different sets of ports, and run `make "
+"deploy` again, like so:"
 
 #: https//community.torproject.org/relay/setup/bridge/docker/
 #: (content/relay-operations/technical-setup/bridge/docker/contents+en.lrpage.body)
-msgid "Again, make sure that **both** ports are forwarded by your firewall."
-msgstr "Again, make sure that **both** ports are forwarded by your firewall."
+msgid "source bridge-1.sh && make deploy"
+msgstr "source bridge-1.sh && make deploy"
+
+#: https//community.torproject.org/relay/setup/bridge/docker/
+#: (content/relay-operations/technical-setup/bridge/docker/contents+en.lrpage.body)
+msgid "source bridge-2.sh && make deploy"
+msgstr "source bridge-2.sh && make deploy"
+
+#: https//community.torproject.org/relay/setup/bridge/docker/
+#: (content/relay-operations/technical-setup/bridge/docker/contents+en.lrpage.body)
+msgid "..."
+msgstr "..."
+
+#: https//community.torproject.org/relay/setup/bridge/docker/
+#: (content/relay-operations/technical-setup/bridge/docker/contents+en.lrpage.body)
+msgid "### 3. Upgrade your container"
+msgstr "### 3. Upgrade your container"
 
 #: https//community.torproject.org/relay/setup/bridge/docker/
 #: (content/relay-operations/technical-setup/bridge/docker/contents+en.lrpage.body)
 msgid ""
-"That's it! Your container should now be bootstrapping your new obfs4 bridge."
+"To upgrade to the latest version of our image, you need to stop your "
+"existing container, delete it, pull the latest image, and finally deploy it "
+"again:"
 msgstr ""
-"That's it! Your container should now be bootstrapping your new obfs4 bridge."
+"To upgrade to the latest version of our image, you need to stop your "
+"existing container, delete it, pull the latest image, and finally deploy it "
+"again:"
 
 #: https//community.torproject.org/relay/setup/bridge/docker/
 #: (content/relay-operations/technical-setup/bridge/docker/contents+en.lrpage.body)
-msgid "You can inspect its logs by running:"
-msgstr "You can inspect its logs by running:"
+msgid "docker stop CONTAINER_ID"
+msgstr "docker stop CONTAINER_ID"
+
+#: https//community.torproject.org/relay/setup/bridge/docker/
+#: (content/relay-operations/technical-setup/bridge/docker/contents+en.lrpage.body)
+msgid "docker rm CONTAINER_ID"
+msgstr "docker rm CONTAINER_ID"
+
+#: https//community.torproject.org/relay/setup/bridge/docker/
+#: (content/relay-operations/technical-setup/bridge/docker/contents+en.lrpage.body)
+msgid ""
+"Note that your bridge's data directory (which includes its key material) is "
+"stored in a docker volume, so you won't lose your bridge's identity when "
+"upgrading to the latest docker image."
+msgstr ""
+"Note that your bridge's data directory (which includes its key material) is "
+"stored in a docker volume, so you won't lose your bridge's identity when "
+"upgrading to the latest docker image."
+
+#: https//community.torproject.org/relay/setup/bridge/docker/
+#: (content/relay-operations/technical-setup/bridge/docker/contents+en.lrpage.body)
+msgid ""
+"If you are running multiple bridges on your computer, you need to repeat "
+"this step for each bridge."
+msgstr ""
+"If you are running multiple bridges on your computer, you need to repeat "
+"this step for each bridge."
+
+#: https//community.torproject.org/relay/setup/bridge/docker/
+#: (content/relay-operations/technical-setup/bridge/docker/contents+en.lrpage.body)
+msgid ""
+"We will announce new image versions on the [tor-"
+"dev](https://lists.torproject.org/cgi-bin/mailman/listinfo/tor-dev) mailing "
+"list."
+msgstr ""
+"We will announce new image versions on the [tor-"
+"dev](https://lists.torproject.org/cgi-bin/mailman/listinfo/tor-dev) mailing "
+"list."
+
+#: https//community.torproject.org/relay/setup/bridge/docker/
+#: (content/relay-operations/technical-setup/bridge/docker/contents+en.lrpage.body)
+msgid "You can inspect your bridge's logs by running:"
+msgstr "You can inspect your bridge's logs by running:"
 
 #: https//community.torproject.org/relay/setup/bridge/docker/
 #: (content/relay-operations/technical-setup/bridge/docker/contents+en.lrpage.body)
@@ -12607,17 +12706,13 @@ msgstr "docker logs CONTAINER_ID"
 
 #: https//community.torproject.org/relay/setup/bridge/docker/
 #: (content/relay-operations/technical-setup/bridge/docker/contents+en.lrpage.body)
-msgid ""
-"To use your new bridge in Tor Browser, you need its \"bridge line\".  Here's"
-" how"
-msgstr ""
-"To use your new bridge in Tor Browser, you need its \"bridge line\".  Here's"
-" how"
+msgid "To use your new bridge in Tor Browser, you need its \"bridge line\"."
+msgstr "To use your new bridge in Tor Browser, you need its \"bridge line\"."
 
 #: https//community.torproject.org/relay/setup/bridge/docker/
 #: (content/relay-operations/technical-setup/bridge/docker/contents+en.lrpage.body)
-msgid "you can get your bridge line:"
-msgstr "you can get your bridge line:"
+msgid "Here's how you can get your bridge line:"
+msgstr "Here's how you can get your bridge line:"
 
 #: https//community.torproject.org/relay/setup/bridge/docker/
 #: (content/relay-operations/technical-setup/bridge/docker/contents+en.lrpage.body)
@@ -12642,29 +12737,21 @@ msgstr ""
 
 #: https//community.torproject.org/relay/setup/bridge/docker/
 #: (content/relay-operations/technical-setup/bridge/docker/contents+en.lrpage.body)
-msgid "Make sure to check out the [post-install"
-msgstr "Make sure to check out the [post-install"
+msgid ""
+"Make sure to check out the [post-install "
+"notes](https://community.torproject.org/relay/setup/bridge/post-install/)."
+msgstr ""
+"Make sure to check out the [post-install "
+"notes](https://community.torproject.org/relay/setup/bridge/post-install/)."
 
 #: https//community.torproject.org/relay/setup/bridge/docker/
 #: (content/relay-operations/technical-setup/bridge/docker/contents+en.lrpage.body)
 msgid ""
-"notes](https://community.torproject.org/relay/setup/bridge/post-install/).  "
-"If"
+"If you are having troubles setting up your bridge, have a look at [our help "
+"section](https://community.torproject.org/relay/getting-help/)."
 msgstr ""
-"notes](https://community.torproject.org/relay/setup/bridge/post-install/).  "
-"If"
-
-#: https//community.torproject.org/relay/setup/bridge/docker/
-#: (content/relay-operations/technical-setup/bridge/docker/contents+en.lrpage.body)
-msgid ""
-"you are having troubles setting up your bridge, have a look at [our help"
-msgstr ""
-"you are having troubles setting up your bridge, have a look at [our help"
-
-#: https//community.torproject.org/relay/setup/bridge/docker/
-#: (content/relay-operations/technical-setup/bridge/docker/contents+en.lrpage.body)
-msgid "section](https://community.torproject.org/relay/getting-help/)."
-msgstr "section](https://community.torproject.org/relay/getting-help/)."
+"If you are having troubles setting up your bridge, have a look at [our help "
+"section](https://community.torproject.org/relay/getting-help/)."
 
 #: https//community.torproject.org/relay/setup/bridge/centos-rhel-opensuse/
 #: (content/relay-operations/technical-setup/bridge/centos-rhel-opensuse/contents+en.lrpage.title)
@@ -14452,6 +14539,39 @@ msgstr "#3. Restart cron's service."
 #: (content/relay-operations/technical-setup/guard/freebsd/updates/contents+en.lrpage.body)
 msgid "# service cron restart"
 msgstr "# service cron restart"
+
+#: https//community.torproject.org/relay/setup/bridge/debian-ubuntu/
+#: (content/relay-operations/technical-setup/bridge/debian-ubuntu/contents+en.lrpage.body)
+msgid "# Replace \"TODO1\" with a Tor port of your choice."
+msgstr "# Replace \"TODO1\" with a Tor port of your choice."
+
+#: https//community.torproject.org/relay/setup/bridge/debian-ubuntu/
+#: (content/relay-operations/technical-setup/bridge/debian-ubuntu/contents+en.lrpage.body)
+msgid "# This port must be externally reachable."
+msgstr "# This port must be externally reachable."
+
+#: https//community.torproject.org/relay/setup/bridge/debian-ubuntu/
+#: (content/relay-operations/technical-setup/bridge/debian-ubuntu/contents+en.lrpage.body)
+msgid ""
+"# Avoid port 9001 because it's commonly associated with Tor and censors may "
+"be scanning the Internet for this port."
+msgstr ""
+"# Avoid port 9001 because it's commonly associated with Tor and censors may "
+"be scanning the Internet for this port."
+
+#: https//community.torproject.org/relay/setup/bridge/debian-ubuntu/
+#: (content/relay-operations/technical-setup/bridge/debian-ubuntu/contents+en.lrpage.body)
+msgid "# Replace \"TODO2\" with an obfs4 port of your choice."
+msgstr "# Replace \"TODO2\" with an obfs4 port of your choice."
+
+#: https//community.torproject.org/relay/setup/bridge/debian-ubuntu/
+#: (content/relay-operations/technical-setup/bridge/debian-ubuntu/contents+en.lrpage.body)
+msgid ""
+"# This port must be externally reachable and must be different from the one "
+"specified for ORPort."
+msgstr ""
+"# This port must be externally reachable and must be different from the one "
+"specified for ORPort."
 
 #: lego/templates/banner.html:2 lego/templates/banner.html:4
 #: templates/banner.html:2 templates/banner.html:4
