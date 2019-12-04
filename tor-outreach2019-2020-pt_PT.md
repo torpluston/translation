@@ -94,8 +94,8 @@ Com o Tor Browser, Jean pôde navegar livremente e com privacidade, entrando em 
 
 ## O que é o Tor?
 
-O Tor é um software livre e uma rede aberta que ajuda a protegê-lo contra rastreamento, vigilância e censura online.
-O Tor é uma criação distribuída gratuitamente por uma organização sem fins lucrativos registada nos Estados Unidos da América na categoria 501(c)3 chamada Tor Project.
+Tor é um software livre e uma rede aberta que ajuda a protegê-lo contra o rastreamento, vigilância e censura on-line.
+Tor é uma criação distribuída gratuitamente por uma organização sem fins lucrativos registada nos EUA baseada em 501(c)3, chamada de Tor Project.
 
 O meio mais fácil de utilizar o Tor é o Tor Browser.
 Quando usa o Tor Browser, ninguém pode ver que sites visita nem em que lugar do mundo está.
@@ -125,7 +125,7 @@ Bekele não sabe que o pedido ao seu site veio de Amal, a não ser que ela o inf
 
 As pessoas em redor do mundo usam o Tor para proteger a sua privacidade e aceder à Internet livremente.
 
-O Tor ajuda a proteger jornalistas, ativistas de direitos humanos, investigadores académicos, assim como qualquer pessoa que seja alvo de rastreamento, censura ou vigilância.
+Tor ajuda a proteger os jornalistas, ativistas de direitos humanos, investigadores académicos, assim como qualquer pessoa que seja alvo de monitorização, censura ou vigilância.
 
 ## 6. Porquê confiar no Tor?
 
