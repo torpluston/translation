@@ -95,7 +95,7 @@ Jean Tor Browser kullanarak kişisel gizliliğinin korunmasını sağlarken İnt
 ## Tor nedir?
 
 Tor çevrimiçi yaptıklarınızın izlenmesini engelleyen ve sansürü aşmanızı sağlayan özgür ve ücretsiz bir açık ağdır.
-Tor Birleşik Devletler 501(c)(3) koşulları altında faaliyet gösteren ve kar amacı gütmeyen bir kuruluş olan Tor Projesi tarafından geliştirilmiştir.
+Tor Birleşik Devletler 501(c)(3) maddesi koşulları altında kar amacı gütmeden çalışan bir kuruluş olan Tor Projesi tarafından geliştirilmiştir.
 
 Tor kullanmanın en kolay yolu Tor Browser uygulamasıdır.
 Tor Browser uygulamasını kullandığınızda hiç kimse hangi web sitelerini ziyaret ettiğinizi ve dünyanın neresinde bulunduğunuzu göremez.
