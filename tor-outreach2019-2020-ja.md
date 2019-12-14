@@ -1,6 +1,6 @@
 # Tor Outreach資料2019-2020
 
-# 1.プライバシーのためのTor
+# 1.プライバシーのためのTor 
 
 ### プライバシーは人権です
 
@@ -16,134 +16,134 @@ Aleishaは、自分のデータを収集せず、追跡もせず、他のサー�
 
 ---
 
-# 2.TOR FOR FEMINISTS 
+# 2.フェミニストのためのTor 
 
-### The future is cyberfeminist
+### 未来はサイバーフェミニストです
 
-Fernanda runs a women's collective focused on reproductive rights in Brazil, where abortion is illegal.
+フェルナンダは、中絶が違法であるブラジルで、性と生殖に関する権利に焦点を当てた女性団体を運営しています。
 
-Fernanda and her colleagues built a website with information about abortion access, birth control, and other resources for people seeking reproductive information.
+フェルナンダと彼女の同僚は、生殖に関する情報を求めている人々のために、妊娠中絶のアクセス、避妊、およびその他のリソースに関する情報を備えたウェブサイトを構築しました。
 
-If this website was linked back to them, they could be arrested--or worse. 
+このWebサイトがリンクされていると、逮捕される--(またはもっとに悪い)目にあう、、恐れがあります。 
 
-To protect themselves, Fernanda and her colleagues created the website using Tor **onion services**. Onion services not only protect them from being discovered as the operators of the server but also help protect visitors to their website by requiring they use Tor Browser. 
+身を守るために、フェルナンダと彼女の同僚は、Tor **オニオンサービス**を使用してWebサイトを作成しました。 オニオンサービスは、サーバーのオペレーターとして発見されるのを防ぐだけでなく、Tor Browserの使用を要求することで、Webサイトへの訪問者を保護するのにも役立ちます。 
 
-In fact, Fernanda uses **Tor Browser** for all of her web browsing just to be on the safe side.
+実際、フェルナンダは安全のためにすべてのWebブラウジングに** Tor Browser **を使用しています。
 
-She also uses a Tor-powered app called **OnionShare** to send files to other activists securely and privately. 
+また、** OnionShare **と呼ばれるTor搭載のアプリを使用して、ファイルを他の活動家に安全かつプライベートに送信することができます。 
 
-### Reproductive rights activists like Fernanda are fighting for fundamental freedoms, and Tor helps power their resistance.
-
----
-
-# 3. TOR FOR HUMAN RIGHTS
-
-### Water is life 
-
-Jelani lives in a small village  which a wide river runs through.
-
-This river has provided water to his community since the days of his ancestors. 
-
-But today, Jelani’s river is threatened by powerful multinational companies drilling for oil in the region.
-
-Private security firms, paid for by these companies, use powerful surveillance mechanisms to monitor the online activities of Jelani and his neighbors in the village who are organizing to protect their sacred river. 
-
-Jelani uses **Tor Browser** to prevent these companies from watching as he visits websites for international human rights protection and legal aid and writes blog posts about the resistance movement in his village.
-
-He also uses **OnionShare** and **SecureDrop** to securely send documents to journalists who are helping expose these human rights violations.
-
-All of this software uses Tor to help protect Jelani’s privacy. 
-
-### Human rights activists like Jelani are fighting for justice in their communities, and Tor helps power their resistance.
+### フェルナンダのような生殖権活動家は根本的な自由のために戦っています。そして、Torは彼らの抵抗力を高めるのを助けます。
 
 ---
 
-# 4. TOR FOR ANTI-CENSORSHIP
+# 3.人権のためのTor
 
-### Build bridges not walls
+### 水は命
 
-Jean was traveling for the first time to a country far from his family.
+Jelaniは、広い川が流れる小さな村に住んでいます。
 
-After arriving at a hotel, he opened his laptop.
+この川は、先祖の時代から彼のコミュニティに水を供給してきました。
 
-He was so exhausted that when the message "Connection has timed out" first appeared on his web browser, he thought it was due to his own error.
+しかし今日、Jelaniの川は、この地域で石油を採掘している強力な多国籍企業によって脅かされています。
 
-But after trying again and again, he realized that his email provider, a news website, and many apps were unavailable. 
+これらの会社から支払われた民間警備会社は、強力な監視メカニズムを使用して、Jelaniとその大事な川を保護するために組織している村の彼の隣人のオンライン活動を監視しています。
 
-He had heard that this country censors the internet and wondered if that was happening.
-How could he contact his family from behind this impenetrable wall?
-After doing some web searches, he found a forum and read about VPNs, private services that allow you to connect to another uncensored network.
+Jelaniは** Tor Browser **を使用して、これらの企業が国際人権保護と法的支援のためにWebサイトにアクセスし、自分の村の抵抗運動に関するブログ投稿を行う際にこれらの企業が監視するのを防ぐことができます。
 
-Jean spent half an hour trying to figure out which cheap VPN was best.
+また、これらの人権侵害を暴く支援しているジャーナリストにドキュメントを安全に送信するため、** OnionShare **および** SecureDrop **を使用します。
 
-He chose one and for a moment it seemed to work, but after five minutes the connection went offline and the VPN would no longer connect. 
+このソフトウェアはすべてTorを使用してJelaniのプライバシーを保護します。
 
-Jean kept reading to find other options and learned about Tor Browser and how it can circumvent censorship.
-
-He found an official website mirror to download the program.
-
-When he opened **Tor Browser**, he followed the prompts for censored users and connected to a bridge which allowed him to access the internet again.
-
-With Tor Browser, Jean can browse freely and privately and contact his family. 
-
-### Censored users all over the world rely on Tor Browser for a free, stable, and uncensored way to access the internet.
+### Jelaniのような人権活動家は彼らのコミュニティで正義を求めて戦っています。Torは彼らの抵抗力を高めるのを助けます。
 
 ---
 
-# 5. Shared Sections
+# 4.反検閲のためのTor
 
-## Torって何ですか?
+### 壁ではなく橋を築く
 
-Tor is free software and an open network that helps protect you from tracking, surveillance, and censorship online.
-Tor is created for free by a 501(c)3 U.S.-based nonprofit called the Tor Project. 
+Jeanは家族から遠く離れた国に初めて旅行していました。
 
-The easiest way to use Tor is Tor Browser.
-When you use Tor Browser, no one can see what websites you visit or where in the world you’re coming from. 
+ホテルに着いた後、彼はラップトップを開きました。
 
-Other applications, like SecureDrop and OnionShare, use Tor to protect their users against surveillance and censorship.
+彼は非常に疲れていたため、「接続がタイムアウトしました」というメッセージがWebブラウザーに最初に表示されたとき、彼は自分だけのエラーであると考えました。
+
+しかし、何度も何度も試行した後、彼は自分のメールプロバイダー、ニュースWebサイト、および多くのアプリが利用できないことに気付きました。
+
+彼はこの国がインターネットを検閲し、それが起こっているのではないかと聞いたことがありました。
+どうやったらこの避けられない壁の向こうの彼の家族に連絡できるのでしょうか？
+いくつかのウェブ検索を行った後、彼はフォーラムを見つけ、VPN、他の無検閲のネットワークに接続できるプライベートサービスについて知りました。
+
+Jeanは、どの安価なVPNが最適かを知ろうとして30分を費やしました。
+
+彼は1つを選択し、しばらくは機能しているように見えましたが、5分後には接続がオフラインになり、VPNが接続できなくなりました。
+
+Jeanは他の解決法を見つけるために調べ続け、Tor Browserとそれが検閲を回避する方法について知りました。
+
+彼はプログラムをダウンロードする公式ウェブサイトのミラーを見つけました。
+
+彼は** Tor Browser **を開き、検閲されているユーザー用のプロンプトに従い、再びインターネットにアクセスできるようBridgeに接続しました。
+
+Tor Browserを使用すると、Jeanは自由かつプライベートにブラウジングし、家族と連絡を取ることができます。
+
+### 世界中の検閲されたユーザーはインターネットにアクセスするための方法として、無料で安定した、無検閲のをTor Browserに依存しています。
+
+---
+
+# 5.共有セクション
+
+## Torとは?
+
+Torはフリーソフトウェアであり、オンラインでの追跡、監視、検閲からあなたを保護するオープンネットワークです。
+Torは、the Tor Projectと呼ばれる501(c)3米国に拠点を置くの非営利団体によって無料で開発されています。
+
+Torを使用する最も簡単な方法は、Tor Browserです。
+Tor Browserを使用すると、あなたが訪れたWebサイトやあなたが世界のどこからアクセスしたのか誰も知ることができません。
+
+SecureDropやOnionShareなどの他のアプリケーションは、Torを使用してユーザーを監視と検閲から保護します。
 
 
-## 6. How does Tor work?
+## 6. Torの仕組み 
 
-Amal wants to visit Bekele’s website privately, so she opens Tor Browser.
+AmalはBekeleのウェブサイトに個人的にアクセスしたいので、Tor Browserを開きます。
 
-Tor Browser selects a random circuit of three relays, which are computers all over the world configured to route traffic over the Tor network.
+Tor Browserは、3つのリレーのランダムな回路を選択します。これは、Tor etworkを介してトラフィックをルーティングするように構成された世界中のコンピューターです。
 
-Tor Browser then encrypts her website request three times and sends it to the first Tor relay in her circuit.
+次に、Tor Browserは彼女のWebサイトのリクエストを3回暗号化し、彼女の回路の最初のTorリレーに送信します。
 
-The first relay removes the first encryption layer but doesn't learn that the destination is Bekele’s website.
+最初のリレーは最初の暗号化レイヤーを解除しますが、宛先がBekeleのWebサイトであることは分かりません。
 
-The first relay learns only the next location in the circuit, which is the second relay.
+最初のリレーは、回路内の次の位置、つまり2番目のリレーであることしか分かりません。
 
-The second relay removes another encryption layer and forwards the web page request to the third relay.
+2番目のリレーは、二番目の暗号化レイヤーを解除し、Webページ要求を3番目のリレーに転送します。
 
-The third relay removes the last encryption layer and forwards the web page request to its destination, Bekele’s website, but it doesn't know the request comes from Amal.
+3番目のリレーは最後の暗号化レイヤーを解除し、Webページリクエストを宛先であるBekeleのウェブサイトに転送しますが、リクエストがAmalから来たことは分かりません。
 
-Bekele doesn't know that the website request came from Amal unless she tells him so.
+Bekeleは、彼女が言わない限りウェブサイトのリクエストがAmalから来たことを知ることができません.
 
-## 7. Who uses Tor? 
+## 7. どのような人がTorを使用していますか？ 
 
-People all over the world use Tor to protect their privacy and access the web freely.
+世界中の人々がTorを使用してプライバシーを保護し、ウェブに自由にアクセスしています。
 
-Tor helps protect journalists, human rights defenders, domestic violence victims, academic researchers, and anyone experiencing tracking, censorship, or surveillance. 
+Torは、ジャーナリスト、人権擁護者、家庭内暴力の被害者、学術研究者、追跡、検閲、または監視を経験している人の保護を助けます。 
 
-## 6. Why trust Tor?
+## 6. Torが信頼できる理由
 
-Tor is designed for privacy. We don’t know who our users are, and we don't keep logs of user activity.
+Torはプライバシーのために設計されています。 私たちはユーザーが誰であるか知ることがでいません。また、ユーザーアクティビティのログも保持しません。
 
-Tor relay operators cannot reveal the true identity of Tor users.
+Torリレーのオペレーターは、Torユーザーの正体を知ることはできません。
 
-Continual peer review of Tor's source code by academic and open source communities ensures that there are no backdoors in Tor, and our social contract promises that we will never backdoor Tor. 
+オープンソースコミュニティによるTorのソースコードの継続的なピアレビューにより、Torにバックドアが存在しないことが保証されます。また、社会契約により、Torをバックドアしないことを約束します。 
 
-## 7. Join the Tor community
+## 7.Torコミュニティーに参加する
 
-Tor is made possible by a diverse set of users, developers, relay operators, and advocates from around the world.
+Torは、世界中のさまざまなユーザー、開発者、中継者、支持者によって実現されています。
 
-We need your help to make Tor more usable and secure for people everywhere.
+どこでも人々がTorをより使いやすく安全にはするためにあなたの助けが必要です。
 
-You can volunteer with Tor by writing code, running a relay, creating documentation, offering user support, or telling people in your community about Tor.
+コードを書いたり、リレーを実行したり、ドキュメントを作成したり、ユーザーサポートを提供したり、Torについてコミュニティの人々に伝えることで、Torのボランティアをすることができます。
 
-Torコミュニティは行動規範によって管理されており、社会契約でコミュニティに対する一連の約束をまとめています。
+Torコミュニティは行動規範によって管理されており、社会契約でコミュニティに対する一連の約束をまとめています。 
 
 Torの詳細については、私たちのWebサイト、またはWikiをご覧になるか、IRCで検索、メーリングリストへの参加、またはnewsletter.torproject.orgでのTorニュースへのサインアップしてください。
 
@@ -151,7 +151,7 @@ Torの詳細については、私たちのWebサイト、またはWikiをご覧�
 ## 8. Torをダウンロード
 
 デスクトップ用Tor
-torproject.org/ja/download
+torproject.org/download
 
 モバイル上のTor
 ### Android 
