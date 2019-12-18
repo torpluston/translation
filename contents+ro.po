@@ -5528,6 +5528,10 @@ msgid ""
 "address is in the same AS as your relay, you can look it up using "
 "[bgp.he.net](https://bgp.he.net))."
 msgstr ""
+"* Dacă nu ați ales o rezolvare locală nelegată, utilizați o rezolvare pe "
+"care furnizorul dvs. o rulează în același sistem autonom (pentru a afla dacă"
+" o adresă IP este în același AS ca și releul dvs., puteți căuta cu ajutorul "
+"[bgp.he.net] (https://bgp.he.net))."
 
 #: https//community.torproject.org/relay/setup/exit/
 #: (content/relay-operations/technical-setup/exit/contents+en.lrpage.body)
@@ -5535,6 +5539,8 @@ msgid ""
 "* Avoid adding more than two resolvers to your /etc/resolv.conf file to "
 "limit AS-level exposure of DNS queries."
 msgstr ""
+"* Evitați să adăugați mai mult de doi rezolvitori la fișierul dvs. "
+"/etc/resolv.conf pentru a limita expunerea la nivel AS a interogărilor DNS."
 
 #: https//community.torproject.org/relay/setup/exit/
 #: (content/relay-operations/technical-setup/exit/contents+en.lrpage.body)
@@ -5542,6 +5548,8 @@ msgid ""
 "There are multiple options for DNS server software. "
 "[Unbound](https://nlnetlabs.nl/projects/unbound/about/) has become"
 msgstr ""
+"Există mai multe opțiuni pentru software-ul serverului DNS. [Nelegat] "
+"(https://nlnetlabs.nl/projects/unbound/about/) a devenit"
 
 #: https//community.torproject.org/relay/setup/exit/
 #: (content/relay-operations/technical-setup/exit/contents+en.lrpage.body)
@@ -5549,6 +5557,8 @@ msgid ""
 "a popular one but feel free to use any other software that you are "
 "comfortable with."
 msgstr ""
+"unul popular, dar nu ezitați să folosiți orice alt software cu care sunteți "
+"obișnuit."
 
 #: https//community.torproject.org/relay/setup/exit/
 #: (content/relay-operations/technical-setup/exit/contents+en.lrpage.body)
@@ -5556,6 +5566,8 @@ msgid ""
 "When choosing your DNS resolver software, make sure that it supports DNSSEC "
 "validation and QNAME minimization (RFC7816)."
 msgstr ""
+"Când alegeți software-ul dvs. de rezolvare DNS, asigurați-vă că acesta "
+"acceptă validarea DNSSEC și minimizarea QNAME (RFC7816)."
 
 #: https//community.torproject.org/relay/setup/exit/
 #: (content/relay-operations/technical-setup/exit/contents+en.lrpage.body)
@@ -5563,6 +5575,8 @@ msgid ""
 "Install the resolver software over your operating system's package manager, "
 "to ensure that it is updated automatically."
 msgstr ""
+"Instalați software-ul de rezolvare pe managerul de pachete al sistemului "
+"dvs. de operare, pentru a vă asigura că acesta este actualizat automat."
 
 #: https//community.torproject.org/relay/setup/exit/
 #: (content/relay-operations/technical-setup/exit/contents+en.lrpage.body)
@@ -5570,6 +5584,8 @@ msgid ""
 "By using your own DNS resolver, you are less vulnerable to DNS-based "
 "censorship that your upstream resolver might impose."
 msgstr ""
+"Folosind rezolvatorul dvs. DNS, sunteți mai puțin vulnerabili la cenzura pe "
+"bază DNS pe care ar putea-o impune rezolvarea dvs. din amonte."
 
 #: https//community.torproject.org/relay/setup/exit/
 #: (content/relay-operations/technical-setup/exit/contents+en.lrpage.body)
@@ -5579,6 +5595,11 @@ msgid ""
 "configuration and tuning knobs but we keep these instructions simple and "
 "short; the basic setup will do just fine for most operators."
 msgstr ""
+"Mai jos sunt instrucțiuni despre cum puteți instala și configura o soluție "
+"de validare și validare DNSSEC în releul de ieșire de tip unbound. Tipul "
+"unbound - nelegat - are multe butoane de configurare și reglare, dar păstrăm"
+" aceste instrucțiuni simple și scurte; configurația de bază se va descurca "
+"bine pentru majoritatea operatorilor."
 
 #: https//community.torproject.org/relay/setup/exit/
 #: (content/relay-operations/technical-setup/exit/contents+en.lrpage.body)
@@ -5586,11 +5607,14 @@ msgid ""
 "After switching to unbound, verify it works as expected by resolving a valid"
 " hostname. If it does not work, you can restore your old resolv.conf file."
 msgstr ""
+"După trecerea la unbound, verificați că funcționează conform așteptărilor, "
+"rezolvând un nume de gazdă valid. Dacă nu funcționează, puteți restaura "
+"vechiul dvs. fișier resolv.conf."
 
 #: https//community.torproject.org/relay/setup/exit/
 #: (content/relay-operations/technical-setup/exit/contents+en.lrpage.body)
 msgid "### Debian/Ubuntu"
-msgstr ""
+msgstr "### Debian/Ubuntu"
 
 #: https//community.torproject.org/relay/setup/exit/
 #: (content/relay-operations/technical-setup/exit/contents+en.lrpage.body)
@@ -5598,21 +5622,23 @@ msgid ""
 "The following three commands install unbound, backup your DNS configuration,"
 " and tell the system to use the local unbound:"
 msgstr ""
+"Următoarele trei comenzi instalează unbound, fac o copie de siguranță la "
+"configurația DNS și spun sistemului să folosească unbound local:"
 
 #: https//community.torproject.org/relay/setup/exit/
 #: (content/relay-operations/technical-setup/exit/contents+en.lrpage.body)
 msgid "apt install unbound"
-msgstr ""
+msgstr "apt install unbound"
 
 #: https//community.torproject.org/relay/setup/exit/
 #: (content/relay-operations/technical-setup/exit/contents+en.lrpage.body)
 msgid "cp /etc/resolv.conf /etc/resolv.conf.backup"
-msgstr ""
+msgstr "cp /etc/resolv.conf /etc/resolv.conf.backup"
 
 #: https//community.torproject.org/relay/setup/exit/
 #: (content/relay-operations/technical-setup/exit/contents+en.lrpage.body)
 msgid "echo nameserver 127.0.0.1 > /etc/resolv.conf"
-msgstr ""
+msgstr "echo nameserver 127.0.0.1 > /etc/resolv.conf"
 
 #: https//community.torproject.org/relay/setup/exit/
 #: (content/relay-operations/technical-setup/exit/contents+en.lrpage.body)
@@ -5620,11 +5646,13 @@ msgid ""
 "To avoid that the configuration gets changed (for example by the DHCP "
 "client):"
 msgstr ""
+"Pentru a evita modificarea configurației (de exemplu, de către clientul "
+"DHCP):"
 
 #: https//community.torproject.org/relay/setup/exit/
 #: (content/relay-operations/technical-setup/exit/contents+en.lrpage.body)
 msgid "chattr +i /etc/resolv.conf"
-msgstr ""
+msgstr "chattr +i /etc/resolv.conf"
 
 #: https//community.torproject.org/relay/setup/exit/
 #: (content/relay-operations/technical-setup/exit/contents+en.lrpage.body)
@@ -5632,71 +5660,74 @@ msgid ""
 "The Debian configuration ships with QNAME minimization (RFC7816) enabled by "
 "default, so you don't need to enable it explicitly."
 msgstr ""
+"Configurația Debian se livrează cu minimizare QNAME (RFC7816) activată "
+"implicit, deci nu trebuie să o activați explicit."
 
 #: https//community.torproject.org/relay/setup/exit/
 #: (content/relay-operations/technical-setup/exit/contents+en.lrpage.body)
 msgid "The unbound resolver you just installed also does DNSSEC validation."
 msgstr ""
+"Rezolvarea unbound pe care tocmai ați instalat-o face și validarea DNSSEC."
 
 #: https//community.torproject.org/relay/setup/exit/
 #: (content/relay-operations/technical-setup/exit/contents+en.lrpage.body)
 msgid "### CentOS/RHEL"
-msgstr ""
+msgstr "### CentOS/RHEL"
 
 #: https//community.torproject.org/relay/setup/exit/
 #: (content/relay-operations/technical-setup/exit/contents+en.lrpage.body)
 msgid "Install the unbound package:"
-msgstr ""
+msgstr "Instalați pachetul unbound:"
 
 #: https//community.torproject.org/relay/setup/exit/
 #: (content/relay-operations/technical-setup/exit/contents+en.lrpage.body)
 msgid "yum install unbound"
-msgstr ""
+msgstr "yum install unbound"
 
 #: https//community.torproject.org/relay/setup/exit/
 #: (content/relay-operations/technical-setup/exit/contents+en.lrpage.body)
 msgid "in /etc/unbound/unbound.conf replace the line"
-msgstr ""
+msgstr "în /etc/unbound/unbound.conf înlocuiți linia"
 
 #: https//community.torproject.org/relay/setup/exit/
 #: (content/relay-operations/technical-setup/exit/contents+en.lrpage.body)
 msgid "# qname-minimisation: no"
-msgstr ""
+msgstr "# qname-minimisation: no"
 
 #: https//community.torproject.org/relay/setup/exit/
 #: (content/relay-operations/technical-setup/exit/contents+en.lrpage.body)
 msgid "with:"
-msgstr ""
+msgstr "cu:"
 
 #: https//community.torproject.org/relay/setup/exit/
 #: (content/relay-operations/technical-setup/exit/contents+en.lrpage.body)
 msgid "qname-minimisation: yes"
-msgstr ""
+msgstr "qname-minimisation: yes"
 
 #: https//community.torproject.org/relay/setup/exit/
 #: (content/relay-operations/technical-setup/exit/contents+en.lrpage.body)
 msgid "enable and start unbound:"
-msgstr ""
+msgstr "activați și porniți unbound:"
 
 #: https//community.torproject.org/relay/setup/exit/
 #: (content/relay-operations/technical-setup/exit/contents+en.lrpage.body)
 msgid "systemctl enable unbound"
-msgstr ""
+msgstr "systemctl enable unbound"
 
 #: https//community.torproject.org/relay/setup/exit/
 #: (content/relay-operations/technical-setup/exit/contents+en.lrpage.body)
 msgid "systemctl start unbound"
-msgstr ""
+msgstr "systemctl start unbound"
 
 #: https//community.torproject.org/relay/setup/exit/
 #: (content/relay-operations/technical-setup/exit/contents+en.lrpage.body)
 msgid "Tell the system to use the local unbound server:"
-msgstr ""
+msgstr "Spuneți sistemului să folosească serverul local unbound:"
 
 #: https//community.torproject.org/relay/setup/exit/
 #: (content/relay-operations/technical-setup/exit/contents+en.lrpage.body)
 msgid "### FreeBSD"
-msgstr ""
+msgstr "### FreeBSD"
 
 #: https//community.torproject.org/relay/setup/exit/
 #: (content/relay-operations/technical-setup/exit/contents+en.lrpage.body)
@@ -5704,11 +5735,13 @@ msgid ""
 "FreeBSD ships unbound in the base system but the one in ports is usually "
 "following upstream more closely, so we install the unbound package:"
 msgstr ""
+"FreeBSD este livrat în sistemul de bază, dar cel din porturi urmează de "
+"obicei mai îndeaproape upstream, așa că instalăm pachetul unbound:"
 
 #: https//community.torproject.org/relay/setup/exit/
 #: (content/relay-operations/technical-setup/exit/contents+en.lrpage.body)
 msgid "pkg install unbound"
-msgstr ""
+msgstr "pkg install unbound"
 
 #: https//community.torproject.org/relay/setup/exit/
 #: (content/relay-operations/technical-setup/exit/contents+en.lrpage.body)
@@ -5716,36 +5749,38 @@ msgid ""
 "Replace the content in /usr/local/etc/unbound/unbound.conf with the "
 "following lines:"
 msgstr ""
+"Înlocuiți conținutul din /usr/local/etc/unbound/unbound.conf cu următoarele "
+"linii:"
 
 #: https//community.torproject.org/relay/setup/exit/
 #: (content/relay-operations/technical-setup/exit/contents+en.lrpage.body)
 msgid "server:"
-msgstr ""
+msgstr "server:"
 
 #: https//community.torproject.org/relay/setup/exit/
 #: (content/relay-operations/technical-setup/exit/contents+en.lrpage.body)
 msgid "verbosity: 1"
-msgstr ""
+msgstr "verbosity: 1"
 
 #: https//community.torproject.org/relay/setup/exit/
 #: (content/relay-operations/technical-setup/exit/contents+en.lrpage.body)
 msgid "enable and start the unbound service:"
-msgstr ""
+msgstr "activați și porniți serviciul unbound:"
 
 #: https//community.torproject.org/relay/setup/exit/
 #: (content/relay-operations/technical-setup/exit/contents+en.lrpage.body)
 msgid "sysrc unbound_enable=YES"
-msgstr ""
+msgstr "sysrc unbound_enable=YES"
 
 #: https//community.torproject.org/relay/setup/exit/
 #: (content/relay-operations/technical-setup/exit/contents+en.lrpage.body)
 msgid "service unbound start"
-msgstr ""
+msgstr "service unbound start"
 
 #: https//community.torproject.org/relay/setup/exit/
 #: (content/relay-operations/technical-setup/exit/contents+en.lrpage.body)
 msgid "chflags schg /etc/resolv.conf"
-msgstr ""
+msgstr "chflags schg /etc/resolv.conf"
 
 #: https//community.torproject.org/relay/setup/bridge/
 #: (content/relay-operations/technical-setup/bridge/contents+en.lrpage.title)
@@ -5756,6 +5791,8 @@ msgstr "Punte"
 #: (content/relay-operations/technical-setup/bridge/contents+en.lrpage.subtitle)
 msgid "Run an obfs4 bridge to help censored users connect to the Tor network"
 msgstr ""
+"Rulați o punte obfs4 pentru a ajuta utilizatorii cenzurați să se conecteze "
+"la rețeaua Tor"
 
 #: https//community.torproject.org/relay/setup/bridge/
 #: (content/relay-operations/technical-setup/bridge/contents+en.lrpage.body)
@@ -5763,11 +5800,13 @@ msgid ""
 "This guide will help you set up an obfs4 bridge to help censored users "
 "connect to the Tor network. The requirements are:"
 msgstr ""
+"Acest ghid vă va ajuta să configurați un pod obfs4 pentru a ajuta "
+"utilizatorii cenzurați să se conecteze la rețeaua Tor. Cerințele sunt:"
 
 #: https//community.torproject.org/relay/setup/bridge/
 #: (content/relay-operations/technical-setup/bridge/contents+en.lrpage.body)
 msgid "1. 24/7 Internet connectivity"
-msgstr ""
+msgstr "1. Conectivitate la internet 24/7"
 
 #: https//community.torproject.org/relay/setup/bridge/
 #: (content/relay-operations/technical-setup/bridge/contents+en.lrpage.body)
@@ -5775,6 +5814,8 @@ msgid ""
 "2. The ability to expose TCP ports to the Internet (make sure that NAT "
 "doesn't get in the way)"
 msgstr ""
+"2. Posibilitatea de a expune porturile TCP la Internet (asigurați-vă că NAT "
+"nu intră în cale)"
 
 #: https//community.torproject.org/relay/setup/bridge/
 #: (content/relay-operations/technical-setup/bridge/contents+en.lrpage.body)
@@ -5782,16 +5823,19 @@ msgid ""
 "Note: If you're running a platform that is not listed on this page, you can "
 "[compile obfs4 from source](https://gitlab.com/yawning/obfs4#installation)."
 msgstr ""
+"Notă: Dacă rulați pe o platformă care nu este listată pe această pagină, "
+"puteți [compila obfs4 din sursă] "
+"(https://gitlab.com/yawning/obfs4#installation)."
 
 #: https//community.torproject.org/relay/setup/guard/
 #: (content/relay-operations/technical-setup/guard/contents+en.lrpage.title)
 msgid "Middle/Guard relay"
-msgstr ""
+msgstr "Releu de mijloc / pază"
 
 #: https//community.torproject.org/relay/setup/guard/
 #: (content/relay-operations/technical-setup/guard/contents+en.lrpage.subtitle)
 msgid "Run a Middle/Guard relay"
-msgstr ""
+msgstr "Rulați un releu de mijloc / pază"
 
 #: https//community.torproject.org/relay/setup/guard/
 #: (content/relay-operations/technical-setup/guard/contents+en.lrpage.body)
@@ -5799,21 +5843,23 @@ msgid ""
 "In this guide we describe how to setup a new Middle/Guard relay. Please "
 "choose your platform below."
 msgstr ""
+"În acest ghid descriem cum să setați un nou releu de mijloc/pază. Vă rugăm "
+"să alegeți platforma de mai jos."
 
 #: https//community.torproject.org/relay/community-resources/tor-abuse-templates/
 #: (content/relay-operations/community-resources/tor-abuse-templates/contents+en.lrpage.title)
 msgid "Tor Abuse Templates"
-msgstr ""
+msgstr "Șabloane Tor Abuse"
 
 #: https//community.torproject.org/relay/community-resources/tor-abuse-templates/
 #: (content/relay-operations/community-resources/tor-abuse-templates/contents+en.lrpage.subtitle)
 msgid "How to handle abuse complaints"
-msgstr ""
+msgstr "Cum să gestionați plângerile de abuz"
 
 #: https//community.torproject.org/relay/community-resources/tor-abuse-templates/
 #: (content/relay-operations/community-resources/tor-abuse-templates/contents+en.lrpage.body)
 msgid "# Before You Start"
-msgstr ""
+msgstr "# Înainte de a începe"
 
 #: https//community.torproject.org/relay/community-resources/tor-abuse-templates/
 #: (content/relay-operations/community-resources/tor-abuse-templates/contents+en.lrpage.body)
@@ -5821,6 +5867,9 @@ msgid ""
 "The best way to handle abuse complaints is to set up your exit node so that "
 "they are less likely to be sent in the first place."
 msgstr ""
+"Cea mai bună modalitate de a gestiona reclamațiile pentru abuz este de a "
+"configura nodul de ieșire astfel încât să fie mai puțin susceptibile să fie "
+"trimise în primul rând."
 
 #: https//community.torproject.org/relay/community-resources/tor-abuse-templates/
 #: (content/relay-operations/community-resources/tor-abuse-templates/contents+en.lrpage.body)
@@ -5830,6 +5879,10 @@ msgid ""
 "Guidelines](tor-exit-guidelines) for more info, before reading this "
 "document."
 msgstr ""
+"Vă rugăm să consultați [Sfaturi pentru rularea unui nod de ieșire cu "
+"hărțuire minimă] (https://blog.torproject.org/running-exit-node) și [Ghid de"
+" ieșire Tor] (tor-exit-instructions) pentru mai multe informații, înainte de"
+" a citi acest document."
 
 #: https//community.torproject.org/relay/community-resources/tor-abuse-templates/
 #: (content/relay-operations/community-resources/tor-abuse-templates/contents+en.lrpage.body)
@@ -5837,11 +5890,14 @@ msgid ""
 "Below are a collection of letters you can use to respond to your ISP about "
 "their complaint in regards to your Tor exit server."
 msgstr ""
+"Mai jos găsiți o colecție de scrisori pe care le puteți utiliza pentru a "
+"răspunde ISP-ului dvs. despre reclamația lor cu privire la serverul dvs. de "
+"ieșire Tor."
 
 #: https//community.torproject.org/relay/community-resources/tor-abuse-templates/
 #: (content/relay-operations/community-resources/tor-abuse-templates/contents+en.lrpage.body)
 msgid "## Format and Philosophy of Templates"
-msgstr ""
+msgstr "## Formatul și filosofia șabloanelor"
 
 #: https//community.torproject.org/relay/community-resources/tor-abuse-templates/
 #: (content/relay-operations/community-resources/tor-abuse-templates/contents+en.lrpage.body)
@@ -5851,6 +5907,11 @@ msgid ""
 " general for the Internet at large (open wifi, open proxies, botnets, etc), "
 "and barring all else, how to block Tor."
 msgstr ""
+"Formatul general al acestor șabloane este de a informa reclamantul cu "
+"privire la Tor, de a-i ajuta să găsească o soluție la problema lor "
+"particulară, care funcționează în general pentru Internet în general (wifi "
+"deschis, proxy-uri deschise, botnet-uri etc.) și care le restricționează pe "
+"toate celelalte, cum să fie blocat Tor."
 
 #: https//community.torproject.org/relay/community-resources/tor-abuse-templates/
 #: (content/relay-operations/community-resources/tor-abuse-templates/contents+en.lrpage.body)
@@ -5859,6 +5920,9 @@ msgid ""
 "proactively by the site administrators, rather than wasting effort and "
 "resources on seeking vengeance and chasing ghosts."
 msgstr ""
+"Filozofia Proiectului Tor este că abuzurile ar trebui să fie gestionate "
+"proactiv de administratorii site-ului, în loc să irosim eforturi și resurse "
+"pentru căutarea răzbunării și pentru vânătoarea de fantome."
 
 #: https//community.torproject.org/relay/community-resources/tor-abuse-templates/
 #: (content/relay-operations/community-resources/tor-abuse-templates/contents+en.lrpage.body)
@@ -5867,6 +5931,9 @@ msgid ""
 "abuse is the difference between decentralized fault-tolerant Internet "
 "freedom, and fragile, corruptible totalitarian control."
 msgstr ""
+"Diferența dintre abordarea proactivă și abordarea reactivă a abuzului este "
+"diferența dintre libertatea de internet descentralizată care tolerează "
+"erorile și controlul totalitar fragil și coruptibil."
 
 #: https//community.torproject.org/relay/community-resources/tor-abuse-templates/
 #: (content/relay-operations/community-resources/tor-abuse-templates/contents+en.lrpage.body)
@@ -5875,6 +5942,9 @@ msgid ""
 "licenses\" of South Korea and China have done nothing to curtail cybercrime "
 "and Internet abuse."
 msgstr ""
+"Pentru a ne continua ideea, „permisele de conducere” de pe internet bazate "
+"pe identitate din Coreea de Sud și China nu au făcut nimic pentru a reduce "
+"infracțiunile informatice și abuzul de pe internet."
 
 #: https//community.torproject.org/relay/community-resources/tor-abuse-templates/
 #: (content/relay-operations/community-resources/tor-abuse-templates/contents+en.lrpage.body)
@@ -5883,6 +5953,9 @@ msgid ""
 "korea-to-abandon-real-name-internet-policy.html) seems to indicate that it "
 "has only created new markets for organized crime to preside over."
 msgstr ""
+"De fapt, toate [dovezile obiective] (http://boingboing.net/2011/08/12/south-"
+"korea-to-abandon-real-name-internet-policy.html) par să indice că a creat "
+"doar noi piețe pentru crima organizată."
 
 #: https//community.torproject.org/relay/community-resources/tor-abuse-templates/
 #: (content/relay-operations/community-resources/tor-abuse-templates/contents+en.lrpage.body)
@@ -5890,6 +5963,8 @@ msgid ""
 "This is the core idea that these abuse complaint templates attempt to instil"
 " in the recipient."
 msgstr ""
+"Ideea de bază este că aceste șabloane de reclamații pentru abuzuri încearcă "
+"să fie insuflate destinatarului."
 
 #: https//community.torproject.org/relay/community-resources/tor-abuse-templates/
 #: (content/relay-operations/community-resources/tor-abuse-templates/contents+en.lrpage.body)
