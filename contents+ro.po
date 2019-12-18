@@ -4728,6 +4728,9 @@ msgid ""
 "Tor will not limit its bandwidth usage by default, but supports multiple "
 "ways to restrict the used bandwidth and the amount of traffic."
 msgstr ""
+"Tor nu limitează în mod implicit utilizarea lățimii de bandă, dar acceptă "
+"mai multe moduri de a restricționa lățimea de bandă folosită și cantitatea "
+"de trafic."
 
 #: https//community.torproject.org/relay/setup/post-install/
 #: (content/relay-operations/technical-setup/post-install/contents+en.lrpage.body)
@@ -4735,6 +4738,9 @@ msgid ""
 "This can be handy if you want to ensure that your Tor relay does not exceed "
 "a certain amount of bandwidth or total traffic per day/week/month."
 msgstr ""
+"Acest lucru poate fi util dacă doriți să vă asigurați că releul Tor nu "
+"depășește o anumită valoare pentru lățimea de bandă sau pentru traficul "
+"total pe zi / săptămână / lună."
 
 #: https//community.torproject.org/relay/setup/post-install/
 #: (content/relay-operations/technical-setup/post-install/contents+en.lrpage.body)
@@ -4742,36 +4748,38 @@ msgid ""
 "The following torrc configuration options can be used to restrict bandwidth "
 "and traffic:"
 msgstr ""
+"Pentru a restricționa lățimea de bandă și traficul, pot fi utilizate "
+"următoarele opțiuni de configurare torrc:"
 
 #: https//community.torproject.org/relay/setup/post-install/
 #: (content/relay-operations/technical-setup/post-install/contents+en.lrpage.body)
 msgid "* AccountingMax"
-msgstr ""
+msgstr "* AccountingMax"
 
 #: https//community.torproject.org/relay/setup/post-install/
 #: (content/relay-operations/technical-setup/post-install/contents+en.lrpage.body)
 msgid "* AccountingRule"
-msgstr ""
+msgstr "* AccountingRule"
 
 #: https//community.torproject.org/relay/setup/post-install/
 #: (content/relay-operations/technical-setup/post-install/contents+en.lrpage.body)
 msgid "* AccountingStart"
-msgstr ""
+msgstr "* AccountingStart"
 
 #: https//community.torproject.org/relay/setup/post-install/
 #: (content/relay-operations/technical-setup/post-install/contents+en.lrpage.body)
 msgid "* BandwidthRate"
-msgstr ""
+msgstr "* BandwidthRate"
 
 #: https//community.torproject.org/relay/setup/post-install/
 #: (content/relay-operations/technical-setup/post-install/contents+en.lrpage.body)
 msgid "* BandwidthBurst"
-msgstr ""
+msgstr "* BandwidthBurst"
 
 #: https//community.torproject.org/relay/setup/post-install/
 #: (content/relay-operations/technical-setup/post-install/contents+en.lrpage.body)
 msgid "* RelayBandwidthRate"
-msgstr ""
+msgstr "* RelayBandwidthRate"
 
 #: https//community.torproject.org/relay/setup/post-install/
 #: (content/relay-operations/technical-setup/post-install/contents+en.lrpage.body)
@@ -4779,6 +4787,8 @@ msgid ""
 "Having a fast relay for some time of the month is preferred over a slow "
 "relay for the entire month."
 msgstr ""
+"A avea un releu rapid pentru o anumită perioadă a lunii este de preferat "
+"comparativ cu un releu lent pentru întreaga lună."
 
 #: https//community.torproject.org/relay/setup/post-install/
 #: (content/relay-operations/technical-setup/post-install/contents+en.lrpage.body)
@@ -4786,11 +4796,14 @@ msgid ""
 "Also see the bandwidth entry in the "
 "[FAQ](https://www.torproject.org/docs/faq.html.en#BandwidthShaping)."
 msgstr ""
+"Consultați, de asemenea, valoarea de intrare a lățimii de bandă în "
+"[Răspunsuri la întrebări frecvente] "
+"(https://www.torproject.org/docs/faq.html.en#BandwidthShaping)."
 
 #: https//community.torproject.org/relay/setup/post-install/
 #: (content/relay-operations/technical-setup/post-install/contents+en.lrpage.body)
 msgid "# 7. Check IPv6 availability"
-msgstr ""
+msgstr "# 7. Verificați disponibilitatea IPv6"
 
 #: https//community.torproject.org/relay/setup/post-install/
 #: (content/relay-operations/technical-setup/post-install/contents+en.lrpage.body)
@@ -4798,6 +4811,8 @@ msgid ""
 "We encourage everyone to enable IPv6 on their relays. This is especially "
 "valuable on exit and guard relays."
 msgstr ""
+"Îi încurajăm pe toți să activeze IPv6 pe releele lor. Acest lucru este "
+"deosebit de valoros la releele de ieșire și de pază."
 
 #: https//community.torproject.org/relay/setup/post-install/
 #: (content/relay-operations/technical-setup/post-install/contents+en.lrpage.body)
@@ -4805,6 +4820,8 @@ msgid ""
 "Before enabling your tor daemon to use IPv6 in addition to IPv4 you should "
 "do some basic IPv6 connectivity tests."
 msgstr ""
+"Înainte de a permite demonului tor să folosească IPv6 pe lângă IPv4, ar "
+"trebui să efectuați câteva teste de bază a conexiunii prin IPv6 ."
 
 #: https//community.torproject.org/relay/setup/post-install/
 #: (content/relay-operations/technical-setup/post-install/contents+en.lrpage.body)
@@ -4812,6 +4829,8 @@ msgid ""
 "The following command line will ping the IPv6 addresses of Tor directory "
 "authorities from your server:"
 msgstr ""
+"Următoarea linie de comandă va face ping la adresele IPv6 ale autorităților "
+"directorului Tor de pe serverul dvs.:"
 
 #: https//community.torproject.org/relay/setup/post-install/
 #: (content/relay-operations/technical-setup/post-install/contents+en.lrpage.body)
@@ -4821,6 +4840,10 @@ msgid ""
 "2001:678:558:1000::244 && ping6 -c2 2607:8500:154::3 && ping6 -c2 "
 "2001:638:a000:4140::ffff:189 && echo OK."
 msgstr ""
+"ping6 -c2 2001:858:2:2:aabb:0:563b:1526 && ping6 -c2 "
+"2620:13:4000:6000::1000:118 && ping6 -c2 2001:67c:289c::9 && ping6 -c2 "
+"2001:678:558:1000::244 && ping6 -c2 2607:8500:154::3 && ping6 -c2 "
+"2001:638:a000:4140::ffff:189 && echo OK."
 
 #: https//community.torproject.org/relay/setup/post-install/
 #: (content/relay-operations/technical-setup/post-install/contents+en.lrpage.body)
@@ -4829,6 +4852,9 @@ msgid ""
 "not enable IPv6 in your torrc configuration file before IPv6 is indeed "
 "working."
 msgstr ""
+"La sfârșitul mesajelor afișate, ar trebui să vedeți „OK”. În caz contrar, nu"
+" activați IPv6 în fișierul dvs. de configurare torrc înainte ca IPv6 să "
+"funcționeze cu adevărat."
 
 #: https//community.torproject.org/relay/setup/post-install/
 #: (content/relay-operations/technical-setup/post-install/contents+en.lrpage.body)
@@ -4836,6 +4862,8 @@ msgid ""
 "If you enable IPv6 without working IPv6 connectivity your entire relay will "
 "not be used, regardless if IPv4 is working."
 msgstr ""
+"Dacă activați IPv6 fără ca IPv6 să funcționeze, întregul releu nu va fi "
+"utilizat deloc, indiferent dacă IPv4 funcționează."
 
 #: https//community.torproject.org/relay/setup/post-install/
 #: (content/relay-operations/technical-setup/post-install/contents+en.lrpage.body)
@@ -4843,11 +4871,14 @@ msgid ""
 "If it worked fine, make your Tor relay reachable via IPv6 by adding an "
 "additional ORPort line to your configuration (example for ORPort 9001):"
 msgstr ""
+"Dacă totul a funcționat bine, faceți releul Tor accesibil prin IPv6 adăugând"
+" o linie de comandă suplimentară la configurația ORPort (exemplu pentru "
+"ORPort 9001):"
 
 #: https//community.torproject.org/relay/setup/post-install/
 #: (content/relay-operations/technical-setup/post-install/contents+en.lrpage.body)
 msgid "ORPort [IPv6-address]:9001"
-msgstr ""
+msgstr "ORPort [IPv6-address]:9001"
 
 #: https//community.torproject.org/relay/setup/post-install/
 #: (content/relay-operations/technical-setup/post-install/contents+en.lrpage.body)
@@ -4855,6 +4886,9 @@ msgid ""
 "The location of that line in the configuration file does not matter you can "
 "simply add it next to the first ORPort lins in your torrc file."
 msgstr ""
+"Nu contează locul unde introduceți acea linie de comandă în fișierul de "
+"configurare, o puteți adăuga pur și simplu lângă primele linii ORPort din "
+"fișierul dvs. torrc."
 
 #: https//community.torproject.org/relay/setup/post-install/
 #: (content/relay-operations/technical-setup/post-install/contents+en.lrpage.body)
@@ -4862,6 +4896,9 @@ msgid ""
 "Note: You have to explicitly specify your IPv6 address in square brackets, "
 "you can not tell tor to bind to any IPv6 (like you do for IPv4)."
 msgstr ""
+"Notă: trebuie să specificați în mod explicit adresa IPv6 între paranteze "
+"pătrate, nu puteți spune tor să se conecteze prin orice IPv6 (așa cum o "
+"faceți pentru IPv4)."
 
 #: https//community.torproject.org/relay/setup/post-install/
 #: (content/relay-operations/technical-setup/post-install/contents+en.lrpage.body)
@@ -4869,11 +4906,13 @@ msgid ""
 "If you have a global IPv6 address you should be able to find it in the "
 "output of the following command:"
 msgstr ""
+"Dacă aveți o adresă IPv6 globală, ar trebui să o puteți găsi în răspunsul "
+"afișat după următoarea comandă:"
 
 #: https//community.torproject.org/relay/setup/post-install/
 #: (content/relay-operations/technical-setup/post-install/contents+en.lrpage.body)
 msgid "ip addr|grep inet6|grep global"
-msgstr ""
+msgstr "ip addr|grep inet6|grep global"
 
 #: https//community.torproject.org/relay/setup/post-install/
 #: (content/relay-operations/technical-setup/post-install/contents+en.lrpage.body)
@@ -4881,11 +4920,14 @@ msgid ""
 "If you are an exit relay with IPv6 connectivity, tell your tor daemon to "
 "allow exiting via IPv6 so clients can reach IPv6 destinations:"
 msgstr ""
+"Dacă sunteți un releu de ieșire cu conectivitate IPv6, spuneți-i demonului "
+"tor să permită ieșirea prin IPv6, astfel încât clienții să poată ajunge la "
+"destinații IPv6:"
 
 #: https//community.torproject.org/relay/setup/post-install/
 #: (content/relay-operations/technical-setup/post-install/contents+en.lrpage.body)
 msgid "IPv6Exit 1"
-msgstr ""
+msgstr "IPv6Exit 1"
 
 #: https//community.torproject.org/relay/setup/post-install/
 #: (content/relay-operations/technical-setup/post-install/contents+en.lrpage.body)
@@ -4893,16 +4935,18 @@ msgid ""
 "Note: Tor requires IPv4 connectivity, you can not run a Tor relay on "
 "IPv6-only."
 msgstr ""
+"Notă: Tor necesită conectivitate IPv4, nu puteți rula un releu Tor doar pe "
+"IPv6."
 
 #: https//community.torproject.org/relay/setup/post-install/
 #: (content/relay-operations/technical-setup/post-install/contents+en.lrpage.body)
 msgid "# 8. Maintaining a relay"
-msgstr ""
+msgstr "# 8. Menținerea unui releu"
 
 #: https//community.torproject.org/relay/setup/post-install/
 #: (content/relay-operations/technical-setup/post-install/contents+en.lrpage.body)
 msgid "## Backup Tor Identity Keys"
-msgstr ""
+msgstr "## Copii de rezervă pentru cheile de identitate Tor"
 
 #: https//community.torproject.org/relay/setup/post-install/
 #: (content/relay-operations/technical-setup/post-install/contents+en.lrpage.body)
@@ -4910,6 +4954,8 @@ msgid ""
 "After your initial installation and start of the tor daemon it is a good "
 "idea to make a backup of your relay's long term identity keys."
 msgstr ""
+"După instalarea inițială și pornirea demonului tor, este bine să faceți o "
+"copie de rezervă a cheilor de identitate pe termen lung ale releului."
 
 #: https//community.torproject.org/relay/setup/post-install/
 #: (content/relay-operations/technical-setup/post-install/contents+en.lrpage.body)
@@ -4917,6 +4963,8 @@ msgid ""
 "They are located in the \"keys\" subfolder of your DataDirectory (simply "
 "make a copy of the entire folder and store it in a secure location)."
 msgstr ""
+"Acestea sunt amplasate în subfolderul „keys” din DataDirectory (faceți pur "
+"și simplu o copie a întregului folder și salvați-l într-o locație sigură)."
 
 #: https//community.torproject.org/relay/setup/post-install/
 #: (content/relay-operations/technical-setup/post-install/contents+en.lrpage.body)
@@ -4925,26 +4973,30 @@ msgid ""
 "to be able to restore your relay's reputation after a disk failure - "
 "otherwise you would have to go through the ramp-up phase again."
 msgstr ""
+"Deoarece releele au nevoie de un timp de demarare, este logic să faceți o "
+"copie de siguranță pentru cheia de identitate pentru a putea restabili "
+"reputația releului dvs. după o defecțiune a discului - altfel ar trebui să "
+"treceți din nou prin faza de demarare."
 
 #: https//community.torproject.org/relay/setup/post-install/
 #: (content/relay-operations/technical-setup/post-install/contents+en.lrpage.body)
 msgid "Default locations of the keys folder:"
-msgstr ""
+msgstr "Locații implicite ale folderului keys :"
 
 #: https//community.torproject.org/relay/setup/post-install/
 #: (content/relay-operations/technical-setup/post-install/contents+en.lrpage.body)
 msgid "* Debian/Ubuntu: `/var/lib/tor/keys`"
-msgstr ""
+msgstr "* Debian/Ubuntu: `/var/lib/tor/keys`"
 
 #: https//community.torproject.org/relay/setup/post-install/
 #: (content/relay-operations/technical-setup/post-install/contents+en.lrpage.body)
 msgid "* FreeBSD: `/var/db/tor/keys`"
-msgstr ""
+msgstr "* FreeBSD: `/var/db/tor/keys`"
 
 #: https//community.torproject.org/relay/setup/post-install/
 #: (content/relay-operations/technical-setup/post-install/contents+en.lrpage.body)
 msgid "## Subscribe to the tor-announce mailing list"
-msgstr ""
+msgstr "## Abonați-vă la lista de corespondență anunțată de tor"
 
 #: https//community.torproject.org/relay/setup/post-install/
 #: (content/relay-operations/technical-setup/post-install/contents+en.lrpage.body)
@@ -4954,11 +5006,15 @@ msgid ""
 "announce](https://lists.torproject.org/cgi-bin/mailman/listinfo/tor-"
 "announce)."
 msgstr ""
+"Aceasta este o listă de e-mail cu trafic foarte redus și veți obține "
+"informații despre noile versiuni stabile ale Tor și informații importante "
+"despre actualizarea securității: [anunțuri tor] "
+"(https://lists.torproject.org/cgi-bin/mailman/listinfo/tor-announce)."
 
 #: https//community.torproject.org/relay/setup/post-install/
 #: (content/relay-operations/technical-setup/post-install/contents+en.lrpage.body)
 msgid "## Setting up outage notifications"
-msgstr ""
+msgstr "## Configurarea notificărilor de întrerupere"
 
 #: https//community.torproject.org/relay/setup/post-install/
 #: (content/relay-operations/technical-setup/post-install/contents+en.lrpage.body)
@@ -4966,11 +5022,13 @@ msgid ""
 "Once you setup your relay it will likely run without much work from your "
 "side."
 msgstr ""
+"Odată ce configurați releul, acesta va rula probabil fără prea multă muncă "
+"din partea dvs."
 
 #: https//community.torproject.org/relay/setup/post-install/
 #: (content/relay-operations/technical-setup/post-install/contents+en.lrpage.body)
 msgid "If something goes wrong it is good to get notified automatically."
-msgstr ""
+msgstr "Dacă ceva nu merge bine, este bine să fiți notificat automat."
 
 #: https//community.torproject.org/relay/setup/post-install/
 #: (content/relay-operations/technical-setup/post-install/contents+en.lrpage.body)
@@ -4979,6 +5037,9 @@ msgid ""
 "relay's ORPorts for reachability and send you an email should they become "
 "unreachable for what ever reason."
 msgstr ""
+"Vă recomandăm să utilizați unul dintre serviciile gratuite care vă permit să"
+" verificați accesibilitatea ORPort-urilor dvs. de releu și să vă trimiteți "
+"un e-mail în cazul în care acestea sunt de negăsit din diferite motive."
 
 #: https//community.torproject.org/relay/setup/post-install/
 #: (content/relay-operations/technical-setup/post-install/contents+en.lrpage.body)
@@ -4986,6 +5047,8 @@ msgid ""
 "[UptimeRobot](https://uptimerobot.com/) is one of these services that allow "
 "you to monitor TCP listeners on arbitrary ports."
 msgstr ""
+"[UptimeRobot] (https://uptimerobot.com/) este unul dintre aceste servicii "
+"care vă permit să monitorizați ascultătorii TCP pe porturile arbitrare."
 
 #: https//community.torproject.org/relay/setup/post-install/
 #: (content/relay-operations/technical-setup/post-install/contents+en.lrpage.body)
@@ -4993,11 +5056,15 @@ msgid ""
 "This service can check your configured ports once every 5 minutes and send "
 "you an email should your tor process die or become unreachable."
 msgstr ""
+"Acest serviciu vă poate verifica porturile configurate o dată la 5 minute și"
+" vă poate trimite un e-mail în cazul în care procesul de operare se oprește "
+"sau nu poate fi găsit."
 
 #: https//community.torproject.org/relay/setup/post-install/
 #: (content/relay-operations/technical-setup/post-install/contents+en.lrpage.body)
 msgid "This checks only for the listener but does not speak the Tor protocol."
 msgstr ""
+"Aceasta verifică doar ascultătorul, dar nu vorbește despre protocolul Tor."
 
 #: https//community.torproject.org/relay/setup/post-install/
 #: (content/relay-operations/technical-setup/post-install/contents+en.lrpage.body)
