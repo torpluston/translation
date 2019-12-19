@@ -7087,15 +7087,15 @@ msgid ""
 msgstr ""
 "* Permiterea de trafic doar cu text simplu (de exemplu, doar pe portul 80). "
 "Nu există niciun motiv bun pentru a nu permite omologarea criptată (cum ar "
-"fi portul 443), ceea ce face ca aceste relee să fie foarte suspecte pentru a"
-" înnebuni traficul. Vedeți [context] "
+"fi portul 443), ceea ce face ca aceste relee să fie foarte suspecte de a "
+"înnebuni traficul. Vedeți [context] "
 "(https://www.google.com/search?site:torproject.org+80+443+6667) și [spec] "
-"(https://gitweb.torproject.org/torspec.git/tree/ dir-spec.txt#n1969)."
+"(https://gitweb.torproject.org/torspec.git/tree/dir-spec.txt#n1969)."
 
 #: https//community.torproject.org/relay/community-resources/bad-relays/
 #: (content/relay-operations/community-resources/bad-relays/contents+en.lrpage.body)
 msgid "### How do I report a bad relay?"
-msgstr ""
+msgstr "### Cum raportez un releu rău intenționat?"
 
 #: https//community.torproject.org/relay/community-resources/bad-relays/
 #: (content/relay-operations/community-resources/bad-relays/contents+en.lrpage.body)
@@ -7103,6 +7103,8 @@ msgid ""
 "If you encounter a bad relay then please let us know and write to `bad-"
 "relays AT lists DOT torproject DOT org`."
 msgstr ""
+"Dacă întâlniți un releu rău intenționat, atunci vă rugăm să ne informați și "
+"să ne scrieți pe adresa `bad-relays AT lists DOT torproject DOT org`."
 
 #: https//community.torproject.org/relay/community-resources/bad-relays/
 #: (content/relay-operations/community-resources/bad-relays/contents+en.lrpage.body)
@@ -7111,6 +7113,9 @@ msgid ""
 "check](https://check.torproject.org/). Please include the following in your "
 "report:"
 msgstr ""
+"Puteți verifica oricând ieșirea pe care o utilizați accesând [tor check] "
+"(https://check.torproject.org/). Vă rugăm să includeți următoarele în "
+"raportul dvs.:"
 
 #: https//community.torproject.org/relay/community-resources/bad-relays/
 #: (content/relay-operations/community-resources/bad-relays/contents+en.lrpage.body)
@@ -7118,16 +7123,19 @@ msgid ""
 "1. The relay's IP address or fingerprint. The fingerprint is a forty-"
 "character hex string such as `203933ED4E55EF8A3C3518427D1A1ED6A4CC285E`."
 msgstr ""
+"1. Adresa IP sau amprenta digitală a releului. Amprenta este un șir "
+"hexazecimal de patruzeci de caractere, cum ar fi "
+"„203933ED4E55EF8A3C3518427D1A1ED6A4CC285E”."
 
 #: https//community.torproject.org/relay/community-resources/bad-relays/
 #: (content/relay-operations/community-resources/bad-relays/contents+en.lrpage.body)
 msgid "2. What kind of behavior did you see?"
-msgstr ""
+msgstr "2. Ce fel de comportament ați observat?"
 
 #: https//community.torproject.org/relay/community-resources/bad-relays/
 #: (content/relay-operations/community-resources/bad-relays/contents+en.lrpage.body)
 msgid "3. Any additional information we'll need to reproduce the issue."
-msgstr ""
+msgstr "3. Orice informații suplimentare trebuie să reproducă problema."
 
 #: https//community.torproject.org/relay/community-resources/bad-relays/
 #: (content/relay-operations/community-resources/bad-relays/contents+en.lrpage.body)
@@ -7135,11 +7143,14 @@ msgid ""
 "However, if you need help with anything Tor-related, please contact the "
 "[help desk](https://www.torproject.org/about/contact) instead."
 msgstr ""
+"Cu toate acestea, dacă aveți nevoie de ajutor cu ceva legat de Tor, vă rugăm"
+" să contactați [biroul de ajutor] "
+"(https://www.torproject.org/about/contact)."
 
 #: https//community.torproject.org/relay/community-resources/bad-relays/
 #: (content/relay-operations/community-resources/bad-relays/contents+en.lrpage.body)
 msgid "### What happens to bad relays?"
-msgstr ""
+msgstr "### Ce se întâmplă cu releele rău intenționate?"
 
 #: https//community.torproject.org/relay/community-resources/bad-relays/
 #: (content/relay-operations/community-resources/bad-relays/contents+en.lrpage.body)
@@ -7149,11 +7160,15 @@ msgid ""
 "relay lacks contact information) we'll flag it to prevent it from continuing"
 " to be used."
 msgstr ""
+"După ce un releu este raportat și am verificat comportamentul vom încerca să"
+" contactăm operatorul releului. Adesea putem aranja lucrurile, dar dacă nu "
+"(sau releul nu are informații de contact), îl vom semnaliza pentru a "
+"împiedica utilizarea acestuia în continuare."
 
 #: https//community.torproject.org/relay/community-resources/bad-relays/
 #: (content/relay-operations/community-resources/bad-relays/contents+en.lrpage.body)
 msgid "We have thee types of flags we can apply:"
-msgstr ""
+msgstr "Avem trei tipuri de marcaje pe care le putem aplica:"
 
 #: https//community.torproject.org/relay/community-resources/bad-relays/
 #: (content/relay-operations/community-resources/bad-relays/contents+en.lrpage.body)
@@ -7161,6 +7176,8 @@ msgid ""
 "* BadExit - Never used as an exit relay (for relays that appear to mess with"
 " exit traffic)"
 msgstr ""
+"* BadExit - Nu este niciodată folosit ca releu de ieșire (pentru releele "
+"care par să încurce cu traficul de ieșire)"
 
 #: https//community.torproject.org/relay/community-resources/bad-relays/
 #: (content/relay-operations/community-resources/bad-relays/contents+en.lrpage.body)
@@ -7168,11 +7185,14 @@ msgid ""
 "* Invalid - Never used unless AllowInvalidNodes is set (by default this only"
 " allows for middle and rendezvous usage)"
 msgstr ""
+"* Invalid - Nu este niciodată folosit decât dacă este setat "
+"AllowInvalidNodes (implicit, acest lucru permite numai utilizarea ca releu "
+"de mijloc și de întâlnire)"
 
 #: https//community.torproject.org/relay/community-resources/bad-relays/
 #: (content/relay-operations/community-resources/bad-relays/contents+en.lrpage.body)
 msgid "* Reject - Dropped from the consensus entirely"
-msgstr ""
+msgstr "* Reject - Abandonat în întregime prin consens"
 
 #: https//community.torproject.org/relay/community-resources/bad-relays/
 #: (content/relay-operations/community-resources/bad-relays/contents+en.lrpage.body)
@@ -7180,11 +7200,13 @@ msgid ""
 "Which we use depends on the severity of the issue, and if it can still be "
 "safely used in certain situations."
 msgstr ""
+"Marcajul pe care îl folosim depinde de gravitatea problemei și dacă poate fi"
+" folosit în siguranță în anumite situații."
 
 #: https//community.torproject.org/relay/community-resources/bad-relays/
 #: (content/relay-operations/community-resources/bad-relays/contents+en.lrpage.body)
 msgid "### My relays was given the BadExit flag. What's up?"
-msgstr ""
+msgstr "### Releele mele au primit steagul BadExit. Ce este de făcut?"
 
 #: https//community.torproject.org/relay/community-resources/bad-relays/
 #: (content/relay-operations/community-resources/bad-relays/contents+en.lrpage.body)
