@@ -9697,6 +9697,8 @@ msgid ""
 "# Replace \"<address@email.com>\" with your email address so we can contact "
 "you if"
 msgstr ""
+"# Înlocuiți \"<address@email.com>\" cu adresa dvs. de e-mail, astfel încât "
+"să vă putem contacta dacă"
 
 #: https//community.torproject.org/relay/setup/bridge/netbsd/
 #: (content/relay-operations/technical-setup/bridge/netbsd/contents+en.lrpage.body)
@@ -9713,6 +9715,8 @@ msgstr ""
 msgid ""
 "# there are problems with your bridge.  This is optional but encouraged."
 msgstr ""
+"# există probleme cu puntea dvs. Această înlocuire este opțională, dar "
+"încurajată."
 
 #: https//community.torproject.org/relay/setup/bridge/netbsd/
 #: (content/relay-operations/technical-setup/bridge/netbsd/contents+en.lrpage.body)
@@ -9729,7 +9733,7 @@ msgstr ""
 #: https//community.torproject.org/relay/setup/bridge/openbsd/
 #: (content/relay-operations/technical-setup/bridge/openbsd/contents+en.lrpage.body)
 msgid "ContactInfo <address@email.com>"
-msgstr ""
+msgstr "ContactInfo <address@email.com>"
 
 #: https//community.torproject.org/relay/setup/bridge/netbsd/
 #: (content/relay-operations/technical-setup/bridge/netbsd/contents+en.lrpage.body)
@@ -9747,6 +9751,7 @@ msgstr ""
 #: (content/relay-operations/technical-setup/bridge/openbsd/contents+en.lrpage.body)
 msgid "# Pick a nickname that you like for your bridge.  This is optional."
 msgstr ""
+"# Alegeți o poreclă care vă place pentru puntea dvs. Aceasta este opțională."
 
 #: https//community.torproject.org/relay/setup/bridge/netbsd/
 #: (content/relay-operations/technical-setup/bridge/netbsd/contents+en.lrpage.body)
@@ -9763,12 +9768,12 @@ msgstr ""
 #: https//community.torproject.org/relay/setup/bridge/openbsd/
 #: (content/relay-operations/technical-setup/bridge/openbsd/contents+en.lrpage.body)
 msgid "Nickname PickANickname"
-msgstr ""
+msgstr "Nickname PickANickname"
 
 #: https//community.torproject.org/relay/setup/bridge/netbsd/
 #: (content/relay-operations/technical-setup/bridge/netbsd/contents+en.lrpage.body)
 msgid "Log notice syslog"
-msgstr ""
+msgstr "Log notice syslog"
 
 #: https//community.torproject.org/relay/setup/bridge/netbsd/
 #: (content/relay-operations/technical-setup/bridge/netbsd/contents+en.lrpage.body)
@@ -9788,6 +9793,8 @@ msgid ""
 "Don't forget to change the `ORPort`, `ServerTransportListenAddr`, "
 "`ContactInfo`, and `Nickname` options."
 msgstr ""
+"Nu uitați să schimbați opțiunile `ORPort`,` ServerTransportListenAddr`, "
+"`ContactInfo` și` Nickname`."
 
 #: https//community.torproject.org/relay/setup/bridge/netbsd/
 #: (content/relay-operations/technical-setup/bridge/netbsd/contents+en.lrpage.body)
@@ -9799,6 +9806,11 @@ msgid ""
 "You can use [our reachability test](https://bridges.torproject.org/scan/) to"
 " see if your obfs4 port is reachable from the Internet."
 msgstr ""
+"* Rețineți că atât portul OR Tor, cât și portul său obfs4 trebuie să fie "
+"accesibile. Dacă puntea dvs. se află în spatele unui firewall sau NAT, "
+"asigurați-vă că deschideți / înaintați ambele porturi. Puteți utiliza "
+"[testul nostru de accesibilitate] (https://bridges.torproject.org/scan/) "
+"pentru a vedea dacă portul dvs. obfs4 este accesibil de pe Internet."
 
 #: https//community.torproject.org/relay/setup/bridge/netbsd/
 #: (content/relay-operations/technical-setup/bridge/netbsd/contents+en.lrpage.body)
@@ -9807,39 +9819,42 @@ msgid ""
 "talk to `tor` over the loopback interface - do not forget to whitelist the "
 "**ExtORPort**."
 msgstr ""
+"* Firewall-ul dvs. este NetBSD? Dacă da, asigurați-vă că `obfs4proxy` poate "
+"comunica cu` tor` prin interfața loopback - nu uitați să adăugați ** "
+"ExtORPort ** la lista albă - whitelist."
 
 #: https//community.torproject.org/relay/setup/bridge/netbsd/
 #: (content/relay-operations/technical-setup/bridge/netbsd/contents+en.lrpage.body)
 msgid "### 3. Start `tor`:"
-msgstr ""
+msgstr "### 3. Pornire `tor`:"
 
 #: https//community.torproject.org/relay/setup/bridge/netbsd/
 #: (content/relay-operations/technical-setup/bridge/netbsd/contents+en.lrpage.body)
 #: https//community.torproject.org/relay/setup/guard/netbsd/
 #: (content/relay-operations/technical-setup/guard/netbsd/contents+en.lrpage.body)
 msgid "ln -sf /usr/pkg/share/examples/rc.d/tor /etc/rc.d/tor"
-msgstr ""
+msgstr "ln -sf /usr/pkg/share/examples/rc.d/tor /etc/rc.d/tor"
 
 #: https//community.torproject.org/relay/setup/bridge/netbsd/
 #: (content/relay-operations/technical-setup/bridge/netbsd/contents+en.lrpage.body)
 #: https//community.torproject.org/relay/setup/guard/netbsd/
 #: (content/relay-operations/technical-setup/guard/netbsd/contents+en.lrpage.body)
 msgid "echo \"tor=YES\" >> /etc/rc.conf"
-msgstr ""
+msgstr "echo \"tor=YES\" >> /etc/rc.conf"
 
 #: https//community.torproject.org/relay/setup/bridge/netbsd/
 #: (content/relay-operations/technical-setup/bridge/netbsd/contents+en.lrpage.body)
 #: https//community.torproject.org/relay/setup/guard/netbsd/
 #: (content/relay-operations/technical-setup/guard/netbsd/contents+en.lrpage.body)
 msgid "/etc/rc.d/tor start"
-msgstr ""
+msgstr "/etc/rc.d/tor start"
 
 #: https//community.torproject.org/relay/setup/bridge/netbsd/
 #: (content/relay-operations/technical-setup/bridge/netbsd/contents+en.lrpage.body)
 #: https//community.torproject.org/relay/setup/bridge/docker/
 #: (content/relay-operations/technical-setup/bridge/docker/contents+en.lrpage.body)
 msgid "### 4. Monitor your logs"
-msgstr ""
+msgstr "### 4. Monitorizați-vă jurnalele"
 
 #: https//community.torproject.org/relay/setup/bridge/netbsd/
 #: (content/relay-operations/technical-setup/bridge/netbsd/contents+en.lrpage.body)
@@ -9851,11 +9866,13 @@ msgid ""
 "To confirm your bridge is running with no issues, you should see something "
 "like this:"
 msgstr ""
+"Pentru a confirma că puntea dvs. funcționează fără probleme, ar trebui să "
+"vedeți ceva de genul:"
 
 #: https//community.torproject.org/relay/setup/bridge/netbsd/
 #: (content/relay-operations/technical-setup/bridge/netbsd/contents+en.lrpage.body)
 msgid "tail /var/log/messages"
-msgstr ""
+msgstr "tail /var/log/messages"
 
 #: https//community.torproject.org/relay/setup/bridge/netbsd/
 #: (content/relay-operations/technical-setup/bridge/netbsd/contents+en.lrpage.body)
@@ -9875,6 +9892,8 @@ msgid ""
 "[notice] Your Tor server's identity key fingerprint is '<NICKNAME> "
 "<FINGERPRINT>'"
 msgstr ""
+"[notificare] Amprenta cheii - fingerprint - a identității serverului dvs. "
+"Tor este '<NICKNAME> <FINGERPRINT>'"
 
 #: https//community.torproject.org/relay/setup/bridge/netbsd/
 #: (content/relay-operations/technical-setup/bridge/netbsd/contents+en.lrpage.body)
