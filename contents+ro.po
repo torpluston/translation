@@ -9892,8 +9892,8 @@ msgid ""
 "[notice] Your Tor server's identity key fingerprint is '<NICKNAME> "
 "<FINGERPRINT>'"
 msgstr ""
-"[notificare] Amprenta cheii - fingerprint - a identității serverului dvs. "
-"Tor este '<NICKNAME> <FINGERPRINT>'"
+"[notice] Amprenta cheie - fingerprint - a identității serverului dvs. Tor "
+"este '<NICKNAME> <FINGERPRINT>'"
 
 #: https//community.torproject.org/relay/setup/bridge/netbsd/
 #: (content/relay-operations/technical-setup/bridge/netbsd/contents+en.lrpage.body)
@@ -9913,6 +9913,8 @@ msgid ""
 "[notice] Your Tor bridge's hashed identity key fingerprint is '<NICKNAME> "
 "<HASHED FINGERPRINT>'"
 msgstr ""
+"[notice] Amprenta cheie a identității hash a punții dvs. Tor este "
+"'<NICKNAME> <HASHED FINGERPRINT>'"
 
 #: https//community.torproject.org/relay/setup/bridge/netbsd/
 #: (content/relay-operations/technical-setup/bridge/netbsd/contents+en.lrpage.body)
@@ -9929,7 +9931,7 @@ msgstr ""
 #: https//community.torproject.org/relay/setup/bridge/openbsd/
 #: (content/relay-operations/technical-setup/bridge/openbsd/contents+en.lrpage.body)
 msgid "[notice] Registered server transport 'obfs4' at '[::]:46396'"
-msgstr ""
+msgstr "[notice] Transport înregistrat pe server 'obfs4' la '[::]:46396'"
 
 #: https//community.torproject.org/relay/setup/bridge/netbsd/
 #: (content/relay-operations/technical-setup/bridge/netbsd/contents+en.lrpage.body)
@@ -9949,6 +9951,8 @@ msgid ""
 "[notice] Tor has successfully opened a circuit. Looks like client "
 "functionality is working."
 msgstr ""
+"[notice] Tor a deschis un circuit cu succes. Se pare că funcționalitatea "
+"clientului este în regulă."
 
 #: https//community.torproject.org/relay/setup/bridge/netbsd/
 #: (content/relay-operations/technical-setup/bridge/netbsd/contents+en.lrpage.body)
@@ -9965,7 +9969,7 @@ msgstr ""
 #: https//community.torproject.org/relay/setup/bridge/openbsd/
 #: (content/relay-operations/technical-setup/bridge/openbsd/contents+en.lrpage.body)
 msgid "[notice] Bootstrapped 100%: Done"
-msgstr ""
+msgstr "[notice] Bootstrapped 100%: Done"
 
 #: https//community.torproject.org/relay/setup/bridge/netbsd/
 #: (content/relay-operations/technical-setup/bridge/netbsd/contents+en.lrpage.body)
@@ -9985,6 +9989,8 @@ msgid ""
 "[notice] Now checking whether ORPort <redacted>:3818 is reachable... (this "
 "may take up to 20 minutes -- look for log messages indicating success)"
 msgstr ""
+"[notice] Verificați dacă ORPort <redacted>:3818 este accesibil ... (poate "
+"dura până la 20 de minute - căutați mesaje de jurnal care indică succesul)"
 
 #: https//community.torproject.org/relay/setup/bridge/netbsd/
 #: (content/relay-operations/technical-setup/bridge/netbsd/contents+en.lrpage.body)
@@ -10004,11 +10010,13 @@ msgid ""
 "[notice] Self-testing indicates your ORPort is reachable from the outside. "
 "Excellent. Publishing server descriptor."
 msgstr ""
+"[notice] Auto-testarea indică faptul că ORPort-ul dvs. este accesibil din "
+"exterior. Excelent. Se publică descriptorul serverului."
 
 #: https//community.torproject.org/relay/setup/bridge/netbsd/
 #: (content/relay-operations/technical-setup/bridge/netbsd/contents+en.lrpage.body)
 msgid "### 5. Final Notes"
-msgstr ""
+msgstr "### 5. Note finale"
 
 #: https//community.torproject.org/relay/setup/bridge/netbsd/
 #: (content/relay-operations/technical-setup/bridge/netbsd/contents+en.lrpage.body)
@@ -10020,21 +10028,27 @@ msgid ""
 "bridge is now running, check out the [post-install "
 "notes](https://community.torproject.org/relay/setup/bridge/post-install/)."
 msgstr ""
+"Dacă aveți probleme la configurarea punții dvs., consultați [secțiunea "
+"noastră de ajutor] (https://community.torproject.org/relay/getting-help/). "
+"Dacă puntea dvs. este acum în funcțiune, consultați [notele post-instalare] "
+"(https://community.torproject.org/relay/setup/bridge/post-install/)."
 
 #: https//community.torproject.org/relay/setup/bridge/post-install/
 #: (content/relay-operations/technical-setup/bridge/post-install/contents+en.lrpage.title)
 msgid "Post-install"
-msgstr ""
+msgstr "Post-instalare"
 
 #: https//community.torproject.org/relay/setup/bridge/post-install/
 #: (content/relay-operations/technical-setup/bridge/post-install/contents+en.lrpage.subtitle)
 msgid "How to find your bridge in Relay Search and connect manually"
 msgstr ""
+"Cum puteți găsi puntea în Relay Search - căutarea releului - și conectarea "
+"manuală"
 
 #: https//community.torproject.org/relay/setup/bridge/post-install/
 #: (content/relay-operations/technical-setup/bridge/post-install/contents+en.lrpage.body)
 msgid "Congrats!"
-msgstr ""
+msgstr "Felicitări!"
 
 #: https//community.torproject.org/relay/setup/bridge/post-install/
 #: (content/relay-operations/technical-setup/bridge/post-install/contents+en.lrpage.body)
@@ -10048,6 +10062,16 @@ msgid ""
 "bridge sees users. Finally, there aren't many bridge users out there, so you"
 " cannot expect your bridge to be as popular as a relay."
 msgstr ""
+"Dacă ajungeți la acest punct, înseamnă că puntea dvs. obfs4 este în "
+"funcțiune și este distribuită de BridgeDB către utilizatorii cenzurați. "
+"Rețineți că poate dura câteva zile sau săptămâni până când vedeți un set "
+"consistent de utilizatori, deci nu vă descurajați dacă nu vedeți imediat "
+"conexiunile utilizatorilor. BridgeDB folosește patru containere pentru "
+"distribuția podului: HTTPS, Moat, Email și manual. Unele containere sunt "
+"utilizate mai mult decât altele, ceea ce afectează, de asemenea, timpul până"
+" când puntea vă vede utilizatorii. În cele din urmă, nu există mulți "
+"utilizatori de punți, așa că nu vă puteți aștepta ca puntea dvs. să fie la "
+"fel de populară ca și un releu."
 
 #: https//community.torproject.org/relay/setup/bridge/post-install/
 #: (content/relay-operations/technical-setup/bridge/post-install/contents+en.lrpage.body)
@@ -10057,12 +10081,17 @@ msgid ""
 "`/var/lib/tor/pt_state/obfs4_bridgeline.txt` and paste the entire bridge "
 "line into Tor Browser:"
 msgstr ""
+"Dacă doriți să vă conectați manual la punte, va trebui să cunoașteți "
+"certificatul obfs4 al podului. Deschideți fișierul "
+"`/var/lib/tor/pt_state/obfs4_bridgeline.txt` și lipiți întreaga linie pentru"
+" punte în Tor Browser:"
 
 #: https//community.torproject.org/relay/setup/bridge/post-install/
 #: (content/relay-operations/technical-setup/bridge/post-install/contents+en.lrpage.body)
 msgid ""
 "Bridge obfs4 <IP ADDRESS>:<PORT> <FINGERPRINT> cert=<CERTIFICATE> iat-mode=0"
 msgstr ""
+"Bridge obfs4 <IP ADDRESS>:<PORT> <FINGERPRINT> cert=<CERTIFICATE> iat-mode=0"
 
 #: https//community.torproject.org/relay/setup/bridge/post-install/
 #: (content/relay-operations/technical-setup/bridge/post-install/contents+en.lrpage.body)
@@ -10072,6 +10101,10 @@ msgid ""
 "`<FINGERPRINT>`, not `<HASHED FINGERPRINT>`; and that `<PORT>` is the obfs4 "
 "port you chose - and not the OR port."
 msgstr ""
+"Va trebui să înlocuiți `<IP ADDRESS>`, `<PORT>` și `<FINGERPRINT>` cu "
+"valorile actuale, pe care le puteți găsi în jurnalul tor. Asigurați-vă că "
+"folosiți `<FINGERPRINT>`, nu `<HASHED FINGERPRINT>`; și că `<PORT>` este "
+"portul obfs4 pe care l-ați ales - și nu portul OR."
 
 #: https//community.torproject.org/relay/setup/bridge/post-install/
 #: (content/relay-operations/technical-setup/bridge/post-install/contents+en.lrpage.body)
@@ -10082,21 +10115,26 @@ msgid ""
 "having set up the bridge, it takes approximately three hours for the bridge "
 "to show up in Relay Search."
 msgstr ""
+"În cele din urmă, puteți monitoriza modul de utilizare a podului dvs. obfs4 "
+"pe [Relay Search] (https://metrics.torproject.org/rs.html#search). "
+"Introduceți puntea dvs. `<HASHED FINGERPRINT>` în formular și faceți clic pe"
+" „Căutare” - Search. După instalarea podului, este nevoie de aproximativ "
+"trei ore pentru ca podul să apară în căutarea releului - Relay Search."
 
 #: https//community.torproject.org/relay/setup/bridge/debian-ubuntu/
 #: (content/relay-operations/technical-setup/bridge/debian-ubuntu/contents+en.lrpage.title)
 msgid "Debian / Ubuntu"
-msgstr ""
+msgstr "Debian / Ubuntu"
 
 #: https//community.torproject.org/relay/setup/bridge/debian-ubuntu/
 #: (content/relay-operations/technical-setup/bridge/debian-ubuntu/contents+en.lrpage.subtitle)
 msgid "How to deploy an obfs4 bridge on Debian / Ubuntu"
-msgstr ""
+msgstr "Cum să implementați o punte obfs4 pe Debian / Ubuntu"
 
 #: https//community.torproject.org/relay/setup/bridge/debian-ubuntu/
 #: (content/relay-operations/technical-setup/bridge/debian-ubuntu/contents+en.lrpage.body)
 msgid "### 1. Install Tor"
-msgstr ""
+msgstr "### 1. Instalați Tor"
 
 #: https//community.torproject.org/relay/setup/bridge/debian-ubuntu/
 #: (content/relay-operations/technical-setup/bridge/debian-ubuntu/contents+en.lrpage.body)
@@ -10104,6 +10142,9 @@ msgid ""
 "Get the latest version of Tor. If you're on Debian stable, `sudo apt-get "
 "install tor` should give you the latest stable version of Tor."
 msgstr ""
+"Obțineți cea mai recentă versiune de Tor. Dacă sunteți pe Debian stabil, "
+"`sudo apt-get install tor` ar trebui să vă ofere cea mai recentă versiune "
+"stabilă a lui Tor."
 
 #: https//community.torproject.org/relay/setup/bridge/debian-ubuntu/
 #: (content/relay-operations/technical-setup/bridge/debian-ubuntu/contents+en.lrpage.body)
@@ -10112,11 +10153,14 @@ msgid ""
 "[Download instructions for Ubuntu](https://support.torproject.org/apt/tor-"
 "deb-repo/)."
 msgstr ""
+"* Notă: ** Utilizatorii Ubuntu trebuie să-l obțină din depozitul Tor. Vă "
+"rugăm să consultați ** [Instrucțiuni de descărcare pentru Ubuntu] "
+"(https://support.torproject.org/apt/tor-deb-repo/)."
 
 #: https//community.torproject.org/relay/setup/bridge/debian-ubuntu/
 #: (content/relay-operations/technical-setup/bridge/debian-ubuntu/contents+en.lrpage.body)
 msgid "### 2. Install obfs4proxy"
-msgstr ""
+msgstr "### 2. Instalați obfs4proxy"
 
 #: https//community.torproject.org/relay/setup/bridge/debian-ubuntu/
 #: (content/relay-operations/technical-setup/bridge/debian-ubuntu/contents+en.lrpage.body)
@@ -10124,6 +10168,9 @@ msgid ""
 "On [Debian](https://packages.debian.org/search?keywords=obfs4proxy), the "
 "`obfs4proxy` package is available in unstable, testing, and stable."
 msgstr ""
+"Pe [Debian](https://packages.debian.org/search?keywords=obfs4proxy), "
+"pachetul `obfs4proxy` este disponibil în modurile instabil, testare și "
+"stabil."
 
 #: https//community.torproject.org/relay/setup/bridge/debian-ubuntu/
 #: (content/relay-operations/technical-setup/bridge/debian-ubuntu/contents+en.lrpage.body)
@@ -10131,6 +10178,8 @@ msgid ""
 "On [Ubuntu](https://packages.ubuntu.com/search?keywords=obfs4proxy), bionic,"
 " cosmic, disco, and eoan have the package."
 msgstr ""
+"Pe [Ubuntu](https://packages.ubuntu.com/search?keywords=obfs4proxy), bionic,"
+" cosmic, disco și eoan pachetul este disponibil."
 
 #: https//community.torproject.org/relay/setup/bridge/debian-ubuntu/
 #: (content/relay-operations/technical-setup/bridge/debian-ubuntu/contents+en.lrpage.body)
@@ -10138,6 +10187,8 @@ msgid ""
 "If you're running any of them, `sudo apt-get install obfs4proxy` should "
 "work."
 msgstr ""
+"Dacă rulați oricare dintre acestea, `sudo apt-get install obfs4proxy` ar "
+"trebui să funcționeze."
 
 #: https//community.torproject.org/relay/setup/bridge/debian-ubuntu/
 #: (content/relay-operations/technical-setup/bridge/debian-ubuntu/contents+en.lrpage.body)
@@ -10145,6 +10196,8 @@ msgid ""
 "If not, you can [build it from "
 "source](https://gitlab.com/yawning/obfs4#installation)."
 msgstr ""
+"Dacă nu, îl puteți [construi folosind "
+"sursa](https://gitlab.com/yawning/obfs4#installation)."
 
 #: https//community.torproject.org/relay/setup/bridge/debian-ubuntu/
 #: (content/relay-operations/technical-setup/bridge/debian-ubuntu/contents+en.lrpage.body)
@@ -10156,16 +10209,18 @@ msgid ""
 "### 3. Edit your Tor config file, usually located at `/etc/tor/torrc` and "
 "replace its content with:"
 msgstr ""
+"### 3. Editați fișierul dvs. de configurare Tor, localizat de obicei în "
+"`/etc/tor/torrc` și înlocuiți conținutul său cu:"
 
 #: https//community.torproject.org/relay/setup/bridge/debian-ubuntu/
 #: (content/relay-operations/technical-setup/bridge/debian-ubuntu/contents+en.lrpage.body)
 msgid "# Replace \"TODO1\" with a Tor port of your choice."
-msgstr ""
+msgstr "# Înlocuiți \"TODO1\" cu un port Tor la alegere."
 
 #: https//community.torproject.org/relay/setup/bridge/debian-ubuntu/
 #: (content/relay-operations/technical-setup/bridge/debian-ubuntu/contents+en.lrpage.body)
 msgid "# This port must be externally reachable."
-msgstr ""
+msgstr "# Acest port trebuie să poată fi accesat extern."
 
 #: https//community.torproject.org/relay/setup/bridge/debian-ubuntu/
 #: (content/relay-operations/technical-setup/bridge/debian-ubuntu/contents+en.lrpage.body)
@@ -10173,16 +10228,18 @@ msgid ""
 "# Avoid port 9001 because it's commonly associated with Tor and censors may "
 "be scanning the Internet for this port."
 msgstr ""
+"# Evitați portul 9001, deoarece este asociat în mod obișnuit cu Tor și "
+"cenzorii pot scana pe Internet pentru acest port."
 
 #: https//community.torproject.org/relay/setup/bridge/debian-ubuntu/
 #: (content/relay-operations/technical-setup/bridge/debian-ubuntu/contents+en.lrpage.body)
 msgid "ServerTransportPlugin obfs4 exec /usr/bin/obfs4proxy"
-msgstr ""
+msgstr "ServerTransportPlugin obfs4 exec /usr/bin/obfs4proxy"
 
 #: https//community.torproject.org/relay/setup/bridge/debian-ubuntu/
 #: (content/relay-operations/technical-setup/bridge/debian-ubuntu/contents+en.lrpage.body)
 msgid "# Replace \"TODO2\" with an obfs4 port of your choice."
-msgstr ""
+msgstr "# Înlocuiți \"TODO2\" cu un port obfs4 la alegere."
 
 #: https//community.torproject.org/relay/setup/bridge/debian-ubuntu/
 #: (content/relay-operations/technical-setup/bridge/debian-ubuntu/contents+en.lrpage.body)
@@ -10190,6 +10247,8 @@ msgid ""
 "# This port must be externally reachable and must be different from the one "
 "specified for ORPort."
 msgstr ""
+"# Acest port trebuie să fie accesibil extern și trebuie să fie diferit de "
+"cel specificat pentru ORPort."
 
 #: https//community.torproject.org/relay/setup/bridge/debian-ubuntu/
 #: (content/relay-operations/technical-setup/bridge/debian-ubuntu/contents+en.lrpage.body)
@@ -10197,6 +10256,8 @@ msgid ""
 "# \"Ext\" means \"extended\", not \"external\".  Don't try to set a specific"
 " port number, nor listen on 0.0.0.0."
 msgstr ""
+"# \"Ext\" înseamnă \"extins\", nu \"extern\". Nu încercați să setați un "
+"număr de port specific și nici să ascultați la 0.0.0.0."
 
 #: https//community.torproject.org/relay/setup/bridge/debian-ubuntu/
 #: (content/relay-operations/technical-setup/bridge/debian-ubuntu/contents+en.lrpage.body)
@@ -10204,11 +10265,13 @@ msgid ""
 "# Replace \"<address@email.com>\" with your email address so we can contact "
 "you if there are problems with your bridge."
 msgstr ""
+"# Înlocuiți \"<address@email.com>\" cu adresa dvs. de e-mail, astfel încât "
+"să vă putem contacta dacă există probleme cu puntea dvs."
 
 #: https//community.torproject.org/relay/setup/bridge/debian-ubuntu/
 #: (content/relay-operations/technical-setup/bridge/debian-ubuntu/contents+en.lrpage.body)
 msgid "# This is optional but encouraged."
-msgstr ""
+msgstr "# Aceasta lucru este opțional, dar încurajată."
 
 #: https//community.torproject.org/relay/setup/bridge/debian-ubuntu/
 #: (content/relay-operations/technical-setup/bridge/debian-ubuntu/contents+en.lrpage.body)
@@ -10217,22 +10280,29 @@ msgid ""
 "or 443), you will need to give obfs4 `CAP_NET_BIND_SERVICE` capabilities to "
 "bind the port with a non-root user:"
 msgstr ""
+"* Dacă decideți să utilizați un port obfs4 fix mai mic decât 1024 (de "
+"exemplu 80 sau 443), va trebui să acordați funcții obfs4 "
+"`CAP_NET_BIND_SERVICE` pentru a lega portul cu un utilizator non-root:"
 
 #: https//community.torproject.org/relay/setup/bridge/debian-ubuntu/
 #: (content/relay-operations/technical-setup/bridge/debian-ubuntu/contents+en.lrpage.body)
 msgid "`sudo setcap cap_net_bind_service=+ep /usr/bin/obfs4proxy`"
-msgstr ""
+msgstr "`sudo setcap cap_net_bind_service=+ep /usr/bin/obfs4proxy`"
 
 #: https//community.torproject.org/relay/setup/bridge/debian-ubuntu/
 #: (content/relay-operations/technical-setup/bridge/debian-ubuntu/contents+en.lrpage.body)
 msgid "* Note that both Tor's OR port and its obfs4 port must be reachable."
 msgstr ""
+"* Rețineți că atât portul OR Tor, cât și portul său obfs4 trebuie să fie "
+"accesibile."
 
 #: https//community.torproject.org/relay/setup/bridge/debian-ubuntu/
 #: (content/relay-operations/technical-setup/bridge/debian-ubuntu/contents+en.lrpage.body)
 msgid ""
 "If your bridge is behind a firewall or NAT, make sure to open both ports."
 msgstr ""
+"Dacă podul dvs. se află în spatele unui firewall sau NAT, asigurați-vă că "
+"deschideți ambele porturi."
 
 #: https//community.torproject.org/relay/setup/bridge/debian-ubuntu/
 #: (content/relay-operations/technical-setup/bridge/debian-ubuntu/contents+en.lrpage.body)
@@ -10240,6 +10310,9 @@ msgid ""
 "You can use [our reachability test](https://bridges.torproject.org/scan/) to"
 " see if your obfs4 port is reachable from the Internet."
 msgstr ""
+"Puteți utiliza [testul nostru de accesibilitate] "
+"(https://bridges.torproject.org/scan/) pentru a vedea dacă portul dvs. obfs4"
+" este accesibil de pe Internet."
 
 #: https//community.torproject.org/relay/setup/bridge/debian-ubuntu/
 #: (content/relay-operations/technical-setup/bridge/debian-ubuntu/contents+en.lrpage.body)
@@ -10249,6 +10322,11 @@ msgid ""
 "`/lib/systemd/system/tor@.service` and then run `systemctl daemon-reload`. "
 "(see [bug #18356](https://trac.torproject.org/projects/tor/ticket/18356))"
 msgstr ""
+"De asemenea, va trebui să setați `NoNewPrivileges=no` "
+"în`/lib/systemd/system/tor@default.service` și "
+"`/lib/systemd/system/tor@.service` și apoi să rulați `systemctl daemon-"
+"reload`. (a se vedea [bug # 18356] "
+"(https://trac.torproject.org/projects/tor/ticket/18356))"
 
 #: https//community.torproject.org/relay/setup/bridge/debian-ubuntu/
 #: (content/relay-operations/technical-setup/bridge/debian-ubuntu/contents+en.lrpage.body)
@@ -10257,14 +10335,14 @@ msgstr ""
 #: https//community.torproject.org/relay/setup/bridge/fedora/
 #: (content/relay-operations/technical-setup/bridge/fedora/contents+en.lrpage.body)
 msgid "### 4. Restart tor"
-msgstr ""
+msgstr "### 4. Reporniți tor"
 
 #: https//community.torproject.org/relay/setup/bridge/debian-ubuntu/
 #: (content/relay-operations/technical-setup/bridge/debian-ubuntu/contents+en.lrpage.body)
 #: https//community.torproject.org/relay/setup/bridge/centos-rhel-opensuse/
 #: (content/relay-operations/technical-setup/bridge/centos-rhel-opensuse/contents+en.lrpage.body)
 msgid "`systemctl restart tor`"
-msgstr ""
+msgstr "`systemctl restart tor`"
 
 #: https//community.torproject.org/relay/setup/bridge/debian-ubuntu/
 #: (content/relay-operations/technical-setup/bridge/debian-ubuntu/contents+en.lrpage.body)
@@ -10275,7 +10353,7 @@ msgstr ""
 #: https//community.torproject.org/relay/setup/bridge/openbsd/
 #: (content/relay-operations/technical-setup/bridge/openbsd/contents+en.lrpage.body)
 msgid "### 5. Monitor your logs"
-msgstr ""
+msgstr "### 5. Monitorizați-vă jurnalele"
 
 #: https//community.torproject.org/relay/setup/bridge/debian-ubuntu/
 #: (content/relay-operations/technical-setup/bridge/debian-ubuntu/contents+en.lrpage.body)
