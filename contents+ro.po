@@ -12036,6 +12036,9 @@ msgid ""
 "updates - so here we also need an extra package to help us out "
 "(ca_root_nss)."
 msgstr ""
+"Un pas suplimentar este să preferăm să folosim HTTPS pentru a obține "
+"pachetele și actualizările noastre - așa că aici avem nevoie și de un pachet"
+" suplimentar care să ne ajute (ca_root_nss)."
 
 #: https//community.torproject.org/relay/setup/guard/freebsd/
 #: (content/relay-operations/technical-setup/guard/freebsd/contents+en.lrpage.body)
@@ -12045,11 +12048,15 @@ msgid ""
 "configuration file to override what we need. This configuration file will be"
 " `/usr/local/etc/pkg/repos/FreeBSD.conf`."
 msgstr ""
+"Păstrăm configurarea inițială folosită de `pkg`, dar setăm și una nouă care "
+"o va suprascrie, deci creăm un nou director și creăm un fișier de "
+"configurație pentru a suprascrie și a folosi ceea ce avem nevoie. Acest "
+"fișier de configurare va fi `/usr/local/etc/pkg/repos/FreeBSD.conf`."
 
 #: https//community.torproject.org/relay/setup/guard/freebsd/
 #: (content/relay-operations/technical-setup/guard/freebsd/contents+en.lrpage.body)
 msgid "Creating the new directory:"
-msgstr ""
+msgstr "Crearea noului director:"
 
 #: https//community.torproject.org/relay/setup/guard/freebsd/
 #: (content/relay-operations/technical-setup/guard/freebsd/contents+en.lrpage.body)
@@ -12057,51 +12064,53 @@ msgid ""
 "This is how the new configuration file "
 "`/usr/local/etc/pkg/repos/FreeBSD.conf` must look like:"
 msgstr ""
+"Așa ar trebui să arate noul fișier de configurare "
+"`/usr/local/etc/pkg/repos/FreeBSD.conf`:"
 
 #: https//community.torproject.org/relay/setup/guard/freebsd/
 #: (content/relay-operations/technical-setup/guard/freebsd/contents+en.lrpage.body)
 msgid "FreeBSD: {"
-msgstr ""
+msgstr "FreeBSD: {"
 
 #: https//community.torproject.org/relay/setup/guard/freebsd/
 #: (content/relay-operations/technical-setup/guard/freebsd/contents+en.lrpage.body)
 msgid "url: pkg+https://pkg.freebsd.org/${ABI}/latest"
-msgstr ""
+msgstr "url: pkg+https://pkg.freebsd.org/${ABI}/latest"
 
 #: https//community.torproject.org/relay/setup/guard/freebsd/
 #: (content/relay-operations/technical-setup/guard/freebsd/contents+en.lrpage.body)
 msgid "# 3. Install `tor` FreeBSD's Package"
-msgstr ""
+msgstr "# 3. Instalați pachetul `tor` - FreeBSD's Package"
 
 #: https//community.torproject.org/relay/setup/guard/freebsd/
 #: (content/relay-operations/technical-setup/guard/freebsd/contents+en.lrpage.body)
 msgid "# 4. Configure `/usr/local/etc/tor/torrc`"
-msgstr ""
+msgstr "# 4. Configurați `/usr/local/etc/tor/torrc`"
 
 #: https//community.torproject.org/relay/setup/guard/freebsd/
 #: (content/relay-operations/technical-setup/guard/freebsd/contents+en.lrpage.body)
 msgid "# 5. Ensure `net.inet.ip.random_id` is enabled:"
-msgstr ""
+msgstr "# 5. Asigurați-vă că este activat `net.inet.ip.random_id`:"
 
 #: https//community.torproject.org/relay/setup/guard/freebsd/
 #: (content/relay-operations/technical-setup/guard/freebsd/contents+en.lrpage.body)
 msgid "sysrc tor_setuid=YES"
-msgstr ""
+msgstr "sysrc tor_setuid=YES"
 
 #: https//community.torproject.org/relay/setup/guard/freebsd/
 #: (content/relay-operations/technical-setup/guard/freebsd/contents+en.lrpage.body)
 msgid "# 7. Final Notes"
-msgstr ""
+msgstr "# 7. Note finale"
 
 #: https//community.torproject.org/relay/setup/guard/openbsd/
 #: (content/relay-operations/technical-setup/guard/openbsd/contents+en.lrpage.subtitle)
 msgid "How to deploy a Middle/Guard relay on OpenBSD"
-msgstr ""
+msgstr "Cum să implementați un releu Middle/Guard pe OpenBSD"
 
 #: https//community.torproject.org/relay/setup/guard/openbsd/
 #: (content/relay-operations/technical-setup/guard/openbsd/contents+en.lrpage.body)
 msgid "# 1. Install `tor` OpenBSD's Package"
-msgstr ""
+msgstr "# 1. Instalați pachetul `tor` OpenBSD's Package"
 
 #: https//community.torproject.org/relay/setup/guard/openbsd/
 #: (content/relay-operations/technical-setup/guard/openbsd/contents+en.lrpage.body)
@@ -12109,6 +12118,9 @@ msgid ""
 "Recent OpenBSD systems, like 6.5/amd64, already have the repository "
 "configured on `/etc/installurl` so we do not need to bother changing it."
 msgstr ""
+"Sistemele OpenBSD recente, cum ar fi 6.5/amd64, au deja configurat depozitul"
+" pe `/etc/installurl`, astfel încât nu trebuie să ne deranjăm să îl "
+"schimbăm."
 
 #: https//community.torproject.org/relay/setup/guard/openbsd/
 #: (content/relay-operations/technical-setup/guard/openbsd/contents+en.lrpage.body)
@@ -12116,21 +12128,23 @@ msgid ""
 "Should that's not your case, please adjust the `installurl` configuration "
 "file like this:"
 msgstr ""
+"Atunci când  nu este cazul dvs., vă rugăm să ajustați fișierul de "
+"configurare `installurl` astfel:"
 
 #: https//community.torproject.org/relay/setup/guard/openbsd/
 #: (content/relay-operations/technical-setup/guard/openbsd/contents+en.lrpage.body)
 msgid "echo \"https://cdn.openbsd.org/pub/OpenBSD\" > /etc/installurl"
-msgstr ""
+msgstr "echo \"https://cdn.openbsd.org/pub/OpenBSD\" > /etc/installurl"
 
 #: https//community.torproject.org/relay/setup/guard/openbsd/
 #: (content/relay-operations/technical-setup/guard/openbsd/contents+en.lrpage.body)
 msgid "Proceed with `pkg_add` to install the package:"
-msgstr ""
+msgstr "Continuați cu `pkg_add` pentru a instala pachetul:"
 
 #: https//community.torproject.org/relay/setup/guard/openbsd/
 #: (content/relay-operations/technical-setup/guard/openbsd/contents+en.lrpage.body)
 msgid "### 2.1. Recommended Steps to Install `tor` on OpenBSD"
-msgstr ""
+msgstr "### 2.1. Pași recomandabili pentru instalarea `tor` pe OpenBSD"
 
 #: https//community.torproject.org/relay/setup/guard/openbsd/
 #: (content/relay-operations/technical-setup/guard/openbsd/contents+en.lrpage.body)
@@ -12138,11 +12152,13 @@ msgid ""
 "If you want to install a newer version of the `tor` OpenBSD's package, you "
 "can use M:Tier's binary packages:"
 msgstr ""
+"Dacă doriți să instalați o versiune mai recentă a pachetului OpenSD `tor`, "
+"puteți utiliza pachetele binare M:Tier:"
 
 #: https//community.torproject.org/relay/setup/guard/openbsd/
 #: (content/relay-operations/technical-setup/guard/openbsd/contents+en.lrpage.body)
 msgid "ftp https://stable.mtier.org/openup"
-msgstr ""
+msgstr "ftp https://stable.mtier.org/openup"
 
 #: https//community.torproject.org/relay/setup/guard/openbsd/
 #: (content/relay-operations/technical-setup/guard/openbsd/contents+en.lrpage.body)
@@ -12150,31 +12166,34 @@ msgid ""
 "Right after fetching `openup` you can run it to sync M:Tier's repository and"
 " update your packages; it's an alternative to `pkg_add -u`."
 msgstr ""
+"Imediat după preluarea fișierului `openup`, îl puteți rula pentru a "
+"sincroniza depozitul M:Tier și vă puteți actualiza pachetele; aceasta este o"
+" alternativă la `pkg_add -u`."
 
 #: https//community.torproject.org/relay/setup/guard/openbsd/
 #: (content/relay-operations/technical-setup/guard/openbsd/contents+en.lrpage.body)
 msgid "Here is how you proceed with these steps:"
-msgstr ""
+msgstr "Iată cum să procedați cu acești pași:"
 
 #: https//community.torproject.org/relay/setup/guard/openbsd/
 #: (content/relay-operations/technical-setup/guard/openbsd/contents+en.lrpage.body)
 msgid "openup"
-msgstr ""
+msgstr "openup"
 
 #: https//community.torproject.org/relay/setup/guard/openbsd/
 #: (content/relay-operations/technical-setup/guard/openbsd/contents+en.lrpage.body)
 msgid "# 3. Configure `/etc/tor/torrc`"
-msgstr ""
+msgstr "# 3. Configurarea `/etc/tor/torrc`"
 
 #: https//community.torproject.org/relay/setup/guard/openbsd/
 #: (content/relay-operations/technical-setup/guard/openbsd/contents+en.lrpage.body)
 msgid "User        _tor"
-msgstr ""
+msgstr "User        _tor"
 
 #: https//community.torproject.org/relay/setup/guard/openbsd/
 #: (content/relay-operations/technical-setup/guard/openbsd/contents+en.lrpage.body)
 msgid "# 4. Change `openfiles-max` and `maxfiles` Tweaks"
-msgstr ""
+msgstr "# 4. Schimbați `openfiles-max` și `maxfiles` Tweaks"
 
 #: https//community.torproject.org/relay/setup/guard/openbsd/
 #: (content/relay-operations/technical-setup/guard/openbsd/contents+en.lrpage.body)
@@ -12184,26 +12203,30 @@ msgid ""
 "connection to each and every other relay (currently around 7000 relays), "
 "these limits should be raised."
 msgstr ""
+"În mod implicit, OpenBSD menține o limită destul de mică la numărul maxim de"
+" fișiere deschise pentru un proces. Pentru un demon, cum ar fi Tor, care "
+"deschide o conexiune la fiecare releu (în prezent, în jur de 7000 de relee),"
+" aceste limite trebuie mărite."
 
 #: https//community.torproject.org/relay/setup/guard/openbsd/
 #: (content/relay-operations/technical-setup/guard/openbsd/contents+en.lrpage.body)
 msgid "Append the following section to `/etc/login.conf`:"
-msgstr ""
+msgstr "Adăugați secțiunea următoare la `/etc/login.conf`:"
 
 #: https//community.torproject.org/relay/setup/guard/openbsd/
 #: (content/relay-operations/technical-setup/guard/openbsd/contents+en.lrpage.body)
 msgid "tor:"
-msgstr ""
+msgstr "tor:"
 
 #: https//community.torproject.org/relay/setup/guard/openbsd/
 #: (content/relay-operations/technical-setup/guard/openbsd/contents+en.lrpage.body)
 msgid ":openfiles-max=13500:"
-msgstr ""
+msgstr ":openfiles-max=13500:"
 
 #: https//community.torproject.org/relay/setup/guard/openbsd/
 #: (content/relay-operations/technical-setup/guard/openbsd/contents+en.lrpage.body)
 msgid ":tc=daemon:"
-msgstr ""
+msgstr ":tc=daemon:"
 
 #: https//community.torproject.org/relay/setup/guard/openbsd/
 #: (content/relay-operations/technical-setup/guard/openbsd/contents+en.lrpage.body)
@@ -12211,31 +12234,33 @@ msgid ""
 "OpenBSD also stores a kernel-level file descriptor limit in the sysctl "
 "variable `kern.maxfiles`."
 msgstr ""
+"OpenBSD stochează, de asemenea, o limită a descriptorului de fișiere la "
+"nivel de kernel în variabila sysctl `kern.maxfiles`."
 
 #: https//community.torproject.org/relay/setup/guard/openbsd/
 #: (content/relay-operations/technical-setup/guard/openbsd/contents+en.lrpage.body)
 msgid "Increase it from the default of 7030 to 16000:"
-msgstr ""
+msgstr "Măriți limita de la valoarea implicită de 7030 la 16000:"
 
 #: https//community.torproject.org/relay/setup/guard/openbsd/
 #: (content/relay-operations/technical-setup/guard/openbsd/contents+en.lrpage.body)
 msgid "echo \"kern.maxfiles=16000\" >> /etc/sysctl.conf"
-msgstr ""
+msgstr "echo \"kern.maxfiles=16000\" >> /etc/sysctl.conf"
 
 #: https//community.torproject.org/relay/setup/guard/openbsd/
 #: (content/relay-operations/technical-setup/guard/openbsd/contents+en.lrpage.body)
 msgid "sysctl kern.maxfiles=16000"
-msgstr ""
+msgstr "sysctl kern.maxfiles=16000"
 
 #: https//community.torproject.org/relay/community-resources/eff-tor-legal-faq/tor-dmca-response/
 #: (content/relay-operations/community-resources/eff-tor-legal-faq/tor-dmca-response/contents+en.lrpage.title)
 msgid "Response template for Tor relay operator to ISP"
-msgstr ""
+msgstr "Șablon de răspuns pentru operatorul releului Tor la ISP"
 
 #: https//community.torproject.org/relay/community-resources/eff-tor-legal-faq/tor-dmca-response/
 #: (content/relay-operations/community-resources/eff-tor-legal-faq/tor-dmca-response/contents+en.lrpage.subtitle)
 msgid "Got a DMCA notice? Check out our sample response letter!"
-msgstr ""
+msgstr "Aveți o notificare DMCA? Verificați șablonul de scrisoare de răspuns!"
 
 #: https//community.torproject.org/relay/community-resources/eff-tor-legal-faq/tor-dmca-response/
 #: (content/relay-operations/community-resources/eff-tor-legal-faq/tor-dmca-response/contents+en.lrpage.body)
@@ -12243,6 +12268,8 @@ msgid ""
 "Written by the Electronic Frontier Foundation ([EFF](https://www.eff.org/))."
 " Last updated May 31, 2011."
 msgstr ""
+"Scrisă de Electronic Frontier Foundation ([EFF](https://www.eff.org/)). "
+"Ultima actualizare 31 mai 2011."
 
 #: https//community.torproject.org/relay/community-resources/eff-tor-legal-faq/tor-dmca-response/
 #: (content/relay-operations/community-resources/eff-tor-legal-faq/tor-dmca-response/contents+en.lrpage.body)
@@ -12260,6 +12287,19 @@ msgid ""
 "you may want to seek the advice of an attorney licensed to practice in your "
 "jurisdiction."
 msgstr ""
+"Notă pentru operatorii de relee Tor: în această eră litigioasă, oricine "
+"furnizează servicii de rutare se poate confrunta cu reclamații de copyright "
+"pentru conținutul transmis. Din fericire, porturile sigure ale Digital "
+"Millennium Copyright Act ar trebui să ofere protecții de la multe dintre ele"
+" atât pentru dvs. cât și pentru furnizorul dvs. din amonte - upstream. Dacă "
+"gazda dvs. de Internet vă transmite o reclamație privind drepturile de autor"
+" DMCA, puteți utiliza acest șablon pentru a scrie un răspuns, deși va trebui"
+" să-l personalizați în funcție de situația dvs. Vă rugăm, de asemenea, să vă"
+" asigurați că toate afirmațiile sunt adevărate în cazul dvs. (Proiectul Tor "
+"are o [colecție de șabloane de abuzuri] (/relay/community-resources/tor-"
+"abuse-templates/) pentru a vă ajuta să răspundeți și la alte tipuri de "
+"reclamații despre abuz.) Înainte de a trimite orice răspuns la ISP-ul dvs., "
+"poate doriți să solicitați sfatul unui avocat autorizat din jurisdicția dvs."
 
 #: https//community.torproject.org/relay/community-resources/eff-tor-legal-faq/tor-dmca-response/
 #: (content/relay-operations/community-resources/eff-tor-legal-faq/tor-dmca-response/contents+en.lrpage.body)
@@ -12273,6 +12313,14 @@ msgid ""
 "much legal explanation, feel free to invite the ISP to contact EFF for a "
 "fuller discussion."
 msgstr ""
+"Acest șablon de scrisoare are caracter informativ și nu constituie "
+"consultanță juridică. Dacă și cum trebuie să răspundeți atunci când "
+"dumneavoastră sau ISP-ul dvs. ați primit o notificare DMCA, depinde de "
+"situația dvs particulară. Acest șablon este conceput ca punct de plecare, "
+"dar ar trebui să-l adaptați la propriile circumstanțe. În plus, depinde de "
+"dvs. de a respecta condițiile de service ISP. Dacă nu vă descurcați să "
+"includeți atât de multe explicații legale, nu ezitați să invitați ISP să "
+"contacteze EFF pentru o discuție mai completă."
 
 #: https//community.torproject.org/relay/community-resources/eff-tor-legal-faq/tor-dmca-response/
 #: (content/relay-operations/community-resources/eff-tor-legal-faq/tor-dmca-response/contents+en.lrpage.body)
@@ -12284,6 +12332,12 @@ msgid ""
 "[here](https://www.chillingeffects.org/dmca512/faq.cgi#QID586) and also in "
 "the template, below."
 msgstr ""
+"Dacă nu credeți că porturile sigure se aplică situației dvs. speciale, nu "
+"utilizați acest șablon ca bază pentru răspunsul dvs. Informațiile specifice "
+"despre calificarea portului sigur pentru „comunicații digitale tranzitorii "
+"în rețea” sunt furnizate pe site-ul Chilling Effects [aici] "
+"(https://www.chillingeffects.org/dmca512/faq.cgi#QID586) și, de asemenea, în"
+" șablonul de mai jos."
 
 #: https//community.torproject.org/relay/community-resources/eff-tor-legal-faq/tor-dmca-response/
 #: (content/relay-operations/community-resources/eff-tor-legal-faq/tor-dmca-response/contents+en.lrpage.body)
