@@ -10926,7 +10926,7 @@ msgstr "..."
 #: https//community.torproject.org/relay/setup/bridge/docker/
 #: (content/relay-operations/technical-setup/bridge/docker/contents+en.lrpage.body)
 msgid "### 3. Upgrade your container"
-msgstr ""
+msgstr "### 3. Actualizați-vă containerul"
 
 #: https//community.torproject.org/relay/setup/bridge/docker/
 #: (content/relay-operations/technical-setup/bridge/docker/contents+en.lrpage.body)
@@ -10935,16 +10935,19 @@ msgid ""
 "existing container, delete it, pull the latest image, and finally deploy it "
 "again:"
 msgstr ""
+"Pentru a trece la cea mai recentă versiune a imaginii noastre, trebuie să "
+"opriți containerul existent, să îl ștergeți, să extrageți cea mai recentă "
+"imagine și să îl implementați din nou:"
 
 #: https//community.torproject.org/relay/setup/bridge/docker/
 #: (content/relay-operations/technical-setup/bridge/docker/contents+en.lrpage.body)
 msgid "docker stop CONTAINER_ID"
-msgstr ""
+msgstr "docker stop CONTAINER_ID"
 
 #: https//community.torproject.org/relay/setup/bridge/docker/
 #: (content/relay-operations/technical-setup/bridge/docker/contents+en.lrpage.body)
 msgid "docker rm CONTAINER_ID"
-msgstr ""
+msgstr "docker rm CONTAINER_ID"
 
 #: https//community.torproject.org/relay/setup/bridge/docker/
 #: (content/relay-operations/technical-setup/bridge/docker/contents+en.lrpage.body)
@@ -10953,6 +10956,10 @@ msgid ""
 "stored in a docker volume, so you won't lose your bridge's identity when "
 "upgrading to the latest docker image."
 msgstr ""
+"Rețineți că directorul de date al punții dvs. (care include materialul cheie"
+" al acestuia) este stocat într-un volum de docker, astfel încât nu veți "
+"pierde identitatea punții dvs. atunci când treceți la ultima imagine de "
+"andocare."
 
 #: https//community.torproject.org/relay/setup/bridge/docker/
 #: (content/relay-operations/technical-setup/bridge/docker/contents+en.lrpage.body)
@@ -10960,6 +10967,8 @@ msgid ""
 "If you are running multiple bridges on your computer, you need to repeat "
 "this step for each bridge."
 msgstr ""
+"Dacă executați mai multe punți pe computer, trebuie să repetați acest pas "
+"pentru fiecare punte."
 
 #: https//community.torproject.org/relay/setup/bridge/docker/
 #: (content/relay-operations/technical-setup/bridge/docker/contents+en.lrpage.body)
@@ -10968,36 +10977,40 @@ msgid ""
 "dev](https://lists.torproject.org/cgi-bin/mailman/listinfo/tor-dev) mailing "
 "list."
 msgstr ""
+"Vom anunța noile versiuni de imagine pe lista de distribuire [tor-dev] "
+"(https://lists.torproject.org/cgi-bin/mailman/listinfo/tor-dev)."
 
 #: https//community.torproject.org/relay/setup/bridge/docker/
 #: (content/relay-operations/technical-setup/bridge/docker/contents+en.lrpage.body)
 msgid "You can inspect your bridge's logs by running:"
-msgstr ""
+msgstr "Puteți inspecta jurnalele punții dvs. rulând:"
 
 #: https//community.torproject.org/relay/setup/bridge/docker/
 #: (content/relay-operations/technical-setup/bridge/docker/contents+en.lrpage.body)
 msgid "docker logs CONTAINER_ID"
-msgstr ""
+msgstr "docker logs CONTAINER_ID"
 
 #: https//community.torproject.org/relay/setup/bridge/docker/
 #: (content/relay-operations/technical-setup/bridge/docker/contents+en.lrpage.body)
 msgid "To use your new bridge in Tor Browser, you need its \"bridge line\"."
 msgstr ""
+"Pentru a utiliza noua dvs. punte în Tor Browser, aveți nevoie de \"bridge "
+"line\" - linia pe care se află puntea."
 
 #: https//community.torproject.org/relay/setup/bridge/docker/
 #: (content/relay-operations/technical-setup/bridge/docker/contents+en.lrpage.body)
 msgid "Here's how you can get your bridge line:"
-msgstr ""
+msgstr "Iată cum puteți obține linia pe care se află puntea dvs.:"
 
 #: https//community.torproject.org/relay/setup/bridge/docker/
 #: (content/relay-operations/technical-setup/bridge/docker/contents+en.lrpage.body)
 msgid "docker exec CONTAINER_ID get-bridge-line"
-msgstr ""
+msgstr "docker exec CONTAINER_ID get-bridge-line"
 
 #: https//community.torproject.org/relay/setup/bridge/docker/
 #: (content/relay-operations/technical-setup/bridge/docker/contents+en.lrpage.body)
 msgid "This will return a string similar to the following:"
-msgstr ""
+msgstr "Această comandă va întoarce un șir similar cu următorul:"
 
 #: https//community.torproject.org/relay/setup/bridge/docker/
 #: (content/relay-operations/technical-setup/bridge/docker/contents+en.lrpage.body)
@@ -11006,6 +11019,9 @@ msgid ""
 "cert=OYWq67L7MDApdJCctUAF7rX8LHvMxvIBPHOoAp0+YXzlQdsxhw6EapaMNwbbGICkpY8CPQ "
 "iat-mode=0"
 msgstr ""
+"obfs4 1.2.3.4:1234 B0E566C9031657EA7ED3FC9D248E8AC4F37635A4 "
+"cert=OYWq67L7MDApdJCctUAF7rX8LHvMxvIBPHOoAp0+YXzlQdsxhw6EapaMNwbbGICkpY8CPQ "
+"iat-mode=0"
 
 #: https//community.torproject.org/relay/setup/bridge/docker/
 #: (content/relay-operations/technical-setup/bridge/docker/contents+en.lrpage.body)
@@ -11013,6 +11029,8 @@ msgid ""
 "Make sure to check out the [post-install "
 "notes](https://community.torproject.org/relay/setup/bridge/post-install/)."
 msgstr ""
+"Asigurați-vă că consultați [notele post-instalare] "
+"(https://community.torproject.org/relay/setup/bridge/post-install/)."
 
 #: https//community.torproject.org/relay/setup/bridge/docker/
 #: (content/relay-operations/technical-setup/bridge/docker/contents+en.lrpage.body)
@@ -11020,55 +11038,57 @@ msgid ""
 "If you are having troubles setting up your bridge, have a look at [our help "
 "section](https://community.torproject.org/relay/getting-help/)."
 msgstr ""
+"Dacă aveți probleme la configurarea punții dvs., consultați [secțiunea "
+"noastră de ajutor] (https://community.torproject.org/relay/getting-help/)."
 
 #: https//community.torproject.org/relay/setup/bridge/centos-rhel-opensuse/
 #: (content/relay-operations/technical-setup/bridge/centos-rhel-opensuse/contents+en.lrpage.title)
 msgid "CentOS / RHEL / OpenSUSE"
-msgstr ""
+msgstr "CentOS / RHEL / OpenSUSE"
 
 #: https//community.torproject.org/relay/setup/bridge/centos-rhel-opensuse/
 #: (content/relay-operations/technical-setup/bridge/centos-rhel-opensuse/contents+en.lrpage.subtitle)
 msgid "How to deploy an obfs4 bridge on CentOS / RHEL / OpenSUSE"
-msgstr ""
+msgstr "Cum să implementați un pod obfs4 pe CentOS / RHEL / OpenSUSE"
 
 #: https//community.torproject.org/relay/setup/bridge/centos-rhel-opensuse/
 #: (content/relay-operations/technical-setup/bridge/centos-rhel-opensuse/contents+en.lrpage.body)
 #: https//community.torproject.org/relay/setup/bridge/fedora/
 #: (content/relay-operations/technical-setup/bridge/fedora/contents+en.lrpage.body)
 msgid "### 1. Install tor and dependencies"
-msgstr ""
+msgstr "### 1. Instalați tor și dependențele"
 
 #: https//community.torproject.org/relay/setup/bridge/centos-rhel-opensuse/
 #: (content/relay-operations/technical-setup/bridge/centos-rhel-opensuse/contents+en.lrpage.body)
 msgid "* CentOS / RHEL:"
-msgstr ""
+msgstr "* CentOS / RHEL:"
 
 #: https//community.torproject.org/relay/setup/bridge/centos-rhel-opensuse/
 #: (content/relay-operations/technical-setup/bridge/centos-rhel-opensuse/contents+en.lrpage.body)
 msgid "yum install epel-release"
-msgstr ""
+msgstr "yum install epel-release"
 
 #: https//community.torproject.org/relay/setup/bridge/centos-rhel-opensuse/
 #: (content/relay-operations/technical-setup/bridge/centos-rhel-opensuse/contents+en.lrpage.body)
 msgid "yum install git golang tor policycoreutils-python-utils"
-msgstr ""
+msgstr "yum install git golang tor policycoreutils-python-utils"
 
 #: https//community.torproject.org/relay/setup/bridge/centos-rhel-opensuse/
 #: (content/relay-operations/technical-setup/bridge/centos-rhel-opensuse/contents+en.lrpage.body)
 msgid "* OpenSUSE:"
-msgstr ""
+msgstr "* OpenSUSE:"
 
 #: https//community.torproject.org/relay/setup/bridge/centos-rhel-opensuse/
 #: (content/relay-operations/technical-setup/bridge/centos-rhel-opensuse/contents+en.lrpage.body)
 msgid "zypper install tor go git"
-msgstr ""
+msgstr "zypper install tor go git"
 
 #: https//community.torproject.org/relay/setup/bridge/centos-rhel-opensuse/
 #: (content/relay-operations/technical-setup/bridge/centos-rhel-opensuse/contents+en.lrpage.body)
 #: https//community.torproject.org/relay/setup/bridge/fedora/
 #: (content/relay-operations/technical-setup/bridge/fedora/contents+en.lrpage.body)
 msgid "### 2. Build obfs4proxy and move it into place."
-msgstr ""
+msgstr "### 2. Construiți obfs4proxy și mutați-l la locul lui."
 
 #: https//community.torproject.org/relay/setup/bridge/centos-rhel-opensuse/
 #: (content/relay-operations/technical-setup/bridge/centos-rhel-opensuse/contents+en.lrpage.body)
@@ -11076,37 +11096,40 @@ msgid ""
 "Heavily outdated versions of git can make `go get` fail, so try upgrading to"
 " a more recent git version if you're running into this problem."
 msgstr ""
+"Versiunile foarte depășite ale git-ului pot face ca `go get` să eșueze, așa "
+"că, dacă vă confruntați cu această problemă, încercați să treceți la o "
+"versiune mai recentă de git."
 
 #: https//community.torproject.org/relay/setup/bridge/centos-rhel-opensuse/
 #: (content/relay-operations/technical-setup/bridge/centos-rhel-opensuse/contents+en.lrpage.body)
 #: https//community.torproject.org/relay/setup/bridge/fedora/
 #: (content/relay-operations/technical-setup/bridge/fedora/contents+en.lrpage.body)
 msgid "export GOPATH=`mktemp -d`"
-msgstr ""
+msgstr "export GOPATH=`mktemp -d`"
 
 #: https//community.torproject.org/relay/setup/bridge/centos-rhel-opensuse/
 #: (content/relay-operations/technical-setup/bridge/centos-rhel-opensuse/contents+en.lrpage.body)
 #: https//community.torproject.org/relay/setup/bridge/fedora/
 #: (content/relay-operations/technical-setup/bridge/fedora/contents+en.lrpage.body)
 msgid "go get gitlab.com/yawning/obfs4.git/obfs4proxy"
-msgstr ""
+msgstr "go get gitlab.com/yawning/obfs4.git/obfs4proxy"
 
 #: https//community.torproject.org/relay/setup/bridge/centos-rhel-opensuse/
 #: (content/relay-operations/technical-setup/bridge/centos-rhel-opensuse/contents+en.lrpage.body)
 #: https//community.torproject.org/relay/setup/bridge/fedora/
 #: (content/relay-operations/technical-setup/bridge/fedora/contents+en.lrpage.body)
 msgid "sudo cp $GOPATH/bin/obfs4proxy /usr/local/bin/"
-msgstr ""
+msgstr "sudo cp $GOPATH/bin/obfs4proxy /usr/local/bin/"
 
 #: https//community.torproject.org/relay/setup/bridge/centos-rhel-opensuse/
 #: (content/relay-operations/technical-setup/bridge/centos-rhel-opensuse/contents+en.lrpage.body)
 msgid "chcon --reference=/usr/bin/tor /usr/local/bin/obfs4proxy"
-msgstr ""
+msgstr "chcon --reference=/usr/bin/tor /usr/local/bin/obfs4proxy"
 
 #: https//community.torproject.org/relay/setup/bridge/centos-rhel-opensuse/
 #: (content/relay-operations/technical-setup/bridge/centos-rhel-opensuse/contents+en.lrpage.body)
 msgid "* CentOS / RHEL / OpenSUSE:"
-msgstr ""
+msgstr "* CentOS / RHEL / OpenSUSE:"
 
 #: https//community.torproject.org/relay/setup/bridge/centos-rhel-opensuse/
 #: (content/relay-operations/technical-setup/bridge/centos-rhel-opensuse/contents+en.lrpage.body)
@@ -11122,6 +11145,11 @@ msgid ""
 "use [our reachability test](https://bridges.torproject.org/scan/) to see if "
 "your obfs4 port is reachable from the Internet."
 msgstr ""
+"* Rețineți că atât portul OR Tor, cât și portul său obfs4 trebuie să fie "
+"accesibile. Dacă puntea dvs. se află în spatele unui firewall sau NAT, "
+"asigurați-vă că deschideți ambele porturi. Puteți utiliza [testul nostru de "
+"accesibilitate] (https://bridges.torproject.org/scan/) pentru a vedea dacă "
+"portul dvs. obfs4 este accesibil de pe Internet."
 
 #: https//community.torproject.org/relay/setup/bridge/centos-rhel-opensuse/
 #: (content/relay-operations/technical-setup/bridge/centos-rhel-opensuse/contents+en.lrpage.body)
@@ -11130,6 +11158,8 @@ msgstr ""
 msgid ""
 "sudo semanage port -a -t tor_port_t -p tcp [OR port set earlier, in TODO1]"
 msgstr ""
+"sudo semanage port -a -t tor_port_t -p tcp [portul OR va fi configurat "
+"ulterior, în TODO1]"
 
 #: https//community.torproject.org/relay/setup/bridge/centos-rhel-opensuse/
 #: (content/relay-operations/technical-setup/bridge/centos-rhel-opensuse/contents+en.lrpage.body)
@@ -11139,13 +11169,15 @@ msgid ""
 "sudo semanage port -a -t tor_port_t -p tcp [obfs4 port set earlier, in "
 "TODO2]"
 msgstr ""
+"sudo semanage port -a -t tor_port_t -p tcp [portul obfs4 va fi configurat "
+"ulterior, în TODO2]"
 
 #: https//community.torproject.org/relay/setup/bridge/centos-rhel-opensuse/
 #: (content/relay-operations/technical-setup/bridge/centos-rhel-opensuse/contents+en.lrpage.body)
 #: https//community.torproject.org/relay/setup/bridge/fedora/
 #: (content/relay-operations/technical-setup/bridge/fedora/contents+en.lrpage.body)
 msgid "### 5. Monitor your logs (usually in your syslog)"
-msgstr ""
+msgstr "### 5. Monitorizați-vă jurnalele (de obicei în fișierul syslog)"
 
 #: https//community.torproject.org/relay/setup/bridge/fedora/
 #: (content/relay-operations/technical-setup/bridge/fedora/contents+en.lrpage.title)
@@ -11154,56 +11186,56 @@ msgstr ""
 #: https//community.torproject.org/relay/setup/guard/fedora/updates/
 #: (content/relay-operations/technical-setup/guard/fedora/updates/contents+en.lrpage.title)
 msgid "Fedora"
-msgstr ""
+msgstr "Fedora"
 
 #: https//community.torproject.org/relay/setup/bridge/fedora/
 #: (content/relay-operations/technical-setup/bridge/fedora/contents+en.lrpage.subtitle)
 msgid "How to deploy an obfs4 bridge on Fedora"
-msgstr ""
+msgstr "Cum să implementați un pod obfs4 pe Fedora"
 
 #: https//community.torproject.org/relay/setup/bridge/fedora/
 #: (content/relay-operations/technical-setup/bridge/fedora/contents+en.lrpage.body)
 msgid "dnf install git golang tor policycoreutils-python-utils"
-msgstr ""
+msgstr "dnf install git golang tor policycoreutils-python-utils"
 
 #: https//community.torproject.org/relay/setup/bridge/fedora/
 #: (content/relay-operations/technical-setup/bridge/fedora/contents+en.lrpage.body)
 msgid "And tell selinux to allow Tor to use obfs4proxy:"
-msgstr ""
+msgstr "Și spuneți selinux dă permită Tor să folosească obfs4proxy:"
 
 #: https//community.torproject.org/relay/setup/bridge/fedora/
 #: (content/relay-operations/technical-setup/bridge/fedora/contents+en.lrpage.body)
 msgid "/sbin/restorecon -v /usr/local/bin/obfs4proxy"
-msgstr ""
+msgstr "/sbin/restorecon -v /usr/local/bin/obfs4proxy"
 
 #: https//community.torproject.org/relay/setup/bridge/fedora/
 #: (content/relay-operations/technical-setup/bridge/fedora/contents+en.lrpage.body)
 msgid "systemctl restart tor"
-msgstr ""
+msgstr "systemctl restart tor"
 
 #: https//community.torproject.org/relay/setup/bridge/freebsd/
 #: (content/relay-operations/technical-setup/bridge/freebsd/contents+en.lrpage.title)
 #: https//community.torproject.org/relay/setup/guard/freebsd/
 #: (content/relay-operations/technical-setup/guard/freebsd/contents+en.lrpage.title)
 msgid "FreeBSD"
-msgstr ""
+msgstr "FreeBSD"
 
 #: https//community.torproject.org/relay/setup/bridge/freebsd/
 #: (content/relay-operations/technical-setup/bridge/freebsd/contents+en.lrpage.subtitle)
 msgid "How to deploy an obfs4 bridge on FreeBSD"
-msgstr ""
+msgstr "Cum să implementați un pod obfs4 pe FreeBSD"
 
 #: https//community.torproject.org/relay/setup/bridge/freebsd/
 #: (content/relay-operations/technical-setup/bridge/freebsd/contents+en.lrpage.body)
 #: https//community.torproject.org/relay/setup/bridge/openbsd/
 #: (content/relay-operations/technical-setup/bridge/openbsd/contents+en.lrpage.body)
 msgid "### 1. Install packages"
-msgstr ""
+msgstr "### 1. Instalare pachete"
 
 #: https//community.torproject.org/relay/setup/bridge/freebsd/
 #: (content/relay-operations/technical-setup/bridge/freebsd/contents+en.lrpage.body)
 msgid "pkg install obfs4proxy-tor tor ca_root_nss"
-msgstr ""
+msgstr "pkg install obfs4proxy-tor tor ca_root_nss"
 
 #: https//community.torproject.org/relay/setup/bridge/freebsd/
 #: (content/relay-operations/technical-setup/bridge/freebsd/contents+en.lrpage.body)
@@ -11211,6 +11243,8 @@ msgid ""
 "### 2. Edit your Tor config file, usually located at `/usr/local/etc/tor` "
 "and replace its content with:"
 msgstr ""
+"### 2. Editați fișierul dvs. de configurare Tor, localizat de obicei la "
+"`/usr/local/etc/tor` și înlocuiți conținutul său cu:"
 
 #: https//community.torproject.org/relay/setup/bridge/freebsd/
 #: (content/relay-operations/technical-setup/bridge/freebsd/contents+en.lrpage.body)
@@ -11219,39 +11253,42 @@ msgid ""
 "make sure that your obfs4proxy can talk to your Tor process over the "
 "loopback interface.  Don't forget to whitelist Tor's `ExtORPort`."
 msgstr ""
+"* Folosiți firewall-ul FreeBSD cu o politică de „refuz implicit”? Dacă da, "
+"asigurați-vă că obfs4proxy poate comunica cu procesul Tor prin interfața "
+"loopback. Nu uitați să adăugați în lista albă portul „ExtORPort” al lui Tor."
 
 #: https//community.torproject.org/relay/setup/bridge/freebsd/
 #: (content/relay-operations/technical-setup/bridge/freebsd/contents+en.lrpage.body)
 msgid "### 3. Ensure that the `random_id` sysctl setting is enabled:"
-msgstr ""
+msgstr "### 3. Asigurați-vă că setarea sysctl `random_id` este activată:"
 
 #: https//community.torproject.org/relay/setup/bridge/freebsd/
 #: (content/relay-operations/technical-setup/bridge/freebsd/contents+en.lrpage.body)
 #: https//community.torproject.org/relay/setup/guard/freebsd/
 #: (content/relay-operations/technical-setup/guard/freebsd/contents+en.lrpage.body)
 msgid "echo \"net.inet.ip.random_id=1\" >> /etc/sysctl.conf"
-msgstr ""
+msgstr "echo \"net.inet.ip.random_id=1\" >> /etc/sysctl.conf"
 
 #: https//community.torproject.org/relay/setup/bridge/freebsd/
 #: (content/relay-operations/technical-setup/bridge/freebsd/contents+en.lrpage.body)
 #: https//community.torproject.org/relay/setup/guard/freebsd/
 #: (content/relay-operations/technical-setup/guard/freebsd/contents+en.lrpage.body)
 msgid "sysctl net.inet.ip.random_id=1"
-msgstr ""
+msgstr "sysctl net.inet.ip.random_id=1"
 
 #: https//community.torproject.org/relay/setup/bridge/freebsd/
 #: (content/relay-operations/technical-setup/bridge/freebsd/contents+en.lrpage.body)
 #: https//community.torproject.org/relay/setup/bridge/openbsd/
 #: (content/relay-operations/technical-setup/bridge/openbsd/contents+en.lrpage.body)
 msgid "### 4. Start the tor daemon and make sure it starts at boot:"
-msgstr ""
+msgstr "### 4. Porniți demonul tor și asigurați-vă că pornește la boot-are:"
 
 #: https//community.torproject.org/relay/setup/bridge/freebsd/
 #: (content/relay-operations/technical-setup/bridge/freebsd/contents+en.lrpage.body)
 #: https//community.torproject.org/relay/setup/guard/freebsd/
 #: (content/relay-operations/technical-setup/guard/freebsd/contents+en.lrpage.body)
 msgid "sysrc tor_enable=YES"
-msgstr ""
+msgstr "sysrc tor_enable=YES"
 
 #: https//community.torproject.org/relay/setup/bridge/freebsd/
 #: (content/relay-operations/technical-setup/bridge/freebsd/contents+en.lrpage.body)
@@ -11259,18 +11296,21 @@ msgid ""
 "### 6. To get the fastest package updates, switch from the  \"quarterly\" "
 "package repo to the \"latest\" repo."
 msgstr ""
+"### 6. Pentru a obține cele mai rapide actualizări ale pachetelor, treceți "
+"de la pachetul repo trimestrial - \"quarterly\" la cel mai recent repo, "
+"\"latest\"."
 
 #: https//community.torproject.org/relay/setup/bridge/freebsd/
 #: (content/relay-operations/technical-setup/bridge/freebsd/contents+en.lrpage.body)
 msgid "Create the following folder:"
-msgstr ""
+msgstr "Creați următorul folder:"
 
 #: https//community.torproject.org/relay/setup/bridge/freebsd/
 #: (content/relay-operations/technical-setup/bridge/freebsd/contents+en.lrpage.body)
 #: https//community.torproject.org/relay/setup/guard/freebsd/
 #: (content/relay-operations/technical-setup/guard/freebsd/contents+en.lrpage.body)
 msgid "mkdir -p /usr/local/etc/pkg/repos"
-msgstr ""
+msgstr "mkdir -p /usr/local/etc/pkg/repos"
 
 #: https//community.torproject.org/relay/setup/bridge/freebsd/
 #: (content/relay-operations/technical-setup/bridge/freebsd/contents+en.lrpage.body)
@@ -11278,120 +11318,123 @@ msgid ""
 "Create the file `/usr/local/etc/pkg/repos/FreeBSD.conf` with the following "
 "content:"
 msgstr ""
+"Creați fișierul `/usr/local/etc/pkg/repos/FreeBSD.conf` cu următorul "
+"conținut:"
 
 #: https//community.torproject.org/relay/setup/bridge/freebsd/
 #: (content/relay-operations/technical-setup/bridge/freebsd/contents+en.lrpage.body)
 msgid "FreeBSD: { enabled: no }"
-msgstr ""
+msgstr "FreeBSD: { enabled: no }"
 
 #: https//community.torproject.org/relay/setup/bridge/freebsd/
 #: (content/relay-operations/technical-setup/bridge/freebsd/contents+en.lrpage.body)
 msgid "FreeBSDlatest: {"
-msgstr ""
+msgstr "FreeBSDlatest: {"
 
 #: https//community.torproject.org/relay/setup/bridge/freebsd/
 #: (content/relay-operations/technical-setup/bridge/freebsd/contents+en.lrpage.body)
 msgid "url: \"pkg+https://pkg.FreeBSD.org/${ABI}/latest\","
-msgstr ""
+msgstr "url: \"pkg+https://pkg.FreeBSD.org/${ABI}/latest\","
 
 #: https//community.torproject.org/relay/setup/bridge/freebsd/
 #: (content/relay-operations/technical-setup/bridge/freebsd/contents+en.lrpage.body)
 msgid "mirror_type: \"srv\","
-msgstr ""
+msgstr "mirror_type: \"srv\","
 
 #: https//community.torproject.org/relay/setup/bridge/freebsd/
 #: (content/relay-operations/technical-setup/bridge/freebsd/contents+en.lrpage.body)
 msgid "signature_type: \"fingerprints\","
-msgstr ""
+msgstr "signature_type: \"fingerprints\","
 
 #: https//community.torproject.org/relay/setup/bridge/freebsd/
 #: (content/relay-operations/technical-setup/bridge/freebsd/contents+en.lrpage.body)
 msgid "fingerprints: \"/usr/share/keys/pkg\","
-msgstr ""
+msgstr "fingerprints: \"/usr/share/keys/pkg\","
 
 #: https//community.torproject.org/relay/setup/bridge/freebsd/
 #: (content/relay-operations/technical-setup/bridge/freebsd/contents+en.lrpage.body)
 msgid "enabled: yes"
-msgstr ""
+msgstr "enabled: yes"
 
 #: https//community.torproject.org/relay/setup/bridge/freebsd/
 #: (content/relay-operations/technical-setup/bridge/freebsd/contents+en.lrpage.body)
 #: https//community.torproject.org/relay/setup/guard/freebsd/
 #: (content/relay-operations/technical-setup/guard/freebsd/contents+en.lrpage.body)
 msgid "}"
-msgstr ""
+msgstr "}"
 
 #: https//community.torproject.org/relay/setup/bridge/freebsd/
 #: (content/relay-operations/technical-setup/bridge/freebsd/contents+en.lrpage.body)
 msgid "### 7. Final notes"
-msgstr ""
+msgstr "### 7. Note finale"
 
 #: https//community.torproject.org/relay/setup/bridge/openbsd/
 #: (content/relay-operations/technical-setup/bridge/openbsd/contents+en.lrpage.title)
 #: https//community.torproject.org/relay/setup/guard/openbsd/
 #: (content/relay-operations/technical-setup/guard/openbsd/contents+en.lrpage.title)
 msgid "OpenBSD"
-msgstr ""
+msgstr "OpenBSD"
 
 #: https//community.torproject.org/relay/setup/bridge/openbsd/
 #: (content/relay-operations/technical-setup/bridge/openbsd/contents+en.lrpage.subtitle)
 msgid "How to deploy an obfs4 bridge on OpenBSD"
-msgstr ""
+msgstr "Cum să implementați un pod obfs4 pe OpenBSD"
 
 #: https//community.torproject.org/relay/setup/bridge/openbsd/
 #: (content/relay-operations/technical-setup/bridge/openbsd/contents+en.lrpage.body)
 msgid "pkg_add tor obfs4proxy"
-msgstr ""
+msgstr "pkg_add tor obfs4proxy"
 
 #: https//community.torproject.org/relay/setup/bridge/openbsd/
 #: (content/relay-operations/technical-setup/bridge/openbsd/contents+en.lrpage.body)
 msgid "### 2. Edit your Tor config file"
-msgstr ""
+msgstr "### 2. Editați fișierul dvs. de configurare Tor"
 
 #: https//community.torproject.org/relay/setup/bridge/openbsd/
 #: (content/relay-operations/technical-setup/bridge/openbsd/contents+en.lrpage.body)
 msgid "Usually located at `/etc/tor/torrc`, and replace its content with:"
-msgstr ""
+msgstr "De obicei se află în `/etc/tor/torrc` și înlocuiți conținutul său cu:"
 
 #: https//community.torproject.org/relay/setup/bridge/openbsd/
 #: (content/relay-operations/technical-setup/bridge/openbsd/contents+en.lrpage.body)
 msgid "User _tor"
-msgstr ""
+msgstr "User _tor"
 
 #: https//community.torproject.org/relay/setup/bridge/openbsd/
 #: (content/relay-operations/technical-setup/bridge/openbsd/contents+en.lrpage.body)
 msgid "DataDirectory /var/tor"
-msgstr ""
+msgstr "DataDirectory /var/tor"
 
 #: https//community.torproject.org/relay/setup/bridge/openbsd/
 #: (content/relay-operations/technical-setup/bridge/openbsd/contents+en.lrpage.body)
 msgid ""
 "### 3. Create the tor log directory and give it the correct permissions:"
 msgstr ""
+"### 3. Creați directorul jurnalului tor și acordați-i permisiunile corecte:"
 
 #: https//community.torproject.org/relay/setup/bridge/openbsd/
 #: (content/relay-operations/technical-setup/bridge/openbsd/contents+en.lrpage.body)
 msgid "mkdir /var/log/tor"
-msgstr ""
+msgstr "mkdir /var/log/tor"
 
 #: https//community.torproject.org/relay/setup/bridge/openbsd/
 #: (content/relay-operations/technical-setup/bridge/openbsd/contents+en.lrpage.body)
 msgid "chown _tor /var/log/tor"
-msgstr ""
+msgstr "chown _tor /var/log/tor"
 
 #: https//community.torproject.org/relay/setup/bridge/openbsd/
 #: (content/relay-operations/technical-setup/bridge/openbsd/contents+en.lrpage.body)
 #: https//community.torproject.org/relay/setup/guard/openbsd/
 #: (content/relay-operations/technical-setup/guard/openbsd/contents+en.lrpage.body)
 msgid "rcctl enable tor"
-msgstr ""
+msgstr "rcctl enable tor"
 
 #: https//community.torproject.org/relay/setup/bridge/openbsd/
 #: (content/relay-operations/technical-setup/bridge/openbsd/contents+en.lrpage.body)
 #: https//community.torproject.org/relay/setup/guard/openbsd/
 #: (content/relay-operations/technical-setup/guard/openbsd/contents+en.lrpage.body)
 msgid "rcctl start tor"
-msgstr ""
+msgstr "rcctl start tor"
 
 #: https//community.torproject.org/relay/setup/bridge/openbsd/
 #: (content/relay-operations/technical-setup/bridge/openbsd/contents+en.lrpage.body)
@@ -11399,33 +11442,35 @@ msgid ""
 "To confirm your bridge is running with no issues, you should see something "
 "like this  (`/var/log/tor/notices.log`):"
 msgstr ""
+"Pentru a confirma că puntea dvs. funcționează fără probleme, ar trebui să "
+"vedeți ceva de genul (`/var/log/tor/notices.log`):"
 
 #: https//community.torproject.org/relay/setup/guard/netbsd/
 #: (content/relay-operations/technical-setup/guard/netbsd/contents+en.lrpage.subtitle)
 msgid "How to deploy a Middle/Guard relay on NetBSD"
-msgstr ""
+msgstr "Cum să implementați un releu Middle / Guard pe NetBSD"
 
 #: https//community.torproject.org/relay/setup/guard/netbsd/
 #: (content/relay-operations/technical-setup/guard/netbsd/contents+en.lrpage.body)
 msgid "# 1. Setup `pkg_add`"
-msgstr ""
+msgstr "# 1. Configurarea `pkg_add`"
 
 #: https//community.torproject.org/relay/setup/guard/netbsd/
 #: (content/relay-operations/technical-setup/guard/netbsd/contents+en.lrpage.body)
 msgid "# 2. Install `tor` NetBSD's package"
-msgstr ""
+msgstr "# 2. Instalați pachetul `tor` NetBSD"
 
 #: https//community.torproject.org/relay/setup/guard/netbsd/
 #: (content/relay-operations/technical-setup/guard/netbsd/contents+en.lrpage.body)
 #: https//community.torproject.org/relay/setup/guard/openbsd/
 #: (content/relay-operations/technical-setup/guard/openbsd/contents+en.lrpage.body)
 msgid "pkg_add tor"
-msgstr ""
+msgstr "pkg_add tor"
 
 #: https//community.torproject.org/relay/setup/guard/netbsd/
 #: (content/relay-operations/technical-setup/guard/netbsd/contents+en.lrpage.body)
 msgid "# 3. Configure `/usr/pkg/etc/tor/torrc`"
-msgstr ""
+msgstr "# 3. Configurați `/usr/pkg/etc/tor/torrc`"
 
 #: https//community.torproject.org/relay/setup/guard/netbsd/
 #: (content/relay-operations/technical-setup/guard/netbsd/contents+en.lrpage.body)
@@ -11439,6 +11484,8 @@ msgid ""
 "Nickname    myBSDRelay    # Change your relay's nickname to something you "
 "like"
 msgstr ""
+"Nickname    myBSDRelay    # Schimbați porecla releului dvs. cu un nume care "
+"vă place"
 
 #: https//community.torproject.org/relay/setup/guard/netbsd/
 #: (content/relay-operations/technical-setup/guard/netbsd/contents+en.lrpage.body)
@@ -11452,6 +11499,8 @@ msgid ""
 "ContactInfo your@email    # Please write your email address and be aware "
 "that it will be published"
 msgstr ""
+"ContactInfo your@email    # Vă rugăm să vă scrieți adresa de e-mail și să "
+"fiți conștienți de faptul că va fi publicată"
 
 #: https//community.torproject.org/relay/setup/guard/netbsd/
 #: (content/relay-operations/technical-setup/guard/netbsd/contents+en.lrpage.body)
@@ -11465,6 +11514,8 @@ msgid ""
 "ORPort      443           # You might want to use/try a different port, "
 "should you want to"
 msgstr ""
+"ORPort      443           # S-ar putea să doriți să utilizați / încercați un"
+" alt port, dacă doriți"
 
 #: https//community.torproject.org/relay/setup/guard/netbsd/
 #: (content/relay-operations/technical-setup/guard/netbsd/contents+en.lrpage.body)
@@ -11475,7 +11526,7 @@ msgstr ""
 #: https//community.torproject.org/relay/setup/guard/openbsd/
 #: (content/relay-operations/technical-setup/guard/openbsd/contents+en.lrpage.body)
 msgid "ExitRelay   0"
-msgstr ""
+msgstr "ExitRelay   0"
 
 #: https//community.torproject.org/relay/setup/guard/netbsd/
 #: (content/relay-operations/technical-setup/guard/netbsd/contents+en.lrpage.body)
@@ -11486,7 +11537,7 @@ msgstr ""
 #: https//community.torproject.org/relay/setup/guard/openbsd/
 #: (content/relay-operations/technical-setup/guard/openbsd/contents+en.lrpage.body)
 msgid "SocksPort   0"
-msgstr ""
+msgstr "SocksPort   0"
 
 #: https//community.torproject.org/relay/setup/guard/netbsd/
 #: (content/relay-operations/technical-setup/guard/netbsd/contents+en.lrpage.body)
@@ -11497,7 +11548,7 @@ msgstr ""
 #: https//community.torproject.org/relay/setup/guard/openbsd/
 #: (content/relay-operations/technical-setup/guard/openbsd/contents+en.lrpage.body)
 msgid "Log notice  syslog"
-msgstr ""
+msgstr "Log notice  syslog"
 
 #: https//community.torproject.org/relay/setup/guard/netbsd/
 #: (content/relay-operations/technical-setup/guard/netbsd/contents+en.lrpage.body)
@@ -11506,7 +11557,7 @@ msgstr ""
 #: https//community.torproject.org/relay/setup/guard/openbsd/
 #: (content/relay-operations/technical-setup/guard/openbsd/contents+en.lrpage.body)
 msgid "# 6. Start `tor`:"
-msgstr ""
+msgstr "# 6. Porniți `tor`:"
 
 #: https//community.torproject.org/relay/setup/guard/netbsd/
 #: (content/relay-operations/technical-setup/guard/netbsd/contents+en.lrpage.body)
@@ -11514,21 +11565,23 @@ msgstr ""
 #: (content/relay-operations/technical-setup/guard/openbsd/contents+en.lrpage.body)
 msgid "Here we set `tor` to start during boot and call it for the first time:"
 msgstr ""
+"Aici am setat `tor` să pornească în timpul boot-ării și îl apelăm pentru "
+"prima dată:"
 
 #: https//community.torproject.org/relay/setup/guard/dragonflybsd/
 #: (content/relay-operations/technical-setup/guard/dragonflybsd/contents+en.lrpage.subtitle)
 msgid "How to deploy a Middle/Guard relay on DragonflyBSD"
-msgstr ""
+msgstr "Cum se implementează un releu Middle/Guard pe DragonflyBSD"
 
 #: https//community.torproject.org/relay/setup/guard/dragonflybsd/
 #: (content/relay-operations/technical-setup/guard/dragonflybsd/contents+en.lrpage.body)
 msgid "# 1. Bootstrap `pkg`"
-msgstr ""
+msgstr "# 1. Bootstrap `pkg`"
 
 #: https//community.torproject.org/relay/setup/guard/dragonflybsd/
 #: (content/relay-operations/technical-setup/guard/dragonflybsd/contents+en.lrpage.body)
 msgid "### 1.1. Recommended Steps to Setup `pkg`"
-msgstr ""
+msgstr "### 1.1. Etapele recomandate pentru configurarea `pkg`"
 
 #: https//community.torproject.org/relay/setup/guard/dragonflybsd/
 #: (content/relay-operations/technical-setup/guard/dragonflybsd/contents+en.lrpage.body)
@@ -11537,11 +11590,14 @@ msgid ""
 " going to use HTTPS to fetch our packages, and updates - so here we also "
 "need an extra package to help us out (ca_root_nss)."
 msgstr ""
+"Aici, modul de lucru este similar cu cel de pe un sistem **FreeBSD** și vom "
+"folosi HTTPS pentru a obține pachetele și actualizările noastre - așa că "
+"aici avem nevoie și de un pachet suplimentar care să ne ajute (ca_root_nss)."
 
 #: https//community.torproject.org/relay/setup/guard/dragonflybsd/
 #: (content/relay-operations/technical-setup/guard/dragonflybsd/contents+en.lrpage.body)
 msgid "DragonflyBSD has 2 packages repositories:"
-msgstr ""
+msgstr "DragonflyBSD are 2 depozite de pachete:"
 
 #: https//community.torproject.org/relay/setup/guard/dragonflybsd/
 #: (content/relay-operations/technical-setup/guard/dragonflybsd/contents+en.lrpage.body)
