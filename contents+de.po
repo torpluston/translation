@@ -2994,6 +2994,13 @@ msgid ""
 "relay you happened to pick) as somebody trying to \"crawl\" their website, "
 "so it slows down traffic from that IP address for a short time."
 msgstr ""
+"Wenn du Tor benutzt, sendest du Anfragen über Exit-Server, die auch von "
+"tausenden anderen Nutzern geteilt werden. Tor-Benutzer sehen diese Nachricht"
+" normalerweise, wenn viele Tor-Benutzer in kurzer Zeit Google abfragen. "
+"Google interpretiert das hohe Verkehrsaufkommen von einer einzelnen IP-"
+"Adresse (den Exit-Server, den du zufällig ausgewählt hast) als jemand, der "
+"versucht, ihre Website zu \"crawlen\", so dass es den Verkehr von dieser IP-"
+"Adresse für kurze Zeit verlangsamt."
 
 #: https//support.torproject.org/tbb/tbb-44/
 #: (content/tbb/tbb-44/contents+en.lrquestion.description)
@@ -3004,6 +3011,12 @@ msgid ""
 "they are Tor exit relays), and tries to warn any connections coming from "
 "those IP addresses that recent queries indicate an infection."
 msgstr ""
+"Eine alternative Erklärung ist, dass Google versucht, bestimmte Arten von "
+"Spyware oder Viren zu erkennen, die unverwechselbare Anfragen an die Google-"
+"Suche senden. Es notiert die IP-Adressen, von denen diese Anfragen empfangen"
+" werden (ohne zu wissen, dass es sich um Tor-Exit-Server handelt) und "
+"versucht, alle Verbindungen, die von diesen IP-Adressen kommen, zu warnen, "
+"dass die letzten Anfragen auf eine Infektion hindeuten."
 
 #: https//support.torproject.org/tbb/tbb-44/
 #: (content/tbb/tbb-44/contents+en.lrquestion.description)
@@ -3012,11 +3025,14 @@ msgid ""
 " deter or block Tor use. The error message about an infected machine should "
 "clear up again after a short time."
 msgstr ""
+"Nach unserem Wissen tut Google nichts absichtlich, um die Nutzung von Tor zu"
+" verhindern oder zu blockieren. Die Fehlermeldung über einen infizierten "
+"Rechner sollte nach kurzer Zeit wieder verschwinden."
 
 #: https//support.torproject.org/tbb/tbb-45/
 #: (content/tbb/tbb-45/contents+en.lrquestion.title)
 msgid "Gmail warns me that my account may have been compromised"
-msgstr ""
+msgstr "Gmail warnt mich, dass mein Konto kompromittiert worden sein könnte."
 
 #: https//support.torproject.org/tbb/tbb-45/
 #: (content/tbb/tbb-45/contents+en.lrquestion.description)
@@ -3033,6 +3049,9 @@ msgid ""
 "The notification window lists a series of IP addresses and locations "
 "throughout the world recently used to access your account."
 msgstr ""
+"Das Benachrichtigungsfenster listet eine Reihe von IP-Adressen und "
+"Standorten auf der ganzen Welt auf, die kürzlich für den Zugriff auf dein "
+"Konto verwendet wurden."
 
 #: https//support.torproject.org/tbb/tbb-45/
 #: (content/tbb/tbb-45/contents+en.lrquestion.description)
@@ -3042,6 +3061,10 @@ msgid ""
 " was a good idea to confirm the account was being accessed by its rightful "
 "owner."
 msgstr ""
+"Im Allgemeinen ist dies ein Fehlalarm: Google sah einen Haufen von Logins "
+"von verschiedenen Orten, als Folge der Ausführung des Dienstes über Tor, und"
+" entschied, dass es eine gute Idee sei, zu bestätigen, dass der Zugriff auf "
+"das Konto durch den rechtmäßigen Besitzer erfolgt ist."
 
 #: https//support.torproject.org/tbb/tbb-45/
 #: (content/tbb/tbb-45/contents+en.lrquestion.description)
@@ -3049,6 +3072,8 @@ msgid ""
 "Even though this may be a byproduct of using the service via Tor, that "
 "doesn't mean you can entirely ignore the warning."
 msgstr ""
+"Auch wenn dies ein Nebenprodukt der Nutzung des Dienstes über Tor sein mag, "
+"bedeutet das nicht, dass du die Warnung völlig ignorieren kannst."
 
 #: https//support.torproject.org/tbb/tbb-45/
 #: (content/tbb/tbb-45/contents+en.lrquestion.description)
@@ -3056,6 +3081,8 @@ msgid ""
 "It is probably a false positive, but it might not be since it is possible "
 "for someone to hijack your Google cookie."
 msgstr ""
+"Es ist möglicherweise eine falsche Korrektmeldung. Es könnte aber auch nicht"
+" so sein, denn es ist möglich, dass jemand dein Google-Cookie entführt hat."
 
 #: https//support.torproject.org/tbb/tbb-45/
 #: (content/tbb/tbb-45/contents+en.lrquestion.description)
@@ -3063,6 +3090,8 @@ msgid ""
 "Cookie hijacking is possible by either physical access to your computer or "
 "by watching your network traffic."
 msgstr ""
+"Cookie-Hijacking ist möglich, entweder durch physischen Zugang zu deinem "
+"Computer oder durch Beobachtung deines Netzwerkverkehrs."
 
 #: https//support.torproject.org/tbb/tbb-45/
 #: (content/tbb/tbb-45/contents+en.lrquestion.description)
@@ -3070,6 +3099,9 @@ msgid ""
 "In theory, only physical access should compromise your system because Gmail "
 "and similar services should only send the cookie over an SSL link."
 msgstr ""
+"Theoretisch sollte nur der physische Zugriff dein System gefährden, da "
+"Google Mail und ähnliche Dienste das Cookie nur über eine SSL-Verbindung "
+"senden sollten."
 
 #: https//support.torproject.org/tbb/tbb-45/
 #: (content/tbb/tbb-45/contents+en.lrquestion.description)
@@ -3077,6 +3109,8 @@ msgid ""
 "In practice, alas, it's [way more complex than that](https://fscked.org/blog"
 "/fully-automated-active-https-cookie-hijacking)."
 msgstr ""
+"In der Praxis ist es leider [viel komplexer als das](https://fscked.org/blog"
+"/fully-automated-active-https-cookie-hijacking)."
 
 #: https//support.torproject.org/tbb/tbb-45/
 #: (content/tbb/tbb-45/contents+en.lrquestion.description)
@@ -3089,6 +3123,14 @@ msgid ""
 "account, or looking at the timestamps for recent logins and wondering if you"
 " actually logged in at those times."
 msgstr ""
+"Und wenn jemand dein Google-Cookie gestohlen hat, kann es sein, dass er sich"
+" von ungewöhnlichen Orten aus einloggt (obwohl er es natürlich auch nicht "
+"tun könnte). Die Zusammenfassung ist also, dass wenn du den Tor Browser "
+"benutzt, diese Sicherheitsmaßnahme, die Google verwendet, für dich nicht so "
+"nützlich ist, weil sie voller falscher Korrektmeldungen ist. Du musst andere"
+" Methoden verwenden, z.B. um zu sehen, ob etwas auf dem Konto seltsam "
+"aussieht, oder um die Zeitstempel der letzten Anmeldungen zu überprüfen und "
+"dich zu fragen, ob du dich zu diesen Zeiten tatsächlich eingeloggt hast."
 
 #: https//support.torproject.org/tbb/tbb-45/
 #: (content/tbb/tbb-45/contents+en.lrquestion.description)
