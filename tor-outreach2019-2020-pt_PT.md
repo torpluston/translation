@@ -105,7 +105,7 @@ Outras aplicações como o SecureDrop ou o OnionShare usam o Tor para proteger o
 
 ## 6. Como funciona o Tor?
 
-Amal quer privacidade para visitar o site de Bekele e, assim, ela abre o Tor Browser.
+Amal quer privacidade para visitar o ''site'' da Web de Bekele, e assim ela abre o Tor Browser.
 
 O Tor Browser seleciona um circuito aleatório de três retransmissores, os quais são computadores espalhados em redor do mundo configurados para rotear todo o seu tráfego pela rede Tor.
 
