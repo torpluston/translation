@@ -145,7 +145,7 @@ You can volunteer with Tor by writing code, running a relay, creating documentat
 
 The Tor community is governed by a code of conduct, and we outline our set of promises to the community in our social contract. 
 
-Learn more about Tor by visiting our website, our wiki, finding us on IRC, joining one of our mailing lists, or signing up for Tor News at newsletter.torproject.org.
+Saiba mais sobre o Tor visitando o nosso ''site'' da Web, a nossa wiki, encontrando-nos no IRC, participando numa das nossas listas de discussão, ou registando-se para receber as Notícias do Tor via newsletter.torproject.org.
 
 
 ## 8. Transferir o Tor
