@@ -145,7 +145,7 @@ Pode voluntariar-se para ajudar o Tor escrevendo código, operando um retransmis
 
 A comunidade Tor é governada por um código de conduta e nós delineamos o nosso conjunto de promessas à comunidade no nosso contrato social.
 
-Saiba mais sobre o Tor visitando o nosso site, a nossa wiki, encontrando-nos no IRC, participando numa das nossas listas de e-mail ou assinando o "boletim de notícias do Tor" no endereço newsletter.torproject.org.
+Saiba mais sobre o Tor visitando o nosso ''site'' da Web, a nossa wiki, encontrando-nos no IRC, participando numa das nossas listas de discussão, ou registando-se para receber as Notícias do Tor via newsletter.torproject.org.
 
 
 ## 8. Transferir o Tor
