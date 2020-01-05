@@ -105,7 +105,7 @@ Other applications, like SecureDrop and OnionShare, use Tor to protect their use
 
 ## 6. How does Tor work?
 
-Amal wants to visit Bekele’s website privately, so she opens Tor Browser.
+Amal quer privacidade para visitar o ''site'' da Web de Bekele, e assim ela abre o Tor Browser.
 
 Tor Browser selects a random circuit of three relays, which are computers all over the world configured to route traffic over the Tor network.
 
