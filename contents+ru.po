@@ -7861,6 +7861,9 @@ msgid ""
 "that forwards [traffic](#traffic) on behalf of [clients](#client), and that "
 "registers itself with the [directory authorities](#directory-authority)."
 msgstr ""
+"Узел. Элемент [сети Tor](#tor-/-tor-network/-core-tor), который "
+"перенаправляет [трафик](#traffic) [клиентов](#client) и регистрируется на "
+"[управляющем сервере](#directory-authority)."
 
 #: https//support.torproject.org/misc/glossary/
 #: (content/misc/glossary/contents+en.lrquestion.description)
@@ -7888,7 +7891,7 @@ msgstr ""
 #: https//support.torproject.org/misc/glossary/
 #: (content/misc/glossary/contents+en.lrquestion.description)
 msgid "### scramblesuit"
-msgstr ""
+msgstr "### scramblesuit"
 
 #: https//support.torproject.org/misc/glossary/
 #: (content/misc/glossary/contents+en.lrquestion.description)
@@ -7896,23 +7899,25 @@ msgid ""
 "Scramblesuit is similar to obfs4 but has a different set of "
 "[bridges](#bridge)."
 msgstr ""
+"Подключаемый транспорт. Похож на obfs4, только с другим набором "
+"[мостов](#bridge)."
 
 #: https//support.torproject.org/misc/glossary/
 #: (content/misc/glossary/contents+en.lrquestion.description)
 msgid "### script"
-msgstr "### script (скрипт)"
+msgstr "### script"
 
 #: https//support.torproject.org/misc/glossary/
 #: (content/misc/glossary/contents+en.lrquestion.description)
 msgid "Elements used for offering dynamic/interactive content via websites."
 msgstr ""
-"Совокупность элементов, которые используются для придания веб-сайтам "
-"динамичности/интерактивности."
+"Скрипт. Совокупность элементов, которые используются для придания веб-сайтам"
+" динамичности/интерактивности."
 
 #: https//support.torproject.org/misc/glossary/
 #: (content/misc/glossary/contents+en.lrquestion.description)
 msgid "### self-authenticating address"
-msgstr ""
+msgstr "### self-authenticating address"
 
 #: https//support.torproject.org/misc/glossary/
 #: (content/misc/glossary/contents+en.lrquestion.description)
@@ -7925,11 +7930,17 @@ msgid ""
 "and they are subject to hijack by the CA and typically by many other parties"
 " as well."
 msgstr ""
+"Специальный \"самоподверждающий\" формат [onion-адресов](#onion-address). "
+"Гарантирует, что onion-адрес действительно связан с ключом, которым защищено"
+" подключение к [onion-сайту](#onionsite). Если пользователь регистрирует "
+"обычный домен, он должен доверить это центру сертификации. Такие домены "
+"имеют уязвимости, которые могут использовать т центры сертификации, и другие"
+" стороны."
 
 #: https//support.torproject.org/misc/glossary/
 #: (content/misc/glossary/contents+en.lrquestion.description)
 msgid "### server"
-msgstr "### server (сервер)"
+msgstr "### server"
 
 #: https//support.torproject.org/misc/glossary/
 #: (content/misc/glossary/contents+en.lrquestion.description)
@@ -7937,13 +7948,13 @@ msgid ""
 "A device on a network that offers a service, such as file and web page "
 "storage, email or chat."
 msgstr ""
-"Сетевое устройство, которое предлагает тот или иной сервис (размещение "
-"файлов или веб-страниц, электронную почту, чат)."
+"Сервер. Сетевое устройство, которое предлагает тот или иной сервис "
+"(размещение файлов или веб-страниц, электронную почту, чат)."
 
 #: https//support.torproject.org/misc/glossary/
 #: (content/misc/glossary/contents+en.lrquestion.description)
 msgid "### session"
-msgstr "### session (сессия)"
+msgstr "### session"
 
 #: https//support.torproject.org/misc/glossary/
 #: (content/misc/glossary/contents+en.lrquestion.description)
@@ -7952,14 +7963,14 @@ msgid ""
 "network. Using [Tor Browser](#tor-browser) means that your session data will"
 " be wiped when you close the [web browser](#web-browser)."
 msgstr ""
-"Соединение между двумя устройствами в сети. При использовании [Tor Browser"
-"](#tor-browser) данные сессии будут стерты после закрытия [браузера](#web-"
-"browser)."
+"Сессия. Соединение между двумя устройствами в сети. При использовании [Tor "
+"Browser](#tor-browser) данные сессии будут стерты после закрытия [браузера"
+"](#web-browser)."
 
 #: https//support.torproject.org/misc/glossary/
 #: (content/misc/glossary/contents+en.lrquestion.description)
 msgid "### single onion service"
-msgstr ""
+msgstr "### single onion service"
 
 #: https//support.torproject.org/misc/glossary/
 #: (content/misc/glossary/contents+en.lrquestion.description)
@@ -7969,6 +7980,10 @@ msgid ""
 "connecting to their service. Single onion services use only three hops in "
 "the [circuit](#circuit) rather than the typical six hops for onion services."
 msgstr ""
+"Одиночный onion-ресурс. Такой ресурс можно настроить для сервисов, которые "
+"не требуют анонимности, но предлагают ее как опцию для своих пользователей. "
+"Одиночному onion-ресурсу достаточно трех переходов в [цепочке](#circuit) "
+"(обычному onion-ресурсу нужно шесть)."
 
 #: https//support.torproject.org/misc/glossary/
 #: (content/misc/glossary/contents+en.lrquestion.description)
@@ -7982,11 +7997,13 @@ msgid ""
 "[Tor](#tor-/-tor-network/-core-tor). If you want to control core Tor with "
 "python, this is for you."
 msgstr ""
+"Stem – библиотека языка программирования Python для [Tor](#tor-/-tor-network"
+"/-core-tor). Понадобится, если хотите управлять ядром Tor с помощью Python."
 
 #: https//support.torproject.org/misc/glossary/
 #: (content/misc/glossary/contents+en.lrquestion.description)
 msgid "### Sybil attack"
-msgstr ""
+msgstr "### Sybil attack"
 
 #: https//support.torproject.org/misc/glossary/
 #: (content/misc/glossary/contents+en.lrquestion.description)
