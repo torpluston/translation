@@ -63,17 +63,17 @@ All of this software uses Tor to help protect Jelani’s privacy.
 
 ### بجای ساختن دیوار ها پل ها را بسازید
 
-Jean was traveling for the first time to a country far from his family.
+جین برای اولین بار به کشوری دور از خانواده خود سفر می کرد.
 
 پس از ورود به هتل ، لپتاپش را باز کرد
 
 He was so exhausted that when the message "Connection has timed out" first appeared on his web browser, he thought it was due to his own error.
 
-But after trying again and again, he realized that his email provider, a news website, and many apps were unavailable. 
+اما پس از چندین بار تلاش، او متوجه شد که ارائه دهنده ایمیل او، یک سایت خبری، و خیلی از برنامه های دیگر نیز در دسترس نبودند.
 
-He had heard that this country censors the internet and wondered if that was happening.
-How could he contact his family from behind this impenetrable wall?
-After doing some web searches, he found a forum and read about VPNs, private services that allow you to connect to another uncensored network.
+او شنیده بود که این کشور اینترنت را سانسور می کند و به این فکر می کرد که آیا این بخشی از همان اتفاق است که در حال افتادن است.
+چه طور می تواند با خانواده خود از پشت این دیوار غیرقابل نفوذ ارتباط برقرار کند؟
+پس از مقداری جستجو در وب، یک انجمن پیدا کرد و درباره وی پی ان ها خواند، سرویس های خصوصی که به شما اجازه می دهند تا به یک شبکه دیگر که سانسور نیست وصل شوید.
 
 جین نیم ساعت برای پیدا کردن اینکه کدام وی پی ان ارزان بهتر است وقت سپری کرد.
 
