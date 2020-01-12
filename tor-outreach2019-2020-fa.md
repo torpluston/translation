@@ -1,6 +1,6 @@
 # تور توسعه یافته متریال 1397 - 1398
 
-# 1. تور برای محرمانگی
+# 1. تور برای حریم خصوصی
 
 ### حریم خصوصی یک حق انسانی است
 
@@ -25,9 +25,9 @@ Aleisha تصمیم می‌گیرد که به دنبال پیدا کردن و ا�
 
 فرناندا و همکارانش یک وب سایت با اطلاعاتی درباره سقط‌جنین، کنترل تولد و سایر منابع برای افرادی که به دنبال اطلاعات تولید مثلی هستند، ساختند.
 
-If this website was linked back to them, they could be arrested--or worse. 
+اگر ارتباطی بین آن ها و این سایت آشکار می شد، ممکن بود آن ها بازداشت شوند یا اتفاق بدتری برای آن ها بیافتد.
 
-To protect themselves, Fernanda and her colleagues created the website using Tor **onion services**. Onion services not only protect them from being discovered as the operators of the server but also help protect visitors to their website by requiring they use Tor Browser. 
+برای محافظت از خودشان، فرناندا و همکاران او سایت را با استفاده از **سرویس های پیازی** تور ایجاد کردند. سرویس های پیازی نه تنها از آن ها در برابر اینکه به عنوان گردانندگان سرور شناخته شوند محافظت می کند اما همچنین از بازدید کنندگان سایت آن ها نیز با ملزوم کردن آنها به استفاده از مرورگر تور محافظت میکند.
 
 در واقع فرناندا از **مرورگر تور** برای تمام کار های جستجوی خود استفاده می کند تا امن تر باشد
 
@@ -75,7 +75,7 @@ He had heard that this country censors the internet and wondered if that was hap
 How could he contact his family from behind this impenetrable wall?
 After doing some web searches, he found a forum and read about VPNs, private services that allow you to connect to another uncensored network.
 
-Jean spent half an hour trying to figure out which cheap VPN was best.
+جین نیم ساعت برای پیدا کردن اینکه کدام وی پی ان ارزان بهتر است وقت سپری کرد.
 
 He chose one and for a moment it seemed to work, but after five minutes the connection went offline and the VPN would no longer connect. 
 
@@ -85,7 +85,7 @@ He found an official website mirror to download the program.
 
 When he opened **Tor Browser**, he followed the prompts for censored users and connected to a bridge which allowed him to access the internet again.
 
-With Tor Browser, Jean can browse freely and privately and contact his family. 
+بوسیله مرورگر تور، جین میتواند آزادانه و به صورت خصوصی در وب بگردد و با خانواده خود ارتباط برقرار کند.
 
 ### Censored users all over the world rely on Tor Browser for a free, stable, and uncensored way to access the internet.
 
@@ -124,13 +124,13 @@ Bekele doesn't know that the website request came from Amal unless she tells him
 
 ## 7. چه کسانی از تور استفاده می کنند؟ 
 
-People all over the world use Tor to protect their privacy and access the web freely.
+افراد از سرتاسر جهان از تور برای محافظت از حریم خصوصی خود و دسترسی به وب به صورت آزاد استفاده می کنند.
 
 Tor helps protect journalists, human rights defenders, domestic violence victims, academic researchers, and anyone experiencing tracking, censorship, or surveillance. 
 
 ## 6. چرا به تور اعتماد کنیم؟ 
 
-Tor is designed for privacy. We don’t know who our users are, and we don't keep logs of user activity.
+تور با هدف حریم خصوصی طراحی شده است. ما نمی دانیم کاربران ما چه کسانی هستند، و ما فعالیت کاربران را ثبت نمی کنیم.
 
 Tor relay operators cannot reveal the true identity of Tor users.
 
