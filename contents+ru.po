@@ -353,8 +353,8 @@ msgid ""
 msgstr ""
 "В Tor Browser по умолчанию установлены два дополнения: [HTTPS "
 "Everywhere](https://www.eff.org/https-everywhere) и "
-"[NoScript](https://noscript.net). Прочие дополнения могут привести к "
-"деанонимизации."
+"[NoScript](https://noscript.net). Прочие дополнения могут разрушить вашу "
+"анонимность."
 
 #: https//support.torproject.org/faq/faq-3/
 #: (content/faq/faq-3/contents+en.lrquestion.description)
@@ -387,7 +387,7 @@ msgid ""
 "easy.html.en#linux) and [macOS](https://www.torproject.org/download"
 "/download-easy.html.en#mac)."
 msgstr ""
-"Сегодня Tor Browser [доступен](https://www.torproject.org/download/) для "
+"Сегодня Tor Browser [доступен](https://www.torproject.org/ru/download/) для "
 "Windows, Linux и MacOS."
 
 #: https//support.torproject.org/faq/faq-4/
@@ -402,11 +402,10 @@ msgid ""
 " to route other apps on your Android device over the Tor network."
 msgstr ""
 "Есть версия Tor Browser для "
-"[Android](https://www.torproject.org/download/#android). [The Guardian "
+"[Android](https://www.torproject.org/ru/download/#android). [The Guardian "
 "Project](https://guardianproject.info) также продвигает приложение "
 "[Orbot](https://play.google.com/store/apps/details?id=org.torproject.android),"
-" с помощью которого весь трафик вашего Android-устройства будет проходить "
-"через сеть Tor."
+" с помощью которого весь трафик Android-устройства проходит через сеть Tor."
 
 #: https//support.torproject.org/faq/faq-4/
 #: (content/faq/faq-4/contents+en.lrquestion.description)
@@ -637,7 +636,7 @@ msgid ""
 "modified or unmodified, either for a fee or gratis."
 msgstr ""
 "Это значит, что вы получаете право распространять программное обеспечение "
-"Tor – с изменениями или \"как есть\", бесплатно или за деньги."
+"Tor, с изменениями или \"как есть\", бесплатно или за деньги."
 
 #: https//support.torproject.org/about/distribute-tor/
 #: (content/about/distribute-tor/contents+en.lrquestion.description)
@@ -690,7 +689,7 @@ msgstr ""
 #: https//support.torproject.org/about/distribute-tor/
 #: (content/about/distribute-tor/contents+en.lrquestion.description)
 msgid "You will need to follow the license for those programs as well."
-msgstr "Вам необходимо также следовать условиям лицензий на эти программы."
+msgstr "Вам необходимо также следовать условиям лицензий для этих программ."
 
 #: https//support.torproject.org/about/distribute-tor/
 #: (content/about/distribute-tor/contents+en.lrquestion.description)
@@ -869,7 +868,7 @@ msgstr "### А первый сервер в цепочке видит, кто я
 #: https//support.torproject.org/about/how-is-tor-different-from-other-proxies/
 #: (content/about/how-is-tor-different-from-other-proxies/contents+en.lrquestion.description)
 msgid "Possibly."
-msgstr "Возможно."
+msgstr "И да, и нет."
 
 #: https//support.torproject.org/about/how-is-tor-different-from-other-proxies/
 #: (content/about/how-is-tor-different-from-other-proxies/contents+en.lrquestion.description)
@@ -3021,6 +3020,13 @@ msgid ""
 "account, or looking at the timestamps for recent logins and wondering if you"
 " actually logged in at those times."
 msgstr ""
+"Если кто-то и в самом деле украдет cookie-файл Google, он сможет (но "
+"необязательно) залогиниться из необычного места. В общем, поскольку вы "
+"работаете в Tor Browser, эта опция безопасности Google не так-то уж вам и "
+"полезна. Она просто создает ложные положительные срабатывания. Вам придется "
+"прибегнуть к другим подходам, например, присматривать, не творится ли с "
+"аккаунтом что-то странное, не было ли в логах отметок о том, что кто-то "
+"залогинился в то время, когда вы этого точно не могли сделать."
 
 #: https//support.torproject.org/tbb/tbb-45/
 #: (content/tbb/tbb-45/contents+en.lrquestion.description)
@@ -3029,6 +3035,10 @@ msgid ""
 "Verification](https://support.google.com/accounts/answer/185839) on their "
 "accounts to add an extra layer of security."
 msgstr ""
+"В последнее время пользователи Google включают в своих аккаунтах "
+"[двухэтапную "
+"аутентификацию](https://support.google.com/accounts/answer/185839) – "
+"дополнительный уровень защиты."
 
 #: https//support.torproject.org/tbb/tbb-46/
 #: (content/tbb/tbb-46/contents+en.lrquestion.title)
@@ -3062,6 +3072,14 @@ msgid ""
 "doing CONNECT requests to get to Tor relays. (It's fine if they're the same "
 "proxy.) Tor also recognizes the torrc options Socks4Proxy and Socks5Proxy."
 msgstr ""
+"Вы можете указать IP-адрес прокси, порт и идентификационные данные в "
+"[настройках сети Tor Browser](https://tb-manual.torproject.org/ru/running-"
+"tor-browser/). Если вы используете Tor иначе, загляните [на страницу "
+"руководства](https://2019.www.torproject.org/docs/tor-manual.html.en) и "
+"соответствующим образом измените файл torrc. Вам понадобится HTTP-прокси для"
+" GET-запросов, чтобы иметь доступ к папке Tor, и HTTPS-прокси для CONNECT-"
+"запросов, чтобы иметь доступ к узлам Tor. (Хорошо, если это один и тот же "
+"прокси). Tor также понимает опции torrc Socks4Proxy и Socks5Proxy."
 
 #: https//support.torproject.org/tbb/tbb-47/
 #: (content/tbb/tbb-47/contents+en.lrquestion.description)
@@ -3071,6 +3089,11 @@ msgid ""
 "but if you need NTLM authentication, you may find [this post in the "
 "archives](https://archives.seul.org/or/talk/Jun-2005/msg00223.html) useful."
 msgstr ""
+"Если ваш прокси требует авторизацию, обратите внимание на опции "
+"HTTPProxyAuthenticator и HTTPSProxyAuthenticator. В настоящее время мы "
+"поддерживаем только базовую аутентификацию. Если вам нужна NTLM-"
+"аутентификация, советуем обратиться к [этому "
+"материалу](https://archives.seul.org/or/talk/Jun-2005/msg00223.html)."
 
 #: https//support.torproject.org/tbb/tbb-47/
 #: (content/tbb/tbb-47/contents+en.lrquestion.description)
@@ -3080,6 +3103,10 @@ msgid ""
 "[Firewalled](https://2019.www.torproject.org/docs/faq.html.en#FirewallPorts)"
 " clients for how to restrict what ports your Tor will try to access."
 msgstr ""
+"Если ваши прокси разрешают вам подключение только к определенным портам, "
+"обратите внимание на то, как клиенты [с "
+"бранмауэрами](https://2019.www.torproject.org/docs/faq.html.en#FirewallPorts)"
+" могут ограничить доступ к портам со стороны Tor."
 
 #: https//support.torproject.org/tbb/tbb-5/
 #: (content/tbb/tbb-5/contents+en.lrquestion.title)
