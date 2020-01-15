@@ -6254,7 +6254,7 @@ msgid ""
 " Browser 9 related issues with the tbb-9.0-issues keyword. Tickets related "
 "to our website should be added with the component \"Webpages/Website.\""
 msgstr ""
-"Можете создать заявку (тикет) на "
+"Можете создать заявку (тикет) здесь: "
 "[https://trac.torproject.org](https://trac.torproject.org). Мы отслеживаем "
 "все проблемы, связанные с Tor Browser 9, по ключевому слову "
 "\"tbb-9.0-issues\". Вопросы, связанные с нашим веб-сайтом, лучше задавать в "
@@ -6284,8 +6284,8 @@ msgstr ""
 "сразу сориентируете нас, будет проще разобраться с вашим вопросом. (Примеры:"
 " \"Нет связи с сетью Tor\", \"Отзыв на материал веб-сайта\", \"Отзыв о "
 "работе Tor Browser\", \"Мне нужен мост\"). Иногда мы получаем сообщения с "
-"пустым полем \"Тема\". Такие послания обычно помечаются как спам и на "
-"рассмотрение не попадают."
+"пустым полем \"Тема\". Такие послания обычно автоматически помечаются как "
+"спам и на рассмотрение не попадают."
 
 #: https//support.torproject.org/misc/bug-or-feedback/
 #: (content/misc/bug-or-feedback/contents+en.lrquestion.description)
@@ -8686,8 +8686,8 @@ msgid ""
 "Right now the path length is hard-coded at 3 plus the number of nodes in "
 "your path that are sensitive."
 msgstr ""
-"Сейчас длина цепочки жестко определена равной трем серверам плюс, возможно, "
-"еще несколько."
+"Сейчас в цепочке по умолчанию три узла. Может быть и больше в зависимости от"
+" вашей ситуации."
 
 #: https//support.torproject.org/misc/misc-11/
 #: (content/misc/misc-11/contents+en.lrquestion.description)
@@ -8695,6 +8695,8 @@ msgid ""
 "That is, in normal cases it's 3, but for example if you're accessing an "
 "onion service or a \".exit\" address it could be more."
 msgstr ""
+"Иными словами, обычно узлов три, но если вы, к примеру, открываете onion-"
+"ресурс или адрес \".exit\", узлов может быть больше."
 
 #: https//support.torproject.org/misc/misc-11/
 #: (content/misc/misc-11/contents+en.lrquestion.description)
@@ -8703,6 +8705,9 @@ msgid ""
 "increases load on the network without (as far as we can tell) providing any "
 "more security."
 msgstr ""
+"Мы не хотим подталкивать людей к использованию более длинных цепочек. Это "
+"увеличивает нагрузку на сеть и, насколько мы можем судить, не повышает "
+"безопасность."
 
 #: https//support.torproject.org/misc/misc-11/
 #: (content/misc/misc-11/contents+en.lrquestion.description)
@@ -8712,6 +8717,11 @@ msgid ""
 "easier, and second because it could act as an identifier if only a small "
 "number of users have the same path length as you."
 msgstr ""
+"Кроме того, используя цепочки с числом узлов более трех, можно навредить "
+"анонимности. Во-первых, это упрощает организацию атаки по типу [отказа в "
+"безопасности](https://www.freehaven.net/anonbib/#ccs07-doa). Во-вторых, само"
+" по себе использование длинной цепочки может стать идентификатором, если "
+"цепочку такой же длины использует малое число людей."
 
 #: https//support.torproject.org/misc/misc-12/
 #: (content/misc/misc-12/contents+en.lrquestion.title)
@@ -8732,9 +8742,7 @@ msgstr ""
 msgid ""
 "OnionShare is an open source tool for securely and anonymously sending and "
 "receiving files using Tor onion services."
-msgstr ""
-"OnionShare – программа с открытым кодом, которая служит безопасному и "
-"анонимному обмену файлами с использованием сервисов Tor."
+msgstr "Это программа с открытым кодом."
 
 #: https//support.torproject.org/misc/misc-12/
 #: (content/misc/misc-12/contents+en.lrquestion.description)
@@ -8828,7 +8836,7 @@ msgstr "Как поддержать Tor Project?"
 #: https//support.torproject.org/misc/misc-15/
 #: (content/misc/misc-15/contents+en.lrquestion.description)
 msgid "Thank you for your support!"
-msgstr "Спасибо за поддержку."
+msgstr "Спасибо за намерение!"
 
 #: https//support.torproject.org/misc/misc-15/
 #: (content/misc/misc-15/contents+en.lrquestion.description)
@@ -8836,14 +8844,13 @@ msgid ""
 "You can find more information about donating on our [donor "
 "FAQ](https://donate.torproject.org/donor-faq)."
 msgstr ""
-"Больше информации о поддержке Tor можно найти в нашем [FAQ для "
+"О том, как поддержать Tor, написано в нашем [FAQ для "
 "доноров](https://donate.torproject.org/donor-faq)."
 
 #: https//support.torproject.org/misc/misc-2/
 #: (content/misc/misc-2/contents+en.lrquestion.title)
 msgid "Why don't you prevent bad people from doing bad things when using Tor?"
-msgstr ""
-"Почему вы не помешаете плохим людям делать плохие вещи с использованием Tor?"
+msgstr "Почему вы не помешаете плохим людям делать плохие вещи через Tor?"
 
 #: https//support.torproject.org/misc/misc-2/
 #: (content/misc/misc-2/contents+en.lrquestion.description)
@@ -8903,9 +8910,9 @@ msgid ""
 "reports."
 msgstr ""
 "См. полный [список наших "
-"спонсоров](https://www.torproject.org/about/sponsors/) и серию [публикаций в"
-" блоге](https://blog.torproject.org/category/tags/form-990) о финансовой "
-"отчетности."
+"спонсоров](https://www.torproject.org/ru/about/sponsors/) и серию "
+"[публикаций в блоге](https://blog.torproject.org/category/tags/form-990) о "
+"финансовой отчетности."
 
 #: https//support.torproject.org/misc/misc-3/
 #: (content/misc/misc-3/contents+en.lrquestion.description)
@@ -8913,8 +8920,8 @@ msgid ""
 "We feel that talking openly about our sponsors and funding model is the best"
 " way to maintain trust with our community."
 msgstr ""
-"Мы считаем, что лучший способ установить доверие к нам со стороны сообщества"
-" – открыто говорить о наших спонсорах и о модели финансирования."
+"Мы считаем, что лучший способ обрести доверие со стороны сообщества – "
+"открыто говорить о наших спонсорах и о модели финансирования."
 
 #: https//support.torproject.org/misc/misc-3/
 #: (content/misc/misc-3/contents+en.lrquestion.description)
@@ -8923,7 +8930,7 @@ msgid ""
 " foundations and individuals."
 msgstr ""
 "Мы все время стремимся к разнообразию в источниках финансирования, особенно "
-"когда речь идет о фонах и частных лицах."
+"когда речь идет о фондах и частных лицах."
 
 #: https//support.torproject.org/misc/misc-4/
 #: (content/misc/misc-4/contents+en.lrquestion.title)
