@@ -5165,7 +5165,7 @@ msgstr ""
 #: https//support.torproject.org/operators/my-relay-got-guard-flag-traffic-dropped/
 #: (content/operators/my-relay-got-guard-flag-traffic-dropped/contents+en.lrquestion.title)
 msgid "My relay recently got the Guard flag and traffic dropped by half."
-msgstr ""
+msgstr "Моему узлу Tor недавно присвоили флаг Guard, и трафик снизился вдвое"
 
 #: https//support.torproject.org/operators/my-relay-got-guard-flag-traffic-dropped/
 #: (content/operators/my-relay-got-guard-flag-traffic-dropped/contents+en.lrquestion.description)
@@ -5174,6 +5174,9 @@ msgid ""
 "not many clients have rotated their existing guards out to use it as a guard"
 " yet."
 msgstr ""
+"Теперь ваш узел сторожевой. В других качествах его будут использовать "
+"меньше. Однако не все клиенты откажутся от своих сторожевых узлов ради того,"
+" чтобы использовать ваш сторожевой узел."
 
 #: https//support.torproject.org/operators/my-relay-got-guard-flag-traffic-dropped/
 #: (content/operators/my-relay-got-guard-flag-traffic-dropped/contents+en.lrquestion.description)
@@ -5183,6 +5186,10 @@ msgid ""
 "Understanding and Improving Entry Guard Selection in "
 "Tor](https://www.freehaven.net/anonbib/cache/wpes12-cogs.pdf)."
 msgstr ""
+"Подробнее об этом можно прочесть в [блоге](https://blog.torproject.org/blog"
+"/lifecycle-of-a-new-relay) или в статье [Changing of the Guards: A Framework"
+" for Understanding and Improving Entry Guard Selection in "
+"Tor](https://www.freehaven.net/anonbib/cache/wpes12-cogs.pdf)."
 
 #: https//support.torproject.org/operators/offline-ed25519/
 #: (content/operators/offline-ed25519/contents+en.lrquestion.title)
@@ -5577,6 +5584,7 @@ msgstr "Ничего, если узел иногда оказывается оф
 #: (content/operators/relay-flexible/contents+en.lrquestion.description)
 msgid "The directories notice this quickly and stop advertising the relay."
 msgstr ""
+"Управляющий узел быстро замечает эту проблему и перестает использовать узел."
 
 #: https//support.torproject.org/operators/relay-flexible/
 #: (content/operators/relay-flexible/contents+en.lrquestion.description)
@@ -5584,6 +5592,8 @@ msgid ""
 "Just try to make sure it's not too often, since connections using the relay "
 "when it disconnects will break."
 msgstr ""
+"Постарайтесь, чтобы это не происходило слишком часто. Ведь любое соединение,"
+" которое использовало ваш узел в момент выхода из строя, прервется."
 
 #: https//support.torproject.org/operators/relay-flexible/
 #: (content/operators/relay-flexible/contents+en.lrquestion.description)
@@ -5593,6 +5603,10 @@ msgid ""
 "specifies what sort of outbound connections are allowed or refused from that"
 " relay."
 msgstr ""
+"* У каждого узла Tor есть [exit policy (выходная "
+"политика)](https://2019.www.torproject.org/docs/faq.html.en#ExitPolicies). В"
+" ней определяется, какие типы исходящих соединений разрешены (или не "
+"разрешены) с этого узла."
 
 #: https//support.torproject.org/operators/relay-flexible/
 #: (content/operators/relay-flexible/contents+en.lrquestion.description)
@@ -5600,6 +5614,9 @@ msgid ""
 "If you are uncomfortable allowing people to exit from your relay, you can "
 "set it up to only allow connections to other Tor relays."
 msgstr ""
+"Если вы не хотите, чтобы люди могли использовать ваш узел как выходной, "
+"настройте эту политику так, чтобы разрешать только подключения к другим "
+"узлам Tor."
 
 #: https//support.torproject.org/operators/relay-flexible/
 #: (content/operators/relay-flexible/contents+en.lrquestion.description)
@@ -5608,11 +5625,15 @@ msgid ""
 "capacity, so high-bandwidth relays will attract more users than low-"
 "bandwidth ones. Therefore, having low-bandwidth relays is useful too."
 msgstr ""
+"* Ваш узел в пассивном режиме будет оценивать и анонсировать вашу недавнюю "
+"пропускную способность. Узлы с высокой пропускной способностью привлекают "
+"больше пользователей, чем узлы с низкой пропускной способностью. Вот почему "
+"поддержка узлов с низкой пропускной способностью так полезна."
 
 #: https//support.torproject.org/operators/relay-memory/
 #: (content/operators/relay-memory/contents+en.lrquestion.title)
 msgid "Why is my Tor relay using so much memory?"
-msgstr ""
+msgstr "Почему мой узел Tor потребляет столько памяти?"
 
 #: https//support.torproject.org/operators/relay-memory/
 #: (content/operators/relay-memory/contents+en.lrquestion.description)
@@ -6350,6 +6371,12 @@ msgid ""
 "it will be for us to understand and follow up. Sometimes when we receive "
 "emails without subject lines, they're marked as spam and we don't see them."
 msgstr ""
+"В теме сообщения, пожалуйста, укажите, о какой проблеме идет речь. Если вы "
+"сразу сориентируете нас, будет проще разобраться с вашим вопросом. (Примеры:"
+" \"Нет связи с сетью Tor\", \"Отзыв на материал веб-сайта\", \"Отзыв о "
+"работе Tor Browser\", \"Мне нужен мост\"). Иногда мы получаем сообщения с "
+"пустым полем \"Тема\". Такие послания обычно автоматически помечаются как "
+"спам и на рассмотрение не попадают."
 
 #: https//support.torproject.org/misc/bug-or-feedback/
 #: (content/misc/bug-or-feedback/contents+en.lrquestion.description)
@@ -6360,6 +6387,10 @@ msgid ""
 "take us a bit longer to answer as we will need help with translation to "
 "understand it."
 msgstr ""
+"Более быстрый отклик получают сообщения на английском, испанском или "
+"португальском языках. Если ни один из этих языков вам не подходит, "
+"используйте любой другой, просто имейте в виду: нам понадобится время на "
+"перевод, и ответ придется ждать дольше."
 
 #: https//support.torproject.org/misc/bug-or-feedback/
 #: (content/misc/bug-or-feedback/contents+en.lrquestion.description)
@@ -6803,6 +6834,15 @@ msgid ""
 "service)), and never an exit node. You can view your current Tor circuit by "
 "clicking on the [i] on the URL bar."
 msgstr ""
+"Цепочка. Маршрут в [сети Tor](#tor-/-tor-network/-core-tor), создаваемый "
+"[клиентом](#client). Состоит из произвольно выбранных узлов. Цепочка "
+"начинается с [моста](#bridge) или [входного узла](#guard). Чаще всего "
+"цепочка состоит из трех узлов: мост/входной узел, [промежуточный узел"
+"](#middle-relay) и [выходной узел](#exit). Большинство [onion-ресурсов"
+"](#onion-services) использует шесть переходов в цепочке (исключение – "
+"[одиночные onion-ресурсы](#single-onion-service)) и не имеет выходных узлов."
+" Текущую цепочку Tor можно увидеть, если в адресной строке Tor Browser "
+"нажать на значок информации."
 
 #: https//support.torproject.org/misc/glossary/
 #: (content/misc/glossary/contents+en.lrquestion.description)
@@ -6900,6 +6940,14 @@ msgid ""
 " verify that the file you have downloaded is exactly the one that we "
 "intended you to get."
 msgstr ""
+"Криптографическая (шифровальная) подпись. Позволяет убедиться в "
+"аутентичности сообщения или файла. Подпись создается владельцем закрытого "
+"(секретного) ключа при использовании [алгоритма шифрования с открытым ключом"
+"](#public-key-cryptography). Проверить подпись можно с помощью парного "
+"открытого ключа. Если вы скачиваете какую-нибудь программу с torproject.org,"
+" то увидите файл подписи (.asc). Это подпись шифровальной программы PGP. "
+"Можете проверить и убедиться, что скачанный вами файл – тот, который и "
+"должен быть."
 
 #: https//support.torproject.org/misc/glossary/
 #: (content/misc/glossary/contents+en.lrquestion.description)
@@ -6907,6 +6955,8 @@ msgid ""
 "For more information, see [how you can verify signatures](/tbb/how-to-"
 "verify-signature/)."
 msgstr ""
+"Подробнее о создании и проверке цифровых подписей можете прочесть "
+"[здесь](/tbb/how-to-verify-signature/)."
 
 #: https//support.torproject.org/misc/glossary/
 #: (content/misc/glossary/contents+en.lrquestion.description)
@@ -7558,6 +7608,10 @@ msgid ""
 "plugin) called NoScript, accessed by clicking the hamburger menu at the top-"
 "right of the screen, then navigating to \"Add-ons\"."
 msgstr ""
+"[Tor Browser](#tor-browser) включает [дополнение](#add-on-extension-or-"
+"plugin) под названием NoScript. Доступ к дополнениям в браузере "
+"осуществляется через \"кнопку гамбургера\" в правом верхнем углу, далее "
+"пункт \"Дополнения\"."
 
 #: https//support.torproject.org/misc/glossary/
 #: (content/misc/glossary/contents+en.lrquestion.description)
@@ -7565,6 +7619,8 @@ msgid ""
 "NoScript allows you to control the [JavaScript](#javascript) that runs on "
 "individual web pages, or to block it entirely."
 msgstr ""
+"NoScript позволяет контролировать [JavaScript](#javascript) на отдельных "
+"веб-страницах или полностью блокировать JavaScript."
 
 #: https//support.torproject.org/misc/glossary/
 #: (content/misc/glossary/contents+en.lrquestion.description)
