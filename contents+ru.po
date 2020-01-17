@@ -4882,11 +4882,13 @@ msgstr "```"
 #: (content/operators/hibernation/contents+en.lrquestion.description)
 msgid "Bandwidth soft limit reached; commencing hibernation. No new"
 msgstr ""
+"Достигнут мягкий предел пропускной способности; приступаем к гибернации. "
+"Новые"
 
 #: https//support.torproject.org/operators/hibernation/
 #: (content/operators/hibernation/contents+en.lrquestion.description)
 msgid "connections will be accepted"
-msgstr ""
+msgstr "подключения не разрешаются."
 
 #: https//support.torproject.org/operators/hibernation/
 #: (content/operators/hibernation/contents+en.lrquestion.description)
@@ -4894,6 +4896,8 @@ msgid ""
 "The solution is to run two Tor processes - one relay and one client, each "
 "with its own config."
 msgstr ""
+"Решение вопроса – запускать два процесса Tor: один для узла, второй "
+"клиентский, и у каждого свои настройки."
 
 #: https//support.torproject.org/operators/hibernation/
 #: (content/operators/hibernation/contents+en.lrquestion.description)
@@ -4901,11 +4905,12 @@ msgid ""
 "One way to do this (if you are starting from a working relay setup) is as "
 "follows:"
 msgstr ""
+"Один из способов сделать это (если вы начали с настройки рабочего Tor-узла):"
 
 #: https//support.torproject.org/operators/hibernation/
 #: (content/operators/hibernation/contents+en.lrquestion.description)
 msgid "* In the relay Tor torrc file, simply set the SocksPort to 0."
-msgstr ""
+msgstr "* В файле torrc узла Tor просто установите SocksPort на 0."
 
 #: https//support.torproject.org/operators/hibernation/
 #: (content/operators/hibernation/contents+en.lrquestion.description)
@@ -5195,11 +5200,13 @@ msgstr ""
 #: (content/operators/offline-ed25519/contents+en.lrquestion.title)
 msgid "How do offline ed25519 identity keys work? What do I need to know?"
 msgstr ""
+"Как работают офлайновые идентификационные ключи ed25519? Что мне нужно про "
+"это знать?"
 
 #: https//support.torproject.org/operators/offline-ed25519/
 #: (content/operators/offline-ed25519/contents+en.lrquestion.description)
 msgid "In simple words, it works like this:"
-msgstr "Проще говоря, это выглядит так:"
+msgstr "Простыми словами:"
 
 #: https//support.torproject.org/operators/offline-ed25519/
 #: (content/operators/offline-ed25519/contents+en.lrquestion.description)
@@ -5207,6 +5214,8 @@ msgid ""
 "* There is a master ed25519 identity secret key file named "
 "\"ed25519_master_id_secret_key\"."
 msgstr ""
+"* Есть идентификационный мастер-ключ ed25519 – файл с названием "
+"\"ed25519_master_id_secret_key\"."
 
 #: https//support.torproject.org/operators/offline-ed25519/
 #: (content/operators/offline-ed25519/contents+en.lrquestion.description)
@@ -5214,6 +5223,8 @@ msgid ""
 "This is the most important one, so make sure you keep a backup in a secure "
 "place - the file is sensitive and should be protected."
 msgstr ""
+"Это самый важный ключ. Убедитесь, что сделали резервную копию и храните ее в"
+" надежном месте. Этот файл уязвим и нуждается в защите."
 
 #: https//support.torproject.org/operators/offline-ed25519/
 #: (content/operators/offline-ed25519/contents+en.lrquestion.description)
@@ -5221,6 +5232,8 @@ msgid ""
 "Tor could encrypt it for you if you generate it manually and enter a "
 "password when asked."
 msgstr ""
+"Tor может его для вас зашифровать, если вы создадите ключ вручную и в ответ "
+"на запрос укажете пароль."
 
 #: https//support.torproject.org/operators/offline-ed25519/
 #: (content/operators/offline-ed25519/contents+en.lrquestion.description)
@@ -5228,6 +5241,8 @@ msgid ""
 "* A medium term signing key named \"ed25519_signing_secret_key\" is "
 "generated for Tor to use."
 msgstr ""
+"* Для использования в Tor генерируется среднесрочный подписывающий ключ с "
+"названием \"ed25519_signing_secret_key\"."
 
 #: https//support.torproject.org/operators/offline-ed25519/
 #: (content/operators/offline-ed25519/contents+en.lrquestion.description)
