@@ -1,162 +1,162 @@
-# Tor-ის მასალები ცნობიერების ასამაღლბლად 2019-2020
+# Tor Outreach Material 2019-2020
 
-# 1. TOR პირადულობისთვის
+# 1. TOR FOR PRIVACY 
 
-### პირადულობა ადამიანის ძირითადი უფლებაა
+### Privacy is a human right
 
-ყველა ჩვენგანის მსგავსად, ალიშაც დიდ დროს ატარებს ინტერნეტში – მეგობრებთან ურთიერთობისთვის, სოციალურ ქსელში წერისთვის და გვერდების მოსანახულებლად.
+Like many of us, Aleisha spends most of her time online--connecting with friends, posting on social media, and browsing the web.
 
-თუმცა ბოლო დროს შენიშნა, რომ რეკლამები, ინტერნეტში მის მიერ მოძიებულ ადრინდელ მონაცემებს უკავშირდება.
+But lately, she's noticed that advertisements related to her previous searches are following her around online.
 
-ეს შეგრძნება იმდენად გამაღიზიანებელი აღმოჩნდა, რომ გადაწყვიტა მოეკვლია ინტერნეტში რეკლამების შესახებ ინფორმაცია და აღმოაჩინა, რომ არამხოლოდ სარეკლამო კომპანიები ადევნებენ თვალს, არამედ ინტერნეტის მომწოდებელიც, მკვლევარი ორგანიზაციები, სოციალური ქსელები და უამრავი სხვა.
+This feels so invasive that she does some research on online ads and learns that it's not just advertisers tracking her but also her ISP, analytics companies, social media platforms, and more.
 
-ალიშამ გადაწყვიტა მოენახა პროგრამა, რომელიც არ შეაგროვებდა მასზე ინფორმაციას, არ მიადევნებდა თვალს მის მოქმედებებს და პირად მონაცემებს მის შესახებ, არ გაუზიარებდა სხვა მომსახურებებს.
+Aleisha decides she wants to find and use software that doesn't collect her data, doesn't track her, and doesn't tell other services anything private about her.
 
-მან უკეთ შეისწავლა საკითხი უსაფრთხოების ადგილობრივი სპეციალისტებისგან და შეიტყო **Tor-ბრაუზერის** შესახებ, ერთადერთი ბრაუზერის, რომლის მეშვეობითაც, შეიძლება ინტერნეტის გამოყენება ვინაობის გაუმხელად.
-
----
-
-# 2.TOR ქალთა უფლებების დამცველთათვის
-
-### მომავალი არის ქალთა უფლებების დაცვა ინტერნეტით
-
-ფერნანდა ჩართულია ქალთა ერთობაში, რომლებიც იბრძვიან რეპროდუქციული უფლებებისთვის ბრაზილიაში, სადაც აბორტი კანონით აკრძალულია.
-
-ფერნანდა და მისი თანამებრძოლები ქმნიან ვებგვერდს, სადაც იქნება მონაცემები აბორტის ხელმისაწვდომობის შესახებ, შობადობის კონტროლზე და სხვა სასარგებლო მასალები, რომლებიც გამოადგებათ რეპროდუქციაზე ინფორმაციის მაძიებლებს.
-
-მაგრამ, თუ საიტი მათთან იქნება დაკავშირებულია, შეიძლება დააპატიმრონ – ან რამე უარესი დამართონ.
-
-უსაფრთხოების მიზნით, ფერნანდამ და მისმა თანამებრძოლებმა, საიტი შექმნეს Tor-ის **onion-მომსახურების** საშუალებით. Onion-მომსახურებები, არა მხოლოდ იცავს მათ აღმოჩენისგან, არამედ უზრუნველყოფს საიტის მნახველების უსაფრთხოებასაც, Tor-ბრაუზერის გამოყენების მოთხოვნით. 
-
-საერთო ჯამში, ფერნანდა იყენებს **Tor-ბრაუზერს** ყველა მისი მოქმედებისთვის ინტერნეტში, უსაფრთხოების უზრუნველსაყოფად.
-
-იგი, ასევე იყენებს Tor-ზე მომუშავე პროგრამასაც სახელწოდებით **OnionShare** ფაილების დაცულად და უსაფრთხოდ გაზიარებისთვის, თანამებრძოლებს შორის.
-
-### რეპროდუქციის უფლებათა დამცველები, როგორიცაა ფერნანდა, იბრძვიან ძირითადი თავისუფლებისთვის, Tor კი ეხმარება წინააღმდეგობების დაძლევაში.
+She goes to a privacy training at a local hackerspace and learns about **Tor Browser**, the only web browser that allows her to browse anonymously.
 
 ---
 
-# 3. TOR ადამიანის უფლებებისთვის
+# 2.TOR FOR FEMINISTS 
 
-### წყალი სიცოცხლეა
+### The future is cyberfeminist
 
-ჯელანი პატარა სოფელში ცხოვრობს, რომელსაც ფართო მდინარე კვეთს.
+Fernanda runs a women's collective focused on reproductive rights in Brazil, where abortion is illegal.
 
-მდინარე სასმელი წყლით ამარაგებს მის დასახლებას, წინაპრების დროიდან.
+Fernanda and her colleagues built a website with information about abortion access, birth control, and other resources for people seeking reproductive information.
 
-მაგრამ დღეს, ჯელანის მდინარეს საფრთხე ემუქრება, რადგან მძლავრი საერთაშორისო კომპანიები რეგიონში ნავთობის ჭაბურღილებს აშენებენ.
+If this website was linked back to them, they could be arrested--or worse. 
 
-ამ კომპანიების მიერ ფინანსდება კერძო დაცვის ფირმები, რომ მკაცრად ადევნონ თვალი ჯელანისა და მისი მეზობლების მოქმედებებს ინტერნეტში, რომლებიც გეგმავენ დაიცვან მათი მდინარის ხელშეუხებლობა.
+To protect themselves, Fernanda and her colleagues created the website using Tor **onion services**. Onion services not only protect them from being discovered as the operators of the server but also help protect visitors to their website by requiring they use Tor Browser. 
 
-ჯელანი იყენებს **Tor-ბრაუზერს** ამ კომპანიების თვალთვალის აღსაკვეთად, ადამიანის უფლებათა დამცველი საერთაშორისო ორგანიზაციებისა და სამართლებრივ საკითხთა დახმარების ვებგვერდების მონახულებისას, აგრეთვე, მისი სოფლის წინააღმდეგობის მოძრაობის შესახებ სტატიების გამოქვეყნებისას. 
+In fact, Fernanda uses **Tor Browser** for all of her web browsing just to be on the safe side.
 
-იგი ასევე სარგებლობს მომსახურებებით **OnionShare** და **SecureDrop**, მასალების უსაფრთხოდ მისაწოდებლად ჟურნალისტებისა და იმ ხალხისთვის, რომლებიც ეხმარებიან უფლებების დარღვევათა გამოაშკარავებაში.
+She also uses a Tor-powered app called **OnionShare** to send files to other activists securely and privately. 
 
-ყველა ეს  პროგრამა იყენებს Tor-ს ჯელანის პირადი მონაცემების დასაცავად.
-
-### ადამიანთა უფლებების დაცვისთვის მებრძოლები, როგორიცაა ჯელანი, იღწვიან თავიანთ საზოგადოებაში სამართლიანობისთვის, Tor კი უზრუნველყოფს მათ წინააღმდეგობების დაძლევაში.
+### Reproductive rights activists like Fernanda are fighting for fundamental freedoms, and Tor helps power their resistance.
 
 ---
 
-# 4. TOR ცენზურის წინააღმდეგ
+# 3. TOR FOR HUMAN RIGHTS
 
-### ხიდების შენება ნაცვლად კედლებისა
+### Water is life 
 
-ჯინი პირველად გაემგზავრა უცხოეთში ოჯახისგან შორს.
+Jelani lives in a small village  which a wide river runs through.
 
-სასტუმროში დაბინავების შემდეგ, გახსნა თავისი ლეპტოპი.
+This river has provided water to his community since the days of his ancestors. 
 
-იგი მეტად დაღლილი იყო და როცა პირველად ნახა შეტყობინება ბრაუზერში „კავშირის დრო ამოიწურა“, იფიქრა რომ საკუთარი შეცდომის გამო იყო.
+But today, Jelani’s river is threatened by powerful multinational companies drilling for oil in the region.
 
-თუმცა, მომდევნო მცდელობების შემდეგ აღმოაჩინა, რომ მისი ელფოსტის მომსახურე და ახალი ამბების საიტები, ამასთან მრავალი სხვა პროგრამა მიუწვდომელი იყო.
+Private security firms, paid for by these companies, use powerful surveillance mechanisms to monitor the online activities of Jelani and his neighbors in the village who are organizing to protect their sacred river. 
 
-მას გაგონილი ჰქონდა, რომ ეს ქვეყანა ზღუდავს ინტერნეტს და სურდა გამოსავალი ეპოვა.
-როგორ უნდა დაკავშირებოდა თავისი ოჯახის წევრებს, გაურღვეველი კედლის მიღმა?
-ინტერნეტში მცირე მოკვლევის შემდეგ, მონახა ერთ-ერთი ფორუმი, სადაც წაიკითხა VPN-ების შესახებ, კერძო მომსახურებების, რომლებიც საშუალებას იძლევა სხვა, ცენზურისგან თავისუფალ ქსელთან კავშირის.
+Jelani uses **Tor Browser** to prevent these companies from watching as he visits websites for international human rights protection and legal aid and writes blog posts about the resistance movement in his village.
 
-ჯინმა ერთი საათი ცდილობდა გამოერკვია, რომელი იაფი VPN იყო საუკეთესო.
+He also uses **OnionShare** and **SecureDrop** to securely send documents to journalists who are helping expose these human rights violations.
 
-როგორც იქნა, შეარჩია ერთ-ერთი რომელმაც იმუშავა, მაგრამ ხუთი წუთის შემდეგ კავშირი გაწყდა და VPN გახდა მიუწვდომელი.
+All of this software uses Tor to help protect Jelani’s privacy. 
 
-ჯინმა განაგრძო კითხვა სხვა საშუალებების მოსანახად და გაიგო Tor-ბრაუზერის შესახებ, თუ როგორ შეუძლია მას, ცენზურისთვის გვერდის ავლა.
-
-მან მოიძია ბმულის ოფიციალური ასლები პროგრამის ჩამოსატვირთად.
-
-როცა გაუშვა **Tor-ბრაუზერი**, გაჰყვა ცენზურის ქვეშ მყოფი მომხმარებლებისთვის განკუთვნილ მეგზურს და დაუკავშირდა გადამცემ ხიდს, რომლის მეშვეობითაც გავიდა ინტერნეტში.
-
-Tor-ბრაუზერით, ჯინს შეუძლია უფასოდ, თავისუფლად და პირადი მონაცემების გაუმჟღავნებლად დაუკავშირდეს ოჯახის წევრებს. 
-
-### მომხმარებლები რომლებიც ცენზურის ქვეშ არიან მთელ მსოფლიოში, ენდობიან Tor-ბრაუზერს, ვინაიდან არის უფასო, მდგრადი, გახსნილი საშუალება, ინტერნეტთან თავისუფალი წვდომის.
+### Human rights activists like Jelani are fighting for justice in their communities, and Tor helps power their resistance.
 
 ---
 
-# 5. ზოგადი საკითხები
+# 4. TOR FOR ANTI-CENSORSHIP
 
-## რა არის Tor?
+### Build bridges not walls
 
-Tor უფასო პროგრამა და ღია ქსელია, რომელიც გეხმარებათ თვალყურის დევნისგან, ზედამხედველებისგან და ცენზურისგან თავის დაცვაში.
-Tor შექმნილია ა.შ.შ.-ს 501(c)3 კანონის შესაბამისად, დაფუძნებული როგორც არამომგებიანი ორგანიზაცია სახელწოდებით Tor Project.
+Jean was traveling for the first time to a country far from his family.
 
-უმარტივესი გზა Tor-ის გამოსაყენებლად არის Tor-ბრაუზერი.
-როცა სარგებლობთ Tor-ბრაუზერით, ვერავინ შეძლებს გაიგოს, თუ რომელ საიტს ეწვევით ან მსოფლიოს რომელ მხარეში იმყოფებით.
+After arriving at a hotel, he opened his laptop.
 
-სხვა პროგრამები, როგორიცაა SecureDrop და OnionShare იყენებს Tor-ს თავიანთი მომხმარებლების ზემდგომებისა და ცენზურისგან დასაცავად.
+He was so exhausted that when the message "Connection has timed out" first appeared on his web browser, he thought it was due to his own error.
 
+But after trying again and again, he realized that his email provider, a news website, and many apps were unavailable. 
 
-## 6. როგორ მუშაობს Tor?
+He had heard that this country censors the internet and wondered if that was happening.
+How could he contact his family from behind this impenetrable wall?
+After doing some web searches, he found a forum and read about VPNs, private services that allow you to connect to another uncensored network.
 
-ამალს სურს ეწვიოს ბეკელეს ვებსაიტს ვინაობის გაუმხელად, ასე რომ ხსნის Tor-ბრაუზერს.
+Jean spent half an hour trying to figure out which cheap VPN was best.
 
-Tor-ბრაუზერი ქმნის წრედს სამი შემთხვევითი გადამცემით, რომლებიც წარმოადგენს კომპიუტერებს მსოფლიოს სხვადასხვა წერტილიდან, გამართულს Tor-ქსელით მონაცემების გადასაცემად.
+He chose one and for a moment it seemed to work, but after five minutes the connection went offline and the VPN would no longer connect. 
 
-Tor-ბრაუზერი შესაბამისად დაშიფრავს მის მოთხოვნას სამჯერ და გაუგზავნის პირველ Tor-გადამცემს მის წრედში.
+Jean kept reading to find other options and learned about Tor Browser and how it can circumvent censorship.
 
-პირველი გადამცემი მოაცილებს დაშიფვრის პირველ შრეს, მაგრამ ვერ გაიგებს, რომ დანიშნულების წერტილი არის ბეკელეს ვებსაიტი.
+He found an official website mirror to download the program.
 
-პირველ გადამცემს ეცოდინება მხოლოდ მომდევნო წერტილი წრედში, რომელსაც წარმოადგენს მეორე გადამცემი.
+When he opened **Tor Browser**, he followed the prompts for censored users and connected to a bridge which allowed him to access the internet again.
 
-მეორე გადამცემი მოაცილებს დაშიფვრის შემდეგ შრეს და გადაუგზავნის ვებგვერდის მოთხოვნას მესამე გადამცემს.
+With Tor Browser, Jean can browse freely and privately and contact his family. 
 
-მესამე გადამცემი კი მოაცილებს დაშიფვრის ბოლო შრეს და ვებგვერდის მოთხოვნას გადააგზავნის დანიშნულების ადგილას, ანუ ბეკელეს ვებსაიტზე, თუმცა მას არ ეცოდინება, რომ მოთხოვნა მოდიოდა ამალის კომპიუტერიდან.
+### Censored users all over the world rely on Tor Browser for a free, stable, and uncensored way to access the internet.
 
-შესაბამისად, ბეკელეს არ ეცოდინება რომ ვებსაიტის მოთხოვნა ამალისგან მოდიოდა, სანამ თავად ამალი არ აცნობებს ამას.
+---
 
-## 7. ვინ იყენებს Tor-ს? 
+# 5. Shared Sections
 
-ხალხი მთელი მსოფლიოდან იყენებს Tor-ს საკუთარი პირადი მონაცემების უსაფრთხოებისთვის და ინტერნეტთან თავისუფალი წვდომისთვის.
+## What is Tor?
 
-Tor ეხმარება ჟურნალისტებს, ადამიანის უფლებათა დამცველებს, ოჯახური ძალადობის მსხვერპლებს, მკვლევარებს და ნებისმიერ ადამიანს, რომელსაც სურს თავი აარიდოს თვალის დევნებას, ზედამხედველებს და ცენზურას.
+Tor is free software and an open network that helps protect you from tracking, surveillance, and censorship online.
+Tor is created for free by a 501(c)3 U.S.-based nonprofit called the Tor Project. 
 
-## 6. რატომ უნდა ვენდო Tor-ს?
+The easiest way to use Tor is Tor Browser.
+When you use Tor Browser, no one can see what websites you visit or where in the world you’re coming from. 
 
-Tor განკუთვნილია პირადი მონაცემების დასაცავად. ჩვენ არ ვიცით ვინ არიან ჩვენი მომხმარებლები და არ აღვრიცხავთ მათი მოქმედებების შესახებ არანაირ ინფორმაციას.
-
-Tor-გადამცემის მფლობელებს არ შეუძლიათ Tor-ის მომხმარებლების ნამდვილი ვინაობის დადგენა.
-
-მუდმივი დაკვირვება Tor-ის პირველწყარო კოდზე აკადემიური საზოგადოებებისა და ღია წყაროს ერთობების მიერ, ადასტურებს რომ არანაირი ფარული ხვრელები Tor-ში არ არსებობს და ჩვენი სოციალური პასუხისმგებლობით განსაზღვრულია პირობა, რომ Tor-ში არასდროს იარსებებს მსგავსი რამ.
-
-## 7. შემოუერთდით Tor-ის ერთობას
-
-Tor შექმნილია მრავალი, ერთმანეთისგან განსხვავებული მომხმარებლის, შემმუშავებლისა, გადამცემების მმართველებისა და მხარდამჭერების მიერ, მთელი მსოფლიოდან.
-
-ჩვენ გვესაჭიროება თქვენი დახმარება, რომ Tor გავხადოთ უფრო მეტად სასარგებლო და დაცული, ყველასთვის და ყველგან.
-
-შეგიძლიათ მონაწილეობა მიიღოთ Tor-პროექტში კოდის წერით, გადამცემის გაშვებით, მასალების შედგენით, მომხმარებლებისთვის მხარდაჭერის აღმოჩენით და მეტი ადამიანისთვის თქვენს ირგვლივ, Tor-ის შესახებ ინფორმაციის მიწოდებით.
-
-Tor-ის ერთობა იმართება წესდებით და ჩვენი, პირობების კრებული საზოგადოების მიმართ გაწერილი გვაქვს ჩვენს შეთანხმებაში.
-
-იხილეთ ვრცლად Tor-ის შესახებ, ჩვენს ვებსაიტზე, ვიკიში, მოგვძებნეთ IRC-სასაუბროში, შემოგვიერთდით ელფოსტის ჯგუფში ან გამოიწერეთ Tor-ის სიახლეები მისამართზე newsletter.torproject.org.
+Other applications, like SecureDrop and OnionShare, use Tor to protect their users against surveillance and censorship.
 
 
-## 8. ჩამოტვირთეთ Tor
+## 6. How does Tor work?
 
-Tor კომპიუტერისთვის
+Amal wants to visit Bekele’s website privately, so she opens Tor Browser.
+
+Tor Browser selects a random circuit of three relays, which are computers all over the world configured to route traffic over the Tor network.
+
+Tor Browser then encrypts her website request three times and sends it to the first Tor relay in her circuit.
+
+The first relay removes the first encryption layer but doesn't learn that the destination is Bekele’s website.
+
+The first relay learns only the next location in the circuit, which is the second relay.
+
+The second relay removes another encryption layer and forwards the web page request to the third relay.
+
+The third relay removes the last encryption layer and forwards the web page request to its destination, Bekele’s website, but it doesn't know the request comes from Amal.
+
+Bekele doesn't know that the website request came from Amal unless she tells him so.
+
+## 7. Who uses Tor? 
+
+People all over the world use Tor to protect their privacy and access the web freely.
+
+Tor helps protect journalists, human rights defenders, domestic violence victims, academic researchers, and anyone experiencing tracking, censorship, or surveillance. 
+
+## 6. Why trust Tor?
+
+Tor is designed for privacy. We don’t know who our users are, and we don't keep logs of user activity.
+
+Tor relay operators cannot reveal the true identity of Tor users.
+
+Continual peer review of Tor's source code by academic and open source communities ensures that there are no backdoors in Tor, and our social contract promises that we will never backdoor Tor. 
+
+## 7. Join the Tor community
+
+Tor is made possible by a diverse set of users, developers, relay operators, and advocates from around the world.
+
+We need your help to make Tor more usable and secure for people everywhere.
+
+You can volunteer with Tor by writing code, running a relay, creating documentation, offering user support, or telling people in your community about Tor.
+
+The Tor community is governed by a code of conduct, and we outline our set of promises to the community in our social contract. 
+
+Learn more about Tor by visiting our website, our wiki, finding us on IRC, joining one of our mailing lists, or signing up for Tor News at newsletter.torproject.org.
+
+
+## 8. Download Tor
+
+Tor for Desktop
 torproject.org/download
 
-TOR მობილურზე
+TOR ON MOBILE
 ### Android 
-Tor-ბრაუზერი Android-ისთვის ხელმისაწვდომია GooglePlay-დან.
+Tor Browser for Android is available from GooglePlay.
 
 ### iOS
-Onion Browser, შექმნილი M. Tigas-ის მიერ, ერთადერთი ბრაუზერია რომელსაც გირჩევთ iOS-ისთვის.
+Onion Browser, developed by M. Tigas, is the only browser we recommend for iOS.
 
