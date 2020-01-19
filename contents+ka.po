@@ -3831,6 +3831,8 @@ msgid ""
 "If you’re having trouble connecting, an error message may appear and you can"
 " select the option to \"copy Tor log to clipboard\"."
 msgstr ""
+"თუ ხარვეზია დაკავშირებისას, გამოჩნდება შეცდომის კოდი და შეგეძლებათ მიუთითოთ "
+"„Tor-ის აღრიცხვის ჩანაწერების ასლი“."
 
 #: https//support.torproject.org/connecting/connecting-2/
 #: (content/connecting/connecting-2/contents+en.lrquestion.description)
@@ -3870,7 +3872,7 @@ msgstr ""
 #: https//support.torproject.org/censorship/censorship-5/
 #: (content/censorship/censorship-5/contents+en.lrquestion.description)
 msgid "##### Common log error #1: Proxy connection failure"
-msgstr ""
+msgstr "##### გავრცელებული შეცდომა #1 ჩანაწერში: პროქსი-კავშირის ჩაშლა"
 
 #: https//support.torproject.org/connecting/connecting-2/
 #: (content/connecting/connecting-2/contents+en.lrquestion.description)
@@ -6698,6 +6700,12 @@ msgid ""
 "it will be for us to understand and follow up. Sometimes when we receive "
 "emails without subject lines, they're marked as spam and we don't see them."
 msgstr ""
+"საკითხის ველში ელფოსტის წერტილში, გთხოვთ მიუთითოთ, რას ეხება მოხსენება. რაც "
+"უფრო ნათლად იქნება საკითხი მოცემული (მაგ. „კავშირის ხარვეზი“, „გამოხმაურება "
+"საიტის შესახებ“, „გამოხმაურება Tor-ბრაუზერის თაობაზე“, „მესაჭიროება "
+"გადამცემი ხიდი“), მით უფრო ადვილად შევძლებთ გარკვევასა და თვალის მიდევნებას."
+" ზოგჯერ, როცა ვიღებთ წერილებს საკითხის მიუთითებლად, ინიშნება არასასურველ "
+"შეტყობინებად და ვეღარ ვნახულობთ."
 
 #: https//support.torproject.org/misc/bug-or-feedback/
 #: (content/misc/bug-or-feedback/contents+en.lrquestion.description)
@@ -6708,6 +6716,10 @@ msgid ""
 "take us a bit longer to answer as we will need help with translation to "
 "understand it."
 msgstr ""
+"სწრაფი პასუხის მისაღებად, გთხოვთ დაწეროთ ინგლისურად, ესპანურად და/ან "
+"პორტუგალიურად. თუ არცერთი ეს ენა არაა გამოსადეგი, მაშინ მოგვწერეთ სასურველ "
+"ენაზე, თუმცა გაითვალისწინეთ, რომ პასუხმა შეიძლება დიდხანს გასტანოს, ვინაიდან"
+" დრო დაგვჭირდება გადასათარგმნად და გასაგებად."
 
 #: https//support.torproject.org/misc/bug-or-feedback/
 #: (content/misc/bug-or-feedback/contents+en.lrquestion.description)
@@ -6758,6 +6770,9 @@ msgid ""
 "For reporting issues or feedback using email lists, we recommend that you do"
 " so on the one that is related to what you would like to report."
 msgstr ""
+"ხარვეზების მოსახსენებლად ან გამოხმაურებისთვის ელფოსტის ჯგუფის მეშვეობით, "
+"გირჩევთ ისეთის გამოყენებას, რომელიც დაკავშირებულია იმ საკითხთან, რის "
+"შესახებაც მოხსენება გსურთ."
 
 #: https//support.torproject.org/misc/bug-or-feedback/
 #: (content/misc/bug-or-feedback/contents+en.lrquestion.description)
@@ -6912,6 +6927,9 @@ msgid ""
 "You should not install any additional add-ons on Tor Browser because that "
 "can compromise some of its privacy features."
 msgstr ""
+"დაჟინებით გირჩევთ არ დააყენოთ სხვა დამატებები Tor-ბრაუზერში, ვინაიდან ამის "
+"შედეგად, შესაძლოა საფრთხის ქვეშ დადგეს თქვენი პირადი მონაცემებისა და "
+"ვინაობის გაუმხელობა."
 
 #: https//support.torproject.org/misc/glossary/
 #: (content/misc/glossary/contents+en.lrquestion.description)
@@ -7114,6 +7132,8 @@ msgid ""
 "CAPTCHAs are a challenge-response test used in computing to determine "
 "whether the user is human or not."
 msgstr ""
+"CAPTCHA წარმოადგენს შესამოწმებელ საშუალებას, რომლითაც ხდება დადგენა, "
+"მომხმარებელი ადამიანია თუ რობოტული პროგრამა."
 
 #: https//support.torproject.org/misc/glossary/
 #: (content/misc/glossary/contents+en.lrquestion.description)
@@ -7163,6 +7183,15 @@ msgid ""
 "service)), and never an exit node. You can view your current Tor circuit by "
 "clicking on the [i] on the URL bar."
 msgstr ""
+"გზა, რომელიც [Tor-ქსელში](#tor-/-tor-network/-core-tor) აგებულია "
+"[კლიენტის](#client) მიერ, შემთხვევით შერჩეული კვანძებისგან. წრედი იწყება ან "
+"[ხიდით](#bridge), ან [მცველით](#guard). წრედების უმეტესობა შედგება სამი "
+"კვანძისგან – მცველი ან ხიდი, [შუალედური გადამცემი](#middle-relay) და "
+"[გამსვლელი](#exit) წერტილი. [Onion-მომსახურებების](#onion-services) დიდი "
+"ნაწილი იყენებს ექვს შეერთებას წრედში (გარდა [ცალკეული onion-მომსახურებებისა"
+"](#single-onion-service)), გამსვლელი წერტილის გარეშე. Tor-ის თქვენი "
+"მიმდინარე წრედის ნახვა, შეგიძლიათ Tor-ბრაუზერში, [i] ღილაკზე დაწკაპებით "
+"მისამართების ველში."
 
 #: https//support.torproject.org/misc/glossary/
 #: (content/misc/glossary/contents+en.lrquestion.description)
@@ -7226,11 +7255,14 @@ msgid ""
 "stored on the user's computer by the user's [web browser](#web-browser) "
 "while the user is browsing."
 msgstr ""
+"[HTTP](#http)-ფუნთუშა (ასევე ბრაუზერის ფუნთუშა) ეწოდება მონაცემების მცირე "
+"სახის ნაკრებს, რომელსაც საიტი აგზავნის და ინახავს მომხმარებლის კომპიუტერში,"
+"  [ბრაუზერის](#web-browser) მეშვეობით, გვერდების მონახულებისას."
 
 #: https//support.torproject.org/misc/glossary/
 #: (content/misc/glossary/contents+en.lrquestion.description)
 msgid "By default, [Tor Browser](#tor-browser) does not store cookies."
-msgstr ""
+msgstr "ნაგულისხმევად, [Tor-ბრაუზერი](#tor-browser) არ ინახავს ფუნთუშებს."
 
 #: https//support.torproject.org/misc/glossary/
 #: (content/misc/glossary/contents+en.lrquestion.description)
@@ -7263,6 +7295,13 @@ msgid ""
 " verify that the file you have downloaded is exactly the one that we "
 "intended you to get."
 msgstr ""
+"შიფრის ხელმოწერა ადასტურებს წერილის ან ფაილის ნამდვილობას. იგი იქმნება "
+"საიდუმლო გასაღების მფლობელის მიერ, [საჯარო გასაღებით დაშიფვრის](#public-key-"
+"cryptography) გასაღებების წყვილიდან და შეიძლება დამოწმდეს შესაბამისი საჯარო "
+"გასაღებით. თუ თქვენ ჩამოტვირთავთ პროგრამას მისამართიდან torproject.org, მის "
+"პოვნას შეძლებთ ხელმოწერის ფაილებში (.asc). ისინი წარმოდგენილია PGP-"
+"ხელმოწერების სახით, ასე რომ შეგეძლებათ გადაამოწმოთ, ჩამოტვირთული ფაილი "
+"ნამდვილად თქვენთვის იყო განკუთვნილი თუ არა."
 
 #: https//support.torproject.org/misc/glossary/
 #: (content/misc/glossary/contents+en.lrquestion.description)
@@ -7270,6 +7309,8 @@ msgid ""
 "For more information, see [how you can verify signatures](/tbb/how-to-"
 "verify-signature/)."
 msgstr ""
+"ვრცლად, იხილეთ [ხელმოწერების დამოწმების "
+"შესახებ](https://support.torproject.org/ka/tbb/how-to-verify-signature/)."
 
 #: https//support.torproject.org/misc/glossary/
 #: (content/misc/glossary/contents+en.lrquestion.description)
@@ -7523,7 +7564,7 @@ msgstr ""
 #: https//support.torproject.org/misc/glossary/
 #: (content/misc/glossary/contents+en.lrquestion.description)
 msgid "### GSoD"
-msgstr ""
+msgstr "### GSoD"
 
 #: https//support.torproject.org/misc/glossary/
 #: (content/misc/glossary/contents+en.lrquestion.description)

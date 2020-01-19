@@ -4691,9 +4691,9 @@ msgid ""
 "watching them too, but you're no better off than if you were an ordinary "
 "client.)"
 msgstr ""
-"(В этом случае адрес назначения всё ещё сокрыт от атакующего, если он также "
-"не прослушивается. Т.е. ваша ситуация не лучше, чем если бы вы были обычным "
-"клиентом.)"
+"(В этом случае адреса назначения все еще скрыты от злоумышленника, если "
+"только злоумышленник также не отслеживает их. Ваша ситуация не лучше, чем "
+"если бы вы были обычным клиентом)."
 
 #: https//support.torproject.org/operators/better-anonymity/
 #: (content/operators/better-anonymity/contents+en.lrquestion.description)
@@ -4779,8 +4779,8 @@ msgid ""
 "Each Tor relay has an exit policy that specifies what sort of outbound "
 "connections are allowed or refused from that relay."
 msgstr ""
-"У каждого узла Tor есть политика исходящего трафика, определяющая допустимые"
-" соединения от лица этого узла."
+"У каждого узла Tor есть политика исходящего трафика. Она определяет "
+"допустимые соединения от лица этого узла."
 
 #: https//support.torproject.org/operators/exit-policies/
 #: (content/operators/exit-policies/contents+en.lrquestion.description)
@@ -4789,9 +4789,9 @@ msgid ""
 "clients will automatically avoid picking exit relays that would refuse to "
 "exit to their intended destination."
 msgstr ""
-"Политики исходящего трафика распространяются клиентам Tor с помощью "
-"директории, так что клиенты автоматически будут избегать выходных узлов, "
-"которые запретили бы соединение с их желаемым адресом назначения."
+"Политики исходящего трафика влияют на клиентов Tor через директорию. Если "
+"конечное назначение, выбранное клиентом, запрещено в политике исходящего "
+"трафика узла, такой узел автоматически не будет предлагаться."
 
 #: https//support.torproject.org/operators/exit-policies/
 #: (content/operators/exit-policies/contents+en.lrquestion.description)
@@ -4799,9 +4799,8 @@ msgid ""
 "This way each relay can decide the services, hosts, and networks it wants to"
 " allow connections to, based on abuse potential and its own situation."
 msgstr ""
-"Таким способом каждый узел может решить на основании возможности "
-"злоупотреблений и собственной ситуации, с какими сервисам и сетями он "
-"разрешает устанавливать соединения."
+"Так владелец каждого узла может сам определять, с какими сервисами и сетями "
+"разрешать соединения."
 
 #: https//support.torproject.org/operators/exit-policies/
 #: (content/operators/exit-policies/contents+en.lrquestion.description)
@@ -4812,12 +4811,11 @@ msgid ""
 "read Mike Perry's [tips for running an exit node with minimal "
 "harassment](https://blog.torproject.org/blog/tips-running-exit-node)."
 msgstr ""
-"Прочитайте [справку о проблемах, с которыми вы можете "
-"столкнуться](https://2019.www.torproject.org/docs/faq-"
-"abuse.html.en#TypicalAbuses), если вы используете политику исходящего "
-"трафика \"по-умолчанию\". Затем прочтите [советы от Майка Перри о том, как "
-"управлять выходным узлом с минимумом "
-"беспокойства](https://blog.torproject.org/blog/tips-running-exit-node)."
+"Если вы используете политику исходящего трафика по умолчанию, прочтите [о "
+"потенциальных проблемах](https://2019.www.torproject.org/docs/faq-"
+"abuse.html.en#TypicalAbuses). Вам также будут полезны [советы Майка Перри о "
+"том, как проще управлять выходным узлом](https://blog.torproject.org/blog"
+"/tips-running-exit-node)."
 
 #: https//support.torproject.org/operators/exit-policies/
 #: (content/operators/exit-policies/contents+en.lrquestion.description)
@@ -4827,16 +4825,17 @@ msgid ""
 "since the Tor network can't handle the load (e.g. default file-sharing "
 "ports)."
 msgstr ""
-"Политика исходящего трафика \"по-умолчанию\" разрешает доступ ко многим "
-"популярным сервисам (например, к просмотру интернет-страниц), но огранивает "
-"доступ к некоторым сервисам с большим потенциалом злоупотребления (например,"
-" электронной почте) и создающим недопустимо большую нагрузку на сеть tor "
-"(например, к портам по-умолчанию сервисов файлообмена)."
+"Политика исходящего трафика по умолчанию разрешает доступ ко многим "
+"популярным сервисам (например, просматривать интернет-страницы). Она "
+"ограничивает доступ к некоторым сервисам, где выше вероятность возникновения"
+" проблем (например, к электронной почте), а также к создающим недопустимо "
+"большую нагрузку на сеть Tor (например, к обычным портам файлообменных "
+"сервисов)."
 
 #: https//support.torproject.org/operators/exit-policies/
 #: (content/operators/exit-policies/contents+en.lrquestion.description)
 msgid "You can change your exit policy by editing your torrc file."
-msgstr "Вы моете изменить политику исходящего трафика в файле torrc."
+msgstr "Вы можете изменить политику исходящего трафика в файле torrc."
 
 #: https//support.torproject.org/operators/exit-policies/
 #: (content/operators/exit-policies/contents+en.lrquestion.description)
@@ -4844,8 +4843,8 @@ msgid ""
 "If you want to avoid most if not all abuse potential, set it to \"reject "
 "*:*\"."
 msgstr ""
-"Если вы хотите избежать практически всех возможных злоупотреблений, "
-"установите политику в \"reject *:*\"."
+"Если вы хотите избежать практически всех возможных проблем, используйте "
+"\"reject *:*\"."
 
 #: https//support.torproject.org/operators/exit-policies/
 #: (content/operators/exit-policies/contents+en.lrquestion.description)
@@ -4855,7 +4854,7 @@ msgid ""
 "services."
 msgstr ""
 "Эта настройка позволит вашему узлу передавать трафик внутри сети Tor, но не "
-"позволит соединяться с внешними сайтами и другими сервисами."
+"разрешит соединяться с внешними сайтами и другими сервисами."
 
 #: https//support.torproject.org/operators/exit-policies/
 #: (content/operators/exit-policies/contents+en.lrquestion.description)
@@ -4863,8 +4862,8 @@ msgid ""
 "If you do allow any exit connections, make sure name resolution works (that "
 "is, your computer can resolve Internet addresses correctly)."
 msgstr ""
-"Если вы разрешаете исходящие соединения, убедитесь что DNS работает (что "
-"компьютер может корректно преобразовывать имена в IP адреса)."
+"Если вы разрешаете исходящие соединения, убедитесь, что DNS работает "
+"(компьютер может корректно преобразовывать имена в IP-адреса)."
 
 #: https//support.torproject.org/operators/exit-policies/
 #: (content/operators/exit-policies/contents+en.lrquestion.description)
