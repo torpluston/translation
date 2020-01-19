@@ -4935,6 +4935,8 @@ msgid ""
 "Thus you may find that you are unable to browse as soon as your Tor goes "
 "into hibernation, signaled by this entry in the log:"
 msgstr ""
+"Таким образом, вы можете остаться с неработающим браузером, как только Tor "
+"впадёт в спячку, о чём в журнале будет сделана такая запись:"
 
 #: https//support.torproject.org/operators/hibernation/
 #: (content/operators/hibernation/contents+en.lrquestion.description)
@@ -5067,7 +5069,7 @@ msgstr ""
 #: https//support.torproject.org/operators/limit-total-bandwidth/
 #: (content/operators/limit-total-bandwidth/contents+en.lrquestion.description)
 msgid "AccountingStart day week month [day] HH:MM"
-msgstr ""
+msgstr "AccountingStart day week month [день недели] ЧЧ:ММ"
 
 #: https//support.torproject.org/operators/limit-total-bandwidth/
 #: (content/operators/limit-total-bandwidth/contents+en.lrquestion.description)
@@ -5076,16 +5078,19 @@ msgid ""
 "total amount of bytes served for a week (that resets every Wednesday at "
 "10:00am), you would use:"
 msgstr ""
+"Так настраивается время сброса счётчика в ноль. Например, так ограничивается"
+" количество переданных за неделю байт (со сбросом счётчика в 10:00 по "
+"средам):"
 
 #: https//support.torproject.org/operators/limit-total-bandwidth/
 #: (content/operators/limit-total-bandwidth/contents+en.lrquestion.description)
 msgid "AccountingStart week 3 10:00"
-msgstr ""
+msgstr "AccountingStart week 3 10:00"
 
 #: https//support.torproject.org/operators/limit-total-bandwidth/
 #: (content/operators/limit-total-bandwidth/contents+en.lrquestion.description)
 msgid "AccountingMax 500 GBytes"
-msgstr ""
+msgstr "AccountingMax 500 GBytes"
 
 #: https//support.torproject.org/operators/limit-total-bandwidth/
 #: (content/operators/limit-total-bandwidth/contents+en.lrquestion.description)
@@ -5094,6 +5099,9 @@ msgid ""
 "accounting period, and the maximum amount of data your relay will receive "
 "during an account period."
 msgstr ""
+"Так настраивается максимальное число переданных узлом данных за учётный "
+"период. Такое же и ограничение на число принятых узлом данных за этот "
+"период."
 
 #: https//support.torproject.org/operators/limit-total-bandwidth/
 #: (content/operators/limit-total-bandwidth/contents+en.lrquestion.description)
@@ -5101,6 +5109,8 @@ msgid ""
 "When the accounting period resets (from AccountingStart), then the counters "
 "for AccountingMax are reset to 0."
 msgstr ""
+"Счётчики соответствующие AccountingMax сбрасываются в 0, когда приходит "
+"время сброса в соответствии с AccountingStart."
 
 #: https//support.torproject.org/operators/limit-total-bandwidth/
 #: (content/operators/limit-total-bandwidth/contents+en.lrquestion.description)
@@ -5114,12 +5124,12 @@ msgstr ""
 #: https//support.torproject.org/operators/limit-total-bandwidth/
 #: (content/operators/limit-total-bandwidth/contents+en.lrquestion.description)
 msgid "AccountingStart day 12:00"
-msgstr ""
+msgstr "AccountingStart day 12:00"
 
 #: https//support.torproject.org/operators/limit-total-bandwidth/
 #: (content/operators/limit-total-bandwidth/contents+en.lrquestion.description)
 msgid "AccountingMax 50 GBytes"
-msgstr ""
+msgstr "AccountingMax 50 GBytes"
 
 #: https//support.torproject.org/operators/limit-total-bandwidth/
 #: (content/operators/limit-total-bandwidth/contents+en.lrquestion.description)
@@ -5127,6 +5137,8 @@ msgid ""
 "Note that your relay won't wake up exactly at the beginning of each "
 "accounting period."
 msgstr ""
+"Обратите внимание, ваш узел вернётся из спячки в момент отличный от начала "
+"учётного периода."
 
 #: https//support.torproject.org/operators/limit-total-bandwidth/
 #: (content/operators/limit-total-bandwidth/contents+en.lrquestion.description)
@@ -5134,6 +5146,8 @@ msgid ""
 "It will keep track of how quickly it used its quota in the last period, and "
 "choose a random point in the new interval to wake up."
 msgstr ""
+"Он отметит скорость исчерпания лимита в прощлом периоде и выберет случайный "
+"момент для пробуждения в новом интервале."
 
 #: https//support.torproject.org/operators/limit-total-bandwidth/
 #: (content/operators/limit-total-bandwidth/contents+en.lrquestion.description)
@@ -5141,6 +5155,8 @@ msgid ""
 "This way we avoid having hundreds of relays working at the beginning of each"
 " month but none still up by the end."
 msgstr ""
+"Таким образом мы избегаем пробуждения сотен узлов в начале месяца, все из "
+"которых бы засыпали задолго до его конца."
 
 #: https//support.torproject.org/operators/limit-total-bandwidth/
 #: (content/operators/limit-total-bandwidth/contents+en.lrquestion.description)
@@ -5149,6 +5165,10 @@ msgid ""
 "connection speed, we recommend you use daily accounting, so you don't end up"
 " using your entire monthly quota in the first day."
 msgstr ""
+"Если вы можете пожертвовать только небольшой объём трафика по сравнению со "
+"скоростью вашего подключения, мы рекомендуем установить учётный период "
+"длинной в сутки. Так вы не окажетесь в ситуации с израсходованным трафиком в"
+" первый же день месяца."
 
 #: https//support.torproject.org/operators/limit-total-bandwidth/
 #: (content/operators/limit-total-bandwidth/contents+en.lrquestion.description)
@@ -5157,6 +5177,10 @@ msgid ""
 " to spread your usefulness over more of the day: if you want to offer X GB "
 "in each direction, you could set your RelayBandwidthRate to 20*X KBytes."
 msgstr ""
+"Просто поделите месячный объём на 30. В дополнение вы можете использовать "
+"ограничение пропускной способности для более равномерного распределения "
+"вашего вклада внутри дня: если  вы хотите пожертвовать по X Гб в каждую "
+"сторону, вы можете установить \"RelayBandwidthRate 20*X KBytes\"."
 
 #: https//support.torproject.org/operators/limit-total-bandwidth/
 #: (content/operators/limit-total-bandwidth/contents+en.lrquestion.description)
@@ -5165,22 +5189,26 @@ msgid ""
 "RelayBandwidthRate to 1000 KBytes: this way your relay will always be useful"
 " for at least half of each day."
 msgstr ""
+"Например, если вы предлагаете 50 Гб в каждую сторону, можно установить "
+"\"RelayBandwidthRate 1000 KBytes\": так ваш узел будет каждый день приносить"
+" пользу по меньшей мере по полсуток."
 
 #: https//support.torproject.org/operators/limit-total-bandwidth/
 #: (content/operators/limit-total-bandwidth/contents+en.lrquestion.description)
 msgid "AccountingStart day 0:00"
-msgstr ""
+msgstr "AccountingStart day 0:00"
 
 #: https//support.torproject.org/operators/limit-total-bandwidth/
 #: (content/operators/limit-total-bandwidth/contents+en.lrquestion.description)
 msgid "RelayBandwidthRate 1000 KBytes"
-msgstr ""
+msgstr "RelayBandwidthRate 1000 KBytes"
 
 #: https//support.torproject.org/operators/limit-total-bandwidth/
 #: (content/operators/limit-total-bandwidth/contents+en.lrquestion.description)
 msgid ""
 "RelayBandwidthBurst 5000 KBytes # allow higher bursts but maintain average"
 msgstr ""
+"RelayBandwidthBurst 5000 KBytes # разрешить всплески в пределах среднего"
 
 #: https//support.torproject.org/operators/multiple-relays/
 #: (content/operators/multiple-relays/contents+en.lrquestion.title)
