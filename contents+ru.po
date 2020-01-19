@@ -4872,10 +4872,10 @@ msgid ""
 "are behind a restrictive firewall or content filter), please explicitly "
 "reject them in your exit policy  otherwise Tor users will be impacted too."
 msgstr ""
-"Если же какие-то из ресурсов недоступны с вашего компьютера (например, вы за"
-" строгим файрволом или интернет-фильтром), пожалуйста, явным образом укажите"
-" их в строчках \"reject\" вашей политики исходящего трафика. В противном "
-"случае пользователи Tor также не смогут пользоваться ими."
+"Если какие-либо ресурсы не доступны с вашего компьютера (например, вы "
+"ограничены брандмауэром или контентным фильтром), пожалуйста, явным образом "
+"укажите эти ресурсы в строчках \"reject\" вашей политики исходящего трафика."
+" В противном случае пользователи Tor также не смогут пользоваться ими."
 
 #: https//support.torproject.org/operators/facing-legal-trouble/
 #: (content/operators/facing-legal-trouble/contents+en.lrquestion.title)
@@ -4925,7 +4925,7 @@ msgstr ""
 "[AccountingMax](https://2019.www.torproject.org/docs/faq.html.en#LimitTotalBandwidth)"
 " и "
 "[BandwidthRate](https://2019.www.torproject.org/docs/faq.html.en#BandwidthShaping)"
-" применяются как к функциям узла Tor, так и к клиентской функциональности."
+" применяются к функциям как узла Tor, так и клиента."
 
 #: https//support.torproject.org/operators/hibernation/
 #: (content/operators/hibernation/contents+en.lrquestion.description)
@@ -4933,8 +4933,8 @@ msgid ""
 "Thus you may find that you are unable to browse as soon as your Tor goes "
 "into hibernation, signaled by this entry in the log:"
 msgstr ""
-"Таким образом, вы можете остаться с неработающим браузером, как только Tor "
-"впадёт в спячку, о чём в журнале будет сделана такая запись:"
+"Как только Tor впадет в спячку (гибернацию), вы можете остаться с "
+"неработающим браузером. В журнале появится такая запись:"
 
 #: https//support.torproject.org/operators/hibernation/
 #: (content/operators/hibernation/contents+en.lrquestion.description)
@@ -5076,8 +5076,8 @@ msgid ""
 "total amount of bytes served for a week (that resets every Wednesday at "
 "10:00am), you would use:"
 msgstr ""
-"Так настраивается время сброса счётчика в ноль. Например, так ограничивается"
-" количество переданных за неделю байт (со сбросом счётчика в 10:00 по "
+"Это настройка времени обнуления счетчика. Например, так ограничивается "
+"количество переданных за неделю байт (со сбросом счетчика в 10:00 по "
 "средам):"
 
 #: https//support.torproject.org/operators/limit-total-bandwidth/
@@ -5097,9 +5097,8 @@ msgid ""
 "accounting period, and the maximum amount of data your relay will receive "
 "during an account period."
 msgstr ""
-"Так настраивается максимальное число переданных узлом данных за учётный "
-"период. Такое же и ограничение на число принятых узлом данных за этот "
-"период."
+"Так настраивается максимум передаваемых узлом данных за учетный период. (Так"
+" же ограничены принимаемые данные)."
 
 #: https//support.torproject.org/operators/limit-total-bandwidth/
 #: (content/operators/limit-total-bandwidth/contents+en.lrquestion.description)
@@ -5107,8 +5106,8 @@ msgid ""
 "When the accounting period resets (from AccountingStart), then the counters "
 "for AccountingMax are reset to 0."
 msgstr ""
-"Счётчики соответствующие AccountingMax сбрасываются в 0, когда приходит "
-"время сброса в соответствии с AccountingStart."
+"Когда наступает время сброса в соответствии с AccountingStart, счетчики, "
+"соответствующие AccountingMax, обнуляются. "
 
 #: https//support.torproject.org/operators/limit-total-bandwidth/
 #: (content/operators/limit-total-bandwidth/contents+en.lrquestion.description)
@@ -5135,8 +5134,8 @@ msgid ""
 "Note that your relay won't wake up exactly at the beginning of each "
 "accounting period."
 msgstr ""
-"Обратите внимание, ваш узел вернётся из спячки в момент отличный от начала "
-"учётного периода."
+"Обратите внимание: ваш узел не вернется из спячки одновременно с началом "
+"учетного периода."
 
 #: https//support.torproject.org/operators/limit-total-bandwidth/
 #: (content/operators/limit-total-bandwidth/contents+en.lrquestion.description)
@@ -5144,7 +5143,7 @@ msgid ""
 "It will keep track of how quickly it used its quota in the last period, and "
 "choose a random point in the new interval to wake up."
 msgstr ""
-"Он отметит скорость исчерпания лимита в прощлом периоде и выберет случайный "
+"Он отметит скорость исчерпания лимита в прошлом периоде и выберет случайный "
 "момент для пробуждения в новом интервале."
 
 #: https//support.torproject.org/operators/limit-total-bandwidth/
@@ -5153,8 +5152,8 @@ msgid ""
 "This way we avoid having hundreds of relays working at the beginning of each"
 " month but none still up by the end."
 msgstr ""
-"Таким образом мы избегаем пробуждения сотен узлов в начале месяца, все из "
-"которых бы засыпали задолго до его конца."
+"Так мы избегаем ситуации, когда сотни узлов оказались бы в рабочем состоянии"
+" в начале месяца, и ни одного узла – в конце месяца."
 
 #: https//support.torproject.org/operators/limit-total-bandwidth/
 #: (content/operators/limit-total-bandwidth/contents+en.lrquestion.description)
@@ -5163,10 +5162,10 @@ msgid ""
 "connection speed, we recommend you use daily accounting, so you don't end up"
 " using your entire monthly quota in the first day."
 msgstr ""
-"Если вы можете пожертвовать только небольшой объём трафика по сравнению со "
-"скоростью вашего подключения, мы рекомендуем установить учётный период "
-"длинной в сутки. Так вы не окажетесь в ситуации с израсходованным трафиком в"
-" первый же день месяца."
+"Если вы можете выделить Tor лишь малый объем трафика по сравнению со "
+"скоростью вашего подключения, рекомендуем установить учетный период длиной в"
+" сутки. Так вы не окажетесь в ситуации с израсходованным трафиком в первый "
+"же день."
 
 #: https//support.torproject.org/operators/limit-total-bandwidth/
 #: (content/operators/limit-total-bandwidth/contents+en.lrquestion.description)
@@ -5175,10 +5174,10 @@ msgid ""
 " to spread your usefulness over more of the day: if you want to offer X GB "
 "in each direction, you could set your RelayBandwidthRate to 20*X KBytes."
 msgstr ""
-"Просто поделите месячный объём на 30. В дополнение вы можете использовать "
-"ограничение пропускной способности для более равномерного распределения "
-"вашего вклада внутри дня: если  вы хотите пожертвовать по X Гб в каждую "
-"сторону, вы можете установить \"RelayBandwidthRate 20*X KBytes\"."
+"Просто поделите месячный объем на 30. Возможно, вы также захотите ограничить"
+" пропускную способность для более равномерного распределения вашего вклада "
+"на протяжении суток. Если вы хотите выделить по X Гб на прием и на передачу,"
+" можете установить параметр RelayBandwidthRate равным 20*X KBytes."
 
 #: https//support.torproject.org/operators/limit-total-bandwidth/
 #: (content/operators/limit-total-bandwidth/contents+en.lrquestion.description)
@@ -5187,9 +5186,9 @@ msgid ""
 "RelayBandwidthRate to 1000 KBytes: this way your relay will always be useful"
 " for at least half of each day."
 msgstr ""
-"Например, если вы предлагаете 50 Гб в каждую сторону, можно установить "
-"\"RelayBandwidthRate 1000 KBytes\": так ваш узел будет каждый день приносить"
-" пользу по меньшей мере по полсуток."
+"Допустим, вы хотите выделить 50 Гб на прием и столько же на передачу. "
+"Попробуйте назначить RelayBandwidthRate равным 1000 KBytes. Так ваш узел "
+"будет каждый день приносить пользу по меньшей мере полсуток."
 
 #: https//support.torproject.org/operators/limit-total-bandwidth/
 #: (content/operators/limit-total-bandwidth/contents+en.lrquestion.description)
@@ -5627,7 +5626,7 @@ msgstr ""
 #: https//support.torproject.org/operators/outgoing-firewall/
 #: (content/operators/outgoing-firewall/contents+en.lrquestion.title)
 msgid "How should I configure the outgoing filters on my relay?"
-msgstr "Как мне следует настроить исходящие фильтры на моём узла?"
+msgstr "Как настроить исходящие фильтры на моем узле?"
 
 #: https//support.torproject.org/operators/outgoing-firewall/
 #: (content/operators/outgoing-firewall/contents+en.lrquestion.description)
@@ -5645,23 +5644,23 @@ msgid ""
 " common carrier regulations that prevent internet service providers from "
 "being held liable for third-party content that passes through their network."
 msgstr ""
-"Операторы узлов Tor во многих юрисдикциях защищены законом \"об общественных"
-" перевозчиках\". Этот закон избавляет интернет-провайдеров от "
-"ответственности за информацию третьих сторон, распространяемых через их "
-"сети."
+"Операторы узлов Tor во многих юрисдикциях защищены теми же общими законами о"
+" коммуникациях, которые снимают с провайдеров доступа к интернету "
+"ответственность за информацию третьих лиц, передаваемую через их сети."
 
 #: https//support.torproject.org/operators/outgoing-firewall/
 #: (content/operators/outgoing-firewall/contents+en.lrquestion.description)
 msgid ""
 "Exit relays that filter some traffic would likely forfeit those protections."
 msgstr ""
-"Выходные узлы, которые фильтруют трафик, скорее всего не попадают под такую "
-"защиту."
+"Выходные узлы, которые фильтруют трафик, скорее всего, не подпадают под "
+"такую защиту."
 
 #: https//support.torproject.org/operators/outgoing-firewall/
 #: (content/operators/outgoing-firewall/contents+en.lrquestion.description)
 msgid "Tor promotes free network access without interference."
-msgstr "Tor продвигает свободный доступ к сети без какого-либо вмешательства."
+msgstr ""
+"Tor выступает за свободный доступ к сети без какого-либо вмешательства."
 
 #: https//support.torproject.org/operators/outgoing-firewall/
 #: (content/operators/outgoing-firewall/contents+en.lrquestion.description)
@@ -5679,9 +5678,9 @@ msgid ""
 "[BadExit](https://community.torproject.org/relay/community-resources/bad-"
 "relays/) flag once detected."
 msgstr ""
-"Выходные узлы, уличённые в фильтрации трафика, получат флаг "
+"Выходные узлы, уличенные в фильтрации трафика, получают флаг "
 "[BadExit](https://community.torproject.org/relay/community-resources/bad-"
-"relays/) когда фильтрация будет обнаружена."
+"relays/)."
 
 #: https//support.torproject.org/operators/packaged-tor/
 #: (content/operators/packaged-tor/contents+en.lrquestion.title)
@@ -5695,8 +5694,8 @@ msgid ""
 "to installing Tor from the [Tor Project's "
 "repository](https://support.torproject.org/apt/tor-deb-repo/)."
 msgstr ""
-"Если вы пользователь Debian или Ubuntu, то Tor лучше установить из "
-"[репозитория Tor Project](https://support.torproject.org/apt/tor-deb-repo/)."
+"Если вы пользователь Debian или Ubuntu, лучше установить Tor из [репозитория"
+" Tor Project](https://support.torproject.org/apt/tor-deb-repo/)."
 
 #: https//support.torproject.org/operators/packaged-tor/
 #: (content/operators/packaged-tor/contents+en.lrquestion.description)
@@ -5704,8 +5703,8 @@ msgid ""
 "* Your `ulimit -n` gets set to 32768  high enough for Tor to keep open all "
 "the connections it needs."
 msgstr ""
-"* Настройка `ulimit -n` устанавливается в 32768, этого достаточно для "
-"поддержания всех необходимых Tor соединений."
+"* Настройка `ulimit -n` устанавливается в 32768; этого достаточно для "
+"поддержания всех необходимых Tor-соединений."
 
 #: https//support.torproject.org/operators/packaged-tor/
 #: (content/operators/packaged-tor/contents+en.lrquestion.description)
@@ -5713,8 +5712,8 @@ msgid ""
 "* A user profile is created just for Tor, so Tor doesn't need to run as "
 "root."
 msgstr ""
-"* Для Tor создаётся выделенный пользователь, таким образом Tor нет "
-"необходимости запускаться в режиме суперпользователя root."
+"* Для Tor создается выделенный пользователь. Поэтому Tor не нужно "
+"запускаться в режиме суперпользователя (root)."
 
 #: https//support.torproject.org/operators/packaged-tor/
 #: (content/operators/packaged-tor/contents+en.lrquestion.description)
@@ -5727,7 +5726,7 @@ msgid ""
 "* Tor runs with `--verify-config`, so that most problems with your config "
 "file get caught."
 msgstr ""
-"* Tor запускается с опцией `--verify-config`, так отлавливается большинство "
+"* Tor запускается с опцией `--verify-config`. Так отлавливается большинство "
 "опечаток в конфигурационном файле."
 
 #: https//support.torproject.org/operators/packaged-tor/
@@ -5841,8 +5840,8 @@ msgid ""
 "have as many fragmentation bugs (but the tradeoff is higher CPU load)."
 msgstr ""
 "Архив исходных кодов Tor поставляется с реализаций функции malloc из "
-"OpenBSD, в которой меньше проблем с фрагментацией (компромисс — в более "
-"высокой нагрузке на процессор)."
+"OpenBSD, в которой меньше проблем с фрагментацией (но выше нагрузка на "
+"процессор)."
 
 #: https//support.torproject.org/operators/relay-memory/
 #: (content/operators/relay-memory/contents+en.lrquestion.description)
@@ -5860,9 +5859,9 @@ msgid ""
 "open, you are probably losing a lot of memory to OpenSSL's internal buffers "
 "(38KB+ per socket)."
 msgstr ""
-"* Если у вас быстрый узел, у вас установлено много TLS соединений, то вы "
-"наверняка теряете много памяти на внутренние буфера библиотеки OpenSSL (по "
-"38+ Кб на соединение)."
+"* Если у вас быстрый узел (много открытых TLS-соединений), вы наверняка "
+"теряете много памяти на внутренние буферы библиотеки OpenSSL (по 38+ Кб на "
+"соединение)."
 
 #: https//support.torproject.org/operators/relay-memory/
 #: (content/operators/relay-memory/contents+en.lrquestion.description)
@@ -5871,8 +5870,8 @@ msgid ""
 "aggressively](https://lists.torproject.org/pipermail/tor-"
 "dev/2008-June/001519.html)."
 msgstr ""
-"Мы изменили OpenSSL, чтоб библиотека [освобождала неиспользуемые буфера "
-"поаггрессивнее](https://lists.torproject.org/pipermail/tor-"
+"Мы изменили OpenSSL, чтоб библиотека [активнее освобождала неиспользуемые "
+"буферы](https://lists.torproject.org/pipermail/tor-"
 "dev/2008-June/001519.html)."
 
 #: https//support.torproject.org/operators/relay-memory/
@@ -5890,7 +5889,7 @@ msgid ""
 "* If you still can't handle the memory load, consider reducing the amount of"
 " bandwidth your relay advertises."
 msgstr ""
-"* Если потребление памяти всё ещё неприемлемо большое, попробуйте уменьшить "
+"* Если потребление памяти все еще неприемлемо велико, попробуйте уменьшить "
 "пропускную способность, анонсируемую вашим узлом."
 
 #: https//support.torproject.org/operators/relay-memory/
@@ -5899,8 +5898,8 @@ msgid ""
 "Advertising less bandwidth means you will attract fewer users, so your relay"
 " shouldn't grow as large."
 msgstr ""
-"Анонс меньшей пропускной способности привлечёт меньше пользователей, таким "
-"образом потребление памяти узлом будет расти не так сильно."
+"Анонс меньшей пропускной способности привлечет меньше пользователей. Узел не"
+" так сильно будет потреблять память."
 
 #: https//support.torproject.org/operators/relay-memory/
 #: (content/operators/relay-memory/contents+en.lrquestion.description)
