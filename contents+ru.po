@@ -5912,13 +5912,13 @@ msgid ""
 "All of this said, fast Tor relays do use a lot of ram. It is not unusual for"
 " a fast exit relay to use 500-1000 MB of memory."
 msgstr ""
-"В общем, быстрые узлы Tor потребляют довольно много памяти. Нет ничего "
-"необычного в потреблении 500-1000 Мб памяти быстрым выходным узлом."
+"Быстрые узлы Tor обычно потребляют довольно много памяти. Быстрый выходной "
+"узел вполне может требовать 500-1000 Мб памяти."
 
 #: https//support.torproject.org/operators/relay-write-more-bytes/
 #: (content/operators/relay-write-more-bytes/contents+en.lrquestion.title)
 msgid "Why does my relay write more bytes onto the network than it reads?"
-msgstr "Почему мой  узел передаёт в сеть больше данных, чем получает?"
+msgstr "Почему мой  узел передает в сеть больше данных, чем получает?"
 
 #: https//support.torproject.org/operators/relay-write-more-bytes/
 #: (content/operators/relay-write-more-bytes/contents+en.lrquestion.description)
@@ -5926,8 +5926,8 @@ msgid ""
 "You're right, for the most part a byte into your Tor relay means a byte out,"
 " and vice versa. But there are a few exceptions:"
 msgstr ""
-"Вы правы, по большей части байт на входе в узел Tor превращается в байт на "
-"выходе. Но есть несколько исключений:"
+"Чаще всего байт на входе в узел Tor означает и байт на выходе. Но есть "
+"несколько исключений:"
 
 #: https//support.torproject.org/operators/relay-write-more-bytes/
 #: (content/operators/relay-write-more-bytes/contents+en.lrquestion.description)
@@ -5943,7 +5943,7 @@ msgstr ""
 msgid ""
 "The request they make (an HTTP GET) is quite small, and the response is "
 "sometimes quite large."
-msgstr "Присылаемый запрос крошечный (HTTP GET), а ответ — довольно большой."
+msgstr "Присылаемый запрос крошечный (HTTP GET), а ответ довольно большой."
 
 #: https//support.torproject.org/operators/relay-write-more-bytes/
 #: (content/operators/relay-write-more-bytes/contents+en.lrquestion.description)
@@ -5951,7 +5951,7 @@ msgid ""
 "This probably accounts for most of the difference between your \"write\" "
 "byte count and your \"read\" byte count."
 msgstr ""
-"Эта разница и ответственна за большую часть расхождения между числом "
+"Из-за этой разницы, в основном, и образуется расхождение между числом "
 "принятых и переданных байт."
 
 #: https//support.torproject.org/operators/relay-write-more-bytes/
@@ -5962,10 +5962,10 @@ msgid ""
 "or ssh connection) and wrap it up into an entire 512 byte cell for transport"
 " through the Tor network."
 msgstr ""
-"У операторов выходных узлов есть ещё одно небольшое исключение. Иногда вы "
-"получаете небольшое число байт из исходящего соединения  (например, для "
-"мессенджера или ssh) и оборачиваете их в полноразмерный 512-байтовый пакет "
-"для передачи через сеть Tor."
+"У операторов выходных узлов есть еще одно небольшое исключение. Иногда вы "
+"получаете совсем немного байт (например, для мессенджера или SSH) и "
+"упаковываете их в полноразмерный 512-байтовый пакет для передачи через сеть "
+"Tor."
 
 #: https//support.torproject.org/operators/should-i-run-a-relay/
 #: (content/operators/should-i-run-a-relay/contents+en.lrquestion.title)
@@ -6052,7 +6052,7 @@ msgid ""
 "Note: As of Tor 0.2.7 we are using new generation identities for relays "
 "based on ed25519 elliptic curve cryptography."
 msgstr ""
-"Обратите внимание, начиная с версии Tor 0.2.7 мы используем новое поколение "
+"Обратите внимание: начиная с версии Tor 0.2.7 мы используем новое поколение "
 "идентификационных ключей узлов Tor, основанное на эллиптической криптографии"
 " с кривой ed25519."
 
@@ -6063,8 +6063,8 @@ msgid ""
 " time, to ensure compatibility with older versions."
 msgstr ""
 "В конце концов они заменят старые идентификационные ключи на базе RSA, но "
-"это случится только в своё время для сохранения совместимости с более "
-"старыми версиями."
+"это случится не сразу: важно обеспечить совместимость с более старыми "
+"версиями."
 
 #: https//support.torproject.org/operators/upgrade-or-move/
 #: (content/operators/upgrade-or-move/contents+en.lrquestion.description)
@@ -6073,9 +6073,9 @@ msgid ""
 "file: keys/ed25519_master_id_secret_key) and a RSA identity (identity key "
 "file: keys/secret_id_key)."
 msgstr ""
-"До тех пор у каждого узела будет как основанный на ed25519 идентификационный"
-" ключ (в файле keys/ed25519_master_id_secret_key) так и основанный на RSA (в"
-" файле keys/secret_id_key)."
+"До тех пор у каждого узла будет как идентификационный ключ, основанный на "
+"ed25519 (в файле keys/ed25519_master_id_secret_key), так и ключ RSA (в файле"
+" keys/secret_id_key)."
 
 #: https//support.torproject.org/operators/upgrade-or-move/
 #: (content/operators/upgrade-or-move/contents+en.lrquestion.description)
@@ -6083,9 +6083,8 @@ msgid ""
 "You need to copy / backup both of them in order to restore your relay, "
 "change your DataDirectory or migrate the relay on a new computer."
 msgstr ""
-"Вам следует сделать резервную копию обоих этих ключей на случай "
-"восстановления узла, смены настройки DataDirectory или переноса узла на "
-"новый компьютер."
+"Вам следует сделать резервные копии обоих ключей на случай восстановления "
+"узла, смены настройки DataDirectory или переноса узла на новый компьютер."
 
 #: https//support.torproject.org/operators/what-is-the-bad-exit-flag/
 #: (content/operators/what-is-the-bad-exit-flag/contents+en.lrquestion.title)
@@ -6164,15 +6163,15 @@ msgid ""
 "from you might attract the attention of other users on the IRC server, "
 "website, etc. who want to know more about the host they're relaying through."
 msgstr ""
-"Если вы держите выходную ноду, некоторые сервисы, к которым подключаются "
-"пользователи через ваш узел, будут пытаться установить обратное соединение, "
-"чтоб собрать больше информации. Например, сервера чата IRC подключаются к "
-"порту [identd](https://ru.wikipedia.org/wiki/Ident), чтоб узнать, какой же "
-"из пользователей подключается (у них, конечно, ничего не получится, у Tor  "
-"попросту нет этой информации, но они всё же попытаются). Также, пользователи"
-" вашего выходного узла могут привлечь внимание других пользователей IRC, "
-"сайта и прочих, кто хотел бы узнать побольше об узле, с которого они "
-"подключаются."
+"Если вы поддерживаете выходной узел, некоторые сервисы, к которым "
+"пользователи подключаются через вас, будут запрашивать обратное соединение, "
+"чтоб собрать больше информации. Например, сервер чата IRC подключается к "
+"порту [identd](https://ru.wikipedia.org/wiki/Ident), чтобы узнать, какой "
+"пользователь устанавливает соединение. (У IRC в данном случае ничего не "
+"получится, потому что у Tor просто нет этой информации). Кроме того, "
+"пользователи вашего выходного узла могут привлечь внимание других "
+"пользователей IRC, сайта и прочих, кто хотел бы узнать побольше об узле, с "
+"которого они подключаются."
 
 #: https//support.torproject.org/operators/why-i-get-portscanned-more-often/
 #: (content/operators/why-i-get-portscanned-more-often/contents+en.lrquestion.description)
@@ -6181,9 +6180,9 @@ msgid ""
 " learned that sometimes Tor relays expose their socks port to the world. We "
 "recommend that you bind your socksport to local networks only."
 msgstr ""
-"Также, сканеры в поисках открытых прокси-серверов заметили, что иногда узлы "
-"Tor открывают свой SocksPort всему миру. Мы рекомендуем ограничить доступ до"
-" SocksPort локальной сеть.."
+"Те, кто сканирует интернет в поисках открытых прокси-серверов, могут "
+"заметить, что иногда узлы Tor открывают свой SocksPort всему миру. Мы "
+"рекомендуем ограничить доступ к SocksPort локальной сетью."
 
 #: https//support.torproject.org/operators/why-i-get-portscanned-more-often/
 #: (content/operators/why-i-get-portscanned-more-often/contents+en.lrquestion.description)
@@ -7141,7 +7140,7 @@ msgstr ""
 #: https//support.torproject.org/misc/glossary/
 #: (content/misc/glossary/contents+en.lrquestion.description)
 msgid "By default, [Tor Browser](#tor-browser) does not store cookies."
-msgstr "По-умолчанию [Tor Browser](#tor-browser) не сохраняет куки. "
+msgstr "По умолчанию [Tor Browser](#tor-browser) не сохраняет куки. "
 
 #: https//support.torproject.org/misc/glossary/
 #: (content/misc/glossary/contents+en.lrquestion.description)
@@ -7776,7 +7775,7 @@ msgid ""
 msgstr ""
 "Tor Browser предупредит вас, что вся активность (включая скачивания) будет "
 "остановлена. Подумайте об этом, прежде чем нажимать кнопку \"Новая "
-"личность\" (иконку с искрящейся метлой в правом верхнем углу)."
+"личность\" (значок с искрящейся метлой в правом верхнем углу)."
 
 #: https//support.torproject.org/misc/glossary/
 #: (content/misc/glossary/contents+en.lrquestion.description)
@@ -8027,7 +8026,7 @@ msgid ""
 "relays](#relay) and [bridges](#bridge)."
 msgstr ""
 "Onionoo – веб-протокол, с помощью которого можно узнавать о действующих "
-"[узлах Tor](#relay) и [мостах](#bridge)."
+"[узлах](#relay) и [мостах](#bridge) Tor."
 
 #: https//support.torproject.org/misc/glossary/
 #: (content/misc/glossary/contents+en.lrquestion.description)
@@ -8368,8 +8367,8 @@ msgstr ""
 "Гарантирует, что onion-адрес действительно связан с ключом, которым защищено"
 " подключение к [onion-сайту](#onion-site). Если пользователь регистрирует "
 "обычный домен, он должен доверить это центру сертификации. Такие домены "
-"имеют уязвимости, которые могут использовать т центры сертификации, и другие"
-" стороны."
+"имеют уязвимости, которые могут использовать центры сертификации и другие "
+"стороны."
 
 #: https//support.torproject.org/misc/glossary/
 #: (content/misc/glossary/contents+en.lrquestion.description)
@@ -8695,9 +8694,9 @@ msgid ""
 "the right of the URL bar), then click on \"Preferences\", and finally on "
 "\"Tor\" in the side bar."
 msgstr ""
-"Если вы не видите это сообщение и [Tor Browser](tor-browser) открыт — "
-"нажмите кнопку \"гамбургера\" в правом верхнем углу, справа от адресной "
-"строки. Выберите в меню \"Настройки\", а в левом столбце \"Tor\"."
+"Если вы не видите это сообщение и [Tor Browser](tor-browser) открыт, нажмите"
+" кнопку \"гамбургера\" в правом верхнем углу, справа от адресной строки. "
+"Выберите в меню \"Настройки\", а в левом столбце \"Tor\"."
 
 #: https//support.torproject.org/misc/glossary/
 #: (content/misc/glossary/contents+en.lrquestion.description)
@@ -9576,7 +9575,7 @@ msgid ""
 "yournewpassword youremailaddress`"
 msgstr ""
 "3. В самом низу страницы наберите: `/msg nickserv REGISTER password email` "
-"(где вместо `password` придумайте пароль, вместо `email` укажите адрес "
+"(где вместо `password` придумайте пароль, а вместо `email` укажите адрес "
 "электронной почты)."
 
 #: https//support.torproject.org/get-in-touch/why-i-cant-join-tor-channels/
