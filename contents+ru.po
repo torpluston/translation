@@ -5400,6 +5400,10 @@ msgid ""
 "long as they are valid, so the master identity secret key can be kept "
 "outside DataDirectory/keys, on a storage media or a different computer."
 msgstr ""
+"Tor нужен доступ только до среднесрочного ключа подписи и сертификата в "
+"пределах их срока действия. Т.е. главный секретный идентификационный ключ "
+"узла Tor может хранится вне папки DataDirectory/keys, например, на съёмном "
+"носителе или другом компьютере."
 
 #: https//support.torproject.org/operators/offline-ed25519/
 #: (content/operators/offline-ed25519/contents+en.lrquestion.description)
@@ -5408,6 +5412,9 @@ msgid ""
 "before they expire otherwise the Tor process on the relay will exit upon "
 "expiration."
 msgstr ""
+"Вам придётся вручную обновить среднесрочный ключ подписи и сертификат до "
+"истечения их срока действия, в противном случае процесс Tor на узле "
+"завершится по его истечении."
 
 #: https//support.torproject.org/operators/offline-ed25519/
 #: (content/operators/offline-ed25519/contents+en.lrquestion.description)
@@ -5424,6 +5431,11 @@ msgid ""
 "leave the master identity secret key in DataDirectory/keys, just make a "
 "backup in case you'll need to reinstall it."
 msgstr ""
+"Если вы предпочитаете, чтоб узел работал продолжительное время без "
+"необходимости регулярного ручного обновления среднесрочного ключа подписи, "
+"лучше будет оставить главный секретный идентификационный ключ узла в папке "
+"DataDirectory/keys. Просто сделайте резервную копию ключа на случай "
+"переустановки узла."
 
 #: https//support.torproject.org/operators/offline-ed25519/
 #: (content/operators/offline-ed25519/contents+en.lrquestion.description)
@@ -5618,7 +5630,7 @@ msgstr ""
 #: https//support.torproject.org/operators/outgoing-firewall/
 #: (content/operators/outgoing-firewall/contents+en.lrquestion.title)
 msgid "How should I configure the outgoing filters on my relay?"
-msgstr ""
+msgstr "Как мне следует настроить исходящие фильтры на моём узла?"
 
 #: https//support.torproject.org/operators/outgoing-firewall/
 #: (content/operators/outgoing-firewall/contents+en.lrquestion.description)
@@ -5626,6 +5638,8 @@ msgid ""
 "All outgoing connections must be allowed, so that each relay can communicate"
 " with every other relay."
 msgstr ""
+"Все исходящие соединения должны быть разрешены. Каждый узел должен иметь "
+"возможность связаться с любым другим узлом."
 
 #: https//support.torproject.org/operators/outgoing-firewall/
 #: (content/operators/outgoing-firewall/contents+en.lrquestion.description)
@@ -5634,17 +5648,23 @@ msgid ""
 " common carrier regulations that prevent internet service providers from "
 "being held liable for third-party content that passes through their network."
 msgstr ""
+"Операторы узлов Tor во многих юрисдикциях защищены законом \"об общественных"
+" перевозчиках\". Этот закон избавляет интернет-провайдеров от "
+"ответственности за информацию третьих сторон, распространяемых через их "
+"сети."
 
 #: https//support.torproject.org/operators/outgoing-firewall/
 #: (content/operators/outgoing-firewall/contents+en.lrquestion.description)
 msgid ""
 "Exit relays that filter some traffic would likely forfeit those protections."
 msgstr ""
+"Выходные узлы, которые фильтруют трафик, скорее всего не попадают под такую "
+"защиту."
 
 #: https//support.torproject.org/operators/outgoing-firewall/
 #: (content/operators/outgoing-firewall/contents+en.lrquestion.description)
 msgid "Tor promotes free network access without interference."
-msgstr ""
+msgstr "Tor продвигает свободный доступ к сети без какого-либо вмешательства."
 
 #: https//support.torproject.org/operators/outgoing-firewall/
 #: (content/operators/outgoing-firewall/contents+en.lrquestion.description)
@@ -5652,6 +5672,8 @@ msgid ""
 "Exit relays must not filter the traffic that passes through them to the "
 "internet."
 msgstr ""
+"Выходные узлы не должны фильтровать трафик, который проходит через них в "
+"интернет."
 
 #: https//support.torproject.org/operators/outgoing-firewall/
 #: (content/operators/outgoing-firewall/contents+en.lrquestion.description)
@@ -5660,11 +5682,14 @@ msgid ""
 "[BadExit](https://community.torproject.org/relay/community-resources/bad-"
 "relays/) flag once detected."
 msgstr ""
+"Выходные узлы, уличённые в фильтрации трафика, получат флаг "
+"[BadExit](https://community.torproject.org/relay/community-resources/bad-"
+"relays/) когда фильтрация будет обнаружена."
 
 #: https//support.torproject.org/operators/packaged-tor/
 #: (content/operators/packaged-tor/contents+en.lrquestion.title)
 msgid "Should I install Tor from my package manager, or build from source?"
-msgstr ""
+msgstr "Лучше установить Tor из менеджера пакетов или из исходных кодов?"
 
 #: https//support.torproject.org/operators/packaged-tor/
 #: (content/operators/packaged-tor/contents+en.lrquestion.description)
@@ -5673,6 +5698,8 @@ msgid ""
 "to installing Tor from the [Tor Project's "
 "repository](https://support.torproject.org/apt/tor-deb-repo/)."
 msgstr ""
+"Если вы пользователь Debian или Ubuntu, то Tor лучше установить из "
+"[репозитория Tor Project](https://support.torproject.org/apt/tor-deb-repo/)."
 
 #: https//support.torproject.org/operators/packaged-tor/
 #: (content/operators/packaged-tor/contents+en.lrquestion.description)
@@ -5680,6 +5707,8 @@ msgid ""
 "* Your `ulimit -n` gets set to 32768  high enough for Tor to keep open all "
 "the connections it needs."
 msgstr ""
+"* Настройка `ulimit -n` устанавливается в 32768, этого достаточно для "
+"поддержания всех необходимых Tor соединений."
 
 #: https//support.torproject.org/operators/packaged-tor/
 #: (content/operators/packaged-tor/contents+en.lrquestion.description)
@@ -5687,11 +5716,13 @@ msgid ""
 "* A user profile is created just for Tor, so Tor doesn't need to run as "
 "root."
 msgstr ""
+"* Для Tor создаётся выделенный пользователь, таким образом Tor нет "
+"необходимости запускаться в режиме суперпользователя root."
 
 #: https//support.torproject.org/operators/packaged-tor/
 #: (content/operators/packaged-tor/contents+en.lrquestion.description)
 msgid "* An init script is included so that Tor runs at boot."
-msgstr ""
+msgstr "* Tor добавляется в автозагрузку соответствующим init-скриптом."
 
 #: https//support.torproject.org/operators/packaged-tor/
 #: (content/operators/packaged-tor/contents+en.lrquestion.description)
@@ -5699,6 +5730,8 @@ msgid ""
 "* Tor runs with `--verify-config`, so that most problems with your config "
 "file get caught."
 msgstr ""
+"* Tor запускается с опцией `--verify-config`, так отлавливается большинство "
+"опечаток в конфигурационном файле."
 
 #: https//support.torproject.org/operators/packaged-tor/
 #: (content/operators/packaged-tor/contents+en.lrquestion.description)
