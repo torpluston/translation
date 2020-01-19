@@ -4457,6 +4457,8 @@ msgid ""
 "**BandwidthRate** is the maximum long-term bandwidth allowed (bytes per "
 "second)."
 msgstr ""
+"**BandwidthRate** — максимальная выделяемая полоса пропускания (в байтах в "
+"секунду)."
 
 #: https//support.torproject.org/operators/bandwidth-shaping/
 #: (content/operators/bandwidth-shaping/contents+en.lrquestion.description)
@@ -4465,6 +4467,9 @@ msgid ""
 "megabytes per second (a fast connection), or \"BandwidthRate 500 KBytes\" "
 "for 500 kilobytes per second (a decent cable connection)."
 msgstr ""
+"Например, вы можете установить \"BandwidthRate 10 MBytes\" для 10 мегабайт в"
+" секунду (быстрый интернет), или \"BandwidthRate 500 KBytes\" для 500 "
+"килобайт в секунду (неплохое кабельное подключение)."
 
 #: https//support.torproject.org/operators/bandwidth-shaping/
 #: (content/operators/bandwidth-shaping/contents+en.lrquestion.description)
@@ -4478,6 +4483,9 @@ msgid ""
 "periods of traffic above BandwidthRate but still keeps the average over a "
 "long period to BandwidthRate."
 msgstr ""
+"**BandwidthBurst** — пул байт, который используется в случае "
+"кратковременного пика трафика выше BandwidthRate. При этом в среднем полоса "
+"пропускания на продолжительном отрезке времени остаётся ниже BandwidthRate."
 
 #: https//support.torproject.org/operators/bandwidth-shaping/
 #: (content/operators/bandwidth-shaping/contents+en.lrquestion.description)
@@ -4486,6 +4494,9 @@ msgid ""
 "allowing more traffic during peak times if the average hasn't been reached "
 "lately."
 msgstr ""
+"Низкое значение Rate при высоком Burst обеспечивает соблюдение ограничения "
+"\"в среднем\", при этом пропуская пиковые объёмы трафика, если средние "
+"значения не достигали лимита в последнее время."
 
 #: https//support.torproject.org/operators/bandwidth-shaping/
 #: (content/operators/bandwidth-shaping/contents+en.lrquestion.description)
@@ -4495,6 +4506,11 @@ msgid ""
 "second; but if you choose a higher BandwidthBurst (like 5 MBytes), it will "
 "allow more bytes through until the pool is empty."
 msgstr ""
+"Например, если вы установите \"BandwidthBurst 500 KBytes\" и используете то "
+"же самое значение для BandwidthRate, то вы никогда не будете использовать "
+"более 500 килобайт в секунду. Если же вы установите BandwidthBurst выше "
+"(например, \"5 MBytes\"), это позволит пропустить больший поток, пока пул не"
+" будет исчерпан."
 
 #: https//support.torproject.org/operators/bandwidth-shaping/
 #: (content/operators/bandwidth-shaping/contents+en.lrquestion.description)
