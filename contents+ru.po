@@ -6168,6 +6168,15 @@ msgid ""
 "from you might attract the attention of other users on the IRC server, "
 "website, etc. who want to know more about the host they're relaying through."
 msgstr ""
+"Если вы держите выходную ноду, некоторые сервисы, к которым подключаются "
+"пользователи через ваш узел, будут пытаться установить обратное соединение, "
+"чтоб собрать больше информации. Например, сервера чата IRC подключаются к "
+"порту [identd](https://ru.wikipedia.org/wiki/Ident), чтоб узнать, какой же "
+"из пользователей подключается (у них, конечно, ничего не получится, у Tor  "
+"попросту нет этой информации, но они всё же попытаются). Также, пользователи"
+" вашего выходного узла могут привлечь внимание других пользователей IRC, "
+"сайта и прочих, кто хотел бы узнать побольше об узле, с которого они "
+"подключаются."
 
 #: https//support.torproject.org/operators/why-i-get-portscanned-more-often/
 #: (content/operators/why-i-get-portscanned-more-often/contents+en.lrquestion.description)
@@ -6176,6 +6185,9 @@ msgid ""
 " learned that sometimes Tor relays expose their socks port to the world. We "
 "recommend that you bind your socksport to local networks only."
 msgstr ""
+"Также, сканеры в поисках открытых прокси-серверов заметили, что иногда узлы "
+"Tor открывают свой SocksPort всему миру. Мы рекомендуем ограничить доступ до"
+" SocksPort локальной сеть.."
 
 #: https//support.torproject.org/operators/why-i-get-portscanned-more-often/
 #: (content/operators/why-i-get-portscanned-more-often/contents+en.lrquestion.description)
@@ -7126,11 +7138,14 @@ msgid ""
 "stored on the user's computer by the user's [web browser](#web-browser) "
 "while the user is browsing."
 msgstr ""
+"Куки-файл. [HTTP](#http)-куки (также веб-куки, интернет-куки и др.) – "
+"небольшой фрагмент данных, который веб-сайт формирует и сохраняет на "
+"компьютере пользователя, когда тот использует [браузер](#web-browser)."
 
 #: https//support.torproject.org/misc/glossary/
 #: (content/misc/glossary/contents+en.lrquestion.description)
 msgid "By default, [Tor Browser](#tor-browser) does not store cookies."
-msgstr ""
+msgstr "По-умолчанию [Tor Browser](#tor-browser) не сохраняет куки. "
 
 #: https//support.torproject.org/misc/glossary/
 #: (content/misc/glossary/contents+en.lrquestion.description)
@@ -7438,6 +7453,8 @@ msgid ""
 "The Tor Project participates in the Google Season of Docs, which is a "
 "program for technical writers."
 msgstr ""
+"Tor Project принимает участие в программе для технических писателей Google "
+"Season of Docs."
 
 #: https//support.torproject.org/misc/glossary/
 #: (content/misc/glossary/contents+en.lrquestion.description)
@@ -7761,6 +7778,9 @@ msgid ""
 "so take this into account before clicking “New Identity” (accessible through"
 " the small sparkly broom icon at the top-right of the screen)."
 msgstr ""
+"Tor Browser предупредит вас, что вся активность (включая скачивания) будет "
+"остановлена. Подумайте об этом, прежде чем нажимать кнопку \"Новая "
+"личность\" (иконку с искрящейся метлой в правом верхнем углу)."
 
 #: https//support.torproject.org/misc/glossary/
 #: (content/misc/glossary/contents+en.lrquestion.description)
@@ -8010,6 +8030,8 @@ msgid ""
 "Onionoo is a web-based protocol to learn about currently running [Tor "
 "relays](#relay) and [bridges](#bridge)."
 msgstr ""
+"Onionoo – веб-протокол, с помощью которого можно узнавать о действующих "
+"[узлах Tor](#relay) и [мостах](#bridge)."
 
 #: https//support.torproject.org/misc/glossary/
 #: (content/misc/glossary/contents+en.lrquestion.description)
@@ -8018,6 +8040,9 @@ msgid ""
 "([metrics.torproject.org](https://metrics.torproject.org/)) which in turn "
 "present Tor network status information to humans."
 msgstr ""
+"Onionoo передает данные другим приложениям и веб-сайтам "
+"([metrics.torproject.org](https://metrics.torproject.org/)), которые, в свою"
+" очередь, сообщают информацию о Tor пользователям."
 
 #: https//support.torproject.org/misc/glossary/
 #: (content/misc/glossary/contents+en.lrquestion.description)
@@ -8343,6 +8368,12 @@ msgid ""
 "approved by a Certificate Authority (CA) for this binding, and they are "
 "subject to hijack by the CA and typically by many other parties as well."
 msgstr ""
+"Специальный \"самоподверждающий\" формат [onion-адресов](#onion-address). "
+"Гарантирует, что onion-адрес действительно связан с ключом, которым защищено"
+" подключение к [onion-сайту](#onion-site). Если пользователь регистрирует "
+"обычный домен, он должен доверить это центру сертификации. Такие домены "
+"имеют уязвимости, которые могут использовать т центры сертификации, и другие"
+" стороны."
 
 #: https//support.torproject.org/misc/glossary/
 #: (content/misc/glossary/contents+en.lrquestion.description)
@@ -8573,6 +8604,10 @@ msgid ""
 "real [(IP) address](#ip-address), and will not know who you are unless you "
 "explicitly identify yourself."
 msgstr ""
+"Владельцы сайтов и сервисов, которые вы используете, а также те, кто за "
+"ними, возможно, следит, будут видеть подключение из сети Tor, а не ваш "
+"реальный [IP-адрес](#ip-address). Ваша личность не будет раскрыта, пока вы "
+"сами того не захотите. "
 
 #: https//support.torproject.org/misc/glossary/
 #: (content/misc/glossary/contents+en.lrquestion.description)
@@ -8664,6 +8699,9 @@ msgid ""
 "the right of the URL bar), then click on \"Preferences\", and finally on "
 "\"Tor\" in the side bar."
 msgstr ""
+"Если вы не видите это сообщение и [Tor Browser](tor-browser) открыт — "
+"нажмите кнопку \"гамбургера\" в правом верхнем углу, справа от адресной "
+"строки. Выберите в меню \"Настройки\", а в левом столбце \"Tor\"."
 
 #: https//support.torproject.org/misc/glossary/
 #: (content/misc/glossary/contents+en.lrquestion.description)
@@ -8671,6 +8709,9 @@ msgid ""
 "You should see an option to copy the log to your clipboard, which you can "
 "then paste to a document to show whoever is helping you troubleshoot."
 msgstr ""
+"Нажмите кнопку \"Просмотр журналов...\". Вы увидите журнал Tor и можете "
+"скопировать его в буфер обмена. Затем журнал можно вставить в документ, "
+"чтобы показать тому, кто поможет вам в решении проблем."
 
 #: https//support.torproject.org/misc/glossary/
 #: (content/misc/glossary/contents+en.lrquestion.description)
@@ -9538,6 +9579,9 @@ msgid ""
 "3. In the window at the bottom of the page, type:  `/msg nickserv REGISTER "
 "yournewpassword youremailaddress`"
 msgstr ""
+"3. В самом низу страницы наберите: `/msg nickserv REGISTER password email` "
+"(где вместо `password` придумайте пароль, вместо `email` укажите адрес "
+"электронной почты)."
 
 #: https//support.torproject.org/get-in-touch/why-i-cant-join-tor-channels/
 #: (content/get-in-touch/why-i-cant-join-tor-channels/contents+en.lrquestion.description)
