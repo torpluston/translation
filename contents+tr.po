@@ -389,8 +389,8 @@ msgstr "# Tor uygulamasını yapılandırmadan önce yanıtlamanız gereken soru
 msgid ""
 "* Do you want to run a Tor exit or non-exit (bridge/guard/middle) relay?"
 msgstr ""
-"* Tor için bir çıkış aktarıcısı mı çıkış olmayan (köprü/koruma/orta) bir "
-"aktarıcı mı işletmek istersiniz?"
+"* Tor için bir çıkış aktarıcısı mı yoksa bir çıkış yapılmayan "
+"(köprü/koruma/orta) aktarıcı mı işletmek istersiniz?"
 
 #: https//community.torproject.org/relay/setup/
 #: (content/relay-operations/technical-setup/contents+en.lrpage.body)
@@ -519,7 +519,7 @@ msgid ""
 "A non-exit relay should be able to handle at least 7000 concurrent "
 "connections."
 msgstr ""
-"Çıkış türünde olmayan bir aktarıcı aynı anda en az 7000 bağlantıyı "
+"Çıkış yapılmayan bir aktarıcı aynı anda en az 7000 bağlantıyı "
 "işleyebilmelidir."
 
 #: https//community.torproject.org/relay/relays-requirements/
@@ -711,22 +711,24 @@ msgstr "# Bellek Gereksinimleri"
 msgid ""
 "* A <40 Mbit/s non-exit relay should have at least 512 MB of RAM available."
 msgstr ""
-"* Bant genişliği 40 Mbit/s değerinin altında olan ve çıkış türünde olmayan "
-"bir aktarıcının RAM belleği en az 512 MB boyutunda olmalıdır."
+"* Bant genişliği 40 Mbit/s değerinin altında olan ve çıkış yapılmayan bir "
+"aktarıcının RAM belleği en az 512 MB boyutunda olmalıdır."
 
 #: https//community.torproject.org/relay/relays-requirements/
 #: (content/relay-operations/relays-requirements/contents+en.lrpage.body)
 msgid ""
 "* A non-exit relay faster than 40 Mbit/s should have at least 1 GB of RAM."
 msgstr ""
-"* Bant genişliği 40 Mbit/s değerinin üzerinde olan ve çıkış türünde olmayan "
-"bir aktarıcının RAM belleği en az 1 GB boyutunda olmalıdır."
+"* Bant genişliği 40 Mbit/s değerinin üzerinde olan ve çıkış yapılmayan bir "
+"aktarıcının RAM belleği en az 1 GB boyutunda olmalıdır."
 
 #: https//community.torproject.org/relay/relays-requirements/
 #: (content/relay-operations/relays-requirements/contents+en.lrpage.body)
 msgid ""
 "* On an exit relay we recommend at least 1.5 GB of RAM per tor instance."
 msgstr ""
+"* Çıkış türünde bir aktarıcının RAM belleği her Tor kopyası için en az 1.5 "
+"GB boyutunda olmalıdır."
 
 #: https//community.torproject.org/relay/relays-requirements/
 #: (content/relay-operations/relays-requirements/contents+en.lrpage.body)
@@ -736,7 +738,7 @@ msgstr "# Disk Depolaması"
 #: https//community.torproject.org/relay/relays-requirements/
 #: (content/relay-operations/relays-requirements/contents+en.lrpage.body)
 msgid "Tor does not need much disk storage."
-msgstr ""
+msgstr "Tor büyük bir disk alanına gerek duymaz."
 
 #: https//community.torproject.org/relay/relays-requirements/
 #: (content/relay-operations/relays-requirements/contents+en.lrpage.body)
@@ -744,6 +746,8 @@ msgid ""
 "A typical Tor relay needs less than 200 MB for Tor related data (in addition"
 " to the operating system itself)."
 msgstr ""
+"Tipik bir Tor aktarıcısında Tor ile ilgili veriler ve işletim sistemi için "
+"200 MB boyutundan daha az disk alanı gereklidir."
 
 #: https//community.torproject.org/relay/relays-requirements/
 #: (content/relay-operations/relays-requirements/contents+en.lrpage.body)
@@ -762,6 +766,9 @@ msgid ""
 "performance and allow for up to about ~400-450 Mbps in each direction on a "
 "single tor instance on modern CPUs)."
 msgstr ""
+"* AESNI desteği olan işlemciler kullanmanız önerilir (bu işlemciler başarımı"
+" arttırır ve modern işlemciler üzerinde tek bir tor kopyası için her iki "
+"yönde ~400-450 Mbps hız sağlayabilir)."
 
 #: https//community.torproject.org/relay/relays-requirements/
 #: (content/relay-operations/relays-requirements/contents+en.lrpage.body)
@@ -769,6 +776,8 @@ msgid ""
 "If the file /proc/cpuinfo contains the word aes your CPU has support for "
 "AES-NI."
 msgstr ""
+"/proc/cpuinfo dosyasında 'aes' sözcüğü geçiyorsa işlemcinizin AES-NI desteği"
+" vardır."
 
 #: https//community.torproject.org/relay/relays-requirements/
 #: (content/relay-operations/relays-requirements/contents+en.lrpage.body)
@@ -781,16 +790,19 @@ msgid ""
 "Tor has no hard uptime requirement but if your relay is not running for more"
 " than 2 hours a day its usefulness is limited."
 msgstr ""
+"Tor için sıkı bir çalışma süresi gereksinimi yoktur. Ancak bir aktarıcı bir "
+"günde 2 saatten fazla çalışmaz ise kullanılırlığı sınırlanır."
 
 #: https//community.torproject.org/relay/relays-requirements/
 #: (content/relay-operations/relays-requirements/contents+en.lrpage.body)
 msgid "Ideally the relay runs on a server which runs 24/7."
 msgstr ""
+"İdeal olarak aktarıcı 7/24 çalışan bir sunucu üzerinde işletilmelidir."
 
 #: https//community.torproject.org/relay/relays-requirements/
 #: (content/relay-operations/relays-requirements/contents+en.lrpage.body)
 msgid "Reboots and tor daemon restarts are fine."
-msgstr ""
+msgstr "Sunucunun ya da tor işleminin yeniden başlatılması sorun olmaz."
 
 #: https//community.torproject.org/relay/relays-requirements/
 #: (content/relay-operations/relays-requirements/contents+en.lrpage.body)
@@ -840,7 +852,7 @@ msgstr "# Koruma aktarıcısı ve orta aktarıcı"
 #: https//community.torproject.org/relay/types-of-relays/
 #: (content/relay-operations/types-of-relays/contents+en.lrpage.body)
 msgid "(also known as non-exit relays)"
-msgstr "(çıkış aktarıcıları olarak da bilinir)"
+msgstr "(çıkış yapılmayan aktarıcılar olarak da bilinir)"
 
 #: https//community.torproject.org/relay/types-of-relays/
 #: (content/relay-operations/types-of-relays/contents+en.lrpage.body)
@@ -1422,6 +1434,8 @@ msgid ""
 "How to choose a good hosting provider, what's an AS and Operating System "
 "diversity."
 msgstr ""
+"İyi bir barındırma sağlayıcısı nasıl seçilir, Otonom Sistem ve işletim "
+"sistemi çeşitliliği nedir."
 
 #: https//community.torproject.org/relay/technical-considerations/
 #: (content/relay-operations/technical-considerations/contents+en.lrpage.body)
@@ -1562,7 +1576,7 @@ msgstr ""
 #: https//community.torproject.org/relay/technical-considerations/
 #: (content/relay-operations/technical-considerations/contents+en.lrpage.body)
 msgid "# AS/location diversity"
-msgstr "# OS/konum çeşitliliği"
+msgstr "# Otonom sistem/konum çeşitliliği"
 
 #: https//community.torproject.org/relay/technical-considerations/
 #: (content/relay-operations/technical-considerations/contents+en.lrpage.body)
@@ -1682,6 +1696,9 @@ msgid ""
 "points are crucial for a Tor relay, so we want to mention them here "
 "nonetheless."
 msgstr ""
+"İşletim Sistemi yapılandırması bu rehberin kapsamı dışındadır. Ancak bir Tor"
+" aktarıcısı için aşağıdaki noktalar çok önemli olduğundan bunları anmak "
+"istedik."
 
 #: https//community.torproject.org/relay/technical-considerations/
 #: (content/relay-operations/technical-considerations/contents+en.lrpage.body)
@@ -1954,7 +1971,7 @@ msgstr "Eğitmenler için Davranış Kuralları"
 #: https//community.torproject.org/training/code-of-conduct/
 #: (content/training/code-of-conduct/contents+en.lrpage.subtitle)
 msgid "Foster a safe, engaging environment."
-msgstr ""
+msgstr "Güvenli ve birleştirici bir ortam oluşturun."
 
 #: https//community.torproject.org/training/code-of-conduct/
 #: (content/training/code-of-conduct/contents+en.lrpage.cta)
@@ -1973,7 +1990,7 @@ msgid ""
 "community. Tor is a place where people should feel safe to engage, share "
 "their point of view, and participate."
 msgstr ""
-"Tor Projesi kapsayıcı bir ortam ve topluluk geliştirmeyi hedefler. Tor, "
+"Tor Projesi birleştirici bir ortam ve topluluk geliştirmeyi hedefler. Tor, "
 "insanların görüşlerini paylaşırken ve katkıda bulunurken kendilerini güvende"
 " hissetmeleri gereken bir yerdir. "
 
