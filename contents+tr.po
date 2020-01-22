@@ -817,11 +817,15 @@ msgid ""
 " insecure. Relays that attempt to downgrade to an insecure version will be "
 "rejected from the network automatically."
 msgstr ""
+"Güvenlik nedeniyle, Tor aktarıcıları desteklenen bir tor sürümünden "
+"desteklenmeyen bir tor sürümüne indirilemez. Desteklenmeyen sürümlerin "
+"bazıları güvenli değildir. Güvenli olmayan bir sürüme indirilmesi istenilen "
+"aktarıcılar ağdan otomatik olarak dışlanır."
 
 #: https//community.torproject.org/relay/types-of-relays/
 #: (content/relay-operations/types-of-relays/contents+en.lrpage.title)
 msgid "Types of relays on the Tor network"
-msgstr ""
+msgstr "Tor ağındaki aktarıcı türleri"
 
 #: https//community.torproject.org/relay/types-of-relays/
 #: (content/relay-operations/types-of-relays/contents+en.lrpage.subtitle)
@@ -829,6 +833,8 @@ msgid ""
 "Bridges, guards, middle relays, and exits all serve important functions in "
 "the Tor network. Learn about the different relays you can run."
 msgstr ""
+"Köprü, koruma, orta ve çıkış aktarıcılarının her biri Tor ağı için "
+"önemlidir. İşletebileceğiniz farklı aktarıcı türleri hakkında bilgi alın."
 
 #: https//community.torproject.org/relay/types-of-relays/
 #: (content/relay-operations/types-of-relays/contents+en.lrpage.body)
@@ -860,6 +866,8 @@ msgid ""
 "A guard relay is the first relay in the chain of 3 relays building a Tor "
 "circuit."
 msgstr ""
+"Koruma aktarıcısı, 3 aktarıcıdan oluşan bir Tor devresindeki ilk "
+"aktarıcıdır."
 
 #: https//community.torproject.org/relay/types-of-relays/
 #: (content/relay-operations/types-of-relays/contents+en.lrpage.body)
@@ -867,6 +875,8 @@ msgid ""
 "A middle relay is neither a guard nor an exit, but acts as the second hop "
 "between the two."
 msgstr ""
+"Orta aktarıcı, koruma ya da çıkış aktarıcısı olmayan bir aktarıcıdır ve bu "
+"ikisi arasındaki sıçrama aktarıcısı olarak kullanılır."
 
 #: https//community.torproject.org/relay/types-of-relays/
 #: (content/relay-operations/types-of-relays/contents+en.lrpage.body)
@@ -874,11 +884,14 @@ msgid ""
 "To become a guard, a relay has to be stable and fast (at least 2MByte/s) "
 "otherwise it will remain a middle relay."
 msgstr ""
+"Bir koruma aktarıcısı işletmek için, aktarıcı kararlı ve hızlı (en az "
+"2MBayt/s) olmalıdır. Yoksa bir orta aktarıcı olarak kalır."
 
 #: https//community.torproject.org/relay/types-of-relays/
 #: (content/relay-operations/types-of-relays/contents+en.lrpage.body)
 msgid "Guard and middle relays usually do not receive abuse complaints."
 msgstr ""
+"Koruma ve orta aktarıcıları genellikle kötüye kullanım şikayetleri almaz."
 
 #: https//community.torproject.org/relay/types-of-relays/
 #: (content/relay-operations/types-of-relays/contents+en.lrpage.body)
@@ -887,6 +900,9 @@ msgid ""
 "blocked by certain services that don't understand how Tor works or "
 "deliberately want to censor Tor users."
 msgstr ""
+"Tüm aktarıcılar herkese açık Tor aktarıcıları listesinde yayınlandığından, "
+"Tor ağının mantığını anlamayan ya da özellikle Tor kullanıcılarını "
+"engellemek isteyen bazı hizmetler tarafından engellenebilirler."
 
 #: https//community.torproject.org/relay/types-of-relays/
 #: (content/relay-operations/types-of-relays/contents+en.lrpage.body)
@@ -895,6 +911,9 @@ msgid ""
 " consider running a bridge instead so that your non-Tor traffic doesn't get "
 "blocked as though it's coming from Tor."
 msgstr ""
+"Evinizde bir aktarıcı işletiyorsanız ve bir sabit IP adresiniz varsa, "
+"aktarıcı yerine bir köprü işletmeyi düşünebilirsiniz. Böylece Tor dışındaki "
+"trafiğinizin Tor ağından geldiği düşünülerek engellenmez."
 
 #: https//community.torproject.org/relay/types-of-relays/
 #: (content/relay-operations/types-of-relays/contents+en.lrpage.body)
@@ -902,6 +921,8 @@ msgid ""
 "If you have a dynamic IP address or multiple static IPs, this isn't as much "
 "of an issue."
 msgstr ""
+"Değişen bir IP adresiniz ya da birden çok sabit IP adresiniz varsa bu pek "
+"bir sorun olmaz."
 
 #: https//community.torproject.org/relay/types-of-relays/
 #: (content/relay-operations/types-of-relays/contents+en.lrpage.body)
@@ -1111,6 +1132,8 @@ msgid ""
 "For the majority of operators in most countries, bridges and guard/middle "
 "relays are very low risk."
 msgstr ""
+"Pek çok ülkedeki işletmecilerin çoğu için köprü ve koruma/orta aktarıcıları "
+"çok düşük risk oluşturur."
 
 #: https//community.torproject.org/relay/community-resources/
 #: (content/relay-operations/community-resources/contents+en.lrpage.body)
@@ -3302,7 +3325,7 @@ msgstr ""
 #: https//community.torproject.org/onion-services/setup/
 #: (content/onion-services/setup/contents+en.lrpage.body)
 msgid "https://blog.torproject.org/announcing-vanguards-add-onion-services"
-msgstr ""
+msgstr "https://blog.torproject.org/announcing-vanguards-add-onion-services"
 
 #: https//community.torproject.org/localization/current-status/
 #: (content/localization/current-status/contents+en.lrpage.title)
@@ -3875,6 +3898,10 @@ msgid ""
 "this process, read about the [lifecycle of a new "
 "relay](https://blog.torproject.org/lifecycle-new-relay)."
 msgstr ""
+"Aktarıcı trafiğinin artması biraz zaman alır. Bu durum özellikle koruma "
+"aktarıcıları ve biraz da çıkış aktarıcıları için geçerlidir. Bu işlemi "
+"anlamak için [yeni bir aktarcının yaşam döngüsü](https://blog.torproject.org"
+"/lifecycle-new-relay) bölümüne bakabilirsiniz."
 
 #: https//community.torproject.org/relay/setup/post-install/
 #: (content/relay-operations/technical-setup/post-install/contents+en.lrpage.body)
@@ -4045,6 +4072,8 @@ msgid ""
 "We encourage everyone to enable IPv6 on their relays. This is especially "
 "valuable on exit and guard relays."
 msgstr ""
+"Aktarıcı işletmecilerini IPv6 kullanmaya yönlendiriyoruz. Özellikle çıkış ve"
+" koruma aktarıcıları için değerli oluyor."
 
 #: https//community.torproject.org/relay/setup/post-install/
 #: (content/relay-operations/technical-setup/post-install/contents+en.lrpage.body)
@@ -4877,7 +4906,7 @@ msgstr ""
 #: https//community.torproject.org/relay/setup/guard/
 #: (content/relay-operations/technical-setup/guard/contents+en.lrpage.title)
 msgid "Middle/Guard relay"
-msgstr ""
+msgstr "Orta/Koruma aktarıcısı"
 
 #: https//community.torproject.org/relay/setup/guard/
 #: (content/relay-operations/technical-setup/guard/contents+en.lrpage.subtitle)
