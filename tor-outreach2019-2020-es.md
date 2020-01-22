@@ -52,7 +52,7 @@ Jelani uses **Tor Browser** to prevent these companies from watching as he visit
 
 También usa **OnionShare** y **SecureDrop** para enviar documentos de manera segura a periodistas que están ayudando a hacer público estas violaciones de derechos humanos.
 
-All of this software uses Tor to help protect Jelani’s privacy. 
+Tor usa todo este software para ayudar a proteger la privacidad de Jelani.
 
 ### Los activistas por los derechos humanos como Jelani luchan por la justicia en sus comunidades, y Tor ayuda a fortalecer su resistencia.
 
@@ -145,7 +145,7 @@ You can volunteer with Tor by writing code, running a relay, creating documentat
 
 La comunidad de Tor se rige por un código de conducta, y mostramos nuestro compromiso con la comunidad en nuestro contrato social.
 
-Learn more about Tor by visiting our website, our wiki, finding us on IRC, joining one of our mailing lists, or signing up for Tor News at newsletter.torproject.org.
+Consigue más información sobre Tor visitando nuestro sitio web, nuestro wiki, encontrándonos en IRC, uniéndote a una de nuestras listas de correo o inscribiéndote en Tor News en newsletter.torproject.org.
 
 
 ## 8. Descargar Tor
