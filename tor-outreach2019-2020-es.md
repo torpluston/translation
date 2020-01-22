@@ -109,7 +109,7 @@ Amal quiere visitar la web de Bekele en privado, así que abre el Tor Browser.
 
 El Navegador Tor selecciona un circuito aleatorio de tres relays, que son ordenadores de todo el mundo configurados para enrutar el tráfico a través de la red Tor.
 
-El Navegador Tor a continuación encripta la solicitud del sitio web tres veces y la envía al primer relay Tor del circuito.
+El Navegador Tor a continuación encripta la solicitud del sitio web tres veces y la envía al primer repetidor de Tor del circuito.
 
 El primer relay elimina la primera capa de encriptación pero no se entera de que el destino es la web Bekele.
 
