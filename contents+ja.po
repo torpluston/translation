@@ -1135,7 +1135,7 @@ msgstr ""
 #: https//tb-manual.torproject.org/managing-identities/
 #: (content/managing-identities/contents+en.lrtopic.body)
 msgid "### CHANGING IDENTITIES AND CIRCUITS"
-msgstr ""
+msgstr "### IDと回路の変更"
 
 #: https//tb-manual.torproject.org/managing-identities/
 #: (content/managing-identities/contents+en.lrtopic.body)
@@ -1148,11 +1148,12 @@ msgid ""
 "Tor Browser features “New Identity” and “New Tor Circuit for this Site” "
 "options. There are also located in the main menu (hamburger menu)."
 msgstr ""
+"Torブラウザには、「このサイトの新しいID」および「新しいTorサーキット」オプションがあります。メインメニュー（ハンバーガーメニュー）にもあります。"
 
 #: https//tb-manual.torproject.org/managing-identities/
 #: (content/managing-identities/contents+en.lrtopic.body)
 msgid "### NEW IDENTITY"
-msgstr ""
+msgstr "### 新しいID"
 
 #: https//tb-manual.torproject.org/managing-identities/
 #: (content/managing-identities/contents+en.lrtopic.body)
@@ -1164,18 +1165,21 @@ msgid ""
 "connections. Tor Browser will warn you that all activity and downloads will "
 "be stopped, so take this into account before clicking “New Identity”."
 msgstr ""
+"このオプションは、その後のブラウザアクティビティを以前に行っていたものに関連付けできないようにする場合に便利です。\n"
+"選択すると、開いているタブとウィンドウがすべて閉じられ、Cookieや閲覧履歴などの個人情報がすべて消去され、すべての接続に新しいTor回路が使用されます。\n"
+"Torブラウザーはすべてのアクティビティとダウンロードが停止されることを警告するので、「新しいID」をクリックする前にこれを考慮してください。"
 
 #: https//tb-manual.torproject.org/managing-identities/
 #: (content/managing-identities/contents+en.lrtopic.body)
 msgid ""
 "To use this option, you just need to click on 'New Identity' in Tor "
 "Browser's toolbar."
-msgstr ""
+msgstr "このオプションを使用するには、Torブラウザーのツールバーで「新しいID」をクリックするだけです。"
 
 #: https//tb-manual.torproject.org/managing-identities/
 #: (content/managing-identities/contents+en.lrtopic.body)
 msgid "### NEW TOR CIRCUIT FOR THIS SITE"
-msgstr ""
+msgstr "### サイトの新しいTor回路"
 
 #: https//tb-manual.torproject.org/managing-identities/
 #: (content/managing-identities/contents+en.lrtopic.body)
@@ -1188,23 +1192,27 @@ msgid ""
 " does not clear any private information or unlink your activity, nor does it"
 " affect your current connections to other websites."
 msgstr ""
+"このオプションは、使用している「exit relay、出口ノード」（/jp/about/#how-tor-works）が必要なWebサイトに接続できない場合、または適切にロードしていない場合にも役立ちます。\n"
+"これを選択すると、現在アクティブなタブまたはウィンドウが新しいTor回路に再ロードされます。\n"
+"同じWebサイトの他の開いているタブとウィンドウは、リロードされると新しい回路も使用します。\n"
+"このオプションは、個人情報を消去したり、アクティビティのリンクを解除したり、他のWebサイトへの現在の接続に影響を与えたりすることはありません。"
 
 #: https//tb-manual.torproject.org/managing-identities/
 #: (content/managing-identities/contents+en.lrtopic.body)
 msgid ""
 "You can also access this option in the new circuit display, in the site "
 "information menu, in the URL bar."
-msgstr ""
+msgstr "このオプションには、新しい回線表示、サイト情報メニュー、URLバーでもアクセスできます。"
 
 #: https//tb-manual.torproject.org/onion-services/
 #: (content/onion-services/contents+en.lrtopic.title)
 msgid "ONION SERVICES"
-msgstr ""
+msgstr "オニオンサービス"
 
 #: https//tb-manual.torproject.org/onion-services/
 #: (content/onion-services/contents+en.lrtopic.description)
 msgid "Services that are only accessible using Tor"
-msgstr ""
+msgstr "Torを介してのみアクセス可能なサービスを作成しましょう"
 
 #: https//tb-manual.torproject.org/onion-services/
 #: (content/onion-services/contents+en.lrtopic.body)
@@ -1212,20 +1220,21 @@ msgid ""
 "Onion services (formerly known as “hidden services”) are services (like "
 "websites) that are only accessible through the Tor network."
 msgstr ""
+"オニオンサービス（以前は「隠されたサービス」と呼ばれていた）は、Torネットワークを介してのみアクセス可能なサービス（Webサイトなど）の事です。"
 
 #: https//tb-manual.torproject.org/onion-services/
 #: (content/onion-services/contents+en.lrtopic.body)
 msgid ""
 "Onion services offer several advantages over ordinary services on the non-"
 "private web:"
-msgstr ""
+msgstr "オニオンサービスには、非プライベートなWebの通常のサービスに比べて以下のような利点があります。"
 
 #: https//tb-manual.torproject.org/onion-services/
 #: (content/onion-services/contents+en.lrtopic.body)
 msgid ""
 "* An onion services’s location and IP address are hidden, making it "
 "difficult for adversaries to censor it or identify its operators."
-msgstr ""
+msgstr "・オニオンサービスの場所とIPアドレスは隠されているため、攻撃者はそれを検閲したり、事業者を特定したりすることは困難です。"
 
 #: https//tb-manual.torproject.org/onion-services/
 #: (content/onion-services/contents+en.lrtopic.body)
@@ -1234,6 +1243,8 @@ msgid ""
 "so you do not need to worry about [connecting over HTTPS](/secure-"
 "connections)."
 msgstr ""
+"・Torユーザーとオニオンサービス間のすべてのトラフィックはエンドツーエンドで暗号化されるため、「connecting over HTTPS」（/jp"
+"/secure-connections）を心配する必要はありません。"
 
 #: https//tb-manual.torproject.org/onion-services/
 #: (content/onion-services/contents+en.lrtopic.body)
@@ -1243,11 +1254,13 @@ msgid ""
 "Tor ensure that it is connecting to the right location and that the "
 "connection is not being tampered with."
 msgstr ""
+"・オニオンサービスのアドレスは自動的に生成されるため、オペレーターはドメイン名を購入する必要がありません。.onion "
+"URLは、Torが正しい場所に接続し、接続が改ざんされていないことを確認するのにも役立ちます。"
 
 #: https//tb-manual.torproject.org/onion-services/
 #: (content/onion-services/contents+en.lrtopic.body)
 msgid "### HOW TO ACCESS AN ONION SERVICE"
-msgstr ""
+msgstr "### オニオンサービスにアクセスする方法"
 
 #: https//tb-manual.torproject.org/onion-services/
 #: (content/onion-services/contents+en.lrtopic.body)
@@ -1256,6 +1269,7 @@ msgid ""
 "service in order to connect to it. An onion address is a string of 16 (and "
 "in V3 format, 56) mostly random letters and numbers, followed by “.onion”."
 msgstr ""
+"他のWebサイトと同様に、接続するには、オニオンサービスのアドレスを知る必要があります。タマネギのアドレスは、16の文字列（V3形式では56文字列）で構成され、ほとんどがランダムな文字と数字で、その後に「.onion」が続きます。"
 
 #: https//tb-manual.torproject.org/onion-services/
 #: (content/onion-services/contents+en.lrtopic.body)
@@ -1266,6 +1280,9 @@ msgid ""
 "website with https and onion service, it will show an icon of a green onion "
 "and a padlock."
 msgstr ""
+"オニオンサービスを使用するWebサイトにアクセスすると、TorブラウザはURLバーに小さな緑のタマネギのアイコンを表示し、接続の状態を表示します。\n"
+"この時は、安全にオニオンサービスを使用しています。\n"
+"また、httpsとオニオンサービスを使用してWebサイトにアクセスしている場合は、青ネギと南京錠のアイコンが表示されます。"
 
 #: https//tb-manual.torproject.org/onion-services/
 #: (content/onion-services/contents+en.lrtopic.body)
@@ -1279,6 +1296,8 @@ msgid ""
 "entered the onion address correctly: even a small mistake will stop Tor "
 "Browser from being able to reach the site."
 msgstr ""
+"必要なオニオンサービスにアクセスできない場合は、タマネギのアドレスを正しく入力したことを確認してください。\n"
+"わずかな間違いでも、Torブラウザーがサイトにアクセスできないようになってします。"
 
 #: https//tb-manual.torproject.org/onion-services/
 #: (content/onion-services/contents+en.lrtopic.body)
@@ -1287,6 +1306,7 @@ msgid ""
 "later. There may be a temporary connection issue, or the site operators may "
 "have allowed it to go offline without warning."
 msgstr ""
+"それでもオニオンサービスに接続できない場合は、しばらくしてからもう一度お試しください。接続に一時的な問題があるか、サイトが警告なしにオフラインになっているしている可能性があります。"
 
 #: https//tb-manual.torproject.org/onion-services/
 #: (content/onion-services/contents+en.lrtopic.body)
@@ -1294,6 +1314,8 @@ msgid ""
 "You can also ensure that you're able to access other onion services by "
 "connecting to [DuckDuckGo's Onion Service](http://3g2upl4pq6kufc4m.onion/)."
 msgstr ""
+"「DuckDuckGo's Onion Service」（ http://3g2upl4pq6kufc4m.onion/ "
+"）に接続することで、他のオニオンサービスにアクセスできることを確認することもできます。"
 
 #: https//tb-manual.torproject.org/secure-connections/
 #: (content/secure-connections/contents+en.lrtopic.title)
@@ -1315,6 +1337,9 @@ msgid ""
 " verify this in the URL bar: if your connection is encrypted, the address "
 "will begin with “https://”, rather than “http://”."
 msgstr ""
+"ログインパスワードなどの個人情報がインターネット上で暗号化されずに送信されると、盗聴者によって非常に簡単に傍受されてしまいます。 \n"
+"Webサイトにログインする場合は、この種の盗聴から保護するHTTPS暗号化をサイトが提供していることを確認する必要があります。そして、それはURLバーで確認できます。\n"
+"接続が暗号化されている場合、アドレスは「http://」ではなく「https://」で始まります。"
 
 #: https//tb-manual.torproject.org/security-settings/
 #: (content/security-settings/contents+en.lrtopic.title)
@@ -1324,28 +1349,28 @@ msgstr "セキュリティ設定"
 #: https//tb-manual.torproject.org/security-settings/
 #: (content/security-settings/contents+en.lrtopic.description)
 msgid "Configuring Tor Browser for security and usability"
-msgstr ""
+msgstr "セキュリティと使いやすさのためのTorの設定"
 
 #: https//tb-manual.torproject.org/security-settings/
 #: (content/security-settings/contents+en.lrtopic.body)
 msgid ""
 "By default, Tor Browser protects your security by encrypting your browsing "
 "data."
-msgstr ""
+msgstr "デフォルトでは、Torブラウザーは閲覧データを暗号化してセキュリティを保護します。"
 
 #: https//tb-manual.torproject.org/security-settings/
 #: (content/security-settings/contents+en.lrtopic.body)
 msgid ""
 "You can further increase your security by choosing to disable certain web "
 "features that can be used to attack your security and anonymity."
-msgstr ""
+msgstr "セキュリティと匿名性を攻撃するために使用される特定のWeb機能を無効にすることで、セキュリティをさらに高めることができます。"
 
 #: https//tb-manual.torproject.org/security-settings/
 #: (content/security-settings/contents+en.lrtopic.body)
 msgid ""
 "You can do this by increasing Tor Browser's Security Levels in the shield "
 "menu."
-msgstr ""
+msgstr "これを行うには、シールドメニューでTorブラウザーのセキュリティレベルを上げることが出来ます。"
 
 #: https//tb-manual.torproject.org/security-settings/
 #: (content/security-settings/contents+en.lrtopic.body)
@@ -1354,6 +1379,7 @@ msgid ""
 "functioning properly, so you should weigh your security needs against the "
 "degree of usability you require."
 msgstr ""
+"Torブラウザのセキュリティレベルを上げると、一部のWebページが適切に機能しなくなるため、必要なユーザビリティの程度とセキュリティのニーズを比較検討する必要があります。"
 
 #: https//tb-manual.torproject.org/security-settings/
 #: (content/security-settings/contents+en.lrtopic.body)
@@ -1395,13 +1421,14 @@ msgid ""
 "disable or partially disable certain browser features to protect against "
 "possible attacks."
 msgstr ""
+"Torブラウザーのセキュリティ設定でセキュリティレベルを上げると、特定のブラウザ機能を無効にするか、部分的に無効にして、起こりうる攻撃から保護します。"
 
 #: https//tb-manual.torproject.org/security-settings/
 #: (content/security-settings/contents+en.lrtopic.body)
 msgid ""
 "You can enable these settings again at any time by adjusting your Security "
 "Level."
-msgstr ""
+msgstr "セキュリティレベルを調整することで、いつでもこれらの設定を再度有効にできます。"
 
 #: https//tb-manual.torproject.org/security-settings/
 #: (content/security-settings/contents+en.lrtopic.body)
@@ -1433,6 +1460,8 @@ msgid ""
 "* This level disables website features that are often dangerous. This may "
 "cause some sites to lose functionality."
 msgstr ""
+"・このレベルは、危険なウェブサイトから保護することに使えます。\n"
+"これにより、一部のサイトの機能が失われる場合があります。"
 
 #: https//tb-manual.torproject.org/security-settings/
 #: (content/security-settings/contents+en.lrtopic.body)
@@ -1441,6 +1470,8 @@ msgid ""
 " fonts and math symbols are disabled; audio and video (HTML5 media) are "
 "click-to-play."
 msgstr ""
+"・JavaScriptはすべての非HTTPS（/ secure-connections）サイトで無効になっています。そのため、一部のフォントと数学記号は無効になります。\n"
+"オーディオとビデオ（HTML5メディア）はクリックして再生できます。"
 
 #: https//tb-manual.torproject.org/security-settings/
 #: (content/security-settings/contents+en.lrtopic.body)
@@ -1452,7 +1483,7 @@ msgstr "###### 最も安全"
 msgid ""
 "* This level only allows website features required for static sites and "
 "basic services."
-msgstr ""
+msgstr "・このレベルでは、静的サイトと基本サービスに必要なWebサイト機能のみが許可されます。"
 
 #: https//tb-manual.torproject.org/security-settings/
 #: (content/security-settings/contents+en.lrtopic.body)
@@ -1466,6 +1497,9 @@ msgid ""
 "symbols, and images are disabled; audio and video (HTML5 media) are click-"
 "to-play."
 msgstr ""
+"・Javascriptはすべてのサイトでデフォルトで無効になっています。\n"
+"一部のフォント、アイコン、数学記号、画像は無効になっています。\n"
+"オーディオとビデオ（HTML5メディア）はクリックしたときに再生できます。"
 
 #: https//tb-manual.torproject.org/updating/
 #: (content/updating/contents+en.lrtopic.title)
@@ -1515,6 +1549,7 @@ msgid ""
 "When you are prompted to update Tor Browser, click on hamburger menu (main "
 "menu), then select “Restart to update Tor browser”."
 msgstr ""
+"Torバインダーの更新を求められたら、ハンバーガーメニュー（メインメニュー）をクリックし、「Torブラウザーの更新を再開する」を選択してください。"
 
 #: https//tb-manual.torproject.org/updating/
 #: (content/updating/contents+en.lrtopic.body)
@@ -1547,6 +1582,8 @@ msgid ""
 "Remove Tor Browser from your system by deleting the folder that contains it "
 "(see the [Uninstalling](/uninstalling) section for more information)."
 msgstr ""
+"Torブラウザーを含むフォルダを削除して、システムからTorブラウザを削除します（詳細については、「アンインストール」（/jp/secure-"
+"connections）セクションを参照してください。"
 
 #: https//tb-manual.torproject.org/updating/
 #: (content/updating/contents+en.lrtopic.body)
@@ -1554,6 +1591,8 @@ msgid ""
 "Visit https://www.torproject.org/download/ and download a copy of the latest"
 " Tor Browser release, then install it as before."
 msgstr ""
+"https://www.torproject.org/download/  "
+"にアクセスして、最新のTorビューアリリースのコピーをダウンロードし、以前のようにインストールします。"
 
 #: https//tb-manual.torproject.org/troubleshooting/
 #: (content/troubleshooting/contents+en.lrtopic.title)
@@ -1578,7 +1617,7 @@ msgstr ""
 #: https//tb-manual.torproject.org/troubleshooting/
 #: (content/troubleshooting/contents+en.lrtopic.body)
 msgid "### QUICK FIXES"
-msgstr ""
+msgstr "### 簡単な修正"
 
 #: https//tb-manual.torproject.org/troubleshooting/
 #: (content/troubleshooting/contents+en.lrtopic.body)
@@ -1630,7 +1669,7 @@ msgstr ""
 #: https//tb-manual.torproject.org/troubleshooting/
 #: (content/troubleshooting/contents+en.lrtopic.body)
 msgid "### IS YOUR CONNECTION CENSORED?"
-msgstr ""
+msgstr "### あなたの国で接続が検閲されていますか？"
 
 #: https//tb-manual.torproject.org/troubleshooting/
 #: (content/troubleshooting/contents+en.lrtopic.body)
@@ -1639,6 +1678,8 @@ msgid ""
 "censoring connections to the Tor network. Read the "
 "[Circumvention](/circumvention) section for possible solutions."
 msgstr ""
+"それでも接続できない場合は、IPSがTorネットワークへの接続を検閲、ブロッキングしている可能性があります。\n"
+"可能な解決策については、「回避」（/jp/circumvention）セクションをお読みください。"
 
 #: https//tb-manual.torproject.org/troubleshooting/
 #: (content/troubleshooting/contents+en.lrtopic.body)
@@ -1652,21 +1693,23 @@ msgid ""
 "but not yet fixed. Please check the [Known Issues](/known-issues) page to "
 "see if the problem you are experiencing is already listed there."
 msgstr ""
+"Torブラウザーは絶えず開発されており、いくつかの問題やバグが報告されていますが、まだ全てを網羅し修正できているわけではありません。\n"
+"問題があった場合は「既知の問題」（jp/known-issues）ページで、発生している問題が既にリストされているかどうかを確認してください。"
 
 #: https//tb-manual.torproject.org/plugins/
 #: (content/plugins/contents+en.lrtopic.title)
 msgid "PLUGINS, ADD-ONS AND JAVASCRIPT"
-msgstr ""
+msgstr "プラグイン、アドオン、JAVASCRIPTについて"
 
 #: https//tb-manual.torproject.org/plugins/
 #: (content/plugins/contents+en.lrtopic.description)
 msgid "How Tor Browser handles add-ons, plugins and JavaScript"
-msgstr ""
+msgstr "Torアドオンがアドオン、プラグイン、JavaScriptを処理する方法"
 
 #: https//tb-manual.torproject.org/plugins/
 #: (content/plugins/contents+en.lrtopic.body)
 msgid "### FLASH PLAYER"
-msgstr ""
+msgstr "### フラッシュプレーヤー"
 
 #: https//tb-manual.torproject.org/plugins/
 #: (content/plugins/contents+en.lrtopic.body)
@@ -1678,6 +1721,9 @@ msgid ""
 "operators, or to an outside observer. For this reason, Flash is disabled by "
 "default in Tor Browser, and enabling it is not recommended."
 msgstr ""
+"ビデオなどを扱うWebサイトは、Flash Playerプラグインを使用してビデオコンテンツを表示します。\n"
+"残念ながら、このソフトウェアはTorブラウザーとは独立して動作するため、Torブラウザーのプロキシ設定に従うことは簡単にはできません。そのため、ウェブサイト運営者や外部の観察者に実際の場所とIPアドレスを明らかにすることができます。\n"
+"このため、TorビューアではFlashはデフォルトで無効になっています。有効にすることはお勧めしません。"
 
 #: https//tb-manual.torproject.org/plugins/
 #: (content/plugins/contents+en.lrtopic.body)
@@ -1686,11 +1732,13 @@ msgid ""
 "methods that do not use Flash. These methods may be compatible with Tor "
 "Browser."
 msgstr ""
+"一部のビデオWebサイト（YouTubeなど）では、Flashを使用しない代替の配信方法を提供しています。\n"
+"これらのメソッドは、Torブラウザーと互換性がある場合があります。"
 
 #: https//tb-manual.torproject.org/plugins/
 #: (content/plugins/contents+en.lrtopic.body)
 msgid "### JAVASCRIPT"
-msgstr ""
+msgstr "### JavaScript"
 
 #: https//tb-manual.torproject.org/plugins/
 #: (content/plugins/contents+en.lrtopic.body)
@@ -1700,6 +1748,8 @@ msgid ""
 "Unfortunately, JavaScript can also enable attacks on the security of the "
 "browser, which might lead to deanonymization."
 msgstr ""
+"JavaScriptは、ビデオ、アニメーション、オーディオ、ステータスタイムラインなどのインタラクティブな要素を提供するためにWebサイトが使用するプログラミング言語です。\n"
+"残念なことに、JavaScriptはブラウザのセキュリティに対する攻撃も可能にし、Torブラウザーの匿名化を侵す事につながる可能性があります。"
 
 #: https//tb-manual.torproject.org/plugins/
 #: (content/plugins/contents+en.lrtopic.body)
@@ -1710,6 +1760,8 @@ msgid ""
 "control the JavaScript (and other scripts) that runs on individual web "
 "pages, or block it entirely."
 msgstr ""
+"Torブラウザーには、「NoScript」と呼ばれるアドオンが含まれています。ハンバーガーメニュー（メインメニュー）の「設定」からアクセスでき、「カスタマイズ」を選択して「S」アイコンをウィンドウの右上にドラッグします。\n"
+"「NoScript」を使用することによって、個々のWebページで実行されるJavaScript（およびその他のスクリプト）を制御したり、完全にブロックしたりできます。"
 
 #: https//tb-manual.torproject.org/plugins/
 #: (content/plugins/contents+en.lrtopic.body)
@@ -1721,11 +1773,13 @@ msgid ""
 " displaying correctly, so Tor Browser’s default setting is to allow all "
 "websites to run scripts in \"Standard\" mode."
 msgstr ""
+"Webブラウジングの際、高度なセキュリティが必要なユーザーは、Torブラウザーの「セキュリティレベル」（../ security-settings /）を「Safer」（非HTTPS WebサイトのJavaScriptを無効にする）または「Safest」（これをすべてのウェブサイトでそうします）。\n"
+"ただし、JavaScriptを無効にすると、多くのウェブサイトが正しく表示されなくなるため、Torブラウザーのデフォルト設定では、すべてのウェブサイトで「標準」モードでスクリプトを実行できます。"
 
 #: https//tb-manual.torproject.org/plugins/
 #: (content/plugins/contents+en.lrtopic.body)
 msgid "### BROWSER ADD-ONS"
-msgstr ""
+msgstr "### ブラウザーのアドオン"
 
 #: https//tb-manual.torproject.org/plugins/
 #: (content/plugins/contents+en.lrtopic.body)
@@ -1733,6 +1787,7 @@ msgid ""
 "Tor Browser is based on Firefox, and any browser add-ons or themes that are "
 "compatible with Firefox can also be installed in Tor Browser."
 msgstr ""
+"TorブラウザーはFirefoxに基づいており、Firefoxと互換性のあるブラウザーのアドオンまたはテーマであれば、Torブラウザーにインストールできます。"
 
 #: https//tb-manual.torproject.org/plugins/
 #: (content/plugins/contents+en.lrtopic.body)
@@ -1743,6 +1798,9 @@ msgid ""
 " privacy and security. It is strongly discouraged to install additional add-"
 "ons, and the Tor Project will not offer support for these configurations."
 msgstr ""
+"ただし、Torブラウザーでの使用がテストされているアドオンは、デフォルトで含まれているアドオンのみです。\n"
+"他のブラウザアドオンをインストールすると、Torブラウザの機能が破損したり、プライバシーとセキュリティに影響を与えるより深刻な問題が発生したりする可能性があります。\n"
+"追加のアドオンをインストールすることは強くお勧めしません。Torプロジェクトはこれらの構成をサポートしません。"
 
 #: https//tb-manual.torproject.org/uninstalling/
 #: (content/uninstalling/contents+en.lrtopic.title)
@@ -1769,7 +1827,7 @@ msgstr "ウィンドウズ上にて"
 msgid ""
 "* Locate your Tor Browser folder or application. The default location is the"
 " Desktop."
-msgstr ""
+msgstr "・Torブラウザーのフォルダーまたはアプリケーションを探します。デフォルトの場所はデスクトップです。"
 
 #: https//tb-manual.torproject.org/uninstalling/
 #: (content/uninstalling/contents+en.lrtopic.body)
@@ -1791,17 +1849,17 @@ msgstr "macOSにて"
 msgid ""
 "* Locate your Tor Browser application. The default location is the "
 "Applications folder."
-msgstr ""
+msgstr "・Torブラウザーアプリケーションを探します。デフォルトの場所は「アプリケーション」フォルダーです。"
 
 #: https//tb-manual.torproject.org/uninstalling/
 #: (content/uninstalling/contents+en.lrtopic.body)
 msgid "* Move the Tor Browser application to Trash."
-msgstr ""
+msgstr "・Torブラウザーアプリケーションをゴミ箱に移動します。"
 
 #: https//tb-manual.torproject.org/uninstalling/
 #: (content/uninstalling/contents+en.lrtopic.body)
 msgid "* Go to your `~/Library/Application Support/` folder."
-msgstr ""
+msgstr "・ 「~/Library/Application Support/」フォルダーに移動します。"
 
 #: https//tb-manual.torproject.org/uninstalling/
 #: (content/uninstalling/contents+en.lrtopic.body)
@@ -1809,6 +1867,8 @@ msgid ""
 "* Note the Library folder is hidden on newer versions of macOS. To navigate "
 "to this folder in Finder, select \"Go to Folder...\" in the \"Go\" menu."
 msgstr ""
+"・macOSの新しいバージョンでは、Libraryフォルダーは非表示になっています。 "
+"Finderでこのフォルダーに移動するには、「移動」メニューの「フォルダーに移動...」を選択します。"
 
 #: https//tb-manual.torproject.org/uninstalling/
 #: (content/uninstalling/contents+en.lrtopic.body)
@@ -1823,7 +1883,7 @@ msgstr ""
 #: (content/uninstalling/contents+en.lrtopic.body)
 msgid ""
 "*  Then type \"~/Library/Application Support/\" in the window and click Go."
-msgstr ""
+msgstr "・ウィンドウに「~/Library/Application Support/」と入力し、「実行」をクリックします。"
 
 #: https//tb-manual.torproject.org/uninstalling/
 #: (content/uninstalling/contents+en.lrtopic.body)
@@ -1837,7 +1897,7 @@ msgstr ""
 #: https//tb-manual.torproject.org/uninstalling/
 #: (content/uninstalling/contents+en.lrtopic.body)
 msgid "* Locate the TorBrowser-Data folder and move it to Trash."
-msgstr ""
+msgstr "・「TorBrowser-Data」フォルダーを探してゴミ箱に移動します。"
 
 #: https//tb-manual.torproject.org/uninstalling/
 #: (content/uninstalling/contents+en.lrtopic.body)
@@ -1847,6 +1907,9 @@ msgid ""
 "`~/Library/Application Support/` folder, but in the same folder where you "
 "installed Tor Browser."
 msgstr ""
+"Torブラウザーをデフォルトの場所（Applicationsフォルダー）にインストールしなかった場合、「TorBrowser-"
+"Data」フォルダーは「~/Library/Application "
+"Support/」フォルダーではなく、Torをインストールしたフォルダーと同じフォルダーにあることに注意してください。"
 
 #: https//tb-manual.torproject.org/uninstalling/
 #: (content/uninstalling/contents+en.lrtopic.body)
@@ -1860,18 +1923,20 @@ msgid ""
 "however the folder will be named \"tor-browser_en-US\" if you are running "
 "the English Tor Browser."
 msgstr ""
+"・Torブラウザーフォルダーを探します。 Linuxにはデフォルトの場所はありませんが、英語のTorブラウザーを実行している場合、フォルダーの名前は"
+"「tor-browser_en-US」になります。"
 
 #: https//tb-manual.torproject.org/uninstalling/
 #: (content/uninstalling/contents+en.lrtopic.body)
 msgid "* Delete the Tor Browser folder."
-msgstr ""
+msgstr "・Torブラウザーフォルダーを削除します。"
 
 #: https//tb-manual.torproject.org/uninstalling/
 #: (content/uninstalling/contents+en.lrtopic.body)
 msgid ""
 "Note that your operating system’s standard \"Uninstall\" utility is not "
 "used."
-msgstr ""
+msgstr "OS標準の「アンインストール」ユーティリティは使用されないことに注意してください。"
 
 #: https//tb-manual.torproject.org/known-issues/
 #: (content/known-issues/contents+en.lrtopic.title)
@@ -1882,46 +1947,46 @@ msgstr "既知の問題"
 #: (content/known-issues/contents+en.lrtopic.body)
 msgid ""
 "* Tor needs your system clock (and your time zone) set to the correct time."
-msgstr ""
+msgstr "・Torでは、システムクロック（タイムゾーン）を正しい時間に設定する必要があります。"
 
 #: https//tb-manual.torproject.org/known-issues/
 #: (content/known-issues/contents+en.lrtopic.body)
 msgid ""
 "* The following firewall software have been known to interfere with Tor and "
 "may need to be temporarily disabled:"
-msgstr ""
+msgstr "・以下のファイアウォールソフトウェアはTorに干渉することが知られており、一時的に無効にする必要があります"
 
 #: https//tb-manual.torproject.org/known-issues/
 #: (content/known-issues/contents+en.lrtopic.body)
 msgid "* Webroot SecureAnywhere"
-msgstr ""
+msgstr "・Webroot SecureAnywhere"
 
 #: https//tb-manual.torproject.org/known-issues/
 #: (content/known-issues/contents+en.lrtopic.body)
 msgid "* Kaspersky Internet Security 2012"
-msgstr ""
+msgstr "・Kaspersky Internet Security 2012"
 
 #: https//tb-manual.torproject.org/known-issues/
 #: (content/known-issues/contents+en.lrtopic.body)
 msgid "* Sophos Antivirus for Mac"
-msgstr ""
+msgstr "・Mac用の Sophos Antivirus"
 
 #: https//tb-manual.torproject.org/known-issues/
 #: (content/known-issues/contents+en.lrtopic.body)
 msgid "* Microsoft Security Essentials"
-msgstr ""
+msgstr "・Microsoft Security Essentials"
 
 #: https//tb-manual.torproject.org/known-issues/
 #: (content/known-issues/contents+en.lrtopic.body)
 msgid ""
 "* Videos that require Adobe Flash are unavailable. Flash is disabled for "
 "security reasons."
-msgstr ""
+msgstr "・Adobe Flashを必要とする動画は利用できません。セキュリティ上の理由により、Flashは無効になっています。"
 
 #: https//tb-manual.torproject.org/known-issues/
 #: (content/known-issues/contents+en.lrtopic.body)
 msgid "* Tor can not use a bridge if a proxy is set."
-msgstr ""
+msgstr "・プロキシが設定されている場合、Torはブリッジを使用できません。"
 
 #: https//tb-manual.torproject.org/known-issues/
 #: (content/known-issues/contents+en.lrtopic.body)
@@ -1929,6 +1994,7 @@ msgid ""
 "* The Tor Browser package is dated January 1, 2000 00:00:00 UTC. This is to "
 "ensure that each software build is exactly reproducible."
 msgstr ""
+"・Torブラウザーパッケージの日付は、2000年1月1日00:00:00 UTCです。これは、各ソフトウェアビルドを正確に再現するためです。"
 
 #: https//tb-manual.torproject.org/known-issues/
 #: (content/known-issues/contents+en.lrtopic.body)
@@ -1938,13 +2004,15 @@ msgid ""
 "executable text files when they are opened\" to \"Ask every time\", then "
 "click OK."
 msgstr ""
+"・UbuntuでTorブラウザーを実行するには、ユーザーはシェルスクリプトを実行する必要があります。 "
+"「ファイル」（Unityエクスプローラー）を開き、「設定」→「動作」タブ→「実行時に実行可能なテキストファイルを実行する」を「毎回確認」に設定して、「OK」をクリックします。"
 
 #: https//tb-manual.torproject.org/known-issues/
 #: (content/known-issues/contents+en.lrtopic.body)
 msgid ""
 "* Tor Browser can also be started from the command line by running the "
 "following command from inside the Tor Browser directory:"
-msgstr ""
+msgstr "・Torブラウザーは、Torブラウザディレクトリ内から次のコマンドを実行することにより、コマンドラインから起動することもできます。"
 
 #: https//tb-manual.torproject.org/known-issues/
 #: (content/known-issues/contents+en.lrtopic.body)
