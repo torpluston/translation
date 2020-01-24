@@ -3765,6 +3765,8 @@ msgid ""
 "If you’re having trouble connecting, an error message may appear and you can"
 " select the option to \"copy Tor log to clipboard\"."
 msgstr ""
+"اگر در اتصال خود دچار مشکل می باشید، یک پیام خطا ممکن است پدیدار شود و شما "
+"می توانید گزینه \"کپی لاگ تور روی کلیپ بورد\" را انتخاب کنید."
 
 #: https//support.torproject.org/connecting/connecting-2/
 #: (content/connecting/connecting-2/contents+en.lrquestion.description)
@@ -4818,6 +4820,8 @@ msgid ""
 "The solution is to run two Tor processes - one relay and one client, each "
 "with its own config."
 msgstr ""
+"راه حل این است که دو پردازش Tor را اجرا کنید - یک بازپخش و یک کلاینت، هر "
+"کدام با کانفیگ خود."
 
 #: https//support.torproject.org/operators/hibernation/
 #: (content/operators/hibernation/contents+en.lrquestion.description)
@@ -4825,6 +4829,8 @@ msgid ""
 "One way to do this (if you are starting from a working relay setup) is as "
 "follows:"
 msgstr ""
+"یک راه برای انجام این کار (اگر در حال شروع از یک تنظیم بازپخش در حال کار) به"
+" این شکل است:"
 
 #: https//support.torproject.org/operators/hibernation/
 #: (content/operators/hibernation/contents+en.lrquestion.description)
@@ -4837,11 +4843,13 @@ msgid ""
 "* Create a new client torrc file from the torrc.sample and ensure it uses a "
 "different log file from the relay."
 msgstr ""
+"* یک فایل torrc کلاینت جدید از torrc.sample ایجاد کرده و مطمئن شوید که یک "
+"فایل لاگ متفاوت از بازپخش را استفاده می کند."
 
 #: https//support.torproject.org/operators/hibernation/
 #: (content/operators/hibernation/contents+en.lrquestion.description)
 msgid "One naming convention may be torrc.client and torrc.relay."
-msgstr ""
+msgstr "یک قرارداد نامگذاری می تواند torrc.client و torrc.relay باشد."
 
 #: https//support.torproject.org/operators/hibernation/
 #: (content/operators/hibernation/contents+en.lrquestion.description)
@@ -4849,6 +4857,8 @@ msgid ""
 "* Modify the Tor client and relay startup scripts to include `-f "
 "/path/to/correct/torrc`."
 msgstr ""
+"* کلاینت Tor و اسکریپت های آغازین بازپخش  را اصلاح کرده تا `-f "
+"/path/to/correct/torrc` را نیز شامل باشد."
 
 #: https//support.torproject.org/operators/hibernation/
 #: (content/operators/hibernation/contents+en.lrquestion.description)
@@ -4856,6 +4866,8 @@ msgid ""
 "* In Linux/BSD/Mac OS X, changing the startup scripts to `Tor.client` and "
 "`Tor.relay` may make separation of configs easier."
 msgstr ""
+"* در لینوکس/BSD/مک، تغییر اسکریپت های آغازین به `Tor.client` و `Tor.relay` "
+"ممکن است جدایی کانفیگ ها را آسانتر کند."
 
 #: https//support.torproject.org/operators/ipv6-relay/
 #: (content/operators/ipv6-relay/contents+en.lrquestion.title)
@@ -4879,11 +4891,15 @@ msgid ""
 "For the time being Tor will require IPv4 addresses on relays, you can not "
 "run a Tor relay on a host with IPv6 addresses only."
 msgstr ""
+"تا اطلاع ثانوی Tor به نشانی های IPv4 روی بازپخش ها نیاز دارد، شما نمی توانید"
+" یک بازپخش Tor را روی یک میزبان فقط با آدرس های IPv6 اجرا کنید."
 
 #: https//support.torproject.org/operators/limit-total-bandwidth/
 #: (content/operators/limit-total-bandwidth/contents+en.lrquestion.title)
 msgid "How can I limit the total amount of bandwidth used by my Tor relay?"
 msgstr ""
+"چگونه می توانم مقدار کلی پهنای باند استفاده شده توسط بازپخش Tor خود را محدود"
+" کنم؟"
 
 #: https//support.torproject.org/operators/limit-total-bandwidth/
 #: (content/operators/limit-total-bandwidth/contents+en.lrquestion.description)
@@ -4891,6 +4907,8 @@ msgid ""
 "The accounting options in the torrc file allow you to specify the maximum "
 "amount of bytes your relay uses for a time period."
 msgstr ""
+"گزینه های محاسبه در فایل torrc به شما اجازه می دهد تا مقدار بیشینه بایت هایی"
+" که بازپخش شما برای یک زمان مشخص استفاده می کند را مشخص کنید."
 
 #: https//support.torproject.org/operators/limit-total-bandwidth/
 #: (content/operators/limit-total-bandwidth/contents+en.lrquestion.description)
@@ -4904,6 +4922,9 @@ msgid ""
 "total amount of bytes served for a week (that resets every Wednesday at "
 "10:00am), you would use:"
 msgstr ""
+"این مشخص می کند که محاسبه چه زمانی باید مجددا تنظیم شود. برای مثال، برای "
+"تنظیم مقدار کلی بایت ها برای یک هفته (که هر هفته چهارشنبه ساعت 10:00 صبح "
+"مجددا تنظیم می شود) شما باید از این استفاده کنید:"
 
 #: https//support.torproject.org/operators/limit-total-bandwidth/
 #: (content/operators/limit-total-bandwidth/contents+en.lrquestion.description)
@@ -4936,6 +4957,8 @@ msgid ""
 "Example: Let's say you want to allow 50 GB of traffic every day in each "
 "direction and the accounting should reset at noon each day:"
 msgstr ""
+"نمونه: فرض کنیم شما می خواهید ترافیک 50 گیگابایت را هر روز در هر جهت مجاز "
+"کنید و محاسبه هر روز عصر باید مجددا تنظیم شود:"
 
 #: https//support.torproject.org/operators/limit-total-bandwidth/
 #: (content/operators/limit-total-bandwidth/contents+en.lrquestion.description)
