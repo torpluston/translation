@@ -3025,6 +3025,13 @@ msgid ""
 "account, or looking at the timestamps for recent logins and wondering if you"
 " actually logged in at those times."
 msgstr ""
+"اگر کوکی گوگل شما توسط شخصی سرقت یافت، ممکن است از جاهای غیر عادی وارد شوند "
+"(ممکن است اینطور هم نباشد). بنابراین به طور خلاصه از آنجایی که شما از مرورگر"
+" Tor استفاده می کنید، این روش امنیتی که گوگل از آن استفاده می کند برای شما "
+"فایده ای نخواهد داشت چون خطاهای زیادی دارد. شما باید از رویکرد های دیگر "
+"استفاده کنید، مانند اینکه بررسی کنید آیا چیز عجیبی روی حساب کاربری خود می "
+"بینید یا اینکه به بازه های زمانی برای آخرین ورود ها نگاه کنید و بررسی کنید "
+"که آیا شما واقعا در آن بازه های زمانی وارد شده اید."
 
 #: https//support.torproject.org/tbb/tbb-45/
 #: (content/tbb/tbb-45/contents+en.lrquestion.description)
@@ -3069,6 +3076,16 @@ msgid ""
 "doing CONNECT requests to get to Tor relays. (It's fine if they're the same "
 "proxy.) Tor also recognizes the torrc options Socks4Proxy and Socks5Proxy."
 msgstr ""
+"شما می توانید نشانی IP پراکسی، درگاه و اطلاعات احراز هویت را در [تنظیمات "
+"شبکه مرورگر Tor](https://tb-manual.torproject.org/running-tor-browser/) "
+"تنظیم کنید. اگر در حال استفاده از Tor به صورت دیگری می باشید، می توانید گزین"
+" های کانفیگ HTTPSProxy و HTTPProxy را در [صفحه "
+"راهنما](https://2019.www.torproject.org/docs/tor-manual.html.en) بررسی کرده "
+"و فایل torrc خود را مطابق با آن تغییر دهید. شما به یک پراکسی HTTP برای انجام"
+" درخواست های GET برای واکشی دایرکتوری Tor و یک پراکسی HTTPS برای انجام "
+"درخواست های CONNECT برای گرفتن بازپخش های Tor نیاز دارید. (اشکالی ندارد اگر "
+"یک پراکسی می باشند.) Tor همچنین از گزینه های torrc برای شناسایی Socks4Proxy "
+"و Socks5Proxy استفاده می کند."
 
 #: https//support.torproject.org/tbb/tbb-47/
 #: (content/tbb/tbb-47/contents+en.lrquestion.description)
@@ -3078,6 +3095,12 @@ msgid ""
 "but if you need NTLM authentication, you may find [this post in the "
 "archives](https://archives.seul.org/or/talk/Jun-2005/msg00223.html) useful."
 msgstr ""
+"همچنین روی گزینه های HTTPProxyAuthenticator و HTTPSProxyAuthenticator نگاهی "
+"داشته باشید اگر پراکسی شما نیاز به احراز هویت دارد. ما در این لحظه فقط از "
+"احراز هویت ساده پشتیبانی می کنیم اما اگر نیاز به احراز هویت NTLM دارید، ممکن"
+" است [این پست در آرشیو "
+"ها](https://archives.seul.org/or/talk/Jun-2005/msg00223.html) به کار شما "
+"بیاید."
 
 #: https//support.torproject.org/tbb/tbb-47/
 #: (content/tbb/tbb-47/contents+en.lrquestion.description)
@@ -3087,6 +3110,11 @@ msgid ""
 "[Firewalled](https://2019.www.torproject.org/docs/faq.html.en#FirewallPorts)"
 " clients for how to restrict what ports your Tor will try to access."
 msgstr ""
+"اگر پراکسی های شما فقط به شما اجازه اتصال به درگاه های مشخصی را می دهند، به "
+"ورودی روی کلاینت های "
+"[Firewalled](https://2019.www.torproject.org/docs/faq.html.en#FirewallPorts)"
+" نگاهی داشته باشید تا ببینید چگونه می توانید دسترسی Tor به برخی درگاه ها که "
+"Tor سعی می کند به آن ها دسترسی داشته باشد را محدود نمایید."
 
 #: https//support.torproject.org/tbb/tbb-5/
 #: (content/tbb/tbb-5/contents+en.lrquestion.title)
@@ -3168,6 +3196,9 @@ msgid ""
 "session after they are closed, but have no measures in place to hide your "
 "activity or digital fingerprint online."
 msgstr ""
+"آن ها تمام اطلاعات روی ماشین شما که مرتبط با نشست گردش شما هستند را بعد از "
+"بسته شدن پاک خواهند کرد اما هیچ راهکاری برای مخفی کردن فعالیت های شما یا اثر"
+" انگشت دیجیتال آنلاین شما ندارند."
 
 #: https//support.torproject.org/tbb/tbb-and-incognito-mode/
 #: (content/tbb/tbb-and-incognito-mode/contents+en.lrquestion.description)
@@ -3312,6 +3343,8 @@ msgid ""
 "Some options will have no effect as Tor Browser overrides them with command "
 "line options when it starts Tor."
 msgstr ""
+"برخی گزینه ها هیچ تاثیری نخواهند داشت از آنجایی که مرورگر Tor اولویت آن ها "
+"را از گزینه های خط فرمان در زمان شروع Tor پایین تر قرار میدهد."
 
 #: https//support.torproject.org/tbb/tbb-editing-torrc/
 #: (content/tbb/tbb-editing-torrc/contents+en.lrquestion.description)
@@ -3320,6 +3353,9 @@ msgid ""
 "`torrc`](https://gitweb.torproject.org/tor.git/tree/src/config/torrc.sample.in)"
 " file for hints on common configurations."
 msgstr ""
+"نگاهی به فایل [نمونه "
+"`torrc`](https://gitweb.torproject.org/tor.git/tree/src/config/torrc.sample.in)"
+" برای اینکه نکاتی در مورد پیکربندی های رایج بدانید داشته باشید."
 
 #: https//support.torproject.org/tbb/tbb-editing-torrc/
 #: (content/tbb/tbb-editing-torrc/contents+en.lrquestion.description)
@@ -3394,6 +3430,11 @@ msgid ""
 "network, however only Tor Browser for Android is needed to browse the web "
 "with Tor."
 msgstr ""
+"پروژه گاردین برنامه "
+"[Orbot](https://play.google.com/store/apps/details?id=org.torproject.android)"
+" را فراهم می کند که می تواند برای مسیر یابی سایر برنامه های روی دستگاه شما "
+"از طریق شبکه Tor به کار رود. هرچند فقط مرورگر Tor برای اندروید نیاز است تا "
+"با آن بتوان در وب گردش داشت."
 
 #: https//support.torproject.org/tormobile/tormobile-2/
 #: (content/tormobile/tormobile-2/contents+en.lrquestion.title)
@@ -3407,6 +3448,9 @@ msgid ""
 "Android. More info can be found on the [Guardian Project's "
 "website](https://guardianproject.info/)."
 msgstr ""
+"پروژه گاردین از Orbot (و دیگر برنامه های حریم خصوصی) روی اندروید نگهداری می "
+"کند. اطلاعات بیشتر می تواند روی [سایت پروژه "
+"گاردین](https://guardianproject.info/) یافت شود."
 
 #: https//support.torproject.org/tormobile/tormobile-3/
 #: (content/tormobile/tormobile-3/contents+en.lrquestion.title)
@@ -3660,6 +3704,9 @@ msgid ""
 "depends on the model of the computer you are using; consult documentation "
 "about your computer to find out more."
 msgstr ""
+"شما حق انتخاب از بین نرم افزار 32 بیت یا 64 بیت را خواهید داشت. این بستگی به"
+" مدل کامپیوتری که از آن استفاده می کنید دارد. به اطلاعات سیستم خود رجوع "
+"کنید."
 
 #: https//support.torproject.org/gettor/gettor-3/
 #: (content/gettor/gettor-3/contents+en.lrquestion.title)
