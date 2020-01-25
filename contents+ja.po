@@ -464,14 +464,14 @@ msgid ""
 "If you run it behind a consumer-level router at home you will have to try "
 "and see if your home router can handle it or if it starts failing."
 msgstr ""
-"一般の消費者レベルのルーターの背後で実行する場合は、自宅や家のルーターがそれを処理できるかどうか、または失敗するかどうかを確認する必要があります。"
+"一般の消費者レベルのルーターの背後で実行する場合は、自宅や家庭のルーターがそれを処理できるかどうか、または失敗するかどうかを確認する必要があります。"
 
 #: https//community.torproject.org/relay/relays-requirements/
 #: (content/relay-operations/relays-requirements/contents+en.lrpage.body)
 msgid ""
 "Fast exit relays (>=100 Mbit/s) usually have to handle a lot more concurrent"
 " connections (>100k)."
-msgstr ""
+msgstr "高速出口リレー（100 Mbit/s以上）は通常、より多くの同時接続（> 100k）を処理する必要があります。"
 
 #: https//community.torproject.org/relay/relays-requirements/
 #: (content/relay-operations/relays-requirements/contents+en.lrpage.body)
@@ -480,11 +480,13 @@ msgid ""
 "bandwidth and 16 Mbit/s (Mbps) download bandwidth available for Tor. More is"
 " better."
 msgstr ""
+"リレーには、少なくとも16 Mbit/s（Mbps）のアップロード帯域幅と16 "
+"Mbit/s（Mbps）のダウンロード帯域幅がTorで利用可能であることが推奨されます。これは多いほど良いです。"
 
 #: https//community.torproject.org/relay/relays-requirements/
 #: (content/relay-operations/relays-requirements/contents+en.lrpage.body)
 msgid "The minimum requirements for a relay are 10 Mbit/s (Mbps)."
-msgstr ""
+msgstr "リレーの最小必要な条件は10 Mbit/s（Mbps）です。"
 
 #: https//community.torproject.org/relay/relays-requirements/
 #: (content/relay-operations/relays-requirements/contents+en.lrpage.body)
@@ -492,6 +494,8 @@ msgid ""
 "If you have less than 10 Mbit/s but at least 1 Mbit/s we recommend you run a"
 " [bridge with obfs4 support](relay/setup/bridge)."
 msgstr ""
+"10 Mbit/s未満で、少なくとも1 "
+"Mbit/sがある場合は、「obfs4をサポートするブリッジ」（relay/setup/bridge）を実行することをお勧めします。"
 
 #: https//community.torproject.org/relay/relays-requirements/
 #: (content/relay-operations/relays-requirements/contents+en.lrpage.body)
@@ -499,11 +503,14 @@ msgid ""
 "If you do not know your bandwidth you can use http://beta.speedtest.net to "
 "measure it."
 msgstr ""
+"帯域幅がわからない場合は、コチラのサイトを使用して帯域幅を測定できます。\n"
+"\n"
+"http://beta.speedtest.net"
 
 #: https//community.torproject.org/relay/relays-requirements/
 #: (content/relay-operations/relays-requirements/contents+en.lrpage.body)
 msgid "# Monthly Outbound Traffic"
-msgstr ""
+msgstr "＃月間のアウトバウンドトラフィック"
 
 #: https//community.torproject.org/relay/relays-requirements/
 #: (content/relay-operations/relays-requirements/contents+en.lrpage.body)
@@ -511,25 +518,26 @@ msgid ""
 "It is required that a Tor relay be allowed to use a minimum of 100 GByte of "
 "outbound traffic (and the same amount of incoming traffic) per month."
 msgstr ""
+"Torリレーは、1か月あたり最低100GBのアウトバウンドトラフィック（および同量のインバウンドトラフィック）の使用を許可される必要があります。"
 
 #: https//community.torproject.org/relay/relays-requirements/
 #: (content/relay-operations/relays-requirements/contents+en.lrpage.body)
 msgid ""
 "Note: That is only about 1 day worth of traffic on a 10 Mbit/s (Mbps) "
 "connection."
-msgstr ""
+msgstr "注意：これは、10 Mbit/s（Mbps）接続で約1日分のトラフィックにすぎません。"
 
 #: https//community.torproject.org/relay/relays-requirements/
 #: (content/relay-operations/relays-requirements/contents+en.lrpage.body)
 msgid "More (>2 TB/month) is better and recommended."
-msgstr ""
+msgstr "より多く（2TB/月以上）が適切であり、最も推奨されます。"
 
 #: https//community.torproject.org/relay/relays-requirements/
 #: (content/relay-operations/relays-requirements/contents+en.lrpage.body)
 msgid ""
 "**Ideally a relay runs on an unmetered plan** or includes 2 TB/month or "
 "more."
-msgstr ""
+msgstr "リレーは従量制プランで実行されるのが理想的です。または2 TB/月以上の通信が必要です。"
 
 #: https//community.torproject.org/relay/relays-requirements/
 #: (content/relay-operations/relays-requirements/contents+en.lrpage.body)
@@ -537,25 +545,27 @@ msgid ""
 "If you have a metered plan you might want to configure tor to only use a "
 "given amount of [bandwidth or monthly traffic](/relay/setup/post-install/)."
 msgstr ""
+"従量制プランがある場合は、特定の量の「帯域幅または月間トラフィック」（/relay/setup/post-"
+"install/）のみを使用するようにtorを構成できます。"
 
 #: https//community.torproject.org/relay/relays-requirements/
 #: (content/relay-operations/relays-requirements/contents+en.lrpage.body)
 msgid "# Public IPv4 Address"
-msgstr ""
+msgstr "＃パブリックIPv4アドレス"
 
 #: https//community.torproject.org/relay/relays-requirements/
 #: (content/relay-operations/relays-requirements/contents+en.lrpage.body)
 msgid ""
 "Every relay needs a public IPv4 address - either directly on the host "
 "(preferred) or via NAT and port forwarding."
-msgstr ""
+msgstr "すべてのリレーには、パブリックIPv4アドレスが必要です-ホスト上で直接（推奨）またはNATおよびポート転送を介します。"
 
 #: https//community.torproject.org/relay/relays-requirements/
 #: (content/relay-operations/relays-requirements/contents+en.lrpage.body)
 msgid ""
 "The IPv4 address is not required to be static but static IP addresses are "
 "preferred."
-msgstr ""
+msgstr "IPv4アドレスは静的である必要はありませんが、静的IPアドレスが優先されます。"
 
 #: https//community.torproject.org/relay/relays-requirements/
 #: (content/relay-operations/relays-requirements/contents+en.lrpage.body)
@@ -565,13 +575,16 @@ msgid ""
 " relay or bridge there since it takes time to distribute the new list of "
 "relay IPs to clients - which happens only once every hour)."
 msgstr ""
+"IPv4アドレスは少なくとも3時間は変更しないでください\n"
+"（それよりも頻繁に変更する場合は、リレーIPの新しいリストをクライアントに配布するのに時間がかかるため、そこでリレーまたはブリッジを実行してしまうと、意味がありません）\n"
+"リストの配布は1時間に1回のみ発生します。"
 
 #: https//community.torproject.org/relay/relays-requirements/
 #: (content/relay-operations/relays-requirements/contents+en.lrpage.body)
 msgid ""
 "Additional IPv6 connectivity is great and recommended/encouraged but not a "
 "requirement."
-msgstr ""
+msgstr "追加のIPv6接続は優れており、推奨/推奨されますが、必須ではありません。"
 
 #: https//community.torproject.org/relay/relays-requirements/
 #: (content/relay-operations/relays-requirements/contents+en.lrpage.body)
@@ -579,22 +592,24 @@ msgid ""
 "There should be no problem at all with this requirement (all commercially "
 "available servers come with at least one IPv4 address)."
 msgstr ""
+"この必要な条件にはまったく問題ないはずです\n"
+"（すべての市販のサーバーには少なくとも1つのIPv4アドレスが付属しています）"
 
 #: https//community.torproject.org/relay/relays-requirements/
 #: (content/relay-operations/relays-requirements/contents+en.lrpage.body)
 msgid "Note: You can only run two Tor relays per public IPv4 address."
-msgstr ""
+msgstr "注：パブリックIPv4アドレスごとに実行できるTorリレーは2つだけです。"
 
 #: https//community.torproject.org/relay/relays-requirements/
 #: (content/relay-operations/relays-requirements/contents+en.lrpage.body)
 msgid ""
 "If you want to run more than two relays you will need more IPv4 addresses."
-msgstr ""
+msgstr "3つ以上のリレーを実行する場合は、さらにIPv4アドレスが必要になります。"
 
 #: https//community.torproject.org/relay/relays-requirements/
 #: (content/relay-operations/relays-requirements/contents+en.lrpage.body)
 msgid "# Memory Requirements"
-msgstr ""
+msgstr "＃メモリ必要な条件"
 
 #: https//community.torproject.org/relay/relays-requirements/
 #: (content/relay-operations/relays-requirements/contents+en.lrpage.body)
