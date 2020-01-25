@@ -148,12 +148,12 @@ The Tor community is governed by a code of conduct, and we outline our set of pr
 Learn more about Tor by visiting our website, our wiki, finding us on IRC, joining one of our mailing lists, or signing up for Tor News at newsletter.torproject.org.
 
 
-## 8. Parsisiųsti Tor
+## 8. Atsisiųsti Tor
 
 Tor Darbalaukiui
 torproject.org/download
 
-TOR MOBILIĄJAM
+TOR MOBILIAJAM
 ### Android 
 Tor Naršyklė Androidui yra prieinama GooglePlay.
 
