@@ -668,7 +668,7 @@ msgstr "＃ CPU"
 #: https//community.torproject.org/relay/relays-requirements/
 #: (content/relay-operations/relays-requirements/contents+en.lrpage.body)
 msgid "* Any modern CPU should be fine."
-msgstr "＃ CPU"
+msgstr "・最新のCPUである必要はありません。"
 
 #: https//community.torproject.org/relay/relays-requirements/
 #: (content/relay-operations/relays-requirements/contents+en.lrpage.body)
@@ -677,40 +677,42 @@ msgid ""
 "performance and allow for up to about ~400-450 Mbps in each direction on a "
 "single tor instance on modern CPUs)."
 msgstr ""
+"・AESNIをサポートするCPUを使用することをお勧めします（これにより、パフォーマンスが向上し、最新のCPUの単一のtorインスタンスで各方向で最大約400～450"
+" Mbpsが可能になります）。"
 
 #: https//community.torproject.org/relay/relays-requirements/
 #: (content/relay-operations/relays-requirements/contents+en.lrpage.body)
 msgid ""
 "If the file /proc/cpuinfo contains the word aes your CPU has support for "
 "AES-NI."
-msgstr ""
+msgstr "「/proc/cpuinfo」ファイルに「aes」という単語が含まれている場合、CPUはAES-NIをサポートしています。"
 
 #: https//community.torproject.org/relay/relays-requirements/
 #: (content/relay-operations/relays-requirements/contents+en.lrpage.body)
 msgid "# Uptime"
-msgstr ""
+msgstr "＃ 稼働時間"
 
 #: https//community.torproject.org/relay/relays-requirements/
 #: (content/relay-operations/relays-requirements/contents+en.lrpage.body)
 msgid ""
 "Tor has no hard uptime requirement but if your relay is not running for more"
 " than 2 hours a day its usefulness is limited."
-msgstr ""
+msgstr "Torにはハードアップタイムの要件はありませんが、リレーが1日2時間以上動作していない場合、その有用性は制限されます。"
 
 #: https//community.torproject.org/relay/relays-requirements/
 #: (content/relay-operations/relays-requirements/contents+en.lrpage.body)
 msgid "Ideally the relay runs on a server which runs 24/7."
-msgstr ""
+msgstr "リレーは年中無休で稼働するサーバー上で稼働しているのが理想的です。"
 
 #: https//community.torproject.org/relay/relays-requirements/
 #: (content/relay-operations/relays-requirements/contents+en.lrpage.body)
 msgid "Reboots and tor daemon restarts are fine."
-msgstr ""
+msgstr "再起動やTorデーモンの再起動をする場合は問題ありません。"
 
 #: https//community.torproject.org/relay/relays-requirements/
 #: (content/relay-operations/relays-requirements/contents+en.lrpage.body)
 msgid "# Tor Version"
-msgstr ""
+msgstr "＃Torバージョン"
 
 #: https//community.torproject.org/relay/relays-requirements/
 #: (content/relay-operations/relays-requirements/contents+en.lrpage.body)
@@ -720,11 +722,12 @@ msgid ""
 " insecure. Relays that attempt to downgrade to an insecure version will be "
 "rejected from the network automatically."
 msgstr ""
+"セキュリティ上の理由から、TorリレーをしているホストのTorは、Torのバージョンを、サポートされているバージョンからサポートされていないバージョンにダウングレードしないでください。一部のサポートされていないバージョンは安全ではありません。安全でないバージョンにダウングレードしようとするリレーは、Torネットワークから自動的に拒否されます。"
 
 #: https//community.torproject.org/relay/types-of-relays/
 #: (content/relay-operations/types-of-relays/contents+en.lrpage.title)
 msgid "Types of relays on the Tor network"
-msgstr ""
+msgstr "Torネットワーク上のリレーの種類"
 
 #: https//community.torproject.org/relay/types-of-relays/
 #: (content/relay-operations/types-of-relays/contents+en.lrpage.subtitle)
@@ -732,44 +735,45 @@ msgid ""
 "Bridges, guards, middle relays, and exits all serve important functions in "
 "the Tor network. Learn about the different relays you can run."
 msgstr ""
+"ブリッジ、ガード、中間リレー、および出口はすべて、Torネットワークで重要な機能を果たします。実行できるさまざまなリレーについて説明します。"
 
 #: https//community.torproject.org/relay/types-of-relays/
 #: (content/relay-operations/types-of-relays/contents+en.lrpage.body)
 msgid ""
 "All nodes are important, but they have different technical requirements and "
 "legal implications."
-msgstr ""
+msgstr "すべてのノードは重要ですが、技術的な要件と法的意味は異なります。"
 
 #: https//community.torproject.org/relay/types-of-relays/
 #: (content/relay-operations/types-of-relays/contents+en.lrpage.body)
 msgid ""
 "Understanding the different kinds of nodes is the first step to learning "
 "which one is right for you."
-msgstr ""
+msgstr "さまざまな種類のノードを理解することが、どのノードが適切かを知るための最初のステップです。"
 
 #: https//community.torproject.org/relay/types-of-relays/
 #: (content/relay-operations/types-of-relays/contents+en.lrpage.body)
 msgid "# Guard and middle relay"
-msgstr ""
+msgstr "＃ガードリレーおよび中間リレー"
 
 #: https//community.torproject.org/relay/types-of-relays/
 #: (content/relay-operations/types-of-relays/contents+en.lrpage.body)
 msgid "(also known as non-exit relays)"
-msgstr ""
+msgstr "（非出口リレーとも呼ばれます）"
 
 #: https//community.torproject.org/relay/types-of-relays/
 #: (content/relay-operations/types-of-relays/contents+en.lrpage.body)
 msgid ""
 "A guard relay is the first relay in the chain of 3 relays building a Tor "
 "circuit."
-msgstr ""
+msgstr "ガードリレーは、Tor回路を構築する3つのリレーのチェーンの最初のリレーです。"
 
 #: https//community.torproject.org/relay/types-of-relays/
 #: (content/relay-operations/types-of-relays/contents+en.lrpage.body)
 msgid ""
 "A middle relay is neither a guard nor an exit, but acts as the second hop "
 "between the two."
-msgstr ""
+msgstr "中間リレーはガードでも出口でもありませんが、2つの間の2番目のホップとして機能します。"
 
 #: https//community.torproject.org/relay/types-of-relays/
 #: (content/relay-operations/types-of-relays/contents+en.lrpage.body)
@@ -777,11 +781,12 @@ msgid ""
 "To become a guard, a relay has to be stable and fast (at least 2MByte/s) "
 "otherwise it will remain a middle relay."
 msgstr ""
+"ガードになるには、リレーは安定していて高速（少なくとも2MByte / s）である必要があります。そうでなければ、リレーは中間リレーになります。"
 
 #: https//community.torproject.org/relay/types-of-relays/
 #: (content/relay-operations/types-of-relays/contents+en.lrpage.body)
 msgid "Guard and middle relays usually do not receive abuse complaints."
-msgstr ""
+msgstr "ガードリレーと中間リレーは通常、乱用の苦情を受けません。"
 
 #: https//community.torproject.org/relay/types-of-relays/
 #: (content/relay-operations/types-of-relays/contents+en.lrpage.body)
@@ -790,6 +795,7 @@ msgid ""
 "blocked by certain services that don't understand how Tor works or "
 "deliberately want to censor Tor users."
 msgstr ""
+"すべてのリレーは、Torリレーの公開リストにリストされるため、Torの仕組みを理解していない、またはTorユーザーを意図的に検出使用としている特定のサービスによってブロックされる可能性があります。"
 
 #: https//community.torproject.org/relay/types-of-relays/
 #: (content/relay-operations/types-of-relays/contents+en.lrpage.body)
@@ -798,13 +804,14 @@ msgid ""
 " consider running a bridge instead so that your non-Tor traffic doesn't get "
 "blocked as though it's coming from Tor."
 msgstr ""
+"自宅からリレーを実行していて、静的IPが1つある場合は、代わりにブリッジを実行して、非TorトラフィックがTorからのトラフィックのようにブロックされないようにすることを推奨します。"
 
 #: https//community.torproject.org/relay/types-of-relays/
 #: (content/relay-operations/types-of-relays/contents+en.lrpage.body)
 msgid ""
 "If you have a dynamic IP address or multiple static IPs, this isn't as much "
 "of an issue."
-msgstr ""
+msgstr "動的IPアドレスまたは複数の静的IPがある場合、これはそれほど大きな問題ではありません。"
 
 #: https//community.torproject.org/relay/types-of-relays/
 #: (content/relay-operations/types-of-relays/contents+en.lrpage.body)
@@ -813,23 +820,24 @@ msgid ""
 "usage can be highly customized in the tor configuration (will be covered in "
 "more detail later in this guide)."
 msgstr ""
+"非出口Torリレーは、最小限の保守作業を必要とし、帯域幅の使用はTor構成で高度にカスタマイズできます（このガイドで後ほど詳しく説明します）。"
 
 #: https//community.torproject.org/relay/types-of-relays/
 #: (content/relay-operations/types-of-relays/contents+en.lrpage.body)
 msgid ""
 "The so called \"exit policy\" of the relay decides if it is a relay allowing"
 " clients to exit or not."
-msgstr ""
+msgstr "リレーのいわゆる「出口ポリシー」は、それがクライアントが終了することを許可するリレーであるかどうかを決定します。"
 
 #: https//community.torproject.org/relay/types-of-relays/
 #: (content/relay-operations/types-of-relays/contents+en.lrpage.body)
 msgid "A non-exit relay does not allow exiting in its exit policy."
-msgstr ""
+msgstr "非出口リレーは、その出口ポリシーでの出口を許可しません。"
 
 #: https//community.torproject.org/relay/types-of-relays/
 #: (content/relay-operations/types-of-relays/contents+en.lrpage.body)
 msgid "# Exit relay"
-msgstr ""
+msgstr "＃ 出口リレー"
 
 #: https//community.torproject.org/relay/types-of-relays/
 #: (content/relay-operations/types-of-relays/contents+en.lrpage.body)
