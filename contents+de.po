@@ -802,16 +802,19 @@ msgid ""
 "Tor has no hard uptime requirement but if your relay is not running for more"
 " than 2 hours a day its usefulness is limited."
 msgstr ""
+"Tor hat keine harten Anforderungen an die Betriebszeit, aber wenn dein Relay"
+" nicht länger als 2 Stunden am Tag läuft, ist sein Nutzen begrenzt."
 
 #: https//community.torproject.org/relay/relays-requirements/
 #: (content/relay-operations/relays-requirements/contents+en.lrpage.body)
 msgid "Ideally the relay runs on a server which runs 24/7."
 msgstr ""
+"Im Idealfall läuft das Relay auf einem Server, der rund um die Uhr läuft."
 
 #: https//community.torproject.org/relay/relays-requirements/
 #: (content/relay-operations/relays-requirements/contents+en.lrpage.body)
 msgid "Reboots and tor daemon restarts are fine."
-msgstr ""
+msgstr "Reboots und Tor-Dienst-Neustarts sind in Ordnung."
 
 #: https//community.torproject.org/relay/relays-requirements/
 #: (content/relay-operations/relays-requirements/contents+en.lrpage.body)
@@ -826,11 +829,16 @@ msgid ""
 " insecure. Relays that attempt to downgrade to an insecure version will be "
 "rejected from the network automatically."
 msgstr ""
+"Aus Sicherheitsgründen sollten die Tor-Relays ihre Tor-Version nicht von "
+"einer unterstützten auf eine nicht unterstützte Version von Tor herabstufen."
+" Einige nicht unterstützte Versionen sind unsicher. Relays, die versuchen, "
+"ein Downgrade auf eine unsichere Version durchzuführen, werden automatisch "
+"vom Netzwerk zurückgewiesen."
 
 #: https//community.torproject.org/relay/types-of-relays/
 #: (content/relay-operations/types-of-relays/contents+en.lrpage.title)
 msgid "Types of relays on the Tor network"
-msgstr ""
+msgstr "Arten von Relays im Tor-Netzwerk"
 
 #: https//community.torproject.org/relay/types-of-relays/
 #: (content/relay-operations/types-of-relays/contents+en.lrpage.subtitle)
@@ -838,6 +846,9 @@ msgid ""
 "Bridges, guards, middle relays, and exits all serve important functions in "
 "the Tor network. Learn about the different relays you can run."
 msgstr ""
+"Brücken, Guards, Mittel-Relays und Exits erfüllen alle wichtige Funktionen "
+"im Tor-Netzwerk. Erfahre mehr über die verschiedenen Relays, die du "
+"betreiben kannst."
 
 #: https//community.torproject.org/relay/types-of-relays/
 #: (content/relay-operations/types-of-relays/contents+en.lrpage.body)
@@ -845,6 +856,8 @@ msgid ""
 "All nodes are important, but they have different technical requirements and "
 "legal implications."
 msgstr ""
+"Alle Knoten sind wichtig, aber sie haben unterschiedliche technische "
+"Anforderungen und rechtliche Auswirkungen."
 
 #: https//community.torproject.org/relay/types-of-relays/
 #: (content/relay-operations/types-of-relays/contents+en.lrpage.body)
@@ -852,16 +865,18 @@ msgid ""
 "Understanding the different kinds of nodes is the first step to learning "
 "which one is right for you."
 msgstr ""
+"Das Verstehen der verschiedenen Arten von Knoten ist der erste Schritt, um "
+"zu erfahren, welcher der richtige für dich ist."
 
 #: https//community.torproject.org/relay/types-of-relays/
 #: (content/relay-operations/types-of-relays/contents+en.lrpage.body)
 msgid "# Guard and middle relay"
-msgstr ""
+msgstr "# Guard und Mittel-Relay"
 
 #: https//community.torproject.org/relay/types-of-relays/
 #: (content/relay-operations/types-of-relays/contents+en.lrpage.body)
 msgid "(also known as non-exit relays)"
-msgstr ""
+msgstr "(auch bekannt als Non-Exit-Relay)"
 
 #: https//community.torproject.org/relay/types-of-relays/
 #: (content/relay-operations/types-of-relays/contents+en.lrpage.body)
@@ -869,6 +884,8 @@ msgid ""
 "A guard relay is the first relay in the chain of 3 relays building a Tor "
 "circuit."
 msgstr ""
+"Ein Schutz-Relay ist das erste Relay in der Kette von 3 Relays, die einen "
+"Tor-Kanal bilden."
 
 #: https//community.torproject.org/relay/types-of-relays/
 #: (content/relay-operations/types-of-relays/contents+en.lrpage.body)
@@ -876,6 +893,8 @@ msgid ""
 "A middle relay is neither a guard nor an exit, but acts as the second hop "
 "between the two."
 msgstr ""
+"Ein Mittel-Relay ist weder ein Schutz noch ein Ausgang, sondern fungiert als"
+" zweiter Sprung zwischen den beiden."
 
 #: https//community.torproject.org/relay/types-of-relays/
 #: (content/relay-operations/types-of-relays/contents+en.lrpage.body)
@@ -883,11 +902,15 @@ msgid ""
 "To become a guard, a relay has to be stable and fast (at least 2MByte/s) "
 "otherwise it will remain a middle relay."
 msgstr ""
+"Um ein Schutz zu werden, muss ein Relay stabil und schnell sein (mindestens "
+"2MByte/s), sonst bleibt es ein Mittel-Relay."
 
 #: https//community.torproject.org/relay/types-of-relays/
 #: (content/relay-operations/types-of-relays/contents+en.lrpage.body)
 msgid "Guard and middle relays usually do not receive abuse complaints."
 msgstr ""
+"Schutz- und Mittel-Relays erhalten in der Regel keine "
+"Missbrauchsbeschwerden."
 
 #: https//community.torproject.org/relay/types-of-relays/
 #: (content/relay-operations/types-of-relays/contents+en.lrpage.body)
@@ -896,6 +919,10 @@ msgid ""
 "blocked by certain services that don't understand how Tor works or "
 "deliberately want to censor Tor users."
 msgstr ""
+"Alle Relays werden in der öffentlichen Liste der Tor-Relays aufgelistet, so "
+"dass sie von bestimmten Diensten blockiert werden können, die nicht "
+"verstehen, wie Tor funktioniert oder absichtlich Tor-Benutzer zensieren "
+"wollen."
 
 #: https//community.torproject.org/relay/types-of-relays/
 #: (content/relay-operations/types-of-relays/contents+en.lrpage.body)
@@ -904,6 +931,10 @@ msgid ""
 " consider running a bridge instead so that your non-Tor traffic doesn't get "
 "blocked as though it's coming from Tor."
 msgstr ""
+"Wenn du ein Relay von zu Hause aus betreibst und eine statische IP hast, "
+"solltest du vielleicht in Betracht ziehen, stattdessen eine Brücke zu "
+"betreiben, damit dein Nicht-Tor-Verkehr nicht blockiert wird, als käme er "
+"von Tor."
 
 #: https//community.torproject.org/relay/types-of-relays/
 #: (content/relay-operations/types-of-relays/contents+en.lrpage.body)
@@ -911,6 +942,8 @@ msgid ""
 "If you have a dynamic IP address or multiple static IPs, this isn't as much "
 "of an issue."
 msgstr ""
+"Wenn du eine dynamische IP-Adresse oder mehrere statische IPs hast, ist das "
+"kein so großes Problem."
 
 #: https//community.torproject.org/relay/types-of-relays/
 #: (content/relay-operations/types-of-relays/contents+en.lrpage.body)
