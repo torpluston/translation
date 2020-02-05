@@ -1,5 +1,5 @@
 # Translations template for bridgedb.
-# Copyright (C) 2019 'The Tor Project, Inc.'
+# Copyright (C) 2020 'The Tor Project, Inc.'
 # This file is distributed under the same license as the bridgedb project.
 # 
 # Translators:
@@ -16,9 +16,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Tor Project\n"
 "Report-Msgid-Bugs-To: 'https://trac.torproject.org/projects/tor/newticket?component=BridgeDB&keywords=bridgedb-reported,msgid&cc=isis,sysrqb&owner=isis'\n"
-"POT-Creation-Date: 2019-10-19 14:51-0700\n"
-"PO-Revision-Date: 2019-10-26 14:00+0000\n"
-"Last-Translator: h345u37g3 h345u37g3\n"
+"POT-Creation-Date: 2020-02-04 10:59-0800\n"
+"PO-Revision-Date: 2020-02-05 01:11+0000\n"
+"Last-Translator: carolyn <carolyn@anhalt.org>\n"
 "Language-Team: Japanese (http://www.transifex.com/otf/torproject/language/ja/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -291,62 +291,64 @@ msgstr "%s ブリッジ %s は、 インターネット検閲を回避する助�
 msgid "I need an alternative way of getting bridges!"
 msgstr "ブリッジを入手する別の方法が必要な場合"
 
-#: bridgedb/strings.py:108
+#. TRANSLATORS: Please DO NOT translate "get transport obfs4".
+#: bridgedb/strings.py:109
 #, python-format
 msgid ""
-"Another way to get bridges is to send an email to %s. Please note that you must\n"
-"send the email using an address from one of the following email providers:\n"
-"%s or %s."
-msgstr "ブリッジを入手する別の方法として%sにメールを送ることができます。\nしかし、%sまたは%sのメールプロバイダを使用して\nメールを送信しなければならないことに注意してください。"
+"Another way to get bridges is to send an email to %s. Leave the email subject\n"
+"empty and write \"get transport obfs4\" in the email's message body. Please note\n"
+"that you must send the email using an address from one of the following email\n"
+"providers: %s or %s."
+msgstr ""
 
-#: bridgedb/strings.py:115
+#: bridgedb/strings.py:117
 msgid "My bridges don't work! I need help!"
 msgstr "私のブリッジが動きません! 助けてください!"
 
 #. TRANSLATORS: Please DO NOT translate "Tor Browser".
 #. TRANSLATORS: The two '%s' are substituted with "Tor Browser Manual" and
 #. "Support Portal", respectively.
-#: bridgedb/strings.py:119
+#: bridgedb/strings.py:121
 #, python-format
 msgid ""
 "If your Tor Browser cannot connect, please take a look at the %s and our %s."
 msgstr "もしあなたのTor Browserが接続できない場合は、%sや私達の%sをご覧ください。"
 
-#: bridgedb/strings.py:123
+#: bridgedb/strings.py:125
 msgid "Here are your bridge lines:"
 msgstr "あなたのブリッジ："
 
-#: bridgedb/strings.py:124
+#: bridgedb/strings.py:126
 msgid "Get Bridges!"
 msgstr "ブリッジを入手！"
 
-#: bridgedb/strings.py:128
+#: bridgedb/strings.py:130
 msgid "Please select options for bridge type:"
 msgstr "ブリッジタイプのオプションを選択してください:"
 
-#: bridgedb/strings.py:129
+#: bridgedb/strings.py:131
 msgid "Do you need IPv6 addresses?"
 msgstr "IPv6 アドレスが必要ですか？"
 
-#: bridgedb/strings.py:130
+#: bridgedb/strings.py:132
 #, python-format
 msgid "Do you need a %s?"
 msgstr "%s が必要ですか？"
 
-#: bridgedb/strings.py:134
+#: bridgedb/strings.py:136
 msgid "Your browser is not displaying images properly."
 msgstr "ご利用のブラウザは適切に画像を表示していません。"
 
-#: bridgedb/strings.py:135
+#: bridgedb/strings.py:137
 msgid "Enter the characters from the image above..."
 msgstr "上記の画像から文字を入力してください..."
 
-#: bridgedb/strings.py:139
+#: bridgedb/strings.py:141
 msgid "How to start using your bridges"
 msgstr "ブリッジ使用の始め方"
 
 #. TRANSLATORS: Please DO NOT translate "Tor Browser".
-#: bridgedb/strings.py:141
+#: bridgedb/strings.py:143
 #, python-format
 msgid ""
 "To enter bridges into Tor Browser, first go to the %s Tor Browser download\n"
@@ -355,21 +357,21 @@ msgid ""
 msgstr "Tor Browser にブリッジを登録する前に、まずは %s Tor Browser ダウンロードページ %s に移動して Tor Browser のダウンロード方法と始め方の説明をご覧ください。"
 
 #. TRANSLATORS: Please DO NOT translate "Tor".
-#: bridgedb/strings.py:146
+#: bridgedb/strings.py:148
 msgid ""
 "When the 'Tor Network Settings' dialogue pops up, click 'Configure' and follow\n"
 "the wizard until it asks:"
 msgstr "「Tor ネットワーク設定」ダイアログがポップアップした際、設定をクリックして\n聞かれるまでウィザードに従ってください。"
 
 #. TRANSLATORS: Please DO NOT translate "Tor".
-#: bridgedb/strings.py:150
+#: bridgedb/strings.py:152
 msgid ""
 "Does your Internet Service Provider (ISP) block or otherwise censor connections\n"
 "to the Tor network?"
 msgstr "ご利用のインターネットサービスプロバイダー (ISP) は Tor ネットワークへの接続をブロックないし\n別のやり方で検閲していますか？"
 
 #. TRANSLATORS: Please DO NOT translate "Tor".
-#: bridgedb/strings.py:154
+#: bridgedb/strings.py:156
 msgid ""
 "Select 'Yes' and then click 'Next'. To configure your new bridges, copy and\n"
 "paste the bridge lines into the text input box. Finally, click 'Connect', and\n"
@@ -377,28 +379,28 @@ msgid ""
 "button in the 'Tor Network Settings' wizard for further assistance."
 msgstr "「はい」を選択して、「次へ」をクリックしてください。新しいブリッジを構成するには、テキスト\n入力ボックスにブリッジラインをコピー＆ペーストしてください。最後に、「接続」をクリックすると、\n準備完了です！何か問題があったら、さらなる助けを得るために\n「Tor ネットワーク設定」ウィザード内「ヘルプ」ボタンをクリックしてください。"
 
-#: bridgedb/strings.py:162
+#: bridgedb/strings.py:164
 msgid "Displays this message."
 msgstr "この画像を表示"
 
 #. TRANSLATORS: Please try to make it clear that "vanilla" here refers to the
 #. same non-Pluggable Transport bridges described above as being
 #. "plain-ol'-vanilla" bridges.
-#: bridgedb/strings.py:166
+#: bridgedb/strings.py:168
 msgid "Request vanilla bridges."
 msgstr "「プレーン」なブリッジをリクエスト"
 
-#: bridgedb/strings.py:167
+#: bridgedb/strings.py:169
 msgid "Request IPv6 bridges."
 msgstr "IPv6 ブリッジをリクエスト"
 
 #. TRANSLATORS: Please DO NOT translate the word the word "TYPE".
-#: bridgedb/strings.py:169
+#: bridgedb/strings.py:171
 msgid "Request a Pluggable Transport by TYPE."
 msgstr "タイプごとに Pluggable Transport をリクエスト"
 
 #. TRANSLATORS: Please DO NOT translate "BridgeDB".
 #. TRANSLATORS: Please DO NOT translate "GnuPG".
-#: bridgedb/strings.py:172
+#: bridgedb/strings.py:174
 msgid "Get a copy of BridgeDB's public GnuPG key."
 msgstr "BridgeDB の GnuPG 公開鍵のコピーを手に入れましょう。"

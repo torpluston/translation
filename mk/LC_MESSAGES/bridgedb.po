@@ -1,5 +1,5 @@
 # Translations template for bridgedb.
-# Copyright (C) 2019 'The Tor Project, Inc.'
+# Copyright (C) 2020 'The Tor Project, Inc.'
 # This file is distributed under the same license as the bridgedb project.
 # 
 # Translators:
@@ -11,9 +11,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Tor Project\n"
 "Report-Msgid-Bugs-To: 'https://trac.torproject.org/projects/tor/newticket?component=BridgeDB&keywords=bridgedb-reported,msgid&cc=isis,sysrqb&owner=isis'\n"
-"POT-Creation-Date: 2019-10-19 14:51-0700\n"
-"PO-Revision-Date: 2019-10-22 14:45+0000\n"
-"Last-Translator: Liljana Ackovska <liljanagjurova@gmail.com>\n"
+"POT-Creation-Date: 2020-02-04 10:59-0800\n"
+"PO-Revision-Date: 2020-02-05 01:11+0000\n"
+"Last-Translator: carolyn <carolyn@anhalt.org>\n"
 "Language-Team: Macedonian (http://www.transifex.com/otf/torproject/language/mk/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -286,62 +286,64 @@ msgstr "%s Мостови %s се Tor јазли / чворови кои ви п
 msgid "I need an alternative way of getting bridges!"
 msgstr "Ми треба алтернативен начин да добијам мостови!"
 
-#: bridgedb/strings.py:108
+#. TRANSLATORS: Please DO NOT translate "get transport obfs4".
+#: bridgedb/strings.py:109
 #, python-format
 msgid ""
-"Another way to get bridges is to send an email to %s. Please note that you must\n"
-"send the email using an address from one of the following email providers:\n"
-"%s or %s."
-msgstr "Друг начин да добиете мостови е да испратите е-маил на %s. Имајте во предвид дека мора\nда испратите е-маил користејќи адреса од еден од следните е-маил провајдери:\n%s или %s."
+"Another way to get bridges is to send an email to %s. Leave the email subject\n"
+"empty and write \"get transport obfs4\" in the email's message body. Please note\n"
+"that you must send the email using an address from one of the following email\n"
+"providers: %s or %s."
+msgstr ""
 
-#: bridgedb/strings.py:115
+#: bridgedb/strings.py:117
 msgid "My bridges don't work! I need help!"
 msgstr "Моите мостови не функционираат! Ми треба помош!"
 
 #. TRANSLATORS: Please DO NOT translate "Tor Browser".
 #. TRANSLATORS: The two '%s' are substituted with "Tor Browser Manual" and
 #. "Support Portal", respectively.
-#: bridgedb/strings.py:119
+#: bridgedb/strings.py:121
 #, python-format
 msgid ""
 "If your Tor Browser cannot connect, please take a look at the %s and our %s."
 msgstr "Ако вашиот Tor Browser не може да се поврзе, погледнете на %s и на %s."
 
-#: bridgedb/strings.py:123
+#: bridgedb/strings.py:125
 msgid "Here are your bridge lines:"
 msgstr "Ова се вашите мост коненции:"
 
-#: bridgedb/strings.py:124
+#: bridgedb/strings.py:126
 msgid "Get Bridges!"
 msgstr "Добиј мостови!"
 
-#: bridgedb/strings.py:128
+#: bridgedb/strings.py:130
 msgid "Please select options for bridge type:"
 msgstr "Одберете опции за тип на мост:"
 
-#: bridgedb/strings.py:129
+#: bridgedb/strings.py:131
 msgid "Do you need IPv6 addresses?"
 msgstr "Дали ви требаат IPv6 адреси?"
 
-#: bridgedb/strings.py:130
+#: bridgedb/strings.py:132
 #, python-format
 msgid "Do you need a %s?"
 msgstr "Дали ти треба %s?"
 
-#: bridgedb/strings.py:134
+#: bridgedb/strings.py:136
 msgid "Your browser is not displaying images properly."
 msgstr "Вашиот прелистувач не ги покажува сликите правилно."
 
-#: bridgedb/strings.py:135
+#: bridgedb/strings.py:137
 msgid "Enter the characters from the image above..."
 msgstr "Внесете ги карактерите од сликата погоре:"
 
-#: bridgedb/strings.py:139
+#: bridgedb/strings.py:141
 msgid "How to start using your bridges"
 msgstr "Како да започнете со користење на мостови"
 
 #. TRANSLATORS: Please DO NOT translate "Tor Browser".
-#: bridgedb/strings.py:141
+#: bridgedb/strings.py:143
 #, python-format
 msgid ""
 "To enter bridges into Tor Browser, first go to the %s Tor Browser download\n"
@@ -350,21 +352,21 @@ msgid ""
 msgstr "Да внесете мостови во Tor Browser, прво одете на %s Tor Browser за преземање\nстраната %s и потоа следете ги инструкциите за преземање и стартување на Tor Browser."
 
 #. TRANSLATORS: Please DO NOT translate "Tor".
-#: bridgedb/strings.py:146
+#: bridgedb/strings.py:148
 msgid ""
 "When the 'Tor Network Settings' dialogue pops up, click 'Configure' and follow\n"
 "the wizard until it asks:"
 msgstr "Кога дијалогот 'Tor мрежни поставки' ќе се појави, кликнете на 'Конфигурирај' и следете\nго инсталерот додека да ве праша:"
 
 #. TRANSLATORS: Please DO NOT translate "Tor".
-#: bridgedb/strings.py:150
+#: bridgedb/strings.py:152
 msgid ""
 "Does your Internet Service Provider (ISP) block or otherwise censor connections\n"
 "to the Tor network?"
 msgstr "Дали вашиот Интернет сервис провајдер (ISP) блокира или цензурира поврзувања кон Tor мрежата?"
 
 #. TRANSLATORS: Please DO NOT translate "Tor".
-#: bridgedb/strings.py:154
+#: bridgedb/strings.py:156
 msgid ""
 "Select 'Yes' and then click 'Next'. To configure your new bridges, copy and\n"
 "paste the bridge lines into the text input box. Finally, click 'Connect', and\n"
@@ -372,28 +374,28 @@ msgid ""
 "button in the 'Tor Network Settings' wizard for further assistance."
 msgstr "Одберете 'Да' и кликнете 'Следно'. За да ги конфигурирате вашите нови мостови, копирајте и\nзалепете ја мост линијата во текст полето. На крај кликнете 'Поврзи', и\nби требало да сте готови! Ако имате проблеми, пробајте со кликање на 'Помош'\nкопчето во 'Tor мрежни подесувања' и следете ги инструкциите."
 
-#: bridgedb/strings.py:162
+#: bridgedb/strings.py:164
 msgid "Displays this message."
 msgstr "Ја покажува оваа порака."
 
 #. TRANSLATORS: Please try to make it clear that "vanilla" here refers to the
 #. same non-Pluggable Transport bridges described above as being
 #. "plain-ol'-vanilla" bridges.
-#: bridgedb/strings.py:166
+#: bridgedb/strings.py:168
 msgid "Request vanilla bridges."
 msgstr "Побарува стандардни мостови."
 
-#: bridgedb/strings.py:167
+#: bridgedb/strings.py:169
 msgid "Request IPv6 bridges."
 msgstr "Побарува IPv6 мостови."
 
 #. TRANSLATORS: Please DO NOT translate the word the word "TYPE".
-#: bridgedb/strings.py:169
+#: bridgedb/strings.py:171
 msgid "Request a Pluggable Transport by TYPE."
 msgstr "Побарува Pluggable Transport по тип."
 
 #. TRANSLATORS: Please DO NOT translate "BridgeDB".
 #. TRANSLATORS: Please DO NOT translate "GnuPG".
-#: bridgedb/strings.py:172
+#: bridgedb/strings.py:174
 msgid "Get a copy of BridgeDB's public GnuPG key."
 msgstr "Преземи копија од јавниот GnuPG клуч на BridgeDB."
