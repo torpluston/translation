@@ -151,7 +151,7 @@ Learn more about Tor by visiting our website, our wiki, finding us on IRC, joini
 ## 8. Скачивание Tor
 
 Tor для ПК
-torproject.org/download
+torproject.org/ru/download
 
 TOR ДЛЯ МОБИЛЬНЫХ УСТРОЙСТВ
 ### Android
