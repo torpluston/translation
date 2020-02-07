@@ -3892,6 +3892,10 @@ msgid ""
 "the right of the URL bar), then click on \"Preferences\", and finally on "
 "\"Tor\" in the side bar."
 msgstr ""
+"Si no ves esta opción y tienes abierto el navegador Tor, puedes ir al menú "
+"de la hamburguesa (el de las tres barras horizontales, en la parte superior "
+"derecha, a la derecha de la barra de direcciones), hacer clic en "
+"\"Preferencias\" y depués en \"Tor\" en la barra lateral."
 
 #: https//support.torproject.org/connecting/connecting-2/
 #: (content/connecting/connecting-2/contents+en.lrquestion.description)
@@ -3909,7 +3913,7 @@ msgstr ""
 #: https//support.torproject.org/censorship/censorship-5/
 #: (content/censorship/censorship-5/contents+en.lrquestion.description)
 msgid "##### Common log error #1: Proxy connection failure"
-msgstr ""
+msgstr "##### Error de registro común #1: Fallo de conexión del proxy"
 
 #: https//support.torproject.org/connecting/connecting-2/
 #: (content/connecting/connecting-2/contents+en.lrquestion.description)
@@ -4376,6 +4380,8 @@ msgid ""
 "If you are unable to connect to an onion service, please see [I cannot reach"
 " X.onion!](../../onionservices/onionservices-3)."
 msgstr ""
+"Si no puedes conectarte a un servicio cebolla, por favor mira [¡no puedo "
+"entrar en X.onion!](../../onionservices/onionservices-3)."
 
 #: https//support.torproject.org/censorship/censorship-7/
 #: (content/censorship/censorship-7/contents+en.lrquestion.title)
@@ -4426,6 +4432,9 @@ msgid ""
 "bridge](https://community.torproject.org/relay/setup/bridge/) for "
 "instructions."
 msgstr ""
+"Ve a [¿Cómo puedo poner en marcha un repetidor "
+"puente?](https://community.torproject.org/relay/setup/bridge/) para obtener "
+"instrucciones."
 
 #: https//support.torproject.org/censorship/censorship-7/
 #: (content/censorship/censorship-7/contents+en.lrquestion.description)
@@ -4442,6 +4451,9 @@ msgid ""
 "[Obfsproxy](https://github.com/Yawning/obfs4/blob/master/doc/obfs4-spec.txt)"
 " bridges address this by adding another layer of obfuscation."
 msgstr ""
+"Los repetidores puente con "
+"[Obfsproxy](https://github.com/Yawning/obfs4/blob/master/doc/obfs4-spec.txt)"
+" resuelven este problema añadiendo otra capa de ofuscación."
 
 #: https//support.torproject.org/censorship/censorship-7/
 #: (content/censorship/censorship-7/contents+en.lrquestion.description)
@@ -4458,6 +4470,8 @@ msgid ""
 "See our page on [pluggable transports](https://www.torproject.org/docs"
 "/pluggable-transports.html.en) for more info."
 msgstr ""
+"Para más información, mira nuestra página sobre [transportes "
+"conectables](https://www.torproject.org/docs/pluggable-transports.html.en)."
 
 #: https//support.torproject.org/https/https-1/
 #: (content/https/https-1/contents+en.lrquestion.title)
@@ -4549,11 +4563,13 @@ msgstr ""
 #: (content/operators/bandwidth-shaping/contents+en.lrquestion.title)
 msgid "What bandwidth shaping options are available to Tor relays?"
 msgstr ""
+"¿Qué opciones de limitación de ancho de banda hay disponibles para los "
+"repetidores Tor?"
 
 #: https//support.torproject.org/operators/bandwidth-shaping/
 #: (content/operators/bandwidth-shaping/contents+en.lrquestion.description)
 msgid "There are two options you can add to your torrc file:"
-msgstr ""
+msgstr "Hay dos opciones que puedes añadir a tu archivo torrc:"
 
 #: https//support.torproject.org/operators/bandwidth-shaping/
 #: (content/operators/bandwidth-shaping/contents+en.lrquestion.description)
@@ -4561,6 +4577,8 @@ msgid ""
 "**BandwidthRate** is the maximum long-term bandwidth allowed (bytes per "
 "second)."
 msgstr ""
+"**BandwidthRate** es el máximo ancho de banda a largo plazo permitido (en "
+"bytes por segundo)."
 
 #: https//support.torproject.org/operators/bandwidth-shaping/
 #: (content/operators/bandwidth-shaping/contents+en.lrquestion.description)
@@ -4569,11 +4587,14 @@ msgid ""
 "megabytes per second (a fast connection), or \"BandwidthRate 500 KBytes\" "
 "for 500 kilobytes per second (a decent cable connection)."
 msgstr ""
+"Por ejemplo, puedes añadir \"BandwidthRate 10 MBytes\" para 10 megabytes por"
+" segundo (conexión rápida), o \"BandwidthRate 500 KBytes\" para 500 "
+"kilobytes por segundo (una conexión cablemodem decente)."
 
 #: https//support.torproject.org/operators/bandwidth-shaping/
 #: (content/operators/bandwidth-shaping/contents+en.lrquestion.description)
 msgid "The minimum BandwidthRate setting is 75 kilobytes per second."
-msgstr ""
+msgstr "El ajuste mínimo para BandwidthRate es de 75 kilobytes por segundo."
 
 #: https//support.torproject.org/operators/bandwidth-shaping/
 #: (content/operators/bandwidth-shaping/contents+en.lrquestion.description)
@@ -4582,6 +4603,9 @@ msgid ""
 "periods of traffic above BandwidthRate but still keeps the average over a "
 "long period to BandwidthRate."
 msgstr ""
+"**BandwidthBurst** es una reserva de bytes usada para satisfacer una demanda"
+" por encima de BandwidthRate durante un corto periodo de tiempo pero "
+"respetando el valor medio fijado en BandwidthRate."
 
 #: https//support.torproject.org/operators/bandwidth-shaping/
 #: (content/operators/bandwidth-shaping/contents+en.lrquestion.description)
@@ -4590,6 +4614,9 @@ msgid ""
 "allowing more traffic during peak times if the average hasn't been reached "
 "lately."
 msgstr ""
+"Un valor bajo en Rate pero alto en Burst, asegura a largo plazo un valor "
+"medio a la vez que permite picos superiores de tráfico si dicho valor medio "
+"no se ha superado recientemente."
 
 #: https//support.torproject.org/operators/bandwidth-shaping/
 #: (content/operators/bandwidth-shaping/contents+en.lrquestion.description)
