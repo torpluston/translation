@@ -87,7 +87,7 @@ When he opened **Tor Browser**, he followed the prompts for censored users and c
 
 بوسیله مرورگر تور، جین میتواند آزادانه و به صورت خصوصی در وب بگردد و با خانواده خود ارتباط برقرار کند.
 
-### Censored users all over the world rely on Tor Browser for a free, stable, and uncensored way to access the internet.
+### کاربران سانسور شده در سرتاسر جهان به مرورگر Tor برای دسترسی رایگان، پایدار، و بدون سانسور به اینترنت اتکا میکنند.
 
 ---
 
@@ -112,7 +112,7 @@ Tor Browser selects a random circuit of three relays, which are computers all ov
 
 Tor Browser then encrypts her website request three times and sends it to the first Tor relay in her circuit.
 
-The first relay removes the first encryption layer but doesn't learn that the destination is Bekele’s website.
+اولین بازپخش اولین لایه رمزگذاری را حذف می کند اما متوجه مقصد که سایت Bekele می باشد نمی شود.
 
 The first relay learns only the next location in the circuit, which is the second relay.
 
@@ -132,7 +132,7 @@ Tor helps protect journalists, human rights defenders, domestic violence victims
 
 تور با هدف حریم خصوصی طراحی شده است. ما نمی دانیم کاربران ما چه کسانی هستند، و ما فعالیت کاربران را ثبت نمی کنیم.
 
-Tor relay operators cannot reveal the true identity of Tor users.
+اپراتورهای بازپخش تور نمی توانند هویت واقعی کاربران تور را آشکار کنند.
 
 Continual peer review of Tor's source code by academic and open source communities ensures that there are no backdoors in Tor, and our social contract promises that we will never backdoor Tor. 
 
@@ -140,7 +140,7 @@ Continual peer review of Tor's source code by academic and open source communiti
 
 Tor is made possible by a diverse set of users, developers, relay operators, and advocates from around the world.
 
-We need your help to make Tor more usable and secure for people everywhere.
+ما به کمک شما برای قابل استفاده تر کردن و امن تر کردن تور برای تمام افراد در سراسر جهان نیازمندیم.
 
 You can volunteer with Tor by writing code, running a relay, creating documentation, offering user support, or telling people in your community about Tor.
 
