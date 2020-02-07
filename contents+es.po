@@ -4811,11 +4811,14 @@ msgid ""
 "watching them too, but you're no better off than if you were an ordinary "
 "client.)"
 msgstr ""
+"(en este caso seguirá sin poder saber hacia donde va esa conexión a menos "
+"que también esté espiando el destino, pero en ese caso estás igual que "
+"alguien que no use Tor)"
 
 #: https//support.torproject.org/operators/better-anonymity/
 #: (content/operators/better-anonymity/contents+en.lrquestion.description)
 msgid "There are also some downsides to running a Tor relay."
-msgstr ""
+msgstr "También hay desventajas en ejecutar un repetidor Tor."
 
 #: https//support.torproject.org/operators/better-anonymity/
 #: (content/operators/better-anonymity/contents+en.lrquestion.description)
@@ -4824,6 +4827,9 @@ msgid ""
 " one might signal to an attacker that you place a high value on your "
 "anonymity."
 msgstr ""
+"En primer lugar, mientras solo haya unos cientos de repetidores, el hecho de"
+" que tú estás ejecutando uno, puede hacer pensar a un atacante que valoras "
+"enormemente tu anonimato."
 
 #: https//support.torproject.org/operators/better-anonymity/
 #: (content/operators/better-anonymity/contents+en.lrquestion.description)
@@ -4835,32 +4841,39 @@ msgid ""
 "relaying traffic through your Tor relay and noticing changes in traffic "
 "timing."
 msgstr ""
+"En segundo lugar, existen ataques más exóticos que han sido menos estudiados"
+" que se aprovechan del hecho de saber que estás ejecutando un repetidor. Por"
+" ejemplo, un atacante puede ser capaz de \"observar\" si estás mandanto "
+"tráfico incluso aunque no pueda espiar tu red, mandando tráfico a través de "
+"tu repetidor y observando cambios en la cadencia del tráfico de red."
 
 #: https//support.torproject.org/operators/better-anonymity/
 #: (content/operators/better-anonymity/contents+en.lrquestion.description)
 msgid ""
 "It is an open research question whether the benefits outweigh the risks."
 msgstr ""
+"Es una materia de investigación no resuelta si los beneficios superan a los "
+"riesgos."
 
 #: https//support.torproject.org/operators/better-anonymity/
 #: (content/operators/better-anonymity/contents+en.lrquestion.description)
 msgid "A lot of that depends on the attacks you are most worried about."
-msgstr ""
+msgstr "Mucho de esto depende de los ataques que más te preocupen."
 
 #: https//support.torproject.org/operators/better-anonymity/
 #: (content/operators/better-anonymity/contents+en.lrquestion.description)
 msgid "For most users, we think it's a smart move."
-msgstr ""
+msgstr "Para la mayoría de los usuarios, creemos que esto es un beneficio."
 
 #: https//support.torproject.org/operators/dynamic-ip/
 #: (content/operators/dynamic-ip/contents+en.lrquestion.title)
 msgid "Can I run a Tor relay using a dynamic IP address?"
-msgstr ""
+msgstr "¿Puedo ejecutar un repetidor Tor si tengo dirección IP dinámica?"
 
 #: https//support.torproject.org/operators/dynamic-ip/
 #: (content/operators/dynamic-ip/contents+en.lrquestion.description)
 msgid "Tor can handle relays with dynamic IP addresses just fine."
-msgstr ""
+msgstr "Tor puede adaptarse bien a esta situación."
 
 #: https//support.torproject.org/operators/dynamic-ip/
 #: (content/operators/dynamic-ip/contents+en.lrquestion.description)
@@ -4869,16 +4882,21 @@ msgid ""
 "[torrc](https://support.torproject.org/tbb/tbb-editing-torrc/) blank, and "
 "Tor will guess."
 msgstr ""
+"Simplemente deja en blanco la opción \"Address\" en el archivo "
+"[torrc](https://support.torproject.org/tbb/tbb-editing-torrc/) y Tor se "
+"encargará de averiguarla."
 
 #: https//support.torproject.org/operators/exit-policies/
 #: (content/operators/exit-policies/contents+en.lrquestion.title)
 msgid "I'd run a relay, but I don't want to deal with abuse issues."
 msgstr ""
+"Podría ejecutar un repetidor, pero no quiero tener que lidiar con las quejas"
+" que me puedan llegar."
 
 #: https//support.torproject.org/operators/exit-policies/
 #: (content/operators/exit-policies/contents+en.lrquestion.description)
 msgid "Great. That's exactly why we implemented exit policies."
-msgstr ""
+msgstr "Genial. Para eso tenemos las políticas de salida."
 
 #: https//support.torproject.org/operators/exit-policies/
 #: (content/operators/exit-policies/contents+en.lrquestion.description)
@@ -4886,6 +4904,8 @@ msgid ""
 "Each Tor relay has an exit policy that specifies what sort of outbound "
 "connections are allowed or refused from that relay."
 msgstr ""
+"Cada repetidor Tor tiene una política de salida que especifica qué tipo de "
+"conexiones salientes serán permitidas o denegadas."
 
 #: https//support.torproject.org/operators/exit-policies/
 #: (content/operators/exit-policies/contents+en.lrquestion.description)
@@ -4894,6 +4914,9 @@ msgid ""
 "clients will automatically avoid picking exit relays that would refuse to "
 "exit to their intended destination."
 msgstr ""
+"Las políticas de salida son propagadas a los clientes Tor mediante los "
+"directorios, así los clientes evitan elegir repetidores que no permitirían "
+"conexiones de salida."
 
 #: https//support.torproject.org/operators/exit-policies/
 #: (content/operators/exit-policies/contents+en.lrquestion.description)
@@ -4901,6 +4924,9 @@ msgid ""
 "This way each relay can decide the services, hosts, and networks it wants to"
 " allow connections to, based on abuse potential and its own situation."
 msgstr ""
+"Des esta forma cada repetidor puede elegir que servicios, destinos y redes "
+"quiere permitir, basándose en el potencial para el abuso o en otros "
+"criterios."
 
 #: https//support.torproject.org/operators/exit-policies/
 #: (content/operators/exit-policies/contents+en.lrquestion.description)
@@ -4911,6 +4937,12 @@ msgid ""
 "read Mike Perry's [tips for running an exit node with minimal "
 "harassment](https://blog.torproject.org/blog/tips-running-exit-node)."
 msgstr ""
+"Consulta la [entrada sobre los problemas que puedes "
+"encontrar](https://2019.www.torproject.org/docs/faq-"
+"abuse.html.en#TypicalAbuses) si utilizas la política de salida por defecto y"
+" después lee los [consejos para ejecutar un repetidor de salida con las "
+"mínimas molestias](https://blog.torproject.org/blog/tips-running-exit-node) "
+"de Mike Perry."
 
 #: https//support.torproject.org/operators/exit-policies/
 #: (content/operators/exit-policies/contents+en.lrquestion.description)
@@ -4920,6 +4952,10 @@ msgid ""
 "since the Tor network can't handle the load (e.g. default file-sharing "
 "ports)."
 msgstr ""
+"La política de salida por defecto permite el acceso a muchos servicios "
+"populares (navegación web), pero impide algunos otros debido al potencial "
+"para el abuso (correo) y otros para losque la red Tor no está diseñada para "
+"aguantar (P2P, bittorrent, etc)."
 
 #: https//support.torproject.org/operators/exit-policies/
 #: (content/operators/exit-policies/contents+en.lrquestion.description)
