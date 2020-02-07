@@ -4998,6 +4998,10 @@ msgid ""
 "are behind a restrictive firewall or content filter), please explicitly "
 "reject them in your exit policy  otherwise Tor users will be impacted too."
 msgstr ""
+"Si hay recursos a los que que tu ordenador es incapaz de conectar (por "
+"ejemplo, estás detras de un cortafuegos restrictivo o de un filtro de "
+"contenidos) por favor, rechazalos de forma explícita en tu política de "
+"salida, de lo contrario los usuarios de Tor se verán afectados también."
 
 #: https//support.torproject.org/operators/facing-legal-trouble/
 #: (content/operators/facing-legal-trouble/contents+en.lrquestion.title)
@@ -5005,6 +5009,8 @@ msgid ""
 "I'm facing legal trouble. How do I prove that my server was a Tor relay at a"
 " given time?"
 msgstr ""
+"Tengo problemas legales. ¿Cómo demuestro que mi servidor estaba haciendo de "
+"repetidor Tor en una fecha determinada?"
 
 #: https//support.torproject.org/operators/facing-legal-trouble/
 #: (content/operators/facing-legal-trouble/contents+en.lrquestion.description)
@@ -5012,6 +5018,9 @@ msgid ""
 "[Exonerator](https://exonerator.torproject.org/) is a web service that can "
 "check if an IP address was a relay at a given time."
 msgstr ""
+"[Exonerator](https://exonerator.torproject.org/) es un servicio web que "
+"puede comprobar si una dirección IP era un repetidor en una fecha "
+"determinada."
 
 #: https//support.torproject.org/operators/facing-legal-trouble/
 #: (content/operators/facing-legal-trouble/contents+en.lrquestion.description)
@@ -5019,11 +5028,15 @@ msgid ""
 "We can also [provide a signed letter](https://www.torproject.org/contact/) "
 "if needed."
 msgstr ""
+"También podemos [proporcionar una carta "
+"firmada](https://www.torproject.org/contact/) en caso de necesitarse."
 
 #: https//support.torproject.org/operators/hibernation/
 #: (content/operators/hibernation/contents+en.lrquestion.title)
 msgid "Why can I not browse anymore after limiting bandwidth on my Tor relay?"
 msgstr ""
+"¿Por qué no puedo navegar después de limitar el ancho de banda en mi "
+"repetidor Tor?"
 
 #: https//support.torproject.org/operators/hibernation/
 #: (content/operators/hibernation/contents+en.lrquestion.description)
@@ -5034,6 +5047,12 @@ msgid ""
 "[BandwidthRate](https://2019.www.torproject.org/docs/faq.html.en#BandwidthShaping)"
 " apply to both client and relay functions of the Tor process."
 msgstr ""
+"Los parámetros asignados a "
+"AccountingMax](https://2019.www.torproject.org/docs/faq.html.en#LimitTotalBandwidth)"
+" y "
+"[BandwidthRate](https://2019.www.torproject.org/docs/faq.html.en#BandwidthShaping)"
+" se aplican tanto a las funciones de repetidor como a las de cliente del "
+"proceso tor."
 
 #: https//support.torproject.org/operators/hibernation/
 #: (content/operators/hibernation/contents+en.lrquestion.description)
@@ -5041,6 +5060,9 @@ msgid ""
 "Thus you may find that you are unable to browse as soon as your Tor goes "
 "into hibernation, signaled by this entry in the log:"
 msgstr ""
+"Así que puedes encontrarte con que no puedes navegar tan pronto como tu "
+"programa Tor entra en modo hibernación, indicado por esta entrada en el "
+"registro:"
 
 #: https//support.torproject.org/operators/hibernation/
 #: (content/operators/hibernation/contents+en.lrquestion.description)
@@ -5073,6 +5095,8 @@ msgid ""
 "The solution is to run two Tor processes - one relay and one client, each "
 "with its own config."
 msgstr ""
+"La solución está en ejecutar dos procesos Tor: uno como repetidor y otro "
+"como cliente, cada uno con su configuración."
 
 #: https//support.torproject.org/operators/hibernation/
 #: (content/operators/hibernation/contents+en.lrquestion.description)
@@ -5080,11 +5104,15 @@ msgid ""
 "One way to do this (if you are starting from a working relay setup) is as "
 "follows:"
 msgstr ""
+"Un modo de hacer esto (si comienzas desde una configuración como repetidor) "
+"es como sigue:"
 
 #: https//support.torproject.org/operators/hibernation/
 #: (content/operators/hibernation/contents+en.lrquestion.description)
 msgid "* In the relay Tor torrc file, simply set the SocksPort to 0."
 msgstr ""
+"* En el archivo torrc del repetidor Tor, simplemente ajusta a 0 el parámetro"
+" SocksPort."
 
 #: https//support.torproject.org/operators/hibernation/
 #: (content/operators/hibernation/contents+en.lrquestion.description)
@@ -5092,11 +5120,14 @@ msgid ""
 "* Create a new client torrc file from the torrc.sample and ensure it uses a "
 "different log file from the relay."
 msgstr ""
+"* Crea un nuevo archivo torrc para el cliente, usando como plantilla el "
+"archivo torrc.sample y asegúrate de que utiliza un archivo de registro de "
+"eventos distinto al del repetidor."
 
 #: https//support.torproject.org/operators/hibernation/
 #: (content/operators/hibernation/contents+en.lrquestion.description)
 msgid "One naming convention may be torrc.client and torrc.relay."
-msgstr ""
+msgstr "Una posible forma de llamarlos es torrc.client y torrc.relay."
 
 #: https//support.torproject.org/operators/hibernation/
 #: (content/operators/hibernation/contents+en.lrquestion.description)
@@ -5104,6 +5135,8 @@ msgid ""
 "* Modify the Tor client and relay startup scripts to include `-f "
 "/path/to/correct/torrc`."
 msgstr ""
+"* Modifica los script de arranque del cliente y del repetidor para que "
+"incluyan `-f /ruta/al/corrspondiente/torrc`."
 
 #: https//support.torproject.org/operators/hibernation/
 #: (content/operators/hibernation/contents+en.lrquestion.description)
@@ -5111,11 +5144,14 @@ msgid ""
 "* In Linux/BSD/Mac OS X, changing the startup scripts to `Tor.client` and "
 "`Tor.relay` may make separation of configs easier."
 msgstr ""
+"* En Linux/BSD/Mac OS X, cambiar el nombre de los script de arranque a "
+"`Tor.client` y `Tor.relay` puede hacer mas sencilla la separación de "
+"configuraciones."
 
 #: https//support.torproject.org/operators/ipv6-relay/
 #: (content/operators/ipv6-relay/contents+en.lrquestion.title)
 msgid "Can I use IPv6 on my relay?"
-msgstr ""
+msgstr "¿Puedo usar IPv6 en mi repetidor?"
 
 #: https//support.torproject.org/operators/ipv6-relay/
 #: (content/operators/ipv6-relay/contents+en.lrquestion.description)
@@ -5127,6 +5163,12 @@ msgid ""
 " in their [torrc](https://support.torproject.org/tbb/tbb-editing-torrc/) "
 "configuration files when IPv6 connectivity is available."
 msgstr ""
+"Tor [permite parcialmente el uso de "
+"IPv6](https://trac.torproject.org/projects/tor/wiki/org/roadmaps/Tor/IPv6Features)"
+" y animamos a cada administrador de repetidor a que [active la funcionalidad"
+" IPv6](https://trac.torproject.org/projects/tor/wiki/TorRelayGuide#IPv6) en "
+"su [torrc](https://support.torproject.org/tbb/tbb-editing-torrc/) si dispone"
+" de conectividad IPv6."
 
 #: https//support.torproject.org/operators/ipv6-relay/
 #: (content/operators/ipv6-relay/contents+en.lrquestion.description)
@@ -5134,11 +5176,16 @@ msgid ""
 "For the time being Tor will require IPv4 addresses on relays, you can not "
 "run a Tor relay on a host with IPv6 addresses only."
 msgstr ""
+"Por el momento Tor requiere una dirección IPv4 en los repetidores, no puedes"
+" ejecutar un repetidor en un ordenador que solo disponga de direcciones "
+"IPv6."
 
 #: https//support.torproject.org/operators/limit-total-bandwidth/
 #: (content/operators/limit-total-bandwidth/contents+en.lrquestion.title)
 msgid "How can I limit the total amount of bandwidth used by my Tor relay?"
 msgstr ""
+"¿Cómo puedo limitar la cantidad total de ancho de banda usado por mi "
+"repetidor Tor?"
 
 #: https//support.torproject.org/operators/limit-total-bandwidth/
 #: (content/operators/limit-total-bandwidth/contents+en.lrquestion.description)
@@ -5146,6 +5193,9 @@ msgid ""
 "The accounting options in the torrc file allow you to specify the maximum "
 "amount of bytes your relay uses for a time period."
 msgstr ""
+"Hay unas opciones en el archivo torrc que te permiten especificar el máximo "
+"número de bytes que serán transmitidos por tu repetidor en una unidad de "
+"tiempo determinada."
 
 #: https//support.torproject.org/operators/limit-total-bandwidth/
 #: (content/operators/limit-total-bandwidth/contents+en.lrquestion.description)
@@ -5159,6 +5209,9 @@ msgid ""
 "total amount of bytes served for a week (that resets every Wednesday at "
 "10:00am), you would use:"
 msgstr ""
+"Esto establece cuando el conteo será restablecido. Por ejemplo, para fijar "
+"el total de bytes por semana (que se ponga a cero cada miércoles a las "
+"10:00AM), usarías:"
 
 #: https//support.torproject.org/operators/limit-total-bandwidth/
 #: (content/operators/limit-total-bandwidth/contents+en.lrquestion.description)
@@ -5177,6 +5230,9 @@ msgid ""
 "accounting period, and the maximum amount of data your relay will receive "
 "during an account period."
 msgstr ""
+"Esto establece la máxima cantidad de datos que tu repetidor enviará durante "
+"un periodo de conteo y la máxima cantidad de datos que tu repetidor recibirá"
+" durante un periodo de conteo."
 
 #: https//support.torproject.org/operators/limit-total-bandwidth/
 #: (content/operators/limit-total-bandwidth/contents+en.lrquestion.description)
