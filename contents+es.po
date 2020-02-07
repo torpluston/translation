@@ -5240,6 +5240,8 @@ msgid ""
 "When the accounting period resets (from AccountingStart), then the counters "
 "for AccountingMax are reset to 0."
 msgstr ""
+"Cuando el periodo de conteo comienza (mediante AccountingStart) los "
+"contadores para AccountingMax vuelven a 0."
 
 #: https//support.torproject.org/operators/limit-total-bandwidth/
 #: (content/operators/limit-total-bandwidth/contents+en.lrquestion.description)
@@ -5247,6 +5249,8 @@ msgid ""
 "Example: Let's say you want to allow 50 GB of traffic every day in each "
 "direction and the accounting should reset at noon each day:"
 msgstr ""
+"Por ejemplo: Digamos que quieres permitir 50 GB de tráfico al día en cada "
+"dirección y el periodo de conteo debe restablecerse a diario a mediodía:"
 
 #: https//support.torproject.org/operators/limit-total-bandwidth/
 #: (content/operators/limit-total-bandwidth/contents+en.lrquestion.description)
@@ -5264,6 +5268,8 @@ msgid ""
 "Note that your relay won't wake up exactly at the beginning of each "
 "accounting period."
 msgstr ""
+"Ten en cuenta que tu repetidor no se despertará exactamente al principio del"
+" periodo de conteo."
 
 #: https//support.torproject.org/operators/limit-total-bandwidth/
 #: (content/operators/limit-total-bandwidth/contents+en.lrquestion.description)
@@ -5271,6 +5277,8 @@ msgid ""
 "It will keep track of how quickly it used its quota in the last period, and "
 "choose a random point in the new interval to wake up."
 msgstr ""
+"Llevará la cuenta de lo rápido que ha usado su cuota en el último periodo y "
+"escogerá un momento aleatorio en el próximo intervalo para despertar."
 
 #: https//support.torproject.org/operators/limit-total-bandwidth/
 #: (content/operators/limit-total-bandwidth/contents+en.lrquestion.description)
@@ -5278,6 +5286,8 @@ msgid ""
 "This way we avoid having hundreds of relays working at the beginning of each"
 " month but none still up by the end."
 msgstr ""
+"De este modo evitamos que haya cientos de repetidores trabajando al "
+"principio de cada mes y no qude ninguno al final del mismo."
 
 #: https//support.torproject.org/operators/limit-total-bandwidth/
 #: (content/operators/limit-total-bandwidth/contents+en.lrquestion.description)
@@ -5286,6 +5296,9 @@ msgid ""
 "connection speed, we recommend you use daily accounting, so you don't end up"
 " using your entire monthly quota in the first day."
 msgstr ""
+"Si solo dispones de una cantidad pequeña de ancho de banda para donar en "
+"relación a tu velocidad de conexión, te recomendamos que uses un conteo "
+"diario, para que no acabes tu cuota mensual el primer día."
 
 #: https//support.torproject.org/operators/limit-total-bandwidth/
 #: (content/operators/limit-total-bandwidth/contents+en.lrquestion.description)
@@ -5294,6 +5307,10 @@ msgid ""
 " to spread your usefulness over more of the day: if you want to offer X GB "
 "in each direction, you could set your RelayBandwidthRate to 20*X KBytes."
 msgstr ""
+"Simplemente divide la cantidad mensual por 30. Puedes tener en cuenta "
+"tambien limitar el cuadal para espaciar la utilidad a lo largo del día: si "
+"quieres ofrecer X GB en cada dirección, puedes ajustar RelayBandwidthRate a "
+"20*X KBytes."
 
 #: https//support.torproject.org/operators/limit-total-bandwidth/
 #: (content/operators/limit-total-bandwidth/contents+en.lrquestion.description)
@@ -5302,6 +5319,9 @@ msgid ""
 "RelayBandwidthRate to 1000 KBytes: this way your relay will always be useful"
 " for at least half of each day."
 msgstr ""
+"Por ejemplo, si tienes 50 GB para ofrecer en cada dirección, puedes "
+"establecer RelayBandwidthRate a 1000KBytes. De este modo tu repetidor "
+"siempre será útil al menos la mitad de cada día."
 
 #: https//support.torproject.org/operators/limit-total-bandwidth/
 #: (content/operators/limit-total-bandwidth/contents+en.lrquestion.description)
@@ -5318,11 +5338,13 @@ msgstr "RelayBandwidthRate 1000 KBytes"
 msgid ""
 "RelayBandwidthBurst 5000 KBytes # allow higher bursts but maintain average"
 msgstr ""
+"RelayBandwidthBurst 5000 KBytes # permitir picos mayores pero manteniendo un"
+" valor medio"
 
 #: https//support.torproject.org/operators/multiple-relays/
 #: (content/operators/multiple-relays/contents+en.lrquestion.title)
 msgid "I want to run more than one Tor relay."
-msgstr ""
+msgstr "Quiero ejecutar más de un repetidor Tor."
 
 #: https//support.torproject.org/operators/multiple-relays/
 #: (content/operators/multiple-relays/contents+en.lrquestion.description)
@@ -5330,6 +5352,8 @@ msgid ""
 "Great. If you want to run several relays to donate more to the network, "
 "we're happy with that."
 msgstr ""
+"Genial. Si quieres ejecutar varios repetidores para donar más a la red, nos "
+"parece bien."
 
 #: https//support.torproject.org/operators/multiple-relays/
 #: (content/operators/multiple-relays/contents+en.lrquestion.description)
@@ -5337,6 +5361,8 @@ msgid ""
 "But please don't run more than a few dozen on the same network, since part "
 "of the goal of the Tor network is dispersal and diversity."
 msgstr ""
+"Pero por favor, no ejecutes más de unas docenas en la misma red, ya que "
+"parte de los objetivos de la red Tor es tener diversidad geográfica."
 
 #: https//support.torproject.org/operators/multiple-relays/
 #: (content/operators/multiple-relays/contents+en.lrquestion.description)
@@ -5345,6 +5371,9 @@ msgid ""
 "config option in the torrc of each relay, listing all the relays (comma-"
 "separated) that are under your control:"
 msgstr ""
+"Si decides ejecutar más de un repetidor, por favor, establece la opción de "
+"configuración \"MyFamily\" en el archivo torrc de cada repetidor, listando "
+"todos los repetidores (separándolos con coma) que estén bajo tu control:"
 
 #: https//support.torproject.org/operators/multiple-relays/
 #: (content/operators/multiple-relays/contents+en.lrquestion.description)
@@ -5357,6 +5386,7 @@ msgid ""
 "where each fingerprint is the 40 character identity fingerprint (without "
 "spaces)."
 msgstr ""
+"donde cada huella es el identificador de 40 caracteres (sin espacios)."
 
 #: https//support.torproject.org/operators/multiple-relays/
 #: (content/operators/multiple-relays/contents+en.lrquestion.description)
@@ -5364,6 +5394,8 @@ msgid ""
 "That way, Tor clients will know to avoid using more than one of your relays "
 "in a single circuit."
 msgstr ""
+"De esta forma, los clientes Tor sabrán evitar el uso de más de uno de tus "
+"repetidores en un mismo circuito."
 
 #: https//support.torproject.org/operators/multiple-relays/
 #: (content/operators/multiple-relays/contents+en.lrquestion.description)
@@ -5372,11 +5404,16 @@ msgid ""
 "or of their network, even if they're not all in the same geographic "
 "location."
 msgstr ""
+"Debes establecer MyFamily si tienes control administrativo de los "
+"ordenadores o de la red en la que se encuentran, incluso si no están "
+"situados geográficamente en el mismo sitio."
 
 #: https//support.torproject.org/operators/my-relay-got-guard-flag-traffic-dropped/
 #: (content/operators/my-relay-got-guard-flag-traffic-dropped/contents+en.lrquestion.title)
 msgid "My relay recently got the Guard flag and traffic dropped by half."
 msgstr ""
+"Mi repetidor hace poco que consiguió el identificador de guardian y el "
+"tráfico cayó a la mitad."
 
 #: https//support.torproject.org/operators/my-relay-got-guard-flag-traffic-dropped/
 #: (content/operators/my-relay-got-guard-flag-traffic-dropped/contents+en.lrquestion.description)
@@ -5385,6 +5422,9 @@ msgid ""
 "not many clients have rotated their existing guards out to use it as a guard"
 " yet."
 msgstr ""
+"Como es ahora un guardian, los clientes lo utilizan menos en otras "
+"posiciones, pero no muchos clientes han rotado sus guardianes para que sea "
+"usado como tal."
 
 #: https//support.torproject.org/operators/my-relay-got-guard-flag-traffic-dropped/
 #: (content/operators/my-relay-got-guard-flag-traffic-dropped/contents+en.lrquestion.description)
