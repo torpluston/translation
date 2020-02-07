@@ -4626,6 +4626,10 @@ msgid ""
 "second; but if you choose a higher BandwidthBurst (like 5 MBytes), it will "
 "allow more bytes through until the pool is empty."
 msgstr ""
+"Por ejemplo, si estableces \"BandwidthBurst 500 KBytes\" y usas el mismo "
+"valor para BandwidthRate, nunca se superará el caudal de 500 kilobytes por "
+"segundo, pero si eliges un valor más alto para BandwidthBurst (por ejemplo 5"
+" MBytes), dejará pasar más trafico hasta que la reserva se vacíe."
 
 #: https//support.torproject.org/operators/bandwidth-shaping/
 #: (content/operators/bandwidth-shaping/contents+en.lrquestion.description)
@@ -4634,6 +4638,9 @@ msgid ""
 "cable modem, you should set BandwidthRate to less than your smaller "
 "bandwidth (Usually that's the upload bandwidth)."
 msgstr ""
+"Si tu conexión es asimétrica (la capacidad de subida es inferior que la de "
+"bajada) como pasa con los cablemodem, debes ajustar BandwidthRate a un valor"
+" inferior a tu ancho de banda más bajo (normalmente el de subida)."
 
 #: https//support.torproject.org/operators/bandwidth-shaping/
 #: (content/operators/bandwidth-shaping/contents+en.lrquestion.description)
@@ -4642,11 +4649,14 @@ msgid ""
 "usage - you may need to experiment with which values make your connection "
 "comfortable."
 msgstr ""
+"De otro modo, podrías sufrir pérdida de paquetes durante los periodos de "
+"máximo uso del ancho de banda. Puede que tengas que jugar con estos valores "
+"hasta que consigas un uso adecuado de tu conexión."
 
 #: https//support.torproject.org/operators/bandwidth-shaping/
 #: (content/operators/bandwidth-shaping/contents+en.lrquestion.description)
 msgid "Then set BandwidthBurst to the same as BandwidthRate."
-msgstr ""
+msgstr "Ajusta BandwidthBurst y BandwidthRate al mismo valor."
 
 #: https//support.torproject.org/operators/bandwidth-shaping/
 #: (content/operators/bandwidth-shaping/contents+en.lrquestion.description)
@@ -4655,6 +4665,9 @@ msgid ""
 "prioritize Tor traffic below other traffic on their machine, so that their "
 "own personal traffic is not impacted by Tor load."
 msgstr ""
+"Los repetidores Tor basados en Linux, tienen otra opción a su disposición: "
+"pueden priorizar el tráfico Tor para que otros tipos de tráfico no se vean "
+"afectados por la carga de Tor."
 
 #: https//support.torproject.org/operators/bandwidth-shaping/
 #: (content/operators/bandwidth-shaping/contents+en.lrquestion.description)
@@ -4663,6 +4676,10 @@ msgid ""
 "/operator-tools/linux-tor-prio.sh) can be found in the Tor source "
 "distribution's contrib directory."
 msgstr ""
+"Un [script para conseguir "
+"esto](https://gitweb.torproject.org/tor.git/tree/contrib/operator-tools"
+"/linux-tor-prio.sh) se puede encontrar en el directorio de contribuciones "
+"del código fuente de Tor."
 
 #: https//support.torproject.org/operators/bandwidth-shaping/
 #: (content/operators/bandwidth-shaping/contents+en.lrquestion.description)
@@ -4671,16 +4688,22 @@ msgid ""
 "serve a certain amount of bandwidth per time period (such as 100 GB per "
 "month). These are covered in the hibernation entry below."
 msgstr ""
+"Además hay opciones de hibernación donde le puedes decir a Tor que deje "
+"pasar una determinada cantidad de tráfico por unidad de tiempo (como por "
+"ejemplo 100 GB al mes). Están explicadas más abajo en la sección de "
+"hibernación."
 
 #: https//support.torproject.org/operators/bandwidth-shaping/
 #: (content/operators/bandwidth-shaping/contents+en.lrquestion.description)
 msgid "Note that BandwidthRate and BandwidthBurst are in **Bytes**, not Bits."
 msgstr ""
+"Ten en cuenta que BandwidthRate y BandwidthBurst aceptan valores en "
+"**Bytes**, no en Bits."
 
 #: https//support.torproject.org/operators/behind-nat/
 #: (content/operators/behind-nat/contents+en.lrquestion.title)
 msgid "I'm behind a NAT/Firewall."
-msgstr ""
+msgstr "Estoy detrás de un router/cortafuegos."
 
 #: https//support.torproject.org/operators/behind-nat/
 #: (content/operators/behind-nat/contents+en.lrquestion.description)
@@ -4688,6 +4711,8 @@ msgid ""
 "See [portforward.com](https://portforward.com/) for directions on how to "
 "port forward with your NAT/router device."
 msgstr ""
+"Visita [portforward.com](https://portforward.com/) para ver instrucciones "
+"sobre cómo redireccionar puertos en tu router."
 
 #: https//support.torproject.org/operators/behind-nat/
 #: (content/operators/behind-nat/contents+en.lrquestion.description)
@@ -4695,6 +4720,8 @@ msgid ""
 "If your relay is running on a internal net, you need to setup port "
 "forwarding."
 msgstr ""
+"Si tu repetidor está funcionando en una red interna, necesitas activar la "
+"redirección de puertos."
 
 #: https//support.torproject.org/operators/behind-nat/
 #: (content/operators/behind-nat/contents+en.lrquestion.description)
@@ -4702,6 +4729,8 @@ msgid ""
 "Forwarding TCP connections is system dependent but the firewalled-clients "
 "FAQ entry offers some examples on how to do this."
 msgstr ""
+"La forma de redireccionar puertos TCP depende de cada sistema, pero la "
+"entrada firewaled-clients FAQ ofrece varios ejemplos sobre cómo hacerlo."
 
 #: https//support.torproject.org/operators/behind-nat/
 #: (content/operators/behind-nat/contents+en.lrquestion.description)
@@ -4709,6 +4738,7 @@ msgid ""
 "Also, here's an example of how you would do this on GNU/Linux if you're "
 "using iptables:"
 msgstr ""
+"Además aquí hay un ejemplo de cómo hacerlo en GNU/Linux si usas iptables:"
 
 #: https//support.torproject.org/operators/behind-nat/
 #: (content/operators/behind-nat/contents+en.lrquestion.description)
@@ -4723,6 +4753,8 @@ msgid ""
 "You may have to change \"eth0\" if you have a different external interface "
 "(the one connected to the Internet)."
 msgstr ""
+"Puede que tengas que sustituir \"eth0\" si tu interfaz externa (la que tiene"
+" acceso a internet) es otra."
 
 #: https//support.torproject.org/operators/behind-nat/
 #: (content/operators/behind-nat/contents+en.lrquestion.description)
@@ -4730,22 +4762,26 @@ msgid ""
 "Chances are you have only one (except the loopback) so it shouldn't be too "
 "hard to figure out."
 msgstr ""
+"Lo más probable es que solo tengas una (además de loopback) así que no "
+"debería de ser muy complicado."
 
 #: https//support.torproject.org/operators/better-anonymity/
 #: (content/operators/better-anonymity/contents+en.lrquestion.title)
 msgid "Do I get better anonymity if I run a relay?"
-msgstr ""
+msgstr "¿Consigo mejor anonimato si hago funcionar un repetidor?"
 
 #: https//support.torproject.org/operators/better-anonymity/
 #: (content/operators/better-anonymity/contents+en.lrquestion.description)
 msgid "Yes, you do get better anonymity against some attacks."
-msgstr ""
+msgstr "Si, consigues mejor protección frente a ciertos ataques."
 
 #: https//support.torproject.org/operators/better-anonymity/
 #: (content/operators/better-anonymity/contents+en.lrquestion.description)
 msgid ""
 "The simplest example is an attacker who owns a small number of Tor relays."
 msgstr ""
+"El ejemplo más sencillo esun atacante que maneja un pequeño número de "
+"repetidores Tor."
 
 #: https//support.torproject.org/operators/better-anonymity/
 #: (content/operators/better-anonymity/contents+en.lrquestion.description)
@@ -4754,6 +4790,8 @@ msgid ""
 "the connection originated at your computer or was relayed from somebody "
 "else."
 msgstr ""
+"Verá una conexión desde tu ordenador, pero no podrá saber si la originaste "
+"tu o venía desde otro usuario de la red Tor."
 
 #: https//support.torproject.org/operators/better-anonymity/
 #: (content/operators/better-anonymity/contents+en.lrquestion.description)
@@ -4762,6 +4800,9 @@ msgid ""
 " all of your incoming and outgoing traffic, then it's easy for them to learn"
 " which connections were relayed and which started at you."
 msgstr ""
+"Hay otros casos donde esto no es una ventaja: si un atacante puede ver todo "
+"tu tráfico de entrada y de salida, es fácil para el distinguir qué "
+"conexiones has iniciado tú y cuales vienen desde otro usuario."
 
 #: https//support.torproject.org/operators/better-anonymity/
 #: (content/operators/better-anonymity/contents+en.lrquestion.description)
