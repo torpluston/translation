@@ -6278,6 +6278,8 @@ msgid ""
 "highest legal exposure and risk (and **you should NOT run them from your "
 "home**)."
 msgstr ""
+"* El de salida es el más necesario pero tiene un elevado riesgo de conllevar"
+" problemas legales (y **NO deberías hacerlo funcionar desde tu casa**)."
 
 #: https//support.torproject.org/operators/what-type-of-relays-are-most-needed/
 #: (content/operators/what-type-of-relays-are-most-needed/contents+en.lrquestion.description)
@@ -6285,16 +6287,19 @@ msgid ""
 "* If you are looking to run a relay with minimal effort, fast guard relays "
 "are also very useful"
 msgstr ""
+"* Si buscas poner en marcha un repetidor con el mínimo esfuerzo, los "
+"guardianes de entrada rápidos son muy útiles también."
 
 #: https//support.torproject.org/operators/what-type-of-relays-are-most-needed/
 #: (content/operators/what-type-of-relays-are-most-needed/contents+en.lrquestion.description)
 msgid "* Followed by bridges."
-msgstr ""
+msgstr "* Seguidos de los repetidores puente."
 
 #: https//support.torproject.org/operators/why-i-get-portscanned-more-often/
 #: (content/operators/why-i-get-portscanned-more-often/contents+en.lrquestion.title)
 msgid "Why do I get portscanned more often when I run a Tor relay?"
 msgstr ""
+"¿Por qué recibo más escaneos de puertos cuando ejecuto un repetidor Tor?"
 
 #: https//support.torproject.org/operators/why-i-get-portscanned-more-often/
 #: (content/operators/why-i-get-portscanned-more-often/contents+en.lrquestion.description)
@@ -6307,6 +6312,14 @@ msgid ""
 "from you might attract the attention of other users on the IRC server, "
 "website, etc. who want to know more about the host they're relaying through."
 msgstr ""
+"Si permites conexiones de salida, algunos servicios a los que la gente se "
+"conecta desde tu repetidor abriran conexiones para obtener más información "
+"sobre tí. Por ejemplo, algunos servidores IRC abren conexiones a tu puerto "
+"identd para registrar qué usuario realizó la conexión (en realidad esto no "
+"funciona, porque Tor no conoce esta información, pero igualmente lo "
+"intentan). Además, los usuarios que salgan a través de tu repetidor, pueden "
+"atraer la atención de otros usuarios del servidor IRC, sitio web, etc. que "
+"quieren saber más acerca del equipo que hace la conexión."
 
 #: https//support.torproject.org/operators/why-i-get-portscanned-more-often/
 #: (content/operators/why-i-get-portscanned-more-often/contents+en.lrquestion.description)
@@ -6315,6 +6328,10 @@ msgid ""
 " learned that sometimes Tor relays expose their socks port to the world. We "
 "recommend that you bind your socksport to local networks only."
 msgstr ""
+"Otra razón es que los grupos que escanean en busca de proxies abiertos en "
+"internet se han dado cuenta que a veces los repetidores Tor exponen su "
+"puerto socks a todo internet. Recomendamos que expongas tu puerto socks solo"
+" a las redes locales."
 
 #: https//support.torproject.org/operators/why-i-get-portscanned-more-often/
 #: (content/operators/why-i-get-portscanned-more-often/contents+en.lrquestion.description)
@@ -6324,16 +6341,20 @@ msgid ""
 "relays](https://trac.torproject.org/projects/tor/wiki/TorRelayGuide/Security)"
 " for more suggestions."
 msgstr ""
+"En todo caso, debes estar al día con la seguridad. Consulta este artículo "
+"sobre la [seguridad de los repetidores "
+"Tor](https://trac.torproject.org/projects/tor/wiki/TorRelayGuide/Security) "
+"para más recomendaciones."
 
 #: https//support.torproject.org/operators/why-isnt-my-relay-being-used-more/
 #: (content/operators/why-isnt-my-relay-being-used-more/contents+en.lrquestion.title)
 msgid "Why isn't my relay being used more?"
-msgstr ""
+msgstr "¿Por qué mi repetidor no esta siendo muy usado?"
 
 #: https//support.torproject.org/operators/why-isnt-my-relay-being-used-more/
 #: (content/operators/why-isnt-my-relay-being-used-more/contents+en.lrquestion.description)
 msgid "If your relay is relatively new then give it time."
-msgstr ""
+msgstr "Si tu repetidor es relativamente nuevo, ten paciencia."
 
 #: https//support.torproject.org/operators/why-isnt-my-relay-being-used-more/
 #: (content/operators/why-isnt-my-relay-being-used-more/contents+en.lrquestion.description)
@@ -6343,6 +6364,10 @@ msgid ""
 "capacity and, over time, directs more traffic there until it reaches an "
 "optimal load."
 msgstr ""
+"Tor decide que repetidores usar de forma inteligente, usando información de "
+"las autoridades de ancho de banda. Dichas autoridades realizan mediciones de"
+" la capacidad de tu repetidor y con el tiempo dirigen más tráfico allí para "
+"que la carga sea óptima."
 
 #: https//support.torproject.org/operators/why-isnt-my-relay-being-used-more/
 #: (content/operators/why-isnt-my-relay-being-used-more/contents+en.lrquestion.description)
@@ -6350,6 +6375,9 @@ msgid ""
 "The lifecycle of a new relay is explained in more depth in [this blog "
 "post](https://blog.torproject.org/blog/lifecycle-of-a-new-relay)."
 msgstr ""
+"El ciclo de vida de un repetidor nuevo está explicado con más detalle en "
+"[esta entrada del blog](https://blog.torproject.org/blog/lifecycle-of-a-new-"
+"relay)."
 
 #: https//support.torproject.org/operators/why-isnt-my-relay-being-used-more/
 #: (content/operators/why-isnt-my-relay-being-used-more/contents+en.lrquestion.description)
@@ -6358,11 +6386,14 @@ msgid ""
 "asking on the [tor-relays list](https://lists.torproject.org/cgi-"
 "bin/mailman/listinfo/tor-relays/)."
 msgstr ""
+"Si llevas un tiempo ejecutando un repetidor y aún tienes problemas, prueba "
+"preguntando en la [lista de correo tor-relays](https://lists.torproject.org"
+"/cgi-bin/mailman/listinfo/tor-relays/)."
 
 #: https//support.torproject.org/operators/wrong-ip/
 #: (content/operators/wrong-ip/contents+en.lrquestion.title)
 msgid "My relay is picking the wrong IP address."
-msgstr ""
+msgstr "Mi repetidor está eligiendo una dirección IP erronea."
 
 #: https//support.torproject.org/operators/wrong-ip/
 #: (content/operators/wrong-ip/contents+en.lrquestion.description)
@@ -6371,6 +6402,9 @@ msgid ""
 " resolving that hostname. Often people have old entries in their /etc/hosts "
 "file that point to old IP addresses."
 msgstr ""
+"Tor determina su dirección IP preguntando al equipo por su nombre de host y "
+"resolviendo ese nombre. Muchas veces, la gente tiene entradas antiguas en su"
+" archivo /etc/hosts que apuntan a direcciones antiguas."
 
 #: https//support.torproject.org/operators/wrong-ip/
 #: (content/operators/wrong-ip/contents+en.lrquestion.description)
