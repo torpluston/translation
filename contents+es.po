@@ -6109,11 +6109,15 @@ msgid ""
 "or ssh connection) and wrap it up into an entire 512 byte cell for transport"
 " through the Tor network."
 msgstr ""
+"Otra pequeña excepción aparece cuando administras un repetidor de salida y "
+"lees unos pocos bytes de una conexión de salida (por ejemplo, de mensajería "
+"instantánea o SSH) y lo empaquetas en una celda entera de 512 bytes para que"
+" sea transportada a través de la red Tor."
 
 #: https//support.torproject.org/operators/should-i-run-a-relay/
 #: (content/operators/should-i-run-a-relay/contents+en.lrquestion.title)
 msgid "How do I decide if I should run a relay?"
-msgstr ""
+msgstr "¿Como decido si debo administrar un repetidor?"
 
 #: https//support.torproject.org/operators/should-i-run-a-relay/
 #: (content/operators/should-i-run-a-relay/contents+en.lrquestion.description)
@@ -6123,6 +6127,10 @@ msgid ""
 " please consider [running a Tor "
 "relay](https://trac.torproject.org/projects/tor/wiki/TorRelayGuide)."
 msgstr ""
+"Estamos buscando gente con conexiones razonablemente fiables, que dispongan "
+"de al menos 10Mbit/s (Mbps) de ancho de banda en cada dirección. Si es tu "
+"caso, por favor, plantéate [administrar un repetidor "
+"Tor](https://trac.torproject.org/projects/tor/wiki/TorRelayGuide)."
 
 #: https//support.torproject.org/operators/should-i-run-a-relay/
 #: (content/operators/should-i-run-a-relay/contents+en.lrquestion.description)
@@ -6132,11 +6140,16 @@ msgid ""
 "support](https://community.torproject.org/relay/setup/brige). In that case "
 "you should have at least 1 MBit/s of available bandwidth."
 msgstr ""
+"Incluso si no dispones de al menos 10 Mbit/s, puedes contribuir a la red Tor"
+" poniendo en marcha un [repetidor puente con soporte de "
+"obfs4](https://community.torproject.org/relay/setup/brige). En cuyo caso "
+"debería de tener disponible al menos 1 Mbit/s de ancho de banda."
 
 #: https//support.torproject.org/operators/upgrade-or-move/
 #: (content/operators/upgrade-or-move/contents+en.lrquestion.title)
 msgid "I want to upgrade/move my relay. How do I keep the same key?"
 msgstr ""
+"Quiero actualizar/mover mi repetidor. ¿Cómo mantengo las mismas claves?"
 
 #: https//support.torproject.org/operators/upgrade-or-move/
 #: (content/operators/upgrade-or-move/contents+en.lrquestion.description)
@@ -6146,6 +6159,10 @@ msgid ""
 "\"keys/ed25519_master_id_secret_key\" and \"keys/secret_id_key\" in your "
 "DataDirectory)."
 msgstr ""
+"Cuando actualizas tu repetidor Tor o lo mueves a otro equipo, lo importante "
+"es que tenga las mismas claves privadas (almacenadas en los archivos "
+"\"keys/ed25519_master_id_secret_key\" y \"keys/secret_id_key\" en tu "
+"directorio DataDirectory)."
 
 #: https//support.torproject.org/operators/upgrade-or-move/
 #: (content/operators/upgrade-or-move/contents+en.lrquestion.description)
@@ -6154,6 +6171,9 @@ msgid ""
 "future is the recommended way to ensure the reputation of the relay won't be"
 " wasted."
 msgstr ""
+"Guardar copias de seguridad de las claves privadas para que puedan ser "
+"restauradas posteriormente en un repetidor es la manera recomendada de "
+"asegurarte que la reputación del repetidor no se desperdicie."
 
 #: https//support.torproject.org/operators/upgrade-or-move/
 #: (content/operators/upgrade-or-move/contents+en.lrquestion.description)
@@ -6162,6 +6182,9 @@ msgid ""
 "torrc and the same DataDirectory, then the upgrade should just work and your"
 " relay will keep using the same key."
 msgstr ""
+"Esto significa que si actualizas el repetidor Tor y mantienes el mismo "
+"archivo torrc y el mismo directorio DataDirectory, todo debería de funcionar"
+" y tu repetidor usará las mismas claves."
 
 #: https//support.torproject.org/operators/upgrade-or-move/
 #: (content/operators/upgrade-or-move/contents+en.lrquestion.description)
@@ -6169,6 +6192,8 @@ msgid ""
 "If you need to pick a new DataDirectory, be sure to copy your old "
 "keys/ed25519_master_id_secret_key and keys/secret_id_key over."
 msgstr ""
+"Si necesitas cambiar la ubicación de tu DataDirectory, asegúrate de copiar "
+"las antiguas keys/ed25519_master_id_secret_key y keys/secret_id_key."
 
 #: https//support.torproject.org/operators/upgrade-or-move/
 #: (content/operators/upgrade-or-move/contents+en.lrquestion.description)
@@ -6176,6 +6201,8 @@ msgid ""
 "Note: As of Tor 0.2.7 we are using new generation identities for relays "
 "based on ed25519 elliptic curve cryptography."
 msgstr ""
+"Nota: Desde la versión 0.2.7, Tor utiliza una nueva generación de "
+"identidades basadas en criptografía de curva elíptica ed25519."
 
 #: https//support.torproject.org/operators/upgrade-or-move/
 #: (content/operators/upgrade-or-move/contents+en.lrquestion.description)
@@ -6183,6 +6210,9 @@ msgid ""
 "Eventually they will replace the old RSA identities, but that will happen in"
 " time, to ensure compatibility with older versions."
 msgstr ""
+"Con el tiempo estas reemplazarán a las antiguas identidades RSA, pero "
+"llevará su tiempo, para asegurar la compatibilidad con versiones más "
+"antiguas."
 
 #: https//support.torproject.org/operators/upgrade-or-move/
 #: (content/operators/upgrade-or-move/contents+en.lrquestion.description)
@@ -6191,6 +6221,9 @@ msgid ""
 "file: keys/ed25519_master_id_secret_key) and a RSA identity (identity key "
 "file: keys/secret_id_key)."
 msgstr ""
+"Mientras tanto, cada repetidor tendrá ambas: una ed25519 (en el archivo "
+"keys/ed25519_master_id_secret_key) y una RSA (en el archivo "
+"keys/secret_id_key)"
 
 #: https//support.torproject.org/operators/upgrade-or-move/
 #: (content/operators/upgrade-or-move/contents+en.lrquestion.description)
@@ -6198,11 +6231,13 @@ msgid ""
 "You need to copy / backup both of them in order to restore your relay, "
 "change your DataDirectory or migrate the relay on a new computer."
 msgstr ""
+"Necesitas tener una copia de seguridad de ambas para poder restaurar tu "
+"repetidor, cambiar tu DataDirectory o mover el repetidor a un nuevo equipo."
 
 #: https//support.torproject.org/operators/what-is-the-bad-exit-flag/
 #: (content/operators/what-is-the-bad-exit-flag/contents+en.lrquestion.title)
 msgid "What is the BadExit flag?"
-msgstr ""
+msgstr "¿Qué es la indicación BadExit?"
 
 #: https//support.torproject.org/operators/what-is-the-bad-exit-flag/
 #: (content/operators/what-is-the-bad-exit-flag/contents+en.lrquestion.description)
@@ -6211,6 +6246,10 @@ msgid ""
 "This tells Tor to avoid exiting through that relay. In effect, relays with "
 "this flag become non-exits."
 msgstr ""
+"Cuando un repetidor de salida está mal configurado o actúa de mala fé, se le"
+" asigna la indicación BadExit. Esto le sirve a Tor para evitar salir a "
+"través de ese repetidor. De hecho, los repetidores con esta indicación se "
+"convierten en repetidores de no salida."
 
 #: https//support.torproject.org/operators/what-is-the-bad-exit-flag/
 #: (content/operators/what-is-the-bad-exit-flag/contents+en.lrquestion.description)
@@ -6221,11 +6260,16 @@ msgid ""
 "team](https://community.torproject.org/relay/community-resources/bad-"
 "relays/) so we can sort out the issue."
 msgstr ""
+"Si se te asigna este indicador quiere decir que hemos descubierto un "
+"problema o actividad sospechosa con el tráfico que pasa a traves de tu "
+"repetidor y no hemos podido contactar contigo. Por favor, ponte en contacto "
+"con el [equipo bad-relays](https://community.torproject.org/relay/community-"
+"resources/bad-relays/) para que podamos solucionarlo."
 
 #: https//support.torproject.org/operators/what-type-of-relays-are-most-needed/
 #: (content/operators/what-type-of-relays-are-most-needed/contents+en.lrquestion.title)
 msgid "What type of relays are most needed?"
-msgstr ""
+msgstr "¿Cuales son los tipos de repetidor más necesarios?"
 
 #: https//support.torproject.org/operators/what-type-of-relays-are-most-needed/
 #: (content/operators/what-type-of-relays-are-most-needed/contents+en.lrquestion.description)
