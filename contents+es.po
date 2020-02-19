@@ -5908,6 +5908,8 @@ msgid ""
 "Just try to make sure it's not too often, since connections using the relay "
 "when it disconnects will break."
 msgstr ""
+"Simplemente asegúrate de que no sea demasiado a menudo, ya que las "
+"conexiones que estén usándolo fallarán."
 
 #: https//support.torproject.org/operators/relay-flexible/
 #: (content/operators/relay-flexible/contents+en.lrquestion.description)
@@ -5917,6 +5919,10 @@ msgid ""
 "specifies what sort of outbound connections are allowed or refused from that"
 " relay."
 msgstr ""
+"Cada repetidor Tor tiene una [política de "
+"salida](https://2019.www.torproject.org/docs/faq.html.en#ExitPolicies) que "
+"establece qué tipo de conexiones salientes son permitidas o denegadas desde "
+"ese repetidor."
 
 #: https//support.torproject.org/operators/relay-flexible/
 #: (content/operators/relay-flexible/contents+en.lrquestion.description)
@@ -5924,6 +5930,9 @@ msgid ""
 "If you are uncomfortable allowing people to exit from your relay, you can "
 "set it up to only allow connections to other Tor relays."
 msgstr ""
+"Si no te sientes cómodo/a dejando que terceros salgan a internet desde tu "
+"repetidor, puedes configurarlo para que solo acepte conexiones hacia otros "
+"repetidores."
 
 #: https//support.torproject.org/operators/relay-flexible/
 #: (content/operators/relay-flexible/contents+en.lrquestion.description)
@@ -5932,11 +5941,15 @@ msgid ""
 "capacity, so high-bandwidth relays will attract more users than low-"
 "bandwidth ones. Therefore, having low-bandwidth relays is useful too."
 msgstr ""
+"* Tu repetidor calculará y anunciará su capacidad de ancho de banda "
+"reciente, para que los repetidores con mejor ancho de banda reciban más "
+"usuarios. Así que tener un repetidor con poco ancho de banda también es "
+"útil."
 
 #: https//support.torproject.org/operators/relay-memory/
 #: (content/operators/relay-memory/contents+en.lrquestion.title)
 msgid "Why is my Tor relay using so much memory?"
-msgstr ""
+msgstr "¿Por qué mi repetidor Tor está usando tanta memoria?"
 
 #: https//support.torproject.org/operators/relay-memory/
 #: (content/operators/relay-memory/contents+en.lrquestion.description)
@@ -5944,6 +5957,8 @@ msgid ""
 "If your Tor relay is using more memory than you'd like, here are some tips "
 "for reducing its footprint:"
 msgstr ""
+"Si tu repetidor Tor usa más memoria de la que quisieras, estos son unos "
+"trucos para reducir su uso:"
 
 #: https//support.torproject.org/operators/relay-memory/
 #: (content/operators/relay-memory/contents+en.lrquestion.description)
@@ -5951,6 +5966,8 @@ msgid ""
 "* If you're on Linux, you may be encountering memory fragmentation bugs in "
 "glibc's malloc implementation."
 msgstr ""
+"* Si estás usando Linux, puede haber errores de fragmentación de la memoria "
+"en la implementación de la funcion malloc de la biblioteca glibc."
 
 #: https//support.torproject.org/operators/relay-memory/
 #: (content/operators/relay-memory/contents+en.lrquestion.description)
@@ -5958,6 +5975,8 @@ msgid ""
 "That is, when Tor releases memory back to the system, the pieces of memory "
 "are fragmented so they're hard to reuse."
 msgstr ""
+"Esto es, cuando Tor libera memoria al sistema operativo, lo hace en tramos "
+"no contiguos dificultando su uso."
 
 #: https//support.torproject.org/operators/relay-memory/
 #: (content/operators/relay-memory/contents+en.lrquestion.description)
@@ -5965,6 +5984,9 @@ msgid ""
 "The Tor tarball ships with OpenBSD's malloc implementation, which doesn't "
 "have as many fragmentation bugs (but the tradeoff is higher CPU load)."
 msgstr ""
+"El archivo con el código fuente de Tor, viene con la implementación de la "
+"función malloc del sistema operativo OpenBSD, que sufre este problema de "
+"manera más leve (la contrapartida es un mayor uso de CPU)."
 
 #: https//support.torproject.org/operators/relay-memory/
 #: (content/operators/relay-memory/contents+en.lrquestion.description)
@@ -5972,6 +5994,8 @@ msgid ""
 "You can tell Tor to use this malloc implementation instead: `./configure "
 "--enable-openbsd-malloc`."
 msgstr ""
+"Puedes compilar Tor con esta implementación si lo prefieres: `./configure "
+"--enable-openbsd-malloc`."
 
 #: https//support.torproject.org/operators/relay-memory/
 #: (content/operators/relay-memory/contents+en.lrquestion.description)
@@ -5980,6 +6004,9 @@ msgid ""
 "open, you are probably losing a lot of memory to OpenSSL's internal buffers "
 "(38KB+ per socket)."
 msgstr ""
+"* Si tienes un repetidor rápido, esto es, tienes muchas conexiones TLS "
+"abiertas, posiblemente estés perdiendo mucha memoria a causa de los buffers "
+"internos de OpenSSL (más de 38KB por conexión)."
 
 #: https//support.torproject.org/operators/relay-memory/
 #: (content/operators/relay-memory/contents+en.lrquestion.description)
@@ -5988,6 +6015,9 @@ msgid ""
 "aggressively](https://lists.torproject.org/pipermail/tor-"
 "dev/2008-June/001519.html)."
 msgstr ""
+"Hemos parcheado OpenSSL para que [libere de forma más agresiva la memoria "
+"que no necesita](https://lists.torproject.org/pipermail/tor-"
+"dev/2008-June/001519.html)."
 
 #: https//support.torproject.org/operators/relay-memory/
 #: (content/operators/relay-memory/contents+en.lrquestion.description)
@@ -5995,6 +6025,9 @@ msgid ""
 "If you update to OpenSSL 1.0.0 or newer, Tor's build process will "
 "automatically recognize and use this feature."
 msgstr ""
+"Si actualizas OpenSSL a la versión 1.0.0 o superior, el proceso de "
+"compilación de Tor lo reconocerá automáticamente y usará esta "
+"característica."
 
 #: https//support.torproject.org/operators/relay-memory/
 #: (content/operators/relay-memory/contents+en.lrquestion.description)
@@ -6002,6 +6035,8 @@ msgid ""
 "* If you still can't handle the memory load, consider reducing the amount of"
 " bandwidth your relay advertises."
 msgstr ""
+"* Si el uso de memoria sigue siendo demasiado alto, puedes probar a reducir "
+"el ancho de banda que tu repetidor anuncia."
 
 #: https//support.torproject.org/operators/relay-memory/
 #: (content/operators/relay-memory/contents+en.lrquestion.description)
@@ -6009,11 +6044,13 @@ msgid ""
 "Advertising less bandwidth means you will attract fewer users, so your relay"
 " shouldn't grow as large."
 msgstr ""
+"Anunciar un ancho de banda más bajo supone que menos usuarios lo usarán, "
+"esto debería ayudar."
 
 #: https//support.torproject.org/operators/relay-memory/
 #: (content/operators/relay-memory/contents+en.lrquestion.description)
 msgid "See the `MaxAdvertisedBandwidth` option in the man page."
-msgstr ""
+msgstr "Consulta la opción `MaxAdvertisedBandwidth` en el manual."
 
 #: https//support.torproject.org/operators/relay-memory/
 #: (content/operators/relay-memory/contents+en.lrquestion.description)
@@ -6021,11 +6058,13 @@ msgid ""
 "All of this said, fast Tor relays do use a lot of ram. It is not unusual for"
 " a fast exit relay to use 500-1000 MB of memory."
 msgstr ""
+"Con todo, los repetidores rápidos usan un montón de RAM. No es raro para un "
+"repetidor de salida el usar 500-1000 MB de memoria."
 
 #: https//support.torproject.org/operators/relay-write-more-bytes/
 #: (content/operators/relay-write-more-bytes/contents+en.lrquestion.title)
 msgid "Why does my relay write more bytes onto the network than it reads?"
-msgstr ""
+msgstr "¿Por qué mi repetidor manda más bytes a la red de los que recibe?"
 
 #: https//support.torproject.org/operators/relay-write-more-bytes/
 #: (content/operators/relay-write-more-bytes/contents+en.lrquestion.description)
@@ -6033,6 +6072,8 @@ msgid ""
 "You're right, for the most part a byte into your Tor relay means a byte out,"
 " and vice versa. But there are a few exceptions:"
 msgstr ""
+"Cierto, normalmente un byte en dirección al repetidor implica un byte haca "
+"la red y viceversa. Pero hay unas cuantas excepciones:"
 
 #: https//support.torproject.org/operators/relay-write-more-bytes/
 #: (content/operators/relay-write-more-bytes/contents+en.lrquestion.description)
@@ -6040,6 +6081,7 @@ msgid ""
 "If you open your DirPort, then Tor clients will ask you for a copy of the "
 "directory."
 msgstr ""
+"Si abres el DirPort, otros clientes Tor te pediran una copia del directorio."
 
 #: https//support.torproject.org/operators/relay-write-more-bytes/
 #: (content/operators/relay-write-more-bytes/contents+en.lrquestion.description)
@@ -6047,6 +6089,8 @@ msgid ""
 "The request they make (an HTTP GET) is quite small, and the response is "
 "sometimes quite large."
 msgstr ""
+"La petición (HTTP GET) es bastante pequeña, pero la respuesta puede ser "
+"bastante grande."
 
 #: https//support.torproject.org/operators/relay-write-more-bytes/
 #: (content/operators/relay-write-more-bytes/contents+en.lrquestion.description)
@@ -6054,6 +6098,8 @@ msgid ""
 "This probably accounts for most of the difference between your \"write\" "
 "byte count and your \"read\" byte count."
 msgstr ""
+"Esto seguramente explique la mayor parte del desequilibrio entre entrada y "
+"salida en el conteo de bytes."
 
 #: https//support.torproject.org/operators/relay-write-more-bytes/
 #: (content/operators/relay-write-more-bytes/contents+en.lrquestion.description)
