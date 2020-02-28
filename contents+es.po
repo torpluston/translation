@@ -818,11 +818,15 @@ msgid ""
 " insecure. Relays that attempt to downgrade to an insecure version will be "
 "rejected from the network automatically."
 msgstr ""
+"Por razones de seguridad, los repetidores Tor no deberían de rebajar su "
+"versión de tor desde una soportada hacia otra no soportada. Algunas "
+"versiones no soportadas son inseguras. Los repetidores que intenten rebajar "
+"la versión hacia una insegura serán expulsados de la red automáticamente."
 
 #: https//community.torproject.org/relay/types-of-relays/
 #: (content/relay-operations/types-of-relays/contents+en.lrpage.title)
 msgid "Types of relays on the Tor network"
-msgstr ""
+msgstr "Tipos  de repetidor en la red Tor"
 
 #: https//community.torproject.org/relay/types-of-relays/
 #: (content/relay-operations/types-of-relays/contents+en.lrpage.subtitle)
@@ -830,6 +834,9 @@ msgid ""
 "Bridges, guards, middle relays, and exits all serve important functions in "
 "the Tor network. Learn about the different relays you can run."
 msgstr ""
+"Puentes, guardianes, nodos intermedios y de salida. Todos ellos cumplen una "
+"función importante en la red Tor. Lee sobre los distintos tipos de repetidor"
+" que puedes poner en marcha."
 
 #: https//community.torproject.org/relay/types-of-relays/
 #: (content/relay-operations/types-of-relays/contents+en.lrpage.body)
@@ -837,6 +844,8 @@ msgid ""
 "All nodes are important, but they have different technical requirements and "
 "legal implications."
 msgstr ""
+"Todos los nodos son importantes, pero cada uno de ellos tiene distintos "
+"requisitos técnicos y distintas implicaciones legales."
 
 #: https//community.torproject.org/relay/types-of-relays/
 #: (content/relay-operations/types-of-relays/contents+en.lrpage.body)
@@ -844,16 +853,18 @@ msgid ""
 "Understanding the different kinds of nodes is the first step to learning "
 "which one is right for you."
 msgstr ""
+"Entender los distintos tipos de nodo es el primer paso para averiguar cual "
+"es el más idóneo para tí."
 
 #: https//community.torproject.org/relay/types-of-relays/
 #: (content/relay-operations/types-of-relays/contents+en.lrpage.body)
 msgid "# Guard and middle relay"
-msgstr ""
+msgstr "# Guardian y nodo intermedio"
 
 #: https//community.torproject.org/relay/types-of-relays/
 #: (content/relay-operations/types-of-relays/contents+en.lrpage.body)
 msgid "(also known as non-exit relays)"
-msgstr ""
+msgstr "(también conocidos como repetidores no de salida)"
 
 #: https//community.torproject.org/relay/types-of-relays/
 #: (content/relay-operations/types-of-relays/contents+en.lrpage.body)
@@ -861,6 +872,8 @@ msgid ""
 "A guard relay is the first relay in the chain of 3 relays building a Tor "
 "circuit."
 msgstr ""
+"Un repetidor guardián, es el primero en la cadena de 3 repetidores a la hora"
+" de construir un circuito Tor."
 
 #: https//community.torproject.org/relay/types-of-relays/
 #: (content/relay-operations/types-of-relays/contents+en.lrpage.body)
@@ -868,6 +881,8 @@ msgid ""
 "A middle relay is neither a guard nor an exit, but acts as the second hop "
 "between the two."
 msgstr ""
+"Un repetidor o nodo intermedio no es ni un guardián ni uno de salida, sino "
+"que actúa como el segundo salto entre los dos."
 
 #: https//community.torproject.org/relay/types-of-relays/
 #: (content/relay-operations/types-of-relays/contents+en.lrpage.body)
@@ -875,11 +890,16 @@ msgid ""
 "To become a guard, a relay has to be stable and fast (at least 2MByte/s) "
 "otherwise it will remain a middle relay."
 msgstr ""
+"Para convertise en un guardián, un repetidor tiene que funcionar de forma "
+"estable y ser rápido (al menos 2 MByte/s), de lo contrario, permanecerá como"
+" nodo intermedio."
 
 #: https//community.torproject.org/relay/types-of-relays/
 #: (content/relay-operations/types-of-relays/contents+en.lrpage.body)
 msgid "Guard and middle relays usually do not receive abuse complaints."
 msgstr ""
+"Los guardianes y los nodos intermedios normalmente no reciben quejas por "
+"abuso."
 
 #: https//community.torproject.org/relay/types-of-relays/
 #: (content/relay-operations/types-of-relays/contents+en.lrpage.body)
@@ -888,6 +908,9 @@ msgid ""
 "blocked by certain services that don't understand how Tor works or "
 "deliberately want to censor Tor users."
 msgstr ""
+"Todos los repetidores aparecen en la lista pública de repetidores Tor, así "
+"que puede que algunos servicios los bloqueen si no entienden cómo funciona "
+"Tor o si de forma deliberada quieren censurar a los usuarios de Tor."
 
 #: https//community.torproject.org/relay/types-of-relays/
 #: (content/relay-operations/types-of-relays/contents+en.lrpage.body)
@@ -896,6 +919,9 @@ msgid ""
 " consider running a bridge instead so that your non-Tor traffic doesn't get "
 "blocked as though it's coming from Tor."
 msgstr ""
+"Si estás administrando un repetidor desde casa y dispones de dirección IP "
+"estática, podrías sopesar configurarlo como puente, ya que así, tu tráfico "
+"normal no sería bloqueado como si viniese de la red Tor."
 
 #: https//community.torproject.org/relay/types-of-relays/
 #: (content/relay-operations/types-of-relays/contents+en.lrpage.body)
@@ -903,6 +929,8 @@ msgid ""
 "If you have a dynamic IP address or multiple static IPs, this isn't as much "
 "of an issue."
 msgstr ""
+"Si tu dirección IP es dinámica o si dispones de varias direcciones IP, esto "
+"no supone mucho problema."
 
 #: https//community.torproject.org/relay/types-of-relays/
 #: (content/relay-operations/types-of-relays/contents+en.lrpage.body)
@@ -911,6 +939,9 @@ msgid ""
 "usage can be highly customized in the tor configuration (will be covered in "
 "more detail later in this guide)."
 msgstr ""
+"Un repetidor de no salida requiere muy poco esfuerzo por tu parte y el uso "
+"del ancho de banda puede ser ajustado en profundidad en la configuración de "
+"tor (la cual abordaremos con detalle más adelante)."
 
 #: https//community.torproject.org/relay/types-of-relays/
 #: (content/relay-operations/types-of-relays/contents+en.lrpage.body)
@@ -918,16 +949,20 @@ msgid ""
 "The so called \"exit policy\" of the relay decides if it is a relay allowing"
 " clients to exit or not."
 msgstr ""
+"La llamada \"política de salida\" del repetidor, establece si dicho "
+"repetidor permite que los clientes salgan a internet o no."
 
 #: https//community.torproject.org/relay/types-of-relays/
 #: (content/relay-operations/types-of-relays/contents+en.lrpage.body)
 msgid "A non-exit relay does not allow exiting in its exit policy."
 msgstr ""
+"Un repetidor de no salida no permite la salida a internet en su \"política "
+"de salida\"."
 
 #: https//community.torproject.org/relay/types-of-relays/
 #: (content/relay-operations/types-of-relays/contents+en.lrpage.body)
 msgid "# Exit relay"
-msgstr ""
+msgstr "# Repetidor de salida"
 
 #: https//community.torproject.org/relay/types-of-relays/
 #: (content/relay-operations/types-of-relays/contents+en.lrpage.body)
@@ -935,6 +970,8 @@ msgid ""
 "The exit relay is the final relay in a Tor circuit, the one that sends "
 "traffic out its destination."
 msgstr ""
+"El repetidor de salida es el último repetidor en un circuito Tor, el que "
+"envía el tráfico hacia su destino final."
 
 #: https//community.torproject.org/relay/types-of-relays/
 #: (content/relay-operations/types-of-relays/contents+en.lrpage.body)
@@ -943,6 +980,9 @@ msgid ""
 "provider, etc) will see the IP address of the exit relay instead of their "
 "real IP address of the Tor user."
 msgstr ""
+"Los servicios a los cuales los clientes Tor se conectan (página web, "
+"servicio de chat, proveedor de correo, etc) verán la dirección IP del "
+"repetidor de salida en lugar de la dirección IP real del usuario de Tor."
 
 #: https//community.torproject.org/relay/types-of-relays/
 #: (content/relay-operations/types-of-relays/contents+en.lrpage.body)
@@ -950,6 +990,8 @@ msgid ""
 "Exit relays have the greatest legal exposure and liability of all the "
 "relays."
 msgstr ""
+"Los repetidores de salida son los que más expuestos están a "
+"responsabilidades legales, comparados con los otros tipos."
 
 #: https//community.torproject.org/relay/types-of-relays/
 #: (content/relay-operations/types-of-relays/contents+en.lrpage.body)
@@ -959,6 +1001,10 @@ msgid ""
 "notice](https://www.dmca.com/Solutions/view.aspx?ID=712f28a5-93f2-467b-"
 "ba92-3d58c8345a32&?ref=sol08a2)."
 msgstr ""
+"Por ejemplo, si un usuario descarga material con derechos de autor mientras "
+"usa tu repetidor de salida, tú como administrador puedes recibir un [aviso "
+"DMCA](https://www.dmca.com/Solutions/view.aspx?ID=712f28a5-93f2-467b-"
+"ba92-3d58c8345a32&?ref=sol08a2)."
 
 #: https//community.torproject.org/relay/types-of-relays/
 #: (content/relay-operations/types-of-relays/contents+en.lrpage.body)
