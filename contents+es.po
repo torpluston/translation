@@ -1158,6 +1158,8 @@ msgid ""
 "Some antiviruses consider that files that have not been seen by a lot of "
 "users as suspicious."
 msgstr ""
+"Algunos antivirus consideran sospechosos los archivos que no han sido vistos"
+" por una gran cantidad de usuarios."
 
 #: https//support.torproject.org/tbb/antivirus-false-positive/
 #: (content/tbb/antivirus-false-positive/contents+en.lrquestion.description)
@@ -1166,6 +1168,10 @@ msgid ""
 "and has not been modified by some attacker, you can [verify Tor Browser's "
 "signature](https://support.torproject.org/tbb/how-to-verify-signature/)."
 msgstr ""
+"Para asegurarte de que el programa Tor que descargas es el que nosotros "
+"hemos creado y no ha sido modificado por ningún atacante, puedes [verificar "
+"la firma digital del Navegador Tor](https://support.torproject.org/tbb/how-"
+"to-verify-signature/)."
 
 #: https//support.torproject.org/tbb/antivirus-false-positive/
 #: (content/tbb/antivirus-false-positive/contents+en.lrquestion.description)
@@ -1174,6 +1180,9 @@ msgid ""
 "processes](https://support.torproject.org/tbb/tbb-10) to prevent antiviruses"
 " from blocking access to Tor Browser."
 msgstr ""
+"También puede que desees [añadir excepciones a algunos "
+"procesos](https://support.torproject.org/tbb/tbb-10) para evitar que los "
+"antivirus bloqueen el acceso al Navegador Tor."
 
 #: https//support.torproject.org/tbb/how-to-verify-signature/
 #: (content/tbb/how-to-verify-signature/contents+en.lrquestion.title)
@@ -2202,6 +2211,8 @@ msgid ""
 "At the bottom of the page, next to the \"View the Tor logs\" text, click the"
 " button \"View Logs...\"."
 msgstr ""
+"En la parte inferior de la página, junto al texto \"Ver el registro de "
+"Tor\", haz clic en el botón \"Ver registro...\"."
 
 #: https//support.torproject.org/tbb/tbb-21/
 #: (content/tbb/tbb-21/contents+en.lrquestion.description)
@@ -5153,11 +5164,12 @@ msgstr "```"
 #: (content/operators/hibernation/contents+en.lrquestion.description)
 msgid "Bandwidth soft limit reached; commencing hibernation. No new"
 msgstr ""
+"Se alcanzó el límite de ancho de banda; iniciando hibernación. Las nuevas"
 
 #: https//support.torproject.org/operators/hibernation/
 #: (content/operators/hibernation/contents+en.lrquestion.description)
 msgid "connections will be accepted"
-msgstr ""
+msgstr "conexiones no serán aceptadas"
 
 #: https//support.torproject.org/operators/hibernation/
 #: (content/operators/hibernation/contents+en.lrquestion.description)
@@ -6831,6 +6843,12 @@ msgid ""
 " it will be for us to understand and follow up. Sometimes when we receive "
 "emails without subject lines, they're marked as spam and we don't see them."
 msgstr ""
+"En el apartado \"asunto\" de tu correo, indícanos qué es sobre lo que estás "
+"informando. Cuanto más específico sea (p. ej. \"Error de conexión\", "
+"\"opinión sobre el sitio web\", \"opinión sobre el Navegador Tor\", "
+"\"necesito un puente\"), mejor podremos ayudarte. A veces, cuando recibimos "
+"correos con el asunto en blanco, son marcados como spam y no podemos "
+"leerlos."
 
 #: https//support.torproject.org/misc/bug-or-feedback/
 #: (content/misc/bug-or-feedback/contents+en.lrquestion.description)
@@ -10311,7 +10329,7 @@ msgstr "# apt install tor"
 #: https//support.torproject.org/rpm/tor-rpm-install/
 #: (content/rpm/install/contents+en.lrquestion.title)
 msgid "How can I install Tor rpm package"
-msgstr ""
+msgstr "Cómo puedo instalar el paquete RPM de Tor"
 
 #: https//support.torproject.org/rpm/tor-rpm-install/
 #: (content/rpm/install/contents+en.lrquestion.description)
@@ -10319,6 +10337,8 @@ msgid ""
 "The Tor Project maintains its own [RPM package "
 "repository](https://rpm.torproject.org) for CentOS and RHEL and Fedora."
 msgstr ""
+"El Tor Project mantiene su propio [repositorio de paquetes "
+"RPM](https://rpm.torproject.org) para CentOS, RHEL y Fedora."
 
 #: https//support.torproject.org/rpm/tor-rpm-install/
 #: (content/rpm/install/contents+en.lrquestion.description)
@@ -10326,102 +10346,106 @@ msgid ""
 "Here's how you can enable Tor Package Repository for both CentOS and RHEL "
 "and Fedora:"
 msgstr ""
+"Así es como puedes activar el repositorio de paquetes de Tor en CentOS y "
+"RHEL y en Fedora:"
 
 #: https//support.torproject.org/rpm/tor-rpm-install/
 #: (content/rpm/install/contents+en.lrquestion.description)
 msgid "#### 1. Enable epel repository (only for CentOS and RHEL)"
-msgstr ""
+msgstr "#### 1. Activa el repositorio epel (solo para CentOS y RHEL)"
 
 #: https//support.torproject.org/rpm/tor-rpm-install/
 #: (content/rpm/install/contents+en.lrquestion.description)
 msgid "# dnf install epel-release -y"
-msgstr ""
+msgstr "# dnf install epel-release -y"
 
 #: https//support.torproject.org/rpm/tor-rpm-install/
 #: (content/rpm/install/contents+en.lrquestion.description)
 msgid "### 2. Add the following to /etc/yum.repos.d/tor.repo"
-msgstr ""
+msgstr "### 2. Añade lo siguiente a /etc/yum.repos.d/tor.repo"
 
 #: https//support.torproject.org/rpm/tor-rpm-install/
 #: (content/rpm/install/contents+en.lrquestion.description)
 msgid "For CentOS or RHEL:"
-msgstr ""
+msgstr "Para CentOS y RHEL:"
 
 #: https//support.torproject.org/rpm/tor-rpm-install/
 #: (content/rpm/install/contents+en.lrquestion.description)
 msgid "[tor]"
-msgstr ""
+msgstr "[tor]"
 
 #: https//support.torproject.org/rpm/tor-rpm-install/
 #: (content/rpm/install/contents+en.lrquestion.description)
 msgid "name=Tor for Enterprise Linux $releasever - $basearch"
-msgstr ""
+msgstr "name=Tor for Enterprise Linux $releasever - $basearch"
 
 #: https//support.torproject.org/rpm/tor-rpm-install/
 #: (content/rpm/install/contents+en.lrquestion.description)
 msgid "baseurl=https://rpm.torproject.org/centos/$releasever/$basearch"
-msgstr ""
+msgstr "baseurl=https://rpm.torproject.org/centos/$releasever/$basearch"
 
 #: https//support.torproject.org/rpm/tor-rpm-install/
 #: (content/rpm/install/contents+en.lrquestion.description)
 msgid "enabled=1"
-msgstr ""
+msgstr "enabled=1"
 
 #: https//support.torproject.org/rpm/tor-rpm-install/
 #: (content/rpm/install/contents+en.lrquestion.description)
 msgid "gpgcheck=1"
-msgstr ""
+msgstr "gpgcheck=1"
 
 #: https//support.torproject.org/rpm/tor-rpm-install/
 #: (content/rpm/install/contents+en.lrquestion.description)
 msgid "gpgkey=https://rpm.torproject.org/centos/public_gpg.key"
-msgstr ""
+msgstr "gpgkey=https://rpm.torproject.org/centos/public_gpg.key"
 
 #: https//support.torproject.org/rpm/tor-rpm-install/
 #: (content/rpm/install/contents+en.lrquestion.description)
 msgid "cost=100"
-msgstr ""
+msgstr "cost=100"
 
 #: https//support.torproject.org/rpm/tor-rpm-install/
 #: (content/rpm/install/contents+en.lrquestion.description)
 msgid "For Fedora:"
-msgstr ""
+msgstr "Para Fedora:"
 
 #: https//support.torproject.org/rpm/tor-rpm-install/
 #: (content/rpm/install/contents+en.lrquestion.description)
 msgid "name=Tor for Fedora $releasever - $basearch"
-msgstr ""
+msgstr "name=Tor for Fedora $releasever - $basearch"
 
 #: https//support.torproject.org/rpm/tor-rpm-install/
 #: (content/rpm/install/contents+en.lrquestion.description)
 msgid "baseurl=https://rpm.torproject.org/fedora/$releasever/$basearch"
-msgstr ""
+msgstr "baseurl=https://rpm.torproject.org/fedora/$releasever/$basearch"
 
 #: https//support.torproject.org/rpm/tor-rpm-install/
 #: (content/rpm/install/contents+en.lrquestion.description)
 msgid "gpgkey=https://rpm.torproject.org/fedora/public_gpg.key"
-msgstr ""
+msgstr "gpgkey=https://rpm.torproject.org/fedora/public_gpg.key"
 
 #: https//support.torproject.org/rpm/tor-rpm-install/
 #: (content/rpm/install/contents+en.lrquestion.description)
 msgid "### 3. Install the Tor package"
-msgstr ""
+msgstr "### 3. Instala el paquete de Tor"
 
 #: https//support.torproject.org/rpm/tor-rpm-install/
 #: (content/rpm/install/contents+en.lrquestion.description)
 msgid "Then you can install the latest Tor package."
-msgstr ""
+msgstr "Ahora puedes instalar el paquete de Tor más reciente."
 
 #: https//support.torproject.org/rpm/tor-rpm-install/
 #: (content/rpm/install/contents+en.lrquestion.description)
 msgid "# dnf install tor -y"
-msgstr ""
+msgstr "# dnf install tor -y"
 
 #: https//support.torproject.org/rpm/tor-rpm-install/
 #: (content/rpm/install/contents+en.lrquestion.description)
 msgid ""
 "Using it for the first time, you will have to import the GPG public key."
 msgstr ""
+"Al ser la primera vez que lo usas, tendrás que importar la clave pública "
+"GPG."
 
 #: https//support.torproject.org/rpm/tor-rpm-install/
 #: (content/rpm/install/contents+en.lrquestion.description)
