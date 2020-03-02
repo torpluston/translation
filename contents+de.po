@@ -4730,6 +4730,11 @@ msgid ""
 "second; but if you choose a higher BandwidthBurst (like 5 MBytes), it will "
 "allow more bytes through until the pool is empty."
 msgstr ""
+"Wenn du beispielsweise \"BandwidthBurst 500 KBytes\" wählst und das auch für"
+" deine Bandbreitenrate benutzt, wirst du nie mehr als 500 Kilobytes pro "
+"Sekunde erreichen. Aber wenn du einen höheren Bandbreitenburst (z.B. 5 "
+"MBytes) nimmst, dann kann eine höhere Geschwindigkeit erreicht werden bis "
+"der Burst aufgebraucht ist."
 
 #: https//support.torproject.org/operators/bandwidth-shaping/
 #: (content/operators/bandwidth-shaping/contents+en.lrquestion.description)
@@ -4738,6 +4743,8 @@ msgid ""
 "cable modem, you should set BandwidthRate to less than your smaller "
 "bandwidth (Usually that's the upload bandwidth)."
 msgstr ""
+"Wenn du eine asymmetrische Verbindung hast (Upload geringer als Download), "
+"solltest du die Bandbreitenrate auf maximal die maximale Uploadrate setzen."
 
 #: https//support.torproject.org/operators/bandwidth-shaping/
 #: (content/operators/bandwidth-shaping/contents+en.lrquestion.description)
@@ -4751,6 +4758,7 @@ msgstr ""
 #: (content/operators/bandwidth-shaping/contents+en.lrquestion.description)
 msgid "Then set BandwidthBurst to the same as BandwidthRate."
 msgstr ""
+"Dann setze den Bandbreitenburst auf den selben Wert wie die Bandbreitenrate."
 
 #: https//support.torproject.org/operators/bandwidth-shaping/
 #: (content/operators/bandwidth-shaping/contents+en.lrquestion.description)
@@ -4759,6 +4767,9 @@ msgid ""
 "prioritize Tor traffic below other traffic on their machine, so that their "
 "own personal traffic is not impacted by Tor load."
 msgstr ""
+"Tor Relays die auf Linux basieren haben eine weitere Option: Sie können den "
+"ihren persönlichen Verkehr priorisieren, sodass dieser nicht durch die Tor "
+"Last beeinträchtigt wird."
 
 #: https//support.torproject.org/operators/bandwidth-shaping/
 #: (content/operators/bandwidth-shaping/contents+en.lrquestion.description)
@@ -4767,6 +4778,10 @@ msgid ""
 "/operator-tools/linux-tor-prio.sh) can be found in the Tor source "
 "distribution's contrib directory."
 msgstr ""
+"Dafür gibt es ein "
+"[Skript](https://gitweb.torproject.org/tor.git/tree/contrib/operator-tools"
+"/linux-tor-prio.sh), dass sich im Contrib Verzeichnis der Tor-"
+"Quelldistribution befindet."
 
 #: https//support.torproject.org/operators/bandwidth-shaping/
 #: (content/operators/bandwidth-shaping/contents+en.lrquestion.description)
@@ -4775,16 +4790,21 @@ msgid ""
 "serve a certain amount of bandwidth per time period (such as 100 GB per "
 "month). These are covered in the hibernation entry below."
 msgstr ""
+"Es gibt zusätzliche Optionen, bei denen sie festlegen können, dass nur eine "
+"bestimmte Trafficmenge pro Zeitperiode (z.B. 100 GB pro Monat) verwendet "
+"werden."
 
 #: https//support.torproject.org/operators/bandwidth-shaping/
 #: (content/operators/bandwidth-shaping/contents+en.lrquestion.description)
 msgid "Note that BandwidthRate and BandwidthBurst are in **Bytes**, not Bits."
 msgstr ""
+"Beachte, dass die Bandbreitenrate und der Bandbreitenburst in **Bytes** und "
+"nicht in Bits angegeben wird."
 
 #: https//support.torproject.org/operators/behind-nat/
 #: (content/operators/behind-nat/contents+en.lrquestion.title)
 msgid "I'm behind a NAT/Firewall."
-msgstr ""
+msgstr "Ich bin hinter einem/r NAT/Firewall."
 
 #: https//support.torproject.org/operators/behind-nat/
 #: (content/operators/behind-nat/contents+en.lrquestion.description)
@@ -4792,6 +4812,8 @@ msgid ""
 "See [portforward.com](https://portforward.com/) for directions on how to "
 "port forward with your NAT/router device."
 msgstr ""
+"Für eine Anleitung wie du mit deinem NAT/Router Ports weiterleiten kannst, "
+"lese dir portforward.com](https://portforward.com/) durch."
 
 #: https//support.torproject.org/operators/behind-nat/
 #: (content/operators/behind-nat/contents+en.lrquestion.description)
@@ -4799,6 +4821,8 @@ msgid ""
 "If your relay is running on a internal net, you need to setup port "
 "forwarding."
 msgstr ""
+"Wenn dein Relay in einem internen Netzwerk läuft, musst du die "
+"Portweiterleitung einstellen."
 
 #: https//support.torproject.org/operators/behind-nat/
 #: (content/operators/behind-nat/contents+en.lrquestion.description)
@@ -4806,6 +4830,8 @@ msgid ""
 "Forwarding TCP connections is system dependent but the firewalled-clients "
 "FAQ entry offers some examples on how to do this."
 msgstr ""
+"Die Weiterleitung von TCP Verbindungen ist systemabhängig. Die Firewall "
+"Client FAQs zeigen wie es funktioniert."
 
 #: https//support.torproject.org/operators/behind-nat/
 #: (content/operators/behind-nat/contents+en.lrquestion.description)
@@ -4813,12 +4839,15 @@ msgid ""
 "Also, here's an example of how you would do this on GNU/Linux if you're "
 "using iptables:"
 msgstr ""
+"Hier ist ebenfalls ein Beispiel wie du es unter GNU/Linux machen solltest, "
+"wenn du iptables verwendest:"
 
 #: https//support.torproject.org/operators/behind-nat/
 #: (content/operators/behind-nat/contents+en.lrquestion.description)
 msgid ""
 "/sbin/iptables -A INPUT -i eth0 -p tcp --destination-port 9001 -j ACCEPT"
 msgstr ""
+"/sbin/iptables -A INPUT -i eth0 -p tcp --destination-port 9001 -j ACCEPT"
 
 #: https//support.torproject.org/operators/behind-nat/
 #: (content/operators/behind-nat/contents+en.lrquestion.description)
@@ -4826,6 +4855,8 @@ msgid ""
 "You may have to change \"eth0\" if you have a different external interface "
 "(the one connected to the Internet)."
 msgstr ""
+"Möglicherweise musst du \"eth0\" ändern, wenn du eine andere externe "
+"Schnitstelle hast (die, die mit dem Internet verbunde ist)."
 
 #: https//support.torproject.org/operators/behind-nat/
 #: (content/operators/behind-nat/contents+en.lrquestion.description)
@@ -4842,7 +4873,7 @@ msgstr "Verbessert sich meine Anonymität wenn ich einen Relay betreibe?"
 #: https//support.torproject.org/operators/better-anonymity/
 #: (content/operators/better-anonymity/contents+en.lrquestion.description)
 msgid "Yes, you do get better anonymity against some attacks."
-msgstr ""
+msgstr "Ja, deine Anonymität erhöht sich für manche Angriffe. "
 
 #: https//support.torproject.org/operators/better-anonymity/
 #: (content/operators/better-anonymity/contents+en.lrquestion.description)
@@ -4881,6 +4912,9 @@ msgid ""
 "watching them too, but you're no better off than if you were an ordinary "
 "client.)"
 msgstr ""
+"(In diesem Fall wissen sie aber immer noch nicht dein Ziel, solange sie die "
+"nicht auch beobachten. Trotzdem wären bist du immer noch genauso unterwegs "
+"wie ein normaler Websitenbesucher."
 
 #: https//support.torproject.org/operators/better-anonymity/
 #: (content/operators/better-anonymity/contents+en.lrquestion.description)
