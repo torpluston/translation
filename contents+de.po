@@ -5324,6 +5324,8 @@ msgid ""
 "When the accounting period resets (from AccountingStart), then the counters "
 "for AccountingMax are reset to 0."
 msgstr ""
+"Wenn der Abrechnungszeitraum vorbei ist (von AccountingStart), wird der "
+"Zähler für AccountingMax auf 0 gesetzt. "
 
 #: https//support.torproject.org/operators/limit-total-bandwidth/
 #: (content/operators/limit-total-bandwidth/contents+en.lrquestion.description)
@@ -5331,6 +5333,8 @@ msgid ""
 "Example: Let's say you want to allow 50 GB of traffic every day in each "
 "direction and the accounting should reset at noon each day:"
 msgstr ""
+"Beispiel: Du möchtest jeden Tag 50 GB Traffic erlauben und die Abrechnung "
+"setzt sich jeden nachmittag zurück:"
 
 #: https//support.torproject.org/operators/limit-total-bandwidth/
 #: (content/operators/limit-total-bandwidth/contents+en.lrquestion.description)
@@ -5348,6 +5352,8 @@ msgid ""
 "Note that your relay won't wake up exactly at the beginning of each "
 "accounting period."
 msgstr ""
+"Beachte, dass dein Relay nicht genau zu Beginn des Abrechnungszeitraumes "
+"starten wird."
 
 #: https//support.torproject.org/operators/limit-total-bandwidth/
 #: (content/operators/limit-total-bandwidth/contents+en.lrquestion.description)
@@ -5355,6 +5361,9 @@ msgid ""
 "It will keep track of how quickly it used its quota in the last period, and "
 "choose a random point in the new interval to wake up."
 msgstr ""
+"Es wird gespeichert, wie schnell dein Relay seine maximale Bandbreite "
+"ausgeschöpft hat und dann wird ein neuer zufälliger Zeitpunkt in dem neuen "
+"Zeitraum gewählt, wann der Relay startet."
 
 #: https//support.torproject.org/operators/limit-total-bandwidth/
 #: (content/operators/limit-total-bandwidth/contents+en.lrquestion.description)
@@ -5411,6 +5420,8 @@ msgstr "RelayBandbreite 1000 KBytes"
 msgid ""
 "RelayBandwidthBurst 5000 KBytes # allow higher bursts but maintain average"
 msgstr ""
+"RelayBandwidthBurst 5000 KBytes # erlaube höhere Bursts behalte aber den "
+"Durchschnit bei"
 
 #: https//support.torproject.org/operators/multiple-relays/
 #: (content/operators/multiple-relays/contents+en.lrquestion.title)
@@ -5432,6 +5443,8 @@ msgid ""
 "But please don't run more than a few dozen on the same network, since part "
 "of the goal of the Tor network is dispersal and diversity."
 msgstr ""
+"Bitte betreibe nicht mehr als ein paar Dutzend im gleichen Netzwerk, denn "
+"Teil des Ziels des Tor Netzwerks ist es dezentral und vielfältig zu sein."
 
 #: https//support.torproject.org/operators/multiple-relays/
 #: (content/operators/multiple-relays/contents+en.lrquestion.description)
@@ -5448,7 +5461,7 @@ msgstr ""
 #: https//support.torproject.org/operators/multiple-relays/
 #: (content/operators/multiple-relays/contents+en.lrquestion.description)
 msgid "MyFamily $fingerprint1,$fingerprint2,$fingerprint3"
-msgstr ""
+msgstr "MyFamily $fingerprint1,$fingerprint2,$fingerprint3"
 
 #: https//support.torproject.org/operators/multiple-relays/
 #: (content/operators/multiple-relays/contents+en.lrquestion.description)
@@ -5456,6 +5469,7 @@ msgid ""
 "where each fingerprint is the 40 character identity fingerprint (without "
 "spaces)."
 msgstr ""
+"wo jeder Fingerabdruck der 40 Zeichen Fingerabdruck ist (ohne Leerzeichen)"
 
 #: https//support.torproject.org/operators/multiple-relays/
 #: (content/operators/multiple-relays/contents+en.lrquestion.description)
@@ -5473,6 +5487,9 @@ msgid ""
 "or of their network, even if they're not all in the same geographic "
 "location."
 msgstr ""
+"Du solltest MyFamily für deine Relays einstellen wenn du Kontrolle über den "
+"Computer und/oder das Netzwerk hast. Auch wenn die Relays über verschiedene "
+"Provider und Standorte verteilt sind."
 
 #: https//support.torproject.org/operators/my-relay-got-guard-flag-traffic-dropped/
 #: (content/operators/my-relay-got-guard-flag-traffic-dropped/contents+en.lrquestion.title)
@@ -5506,11 +5523,12 @@ msgstr ""
 #: (content/operators/offline-ed25519/contents+en.lrquestion.title)
 msgid "How do offline ed25519 identity keys work? What do I need to know?"
 msgstr ""
+"Wie funktioniert die offline ed25519 Identifizierung? Was muss ich wissen?"
 
 #: https//support.torproject.org/operators/offline-ed25519/
 #: (content/operators/offline-ed25519/contents+en.lrquestion.description)
 msgid "In simple words, it works like this:"
-msgstr ""
+msgstr "In einfachen Worten funktioniert es so:"
 
 #: https//support.torproject.org/operators/offline-ed25519/
 #: (content/operators/offline-ed25519/contents+en.lrquestion.description)
@@ -5518,6 +5536,8 @@ msgid ""
 "* There is a master ed25519 identity secret key file named "
 "\"ed25519_master_id_secret_key\"."
 msgstr ""
+"* Es gibt eine master ed25519 identity secret key Datei "
+"\"ed25519_master_id_secret_key\"."
 
 #: https//support.torproject.org/operators/offline-ed25519/
 #: (content/operators/offline-ed25519/contents+en.lrquestion.description)
