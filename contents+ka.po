@@ -6782,6 +6782,12 @@ msgid ""
 " it will be for us to understand and follow up. Sometimes when we receive "
 "emails without subject lines, they're marked as spam and we don't see them."
 msgstr ""
+"საკითხის ველში ელფოსტის წერტილში, გთხოვთ მიუთითოთ, რას ეხება მოხსენება. რაც "
+"უფრო ნათლად იქნება საკითხი მოცემული (მაგ. „კავშირის ხარვეზი“, „გამოხმაურება "
+"საიტის შესახებ“, „გამოხმაურება Tor-ბრაუზერის თაობაზე“, „მესაჭიროება "
+"გადამცემი ხიდი“), მით უფრო ადვილად შევძლებთ გარკვევასა და თვალის მიდევნებას."
+" ზოგჯერ, როცა ვიღებთ წერილებს საკითხის მიუთითებლად, ინიშნება არასასურველ "
+"შეტყობინებად და ვეღარ ვნახულობთ."
 
 #: https//support.torproject.org/misc/bug-or-feedback/
 #: (content/misc/bug-or-feedback/contents+en.lrquestion.description)
@@ -10281,36 +10287,37 @@ msgid ""
 "Here's how you can enable Tor Package Repository for both CentOS and RHEL "
 "and Fedora:"
 msgstr ""
+"როგორ გამოიყენება Tor-ის კრებულის საცავი CentOS, RHEL-სა და Fedora-ზე:"
 
 #: https//support.torproject.org/rpm/tor-rpm-install/
 #: (content/rpm/install/contents+en.lrquestion.description)
 msgid "#### 1. Enable epel repository (only for CentOS and RHEL)"
-msgstr ""
+msgstr "#### 1. აამოქმედეთ epel-საცავი (მხოლოდ CentOS-სა და RHEL-ზე)"
 
 #: https//support.torproject.org/rpm/tor-rpm-install/
 #: (content/rpm/install/contents+en.lrquestion.description)
 msgid "# dnf install epel-release -y"
-msgstr ""
+msgstr "# dnf install epel-release -y"
 
 #: https//support.torproject.org/rpm/tor-rpm-install/
 #: (content/rpm/install/contents+en.lrquestion.description)
 msgid "### 2. Add the following to /etc/yum.repos.d/tor.repo"
-msgstr ""
+msgstr "### 2. მიუთითეთ მოცემული კოდები ფაილში /etc/yum.repos.d/tor.repo"
 
 #: https//support.torproject.org/rpm/tor-rpm-install/
 #: (content/rpm/install/contents+en.lrquestion.description)
 msgid "For CentOS or RHEL:"
-msgstr ""
+msgstr "CentOS-ზე ან RHEL-ზე:"
 
 #: https//support.torproject.org/rpm/tor-rpm-install/
 #: (content/rpm/install/contents+en.lrquestion.description)
 msgid "[tor]"
-msgstr ""
+msgstr "[tor]"
 
 #: https//support.torproject.org/rpm/tor-rpm-install/
 #: (content/rpm/install/contents+en.lrquestion.description)
 msgid "name=Tor for Enterprise Linux $releasever - $basearch"
-msgstr ""
+msgstr "name=Tor for Enterprise Linux $releasever - $basearch"
 
 #: https//support.torproject.org/rpm/tor-rpm-install/
 #: (content/rpm/install/contents+en.lrquestion.description)
@@ -10320,12 +10327,12 @@ msgstr "baseurl=https://rpm.torproject.org/centos/$releasever/$basearch"
 #: https//support.torproject.org/rpm/tor-rpm-install/
 #: (content/rpm/install/contents+en.lrquestion.description)
 msgid "enabled=1"
-msgstr ""
+msgstr "enabled=1"
 
 #: https//support.torproject.org/rpm/tor-rpm-install/
 #: (content/rpm/install/contents+en.lrquestion.description)
 msgid "gpgcheck=1"
-msgstr ""
+msgstr "gpgcheck=1"
 
 #: https//support.torproject.org/rpm/tor-rpm-install/
 #: (content/rpm/install/contents+en.lrquestion.description)
@@ -10335,17 +10342,17 @@ msgstr "gpgkey=https://rpm.torproject.org/centos/public_gpg.key"
 #: https//support.torproject.org/rpm/tor-rpm-install/
 #: (content/rpm/install/contents+en.lrquestion.description)
 msgid "cost=100"
-msgstr ""
+msgstr "cost=100"
 
 #: https//support.torproject.org/rpm/tor-rpm-install/
 #: (content/rpm/install/contents+en.lrquestion.description)
 msgid "For Fedora:"
-msgstr ""
+msgstr "Fedora-ზე:"
 
 #: https//support.torproject.org/rpm/tor-rpm-install/
 #: (content/rpm/install/contents+en.lrquestion.description)
 msgid "name=Tor for Fedora $releasever - $basearch"
-msgstr ""
+msgstr "name=Tor for Fedora $releasever - $basearch"
 
 #: https//support.torproject.org/rpm/tor-rpm-install/
 #: (content/rpm/install/contents+en.lrquestion.description)
@@ -10360,23 +10367,24 @@ msgstr "gpgkey=https://rpm.torproject.org/fedora/public_gpg.key"
 #: https//support.torproject.org/rpm/tor-rpm-install/
 #: (content/rpm/install/contents+en.lrquestion.description)
 msgid "### 3. Install the Tor package"
-msgstr ""
+msgstr "### 3. Tor-კრებულის დაყენება"
 
 #: https//support.torproject.org/rpm/tor-rpm-install/
 #: (content/rpm/install/contents+en.lrquestion.description)
 msgid "Then you can install the latest Tor package."
-msgstr ""
+msgstr "შემდეგ კი შეგიძლია დააყენოთ უახლესი Tor-კრებული."
 
 #: https//support.torproject.org/rpm/tor-rpm-install/
 #: (content/rpm/install/contents+en.lrquestion.description)
 msgid "# dnf install tor -y"
-msgstr ""
+msgstr "# dnf install tor -y"
 
 #: https//support.torproject.org/rpm/tor-rpm-install/
 #: (content/rpm/install/contents+en.lrquestion.description)
 msgid ""
 "Using it for the first time, you will have to import the GPG public key."
 msgstr ""
+"მისი პირველ ჯერზე გამოყენებით, მოგიწევთ გადმოიტანოთ GPG-ის საჯარო გასაღები."
 
 #: https//support.torproject.org/rpm/tor-rpm-install/
 #: (content/rpm/install/contents+en.lrquestion.description)
