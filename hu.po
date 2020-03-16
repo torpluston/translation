@@ -1,0 +1,267 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR Tails developers
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
+# benewfy <benewfy@gmail.com>, 2016
+# Falu <info@falu.me>, 2016
+# Lajos Pasztor <mrlajos@gmail.com>, 2014
+# vargaviktor <viktor.varga@gmail.com>, 2014,2018,2020
+msgid ""
+msgstr ""
+"Project-Id-Version: Tor Project\n"
+"Report-Msgid-Bugs-To: Tails developers <tails@boum.org>\n"
+"POT-Creation-Date: 2019-11-28 16:51+0100\n"
+"PO-Revision-Date: 2020-03-16 14:24+0000\n"
+"Last-Translator: vargaviktor <viktor.varga@gmail.com>\n"
+"Language-Team: Hungarian (http://www.transifex.com/otf/torproject/language/hu/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: hu\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../lib/Tails/IUK/Frontend.pm:147 ../lib/Tails/IUK/Frontend.pm:524
+#: ../lib/Tails/IUK/Frontend.pm:710
+msgid ""
+"For debugging information, execute the following command: sudo tails-"
+"debugging-info"
+msgstr "Hibakeresési információért hajtsa végre a következő parancsot: sudo tails-debugging-info"
+
+#: ../lib/Tails/IUK/Frontend.pm:218
+msgid "Error while checking for upgrades"
+msgstr "Hiba frissítések ellenőrzése közben"
+
+#: ../lib/Tails/IUK/Frontend.pm:221
+msgid ""
+"<b>Could not determine whether an upgrade is available from our website.</b>\n"
+"\n"
+"Check your network connection, and restart Tails to try upgrading again.\n"
+"\n"
+"If the problem persists, go to file:///usr/share/doc/tails/website/doc/upgrade/error/check.en.html"
+msgstr "<b>Nem lehet meghatározni van-e elérhető frissítés a weboldalunkon</b>\n\nEllenőrizze a hálózati kapcsolatot, indítsa újra a Tails-t majd próbálja frissíteni ismét.\n\nHa a probléma még mindig jelen van nézze meg ezt: file:///usr/share/doc/tails/website/doc/upgrade/error/check.en.html"
+
+#: ../lib/Tails/IUK/Frontend.pm:236
+msgid "no automatic upgrade is available from our website for this version"
+msgstr "nincs elérhető automatikus frissítés a weboldalunkon ehhez a verzióhoz"
+
+#: ../lib/Tails/IUK/Frontend.pm:242
+msgid "your device was not created using a USB image or Tails Installer"
+msgstr "az eszköze nem egy USB kép vagy Tails telepítő által jött létre"
+
+#: ../lib/Tails/IUK/Frontend.pm:247
+msgid "Tails was started from a DVD or a read-only device"
+msgstr "A Tails DVD-ről vagy egy csak olvasható eszközről lett indítva"
+
+#: ../lib/Tails/IUK/Frontend.pm:252
+msgid "there is not enough free space on the Tails system partition"
+msgstr "Nincs elég szabad hely a Tails partíción."
+
+#: ../lib/Tails/IUK/Frontend.pm:257
+msgid "not enough memory is available on this system"
+msgstr "Nincs elég szabad memória a rendszerben."
+
+#: ../lib/Tails/IUK/Frontend.pm:263
+#, perl-brace-format
+msgid "No explanation available for reason '%{reason}s'."
+msgstr "Nincs elérhető magyarázat erre '%{reason}s'."
+
+#: ../lib/Tails/IUK/Frontend.pm:283
+msgid "The system is up-to-date"
+msgstr "A rendszer naprakész"
+
+#: ../lib/Tails/IUK/Frontend.pm:288
+msgid "This version of Tails is outdated, and may have security issues."
+msgstr "A Tails ezen verziója nem naprakész és biztonsági hibákat tartalmazhat."
+
+#: ../lib/Tails/IUK/Frontend.pm:320
+#, perl-brace-format
+msgid ""
+"The available incremental upgrade requires %{space_needed}s of free space on"
+" Tails system partition,  but only %{free_space}s is available."
+msgstr "A járulékos frissítés %{space_needed}s szabad helyet igényel a Tails rendszer partíción de csak %{free_space}s elérhető."
+
+#: ../lib/Tails/IUK/Frontend.pm:336
+#, perl-brace-format
+msgid ""
+"The available incremental upgrade requires %{memory_needed}s of free memory,"
+" but only %{free_memory}s is available."
+msgstr "A járulékos frissítés %{memory_needed}s szabad memóriát igényel de csak %{free_memory}s memória elérhető."
+
+#: ../lib/Tails/IUK/Frontend.pm:358
+msgid ""
+"An incremental upgrade is available, but no full upgrade is.\n"
+"This should not happen. Please report a bug."
+msgstr "Járulékos frissítés elérhető, de teljes frissítés nem.\nEnnek nem szabadna megtörténni. Kérjük jelentse a hibát."
+
+#: ../lib/Tails/IUK/Frontend.pm:362
+msgid "Error while detecting available upgrades"
+msgstr "Hiba történt elérhető frissítések keresésekor"
+
+#: ../lib/Tails/IUK/Frontend.pm:372
+#, perl-brace-format
+msgid ""
+"<b>You should upgrade to %{name}s %{version}s.</b>\n"
+"\n"
+"For more information about this new version, go to %{details_url}s\n"
+"\n"
+"We recommend you close all other applications during the upgrade.\n"
+"Downloading the upgrade might take a long time, from several minutes to a few hours.\n"
+"\n"
+"Download size: %{size}s\n"
+"\n"
+"Do you want to upgrade now?"
+msgstr "<b>Frissítenie kell a %{name}s %{version}s verzióra.</b>\n\nA verzióról további részletekért látogasson el %{details_url}s oldalra.\n\nAjánlott, hogy becsukjon minden más alkalmazást a frissítés idejére.\nA frissítés letöltése sokági is tarthat, néhány perctől néhány óráig.\n\nLetöltési méret: %{size}s\n\nSzeretne frissíteni most?"
+
+#: ../lib/Tails/IUK/Frontend.pm:386
+msgid "Upgrade available"
+msgstr "Frissítés elérhető"
+
+#: ../lib/Tails/IUK/Frontend.pm:387
+msgid "Upgrade now"
+msgstr "Frissítés most"
+
+#: ../lib/Tails/IUK/Frontend.pm:388
+msgid "Upgrade later"
+msgstr "Frissítés később"
+
+#: ../lib/Tails/IUK/Frontend.pm:396
+#, perl-brace-format
+msgid ""
+"<b>You should do a manual upgrade to %{name}s %{version}s.</b>\n"
+"\n"
+"For more information about this new version, go to %{details_url}s\n"
+"\n"
+"It is not possible to automatically upgrade your device to this new version: %{explanation}s.\n"
+"\n"
+"To learn how to do a manual upgrade, go to https://tails.boum.org/doc/upgrade/#manual"
+msgstr "<b>Kézi frissítést kellene csinálni erre: %{name}s %{version}s.</b>\n\nBővebb információ az új verzióról itt: %{details_url}s\n\nNem lehetséges az automatikus frissítés az eszközön erre a verzióra: %{explanation}s.\n\nInformáció a kézzel történő frissítésről itt: https://tails.boum.org/doc/upgrade/#manual"
+
+#: ../lib/Tails/IUK/Frontend.pm:412
+msgid "New version available"
+msgstr "Új verzió elérhető"
+
+#: ../lib/Tails/IUK/Frontend.pm:469
+msgid "Downloading upgrade"
+msgstr "Frissítés letöltése"
+
+#: ../lib/Tails/IUK/Frontend.pm:472
+#, perl-brace-format
+msgid "Downloading the upgrade to %{name}s %{version}s..."
+msgstr "Frissítés letöltése %{name}s %{version}s..."
+
+#: ../lib/Tails/IUK/Frontend.pm:513
+msgid ""
+"<b>The upgrade could not be downloaded.</b>\\n\\nCheck your network "
+"connection, and restart Tails to try upgrading again.\\n\\nIf the problem "
+"persists, go to "
+"file:///usr/share/doc/tails/website/doc/upgrade/error/download.en.html"
+msgstr "<b>A frissítést nem lehet letölteni</b>\\n\\nEllenőrizze a hálózati kapcsolatot, indítsa újra a Tails-t, majd próbálja újra frissíteni.\\n\\nHa a probléma még mindig létezik nézze meg ezt: file:///usr/share/doc/tails/website/doc/upgrade/error/download.en.html"
+
+#: ../lib/Tails/IUK/Frontend.pm:529 ../lib/Tails/IUK/Frontend.pm:548
+msgid "Error while downloading the upgrade"
+msgstr "Hiba frissítés letöltésekor"
+
+#: ../lib/Tails/IUK/Frontend.pm:541
+#, perl-brace-format
+msgid ""
+"Output file '%{output_file}s' does not exist, but tails-iuk-get-target-file "
+"did not complain. Please report a bug."
+msgstr "Kimeneti fájl '%{output_file}s' nem létezik, de tails-iuk-get-target-file nem jelzett hibát. Kérjük jelentse a hibát."
+
+#: ../lib/Tails/IUK/Frontend.pm:560
+msgid "Error while creating temporary downloading directory"
+msgstr "Hiba történt az ideiglenes letöltési könyvtár létrehozásakor"
+
+#: ../lib/Tails/IUK/Frontend.pm:563
+msgid "Failed to create temporary download directory"
+msgstr "Nem lehet létrehozni az ideiglenes letöltési könyvtárat"
+
+#: ../lib/Tails/IUK/Frontend.pm:587
+msgid ""
+"<b>Could not choose a download server.</b>\n"
+"\n"
+"This should not happen. Please report a bug."
+msgstr "<b>Nem sikerült letöltő szervert választani.</b>\n\nEnnek nem kellett volna megtörténnie. Kérjük, jelentse a hibát!"
+
+#: ../lib/Tails/IUK/Frontend.pm:591
+msgid "Error while choosing a download server"
+msgstr "Hiba történt a letöltő szerver kiválasztása közben"
+
+#: ../lib/Tails/IUK/Frontend.pm:606
+msgid ""
+"The upgrade was successfully downloaded.\n"
+"\n"
+"The network connection will now be disabled.\n"
+"\n"
+"Please save your work and close all other applications."
+msgstr "A frissítés sikeresen letöltve.\n\nA hálózati csatlakozás tiltásra kerül.\n\nKérjük mentse munkáját és zárjon be minden alkalmazást."
+
+#: ../lib/Tails/IUK/Frontend.pm:612
+msgid "Upgrade successfully downloaded"
+msgstr "Frissítés sikeresen letöltve"
+
+#: ../lib/Tails/IUK/Frontend.pm:614
+msgid "Apply upgrade"
+msgstr "Frissítés végrehajtása"
+
+#: ../lib/Tails/IUK/Frontend.pm:621
+msgid ""
+"<b>Your Tails device was successfully upgraded.</b>\n"
+"\n"
+"Some security features were temporarily disabled.\n"
+"You should restart Tails on the new version as soon as possible.\n"
+"\n"
+"Do you want to restart now?"
+msgstr "<b>A Tails eszköze sikeresen frissítve lett.</b>\n\nNéhány biztonsági eljárás átmenetileg le lett tiltva.\nAmilyen hamar lehetséges indítsa újra a Tails-t az új verzióval.\n\nÚjraindítja most?"
+
+#: ../lib/Tails/IUK/Frontend.pm:626
+msgid "Restart Tails"
+msgstr "Tails újraindítása"
+
+#: ../lib/Tails/IUK/Frontend.pm:627
+msgid "Restart now"
+msgstr "Újraindítás most"
+
+#: ../lib/Tails/IUK/Frontend.pm:628
+msgid "Restart later"
+msgstr "Újraindítás később"
+
+#: ../lib/Tails/IUK/Frontend.pm:639
+msgid "Error while restarting the system"
+msgstr "Hiba a rendszer újraindításakor"
+
+#: ../lib/Tails/IUK/Frontend.pm:642
+msgid "Failed to restart the system"
+msgstr "Nem sikerült a rendszer újraindítása"
+
+#: ../lib/Tails/IUK/Frontend.pm:657
+msgid "Error while shutting down the network"
+msgstr "Hiba a hálózat leállításakor"
+
+#: ../lib/Tails/IUK/Frontend.pm:660
+msgid "Failed to shutdown network"
+msgstr "Nem sikerült a hálózat leállítása"
+
+#: ../lib/Tails/IUK/Frontend.pm:670
+msgid "Upgrading the system"
+msgstr "Rendszer frissítés"
+
+#: ../lib/Tails/IUK/Frontend.pm:672
+msgid ""
+"<b>Your Tails device is being upgraded...</b>\n"
+"\n"
+"For security reasons, the networking is now disabled."
+msgstr "<b>A Tails eszközöd frissítése folyamatban...</b>\n\nBiztonsági okok miatt a hálózat le lett tiltva."
+
+#: ../lib/Tails/IUK/Frontend.pm:705
+msgid ""
+"<b>An error occured while installing the upgrade.</b>\\n\\nYour Tails device"
+" needs to be repaired and might be unable to restart.\\n\\nPlease follow the"
+" instructions at "
+"file:///usr/share/doc/tails/website/doc/upgrade/error/install.en.html"
+msgstr "<b>Hiba történt a frissítés telepítésekor.</b>\\n\\nA Tails eszköz javításra szorul és lehetséges nem tud újraindulni.\\n\\nKérjük olvassa el az instrukciókat itt: file:///usr/share/doc/tails/website/doc/upgrade/error/install.en.html"
+
+#: ../lib/Tails/IUK/Frontend.pm:715
+msgid "Error while installing the upgrade"
+msgstr "Hiba frissítés telepítésekor"
