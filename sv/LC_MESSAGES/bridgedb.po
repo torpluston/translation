@@ -20,8 +20,8 @@ msgstr ""
 "Project-Id-Version: Tor Project\n"
 "Report-Msgid-Bugs-To: 'https://trac.torproject.org/projects/tor/newticket?component=BridgeDB&keywords=bridgedb-reported,msgid&cc=isis,sysrqb&owner=isis'\n"
 "POT-Creation-Date: 2020-03-18 09:23-0700\n"
-"PO-Revision-Date: 2020-03-19 07:14+0000\n"
-"Last-Translator: erinm\n"
+"PO-Revision-Date: 2020-03-19 16:44+0000\n"
+"Last-Translator: Jonatan Nyberg\n"
 "Language-Team: Swedish (http://www.transifex.com/otf/torproject/language/sv/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -325,7 +325,7 @@ msgstr "Skaffa broar!"
 
 #: bridgedb/strings.py:130
 msgid "Bridge distribution mechanisms"
-msgstr ""
+msgstr "Brofördelningsmekanismer"
 
 #. TRANSLATORS: Please DO NOT translate "BridgeDB", "HTTPS", and "Moat".
 #: bridgedb/strings.py:132
@@ -336,7 +336,7 @@ msgid ""
 "the pseudo-mechanism \"None\".  The following list briefly explains how these\n"
 "mechanisms work and our %sBridgeDB metrics%s visualize how popular each of the\n"
 "mechanisms is."
-msgstr ""
+msgstr "BridgeDB implementerar fyra mekanismer för att distribuera broar: \"HTTPS\", \"Moat\",\n\"E-mail\" och \"Reserved\". Broar som inte distribueras över BridgeDB använder\npseudo-mekanismen \"None\". Följande lista förklarar kortfattat hur dessa\nmekanismer fungerar och våra %sBridgeDB statistik%s visualisera hur populär varje\nmekanismer är."
 
 #: bridgedb/strings.py:138
 #, python-format
@@ -344,7 +344,7 @@ msgid ""
 "The \"HTTPS\" distribution mechanism hands out bridges over this website.  To get\n"
 "bridges, go to %sbridges.torproject.org%s, select your preferred options, and\n"
 "solve the subsequent CAPTCHA."
-msgstr ""
+msgstr "Distributionsmekanismen \"HTTPS\" delar ut broar över denna webbplats. För att\nfå broar, gå till %sbridges.torproject.org%s, välj ditt önskade alternativ och\nlös efterföljande CAPTCHA."
 
 #: bridgedb/strings.py:142
 #, python-format
@@ -362,11 +362,11 @@ msgid ""
 "Users can request bridges from the \"Email\" distribution mechanism by sending an\n"
 "email to %sbridges@torproject.org%s and writing \"get transport obfs4\" in the\n"
 "email body."
-msgstr ""
+msgstr "Användare kan begära broar från distributionsmekanismen \"Email\" genom att skicka en\ne-post till %sbridges@torproject.org%s och skriva \"get transport obfs4\" i\ne-postbrödtexten."
 
 #: bridgedb/strings.py:152
 msgid "Reserved"
-msgstr ""
+msgstr "Reserved"
 
 #: bridgedb/strings.py:153
 #, python-format
@@ -390,7 +390,7 @@ msgid ""
 "users.  Note that on Relay Search, a freshly set up bridge's distribution\n"
 "mechanism says \"None\" for up to approximately one day.  Be a bit patient, and\n"
 "it will then change to the bridge's actual distribution mechanism.\n"
-msgstr ""
+msgstr "Broar vars distributionsmekanism är \"None\" distribueras inte av BridgeDB.\nDet är brooperatörens ansvar att distribuera sina broar till\nanvändare. Observera att vid Reläsökning, är en nyligen inställd bros\ndistributionsmekanismen \"None\" för upp till ungefär en dag. Var lite tålmodig, och\ndetta kommer då att ändras till brons faktiska distributionsmekanism.\n"
 
 #: bridgedb/strings.py:171
 msgid "Please select options for bridge type:"
