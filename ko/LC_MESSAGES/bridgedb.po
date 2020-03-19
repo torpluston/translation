@@ -26,9 +26,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Tor Project\n"
 "Report-Msgid-Bugs-To: 'https://trac.torproject.org/projects/tor/newticket?component=BridgeDB&keywords=bridgedb-reported,msgid&cc=isis,sysrqb&owner=isis'\n"
-"POT-Creation-Date: 2020-02-04 10:59-0800\n"
-"PO-Revision-Date: 2020-02-05 01:11+0000\n"
-"Last-Translator: carolyn <carolyn@anhalt.org>\n"
+"POT-Creation-Date: 2020-03-18 09:23-0700\n"
+"PO-Revision-Date: 2020-03-19 07:14+0000\n"
+"Last-Translator: erinm\n"
 "Language-Team: Korean (http://www.transifex.com/otf/torproject/language/ko/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -56,18 +56,16 @@ msgstr ""
 #. variable.
 #. We use our metrics singleton to keep track of BridgeDB metrics such as
 #. "number of failed HTTPS bridge requests."
+#. Convert all key/value pairs from bytes to str.
 #. TRANSLATORS: Please DO NOT translate the following words and/or phrases in
 #. any string (regardless of capitalization and/or punctuation):
 #. "BridgeDB"
 #. "pluggable transport"
 #. "pluggable transports"
-#. "obfs2"
-#. "obfs3"
-#. "scramblesuit"
-#. "fteproxy"
+#. "obfs4"
 #. "Tor"
 #. "Tor Browser"
-#: bridgedb/distributors/https/server.py:138
+#: bridgedb/distributors/https/server.py:154
 msgid "Sorry! Something went wrong with your request."
 msgstr "죄송합니다! 당신의 요청에 무언가 문제가 있습니다."
 
@@ -75,15 +73,15 @@ msgstr "죄송합니다! 당신의 요청에 무언가 문제가 있습니다."
 msgid "Language"
 msgstr "언어"
 
-#: bridgedb/distributors/https/templates/base.html:92
+#: bridgedb/distributors/https/templates/base.html:94
 msgid "Report a Bug"
 msgstr "버그를 보고하기"
 
-#: bridgedb/distributors/https/templates/base.html:95
+#: bridgedb/distributors/https/templates/base.html:97
 msgid "Source Code"
 msgstr "소스 코드"
 
-#: bridgedb/distributors/https/templates/base.html:98
+#: bridgedb/distributors/https/templates/base.html:100
 msgid "Changelog"
 msgstr "변경 기록"
 
@@ -238,7 +236,7 @@ msgstr "저기, %s야! "
 msgid "Hello, friend!"
 msgstr "안녕 친구!"
 
-#: bridgedb/distributors/https/templates/base.html:100 bridgedb/strings.py:58
+#: bridgedb/distributors/https/templates/base.html:102 bridgedb/strings.py:58
 msgid "Public Keys"
 msgstr "공개 키"
 
@@ -288,7 +286,7 @@ msgid ""
 "\n"
 msgstr "거기다, BridgeDB는 %s Pluggable Transport가 없는 %s\n흔해빠진 브릿지들도 많아요. 대단한 소리같지 않겠지만,\n그래도 여러 모로 인터넷 검열 우회를 도와줍니다.\n\n"
 
-#: bridgedb/strings.py:101 bridgedb/test/test_https.py:383
+#: bridgedb/strings.py:101 bridgedb/test/test_https.py:356
 msgid "What are bridges?"
 msgstr "'브릿지'란?"
 
@@ -333,32 +331,101 @@ msgid "Get Bridges!"
 msgstr "브릿지를 얻으세요!"
 
 #: bridgedb/strings.py:130
+msgid "Bridge distribution mechanisms"
+msgstr ""
+
+#. TRANSLATORS: Please DO NOT translate "BridgeDB", "HTTPS", and "Moat".
+#: bridgedb/strings.py:132
+#, python-format
+msgid ""
+"BridgeDB implements four mechanisms to distribute bridges: \"HTTPS\", \"Moat\",\n"
+"\"Email\", and \"Reserved\".  Bridges that are not distributed over BridgeDB use\n"
+"the pseudo-mechanism \"None\".  The following list briefly explains how these\n"
+"mechanisms work and our %sBridgeDB metrics%s visualize how popular each of the\n"
+"mechanisms is."
+msgstr ""
+
+#: bridgedb/strings.py:138
+#, python-format
+msgid ""
+"The \"HTTPS\" distribution mechanism hands out bridges over this website.  To get\n"
+"bridges, go to %sbridges.torproject.org%s, select your preferred options, and\n"
+"solve the subsequent CAPTCHA."
+msgstr ""
+
+#: bridgedb/strings.py:142
+#, python-format
+msgid ""
+"The \"Moat\" distribution mechanism is part of Tor Browser, allowing users to\n"
+"request bridges from inside their Tor Browser settings.  To get bridges, go to\n"
+"your Tor Browser's %sTor settings%s, click on \"request a new bridge\", solve the\n"
+"subsequent CAPTCHA, and Tor Browser will automatically add your new\n"
+"bridges."
+msgstr ""
+
+#: bridgedb/strings.py:148
+#, python-format
+msgid ""
+"Users can request bridges from the \"Email\" distribution mechanism by sending an\n"
+"email to %sbridges@torproject.org%s and writing \"get transport obfs4\" in the\n"
+"email body."
+msgstr ""
+
+#: bridgedb/strings.py:152
+msgid "Reserved"
+msgstr ""
+
+#: bridgedb/strings.py:153
+#, python-format
+msgid ""
+"BridgeDB maintains a small number of bridges that are not distributed\n"
+"automatically.  Instead, we reserve these bridges for manual distribution and\n"
+"hand them out to NGOs and other organizations and individuals that need\n"
+"bridges.  Bridges that are distributed over the \"Reserved\" mechanism may not\n"
+"see users for a long time.  Note that the \"Reserved\" distribution mechanism is\n"
+"called \"Unallocated\" in %sbridge pool assignment%s files."
+msgstr ""
+
+#: bridgedb/strings.py:160
+msgid "None"
+msgstr "없음"
+
+#: bridgedb/strings.py:161
+msgid ""
+"Bridges whose distribution mechanism is \"None\" are not distributed by BridgeDB.\n"
+"It is the bridge operator's responsibility to distribute their bridges to\n"
+"users.  Note that on Relay Search, a freshly set up bridge's distribution\n"
+"mechanism says \"None\" for up to approximately one day.  Be a bit patient, and\n"
+"it will then change to the bridge's actual distribution mechanism.\n"
+msgstr ""
+
+#: bridgedb/strings.py:171
 msgid "Please select options for bridge type:"
 msgstr "브릿지 종류에 관한 옵션을 골라 주세요:"
 
-#: bridgedb/strings.py:131
+#: bridgedb/strings.py:172
 msgid "Do you need IPv6 addresses?"
 msgstr "IPv6 주소가 필요합니까?"
 
-#: bridgedb/strings.py:132
+#: bridgedb/strings.py:173
 #, python-format
 msgid "Do you need a %s?"
 msgstr "%s 가 필요합니까?"
 
-#: bridgedb/strings.py:136
+#: bridgedb/strings.py:177
 msgid "Your browser is not displaying images properly."
 msgstr "브라우저가 사진을 정상적으로 불러오지 못합니다."
 
-#: bridgedb/strings.py:137
+#: bridgedb/strings.py:178
 msgid "Enter the characters from the image above..."
 msgstr "위 그림의 문자를 입력하십시오..."
 
-#: bridgedb/strings.py:141
+#: bridgedb/strings.py:182
 msgid "How to start using your bridges"
 msgstr "브릿지를 사용하는 방법"
 
 #. TRANSLATORS: Please DO NOT translate "Tor Browser".
-#: bridgedb/strings.py:143
+#: bridgedb/strings.py:184
 #, python-format
 msgid ""
 "To enter bridges into Tor Browser, first go to the %s Tor Browser download\n"
@@ -367,21 +434,21 @@ msgid ""
 msgstr "Tor 브라우저에 브리지를 입력하려면 먼저 %s Tor 브라우저 다운로드로 이동하십시오.\n페이지 %s로 이동 후 다음 지침에 따라 다운로드 및 시작을 수행하십시오.\nTor 브라우저."
 
 #. TRANSLATORS: Please DO NOT translate "Tor".
-#: bridgedb/strings.py:148
+#: bridgedb/strings.py:189
 msgid ""
 "When the 'Tor Network Settings' dialogue pops up, click 'Configure' and follow\n"
 "the wizard until it asks:"
 msgstr "'Tor 네트워크 설정' 대화창이 뜨면, '설정'을 클릭하고 아래 질문이 나올때까지\n마법사를 따라주세요:"
 
 #. TRANSLATORS: Please DO NOT translate "Tor".
-#: bridgedb/strings.py:152
+#: bridgedb/strings.py:193
 msgid ""
 "Does your Internet Service Provider (ISP) block or otherwise censor connections\n"
 "to the Tor network?"
 msgstr "당신의 인터넷 서비스 제공자(ISP)가 Tor 네트워크 접속을 차단 또는 검열하나요?"
 
 #. TRANSLATORS: Please DO NOT translate "Tor".
-#: bridgedb/strings.py:156
+#: bridgedb/strings.py:197
 msgid ""
 "Select 'Yes' and then click 'Next'. To configure your new bridges, copy and\n"
 "paste the bridge lines into the text input box. Finally, click 'Connect', and\n"
@@ -389,28 +456,28 @@ msgid ""
 "button in the 'Tor Network Settings' wizard for further assistance."
 msgstr "'예' 혹은 'Yes' 버튼을 누르신 후 '다음' 혹은 'Next' 버튼을 눌러 주세요.\n브릿지를 설정하시려면, 이 메일로 받으신 브릿지를 텍스트 박스에 복사하신 다음,\n'접속' 혹은 'Connect'를 눌러 주시면 작동될 것입니다!\n만약 문제가 있다면, 'Tor 네트워크 설정' 마법사의 '도움말' 혹은 'Help' 버튼을 눌러 도움을 받으세요."
 
-#: bridgedb/strings.py:164
+#: bridgedb/strings.py:205
 msgid "Displays this message."
 msgstr "이 메시지를 표시합니다."
 
 #. TRANSLATORS: Please try to make it clear that "vanilla" here refers to the
 #. same non-Pluggable Transport bridges described above as being
 #. "plain-ol'-vanilla" bridges.
-#: bridgedb/strings.py:168
+#: bridgedb/strings.py:209
 msgid "Request vanilla bridges."
 msgstr "일반 브릿지를 요청합니다."
 
-#: bridgedb/strings.py:169
+#: bridgedb/strings.py:210
 msgid "Request IPv6 bridges."
 msgstr "IPv6 브릿지를 요청합니다."
 
 #. TRANSLATORS: Please DO NOT translate the word the word "TYPE".
-#: bridgedb/strings.py:171
+#: bridgedb/strings.py:212
 msgid "Request a Pluggable Transport by TYPE."
 msgstr "삽입형 장치를 TYPE를 통해서 요청하세요."
 
 #. TRANSLATORS: Please DO NOT translate "BridgeDB".
 #. TRANSLATORS: Please DO NOT translate "GnuPG".
-#: bridgedb/strings.py:174
+#: bridgedb/strings.py:215
 msgid "Get a copy of BridgeDB's public GnuPG key."
 msgstr "BridgeDB의 공개 GnuPG 키를 얻습니다."

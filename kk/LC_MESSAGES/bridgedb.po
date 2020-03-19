@@ -10,8 +10,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Tor Project\n"
 "Report-Msgid-Bugs-To: 'https://trac.torproject.org/projects/tor/newticket?component=BridgeDB&keywords=bridgedb-reported,msgid&cc=isis,sysrqb&owner=isis'\n"
-"POT-Creation-Date: 2020-02-04 10:59-0800\n"
-"PO-Revision-Date: 2020-02-05 01:11+0000\n"
+"POT-Creation-Date: 2020-03-18 09:23-0700\n"
+"PO-Revision-Date: 2020-03-19 07:14+0000\n"
 "Last-Translator: carolyn <carolyn@anhalt.org>\n"
 "Language-Team: Kazakh (http://www.transifex.com/otf/torproject/language/kk/)\n"
 "MIME-Version: 1.0\n"
@@ -40,18 +40,16 @@ msgstr ""
 #. variable.
 #. We use our metrics singleton to keep track of BridgeDB metrics such as
 #. "number of failed HTTPS bridge requests."
+#. Convert all key/value pairs from bytes to str.
 #. TRANSLATORS: Please DO NOT translate the following words and/or phrases in
 #. any string (regardless of capitalization and/or punctuation):
 #. "BridgeDB"
 #. "pluggable transport"
 #. "pluggable transports"
-#. "obfs2"
-#. "obfs3"
-#. "scramblesuit"
-#. "fteproxy"
+#. "obfs4"
 #. "Tor"
 #. "Tor Browser"
-#: bridgedb/distributors/https/server.py:138
+#: bridgedb/distributors/https/server.py:154
 msgid "Sorry! Something went wrong with your request."
 msgstr "Кешіріңіз, сіздің сұранысыңыз бойынша белгісіз қиыншылықтар бар. "
 
@@ -59,15 +57,15 @@ msgstr "Кешіріңіз, сіздің сұранысыңыз бойынша �
 msgid "Language"
 msgstr "Тіл"
 
-#: bridgedb/distributors/https/templates/base.html:92
+#: bridgedb/distributors/https/templates/base.html:94
 msgid "Report a Bug"
 msgstr "Қате туралы хабарлау"
 
-#: bridgedb/distributors/https/templates/base.html:95
+#: bridgedb/distributors/https/templates/base.html:97
 msgid "Source Code"
 msgstr "Бастапқы коды"
 
-#: bridgedb/distributors/https/templates/base.html:98
+#: bridgedb/distributors/https/templates/base.html:100
 msgid "Changelog"
 msgstr "Өзгерістер журналы"
 
@@ -222,7 +220,7 @@ msgstr "Әй, %s!"
 msgid "Hello, friend!"
 msgstr "Сәлем, досым!"
 
-#: bridgedb/distributors/https/templates/base.html:100 bridgedb/strings.py:58
+#: bridgedb/distributors/https/templates/base.html:102 bridgedb/strings.py:58
 msgid "Public Keys"
 msgstr "Ашық кілттер"
 
@@ -272,7 +270,7 @@ msgid ""
 "\n"
 msgstr "Сонымен қатар, BridgeDB-де көптеген plain-ol'-vanilla көпірлері%s  Pluggable Transports %sолар мүмкін күшті емес, бірақ олар \nкөптеген жағдайларда интернет цензураны айналып өтуге көмектеседі.\n\n"
 
-#: bridgedb/strings.py:101 bridgedb/test/test_https.py:383
+#: bridgedb/strings.py:101 bridgedb/test/test_https.py:356
 msgid "What are bridges?"
 msgstr "Көпірлер дегеніміз не?"
 
@@ -317,32 +315,101 @@ msgid "Get Bridges!"
 msgstr "Көпірлерді алыңыз!"
 
 #: bridgedb/strings.py:130
+msgid "Bridge distribution mechanisms"
+msgstr ""
+
+#. TRANSLATORS: Please DO NOT translate "BridgeDB", "HTTPS", and "Moat".
+#: bridgedb/strings.py:132
+#, python-format
+msgid ""
+"BridgeDB implements four mechanisms to distribute bridges: \"HTTPS\", \"Moat\",\n"
+"\"Email\", and \"Reserved\".  Bridges that are not distributed over BridgeDB use\n"
+"the pseudo-mechanism \"None\".  The following list briefly explains how these\n"
+"mechanisms work and our %sBridgeDB metrics%s visualize how popular each of the\n"
+"mechanisms is."
+msgstr ""
+
+#: bridgedb/strings.py:138
+#, python-format
+msgid ""
+"The \"HTTPS\" distribution mechanism hands out bridges over this website.  To get\n"
+"bridges, go to %sbridges.torproject.org%s, select your preferred options, and\n"
+"solve the subsequent CAPTCHA."
+msgstr ""
+
+#: bridgedb/strings.py:142
+#, python-format
+msgid ""
+"The \"Moat\" distribution mechanism is part of Tor Browser, allowing users to\n"
+"request bridges from inside their Tor Browser settings.  To get bridges, go to\n"
+"your Tor Browser's %sTor settings%s, click on \"request a new bridge\", solve the\n"
+"subsequent CAPTCHA, and Tor Browser will automatically add your new\n"
+"bridges."
+msgstr ""
+
+#: bridgedb/strings.py:148
+#, python-format
+msgid ""
+"Users can request bridges from the \"Email\" distribution mechanism by sending an\n"
+"email to %sbridges@torproject.org%s and writing \"get transport obfs4\" in the\n"
+"email body."
+msgstr ""
+
+#: bridgedb/strings.py:152
+msgid "Reserved"
+msgstr ""
+
+#: bridgedb/strings.py:153
+#, python-format
+msgid ""
+"BridgeDB maintains a small number of bridges that are not distributed\n"
+"automatically.  Instead, we reserve these bridges for manual distribution and\n"
+"hand them out to NGOs and other organizations and individuals that need\n"
+"bridges.  Bridges that are distributed over the \"Reserved\" mechanism may not\n"
+"see users for a long time.  Note that the \"Reserved\" distribution mechanism is\n"
+"called \"Unallocated\" in %sbridge pool assignment%s files."
+msgstr ""
+
+#: bridgedb/strings.py:160
+msgid "None"
+msgstr ""
+
+#: bridgedb/strings.py:161
+msgid ""
+"Bridges whose distribution mechanism is \"None\" are not distributed by BridgeDB.\n"
+"It is the bridge operator's responsibility to distribute their bridges to\n"
+"users.  Note that on Relay Search, a freshly set up bridge's distribution\n"
+"mechanism says \"None\" for up to approximately one day.  Be a bit patient, and\n"
+"it will then change to the bridge's actual distribution mechanism.\n"
+msgstr ""
+
+#: bridgedb/strings.py:171
 msgid "Please select options for bridge type:"
 msgstr "Көпір түрінің параметрлерін таңдаңыз:"
 
-#: bridgedb/strings.py:131
+#: bridgedb/strings.py:172
 msgid "Do you need IPv6 addresses?"
 msgstr "Сізге IPv6 мекенжайлары керек пе?"
 
-#: bridgedb/strings.py:132
+#: bridgedb/strings.py:173
 #, python-format
 msgid "Do you need a %s?"
 msgstr "%s сізге қажетпе?"
 
-#: bridgedb/strings.py:136
+#: bridgedb/strings.py:177
 msgid "Your browser is not displaying images properly."
 msgstr "Сіздің браузеріңіз дұрыс бейнені көрсетпейді."
 
-#: bridgedb/strings.py:137
+#: bridgedb/strings.py:178
 msgid "Enter the characters from the image above..."
 msgstr "Жоғарыдағы суреттегі таңбаларды енгізіңіз ..."
 
-#: bridgedb/strings.py:141
+#: bridgedb/strings.py:182
 msgid "How to start using your bridges"
 msgstr "Сіздің көпірлеріңізді қалай пайдалануға болады"
 
 #. TRANSLATORS: Please DO NOT translate "Tor Browser".
-#: bridgedb/strings.py:143
+#: bridgedb/strings.py:184
 #, python-format
 msgid ""
 "To enter bridges into Tor Browser, first go to the %s Tor Browser download\n"
@@ -351,21 +418,21 @@ msgid ""
 msgstr "Tor Browser-ге көпірлерді енгізу үшін, бірінші осы жерден %sTor Browser-ді басыңыз\n %sжәне осы жерден нұсқаулықты оқып Tor Browser-ді басыңыз және БАСТАҢЫЗ."
 
 #. TRANSLATORS: Please DO NOT translate "Tor".
-#: bridgedb/strings.py:148
+#: bridgedb/strings.py:189
 msgid ""
 "When the 'Tor Network Settings' dialogue pops up, click 'Configure' and follow\n"
 "the wizard until it asks:"
 msgstr "'Tor Network Settings' диалогы шыққан кезде 'Конфигурация' пәрменін таңдап, оны орындаңыз\nшебер сұрағанша:"
 
 #. TRANSLATORS: Please DO NOT translate "Tor".
-#: bridgedb/strings.py:152
+#: bridgedb/strings.py:193
 msgid ""
 "Does your Internet Service Provider (ISP) block or otherwise censor connections\n"
 "to the Tor network?"
 msgstr "Сіздің интернеттегі қызмет көрсету  провайдеріңіз(ISP) цензураға байланысты \"Tor\" желісін бұғаттайма?"
 
 #. TRANSLATORS: Please DO NOT translate "Tor".
-#: bridgedb/strings.py:156
+#: bridgedb/strings.py:197
 msgid ""
 "Select 'Yes' and then click 'Next'. To configure your new bridges, copy and\n"
 "paste the bridge lines into the text input box. Finally, click 'Connect', and\n"
@@ -373,28 +440,28 @@ msgid ""
 "button in the 'Tor Network Settings' wizard for further assistance."
 msgstr "'Ия' дегенді таңдап, 'Келесі' дегенді басыңыз. Жаңа көпірлерді конфигурациялау, көшіру және\nкөпір жолдарын мәтін енгізу жолағына қойыңыз. Соңында, «Қосылу» түймешігн басыңыз.\nЕгер сізде қиындықтар туындаса, «Анықтама» басыңыз және\nқосымша көмек алу үшін «Tor Network Settings» батырмасын басыңыз"
 
-#: bridgedb/strings.py:164
+#: bridgedb/strings.py:205
 msgid "Displays this message."
 msgstr "Бұл хабарды көрсетеді."
 
 #. TRANSLATORS: Please try to make it clear that "vanilla" here refers to the
 #. same non-Pluggable Transport bridges described above as being
 #. "plain-ol'-vanilla" bridges.
-#: bridgedb/strings.py:168
+#: bridgedb/strings.py:209
 msgid "Request vanilla bridges."
 msgstr "Ванильді көпірлерді сұрау."
 
-#: bridgedb/strings.py:169
+#: bridgedb/strings.py:210
 msgid "Request IPv6 bridges."
 msgstr "IPv6 көпірлерін сұрау."
 
 #. TRANSLATORS: Please DO NOT translate the word the word "TYPE".
-#: bridgedb/strings.py:171
+#: bridgedb/strings.py:212
 msgid "Request a Pluggable Transport by TYPE."
 msgstr "TYPE бойынша біріктірілген тасымалды сұраңыз."
 
 #. TRANSLATORS: Please DO NOT translate "BridgeDB".
 #. TRANSLATORS: Please DO NOT translate "GnuPG".
-#: bridgedb/strings.py:174
+#: bridgedb/strings.py:215
 msgid "Get a copy of BridgeDB's public GnuPG key."
 msgstr "BridgeDB қоғамдық GnuPG кілтінің көшірмесін алыңыз."

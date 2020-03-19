@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Tor Project\n"
 "Report-Msgid-Bugs-To: 'https://trac.torproject.org/projects/tor/newticket?component=BridgeDB&keywords=bridgedb-reported,msgid&cc=isis,sysrqb&owner=isis'\n"
-"POT-Creation-Date: 2020-02-04 10:59-0800\n"
-"PO-Revision-Date: 2020-02-05 01:11+0000\n"
+"POT-Creation-Date: 2020-03-18 09:23-0700\n"
+"PO-Revision-Date: 2020-03-19 07:14+0000\n"
 "Last-Translator: carolyn <carolyn@anhalt.org>\n"
 "Language-Team: Irish (http://www.transifex.com/otf/torproject/language/ga/)\n"
 "MIME-Version: 1.0\n"
@@ -38,18 +38,16 @@ msgstr ""
 #. variable.
 #. We use our metrics singleton to keep track of BridgeDB metrics such as
 #. "number of failed HTTPS bridge requests."
+#. Convert all key/value pairs from bytes to str.
 #. TRANSLATORS: Please DO NOT translate the following words and/or phrases in
 #. any string (regardless of capitalization and/or punctuation):
 #. "BridgeDB"
 #. "pluggable transport"
 #. "pluggable transports"
-#. "obfs2"
-#. "obfs3"
-#. "scramblesuit"
-#. "fteproxy"
+#. "obfs4"
 #. "Tor"
 #. "Tor Browser"
-#: bridgedb/distributors/https/server.py:138
+#: bridgedb/distributors/https/server.py:154
 msgid "Sorry! Something went wrong with your request."
 msgstr "Ár leithscéal! Bhí fadhb leis an iarratas a rinne tú."
 
@@ -57,15 +55,15 @@ msgstr "Ár leithscéal! Bhí fadhb leis an iarratas a rinne tú."
 msgid "Language"
 msgstr "Teanga"
 
-#: bridgedb/distributors/https/templates/base.html:92
+#: bridgedb/distributors/https/templates/base.html:94
 msgid "Report a Bug"
 msgstr "Tuairiscigh Fabht"
 
-#: bridgedb/distributors/https/templates/base.html:95
+#: bridgedb/distributors/https/templates/base.html:97
 msgid "Source Code"
 msgstr "Cód Foinseach"
 
-#: bridgedb/distributors/https/templates/base.html:98
+#: bridgedb/distributors/https/templates/base.html:100
 msgid "Changelog"
 msgstr "Logchomhad athruithe"
 
@@ -220,7 +218,7 @@ msgstr "Hóra a %s!"
 msgid "Hello, friend!"
 msgstr "Dia dhuit a chara!"
 
-#: bridgedb/distributors/https/templates/base.html:100 bridgedb/strings.py:58
+#: bridgedb/distributors/https/templates/base.html:102 bridgedb/strings.py:58
 msgid "Public Keys"
 msgstr "Eochracha Poiblí"
 
@@ -270,7 +268,7 @@ msgid ""
 "\n"
 msgstr "Tá go leor gnáthdhroichead ar fáil mar chuid de BridgeDB freisin, droichid %s nach mbaineann úsáid as córais iompair ionphlugáilte %s. B'fhéidir nach bhfuil siad chomh spéisiúil sin, ach cabhraíonn siad leat cinsireacht Idirlín a sheachaint mar sin féin.\n\n"
 
-#: bridgedb/strings.py:101 bridgedb/test/test_https.py:383
+#: bridgedb/strings.py:101 bridgedb/test/test_https.py:356
 msgid "What are bridges?"
 msgstr "Cad is droichead ann?"
 
@@ -315,32 +313,101 @@ msgid "Get Bridges!"
 msgstr "Faigh Droichid!"
 
 #: bridgedb/strings.py:130
+msgid "Bridge distribution mechanisms"
+msgstr ""
+
+#. TRANSLATORS: Please DO NOT translate "BridgeDB", "HTTPS", and "Moat".
+#: bridgedb/strings.py:132
+#, python-format
+msgid ""
+"BridgeDB implements four mechanisms to distribute bridges: \"HTTPS\", \"Moat\",\n"
+"\"Email\", and \"Reserved\".  Bridges that are not distributed over BridgeDB use\n"
+"the pseudo-mechanism \"None\".  The following list briefly explains how these\n"
+"mechanisms work and our %sBridgeDB metrics%s visualize how popular each of the\n"
+"mechanisms is."
+msgstr ""
+
+#: bridgedb/strings.py:138
+#, python-format
+msgid ""
+"The \"HTTPS\" distribution mechanism hands out bridges over this website.  To get\n"
+"bridges, go to %sbridges.torproject.org%s, select your preferred options, and\n"
+"solve the subsequent CAPTCHA."
+msgstr ""
+
+#: bridgedb/strings.py:142
+#, python-format
+msgid ""
+"The \"Moat\" distribution mechanism is part of Tor Browser, allowing users to\n"
+"request bridges from inside their Tor Browser settings.  To get bridges, go to\n"
+"your Tor Browser's %sTor settings%s, click on \"request a new bridge\", solve the\n"
+"subsequent CAPTCHA, and Tor Browser will automatically add your new\n"
+"bridges."
+msgstr ""
+
+#: bridgedb/strings.py:148
+#, python-format
+msgid ""
+"Users can request bridges from the \"Email\" distribution mechanism by sending an\n"
+"email to %sbridges@torproject.org%s and writing \"get transport obfs4\" in the\n"
+"email body."
+msgstr ""
+
+#: bridgedb/strings.py:152
+msgid "Reserved"
+msgstr ""
+
+#: bridgedb/strings.py:153
+#, python-format
+msgid ""
+"BridgeDB maintains a small number of bridges that are not distributed\n"
+"automatically.  Instead, we reserve these bridges for manual distribution and\n"
+"hand them out to NGOs and other organizations and individuals that need\n"
+"bridges.  Bridges that are distributed over the \"Reserved\" mechanism may not\n"
+"see users for a long time.  Note that the \"Reserved\" distribution mechanism is\n"
+"called \"Unallocated\" in %sbridge pool assignment%s files."
+msgstr ""
+
+#: bridgedb/strings.py:160
+msgid "None"
+msgstr ""
+
+#: bridgedb/strings.py:161
+msgid ""
+"Bridges whose distribution mechanism is \"None\" are not distributed by BridgeDB.\n"
+"It is the bridge operator's responsibility to distribute their bridges to\n"
+"users.  Note that on Relay Search, a freshly set up bridge's distribution\n"
+"mechanism says \"None\" for up to approximately one day.  Be a bit patient, and\n"
+"it will then change to the bridge's actual distribution mechanism.\n"
+msgstr ""
+
+#: bridgedb/strings.py:171
 msgid "Please select options for bridge type:"
 msgstr "Roghanna don chineál droichid:"
 
-#: bridgedb/strings.py:131
+#: bridgedb/strings.py:172
 msgid "Do you need IPv6 addresses?"
 msgstr "An dteastaíonn seoltaí IPv6 uait?"
 
-#: bridgedb/strings.py:132
+#: bridgedb/strings.py:173
 #, python-format
 msgid "Do you need a %s?"
 msgstr "An dteastaíonn %s uait?"
 
-#: bridgedb/strings.py:136
+#: bridgedb/strings.py:177
 msgid "Your browser is not displaying images properly."
 msgstr "Níl do bhrabhsálaí ag taispeáint íomhánna mar is ceart."
 
-#: bridgedb/strings.py:137
+#: bridgedb/strings.py:178
 msgid "Enter the characters from the image above..."
 msgstr "Cuir isteach na carachtair ón íomhá thuas..."
 
-#: bridgedb/strings.py:141
+#: bridgedb/strings.py:182
 msgid "How to start using your bridges"
 msgstr "Conas do chuid droichead a úsáid"
 
 #. TRANSLATORS: Please DO NOT translate "Tor Browser".
-#: bridgedb/strings.py:143
+#: bridgedb/strings.py:184
 #, python-format
 msgid ""
 "To enter bridges into Tor Browser, first go to the %s Tor Browser download\n"
@@ -349,21 +416,21 @@ msgid ""
 msgstr "Chun droichid a chur le Brabhsálaí Tor, ar dtús oscail an %sleathanach íoslódála%s, ansin lean na treoracha atá ann leis an mbrabhsálaí a íoslódáil agus a thosú."
 
 #. TRANSLATORS: Please DO NOT translate "Tor".
-#: bridgedb/strings.py:148
+#: bridgedb/strings.py:189
 msgid ""
 "When the 'Tor Network Settings' dialogue pops up, click 'Configure' and follow\n"
 "the wizard until it asks:"
 msgstr "Nuair a osclaíonn an fhuinneog 'Socruithe Líonra Tor', cliceáil 'Cumraigh' agus lean an treoraí go dtí go bhfiafraíonn sé:"
 
 #. TRANSLATORS: Please DO NOT translate "Tor".
-#: bridgedb/strings.py:152
+#: bridgedb/strings.py:193
 msgid ""
 "Does your Internet Service Provider (ISP) block or otherwise censor connections\n"
 "to the Tor network?"
 msgstr "An bhfuil do Sholáthraí Seirbhíse Idirlín (ISP) ag cur cosc ar, nó ag déanamh cinsireacht ar cheangail le Líonra Tor?"
 
 #. TRANSLATORS: Please DO NOT translate "Tor".
-#: bridgedb/strings.py:156
+#: bridgedb/strings.py:197
 msgid ""
 "Select 'Yes' and then click 'Next'. To configure your new bridges, copy and\n"
 "paste the bridge lines into the text input box. Finally, click 'Connect', and\n"
@@ -371,28 +438,28 @@ msgid ""
 "button in the 'Tor Network Settings' wizard for further assistance."
 msgstr "Roghnaigh 'Tá' ansin cliceáil 'Ar Aghaidh'. Chun na droichid nua a chumrú, cóipeáil agus greamaigh na línte droichid isteach sa mbosca ionchurtha. Ansin, cliceáil 'Ceangail' agus beidh gach uile rud réidh! Má tharlaíonn aon fhadhb, cliceáil an cnaipe 'Cabhair' sa treoraí 'Socruithe Líonra Tor' chun tuilleadh eolais a fháil."
 
-#: bridgedb/strings.py:164
+#: bridgedb/strings.py:205
 msgid "Displays this message."
 msgstr "Taispeánann sé an teachtaireacht seo."
 
 #. TRANSLATORS: Please try to make it clear that "vanilla" here refers to the
 #. same non-Pluggable Transport bridges described above as being
 #. "plain-ol'-vanilla" bridges.
-#: bridgedb/strings.py:168
+#: bridgedb/strings.py:209
 msgid "Request vanilla bridges."
 msgstr "Iarr gnáthdhroichid."
 
-#: bridgedb/strings.py:169
+#: bridgedb/strings.py:210
 msgid "Request IPv6 bridges."
 msgstr "Iarr droichid IPv6."
 
 #. TRANSLATORS: Please DO NOT translate the word the word "TYPE".
-#: bridgedb/strings.py:171
+#: bridgedb/strings.py:212
 msgid "Request a Pluggable Transport by TYPE."
 msgstr "Iarr Córas Iompair Ionphlugáilte de réir a CHINEÁL."
 
 #. TRANSLATORS: Please DO NOT translate "BridgeDB".
 #. TRANSLATORS: Please DO NOT translate "GnuPG".
-#: bridgedb/strings.py:174
+#: bridgedb/strings.py:215
 msgid "Get a copy of BridgeDB's public GnuPG key."
 msgstr "Faigh cóip den eochair phoiblí GnuPG a úsáideann BridgeDB."
