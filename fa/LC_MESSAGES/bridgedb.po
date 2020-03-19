@@ -19,13 +19,14 @@
 # masoudd <relive.mn@gmail.com>, 2018
 # Setareh <setareh.salehee@gmail.com>, 2014
 # Seyyed Hossein Darvari <xhdix@yahoo.com>, 2020
+# Vox, 2020
 msgid ""
 msgstr ""
 "Project-Id-Version: Tor Project\n"
 "Report-Msgid-Bugs-To: 'https://trac.torproject.org/projects/tor/newticket?component=BridgeDB&keywords=bridgedb-reported,msgid&cc=isis,sysrqb&owner=isis'\n"
 "POT-Creation-Date: 2020-03-18 09:23-0700\n"
-"PO-Revision-Date: 2020-03-19 07:14+0000\n"
-"Last-Translator: magnifico\n"
+"PO-Revision-Date: 2020-03-19 10:34+0000\n"
+"Last-Translator: Vox\n"
 "Language-Team: Persian (http://www.transifex.com/otf/torproject/language/fa/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -329,7 +330,7 @@ msgstr "دریافت پل‌ها!"
 
 #: bridgedb/strings.py:130
 msgid "Bridge distribution mechanisms"
-msgstr ""
+msgstr "مکانیزم‌های توزیع Bridge"
 
 #. TRANSLATORS: Please DO NOT translate "BridgeDB", "HTTPS", and "Moat".
 #: bridgedb/strings.py:132
@@ -340,7 +341,7 @@ msgid ""
 "the pseudo-mechanism \"None\".  The following list briefly explains how these\n"
 "mechanisms work and our %sBridgeDB metrics%s visualize how popular each of the\n"
 "mechanisms is."
-msgstr ""
+msgstr "BridgeDB از چهار مکانیزم برای توزیع پل‌ها استفاده می‌کند: \"HTTPS\"، \"Moat،\n \"ایمیل\" و \"رزرو\". پل‌هایی که از طریق BridgeDB توزیع نمی‌شوند،\nاز شبه مکانیزم \"None\" استفاده می‌کنند. لیست زیر به صورت خلاصه توضیح می‌دهد\nکه هر کدام از این مکانیزم‌ها چطور کار می‌کنند و %sمعیارهای BridgeDB%s محبوبیت هرکدام\nاز مکانیزم‌ها را نشان می‌دهد."
 
 #: bridgedb/strings.py:138
 #, python-format
@@ -348,7 +349,7 @@ msgid ""
 "The \"HTTPS\" distribution mechanism hands out bridges over this website.  To get\n"
 "bridges, go to %sbridges.torproject.org%s, select your preferred options, and\n"
 "solve the subsequent CAPTCHA."
-msgstr ""
+msgstr "مکانیزم توزیع \"HTTPS\" پل‌ها را از طریق این وبسایت ارائه می‌کند. برای \nدریافت پل‌ها به %sbridges.torproject.org%s رفته، گزینه‌ی مد نظر خود را انتخاب کرده و کد CAPTCHA را حل کنید."
 
 #: bridgedb/strings.py:142
 #, python-format
@@ -358,7 +359,7 @@ msgid ""
 "your Tor Browser's %sTor settings%s, click on \"request a new bridge\", solve the\n"
 "subsequent CAPTCHA, and Tor Browser will automatically add your new\n"
 "bridges."
-msgstr ""
+msgstr "مکانیزم توزیع \"Moat\" بخشی از مرورگر تور است که به کاربران اجازه می‌دهد\nکه پل‌ها را از داخل تنظیمات مرورگر تور درخواست دهند. برای دریافت پل‌ها به\n%sتنظیمات تور%s مرورگر تور خود رفته، بر روی \"درخواست پل جدید\" کلیک و کد CAPTCHA\nرا حل کنید. مرورگر تور به صورت خودکار پل جدید را\nاضافه خواهد کرد."
 
 #: bridgedb/strings.py:148
 #, python-format
@@ -366,11 +367,11 @@ msgid ""
 "Users can request bridges from the \"Email\" distribution mechanism by sending an\n"
 "email to %sbridges@torproject.org%s and writing \"get transport obfs4\" in the\n"
 "email body."
-msgstr ""
+msgstr "کاربران می‌توانند با مکانیزم توزیع \"ایمیل\" درخواست پل دهند. برای این کار به\n%sbridges@torproject.org%s ایمیل داده و به عنوان متن ایمیل عبارت\nget transport obfs4\" را بنویسید."
 
 #: bridgedb/strings.py:152
 msgid "Reserved"
-msgstr ""
+msgstr "رزرو شده"
 
 #: bridgedb/strings.py:153
 #, python-format
@@ -381,7 +382,7 @@ msgid ""
 "bridges.  Bridges that are distributed over the \"Reserved\" mechanism may not\n"
 "see users for a long time.  Note that the \"Reserved\" distribution mechanism is\n"
 "called \"Unallocated\" in %sbridge pool assignment%s files."
-msgstr ""
+msgstr "BridgeDB شامل تعداد کمی از پل‌هایی است که به صورت خودکار توزیع نمی‌گردند.\nبلکه ما این پل‌ها را برای توزیع دستی رزرو کرده و\nتحویل NGOها و سایر نهادها و افرادی که نیاز به آن دارند\nمی‌دهیم. پل‌هایی که با مکانیزم \"رزرو\" توزیع می‌گردند ممکن است تا\nمدت طولانی استفاده نگردند. در نظر داشته باشید که مکانیز توزیع \"رزرو\" در فایل %sمخزن واگذاری پل%s با نام \"تخصیص نیافته\" شناخته می‌شود."
 
 #: bridgedb/strings.py:160
 msgid "None"
