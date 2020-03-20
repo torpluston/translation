@@ -12,7 +12,7 @@ msgstr ""
 "Project-Id-Version: Tor Project\n"
 "Report-Msgid-Bugs-To: 'https://trac.torproject.org/projects/tor/newticket?component=BridgeDB&keywords=bridgedb-reported,msgid&cc=isis,sysrqb&owner=isis'\n"
 "POT-Creation-Date: 2020-03-18 09:23-0700\n"
-"PO-Revision-Date: 2020-03-20 19:42+0000\n"
+"PO-Revision-Date: 2020-03-20 20:05+0000\n"
 "Last-Translator: Zarko Gjurov <zarkogjurov@gmail.com>\n"
 "Language-Team: Macedonian (http://www.transifex.com/otf/torproject/language/mk/)\n"
 "MIME-Version: 1.0\n"
@@ -328,7 +328,7 @@ msgid ""
 "the pseudo-mechanism \"None\".  The following list briefly explains how these\n"
 "mechanisms work and our %sBridgeDB metrics%s visualize how popular each of the\n"
 "mechanisms is."
-msgstr "BridgeDB имплементира 4 механизми на дистрибуција на мостови: \"HTTPS\", \"Moat\",\n\"Е-пошта\", и \"Резервирано\". Мостовите кои не се дистрибуирани преку BridgeDB го користат\nпсеудо-механизмот \"Ништо\". Следнава листа кратко објаснува како овие\nмеханизми работат и нашите %sBridgeDB мерења%s визуелизираат колку е популарен секој\nод механизмите."
+msgstr "BridgeDB имплементира 4 механизми на дистрибуција на мостови: \"HTTPS\", \"Moat\",\n\"Е-пошта\", и \"Резервирано\". Мостовите кои не се дистрибуирани преку BridgeDB го користат\nпсевдо-механизмот \"Ништо\". Следнава листа кратко објаснува како овие\nмеханизми работат и нашите %sBridgeDB мерења%s визуелизираат колку е популарен секој\nод механизмите."
 
 #: bridgedb/strings.py:138
 #, python-format
@@ -336,7 +336,7 @@ msgid ""
 "The \"HTTPS\" distribution mechanism hands out bridges over this website.  To get\n"
 "bridges, go to %sbridges.torproject.org%s, select your preferred options, and\n"
 "solve the subsequent CAPTCHA."
-msgstr ""
+msgstr "\"HTTPS\" механизмот на дистрибуција ги предава мостовите преку оваа веб страна.\nЗа да земете\nмостови, одете на %sbridges.torproject.org%s, одберете ги опциите кои ги преферирате, и\nрешете ја CAPTCHA-та / задачата која следува."
 
 #: bridgedb/strings.py:142
 #, python-format
@@ -346,7 +346,7 @@ msgid ""
 "your Tor Browser's %sTor settings%s, click on \"request a new bridge\", solve the\n"
 "subsequent CAPTCHA, and Tor Browser will automatically add your new\n"
 "bridges."
-msgstr ""
+msgstr "\"Moat\" механизмот на дистрибуција е дел од Tor Browser, кој им овозможува на корисниците да\nпобараат мостови внатре од нивните Tor Browser поставки. За да земете мостови, одете на\nвашите %sTor поставки%s на Tor Browser, кликнете на \"побарај нов мост\", решете ја\nCAPTCHA-та / задачата која следува, и Tor Browse автоматски ќе ги додаде вашите нови\nмостови."
 
 #: bridgedb/strings.py:148
 #, python-format
@@ -354,11 +354,11 @@ msgid ""
 "Users can request bridges from the \"Email\" distribution mechanism by sending an\n"
 "email to %sbridges@torproject.org%s and writing \"get transport obfs4\" in the\n"
 "email body."
-msgstr ""
+msgstr "Корисниците можат да побараат мостови преку \"E-пошта\" механизмот на дистрибуција со испраќање на\nе-пошта на %sbridges@torproject.org%s и пишување \"get transport obfs4\" во\nсодржината на пораката."
 
 #: bridgedb/strings.py:152
 msgid "Reserved"
-msgstr ""
+msgstr "Резервирано"
 
 #: bridgedb/strings.py:153
 #, python-format
@@ -369,7 +369,7 @@ msgid ""
 "bridges.  Bridges that are distributed over the \"Reserved\" mechanism may not\n"
 "see users for a long time.  Note that the \"Reserved\" distribution mechanism is\n"
 "called \"Unallocated\" in %sbridge pool assignment%s files."
-msgstr ""
+msgstr "BridgeDB одржува мал број на мостови кои не се дистрибуираат\nавтоматски. Наместо тоа, ние ги резервираме овие мостови за рачна дистрибуиција и\nим ги предаваме на НВО и на другите организации и индивидуалци на кои им се потребни\nмостови. Мостовите кои што се дистрибуирани преку \"Резервирано\" механизмот може корисниците да не ги видат\nподолго време. Забележете дека \"Резервирано\" механизмот на дистрибуција е\nнаречен \"Нераспределено\" во датотеките на %sбазенот на мост доделувања%s."
 
 #: bridgedb/strings.py:160
 msgid "None"
@@ -382,7 +382,7 @@ msgid ""
 "users.  Note that on Relay Search, a freshly set up bridge's distribution\n"
 "mechanism says \"None\" for up to approximately one day.  Be a bit patient, and\n"
 "it will then change to the bridge's actual distribution mechanism.\n"
-msgstr ""
+msgstr "Мостовите чиј механизам на дистрибуција е \"Ништо\" не се дистрибуирани преку BridgeDB.\nТоа е одговорност на операторите на мостови кои ги дистрибуираат нивните мостови до\nкорисниците. Забележете дека во Пребарување Реле, новите поставени механизми на дистрибуција\nна мостови велат \"Ништо\" за најмногу до еден ден. Бидете трпеливи, и\nтогаш ќе се промени во конкретниот механизам на дистрибуција на мост.\n"
 
 #: bridgedb/strings.py:171
 msgid "Please select options for bridge type:"
