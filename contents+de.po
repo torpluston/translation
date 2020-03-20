@@ -3166,11 +3166,13 @@ msgid ""
 "Onion services don't need open ports because they punch through NAT. They "
 "only establish outgoing connections."
 msgstr ""
+"Onion-Dienste benötigen keine offenen Ports, da sie durch NAT hindurchgehen."
+" Sie bauen nur ausgehende Verbindungen auf."
 
 #: https//community.torproject.org/onion-services/overview/
 #: (content/onion-services/overview/contents+en.lrpage.body)
 msgid "## The Onion Service Protocol: Overview"
-msgstr ""
+msgstr "## Das Onion-Dienst-Protokoll: Übersicht"
 
 #: https//community.torproject.org/onion-services/overview/
 #: (content/onion-services/overview/contents+en.lrpage.body)
@@ -3178,6 +3180,8 @@ msgid ""
 "Now the question becomes **what kind of protocol is needed to achieve all "
 "these properties?**"
 msgstr ""
+"Nun stellt sich die Frage, **welches Protokoll wird benötigt, um all diese "
+"Eigenschaften zu erreichen?**"
 
 #: https//community.torproject.org/onion-services/overview/
 #: (content/onion-services/overview/contents+en.lrpage.body)
@@ -3185,6 +3189,8 @@ msgid ""
 "Usually, people connect to an IP address and are done, but how can you "
 "connect to something that does not have an IP address?"
 msgstr ""
+"Normalerweise verbindet man sich mit einer IP-Adresse und das war's, aber "
+"wie kann man sich mit etwas verbinden, das keine IP-Adresse hat?"
 
 #: https//community.torproject.org/onion-services/overview/
 #: (content/onion-services/overview/contents+en.lrpage.body)
@@ -3192,6 +3198,8 @@ msgid ""
 "In particular, an onion service's address looks like this: "
 "`vww6ybal4bd7szmgncyruucpgfkqahzddi37ktceo3ah7ngmcopnpyyd.onion`"
 msgstr ""
+"Grundsätzlich sieht die Adresse eines Onion-Dienstes wie folgt aus: "
+"`vww6ybal4bd7szmgncyruucpgfkqahzddi37ktceo3ah7ngmcopnpyyd.onion`"
 
 #: https//community.torproject.org/onion-services/overview/
 #: (content/onion-services/overview/contents+en.lrpage.body)
@@ -3199,12 +3207,16 @@ msgid ""
 "This looks weird and random because it's the _identity public key_ of the "
 "onion service."
 msgstr ""
+"Das sieht seltsam und zufällig aus, weil es der _identity public key_ des "
+"Onion-Dienstes ist."
 
 #: https//community.torproject.org/onion-services/overview/
 #: (content/onion-services/overview/contents+en.lrpage.body)
 msgid ""
 "That's one of the reasons we can achieve the security properties above."
 msgstr ""
+"Das ist einer der Gründe, warum wir die oben genannten "
+"Sicherheitseigenschaften erreichen können."
 
 #: https//community.torproject.org/onion-services/overview/
 #: (content/onion-services/overview/contents+en.lrpage.body)
@@ -3213,16 +3225,19 @@ msgid ""
 "can introduce itself to the service (Bob), and then set up a rendezvous "
 "point with the service over the Tor network."
 msgstr ""
+"Das Onion-Dienst-Protokoll verwendet das Tor-Netzwerk, so dass das Programm "
+"(Alice) sich dem Dienst (Bob) vorstellen kann und dann einen Rendezvous-"
+"Punkt mit dem Dienst über das Tor-Netzwerk einrichten kann."
 
 #: https//community.torproject.org/onion-services/overview/
 #: (content/onion-services/overview/contents+en.lrpage.body)
 msgid "Here is a detailed breakdown of how this happens:"
-msgstr ""
+msgstr "Hier ist eine detaillierte Aufschlüsselung, wie dies geschieht:"
 
 #: https//community.torproject.org/onion-services/overview/
 #: (content/onion-services/overview/contents+en.lrpage.body)
 msgid "### Act 1: Where the onion service sets up its introduction points"
-msgstr ""
+msgstr "### Akt 1: Wo der Onion-Dienst seine Einstiegspunkte einstellt."
 
 #: https//community.torproject.org/onion-services/overview/
 #: (content/onion-services/overview/contents+en.lrpage.body)
@@ -3240,6 +3255,9 @@ msgid ""
 "of Tor relays and asks them to act as his _introduction points_, by "
 "establishing long-term circuits to them."
 msgstr ""
+"Als erster Schritt im Protokoll kontaktiert Bob (der Onion-Dienst) eine "
+"Reihe von Tor-Relays und bittet sie, als seine _Einstiegspunkte_ zu "
+"fungieren, indem er langfristige Kanäle zu ihnen herstellt."
 
 #: https//community.torproject.org/onion-services/overview/
 #: (content/onion-services/overview/contents+en.lrpage.body)
@@ -3247,6 +3265,8 @@ msgid ""
 "These circuits are anonymized circuits, so Bob does not reveal his locations"
 " to his introduction points."
 msgstr ""
+"Diese Kanäle sind anonymisierte Kanäle, so dass Bob seine Standorte nicht an"
+" seine Einstiegspunkte verrät."
 
 #: https//community.torproject.org/onion-services/overview/
 #: (content/onion-services/overview/contents+en.lrpage.body)
@@ -3255,11 +3275,15 @@ msgid ""
 "\"authentication key\", so that if any clients come for introductions later "
 "the introduction point can use that key to match them to Bob."
 msgstr ""
+"Als Teil dieses Schrittes gibt Bob seinem Einstiegspunkt einen speziellen "
+"\"Authentifizierungsschlüssel\", so dass der Einstiegspunkt diesen Schlüssel"
+" verwenden kann, um Programme, die später einsteigen wollen, mit Bob in "
+"Verbindung zu bringen."
 
 #: https//community.torproject.org/onion-services/overview/
 #: (content/onion-services/overview/contents+en.lrpage.body)
 msgid "### Act 2: Where the onion service publishes its descriptors"
-msgstr ""
+msgstr "### Akt 2: Wo der Onion-Dienst seine Deskriptoren veröffentlicht"
 
 #: https//community.torproject.org/onion-services/overview/
 #: (content/onion-services/overview/contents+en.lrpage.body)
@@ -3276,6 +3300,8 @@ msgid ""
 "Now that the introduction points are setup, we need to create a way for "
 "clients to be able to find them."
 msgstr ""
+"Nun, da die Einstiegspunkte eingerichtet sind, müssen wir einen Weg "
+"schaffen, damit die Programme sie finden können."
 
 #: https//community.torproject.org/onion-services/overview/
 #: (content/onion-services/overview/contents+en.lrpage.body)
@@ -3284,6 +3310,10 @@ msgid ""
 "list of his introduction points (and their \"authentication keys\"), and "
 "signs this descriptor with his _identity private key_."
 msgstr ""
+"Aus diesem Grund stellt Bob einen _Onion-Dienst-Deskriptor_ zusammen, der "
+"eine Liste seiner Einstiegspunkte (und deren "
+"\"Authentifizierungsschlüssel\") enthält, und signiert diesen Deskriptor mit"
+" seinem _identity private key_."
 
 #: https//community.torproject.org/onion-services/overview/
 #: (content/onion-services/overview/contents+en.lrpage.body)
