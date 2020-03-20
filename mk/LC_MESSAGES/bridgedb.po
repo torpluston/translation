@@ -11,8 +11,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Tor Project\n"
 "Report-Msgid-Bugs-To: 'https://trac.torproject.org/projects/tor/newticket?component=BridgeDB&keywords=bridgedb-reported,msgid&cc=isis,sysrqb&owner=isis'\n"
-"POT-Creation-Date: 2020-02-04 10:59-0800\n"
-"PO-Revision-Date: 2020-02-11 22:38+0000\n"
+"POT-Creation-Date: 2020-03-18 09:23-0700\n"
+"PO-Revision-Date: 2020-03-20 20:05+0000\n"
 "Last-Translator: Zarko Gjurov <zarkogjurov@gmail.com>\n"
 "Language-Team: Macedonian (http://www.transifex.com/otf/torproject/language/mk/)\n"
 "MIME-Version: 1.0\n"
@@ -41,18 +41,16 @@ msgstr ""
 #. variable.
 #. We use our metrics singleton to keep track of BridgeDB metrics such as
 #. "number of failed HTTPS bridge requests."
+#. Convert all key/value pairs from bytes to str.
 #. TRANSLATORS: Please DO NOT translate the following words and/or phrases in
 #. any string (regardless of capitalization and/or punctuation):
 #. "BridgeDB"
 #. "pluggable transport"
 #. "pluggable transports"
-#. "obfs2"
-#. "obfs3"
-#. "scramblesuit"
-#. "fteproxy"
+#. "obfs4"
 #. "Tor"
 #. "Tor Browser"
-#: bridgedb/distributors/https/server.py:138
+#: bridgedb/distributors/https/server.py:154
 msgid "Sorry! Something went wrong with your request."
 msgstr "Извинете! Се случи грешка со вашето барање."
 
@@ -60,15 +58,15 @@ msgstr "Извинете! Се случи грешка со вашето бар�
 msgid "Language"
 msgstr "Јазик"
 
-#: bridgedb/distributors/https/templates/base.html:92
+#: bridgedb/distributors/https/templates/base.html:94
 msgid "Report a Bug"
 msgstr "Пријави проблем"
 
-#: bridgedb/distributors/https/templates/base.html:95
+#: bridgedb/distributors/https/templates/base.html:97
 msgid "Source Code"
 msgstr "Изворен код"
 
-#: bridgedb/distributors/https/templates/base.html:98
+#: bridgedb/distributors/https/templates/base.html:100
 msgid "Changelog"
 msgstr "Лог на измени"
 
@@ -223,7 +221,7 @@ msgstr "Здраво, %s!"
 msgid "Hello, friend!"
 msgstr "Здраво, пријателу!"
 
-#: bridgedb/distributors/https/templates/base.html:100 bridgedb/strings.py:58
+#: bridgedb/distributors/https/templates/base.html:102 bridgedb/strings.py:58
 msgid "Public Keys"
 msgstr "Јавни клучеви"
 
@@ -273,7 +271,7 @@ msgid ""
 "\n"
 msgstr "Дополнително, BridgeDB има многу стандардни мостови %sбез ниту еден\nPluggable Transports %s преку кои можеби не звучи кул, но тие сеуште можат\nда помогнат во заобиколување на Интернет цензурата во многу случаи.\n\n"
 
-#: bridgedb/strings.py:101 bridgedb/test/test_https.py:383
+#: bridgedb/strings.py:101 bridgedb/test/test_https.py:356
 msgid "What are bridges?"
 msgstr "Што се мостови?"
 
@@ -318,32 +316,101 @@ msgid "Get Bridges!"
 msgstr "Добиј мостови!"
 
 #: bridgedb/strings.py:130
+msgid "Bridge distribution mechanisms"
+msgstr "Мост механизими на дистрибуција"
+
+#. TRANSLATORS: Please DO NOT translate "BridgeDB", "HTTPS", and "Moat".
+#: bridgedb/strings.py:132
+#, python-format
+msgid ""
+"BridgeDB implements four mechanisms to distribute bridges: \"HTTPS\", \"Moat\",\n"
+"\"Email\", and \"Reserved\".  Bridges that are not distributed over BridgeDB use\n"
+"the pseudo-mechanism \"None\".  The following list briefly explains how these\n"
+"mechanisms work and our %sBridgeDB metrics%s visualize how popular each of the\n"
+"mechanisms is."
+msgstr "BridgeDB имплементира 4 механизми на дистрибуција на мостови: \"HTTPS\", \"Moat\",\n\"Е-пошта\", и \"Резервирано\". Мостовите кои не се дистрибуирани преку BridgeDB го користат\nпсевдо-механизмот \"Ништо\". Следнава листа кратко објаснува како овие\nмеханизми работат и нашите %sBridgeDB мерења%s визуелизираат колку е популарен секој\nод механизмите."
+
+#: bridgedb/strings.py:138
+#, python-format
+msgid ""
+"The \"HTTPS\" distribution mechanism hands out bridges over this website.  To get\n"
+"bridges, go to %sbridges.torproject.org%s, select your preferred options, and\n"
+"solve the subsequent CAPTCHA."
+msgstr "\"HTTPS\" механизмот на дистрибуција ги предава мостовите преку оваа веб страна.\nЗа да земете\nмостови, одете на %sbridges.torproject.org%s, одберете ги опциите кои ги преферирате, и\nрешете ја CAPTCHA-та / задачата која следува."
+
+#: bridgedb/strings.py:142
+#, python-format
+msgid ""
+"The \"Moat\" distribution mechanism is part of Tor Browser, allowing users to\n"
+"request bridges from inside their Tor Browser settings.  To get bridges, go to\n"
+"your Tor Browser's %sTor settings%s, click on \"request a new bridge\", solve the\n"
+"subsequent CAPTCHA, and Tor Browser will automatically add your new\n"
+"bridges."
+msgstr "\"Moat\" механизмот на дистрибуција е дел од Tor Browser, кој им овозможува на корисниците да\nпобараат мостови внатре од нивните Tor Browser поставки. За да земете мостови, одете на\nвашите %sTor поставки%s на Tor Browser, кликнете на \"побарај нов мост\", решете ја\nCAPTCHA-та / задачата која следува, и Tor Browse автоматски ќе ги додаде вашите нови\nмостови."
+
+#: bridgedb/strings.py:148
+#, python-format
+msgid ""
+"Users can request bridges from the \"Email\" distribution mechanism by sending an\n"
+"email to %sbridges@torproject.org%s and writing \"get transport obfs4\" in the\n"
+"email body."
+msgstr "Корисниците можат да побараат мостови преку \"E-пошта\" механизмот на дистрибуција со испраќање на\nе-пошта на %sbridges@torproject.org%s и пишување \"get transport obfs4\" во\nсодржината на пораката."
+
+#: bridgedb/strings.py:152
+msgid "Reserved"
+msgstr "Резервирано"
+
+#: bridgedb/strings.py:153
+#, python-format
+msgid ""
+"BridgeDB maintains a small number of bridges that are not distributed\n"
+"automatically.  Instead, we reserve these bridges for manual distribution and\n"
+"hand them out to NGOs and other organizations and individuals that need\n"
+"bridges.  Bridges that are distributed over the \"Reserved\" mechanism may not\n"
+"see users for a long time.  Note that the \"Reserved\" distribution mechanism is\n"
+"called \"Unallocated\" in %sbridge pool assignment%s files."
+msgstr "BridgeDB одржува мал број на мостови кои не се дистрибуираат\nавтоматски. Наместо тоа, ние ги резервираме овие мостови за рачна дистрибуиција и\nим ги предаваме на НВО и на другите организации и индивидуалци на кои им се потребни\nмостови. Мостовите кои што се дистрибуирани преку \"Резервирано\" механизмот може корисниците да не ги видат\nподолго време. Забележете дека \"Резервирано\" механизмот на дистрибуција е\nнаречен \"Нераспределено\" во датотеките на %sбазенот на мост доделувања%s."
+
+#: bridgedb/strings.py:160
+msgid "None"
+msgstr "Ништо"
+
+#: bridgedb/strings.py:161
+msgid ""
+"Bridges whose distribution mechanism is \"None\" are not distributed by BridgeDB.\n"
+"It is the bridge operator's responsibility to distribute their bridges to\n"
+"users.  Note that on Relay Search, a freshly set up bridge's distribution\n"
+"mechanism says \"None\" for up to approximately one day.  Be a bit patient, and\n"
+"it will then change to the bridge's actual distribution mechanism.\n"
+msgstr "Мостовите чиј механизам на дистрибуција е \"Ништо\" не се дистрибуирани преку BridgeDB.\nТоа е одговорност на операторите на мостови кои ги дистрибуираат нивните мостови до\nкорисниците. Забележете дека во Пребарување Реле, новите поставени механизми на дистрибуција\nна мостови велат \"Ништо\" за најмногу до еден ден. Бидете трпеливи, и\nтогаш ќе се промени во конкретниот механизам на дистрибуција на мост.\n"
+
+#: bridgedb/strings.py:171
 msgid "Please select options for bridge type:"
 msgstr "Одберете опции за тип на мост:"
 
-#: bridgedb/strings.py:131
+#: bridgedb/strings.py:172
 msgid "Do you need IPv6 addresses?"
 msgstr "Дали ви требаат IPv6 адреси?"
 
-#: bridgedb/strings.py:132
+#: bridgedb/strings.py:173
 #, python-format
 msgid "Do you need a %s?"
 msgstr "Дали ти треба %s?"
 
-#: bridgedb/strings.py:136
+#: bridgedb/strings.py:177
 msgid "Your browser is not displaying images properly."
 msgstr "Вашиот прелистувач не ги покажува сликите правилно."
 
-#: bridgedb/strings.py:137
+#: bridgedb/strings.py:178
 msgid "Enter the characters from the image above..."
 msgstr "Внесете ги карактерите од сликата погоре:"
 
-#: bridgedb/strings.py:141
+#: bridgedb/strings.py:182
 msgid "How to start using your bridges"
 msgstr "Како да започнете со користење на мостови"
 
 #. TRANSLATORS: Please DO NOT translate "Tor Browser".
-#: bridgedb/strings.py:143
+#: bridgedb/strings.py:184
 #, python-format
 msgid ""
 "To enter bridges into Tor Browser, first go to the %s Tor Browser download\n"
@@ -352,21 +419,21 @@ msgid ""
 msgstr "Да внесете мостови во Tor Browser, прво одете на %s Tor Browser за преземање\nстраната %s и потоа следете ги инструкциите за преземање и стартување на Tor Browser."
 
 #. TRANSLATORS: Please DO NOT translate "Tor".
-#: bridgedb/strings.py:148
+#: bridgedb/strings.py:189
 msgid ""
 "When the 'Tor Network Settings' dialogue pops up, click 'Configure' and follow\n"
 "the wizard until it asks:"
 msgstr "Кога дијалогот 'Tor мрежни поставки' ќе се појави, кликнете на 'Конфигурирај' и следете\nго инсталерот додека да ве праша:"
 
 #. TRANSLATORS: Please DO NOT translate "Tor".
-#: bridgedb/strings.py:152
+#: bridgedb/strings.py:193
 msgid ""
 "Does your Internet Service Provider (ISP) block or otherwise censor connections\n"
 "to the Tor network?"
 msgstr "Дали вашиот Интернет сервис провајдер (ISP) блокира или цензурира поврзувања кон Tor мрежата?"
 
 #. TRANSLATORS: Please DO NOT translate "Tor".
-#: bridgedb/strings.py:156
+#: bridgedb/strings.py:197
 msgid ""
 "Select 'Yes' and then click 'Next'. To configure your new bridges, copy and\n"
 "paste the bridge lines into the text input box. Finally, click 'Connect', and\n"
@@ -374,28 +441,28 @@ msgid ""
 "button in the 'Tor Network Settings' wizard for further assistance."
 msgstr "Одберете 'Да' и кликнете 'Следно'. За да ги конфигурирате вашите нови мостови, копирајте и\nзалепете ја мост линијата во текст полето. На крај кликнете 'Поврзи', и\nби требало да сте готови! Ако имате проблеми, пробајте со кликање на 'Помош'\nкопчето во 'Tor мрежни подесувања' и следете ги инструкциите."
 
-#: bridgedb/strings.py:164
+#: bridgedb/strings.py:205
 msgid "Displays this message."
 msgstr "Ја покажува оваа порака."
 
 #. TRANSLATORS: Please try to make it clear that "vanilla" here refers to the
 #. same non-Pluggable Transport bridges described above as being
 #. "plain-ol'-vanilla" bridges.
-#: bridgedb/strings.py:168
+#: bridgedb/strings.py:209
 msgid "Request vanilla bridges."
 msgstr "Побарува стандардни мостови."
 
-#: bridgedb/strings.py:169
+#: bridgedb/strings.py:210
 msgid "Request IPv6 bridges."
 msgstr "Побарува IPv6 мостови."
 
 #. TRANSLATORS: Please DO NOT translate the word the word "TYPE".
-#: bridgedb/strings.py:171
+#: bridgedb/strings.py:212
 msgid "Request a Pluggable Transport by TYPE."
 msgstr "Побарува Pluggable Transport по тип."
 
 #. TRANSLATORS: Please DO NOT translate "BridgeDB".
 #. TRANSLATORS: Please DO NOT translate "GnuPG".
-#: bridgedb/strings.py:174
+#: bridgedb/strings.py:215
 msgid "Get a copy of BridgeDB's public GnuPG key."
 msgstr "Преземи копија од јавниот GnuPG клуч на BridgeDB."
