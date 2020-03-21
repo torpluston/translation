@@ -3693,6 +3693,8 @@ msgstr ""
 msgid ""
 "We recommend you install a new separate web server for your onion service."
 msgstr ""
+"Wir empfehlen dir, einen neuen separaten Web-Server für deinen Onion-Dienst "
+"zu installieren."
 
 #: https//community.torproject.org/onion-services/setup/
 #: (content/onion-services/setup/contents+en.lrpage.body)
@@ -3700,6 +3702,8 @@ msgid ""
 "You need to configure your web server so it doesn't give away any "
 "information about you, your computer, or your location."
 msgstr ""
+"Du musst deinen Web-Server so konfigurieren, dass er keine Informationen "
+"über dich, deinen Computer oder deinen Standort preisgibt."
 
 #: https//community.torproject.org/onion-services/setup/
 #: (content/onion-services/setup/contents+en.lrpage.body)
@@ -3707,6 +3711,8 @@ msgid ""
 "This is not an easy task and in the end of this document we will offer more "
 "resources on how to make this possible."
 msgstr ""
+"Dies ist keine leichte Aufgabe, und am Ende dieses Dokuments werden wir mehr"
+" Ressourcen anbieten, wie dies zu ermöglichen ist."
 
 #: https//community.torproject.org/onion-services/setup/
 #: (content/onion-services/setup/contents+en.lrpage.body)
@@ -3715,6 +3721,10 @@ msgid ""
 " to http://localhost:8080/, where 8080 is the webserver port you chose "
 "during setup (you can choose any port, 8080 is just an example)."
 msgstr ""
+"Sobald dein Web-Server eingerichtet ist, vergewissere dich, dass er "
+"funktioniert: öffne deinen Browser und gehe zu http://localhost:8080/, wobei"
+" 8080 der Web-Server-Port ist, den du während der Einrichtung gewählt hast "
+"(du kannst jeden Port wählen, 8080 ist nur ein Beispiel)."
 
 #: https//community.torproject.org/onion-services/setup/
 #: (content/onion-services/setup/contents+en.lrpage.body)
@@ -3722,6 +3732,8 @@ msgid ""
 "Then try putting a file in the main html directory, and make sure it shows "
 "up when you access the site."
 msgstr ""
+"Versuche dann, eine Datei in das html-Hauptverzeichnis zu legen, und stelle "
+"sicher, dass sie beim Zugriff auf die Site angezeigt wird."
 
 #: https//community.torproject.org/onion-services/setup/
 #: (content/onion-services/setup/contents+en.lrpage.body)
@@ -3734,6 +3746,9 @@ msgid ""
 "The next step is opening the config file of Tor (torrc) and doing the "
 "appropriate configurations to setup an onion service."
 msgstr ""
+"Der nächste Schritt ist das Öffnen der Konfigurations-Datei von Tor (torrc) "
+"und die Durchführung der entsprechenden Konfigurationen, um einen Onion-"
+"Dienst einzurichten."
 
 #: https//community.torproject.org/onion-services/setup/
 #: (content/onion-services/setup/contents+en.lrpage.body)
@@ -3741,11 +3756,13 @@ msgid ""
 "Depending on your operating system and setup, your Tor configuration file "
 "can be at a different location or look different."
 msgstr ""
+"Abhängig von deinem Betriebssystem und deiner Einrichtung kann deine Tor-"
+"Konfigurations-Datei an einem anderen Ort sein oder anders aussehen."
 
 #: https//community.torproject.org/onion-services/setup/
 #: (content/onion-services/setup/contents+en.lrpage.body)
 msgid "You will need to put the following two lines in your torrc:"
-msgstr ""
+msgstr "Du musst die folgenden beiden Zeilen in dein Torrc eingeben:"
 
 #: https//community.torproject.org/onion-services/setup/
 #: (content/onion-services/setup/contents+en.lrpage.body)
@@ -3763,6 +3780,8 @@ msgid ""
 "The `HiddenServiceDir` line specifies the directory which should contain "
 "information and cryptographic keys for your onion service."
 msgstr ""
+"Die Zeile `HiddenServiceDir` gibt das Verzeichnis an, das Informationen und "
+"kryptographische Schlüssel für deinen Onion-Dienst enthalten soll."
 
 #: https//community.torproject.org/onion-services/setup/
 #: (content/onion-services/setup/contents+en.lrpage.body)
@@ -3771,6 +3790,9 @@ msgid ""
 " actual directory that is readable/writeable by the user that will be "
 "running Tor."
 msgstr ""
+"Du wirst die Zeile `HiddenServiceDir` ändern wollen, so dass sie auf ein "
+"tatsächliches Verzeichnis zeigt, das für den Benutzer, der Tor ausführen "
+"wird, lesbar/schreibbar ist."
 
 #: https//community.torproject.org/onion-services/setup/
 #: (content/onion-services/setup/contents+en.lrpage.body)
@@ -3781,11 +3803,16 @@ msgid ""
 "should be redirected to `127.0.0.1:8080` (which is where the web server from"
 " step 1 is listening)."
 msgstr ""
+"Die Zeile `HiddenServicePort` gibt einen _virtuellen Port_ an (d.h. den "
+"Port, den die Besucher deines Onion-Dienstes benutzen werden), und im obigen"
+" Fall besagt sie, dass jeglicher Verkehr, der an Port 80 deines Onion-"
+"Dienstes ankommt, nach `127.0.0.1:8080` umgeleitet werden soll (wo der Web-"
+"Server aus Schritt 1 lauscht)."
 
 #: https//community.torproject.org/onion-services/setup/
 #: (content/onion-services/setup/contents+en.lrpage.body)
 msgid "## Step 3: Restart Tor and check that it worked"
-msgstr ""
+msgstr "## Schritt 3: Starte Tor neu und überprüfe, ob es funktioniert"
 
 #: https//community.torproject.org/onion-services/setup/
 #: (content/onion-services/setup/contents+en.lrpage.body)
@@ -3798,6 +3825,8 @@ msgid ""
 "If Tor starts up again, great. Otherwise, something is wrong. First look at "
 "your logfiles for hints."
 msgstr ""
+"Wenn Tor wieder startet, großartig. Andernfalls stimmt etwas nicht. Sieh "
+"zuerst in deinen Logdateien nach Hinweisen."
 
 #: https//community.torproject.org/onion-services/setup/
 #: (content/onion-services/setup/contents+en.lrpage.body)
@@ -3805,6 +3834,8 @@ msgid ""
 "It will print some warnings or error messages. That should give you an idea "
 "what went wrong."
 msgstr ""
+"Da werden einige Warnungen oder Fehler-Meldungen sein. Das sollte dir eine "
+"Vorstellung davon geben, was schief gelaufen ist."
 
 #: https//community.torproject.org/onion-services/setup/
 #: (content/onion-services/setup/contents+en.lrpage.body)
@@ -3812,6 +3843,8 @@ msgid ""
 "When Tor starts, it will automatically create the `HiddenServiceDir` that "
 "you specified (if necessary). Make sure this is the case."
 msgstr ""
+"Wenn Tor startet, erzeugt es automatisch das von dir angegebene "
+"`HiddenServiceDir` (falls nötig). Stelle sicher, dass dies der Fall ist."
 
 #: https//community.torproject.org/onion-services/setup/
 #: (content/onion-services/setup/contents+en.lrpage.body)
@@ -3824,6 +3857,8 @@ msgid ""
 "Now to get your onion service address, go to your `HiddenServiceDir` "
 "directory, and find a file named `hostname`."
 msgstr ""
+"Um deine Onion-Dienst-Adresse zu erhalten, gehe in dein "
+"`HiddenServiceDir`-Verzeichnis und suche eine Datei namens `Hostname`."
 
 #: https//community.torproject.org/onion-services/setup/
 #: (content/onion-services/setup/contents+en.lrpage.body)
@@ -3831,6 +3866,8 @@ msgid ""
 "The `hostname` file in your hidden service configuration directory contains "
 "the hostname for your new onion v3 hidden service."
 msgstr ""
+"Die Datei `Hostname` in deinem versteckten Konfigurations-Verzeichnis "
+"enthält den Hostnamen für deinen neuen versteckten Onion-v3-Dienst ."
 
 #: https//community.torproject.org/onion-services/setup/
 #: (content/onion-services/setup/contents+en.lrpage.body)
@@ -3838,6 +3875,8 @@ msgid ""
 "The other files are your hidden service keys, so it is imperative that these"
 " are kept private."
 msgstr ""
+"Bei den anderen Dateien handelt es sich um deine versteckten "
+"Dienstschlüssel, so dass diese unbedingt privat gehalten werden müssen."
 
 #: https//community.torproject.org/onion-services/setup/
 #: (content/onion-services/setup/contents+en.lrpage.body)
@@ -3845,6 +3884,9 @@ msgid ""
 "If your keys leak, other people can impersonate your onion service, deeming "
 "it compromised, useless, and dangerous to visit."
 msgstr ""
+"Wenn deine Schlüssel durchsickern, können sich andere Leute als dein Onion-"
+"Dienst ausgeben, wodurch er kompromittiert, nutzlos und gefährlich wird, ihn"
+" zu besuchen."
 
 #: https//community.torproject.org/onion-services/setup/
 #: (content/onion-services/setup/contents+en.lrpage.body)
@@ -3852,6 +3894,9 @@ msgid ""
 "Now you can connect to your onion service using Tor Browser, and you should "
 "get the html page you setup back in step 1."
 msgstr ""
+"Jetzt kannst du dich mit deinem Onion-Dienst über den Tor Browser verbinden,"
+" und du solltest die html-Seite, die du in Schritt 1 eingerichtet hast, "
+"bekommen."
 
 #: https//community.torproject.org/onion-services/setup/
 #: (content/onion-services/setup/contents+en.lrpage.body)
@@ -3859,6 +3904,8 @@ msgid ""
 "If it doesn't work, look in your logs for some hints, and keep playing with "
 "it until it works."
 msgstr ""
+"Wenn es nicht funktioniert, suche in deinen Protokollen nach Hinweisen und "
+"spiel so lange damit, bis es funktioniert."
 
 #: https//community.torproject.org/onion-services/setup/
 #: (content/onion-services/setup/contents+en.lrpage.body)
@@ -3869,6 +3916,8 @@ msgstr "## Schritt 5: Mehr fortgeschrittene Tipps"
 #: (content/onion-services/setup/contents+en.lrpage.body)
 msgid "The above guide is just a baseline to setup an onion service."
 msgstr ""
+"Der obige Leitfaden ist nur eine Grundlage für die Einrichtung eines Onion-"
+"Dienstes."
 
 #: https//community.torproject.org/onion-services/setup/
 #: (content/onion-services/setup/contents+en.lrpage.body)
