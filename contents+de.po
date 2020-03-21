@@ -3364,6 +3364,8 @@ msgid ""
 "Now let's fast-forward to the point where an actual client wants to visit "
 "the service:"
 msgstr ""
+"Lass uns jetzt zu dem Punkt vorspulen, an dem ein Programm tatsächlich den "
+"Dienst besuchen möchte:"
 
 #: https//community.torproject.org/onion-services/overview/
 #: (content/onion-services/overview/contents+en.lrpage.body)
@@ -3380,6 +3382,8 @@ msgid ""
 "In this case, Alice (the client) has the onion address of Bob and she wants "
 "to visit it, so she connects to it with her Tor Browser."
 msgstr ""
+"In diesem Fall hat Alice (das Programm) die Onion-Adresse von Bob und will "
+"sie besuchen, also verbindet sie sich mit ihrem Tor Browser damit."
 
 #: https//community.torproject.org/onion-services/overview/
 #: (content/onion-services/overview/contents+en.lrpage.body)
@@ -3388,6 +3392,8 @@ msgid ""
 "_distributed hash table_ from the step above, and ask for the signed "
 "descriptor of Bob."
 msgstr ""
+"Als Nächstes muss Alice zur _verteilten Hash-Tabelle_ aus dem obigen Schritt"
+" gehen und nach dem signierten Deskriptor von Bob fragen."
 
 #: https//community.torproject.org/onion-services/overview/
 #: (content/onion-services/overview/contents+en.lrpage.body)
@@ -3395,6 +3401,9 @@ msgid ""
 "When Alice receives the signed descriptor, she verifies the signature of the"
 " descriptor using the public key that is encoded in the onion address."
 msgstr ""
+"Wenn Alice den signierten Deskriptor erhält, überprüft sie die Signatur des "
+"Deskriptors mit dem öffentlichen Schlüssel, der in der Onion-Adresse "
+"verschlüsselt ist."
 
 #: https//community.torproject.org/onion-services/overview/
 #: (content/onion-services/overview/contents+en.lrpage.body)
@@ -3403,6 +3412,9 @@ msgid ""
 "are now sure that this descriptor could only be produced by Bob and no one "
 "else."
 msgstr ""
+"Dies bietet die Sicherheitseigenschaft der _Ende-zu-Ende-Bestätigung_, da "
+"wir nun sicher sind, dass dieser Deskriptor nur von Bob und niemandem sonst "
+"erstellt werden konnte."
 
 #: https//community.torproject.org/onion-services/overview/
 #: (content/onion-services/overview/contents+en.lrpage.body)
@@ -3410,11 +3422,13 @@ msgid ""
 "And inside the descriptor there are the introduction points which allow "
 "Alice to introduce herself to Bob."
 msgstr ""
+"Und innerhalb des Deskriptors gibt es die Einstiegspunkte, die es Alice "
+"ermöglichen, sich Bob vorzustellen."
 
 #: https//community.torproject.org/onion-services/overview/
 #: (content/onion-services/overview/contents+en.lrpage.body)
 msgid "### Act 4: Where the client establishes a rendezvous point"
-msgstr ""
+msgstr "### Akt 4: Wenn das Programm einen Rendezvous-Punkt festlegt"
 
 #: https//community.torproject.org/onion-services/overview/
 #: (content/onion-services/overview/contents+en.lrpage.body)
@@ -3422,6 +3436,8 @@ msgid ""
 "Now before the introduction takes place, Alice picks a Tor relay and "
 "establishes a circuit to it."
 msgstr ""
+"Nun, bevor der Einstieg erfolgt, wählt Alice ein Tor-Relay aus und baut "
+"einen Kanal zu diesem auf."
 
 #: https//community.torproject.org/onion-services/overview/
 #: (content/onion-services/overview/contents+en.lrpage.body)
@@ -3429,11 +3445,13 @@ msgid ""
 "Alice asks the relay to become her _rendezvous point_ and gives it an \"one-"
 "time secret\" that will be used as part of the rendezvous procedure."
 msgstr ""
+"Alice bittet das Relay, ihr _Rendezvous-Punkt_ zu werden und gibt ihm ein "
+"\"one-time-secret, das als Teil des Rendezvous-Verfahrens verwendet wird."
 
 #: https//community.torproject.org/onion-services/overview/
 #: (content/onion-services/overview/contents+en.lrpage.body)
 msgid "### Act 5: Where the client introduces itself to the onion service"
-msgstr ""
+msgstr "### Akt 5: Wo das Programm in den Onion-Dienst einsteigt"
 
 #: https//community.torproject.org/onion-services/overview/
 #: (content/onion-services/overview/contents+en.lrpage.body)
@@ -3450,6 +3468,8 @@ msgid ""
 "Now, Alice goes ahead and connects to one of Bob's introduction points and "
 "introduces herself to Bob."
 msgstr ""
+"Nun geht Alice weiter und stellt sich an einem von Bobs Einstiegspunkten vor"
+" und stellt sich Bob vor."
 
 #: https//community.torproject.org/onion-services/overview/
 #: (content/onion-services/overview/contents+en.lrpage.body)
@@ -3457,11 +3477,13 @@ msgid ""
 "Through this introduction Bob learns Alice's choice of rendezvous point and "
 "the \"one-time secret\"."
 msgstr ""
+"Durch diesen Einstieg erfährt Bob von Alices Wahl des Rendezvous-Punktes und"
+" dem \"one-time-secret\"."
 
 #: https//community.torproject.org/onion-services/overview/
 #: (content/onion-services/overview/contents+en.lrpage.body)
 msgid "### Act 6: Where the onion service rendezvous with the client"
-msgstr ""
+msgstr "### Akt 6: Wo der Onion-Dienst sein Rendezvous mit dem Programm hat"
 
 #: https//community.torproject.org/onion-services/overview/
 #: (content/onion-services/overview/contents+en.lrpage.body)
@@ -3478,6 +3500,8 @@ msgid ""
 "In this last act, the onion service is now aware of Alice's rendezvous "
 "point."
 msgstr ""
+"In diesem letzten Akt ist dem Onion-Dienst nun der Rendezvous-Punkt von "
+"Alice bekannt."
 
 #: https//community.torproject.org/onion-services/overview/
 #: (content/onion-services/overview/contents+en.lrpage.body)
@@ -3485,6 +3509,8 @@ msgid ""
 "The onion service connects to the rendezvous point (through an anonymized "
 "circuit) and sends the \"one-time secret\" to it."
 msgstr ""
+"Der Onion-Dienst verbindet sich mit dem Rendezvous-Punkt (über einen "
+"anonymisierten Kanal) und sendet das \"one-time-secret\" dort hin."
 
 #: https//community.torproject.org/onion-services/overview/
 #: (content/onion-services/overview/contents+en.lrpage.body)
@@ -3493,6 +3519,9 @@ msgid ""
 "informs Alice that the connection has been **successfuly completed**, and "
 "now Alice and Bob can use this circuit to communicate with each other."
 msgstr ""
+"Nachdem der Rendezvous-Punkt das \"one-time-secret\" von Bob erhalten hat, "
+"teilt er Alice mit, dass die Verbindung **erfolgreich hergestellt** wurde, "
+"und nun können Alice und Bob über diesen Kanal miteinander kommunizieren."
 
 #: https//community.torproject.org/onion-services/overview/
 #: (content/onion-services/overview/contents+en.lrpage.body)
@@ -3500,6 +3529,8 @@ msgid ""
 "The rendezvous point simply relays (end-to-end encrypted) messages from "
 "client to service and vice versa."
 msgstr ""
+"Der Rendezvous-Punkt leitet einfach (end-to-end verschlüsselte) Nachrichten "
+"vom Programm zum Dienst und umgekehrt weiter."
 
 #: https//community.torproject.org/onion-services/overview/
 #: (content/onion-services/overview/contents+en.lrpage.body)
@@ -3508,6 +3539,9 @@ msgid ""
 "consists of 6 relays: 3 of them were picked by the client with the third "
 "being the rendezvous point and the other 3 were picked by the onion service."
 msgstr ""
+"Generell besteht die komplette Verbindung zwischen Kunde und Onion-Dienst "
+"aus 6 Relays: 3 davon wurden vom Programm ausgewählt, wobei das dritte der "
+"Rendezvous-Punkt ist, und die anderen 3 wurden vom Onion-Dienst ausgewählt."
 
 #: https//community.torproject.org/onion-services/overview/
 #: (content/onion-services/overview/contents+en.lrpage.body)
