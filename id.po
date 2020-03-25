@@ -22,9 +22,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Tor Project\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-01-06 11:20+0100\n"
-"PO-Revision-Date: 2020-02-05 08:11+0000\n"
-"Last-Translator: ical\n"
+"POT-Creation-Date: 2020-03-21 09:59+0100\n"
+"PO-Revision-Date: 2020-03-25 13:13+0000\n"
+"Last-Translator: erinm\n"
 "Language-Team: Indonesian (http://www.transifex.com/otf/torproject/language/id/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -58,6 +58,7 @@ msgid ""
 msgstr "<h1>Bantu kami memperbaiki kutu!</h1>\n<p>Baca <a href=\"%s\">panduan pelaporan kutu kami</a>.</p>\n<p><strong>Jangan sertakan informasi personal lebih dari\nyang diperlukan!</strong></p>\n<h2>Tentang alamat surel yang Anda berikan kepada kami</h2>\n<p>\nMemberikan alamat surel Anda kepada kami memungkinkan kami menghubungi\nAnda untuk mengklarifikasi masalah tersebut. Hal ini diperlukan untuk sebagian\nbesar laporan yang kami terima karena kebanyakan laporan tanpa informasi kontak\ntidak berguna. Dengan kata lain, hal tersebut juga menyediakan informasi\nkemungkinan adanya orang di tengah, seperti surel atau penyedia Internet Anda,\nuntuk mengonfirmasi bahwa Anda menggunakan Tails.\n</p>\n"
 
 #: config/chroot_local-includes/usr/share/tails/additional-software/configuration-window.ui:8
+#: config/chroot_local-includes/usr/src/persistence-setup/lib/Tails/Persistence/Configuration/Presets.pm:100
 #: ../config/chroot_local-includes/usr/share/applications/org.boum.tails.additional-software-config.desktop.in.h:1
 msgid "Additional Software"
 msgstr "Perangkat Lunak Tambahan"
@@ -111,8 +112,8 @@ msgid "_Exit"
 msgstr "_Keluar"
 
 #: config/chroot_local-includes/usr/src/iuk/lib/Tails/IUK/Frontend.pm:178
-#: config/chroot_local-includes/usr/src/iuk/lib/Tails/IUK/Frontend.pm:610
-#: config/chroot_local-includes/usr/src/iuk/lib/Tails/IUK/Frontend.pm:793
+#: config/chroot_local-includes/usr/src/iuk/lib/Tails/IUK/Frontend.pm:611
+#: config/chroot_local-includes/usr/src/iuk/lib/Tails/IUK/Frontend.pm:794
 msgid ""
 "For debugging information, execute the following command: sudo tails-"
 "debugging-info"
@@ -169,39 +170,39 @@ msgstr "memori yang tersedia tidak cukup pada sistem ini"
 msgid "No explanation available for reason '%{reason}s'."
 msgstr "Tidak ada penjelasan yang tersedia untuk '%{reason}s'."
 
-#: config/chroot_local-includes/usr/src/iuk/lib/Tails/IUK/Frontend.pm:345
+#: config/chroot_local-includes/usr/src/iuk/lib/Tails/IUK/Frontend.pm:346
 msgid "The system is up-to-date"
 msgstr "Sistem paling mutakhir"
 
-#: config/chroot_local-includes/usr/src/iuk/lib/Tails/IUK/Frontend.pm:350
+#: config/chroot_local-includes/usr/src/iuk/lib/Tails/IUK/Frontend.pm:351
 msgid "This version of Tails is outdated, and may have security issues."
 msgstr "Versi Tails ini sudah usang, dan mungkin memiliki banyak masalah keamanan."
 
-#: config/chroot_local-includes/usr/src/iuk/lib/Tails/IUK/Frontend.pm:382
+#: config/chroot_local-includes/usr/src/iuk/lib/Tails/IUK/Frontend.pm:383
 #, perl-brace-format
 msgid ""
 "The available incremental upgrade requires %{space_needed}s of free space on"
 " Tails system partition,  but only %{free_space}s is available."
 msgstr "Pemutakhiran berjenjang yang ada membutuhkan ruang kosong sebesar %{space_needed}s pada sistem partisi Tails, tetapi hanya tersedia %{free_space}s."
 
-#: config/chroot_local-includes/usr/src/iuk/lib/Tails/IUK/Frontend.pm:398
+#: config/chroot_local-includes/usr/src/iuk/lib/Tails/IUK/Frontend.pm:399
 #, perl-brace-format
 msgid ""
 "The available incremental upgrade requires %{memory_needed}s of free memory,"
 " but only %{free_memory}s is available."
 msgstr "Pemutakhiran berjenjang yang ada membutuhkan memori bebas sebesar %{memory_needed}s, tetapi hanya tersedia %{free_memory}s."
 
-#: config/chroot_local-includes/usr/src/iuk/lib/Tails/IUK/Frontend.pm:420
+#: config/chroot_local-includes/usr/src/iuk/lib/Tails/IUK/Frontend.pm:421
 msgid ""
 "An incremental upgrade is available, but no full upgrade is.\n"
 "This should not happen. Please report a bug."
 msgstr "Sebuah pemutakhiran berjenjang tersedia, tidak dengan pemutakhiran penuh.\nHal ini seharusnya tidak terjadi. Mohon laporkan kutu tersebut."
 
-#: config/chroot_local-includes/usr/src/iuk/lib/Tails/IUK/Frontend.pm:424
+#: config/chroot_local-includes/usr/src/iuk/lib/Tails/IUK/Frontend.pm:425
 msgid "Error while detecting available upgrades"
 msgstr "Galat saat mendeteksi pemutakhiran yang tersedia"
 
-#: config/chroot_local-includes/usr/src/iuk/lib/Tails/IUK/Frontend.pm:434
+#: config/chroot_local-includes/usr/src/iuk/lib/Tails/IUK/Frontend.pm:435
 #, perl-brace-format
 msgid ""
 "<b>You should upgrade to %{name}s %{version}s.</b>\n"
@@ -216,19 +217,19 @@ msgid ""
 "Do you want to upgrade now?"
 msgstr "<b>Anda harus memperbarui ke %{name}s %{version}s.</b>\n\nUntuk informasi lebih tentang versi baru ini, pergi ke %{details_url}s\n\nKami merekomendasikan Anda untuk menutup semua aplikasi saat pembaruan.\nMengunduh pembaruan mungkin akan memakan waktu panjang, dari beberapa menit ke beberapa jam.\n\nUkuran unduhan: %{size}s\n\nApakah Anda ingin memperbarui sekarang?"
 
-#: config/chroot_local-includes/usr/src/iuk/lib/Tails/IUK/Frontend.pm:448
+#: config/chroot_local-includes/usr/src/iuk/lib/Tails/IUK/Frontend.pm:449
 msgid "Upgrade available"
 msgstr "Tersedia pemutakhiran"
 
-#: config/chroot_local-includes/usr/src/iuk/lib/Tails/IUK/Frontend.pm:449
+#: config/chroot_local-includes/usr/src/iuk/lib/Tails/IUK/Frontend.pm:450
 msgid "Upgrade now"
 msgstr "Mutakhirkan sekarang"
 
-#: config/chroot_local-includes/usr/src/iuk/lib/Tails/IUK/Frontend.pm:450
+#: config/chroot_local-includes/usr/src/iuk/lib/Tails/IUK/Frontend.pm:451
 msgid "Upgrade later"
 msgstr "Mutakhirkan nanti"
 
-#: config/chroot_local-includes/usr/src/iuk/lib/Tails/IUK/Frontend.pm:458
+#: config/chroot_local-includes/usr/src/iuk/lib/Tails/IUK/Frontend.pm:459
 #, perl-brace-format
 msgid ""
 "<b>You should do a manual upgrade to %{name}s %{version}s.</b>\n"
@@ -240,20 +241,20 @@ msgid ""
 "To learn how to do a manual upgrade, go to https://tails.boum.org/doc/upgrade/#manual"
 msgstr ""
 
-#: config/chroot_local-includes/usr/src/iuk/lib/Tails/IUK/Frontend.pm:474
+#: config/chroot_local-includes/usr/src/iuk/lib/Tails/IUK/Frontend.pm:475
 msgid "New version available"
 msgstr "Versi baru telah tersedia"
 
-#: config/chroot_local-includes/usr/src/iuk/lib/Tails/IUK/Frontend.pm:555
+#: config/chroot_local-includes/usr/src/iuk/lib/Tails/IUK/Frontend.pm:556
 msgid "Downloading upgrade"
 msgstr "Mengunduh pemutakhiran"
 
-#: config/chroot_local-includes/usr/src/iuk/lib/Tails/IUK/Frontend.pm:558
+#: config/chroot_local-includes/usr/src/iuk/lib/Tails/IUK/Frontend.pm:559
 #, perl-brace-format
 msgid "Downloading the upgrade to %{name}s %{version}s..."
 msgstr "Mengunduh pemutakhiran ke %{name}s %{version}s..."
 
-#: config/chroot_local-includes/usr/src/iuk/lib/Tails/IUK/Frontend.pm:599
+#: config/chroot_local-includes/usr/src/iuk/lib/Tails/IUK/Frontend.pm:600
 msgid ""
 "<b>The upgrade could not be downloaded.</b>\\n\\nCheck your network "
 "connection, and restart Tails to try upgrading again.\\n\\nIf the problem "
@@ -261,38 +262,38 @@ msgid ""
 "file:///usr/share/doc/tails/website/doc/upgrade/error/download.en.html"
 msgstr "<b>Pemutakhiran tidak bisa diunduh.</b>\\n\\nPeriksa sambungan jaringan Anda, dan  mulai ulang Tails untuk mencoba memutakhirkannya lagi.\\n\\nJika masalah masih tetap ada, baca file:///usr/share/doc/tails/website/doc/upgrade/error/download.en.html"
 
-#: config/chroot_local-includes/usr/src/iuk/lib/Tails/IUK/Frontend.pm:615
-#: config/chroot_local-includes/usr/src/iuk/lib/Tails/IUK/Frontend.pm:634
+#: config/chroot_local-includes/usr/src/iuk/lib/Tails/IUK/Frontend.pm:616
+#: config/chroot_local-includes/usr/src/iuk/lib/Tails/IUK/Frontend.pm:635
 msgid "Error while downloading the upgrade"
 msgstr "Terjadi kesalahan dalam proses pengunduhan pemutakhiran"
 
-#: config/chroot_local-includes/usr/src/iuk/lib/Tails/IUK/Frontend.pm:627
+#: config/chroot_local-includes/usr/src/iuk/lib/Tails/IUK/Frontend.pm:628
 #, perl-brace-format
 msgid ""
 "Output file '%{output_file}s' does not exist, but tails-iuk-get-target-file "
 "did not complain. Please report a bug."
 msgstr "Output file '%{output_file}s' does not exist, but tails-iuk-get-target-file did not complain. Silakan laporkan sebagai bug."
 
-#: config/chroot_local-includes/usr/src/iuk/lib/Tails/IUK/Frontend.pm:646
+#: config/chroot_local-includes/usr/src/iuk/lib/Tails/IUK/Frontend.pm:647
 msgid "Error while creating temporary downloading directory"
 msgstr "Terjadi kesalahan dalam proses pembuatan direktori pengunduhan sementara"
 
-#: config/chroot_local-includes/usr/src/iuk/lib/Tails/IUK/Frontend.pm:649
+#: config/chroot_local-includes/usr/src/iuk/lib/Tails/IUK/Frontend.pm:650
 msgid "Failed to create temporary download directory"
 msgstr "Terjadi kegagalan dalam pembuatan direktori pengunduhan sementara"
 
-#: config/chroot_local-includes/usr/src/iuk/lib/Tails/IUK/Frontend.pm:673
+#: config/chroot_local-includes/usr/src/iuk/lib/Tails/IUK/Frontend.pm:674
 msgid ""
 "<b>Could not choose a download server.</b>\n"
 "\n"
 "This should not happen. Please report a bug."
 msgstr "<b>Tidak dapat memilih server unduh<b>\n\nHal ini seharusnya tidak terjadi. Silakan laporkan bug."
 
-#: config/chroot_local-includes/usr/src/iuk/lib/Tails/IUK/Frontend.pm:677
+#: config/chroot_local-includes/usr/src/iuk/lib/Tails/IUK/Frontend.pm:678
 msgid "Error while choosing a download server"
 msgstr "Kesalahan saat memilih server unduh"
 
-#: config/chroot_local-includes/usr/src/iuk/lib/Tails/IUK/Frontend.pm:692
+#: config/chroot_local-includes/usr/src/iuk/lib/Tails/IUK/Frontend.pm:693
 msgid ""
 "The upgrade was successfully downloaded.\n"
 "\n"
@@ -301,15 +302,15 @@ msgid ""
 "Please save your work and close all other applications."
 msgstr "Pembaruan telah berhasil diunduh.\n\nKoneksi jaringan akan dinonaktifkan\n\nMohon simpan pekerjaan Anda dan tutup semua aplikasi lain."
 
-#: config/chroot_local-includes/usr/src/iuk/lib/Tails/IUK/Frontend.pm:698
+#: config/chroot_local-includes/usr/src/iuk/lib/Tails/IUK/Frontend.pm:699
 msgid "Upgrade successfully downloaded"
 msgstr "Pembaruan berhasil diunduh"
 
-#: config/chroot_local-includes/usr/src/iuk/lib/Tails/IUK/Frontend.pm:700
+#: config/chroot_local-includes/usr/src/iuk/lib/Tails/IUK/Frontend.pm:701
 msgid "Apply upgrade"
 msgstr "Pasang pembaruan"
 
-#: config/chroot_local-includes/usr/src/iuk/lib/Tails/IUK/Frontend.pm:707
+#: config/chroot_local-includes/usr/src/iuk/lib/Tails/IUK/Frontend.pm:708
 msgid ""
 "<b>Your Tails device was successfully upgraded.</b>\n"
 "\n"
@@ -319,46 +320,46 @@ msgid ""
 "Do you want to restart now?"
 msgstr "<b>Perangkat Tails anda telah di upgrade dg sukses.</b>\n\nBeberapa Fitur keamanan untuk sementara di matikan.\nAnda harus restart Tails ke versi yang baru sesegera mungkin\nApakah anda ingin restart sekarang?"
 
-#: config/chroot_local-includes/usr/src/iuk/lib/Tails/IUK/Frontend.pm:712
+#: config/chroot_local-includes/usr/src/iuk/lib/Tails/IUK/Frontend.pm:713
 msgid "Restart Tails"
 msgstr "Memulai kembali Tails"
 
-#: config/chroot_local-includes/usr/src/iuk/lib/Tails/IUK/Frontend.pm:713
+#: config/chroot_local-includes/usr/src/iuk/lib/Tails/IUK/Frontend.pm:714
 msgid "Restart now"
 msgstr "Memulai kembali sekarang"
 
-#: config/chroot_local-includes/usr/src/iuk/lib/Tails/IUK/Frontend.pm:714
+#: config/chroot_local-includes/usr/src/iuk/lib/Tails/IUK/Frontend.pm:715
 msgid "Restart later"
 msgstr "Memulai kembali nanti"
 
-#: config/chroot_local-includes/usr/src/iuk/lib/Tails/IUK/Frontend.pm:725
+#: config/chroot_local-includes/usr/src/iuk/lib/Tails/IUK/Frontend.pm:726
 msgid "Error while restarting the system"
 msgstr "Error selagi restart  sistem"
 
-#: config/chroot_local-includes/usr/src/iuk/lib/Tails/IUK/Frontend.pm:728
+#: config/chroot_local-includes/usr/src/iuk/lib/Tails/IUK/Frontend.pm:729
 msgid "Failed to restart the system"
 msgstr "gagal untuk restart  sistem"
 
-#: config/chroot_local-includes/usr/src/iuk/lib/Tails/IUK/Frontend.pm:743
+#: config/chroot_local-includes/usr/src/iuk/lib/Tails/IUK/Frontend.pm:744
 msgid "Error while shutting down the network"
 msgstr "Error selagi shut down jaringan"
 
-#: config/chroot_local-includes/usr/src/iuk/lib/Tails/IUK/Frontend.pm:746
+#: config/chroot_local-includes/usr/src/iuk/lib/Tails/IUK/Frontend.pm:747
 msgid "Failed to shutdown network"
 msgstr "Gagal untuk shutdown jaringan"
 
-#: config/chroot_local-includes/usr/src/iuk/lib/Tails/IUK/Frontend.pm:753
+#: config/chroot_local-includes/usr/src/iuk/lib/Tails/IUK/Frontend.pm:754
 msgid "Upgrading the system"
 msgstr "Upgrade sistem"
 
-#: config/chroot_local-includes/usr/src/iuk/lib/Tails/IUK/Frontend.pm:755
+#: config/chroot_local-includes/usr/src/iuk/lib/Tails/IUK/Frontend.pm:756
 msgid ""
 "<b>Your Tails device is being upgraded...</b>\n"
 "\n"
 "For security reasons, the networking is now disabled."
 msgstr "<b>Perangkat Tails anda di  upgrade...</b>\n\nUntuk alasan keamanan, jaringan sekarang di matikan."
 
-#: config/chroot_local-includes/usr/src/iuk/lib/Tails/IUK/Frontend.pm:788
+#: config/chroot_local-includes/usr/src/iuk/lib/Tails/IUK/Frontend.pm:789
 msgid ""
 "<b>An error occured while installing the upgrade.</b>\\n\\nYour Tails device"
 " needs to be repaired and might be unable to restart.\\n\\nPlease follow the"
@@ -366,7 +367,7 @@ msgid ""
 "file:///usr/share/doc/tails/website/doc/upgrade/error/install.en.html"
 msgstr "<b>Terjadi error selagi instal upgrade.</b>\\n\\nPerangkat Tails anda harus di repair dan mungkin tidak bisa di restart .\\n\\nSilakan ikuti instruksi pada file:///usr/share/doc/tails/website/doc/upgrade/error/install.en.html"
 
-#: config/chroot_local-includes/usr/src/iuk/lib/Tails/IUK/Frontend.pm:798
+#: config/chroot_local-includes/usr/src/iuk/lib/Tails/IUK/Frontend.pm:799
 msgid "Error while installing the upgrade"
 msgstr "Error selagi instal  upgrade"
 
@@ -515,15 +516,319 @@ msgstr "Ganti nama"
 msgid "Keep current name"
 msgstr "Pertahankan nama saat ini"
 
-#: config/chroot_local-includes/usr/local/bin/replace-su-with-sudo:21
-msgid "su is disabled. Please use sudo instead."
-msgstr "su dinonaktifkan. Mohon gunakan sudo sebagai gantinya."
+#: config/chroot_local-includes/usr/src/persistence-setup/lib/Tails/Persistence/Step/Bootstrap.pm:96
+msgid "Persistence wizard - Persistent volume creation"
+msgstr "Wizard persistent - persistent volume creation"
 
+#: config/chroot_local-includes/usr/src/persistence-setup/lib/Tails/Persistence/Step/Bootstrap.pm:99
+msgid "Choose a passphrase to protect the persistent volume"
+msgstr "Pilih kata kunci untuk memprotect volume persistent"
+
+#: config/chroot_local-includes/usr/src/persistence-setup/lib/Tails/Persistence/Step/Bootstrap.pm:103
+#, perl-format
+msgid ""
+"A %s persistent volume will be created on the <b>%s %s</b> device. Data on "
+"this volume will be stored in an encrypted form protected by a passphrase."
+msgstr "A %s volume persistent akan dibuat pada perangkat <b>%s %s</b>. Data pada volume ini akan disimpan pada bentuk proteksi terenkripsi dengan sebuah Passphrase"
+
+#: config/chroot_local-includes/usr/src/persistence-setup/lib/Tails/Persistence/Step/Bootstrap.pm:108
+msgid "Create"
+msgstr "Buat"
+
+#: config/chroot_local-includes/usr/src/persistence-setup/lib/Tails/Persistence/Step/Bootstrap.pm:151
+msgid ""
+"<b>Beware!</b> Using persistence has consequences that must be well "
+"understood. Tails can't help you if you use it wrong! See the <i>Encrypted "
+"persistence</i> page of the Tails documentation to learn more."
+msgstr "<b>Waspadalah!</b> Menggunakan volume tetap memiliki konsekuensi yang harus dimengerti. Tails tidak dapat menolong jika Anda salah menggunakannya! Lihat halaman <i>Volume tetap terenkripsi</i> pada dokumentasi Tails untuk mempelajari lebih lanjut."
+
+#: config/chroot_local-includes/usr/src/persistence-setup/lib/Tails/Persistence/Step/Bootstrap.pm:179
+msgid "Passphrase:"
+msgstr "Frasa sandi:"
+
+#: config/chroot_local-includes/usr/src/persistence-setup/lib/Tails/Persistence/Step/Bootstrap.pm:187
+msgid "Verify Passphrase:"
+msgstr "Verifikasi Kalimat:"
+
+#: config/chroot_local-includes/usr/src/persistence-setup/lib/Tails/Persistence/Step/Bootstrap.pm:198
+#: config/chroot_local-includes/usr/src/persistence-setup/lib/Tails/Persistence/Step/Bootstrap.pm:266
+msgid "Passphrase can't be empty"
+msgstr "Kalimat tidak boleh kosong"
+
+#: config/chroot_local-includes/usr/src/persistence-setup/lib/Tails/Persistence/Step/Bootstrap.pm:233
+#: ../config/chroot_local-includes/usr/share/tails/greeter/main.ui.in:326
+msgid "Show Passphrase"
+msgstr "Tampilkan Kata Kunci"
+
+#: config/chroot_local-includes/usr/src/persistence-setup/lib/Tails/Persistence/Step/Bootstrap.pm:257
+msgid "Passphrases do not match"
+msgstr "Kalimat tidak cocok"
+
+#: config/chroot_local-includes/usr/src/persistence-setup/lib/Tails/Persistence/Step/Bootstrap.pm:312
+#: config/chroot_local-includes/usr/src/persistence-setup/lib/Tails/Persistence/Step/Configure.pm:181
+#: config/chroot_local-includes/usr/src/persistence-setup/lib/Tails/Persistence/Step/Delete.pm:103
+msgid "Failed"
+msgstr "Gagal"
+
+#: config/chroot_local-includes/usr/src/persistence-setup/lib/Tails/Persistence/Step/Bootstrap.pm:320
+msgid "Mounting Tails persistence partition."
+msgstr "Pemasangan Partisi Tail persistent"
+
+#: config/chroot_local-includes/usr/src/persistence-setup/lib/Tails/Persistence/Step/Bootstrap.pm:323
+msgid "The Tails persistence partition will be mounted."
+msgstr "Partisi persistent akan di pasang"
+
+#: config/chroot_local-includes/usr/src/persistence-setup/lib/Tails/Persistence/Step/Bootstrap.pm:332
+msgid "Correcting permissions of the persistent volume."
+msgstr "Koreksi izin/permisi dari volume persistent"
+
+#: config/chroot_local-includes/usr/src/persistence-setup/lib/Tails/Persistence/Step/Bootstrap.pm:335
+msgid "The permissions of the persistent volume will be corrected."
+msgstr "Izin  volume persistent akan dikoreksi"
+
+#: config/chroot_local-includes/usr/src/persistence-setup/lib/Tails/Persistence/Step/Bootstrap.pm:343
+msgid "Creating default persistence configuration."
+msgstr "Membuat konfigurasi volume tetap standar."
+
+#: config/chroot_local-includes/usr/src/persistence-setup/lib/Tails/Persistence/Step/Bootstrap.pm:346
+msgid "The default persistence configuration will be created."
+msgstr "Konfigurasi standar volume tetap akan dibuat."
+
+#: config/chroot_local-includes/usr/src/persistence-setup/lib/Tails/Persistence/Step/Bootstrap.pm:361
+msgid "Creating..."
+msgstr "Membuat...."
+
+#: config/chroot_local-includes/usr/src/persistence-setup/lib/Tails/Persistence/Step/Bootstrap.pm:364
+msgid "Creating the persistent volume..."
+msgstr "Pembuatan volume persistent"
+
+#: config/chroot_local-includes/usr/src/persistence-setup/lib/Tails/Persistence/Step/Configure.pm:88
+msgid "Persistence wizard - Persistent volume configuration"
+msgstr "Wizard Persistent - konfigurasi persisent volume"
+
+#: config/chroot_local-includes/usr/src/persistence-setup/lib/Tails/Persistence/Step/Configure.pm:91
+msgid "Specify the files that will be saved in the persistent volume"
+msgstr "File spesifik yang tersimpan di dalam persistent volume"
+
+#: config/chroot_local-includes/usr/src/persistence-setup/lib/Tails/Persistence/Step/Configure.pm:95
+#, perl-format
+msgid ""
+"The selected files will be stored in the encrypted partition %s (%s), on the"
+" <b>%s %s</b> device."
+msgstr "Berkas-berkas yang terseleksi akan disimpan di dalam partisi terenkripsi %s (%s), di perangkat <b>%s %s</b>."
+
+#: config/chroot_local-includes/usr/src/persistence-setup/lib/Tails/Persistence/Step/Configure.pm:101
+msgid "Save"
+msgstr "Simpan"
+
+#: config/chroot_local-includes/usr/src/persistence-setup/lib/Tails/Persistence/Step/Configure.pm:195
+msgid "Saving..."
+msgstr "Sedang menyimpan...."
+
+#: config/chroot_local-includes/usr/src/persistence-setup/lib/Tails/Persistence/Step/Configure.pm:198
+msgid "Saving persistence configuration..."
+msgstr "konfigurasi penyimpanan persistent"
+
+#: config/chroot_local-includes/usr/src/persistence-setup/lib/Tails/Persistence/Step/Delete.pm:53
+msgid "Persistence wizard - Persistent volume deletion"
+msgstr "Wizard Persistence - Penghapusan volume persistent"
+
+#: config/chroot_local-includes/usr/src/persistence-setup/lib/Tails/Persistence/Step/Delete.pm:56
+msgid "Your persistent data will be deleted."
+msgstr "Data Persistent anda akan dihapus"
+
+#: config/chroot_local-includes/usr/src/persistence-setup/lib/Tails/Persistence/Step/Delete.pm:60
+#, perl-format
+msgid ""
+"The persistent volume %s (%s), on the <b>%s %s</b> device, will be deleted."
+msgstr "Volume persistent  %s (%s), pada perangkat <b>%s %s</b> , akan dihapus ."
+
+#: config/chroot_local-includes/usr/src/persistence-setup/lib/Tails/Persistence/Step/Delete.pm:66
+msgid "Delete"
+msgstr "Hapus"
+
+#: config/chroot_local-includes/usr/src/persistence-setup/lib/Tails/Persistence/Step/Delete.pm:117
+msgid "Deleting..."
+msgstr "Sedang menghapus...."
+
+#: config/chroot_local-includes/usr/src/persistence-setup/lib/Tails/Persistence/Step/Delete.pm:120
+msgid "Deleting the persistent volume..."
+msgstr "Penghapusan persistent volume"
+
+#: config/chroot_local-includes/usr/src/persistence-setup/lib/Tails/Persistence/Configuration/Presets.pm:55
+msgid "Personal Data"
+msgstr "Data Pribadi"
+
+#: config/chroot_local-includes/usr/src/persistence-setup/lib/Tails/Persistence/Configuration/Presets.pm:57
+msgid "Keep files stored in the `Persistent' directory"
+msgstr "Simpan berkas di direktori `Persistent'"
+
+#: config/chroot_local-includes/usr/src/persistence-setup/lib/Tails/Persistence/Configuration/Presets.pm:70
+msgid "Browser Bookmarks"
+msgstr "Markah Peramban"
+
+#: config/chroot_local-includes/usr/src/persistence-setup/lib/Tails/Persistence/Configuration/Presets.pm:72
+msgid "Bookmarks saved in the Tor Browser"
+msgstr "Markah tersimpan di dalam peramban Tor"
+
+#: config/chroot_local-includes/usr/src/persistence-setup/lib/Tails/Persistence/Configuration/Presets.pm:85
+msgid "Network Connections"
+msgstr "Koneksi Jaringan"
+
+#: config/chroot_local-includes/usr/src/persistence-setup/lib/Tails/Persistence/Configuration/Presets.pm:87
+msgid "Configuration of network devices and connections"
+msgstr "Pengaturan perangkat jaringan dan koneksi"
+
+#: config/chroot_local-includes/usr/src/persistence-setup/lib/Tails/Persistence/Configuration/Presets.pm:102
+msgid "Software installed when starting Tails"
+msgstr "Perangkat lunak terpasang saat memulai Tails"
+
+#: config/chroot_local-includes/usr/src/persistence-setup/lib/Tails/Persistence/Configuration/Presets.pm:120
+msgid "Printers"
+msgstr "Pencetak"
+
+#: config/chroot_local-includes/usr/src/persistence-setup/lib/Tails/Persistence/Configuration/Presets.pm:122
+msgid "Printers configuration"
+msgstr "Konfigurasi pencetak"
+
+#: config/chroot_local-includes/usr/src/persistence-setup/lib/Tails/Persistence/Configuration/Presets.pm:135
+msgid "Thunderbird"
+msgstr "Thunderbird"
+
+#: config/chroot_local-includes/usr/src/persistence-setup/lib/Tails/Persistence/Configuration/Presets.pm:137
+msgid "Thunderbird emails, feeds, and settings"
+msgstr "Surel, feed, dan pengaturan Thunderbird"
+
+#: config/chroot_local-includes/usr/src/persistence-setup/lib/Tails/Persistence/Configuration/Presets.pm:150
+msgid "GnuPG"
+msgstr "GnuPG"
+
+#: config/chroot_local-includes/usr/src/persistence-setup/lib/Tails/Persistence/Configuration/Presets.pm:152
+msgid "GnuPG keyrings and configuration"
+msgstr "Keyrings GnuPG dan konfigurasi"
+
+#: config/chroot_local-includes/usr/src/persistence-setup/lib/Tails/Persistence/Configuration/Presets.pm:165
+msgid "Bitcoin Client"
+msgstr "Klien Bitcoin"
+
+#: config/chroot_local-includes/usr/src/persistence-setup/lib/Tails/Persistence/Configuration/Presets.pm:167
+msgid "Electrum's bitcoin wallet and configuration"
+msgstr "Dompet bitcoin dan konfigurasi Electrum"
+
+#: config/chroot_local-includes/usr/src/persistence-setup/lib/Tails/Persistence/Configuration/Presets.pm:180
+msgid "Pidgin"
+msgstr "Pidgin"
+
+#: config/chroot_local-includes/usr/src/persistence-setup/lib/Tails/Persistence/Configuration/Presets.pm:182
+msgid "Pidgin profiles and OTR keyring"
+msgstr "Profil Pidgin dan keyring OTR"
+
+#: config/chroot_local-includes/usr/src/persistence-setup/lib/Tails/Persistence/Configuration/Presets.pm:195
+msgid "SSH Client"
+msgstr "Aplikasi SSH"
+
+#: config/chroot_local-includes/usr/src/persistence-setup/lib/Tails/Persistence/Configuration/Presets.pm:197
+msgid "SSH keys, configuration and known hosts"
+msgstr "Kunci SSH, konfigurasi dan hos yang dikenal"
+
+#: config/chroot_local-includes/usr/src/persistence-setup/lib/Tails/Persistence/Configuration/Presets.pm:210
+msgid "Dotfiles"
+msgstr "Berkas titik"
+
+#: config/chroot_local-includes/usr/src/persistence-setup/lib/Tails/Persistence/Configuration/Presets.pm:212
+msgid ""
+"Symlink into $HOME every file or directory found in the `dotfiles' directory"
+msgstr "Symlink ke dalam $HOME setiap file atau direktori di peroleh dalam direktori 'dotfiles'"
+
+#: config/chroot_local-includes/usr/src/persistence-setup/lib/Tails/Persistence/Configuration/Setting.pm:113
+msgid "Custom"
+msgstr "Kustom "
+
+#: config/chroot_local-includes/usr/src/persistence-setup/lib/Tails/Persistence/Setup.pm:265
+msgid "Setup Tails persistent volume"
+msgstr "Pengaturan volume tetap Tails"
+
+#: config/chroot_local-includes/usr/src/persistence-setup/lib/Tails/Persistence/Setup.pm:343
+#: config/chroot_local-includes/usr/src/persistence-setup/lib/Tails/Persistence/Setup.pm:481
 #: config/chroot_local-includes/usr/src/perl5lib/lib/Tails/RunningSystem.pm:223
 #: config/chroot_local-includes/usr/local/bin/tails-upgrade-frontend-wrapper:76
 #: config/chroot_local-includes/usr/local/sbin/unsafe-browser:25
 msgid "Error"
 msgstr "Kesalahan"
+
+#: config/chroot_local-includes/usr/src/persistence-setup/lib/Tails/Persistence/Setup.pm:372
+#, perl-format
+msgid "Device %s already has a persistent volume."
+msgstr "Perangkat %s sudah  memiliki volume tetap."
+
+#: config/chroot_local-includes/usr/src/persistence-setup/lib/Tails/Persistence/Setup.pm:380
+#, perl-format
+msgid "Device %s has not enough unallocated space."
+msgstr "Perangkat %s tidak memiliki ruang tidak teralokasi yang cukup."
+
+#: config/chroot_local-includes/usr/src/persistence-setup/lib/Tails/Persistence/Setup.pm:387
+#: config/chroot_local-includes/usr/src/persistence-setup/lib/Tails/Persistence/Setup.pm:401
+#, perl-format
+msgid "Device %s has no persistent volume."
+msgstr "Device %s tidak memiliki volume persistent"
+
+#: config/chroot_local-includes/usr/src/persistence-setup/lib/Tails/Persistence/Setup.pm:393
+#, perl-format
+msgid ""
+"Cannot delete the persistent volume on %s while in use. You should restart "
+"Tails without persistence."
+msgstr "Tidak dapat menghapus volume tetap pada %s saat digunakan. Anda harus mengulang kembali Tails tanpa volume tetap."
+
+#: config/chroot_local-includes/usr/src/persistence-setup/lib/Tails/Persistence/Setup.pm:407
+#, perl-format
+msgid "Persistence volume on %s is not unlocked."
+msgstr "Volume tetap pada %s tidak terkunci."
+
+#: config/chroot_local-includes/usr/src/persistence-setup/lib/Tails/Persistence/Setup.pm:412
+#, perl-format
+msgid "Persistence volume on %s is not mounted."
+msgstr "Volume tetap pada %s tidak terpasang."
+
+#: config/chroot_local-includes/usr/src/persistence-setup/lib/Tails/Persistence/Setup.pm:417
+#, perl-format
+msgid ""
+"Persistence volume on %s is not readable. Permissions or ownership problems?"
+msgstr "Volume tetap pada %s tidak terbaca. Masalah izin atau kepemilikan?"
+
+#: config/chroot_local-includes/usr/src/persistence-setup/lib/Tails/Persistence/Setup.pm:422
+#, perl-format
+msgid "Persistence volume on %s is not writable."
+msgstr "Volume tetap pada %s tidak dapat ditulis."
+
+#: config/chroot_local-includes/usr/src/persistence-setup/lib/Tails/Persistence/Setup.pm:431
+#, perl-format
+msgid "Tails is running from non-USB / non-SDIO device %s."
+msgstr "Tails dijalankan dari perangkat non-USB atau non-SDIO (perangkat %s)."
+
+#: config/chroot_local-includes/usr/src/persistence-setup/lib/Tails/Persistence/Setup.pm:437
+#, perl-format
+msgid "Device %s is optical."
+msgstr "Perangkat %s adalah CD/DVD."
+
+#: config/chroot_local-includes/usr/src/persistence-setup/lib/Tails/Persistence/Setup.pm:444
+#, perl-format
+msgid "Device %s was not created using a USB image or Tails Installer."
+msgstr "Perangkat %s tidak dibuat menggunakan sebuah gambar USB atau pemasang Tails."
+
+#: config/chroot_local-includes/usr/src/persistence-setup/lib/Tails/Persistence/Setup.pm:688
+msgid "Persistence wizard - Finished"
+msgstr "Wizard persistent - selesai"
+
+#: config/chroot_local-includes/usr/src/persistence-setup/lib/Tails/Persistence/Setup.pm:691
+msgid ""
+"Any changes you have made will only take effect after restarting Tails.\n"
+"\n"
+"You may now close this application."
+msgstr "Perubahan-perubahan yang telah Anda buat hanya akan berlaku setelah Tails dijalankan ulang.\n\nAnda dapat menutup aplikasi ini sekarang."
+
+#: config/chroot_local-includes/usr/local/bin/replace-su-with-sudo:21
+msgid "su is disabled. Please use sudo instead."
+msgstr "su dinonaktifkan. Mohon gunakan sudo sebagai gantinya."
 
 #: config/chroot_local-includes/usr/src/perl5lib/lib/Tails/RunningSystem.pm:225
 msgid ""
@@ -1146,6 +1451,24 @@ msgstr "Pelajari bagaimana menggunakan Tails"
 msgid "Learn more about Tails"
 msgstr "Pelajari lebih lanjut mengenail Tails"
 
+#: ../config/chroot_local-includes/usr/share/applications/tails-persistence-delete.desktop.in.h:1
+msgid "Delete persistent volume"
+msgstr ""
+
+#: ../config/chroot_local-includes/usr/share/applications/tails-persistence-delete.desktop.in.h:2
+msgid "Delete the persistent volume and its content"
+msgstr ""
+
+#: ../config/chroot_local-includes/usr/share/applications/tails-persistence-setup.desktop.in.h:1
+msgid "Configure persistent volume"
+msgstr ""
+
+#: ../config/chroot_local-includes/usr/share/applications/tails-persistence-setup.desktop.in.h:2
+msgid ""
+"Configure which files and application configuration are saved between "
+"working sessions"
+msgstr ""
+
 #: ../config/chroot_local-includes/usr/share/applications/tor-browser.desktop.in.h:1
 msgid "Tor Browser"
 msgstr "Tor Browser"
@@ -1281,10 +1604,6 @@ msgstr "Pengaturan Default"
 #: ../config/chroot_local-includes/usr/share/tails/greeter/main.ui.in:285
 msgid "Encrypted _Persistent Storage"
 msgstr "_Penyimpanan Menetap Terenkripsi"
-
-#: ../config/chroot_local-includes/usr/share/tails/greeter/main.ui.in:326
-msgid "Show Passphrase"
-msgstr "Tampilkan Kata Kunci"
 
 #. The label for this placeholder text is not very big, so keep this string
 #. short.
