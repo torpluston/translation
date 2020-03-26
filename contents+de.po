@@ -4508,12 +4508,12 @@ msgstr "## Rede über Tor"
 #: https//community.torproject.org/relay/setup/post-install/
 #: (content/relay-operations/technical-setup/post-install/contents+en.lrpage.title)
 msgid "Relay Post-install and good practices"
-msgstr ""
+msgstr "Relay-Nachinstallation und bewährte Praktiken"
 
 #: https//community.torproject.org/relay/setup/post-install/
 #: (content/relay-operations/technical-setup/post-install/contents+en.lrpage.body)
 msgid "#1. Make sure relay ports can be reached"
-msgstr ""
+msgstr "#1. Stelle sicher, dass die Relay-Anschlüsse erreicht werden können"
 
 #: https//community.torproject.org/relay/setup/post-install/
 #: (content/relay-operations/technical-setup/post-install/contents+en.lrpage.body)
@@ -4522,6 +4522,9 @@ msgid ""
 "connections can reach the ports you will use for your relay (ORPort, plus "
 "DirPort if you enabled it)."
 msgstr ""
+"Wenn du eine Firewall verwendest, öffne ein Loch in deiner Firewall, so dass"
+" eingehende Verbindungen die Ports erreichen können, die du für dein Relay "
+"(ORPort, plus DirPort, wenn du es aktiviert hast) verwenden wirst."
 
 #: https//community.torproject.org/relay/setup/post-install/
 #: (content/relay-operations/technical-setup/post-install/contents+en.lrpage.body)
@@ -4529,6 +4532,8 @@ msgid ""
 "Also, make sure you allow all outgoing connections too, so your relay can "
 "reach the other Tor relays, clients and destinations."
 msgstr ""
+"Stelle außerdem sicher, dass du auch alle ausgehenden Verbindungen zulässt, "
+"damit dein Relay die anderen Tor-Relays, Clients und Ziele erreichen kann."
 
 #: https//community.torproject.org/relay/setup/post-install/
 #: (content/relay-operations/technical-setup/post-install/contents+en.lrpage.body)
@@ -4536,11 +4541,13 @@ msgid ""
 "You can find the specific ORPort TCP port number in the torrc configuration "
 "samples bellow (in the OS specific sections)."
 msgstr ""
+"Die spezifische ORPort TCP-Anschluss-Nummer findest du in den torrc-"
+"Konfigurationsbeispielen weiter unten (in den OS-spezifischen Abschnitten)."
 
 #: https//community.torproject.org/relay/setup/post-install/
 #: (content/relay-operations/technical-setup/post-install/contents+en.lrpage.body)
 msgid "# 2. Verify that your relay works"
-msgstr ""
+msgstr "# 2. Überprüfe, ob dein Relay funktioniert"
 
 #: https//community.torproject.org/relay/setup/post-install/
 #: (content/relay-operations/technical-setup/post-install/contents+en.lrpage.body)
@@ -4548,6 +4555,8 @@ msgid ""
 "If your logfile (syslog) contains the following entry after starting your "
 "tor daemon your relay should be up and running as expected:"
 msgstr ""
+"Wenn deine Logdatei (syslog) nach dem Start deines tor-Daemons den folgenden"
+" Eintrag enthält, sollte dein Relay wie erwartet laufen:"
 
 #: https//community.torproject.org/relay/setup/post-install/
 #: (content/relay-operations/technical-setup/post-install/contents+en.lrpage.body)
@@ -4605,11 +4614,13 @@ msgstr "```"
 msgid ""
 "Self-testing indicates your ORPort is reachable from the outside. Excellent."
 msgstr ""
+"Der Selbsttest zeigt an, dass dein ORPort von außen erreichbar ist. "
+"Ausgezeichnet."
 
 #: https//community.torproject.org/relay/setup/post-install/
 #: (content/relay-operations/technical-setup/post-install/contents+en.lrpage.body)
 msgid "Publishing server descriptor."
-msgstr ""
+msgstr "Veröffentlichen des Server-Deskriptors."
 
 #: https//community.torproject.org/relay/setup/post-install/
 #: (content/relay-operations/technical-setup/post-install/contents+en.lrpage.body)
@@ -4624,11 +4635,13 @@ msgstr ""
 #: (content/relay-operations/technical-setup/post-install/contents+en.lrpage.body)
 msgid "You can search for your relay using your nickname or IP address."
 msgstr ""
+"Du kannst mit deinem Spitznamen oder deiner IP-Adresse nach deinem Relay "
+"suchen."
 
 #: https//community.torproject.org/relay/setup/post-install/
 #: (content/relay-operations/technical-setup/post-install/contents+en.lrpage.body)
 msgid "# 3. Read about Tor relay lifecycle"
-msgstr ""
+msgstr "# 3. Mehr zum Thema Tor-Relay-Lebenszyklus."
 
 #: https//community.torproject.org/relay/setup/post-install/
 #: (content/relay-operations/technical-setup/post-install/contents+en.lrpage.body)
@@ -4638,11 +4651,15 @@ msgid ""
 "this process, read about the [lifecycle of a new "
 "relay](https://blog.torproject.org/lifecycle-new-relay)."
 msgstr ""
+"Es dauert eine gewisse Zeit, bis der Relay-Verkehr ansteigt, dies gilt "
+"insbesondere für die Schutz-Relays, in geringerem Maße aber auch für die "
+"Exit-Relays. Um diesen Prozess zu verstehen, lies über den [Lebenszyklus "
+"eines neuen Relays] (https://blog.torproject.org/lifecycle-new-relay)."
 
 #: https//community.torproject.org/relay/setup/post-install/
 #: (content/relay-operations/technical-setup/post-install/contents+en.lrpage.body)
 msgid "# 4. Configuration Management"
-msgstr ""
+msgstr "# 4. Konfigurations-Management"
 
 #: https//community.torproject.org/relay/setup/post-install/
 #: (content/relay-operations/technical-setup/post-install/contents+en.lrpage.body)
@@ -4654,6 +4671,12 @@ msgid ""
 " without performing additional steps manually, you may want to use a "
 "configuration management for better maintainability."
 msgstr ""
+"Wenn du planst, mehr als ein einzelnes Relay zu betreiben, oder wenn du ein "
+"Relay mit hoher Kapazität (mehrere Tor-Instanzen pro Server) betreiben "
+"willst, oder wenn du starke Sicherheitsfunktionen wie [Offline Master "
+"Keys](https://trac.torproject.org/projects/tor/wiki/doc/TorRelaySecurity/OfflineKeys)"
+" nutzen willst, ohne zusätzliche Schritte manuell durchzuführen, solltest du"
+" ein Konfigurations-Management für eine bessere Wartungsfähigkeit verwenden."
 
 #: https//community.torproject.org/relay/setup/post-install/
 #: (content/relay-operations/technical-setup/post-install/contents+en.lrpage.body)
@@ -4661,6 +4684,8 @@ msgid ""
 "There are multiple configuration management solutions for Unix based "
 "operating systems (Ansible, Puppet, Salt, ...)."
 msgstr ""
+"Es gibt mehrere Konfigurations-Management-Lösungen für Unix-basierte "
+"Betriebssysteme (Ansible, Puppet, Salt, ...)."
 
 #: https//community.torproject.org/relay/setup/post-install/
 #: (content/relay-operations/technical-setup/post-install/contents+en.lrpage.body)
@@ -4669,11 +4694,14 @@ msgid ""
 "operators and supports multiple operating systems: [Ansible "
 "Relayor](http://github.com/nusenu/ansible-relayor)."
 msgstr ""
+"Die folgende Ansible-Rolle wurde speziell für Tor-Relay-Betreiber erstellt "
+"und unterstützt mehrere Betriebssysteme: [Ansible "
+"Relayor](http://github.com/nusenu/ansible-relayor)."
 
 #: https//community.torproject.org/relay/setup/post-install/
 #: (content/relay-operations/technical-setup/post-install/contents+en.lrpage.body)
 msgid "# 5. Important: if you run more than one Tor instance"
-msgstr ""
+msgstr "# 5. Wichtig: Wenn du mehr als eine Tor-Instanz ausführst"
 
 #: https//community.torproject.org/relay/setup/post-install/
 #: (content/relay-operations/technical-setup/post-install/contents+en.lrpage.body)
@@ -4684,6 +4712,12 @@ msgid ""
 "[ContactInfo](https://2019.www.torproject.org/docs/tor-"
 "manual.html.en#ContactInfo) in your torrc configuration."
 msgstr ""
+"Um zu vermeiden, dass du Tor-Clients beim Betrieb mehrerer Relays einem "
+"Risiko aussetzt, musst du einen korrekten "
+"[MyFamily](https://2019.www.torproject.org/docs/tor-manual.html.en#MyFamily)"
+" -Wert einstellen und eine gültige "
+"[ContactInfo](https://2019.www.torproject.org/docs/tor-"
+"manual.html.en#ContactInfo) in deiner torrc-Konfiguration haben."
 
 #: https//community.torproject.org/relay/setup/post-install/
 #: (content/relay-operations/technical-setup/post-install/contents+en.lrpage.body)
@@ -4692,6 +4726,10 @@ msgid ""
 "controlled by a single entity/operator/organization, so they are not used in"
 " multiple positions in a single circuit."
 msgstr ""
+"Die MyFamily-Einstellung teilt den Tor-Clients einfach mit, welche Tor-"
+"Relays von einer einzigen Entität/Betreiber/Organisation kontrolliert "
+"werden, so dass sie nicht an mehreren Stellen in einem einzigen Kanal "
+"verwendet werden."
 
 #: https//community.torproject.org/relay/setup/post-install/
 #: (content/relay-operations/technical-setup/post-install/contents+en.lrpage.body)
@@ -4699,11 +4737,14 @@ msgid ""
 "If you run two relays and they have fingerprints AAAAAAAAAA and BBBBBBBB, "
 "you would add the following configuration to set MyFamily:"
 msgstr ""
+"Wenn du zwei Relays mit den Fingerabdrücken AAAAAAAAAAAA und BBBBBBBBBB "
+"betreibst, solltest du die folgende Konfiguration zur Einstellung von "
+"MyFamily hinzufügen:"
 
 #: https//community.torproject.org/relay/setup/post-install/
 #: (content/relay-operations/technical-setup/post-install/contents+en.lrpage.body)
 msgid "MyFamily AAAAAAAAAA,BBBBBBBB"
-msgstr ""
+msgstr "MyFamily AAAAAAAAAA,BBBBBBBB"
 
 #: https//community.torproject.org/relay/setup/post-install/
 #: (content/relay-operations/technical-setup/post-install/contents+en.lrpage.body)
