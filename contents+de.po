@@ -4753,6 +4753,9 @@ msgid ""
 "files when tor starts up or find the file named \"fingerprint\" in your tor "
 "DataDirectory."
 msgstr ""
+"zu beiden Relays. Um den Fingerabdruck deines Relays zu finden, kannst du "
+"beim Start von tor in die Log-Dateien schauen oder die Datei \"fingerprint\""
+" in deinem tor-DataDirectory finden."
 
 #: https//community.torproject.org/relay/setup/post-install/
 #: (content/relay-operations/technical-setup/post-install/contents+en.lrpage.body)
@@ -4760,6 +4763,9 @@ msgid ""
 "Instead of doing so manually for big operators we recommend to automate the "
 "MyFamily setting via a configuration management solution."
 msgstr ""
+"Anstatt dies bei großen Betreibern manuell zu tun, empfehlen wir, die "
+"Einstellung von MyFamily über eine Konfigurations-Management-Lösung zu "
+"automatisieren."
 
 #: https//community.torproject.org/relay/setup/post-install/
 #: (content/relay-operations/technical-setup/post-install/contents+en.lrpage.body)
@@ -4767,11 +4773,14 @@ msgid ""
 "Manually managing MyFamily for big relay groups is error prone and can put "
 "Tor clients at risk."
 msgstr ""
+"Die manuelle Verwaltung von MyFamily für große Relay-Gruppen ist "
+"fehleranfällig und kann Tor-Clients einem Risiko aussetzen."
 
 #: https//community.torproject.org/relay/setup/post-install/
 #: (content/relay-operations/technical-setup/post-install/contents+en.lrpage.body)
 msgid "# 6. Optional: Limiting bandwidth usage (and traffic)"
 msgstr ""
+"# 6. Optional: Begrenzung der Bandbreitennutzung (und des Datenverkehrs)"
 
 #: https//community.torproject.org/relay/setup/post-install/
 #: (content/relay-operations/technical-setup/post-install/contents+en.lrpage.body)
@@ -4779,6 +4788,9 @@ msgid ""
 "Tor will not limit its bandwidth usage by default, but supports multiple "
 "ways to restrict the used bandwidth and the amount of traffic."
 msgstr ""
+"Tor schränkt seine Bandbreitennutzung nicht standardmäßig ein, unterstützt "
+"aber mehrere Möglichkeiten, die genutzte Bandbreite und die Menge des "
+"Datenverkehrs zu begrenzen."
 
 #: https//community.torproject.org/relay/setup/post-install/
 #: (content/relay-operations/technical-setup/post-install/contents+en.lrpage.body)
@@ -4786,6 +4798,9 @@ msgid ""
 "This can be handy if you want to ensure that your Tor relay does not exceed "
 "a certain amount of bandwidth or total traffic per day/week/month."
 msgstr ""
+"Dies kann praktisch sein, wenn du sicherstellen möchtest, dass dein Tor-"
+"Relay eine bestimmte Bandbreite oder den Gesamtverkehr pro Tag/Woche/Monat "
+"nicht überschreitet."
 
 #: https//community.torproject.org/relay/setup/post-install/
 #: (content/relay-operations/technical-setup/post-install/contents+en.lrpage.body)
@@ -4793,36 +4808,38 @@ msgid ""
 "The following torrc configuration options can be used to restrict bandwidth "
 "and traffic:"
 msgstr ""
+"Die folgenden Torrc-Konfigurationsoptionen können zur Einschränkung der "
+"Bandbreite und des Datenverkehrs verwendet werden:"
 
 #: https//community.torproject.org/relay/setup/post-install/
 #: (content/relay-operations/technical-setup/post-install/contents+en.lrpage.body)
 msgid "* AccountingMax"
-msgstr ""
+msgstr "* AccountingMax"
 
 #: https//community.torproject.org/relay/setup/post-install/
 #: (content/relay-operations/technical-setup/post-install/contents+en.lrpage.body)
 msgid "* AccountingRule"
-msgstr ""
+msgstr "* AccountingRegel"
 
 #: https//community.torproject.org/relay/setup/post-install/
 #: (content/relay-operations/technical-setup/post-install/contents+en.lrpage.body)
 msgid "* AccountingStart"
-msgstr ""
+msgstr "* AccountingStart"
 
 #: https//community.torproject.org/relay/setup/post-install/
 #: (content/relay-operations/technical-setup/post-install/contents+en.lrpage.body)
 msgid "* BandwidthRate"
-msgstr ""
+msgstr "* BandbreitenRate"
 
 #: https//community.torproject.org/relay/setup/post-install/
 #: (content/relay-operations/technical-setup/post-install/contents+en.lrpage.body)
 msgid "* BandwidthBurst"
-msgstr ""
+msgstr "* BandbreitenBurst"
 
 #: https//community.torproject.org/relay/setup/post-install/
 #: (content/relay-operations/technical-setup/post-install/contents+en.lrpage.body)
 msgid "* RelayBandwidthRate"
-msgstr ""
+msgstr "* RelayBandbreitenRate"
 
 #: https//community.torproject.org/relay/setup/post-install/
 #: (content/relay-operations/technical-setup/post-install/contents+en.lrpage.body)
@@ -4830,6 +4847,8 @@ msgid ""
 "Having a fast relay for some time of the month is preferred over a slow "
 "relay for the entire month."
 msgstr ""
+"Ein schnelles Relay für einige Zeit im Monat ist einem langsamen Relay für "
+"den ganzen Monat vorzuziehen."
 
 #: https//community.torproject.org/relay/setup/post-install/
 #: (content/relay-operations/technical-setup/post-install/contents+en.lrpage.body)
@@ -4837,11 +4856,13 @@ msgid ""
 "Also see the bandwidth entry in the "
 "[FAQ](https://www.torproject.org/docs/faq.html.en#BandwidthShaping)."
 msgstr ""
+"Siehe auch den Bandbreiteneintrag in der "
+"[F&A](https://www.torproject.org/docs/faq.html.en#BandwidthShaping)."
 
 #: https//community.torproject.org/relay/setup/post-install/
 #: (content/relay-operations/technical-setup/post-install/contents+en.lrpage.body)
 msgid "# 7. Check IPv6 availability"
-msgstr ""
+msgstr "# 7. IPv6-Verfügbarkeit prüfen"
 
 #: https//community.torproject.org/relay/setup/post-install/
 #: (content/relay-operations/technical-setup/post-install/contents+en.lrpage.body)
@@ -4849,6 +4870,8 @@ msgid ""
 "We encourage everyone to enable IPv6 on their relays. This is especially "
 "valuable on exit and guard relays."
 msgstr ""
+"Wir ermutigen jeden, IPv6 auf seinen Relays zu aktivieren. Dies ist "
+"besonders wertvoll bei Exit- und Schutz-Relays."
 
 #: https//community.torproject.org/relay/setup/post-install/
 #: (content/relay-operations/technical-setup/post-install/contents+en.lrpage.body)
@@ -4856,6 +4879,8 @@ msgid ""
 "Before enabling your tor daemon to use IPv6 in addition to IPv4 you should "
 "do some basic IPv6 connectivity tests."
 msgstr ""
+"Bevor dein Tor-Daemon zu IPv4 auch zusätzlich IPv6 verwenden kann, solltest "
+"du einige grundlegende IPv6-Verbindungstests durchführen."
 
 #: https//community.torproject.org/relay/setup/post-install/
 #: (content/relay-operations/technical-setup/post-install/contents+en.lrpage.body)
@@ -4863,6 +4888,8 @@ msgid ""
 "The following command line will ping the IPv6 addresses of Tor directory "
 "authorities from your server:"
 msgstr ""
+"Die folgende Kommandozeile pingt die IPv6-Adressen der Tor-"
+"Verzeichnisdienste von deinem Server aus an:"
 
 #: https//community.torproject.org/relay/setup/post-install/
 #: (content/relay-operations/technical-setup/post-install/contents+en.lrpage.body)
@@ -4884,6 +4911,9 @@ msgid ""
 "not enable IPv6 in your torrc configuration file before IPv6 is indeed "
 "working."
 msgstr ""
+"Am Ende der Ausgabe solltest du \"OK\" sehen. Wenn dies nicht der Fall ist, "
+"aktiviere IPv6 nicht in deiner torrc-Konfigurationsdatei, bevor IPv6 "
+"tatsächlich funktioniert."
 
 #: https//community.torproject.org/relay/setup/post-install/
 #: (content/relay-operations/technical-setup/post-install/contents+en.lrpage.body)
@@ -4891,6 +4921,8 @@ msgid ""
 "If you enable IPv6 without working IPv6 connectivity your entire relay will "
 "not be used, regardless if IPv4 is working."
 msgstr ""
+"Wenn du IPv6 aktivierst, ohne dass die IPv6-Verbindung funktioniert, wird "
+"dein gesamtes Relay nicht verwendet, unabhängig davon, ob IPv4 funktioniert."
 
 #: https//community.torproject.org/relay/setup/post-install/
 #: (content/relay-operations/technical-setup/post-install/contents+en.lrpage.body)
@@ -4898,11 +4930,14 @@ msgid ""
 "If it worked fine, make your Tor relay reachable via IPv6 by adding an "
 "additional ORPort line to your configuration (example for ORPort 9001):"
 msgstr ""
+"Wenn es gut funktioniert hat, mach dein Tor-Relay über IPv6 erreichbar, "
+"indem du eine zusätzliche ORPort-Leitung zu deiner Konfiguration hinzufügst "
+"(Beispiel für ORPort 9001):"
 
 #: https//community.torproject.org/relay/setup/post-install/
 #: (content/relay-operations/technical-setup/post-install/contents+en.lrpage.body)
 msgid "ORPort [IPv6-address]:9001"
-msgstr ""
+msgstr "ORPort [IPv6-address]:9001"
 
 #: https//community.torproject.org/relay/setup/post-install/
 #: (content/relay-operations/technical-setup/post-install/contents+en.lrpage.body)
@@ -4910,6 +4945,9 @@ msgid ""
 "The location of that line in the configuration file does not matter you can "
 "simply add it next to the first ORPort lins in your torrc file."
 msgstr ""
+"Die Position dieser Zeile in der Konfigurationsdatei spielt keine Rolle, du "
+"kannst sie einfach nach den ersten ORPort-Zeilen in deiner torrc-Datei "
+"hinzufügen."
 
 #: https//community.torproject.org/relay/setup/post-install/
 #: (content/relay-operations/technical-setup/post-install/contents+en.lrpage.body)
@@ -4917,6 +4955,9 @@ msgid ""
 "Note: You have to explicitly specify your IPv6 address in square brackets, "
 "you can not tell tor to bind to any IPv6 (like you do for IPv4)."
 msgstr ""
+"Hinweis: Du musst deine IPv6-Adresse explizit in eckigen Klammern angeben, "
+"du kannst Tor nicht sagen, dass es sich an irgendein IPv6 binden soll (wie "
+"du es bei IPv4 tust)."
 
 #: https//community.torproject.org/relay/setup/post-install/
 #: (content/relay-operations/technical-setup/post-install/contents+en.lrpage.body)
@@ -4924,11 +4965,13 @@ msgid ""
 "If you have a global IPv6 address you should be able to find it in the "
 "output of the following command:"
 msgstr ""
+"Wenn du eine globale IPv6-Adresse hast, solltest du sie in der Ausgabe des "
+"folgenden Befehls finden können:"
 
 #: https//community.torproject.org/relay/setup/post-install/
 #: (content/relay-operations/technical-setup/post-install/contents+en.lrpage.body)
 msgid "ip addr|grep inet6|grep global"
-msgstr ""
+msgstr "ip addr|grep inet6|grep global"
 
 #: https//community.torproject.org/relay/setup/post-install/
 #: (content/relay-operations/technical-setup/post-install/contents+en.lrpage.body)
@@ -4936,11 +4979,14 @@ msgid ""
 "If you are an exit relay with IPv6 connectivity, tell your tor daemon to "
 "allow exiting via IPv6 so clients can reach IPv6 destinations:"
 msgstr ""
+"Wenn du ein Exit-Relay mit IPv6-Verbindung bist, sag deinem Tor-Daemon, dass"
+" er das Verlassen über IPv6 erlauben soll, damit Clients IPv6-Ziele "
+"erreichen können:"
 
 #: https//community.torproject.org/relay/setup/post-install/
 #: (content/relay-operations/technical-setup/post-install/contents+en.lrpage.body)
 msgid "IPv6Exit 1"
-msgstr ""
+msgstr "IPv6Exit 1"
 
 #: https//community.torproject.org/relay/setup/post-install/
 #: (content/relay-operations/technical-setup/post-install/contents+en.lrpage.body)
@@ -4948,16 +4994,18 @@ msgid ""
 "Note: Tor requires IPv4 connectivity, you can not run a Tor relay on "
 "IPv6-only."
 msgstr ""
+"Hinweis: Tor benötigt eine IPv4-Verbindung, du kannst kein Tor-Relay nur mit"
+" IPv6 betreiben."
 
 #: https//community.torproject.org/relay/setup/post-install/
 #: (content/relay-operations/technical-setup/post-install/contents+en.lrpage.body)
 msgid "# 8. Maintaining a relay"
-msgstr ""
+msgstr "# 8. Wartung eines Relays"
 
 #: https//community.torproject.org/relay/setup/post-install/
 #: (content/relay-operations/technical-setup/post-install/contents+en.lrpage.body)
 msgid "## Backup Tor Identity Keys"
-msgstr ""
+msgstr "## Datensicherung der Tor Identitätsschlüssel"
 
 #: https//community.torproject.org/relay/setup/post-install/
 #: (content/relay-operations/technical-setup/post-install/contents+en.lrpage.body)
@@ -4965,6 +5013,9 @@ msgid ""
 "After your initial installation and start of the tor daemon it is a good "
 "idea to make a backup of your relay's long term identity keys."
 msgstr ""
+"Nach der Erstinstallation und dem Start des Tor-Daemons ist es eine gute "
+"Idee, eine Datensicherung der Langzeit-Identitätsschlüssel deines Relays zu "
+"machen."
 
 #: https//community.torproject.org/relay/setup/post-install/
 #: (content/relay-operations/technical-setup/post-install/contents+en.lrpage.body)
