@@ -5458,6 +5458,8 @@ msgstr ""
 msgid ""
 "The exit policy defines which destination ports you are willing to forward."
 msgstr ""
+"Die Exit-Richtlinie definiert, welche Zielanschlüsse du bereit bist, "
+"weiterzuleiten."
 
 #: https//community.torproject.org/relay/setup/exit/
 #: (content/relay-operations/technical-setup/exit/contents+en.lrpage.body)
@@ -5466,6 +5468,9 @@ msgid ""
 "means less abuse emails, but an exit relay allowing only few ports is also "
 "less useful)."
 msgstr ""
+"Dies hat Auswirkungen auf die Menge der Missbrauchs-E-Mails, die du erhalten"
+" wirst (weniger Anschlüsse bedeutet weniger Missbrauchs-E-Mails, aber ein "
+"Exit-Relay, das nur wenige Anschlüsse zulässt, ist auch weniger nützlich)."
 
 #: https//community.torproject.org/relay/setup/exit/
 #: (content/relay-operations/technical-setup/exit/contents+en.lrpage.body)
@@ -5473,6 +5478,8 @@ msgid ""
 "If you want to be a useful exit relay you must **at least allow destination "
 "ports 80 and 443**."
 msgstr ""
+"Wenn du ein nützliches Exit-Relay sein willst, musst du **mindestens die "
+"Zielanschlüsse 80 und 443** zulassen."
 
 #: https//community.torproject.org/relay/setup/exit/
 #: (content/relay-operations/technical-setup/exit/contents+en.lrpage.body)
@@ -5481,6 +5488,10 @@ msgid ""
 "to start with a reduced exit policy (to reduce the amount of abuse emails) "
 "and further open it up as you become more experienced."
 msgstr ""
+"Als neues Exit-Relay - insbesondere wenn du neu bei deinem Hoster bist - ist"
+" es gut, mit einer reduzierten Exit-Richtlinie zu beginnen (um die Anzahl "
+"der Missbrauchs-E-Mails zu reduzieren) und sie weiter zu öffnen, wenn du "
+"mehr Erfahrung damit hast."
 
 #: https//community.torproject.org/relay/setup/exit/
 #: (content/relay-operations/technical-setup/exit/contents+en.lrpage.body)
@@ -5489,6 +5500,9 @@ msgid ""
 "[ReducedExitPolicy](https://trac.torproject.org/projects/tor/wiki/doc/ReducedExitPolicy)"
 " wiki page."
 msgstr ""
+"Die reduzierte Exit-Richtlinie ist auf der Wiki-Seite "
+"[ReducedExitPolicy](https://trac.torproject.org/projects/tor/wiki/doc/ReducedExitPolicy)"
+" zu finden."
 
 #: https//community.torproject.org/relay/setup/exit/
 #: (content/relay-operations/technical-setup/exit/contents+en.lrpage.body)
@@ -5496,16 +5510,18 @@ msgid ""
 "To become an exit relay change ExitRelay from 0 to 1 in your torrc "
 "configuration file and restart the tor daemon."
 msgstr ""
+"Um ein Exit-Relay zu werden, ändere ExitRelay von 0 auf 1 in deiner torrc-"
+"Konfigurationsdatei und starte den Tor-Daemon neu."
 
 #: https//community.torproject.org/relay/setup/exit/
 #: (content/relay-operations/technical-setup/exit/contents+en.lrpage.body)
 msgid "ExitRelay 1"
-msgstr ""
+msgstr "ExitRelay 1"
 
 #: https//community.torproject.org/relay/setup/exit/
 #: (content/relay-operations/technical-setup/exit/contents+en.lrpage.body)
 msgid "## DNS on Exit Relays"
-msgstr ""
+msgstr "## DNS auf Exit-Relays"
 
 #: https//community.torproject.org/relay/setup/exit/
 #: (content/relay-operations/technical-setup/exit/contents+en.lrpage.body)
@@ -5513,6 +5529,8 @@ msgid ""
 "Unlike other types of relays, exit relays also do DNS resolution for Tor "
 "clients."
 msgstr ""
+"Im Gegensatz zu anderen Arten von Relays machen Exit-Relays auch DNS-"
+"Auflösung für Tor-Clients."
 
 #: https//community.torproject.org/relay/setup/exit/
 #: (content/relay-operations/technical-setup/exit/contents+en.lrpage.body)
@@ -5520,6 +5538,8 @@ msgid ""
 "DNS resolution on exit relays is crucial for Tor clients and it should be "
 "reliable and fast by using caching."
 msgstr ""
+"Die DNS-Auflösung auf Exit-Relays ist für Tor-Clients notwendig und sollte "
+"durch die Verwendung von Caching zuverlässig und schnell sein."
 
 #: https//community.torproject.org/relay/setup/exit/
 #: (content/relay-operations/technical-setup/exit/contents+en.lrpage.body)
@@ -5527,6 +5547,8 @@ msgid ""
 "* DNS resolution can have a significant impact on the performance and "
 "reliability that your exit relay provides."
 msgstr ""
+"* Die DNS-Auflösung kann einen erheblichen Einfluss auf die Leistung und "
+"Zuverlässigkeit deines Exit-Relays haben."
 
 #: https//community.torproject.org/relay/setup/exit/
 #: (content/relay-operations/technical-setup/exit/contents+en.lrpage.body)
@@ -5535,6 +5557,9 @@ msgid ""
 "Cloudflare, 4.2.2.1-6) as your primary or fallback DNS resolver to avoid "
 "centralization."
 msgstr ""
+"* Verwenden Sie keinen der großen DNS-Resolver (Google, OpenDNS, Quad9, "
+"Cloudflare, 4.2.2.1-6) als Primär- oder Rückfall-DNS-Resolver, um eine "
+"Zentralisierung zu vermeiden."
 
 #: https//community.torproject.org/relay/setup/exit/
 #: (content/relay-operations/technical-setup/exit/contents+en.lrpage.body)
@@ -5543,6 +5568,9 @@ msgid ""
 "without using any forwarders (specific instructions follow below, for "
 "various operating systems)."
 msgstr ""
+"* Wir empfehlen, einen lokalen Caching- und DNSSEC-validierenden Resolver "
+"ohne Verwendung von Forwarders zu betreiben (spezifische Anweisungen folgen "
+"unten, für verschiedene Betriebssysteme)."
 
 #: https//community.torproject.org/relay/setup/exit/
 #: (content/relay-operations/technical-setup/exit/contents+en.lrpage.body)
@@ -5552,6 +5580,11 @@ msgid ""
 "system and make sure that it is not your first entry in that file (the first"
 " entry should be your local resolver)."
 msgstr ""
+"* Wenn du einen zweiten DNS-Resolver als Rückfall zu deiner /etc/resolv"
+".conf-Konfiguration hinzufügen möchtest, wähle einen Resolver innerhalb "
+"deines autonomen Systems und stelle sicher, dass es nicht dein erster "
+"Eintrag in dieser Datei ist (der erste Eintrag sollte dein lokaler Resolver "
+"sein)."
 
 #: https//community.torproject.org/relay/setup/exit/
 #: (content/relay-operations/technical-setup/exit/contents+en.lrpage.body)
@@ -5561,6 +5594,11 @@ msgid ""
 "address is in the same AS as your relay, you can look it up using "
 "[bgp.he.net](https://bgp.he.net))."
 msgstr ""
+"* Wenn ein lokaler Resolver wie unbound für dich nicht in Frage kommt, "
+"benutze einen Resolver, der von deinem Provider im gleichen autonomen System"
+" betrieben wird (um herauszufinden, ob eine IP-Adresse in der gleichen AS "
+"wie dein Relay liegt, kannst du sie mit [bgp.he.net](https://bgp.he.net) "
+"nachschlagen)."
 
 #: https//community.torproject.org/relay/setup/exit/
 #: (content/relay-operations/technical-setup/exit/contents+en.lrpage.body)
@@ -5568,6 +5606,8 @@ msgid ""
 "* Avoid adding more than two resolvers to your /etc/resolv.conf file to "
 "limit AS-level exposure of DNS queries."
 msgstr ""
+"* Vermeide das Hinzufügen von mehr als zwei Resolvern zu deiner /etc/resolv"
+".conf-Datei, um die Exponierung von DNS-Abfragen auf AS-Ebene zu begrenzen."
 
 #: https//community.torproject.org/relay/setup/exit/
 #: (content/relay-operations/technical-setup/exit/contents+en.lrpage.body)
@@ -5575,6 +5615,8 @@ msgid ""
 "There are multiple options for DNS server software. "
 "[Unbound](https://nlnetlabs.nl/projects/unbound/about/) has become"
 msgstr ""
+"Es gibt mehrere Optionen für DNS-Server-Software. "
+"[Unbound](https://nlnetlabs.nl/projects/unbound/about/) ist "
 
 #: https//community.torproject.org/relay/setup/exit/
 #: (content/relay-operations/technical-setup/exit/contents+en.lrpage.body)
@@ -5582,6 +5624,8 @@ msgid ""
 "a popular one but feel free to use any other software that you are "
 "comfortable with."
 msgstr ""
+"eine beliebte, aber zögere nicht, jede andere Software zu benutzen, mit der "
+"du dich wohlfühlst."
 
 #: https//community.torproject.org/relay/setup/exit/
 #: (content/relay-operations/technical-setup/exit/contents+en.lrpage.body)
@@ -5589,6 +5633,8 @@ msgid ""
 "When choosing your DNS resolver software, make sure that it supports DNSSEC "
 "validation and QNAME minimization (RFC7816)."
 msgstr ""
+"Achte bei der Auswahl deiner DNS-Resolver-Software darauf, dass sie DNSSEC-"
+"Validierung und QNAME-Minimierung (RFC7816) unterstützt."
 
 #: https//community.torproject.org/relay/setup/exit/
 #: (content/relay-operations/technical-setup/exit/contents+en.lrpage.body)
@@ -5596,6 +5642,8 @@ msgid ""
 "Install the resolver software over your operating system's package manager, "
 "to ensure that it is updated automatically."
 msgstr ""
+"Installiere die Resolver-Software über den Paketmanager deines "
+"Betriebssystems, um sicherzustellen, dass sie automatisch aktualisiert wird."
 
 #: https//community.torproject.org/relay/setup/exit/
 #: (content/relay-operations/technical-setup/exit/contents+en.lrpage.body)
@@ -5603,6 +5651,8 @@ msgid ""
 "By using your own DNS resolver, you are less vulnerable to DNS-based "
 "censorship that your upstream resolver might impose."
 msgstr ""
+"Wenn du deinen eigenen DNS-Resolver verwendest, bist du weniger anfällig für"
+" DNS-basierte Zensur, die dein vorgeschalteter Resolver auferlegen könnte."
 
 #: https//community.torproject.org/relay/setup/exit/
 #: (content/relay-operations/technical-setup/exit/contents+en.lrpage.body)
@@ -5612,6 +5662,11 @@ msgid ""
 "configuration and tuning knobs but we keep these instructions simple and "
 "short; the basic setup will do just fine for most operators."
 msgstr ""
+"Nachfolgend findest du Anweisungen zur Installation und Konfiguration von "
+"Unbound - einem DNSSEC-Validierungs- und Cache-Resolver - auf Ihrem Exit-"
+"Relay. Unbound hat viele Konfigurations- und Abstimmungsknöpfe, aber wir "
+"halten diese Anweisungen einfach und kurz; die grundlegende Einrichtung ist "
+"für die meisten Betreiber sehr gut geeignet."
 
 #: https//community.torproject.org/relay/setup/exit/
 #: (content/relay-operations/technical-setup/exit/contents+en.lrpage.body)
@@ -5619,11 +5674,14 @@ msgid ""
 "After switching to unbound, verify it works as expected by resolving a valid"
 " hostname. If it does not work, you can restore your old resolv.conf file."
 msgstr ""
+"Nachdem du auf Unbound umgeschaltet hast, überprüfe, ob es wie erwartet "
+"funktioniert, indem du einen gültigen Hostnamen auflöst. Wenn es nicht "
+"funktioniert, kannst du deine alte Datei resolv.conf wiederherstellen."
 
 #: https//community.torproject.org/relay/setup/exit/
 #: (content/relay-operations/technical-setup/exit/contents+en.lrpage.body)
 msgid "### Debian/Ubuntu"
-msgstr ""
+msgstr "### Debian/Ubuntu"
 
 #: https//community.torproject.org/relay/setup/exit/
 #: (content/relay-operations/technical-setup/exit/contents+en.lrpage.body)
