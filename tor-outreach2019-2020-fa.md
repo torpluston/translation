@@ -101,12 +101,12 @@ Tor is created for free by a 501(c)3 U.S.-based nonprofit called the Tor Project
 The easiest way to use Tor is Tor Browser.
 When you use Tor Browser, no one can see what websites you visit or where in the world you’re coming from. 
 
-Other applications, like SecureDrop and OnionShare, use Tor to protect their users against surveillance and censorship.
+سایر برنامه ها، مانند SecureDrop و OnionShare، از تور برای محافظت از کاربران خود در برابر سانسور و نظارت استفاده می کنند.
 
 
 ## تور چطور کار می کند؟
 
-آمال می خواهد تا سایت بکلی را به صورت خصوصی ببیند، بنابراین آن را در مرورگر تور باز می کند.
+امل می خواهد تا سایت بکله را به صورت خصوصی ببیند، بنابراین آن را در مرورگر تور باز می کند.
 
 Tor Browser selects a random circuit of three relays, which are computers all over the world configured to route traffic over the Tor network.
 
@@ -116,11 +116,11 @@ Tor Browser selects a random circuit of three relays, which are computers all ov
 
 The first relay learns only the next location in the circuit, which is the second relay.
 
-The second relay removes another encryption layer and forwards the web page request to the third relay.
+بازپخش دوم لایه رمزگذاری دیگر را حذف می کند و درخواست صفحه وب را به بازپخش سوم ارسال می کند.
 
-The third relay removes the last encryption layer and forwards the web page request to its destination, Bekele’s website, but it doesn't know the request comes from Amal.
+بازپخش سوم آخرین لایه رمزگذاری را حذف کرده و درخواست صفحه وب را به مقصد آن ارسال می کند، سایت بکله، اما از درخواست آمده از امل آگاه نیست.
 
-Bekele doesn't know that the website request came from Amal unless she tells him so.
+بکله نمی داند که درخواست وب سایت از امل می آید مگر اینکه امل به او بگوید.
 
 ## 7. چه کسانی از تور استفاده می کنند؟ 
 
