@@ -106,11 +106,11 @@ Other applications, like SecureDrop and OnionShare, use Tor to protect their use
 
 ## تور چطور کار می کند؟
 
-Amal wants to visit Bekele’s website privately, so she opens Tor Browser.
+آمال می خواهد تا سایت بکلی را به صورت خصوصی ببیند، بنابراین آن را در مرورگر تور باز می کند.
 
 Tor Browser selects a random circuit of three relays, which are computers all over the world configured to route traffic over the Tor network.
 
-Tor Browser then encrypts her website request three times and sends it to the first Tor relay in her circuit.
+مرورگر تور سپس درخواست سایت او را سه بار رمزگذاری می کند و به اولین بازپخش تور در چرخه او می فرستد.
 
 اولین بازپخش اولین لایه رمزگذاری را حذف می کند اما متوجه مقصد که سایت Bekele می باشد نمی شود.
 
