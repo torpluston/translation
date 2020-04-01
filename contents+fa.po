@@ -9340,6 +9340,8 @@ msgid ""
 "The Tor Project maintains its own [RPM package "
 "repository](https://rpm.torproject.org) for CentOS and RHEL and Fedora."
 msgstr ""
+"پروژه‌ی تور [مخزن بسته آر پی ام](https://rpm.torproject.org) خود را برای "
+"سنت‌اواس و رد هت انترپرایز لینوکس و فدورا نگه می دارد."
 
 #: https//support.torproject.org/rpm/tor-rpm-install/
 #: (content/rpm/install/contents+en.lrquestion.description)
@@ -9347,11 +9349,15 @@ msgid ""
 "Here's how you can enable Tor Package Repository for both CentOS and RHEL "
 "and Fedora:"
 msgstr ""
+"این نحوه فعال سازی مخزن بسته تور برای سنت‌اواس و رد هت انترپرایز لینوکس و "
+"فدورا می باشد:"
 
 #: https//support.torproject.org/rpm/tor-rpm-install/
 #: (content/rpm/install/contents+en.lrquestion.description)
 msgid "#### 1. Enable epel repository (only for CentOS and RHEL)"
 msgstr ""
+"#### 1. فقط مخزن epel را فعال کنید (تنها برای سنت‌اواس و رد هت انترپرایز "
+"لینوکس)"
 
 #: https//support.torproject.org/rpm/tor-rpm-install/
 #: (content/rpm/install/contents+en.lrquestion.description)
@@ -9361,7 +9367,7 @@ msgstr "# dnf install epel-release -y"
 #: https//support.torproject.org/rpm/tor-rpm-install/
 #: (content/rpm/install/contents+en.lrquestion.description)
 msgid "### 2. Add the following to /etc/yum.repos.d/tor.repo"
-msgstr ""
+msgstr "### 2. بخش زیر را به /etc/yum.repos.d/tor.repo اضافه کنید"
 
 #: https//support.torproject.org/rpm/tor-rpm-install/
 #: (content/rpm/install/contents+en.lrquestion.description)
@@ -9371,37 +9377,37 @@ msgstr "برای سنت‌اواس یا رد هت انترپرایز لینوک�
 #: https//support.torproject.org/rpm/tor-rpm-install/
 #: (content/rpm/install/contents+en.lrquestion.description)
 msgid "[tor]"
-msgstr ""
+msgstr "[tor]"
 
 #: https//support.torproject.org/rpm/tor-rpm-install/
 #: (content/rpm/install/contents+en.lrquestion.description)
 msgid "name=Tor for Enterprise Linux $releasever - $basearch"
-msgstr ""
+msgstr "name=Tor for Enterprise Linux $releasever - $basearch"
 
 #: https//support.torproject.org/rpm/tor-rpm-install/
 #: (content/rpm/install/contents+en.lrquestion.description)
 msgid "baseurl=https://rpm.torproject.org/centos/$releasever/$basearch"
-msgstr ""
+msgstr "baseurl=https://rpm.torproject.org/centos/$releasever/$basearch"
 
 #: https//support.torproject.org/rpm/tor-rpm-install/
 #: (content/rpm/install/contents+en.lrquestion.description)
 msgid "enabled=1"
-msgstr ""
+msgstr "enabled=1"
 
 #: https//support.torproject.org/rpm/tor-rpm-install/
 #: (content/rpm/install/contents+en.lrquestion.description)
 msgid "gpgcheck=1"
-msgstr ""
+msgstr "gpgcheck=1"
 
 #: https//support.torproject.org/rpm/tor-rpm-install/
 #: (content/rpm/install/contents+en.lrquestion.description)
 msgid "gpgkey=https://rpm.torproject.org/centos/public_gpg.key"
-msgstr ""
+msgstr "gpgkey=https://rpm.torproject.org/centos/public_gpg.key"
 
 #: https//support.torproject.org/rpm/tor-rpm-install/
 #: (content/rpm/install/contents+en.lrquestion.description)
 msgid "cost=100"
-msgstr ""
+msgstr "cost=100"
 
 #: https//support.torproject.org/rpm/tor-rpm-install/
 #: (content/rpm/install/contents+en.lrquestion.description)
@@ -9411,22 +9417,22 @@ msgstr "برای فدورا:"
 #: https//support.torproject.org/rpm/tor-rpm-install/
 #: (content/rpm/install/contents+en.lrquestion.description)
 msgid "name=Tor for Fedora $releasever - $basearch"
-msgstr ""
+msgstr "name=Tor for Fedora $releasever - $basearch"
 
 #: https//support.torproject.org/rpm/tor-rpm-install/
 #: (content/rpm/install/contents+en.lrquestion.description)
 msgid "baseurl=https://rpm.torproject.org/fedora/$releasever/$basearch"
-msgstr ""
+msgstr "baseurl=https://rpm.torproject.org/fedora/$releasever/$basearch"
 
 #: https//support.torproject.org/rpm/tor-rpm-install/
 #: (content/rpm/install/contents+en.lrquestion.description)
 msgid "gpgkey=https://rpm.torproject.org/fedora/public_gpg.key"
-msgstr ""
+msgstr "gpgkey=https://rpm.torproject.org/fedora/public_gpg.key"
 
 #: https//support.torproject.org/rpm/tor-rpm-install/
 #: (content/rpm/install/contents+en.lrquestion.description)
 msgid "### 3. Install the Tor package"
-msgstr ""
+msgstr "### 3. بسته تور را نصب کنید"
 
 #: https//support.torproject.org/rpm/tor-rpm-install/
 #: (content/rpm/install/contents+en.lrquestion.description)
@@ -9443,41 +9449,43 @@ msgstr "# dnf install tor -y"
 msgid ""
 "Using it for the first time, you will have to import the GPG public key."
 msgstr ""
+"اگر اولین بار است که از آن استفاده می کنید، شما باید کلید عمومی GPG را وارد "
+"کنید."
 
 #: https//support.torproject.org/rpm/tor-rpm-install/
 #: (content/rpm/install/contents+en.lrquestion.description)
 msgid "Importing GPG key 0x3621CD35:"
-msgstr ""
+msgstr "درون برد کلید جی پی جی 0x3621CD35:"
 
 #: https//support.torproject.org/rpm/tor-rpm-install/
 #: (content/rpm/install/contents+en.lrquestion.description)
 msgid "Userid     : \"Kushal Das (RPM Signing key) <kushal@torproject.org>\""
-msgstr ""
+msgstr "Userid     : \"Kushal Das (RPM Signing key) <kushal@torproject.org>\""
 
 #: https//support.torproject.org/rpm/tor-rpm-install/
 #: (content/rpm/install/contents+en.lrquestion.description)
 msgid "Fingerprint: 999E C8E3 14BC 8D46 022D 6C7D E217 C30C 3621 CD35"
-msgstr ""
+msgstr "Fingerprint: 999E C8E3 14BC 8D46 022D 6C7D E217 C30C 3621 CD35"
 
 #: https//support.torproject.org/rpm/tor-rpm-install/
 #: (content/rpm/install/contents+en.lrquestion.description)
 msgid "From       : https://rpm.torproject.org/fedora/public_gpg.key"
-msgstr ""
+msgstr "From       : https://rpm.torproject.org/fedora/public_gpg.key"
 
 #: https//support.torproject.org/rpm/tor-rpm-install/
 #: (content/rpm/install/contents+en.lrquestion.description)
 msgid "Is this ok [y/N]: y"
-msgstr ""
+msgstr "Is this ok [y/N]: y"
 
 #: https//support.torproject.org/abuse/tor-project-opinion-on-abusers/
 #: (content/abuse/abuse-opinion/contents+en.lrquestion.title)
 msgid "Where does Tor Project stand on abusers using technology?"
-msgstr ""
+msgstr "نظر پروژه‌ی تور درباره سو استفاده کنندگان از تکنولوژی چیست؟"
 
 #: https//support.torproject.org/abuse/tor-project-opinion-on-abusers/
 #: (content/abuse/abuse-opinion/contents+en.lrquestion.description)
 msgid "We take abuse seriously."
-msgstr ""
+msgstr "ما سو استفاده را بسیار جدی می گیریم."
 
 #: https//support.torproject.org/abuse/tor-project-opinion-on-abusers/
 #: (content/abuse/abuse-opinion/contents+en.lrquestion.description)
@@ -9485,11 +9493,15 @@ msgid ""
 "Activists and law enforcement use Tor to investigate abuse and help support "
 "survivors."
 msgstr ""
+"فعالان و مجریان قانون از تور برای رسیدگی به سو استفاده و کمک به نجات یافتگان"
+" پشتیبانی استفاده می کنند."
 
 #: https//support.torproject.org/abuse/tor-project-opinion-on-abusers/
 #: (content/abuse/abuse-opinion/contents+en.lrquestion.description)
 msgid "We work with them to help them understand how Tor can help their work."
 msgstr ""
+"ما به آن ها کار می کنیم تا به آن ها کمک کنیم تا متوجه شوند تور چگونه می "
+"تواند به کار آن ها کمک کند."
 
 #: https//support.torproject.org/abuse/tor-project-opinion-on-abusers/
 #: (content/abuse/abuse-opinion/contents+en.lrquestion.description)
@@ -9497,6 +9509,8 @@ msgid ""
 "In some cases, technological mistakes are being made and we help to correct "
 "them."
 msgstr ""
+"در برخی موارد، اشتباهات فنی اتفاق می افتند و به آن ها کمک می کنیم تا آن ها "
+"را اصلاح کنند."
 
 #: https//support.torproject.org/abuse/tor-project-opinion-on-abusers/
 #: (content/abuse/abuse-opinion/contents+en.lrquestion.description)
@@ -9512,6 +9526,8 @@ msgid ""
 "Our refusal to build backdoors and censorship into Tor is not because of a "
 "lack of concern."
 msgstr ""
+"امتناع ما از ایجاد درهای پشتی و سانسور داخل تور به علت عدم اهمیت این موضوع "
+"نیست."
 
 #: https//support.torproject.org/abuse/tor-project-opinion-on-abusers/
 #: (content/abuse/abuse-opinion/contents+en.lrquestion.description)
@@ -9520,6 +9536,9 @@ msgid ""
 "and human trafficking in the physical world, while removing safe spaces for "
 "victims online."
 msgstr ""
+"ما نمی خواهیم تور را آسیب پذیر کنیم چون به تلاش های انجام شده برای مبارزه با"
+" خشونت علیه کودکان و قاچاق انسان ها در دنیای واقعی صدمه می زند، این در حالی "
+"است که فضاهای امن آنلاین برای قربانیان از بین می رود. "
 
 #: https//support.torproject.org/abuse/tor-project-opinion-on-abusers/
 #: (content/abuse/abuse-opinion/contents+en.lrquestion.description)
@@ -9528,11 +9547,14 @@ msgid ""
 "hacked hosting accounts, the postal system, couriers, corrupt officials, and"
 " whatever technology emerges to trade content."
 msgstr ""
+"در همین حال، مجرمان همچنان قادرند به بات‌نت‌ها، تلفن های همراه سرقت یافته، "
+"حساب های میزبانی هک شده، سیستم پستی، پیک ها، مقامات فاسد، هر تکنولوژی که "
+"پدیدار می شود دسترسی داشته باشند."
 
 #: https//support.torproject.org/abuse/tor-project-opinion-on-abusers/
 #: (content/abuse/abuse-opinion/contents+en.lrquestion.description)
 msgid "They are early adopters of technology."
-msgstr ""
+msgstr "آن ها از اولین کسانی هستند که از تکنولوژی استفاده می کنند."
 
 #: https//support.torproject.org/abuse/tor-project-opinion-on-abusers/
 #: (content/abuse/abuse-opinion/contents+en.lrquestion.description)
@@ -9540,6 +9562,8 @@ msgid ""
 "In the face of this, it is dangerous for policymakers to assume that "
 "blocking and filtering is sufficient."
 msgstr ""
+"در برابر چنین چیزی، اگر سیاست گذاران تصور کنند که مسدود کردن و فیلتر کردن "
+"کفایت می کند بسیار خطرناک می باشد."
 
 #: https//support.torproject.org/abuse/tor-project-opinion-on-abusers/
 #: (content/abuse/abuse-opinion/contents+en.lrquestion.description)
@@ -9594,6 +9618,8 @@ msgid ""
 "There are some situations where it makes sense to block anonymous users for "
 "an Internet service."
 msgstr ""
+"شرایطی وجود دارد که مسدود کردن کاربران ناشناس برای یک سرویس اینترنتی قابل "
+"توجیه است."
 
 #: https//support.torproject.org/abuse/i-want-to-ban-tor/
 #: (content/abuse/ban-tor/contents+en.lrquestion.description)
@@ -9601,6 +9627,9 @@ msgid ""
 "But in many cases, there are easier solutions that can solve your problem "
 "while still allowing users to access your website securely."
 msgstr ""
+"اما در بسیاری از موارد، راه حل های ساده تری برای حل مسئله شما وجود دارد در "
+"حالی که به کاربران اجازه می دهد ببه روشی امن تر به سایت شما دسترسی داشته "
+"باشند."
 
 #: https//support.torproject.org/abuse/i-want-to-ban-tor/
 #: (content/abuse/ban-tor/contents+en.lrquestion.description)
@@ -9655,6 +9684,8 @@ msgid ""
 "Others use Tor because it's their only way to get past restrictive local "
 "firewalls."
 msgstr ""
+"دیگران از تور استفاده می کنند چون تنها راه برای عبور از دیوار آتشین محلی "
+"محدود کننده می باشد."
 
 #: https//support.torproject.org/abuse/i-want-to-ban-tor/
 #: (content/abuse/ban-tor/contents+en.lrquestion.description)
