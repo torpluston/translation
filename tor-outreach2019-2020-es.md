@@ -36,7 +36,7 @@ Ella también usa una aplicación de Tor llamada **OnionShare** para enviar arch
 
 ---
 
-# 3. TOR FOR HUMAN RIGHTS
+# 3. TOR POR LOS DERECHOS HUMANOS
 
 ### El agua es vida
 
