@@ -7030,6 +7030,9 @@ msgid ""
 "RelayBandwidthRate to 1000 KBytes: this way your relay will always be useful"
 " for at least half of each day."
 msgstr ""
+"برای نمونه، اگر 50 گیگابایت برای ارائه دارید، شاید بخواهید "
+"RelayBandwidthRate را روی 1000 کیلوبایت تنظیم کنید: در این صورت رله شما "
+"حداقل برای نیمی از هر روز مفید خواهد بود."
 
 #: https//support.torproject.org/operators/limit-total-bandwidth/
 #: (content/operators/limit-total-bandwidth/contents+en.lrquestion.description)
@@ -7046,6 +7049,8 @@ msgstr "RelayBandwidthRate 1000 KBytes"
 msgid ""
 "RelayBandwidthBurst 5000 KBytes # allow higher bursts but maintain average"
 msgstr ""
+"RelayBandwidthBurst 5000 KBytes # جهش های بیشتر را مجاز می کند ولی میانگین "
+"را نگه می دارد"
 
 #: https//support.torproject.org/operators/multiple-relays/
 #: (content/operators/multiple-relays/contents+en.lrquestion.title)
@@ -7158,6 +7163,8 @@ msgid ""
 "* There is a master ed25519 identity secret key file named "
 "\"ed25519_master_id_secret_key\"."
 msgstr ""
+"* یک فایل کلید خصوصی هویت اصلی ed25519 به نام "
+"\"ed25519_master_id_secret_key\" وجود دارد."
 
 #: https//support.torproject.org/operators/offline-ed25519/
 #: (content/operators/offline-ed25519/contents+en.lrquestion.description)
@@ -7183,6 +7190,8 @@ msgid ""
 "* A medium term signing key named \"ed25519_signing_secret_key\" is "
 "generated for Tor to use."
 msgstr ""
+"* یک کلید امضا به نام \"ed25519_signing_secret_key\" برای استفاده تور تولید "
+"می شود."
 
 #: https//support.torproject.org/operators/offline-ed25519/
 #: (content/operators/offline-ed25519/contents+en.lrquestion.description)
@@ -7191,6 +7200,9 @@ msgid ""
 "signed by the master identity secret key and confirms that the medium term "
 "signing key is valid for a certain period of time."
 msgstr ""
+"همچنین، یک گواهی به نام \"ed25519_signing_cert\" تولید می شود که توسط کلید "
+"خصوصی هویت اصلی امضا شده و تایید می کند که کلید امضا برای یک دوره مشخص زمانی"
+" معتبر می باشد."
 
 #: https//support.torproject.org/operators/offline-ed25519/
 #: (content/operators/offline-ed25519/contents+en.lrquestion.description)
@@ -7226,6 +7238,9 @@ msgid ""
 "long as they are valid, so the master identity secret key can be kept "
 "outside DataDirectory/keys, on a storage media or a different computer."
 msgstr ""
+"تور فقط نیازی به دسترسی به کلید امضا و گواهی تا زمانی دارد که آن ها معتبر "
+"باشند، بنابراین کلید خصوصی هویت اصلی می تواند خارج از DataDirectory/keys روی"
+" یک رایانه یا رسانه ذخیره دیگر نگه داشته شود."
 
 #: https//support.torproject.org/operators/offline-ed25519/
 #: (content/operators/offline-ed25519/contents+en.lrquestion.description)
@@ -7234,6 +7249,9 @@ msgid ""
 "before they expire otherwise the Tor process on the relay will exit upon "
 "expiration."
 msgstr ""
+"شما باید به صورت دستی کلید امضا و گواهی را پیش از اینکه آن ها انقضا یابند را"
+" تازه سازی کرده در غیر اینصورت فرآیند تور روی رله در هنگام انقضا خارج خواهد "
+"شد."
 
 #: https//support.torproject.org/operators/offline-ed25519/
 #: (content/operators/offline-ed25519/contents+en.lrquestion.description)
@@ -7249,6 +7267,10 @@ msgid ""
 "leave the master identity secret key in DataDirectory/keys, just make a "
 "backup in case you'll need to reinstall it."
 msgstr ""
+"اگر می خواهید رله شما برای مدت بیشتری بدون مراقبت اجرا شود و لازم به تازه "
+"سازی کلید امضا به صورت دستی به طور منظم نباشید، بهترین کار این است که کلید "
+"خصوصی هویت اصلی را در DataDirectory/keys بگذارید، به صورت احتیاطی یک پشتیبان"
+" برای نصب مجدد نگه دارید."
 
 #: https//support.torproject.org/operators/offline-ed25519/
 #: (content/operators/offline-ed25519/contents+en.lrquestion.description)
