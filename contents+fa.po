@@ -516,6 +516,12 @@ msgid ""
 " can verify that the file you have downloaded is exactly the one that we "
 "intended you to get."
 msgstr ""
+"یک امضا دیجیتال صحت یک پیام یا یک فایل را تایید می کند. توسط دارنده بخش "
+"خصوصی جفت کلید [رمزنگاری کلید عمومی](../public-key-cryptography) نگه داشته "
+"می شود و می تواند با کلید عمومی متناظر تایید شود. اگر نرم افزار را از  "
+"torproject.org دانلود کنید، می توانید آن را به صورت فایل های امضا (.asc) "
+"بیابید. این ها امضاهای PGP هستند، بنابراین شما می توانید تایید کنید فایلی را"
+" که دانلود کرده اید همان فایلی است که می خواستید."
 
 #: https//support.torproject.org/glossary/cryptographic-signature/
 #: (content/glossary/cryptographic-signature/contents+en.lrword.definition)
@@ -552,6 +558,9 @@ msgid ""
 "running relays and periodically publishes a [consensus](../consensus) "
 "together with the other directory authorities."
 msgstr ""
+"یک [رله](../relay) با هدف مشخص که یک فهرست از رله های در حال اجرا را نگه می "
+"دارد و به صورت دوره ای یک [اجماع](../consensus) با دیگر مراجعه دایرکتوری "
+"منتشر می کند."
 
 #: https//support.torproject.org/glossary/encryption/
 #: (content/glossary/encryption/contents+en.lrword.term)
@@ -786,6 +795,10 @@ msgid ""
 " which means the value is easy to calculate in one direction but infeasible "
 "to invert. Hash values serve to verify the integrity of data."
 msgstr ""
+"یک مقدار هش رمزنگاری نتیجه یک الگوریتم ریاضی است که داده را روی یک رشته بیت "
+"از اندازه معین می نگارد. به صورت یک تابع یک طرفه طراحی شده که در آن محاسبه "
+"مقدار از یک طرف ساده است اما معکوس آن شدنی نیست. مقادیر هش برای تایید "
+"یکپارچگی داده می باشد."
 
 #: https//support.torproject.org/glossary/hidden-services/
 #: (content/glossary/hidden-services/contents+en.lrword.term)
@@ -1956,6 +1969,10 @@ msgid ""
 "visit, and it prevents the sites you visit from learning your physical "
 "location."
 msgstr ""
+"با واگشت ارتباطات شما در یک شبکه از [بازپخش ها](../relay)ی توزیع شده که توسط"
+" داوطلبان در سرتاسر جهان اجرا می شوند محافظت می کند: از اینکه شخصی بتواند "
+"اتصال اینترنت شما را تماشا کند و ببیند که چه سایت هایی را دیده اید جلوگیری "
+"می کند، و از اینکه سایت بفهمند شما در کجا قرار دارید جلوگیری می کند."
 
 #: https//support.torproject.org/glossary/tor-tor-network-core-tor/
 #: (content/glossary/tor-tor-network-core-tor/contents+en.lrword.definition)
@@ -2128,6 +2145,7 @@ msgid ""
 "A website mirror is a one-to-one copy of a website that you can find under "
 "other web addresses."
 msgstr ""
+"میرور سایت یک رونوشت از سایت است که می توانید تحت نشانی های دیگر پیدا کنید."
 
 #: https//support.torproject.org/glossary/website-mirror/
 #: (content/glossary/website-mirror/contents+en.lrword.definition)
@@ -5866,7 +5884,7 @@ msgstr "استفاده کردن از پل هامعمولا این مشکل را 
 #: https//support.torproject.org/connecting/connecting-2/
 #: (content/connecting/connecting-2/contents+en.lrquestion.description)
 msgid "##### Common log error #4: Clock skew"
-msgstr ""
+msgstr "##### خطا لاگ عادی 4#: تفاوت در ساعت های داخل شبکه"
 
 #: https//support.torproject.org/connecting/connecting-2/
 #: (content/connecting/connecting-2/contents+en.lrquestion.description)
@@ -6403,6 +6421,8 @@ msgid ""
 "See [portforward.com](https://portforward.com/) for directions on how to "
 "port forward with your NAT/router device."
 msgstr ""
+"برای دستور العمل روی پورت فورواردینگ با دستگاه روتر/NAT خود "
+"[portforward.com](https://portforward.com/) را ببینید."
 
 #: https//support.torproject.org/operators/behind-nat/
 #: (content/operators/behind-nat/contents+en.lrquestion.description)
@@ -6677,6 +6697,10 @@ msgid ""
 "are behind a restrictive firewall or content filter), please explicitly "
 "reject them in your exit policy  otherwise Tor users will be impacted too."
 msgstr ""
+"اگر منابعی وجود دارند که کامپیوتر شما نمی تواند به آن ها دسترسی داشته باشد "
+"(برای نمونه، شما پشت یک دیوار آتشین یا فیلتر محتوا هستید)، لطفا به صورت صریح"
+" در سیاست خروج جلوی آن ها را بگیرید در غیر اینصورت کاربران تور نیز تحت تاثیر"
+" قرار می گیرند."
 
 #: https//support.torproject.org/operators/facing-legal-trouble/
 #: (content/operators/facing-legal-trouble/contents+en.lrquestion.title)
@@ -6966,6 +6990,10 @@ msgid ""
 " to spread your usefulness over more of the day: if you want to offer X GB "
 "in each direction, you could set your RelayBandwidthRate to 20*X KBytes."
 msgstr ""
+"فقط کافی است حساب ماهانه خود را تقسیم بر 30 کنید. شاید بخواهید محدودیت نرخ "
+"را نیز برای گسترش سودمندی در طول روز اعمال کنید: اگر می خواهید در هر جهت X "
+"گیگابایت ارائه کنید، می توانید RelayBandwidthRate را روی 20*X KBytes تنظیم "
+"کنید."
 
 #: https//support.torproject.org/operators/limit-total-bandwidth/
 #: (content/operators/limit-total-bandwidth/contents+en.lrquestion.description)
