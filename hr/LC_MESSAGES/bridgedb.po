@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: Tor Project\n"
 "Report-Msgid-Bugs-To: 'https://trac.torproject.org/projects/tor/newticket?component=BridgeDB&keywords=bridgedb-reported,msgid&cc=isis,sysrqb&owner=isis'\n"
 "POT-Creation-Date: 2020-03-24 10:22-0700\n"
-"PO-Revision-Date: 2020-04-04 13:33+0000\n"
+"PO-Revision-Date: 2020-04-04 14:08+0000\n"
 "Last-Translator: milotype <mail@milotype.de>\n"
 "Language-Team: Croatian (http://www.transifex.com/otf/torproject/language/hr/)\n"
 "MIME-Version: 1.0\n"
@@ -329,7 +329,7 @@ msgid ""
 "the pseudo-mechanism \"None\".  The following list briefly explains how these\n"
 "mechanisms work and our %sBridgeDB metrics%s visualize how popular each of the\n"
 "mechanisms is."
-msgstr ""
+msgstr "BridgeDB implementira četiri mehanizma za distribuciju mostova: „HTTPS”, „Moat”,\n„E-pošta” i „Rezervirano”. Mostovi koji se ne distribuiraju preko BridgeDB-a koriste\npseudo-mehanizam „Bez”. Sljedeći popis ukratko objašnjava kako ti mehanizmi\nrade, a naše %smetrike BridgeDB-a%s prikazuju popularnost svakog\npojedinog mehanizma."
 
 #: bridgedb/strings.py:138
 #, python-format
@@ -337,7 +337,7 @@ msgid ""
 "The \"HTTPS\" distribution mechanism hands out bridges over this website.  To get\n"
 "bridges, go to %sbridges.torproject.org%s, select your preferred options, and\n"
 "solve the subsequent CAPTCHA."
-msgstr "Mehanizam za „HTTPS” distribuciju daje mostove preko ovog web mjesta.\nZa dobivanje mostova, idi na %sbridges.torproject.org%s, odaberi željene\nopcije i riješi naknadni CAPTCHA."
+msgstr "„HTTPS”  mehanizam za distribuciju pruža mostove preko ovog web mjesta.\nZa dobivanje mostova, idi na %sbridges.torproject.org%s, odaberi željene\nopcije i riješi naknadni CAPTCHA."
 
 #: bridgedb/strings.py:142
 #, python-format
@@ -347,7 +347,7 @@ msgid ""
 "your Tor Browser's %sTor settings%s, click on \"request a new bridge\", solve the\n"
 "subsequent CAPTCHA, and Tor Browser will automatically add your new\n"
 "bridges."
-msgstr ""
+msgstr "„Moat” mehanizam za distribuciju dio je Tor preglednika, a korisnicima omogućuje\nzatražiti mostove u postavkama Tor preglednika. Za dobivanje mostova, idi na\n%sTor postavke%s tvog Tor preglednika, klikni na „Zatraži novi most” i riješi\nnaknadni CAPTCHA, a Tor preglednik će automatski dodati tvoje nove mostove."
 
 #: bridgedb/strings.py:148
 #, python-format
@@ -370,11 +370,11 @@ msgid ""
 "bridges.  Bridges that are distributed over the \"Reserved\" mechanism may not\n"
 "see users for a long time.  Note that the \"Reserved\" distribution mechanism is\n"
 "called \"Unallocated\" in %sbridge pool assignment%s files."
-msgstr ""
+msgstr "BridgeDB održava mali broj mostova koji se ne distribuiraju automatski.\nUmjesto toga, te mostove zadržavamo za ručnu distribuciju i predajemo ih\nnevladinim i drugim organizacijama kao i pojedincima koji trebaju mostove.\nMostovi koji se distribuiraju preko mehanizma „Rezervirano”, možda neće\nvidjeti korisnike duže vrijeme. Mehanizam za distribuciju „Rezervirano”,\nnaziva se „Nedodijeljeno” u datotekama %sbaze za dodjelu mostova%s."
 
 #: bridgedb/strings.py:160
 msgid "None"
-msgstr "Ništa"
+msgstr "Bez"
 
 #: bridgedb/strings.py:161
 msgid ""
