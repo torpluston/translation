@@ -7578,6 +7578,8 @@ msgid ""
 "* Tor runs with `--verify-config`, so that most problems with your config "
 "file get caught."
 msgstr ""
+"* تور با `--verify-config` اجرا می شود، بدین شکل بیشتر مشکلات فایل کانفیگ "
+"شما گرفته می شود."
 
 #: https//support.torproject.org/operators/packaged-tor/
 #: (content/operators/packaged-tor/contents+en.lrquestion.description)
@@ -7622,6 +7624,9 @@ msgid ""
 "specifies what sort of outbound connections are allowed or refused from that"
 " relay."
 msgstr ""
+"* هر رله تور دارای یک [سیاست "
+"خارجی](https://2019.www.torproject.org/docs/faq.html.en#ExitPolicies) می "
+"باشد که مشخص می کند چه اتصال های خروجی از آن رله مجاز هستند."
 
 #: https//support.torproject.org/operators/relay-flexible/
 #: (content/operators/relay-flexible/contents+en.lrquestion.description)
@@ -7820,6 +7825,10 @@ msgid ""
 "support](https://community.torproject.org/relay/setup/brige). In that case "
 "you should have at least 1 MBit/s of available bandwidth."
 msgstr ""
+"حتی اگر شما 10 مگابیت در ثانیه پهنای‌باند موجود ندارید می توانید به شبکه‌ی "
+"تور با اجرای یک [پل تور با پشتیبانی "
+"obfs4](https://community.torproject.org/relay/setup/brige) کمک کنید. در این "
+"مورد شما باید حداقل  1 مگابیت در ثانیه پهنای‌باند موجود داشته باشید."
 
 #: https//support.torproject.org/operators/upgrade-or-move/
 #: (content/operators/upgrade-or-move/contents+en.lrquestion.title)
@@ -7836,6 +7845,9 @@ msgid ""
 "\"keys/ed25519_master_id_secret_key\" and \"keys/secret_id_key\" in your "
 "DataDirectory)."
 msgstr ""
+"در هنگام ارتقا رله تور خود، یا جابجایی آن به یک کامپیوتر دیگر، نکته مهم نگه "
+"داشتن همان کلید های هویت (ذخیره شده در \"keys/ed25519_master_id_secret_key\""
+" و \"keys/secret_id_key\" در DataDirectory خود می باشد)."
 
 #: https//support.torproject.org/operators/upgrade-or-move/
 #: (content/operators/upgrade-or-move/contents+en.lrquestion.description)
@@ -7854,6 +7866,9 @@ msgid ""
 "torrc and the same DataDirectory, then the upgrade should just work and your"
 " relay will keep using the same key."
 msgstr ""
+"این یعنی اگر شما در حال ارتقا رله تور خود هستید و همان torrc و همان "
+"DataDirectory را نگه می دارید، بنابراین ارتقا باید کار کند و رله شما از همان"
+" کلید استفاده خواهد کرد."
 
 #: https//support.torproject.org/operators/upgrade-or-move/
 #: (content/operators/upgrade-or-move/contents+en.lrquestion.description)
@@ -7861,6 +7876,8 @@ msgid ""
 "If you need to pick a new DataDirectory, be sure to copy your old "
 "keys/ed25519_master_id_secret_key and keys/secret_id_key over."
 msgstr ""
+"اگر نیاز به انتخاب یک DataDirectory جدید دارید، اطمینان حاصل کنید که "
+"keys/ed25519_master_id_secret_key و keys/secret_id_key قبلی را کپی کرده اید."
 
 #: https//support.torproject.org/operators/upgrade-or-move/
 #: (content/operators/upgrade-or-move/contents+en.lrquestion.description)
@@ -7868,6 +7885,8 @@ msgid ""
 "Note: As of Tor 0.2.7 we are using new generation identities for relays "
 "based on ed25519 elliptic curve cryptography."
 msgstr ""
+"توجه: در تور  0.2.7 ما از هویت های تولید کننده جدید برای رله های مبتنی بر "
+"رمزنگاری منحنی بیضوی  ed25519 استفاده می کنیم."
 
 #: https//support.torproject.org/operators/upgrade-or-move/
 #: (content/operators/upgrade-or-move/contents+en.lrquestion.description)
@@ -7875,6 +7894,8 @@ msgid ""
 "Eventually they will replace the old RSA identities, but that will happen in"
 " time, to ensure compatibility with older versions."
 msgstr ""
+"در نهایت آن ها جایگزین هویت های RSA می شوند، اما این در گذر زمان اتفاق خواهد"
+" افتاد، برای اینکه تطابق و سازگاری با نسخه های قدیمی تر تضمین شود. "
 
 #: https//support.torproject.org/operators/upgrade-or-move/
 #: (content/operators/upgrade-or-move/contents+en.lrquestion.description)
@@ -7883,6 +7904,9 @@ msgid ""
 "file: keys/ed25519_master_id_secret_key) and a RSA identity (identity key "
 "file: keys/secret_id_key)."
 msgstr ""
+"تا آن زمان، هر رله هم یک هویت ed25519 (فایل کلید "
+"هویت:keys/ed25519_master_id_secret_key) و یک هویت RSA (فایل کلید هویت: "
+"keys/secret_id_key) خواهد داشت."
 
 #: https//support.torproject.org/operators/upgrade-or-move/
 #: (content/operators/upgrade-or-move/contents+en.lrquestion.description)
@@ -7890,6 +7914,8 @@ msgid ""
 "You need to copy / backup both of them in order to restore your relay, "
 "change your DataDirectory or migrate the relay on a new computer."
 msgstr ""
+"شما باید از دو آن ها کپی/پشتیبان گرفته تا بتوانید رله خود را بازیابی کنید، "
+"DataDirectory خود را تغییر دهید یا رله را روی یک کامپیوتر جدید ببرید."
 
 #: https//support.torproject.org/operators/what-is-the-bad-exit-flag/
 #: (content/operators/what-is-the-bad-exit-flag/contents+en.lrquestion.title)
@@ -7967,6 +7993,14 @@ msgid ""
 "from you might attract the attention of other users on the IRC server, "
 "website, etc. who want to know more about the host they're relaying through."
 msgstr ""
+"اگر اتصال های خروجی را مجاز بکنید، برخی سرویس هایی که افراد از رله شما به آن"
+" وصل می شوند به صورت مجدد به رله وصل می شوند تا اطلاعات بیشتری درباره شما "
+"جمع آوری کنند. برای مثال، برخی سرور های آی‌آرسی به درگاه identd مجدد وصل می "
+"شوند تا ببینند کدام کاربر عملیات اتصال را انجام داده است. (این برای آن ها "
+"کاری از پیش نمی برد، چون تور از این اطلاعات چیزی نمی داند، ولی آن ها به هر "
+"حال تلاش خود را انجام می دهند.) همچنین، کاربرانی که از رله شما خارج می شوند "
+"ممکن است توجه سایر کاربران روی سایت، سرور IRC، غیره را  که مایلند درباره "
+"میزبانی که از آن بازپخش می شوند بیشتر بدانند به خود جلب کنند."
 
 #: https//support.torproject.org/operators/why-i-get-portscanned-more-often/
 #: (content/operators/why-i-get-portscanned-more-often/contents+en.lrquestion.description)
@@ -7988,6 +8022,10 @@ msgid ""
 "relays](https://trac.torproject.org/projects/tor/wiki/TorRelayGuide/Security)"
 " for more suggestions."
 msgstr ""
+"به هر حال، شما باید امنیت خود را به روز نگه دارید.این مقاله را روی [امنیت "
+"برای رله های "
+"تور](https://trac.torproject.org/projects/tor/wiki/TorRelayGuide/Security) "
+"به منظور توصیه های بیشتر ببینید."
 
 #: https//support.torproject.org/operators/why-isnt-my-relay-being-used-more/
 #: (content/operators/why-isnt-my-relay-being-used-more/contents+en.lrquestion.title)
