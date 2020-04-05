@@ -308,7 +308,7 @@ msgid ""
 "](../web-browser), and includes information like websites visited and when."
 msgstr ""
 "Kronologija preglednika je zapis zahtjeva upućenih tijekom korištenja [web "
-"preglednika] (../web-browser) i uključuje podatke kao što su posjećena web "
+"preglednika](../web-browser) i uključuje podatke kao što su posjećena web "
 "mjesta i vrijeme posjećivanja."
 
 #: https//support.torproject.org/glossary/browsing-history/
@@ -317,8 +317,8 @@ msgid ""
 "[Tor Browser](../tor-browser) deletes your browsing history after you close "
 "your [session](../session)."
 msgstr ""
-"[Tor preglednik] (../tor-browser) briše kronologiju pregledavanja nakon što "
-"zatvoriš [sesiju] (../session)."
+"[Tor preglednik](../tor-browser) briše kronologiju pregledavanja nakon što "
+"zatvoriš [sesiju](../session)."
 
 #: https//support.torproject.org/glossary/captcha/
 #: (content/glossary/captcha/contents+en.lrword.term)
@@ -342,8 +342,8 @@ msgid ""
 "hard time determining whether or not those requests are coming from humans "
 "or bots."
 msgstr ""
-"Korisnici [Tora] (../tor-tor-network-core-tor) često se poslužuju testom "
-"captcha, jer Tor [releji] (../relay) postavljaju toliko zahtjeva, da web "
+"Korisnici [Tora](../tor-tor-network-core-tor) često se poslužuju testom "
+"captcha, jer Tor [releji](../relay) postavljaju toliko zahtjeva, da web "
 "mjesta ponekad ne mogu lako utvrditi, radi li se o zahtjevima ljudi ili "
 "botova."
 
@@ -364,6 +364,9 @@ msgid ""
 "software without errors, the given checksum and the checksum of your "
 "downloaded file will be identical."
 msgstr ""
+"Kontrolni brojevi su [hash](../hash) vrijednosti datoteka. Ako je softver "
+"preuzet bez grešaka, zadani kontrolni broj i kontrolni broj preuzete "
+"datoteke bit će identični."
 
 #: https//support.torproject.org/glossary/circuit/
 #: (content/glossary/circuit/contents+en.lrword.term)
@@ -382,11 +385,19 @@ msgid ""
 "services](../single-onion-service)), and never an exit node. You can view "
 "your current Tor circuit by clicking on the [i] on the URL bar."
 msgstr ""
+"Put kroz [Tor mrežu] (../tor-tor-network-core-tor) koju su izgradili "
+"[klijenti] (../client), a sastoji se od slučajno odabranih čvorova. Lanac "
+"započinje s [mostom] (../bridge) ili [prilazom] (../guard). Većina lanaca "
+"imaju tri čvora – prilaz ili most, [srednji relej] (../middle-relay) i "
+"[izlaz] (../exit). Većina [Onion usluga] (../onion-services) koristi šest "
+"skokova u lancu (s izuzetkom [pojedinačnih Onion usluga] (../single-onion-"
+"service)), i nikada izlazni čvor. Svoj trenutačni Tor lanac možeš vidjeti "
+"pritiskom oznake [i] u adresnoj traci URL-a."
 
 #: https//support.torproject.org/glossary/client/
 #: (content/glossary/client/contents+en.lrword.term)
 msgid "client"
-msgstr ""
+msgstr "klijent"
 
 #: https//support.torproject.org/glossary/client/
 #: (content/glossary/client/contents+en.lrword.definition)
@@ -395,11 +406,14 @@ msgid ""
 "network, typically running on behalf of one user, that routes application "
 "connections over a series of [relays](../relay)."
 msgstr ""
+"U [Toru](../tor-tor-network-core-tor) je klijent jedan čvor u Tor mreži, "
+"koji obično radi u ime jednog korisnika, koji usmjerava aplikacijske veze "
+"kroz niz [releja](../relay)."
 
 #: https//support.torproject.org/glossary/compass/
 #: (content/glossary/compass/contents+en.lrword.term)
 msgid "Compass"
-msgstr ""
+msgstr "Kompas"
 
 #: https//support.torproject.org/glossary/compass/
 #: (content/glossary/compass/contents+en.lrword.definition)
@@ -407,11 +421,13 @@ msgid ""
 "Compass is a web application to learn about currently running [Tor "
 "relays](../relay) in bulk."
 msgstr ""
+"Kompas je web aplikacija koja obavještava o trenutačno pokrenutim [Tor "
+"relejima] (../relay)."
 
 #: https//support.torproject.org/glossary/consensus/
 #: (content/glossary/consensus/contents+en.lrword.term)
 msgid "consensus"
-msgstr ""
+msgstr "konsenzus"
 
 #: https//support.torproject.org/glossary/consensus/
 #: (content/glossary/consensus/contents+en.lrword.definition)
@@ -421,11 +437,15 @@ msgid ""
 "[clients](../client) have the same information about the [relays](../relay) "
 "that make up the [Tor network](../tor-tor-network-core-tor)."
 msgstr ""
+"Jedan dokument koji sastavljaju i o kojem glasaju [autoriteti direktorija] "
+"(../directory-authority) jednom na sat, osiguravajući da svi "
+"[klijenti](../client) imaju iste podatke o [relejima](../relay) koji čine "
+"[Tor mrežu](../tor-tor-network-core-tor)."
 
 #: https//support.torproject.org/glossary/cookie/
 #: (content/glossary/cookie/contents+en.lrword.term)
 msgid "cookie"
-msgstr ""
+msgstr "kolačić"
 
 #: https//support.torproject.org/glossary/cookie/
 #: (content/glossary/cookie/contents+en.lrword.definition)
@@ -435,11 +455,15 @@ msgid ""
 "stored on the user's computer by the user's [web browser](../web-browser) "
 "while the user is browsing."
 msgstr ""
+"[HTTP](../http) kolačić (koji se također naziva web kolačić, internetski "
+"kolačić, kolačić preglednika ili jednostavno kolačić) mali je komad podataka"
+" poslan s web mjesta i koji [web preglednik]( ../web-browser) sprema na "
+"korisničkom računalu dok korisnik pregledava web."
 
 #: https//support.torproject.org/glossary/cookie/
 #: (content/glossary/cookie/contents+en.lrword.definition)
 msgid "By default, [Tor Browser](../tor-browser) does not store cookies."
-msgstr ""
+msgstr "[Tor preglednik](../tor-browser) standardno ne sprema kolačiće."
 
 #: https//support.torproject.org/glossary/cross-site-scripting-xss-/
 #: (content/glossary/cross-site-scripting-xss-/contents+en.lrword.term)
@@ -456,7 +480,7 @@ msgstr ""
 #: https//support.torproject.org/glossary/cryptographic-signature/
 #: (content/glossary/cryptographic-signature/contents+en.lrword.term)
 msgid "cryptographic signature"
-msgstr ""
+msgstr "šifriran potpis"
 
 #: https//support.torproject.org/glossary/cryptographic-signature/
 #: (content/glossary/cryptographic-signature/contents+en.lrword.definition)
@@ -480,7 +504,7 @@ msgstr ""
 #: https//support.torproject.org/glossary/daemon/
 #: (content/glossary/daemon/contents+en.lrword.term)
 msgid "daemon"
-msgstr ""
+msgstr "daemon"
 
 #: https//support.torproject.org/glossary/daemon/
 #: (content/glossary/daemon/contents+en.lrword.definition)
@@ -488,6 +512,8 @@ msgid ""
 "A daemon is a computer program that runs as a background process, rather "
 "than being under the direct control of a user."
 msgstr ""
+"Daemon je program koji radi kao proces u pozadini, umjesto da korisnik njime"
+" izravno upravlja."
 
 #: https//support.torproject.org/glossary/directory-authority/
 #: (content/glossary/directory-authority/contents+en.lrword.term)
