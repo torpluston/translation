@@ -8622,22 +8622,22 @@ msgstr "Kako implementirati obfs4 most pomoću docker spremnika"
 #: https//community.torproject.org/relay/setup/bridge/docker/
 #: (content/relay-operations/technical-setup/bridge/docker/contents+en.lrpage.body)
 msgid "### 1. Pull the image"
-msgstr ""
+msgstr "### 1. Preuzmi sliku"
 
 #: https//community.torproject.org/relay/setup/bridge/docker/
 #: (content/relay-operations/technical-setup/bridge/docker/contents+en.lrpage.body)
 msgid "We are maintaining a docker image that runs an obfs4 bridge."
-msgstr ""
+msgstr "Održavamo sliku dockera koja pokreće obfs4 most."
 
 #: https//community.torproject.org/relay/setup/bridge/docker/
 #: (content/relay-operations/technical-setup/bridge/docker/contents+en.lrpage.body)
 msgid "First, download the image:"
-msgstr ""
+msgstr "Najprije preuzmi sliku:"
 
 #: https//community.torproject.org/relay/setup/bridge/docker/
 #: (content/relay-operations/technical-setup/bridge/docker/contents+en.lrpage.body)
 msgid "docker pull phwinter/obfs4-bridge:latest"
-msgstr ""
+msgstr "docker pull phwinter/obfs4-bridge:latest"
 
 #: https//community.torproject.org/relay/setup/bridge/docker/
 #: (content/relay-operations/technical-setup/bridge/docker/contents+en.lrpage.body)
@@ -8647,7 +8647,7 @@ msgstr "### 2. Implementiraj spremnik"
 #: https//community.torproject.org/relay/setup/bridge/docker/
 #: (content/relay-operations/technical-setup/bridge/docker/contents+en.lrpage.body)
 msgid "We provide a Makefile that helps you deploy the container."
-msgstr ""
+msgstr "Dostavljamo Makefile koji pomaže implementirati spremnik."
 
 #: https//community.torproject.org/relay/setup/bridge/docker/
 #: (content/relay-operations/technical-setup/bridge/docker/contents+en.lrpage.body)
@@ -8656,41 +8656,44 @@ msgid ""
 "censorship/docker-obfs4-bridge/raw/master/Makefile), and then write your "
 "bridge configuration to a new file, bridge.sh."
 msgstr ""
+"Najprije [preuzmi Makefile](https://dip.torproject.org/torproject/anti-"
+"censorship/docker-obfs4-bridge/raw/master/Makefile), a zatim zapiši svoju "
+"konfiguraciju mosta u novu datoteku bridge.sh."
 
 #: https//community.torproject.org/relay/setup/bridge/docker/
 #: (content/relay-operations/technical-setup/bridge/docker/contents+en.lrpage.body)
 msgid "Here's a template:"
-msgstr ""
+msgstr "Ovo je predložak:"
 
 #: https//community.torproject.org/relay/setup/bridge/docker/
 #: (content/relay-operations/technical-setup/bridge/docker/contents+en.lrpage.body)
 msgid "# Your bridge's Tor port."
-msgstr ""
+msgstr "# Tor priključak tvog mosta."
 
 #: https//community.torproject.org/relay/setup/bridge/docker/
 #: (content/relay-operations/technical-setup/bridge/docker/contents+en.lrpage.body)
 msgid "export OR_PORT=X"
-msgstr ""
+msgstr "export OR_PORT=X"
 
 #: https//community.torproject.org/relay/setup/bridge/docker/
 #: (content/relay-operations/technical-setup/bridge/docker/contents+en.lrpage.body)
 msgid "# Your bridge's obfs4 port."
-msgstr ""
+msgstr "# obfs4 priključak tvog mosta."
 
 #: https//community.torproject.org/relay/setup/bridge/docker/
 #: (content/relay-operations/technical-setup/bridge/docker/contents+en.lrpage.body)
 msgid "export PT_PORT=Y"
-msgstr ""
+msgstr "export PT_PORT=Y"
 
 #: https//community.torproject.org/relay/setup/bridge/docker/
 #: (content/relay-operations/technical-setup/bridge/docker/contents+en.lrpage.body)
 msgid "# Your email address."
-msgstr ""
+msgstr "# Tvoja e-adresa."
 
 #: https//community.torproject.org/relay/setup/bridge/docker/
 #: (content/relay-operations/technical-setup/bridge/docker/contents+en.lrpage.body)
 msgid "export EMAIL=Z"
-msgstr ""
+msgstr "export EMAIL=Z"
 
 #: https//community.torproject.org/relay/setup/bridge/docker/
 #: (content/relay-operations/technical-setup/bridge/docker/contents+en.lrpage.body)
@@ -8700,32 +8703,37 @@ msgid ""
 " address, which allows us to get in touch with you if there are problems "
 "with your bridge."
 msgstr ""
+"Zamijenite „X” sa željenim ILI priključkom, „Y” sa svojim obfs4 priključkom "
+"(pazi na to, da se **oba** priključka proslijede kroz tvoj vatrozid), a „Z” "
+"sa tvojom e-adresom, što nam omogućava stupiti u kontakt s tobom, ako "
+"postoje problemi s tvojim mostom."
 
 #: https//community.torproject.org/relay/setup/bridge/docker/
 #: (content/relay-operations/technical-setup/bridge/docker/contents+en.lrpage.body)
 msgid ""
 "With your bridge configuration in place, you can now deploy the container:"
 msgstr ""
+"Kad je konfiguracija mosta konfigurirana, možeš implementirati spremnik:"
 
 #: https//community.torproject.org/relay/setup/bridge/docker/
 #: (content/relay-operations/technical-setup/bridge/docker/contents+en.lrpage.body)
 msgid "source bridge.sh && make deploy"
-msgstr ""
+msgstr "source bridge.sh && make deploy"
 
 #: https//community.torproject.org/relay/setup/bridge/docker/
 #: (content/relay-operations/technical-setup/bridge/docker/contents+en.lrpage.body)
 msgid "You should now see output similar to the following:"
-msgstr ""
+msgstr "Sada bi se trebao vidjeti rezultat sličan sljedećem:"
 
 #: https//community.torproject.org/relay/setup/bridge/docker/
 #: (content/relay-operations/technical-setup/bridge/docker/contents+en.lrpage.body)
 msgid "201fbd2b4d28e6f226978f27547edd79272871c5949bf8aab3872c983156a108"
-msgstr ""
+msgstr "201fbd2b4d28e6f226978f27547edd79272871c5949bf8aab3872c983156a108"
 
 #: https//community.torproject.org/relay/setup/bridge/docker/
 #: (content/relay-operations/technical-setup/bridge/docker/contents+en.lrpage.body)
 msgid "Make sure that port X and Y are forwarded in your firewall."
-msgstr ""
+msgstr "Osiguraj, da se priključci X i Y proslijede kroz tvoj vatrozid."
 
 #: https//community.torproject.org/relay/setup/bridge/docker/
 #: (content/relay-operations/technical-setup/bridge/docker/contents+en.lrpage.body)
@@ -8733,6 +8741,8 @@ msgid ""
 "That's it! Your container (identified by the first line of output) is now "
 "bootstrapping your new obfs4 bridge."
 msgstr ""
+"To je to! Tvoj spremnik (identificiran prvim retkom rezultata) sada pokreće "
+"tvoj novi obfs4 most."
 
 #: https//community.torproject.org/relay/setup/bridge/docker/
 #: (content/relay-operations/technical-setup/bridge/docker/contents+en.lrpage.body)
@@ -8741,21 +8751,24 @@ msgid ""
 " bridge configuration files with different sets of ports, and run `make "
 "deploy` again, like so:"
 msgstr ""
+"Ako želiš pokrenuti više mostova na svom računalu, moraš stvoriti daljnje "
+"konfiguracijske datoteke mostova s različitim setovima priključaka i ponovo "
+"pokrenuti `make deploy`, na primjer:"
 
 #: https//community.torproject.org/relay/setup/bridge/docker/
 #: (content/relay-operations/technical-setup/bridge/docker/contents+en.lrpage.body)
 msgid "source bridge-1.sh && make deploy"
-msgstr ""
+msgstr "source bridge-1.sh && make deploy"
 
 #: https//community.torproject.org/relay/setup/bridge/docker/
 #: (content/relay-operations/technical-setup/bridge/docker/contents+en.lrpage.body)
 msgid "source bridge-2.sh && make deploy"
-msgstr ""
+msgstr "source bridge-2.sh && make deploy"
 
 #: https//community.torproject.org/relay/setup/bridge/docker/
 #: (content/relay-operations/technical-setup/bridge/docker/contents+en.lrpage.body)
 msgid "..."
-msgstr "..."
+msgstr "…"
 
 #: https//community.torproject.org/relay/setup/bridge/docker/
 #: (content/relay-operations/technical-setup/bridge/docker/contents+en.lrpage.body)
@@ -8769,16 +8782,19 @@ msgid ""
 "existing container, delete it, pull the latest image, and finally deploy it "
 "again:"
 msgstr ""
+"Za nadogradnju na najnoviju verziju naše slike, moraš zaustaviti svoj "
+"postojeći spremnik, izbrisati ga, preuzeti najnoviju sliku i na kraju ga "
+"ponovo implementirati:"
 
 #: https//community.torproject.org/relay/setup/bridge/docker/
 #: (content/relay-operations/technical-setup/bridge/docker/contents+en.lrpage.body)
 msgid "docker stop CONTAINER_ID"
-msgstr ""
+msgstr "docker stop CONTAINER_ID"
 
 #: https//community.torproject.org/relay/setup/bridge/docker/
 #: (content/relay-operations/technical-setup/bridge/docker/contents+en.lrpage.body)
 msgid "docker rm CONTAINER_ID"
-msgstr ""
+msgstr "docker rm CONTAINER_ID"
 
 #: https//community.torproject.org/relay/setup/bridge/docker/
 #: (content/relay-operations/technical-setup/bridge/docker/contents+en.lrpage.body)
@@ -8787,6 +8803,9 @@ msgid ""
 "stored in a docker volume, so you won't lose your bridge's identity when "
 "upgrading to the latest docker image."
 msgstr ""
+"Imaj na umu da je direktorij podataka tvog mosta (koji uključuje njegov "
+"ključni materijal) spremljen u pogonu dockera, tako da nećeš izgubiti "
+"identitet tvog mosta prilikom nadogradnje na najnoviju sliku dockera."
 
 #: https//community.torproject.org/relay/setup/bridge/docker/
 #: (content/relay-operations/technical-setup/bridge/docker/contents+en.lrpage.body)
@@ -8794,6 +8813,8 @@ msgid ""
 "If you are running multiple bridges on your computer, you need to repeat "
 "this step for each bridge."
 msgstr ""
+"Ako na računalu pokrećeš više mostova, ovaj korak moraš ponoviti za svaki "
+"most."
 
 #: https//community.torproject.org/relay/setup/bridge/docker/
 #: (content/relay-operations/technical-setup/bridge/docker/contents+en.lrpage.body)
@@ -8802,36 +8823,40 @@ msgid ""
 "dev](https://lists.torproject.org/cgi-bin/mailman/listinfo/tor-dev) mailing "
 "list."
 msgstr ""
+"Nove verzije slika objavit ćemo na [tor-dev](https://lists.torproject.org"
+"/cgi-bin/mailman/listinfo/tor-dev) mailing listi."
 
 #: https//community.torproject.org/relay/setup/bridge/docker/
 #: (content/relay-operations/technical-setup/bridge/docker/contents+en.lrpage.body)
 msgid "You can inspect your bridge's logs by running:"
-msgstr ""
+msgstr "Dnevnik tvog mosta možeš pregledati pokretanjem:"
 
 #: https//community.torproject.org/relay/setup/bridge/docker/
 #: (content/relay-operations/technical-setup/bridge/docker/contents+en.lrpage.body)
 msgid "docker logs CONTAINER_ID"
-msgstr ""
+msgstr "docker logs CONTAINER_ID"
 
 #: https//community.torproject.org/relay/setup/bridge/docker/
 #: (content/relay-operations/technical-setup/bridge/docker/contents+en.lrpage.body)
 msgid "To use your new bridge in Tor Browser, you need its \"bridge line\"."
 msgstr ""
+"Za korištenje tvog novog mosta u Tor pregledniku, treba ti je njegova "
+"„linija mosta”."
 
 #: https//community.torproject.org/relay/setup/bridge/docker/
 #: (content/relay-operations/technical-setup/bridge/docker/contents+en.lrpage.body)
 msgid "Here's how you can get your bridge line:"
-msgstr ""
+msgstr "Ovako dobivaš liniju mosta:"
 
 #: https//community.torproject.org/relay/setup/bridge/docker/
 #: (content/relay-operations/technical-setup/bridge/docker/contents+en.lrpage.body)
 msgid "docker exec CONTAINER_ID get-bridge-line"
-msgstr ""
+msgstr "docker exec CONTAINER_ID get-bridge-line"
 
 #: https//community.torproject.org/relay/setup/bridge/docker/
 #: (content/relay-operations/technical-setup/bridge/docker/contents+en.lrpage.body)
 msgid "This will return a string similar to the following:"
-msgstr ""
+msgstr "Ovo će vratiti znakovni niz sličan sljedećem:"
 
 #: https//community.torproject.org/relay/setup/bridge/docker/
 #: (content/relay-operations/technical-setup/bridge/docker/contents+en.lrpage.body)
@@ -8840,6 +8865,9 @@ msgid ""
 "cert=OYWq67L7MDApdJCctUAF7rX8LHvMxvIBPHOoAp0+YXzlQdsxhw6EapaMNwbbGICkpY8CPQ "
 "iat-mode=0"
 msgstr ""
+"obfs4 1.2.3.4:1234 B0E566C9031657EA7ED3FC9D248E8AC4F37635A4 "
+"cert=OYWq67L7MDApdJCctUAF7rX8LHvMxvIBPHOoAp0+YXzlQdsxhw6EapaMNwbbGICkpY8CPQ "
+"iat-mode=0"
 
 #: https//community.torproject.org/relay/setup/bridge/docker/
 #: (content/relay-operations/technical-setup/bridge/docker/contents+en.lrpage.body)
