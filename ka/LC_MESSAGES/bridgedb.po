@@ -11,9 +11,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Tor Project\n"
 "Report-Msgid-Bugs-To: 'https://trac.torproject.org/projects/tor/newticket?component=BridgeDB&keywords=bridgedb-reported,msgid&cc=isis,sysrqb&owner=isis'\n"
-"POT-Creation-Date: 2020-03-24 10:22-0700\n"
-"PO-Revision-Date: 2020-03-31 11:27+0000\n"
-"Last-Translator: Georgianization\n"
+"POT-Creation-Date: 2020-04-06 13:53-0700\n"
+"PO-Revision-Date: 2020-04-07 07:53+0000\n"
+"Last-Translator: Transifex Bot <>\n"
 "Language-Team: Georgian (http://www.transifex.com/otf/torproject/language/ka/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -70,6 +70,10 @@ msgstr "პირველწყარო კოდი"
 msgid "Changelog"
 msgstr "ცვლილებები"
 
+#: bridgedb/distributors/https/templates/base.html:102
+msgid "Public Keys"
+msgstr "საჯარო გასაღებები"
+
 #: bridgedb/distributors/https/templates/bridges.html:35
 msgid "Select All"
 msgstr "ყველას მონიშვნა"
@@ -87,7 +91,7 @@ msgstr "QR-კოდი გადამცემის მისამართ�
 #. for Italian, you might translate this into "Mama mia!",
 #. or for French: "Sacrebleu!". :)
 #: bridgedb/distributors/https/templates/bridges.html:67
-#: bridgedb/distributors/https/templates/bridges.html:125
+#: bridgedb/distributors/https/templates/bridges.html:119
 msgid "Uh oh, spaghettios!"
 msgstr "უჰ, რაღაც რიგზე ვერაა!"
 
@@ -101,12 +105,12 @@ msgid ""
 " your bridge lines onto mobile and other devices."
 msgstr "QR-კოდი შეიცავს თქვენი გადამცემის მისამართს. გადაატარეთ QR-კოდის წამკითხავი მისამართის ასლის მისაღებად ტელეფონსა და სხვა მოწყობილობებზე."
 
-#: bridgedb/distributors/https/templates/bridges.html:131
+#: bridgedb/distributors/https/templates/bridges.html:125
 msgid "There currently aren't any bridges available..."
 msgstr "ამჟამად არცერთი გადამცემი ხიდი არაა ხელმისაწვდომი..."
 
-#: bridgedb/distributors/https/templates/bridges.html:133
-#: bridgedb/distributors/https/templates/bridges.html:137
+#: bridgedb/distributors/https/templates/bridges.html:127
+#: bridgedb/distributors/https/templates/bridges.html:131
 #, python-format
 msgid ""
 " Perhaps you should try %s going back %s and choosing a different bridge "
@@ -182,64 +186,32 @@ msgstr "%sდ%sიახ!"
 msgid "%sG%set Bridges"
 msgstr "%sმ%sიიღეთ გადამცემები (Bridges)"
 
-#: bridgedb/strings.py:43
-msgid "[This is an automated message; please do not reply.]"
-msgstr "[ეს ავტომატური წერილია; გთხოვთ ნუ გამოეხმაურებით.]"
+#: bridgedb/strings.py:42
+msgid "[This is an automated email.]"
+msgstr ""
 
-#: bridgedb/strings.py:45
+#: bridgedb/strings.py:44
 msgid "Here are your bridges:"
 msgstr "თქვენი გადამცემი ხიდები:"
 
-#: bridgedb/strings.py:47
+#: bridgedb/strings.py:46
 #, python-format
 msgid ""
 "You have exceeded the rate limit. Please slow down! The minimum time between\n"
 "emails is %s hours. All further emails during this time period will be ignored."
 msgstr "თქვენ გადააჭარბეთ ზღვრულ სიხშირეს. გთხოვთ, მოგვიანებით სცადოთ! ელფოსტის გაგზავნა შეგეძლებათ %s საათის შემდეგ. ყველა წერილი ამ შუალედის განმავლობაში, უგულებელყოფილი იქნება."
 
-#: bridgedb/strings.py:50
+#: bridgedb/strings.py:49
 msgid ""
-"COMMANDs: (combine COMMANDs to specify multiple options simultaneously)"
-msgstr "COMMANDs: (COMMANDs ერთობლივი გამოყენებით რამდენიმე პარამეტრის ერთდროული მითითებაა შესაძლებელი)"
-
-#. TRANSLATORS: Please DO NOT translate the word "BridgeDB".
-#: bridgedb/strings.py:53
-msgid "Welcome to BridgeDB!"
-msgstr "მოგესალმებით BridgeDB-ში!"
-
-#. TRANSLATORS: Please DO NOT translate the words "transport" or "TYPE".
-#: bridgedb/strings.py:55
-msgid "Currently supported transport TYPEs:"
-msgstr "ამჟამად მხარდაჭერილი გადაცემის სახეები (TYPE):"
-
-#: bridgedb/strings.py:56
-#, python-format
-msgid "Hey, %s!"
-msgstr "გამარჯობა, %s!"
-
-#: bridgedb/strings.py:57
-msgid "Hello, friend!"
-msgstr "მოგესალმებით, მეგობარო!"
-
-#: bridgedb/distributors/https/templates/base.html:102 bridgedb/strings.py:58
-msgid "Public Keys"
-msgstr "საჯარო გასაღებები"
-
-#. TRANSLATORS: This string will end up saying something like:
-#. "This email was generated with rainbows, unicorns, and sparkles
-#. for alice@example.com on Friday, 09 May, 2014 at 18:59:39."
-#: bridgedb/strings.py:62
-#, python-format
-msgid ""
-"This email was generated with rainbows, unicorns, and sparkles\n"
-"for %s on %s at %s."
-msgstr "ეს წერილი შეიქმნა ცისარტყელის ფერებით, ზღაპრული არსებებითა და ბრჭყვიალებით\n%s-ისთვის, თარიღი %s, დრო %s."
+"If these bridges are not what you need, reply to this email with one of\n"
+"the following commands in the message body:"
+msgstr ""
 
 #. TRANSLATORS: Please DO NOT translate "BridgeDB".
 #. TRANSLATORS: Please DO NOT translate "Pluggable Transports".
 #. TRANSLATORS: Please DO NOT translate "Tor".
 #. TRANSLATORS: Please DO NOT translate "Tor Network".
-#: bridgedb/strings.py:72
+#: bridgedb/strings.py:59
 #, python-format
 msgid ""
 "BridgeDB can provide bridges with several %stypes of Pluggable Transports%s,\n"
@@ -250,7 +222,7 @@ msgid ""
 msgstr "BridgeDB გთავაზობთ რამდენიმე %sსახის მისაერთებელ გადამყვანს (Pluggable Transports)%s,\nრომელიც დაგეხმარებათ დამალოთ თქვენი კავშირები Tor-ქსელთან, ეს კი მეტად\nგაურთულებს თქვენი ქსელის თვალყურისმდევნელებს შესაძლებლობას,\nდაადგინონ, ხართ თუ არა Tor-თან დაკავშირებული.\n\n"
 
 #. TRANSLATORS: Please DO NOT translate "Pluggable Transports".
-#: bridgedb/strings.py:79
+#: bridgedb/strings.py:66
 msgid ""
 "Some bridges with IPv6 addresses are also available, though some Pluggable\n"
 "Transports aren't IPv6 compatible.\n"
@@ -262,7 +234,7 @@ msgstr "გადამცემი ხიდების ნაწილი IPv
 #. regular, or unexciting". Like vanilla ice cream. It refers to bridges
 #. which do not have Pluggable Transports, and only speak the regular,
 #. boring Tor protocol. Translate it as you see fit. Have fun with it.
-#: bridgedb/strings.py:88
+#: bridgedb/strings.py:75
 #, python-format
 msgid ""
 "Additionally, BridgeDB has plenty of plain-ol'-vanilla bridges %s without any\n"
@@ -271,21 +243,21 @@ msgid ""
 "\n"
 msgstr "ამასთან, BridgeDB-ს გააჩნია უამრავი ჩვეულებრივი სახის გადამცემი ხიდიც %sყოველგვარი\nმისაერთებელი გადამყვანის (Pluggable Transports) გარეშე, %s რაც არც ისე შთამბეჭდავად გამოითქმის, თუმცა მაინც გამოსადეგია\nინტერნეტის შეზღუდვებისთვის თავის ასარიდებლად არაერთ შემთხვევაში.\n\n"
 
-#: bridgedb/strings.py:101 bridgedb/test/test_https.py:356
+#: bridgedb/strings.py:87 bridgedb/test/test_https.py:356
 msgid "What are bridges?"
 msgstr "რას წარმოადგენს ხიდები?"
 
-#: bridgedb/strings.py:102
+#: bridgedb/strings.py:88
 #, python-format
 msgid "%s Bridges %s are Tor relays that help you circumvent censorship."
 msgstr "%s ხიდები %s არის Tor-ის გადამცემები, რომლებიც გეხმარებათ გვერდი აუაროთ შეზღუდვებს."
 
-#: bridgedb/strings.py:107
+#: bridgedb/strings.py:93
 msgid "I need an alternative way of getting bridges!"
 msgstr "სხვა გზები მესაჭიროება გადამცემ ხიდებთან წვდომის მისაღებად!"
 
 #. TRANSLATORS: Please DO NOT translate "get transport obfs4".
-#: bridgedb/strings.py:109
+#: bridgedb/strings.py:95
 #, python-format
 msgid ""
 "Another way to get bridges is to send an email to %s. Leave the email subject\n"
@@ -294,33 +266,33 @@ msgid ""
 "providers: %s or %s."
 msgstr "ხიდების მიღების გზა, ფოსტით მოწერაცაა მისამართზე %s. დატოვეთ თემის\nველი ცარიელი და ჩაწერეთ „get transport obfs4“ წერილში, გაითვალისწინეთ,\nრომ გამოგზავნა შეგიძლიათ ელფოსტის მომსახურების რომელიმე ამ\nმომწოდებლისგან: %s ან %s."
 
-#: bridgedb/strings.py:117
+#: bridgedb/strings.py:103
 msgid "My bridges don't work! I need help!"
 msgstr "ჩემი ხიდები არ მუშაობს! დახმარება მჭირდება!"
 
 #. TRANSLATORS: Please DO NOT translate "Tor Browser".
 #. TRANSLATORS: The two '%s' are substituted with "Tor Browser Manual" and
 #. "Support Portal", respectively.
-#: bridgedb/strings.py:121
+#: bridgedb/strings.py:107
 #, python-format
 msgid ""
 "If your Tor Browser cannot connect, please take a look at the %s and our %s."
 msgstr "თუ თქვენი Tor-ბრაუზერი ვერ უკავშირდება, გთხოვთ იხილოთ %s და ჩვენი %s."
 
-#: bridgedb/strings.py:125
+#: bridgedb/strings.py:111
 msgid "Here are your bridge lines:"
 msgstr "აქ არის თქვენი სახიდე ხაზები:"
 
-#: bridgedb/strings.py:126
+#: bridgedb/strings.py:112
 msgid "Get Bridges!"
 msgstr "მიიღეთ გადამცემი ხიდები!"
 
-#: bridgedb/strings.py:130
+#: bridgedb/strings.py:116
 msgid "Bridge distribution mechanisms"
 msgstr "ხიდის გავრცელების საშუალებები"
 
 #. TRANSLATORS: Please DO NOT translate "BridgeDB", "HTTPS", and "Moat".
-#: bridgedb/strings.py:132
+#: bridgedb/strings.py:118
 #, python-format
 msgid ""
 "BridgeDB implements four mechanisms to distribute bridges: \"HTTPS\", \"Moat\",\n"
@@ -330,7 +302,7 @@ msgid ""
 "mechanisms is."
 msgstr "BridgeDB ნერგავს ოთხ საშუალებას ხიდების გასავრცელებლად: „HTTPS“, „Moat“,\n„Email“, და „Reserved“.  ხიდები, რომლებიც არ ვრცელდება BridgeDB-ით, იყენებს\nცრუ-საშუალებას „None“.  მოცემული ჩამონათვალი მარტივად ხსნის თუ როგორ\nმუშაობს ეს საშუალებები, ჩვენი %sBridgeDB-გაზომვები%s კი ასახავს რა სიხშირით გამოიყენება\nთითოეული მათგანი."
 
-#: bridgedb/strings.py:138
+#: bridgedb/strings.py:124
 #, python-format
 msgid ""
 "The \"HTTPS\" distribution mechanism hands out bridges over this website.  To get\n"
@@ -338,7 +310,7 @@ msgid ""
 "solve the subsequent CAPTCHA."
 msgstr "„HTTPS“ გავრცელების საშუალება გადასცემს ხიდებს ვებსაიტებით.  ხიდების\nმისაღებად, გახსენით %sbridges.torproject.org%s, აირჩიეთ სასურველი პარამეტრები და \nშემდგომ ამოხსენით CAPTCHA."
 
-#: bridgedb/strings.py:142
+#: bridgedb/strings.py:128
 #, python-format
 msgid ""
 "The \"Moat\" distribution mechanism is part of Tor Browser, allowing users to\n"
@@ -348,7 +320,7 @@ msgid ""
 "bridges."
 msgstr "„Moat“ გავრცელების საშუალება, ნაწილია Tor-ბრაუზერის, მისით მომხმარებლებს \nშეუძლიათ ხიდების მოთხოვნა Tor-ბრაუზერიდანვე.  ხიდების მისაღებად, გახსენით\nთქვენი Tor-ბრაუზერის %sTor-პარამეტრები%s, დაწკაპეთ „ახალი ხიდის მოთხოვნა“, ამოხსენით\nმოცემული CAPTCHA და Tor-ბრაუზერი თავად დაამატებს თქვენს ახალ\nხიდებს."
 
-#: bridgedb/strings.py:148
+#: bridgedb/strings.py:134
 #, python-format
 msgid ""
 "Users can request bridges from the \"Email\" distribution mechanism by sending an\n"
@@ -356,11 +328,11 @@ msgid ""
 "email body."
 msgstr "მომხმარებლებს ხიდების მოთხოვნა „ელფოსტის“ გამოგზავნითაც შეუძლიათ\nმისამართზე %sbridges@torproject.org%s და „get transport obfs4“ ტექსტის დართვით\nწერილის შიგთავსში."
 
-#: bridgedb/strings.py:152
+#: bridgedb/strings.py:138
 msgid "Reserved"
 msgstr "სათადარიგო"
 
-#: bridgedb/strings.py:153
+#: bridgedb/strings.py:139
 #, python-format
 msgid ""
 "BridgeDB maintains a small number of bridges that are not distributed\n"
@@ -371,11 +343,11 @@ msgid ""
 "called \"Unallocated\" in %sbridge pool assignment%s files."
 msgstr "BridgeDB უზრუნველყოფს მცირე ოდენობის ხიდებს, რომლებიც არ ვრცელდება\nავტომატურად.  ისინი ინახება სათადარიგოდ ხელით გავრცელებისთვის\nდა გადასაცემად NGO-ებისა და სხვა დაწესებულებების ან პირებისთვის, რომლებიც\nხიდებს საჭიროებენ.  ხიდები რომლებიც ვრცელდება „სათადარიგოდ“, შესაძლოა არ\nჩანდეს მომხმარებლებისთვის.  შენიშვნა: „სათადარიგო“ გავრცელების საშუალებას \nეწოდება „Unallocated“ %sგასაცემი ხიდების მარაგის%s ფაილებში."
 
-#: bridgedb/strings.py:160
+#: bridgedb/strings.py:146
 msgid "None"
 msgstr "არა"
 
-#: bridgedb/strings.py:161
+#: bridgedb/strings.py:147
 msgid ""
 "Bridges whose distribution mechanism is \"None\" are not distributed by BridgeDB.\n"
 "It is the bridge operator's responsibility to distribute their bridges to\n"
@@ -384,33 +356,33 @@ msgid ""
 "it will then change to the bridge's actual distribution mechanism.\n"
 msgstr "ხიდები, რომელთა გავრცელების საშუალებაა „None“, არ გაიცემა BridgeDB-ით.\nთავად ხიდის მფლობელების პასუხისმგებლობაა, მათი მომხმარებლებისთვის\nმიწოდება.  შენიშვნა: გადამცემთა ძიებისას, ახალი ხიდების გავრცელების\nსაშუალებად აღნიშნულია „None“, დაახლოებით ერთი დღე.  გთხოვთ, მოითმინოთ,\nსანამ შეიცვლება და მიეთითება ხიდის გავრცელების შესაბამისი საშუალება.\n"
 
-#: bridgedb/strings.py:171
+#: bridgedb/strings.py:157
 msgid "Please select options for bridge type:"
 msgstr "გთხოვთ, მიუთითოთ გადაცემის სახე:"
 
-#: bridgedb/strings.py:172
+#: bridgedb/strings.py:158
 msgid "Do you need IPv6 addresses?"
 msgstr "გესაჭიროებათ IPv6-მისამართები?"
 
-#: bridgedb/strings.py:173
+#: bridgedb/strings.py:159
 #, python-format
 msgid "Do you need a %s?"
 msgstr "გესაჭიროებათ %s?"
 
-#: bridgedb/strings.py:177
+#: bridgedb/strings.py:163
 msgid "Your browser is not displaying images properly."
 msgstr "თქვენი ბრაუზერი არ აჩვენებს სურათებს გამართულად."
 
-#: bridgedb/strings.py:178
+#: bridgedb/strings.py:164
 msgid "Enter the characters from the image above..."
 msgstr "შეიყვანეთ სიმბოლოები ზემოთ არსებული სურათიდან..."
 
-#: bridgedb/strings.py:182
+#: bridgedb/strings.py:168
 msgid "How to start using your bridges"
 msgstr "როგორ უნდა გამოვიყენო გადამცემი ხიდები"
 
 #. TRANSLATORS: Please DO NOT translate "Tor Browser".
-#: bridgedb/strings.py:184
+#: bridgedb/strings.py:170
 #, python-format
 msgid ""
 " First, you need to %sdownload Tor Browser%s. Our Tor Browser User\n"
@@ -419,28 +391,28 @@ msgid ""
 " are using Android, %sclick here%s."
 msgstr " პირველ რიგში, საჭიროა %sგადმოწეროთ Tor-ბრაუზერი%s. Tor-ბრაუზერის მომხმარებლის\n სახელმძღვანელოში ახნილია, როგორ უნდა დაამატოთ ხიდი Tor-ბრაუზერს. თუ\n გიყენიათ Windows, Linux, ან OS X, %sდაწკაპეთ აქ%s ვრცლად სანახავად. თუ \n გაქვთ Android, %sდაწკაპეთ აქ%s."
 
-#: bridgedb/strings.py:192
-msgid "Displays this message."
-msgstr "ამ შეტყობინების ჩვენება."
+#: bridgedb/strings.py:175
+msgid ""
+"Add these bridges to your Tor Browser by opening your browser\n"
+"preferences, clicking on \"Tor\", and then adding them to the \"Provide a\n"
+"bridge\" field."
+msgstr ""
 
-#. TRANSLATORS: Please try to make it clear that "vanilla" here refers to the
-#. same non-Pluggable Transport bridges described above as being
-#. "plain-ol'-vanilla" bridges.
-#: bridgedb/strings.py:196
-msgid "Request vanilla bridges."
-msgstr "ჩვეულებრივი გადამცემი ხიდების მოთხოვნა."
+#: bridgedb/strings.py:182
+msgid "(Request unobfuscated Tor bridges.)"
+msgstr ""
 
-#: bridgedb/strings.py:197
-msgid "Request IPv6 bridges."
-msgstr "IPv6-მისამართის ხიდების მოთხოვნა."
+#: bridgedb/strings.py:183
+msgid "(Request IPv6 bridges.)"
+msgstr ""
 
-#. TRANSLATORS: Please DO NOT translate the word the word "TYPE".
-#: bridgedb/strings.py:199
-msgid "Request a Pluggable Transport by TYPE."
-msgstr "მისაერთებელი TYPE-გადამყვანის მოთხოვნა."
+#. TRANSLATORS: Please DO NOT translate the word "TYPE".
+#: bridgedb/strings.py:185
+msgid "(Request obfuscated bridges. Replace TYPE with 'obfs4'.)"
+msgstr ""
 
 #. TRANSLATORS: Please DO NOT translate "BridgeDB".
 #. TRANSLATORS: Please DO NOT translate "GnuPG".
-#: bridgedb/strings.py:202
-msgid "Get a copy of BridgeDB's public GnuPG key."
-msgstr "BridgeDB-ს სააჯარო GnuPG-გასაღების მიღება."
+#: bridgedb/strings.py:189
+msgid "(Get a copy of BridgeDB's public GnuPG key.)"
+msgstr ""
