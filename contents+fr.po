@@ -375,8 +375,8 @@ msgid ""
 "hard time determining whether or not those requests are coming from humans "
 "or bots."
 msgstr ""
-"Les utilisateurs de [Tor](../tor-tor-tor-network-core-tor) se voient souvent"
-" servir des captchas, car les [relais](../relay) Tor sont la source de "
+"Les utilisateurs de [Tor](../tor-tor-network-core-tor) se voient souvent "
+"servir des captchas, car les [relais](../relay) Tor sont la source de "
 "tellement de requêtes que les sites Web ont parfois de la difficulté à "
 "déterminer si ces requêtes proviennent d’êtres humains ou de robots."
 
@@ -419,7 +419,7 @@ msgid ""
 "services](../single-onion-service)), and never an exit node. You can view "
 "your current Tor circuit by clicking on the [i] on the URL bar."
 msgstr ""
-"Un chemin au travers du réseau [Tor](..tor-tor-network/-core-tor), construit"
+"Un chemin au travers du réseau [Tor](../tor-tor-network-core-tor), construit"
 " par des [clients](../client) et composé de nœuds sélectionnés au hasard. Le"
 " circuit commence soit par un [pont](../bridge) soit par un "
 "[garde](../guard). La plupart des circuits comprennent trois nœuds : un "
@@ -598,9 +598,9 @@ msgid ""
 msgstr ""
 "Processus qui consiste à prendre un élément de données et à le brouiller en "
 "un code secret qui ne peut être lu que par le destinataire prévu. [Tor"
-"](../-tor-tor-network/-core-tor) utilise trois couches de chiffrement dans "
-"le [circuit](../circuit) Tor ; chaque [relais](../relais) déchiffre une "
-"couche avant de passer la requête au relais suivant."
+"](../tor-tor-network-core-tor) utilise trois couches de chiffrement dans le "
+"[circuit](../circuit) Tor ; chaque [relais](../relais) déchiffre une couche "
+"avant de passer la requête au relais suivant."
 
 #: https//support.torproject.org/glossary/end-to-end-encrypted/
 #: (content/glossary/end-to-end-encrypted/contents+en.lrword.term)
@@ -648,6 +648,11 @@ msgid ""
 "relay running on a given IP address on a given date.  This service is often "
 "useful when dealing with law enforcement."
 msgstr ""
+"Le service ExoneraTor maintient une base de données des [adresses "
+"IP](../adresse IP) de [relais](../relais) qui ont fait partie du réseau Tor."
+" Il permet de savoir si un relais [Tor](../tor-tor-network-core-tor) "
+"fonctionnait pour une adresse IP donnée à une date donnée. Ce service est "
+"souvent utile dans les rapports avec les organismes d’application de la loi."
 
 #: https//support.torproject.org/glossary/firefox/
 #: (content/glossary/firefox/contents+en.lrword.term)
@@ -688,7 +693,7 @@ msgstr ""
 #: https//support.torproject.org/glossary/firewall/
 #: (content/glossary/firewall/contents+en.lrword.term)
 msgid "firewall"
-msgstr ""
+msgstr "pare-feu"
 
 #: https//support.torproject.org/glossary/firewall/
 #: (content/glossary/firewall/contents+en.lrword.definition)
@@ -702,6 +707,16 @@ msgid ""
 "network-core-tor) because their firewall blocks Tor connections. You can "
 "reconfigure or disable your firewall and restart Tor to test this."
 msgstr ""
+"Un pare-feu est un système de sécurité des réseaux qui surveille et contrôle"
+" le [trafic](../trafic) entrant et sortant du réseau. Ce filtre du trafic "
+"s’appuie sur des règles prédéterminées. Un pare-feu établit généralement une"
+" barrière entre un réseau interne de confiance sécurisé et un autre réseau "
+"externe. Mais il peut aussi être utilisé comme filtre de contenu, "
+"c’est-à-dire pour [censurer](../censure-du-réseau). Les utilisateurs "
+"éprouvent parfois des difficultés à se connecter à [Tor](../tor-tor-network-"
+"core-tor), car leur pare-feu bloque les connexions vers et de Tor. Pour le "
+"tester, vous pouvez reconfigurer ou désactiver votre pare-feu et redémarrer "
+"Tor."
 
 #: https//support.torproject.org/glossary/flash-player/
 #: (content/glossary/flash-player/contents+en.lrword.term)
@@ -717,11 +732,17 @@ msgid ""
 " Many services that use Flash also offer an HTML5 alternative, which should "
 "work in the Tor Browser."
 msgstr ""
+"Le lecteur Flash est un [greffon pour navigateur](../add-on-extension-or-"
+"plugin), afin que vous puissiez lire du contenu multimédia avec les "
+"[applications](../app) Internet. Vous ne devriez jamais permettre à Flash de"
+" fonctionner dans le [Navigateur Tor](../tor-browser), car cela est "
+"dangereux. De nombreux services qui utilisent Flash offrent aussi une "
+"approche HTML5 qui devrait fonctionner dans le Navigateur Tor."
 
 #: https//support.torproject.org/glossary/fte/
 #: (content/glossary/fte/contents+en.lrword.term)
 msgid "fte"
-msgstr ""
+msgstr "fte"
 
 #: https//support.torproject.org/glossary/fte/
 #: (content/glossary/fte/contents+en.lrword.definition)
@@ -747,7 +768,7 @@ msgstr ""
 #: https//support.torproject.org/glossary/gsoc/
 #: (content/glossary/gsoc/contents+en.lrword.term)
 msgid "GSoC"
-msgstr ""
+msgstr "GSoC"
 
 #: https//support.torproject.org/glossary/gsoc/
 #: (content/glossary/gsoc/contents+en.lrword.definition)
@@ -761,7 +782,7 @@ msgstr ""
 #: https//support.torproject.org/glossary/gsod/
 #: (content/glossary/gsod/contents+en.lrword.term)
 msgid "GSoD"
-msgstr ""
+msgstr "GSoD"
 
 #: https//support.torproject.org/glossary/gsod/
 #: (content/glossary/gsod/contents+en.lrword.definition)
@@ -769,11 +790,13 @@ msgid ""
 "The Tor Project participates in the Google Season of Docs, which is a "
 "program for technical writers."
 msgstr ""
+"Le Projet Tor participe au « Google Season of Docs », qui est un programme "
+"pour les rédacteurs technique."
 
 #: https//support.torproject.org/glossary/guard/
 #: (content/glossary/guard/contents+en.lrword.term)
 msgid "guard"
-msgstr ""
+msgstr "garde"
 
 #: https//support.torproject.org/glossary/guard/
 #: (content/glossary/guard/contents+en.lrword.definition)
@@ -809,7 +832,7 @@ msgstr ""
 #: https//support.torproject.org/glossary/hidden-services/
 #: (content/glossary/hidden-services/contents+en.lrword.term)
 msgid "hidden services"
-msgstr ""
+msgstr "services cachés"
 
 #: https//support.torproject.org/glossary/hidden-services/
 #: (content/glossary/hidden-services/contents+en.lrword.definition)
@@ -824,7 +847,7 @@ msgstr ""
 #: https//support.torproject.org/glossary/hop/
 #: (content/glossary/hop/contents+en.lrword.term)
 msgid "hop"
-msgstr ""
+msgstr "saut"
 
 #: https//support.torproject.org/glossary/hop/
 #: (content/glossary/hop/contents+en.lrword.definition)
@@ -892,7 +915,7 @@ msgstr "HTTPS partout est installé dans le [Navigateur Tor](../tor-browser)."
 #: https//support.torproject.org/glossary/internet-service-provider-isp-/
 #: (content/glossary/internet-service-provider-isp-/contents+en.lrword.term)
 msgid "internet service provider (ISP)"
-msgstr ""
+msgstr "fournisseur d’accès à Internet (FAI)"
 
 #: https//support.torproject.org/glossary/internet-service-provider-isp-/
 #: (content/glossary/internet-service-provider-isp-/contents+en.lrword.definition)
@@ -977,7 +1000,7 @@ msgstr ""
 #: https//support.torproject.org/glossary/little-t-tor/
 #: (content/glossary/little-t-tor/contents+en.lrword.term)
 msgid "little-t tor"
-msgstr ""
+msgstr "little-t tor"
 
 #: https//support.torproject.org/glossary/little-t-tor/
 #: (content/glossary/little-t-tor/contents+en.lrword.definition)
@@ -985,8 +1008,8 @@ msgid ""
 "\"little-t tor\" is one way of referring to tor the network daemon, as "
 "opposed to Tor Browser or Tor Project."
 msgstr ""
-"« little-t tor » est une façon de référer à tor, le démon réseau, par "
-"opposition au Navigateur Tor ou au Project Tor."
+"« little-t tor » (tor avec un petit t) est une façon de faire référence à "
+"tor, le démon réseau, par opposition au Navigateur Tor ou au Project Tor."
 
 #: https//support.torproject.org/glossary/meek/
 #: (content/glossary/meek/contents+en.lrword.term)
@@ -1000,16 +1023,20 @@ msgid ""
 "you are browsing a major web site instead of using [Tor](../tor-tor-network-"
 "core-tor)."
 msgstr ""
+"Tous ces [transports enfichables](../plugable-transports) donnent "
+"l’impression que vous parcourez l’un des grands sites Web au lieu d’utiliser"
+" [Tor](../tor-tor-network-core-tor)."
 
 #: https//support.torproject.org/glossary/meek/
 #: (content/glossary/meek/contents+en.lrword.definition)
 msgid "Meek-azure makes it look like you are using a Microsoft web site."
 msgstr ""
+"Meek-azure donne l’impression que vous utilisez un site Web de Microsoft."
 
 #: https//support.torproject.org/glossary/middle-relay/
 #: (content/glossary/middle-relay/contents+en.lrword.term)
 msgid "middle relay"
-msgstr ""
+msgstr "relais intermédiaire"
 
 #: https//support.torproject.org/glossary/middle-relay/
 #: (content/glossary/middle-relay/contents+en.lrword.definition)
@@ -1025,7 +1052,7 @@ msgstr ""
 #: https//support.torproject.org/glossary/network-censorship/
 #: (content/glossary/network-censorship/contents+en.lrword.term)
 msgid "network censorship"
-msgstr ""
+msgstr "censure du réseau"
 
 #: https//support.torproject.org/glossary/network-censorship/
 #: (content/glossary/network-censorship/contents+en.lrword.definition)
@@ -1037,6 +1064,11 @@ msgid ""
 "[bridges](../bridge), [pluggable transports](../pluggable-transports), and "
 "[GetTor](../gettor)."
 msgstr ""
+"Parfois, l’accès direct au [réseau Tor](../tor-tor-network-core-tor) est "
+"bloqué par votre [fournisseur d’accès à Internet (FAI)](../internet-service-"
+"provider-isp) ou par un gouvernement. Pour contourner ces blocages, le "
+"Navigateur Tor comprend des outils, dont des [ponts](../bridge), des "
+"[transports enfichables](../plugable-transports) et [GetTor](../gettor)."
 
 #: https//support.torproject.org/glossary/new-identity/
 #: (content/glossary/new-identity/contents+en.lrword.term)
