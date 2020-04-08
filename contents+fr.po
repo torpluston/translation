@@ -218,8 +218,8 @@ msgid ""
 "A web application (web app), is an application that the [client](../client) "
 "runs in a [web browser](../web-browser)."
 msgstr ""
-"Une application Web (appli Web) est une application que le [client](#client)"
-" exécute dans un [navigateur Web](../web-browser)."
+"Une application Web (appli Web) est une application que le "
+"[client](../client) exécute dans un [navigateur Web](../web-browser)."
 
 #: https//support.torproject.org/glossary/app/
 #: (content/glossary/app/contents+en.lrword.definition)
@@ -419,11 +419,21 @@ msgid ""
 "services](../single-onion-service)), and never an exit node. You can view "
 "your current Tor circuit by clicking on the [i] on the URL bar."
 msgstr ""
+"Un chemin au travers du réseau [Tor](..tor-tor-network/-core-tor), construit"
+" par des [clients](../client) et composé de nœuds sélectionnés au hasard. Le"
+" circuit commence soit par un [pont](../bridge) soit par un "
+"[garde](../guard). La plupart des circuits comprennent trois nœuds : un "
+"garde ou un pont, un [relais intermédiaire](../middle-relay) et une "
+"[sortie](../exit). La plupart des [services onion](../onion-services) "
+"utilisent six sauts dans un circuit (à l’exception des [services onion "
+"simples](../single-onion-service)) et jamais de nœud de sortie. Vous pouvez "
+"visualiser votre circuit Tor actuel en cliquant sur le [i] de votre barre "
+"d’URL."
 
 #: https//support.torproject.org/glossary/client/
 #: (content/glossary/client/contents+en.lrword.term)
 msgid "client"
-msgstr ""
+msgstr "client"
 
 #: https//support.torproject.org/glossary/client/
 #: (content/glossary/client/contents+en.lrword.definition)
@@ -453,7 +463,7 @@ msgstr ""
 #: https//support.torproject.org/glossary/consensus/
 #: (content/glossary/consensus/contents+en.lrword.term)
 msgid "consensus"
-msgstr ""
+msgstr "consensus"
 
 #: https//support.torproject.org/glossary/consensus/
 #: (content/glossary/consensus/contents+en.lrword.definition)
@@ -472,7 +482,7 @@ msgstr ""
 #: https//support.torproject.org/glossary/cookie/
 #: (content/glossary/cookie/contents+en.lrword.term)
 msgid "cookie"
-msgstr ""
+msgstr "témoin"
 
 #: https//support.torproject.org/glossary/cookie/
 #: (content/glossary/cookie/contents+en.lrword.definition)
@@ -482,16 +492,21 @@ msgid ""
 "stored on the user's computer by the user's [web browser](../web-browser) "
 "while the user is browsing."
 msgstr ""
+"Un témoin [HTTP](../http) (aussi appelé fichier témoin (« cookie » en "
+"anglais)) est un petit élément de données envoyé d’un site Web et stocké sur"
+" l’ordinateur de l’utilisateur par le [navigateur Web](../Web-browser) de "
+"l’utilisateur alors qu’il parcourt des sites."
 
 #: https//support.torproject.org/glossary/cookie/
 #: (content/glossary/cookie/contents+en.lrword.definition)
 msgid "By default, [Tor Browser](../tor-browser) does not store cookies."
 msgstr ""
+"Par défaut, Le [Navigateur Tor](../tor-browser) n’enregistre aucun témoin."
 
 #: https//support.torproject.org/glossary/cross-site-scripting-xss-/
 #: (content/glossary/cross-site-scripting-xss-/contents+en.lrword.term)
 msgid "cross-site scripting (XSS)"
-msgstr ""
+msgstr "script intersites (XSS)"
 
 #: https//support.torproject.org/glossary/cross-site-scripting-xss-/
 #: (content/glossary/cross-site-scripting-xss-/contents+en.lrword.definition)
@@ -506,7 +521,7 @@ msgstr ""
 #: https//support.torproject.org/glossary/cryptographic-signature/
 #: (content/glossary/cryptographic-signature/contents+en.lrword.term)
 msgid "cryptographic signature"
-msgstr ""
+msgstr "signature cryptographique"
 
 #: https//support.torproject.org/glossary/cryptographic-signature/
 #: (content/glossary/cryptographic-signature/contents+en.lrword.definition)
@@ -519,6 +534,14 @@ msgid ""
 " can verify that the file you have downloaded is exactly the one that we "
 "intended you to get."
 msgstr ""
+"Une signature cryptographique prouve l’authenticité d’un message ou d’un "
+"fichier. Elle est créée par le détenteur de la partie privée d’une biclé de "
+"[cryptographie par clé publique](../public-key-cryptography) et peut être "
+"vérifiée par la clé publique correspondante. Si vous téléchargez des "
+"logiciels de torproject.org, vous la trouverez sous la forme de fichiers de "
+"signature (.asc). Ce sont des signatures PGP afin que vous puissiez vérifier"
+" que le fichier que vous avez téléchargé est exactement celui que nous vous "
+"voulions que vous obteniez."
 
 #: https//support.torproject.org/glossary/cryptographic-signature/
 #: (content/glossary/cryptographic-signature/contents+en.lrword.definition)
@@ -526,11 +549,13 @@ msgid ""
 "For more information, see [how you can verify signatures](/tbb/how-to-"
 "verify-signature/)."
 msgstr ""
+"Vous trouverez [ici](/fr/tbb/how-to-verify-signature/) plus de précisions "
+"sur la façon de vérifier des signatures."
 
 #: https//support.torproject.org/glossary/daemon/
 #: (content/glossary/daemon/contents+en.lrword.term)
 msgid "daemon"
-msgstr ""
+msgstr "démon"
 
 #: https//support.torproject.org/glossary/daemon/
 #: (content/glossary/daemon/contents+en.lrword.definition)
@@ -544,7 +569,7 @@ msgstr ""
 #: https//support.torproject.org/glossary/directory-authority/
 #: (content/glossary/directory-authority/contents+en.lrword.term)
 msgid "directory authority"
-msgstr ""
+msgstr "autorité d’annuaire"
 
 #: https//support.torproject.org/glossary/directory-authority/
 #: (content/glossary/directory-authority/contents+en.lrword.definition)
@@ -560,7 +585,7 @@ msgstr ""
 #: https//support.torproject.org/glossary/encryption/
 #: (content/glossary/encryption/contents+en.lrword.term)
 msgid "encryption"
-msgstr ""
+msgstr "chiffrement"
 
 #: https//support.torproject.org/glossary/encryption/
 #: (content/glossary/encryption/contents+en.lrword.definition)
@@ -571,11 +596,16 @@ msgid ""
 "each [relay](../relay) decrypts one layer before passing the request on to "
 "the next relay."
 msgstr ""
+"Processus qui consiste à prendre un élément de données et à le brouiller en "
+"un code secret qui ne peut être lu que par le destinataire prévu. [Tor"
+"](../-tor-tor-network/-core-tor) utilise trois couches de chiffrement dans "
+"le [circuit](../circuit) Tor ; chaque [relais](../relais) déchiffre une "
+"couche avant de passer la requête au relais suivant."
 
 #: https//support.torproject.org/glossary/end-to-end-encrypted/
 #: (content/glossary/end-to-end-encrypted/contents+en.lrword.term)
 msgid "end-to-end encrypted"
-msgstr ""
+msgstr "chiffrées de bout en bout"
 
 #: https//support.torproject.org/glossary/end-to-end-encrypted/
 #: (content/glossary/end-to-end-encrypted/contents+en.lrword.definition)
@@ -607,7 +637,7 @@ msgstr ""
 #: https//support.torproject.org/glossary/exonerator/
 #: (content/glossary/exonerator/contents+en.lrword.term)
 msgid "ExoneraTor"
-msgstr ""
+msgstr "ExoneraTor"
 
 #: https//support.torproject.org/glossary/exonerator/
 #: (content/glossary/exonerator/contents+en.lrword.definition)
