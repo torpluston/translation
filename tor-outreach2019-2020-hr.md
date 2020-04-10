@@ -1,6 +1,6 @@
 # Tor Outreach Material 2019-2020
 
-# 1. TOR FOR PRIVACY 
+# 1. TOR ZA PRIVATNOST
 
 ### Privacy is a human right
 
@@ -124,29 +124,29 @@ Bekele doesn't know that the website request came from Amal unless she tells him
 
 ## 7. Tko koristi Tor? 
 
-People all over the world use Tor to protect their privacy and access the web freely.
+Ljudi diljem svijeta koriste Tor kako bi zaštitili svoju privatnost i slobodno pristupili internetu.
 
-Tor helps protect journalists, human rights defenders, domestic violence victims, academic researchers, and anyone experiencing tracking, censorship, or surveillance. 
+Tor pomaže zaštititi novinare, branitelje ljudskih prava, žrtve nasilja u obitelji, akademske istraživače i sve one koji su na vlastitoj koži iskusili praćenje, cenzuru ili nadzor.
 
-## 6. Why trust Tor?
+## 6. Zašto se pouzdati u Tor?
 
-Tor is designed for privacy. We don’t know who our users are, and we don't keep logs of user activity.
+Tor je stvoren za privatnost. Niti znamo tko su naši korisnici niti vodimo evidenciju o korisničkim aktivnostima.
 
-Tor relay operators cannot reveal the true identity of Tor users.
+Operatori Tor releja ne mogu otkriti pravi identitet korisnika Tora.
 
-Continual peer review of Tor's source code by academic and open source communities ensures that there are no backdoors in Tor, and our social contract promises that we will never backdoor Tor. 
+Akademska zajednica i zajednice otvorenog koda imaju stalan uvid u Torov izvorni kod i na taj način osiguravaju da u Toru nema skrivenih mogućnosti za manipuliranje podacima, a naš društveni ugovor obećava da to nikada nećemo dozvoliti u Toru.
 
-## 7. Join the Tor community
+## 7. Pridruži se Tor zajednici
 
-Tor is made possible by a diverse set of users, developers, relay operators, and advocates from around the world.
+Tor omogućuju razni skupovi korisnika, programera, operatora releja i zagovornika iz cijelog svijeta.
 
-We need your help to make Tor more usable and secure for people everywhere.
+Trebamo tvoju pomoć kako bismo Tor učinili upotrebljivijim i sigurnijim za sve korisnike.
 
-You can volunteer with Tor by writing code, running a relay, creating documentation, offering user support, or telling people in your community about Tor.
+U Toru možeš volontirati pisanjem koda, pokretanjem releja, izradom dokumentacije, pružanjem korisničke podrške ili širenjem informacija o Toru.
 
-The Tor community is governed by a code of conduct, and we outline our set of promises to the community in our social contract. 
+Tor zajednica ima svoj kodeks ponašanja, a mi smo ocrtali naša obećanja zajednici u našem društvenom ugovoru.
 
-Learn more about Tor by visiting our website, our wiki, finding us on IRC, joining one of our mailing lists, or signing up for Tor News at newsletter.torproject.org.
+Saznaj više o Toru na našoj web-stranici, na našim wiki-stranicama, pronađi nas na IRC-u, pridruži se nekoj od naših mailing lista ili se pretplati na Tor novosti na newsletter.torproject.org.
 
 
 ## 8. Preuzmi Tor
