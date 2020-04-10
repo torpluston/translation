@@ -1,8 +1,8 @@
-# Tor Outreach Material 2019-2020
+# Informativni materijal za Tor 2019. – 2020.
 
 # 1. TOR ZA PRIVATNOST
 
-### Privacy is a human right
+### Privatnost je ljudsko pravo
 
 Like many of us, Aleisha spends most of her time online--connecting with friends, posting on social media, and browsing the web.
 
@@ -16,9 +16,9 @@ She goes to a privacy training at a local hackerspace and learns about **Tor Bro
 
 ---
 
-# 2.TOR FOR FEMINISTS 
+# 2.TOR ZA PRISTALICE FEMINIZMA
 
-### The future is cyberfeminist
+### Budućnost je kibernetički pristalica feminizma
 
 Fernanda runs a women's collective focused on reproductive rights in Brazil, where abortion is illegal.
 
@@ -36,9 +36,9 @@ She also uses a Tor-powered app called **OnionShare** to send files to other act
 
 ---
 
-# 3. TOR FOR HUMAN RIGHTS
+# 3. TOR ZA LJUDSKA PRAVA
 
-### Water is life 
+### Voda je život
 
 Jelani lives in a small village  which a wide river runs through.
 
@@ -58,9 +58,9 @@ All of this software uses Tor to help protect Jelani’s privacy.
 
 ---
 
-# 4. TOR FOR ANTI-CENSORSHIP
+# 4. TOR ZA BORBU PROTIV CENZURE
 
-### Build bridges not walls
+### Gradi mostove, ne zidove
 
 Jean was traveling for the first time to a country far from his family.
 
@@ -90,7 +90,7 @@ With Tor Browser, Jean can browse freely and privately and contact his family.
 
 ---
 
-# 5. Shared Sections
+# 5. Dijeljeni odjeljci
 
 ## Što je Tor?
 
