@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: Tor Project\n"
 "Report-Msgid-Bugs-To: Tails developers <tails@boum.org>\n"
 "POT-Creation-Date: 2019-11-28 16:51+0100\n"
-"PO-Revision-Date: 2020-04-10 13:18+0000\n"
+"PO-Revision-Date: 2020-04-10 13:29+0000\n"
 "Last-Translator: milotype <mail@milotype.de>\n"
 "Language-Team: Croatian (http://www.transifex.com/otf/torproject/language/hr/)\n"
 "MIME-Version: 1.0\n"
@@ -38,7 +38,7 @@ msgid ""
 "Check your network connection, and restart Tails to try upgrading again.\n"
 "\n"
 "If the problem persists, go to file:///usr/share/doc/tails/website/doc/upgrade/error/check.en.html"
-msgstr "<b>Neuspjelo utvrđivanje ima li dostupnih nadogradnji s naše stranice.</b>\n\nProvjerite svoju mrežnu vezu i ponovno pokrenite Tails kako biste ponovno pokušali nadogradnju.\n\nAko se problem i dalje pojavljuje, idite na file:///usr/share/doc/tails/website/doc/upgrade/error/check.en.html"
+msgstr "<b>Neuspjelo utvrđivanje ima li dostupnih nadogradnji s naše stranice.</b>\n\nProvjeri svoju mrežnu vezu, ponovo pokreni Tails i ponovo pokušaj nadograditi.\n\nAko se problem i dalje pojavljuje, idi na file:///usr/share/doc/tails/website/doc/upgrade/error/check.en.html"
 
 #: ../lib/Tails/IUK/Frontend.pm:236
 msgid "no automatic upgrade is available from our website for this version"
@@ -67,7 +67,7 @@ msgstr "Nema dostupnog objašnjenja za razlog '%{reason}s'."
 
 #: ../lib/Tails/IUK/Frontend.pm:283
 msgid "The system is up-to-date"
-msgstr "Sustav je ažuriran"
+msgstr "Sustav je aktualan"
 
 #: ../lib/Tails/IUK/Frontend.pm:288
 msgid "This version of Tails is outdated, and may have security issues."
@@ -78,24 +78,24 @@ msgstr "Ovo je zastarjela verzija Tailsa i može imati sigurnosnih problema."
 msgid ""
 "The available incremental upgrade requires %{space_needed}s of free space on"
 " Tails system partition,  but only %{free_space}s is available."
-msgstr "Dostupna dodatna nadogradnja zahtjeva %{space_needed}s slobodnog prostora na particiji Tails sustava, a slobodno je samo %{free_space}s."
+msgstr "Dostupna dodatna nadogradnja treba %{space_needed}s slobodnog prostora na particiji Tails sustava, a slobodno je samo %{free_space}s."
 
 #: ../lib/Tails/IUK/Frontend.pm:336
 #, perl-brace-format
 msgid ""
 "The available incremental upgrade requires %{memory_needed}s of free memory,"
 " but only %{free_memory}s is available."
-msgstr "Dostupna dodatna nadogradnja zahtjeva %{memory_needed}s slobodne memorije, a slobodno je samo %{free_memory}s."
+msgstr "Dostupna dodatna nadogradnja treba %{memory_needed}s slobodne memorije, a slobodno je samo %{free_memory}s."
 
 #: ../lib/Tails/IUK/Frontend.pm:358
 msgid ""
 "An incremental upgrade is available, but no full upgrade is.\n"
 "This should not happen. Please report a bug."
-msgstr "Dostupna je dodatna nadogradnja, ali nema potpune nadogradnje.\nTo se ne bi trebalo dešavati. Molimo, prijavite grešku."
+msgstr "Dostupna je dodatna nadogradnja, ali nema potpune nadogradnje.\nTo se ne bi trebalo dešavati. Prijavi grešku."
 
 #: ../lib/Tails/IUK/Frontend.pm:362
 msgid "Error while detecting available upgrades"
-msgstr "Pogreška u otkrivanju dostupnih nadogradnji"
+msgstr "Greška u otkrivanju dostupnih nadogradnji"
 
 #: ../lib/Tails/IUK/Frontend.pm:372
 #, perl-brace-format
@@ -118,7 +118,7 @@ msgstr "Nadogradnja dostupna"
 
 #: ../lib/Tails/IUK/Frontend.pm:387
 msgid "Upgrade now"
-msgstr "Nadogradi sad"
+msgstr "Nadogradi sada"
 
 #: ../lib/Tails/IUK/Frontend.pm:388
 msgid "Upgrade later"
@@ -166,7 +166,7 @@ msgstr "Greška u preuzimanju nadogradnje"
 msgid ""
 "Output file '%{output_file}s' does not exist, but tails-iuk-get-target-file "
 "did not complain. Please report a bug."
-msgstr "Izlazna datoteka '%{output_file}s' ne postoji, ali tails-iuk-get-target-file se nije požalio. Molimo, prijavite grešku."
+msgstr "Izlazna datoteka '%{output_file}s' ne postoji, ali tails-iuk-get-target-file se nije požalio. Prijavi grešku."
 
 #: ../lib/Tails/IUK/Frontend.pm:560
 msgid "Error while creating temporary downloading directory"
@@ -181,11 +181,11 @@ msgid ""
 "<b>Could not choose a download server.</b>\n"
 "\n"
 "This should not happen. Please report a bug."
-msgstr "<b>Nije uspjelo biranje poslužitelja za preuzimanje.</b>\n\nDo ovoga nije trebalo doći. Molimo prijavite grešku."
+msgstr "<b>Neuspjelo biranje poslužitelja za preuzimanje.</b>\n\nTo se ne bi trebalo dogoditi. Prijavi grešku."
 
 #: ../lib/Tails/IUK/Frontend.pm:591
 msgid "Error while choosing a download server"
-msgstr "Pogreška pri odabiru poslužitelja za preuzimanje"
+msgstr "Greška pri biranju poslužitelja za preuzimanje"
 
 #: ../lib/Tails/IUK/Frontend.pm:606
 msgid ""
@@ -212,19 +212,19 @@ msgid ""
 "You should restart Tails on the new version as soon as possible.\n"
 "\n"
 "Do you want to restart now?"
-msgstr "<b>Vaš Tails uređaj je uspješno nadograđen.</b>\n\nNeke sigurnosne značajke su privremeno onemogućene.\nTrebate ponovno pokrenuti Tails s novom verzijom što je prije moguće.\n\nŽelite li ponovno pokretanje sada?"
+msgstr "<b>Tvoj Tails uređaj je uspješno nadograđen.</b>\n\nNeke sigurnosne funkcije su privremeno deaktivirane.\nMoraš ponovo pokrenuti Tails s novom verzijom što prije.\n\nŽeliš li sada ponovo pokrenuti Tails?"
 
 #: ../lib/Tails/IUK/Frontend.pm:626
 msgid "Restart Tails"
-msgstr "Ponovno pokreni Tails"
+msgstr "Ponovo pokreni Tails"
 
 #: ../lib/Tails/IUK/Frontend.pm:627
 msgid "Restart now"
-msgstr "Ponovno pokreni sada"
+msgstr "Ponovo pokreni sada"
 
 #: ../lib/Tails/IUK/Frontend.pm:628
 msgid "Restart later"
-msgstr "Ponovno pokreni kasnije"
+msgstr "Ponovo pokreni kasnije"
 
 #: ../lib/Tails/IUK/Frontend.pm:639
 msgid "Error while restarting the system"
@@ -251,7 +251,7 @@ msgid ""
 "<b>Your Tails device is being upgraded...</b>\n"
 "\n"
 "For security reasons, the networking is now disabled."
-msgstr "<b>Vaš Tails uređaj se nadograđuje...</b>\n\nIz sigurnosnih razloga, mreža je sad onemogućena."
+msgstr "<b>Tvoj se Tails uređaj nadograđuje …</b>\n\nIz sigurnosnih razloga je mreža sada deaktivirana."
 
 #: ../lib/Tails/IUK/Frontend.pm:705
 msgid ""
@@ -259,8 +259,8 @@ msgid ""
 " needs to be repaired and might be unable to restart.\\n\\nPlease follow the"
 " instructions at "
 "file:///usr/share/doc/tails/website/doc/upgrade/error/install.en.html"
-msgstr "<b>Došlo je do greške tijekom instalacije nadogradnje.</b>\\n\\nVaš Tails uređaj se mora popraviti i možda se neće moći ponovno pokrenuti.\\n\\nMolimo slijedite upute na file:///usr/share/doc/tails/website/doc/upgrade/error/install.en.html"
+msgstr "<b>Došlo je do greške tijekom instaliranja nadogradnje.</b>\\n\\nTvoj Tails uređaj se mora popraviti i možda se neće moći ponovo pokrenuti.\\n\\nSlijedi upute na file:///usr/share/doc/tails/website/doc/upgrade/error/install.en.html"
 
 #: ../lib/Tails/IUK/Frontend.pm:715
 msgid "Error while installing the upgrade"
-msgstr "Greška u instalaciji nadogradnje"
+msgstr "Greška tijekom instaliranja nadogradnje"
