@@ -94,13 +94,14 @@ With Tor Browser, Jean can browse freely and privately and contact his family.
 
 ## Što je Tor?
 
-Tor is free software and an open network that helps protect you from tracking, surveillance, and censorship online.
-Tor is created for free by a 501(c)3 U.S.-based nonprofit called the Tor Project. 
+Tor je besplatan softver i otvorena mreža koja štiti od praćenja, nadzora i cenzure na mreži.
 
-The easiest way to use Tor is Tor Browser.
-When you use Tor Browser, no one can see what websites you visit or where in the world you’re coming from. 
+Tor je besplatno stvoren od neprofitne 501(c)3 organizacije Tor Project sa sjedištem u SAD-u.
 
-Other applications, like SecureDrop and OnionShare, use Tor to protect their users against surveillance and censorship.
+Tor se najlakše koristi putem Tor preglednika.
+Kad koristiš Tor preglednik, nitko ne može vidjeti koje web-stranice posjećuješ ili od kuda dolaziš.
+
+Ostali programi, poput SecureDrop i OnionShare, koriste Tor, kako bi zaštitili svoje korisnike od nadzora i cenzure.
 
 
 ## 6. How does Tor work?
@@ -121,7 +122,7 @@ The third relay removes the last encryption layer and forwards the web page requ
 
 Bekele doesn't know that the website request came from Amal unless she tells him so.
 
-## 7. Who uses Tor? 
+## 7. Tko koristi Tor? 
 
 People all over the world use Tor to protect their privacy and access the web freely.
 
@@ -148,15 +149,15 @@ The Tor community is governed by a code of conduct, and we outline our set of pr
 Learn more about Tor by visiting our website, our wiki, finding us on IRC, joining one of our mailing lists, or signing up for Tor News at newsletter.torproject.org.
 
 
-## 8. Download Tor
+## 8. Preuzmi Tor
 
-Tor for Desktop
+Tor za desktop računalo
 torproject.org/download
 
-TOR ON MOBILE
+TOR NA MOBITELU
 ### Android 
-Tor Browser for Android is available from GooglePlay.
+Tor preglednik za Android dostupan je na GooglePlayu.
 
 ### iOS
-Onion Browser, developed by M. Tigas, is the only browser we recommend for iOS.
+Onion preglednik, razvio ga je M. Tigas, je jedini preglednik koji preporučujemo za iOS.
 
