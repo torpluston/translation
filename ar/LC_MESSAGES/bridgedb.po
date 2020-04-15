@@ -34,9 +34,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Tor Project\n"
 "Report-Msgid-Bugs-To: 'https://trac.torproject.org/projects/tor/newticket?component=BridgeDB&keywords=bridgedb-reported,msgid&cc=isis,sysrqb&owner=isis'\n"
-"POT-Creation-Date: 2020-04-07 10:14-0700\n"
-"PO-Revision-Date: 2020-04-09 16:32+0000\n"
-"Last-Translator: hussin altiry <husss2011@gmail.com>\n"
+"POT-Creation-Date: 2020-04-09 14:45-0700\n"
+"PO-Revision-Date: 2020-04-15 19:46+0000\n"
+"Last-Translator: Transifex Bot <>\n"
 "Language-Team: Arabic (http://www.transifex.com/otf/torproject/language/ar/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -92,10 +92,6 @@ msgstr "كود البرنامج"
 #: bridgedb/distributors/https/templates/base.html:100
 msgid "Changelog"
 msgstr "التغييرات"
-
-#: bridgedb/distributors/https/templates/base.html:102
-msgid "Public Keys"
-msgstr "مفاتيح عامة"
 
 #: bridgedb/distributors/https/templates/bridges.html:35
 msgid "Select All"
@@ -209,22 +205,22 @@ msgstr "%sن%sعم!"
 msgid "%sG%set Bridges"
 msgstr "%sأ%sصل علي Bridges"
 
-#: bridgedb/strings.py:42
+#: bridgedb/strings.py:33
 msgid "[This is an automated email.]"
 msgstr "[هذا بريد إلكتروني آلي.]"
 
-#: bridgedb/strings.py:44
+#: bridgedb/strings.py:35
 msgid "Here are your bridges:"
 msgstr "الـ bridges الخاصة بك:"
 
-#: bridgedb/strings.py:46
+#: bridgedb/strings.py:37
 #, python-format
 msgid ""
 "You have exceeded the rate limit. Please slow down! The minimum time between\n"
 "emails is %s hours. All further emails during this time period will be ignored."
 msgstr "لقد تخطيت الحد المسموح به. الرجاء الانتظار! الحد الأدنى من الوقت بين الرسائل هو  %s ساعات. كل رسائل البريد القادمة خلال تلك الفتره سيتم تجاهلها."
 
-#: bridgedb/strings.py:49
+#: bridgedb/strings.py:40
 msgid ""
 "If these bridges are not what you need, reply to this email with one of\n"
 "the following commands in the message body:"
@@ -234,7 +230,7 @@ msgstr "إذا لم تكن هذه الجسور هي ما تحتاج إليه ، 
 #. TRANSLATORS: Please DO NOT translate "Pluggable Transports".
 #. TRANSLATORS: Please DO NOT translate "Tor".
 #. TRANSLATORS: Please DO NOT translate "Tor Network".
-#: bridgedb/strings.py:59
+#: bridgedb/strings.py:50
 #, python-format
 msgid ""
 "BridgeDB can provide bridges with several %stypes of Pluggable Transports%s,\n"
@@ -245,7 +241,7 @@ msgid ""
 msgstr "BridgeDB يستطيع توفير %s انواع من الـ Pluggable Transports %s وهي تساعد علي تعتيم اتصالاتك بالـ Tor Network، و كنتيجة لذلك يكون من الصعب علي أي احد يراقب حركة مرورك على الإنترنت بتحديد اذا ما كنت تستخدم Tor.\n"
 
 #. TRANSLATORS: Please DO NOT translate "Pluggable Transports".
-#: bridgedb/strings.py:66
+#: bridgedb/strings.py:57
 msgid ""
 "Some bridges with IPv6 addresses are also available, though some Pluggable\n"
 "Transports aren't IPv6 compatible.\n"
@@ -257,7 +253,7 @@ msgstr "بعض الـ bridges لها عناوين IPv6، ولكنها ليست �
 #. regular, or unexciting". Like vanilla ice cream. It refers to bridges
 #. which do not have Pluggable Transports, and only speak the regular,
 #. boring Tor protocol. Translate it as you see fit. Have fun with it.
-#: bridgedb/strings.py:75
+#: bridgedb/strings.py:66
 #, python-format
 msgid ""
 "Additionally, BridgeDB has plenty of plain-ol'-vanilla bridges %s without any\n"
@@ -266,21 +262,21 @@ msgid ""
 "\n"
 msgstr "بالأضافة إلي ذلك، BridgeDB يحتوي علي bridges %s عادية بدون أي Pluggable Transports %s تستطيع ايضا المساعدة في التحايل على رقابة على الإنترنت في الكثير من الاحيان.\n"
 
-#: bridgedb/strings.py:87 bridgedb/test/test_https.py:356
+#: bridgedb/strings.py:78 bridgedb/test/test_https.py:356
 msgid "What are bridges?"
 msgstr "ما هي bridges؟"
 
-#: bridgedb/strings.py:88
+#: bridgedb/strings.py:79
 #, python-format
 msgid "%s Bridges %s are Tor relays that help you circumvent censorship."
 msgstr "%s Bridges %s هي عبارة عن مرحلات Tor تساعدك علي التحايل علي الحجب."
 
-#: bridgedb/strings.py:93
+#: bridgedb/strings.py:84
 msgid "I need an alternative way of getting bridges!"
 msgstr "أحتاج إلى وسيلة بديلة للحصول على bridges!"
 
 #. TRANSLATORS: Please DO NOT translate "get transport obfs4".
-#: bridgedb/strings.py:95
+#: bridgedb/strings.py:86
 #, python-format
 msgid ""
 "Another way to get bridges is to send an email to %s. Leave the email subject\n"
@@ -289,33 +285,33 @@ msgid ""
 "providers: %s or %s."
 msgstr "طريقة أخرى للحصول علي الجسور هو أن ترسل بريد إلكتروني إلى %s. يرجى ملاحظة أنه يجب إرسال البريد الإلكتروني بإستخدام عنوان من أحد مزودي خدمات البريد الإلكتروني التاليين: %s او %s."
 
-#: bridgedb/strings.py:103
+#: bridgedb/strings.py:94
 msgid "My bridges don't work! I need help!"
 msgstr "bridges لا تعمل! أنا بحاجة إلى مساعدة!"
 
 #. TRANSLATORS: Please DO NOT translate "Tor Browser".
 #. TRANSLATORS: The two '%s' are substituted with "Tor Browser Manual" and
 #. "Support Portal", respectively.
-#: bridgedb/strings.py:107
+#: bridgedb/strings.py:98
 #, python-format
 msgid ""
 "If your Tor Browser cannot connect, please take a look at the %s and our %s."
 msgstr "إذا لم يقدر متصفح Tor Browser على الاتصال، الرجاء الاطلاع على دليل الاستخدام%s وبوابة الدعم %s."
 
-#: bridgedb/strings.py:111
+#: bridgedb/strings.py:102
 msgid "Here are your bridge lines:"
 msgstr "ها هي سطور الـBridges الخاصة بك:"
 
-#: bridgedb/strings.py:112
+#: bridgedb/strings.py:103
 msgid "Get Bridges!"
 msgstr "أحصل علي Bridges"
 
-#: bridgedb/strings.py:116
+#: bridgedb/strings.py:107
 msgid "Bridge distribution mechanisms"
 msgstr "آليات توزيع الجسر"
 
 #. TRANSLATORS: Please DO NOT translate "BridgeDB", "HTTPS", and "Moat".
-#: bridgedb/strings.py:118
+#: bridgedb/strings.py:109
 #, python-format
 msgid ""
 "BridgeDB implements four mechanisms to distribute bridges: \"HTTPS\", \"Moat\",\n"
@@ -325,7 +321,7 @@ msgid ""
 "mechanisms is."
 msgstr ""
 
-#: bridgedb/strings.py:124
+#: bridgedb/strings.py:115
 #, python-format
 msgid ""
 "The \"HTTPS\" distribution mechanism hands out bridges over this website.  To get\n"
@@ -333,7 +329,7 @@ msgid ""
 "solve the subsequent CAPTCHA."
 msgstr ""
 
-#: bridgedb/strings.py:128
+#: bridgedb/strings.py:119
 #, python-format
 msgid ""
 "The \"Moat\" distribution mechanism is part of Tor Browser, allowing users to\n"
@@ -343,7 +339,7 @@ msgid ""
 "bridges."
 msgstr ""
 
-#: bridgedb/strings.py:134
+#: bridgedb/strings.py:125
 #, python-format
 msgid ""
 "Users can request bridges from the \"Email\" distribution mechanism by sending an\n"
@@ -351,11 +347,11 @@ msgid ""
 "email body."
 msgstr ""
 
-#: bridgedb/strings.py:138
+#: bridgedb/strings.py:129
 msgid "Reserved"
 msgstr "محجوز"
 
-#: bridgedb/strings.py:139
+#: bridgedb/strings.py:130
 #, python-format
 msgid ""
 "BridgeDB maintains a small number of bridges that are not distributed\n"
@@ -366,11 +362,11 @@ msgid ""
 "called \"Unallocated\" in %sbridge pool assignment%s files."
 msgstr ""
 
-#: bridgedb/strings.py:146
+#: bridgedb/strings.py:137
 msgid "None"
 msgstr "لا شيء"
 
-#: bridgedb/strings.py:147
+#: bridgedb/strings.py:138
 msgid ""
 "Bridges whose distribution mechanism is \"None\" are not distributed by BridgeDB.\n"
 "It is the bridge operator's responsibility to distribute their bridges to\n"
@@ -379,33 +375,33 @@ msgid ""
 "it will then change to the bridge's actual distribution mechanism.\n"
 msgstr ""
 
-#: bridgedb/strings.py:157
+#: bridgedb/strings.py:148
 msgid "Please select options for bridge type:"
 msgstr "من فضلك حدد الخيارات لنوع الـbridge"
 
-#: bridgedb/strings.py:158
+#: bridgedb/strings.py:149
 msgid "Do you need IPv6 addresses?"
 msgstr "هل تحتاج عناوين IPv6؟"
 
-#: bridgedb/strings.py:159
+#: bridgedb/strings.py:150
 #, python-format
 msgid "Do you need a %s?"
 msgstr "هل تحتاج إلي %s؟"
 
-#: bridgedb/strings.py:163
+#: bridgedb/strings.py:154
 msgid "Your browser is not displaying images properly."
 msgstr "متصفحك لا يعرض الصور بشكل صحيح"
 
-#: bridgedb/strings.py:164
+#: bridgedb/strings.py:155
 msgid "Enter the characters from the image above..."
 msgstr "أدخل الحروف أو الأرقام من الصورة أعلاه ..."
 
-#: bridgedb/strings.py:168
+#: bridgedb/strings.py:159
 msgid "How to start using your bridges"
 msgstr "كيف تبدأ باستعمال الـbridges"
 
 #. TRANSLATORS: Please DO NOT translate "Tor Browser".
-#: bridgedb/strings.py:170
+#: bridgedb/strings.py:161
 #, python-format
 msgid ""
 " First, you need to %sdownload Tor Browser%s. Our Tor Browser User\n"
@@ -414,27 +410,21 @@ msgid ""
 " are using Android, %sclick here%s."
 msgstr ""
 
-#: bridgedb/strings.py:175
+#: bridgedb/strings.py:166
 msgid ""
 "Add these bridges to your Tor Browser by opening your browser\n"
 "preferences, clicking on \"Tor\", and then adding them to the \"Provide a\n"
 "bridge\" field."
 msgstr ""
 
-#: bridgedb/strings.py:182
+#: bridgedb/strings.py:173
 msgid "(Request unobfuscated Tor bridges.)"
 msgstr "(طلب جسور Tor غير المشوشة.)"
 
-#: bridgedb/strings.py:183
+#: bridgedb/strings.py:174
 msgid "(Request IPv6 bridges.)"
 msgstr "(طلب جسور IPv6.)"
 
-#: bridgedb/strings.py:184
+#: bridgedb/strings.py:175
 msgid "(Request obfs4 obfuscated bridges.)"
 msgstr "(طلب جسور obfs4 المشوشة.)"
-
-#. TRANSLATORS: Please DO NOT translate "BridgeDB".
-#. TRANSLATORS: Please DO NOT translate "GnuPG".
-#: bridgedb/strings.py:187
-msgid "(Get a copy of BridgeDB's public GnuPG key.)"
-msgstr ""
