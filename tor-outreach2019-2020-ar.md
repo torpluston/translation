@@ -80,7 +80,7 @@ All of this software uses Tor to help protect Jelani’s privacy.
 
 جان ظل يقرأ من أجل العثور على خيارات أخرى وعلم عن متصفح تور وكيف يمكنه التحايل على المراقبة.
 
-He found an official website mirror to download the program.
+لقد عثر على مرءاة للموقع الرسمي لتحميل البرنامج.
 
 عندما فتح ** Tor Browser ** ، اتبع التعليمات الخاصة بالمستخدمين الخاضعين للرقابة ومتصلًا بجسر يسمح له بالوصول إلى الإنترنت مرة أخرى.
 
@@ -90,15 +90,15 @@ He found an official website mirror to download the program.
 
 ---
 
-# 5. Shared Sections
+# 5. الأقسام المشتركة
 
 ## ما هو تور؟
 
-Tor is free software and an open network that helps protect you from tracking, surveillance, and censorship online.
-Tor is created for free by a 501(c)3 U.S.-based nonprofit called the Tor Project. 
+تور هو برنامج مجاني وشبكة مفتوحة تساعد على حمايتك من التتبع، المراقبة، والرقابة عبر الإنترنت.
+تور تم إنشائه مجانًا بواسطة شركة غير ربحية 501(c)3 تسمى "مشروع تور" مقرها الولايات المتحدة الأمريكية.
 
-The easiest way to use Tor is Tor Browser.
-When you use Tor Browser, no one can see what websites you visit or where in the world you’re coming from. 
+الطريقة الأسهل لاستخدام شبكة تور هي متصفح تور.
+عندما تستخدم متصفح تور، لا يوجد أحد يمكنه رؤية ما هي المواقع التي تزورها أو من أي دولة من حول العالم تزور الموقع.
 
 التطبيقات الأخرى، مثل SecureDrop وOnionShare، تستخدم تور لحماية مستخدميها ضد المراقبة والرقابة.
 
@@ -107,17 +107,17 @@ When you use Tor Browser, no one can see what websites you visit or where in the
 
 ترغب Amal في زيارة موقع Bekele الخاص ، لذا فتحت متصفح Tor.
 
-Tor Browser selects a random circuit of three relays, which are computers all over the world configured to route traffic over the Tor network.
+متصفح تور يختار دائرة عشوائية مكونة من ثلاث طبقات أو مُرحلات، وهي عبارة عن حواسيب منتشرة حول العالم ومهيئة لكي تقوم بإعادة توجيه الزيارات عبر شبكة تور.
 
 تقوم Tor Browser بعد ذلك بتشفير طلب موقع الويب الخاص بها ثلاث مرات وإرساله إلى مرحل Tor الأول في دائرتها.
 
-The first relay removes the first encryption layer but doesn't learn that the destination is Bekele’s website.
+المُرحل الأول يقوم بإزالة طبقة التشفير الأولى ولكنه لا يعلم ما هي الوجهة التي يريدها الزائر.
 
-The first relay learns only the next location in the circuit, which is the second relay.
+المُرحل الأول يعلم فقط الموقع التالي في دائرة الاتصال، وهو المُرحل الثاني.
 
-The second relay removes another encryption layer and forwards the web page request to the third relay.
+المُرحل الثاني يقوم بإزالة طبقة أخرى من التشفير ويوجه طلب صفحة الويب إلى المُرحل الثالث.
 
-The third relay removes the last encryption layer and forwards the web page request to its destination, Bekele’s website, but it doesn't know the request comes from Amal.
+المُرحل الثالث يقوم بإزالة آخر طبقة تشفير ويوجه طلب صفحة الويب إلى وجهتها، على سبيل المثال موقع بيكيلي، لكنه لا يعرف أن طلب الوصول لهذا الموقع يأتي من أمل.
 
 لا تعرف بيكيلي أن طلب الموقع جاء من أمل ما لم تخبره بذلك.
 
@@ -125,25 +125,25 @@ The third relay removes the last encryption layer and forwards the web page requ
 
 يستخدم الناس في جميع أنحاء العالم Tor لحماية خصوصيتهم والوصول إلى الويب بحرية.
 
-Tor helps protect journalists, human rights defenders, domestic violence victims, academic researchers, and anyone experiencing tracking, censorship, or surveillance. 
+تور يساعد على حماية الصحفيين، المدافعين عن حقوق الإنسان، ضحايا العنف المحلي، الباحثين الأكاديميين، وأي شخص يتعرض للتعقب والرقابة.
 
 ## 6. لماذا تثق تور؟
 
-Tor is designed for privacy. We don’t know who our users are, and we don't keep logs of user activity.
+تور مصمم من أجل الخصوصية. نحن لا نعلم من يكون مستخدمونا، ولا نبقي سجلات لنشاط المستخدم.
 
-Tor relay operators cannot reveal the true identity of Tor users.
+مشغلوا مُرحلات تور لا يستطيعون كشف الهوية الحقيقية لمستخدمي تور.
 
-Continual peer review of Tor's source code by academic and open source communities ensures that there are no backdoors in Tor, and our social contract promises that we will never backdoor Tor. 
+إن مراجعة النظراء المستمرة للكود المصدري الخاص بتور من قبل الأوساط الأكاديمية والمجتمعات مفتوحة المصدر تضمن أنه لا توجد أي أبواب خلفية في تور، كما أن عقدنا الاجتماعي يعد بأنه لن نقوم أبدًا بإنشاء أبواب خلفية في تور.
 
 ## 7. انضم إلى مجتمع Tor
 
-Tor is made possible by a diverse set of users, developers, relay operators, and advocates from around the world.
+تور أصبح ممكنًا بواسطة مجموعات متنوعة من المستخدمين، مطورين، مشغلي الترحيل، المؤيدين من حول العالم.
 
-We need your help to make Tor more usable and secure for people everywhere.
+نحن نحناج إلى مساعدتك من أجل جعل تور أكثر قابلية للاستخدام وأكثر أمنًا من أجل الأشخاص من كل مكان.
 
-You can volunteer with Tor by writing code, running a relay, creating documentation, offering user support, or telling people in your community about Tor.
+يمكنك التطوع مع تور من خلال كتابة كود، تشغيل مُرحل، إنشاء توثيق، عرض دعم للمستخدم، أو إخبار الأشخاص في مجتمعك عن تور.
 
-The Tor community is governed by a code of conduct, and we outline our set of promises to the community in our social contract. 
+مجتمع تور يخضع إلى مجموعة من القواعد السلوكية، ونحن نوضح مجموعة وعودنا إلى المجتمع في عقدنا الاجتماعي.
 
 Learn more about Tor by visiting our website, our wiki, finding us on IRC, joining one of our mailing lists, or signing up for Tor News at newsletter.torproject.org.
 
