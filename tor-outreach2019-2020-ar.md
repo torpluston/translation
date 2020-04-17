@@ -58,27 +58,27 @@ All of this software uses Tor to help protect Jelani’s privacy.
 
 ---
 
-# 4. TOR FOR ANTI-CENSORSHIP
+# 4. تور من أجل مكافحة المراقبة
 
-### Build bridges not walls
+### نبني جسورًا لا جدرانًا.
 
-Jean was traveling for the first time to a country far from his family.
+جان كان مسافرًا للمرةٍ الأولى إلى بلد بعيدة عن عائلته.
 
-After arriving at a hotel, he opened his laptop.
+بعد الوصول إلى الفندق، قام بفتح الحاسوب المحمول الخاص به.
 
-He was so exhausted that when the message "Connection has timed out" first appeared on his web browser, he thought it was due to his own error.
+لقد كان متعبًا جدًا لدرجة أنه عندم ظهرت رسالة "انتهت مهلة الاتصال" على متصفح الويب الخاص به، اعتقد أن ذلك حدث بسبب خطأ منه.
 
-But after trying again and again, he realized that his email provider, a news website, and many apps were unavailable. 
+لكن بعد المحاولة مرارًا وتكرارًا، أدرك أن مزود خدمة البريد الإلكتروني، موقع إخباري، وعدد من التطبيقات كانت غير متوفرة.
 
-He had heard that this country censors the internet and wondered if that was happening.
-How could he contact his family from behind this impenetrable wall?
-After doing some web searches, he found a forum and read about VPNs, private services that allow you to connect to another uncensored network.
+لقد كان سمع أن هذه الدولة تخضح الإنترنت للرقابة، وكان يتسائل إذا كان هذا يحدث بالفعل.
+كيف سيتمكن من الاتصال بعائلته من خلف هذه الجدران المنيعة؟
+بعد القيام ببعض عمليات البحث على الويب، وجد منتدى وقرأ عن خدمات الڤي بي إن VPNs، وهي خدمات خاصة تسمح لك بالاتصال بشبكة حرة غير مراقبة.
 
-Jean spent half an hour trying to figure out which cheap VPN was best.
+جان قضى نصف ساعة من البحث لمعرفة ما هو برنامج الڤي بي إن الرخيص الأفضل.
 
-He chose one and for a moment it seemed to work, but after five minutes the connection went offline and the VPN would no longer connect. 
+لقد اختار واحدًا، وللحظة بدا أنه يعمل، لكن في خلال خمسة دقائق انقطع الاتصال وبرنامج الڤي بي إن لم يعد يتصل.
 
-Jean kept reading to find other options and learned about Tor Browser and how it can circumvent censorship.
+جان ظل يقرأ من أجل العثور على خيارات أخرى وعلم عن متصفح تور وكيف يمكنه التحايل على المراقبة.
 
 He found an official website mirror to download the program.
 
