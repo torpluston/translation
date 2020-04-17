@@ -145,18 +145,18 @@ All of this software uses Tor to help protect Jelani’s privacy.
 
 مجتمع تور يخضع إلى مجموعة من القواعد السلوكية، ونحن نوضح مجموعة وعودنا إلى المجتمع في عقدنا الاجتماعي.
 
-Learn more about Tor by visiting our website, our wiki, finding us on IRC, joining one of our mailing lists, or signing up for Tor News at newsletter.torproject.org.
+تعرف على المزيد عن تور عبر زيارة موقعنا، مدونة الويكي، ابحث عنا في IRC، اشترك في قائمتنا البريدية، أو قم بالتسجيل في أخبر تور من خلال newsletter.torproject.org.
 
 
-## 8. Download Tor
+## 8. تحميل تور
 
-Tor for Desktop
+تور للكمبيوتر
 torproject.org/download
 
 تور على الموبايل
 ### أندرويد
-Tor Browser for Android is available from GooglePlay.
+متصفح تور للأندرويد متاح على جوجل بلاي.
 
-### iOS
-Onion Browser, developed by M. Tigas, is the only browser we recommend for iOS.
+### آي أو إس
+متصفح البصل، الذي تم تطويره بواسطة M. Tigas، هو المتصفح الوحيد الذي ننصح به من أجل نظام آي أو إس.
 
