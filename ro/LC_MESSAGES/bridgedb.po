@@ -19,8 +19,8 @@ msgstr ""
 "Project-Id-Version: Tor Project\n"
 "Report-Msgid-Bugs-To: 'https://trac.torproject.org/projects/tor/newticket?component=BridgeDB&keywords=bridgedb-reported,msgid&cc=isis,sysrqb&owner=isis'\n"
 "POT-Creation-Date: 2020-04-09 14:45-0700\n"
-"PO-Revision-Date: 2020-04-15 19:46+0000\n"
-"Last-Translator: Transifex Bot <>\n"
+"PO-Revision-Date: 2020-04-18 17:38+0000\n"
+"Last-Translator: eduard pintilie <eduard.pintilie@gmail.com>\n"
 "Language-Team: Romanian (http://www.transifex.com/otf/torproject/language/ro/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -191,7 +191,7 @@ msgstr "%sO%sbține Bridges"
 
 #: bridgedb/strings.py:33
 msgid "[This is an automated email.]"
-msgstr ""
+msgstr "[Acesta este un e-mail trimis automat.]"
 
 #: bridgedb/strings.py:35
 msgid "Here are your bridges:"
@@ -208,7 +208,7 @@ msgstr "Ai depășit rata limită. Te rugăm să o iei mai încet! Timpul minim 
 msgid ""
 "If these bridges are not what you need, reply to this email with one of\n"
 "the following commands in the message body:"
-msgstr ""
+msgstr "Dacă aceste punți nu sunt cele necesare, răspundeți la acest e-mail cu una dintre\nurmătoarele comenzi în corpul mesajului:"
 
 #. TRANSLATORS: Please DO NOT translate "BridgeDB".
 #. TRANSLATORS: Please DO NOT translate "Pluggable Transports".
@@ -292,7 +292,7 @@ msgstr "Obține punți!"
 
 #: bridgedb/strings.py:107
 msgid "Bridge distribution mechanisms"
-msgstr ""
+msgstr "Mecanisme de distribuție a punții"
 
 #. TRANSLATORS: Please DO NOT translate "BridgeDB", "HTTPS", and "Moat".
 #: bridgedb/strings.py:109
@@ -303,7 +303,7 @@ msgid ""
 "the pseudo-mechanism \"None\".  The following list briefly explains how these\n"
 "mechanisms work and our %sBridgeDB metrics%s visualize how popular each of the\n"
 "mechanisms is."
-msgstr ""
+msgstr "BridgeDB implementează patru mecanisme de distribuire a punților: \"HTTPS\", \"Moat\",\n\"Email\" și \"Reserved\".  Punțile care nu sunt distribuite prin BridgeDB folosesc\npseudo-mecanismul \"None\".  Următoarea listă explică pe scurt cum  funcționează acestea\nși cum se poate vizualiza cu %sBridgeDB metrics%s cât de popular este fiecare \nmecanism."
 
 #: bridgedb/strings.py:115
 #, python-format
@@ -311,7 +311,7 @@ msgid ""
 "The \"HTTPS\" distribution mechanism hands out bridges over this website.  To get\n"
 "bridges, go to %sbridges.torproject.org%s, select your preferred options, and\n"
 "solve the subsequent CAPTCHA."
-msgstr ""
+msgstr "Mecanismul de distribuție „HTTPS” transmite punți peste acest site web.  Pentru a obține\npunți, accesați %sbridges.torproject.org%s, selectați opțiunile pe care le preferați și\nrezolvați testul CAPTCHA."
 
 #: bridgedb/strings.py:119
 #, python-format
@@ -321,7 +321,7 @@ msgid ""
 "your Tor Browser's %sTor settings%s, click on \"request a new bridge\", solve the\n"
 "subsequent CAPTCHA, and Tor Browser will automatically add your new\n"
 "bridges."
-msgstr ""
+msgstr "Mecanismul de distribuire \"Moat\" face parte din Tor Browser, permițând utilizatorilor să\nsolicite punți din setările Tor Browser.  Pentru a obține punți, accesați\nsetările Tor Browser %sTor settings%s, clic pe \"request a new bridge\", rezolvați\ntestul CAPTCHA și Tor Browser va adăuga automat noile\npunți."
 
 #: bridgedb/strings.py:125
 #, python-format
@@ -329,11 +329,11 @@ msgid ""
 "Users can request bridges from the \"Email\" distribution mechanism by sending an\n"
 "email to %sbridges@torproject.org%s and writing \"get transport obfs4\" in the\n"
 "email body."
-msgstr ""
+msgstr "Utilizatorii pot solicita punți de la mecanismul de distribuție „Email” prin trimiterea unui\nemail la %sbridges@torproject.org%s și scriind \"get transport obfs4\" în\ncorpul email-ului."
 
 #: bridgedb/strings.py:129
 msgid "Reserved"
-msgstr ""
+msgstr "Rezervat"
 
 #: bridgedb/strings.py:130
 #, python-format
@@ -344,7 +344,7 @@ msgid ""
 "bridges.  Bridges that are distributed over the \"Reserved\" mechanism may not\n"
 "see users for a long time.  Note that the \"Reserved\" distribution mechanism is\n"
 "called \"Unallocated\" in %sbridge pool assignment%s files."
-msgstr ""
+msgstr "BridgeDB menține un număr mic de punți care nu sunt distribuite\nautomat.  În schimb, rezervăm aceste punți pentru distribuirea manuală și\nle înmânăm unor ONG-uri și unor organizații și persoane fizice care au nevoie\nde punți.  Punțile care sunt distribuite prin mecanismul \"Reserved\" ar putea să nu \nvadă utilizatorii pe o perioadă mai mare de timp.  Rețineți că mecanismul de distribuire \"Reserved\" este\nnumit \"Unallocated\" în fișierele %sbridge pool assignment%s."
 
 #: bridgedb/strings.py:137
 msgid "None"
