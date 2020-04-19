@@ -7167,6 +7167,9 @@ msgid ""
 "The following are currently permitted yet do have some discussion for "
 "prohibition (as such, they should not be reported at this time)..."
 msgstr ""
+"Die folgenden Beispiele sind derzeit erlaubt, sind aber noch Gegenstand von "
+"Diskussionen für ein Verbot (deshalb sollten sie zu diesem Zeitpunkt auch "
+"nicht gemeldet werden) ..."
 
 #: https//community.torproject.org/relay/community-resources/bad-relays/
 #: (content/relay-operations/community-resources/bad-relays/contents+en.lrpage.body)
@@ -7177,11 +7180,17 @@ msgid ""
 "[context](https://www.google.com/search?site:torproject.org+80+443+6667) and"
 " [spec](https://gitweb.torproject.org/torspec.git/tree/dir-spec.txt#n1969)."
 msgstr ""
+"* Nur Klartextverkehr zulassen (z.B. nur Anschluss 80). Es gibt keinen guten"
+" Grund, sein verschlüsseltes Gegenstück (wie Anschluss 443) nicht "
+"zuzulassen, was diese Relays für das Schnüffeln von Verkehr höchst "
+"verdächtig macht. Siehe "
+"[Kontext](https://www.google.com/search?site:torproject.org+80+443+6667) und"
+" [spec](https://gitweb.torproject.org/torspec.git/tree/dir-spec.txt#n1969)."
 
 #: https//community.torproject.org/relay/community-resources/bad-relays/
 #: (content/relay-operations/community-resources/bad-relays/contents+en.lrpage.body)
 msgid "### How do I report a bad relay?"
-msgstr ""
+msgstr "### Wie melde ich ein schlechtes Relay?"
 
 #: https//community.torproject.org/relay/community-resources/bad-relays/
 #: (content/relay-operations/community-resources/bad-relays/contents+en.lrpage.body)
@@ -7189,6 +7198,8 @@ msgid ""
 "If you encounter a bad relay then please let us know and write to `bad-"
 "relays AT lists DOT torproject DOT org`."
 msgstr ""
+"Wenn du auf ein schlechtes Relay stößt, dann lass es uns bitte wissen und "
+"schreibe an `bad-relays AT lists DOT torproject DOT org`."
 
 #: https//community.torproject.org/relay/community-resources/bad-relays/
 #: (content/relay-operations/community-resources/bad-relays/contents+en.lrpage.body)
@@ -7197,6 +7208,9 @@ msgid ""
 "check](https://check.torproject.org/). Please include the following in your "
 "report:"
 msgstr ""
+"Du kannst jederzeit überprüfen, welchen Exit du gerade benutzt, indem du "
+"[Tor Check](https://check.torproject.org/) besuchst. Bitte nimm Folgendes in"
+" deinen Bericht auf:"
 
 #: https//community.torproject.org/relay/community-resources/bad-relays/
 #: (content/relay-operations/community-resources/bad-relays/contents+en.lrpage.body)
@@ -7204,16 +7218,21 @@ msgid ""
 "1. The relay's IP address or fingerprint. The fingerprint is a forty-"
 "character hex string such as `203933ED4E55EF8A3C3518427D1A1ED6A4CC285E`."
 msgstr ""
+"1. Die IP-Adresse oder der Fingerabdruck des Relays. Der Fingerabdruck ist "
+"eine vierzigstellige hexadezimale Zeichenfolge wie "
+"`203933ED4E55EF8A3C3518427D1A1ED6A4CC285E`."
 
 #: https//community.torproject.org/relay/community-resources/bad-relays/
 #: (content/relay-operations/community-resources/bad-relays/contents+en.lrpage.body)
 msgid "2. What kind of behavior did you see?"
-msgstr ""
+msgstr "2. Was für ein Verhalten hast du beobachtet?"
 
 #: https//community.torproject.org/relay/community-resources/bad-relays/
 #: (content/relay-operations/community-resources/bad-relays/contents+en.lrpage.body)
 msgid "3. Any additional information we'll need to reproduce the issue."
 msgstr ""
+"3. Alle zusätzlichen Informationen, die wir benötigen, um das Problem zu "
+"reproduzieren."
 
 #: https//community.torproject.org/relay/community-resources/bad-relays/
 #: (content/relay-operations/community-resources/bad-relays/contents+en.lrpage.body)
@@ -7221,11 +7240,14 @@ msgid ""
 "However, if you need help with anything Tor-related, please contact the "
 "[help desk](https://www.torproject.org/about/contact) instead."
 msgstr ""
+"Wenn du jedoch Hilfe bei irgendetwas brauchst, das mit Tor zu tun hat, wende"
+" dich bitte stattdessen an das [Helpdesk] "
+"(https://www.torproject.org/de/contact/)."
 
 #: https//community.torproject.org/relay/community-resources/bad-relays/
 #: (content/relay-operations/community-resources/bad-relays/contents+en.lrpage.body)
 msgid "### What happens to bad relays?"
-msgstr ""
+msgstr "### Was passiert mit schlechten Relays?"
 
 #: https//community.torproject.org/relay/community-resources/bad-relays/
 #: (content/relay-operations/community-resources/bad-relays/contents+en.lrpage.body)
@@ -7235,11 +7257,16 @@ msgid ""
 "relay lacks contact information) we'll flag it to prevent it from continuing"
 " to be used."
 msgstr ""
+"Nachdem ein Relay gemeldet wurde und wir das Verhalten überprüft haben, "
+"werden wir versuchen, die betreibende Person des Relays zu kontaktieren. Oft"
+" können wir die Dinge klären, aber wenn dies nicht der Fall ist (oder dem "
+"Relay die Kontakt-Informationen fehlen), markieren wir es, um zu verhindern,"
+" dass es weiter verwendet wird."
 
 #: https//community.torproject.org/relay/community-resources/bad-relays/
 #: (content/relay-operations/community-resources/bad-relays/contents+en.lrpage.body)
 msgid "We have thee types of flags we can apply:"
-msgstr ""
+msgstr "Wir haben drei Arten von Markierungen, die wir anwenden können:"
 
 #: https//community.torproject.org/relay/community-resources/bad-relays/
 #: (content/relay-operations/community-resources/bad-relays/contents+en.lrpage.body)
@@ -7247,6 +7274,8 @@ msgid ""
 "* BadExit - Never used as an exit relay (for relays that appear to mess with"
 " exit traffic)"
 msgstr ""
+"* BadExit - Nie als Exit-Relay verwenden (für Relays, die den Exit-Verkehr "
+"zu stören scheinen)."
 
 #: https//community.torproject.org/relay/community-resources/bad-relays/
 #: (content/relay-operations/community-resources/bad-relays/contents+en.lrpage.body)
@@ -7254,11 +7283,13 @@ msgid ""
 "* Invalid - Never used unless AllowInvalidNodes is set (by default this only"
 " allows for middle and rendezvous usage)"
 msgstr ""
+"* Invalid - Nie verwenden, es sei denn, AllowInvalidNodes ist gesetzt "
+"(standardmäßig erlaubt dies nur Middle- und Rendezvous-Nutzung)"
 
 #: https//community.torproject.org/relay/community-resources/bad-relays/
 #: (content/relay-operations/community-resources/bad-relays/contents+en.lrpage.body)
 msgid "* Reject - Dropped from the consensus entirely"
-msgstr ""
+msgstr "* Reject - Völlig vom Konsens getrennt"
 
 #: https//community.torproject.org/relay/community-resources/bad-relays/
 #: (content/relay-operations/community-resources/bad-relays/contents+en.lrpage.body)
@@ -7266,11 +7297,13 @@ msgid ""
 "Which we use depends on the severity of the issue, and if it can still be "
 "safely used in certain situations."
 msgstr ""
+"Welche Markierung wir verwenden, hängt von der Schwere des Problems ab und "
+"davon, ob es in bestimmten Situationen noch sicher eingesetzt werden kann."
 
 #: https//community.torproject.org/relay/community-resources/bad-relays/
 #: (content/relay-operations/community-resources/bad-relays/contents+en.lrpage.body)
 msgid "### My relays was given the BadExit flag. What's up?"
-msgstr ""
+msgstr "### Meinen Relays wurde die BadExit-Markierung gegeben. Was ist los?"
 
 #: https//community.torproject.org/relay/community-resources/bad-relays/
 #: (content/relay-operations/community-resources/bad-relays/contents+en.lrpage.body)
@@ -7279,11 +7312,15 @@ msgid ""
 "issue, so if your relay has been flagged as a BadExit then please let us "
 "know (see above for contact info) so we can work together to fix the issue."
 msgstr ""
+"In fast allen Fällen sind wir nicht in der Lage, die betreibende Person zu "
+"kontaktieren, um das Problem zu lösen. Wenn dein Relay also als BadExit "
+"markiert wurde, lass es uns bitte wissen (Kontakt-Informationen siehe oben),"
+" damit wir gemeinsam an der Behebung des Problems arbeiten können."
 
 #: https//community.torproject.org/relay/community-resources/bad-relays/
 #: (content/relay-operations/community-resources/bad-relays/contents+en.lrpage.body)
 msgid "### Do you actively look for bad relays?"
-msgstr ""
+msgstr "### Sucht ihr aktiv nach schlechten Relays?"
 
 #: https//community.torproject.org/relay/community-resources/bad-relays/
 #: (content/relay-operations/community-resources/bad-relays/contents+en.lrpage.body)
@@ -7292,6 +7329,9 @@ msgid ""
 "[exitmap](http://www.cs.kau.se/philwint/spoiled_onions/) and "
 "[sybilhunter](https://gitweb.torproject.org/user/phw/sybilhunter.git/)."
 msgstr ""
+"Ja. Für unsere automatische Problemerkennung siehe [Exitmap] "
+"(http://www.cs.kau.se/philwint/spoiled_onions/) und [Sybilhunter] "
+"(https://gitweb.torproject.org/user/phw/sybilhunter.git/)."
 
 #: https//community.torproject.org/relay/community-resources/bad-relays/
 #: (content/relay-operations/community-resources/bad-relays/contents+en.lrpage.body)
@@ -7302,6 +7342,11 @@ msgid ""
 " [torscanner](https://code.google.com/p/torscanner/), and "
 "[DetecTor](http://detector.io/DetecTor.html)."
 msgstr ""
+"Weitere Überwachungssysteme sind "
+"[Tortunnel](http://www.thoughtcrime.org/software/tortunnel/), "
+"[SoaT](https://gitweb.torproject.org/torflow.git/blob/HEAD:/NetworkScanners/ExitAuthority/README.ExitScanning),"
+" [Torscanner](https://code.google.com/p/torscanner/), und "
+"[DetecTor](http://detector.io/DetecTor.html)."
 
 #: https//community.torproject.org/relay/community-resources/tor-exit-guidelines/
 #: (content/relay-operations/community-resources/tor-exit-guidelines/contents+en.lrpage.title)
