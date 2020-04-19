@@ -11,9 +11,9 @@
 # Christian Spaan, 2020
 # Naut tilus <trmct@posteo.sg>, 2020
 # John Dee <Dr_Dee@gmx.de>, 2020
-# Curtis Baltimore <curtisbaltimore@protonmail.com>, 2020
 # Emma Peel, 2020
 # Lennart Naeve <lennart.naeve@protonmail.com>, 2020
+# Curtis Baltimore <curtisbaltimore@protonmail.com>, 2020
 # 
 msgid ""
 msgstr ""
@@ -21,7 +21,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-12-11 12:15+CET\n"
 "PO-Revision-Date: 2019-12-11 10:50+0000\n"
-"Last-Translator: Lennart Naeve <lennart.naeve@protonmail.com>, 2020\n"
+"Last-Translator: Curtis Baltimore <curtisbaltimore@protonmail.com>, 2020\n"
 "Language-Team: German (https://www.transifex.com/otf/teams/1519/de/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -7072,7 +7072,7 @@ msgstr ""
 #: https//community.torproject.org/relay/community-resources/bad-relays/
 #: (content/relay-operations/community-resources/bad-relays/contents+en.lrpage.body)
 msgid "### What is a bad relay?"
-msgstr ""
+msgstr "### Was ist ein schlechtes Relay?"
 
 #: https//community.torproject.org/relay/community-resources/bad-relays/
 #: (content/relay-operations/community-resources/bad-relays/contents+en.lrpage.body)
@@ -7081,6 +7081,10 @@ msgid ""
 "users' connections. This can be either through maliciousness or "
 "misconfiguration. Some common examples are..."
 msgstr ""
+"Ein schlechtes Relay ist ein Relay, das entweder nicht richtig funktioniert "
+"oder die Verbindungen unserer Benutzer stört. Dies kann entweder durch "
+"Böswilligkeit oder Fehlkonfiguration geschehen. Einige häufige Beispiele "
+"sind ..."
 
 #: https//community.torproject.org/relay/community-resources/bad-relays/
 #: (content/relay-operations/community-resources/bad-relays/contents+en.lrpage.body)
@@ -7091,11 +7095,17 @@ msgid ""
 "snoop on traffic) or even intentional (such as layer 7 inspection for P2P "
 "traffic detection/mitigation)."
 msgstr ""
+"* Manipulation des Exit-Verkehrs in irgendeiner Weise (einschließlich des "
+"Abbruchs akzeptierter Verbindungen). Dies kann versehentlich (z.B. durch "
+"einen Antiviren-Filter) oder böswillig (üblicherweise SSLStrip, der https://"
+" durch http:// ersetzt, um den Datenverkehr auszuschnüffeln) oder sogar "
+"absichtlich geschehen (z.B. Layer-7-Inspektion zur Erkennung/Minderung von "
+"P2P-Verkehr)."
 
 #: https//community.torproject.org/relay/community-resources/bad-relays/
 #: (content/relay-operations/community-resources/bad-relays/contents+en.lrpage.body)
 msgid "* Running HSDirs that harvest and probe .onion addresses"
-msgstr ""
+msgstr "* Laufendes HSDirs, das .onion-Adressen erntet und sondiert"
 
 #: https//community.torproject.org/relay/community-resources/bad-relays/
 #: (content/relay-operations/community-resources/bad-relays/contents+en.lrpage.body)
@@ -7103,6 +7113,8 @@ msgid ""
 "* Manipulating the DHT that is used for onion services, e.g., by positioning"
 " itself in the DHT."
 msgstr ""
+"* Manipulation der verteilten Streuwerttabelle, die für Onion-Dienste "
+"verwendet wird, z.B. indem sie selbst in ihr positioniert wird."
 
 #: https//community.torproject.org/relay/community-resources/bad-relays/
 #: (content/relay-operations/community-resources/bad-relays/contents+en.lrpage.body)
@@ -7110,6 +7122,9 @@ msgid ""
 "* Using a DNS provider that censors its results (such as some "
 "[OpenDNS](http://www.opendns.com) or Quad (9 9.9.9.9) configurations)."
 msgstr ""
+"* Verwendung eines DNS-Providers, der seine Ergebnisse zensiert (wie z.B. "
+"einige [OpenDNS] (http://www.opendns.com) oder Quad (9 9.9.9.9) "
+"Konfigurationen)."
 
 #: https//community.torproject.org/relay/community-resources/bad-relays/
 #: (content/relay-operations/community-resources/bad-relays/contents+en.lrpage.body)
@@ -7120,6 +7135,12 @@ msgid ""
 "sure to set the [MyFamily parameter](https://www.torproject.org/docs/tor-"
 "manual.html.en#MyFamily)."
 msgstr ""
+"* Durchführung eines [Sybil-Angriffs] (https://de.wikipedia.org/wiki/Sybil-"
+"Attacke), was bedeutet, dass das Netzwerk mit neuen Relays überflutet wird, "
+"um die Benutzer zu deanonymisieren. Wenn du mehrere Relays betreiben willst,"
+" dann ist das großartig! Aber stelle bitte sicher, dass du den [MyFamily-"
+"Parameter](https://www.torproject.org/docs/tor-manual.html.en#MyFamily) "
+"einstellst."
 
 #: https//community.torproject.org/relay/community-resources/bad-relays/
 #: (content/relay-operations/community-resources/bad-relays/contents+en.lrpage.body)
@@ -7127,6 +7148,8 @@ msgid ""
 "* Exit relays routing their exit traffic back into the tor network (not "
 "actually exiting any traffic)"
 msgstr ""
+"* Exit-Relays, die ihren Exit-Verkehr zurück in das Tor-Netzwerk leiten "
+"(womit eigentlich kein Exit geschieht)"
 
 #: https//community.torproject.org/relay/community-resources/bad-relays/
 #: (content/relay-operations/community-resources/bad-relays/contents+en.lrpage.body)
@@ -7134,9 +7157,9 @@ msgid ""
 "Also, if your relay is stolen or goes missing, please report it as well, so "
 "we can blacklist it in case whoever took it puts it back online."
 msgstr ""
-"Außerdem, wenn dein Relais gestohlen wird, oder du es verlierst melde die "
-"bitte auch. So können wir es auf die Blacklist setzten für den Fall, dass "
-"der Dieb es wieder online bringt."
+"Außerdem, wenn dein Relais gestohlen wird oder du es verlierst, berichte "
+"dies bitte auch. So können wir es auf die Blacklist setzten für den Fall, "
+"dass der Dieb es wieder online bringt."
 
 #: https//community.torproject.org/relay/community-resources/bad-relays/
 #: (content/relay-operations/community-resources/bad-relays/contents+en.lrpage.body)
