@@ -41,11 +41,11 @@ Aleisha تصمیم می‌گیرد که به دنبال پیدا کردن و ا�
 
 ### آب زندگیست
 
-Jelani در روستایی کوچکی زندگی می‌کند که رودخانه وسیعی از آن عبور می‌کند.
+جیلانی در روستایی کوچکی زندگی می‌کند که رودخانه وسیعی از آن عبور می‌کند.
 
 این رودخانه از زمان اجدادش به جامعه خود آب داده‌است.
 
-اما امروز، رودخانه Jelani توسط شرکت‌های چند ملیتی قدرتمند در حال حفاری نفت در منطقه مورد تهدید قرار گرفته‌است.
+اما امروز، رودخانه جیلانی توسط شرکت‌های چند ملیتی قدرتمند در حال حفاری نفت در منطقه مورد تهدید قرار گرفته‌است.
 
 Private security firms, paid for by these companies, use powerful surveillance mechanisms to monitor the online activities of Jelani and his neighbors in the village who are organizing to protect their sacred river. 
 
