@@ -49,13 +49,13 @@ Aleisha تصمیم می‌گیرد که به دنبال پیدا کردن و ا�
 
 Private security firms, paid for by these companies, use powerful surveillance mechanisms to monitor the online activities of Jelani and his neighbors in the village who are organizing to protect their sacred river. 
 
-Jelani uses **Tor Browser** to prevent these companies from watching as he visits websites for international human rights protection and legal aid and writes blog posts about the resistance movement in his village.
+جیلانی از **مرورگر تور** استفاده می کند تا اجازه ندهد تا این شرکت‌ها متوجه شوند از چه سایت‌هایی برای محافظت از حقوق بشر بین‌المللی و کمک قانونی و نوشتن پست درباره جنبش مقاومتی در روستا خود دیدن می کند.
 
-He also uses **OnionShare** and **SecureDrop** to securely send documents to journalists who are helping expose these human rights violations.
+او همچنین از **OnionShare** و **SecureDrop** برای ارسال اسناد به شیوه‌ای امن به روزنامه‌نگارانی که به او در افشای این نقض‌های حقوق بشری کمک می کنند استفاده می کند.
 
-All of this software uses Tor to help protect Jelani’s privacy. 
+تمام این نرم افزار‌ها از تور برای محافظت از حریم خصوصی جیلانی استفاده می کنند.
 
-### Human rights activists like Jelani are fighting for justice in their communities, and Tor helps power their resistance.
+### فعالان حقوق بشر مانند جیلانی برای عدالت در جامعه خود می جنگند و تور به آن‌ها در مقاومت‌شان کمک می‌کند.
 
 ---
 
@@ -79,11 +79,11 @@ He was so exhausted that when the message "Connection has timed out" first appea
 
 He chose one and for a moment it seemed to work, but after five minutes the connection went offline and the VPN would no longer connect. 
 
-Jean kept reading to find other options and learned about Tor Browser and how it can circumvent censorship.
+جین درباره دیگر گزینه‌های موجود مطالعه کرد و با مرورگر تور آشنا شد و متوجه شد چگونه می تواند به او در دور زدن سانسور کمک کند.
 
-He found an official website mirror to download the program.
+او یک لینک رسمی برای دانلود برنامه پیدا کرد.
 
-When he opened **Tor Browser**, he followed the prompts for censored users and connected to a bridge which allowed him to access the internet again.
+هنگامی که **مرورگر تور** را باز کرد، درخواست‌ها برای کاربران سانسور شده را دنبال کرد و به یک پل وصل شد که به او اجازه داد تا به اینترنت مجدداً دسترسی داشته باشد.
 
 بوسیله مرورگر تور، جین میتواند آزادانه و به صورت خصوصی در وب بگردد و با خانواده خود ارتباط برقرار کند.
 
@@ -95,11 +95,11 @@ When he opened **Tor Browser**, he followed the prompts for censored users and c
 
 ## تور چیست؟
 
-Tor is free software and an open network that helps protect you from tracking, surveillance, and censorship online.
-Tor is created for free by a 501(c)3 U.S.-based nonprofit called the Tor Project. 
+تور یک نرم افزار آزاد و یک شبکه باز است که به شما در حفافظت در مقابل ردیابی، فرابینی، سانسور کمک می کند.
+تور توسط بخش غیرانتفاعی 3(c)501  که در آمریکا قرار دارد و به نام پروژه تور فعالیت می کند به صورت رایگان ایجاد شده است.
 
-The easiest way to use Tor is Tor Browser.
-When you use Tor Browser, no one can see what websites you visit or where in the world you’re coming from. 
+ساده ترین راه برای استفاده از تور استفاده از مرورگر تور می باشد.
+وقتی از مرورگر تور استفاده می‌کنید، هیچ‌کس نمی تواند ببیند به چه سایت‌هایی می‌روید یا از کجای جهان می آیید.
 
 سایر برنامه ها، مانند SecureDrop و OnionShare، از تور برای محافظت از کاربران خود در برابر سانسور و نظارت استفاده می کنند.
 
@@ -108,13 +108,13 @@ When you use Tor Browser, no one can see what websites you visit or where in the
 
 امل می خواهد تا سایت بکله را به صورت خصوصی ببیند، بنابراین آن را در مرورگر تور باز می کند.
 
-Tor Browser selects a random circuit of three relays, which are computers all over the world configured to route traffic over the Tor network.
+مرورگر تور یک زنجیره تصادفی که از سه رله تشکیل شده است که رایانه‌هایی در سرتاسر جهان می باشند و پیکربندی شده‌اند تا ترافیک را از شبکه تور عبور دهند انتخاب می‌کند.
 
 مرورگر تور سپس درخواست سایت او را سه بار رمزگذاری می کند و به اولین بازپخش تور در چرخه او می فرستد.
 
 اولین بازپخش اولین لایه رمزگذاری را حذف می کند اما متوجه مقصد که سایت Bekele می باشد نمی شود.
 
-The first relay learns only the next location in the circuit, which is the second relay.
+اولین رله فقط از مقصد بعدی خود در زنجیره که رله دوم باشد آگاه خواهد بود.
 
 بازپخش دوم لایه رمزگذاری دیگر را حذف می کند و درخواست صفحه وب را به بازپخش سوم ارسال می کند.
 
@@ -126,7 +126,7 @@ The first relay learns only the next location in the circuit, which is the secon
 
 افراد از سرتاسر جهان از تور برای محافظت از حریم خصوصی خود و دسترسی به وب به صورت آزاد استفاده می کنند.
 
-Tor helps protect journalists, human rights defenders, domestic violence victims, academic researchers, and anyone experiencing tracking, censorship, or surveillance. 
+تور به روزنامه‌نگاران، مدافعان حقوق بشر، قربانیان خشونت خانگی، محققان آکادمیک، هرکس که ردیابی، سانسور، فرابینی را تجربه می‌کند کمک می‌کند.
 
 ## 6. چرا به تور اعتماد کنیم؟ 
 
@@ -138,15 +138,15 @@ Continual peer review of Tor's source code by academic and open source communiti
 
 ## 7. به انجمن تور بپیوندید
 
-Tor is made possible by a diverse set of users, developers, relay operators, and advocates from around the world.
+تور با کمک مجموعه ای از کاربران، توسعه دهندگان، گردانندگان رله، و مدافعان در سرتاسر جهان ممکن شده است. 
 
 ما به کمک شما برای قابل استفاده تر کردن و امن تر کردن تور برای تمام افراد در سراسر جهان نیازمندیم.
 
 You can volunteer with Tor by writing code, running a relay, creating documentation, offering user support, or telling people in your community about Tor.
 
-The Tor community is governed by a code of conduct, and we outline our set of promises to the community in our social contract. 
+انجمن تور توسط یک قاعده رفتاری اداره می شود و ما مجموعه وعده‌های خود به عموم را در یک قرارداد اجتماعی مطرح می کنیم.
 
-Learn more about Tor by visiting our website, our wiki, finding us on IRC, joining one of our mailing lists, or signing up for Tor News at newsletter.torproject.org.
+می‌توانید درباره تور با مراجعه به سایت‌ ما، ویکی ما، یافتن ما روی IRC، عضویت در یکی از فهرست های پست الکترونیکی ما، یا ثبت نام برای اخبار تور در newsletter.torproject.org بیشتر یاد بگیرید.
 
 
 ## 8. دریافت تور
