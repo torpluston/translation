@@ -5290,6 +5290,8 @@ msgid ""
 "Cloudflare, 4.2.2.1-6) as your primary or fallback DNS resolver to avoid "
 "centralization."
 msgstr ""
+"* از تحلیلگر های ساناد بزرگ (گوگل، اوپن‌‌ دی‌ان‌اس، کلودفلر، 4.2.2.1-6) به "
+"منظور اجتناب از تمرکزگرایی استفاده نکنید."
 
 #: https//community.torproject.org/relay/setup/exit/
 #: (content/relay-operations/technical-setup/exit/contents+en.lrpage.body)
@@ -5323,6 +5325,9 @@ msgid ""
 "* Avoid adding more than two resolvers to your /etc/resolv.conf file to "
 "limit AS-level exposure of DNS queries."
 msgstr ""
+"* از اضافه کردن بیشتر از دو تحلیلگر به فایل /etc/resolv.conf خود برای محدود "
+"کردن در معرض قرار گرفتن سطح سامانه خودگردان از پرسمان های ساناد خودداری "
+"کنید."
 
 #: https//community.torproject.org/relay/setup/exit/
 #: (content/relay-operations/technical-setup/exit/contents+en.lrpage.body)
@@ -5346,6 +5351,8 @@ msgid ""
 "When choosing your DNS resolver software, make sure that it supports DNSSEC "
 "validation and QNAME minimization (RFC7816)."
 msgstr ""
+"در هنگام انتخاب نرم‌افزار تحلیلگر ساناد خود، مطمئن شوید که از حداقل سازی "
+"QNAME و اعتبارسنجی DNSSEC (RFC7816) پشتیبانی می کند."
 
 #: https//community.torproject.org/relay/setup/exit/
 #: (content/relay-operations/technical-setup/exit/contents+en.lrpage.body)
@@ -5353,6 +5360,8 @@ msgid ""
 "Install the resolver software over your operating system's package manager, "
 "to ensure that it is updated automatically."
 msgstr ""
+"نرم افزار تحلیلگر را روی مدیر بسته سیستم عامل خود نصب کنید تا مطمئن شوید که "
+"به صورت خودکار به روز رسانی می شود."
 
 #: https//community.torproject.org/relay/setup/exit/
 #: (content/relay-operations/technical-setup/exit/contents+en.lrpage.body)
@@ -5360,6 +5369,8 @@ msgid ""
 "By using your own DNS resolver, you are less vulnerable to DNS-based "
 "censorship that your upstream resolver might impose."
 msgstr ""
+"با استفاده از تحلیلگر ساناد خود، در برابر سانسور مبتنی بر ساناد کمتر آسیب "
+"پذیر خواهید بود."
 
 #: https//community.torproject.org/relay/setup/exit/
 #: (content/relay-operations/technical-setup/exit/contents+en.lrpage.body)
@@ -5369,6 +5380,10 @@ msgid ""
 "configuration and tuning knobs but we keep these instructions simple and "
 "short; the basic setup will do just fine for most operators."
 msgstr ""
+"در پایین دستور العمل هایی برای نصب و پیکربندی unbound  – یک تحلیلگر ذخیره "
+"سازی و اعتبارسنج DNSSEC – روی رله خروجی می باشد. Unbound پیکربندی های زیادی "
+"دارد ولی ما این دستورالعمل را ساده و کوتاه نگه می داریم; تنظیم ساده برای "
+"اکثر گردانندگان کافی است."
 
 #: https//community.torproject.org/relay/setup/exit/
 #: (content/relay-operations/technical-setup/exit/contents+en.lrpage.body)
@@ -5376,6 +5391,9 @@ msgid ""
 "After switching to unbound, verify it works as expected by resolving a valid"
 " hostname. If it does not work, you can restore your old resolv.conf file."
 msgstr ""
+"پس از روی آوردن به unbound، با تحلیل یک نام میزبان معتبر مطمئن شوید که مشکلی"
+" وجود ندارد. اگر کار نمی کند، می توانید فایل resolv.conf قبلی خود را بازیابی"
+" کنید."
 
 #: https//community.torproject.org/relay/setup/exit/
 #: (content/relay-operations/technical-setup/exit/contents+en.lrpage.body)
@@ -5424,11 +5442,13 @@ msgid ""
 "The Debian configuration ships with QNAME minimization (RFC7816) enabled by "
 "default, so you don't need to enable it explicitly."
 msgstr ""
+"پیکربندی دبیان همراه حداقل سازی QNAME (RFC7816) می آید و به صورت پیش فرض "
+"فعال می باشد بنابراین نیازی به فعال کردن آن به صورت صریح نیست."
 
 #: https//community.torproject.org/relay/setup/exit/
 #: (content/relay-operations/technical-setup/exit/contents+en.lrpage.body)
 msgid "The unbound resolver you just installed also does DNSSEC validation."
-msgstr ""
+msgstr "تحلیلگر unbound که نصب کردید اعتبارسنجی DNSSEC را نیز انجام می دهد."
 
 #: https//community.torproject.org/relay/setup/exit/
 #: (content/relay-operations/technical-setup/exit/contents+en.lrpage.body)
@@ -5573,6 +5593,8 @@ msgid ""
 "2. The ability to expose TCP ports to the Internet (make sure that NAT "
 "doesn't get in the way)"
 msgstr ""
+"2. قابلیت به نمایش در آمدن درگاه های TCP روی اینترنت (مطمئن شوید که ترجمه "
+"نشانی شبکه مزاحم نمی شود)"
 
 #: https//community.torproject.org/relay/setup/bridge/
 #: (content/relay-operations/technical-setup/bridge/contents+en.lrpage.body)
@@ -5580,6 +5602,9 @@ msgid ""
 "Note: If you're running a platform that is not listed on this page, you can "
 "[compile obfs4 from source](https://gitlab.com/yawning/obfs4#installation)."
 msgstr ""
+"توجه: اگر در حال استفاده از یک پلتفورم هستید که در این صفحه نیامده است، می "
+"توانید [obfs4 را از سورس کد کامپایل "
+"کنید](https://gitlab.com/yawning/obfs4#installation)."
 
 #: https//community.torproject.org/relay/setup/guard/
 #: (content/relay-operations/technical-setup/guard/contents+en.lrpage.title)
@@ -5621,6 +5646,8 @@ msgid ""
 "The best way to handle abuse complaints is to set up your exit node so that "
 "they are less likely to be sent in the first place."
 msgstr ""
+"بهترین شیوه برای کنترل شکایت های سو استفاده تنظیم گره خروجی خود می باشد تا "
+"در قدم اول احتمال ارسال آن کمتر باشد."
 
 #: https//community.torproject.org/relay/community-resources/tor-abuse-templates/
 #: (content/relay-operations/community-resources/tor-abuse-templates/contents+en.lrpage.body)
@@ -5661,6 +5688,8 @@ msgid ""
 "proactively by the site administrators, rather than wasting effort and "
 "resources on seeking vengeance and chasing ghosts."
 msgstr ""
+"فلسفه پروژه تور این است که سو استفاده باید توسط مدیران سایت کنترل شوند به "
+"جای اینکه انرژی و منابع صرف انتقام گیری و تعقیب شود."
 
 #: https//community.torproject.org/relay/community-resources/tor-abuse-templates/
 #: (content/relay-operations/community-resources/tor-abuse-templates/contents+en.lrpage.body)
@@ -5677,6 +5706,8 @@ msgid ""
 "licenses\" of South Korea and China have done nothing to curtail cybercrime "
 "and Internet abuse."
 msgstr ""
+"اینترنت مبتنی بر هویت کره جنوبی و چین هیچ کاری در جلوگیری از جرائم سایبری و "
+"سو استفاده اینترنتی انجام نداده است."
 
 #: https//community.torproject.org/relay/community-resources/tor-abuse-templates/
 #: (content/relay-operations/community-resources/tor-abuse-templates/contents+en.lrpage.body)
@@ -5685,6 +5716,9 @@ msgid ""
 "korea-to-abandon-real-name-internet-policy.html) seems to indicate that it "
 "has only created new markets for organized crime to preside over."
 msgstr ""
+"برعکس، [شواهد](http://boingboing.net/2011/08/12/south-korea-to-abandon-real-"
+"name-internet-policy.html) نشان می دهد که یک بازار جدید برای جرم سازمان "
+"یافته ایجاد کرده است."
 
 #: https//community.torproject.org/relay/community-resources/tor-abuse-templates/
 #: (content/relay-operations/community-resources/tor-abuse-templates/contents+en.lrpage.body)
@@ -5706,11 +5740,13 @@ msgid ""
 "All templates should include the Common Boilerplate below, and append some "
 "additional paragraphs depending on the specific Scenario."
 msgstr ""
+"تمام قالب ها باید تکرار واضحات رایج را داشته باشند و بسته به شرایط چند "
+"پاراگراف را اضافه کنند."
 
 #: https//community.torproject.org/relay/community-resources/tor-abuse-templates/
 #: (content/relay-operations/community-resources/tor-abuse-templates/contents+en.lrpage.body)
 msgid "## Common Boilerplate (Tor Intro)"
-msgstr ""
+msgstr "## تکرار واضحات رایج (مقدمه تور)"
 
 #: https//community.torproject.org/relay/community-resources/tor-abuse-templates/
 #: (content/relay-operations/community-resources/tor-abuse-templates/contents+en.lrpage.body)
@@ -5728,6 +5764,8 @@ msgid ""
 "There is little we can do to trace this matter further. As can be seen from "
 "the overview page, the Tor network is designed to make tracing of"
 msgstr ""
+"کار زیادی برای گرفتن رد این موضوع از طرف ما وجود ندارد. همانطور که از صفحه "
+"نمای کلی قابل دیدن است، شبکه تور طوری طراحی شده"
 
 #: https//community.torproject.org/relay/community-resources/tor-abuse-templates/
 #: (content/relay-operations/community-resources/tor-abuse-templates/contents+en.lrpage.body)
@@ -5735,6 +5773,8 @@ msgid ""
 "users impossible. The Tor network is run by some 5000 volunteers who use the"
 " free software provided by the Tor Project to run Tor routers."
 msgstr ""
+"تا ردیابی کاربران تور غیرممکن باشد. شبکه تور توسط 5000 داوطلب که از نرم "
+"افزار رایگان فراهم شده توسط پروژه تور برای اجرا روتر تور استفاده می کنند."
 
 #: https//community.torproject.org/relay/community-resources/tor-abuse-templates/
 #: (content/relay-operations/community-resources/tor-abuse-templates/contents+en.lrpage.body)
@@ -5742,6 +5782,8 @@ msgid ""
 "Client connections are routed through multiple relays, and are multiplexed "
 "together on the connections between relays."
 msgstr ""
+"اتصال های کلاینت از چندین رله عبور داده می شوند و روی اتصال های بین رله "
+"همتافته می شوند."
 
 #: https//community.torproject.org/relay/community-resources/tor-abuse-templates/
 #: (content/relay-operations/community-resources/tor-abuse-templates/contents+en.lrpage.body)
@@ -5757,6 +5799,11 @@ msgid ""
 "skirting the Great Firewall, abuse victims, stalker targets, the US "
 "military, and law enforcement, just to name a few."
 msgstr ""
+"دلیل این کار این است که شبکه تور یک سامانه ناشناس، حریم خصوصی و مقاوم سانسور"
+" است که مورد استفاده افشاگران و روزنامه نگاران و مخالفان چین که قصد دور زدن "
+"دیوار آتش بزرگ را دارند و قربانیان سو استفاده و هدف های تحت تعقیب، مجریان "
+"قانون و ارتش آمریکا  می باشد و این ها تنها تعدادی از استفاده کنندگان از این "
+"سامانه هستند."
 
 #: https//community.torproject.org/relay/community-resources/tor-abuse-templates/
 #: (content/relay-operations/community-resources/tor-abuse-templates/contents+en.lrpage.body)
@@ -5771,6 +5818,8 @@ msgid ""
 "Unfortunately, some people misuse the network. However, compared to the rate"
 " of legitimate use (the IP range in question processes nearly"
 msgstr ""
+"متاسفانه، برخی افراد از شبکه سو استفاده می کنند. هرچند، در مقایسه با استفاده"
+" درست از آن (محدوده آی‌پی حدود"
 
 #: https//community.torproject.org/relay/community-resources/tor-abuse-templates/
 #: (content/relay-operations/community-resources/tor-abuse-templates/contents+en.lrpage.body)
@@ -5778,6 +5827,8 @@ msgid ""
 "a gigabit of traffic per second), [abuse complaints are "
 "rare](https://www.torproject.org/docs/faq-abuse.html.en)."
 msgstr ""
+"یک گیگ ترافیک در ثانیه پردازش می کند)، [شکایت های سو استفاده به ندرت اتفاق "
+"می افتند](https://www.torproject.org/docs/faq-abuse.html.en)."
 
 #: https//community.torproject.org/relay/community-resources/tor-abuse-templates/
 #: (content/relay-operations/community-resources/tor-abuse-templates/contents+en.lrpage.body)
@@ -5790,13 +5841,15 @@ msgid ""
 "The following scenario-specific paragraphs should be appended to the Common "
 "Boilerplate paragraphs above."
 msgstr ""
+"پاراگراف های سناریو خاص باید به تکرار واضحات رایج پاراگراف های بالا اضافه "
+"شوند."
 
 #: https//community.torproject.org/relay/community-resources/tor-abuse-templates/
 #: (content/relay-operations/community-resources/tor-abuse-templates/contents+en.lrpage.body)
 msgid ""
 "The common boilerplate should be abridged or be omitted if the abuse "
 "complaintant is already familiar with Tor."
-msgstr ""
+msgstr "اگر شاکی با تور آشنایی دارد تکرار واضحات رایج باید حذف شود."
 
 #: https//community.torproject.org/relay/community-resources/tor-abuse-templates/
 #: (content/relay-operations/community-resources/tor-abuse-templates/contents+en.lrpage.body)
@@ -5814,6 +5867,8 @@ msgid ""
 "The Tor Project provides an automated DNSRBL for you to query to flag posts "
 "coming from Tor nodes as requiring special review."
 msgstr ""
+"پروژه تور از یک DNSRBL خودکار برای پرسمان شما به منظور علامت زدن پست های "
+"آمده از گره های تور که نیاز به بازبینی خاص دارند می باشد."
 
 #: https//community.torproject.org/relay/community-resources/tor-abuse-templates/
 #: (content/relay-operations/community-resources/tor-abuse-templates/contents+en.lrpage.body)
@@ -5828,6 +5883,8 @@ msgid ""
 "However, be aware that this may be just one jerk amongst many legitimate Tor"
 " users who use your forums."
 msgstr ""
+"هرچند، آگاه باشید که این ممکن است یک شخص نادرست بین بسیاری افراد درستکار که "
+"از فروم شما استفاده می کنند باشد."
 
 #: https//community.torproject.org/relay/community-resources/tor-abuse-templates/
 #: (content/relay-operations/community-resources/tor-abuse-templates/contents+en.lrpage.body)
@@ -5843,6 +5900,8 @@ msgid ""
 "In general, we believe that problems like this are best solved by improving "
 "your service to defend against the attack from the Internet at large."
 msgstr ""
+"به طور کلی، ما اعتقاد داریم که بهترین راه حل برای مشکلاتی این چنین با بهبود "
+"سرویس خود در برابر حملات اینترنتی قابل حل است."
 
 #: https//community.torproject.org/relay/community-resources/tor-abuse-templates/
 #: (content/relay-operations/community-resources/tor-abuse-templates/contents+en.lrpage.body)
@@ -5850,29 +5909,33 @@ msgid ""
 "Brute force login attempts can be reduced/slowed by captchas, which is the "
 "approach taken by Gmail for this same problem."
 msgstr ""
+"کوشش های جستجوی فراگیر ورود می توانند از طریق استفاده از کپچا کاهش یابند که "
+"رویکردی است که جی‌میل برای حل این مشکل انتخاب کرده است."
 
 #: https//community.torproject.org/relay/community-resources/tor-abuse-templates/
 #: (content/relay-operations/community-resources/tor-abuse-templates/contents+en.lrpage.body)
 msgid ""
 "In fact, Google provides a free captcha service, complete with code for easy"
 " inclusion in a number of systems to help other sites deal"
-msgstr ""
+msgstr "گوگل یک سرویس کپچا رایگان را ارائه می کند که به سایت ها کمک می کند"
 
 #: https//community.torproject.org/relay/community-resources/tor-abuse-templates/
 #: (content/relay-operations/community-resources/tor-abuse-templates/contents+en.lrpage.body)
 msgid "with this issue: https://code.google.com/apis/recaptcha/intro.html"
 msgstr ""
+"تا این مشکل را حل کنند: https://code.google.com/apis/recaptcha/intro.html"
 
 #: https//community.torproject.org/relay/community-resources/tor-abuse-templates/
 #: (content/relay-operations/community-resources/tor-abuse-templates/contents+en.lrpage.body)
 msgid "## PHP Relay or Exploited Webmail Account Spam"
-msgstr ""
+msgstr "## رله پی‌اچ‌پی یا اسپم حساب ایمیل بهره جویی شده"
 
 #: https//community.torproject.org/relay/community-resources/tor-abuse-templates/
 #: (content/relay-operations/community-resources/tor-abuse-templates/contents+en.lrpage.body)
 msgid ""
 "In addition, our nodes do not allow SMTP traffic to be sent using our IPs."
 msgstr ""
+"به علاوه‌، گره های ما به ترافیک SMTP از طریق آی‌پی های ما را مجاز نمی دانند."
 
 #: https//community.torproject.org/relay/community-resources/tor-abuse-templates/
 #: (content/relay-operations/community-resources/tor-abuse-templates/contents+en.lrpage.body)
