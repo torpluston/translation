@@ -3037,6 +3037,8 @@ msgid ""
 "These circuits are anonymized circuits, so Bob does not reveal his locations"
 " to his introduction points."
 msgstr ""
+"این زنجیره ها ناشناس می باشند بنابراین باب نمی تواند موقعیت خود را نقاط "
+"معرفی آشکار کند."
 
 #: https//community.torproject.org/onion-services/overview/
 #: (content/onion-services/overview/contents+en.lrpage.body)
@@ -3045,6 +3047,9 @@ msgid ""
 "\"authentication key\", so that if any clients come for introductions later "
 "the introduction point can use that key to match them to Bob."
 msgstr ""
+"به عنوان بخشی از این مرحله، باب به نقطه معرفی خود یک \"کلید احراز هویت\" خاص"
+" می دهد تا اگر کلاینت دیگری برای معرفی بعداً آمد نقطه ملاقات از آن کلید برای"
+" تطابق آن ها با باب استفاده کند."
 
 #: https//community.torproject.org/onion-services/overview/
 #: (content/onion-services/overview/contents+en.lrpage.body)
@@ -3076,6 +3081,9 @@ msgid ""
 "list of his introduction points (and their \"authentication keys\"), and "
 "signs this descriptor with his _identity private key_."
 msgstr ""
+"به همین دلیل، باب یک توصیف‌گر سرویس پیازی که لیستی از نقاط معرفی او (و "
+"\"کلید های احراز هویت\" آن را دارد) را فراهم کی ند و این توصیف‌گر را _کلید "
+"خصوصی هویت_ خود امضا می کند."
 
 #: https//community.torproject.org/onion-services/overview/
 #: (content/onion-services/overview/contents+en.lrpage.body)
@@ -3083,6 +3091,8 @@ msgid ""
 "The _identity private key_ used here is the private part of the **public key"
 " that is encoded in the onion service address**."
 msgstr ""
+"_کلید خصوصی هویت_ استفاده شده در اینجا بخش خصوصی از **کلید عمومی کدگذاری شده"
+" در نشانی سرویس پیازی می باشد**."
 
 #: https//community.torproject.org/onion-services/overview/
 #: (content/onion-services/overview/contents+en.lrpage.body)
@@ -3121,6 +3131,7 @@ msgid ""
 "Now let's fast-forward to the point where an actual client wants to visit "
 "the service:"
 msgstr ""
+"حالا برویم به مرحله ای که در آن کلاینت وقاعی می خواهد از سرویس دیدن کند:"
 
 #: https//community.torproject.org/onion-services/overview/
 #: (content/onion-services/overview/contents+en.lrpage.body)
@@ -3137,6 +3148,8 @@ msgid ""
 "In this case, Alice (the client) has the onion address of Bob and she wants "
 "to visit it, so she connects to it with her Tor Browser."
 msgstr ""
+"در این مورد، آلیس (کلاینت) نشانی پیازی باب را دارد و می خواهد از آن دیدن کند"
+" بنابراین از طریق مرورگر تور خود از آن دیدن می کند"
 
 #: https//community.torproject.org/onion-services/overview/
 #: (content/onion-services/overview/contents+en.lrpage.body)
@@ -3145,6 +3158,8 @@ msgid ""
 "_distributed hash table_ from the step above, and ask for the signed "
 "descriptor of Bob."
 msgstr ""
+"حالا اتفاق بعدی که باید بیفتد این است که آلیس به _جدول هش توزیع شده_ از قدم "
+"بالا برود و توصیف‌گر امضا شده باب را بخواهد."
 
 #: https//community.torproject.org/onion-services/overview/
 #: (content/onion-services/overview/contents+en.lrpage.body)
@@ -3152,6 +3167,8 @@ msgid ""
 "When Alice receives the signed descriptor, she verifies the signature of the"
 " descriptor using the public key that is encoded in the onion address."
 msgstr ""
+"هنگامی که آلیس توصیف‌گر امضا شده را دریافت کرد، امضا توصیف‌گر را با استفاده "
+"کلید عمومی کدگذاری شده در نشانی پیازی تایید می کند."
 
 #: https//community.torproject.org/onion-services/overview/
 #: (content/onion-services/overview/contents+en.lrpage.body)
@@ -3160,6 +3177,8 @@ msgid ""
 "are now sure that this descriptor could only be produced by Bob and no one "
 "else."
 msgstr ""
+"این ویژگی امنیتی _احراز هویت سرتاسر_ را فراهم می کند از آنجایی که ما می "
+"دانیم که توصیف‌گر تنها توسط باب تولید می شود و نه هیچکس دیگر."
 
 #: https//community.torproject.org/onion-services/overview/
 #: (content/onion-services/overview/contents+en.lrpage.body)
@@ -3167,6 +3186,8 @@ msgid ""
 "And inside the descriptor there are the introduction points which allow "
 "Alice to introduce herself to Bob."
 msgstr ""
+"داخل توصیف‌گر نقاط ملاقاتی وجود دارند که می توانند به آلیس اجازه دهند خود را"
+" به باب معرفی کند."
 
 #: https//community.torproject.org/onion-services/overview/
 #: (content/onion-services/overview/contents+en.lrpage.body)
@@ -3188,6 +3209,8 @@ msgid ""
 "Alice asks the relay to become her _rendezvous point_ and gives it an \"one-"
 "time secret\" that will be used as part of the rendezvous procedure."
 msgstr ""
+"آلیس از رله می خواهد تا به _نقطه دیدار_ او تبدیل شود و به او یک \"رمز یک "
+"دفعه ای\" را می دهد که بخشی از روند دیدار خواهد بود."
 
 #: https//community.torproject.org/onion-services/overview/
 #: (content/onion-services/overview/contents+en.lrpage.body)
@@ -3217,6 +3240,8 @@ msgid ""
 "Through this introduction Bob learns Alice's choice of rendezvous point and "
 "the \"one-time secret\"."
 msgstr ""
+"از طریق این معرفی باب از انتخاب نقطه ملاقات و \"رمز یک دفعه‌ای\" توسط آلیس "
+"باخبر می شود."
 
 #: https//community.torproject.org/onion-services/overview/
 #: (content/onion-services/overview/contents+en.lrpage.body)
@@ -3245,6 +3270,8 @@ msgid ""
 "The onion service connects to the rendezvous point (through an anonymized "
 "circuit) and sends the \"one-time secret\" to it."
 msgstr ""
+"سرویس پیازی به نقطه دیدار وصل می شود (این از طریق زنجیره ناشناس شده خواهد "
+"بود) و \"رمز یک دفعه‌ای\" را به آن ارسال می کند."
 
 #: https//community.torproject.org/onion-services/overview/
 #: (content/onion-services/overview/contents+en.lrpage.body)
@@ -3370,6 +3397,9 @@ msgid ""
 "machine. Tor should be up and running correctly for this guide to work. You "
 "should also know where Tor's configuration files are."
 msgstr ""
+"به عنوان بخشی از این راهنما، ما فرض می کنیم تور در ماشین شما می کند. برای "
+"اینکه این راهنما جواب بدهد تور باید به درستی کار کند. باید بدانید یک فایل "
+"های پیکربندی تور در کجا قرار دارند."
 
 #: https//community.torproject.org/onion-services/setup/
 #: (content/onion-services/setup/contents+en.lrpage.body)
@@ -3380,6 +3410,13 @@ msgid ""
 "/tor-doc-osx.html.en), and Linux/BSD/Unix users should follow the [Unix "
 "howto](https://2019.www.torproject.org/docs/tor-doc-unix.html.en)."
 msgstr ""
+"برای تنظیم تور، کاربران تور می توانند از این "
+"[راهنما](https://2019.www.torproject.org/docs/tor-doc-windows.html.en) "
+"استفاده کنند و کاربران مک باید این "
+"[راهنما](https://2019.www.torproject.org/docs/tor-doc-osx.html.en) را دنبال "
+"کنند و کاربران لینوکس/بی‌اس‌دی/یونیکس این "
+"[راهنما](https://2019.www.torproject.org/docs/tor-doc-unix.html.en) را دنبال"
+" کنند."
 
 #: https//community.torproject.org/onion-services/setup/
 #: (content/onion-services/setup/contents+en.lrpage.body)
@@ -3392,6 +3429,8 @@ msgid ""
 "As a first step you should setup a web server locally, like nginx or "
 "lighttpd. Setting up a web server can be complex."
 msgstr ""
+"به عنوان اولین قدم شما باید یک سرور وب را به صورت محلی تنظیم کنید مانند "
+"nginx یا lighttpd. تنیظم یک سرور وب می تواند پیچیده باشد."
 
 #: https//community.torproject.org/onion-services/setup/
 #: (content/onion-services/setup/contents+en.lrpage.body)
