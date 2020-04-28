@@ -9995,7 +9995,7 @@ msgstr "نحوه قرار دادن پل obfs4 روی دراگون‌فلای ب�
 #: https//community.torproject.org/relay/setup/bridge/dragonflybsd/
 #: (content/relay-operations/technical-setup/bridge/dragonflybsd/contents+en.lrpage.body)
 msgid "### 1. Bootstrap `pkg`"
-msgstr ""
+msgstr "### 1. `pkg` را بوت‌استرپ کنید"
 
 #: https//community.torproject.org/relay/setup/bridge/dragonflybsd/
 #: (content/relay-operations/technical-setup/bridge/dragonflybsd/contents+en.lrpage.body)
@@ -10061,6 +10061,9 @@ msgid ""
 " going to use HTTPS to fetch our packages, and updates - so here we also "
 "need an extra package to help us out (`ca_root_nss`)."
 msgstr ""
+"در اینجا، مشابه به سیستم **فری‌بی‌اس‌دی** خواهد بود و ما از HTTPS برای واکشی"
+" بسته های خود و به روز رسانی استفاده خواهیم کرد - ما به یک بسته اضافی برای "
+"کمک به خود نیاز داریم (`ca_root_nss`)."
 
 #: https//community.torproject.org/relay/setup/bridge/dragonflybsd/
 #: (content/relay-operations/technical-setup/bridge/dragonflybsd/contents+en.lrpage.body)
@@ -10090,6 +10093,10 @@ msgid ""
 "files ending in the \".sample\" extension are ignored; pkg(8) only reads "
 "files that end in \".conf\" and it will read as many as it finds."
 msgstr ""
+"برای نصب های تازه، فایل `/usr/local/etc/pkg/repos/df-latest.conf.sample` در "
+"`/usr/local/etc/pkg/repos/df-latest` کپی می شود. فایل هایی که آخر آن ها "
+"\".sample\"می باشد در نظر گرفته نمی شوند; pkg(8) تنها فایل های \"conf.\" را "
+"می خواند."
 
 #: https//community.torproject.org/relay/setup/bridge/dragonflybsd/
 #: (content/relay-operations/technical-setup/bridge/dragonflybsd/contents+en.lrpage.body)
@@ -10101,14 +10108,14 @@ msgstr "**دراگون‌فلای بی‌اس‌دی** دو مخزن بسته د
 #: https//community.torproject.org/relay/setup/guard/dragonflybsd/
 #: (content/relay-operations/technical-setup/guard/dragonflybsd/contents+en.lrpage.body)
 msgid "- Avalon (mirror-master.dragonflybsd.org);"
-msgstr ""
+msgstr "- آوالون (mirror-master.dragonflybsd.org);"
 
 #: https//community.torproject.org/relay/setup/bridge/dragonflybsd/
 #: (content/relay-operations/technical-setup/bridge/dragonflybsd/contents+en.lrpage.body)
 #: https//community.torproject.org/relay/setup/guard/dragonflybsd/
 #: (content/relay-operations/technical-setup/guard/dragonflybsd/contents+en.lrpage.body)
 msgid "- Wolfpond (pkg.wolfpond.org)."
-msgstr ""
+msgstr "- ولف‌پاند (pkg.wolfpond.org)."
 
 #: https//community.torproject.org/relay/setup/bridge/dragonflybsd/
 #: (content/relay-operations/technical-setup/bridge/dragonflybsd/contents+en.lrpage.body)
@@ -10117,6 +10124,9 @@ msgid ""
 "`/usr/local/etc/pkg/repos/df-latest` and that's it! Remember to use "
 "**pkg+https://** for Avalon."
 msgstr ""
+"می توانید **نشانی اینترنتی** استفاده شده را برای اشاره به مخازن روی "
+"`/usr/local/etc/pkg/repos/df-latest` ویرایش کنید و تنها مجاز به همین کار "
+"هستید! یادتان باشد تا برای آوالون از **pkg+https://** استفاده کنید."
 
 #: https//community.torproject.org/relay/setup/bridge/dragonflybsd/
 #: (content/relay-operations/technical-setup/bridge/dragonflybsd/contents+en.lrpage.body)
@@ -10128,6 +10138,8 @@ msgid ""
 "After applying all these changes, we update the packages list again and try "
 "to check if there's already a new update to apply:"
 msgstr ""
+"پس از پیاده کردن تمام این تغییرات، لیست بسته ها را مجدد به روز رسانی می کنیم"
+" و سعی می کنیم بررسی کنیم که آیا یک به روز رسانی جدید وجود دارد یا نه:"
 
 #: https//community.torproject.org/relay/setup/bridge/dragonflybsd/
 #: (content/relay-operations/technical-setup/bridge/dragonflybsd/contents+en.lrpage.body)
@@ -10216,6 +10228,9 @@ msgid ""
 "can talk to `tor` over the loopback interface - do not forget to whitelist "
 "the **ExtORPort**."
 msgstr ""
+"*‌آیا در دراگون‌فلای‌بی‌اس‌دی از دیوار آتش استفاده می کنید؟ اگر چنین است، "
+"مطمئن شوید که `obfs4proxy` می تواند با `tor` ارتباط برقرار کند - فراموش "
+"نکنید **ExtORPort** را در لیست سفید قرار دهید."
 
 #: https//community.torproject.org/relay/setup/bridge/dragonflybsd/
 #: (content/relay-operations/technical-setup/bridge/dragonflybsd/contents+en.lrpage.body)
@@ -10233,6 +10248,9 @@ msgid ""
 " to bind to lower ports like 443 (the daemon itself will still run as a "
 "regular non-privileged user)."
 msgstr ""
+"اینجا ما `tor` را تنظیم می کنیم تا در هنگام بوت آغاز شود و از setuid استفاده"
+" کند برای اینکه به درگاه های پایین تر مانند 443 مقید شود (خود دیمن به صورت "
+"یک کاربر فاقد حق ویژه عادی اجرا خواهد شد) ."
 
 #: https//community.torproject.org/relay/setup/bridge/dragonflybsd/
 #: (content/relay-operations/technical-setup/bridge/dragonflybsd/contents+en.lrpage.body)
@@ -10300,12 +10318,12 @@ msgstr ""
 #: https//community.torproject.org/relay/setup/bridge/docker/
 #: (content/relay-operations/technical-setup/bridge/docker/contents+en.lrpage.body)
 msgid "We are maintaining a docker image that runs an obfs4 bridge."
-msgstr ""
+msgstr "ما یک تصویر داکر که یک پل obfs4 را اجرا می کند را نگهداری می کنیم."
 
 #: https//community.torproject.org/relay/setup/bridge/docker/
 #: (content/relay-operations/technical-setup/bridge/docker/contents+en.lrpage.body)
 msgid "First, download the image:"
-msgstr ""
+msgstr "ابتدا، تصویر را دانلود کنید:"
 
 #: https//community.torproject.org/relay/setup/bridge/docker/
 #: (content/relay-operations/technical-setup/bridge/docker/contents+en.lrpage.body)
@@ -10315,12 +10333,13 @@ msgstr "docker pull phwinter/obfs4-bridge:latest"
 #: https//community.torproject.org/relay/setup/bridge/docker/
 #: (content/relay-operations/technical-setup/bridge/docker/contents+en.lrpage.body)
 msgid "### 2. Deploy a container"
-msgstr ""
+msgstr "### 2. کانتینر را مستقر کنید"
 
 #: https//community.torproject.org/relay/setup/bridge/docker/
 #: (content/relay-operations/technical-setup/bridge/docker/contents+en.lrpage.body)
 msgid "We provide a Makefile that helps you deploy the container."
 msgstr ""
+"ما یک Makefile فراهم می کنیم که در مستقر کردن کانتینر به شما کمک می کند."
 
 #: https//community.torproject.org/relay/setup/bridge/docker/
 #: (content/relay-operations/technical-setup/bridge/docker/contents+en.lrpage.body)
@@ -10329,6 +10348,9 @@ msgid ""
 "censorship/docker-obfs4-bridge/raw/master/Makefile), and then write your "
 "bridge configuration to a new file, bridge.sh."
 msgstr ""
+"ابتدا، [Makefile را دانلود کنید](https://dip.torproject.org/torproject/anti-"
+"censorship/docker-obfs4-bridge/raw/master/Makefile) و سپس پیکربندی پل خود را"
+" روی یک فایل جدید به نام bridge.sh بنویسید."
 
 #: https//community.torproject.org/relay/setup/bridge/docker/
 #: (content/relay-operations/technical-setup/bridge/docker/contents+en.lrpage.body)
@@ -10373,6 +10395,10 @@ msgid ""
 " address, which allows us to get in touch with you if there are problems "
 "with your bridge."
 msgstr ""
+"`X` را با درگاه OR دلخواه خود و `Y` را با درگاه obfs4 خود (مطمئن شوید که  "
+"**هر دو** درگاه در دیوار آتش شما باز هستند)، و `Z` را با نشانی ایمیل خود "
+"جایگزین کنید که به ما اجازه می دهد در صورت وجود مشکل با پل شما با شما ارتباط"
+" برقرار کنیم."
 
 #: https//community.torproject.org/relay/setup/bridge/docker/
 #: (content/relay-operations/technical-setup/bridge/docker/contents+en.lrpage.body)
@@ -10398,7 +10424,7 @@ msgstr "201fbd2b4d28e6f226978f27547edd79272871c5949bf8aab3872c983156a108"
 #: https//community.torproject.org/relay/setup/bridge/docker/
 #: (content/relay-operations/technical-setup/bridge/docker/contents+en.lrpage.body)
 msgid "Make sure that port X and Y are forwarded in your firewall."
-msgstr ""
+msgstr "مطمئن شوید که درگاه X و Y در دیوار آتش شما باز می باشد."
 
 #: https//community.torproject.org/relay/setup/bridge/docker/
 #: (content/relay-operations/technical-setup/bridge/docker/contents+en.lrpage.body)
@@ -10406,6 +10432,8 @@ msgid ""
 "That's it! Your container (identified by the first line of output) is now "
 "bootstrapping your new obfs4 bridge."
 msgstr ""
+"تمام شد! کانتینر شما (که توسط اولین خط خروجی شناسایی می شود) حالا پل obfs4 "
+"جدید شما را بوت‌استرپ می کند."
 
 #: https//community.torproject.org/relay/setup/bridge/docker/
 #: (content/relay-operations/technical-setup/bridge/docker/contents+en.lrpage.body)
@@ -10414,6 +10442,9 @@ msgid ""
 " bridge configuration files with different sets of ports, and run `make "
 "deploy` again, like so:"
 msgstr ""
+"اگر می خواهید چندین پل را روی ماشین خود اجرا کنید نیاز دارید تا فایل های "
+"پیکربندی با درگاه های مختلف ایجاد کنید و مجدداً `make deploy` را اجرا کنید، "
+"مانند:"
 
 #: https//community.torproject.org/relay/setup/bridge/docker/
 #: (content/relay-operations/technical-setup/bridge/docker/contents+en.lrpage.body)
@@ -10442,6 +10473,8 @@ msgid ""
 "existing container, delete it, pull the latest image, and finally deploy it "
 "again:"
 msgstr ""
+"برای ارتقا به آخرین نسخه از تصویر ما، باید کانتینر موجود را متوقف کنید و آن "
+"را حذف کنید، تصویر آخر را برداشته و در پایان آن را مستقر کنید:"
 
 #: https//community.torproject.org/relay/setup/bridge/docker/
 #: (content/relay-operations/technical-setup/bridge/docker/contents+en.lrpage.body)
@@ -10460,6 +10493,9 @@ msgid ""
 "stored in a docker volume, so you won't lose your bridge's identity when "
 "upgrading to the latest docker image."
 msgstr ""
+"توجه داشته باشید که دایرکتوری داده پل شما (که دارای محتوای کلیدی خود می "
+"باشد) در یک حجم داکر ذخیره شده است بنابراین هویت پل خود را در هنگام ارتقا به"
+" آخرین تصویر داکر از دست نخواهید داد."
 
 #: https//community.torproject.org/relay/setup/bridge/docker/
 #: (content/relay-operations/technical-setup/bridge/docker/contents+en.lrpage.body)
@@ -10477,6 +10513,9 @@ msgid ""
 "dev](https://lists.torproject.org/cgi-bin/mailman/listinfo/tor-dev) mailing "
 "list."
 msgstr ""
+"ما نسخه های جدید تصویر را روی لیست ‌پست‌سپاری [tor-"
+"dev](https://lists.torproject.org/cgi-bin/mailman/listinfo/tor-dev) اعلام می"
+" کنیم."
 
 #: https//community.torproject.org/relay/setup/bridge/docker/
 #: (content/relay-operations/technical-setup/bridge/docker/contents+en.lrpage.body)
@@ -10595,6 +10634,8 @@ msgid ""
 "Heavily outdated versions of git can make `go get` fail, so try upgrading to"
 " a more recent git version if you're running into this problem."
 msgstr ""
+"در نسخه های خیلی قدیمی از گیت `go get` کار نخواهد کرد، بنابراین اگر این مشکل"
+" را دریافت می کنید سعی کنید یک نسخه جدیدتر از گیت را استفاده کنید."
 
 #: https//community.torproject.org/relay/setup/bridge/centos-rhel-opensuse/
 #: (content/relay-operations/technical-setup/bridge/centos-rhel-opensuse/contents+en.lrpage.body)
@@ -10608,7 +10649,7 @@ msgstr "export GOPATH=`mktemp -d`"
 #: https//community.torproject.org/relay/setup/bridge/fedora/
 #: (content/relay-operations/technical-setup/bridge/fedora/contents+en.lrpage.body)
 msgid "go get gitlab.com/yawning/obfs4.git/obfs4proxy"
-msgstr ""
+msgstr "go get gitlab.com/yawning/obfs4.git/obfs4proxy"
 
 #: https//community.torproject.org/relay/setup/bridge/centos-rhel-opensuse/
 #: (content/relay-operations/technical-setup/bridge/centos-rhel-opensuse/contents+en.lrpage.body)
@@ -10641,6 +10682,11 @@ msgid ""
 "use [our reachability test](https://bridges.torproject.org/scan/) to see if "
 "your obfs4 port is reachable from the Internet."
 msgstr ""
+"* توجه داشته باشید که هم درگاه OR تور و درگاه obfs4 آن باید قابل دسترس "
+"باشند. اگر پل شما پشت یک دیوار آتش یا ترجمه نشانی شبکه قرار گرفته، مطمئن "
+"شوید که هر دو را باز کرده اید. می توانید از [آزمون دسترس‌پذیری "
+"ما](https://bridges.torproject.org/scan/) برای بررسی قابل دسترس بودن درگاه "
+"obfs4 از اینترنت استفاده کنید."
 
 #: https//community.torproject.org/relay/setup/bridge/centos-rhel-opensuse/
 #: (content/relay-operations/technical-setup/bridge/centos-rhel-opensuse/contents+en.lrpage.body)
@@ -10649,6 +10695,8 @@ msgstr ""
 msgid ""
 "sudo semanage port -a -t tor_port_t -p tcp [OR port set earlier, in TODO1]"
 msgstr ""
+"sudo semanage port -a -t tor_port_t -p tcp [درگاه OR قبلاً در TODO1 تنظیم "
+"شده است]"
 
 #: https//community.torproject.org/relay/setup/bridge/centos-rhel-opensuse/
 #: (content/relay-operations/technical-setup/bridge/centos-rhel-opensuse/contents+en.lrpage.body)
@@ -10658,6 +10706,8 @@ msgid ""
 "sudo semanage port -a -t tor_port_t -p tcp [obfs4 port set earlier, in "
 "TODO2]"
 msgstr ""
+"sudo semanage port -a -t tor_port_t -p tcp [درگاه obfs4 قبلاً در TODO2 تنظیم"
+" شده است]"
 
 #: https//community.torproject.org/relay/setup/bridge/centos-rhel-opensuse/
 #: (content/relay-operations/technical-setup/bridge/centos-rhel-opensuse/contents+en.lrpage.body)
@@ -10740,6 +10790,9 @@ msgid ""
 "make sure that your obfs4proxy can talk to your Tor process over the "
 "loopback interface.  Don't forget to whitelist Tor's `ExtORPort`."
 msgstr ""
+"* آیا از دیوار آتش فری‌بی‌اس‌دس همراه سیاست \"رد پیش فرض\" استفاده می کنید؟ "
+"اگر چنین است، مطمئن شوید که obfs4proxy می تواند با پردازش تور ارتباط داشته "
+"باشد. یادتان باشد که `ExtORPort` تور را در لیست سفید قرار دهید."
 
 #: https//community.torproject.org/relay/setup/bridge/freebsd/
 #: (content/relay-operations/technical-setup/bridge/freebsd/contents+en.lrpage.body)
