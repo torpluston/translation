@@ -6724,11 +6724,16 @@ msgid ""
 "snoop on traffic) or even intentional (such as layer 7 inspection for P2P "
 "traffic detection/mitigation)."
 msgstr ""
+"* دستکاری در ترافیک خروجی به هر شکل (مانند رد اتصال های مورد پذیرش). این می "
+"تواند امری اتفاقی باشد (مانند یک فیلتر آنتی‌ویروس) یا با هدف موذیانه صورت "
+"بگیرد (حذف SSL که https را با http جایگزین می کند تا ترافیک را شنود کند) یا "
+"حتی با قصد و هدفی انجام شود (مانند بررسی لایه 7 برای شناسایی/رفع ترافیک "
+"همتا‌به‌همتا)."
 
 #: https//community.torproject.org/relay/community-resources/bad-relays/
 #: (content/relay-operations/community-resources/bad-relays/contents+en.lrpage.body)
 msgid "* Running HSDirs that harvest and probe .onion addresses"
-msgstr ""
+msgstr "* اجرا HSDir که نشانی های پیازی را جستجو و جمع می کند"
 
 #: https//community.torproject.org/relay/community-resources/bad-relays/
 #: (content/relay-operations/community-resources/bad-relays/contents+en.lrpage.body)
@@ -6736,6 +6741,8 @@ msgid ""
 "* Manipulating the DHT that is used for onion services, e.g., by positioning"
 " itself in the DHT."
 msgstr ""
+"* دستکاری DHT که مورد استفاده سرویس های پیازی قرار می گیرد، برای نمونه با "
+"تغییر موقعیت خود در DHT."
 
 #: https//community.torproject.org/relay/community-resources/bad-relays/
 #: (content/relay-operations/community-resources/bad-relays/contents+en.lrpage.body)
@@ -6743,6 +6750,8 @@ msgid ""
 "* Using a DNS provider that censors its results (such as some "
 "[OpenDNS](http://www.opendns.com) or Quad (9 9.9.9.9) configurations)."
 msgstr ""
+"* استفاده از یک ارائه دهنده ساناد که نتایج را سانسور می کند (مانند برخی "
+"پیکربندی های [اوپن‌دی‌ان‌اس](http://www.opendns.com) یا کواد (9 9.9.9.9))."
 
 #: https//community.torproject.org/relay/community-resources/bad-relays/
 #: (content/relay-operations/community-resources/bad-relays/contents+en.lrpage.body)
@@ -6753,6 +6762,11 @@ msgid ""
 "sure to set the [MyFamily parameter](https://www.torproject.org/docs/tor-"
 "manual.html.en#MyFamily)."
 msgstr ""
+"* انجام [حمله سیبیل](https://en.wikipedia.org/wiki/Sybil_attack) که به معنای"
+" غرق کردن شبکه با رله های جدید به منظور از بین بردن ناشناسی کاربران است. اگر"
+" می خواهید چندین رله اجرا کنید خیلی خوب است ولی لطفاً مطمئن شوید که [پارامتر"
+" MyFamily](https://www.torproject.org/docs/tor-manual.html.en#MyFamily) را "
+"تنظیم کرده اید."
 
 #: https//community.torproject.org/relay/community-resources/bad-relays/
 #: (content/relay-operations/community-resources/bad-relays/contents+en.lrpage.body)
@@ -6760,6 +6774,8 @@ msgid ""
 "* Exit relays routing their exit traffic back into the tor network (not "
 "actually exiting any traffic)"
 msgstr ""
+"* رله های خروجی که ترافیک خروجی را به شبکه تور مسیریابی می کنند (هیچ ترافیکی"
+" را خارج نمی کنند)"
 
 #: https//community.torproject.org/relay/community-resources/bad-relays/
 #: (content/relay-operations/community-resources/bad-relays/contents+en.lrpage.body)
@@ -6786,6 +6802,12 @@ msgid ""
 "[context](https://www.google.com/search?site:torproject.org+80+443+6667) and"
 " [spec](https://gitweb.torproject.org/torspec.git/tree/dir-spec.txt#n1969)."
 msgstr ""
+"* فقط ترافیک متن آشکار را مجاز می دانند (برای نمونه، فقط درگاه 80). هیچ دلیل"
+" خوبی برای غیرمجاز کردن همتای رمزگذاری شده آن (مانند درگاه 443) وجود ندارد و"
+" این رله ها برای شنود ترافیک مورد شک قرار می گیرند. "
+"[اینجا](https://www.google.com/search?site:torproject.org+80+443+6667) و "
+"[اینجا](https://gitweb.torproject.org/torspec.git/tree/dir-spec.txt#n1969) "
+"را نگاه کنید."
 
 #: https//community.torproject.org/relay/community-resources/bad-relays/
 #: (content/relay-operations/community-resources/bad-relays/contents+en.lrpage.body)
@@ -6798,6 +6820,8 @@ msgid ""
 "If you encounter a bad relay then please let us know and write to `bad-"
 "relays AT lists DOT torproject DOT org`."
 msgstr ""
+"اگر با یک رله بد مواجه شدید لطفاً به ما از طریق `bad-relays AT lists DOT "
+"torproject DOT org` خبر بدهید."
 
 #: https//community.torproject.org/relay/community-resources/bad-relays/
 #: (content/relay-operations/community-resources/bad-relays/contents+en.lrpage.body)
@@ -6806,6 +6830,9 @@ msgid ""
 "check](https://check.torproject.org/). Please include the following in your "
 "report:"
 msgstr ""
+"با رفتن به [بررسی تور](https://check.torproject.org/) می توانید ببینید از چه"
+" رله خروجی در هر زمان استفاده می کنید. لطفاً موارد زیر را در گزارش خود قرار "
+"بدهید:"
 
 #: https//community.torproject.org/relay/community-resources/bad-relays/
 #: (content/relay-operations/community-resources/bad-relays/contents+en.lrpage.body)
@@ -6813,6 +6840,8 @@ msgid ""
 "1. The relay's IP address or fingerprint. The fingerprint is a forty-"
 "character hex string such as `203933ED4E55EF8A3C3518427D1A1ED6A4CC285E`."
 msgstr ""
+"1. نشانی آی‌پی‌ رله یا اثرانگشت. اثرانگشت یک رشته هگز  با چهل کاراکتر می "
+"باشد مانند `203933ED4E55EF8A3C3518427D1A1ED6A4CC285E`."
 
 #: https//community.torproject.org/relay/community-resources/bad-relays/
 #: (content/relay-operations/community-resources/bad-relays/contents+en.lrpage.body)
@@ -6830,6 +6859,8 @@ msgid ""
 "However, if you need help with anything Tor-related, please contact the "
 "[help desk](https://www.torproject.org/about/contact) instead."
 msgstr ""
+"هرچند، اگر در هر چیز مرتبط با تور نیاز به کمک داشتید، لطفاً با [بخش "
+"راهنما](https://www.torproject.org/about/contact) ارتباط برقرار کنید."
 
 #: https//community.torproject.org/relay/community-resources/bad-relays/
 #: (content/relay-operations/community-resources/bad-relays/contents+en.lrpage.body)
@@ -6844,6 +6875,10 @@ msgid ""
 "relay lacks contact information) we'll flag it to prevent it from continuing"
 " to be used."
 msgstr ""
+"بعد از اینکه یک رله گزارش شد و ما رفتار آن را تایید کردیم سعی خواهیم کرد تا "
+"با گرداننده رله ارتباط برقرار کنیم. غالب اوقات مشکل حل می شود ولی اگر چنین "
+"اتفاقی نیفتاد (یا رله اطلاعات ارتباط نداشت) برای اینکه مورد استفاده قرار "
+"نگیرد آن را علامت خواهیم زد."
 
 #: https//community.torproject.org/relay/community-resources/bad-relays/
 #: (content/relay-operations/community-resources/bad-relays/contents+en.lrpage.body)
@@ -6865,11 +6900,13 @@ msgid ""
 "* Invalid - Never used unless AllowInvalidNodes is set (by default this only"
 " allows for middle and rendezvous usage)"
 msgstr ""
+"* نامعتبر - هیچوقت استفاده نمی شود مگر اینکه AllowInvalidNodes تنظیم شده "
+"باشد (به صورت پیشفرض فقط استفاده میانی و دیدار را اجازه می دهد)"
 
 #: https//community.torproject.org/relay/community-resources/bad-relays/
 #: (content/relay-operations/community-resources/bad-relays/contents+en.lrpage.body)
 msgid "* Reject - Dropped from the consensus entirely"
-msgstr ""
+msgstr "* رد - از اجماع به کلی حذف می شود"
 
 #: https//community.torproject.org/relay/community-resources/bad-relays/
 #: (content/relay-operations/community-resources/bad-relays/contents+en.lrpage.body)
@@ -6877,6 +6914,8 @@ msgid ""
 "Which we use depends on the severity of the issue, and if it can still be "
 "safely used in certain situations."
 msgstr ""
+"که از بسته به شدت مسئله استفاده می کنیم و همچنان به شیوه ای امن در برخی "
+"شرایط خاص می تواند استفاده شود."
 
 #: https//community.torproject.org/relay/community-resources/bad-relays/
 #: (content/relay-operations/community-resources/bad-relays/contents+en.lrpage.body)
@@ -6903,6 +6942,10 @@ msgid ""
 "[exitmap](http://www.cs.kau.se/philwint/spoiled_onions/) and "
 "[sybilhunter](https://gitweb.torproject.org/user/phw/sybilhunter.git/)."
 msgstr ""
+"بله. برای شناسایی مشکل به صورت خودکار "
+"[exitmap](http://www.cs.kau.se/philwint/spoiled_onions/) و "
+"[sybilhunter](https://gitweb.torproject.org/user/phw/sybilhunter.git/)  را "
+"ببینید."
 
 #: https//community.torproject.org/relay/community-resources/bad-relays/
 #: (content/relay-operations/community-resources/bad-relays/contents+en.lrpage.body)
@@ -6913,6 +6956,11 @@ msgid ""
 " [torscanner](https://code.google.com/p/torscanner/), and "
 "[DetecTor](http://detector.io/DetecTor.html)."
 msgstr ""
+"دیگر برنامه های نظارتی شامل "
+"[tortunnel](http://www.thoughtcrime.org/software/tortunnel/)، "
+"[SoaT](https://gitweb.torproject.org/torflow.git/blob/HEAD:/NetworkScanners/ExitAuthority/README.ExitScanning),"
+" [torscanner](https://code.google.com/p/torscanner/), و "
+"[DetecTor](http://detector.io/DetecTor.html) می شود."
 
 #: https//community.torproject.org/relay/community-resources/tor-exit-guidelines/
 #: (content/relay-operations/community-resources/tor-exit-guidelines/contents+en.lrpage.title)
@@ -6952,6 +7000,8 @@ msgid ""
 "Tor exit relaying. Different factual situations and different legal "
 "jurisdictions will result in different answers to a number of questions."
 msgstr ""
+"هدف ما این است تا یک توصیح کلی از مسائل حقوقی رله خروجی تور فراهم کنیم. "
+"موسسه و حوزه های حقوقی متفاوت، پاسخ های متفاوتی برای سوالات دارند."
 
 #: https//community.torproject.org/relay/community-resources/tor-exit-guidelines/
 #: (content/relay-operations/community-resources/tor-exit-guidelines/contents+en.lrpage.body)
@@ -6962,6 +7012,8 @@ msgid ""
 "specific legal problems, issues, or questions, seek a complete review of "
 "your situation with a lawyer licensed to practice in your jurisdiction."
 msgstr ""
+"بنابراین، تنها به این اطلاعات اتکا نکنید; اگر مشکلات حقوقی خاصی دارید، از یک"
+" وکیل در حوزه خود مشورت بگیرید."
 
 #: https//community.torproject.org/relay/community-resources/tor-exit-guidelines/
 #: (content/relay-operations/community-resources/tor-exit-guidelines/contents+en.lrpage.body)
@@ -7285,6 +7337,8 @@ msgid ""
 "### If you receive a threatening letter from a lawyer about abusive use or a"
 " DMCA complaint, also don't freak out."
 msgstr ""
+"### اگر یک نامه تهدیدآمیز از یک وکیل درباره استفاده نادرست یا شکایت DMCA "
+"گرفتید، نترسید."
 
 #: https//community.torproject.org/relay/community-resources/tor-exit-guidelines/
 #: (content/relay-operations/community-resources/tor-exit-guidelines/contents+en.lrpage.body)
@@ -7292,6 +7346,8 @@ msgid ""
 "We are not aware of any case that made it near a court, and we will do "
 "everything in our power to support you if it does."
 msgstr ""
+"ما از هیچ موردی که به دادگاه کشیده باشد خبر نداریم و اگر چنین اتفاقی افتاد "
+"از تمام توان خود برای پشتیبانی از شما استفاده خواهیم کرد."
 
 #: https//community.torproject.org/relay/community-resources/tor-exit-guidelines/
 #: (content/relay-operations/community-resources/tor-exit-guidelines/contents+en.lrpage.body)
@@ -7308,6 +7364,9 @@ msgid ""
 " this information: Contact us at tor-assistants@torproject.org if you need "
 "one."
 msgstr ""
+"اگر فکر می کنید به شما کمک می کند، می توانیم یک نامه امضا شده که این اطلاعات"
+" را تایید می کند برای شما ارسال کنیم: اگر نیاز پیدا کردید به tor-"
+"assistants@torproject.org ایمیل بزنید. "
 
 #: https//community.torproject.org/relay/community-resources/tor-exit-guidelines/
 #: (content/relay-operations/community-resources/tor-exit-guidelines/contents+en.lrpage.body)
