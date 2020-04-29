@@ -28,7 +28,7 @@ msgstr ""
 "Project-Id-Version: Tor Project\n"
 "Report-Msgid-Bugs-To: 'https://trac.torproject.org/projects/tor/newticket?component=BridgeDB&keywords=bridgedb-reported,msgid&cc=isis,sysrqb&owner=isis'\n"
 "POT-Creation-Date: 2020-04-09 14:45-0700\n"
-"PO-Revision-Date: 2020-04-29 07:12+0000\n"
+"PO-Revision-Date: 2020-04-29 07:24+0000\n"
 "Last-Translator: Kaya Zeren <kayazeren@gmail.com>\n"
 "Language-Team: Turkish (http://www.transifex.com/otf/torproject/language/tr/)\n"
 "MIME-Version: 1.0\n"
@@ -180,7 +180,7 @@ msgstr "Hayır"
 
 #: bridgedb/distributors/https/templates/options.html:94
 msgid "none"
-msgstr "hiçbiri"
+msgstr "yok"
 
 #. TRANSLATORS: Please make sure the '%s' surrounding single letters at the
 #. beginning of words are present in your final translation. Thanks!
@@ -353,11 +353,11 @@ msgid ""
 "bridges.  Bridges that are distributed over the \"Reserved\" mechanism may not\n"
 "see users for a long time.  Note that the \"Reserved\" distribution mechanism is\n"
 "called \"Unallocated\" in %sbridge pool assignment%s files."
-msgstr "BridgeDB otomatik olarak dağıtılmayan az sayıda bir köprü listesi tutar. \nOtomatik dağıtmak yerine bu köprüleri elle dağıtmak için saklıyoruz ve\nköprü ihtiyacı olan STK ve diğer örgütlere ve bireylere veriyoruz.\n\"Rezerve\" yöntemiyle dağıtılan köprüler uzun bir süre kullanıcıya sahip olmayabilirler. \nLütfen \"Rezerve\" dağıtım yönteminin %sköprü havuz ataması%s dosyalarında \"Ayrılmamış\" olarak adlandırıldığını dikkate alın."
+msgstr "BridgeDB otomatik olarak dağıtılmayan az sayıda köprü için bir liste tutar. \nBu köprüleri otomatik olarak dağıtmak yerine el ile dağıtmak için ayırdık.\nBunları köprü gereksinimi olan STK gibi kuruluşlara ve bireylere veriyoruz.\n\"Ayrılmış\" yöntem ile dağıtılan köprülerde uzun süre hehrnagi bir kullanıcı bulunmayabilir. \nLütfen \"Ayrılmış\" dağıtım yönteminin %sköprü havuz ataması%s dosyalarında \"Atanmamış (Unallocated)\" olarak görüleceğini unutmayın."
 
 #: bridgedb/strings.py:137
 msgid "None"
-msgstr "Hiçbirini"
+msgstr "Yok"
 
 #: bridgedb/strings.py:138
 msgid ""
@@ -366,7 +366,7 @@ msgid ""
 "users.  Note that on Relay Search, a freshly set up bridge's distribution\n"
 "mechanism says \"None\" for up to approximately one day.  Be a bit patient, and\n"
 "it will then change to the bridge's actual distribution mechanism.\n"
-msgstr "Dağıtım yöntemi \"Hiçbiri\" olan köprüler BridgeDB tarafından dağıtılmıyorlar.\nBu köprülerin kullanıcılara dağıtılması, o köprünün işleticisinin sorumluluğundadır.\nAktarıcı Arama'da, yeni kurulan bir köprünün dağıtım yöntemi yaklaşık bir günlüğüne \"Hiçbiri\" olarak gözüktüğünü unutmayın.\nBiraz bekleyin, çünkü köprünün asıl dağıtım yöntemi daha sonra görülecektir.\n"
+msgstr "Dağıtım yöntemi \"Yok\" olan köprüler BridgeDB tarafından dağıtılmaz.\nBu köprülerin kullanıcılara dağıtılması, köprü işleticisinin sorumluluğundadır.\nAktarıcı Arama içinde, yeni kurulmuş bir köprünün dağıtım yönteminin bir gün kadar \"Yok\" olarak görüntüleneceğini unutmayın.\nSabırla bekleyin. Bir süre sonra köprünün gerçek dağıtım yöntemi görüntülenir.\n"
 
 #: bridgedb/strings.py:148
 msgid "Please select options for bridge type:"
@@ -401,23 +401,23 @@ msgid ""
 " Manual explains how you can add your bridges to Tor Browser. If you are\n"
 " using Windows, Linux, or OS X, %sclick here%s to learn more. If you\n"
 " are using Android, %sclick here%s."
-msgstr "İlk önce %sTor Tarayıcı indirmeniz%s gerekiyor. Tor Tarayıcı kullanıcı\nkılavuzumuz Tor Tarayıcıya köprüleri nasıl ekleyeceğinizi açıklıyor. Eğer \nWindow, Linux veya OS X kullanıyorsanız, daha ayrıntılı bilgi için %sburaya tıklayın%s. Eğer\nAndroid kullanıyorsanız, %sburaya tıklayın%s."
+msgstr "Önce %sTor Browser uygulamasını indirmelisiniz%s. Tor Browser üzerine\nköprülerin nasıl ekleneceğini Tor Browser rehberinde bulabilirsiniz.\nWindow, Linux ya da OS X kullanıyorsanız, ayrıntılı bilgi almak için %sburaya tıklayın%s.\nAndroid kullanıyorsanız, %sburaya tıklayın%s."
 
 #: bridgedb/strings.py:166
 msgid ""
 "Add these bridges to your Tor Browser by opening your browser\n"
 "preferences, clicking on \"Tor\", and then adding them to the \"Provide a\n"
 "bridge\" field."
-msgstr "Bu köprüleri Tor Tarayıcınıza tarayıcı seçeneklerini açıp, \n\"Tor\"'a tıklayıp daha sonra \"Köprü Sağla\" sahasına yazarak \nekleyebilirsiniz."
+msgstr "Bu köprüleri Tor Browser üzerine eklemek için ayarlar bölümüne \ngidin. \"Tor\"' üzerine tıklayıp, \"Bir köprü kullanılsın\" seçeneğini işaretleyerek \n\"Bir köprü adresi yazın\" alanına köprü adreslerini yazın ya da yapıştırın."
 
 #: bridgedb/strings.py:173
 msgid "(Request unobfuscated Tor bridges.)"
-msgstr "(gizlenmemiş Tor köprüleri iste)"
+msgstr "(Gizlenmemiş Tor köprüleri iste)."
 
 #: bridgedb/strings.py:174
 msgid "(Request IPv6 bridges.)"
-msgstr "(IPv6 köprüleri iste)"
+msgstr "(IPv6 köprüleri iste)."
 
 #: bridgedb/strings.py:175
 msgid "(Request obfs4 obfuscated bridges.)"
-msgstr "(obfs4 gizlenmiş köprüleri iste)"
+msgstr "(Gizlenmiş obfs4 köprüleri iste)."
