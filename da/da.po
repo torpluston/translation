@@ -15,7 +15,7 @@ msgstr ""
 "Project-Id-Version: Tor Project\n"
 "Report-Msgid-Bugs-To: Tails developers <tails@boum.org>\n"
 "POT-Creation-Date: 2019-10-21 09:06+0200\n"
-"PO-Revision-Date: 2020-05-01 14:17+0000\n"
+"PO-Revision-Date: 2020-05-01 15:50+0000\n"
 "Last-Translator: scootergrisen\n"
 "Language-Team: Danish (http://www.transifex.com/otf/torproject/language/da/)\n"
 "MIME-Version: 1.0\n"
@@ -26,7 +26,7 @@ msgstr ""
 
 #: ../lib/Tails/Persistence/Setup.pm:265
 msgid "Setup Tails persistent volume"
-msgstr "Konfigurer Tails vedvarende volume"
+msgstr "Opsæt Tails vedvarende diskområde"
 
 #: ../lib/Tails/Persistence/Setup.pm:343 ../lib/Tails/Persistence/Setup.pm:481
 msgid "Error"
@@ -35,45 +35,45 @@ msgstr "Fejl"
 #: ../lib/Tails/Persistence/Setup.pm:372
 #, perl-format
 msgid "Device %s already has a persistent volume."
-msgstr "Enheden %s har allerede et vedvarende volume."
+msgstr "Enheden %s har allerede et vedvarende diskområde."
 
 #: ../lib/Tails/Persistence/Setup.pm:380
 #, perl-format
 msgid "Device %s has not enough unallocated space."
-msgstr "Enheden %s kunne ikke finde nok uallokeret plads."
+msgstr "Enheden %s har ikke nok uallokeret plads."
 
 #: ../lib/Tails/Persistence/Setup.pm:387 ../lib/Tails/Persistence/Setup.pm:401
 #, perl-format
 msgid "Device %s has no persistent volume."
-msgstr "Enheden %s har ikke noget vedvarende volume."
+msgstr "Enheden %s har ikke nogen vedvarende diskområde."
 
 #: ../lib/Tails/Persistence/Setup.pm:393
 #, perl-format
 msgid ""
 "Cannot delete the persistent volume on %s while in use. You should restart "
 "Tails without persistence."
-msgstr "Kan ikke slette det vedvarende volume på %s mens det er i brug. Du bør genstarte Tails uden vedholdenhed."
+msgstr "Kan ikke slette den vedvarende diskområde på %s mens den er i brug. Du bør genstarte Tails uden vedvarende."
 
 #: ../lib/Tails/Persistence/Setup.pm:407
 #, perl-format
 msgid "Persistence volume on %s is not unlocked."
-msgstr "Vedholdenhed volume på %s er ikke låst op."
+msgstr "Vedvarende diskområde på %s er ikke låst op."
 
 #: ../lib/Tails/Persistence/Setup.pm:412
 #, perl-format
 msgid "Persistence volume on %s is not mounted."
-msgstr "Vedholdenhed volume på %s er ikke monteret."
+msgstr "Vedvarende diskområde på %s er ikke monteret."
 
 #: ../lib/Tails/Persistence/Setup.pm:417
 #, perl-format
 msgid ""
 "Persistence volume on %s is not readable. Permissions or ownership problems?"
-msgstr "Vedholdenhed volume på %s er ikke læsbart. Rettigheder eller ejerskabs problemer?"
+msgstr "Vedvarende diskområde på %s er ikke læsbart. Rettigheder eller ejerskabs problemer?"
 
 #: ../lib/Tails/Persistence/Setup.pm:422
 #, perl-format
 msgid "Persistence volume on %s is not writable."
-msgstr "Vedholdenhed volume på %s er ikke skrivbar."
+msgstr "Vedvarende diskområde på %s er ikke skrivbar."
 
 #: ../lib/Tails/Persistence/Setup.pm:431
 #, perl-format
@@ -92,7 +92,7 @@ msgstr "Enheden %s blev ikke oprettet med et USB-aftryk eller Tails-installation
 
 #: ../lib/Tails/Persistence/Setup.pm:688
 msgid "Persistence wizard - Finished"
-msgstr "Vedholdenhed guiden - Færdig"
+msgstr "Vedvarende guide - Færdig"
 
 #: ../lib/Tails/Persistence/Setup.pm:691
 msgid ""
@@ -196,11 +196,11 @@ msgstr "Symlink alle filer eller mapper fra \"dotfiles\"-mappen ind i $HOME"
 
 #: ../lib/Tails/Persistence/Step/Bootstrap.pm:96
 msgid "Persistence wizard - Persistent volume creation"
-msgstr "Vedholdenheds guiden - Vedvarende volume oprettelse"
+msgstr "Vedvarende guide - Vedvarende diskområde oprettelse"
 
 #: ../lib/Tails/Persistence/Step/Bootstrap.pm:99
 msgid "Choose a passphrase to protect the persistent volume"
-msgstr "Vælg en adgangskode til at beskytte den vedvarende volume"
+msgstr "Vælg en adgangskode til at beskytte den vedvarende diskområde"
 
 #. TRANSLATORS: size, device vendor, device model
 #: ../lib/Tails/Persistence/Step/Bootstrap.pm:103
@@ -208,7 +208,7 @@ msgstr "Vælg en adgangskode til at beskytte den vedvarende volume"
 msgid ""
 "A %s persistent volume will be created on the <b>%s %s</b> device. Data on "
 "this volume will be stored in an encrypted form protected by a passphrase."
-msgstr "Et %s vedvarende volume vil blive oprettet på <b>%s %s</b> enheden. Data på dette volume vil blive gemt i krypteret form beskyttet af en adgangskode."
+msgstr "Et %s vedvarende diskområde vil blive oprettet på <b>%s %s</b> enheden. Data på diskområdet vil blive gemt i krypteret form beskyttet af en adgangskode."
 
 #: ../lib/Tails/Persistence/Step/Bootstrap.pm:108
 msgid "Create"
@@ -219,7 +219,7 @@ msgid ""
 "<b>Beware!</b> Using persistence has consequences that must be well "
 "understood. Tails can't help you if you use it wrong! See the <i>Encrypted "
 "persistence</i> page of the Tails documentation to learn more."
-msgstr "<b>Vær opmærksom!</b> Brug af vedholdenhed har konsekvenser der er kritiske at forstå for brugeren. Tails kan ikke hjælpe dig, hvis det bruges forkert. Se <i>krypteret vedholdenhed</i>-siden for at lære mere."
+msgstr "<b>Vær opmærksom!</b> Brug af vedvarende har konsekvenser der er kritiske at forstå for brugeren. Tails kan ikke hjælpe dig, hvis det bruges forkert. Se <i>krypteret vedvarende</i>-siden for at lære mere."
 
 #: ../lib/Tails/Persistence/Step/Bootstrap.pm:179
 msgid "Passphrase:"
@@ -250,27 +250,27 @@ msgstr "Mislykkedes"
 
 #: ../lib/Tails/Persistence/Step/Bootstrap.pm:320
 msgid "Mounting Tails persistence partition."
-msgstr "Monterer Tails vedholdenheds partitionen."
+msgstr "Monterer Tails vedvarende partition."
 
 #: ../lib/Tails/Persistence/Step/Bootstrap.pm:323
 msgid "The Tails persistence partition will be mounted."
-msgstr "Tails vedholdenheds partitionen vil blive monteret."
+msgstr "Tails vedvarende partition vil blive monteret."
 
 #: ../lib/Tails/Persistence/Step/Bootstrap.pm:332
 msgid "Correcting permissions of the persistent volume."
-msgstr "Retter tilladelserne på den vedvarende volume."
+msgstr "Retter tilladelserne på den vedvarende diskområde."
 
 #: ../lib/Tails/Persistence/Step/Bootstrap.pm:335
 msgid "The permissions of the persistent volume will be corrected."
-msgstr "Tilladelserne på den permanente volume vil blive rettede."
+msgstr "Tilladelserne på den permanente diskområde vil blive rettede."
 
 #: ../lib/Tails/Persistence/Step/Bootstrap.pm:343
 msgid "Creating default persistence configuration."
-msgstr "Opretter standardvedholdenhedskonfiguration."
+msgstr "Opretter standardvedvarendekonfiguration."
 
 #: ../lib/Tails/Persistence/Step/Bootstrap.pm:346
 msgid "The default persistence configuration will be created."
-msgstr "Standardvedholdenhedskonfigurationen oprettes."
+msgstr "StandardVedvarendekonfiguration oprettes."
 
 #: ../lib/Tails/Persistence/Step/Bootstrap.pm:361
 msgid "Creating..."
@@ -278,11 +278,11 @@ msgstr "Opretter..."
 
 #: ../lib/Tails/Persistence/Step/Bootstrap.pm:364
 msgid "Creating the persistent volume..."
-msgstr "Opretter det vedvarende volume..."
+msgstr "Opretter det vedvarende diskområde..."
 
 #: ../lib/Tails/Persistence/Step/Delete.pm:53
 msgid "Persistence wizard - Persistent volume deletion"
-msgstr "Vedholdenheds guide - Sletning af vedvarende volume"
+msgstr "Vedvarende guide - Sletning af vedvarende diskområde"
 
 #: ../lib/Tails/Persistence/Step/Delete.pm:56
 msgid "Your persistent data will be deleted."
@@ -292,7 +292,7 @@ msgstr "Dit vedvarende data vil blive slettet."
 #, perl-format
 msgid ""
 "The persistent volume %s (%s), on the <b>%s %s</b> device, will be deleted."
-msgstr "Det vedvarende volume %s (%s), på <b>%s %s</b> enheden vil blive slettet."
+msgstr "Det vedvarende diskområde %s (%s), på <b>%s %s</b> enheden vil blive slettet."
 
 #: ../lib/Tails/Persistence/Step/Delete.pm:66
 msgid "Delete"
@@ -304,15 +304,15 @@ msgstr "Sletter..."
 
 #: ../lib/Tails/Persistence/Step/Delete.pm:120
 msgid "Deleting the persistent volume..."
-msgstr "Sletter det vedvarende volume..."
+msgstr "Sletter det vedvarende diskområde..."
 
 #: ../lib/Tails/Persistence/Step/Configure.pm:88
 msgid "Persistence wizard - Persistent volume configuration"
-msgstr "Vedholdenheds guiden - Konfiguration af vedvarende volume"
+msgstr "Vedvarende guide - Konfiguration af vedvarende diskområde"
 
 #: ../lib/Tails/Persistence/Step/Configure.pm:91
 msgid "Specify the files that will be saved in the persistent volume"
-msgstr "Vælg hvilke filer der skal gemmes i det vedvarende volume"
+msgstr "Vælg hvilke filer der skal gemmes i det vedvarende diskområde"
 
 #. TRANSLATORS: partition, size, device vendor, device model
 #: ../lib/Tails/Persistence/Step/Configure.pm:95
@@ -332,4 +332,4 @@ msgstr "Gemmer..."
 
 #: ../lib/Tails/Persistence/Step/Configure.pm:198
 msgid "Saving persistence configuration..."
-msgstr "Gemmer vedholdenheds konfigurationen..."
+msgstr "Gemmer vedvarende konfiguration..."
