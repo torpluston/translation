@@ -21,7 +21,7 @@ msgstr ""
 "Project-Id-Version: Tor Project\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-03-21 09:59+0100\n"
-"PO-Revision-Date: 2020-05-01 18:43+0000\n"
+"PO-Revision-Date: 2020-05-01 19:09+0000\n"
 "Last-Translator: scootergrisen\n"
 "Language-Team: Danish (http://www.transifex.com/otf/torproject/language/da/)\n"
 "MIME-Version: 1.0\n"
@@ -141,11 +141,11 @@ msgid ""
 "Check your network connection, and restart Tails to try upgrading again.\n"
 "\n"
 "If the problem persists, go to file:///usr/share/doc/tails/website/doc/upgrade/error/check.en.html"
-msgstr "<b>Kunne ikke fastsætte om der findes en opgradering fra vores websted.</b>\n\nTjek din netværksforbindelse og genstart Tails for at prøve at opgradere igen.\n\nHvis problemet ikke forsvinder, gå til file:///usr/share/doc/tails/website/doc/upgrade/error/check.en.html"
+msgstr "<b>Kunne ikke fastslå om der findes en opgradering fra vores websted.</b>\n\nTjek din netværksforbindelse og genstart Tails for at prøve at opgradere igen.\n\nHvis problemet fortsætter, gå til file:///usr/share/doc/tails/website/doc/upgrade/error/check.en.html"
 
 #: config/chroot_local-includes/usr/src/iuk/lib/Tails/IUK/Frontend.pm:297
 msgid "no automatic upgrade is available from our website for this version"
-msgstr "ingen automatisk opgradering er tilgængelig fra vores websted for denne version"
+msgstr "der findes ingen automatisk opgradering fra vores websted til denne version"
 
 #: config/chroot_local-includes/usr/src/iuk/lib/Tails/IUK/Frontend.pm:303
 msgid "your device was not created using a USB image or Tails Installer"
@@ -213,7 +213,7 @@ msgid ""
 "Download size: %{size}s\n"
 "\n"
 "Do you want to upgrade now?"
-msgstr "<b>Du bør opgradere til %{name}s %{version}s.</b>\n\nFor mere information om den nye version, se %{details_url}s\n\nVi anbefaler at du lukker alle andre programmer under opgraderingen.\nAt downloade opgraderingen kan tage fra nogle minutter til få timer.\n\nDownloadstørrelse: %{size}s\n\nVil du at opgradere nu?"
+msgstr "<b>Du bør opgradere til %{name}s %{version}s.</b>\n\nFor mere information om den nye version, gå til %{details_url}s\n\nVi anbefaler at du lukker alle de andre programmer under opgraderingen.\nDet kan tage lang tid at downloade opgraderingen, fra nogle minutter til få timer.\n\nDownloadstørrelse: %{size}s\n\nVil du at opgradere nu?"
 
 #: config/chroot_local-includes/usr/src/iuk/lib/Tails/IUK/Frontend.pm:449
 msgid "Upgrade available"
@@ -355,7 +355,7 @@ msgid ""
 "<b>Your Tails device is being upgraded...</b>\n"
 "\n"
 "For security reasons, the networking is now disabled."
-msgstr "<b>Din Tails-enhed er ved at blive opgraderet...</b>\n\nAf sikkerhedsgrunde er al brug af netværk nu deaktiveret."
+msgstr "<b>Din Tails-enhed er ved at blive opgraderet...</b>\n\nAf sikkerhedsårsager er netværk nu deaktiveret."
 
 #: config/chroot_local-includes/usr/src/iuk/lib/Tails/IUK/Frontend.pm:789
 msgid ""
@@ -410,7 +410,7 @@ msgstr "Bro og proxy"
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tailsgreeter/ui/additional_settings.py:219
 msgid "Offline"
-msgstr "Frakoblet"
+msgstr "Offline"
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tailsgreeter/ui/additional_settings.py:270
 msgid "On (default)"
@@ -441,7 +441,7 @@ msgstr "_Start Tails"
 msgid ""
 "live-persist failed with return code {returncode}:\n"
 "{stderr}"
-msgstr "live-persist fejlede med returkode {returncode}:\n{stderr}"
+msgstr "live-persist mislykkedes med returkoden {returncode}:\n{stderr}"
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tailsgreeter/settings/persistence.py:125
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tailsgreeter/settings/persistence.py:142
@@ -450,7 +450,7 @@ msgid ""
 "cryptsetup failed with return code {returncode}:\n"
 "{stdout}\n"
 "{stderr}"
-msgstr "cryptsetup fejlede med returkode {returncode}:\n{stdout}\n{stderr}"
+msgstr "cryptsetup mislykkedes med returkoden {returncode}:\n{stdout}\n{stderr}"
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tailsgreeter/settings/persistence.py:160
 #, python-brace-format
@@ -458,7 +458,7 @@ msgid ""
 "live-persist failed with return code {returncode}:\n"
 "{stdout}\n"
 "{stderr}"
-msgstr "live-persist fejlede med returkode {returncode}:\n{stdout}\n{stderr}"
+msgstr "live-persist mislykkedes med returkoden {returncode}:\n{stdout}\n{stderr}"
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tailsgreeter/settings/persistence.py:174
 #, python-brace-format
@@ -466,7 +466,7 @@ msgid ""
 "umount failed with return code {returncode}:\n"
 "{stdout}\n"
 "{stderr}"
-msgstr "umount fejlede med returkode {returncode}:\n{stdout}\n{stderr}"
+msgstr "umount mislykkedes med returkoden {returncode}:\n{stdout}\n{stderr}"
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tailsgreeter/ui/persistent_storage.py:63
 msgid "Unlocking…"
@@ -1134,7 +1134,7 @@ msgstr "Netværkskort ${nic} deaktiveret"
 msgid ""
 "MAC spoofing failed for network card ${nic_name} (${nic}) so it is temporarily disabled.\n"
 "You might prefer to restart Tails and disable MAC spoofing."
-msgstr "MAC spoofing fejlede for netværkskortet ${nic_name} (${nic}), så det er midlertidigt slået fra.\nDu vil måske foretrække at genstarte Tails og slå MAC spoofing fra."
+msgstr "MAC-spoofing mislykkedes for netværkskortet ${nic_name} (${nic}), så det er midlertidigt slået fra.\nDu vil måske foretrække at genstarte Tails og slå MAC spoofing fra."
 
 #: config/chroot_local-includes/usr/local/lib/tails-spoof-mac:62
 msgid "All networking disabled"
@@ -1145,7 +1145,7 @@ msgstr "Al brug af netværk er deaktiveret"
 msgid ""
 "MAC spoofing failed for network card ${nic_name} (${nic}). The error recovery also failed so all networking is disabled.\n"
 "You might prefer to restart Tails and disable MAC spoofing."
-msgstr "MAC spoofing fejlede for netværkskortet ${nic_name} (${nic}). Fejlretning fejlede også, så al brug af netværk er deaktiveret. \nDu vil måske foretrække at genstarte Tails og slå MAC spoofing fra."
+msgstr "MAC-spoofing mislykkedes for netværkskortet ${nic_name} (${nic}). Fejlretning mislykkedes også, så al brug af netværk er deaktiveret. \nDu vil måske foretrække at genstarte Tails og slå MAC spoofing fra."
 
 #: config/chroot_local-includes/usr/local/bin/tails-upgrade-frontend-wrapper:38
 msgid ""
@@ -1412,7 +1412,7 @@ msgstr "Kunne ikke indstille chroot."
 
 #: config/chroot_local-includes/usr/local/sbin/unsafe-browser:103
 msgid "Failed to configure browser."
-msgstr "Fejlede i konfigurationen af browseren."
+msgstr "Kunne ikke konfigurere browseren."
 
 #: config/chroot_local-includes/usr/local/sbin/unsafe-browser:109
 msgid ""
@@ -1422,7 +1422,7 @@ msgstr "Ingen DNS-server blev fundet gennem DHCP eller den manuelle konfiguratio
 
 #: config/chroot_local-includes/usr/local/sbin/unsafe-browser:120
 msgid "Failed to run browser."
-msgstr "Kørslen af browseren fejlede."
+msgstr "Kunne ikke køre browser."
 
 #: ../config/chroot_local-includes/etc/skel/Desktop/Report_an_error.desktop.in.h:1
 msgid "Report an error"
