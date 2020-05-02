@@ -1,4 +1,4 @@
-# Tor Outreach Material 2019-2020
+# Tor Oppsøkende Materiale 2019-2020
 
 # 1. TOR FOR PRIVATLIV
 
@@ -18,9 +18,9 @@ Hun går på en privatlivstrening på et lokalt hackerspace og lærer om ** Tor 
 
 # 2.TOR FOR FEMINISTER
 
-### The future is cyberfeminist
+### Fremtiden er cyberfeminist
 
-Fernanda runs a women's collective focused on reproductive rights in Brazil, where abortion is illegal.
+Fernanda driver et kvinnekollektiv som fokuserer på forplantningsrettigheter i Brasil, der abort er ulovlig.
 
 Fernanda and her colleagues built a website with information about abortion access, birth control, and other resources for people seeking reproductive information.
 
@@ -36,7 +36,7 @@ She also uses a Tor-powered app called **OnionShare** to send files to other act
 
 ---
 
-# 3. TOR FOR HUMAN RIGHTS
+# 3. TOR FOR MENNESKERETTIGHETER
 
 ### Vann er livet
 
