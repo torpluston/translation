@@ -24,7 +24,7 @@ Fernanda driver et kvinnekollektiv som fokuserer på forplantningsrettigheter i 
 
 Fernanda and her colleagues built a website with information about abortion access, birth control, and other resources for people seeking reproductive information.
 
-If this website was linked back to them, they could be arrested--or worse. 
+Hvis dette nettstedet ble koblet tilbake til dem, kan de bli arrestert-- eller verre.
 
 To protect themselves, Fernanda and her colleagues created the website using Tor **onion services**. Onion services not only protect them from being discovered as the operators of the server but also help protect visitors to their website by requiring they use Tor Browser. 
 
@@ -40,7 +40,7 @@ She also uses a Tor-powered app called **OnionShare** to send files to other act
 
 ### Vann er livet
 
-Jelani lives in a small village  which a wide river runs through.
+Jelani bor i en liten landsby som en bred elv renner gjennom.
 
 This river has provided water to his community since the days of his ancestors. 
 
@@ -58,9 +58,9 @@ All of this software uses Tor to help protect Jelani’s privacy.
 
 ---
 
-# 4. TOR FOR ANTI-CENSORSHIP
+# 4. TOR FOR ANTI-SENSUR
 
-### Build bridges not walls
+### Bygg broer, ikke murer
 
 Jean was traveling for the first time to a country far from his family.
 
@@ -84,13 +84,13 @@ He found an official website mirror to download the program.
 
 When he opened **Tor Browser**, he followed the prompts for censored users and connected to a bridge which allowed him to access the internet again.
 
-With Tor Browser, Jean can browse freely and privately and contact his family. 
+Med Tor-nettleseren, så kan Jean surfe fritt og privat og han kan kontakte familien.
 
-### Censored users all over the world rely on Tor Browser for a free, stable, and uncensored way to access the internet.
+### Sensurerte brukere fra hele verden er avhengig av Tor-nettleseren for en gratis, stabil og usensurert måte å koble seg til Internett.
 
 ---
 
-# 5. Shared Sections
+# 5. Delte seksjoner
 
 ## Hva er Tor?
 
@@ -103,7 +103,7 @@ When you use Tor Browser, no one can see what websites you visit or where in the
 Other applications, like SecureDrop and OnionShare, use Tor to protect their users against surveillance and censorship.
 
 
-## 6. How does Tor work?
+## 6. Hvordan virker Tor?
 
 Amal wants to visit Bekele’s website privately, so she opens Tor Browser.
 
@@ -121,13 +121,13 @@ The third relay removes the last encryption layer and forwards the web page requ
 
 Bekele doesn't know that the website request came from Amal unless she tells him so.
 
-## 7. Who uses Tor? 
+## 7. Hvem bruker Tor?
 
-People all over the world use Tor to protect their privacy and access the web freely.
+Mennesker fra hele verden bruker Tor for å beskytte deres privatliv og få tilgang til nettet fritt.
 
 Tor helps protect journalists, human rights defenders, domestic violence victims, academic researchers, and anyone experiencing tracking, censorship, or surveillance. 
 
-## 6. Why trust Tor?
+## 6. Hvorfor stole på Tor?
 
 Tor is designed for privacy. We don’t know who our users are, and we don't keep logs of user activity.
 
@@ -135,7 +135,7 @@ Tor relay operators cannot reveal the true identity of Tor users.
 
 Continual peer review of Tor's source code by academic and open source communities ensures that there are no backdoors in Tor, and our social contract promises that we will never backdoor Tor. 
 
-## 7. Join the Tor community
+## 7. Bli en del av Tor-samfunnet
 
 Tor is made possible by a diverse set of users, developers, relay operators, and advocates from around the world.
 
@@ -148,15 +148,15 @@ The Tor community is governed by a code of conduct, and we outline our set of pr
 Learn more about Tor by visiting our website, our wiki, finding us on IRC, joining one of our mailing lists, or signing up for Tor News at newsletter.torproject.org.
 
 
-## 8. Download Tor
+## 8. Last ned Tor
 
-Tor for Desktop
+Tor for skrivebord
 torproject.org/download
 
-TOR ON MOBILE
+TOR PÅ MOBILEN
 ### Android 
-Tor Browser for Android is available from GooglePlay.
+Tor-nettleseren for Android er tilgjengelig fra Google Play.
 
 ### iOS
-Onion Browser, developed by M. Tigas, is the only browser we recommend for iOS.
+Onion-nettlesern, utviklet av M. Tigas, er den eneste nettleseren vi anbefaler for iOS.
 
