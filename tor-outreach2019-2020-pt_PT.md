@@ -133,7 +133,7 @@ O Tor foi desenvolvido para a privacidade. Nós não sabemos quem são os nossos
 
 Os operadores de retransmissores Tor não conseguem revelar a verdadeira identidade dos utilizadores do Tor.
 
-A contínua "revisão pelos pares" do código-fonte do Tor por comunidades académicas e de código aberto, assegura que não existem "portas dos fundos" no Tor, e nosso contrato social promete que jamais criaremos esse tipo de coisa.
+A contínua "revisão pelos pares" do código fonte do Tor pelas comunidades académicas e de código aberto, assegura que não existem "portas dos fundos" no Tor, e o nosso contrato social promete que nós nunca iremos criar esse tipo de coisa.
 
 ## 7. Junte-se à comunidade Tor
 
