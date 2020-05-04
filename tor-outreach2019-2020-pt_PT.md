@@ -133,7 +133,7 @@ Tor is designed for privacy. We don’t know who our users are, and we don't kee
 
 Tor relay operators cannot reveal the true identity of Tor users.
 
-Continual peer review of Tor's source code by academic and open source communities ensures that there are no backdoors in Tor, and our social contract promises that we will never backdoor Tor. 
+A contínua "revisão pelos pares" do código fonte do Tor pelas comunidades académicas e de código aberto, assegura que não existem "portas dos fundos" no Tor, e o nosso contrato social promete que nós nunca iremos criar esse tipo de coisa.
 
 ## 7. Join the Tor community
 
