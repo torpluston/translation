@@ -1,162 +1,161 @@
-# Tor Outreach Material 2019-2020
+# Tor 推廣活動資訊 2019-2020
 
-# 1. TOR FOR PRIVACY 
+# 1.保護隱私權的 TOR 
 
-### Privacy is a human right
+### 隱私即人權
 
-Like many of us, Aleisha spends most of her time online--connecting with friends, posting on social media, and browsing the web.
+Aleisha 和我們大部分的人一樣，花很多時間在上網 -- 與朋友交流、在社群媒體上發文以及瀏覽網頁。
 
-But lately, she's noticed that advertisements related to her previous searches are following her around online.
+但是最近，她注意到與她過去搜尋紀錄相關的廣告，在她上網時如影隨形的出現。
 
-This feels so invasive that she does some research on online ads and learns that it's not just advertisers tracking her but also her ISP, analytics companies, social media platforms, and more.
+這讓她感到被侵犯，因此開始對網路廣告進行一些研究。她發現追蹤她的不僅僅是廣告商而已，還有網路服務供應商(ISP)、流量分析公司、社群媒體平台...等等。
 
-Aleisha decides she wants to find and use software that doesn't collect her data, doesn't track her, and doesn't tell other services anything private about her.
+Aleisha 決定要找一個不會收集她個人資料，不會追踪她，並且不會洩漏任何私人資訊給其他服務供應商的軟體來使用。
 
-She goes to a privacy training at a local hackerspace and learns about **Tor Browser**, the only web browser that allows her to browse anonymously.
-
----
-
-# 2.TOR FOR FEMINISTS 
-
-### The future is cyberfeminist
-
-Fernanda runs a women's collective focused on reproductive rights in Brazil, where abortion is illegal.
-
-Fernanda and her colleagues built a website with information about abortion access, birth control, and other resources for people seeking reproductive information.
-
-If this website was linked back to them, they could be arrested--or worse. 
-
-To protect themselves, Fernanda and her colleagues created the website using Tor **onion services**. Onion services not only protect them from being discovered as the operators of the server but also help protect visitors to their website by requiring they use Tor Browser. 
-
-In fact, Fernanda uses **Tor Browser** for all of her web browsing just to be on the safe side.
-
-She also uses a Tor-powered app called **OnionShare** to send files to other activists securely and privately. 
-
-### Reproductive rights activists like Fernanda are fighting for fundamental freedoms, and Tor helps power their resistance.
+她前往參加了一個當地駭客空間的個人培訓課程因而認識了 **Tor瀏覽器** ，唯一一個能讓她能匿名瀏覽網路的瀏覽器。
 
 ---
 
-# 3. TOR FOR HUMAN RIGHTS
+# 2.支持女權運動的 TOR
 
-### Water is life 
+### 未來是網路女權運動者的時代
 
-Jelani lives in a small village  which a wide river runs through.
+Fernanda 在墮胎是違法的巴西經營一個提倡生育權的婦女團體。
 
-This river has provided water to his community since the days of his ancestors. 
+Fernanda 和她的同事們架設了一個網站，提供有關墮胎途徑、生育控制和其他相關資源給尋求生育資訊的人們。
 
-But today, Jelani’s river is threatened by powerful multinational companies drilling for oil in the region.
+如果這個網站被關聯到 Fernanda 的團隊，他們可能會被逮捕 -- 甚至發生更糟的事情。
 
-Private security firms, paid for by these companies, use powerful surveillance mechanisms to monitor the online activities of Jelani and his neighbors in the village who are organizing to protect their sacred river. 
+為了保護她們自己，Fernanda 和她的同事利用 Tor **洋蔥服務** 架設網站。洋蔥服務不僅保護他們不被發現是網站的幕後營運者，還可以透過要求使用者使用 Tor 瀏覽器進行瀏覽，來保護瀏覽網站的訪問者們。
 
-Jelani uses **Tor Browser** to prevent these companies from watching as he visits websites for international human rights protection and legal aid and writes blog posts about the resistance movement in his village.
+事實上，Fernanda 瀏覽網路時都使用 **Tor瀏覽器** 來確保自己的安全。
 
-He also uses **OnionShare** and **SecureDrop** to securely send documents to journalists who are helping expose these human rights violations.
+她還使用由 Tor 專案提供的應用程式 **OnionShare** 來將檔案安全且隱密地寄送給其他活動人士。
 
-All of this software uses Tor to help protect Jelani’s privacy. 
-
-### Human rights activists like Jelani are fighting for justice in their communities, and Tor helps power their resistance.
+### 像 Fernanda 這樣的生育權活動家正在為基本的自由權而戰，而 Tor 也助了他們一臂之力。
 
 ---
 
-# 4. TOR FOR ANTI-CENSORSHIP
+# 3.爭取人權的 TOR
 
-### Build bridges not walls
+### 水是生命 
 
-Jean was traveling for the first time to a country far from his family.
+Jelani 住在一個有寬闊河流穿越的小村莊裡。
 
-After arriving at a hotel, he opened his laptop.
+從他祖先時代開始，這條河就一直以來為他居住的社區提供水源。
 
-He was so exhausted that when the message "Connection has timed out" first appeared on his web browser, he thought it was due to his own error.
+但是現在，Jelani 賴以為生的這條河，正受到來自不同國家在當地鑽探石油的有權勢的企業的威脅。
 
-But after trying again and again, he realized that his email provider, a news website, and many apps were unavailable. 
+一些受僱於這些跨國企業的私人保全公司透過強大的網路監控機制，來監視正在組織保護他們的神聖河流的 Jelani 與他的同村鄰居們的活動。
 
-He had heard that this country censors the internet and wondered if that was happening.
-How could he contact his family from behind this impenetrable wall?
-After doing some web searches, he found a forum and read about VPNs, private services that allow you to connect to another uncensored network.
+Jelani 使用 **Tor 瀏覽器** 來避免他在瀏覽國際人權保護和法律援助相關網站和在部落格撰寫有關它們的抗爭行動的文章時，被這些保全公司監控。 
 
-Jean spent half an hour trying to figure out which cheap VPN was best.
+他還使用 **OnionShare** 和 **SecureDrop**將檔案安全地寄送給協助揭露這些侵犯人權行為的記者們。
 
-He chose one and for a moment it seemed to work, but after five minutes the connection went offline and the VPN would no longer connect. 
+上述這些軟體都使用 Tor 來幫助保護 Jelani 的隱私。
 
-Jean kept reading to find other options and learned about Tor Browser and how it can circumvent censorship.
-
-He found an official website mirror to download the program.
-
-When he opened **Tor Browser**, he followed the prompts for censored users and connected to a bridge which allowed him to access the internet again.
-
-With Tor Browser, Jean can browse freely and privately and contact his family. 
-
-### Censored users all over the world rely on Tor Browser for a free, stable, and uncensored way to access the internet.
+### 像 Jelani 這樣的人權活動家，正在為他們自己的社區正義而戰，而 Tor 也助了他們一臂之力。
 
 ---
 
-# 5. Shared Sections
+# 4.對抗網路審查的 TOR
 
-## 什麼是 Tor?
+### 築橋而不是築牆
 
-Tor is free software and an open network that helps protect you from tracking, surveillance, and censorship online.
-Tor is created for free by a 501(c)3 U.S.-based nonprofit called the Tor Project. 
+Jean 第一次離家到遙遠的國家旅行。
 
-The easiest way to use Tor is Tor Browser.
-When you use Tor Browser, no one can see what websites you visit or where in the world you’re coming from. 
+抵達下榻的旅館後，他打開他的筆電。
 
-Other applications, like SecureDrop and OnionShare, use Tor to protect their users against surveillance and censorship.
+由於他非常疲憊，所以當一開始瀏覽器上出現 “連線逾時” 的錯誤訊息時，他以為是自己設定錯誤造成的問題。
 
+但是在反覆嘗試之後，他注意到自己的電子郵件服務供應商、新聞網站以及許多應用程式都無法使用。
 
-## 6. How does Tor work?
+他聽說這個國家會做網路審查而且懷疑這是否就是他所碰到的情況。
+他要怎麼做才能與在這面無法穿透的牆後面的家人聯絡？
 
-Amal wants to visit Bekele’s website privately, so she opens Tor Browser.
+在網路上搜尋一段時間之後，他找到一個論壇並讀到有關VPN的資訊，VPN是一個服務可以讓人們透過它，連上不受審查的網路。
 
-Tor Browser selects a random circuit of three relays, which are computers all over the world configured to route traffic over the Tor network.
+Jean 花了半小時想瞭解哪種便宜的VPN最好。
 
-Tor Browser then encrypts her website request three times and sends it to the first Tor relay in her circuit.
+他選擇了其中一個而且當下看起來有效，但是經過五分鐘後連線就中斷了而且就無法再連上這個VPN。
 
-The first relay removes the first encryption layer but doesn't learn that the destination is Bekele’s website.
+Jean 繼續尋找查閱其他可行選項並得知 Tor 瀏覽器以及它如何規避審查制度。
 
-The first relay learns only the next location in the circuit, which is the second relay.
+他找到了一個官方網站的鏡像網站來下載程式。
 
-The second relay removes another encryption layer and forwards the web page request to the third relay.
+當他打開 **Tor 瀏覽器** 時，他依照瀏覽器提供給網路受到審查的使用者的提示連接上橋接伺服器，這讓他再次連上網路。
 
-The third relay removes the last encryption layer and forwards the web page request to its destination, Bekele’s website, but it doesn't know the request comes from Amal.
+### 透過 Tor 瀏覽器，Jean 能自由且保有隱私地瀏覽網路以及和家人聯絡。
 
-Bekele doesn't know that the website request came from Amal unless she tells him so.
+全世界網路被審查的使用者，都依賴 Tor 瀏覽器來免費、穩定且以不受的審查的方式來訪問網路。
 
-## 7. Who uses Tor? 
+# ---
 
-People all over the world use Tor to protect their privacy and access the web freely.
+## 5. 區域共享
 
-Tor helps protect journalists, human rights defenders, domestic violence victims, academic researchers, and anyone experiencing tracking, censorship, or surveillance. 
+什麼是 Tor？
 
-## 6. Why trust Tor?
+Tor 是免費軟體也是一種開放網路幫助保護你不會在網路上被追踪、監控或審查。
+Tor 是一個美國 501(c)3 的非營利組織，又被稱為 Tor 專案。
 
-Tor is designed for privacy. We don’t know who our users are, and we don't keep logs of user activity.
-
-Tor relay operators cannot reveal the true identity of Tor users.
-
-Continual peer review of Tor's source code by academic and open source communities ensures that there are no backdoors in Tor, and our social contract promises that we will never backdoor Tor. 
-
-## 7. Join the Tor community
-
-Tor is made possible by a diverse set of users, developers, relay operators, and advocates from around the world.
-
-We need your help to make Tor more usable and secure for people everywhere.
-
-You can volunteer with Tor by writing code, running a relay, creating documentation, offering user support, or telling people in your community about Tor.
-
-The Tor community is governed by a code of conduct, and we outline our set of promises to the community in our social contract. 
-
-Learn more about Tor by visiting our website, our wiki, finding us on IRC, joining one of our mailing lists, or signing up for Tor News at newsletter.torproject.org.
+使用 Tor 的最簡單方法是使用 Tor 瀏覽器。
+使用 Tor 瀏覽器時，沒有人能看到您正在瀏覽什麼網站或知道您從世界的哪裡來。
 
 
-## 8. Download Tor
+## 其他應用程式(例如 SecureDrop 和 OnionShare)也透過 Tor 來保護其使用者對抗網路監控和審查。
 
-Tor for Desktop
+6.Tor如何運作？
+
+Amal 希望匿名訪問 Bekele 的網站，因此她開啟了 Tor 瀏覽器。
+
+Tor 瀏覽器會選擇一個由隨機三個中繼站所組成的迴路。這些中繼站是世界各地的被設定用來路由通過 Tor 網路流量的電腦。
+
+Tor 瀏覽器接著會將瀏覽器對網站的請求訊息進行三層加密，然後將其發送到路徑上的第一個 Tor 中繼站。
+
+第一個中繼站會解開第一層加密，但不會知道這個請求訊息要送往的目的地是 Bekele 的網站。
+
+第一個中繼站只會知道迴路上的下一個位置，也就是第二個中繼站。
+
+第二個中繼站會再解開一層加密，並將這個網頁請求訊息轉送到第三個中繼站。
+
+第三個中繼站會解開最後一層加密，並將該網頁請求訊息轉送到它的目的地，也就是 Bekele 的網站，但這個中繼站不會知道該請求訊息是來自 Amal。
+
+## 除非 Amal 告訴 Bekele，否則 Bekele 將不會知道送來的網頁請求訊息來自於 Amal。
+
+7.哪些人在使用 Tor？
+
+全世界的人們都使用 Tor 來保護自己的隱私並自由的瀏覽網路。
+
+## Tor 幫助保護記者，維權運動家，家庭暴力受害者，學術研究人員以及任何遭受追蹤、監控或審查的人。 
+
+6.為什麼 Tor 可以信任？
+
+Tor 是為保護隱私而設計的。我們不知道使用者是誰，也不會保留使用者的活動紀錄。
+
+Tor 中繼站營運商無法洩漏 Tor 使用者的真實身份。
+
+## Tor的原始程式碼受到學術界和開源社群的同儕審查，這確保沒有後門在 Tor 中，同時我們的社會契約也承諾我們絕不會在 Tor 開後門。
+
+7. 加入 Tor 社群
+
+來自世界各地各式各樣的使用者、開發人員、中繼站營運商和推廣者的貢獻讓 Tor 變成可能。
+
+我們需要您的幫助來使 Tor 更安全且便於世界各地的人們使用。
+
+您可以透過撰寫程式、運作中繼站、創建相關文獻、提供使用者支援或向自己的社群推廣 Tor 等方式來貢獻您的力量
+
+Tor 社群受一套行為準則約束，而且在我們的社會契約中列出一系列我們對社群的承諾。
+
+
+## 可以透過瀏覽我們的網站、Wiki、透過 IRC 聯絡我們、加入任一我們的電子郵件群組，或在 newsletter.torproject.org 上訂閱電子報來了解更多有關 Tor 的資訊。
+
+8.下載 Tor
+
+桌面版 Tor
 torproject.org/download
+### 行動版 Tor
+Android 
 
-TOR ON MOBILE
-### Android 
-Tor Browser for Android is available from GooglePlay.
-
-### iOS
-Onion Browser, developed by M. Tigas, is the only browser we recommend for iOS.
+### 從 GooglePlay 下載 Android 版本的 Tor 瀏覽器。
+iOS
 
